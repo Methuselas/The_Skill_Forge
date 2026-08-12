@@ -132,3 +132,19 @@ Before calling a release complete:
 6. confirm deleting the SkillForge workspace would not break the release.
 
 The workspace manufactures skillsets. The release must not need the factory after export.
+
+## Release quality attestations
+
+Publishing is gated, not just copying. The builder validates schema/relationships,
+visual references, grounding attestations, asset paths, and portability before a
+release can pass.
+
+Because third-party books are intentionally not committed to Git, a source's
+`QUALITY_ATTESTATION.json` binds the exact accepted ledger and exact cards to the
+grounding state. New or edited cards invalidate that source attestation until the
+source is reviewed/verified and re-attested. An accepted canonical-archive
+attestation is transparent provenance for previously completed work; it is not a
+claim that the source payload was re-read during every export.
+
+Finished releases preserve the canonical `library/...` layout so authored local
+asset paths stay valid.

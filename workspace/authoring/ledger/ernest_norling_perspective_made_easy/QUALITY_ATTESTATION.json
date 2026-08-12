@@ -1,0 +1,20 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "2ab27f6edc0b351abe04c2e92fa2b94a001b81c315958371ee736af72cc486f4",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "69e27224a5ecfdc89bdf325f4176860b023a5d98b377c47a9ca8a36f15bd2bb3",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/perspective/AP_project_plan_and_elevation_into_perspective.md": "03ab6963ce2243fb5aba535f6467ddb6fd0577f8d9b3e7c430807609f54daeca",
+    "art/drawing/perspective/PAT_recover_view_field_from_existing_image.md": "332f152b2f28f307454fd451ea84d631de7125122de06cd0e98b22349d3c334a"
+  },
+  "schema_version": 1,
+  "source_id": "ernest_norling_perspective_made_easy",
+  "source_payload_sha256": "781c8c782bb3cd6af20648d3357d55465eb04dbe5dd920df0d20c1a724a8f802",
+  "source_record_sha256": "cbe31a436efd4c66d281dbbe4d3cb7772d6bbcdfeac24d122b239ea1b25b8fdb"
+}

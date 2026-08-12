@@ -127,3 +127,13 @@ A healthy SkillForge workspace should make these statements true:
 - Art can preserve formally taught knowledge without being forced into an autonomous-agent workflow.
 - Prerequisite closure survives folder reorganization.
 - The repo is replaceable infrastructure; the skillsets are portable products.
+
+## Repo-local agent discovery
+
+`.agents/skills/` (Codex/ChatGPT tooling) and `.claude/skills/` (Claude Code) are
+allowed repo integration points. They are deliberately thin wrappers around the
+canonical `PASS/` and `library/` content. Do not turn those folders into separate
+sources of truth, and never make a release depend on them.
+
+`AGENTS.md` and `CLAUDE.md` carry repository-wide working agreements. These files
+belong to the factory and are excluded from release products.

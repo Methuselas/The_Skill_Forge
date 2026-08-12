@@ -1,0 +1,19 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "06757858dde463dbf7f9ca5ca4ab664af207a4c8fb9fdb60bd867931f36af0bb",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "e3c2fa4b53b6456aac3ea1049b824b96ad1190c801ec57afca1b99a544ddcdfb",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/subjects/figure/gesture/PAT_build_gesture_into_clear_masses.md": "12bca969275912fbec3cd8ebe7008c2f4b433a68a70f67f2acc586891b54f9db"
+  },
+  "schema_version": 1,
+  "source_id": "gen1_art_fundamentals_4step",
+  "source_payload_sha256": "d53b1c8b031fb478882416be7e1becc1d0888e7376a7006edb7ff3c7365c67eb",
+  "source_record_sha256": "0a39180335efbf5b9e5a3532b5d61933166f19f4caf19d6aa477b3053bcc9c62"
+}

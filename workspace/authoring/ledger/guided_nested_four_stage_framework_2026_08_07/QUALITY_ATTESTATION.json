@@ -1,0 +1,22 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "63a6b81fb0d725a9258b4af2d898faf0a6f00f9764d7835bec8f80de146089e1",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "4fe605166eaf8a927d05416fa85b6327966c2eb6d0030930af2780232b30eee6",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/process/staged-drawing/AP_draw_a_figure_through_onion_skinned_stages.md": "40d5d518da3f18716c747dfb3b18e47a1f237f9437458933d2d607d1583bc85b",
+    "art/drawing/process/staged-drawing/PAT_commit_stage3_form_realization.md": "0a122075f38e42207dd1e9107f6ff61bb355dd00a9fe4c4b212b4c420c6331b8",
+    "art/drawing/process/staged-drawing/PAT_preserve_structure_during_stage4_amplification.md": "3057163574e61a4aa9fd202bbac202e82a1d7d882873b1970b44f6f352234ddd",
+    "metaskills/iterative-construction/AP_plan_and_build_work_from_thumbnail_to_final.md": "3651835484e3a6e30aae4890acbc88cb51fe6be891d0526cb27d4a12996d493d"
+  },
+  "schema_version": 1,
+  "source_id": "guided_nested_four_stage_framework_2026_08_07",
+  "source_payload_sha256": "cb22da9899e7e48d6547794006edeb5d3f5ea0f0fe40e261932804c2103f524c",
+  "source_record_sha256": "639ca51bec3a77f209c2668bd195bd425087c0b1536c245abe674ff2b251e5df"
+}

@@ -13,6 +13,7 @@ import yaml
 from PIL import Image, ImageOps
 
 from validate import discover_objects, parse_object, source_is_first_party, source_is_visual
+from paths import default_library_root, default_ledger_root
 
 
 SIMILARITY_LIMIT = 0.90
@@ -84,7 +85,14 @@ def reference_failures(record: Any, library_root: Path, ledger_root: Path) -> li
         for render_name in renders:
             render = Path(render_name)
             if not render.is_absolute():
-                render = library_root.parent / render
+                # Source-render provenance belongs to the authoring workspace, not
+                # the portable library. In SkillForge the ledger and sources are
+                # siblings under workspace/authoring; portable PASS callers may
+                # still provide any explicit ledger root with the same contract.
+                if render.parts and render.parts[0] == "sources":
+                    render = ledger_root.parent / render
+                else:
+                    render = library_root.parent / render
             if not render.is_file():
                 failures.append(f"{ref['image_path']}: source render missing: {render_name}")
                 continue
@@ -112,8 +120,8 @@ def record_review(card: Path, reference_index: int, reviewer: str, method: str, 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--library", type=Path, default=Path("library"))
-    parser.add_argument("--ledger", type=Path, default=Path("ledger"))
+    parser.add_argument("--library", type=Path, default=default_library_root())
+    parser.add_argument("--ledger", type=Path, default=default_ledger_root())
     parser.add_argument("--record-review", type=Path, help="card to mark passed after a real human or vision review")
     parser.add_argument("--reference-index", type=int, default=0)
     parser.add_argument("--reviewer")

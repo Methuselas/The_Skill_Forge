@@ -1,0 +1,20 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "a2e4bc4bba5416ada4e345d44cc0ea34debfc34a457dab8779232fff417130a8",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "339d98f9d84b4a8b65177765f600549178538fc4a30443e97985d4a4d52b175b",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/subjects/figure/construction/PAT_measure_live_figure_with_center_out_visual_survey.md": "b6702b3ca5ef1c7fe6f3c0c2ff8a727a2ef3bacd9c83649a516c65ea4fb72203",
+    "art/drawing/subjects/figure/heads/PAT_set_figure_proportions_with_adjustable_head_units.md": "17f5e0e37340db1392ddb9d87ccfa7773c0c2094cf19d8e89c9df9d93450356d"
+  },
+  "schema_version": 1,
+  "source_id": "andrew_loomis_figure_drawing_for_all_its_worth",
+  "source_payload_sha256": "30d591db094058a62198043fdc2f9c76e1b11ff7209f99531b99cc31afb1e9f9",
+  "source_record_sha256": "149f25bf40b11c4e6c40335b15af155abe0ced9cc41fb6c41b2cdade08796b13"
+}

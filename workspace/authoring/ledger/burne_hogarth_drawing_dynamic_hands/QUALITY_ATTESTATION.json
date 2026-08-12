@@ -1,0 +1,26 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "5116995d46caa45d9a19be0e282247c6bf0e5ee996baf607222187d074af0efc",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "eafc3c9ba60da3b0a7107dce40691d6079ea6f7109103cab8c97bd3725462a83",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/subjects/figure/hands/DRILL_invent_hand_views_by_projection_and_reversal.md": "f595f064977e7e8d7b77eafdf996e4db77c9f871ac97d51fa3ffde3f6455a586",
+    "art/drawing/subjects/figure/hands/PAT_configure_hand_around_function_contact_and_load.md": "66cfeae937d578237bd64a8521dec7016058a6719a3c84472d7934a32ae028fe",
+    "art/drawing/subjects/figure/hands/PAT_design_hand_age_by_structural_and_surface_cues.md": "c774d38ccd8e1de869571d41be2edb59669ccee872fbef133a1a17b9d6c454fb",
+    "art/drawing/subjects/figure/hands/PAT_design_hand_gesture_through_configuration_and_attitude.md": "aa354bc6016b8bb8db72599735e74df43c1a2096c20e19763191c3ee91d50bf8",
+    "art/drawing/subjects/figure/hands/PAT_orient_thumb_by_opposition_and_rotation.md": "f42e000146d820411532abf55cecbc94add0f7035e94c072d58862a2c49ff802",
+    "art/drawing/subjects/figure/hands/PAT_reveal_hand_structure_through_surface_stress.md": "afbfd6d188b59ceeb9a44129e688793308430406e841f44acd80c0e788094ae8",
+    "art/drawing/subjects/figure/hands/PAT_sequence_finger_flexion_as_a_coupled_spiral.md": "4aa4a5ad1b6e50c131455e486e95af7058a13405914466faaecde3611cb9bcd7",
+    "art/drawing/subjects/figure/hands/PAT_unify_finger_chains_with_knuckle_shank_rhythm.md": "88fb6ff964a6a2641da866414e4c7e58ff8a693f641c8031bf11fb3c75040a23"
+  },
+  "schema_version": 1,
+  "source_id": "burne_hogarth_drawing_dynamic_hands",
+  "source_payload_sha256": "29ed748014e7d3c23d712acf10c04ae5bfc133b309851a0682f312f030fd86ca",
+  "source_record_sha256": "8ad13b0d07c8931935683fb24747ccf586ab3beb1876bff08925c8585d4aabeb"
+}

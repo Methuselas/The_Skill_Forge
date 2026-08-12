@@ -1,0 +1,20 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "10f2e58862b30d16949cae12e9292c05775afcd6fe383ec60014bc6677db6eec",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "912a78588469c9ec8d193ee8e14c040a7fa4bffb278d6c2518322ac871e631d5",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/subjects/figure/anatomy/DRILL_audit_foreshortening_with_nine_depth_checks.md": "2c8e3354d41c3afd6a68d858d1349e15309c9b298915ca1afdbd90e7f7ce117d",
+    "art/drawing/subjects/figure/anatomy/DRILL_compare_figure_styles_by_context_and_form.md": "76dd814ad19c52c92f524f9fe02a31a3dd31329faf86a51c522cafaecd769b65"
+  },
+  "schema_version": 1,
+  "source_id": "burne_hogarth_dynamic_anatomy",
+  "source_payload_sha256": "31e23c6912973da1ada63afc2fa8c391e5055991f2fea1b84015814927e297a4",
+  "source_record_sha256": "47b51b87f1635082cd06f834e1ba0da645338f045b629f81ef774e78eabad9ba"
+}

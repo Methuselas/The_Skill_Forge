@@ -1,3 +1,8 @@
 name: Animal Anatomy
+skill_name: animal-anatomy
+description: >-
+  Use for drawing and constructing animals with grounded comparative anatomy,
+  proportion, locomotion, skeletal landmarks, musculature, and species-specific
+  structural reasoning.
 modules:
   - art/drawing/subjects/animals

@@ -13,6 +13,8 @@ from typing import Any
 
 import yaml
 
+from paths import default_library_root, default_ledger_root
+
 
 STAGE_VALUES = {"0 design", "1 skeleton", "2 block", "3 rough", "4 final"}
 LANE_VALUES = {"teach", "skill", "both", "teaching_foundation"}
@@ -467,8 +469,8 @@ def ledger_issues_for_sources(issues: list[LedgerIssue], source_ids: set[str]) -
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--library", type=Path, default=Path("library"))
-    parser.add_argument("--ledger", type=Path, default=Path("ledger"))
+    parser.add_argument("--library", type=Path, default=default_library_root())
+    parser.add_argument("--ledger", type=Path, default=default_ledger_root())
     parser.add_argument(
         "--package",
         default=None,

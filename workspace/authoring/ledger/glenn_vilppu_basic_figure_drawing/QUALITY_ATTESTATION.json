@@ -1,0 +1,20 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "94177a02b0cbb0d364df352115ff68985289c660eb8ecf3d069b24036bd93dc6",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "837721111d9d83545507c1544a936f936f0ce6115de6049c6ebadbf04d66f320",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/subjects/figure/construction/DRILL_trace_surface_paths_over_wrapped_forms.md": "7f6d7eafd1566109bc663d013ee197ad3439594850d8dcb723127ee1b0655a47",
+    "art/drawing/subjects/figure/gesture/DRILL_capture_gesture_from_short_visual_memory.md": "0562ebb5caca343e0b62c3a8d8f7f5a011a5395469ca8cf575689069f38b5cf1"
+  },
+  "schema_version": 1,
+  "source_id": "glenn_vilppu_basic_figure_drawing",
+  "source_payload_sha256": "4de3a62133c5c4f3fb7f241e5cf642389a56ace3f60b2c4f621a00ee3a615ee3",
+  "source_record_sha256": "5c59154ae82b115d081a4713c82ce2516161fb0fe90ef810b63fd49d65812401"
+}

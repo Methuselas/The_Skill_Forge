@@ -1,0 +1,23 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "8cb205cbcfbdd5020a65b5c12dda823da2ab822bd4cee34487bd06202efbd9bd",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "399acb34f92c2cc47e13eaf0841ef1d6e65734e234fa0a865421713616cee46b",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/subjects/figure/anatomy/PAT_design_drapery_from_tension_points_and_forces.md": "23fdcccd397d2cea37fd3a38ab1ba11f9a8b33990cda1ed063e7be1ed7a6c0e7",
+    "art/drawing/subjects/figure/anatomy/PAT_design_surface_anatomy_as_microgesture_on_parent_forms.md": "fdf12ea62f1a0984199895f5b58409c797eb39ea9d719dee8a217eda76604156",
+    "art/drawing/subjects/figure/construction/DRILL_cycle_hampton_spatial_form_fundamentals.md": "f821d96c489c6243d919f9b207b7698d603f6ded61b62ab054315330c57a5311",
+    "art/drawing/subjects/figure/gesture/DRILL_design_about_to_pose_from_support_shift.md": "b4010993d071601219c70f31dd129d96db35c962dadbe2d882ab759f452fa4f7",
+    "art/drawing/subjects/figure/gesture/PAT_design_pose_against_center_of_gravity.md": "0c5ffa57403fc976fada3c140dc96303cff77c71041618c2e0cd7645514d6ded"
+  },
+  "schema_version": 1,
+  "source_id": "michael_hampton_figure_drawing_design_and_invention",
+  "source_payload_sha256": "59a7bb127ad7f9dab0aa959a805a3d51a7498621bff06ba53c7633aca230020a",
+  "source_record_sha256": "8c25b27d5121ee9887eb950b021db5650a0ce7b5cfaef7752c22b3b41021a2f5"
+}

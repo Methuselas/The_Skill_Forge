@@ -1,0 +1,20 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "97b4c8b58b5bd6dd41b8b41bca65b93c6c6438086d3721a5ecf11a9afbed6e22",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "74340d7a46dd3b116c2ab3b5f3f66d2bc79b13f41decdbfa7ef067f40438b737",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/perspective/PAT_control_perspective_distortion_with_viewpoint_and_projection_choice.md": "fa3cda89b06f2fdb133cad5ef69caea57cd5e6f4c2489c3070a4ae3cbdacaa85",
+    "art/drawing/perspective/PAT_validate_three_point_viewpoint_geometry.md": "dc0ca6ec077ca5850a013219c7bc5184ec4fdb0e4a75958b5f994c8f92d90141"
+  },
+  "schema_version": 1,
+  "source_id": "frantz_crannell_viewpoints_mathematical_perspective",
+  "source_payload_sha256": "e2e33af95f587a29624c111f8839583a2796e458795ecc7197af808860a9ec45",
+  "source_record_sha256": "b4f3c501f202cadb9181bf83171ed1550c8faad078be25062b38b0af35517879"
+}

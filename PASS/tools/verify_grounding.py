@@ -38,6 +38,8 @@ from pathlib import Path
 
 from PIL import Image
 
+from paths import default_ledger_root
+
 MIN_QUOTE_WORDS = 6          # a quote shorter than this is too weak to prove reading
 COVERAGE_STRIDE = 8          # require ~1 verified quote per this many pages of the unit
 MIN_RECEIPT_ROWS = 2         # absolute floor, even for a tiny unit
@@ -260,11 +262,11 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Verify that processed units were actually read (anti-skim gate).")
     ap.add_argument("--source", help="source_id under ledger/ to verify")
     ap.add_argument("--all", action="store_true", help="verify every source in the registry")
-    ap.add_argument("--ledger", default="ledger", help="ledger root (default: ledger)")
+    ap.add_argument("--ledger", type=Path, default=default_ledger_root(), help="ledger root (auto-detected; override explicitly when portable)")
     ap.add_argument("--pdftotext", default=shutil.which("pdftotext") or "pdftotext")
     args = ap.parse_args()
 
-    ledger_root = Path(args.ledger)
+    ledger_root = args.ledger
     if args.source:
         targets = [ledger_root / args.source]
     elif args.all:

@@ -1,0 +1,20 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "c127ec001604dd4a577acc632811ab975fa2de1e3288f091fe17f7e3aa15e871",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "f2c5cd0eba3fbf451ab3dc78ef3444f85b05afe333e1ba33c07791d1e117828f",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/process/staged-drawing/PAT_backcast_stage0a_from_stage4_visual_proposition.md": "5418d580a0d480b6b05c2072e29e46e15256cbfc626a61e56d8ec87de86fc34f",
+    "art/drawing/process/staged-drawing/PAT_explore_stage0_with_thumbnail_set.md": "389811f7522fb65d4ef2f5e0e9fc3956fc2278d52f4a604ea1a5d5235cbf5712"
+  },
+  "schema_version": 1,
+  "source_id": "guided_stage0a_rosetta_2026_08_06",
+  "source_payload_sha256": "136e94ead27f07d458063f95fcdf2e4d90d6578c2d781f6a0979d8b28a21fe65",
+  "source_record_sha256": "b8e8f674e36faffe46133b78f7fdbf5d6f8c87113c6d9d162e1fcaa37e2430f4"
+}

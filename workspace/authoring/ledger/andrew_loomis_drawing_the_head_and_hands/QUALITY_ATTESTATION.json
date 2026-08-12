@@ -1,0 +1,25 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "8a0937353c5de44e07958d10fba48c6b3a5672a23a2e126f2c151f4bc034a8f7",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "44fdb4ac723b380c86b2926648cc8434d5ea8cd498244e018cc335f625249cdb",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/subjects/figure/construction/PAT_elicit_natural_child_expression_through_rapport.md": "f9d91cfbadaea2d8d3840e67ffe1c565d063dbc2b52838b025ce32229ea8563d",
+    "art/drawing/subjects/figure/hands/DRILL_make_many_observational_studies_of_your_own_hand.md": "20bbca20e10ea6d0d91ab1c3f46eb5bb29ee73855900fe7af2d922e7f19103f4",
+    "art/drawing/subjects/figure/heads/DRILL_build_baby_head_age_ladder_from_reference.md": "b3029f58252ac4c84abaad2499c0c6db81c3f033866de790aec2837ca98d7e19",
+    "art/drawing/subjects/figure/heads/DRILL_construct_character_head_from_written_description.md": "a63db68e8e83a89c50acd78bbef7f3a8e87753ba20bc067ee34e15e28c540ea8",
+    "art/drawing/subjects/figure/heads/DRILL_hold_one_head_type_across_expression_set.md": "d29c5c87552ba57b580226cafdd9c4b54f9209f747153cde4a4b7b6a358462ad",
+    "art/drawing/subjects/figure/heads/DRILL_redraw_earlier_head_studies_after_full_pass.md": "cfdc29f6fdbe5587df2fed55d28911269b28b26fc8cd1eb3109b79a4c2229fc3",
+    "art/drawing/subjects/figure/heads/DRILL_reverse_engineer_head_reference_through_structural_stages.md": "52879104bbb1374413cf56170b5345b2ace86f2424b3f8a39d3170ba0333c39e"
+  },
+  "schema_version": 1,
+  "source_id": "andrew_loomis_drawing_the_head_and_hands",
+  "source_payload_sha256": "8572e461e8772f7fe75e0795dbbcef2471e1ed2f21530207fc9b4e6fb95f513c",
+  "source_record_sha256": "b854820759d05af89d28b1f73e8c07f6bba036bd7805753d40c0358f834a4d6d"
+}

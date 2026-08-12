@@ -1,0 +1,22 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "e443b82d33a25ce1419d6c16434c4afd98e4535b72f5ac2bae0158dccf754d6e",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "65e9d15ed431fd45209eea2ce741ec60699c4dcf17034135c17ec433a641b8d5",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/rendering/AP_prepare_construction_for_rendering.md": "e605c1a9d7c103bd6ab8874ce6e6837ecb7797ea9d7e1dba6e239bdc00bf6961",
+    "art/drawing/rendering/DRILL_render_blocks_without_outline.md": "1727a3ab843610e51ef7c6f0db8be0da80cea561e6232d844443eae5cb5535d3",
+    "art/drawing/rendering/PAT_grade_depth_with_atmospheric_effect.md": "b98200f39a2ea23568515467a1b9ace0bba1399433e0eb7e078af9ee1ea95124",
+    "art/drawing/rendering/PAT_render_material_from_optical_response.md": "2ec5eb4743e8f767e6666618b8e9ac0e9fbf734021799d026ec496f903e3de69"
+  },
+  "schema_version": 1,
+  "source_id": "robert_w_gill_basic_rendering",
+  "source_payload_sha256": "ec1c2dd8e9518801101f140caa1970ca50231982dc9d04d39f0969f6b43e4832",
+  "source_record_sha256": "fae429ed0048c8c838ddfb046099c93b18f1c8124325ea428dda13a971a00f73"
+}

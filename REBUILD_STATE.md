@@ -12,3 +12,11 @@
 - Phase 10 Fresh Git baseline: complete
 
 Stages are frozen until explicitly streamlined later.
+
+## Post-baseline acceptance repair
+
+Codex acceptance review identified release/platform and safety gaps. Repaired:
+Agent Skills frontmatter/discovery, canonical `library/` release paths and asset
+validation, publish-time schema/reference/grounding-attestation gates, destructive
+output protection, discoverable `unittest` coverage, PASS dependency manifests and
+auto-detected repo defaults, plus repo-local `.agents/` and `.claude/` skills.

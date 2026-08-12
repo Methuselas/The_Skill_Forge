@@ -1,0 +1,20 @@
+{
+  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
+  "attestation_sha256": "ffde1c021bd8084f00838a2ad6d728607baffe08179308b08a22ca11b87cb467",
+  "canonical_archive": {
+    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
+    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+  },
+  "created": "2026-08-12",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "b5392c0059b6ce1b0a9629cce94142acc744b0fe84a4e6f9652eafce9e7a6ee6",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_sha256": {
+    "art/drawing/perspective/PAT_construct_reflections_across_arbitrary_planes.md": "a9115a8c89b44d2946c343d72af5dd9620b754e7834dca7d9d46361dd6144f71",
+    "art/drawing/perspective/PAT_measure_true_lengths_on_oblique_planes.md": "eb9131477688596007cc6bb65d466db0ce5db21b383b87740b44ee795d13476d"
+  },
+  "schema_version": 1,
+  "source_id": "gwen_white_perspective_guide",
+  "source_payload_sha256": "6220ee96770739517f95dbc5c54e7d578ac84e4a98e17632c4df11e9e6cc0ca4",
+  "source_record_sha256": "c3983729f4de379fd02b131fd7fc4003cd969b425d29f6b8f0aaa5d639c6b4ec"
+}

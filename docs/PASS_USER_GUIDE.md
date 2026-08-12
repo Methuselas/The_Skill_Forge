@@ -70,3 +70,19 @@ A finished release must be self-contained. It must not require SkillForge, a sou
 The ZIP is the product; the workspace is the factory.
 
 Do not create per-unit, per-chapter, per-commit, or per-phase download archives. Build a ZIP only when a downloadable release or explicit workspace snapshot is requested.
+
+## Accelerated-mode dependencies
+
+For a Python-capable host, install PASS's package-local runtime dependencies with:
+
+```bash
+python -m pip install -r PASS/requirements.txt
+```
+
+Poppler (`pdftotext`/`pdftoppm`) is optional but preferred when available;
+`pypdfium2` supplies the local rendering fallback. PASS tools auto-detect the
+SkillForge `library/` and `workspace/authoring/ledger/` layout when run inside this
+repo, while explicit `--library`/`--ledger` flags remain available for portable use.
+
+A normal release build also runs schema, visual-reference, grounding-attestation,
+asset-resolution, and portability gates before it can be called publishable.
