@@ -1,0 +1,108 @@
+{
+  "session_id": "damelio-perspective-handbook-2026-08-08",
+  "baseline_snapshot_hash": "b0c50e82cac4559893d693812854cd4b83a0f64fbf7ee8c48ead8a9b99ad2e06",
+  "sampling_plan": [
+    {
+      "sample_id": "s1",
+      "stratum": "structure",
+      "locator": "contents, physical pp. 5-7 / printed TOC",
+      "purpose": "Confirm source structure and progression from fundamentals through shadow construction."
+    },
+    {
+      "sample_id": "s2",
+      "stratum": "introduction_method",
+      "locator": "printed p. 8",
+      "purpose": "Identify D'Amelio's teaching premise and intended use of principles rather than dogmatic rules."
+    },
+    {
+      "sample_id": "s3",
+      "stratum": "known_overlap",
+      "locator": "printed pp. 9-14",
+      "purpose": "Compare diminution, foreshortening, convergence, and overlap with existing figure-specific canon."
+    },
+    {
+      "sample_id": "s4",
+      "stratum": "unknown_territory",
+      "locator": "printed pp. 23-36",
+      "purpose": "Test vanishing-point and eye-level material against known capability gaps."
+    },
+    {
+      "sample_id": "s5",
+      "stratum": "example_or_visual",
+      "locator": "printed pp. 37-49",
+      "purpose": "Inspect the cube as a practical carrier for convergence and object orientation."
+    },
+    {
+      "sample_id": "s6",
+      "stratum": "late_source",
+      "locator": "printed pp. 87-96",
+      "purpose": "Check whether shade/shadow construction introduces a distinct unrepresented capability."
+    },
+    {
+      "sample_id": "s7",
+      "stratum": "user_targeted",
+      "locator": "project request, 2026-08-08",
+      "purpose": "Evaluate the whole book as the first unit in a multi-book perspective curriculum, using the named repo as golden truth."
+    }
+  ],
+  "observations": [
+    {
+      "sample_id": "s1",
+      "summary": "The book is a cumulative perspective course: basic depth cues lead to view theory, eye level/vanishing points, cube construction, distortion control, measurement, inclined planes, round solids, and cast shadows.",
+      "signals": [
+        "novelty",
+        "theory"
+      ]
+    },
+    {
+      "sample_id": "s2",
+      "summary": "The method explicitly aims to explain why perspective appearances occur and warns against memorized rules without causes.",
+      "signals": [
+        "reframing",
+        "theory"
+      ]
+    },
+    {
+      "sample_id": "s3",
+      "summary": "Overlap and foreshortening substantially reinforce existing figure-specific cards, but D'Amelio generalizes them from body forms to arbitrary objects and scenes.",
+      "signals": [
+        "overlap",
+        "reframing"
+      ]
+    },
+    {
+      "sample_id": "s4",
+      "summary": "Eye level, horizontal vanishing line, direction-specific vanishing points, and their relation to looking up/down are major capabilities absent from the frozen perspective canon.",
+      "signals": [
+        "novelty"
+      ]
+    },
+    {
+      "sample_id": "s5",
+      "summary": "The cube sequence provides a general object-construction and convergence-selection method rather than merely another figure foreshortening example.",
+      "signals": [
+        "novelty",
+        "specialization"
+      ]
+    },
+    {
+      "sample_id": "s6",
+      "summary": "The final chapter adds constructive parallel-sun and local-point-source cast-shadow projection, which the baseline does not cover.",
+      "signals": [
+        "novelty",
+        "specialization"
+      ]
+    },
+    {
+      "sample_id": "s7",
+      "summary": "Whole-book routing is appropriate because the source is compact, internally cumulative, and intended to become the first reconciled layer of a larger perspective study rather than a chapter-by-chapter commit stream.",
+      "signals": [
+        "reframing",
+        "unknown"
+      ]
+    }
+  ],
+  "route": "proceed_gate2",
+  "rationale": "The baseline contains useful figure foreshortening and overlap knowledge but is explicitly silent on the general perspective field D'Amelio teaches. The sampled gaps are foundational enough to justify complete Gate 2 coverage and a deep PASS of the earned deltas.",
+  "override": null
+}

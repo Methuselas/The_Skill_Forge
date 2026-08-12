@@ -1,0 +1,4 @@
+name: art/drawing/subjects/figure/anatomy
+requires:
+- art/drawing/process/staged-drawing
+- art/drawing/subjects/figure/construction

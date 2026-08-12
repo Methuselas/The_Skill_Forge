@@ -1,0 +1,82 @@
+{
+  "validation_id": "val-hogarth-ch05-targeted-1",
+  "candidate_set_id": "cand-hogarth-ch05-targeted-1",
+  "candidate_hash": "dfd966913e5e1c829afe9ce5e0433769beaf8ea785424c22abfa7fa675d9e148",
+  "baseline_snapshot_hash": "4c4cc9eb9a08c8659263c78e86ea2ce0b52e0b2f4a4998374633b67e5a8bfb48",
+  "checks": [
+    {
+      "check_id": "gate1_schema",
+      "result": "pass",
+      "blocking": true,
+      "note": "Schema validation passed."
+    },
+    {
+      "check_id": "delta_map_schema",
+      "result": "pass",
+      "blocking": true,
+      "note": "Schema validation passed."
+    },
+    {
+      "check_id": "gate2_schema",
+      "result": "pass",
+      "blocking": true,
+      "note": "Schema validation passed."
+    },
+    {
+      "check_id": "candidate_set_schema",
+      "result": "pass",
+      "blocking": true,
+      "note": "Schema validation passed."
+    },
+    {
+      "check_id": "card_schema_PAT_validate_foreshortened_limb_reach_from_joint_pivots",
+      "result": "pass",
+      "blocking": true,
+      "note": "Schema validation passed."
+    },
+    {
+      "check_id": "card_schema_DRILL_correct_wonky_foreshortened_limb_with_pivot_arcs",
+      "result": "pass",
+      "blocking": true,
+      "note": "Schema validation passed."
+    },
+    {
+      "check_id": "baseline_target_ids",
+      "result": "pass",
+      "blocking": true,
+      "note": "All referenced baseline targets exist."
+    },
+    {
+      "check_id": "source_text_complete",
+      "result": "pass",
+      "blocking": true,
+      "note": "Printed pp. 135-149 read from supplied OCR payload."
+    },
+    {
+      "check_id": "source_visuals_complete",
+      "result": "pass",
+      "blocking": true,
+      "note": "All Chapter 5 scan images Page_136-Page_150 visually inspected."
+    },
+    {
+      "check_id": "teacher_guidance_separated",
+      "result": "pass",
+      "blocking": true,
+      "note": "Range-of-motion/redundancy interpretation is recorded as human teaching, not attributed to Hogarth."
+    },
+    {
+      "check_id": "no_compulsory_geometry_bloat",
+      "result": "pass",
+      "blocking": false,
+      "note": "Ellipse, arc, triangle, and body-contact checks are consolidated into optional diagnostics rather than separate foundation cards."
+    },
+    {
+      "check_id": "chapter6_reconciliation",
+      "result": "warn",
+      "blocking": false,
+      "note": "Canonical commit intentionally held until Chapter 6 whole-figure projection is PASSed."
+    }
+  ],
+  "blocking_failures": [],
+  "ready_to_commit": false
+}

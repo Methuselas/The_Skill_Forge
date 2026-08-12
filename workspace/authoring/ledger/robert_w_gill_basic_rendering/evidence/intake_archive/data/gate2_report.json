@@ -1,0 +1,102 @@
+{
+  "session_id": "robert-w-gill-basic-rendering-2026-08-08",
+  "baseline_snapshot_hash": "429f89a2bd399dd07f22a2e4113667f98d2b5ad9cc1e67f1797f3e7056d7e8f3",
+  "coverage": "complete",
+  "routes": [
+    {
+      "scope_locator": "Preface through Basic Optical Laws, printed pp. 6-19",
+      "route": "reference",
+      "delta_ids": [
+        "d01"
+      ],
+      "reason": "Gill assumes perspective knowledge and reiterates optical foundations; useful framing but not a new construction capability."
+    },
+    {
+      "scope_locator": "Cone of Vision and One-Look, printed pp. 20-24",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "d02",
+        "d11"
+      ],
+      "reason": "Adds a practical edge-distortion/single-view diagnostic, while the fixed numeric cone remains a theory hold."
+    },
+    {
+      "scope_locator": "Atmospheric Effect, printed pp. 25-51",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d03",
+        "d04"
+      ],
+      "reason": "This is Gill’s largest durable spatial delta: global near-to-far contrast/value/clarity grading tied to the same scene field."
+    },
+    {
+      "scope_locator": "Shade and Shadow through The Drawing, printed pp. 52-81",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d05",
+        "d06",
+        "d12"
+      ],
+      "reason": "The book supplies a coherent construction-to-render preparation workflow and reflected-light caveats; the exact tonal ranking is held rather than promoted."
+    },
+    {
+      "scope_locator": "Contrast, printed pp. 82-90",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "d07"
+      ],
+      "reason": "Contrast hierarchy is useful for focus/depth but is better handled as a patch/context note than a new universal composition card."
+    },
+    {
+      "scope_locator": "Cylinders, Cones and Spheres, printed pp. 91-117",
+      "route": "reference",
+      "delta_ids": [
+        "d08"
+      ],
+      "reason": "Most form modeling generalizes the light/shade preparation and material-response patterns; shape-specific duplicates are unnecessary."
+    },
+    {
+      "scope_locator": "Rendering Glass and Water, printed pp. 118-137",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "d09"
+      ],
+      "reason": "These chapters provide strong variants for a single broader material-response Pattern: transparency/reflection/background/view-angle/surface-state logic."
+    },
+    {
+      "scope_locator": "Rocks through Floor Coverings, printed pp. 139-154",
+      "route": "reference",
+      "delta_ids": [
+        "d10"
+      ],
+      "reason": "Texture examples reinforce informed observation and material cues but do not change the broader material decision."
+    },
+    {
+      "scope_locator": "Skill-Building Exercises, printed pp. 155-169",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "d13"
+      ],
+      "reason": "Simple cube/cut-block repetition is worth a transient drill; the medium-specific dry-transfer material is reference only."
+    },
+    {
+      "scope_locator": "Sciagraphy, Overlapping, Getting It All Together, printed pp. 170-180",
+      "route": "reference",
+      "delta_ids": [
+        "d14",
+        "d15"
+      ],
+      "reason": "Sciagraphy is a niche orthographic specialization and overlap already has a canonical Hogarth foundation; the final exercise mainly validates cue integration."
+    },
+    {
+      "scope_locator": "Examples, Style, Final Statement, Glossary/back matter, printed pp. 181-214",
+      "route": "reference",
+      "delta_ids": [
+        "d16"
+      ],
+      "reason": "Examples validate portability and communication goals but add no independent reusable Perspective/rendering mechanism."
+    }
+  ],
+  "rationale": "Gill earns a Review + selective Deep PASS. Atmospheric effect and the pre-render light/shadow workflow are deep enough to survive as new capabilities; material behavior and the block drill are targeted; perspective basics, shape-specific examples, sciagraphy, overlap, and late style examples remain reference.",
+  "override": null
+}

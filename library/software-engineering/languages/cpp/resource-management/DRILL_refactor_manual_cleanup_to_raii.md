@@ -1,0 +1,64 @@
+---
+object_id: DRILL_refactor_manual_cleanup_to_raii
+object_type: drill
+name: Refactor Manual Resource Cleanup into an RAII Object
+target_skill: Replacing manual delete/release with RAII ownership
+library_path:
+- software-engineering
+- languages
+- cpp
+- resource-management
+stage_binding: 3 rough
+lane_fit: skill
+foundation_role: specialization
+routing_class: specialized
+specialization_axis: language
+foundation_object_id: none
+tags:
+- cpp
+- raii
+- resource_management
+- refactoring
+cross_links:
+- rel: related_to
+  target_object_id: PAT_manage_resources_with_raii_objects
+reference:
+  source_id: effective_cpp_3e
+  source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
+  author: Scott Meyers
+  publish_date: 2005
+  media_type: PDF
+  locator: u03, pp. 61-66
+  evidence_type: text
+confidence: high
+references: []
+variants: []
+---
+
+# Refactor Manual Resource Cleanup into an RAII Object
+
+## Practice Task
+Take a function that calls a factory such as `createInvestment`, uses the returned raw pointer, and deletes it at the end, and make it leak-proof with RAII.
+
+## Target Skill
+Handing an acquired resource to a manager whose destructor releases it, on every exit path.
+
+## Setup
+No special setup required.
+
+## Instructions
+- Mark each path — early return, loop break, thrown exception — where the manual delete would be skipped.
+- Wrap the returned pointer in a smart pointer at the point of acquisition.
+- Delete the manual delete statement and confirm the destructor releases on every path.
+- Note why an array allocation would need a different manager than a single-object smart pointer.
+
+## Success Check
+- No manual delete remains, and the resource is freed on every exit, including when an exception is thrown.
+- The resource is handed to its manager in the same statement that acquires it.
+
+## Common Failures
+- Storing the raw pointer in a variable and forgetting to wrap it before the risky code.
+- Using a single-object smart pointer for an array allocation, so the wrong delete form runs.
+
+## Notes
+This drills Item 13: the leak is not a coding slip but a structural weakness of manual cleanup, which RAII removes by tying release to destruction.

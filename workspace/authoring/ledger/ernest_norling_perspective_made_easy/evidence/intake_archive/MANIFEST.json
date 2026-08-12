@@ -1,0 +1,112 @@
+{
+  "source_id": "ernest_norling_perspective_made_easy",
+  "session_id": "norling-perspective-made-easy-2026-08-08",
+  "status": "candidate_hold",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "51db35a91e7fe03f6a699a6a28750a4a27cee43c00467c5a313f7c8e418c0599",
+      "bytes": 852
+    },
+    {
+      "path": "candidates/AP_project_plan_and_elevation_into_perspective.md",
+      "sha256": "307eabcb3428e092506c64c5b043b6b5ed3ec88c2dd6b50f16988a0d6cf5289b",
+      "bytes": 6907
+    },
+    {
+      "path": "candidates/PAT_construct_reflections_across_level_planes.md",
+      "sha256": "419f9726d948e42ec3300742671cfb0ea3e2bad3d4842bf476522b09a4cc8ac3",
+      "bytes": 3663
+    },
+    {
+      "path": "candidates/PAT_recover_view_field_from_existing_image.md",
+      "sha256": "cbc9c3c9b059a4f0d432db820c6952d8bdd2fbd3ccc51b5dfb5cab10fa2285a6",
+      "bytes": 3775
+    },
+    {
+      "path": "data/candidate_change_set_norling.json",
+      "sha256": "8c4386d72685a91e753fa123843e1a1cd6ca3e1b305d0e3ae1feeb8febc27ff6",
+      "bytes": 8468
+    },
+    {
+      "path": "data/delta_map_norling.json",
+      "sha256": "d8f612c8a112909bd55fc8bef9b6686cebce47251ac7180a4ea9de05e7cdc6fb",
+      "bytes": 12044
+    },
+    {
+      "path": "data/gate1_report.json",
+      "sha256": "34b462bdd90369751679e91a2e2cc5e3e438490a7e9fcdfb90aeea068b50133a",
+      "bytes": 4875
+    },
+    {
+      "path": "data/gate2_report.json",
+      "sha256": "9368b3cb0952ed7c343c88b466d7b127d7936902876929780b737c95ba4ba6a3",
+      "bytes": 3399
+    },
+    {
+      "path": "data/intake_session.json",
+      "sha256": "abb9c01b34ba609d41eda7ba486309b003c09851ce088e1ab5851985759198cb",
+      "bytes": 8192
+    },
+    {
+      "path": "data/validation_report_norling.json",
+      "sha256": "5da49587bdbb1072b2bd4b52fd0c75c6d6d083394b9d2ec1807b0345b585f663",
+      "bytes": 5104
+    },
+    {
+      "path": "memcap/MEMCAP_Norling_Perspective_PASS.md",
+      "sha256": "e3fef0a59d00c28a552907fdbc40b50b5ad0f91bbb87e8e098be3e3fb9e725d4",
+      "bytes": 1401
+    },
+    {
+      "path": "patches/PATCH_cast_shadows_receiver_turns.md",
+      "sha256": "59719a409fa76e95de1d8343edd42ef5fffa51fda32646b90196bc67c44041bc",
+      "bytes": 755
+    },
+    {
+      "path": "patches/PATCH_choose_convergence_coupled_horizontal_vps.md",
+      "sha256": "237b508ef01dd52c1ee91705277c6118ebc37457aece99f9caeb846853f69185",
+      "bytes": 997
+    },
+    {
+      "path": "patches/PATCH_control_distortion_view_reframe.md",
+      "sha256": "38e83fccd717769f9d43e9337699d88b5ea871767d977a5066a72188318de0fa",
+      "bytes": 816
+    },
+    {
+      "path": "patches/PATCH_establish_eye_level_high_water_diagnostic.md",
+      "sha256": "3a451aba0930d7ae64b8acc61aca7274faac39c4be3f1937ca85a9fea1029a6a",
+      "bytes": 763
+    },
+    {
+      "path": "patches/PATCH_inclined_planes_false_eye_level.md",
+      "sha256": "fb2ff06d3920528473fb0da01ab99b176d6bf73bc5f431ddc9959a23ecee3c17",
+      "bytes": 899
+    },
+    {
+      "path": "reports/ELLIPSE_AXIS_VERIFICATION_HOLD.md",
+      "sha256": "bb28fef7e7a74578fac9faf8a3d6c1db18b119dff751a02a3c6e0a65fe0868b6",
+      "bytes": 889
+    },
+    {
+      "path": "reports/NORLING_PASS_REPORT.md",
+      "sha256": "e8083340b8ca6ac9d55dbf0a60361a0b54e2ba9e39db412bb32687a8cd3a2f27",
+      "bytes": 1843
+    },
+    {
+      "path": "reports/NORLING_VALIDATION_REPORT.md",
+      "sha256": "5411a3de4af1e039558b5aa8b8e24ae90f5cc6f9ae2d83f08d5279d73c848133",
+      "bytes": 1371
+    },
+    {
+      "path": "reports/PERSPECTIVE_CUMULATIVE_RECONCILIATION_AFTER_NORLING.md",
+      "sha256": "383b5e82669f585d6e5270a05ebb5309faff6135c1db48526b3f8a89a2dcb371",
+      "bytes": 1305
+    },
+    {
+      "path": "reports/READING_RECEIPT.md",
+      "sha256": "2b82a1a0d70d0c27e281404ac1f15bc3c28cd25aebdc31fac48678ee9a473256",
+      "bytes": 1068
+    }
+  ]
+}

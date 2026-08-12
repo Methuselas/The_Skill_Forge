@@ -1,0 +1,5 @@
+name: art/drawing/subjects/animals
+requires:
+- art/drawing/subjects/animals/gesture-locomotion
+- art/drawing/subjects/figure/gesture
+- art/drawing/subjects/figure/heads

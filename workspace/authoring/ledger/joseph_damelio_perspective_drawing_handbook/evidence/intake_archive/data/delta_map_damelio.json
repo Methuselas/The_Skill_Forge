@@ -1,0 +1,309 @@
+{
+  "session_id": "damelio-perspective-handbook-2026-08-08",
+  "baseline_snapshot_hash": "b0c50e82cac4559893d693812854cd4b83a0f64fbf7ee8c48ead8a9b99ad2e06",
+  "coverage": "complete",
+  "items": [
+    {
+      "delta_id": "d01",
+      "source_locator": "printed pp. 9-14",
+      "summary": "Diminution, foreshortening, convergence, and overlap are presented as general depth cues; overlap/foreshortening reinforce figure-specific canon but broaden its domain.",
+      "relation": "reframes",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.figure_construction.create_depth_sequence_with_overlap",
+        "art.drawing.figure_construction.turn_cylinder_end_curves_with_depth"
+      ],
+      "affected_object_ids": [
+        "PAT_create_depth_sequence_with_overlap",
+        "PAT_turn_cylinder_end_curves_with_depth"
+      ],
+      "evidence_refs": [
+        "ev_p9_14"
+      ],
+      "action_hint": "retain_reference",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d02",
+      "source_locator": "printed pp. 15-22",
+      "summary": "Perspective drawing is framed as representation of appearance from a viewpoint; lines of sight through a picture plane explain why the same object changes shape and size with viewpoint.",
+      "relation": "reframes",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p15_22"
+      ],
+      "action_hint": "retain_reference",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d03",
+      "source_locator": "printed pp. 18-19",
+      "summary": "Cone of vision, central visual ray, and picture plane supply a causal model for the view and a boundary for later distortion discussion.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p18_19"
+      ],
+      "action_hint": "retain_reference",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d04",
+      "source_locator": "printed pp. 23-30",
+      "summary": "Each real parallel direction family not parallel to the picture plane converges toward its own vanishing point, located by a parallel sight direction from the observer.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p23_30"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d05",
+      "source_locator": "printed pp. 26-36",
+      "summary": "All horizontal-world vanishing points lie on the observer's eye-level line; the line shifts within or beyond the frame as the observer looks straight out, down, or up.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p26_36"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d06",
+      "source_locator": "printed pp. 37-57",
+      "summary": "One-, two-, and vertically convergent appearances follow object/view orientation; named perspective systems are consequences of direction families, not arbitrary styles.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p37_57"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d07",
+      "source_locator": "printed pp. 37-49",
+      "summary": "Cubes/boxes are a general construction carrier for solving object orientation before complicated contour and detail.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p37_49"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d08",
+      "source_locator": "printed pp. 58-60",
+      "summary": "Excessive convergence and edge deformation are controlled by a usable cone of vision, greater vanishing-point separation/viewing distance, or cropping; excessive separation can flatten the view.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p58_60"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d09",
+      "source_locator": "printed pp. 61-67",
+      "summary": "Known heights can be carried through depth with vanishing guides; equal-height figures on the same level plane maintain a constant proportion to the observer's eye level.",
+      "relation": "extends",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.perspective.calibrate_scene_from_figure"
+      ],
+      "affected_object_ids": [
+        "PAT_build_shared_scene_perspective_from_figure"
+      ],
+      "evidence_refs": [
+        "ev_p61_67"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d10",
+      "source_locator": "printed pp. 61-67",
+      "summary": "Known widths can be transported through the same field, allowing consistent repeated object scale beyond figure-derived calibration.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p61_67"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d11",
+      "source_locator": "printed pp. 68-72",
+      "summary": "Perspective-rectangle diagonals locate true centers and support equal subdivisions/repeated intervals even when visual midpoints and gaps are unequal on the page.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p68_72"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d12",
+      "source_locator": "printed pp. 73-76",
+      "summary": "Measuring lines and a construction vanishing point can transfer arbitrary equal or unequal intervals into depth; this is a precision specialty rather than a compulsory first-line method.",
+      "relation": "specializes",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p73_76"
+      ],
+      "action_hint": "candidate_specialty",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d13",
+      "source_locator": "printed pp. 74-76",
+      "summary": "A flat design can be transferred to a perspective plane by locating key points in a grid and reconstructing the grid in perspective.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p74_76"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d14",
+      "source_locator": "printed pp. 77-80",
+      "summary": "Inclined plane directions use vanishing points directly above or below the corresponding horizontal-direction vanishing point, and equal slopes share an inclined vanishing line.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p77_80"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d15",
+      "source_locator": "printed pp. 81-83",
+      "summary": "A circle turns into an ellipse in perspective, but the original circle's true projected center is found from the enclosing perspective square and need not match the ellipse's visual center.",
+      "relation": "extends",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.figure_construction.turn_cylinder_end_curves_with_depth"
+      ],
+      "affected_object_ids": [
+        "PAT_turn_cylinder_end_curves_with_depth"
+      ],
+      "evidence_refs": [
+        "ev_p81_83"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d16",
+      "source_locator": "printed pp. 83-86",
+      "summary": "Cylinder and cone axes must pass through the true projected center of their circular cross-sections; side edges meet the projected circle tangentially.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p83_86"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d17",
+      "source_locator": "printed pp. 87-92",
+      "summary": "Shade and cast shadow are distinct; for sunlight, parallel rays and the receiving plane determine cast-shadow direction and intersections.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p87_92"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d18",
+      "source_locator": "printed pp. 93-96",
+      "summary": "A local point source uses rays diverging from the source; the source's projection onto a plane helps determine shadow directions for upright forms.",
+      "relation": "new",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_p93_96"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d19",
+      "source_locator": "printed pp. 23-86 compared with held Hogarth Ch. 6 candidate",
+      "summary": "D'Amelio supplies the independent eye-level, vanishing-direction, measurement, and plane-construction foundation that the held figure-derived shared-scene Pattern explicitly says it does not replace.",
+      "relation": "extends",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.perspective.calibrate_scene_from_figure"
+      ],
+      "affected_object_ids": [
+        "PAT_build_shared_scene_perspective_from_figure"
+      ],
+      "evidence_refs": [
+        "ev_damelio_general",
+        "ctx_hogarth_ch6"
+      ],
+      "action_hint": "retain_reference",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d20",
+      "source_locator": "whole source",
+      "summary": "The book's mathematics can be operationalized as visual construction checks\u2014establish, project, intersect, subdivide\u2014without requiring equations or formal geometry derivations at runtime.",
+      "relation": "reframes",
+      "qualifiers": [],
+      "baseline_capabilities": [],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "ev_whole_source"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    }
+  ],
+  "clarification_queue": []
+}

@@ -1,0 +1,259 @@
+{
+  "session_id": "frantz-crannell-viewpoints-perspective-math-audit-2026-08-08",
+  "contract": "pass-intake-vNext-draft.1",
+  "state": "candidate_ready",
+  "source": {
+    "source_id": "frantz_crannell_viewpoints_mathematical_perspective",
+    "source_type": "book",
+    "title": "Viewpoints: Mathematical Perspective and Fractal Geometry in Art",
+    "version": "Princeton University Press edition",
+    "date": "2011",
+    "author_or_teacher": "Marc Frantz and Annalisa Crannell"
+  },
+  "purpose": {
+    "summary": "Run the mathematical-perspective half of Viewpoints as a surgical Deep audit against the completed five-book Perspective candidate stack, resolving viewpoint/display distortion, exact three-point camera geometry, skyscraper/extreme-field projection choice, COV claims, and the ellipse-axis hold without reopening basic perspective pedagogy.",
+    "target_capabilities": [
+      "art.drawing.perspective.control_distortion_with_viewpoint_and_projection_choice",
+      "art.drawing.perspective.validate_three_point_viewpoint_geometry"
+    ]
+  },
+  "baseline": {
+    "lock": "read_only",
+    "snapshot_id": "PASS_Skills_vNext_DAmelio_Norling_White_Robertson_Gill_PASS_Candidate_2026-08-08-perspective-baseline",
+    "objects": [
+      {
+        "object_id": "AP_build_complex_volumes_with_xyz_sections",
+        "version_or_hash": "c8564c7324a439130173091a0aede12674f4f66648beba88a5c059a6cf52d04c"
+      },
+      {
+        "object_id": "AP_construct_a_shared_scene_perspective_field",
+        "version_or_hash": "adbc4fdd4433dbe88f40c356c788a7f308ec464d47773320546675ee143be415"
+      },
+      {
+        "object_id": "AP_construct_cast_shadows_in_perspective",
+        "version_or_hash": "d44ba0d7d33d0469dcfcc427ac6ed809f92f8a20c5743a37dafd97dd0b975d6c"
+      },
+      {
+        "object_id": "AP_control_foreshortened_form_size_in_stage_two",
+        "version_or_hash": "2d3a5b07f83f9e89870414c2a68bc0fe2e7dd1ebe522bbf097e234448eda6115"
+      },
+      {
+        "object_id": "AP_prepare_construction_for_rendering",
+        "version_or_hash": "24ce9496259c6528cd9fc5fd07789f27dfaaf6bde2fd256a5847fc90857f7904"
+      },
+      {
+        "object_id": "AP_project_plan_and_elevation_into_perspective",
+        "version_or_hash": "307eabcb3428e092506c64c5b043b6b5ed3ec88c2dd6b50f16988a0d6cf5289b"
+      },
+      {
+        "object_id": "DRILL_aim_clean_perspective_construction_lines",
+        "version_or_hash": "7e1dfd3c9611f775ea0c83e811af6adb195793d5b6bb44ff2f2b44cd22343f9e"
+      },
+      {
+        "object_id": "DRILL_diagnose_and_correct_perspective_distortion",
+        "version_or_hash": "fe21bde4fa759a0e297415eed05e87127622aa6e99aaaa91dc053c0aa29e4097"
+      },
+      {
+        "object_id": "DRILL_place_freehand_ellipses_on_minor_axes",
+        "version_or_hash": "3a76a9629ddf9839719516dc6a3904aba938f5fbf9bcd78efa0eba2810dd7985"
+      },
+      {
+        "object_id": "DRILL_project_circles_and_cylinders_on_tilted_planes",
+        "version_or_hash": "3afd072288642f6f1c2f13e8dc9d547cdf9712fff9e1b000e38ceb7e36bdf5c4"
+      },
+      {
+        "object_id": "DRILL_render_blocks_without_outline",
+        "version_or_hash": "bf4d0098d1997ac126b0f7290ea79afa768d624ec96a5cc051377679f30e225c"
+      },
+      {
+        "object_id": "DRILL_rotate_boxes_across_eye_levels",
+        "version_or_hash": "81d61506670dd6f2a12478ef60aeb1bf1f1223161ec6ba26020182df20621dda"
+      },
+      {
+        "object_id": "DRILL_subdivide_a_plane_without_screen_space_guessing",
+        "version_or_hash": "fdd376db189c1e7c2cb638c153f0b0cc5a9f02a9192de5e27713779b6e20a225"
+      },
+      {
+        "object_id": "PAT_align_cylinders_and_cones_to_projected_circle_centers",
+        "version_or_hash": "6f2c6a86b894994ddff55fd1b7cb0c30a23b7570765e5de98e7327410955e31c"
+      },
+      {
+        "object_id": "PAT_block_complex_objects_with_perspective_boxes",
+        "version_or_hash": "562816887f8e56ef229a9d923656dc32e76f6c9db982ea2f9a142887fc522583"
+      },
+      {
+        "object_id": "PAT_build_coherent_grid_when_vanishing_points_are_off_page",
+        "version_or_hash": "b9de5e21c9d70d333e76a17dc7e3a426e609e2a3742950e46f04f9eee8a2abf1"
+      },
+      {
+        "object_id": "PAT_carry_scale_through_depth_with_height_and_width_guides",
+        "version_or_hash": "186b5a18b4b2d64cee8f05b00ff840eafdf728ab5b051378581262b97d95d3c2"
+      },
+      {
+        "object_id": "PAT_choose_convergence_from_view_and_orientation",
+        "version_or_hash": "ddef757346d49d1350adfef10029d9f386e05b5a19d2ff887e8137e5102e9c20"
+      },
+      {
+        "object_id": "PAT_construct_circles_as_ellipses_on_perspective_planes",
+        "version_or_hash": "9c867a9cf3b5a188b6e155dc43aabf1ecfa21a045b927468ea11915be4059ce8"
+      },
+      {
+        "object_id": "PAT_construct_inclined_planes_from_base_vanishing_directions",
+        "version_or_hash": "eac65bf0fd057e8f7dae74e1143dd636cd5fb1117406dbe446e9a9bc70b868da"
+      },
+      {
+        "object_id": "PAT_construct_reflections_across_arbitrary_planes",
+        "version_or_hash": "7e63a238f0d0d4c42213240e0babdb3e7917fb92cabf782e42f9e796a094e00a"
+      },
+      {
+        "object_id": "PAT_construct_reflections_across_level_planes",
+        "version_or_hash": "419f9726d948e42ec3300742671cfb0ea3e2bad3d4842bf476522b09a4cc8ac3"
+      },
+      {
+        "object_id": "PAT_control_perspective_distortion_with_vanishing_spacing",
+        "version_or_hash": "491dba1f1006cc225f724545ea988bbbff1f680a70b534aec07fbd1e9ff0793d"
+      },
+      {
+        "object_id": "PAT_create_depth_sequence_with_overlap",
+        "version_or_hash": "d23eed3c826630d2a5ad5a0b8406497841df7ccb4e3d3fb5e276551d839f38ec"
+      },
+      {
+        "object_id": "PAT_establish_eye_level_and_vanishing_directions",
+        "version_or_hash": "b28e6c6550a7633b9c7b7cf02f4bbdb36d822f09a85e45770b5f65a81a791bd0"
+      },
+      {
+        "object_id": "PAT_grade_depth_with_atmospheric_effect",
+        "version_or_hash": "fce99d4b969003f09d79268df4bcf1ba69204a164bebb2ccf1fd6b2a5d9f3279"
+      },
+      {
+        "object_id": "PAT_hold_member_identity_with_constant_width",
+        "version_or_hash": "cdbd525edb62f5b71855ef23584273f60ffc2e8307c27d2e257606382563f4d4"
+      },
+      {
+        "object_id": "PAT_integrate_shoulder_mass_with_rib_cage",
+        "version_or_hash": "9c4533de471938bcbd42eb4554e4c2eb4a726e453a90fca298fba6ab1d0e1b89"
+      },
+      {
+        "object_id": "PAT_measure_subdivide_and_repeat_on_perspective_planes",
+        "version_or_hash": "1414f35d95b260e49743141e679ad9b6a1582c3d513bfaeaa639cbc7bf9eafd2"
+      },
+      {
+        "object_id": "PAT_measure_true_lengths_on_oblique_planes",
+        "version_or_hash": "781644e2f69fe3b1693faa7c93ffb1c4df8d42759457b1e4b517881925785211"
+      },
+      {
+        "object_id": "PAT_preserve_articulated_limb_chain",
+        "version_or_hash": "12fd24fcd32a7587d5fcdcd98ca859fcceab35f7ed57b14ae4a23c3e080f70a5"
+      },
+      {
+        "object_id": "PAT_project_curves_onto_sectioned_surfaces",
+        "version_or_hash": "b6564d651a566fa435ddc9d191b88374dd66cda97e94bba17326e660a9adf15b"
+      },
+      {
+        "object_id": "PAT_project_form_curves_from_camera_view",
+        "version_or_hash": "27bfbe7f108a59b0124e9a73be1c93c3961f0aeef58bcc10c4436d8d32a1ae82"
+      },
+      {
+        "object_id": "PAT_recover_view_field_from_existing_image",
+        "version_or_hash": "cbc9c3c9b059a4f0d432db820c6952d8bdd2fbd3ccc51b5dfb5cab10fa2285a6"
+      },
+      {
+        "object_id": "PAT_render_material_from_optical_response",
+        "version_or_hash": "b36d615a7462b12392c6029833aa633ebc786c30b2c3528d4ce3bf4caf6a1499"
+      },
+      {
+        "object_id": "PAT_rotate_perspective_grids_without_changing_unit_scale",
+        "version_or_hash": "2ac5ac49c4281112e9f8cd4b653696bab03b0dd3a50b1cd6843dea537c35a599"
+      },
+      {
+        "object_id": "PAT_turn_cylinder_end_curves_with_depth",
+        "version_or_hash": "cffd95ff8228ec123af1a0c971564c8f4ff0378c4737a4f9ef8173ba670659c6"
+      }
+    ],
+    "capabilities": [
+      "activation.art.drawing.perspective.box_rotation_warmup",
+      "activation.art.drawing.perspective.construction_line_aiming_warmup",
+      "activation.art.drawing.perspective.distortion_correction",
+      "activation.art.drawing.perspective.ellipse_axis_warmup",
+      "activation.art.drawing.perspective.plane_metrology_warmup",
+      "activation.art.drawing.perspective.round_form_projection_warmup",
+      "activation.art.drawing.rendering.plane_value_warmup",
+      "art.drawing.figure_construction.create_depth_sequence_with_overlap",
+      "art.drawing.figure_construction.hold_member_identity_with_constant_width",
+      "art.drawing.figure_construction.preserve_articulated_limb_chain",
+      "art.drawing.figure_construction.project_form_curves_from_camera_view",
+      "art.drawing.figure_construction.turn_cylinder_end_curves_with_depth",
+      "art.drawing.perspective.align_cylinders_and_cones",
+      "art.drawing.perspective.block_objects_with_boxes",
+      "art.drawing.perspective.build_complex_volumes_with_xyz_sections",
+      "art.drawing.perspective.carry_scale_through_depth",
+      "art.drawing.perspective.choose_convergence_from_view_and_orientation",
+      "art.drawing.perspective.construct_arbitrary_planar_reflections",
+      "art.drawing.perspective.construct_cast_shadows",
+      "art.drawing.perspective.construct_inclined_planes",
+      "art.drawing.perspective.construct_level_planar_reflections",
+      "art.drawing.perspective.construct_offpage_vp_grid",
+      "art.drawing.perspective.construct_projected_circles",
+      "art.drawing.perspective.construct_shared_scene_field",
+      "art.drawing.perspective.control_distortion_with_vanishing_spacing",
+      "art.drawing.perspective.establish_eye_level_and_vanishing_directions",
+      "art.drawing.perspective.measure_subdivide_and_repeat_on_planes",
+      "art.drawing.perspective.measure_true_lengths_on_oblique_planes",
+      "art.drawing.perspective.project_curves_onto_sectioned_surfaces",
+      "art.drawing.perspective.project_plan_and_elevation",
+      "art.drawing.perspective.recover_view_field_from_existing_image",
+      "art.drawing.perspective.rotate_grids_preserve_unit_scale",
+      "art.drawing.rendering.grade_depth_with_atmospheric_effect",
+      "art.drawing.rendering.prepare_construction_for_rendering",
+      "art.drawing.rendering.render_material_from_optical_response"
+    ],
+    "snapshot_hash": "2fc94d3112bb585c3821619269fe9f1fdd11768072c91aeacc29d18b088b6f5c"
+  },
+  "intake_policy": {
+    "allow_user_override": true,
+    "teacher_primary_allowed": true,
+    "gate_mutation_prohibited": true
+  },
+  "history": [
+    {
+      "from": "created",
+      "to": "context_loaded",
+      "reason": "Loaded the cumulative D’Amelio + Norling + White + Robertson + Gill candidate state and the agreed patch reconciliation read-only, including the four outstanding mathematical audit questions."
+    },
+    {
+      "from": "context_loaded",
+      "to": "gate1_observed",
+      "reason": "Sampled the book structure, foundational projection chapters, exact two-point station geometry, Chapter 6 three-point/skyscraper/spherical material, Chapter 7 special effects, and the plate section."
+    },
+    {
+      "from": "gate1_observed",
+      "to": "gate1_routed",
+      "reason": "Routed Chapters 2, 3, 5, and especially 6 for Deep audit; kept basic rectangle construction and most special-effect examples as reference."
+    },
+    {
+      "from": "gate1_routed",
+      "to": "gate2_reading",
+      "reason": "Read Chapters 1-7 and the movie interlude in full, rendered and visually scanned physical pp. 16-153, then scanned physical pp. 154-165 color plates."
+    },
+    {
+      "from": "gate2_reading",
+      "to": "gate2_complete",
+      "reason": "Stopped before Chapter 8 because the source explicitly changes subject to fractal geometry, outside the requested Perspective audit."
+    },
+    {
+      "from": "gate2_complete",
+      "to": "gate2_routed",
+      "reason": "Identified one foundation replacement, one new three-point validation capability, three exact-geometry patches, and bounded COV/ellipse/reference decisions."
+    },
+    {
+      "from": "gate2_routed",
+      "to": "pass_study",
+      "reason": "Reconciled Viewpoints mathematics against the five-book candidate state and the previously agreed patch dispositions."
+    },
+    {
+      "from": "pass_study",
+      "to": "candidate_ready",
+      "reason": "Authored two candidate Patterns, three patch proposals, mathematical audit/ellipse/reference reports, and an after-Viewpoints reconciliation without modifying prior intake or canon."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "session_id": "hogarth-dfd-ch05-2026-08-07",
+  "baseline_snapshot_hash": "4c4cc9eb9a08c8659263c78e86ea2ce0b52e0b2f4a4998374633b67e5a8bfb48",
+  "coverage": "complete",
+  "items": [
+    {
+      "delta_id": "ch5_d1",
+      "source_locator": "printed p.135",
+      "summary": "Chapter 4 width control preserves member identity but does not by itself select a believable projected length; Chapter 5 explicitly supplies the complementary length problem.",
+      "relation": "extends",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.figure_construction.hold_member_identity_with_constant_width"
+      ],
+      "affected_object_ids": [
+        "PAT_hold_member_identity_with_constant_width"
+      ],
+      "evidence_refs": [
+        "src_p135"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "ch5_d2",
+      "source_locator": "printed pp.136-143",
+      "summary": "Treat a joint as a pivot and the attached member as a fixed-length radius; projected endpoints can be tested along perspective arcs while the physical member length remains constant.",
+      "relation": "new",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.figure_construction.preserve_articulated_limb_chain"
+      ],
+      "affected_object_ids": [
+        "PAT_preserve_articulated_limb_chain"
+      ],
+      "evidence_refs": [
+        "src_p136_143",
+        "vis_p136_143"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "ch5_d3",
+      "source_locator": "printed pp.139-143",
+      "summary": "Ellipse compression is used to represent deeper foreshortening, and shoulder position itself shifts as the arm raises or lowers; the pivot is therefore a structural relationship, not always an immobile screen-space point.",
+      "relation": "reinforces",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.figure_construction.hold_member_identity_with_constant_width"
+      ],
+      "affected_object_ids": [
+        "PAT_hold_member_identity_with_constant_width",
+        "PAT_integrate_shoulder_mass_with_rib_cage"
+      ],
+      "evidence_refs": [
+        "src_p139_143",
+        "vis_p139_143"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "ch5_d4",
+      "source_locator": "printed pp.144-145",
+      "summary": "The isosceles-triangle device simplifies two-segment leg measurement when ellipse construction becomes cumbersome; Hogarth explicitly warns against over-reliance on technical guides.",
+      "relation": "specializes",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.figure_construction.preserve_articulated_limb_chain"
+      ],
+      "affected_object_ids": [
+        "PAT_preserve_articulated_limb_chain"
+      ],
+      "evidence_refs": [
+        "src_p144_145",
+        "vis_p144_145"
+      ],
+      "action_hint": "retain_reference",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "ch5_d5",
+      "source_locator": "printed pp.146-149",
+      "summary": "Compressed and folded poses can be checked by part-to-part functional limits and contacts, such as heel-to-buttock and knee-to-torso relationships, instead of adding more abstract measurement geometry.",
+      "relation": "extends",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.figure_construction.preserve_articulated_limb_chain"
+      ],
+      "affected_object_ids": [
+        "PAT_preserve_articulated_limb_chain"
+      ],
+      "evidence_refs": [
+        "src_p146_149",
+        "vis_p146_149"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "ch5_d6",
+      "source_locator": "human teaching, 2026-08-07",
+      "summary": "The chapter is best retained as range-of-motion and wonky-anatomy correction logic; most of its geometry is redundant with the existing figure foundation and should not become compulsory drawing procedure.",
+      "relation": "reframes",
+      "qualifiers": [
+        "teacher_primary"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.figure_construction.preserve_articulated_limb_chain",
+        "art.drawing.figure_construction.hold_member_identity_with_constant_width"
+      ],
+      "affected_object_ids": [
+        "PAT_preserve_articulated_limb_chain",
+        "PAT_hold_member_identity_with_constant_width"
+      ],
+      "evidence_refs": [
+        "teach_range_motion"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    }
+  ],
+  "clarification_queue": []
+}

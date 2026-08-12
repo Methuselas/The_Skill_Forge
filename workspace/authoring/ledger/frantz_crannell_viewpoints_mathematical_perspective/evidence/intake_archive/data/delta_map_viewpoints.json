@@ -1,0 +1,265 @@
+{
+  "session_id": "frantz-crannell-viewpoints-perspective-math-audit-2026-08-08",
+  "baseline_snapshot_hash": "2fc94d3112bb585c3821619269fe9f1fdd11768072c91aeacc29d18b088b6f5c",
+  "coverage": "complete",
+  "items": [
+    {
+      "delta_id": "d01",
+      "source_locator": "Ch. 1 and Ch. 2, printed pp. 1-15",
+      "summary": "Perspective is formalized as sight-ray projection from a single eye/station point through world points to a Picture Plane; in the aligned coordinate setup image scale is d/(z+d).",
+      "relation": "extends",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.perspective.establish_eye_level_and_vanishing_directions"
+      ],
+      "affected_object_ids": [
+        "PAT_establish_eye_level_and_vanishing_directions"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d02",
+      "source_locator": "Ch. 3, printed pp. 29-31",
+      "summary": "A direction vanishing point is the Picture-Plane intersection of the sight ray from the eye parallel to that world direction; parallel world lines therefore share that VP.",
+      "relation": "extends",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.perspective.choose_convergence_from_view_and_orientation"
+      ],
+      "affected_object_ids": [
+        "PAT_choose_convergence_from_view_and_orientation"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d03",
+      "source_locator": "Ch. 3, printed pp. 32-38",
+      "summary": "Known square/cube/proportion geometry can recover a one-point image’s exact viewing distance and station relationship; viewing from the wrong distance produces apparent shape distortion.",
+      "relation": "extends",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.perspective.recover_view_field_from_existing_image"
+      ],
+      "affected_object_ids": [
+        "PAT_recover_view_field_from_existing_image"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source",
+        "prov_visual_scan"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d04",
+      "source_locator": "Ch. 4, printed pp. 43-58",
+      "summary": "Perspective rectangles, centers, fence subdivision, and repeated spacing reinforce the existing plane-metrology/subdivision system rather than add a new capability.",
+      "relation": "reinforces",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.perspective.measure_subdivide_and_repeat_on_planes"
+      ],
+      "affected_object_ids": [
+        "PAT_measure_subdivide_and_repeat_on_perspective_planes"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source"
+      ],
+      "action_hint": "retain_reference",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d05",
+      "source_locator": "Ch. 5, printed pp. 59-69",
+      "summary": "For standard two-point perspective with orthogonal horizontal directions, the correct eye lies on a viewing semicircle whose endpoints are the VPs; additional known geometry selects the station point and distance.",
+      "relation": "extends",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.perspective.recover_view_field_from_existing_image",
+        "art.drawing.perspective.control_distortion_with_vanishing_spacing"
+      ],
+      "affected_object_ids": [
+        "PAT_recover_view_field_from_existing_image",
+        "PAT_control_perspective_distortion_with_vanishing_spacing"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source",
+        "prov_visual_scan"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d06",
+      "source_locator": "Ch. 5 pp. 61-64; Ch. 6 pp. 93, 97-103",
+      "summary": "Apparent edge/rapid-convergence distortion is explained by station-point/viewing-distance/support mismatch; fixed VP spacing alone is an incomplete foundation.",
+      "relation": "reframes",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.perspective.control_distortion_with_vanishing_spacing"
+      ],
+      "affected_object_ids": [
+        "PAT_control_perspective_distortion_with_vanishing_spacing"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source",
+        "prov_cumulative_baseline"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d07",
+      "source_locator": "Ch. 6, printed pp. 86-93",
+      "summary": "Three VPs representing three mutually perpendicular directions form a valid rectilinear three-point setup iff their triangle is acute; the viewing target is its orthocenter and the distance is derivable from altitude geometry.",
+      "relation": "new",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.perspective.choose_convergence_from_view_and_orientation"
+      ],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "prov_viewpoints_source",
+        "prov_visual_scan"
+      ],
+      "action_hint": "candidate_new_card",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d08",
+      "source_locator": "Ch. 6, printed pp. 97-98",
+      "summary": "Near-right VP triangles imply very small viewing distances; nearly equilateral triangles maximize usable distance relative to triangle size, and important content is more robust near the viewing target.",
+      "relation": "extends",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.perspective.control_distortion_with_vanishing_spacing"
+      ],
+      "affected_object_ids": [
+        "PAT_control_perspective_distortion_with_vanishing_spacing"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d09",
+      "source_locator": "Ch. 6 Skyscraper Paradox, printed pp. 100-104",
+      "summary": "A close skyscraper can have a perfectly valid flat face-parallel rectangular projection; reproducing the full scan experience at a comfortable viewing distance may demand an enormous flat support, so practical display—not mathematical invalidity—is the problem.",
+      "relation": "reframes",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.perspective.control_distortion_with_vanishing_spacing"
+      ],
+      "affected_object_ids": [
+        "PAT_control_perspective_distortion_with_vanishing_spacing"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source",
+        "prov_visual_scan"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d10",
+      "source_locator": "Ch. 6 spherical perspective, printed pp. 104-106",
+      "summary": "A sphere centered on the eye can capture a continuous extreme field on a compact surface; straight-world directions project as great-circle arcs with paired opposite-direction VPs, supporting deliberate projection-model changes for immersive fields.",
+      "relation": "extends",
+      "qualifiers": [
+        "context_specific"
+      ],
+      "baseline_capabilities": [
+        "art.drawing.perspective.control_distortion_with_vanishing_spacing"
+      ],
+      "affected_object_ids": [
+        "PAT_control_perspective_distortion_with_vanishing_spacing"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source",
+        "prov_visual_scan"
+      ],
+      "action_hint": "candidate_patch",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d11",
+      "source_locator": "Ch. 7 and movie interlude, printed pp. 117-138",
+      "summary": "Anamorphosis, forced perspective, and Hitchcock zoom demonstrate that perspective can be deliberately viewpoint-locked and manipulated, but they are specialized applications of the same camera/projection logic rather than another foundation.",
+      "relation": "specializes",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.perspective.establish_eye_level_and_vanishing_directions"
+      ],
+      "affected_object_ids": [],
+      "evidence_refs": [
+        "prov_viewpoints_source",
+        "prov_visual_scan"
+      ],
+      "action_hint": "retain_reference",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d12",
+      "source_locator": "Perspective half, Chs. 1-7",
+      "summary": "The source does not establish a universal 50/60-degree Cone-of-Vision threshold; its exact account uses station point, viewing distance, target, support size, and projection surface instead.",
+      "relation": "questionable",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "art.drawing.perspective.control_distortion_with_vanishing_spacing"
+      ],
+      "affected_object_ids": [
+        "PAT_control_perspective_distortion_with_vanishing_spacing"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source",
+        "prov_cumulative_baseline"
+      ],
+      "action_hint": "verify",
+      "confidence": "high"
+    },
+    {
+      "delta_id": "d13",
+      "source_locator": "Perspective half, Chs. 1-7",
+      "summary": "The source does not prove the Norling/Robertson projected-circle ellipse minor-axis theorem; ellipse mentions in anamorphosis are not the needed conic proof.",
+      "relation": "questionable",
+      "qualifiers": [],
+      "baseline_capabilities": [
+        "activation.art.drawing.perspective.ellipse_axis_warmup",
+        "art.drawing.perspective.construct_projected_circles"
+      ],
+      "affected_object_ids": [
+        "DRILL_place_freehand_ellipses_on_minor_axes",
+        "PAT_construct_circles_as_ellipses_on_perspective_planes"
+      ],
+      "evidence_refs": [
+        "prov_viewpoints_source",
+        "prov_cumulative_baseline"
+      ],
+      "action_hint": "verify",
+      "confidence": "high"
+    }
+  ],
+  "clarification_queue": []
+}

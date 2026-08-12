@@ -1,0 +1,71 @@
+{
+  "session_id": "damelio-perspective-handbook-2026-08-08",
+  "baseline_snapshot_hash": "b0c50e82cac4559893d693812854cd4b83a0f64fbf7ee8c48ead8a9b99ad2e06",
+  "coverage": "complete",
+  "routes": [
+    {
+      "scope_locator": "printed pp. 8-22",
+      "route": "theory",
+      "delta_ids": [
+        "d01",
+        "d02",
+        "d03"
+      ],
+      "reason": "The early chapters supply causal framing and generalize known depth cues, but most of this material should inform later cards rather than multiply foundations."
+    },
+    {
+      "scope_locator": "printed pp. 23-60",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d04",
+        "d05",
+        "d06",
+        "d07",
+        "d08"
+      ],
+      "reason": "Vanishing structure, eye level, view/orientation convergence, cube construction, and distortion control are foundational gaps in the frozen repository."
+    },
+    {
+      "scope_locator": "printed pp. 61-80",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d09",
+        "d10",
+        "d11",
+        "d12",
+        "d13",
+        "d14"
+      ],
+      "reason": "Scale transfer, plane metrology, grids, and inclined planes add production-ready scene construction capabilities not present in canon."
+    },
+    {
+      "scope_locator": "printed pp. 81-86",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d15",
+        "d16"
+      ],
+      "reason": "Projected-circle center logic materially extends the existing organic cylinder treatment and enables exact scene-aligned cylinders/cones."
+    },
+    {
+      "scope_locator": "printed pp. 87-96",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d17",
+        "d18"
+      ],
+      "reason": "Constructive cast-shadow projection for both parallel sunlight and local point sources is a distinct missing capability."
+    },
+    {
+      "scope_locator": "whole-source synthesis and held Chapter 6 comparison context",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "d19",
+        "d20"
+      ],
+      "reason": "Reconcile D'Amelio with the already-held figure-derived scene-field candidate and keep the operational layer visual/equation-light without changing source claims."
+    }
+  ],
+  "rationale": "Complete reading shows a mixed source: Chapters 1-4 are mostly theory/reinforcement, while Chapters 5-14 close multiple explicit perspective-curriculum gaps. The appropriate result is a Deep PASS of the general perspective foundation with targeted consolidation to avoid geometry-card bloat.",
+  "override": null
+}

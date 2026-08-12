@@ -1,0 +1,16 @@
+{
+  "origin": "first_party_source",
+  "generator_model": null,
+  "generated_at": "2026-08-05",
+  "prompt": "First-party guided image-generation artifact retained as the explicit high-detail color-reference profile.",
+  "source_renders": [
+    "sources/guided_stage_density_gates_2026_08_05/stage0c_high_detail_color_dragon.png"
+  ],
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT analysis",
+    "reviewed_at": "2026-08-05",
+    "method": "human-guided visual comparison against requested Stage 0 density profiles",
+    "note": "Approved Stage 0C density target: developed color, anatomy, materials, lighting, and environment used as a visual reference before later construction stages."
+  }
+}

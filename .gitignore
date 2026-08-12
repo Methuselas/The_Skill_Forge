@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+workspace/releases/
+
+# Local source payloads are authoring inputs, not Git content.
+workspace/authoring/sources/*
+!workspace/authoring/sources/README.md

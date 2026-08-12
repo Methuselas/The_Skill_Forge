@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-06",
+  "prompt": "Attempted Stage 3 serious render from the observatory lineage.",
+  "source_renders": [
+    "sources/guided_stage1_stage3_artist_discretion_2026_08_06/stage3_observatory_composition_drift.png"
+  ],
+  "generation": {
+    "gen_id": "3fd4c030-3024-443b-bd6f-0a5941a94698",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-06",
+    "method": "human-guided stage-density, continuity, and parentage review",
+    "note": "Reviewed and approved for use as a negative precedent: fresh generation changed the action, camera, window, telescope role, inventory, and scene composition."
+  }
+}

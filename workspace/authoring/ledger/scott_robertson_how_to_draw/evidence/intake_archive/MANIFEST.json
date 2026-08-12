@@ -1,0 +1,127 @@
+{
+  "source_id": "scott_robertson_how_to_draw",
+  "session_id": "scott-robertson-how-to-draw-2026-08-08",
+  "status": "candidate_hold",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "8b16310ad47d81c33ad0be000120937a590ecfd796cb1fdfbec96fbb1766b2d9",
+      "bytes": 888
+    },
+    {
+      "path": "candidates/AP_build_complex_volumes_with_xyz_sections.md",
+      "sha256": "c8564c7324a439130173091a0aede12674f4f66648beba88a5c059a6cf52d04c",
+      "bytes": 7162
+    },
+    {
+      "path": "candidates/DRILL_aim_clean_perspective_construction_lines.md",
+      "sha256": "7e1dfd3c9611f775ea0c83e811af6adb195793d5b6bb44ff2f2b44cd22343f9e",
+      "bytes": 3585
+    },
+    {
+      "path": "candidates/DRILL_place_freehand_ellipses_on_minor_axes.md",
+      "sha256": "3a76a9629ddf9839719516dc6a3904aba938f5fbf9bcd78efa0eba2810dd7985",
+      "bytes": 4177
+    },
+    {
+      "path": "candidates/PAT_build_coherent_grid_when_vanishing_points_are_off_page.md",
+      "sha256": "b9de5e21c9d70d333e76a17dc7e3a426e609e2a3742950e46f04f9eee8a2abf1",
+      "bytes": 4517
+    },
+    {
+      "path": "candidates/PAT_project_curves_onto_sectioned_surfaces.md",
+      "sha256": "b6564d651a566fa435ddc9d191b88374dd66cda97e94bba17326e660a9adf15b",
+      "bytes": 4901
+    },
+    {
+      "path": "candidates/PAT_rotate_perspective_grids_without_changing_unit_scale.md",
+      "sha256": "2ac5ac49c4281112e9f8cd4b653696bab03b0dd3a50b1cd6843dea537c35a599",
+      "bytes": 4117
+    },
+    {
+      "path": "data/candidate_change_set_robertson.json",
+      "sha256": "2dc5e9f8de5e5ecdf596878932c8bc519deb6ab2d126b63db9157f37cd326f63",
+      "bytes": 10800
+    },
+    {
+      "path": "data/delta_map_robertson.json",
+      "sha256": "93d1802af666f673d5be359a3c4cf3bd3799af310ff86c34e5abba38947ca740",
+      "bytes": 11372
+    },
+    {
+      "path": "data/gate1_report.json",
+      "sha256": "5769bb56ae4d1e785c4da91108192ac2c32aee6c0fdb1a669477725be4a80af8",
+      "bytes": 4741
+    },
+    {
+      "path": "data/gate2_report.json",
+      "sha256": "346b6e25cb52a7b24659031d9249a14cf16841cdcd3d69083396fa57681fa315",
+      "bytes": 3460
+    },
+    {
+      "path": "data/intake_session.json",
+      "sha256": "cb68f9ee78ee6e569f568f0f71e7eeee1f25a4c4949f1f544907388e4bb3dbf1",
+      "bytes": 10110
+    },
+    {
+      "path": "data/validation_report_robertson.json",
+      "sha256": "dc284515baea5cfd7fe1564b4a41e8ce60a9c161e4ad9e7aff9827652a88bb43",
+      "bytes": 5709
+    },
+    {
+      "path": "memcap/MEMCAP_Scott_Robertson_How_to_Draw_PASS.md",
+      "sha256": "ccad0a5b264f83688d14bc47457791df4d0e00af8218563b54f55b145afe7ffb",
+      "bytes": 1162
+    },
+    {
+      "path": "patches/PATCH_choose_convergence_with_visual_ray_vp_pairs.md",
+      "sha256": "f0f298e75711e5459392110a8b7b365e9a1efb97d34c936ced03dc45fc0a9cbb",
+      "bytes": 1168
+    },
+    {
+      "path": "patches/PATCH_distortion_grid_choice_and_field_of_view.md",
+      "sha256": "1f8c02c12f24d80f004cecfae19ed597b8b75cf2c523e41772e8863128ec8906",
+      "bytes": 1235
+    },
+    {
+      "path": "patches/PATCH_shared_scene_use_underlay_for_pov_and_large_volumes.md",
+      "sha256": "a8b0193adb048ad1aca03d1da2e49019e31281e1dcafcbaa3a6b7409a9b1e45d",
+      "bytes": 1101
+    },
+    {
+      "path": "patches/PATCH_viewfield_station_point_line_of_sight_and_cov.md",
+      "sha256": "48ffc350f6826d25693b41644a9a34882d248af8ed09f5ba1dad3a593e0126ef",
+      "bytes": 1504
+    },
+    {
+      "path": "reports/ELLIPSE_AXIS_HOLD_ROBERTSON_UPDATE.md",
+      "sha256": "e1c446351d64fd95d0b22d1895e0d7686beed5687c790d82e9677589b696b471",
+      "bytes": 1399
+    },
+    {
+      "path": "reports/PERSPECTIVE_CUMULATIVE_RECONCILIATION_AFTER_ROBERTSON.md",
+      "sha256": "79e240fe5690dc4679ead5eff01686b9e57c95f1e9c6120b6614754230410f46",
+      "bytes": 2122
+    },
+    {
+      "path": "reports/READING_RECEIPT.md",
+      "sha256": "76c891340ece850660a7c54c6af13a49ad4d8e6699bffbe6e37199f0c7d0cc6f",
+      "bytes": 2558
+    },
+    {
+      "path": "reports/ROBERTSON_PASS_REPORT.md",
+      "sha256": "33983c3758d68ca35647a1a3334bb25a91eb5a5a2ffb9a03fcb389b2c32f64c4",
+      "bytes": 2925
+    },
+    {
+      "path": "reports/ROBERTSON_PERSPECTIVE_MATH_AUDIT_QUEUE.md",
+      "sha256": "20c5c4048406b369fb3dbbf922a40c186510f18f85d47cf17a9043175f855b10",
+      "bytes": 1408
+    },
+    {
+      "path": "reports/ROBERTSON_VALIDATION_REPORT.md",
+      "sha256": "c1954f668bd9aabca5cce8678ae1666dfd668c328921908b0cb5fe7d64695aa0",
+      "bytes": 2830
+    }
+  ]
+}

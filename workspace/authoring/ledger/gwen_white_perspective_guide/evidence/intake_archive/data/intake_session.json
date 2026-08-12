@@ -1,0 +1,195 @@
+{
+  "session_id": "gwen-white-perspective-guide-2026-08-08",
+  "contract": "pass-intake-vNext-draft.1",
+  "state": "candidate_ready",
+  "source": {
+    "source_id": "gwen_white_perspective_guide",
+    "source_type": "book",
+    "title": "Perspective: A Guide for Artists, Architects and Designers",
+    "version": "New edition 1982; supplied scan",
+    "date": "1968 / 1982",
+    "author_or_teacher": "Gwen White"
+  },
+  "purpose": {
+    "summary": "Run the third cumulative Perspective PASS against the frozen D’Amelio + Norling candidate state, using White as the broader/careful construction source and extracting only deltas that survive the existing perspective foundation.",
+    "target_capabilities": [
+      "art.drawing.perspective.measure_true_lengths_on_oblique_planes",
+      "art.drawing.perspective.construct_arbitrary_planar_reflections"
+    ]
+  },
+  "baseline": {
+    "lock": "read_only",
+    "snapshot_id": "PASS_Skills_vNext_DAmelio_Norling_PASS_Candidate_2026-08-08-perspective-baseline",
+    "objects": [
+      {
+        "object_id": "AP_construct_a_shared_scene_perspective_field",
+        "version_or_hash": "adbc4fdd4433dbe88f40c356c788a7f308ec464d47773320546675ee143be415"
+      },
+      {
+        "object_id": "AP_construct_cast_shadows_in_perspective",
+        "version_or_hash": "d44ba0d7d33d0469dcfcc427ac6ed809f92f8a20c5743a37dafd97dd0b975d6c"
+      },
+      {
+        "object_id": "AP_control_foreshortened_form_size_in_stage_two",
+        "version_or_hash": "2d3a5b07f83f9e89870414c2a68bc0fe2e7dd1ebe522bbf097e234448eda6115"
+      },
+      {
+        "object_id": "AP_project_plan_and_elevation_into_perspective",
+        "version_or_hash": "307eabcb3428e092506c64c5b043b6b5ed3ec88c2dd6b50f16988a0d6cf5289b"
+      },
+      {
+        "object_id": "DRILL_diagnose_and_correct_perspective_distortion",
+        "version_or_hash": "fe21bde4fa759a0e297415eed05e87127622aa6e99aaaa91dc053c0aa29e4097"
+      },
+      {
+        "object_id": "DRILL_project_circles_and_cylinders_on_tilted_planes",
+        "version_or_hash": "3afd072288642f6f1c2f13e8dc9d547cdf9712fff9e1b000e38ceb7e36bdf5c4"
+      },
+      {
+        "object_id": "DRILL_rotate_boxes_across_eye_levels",
+        "version_or_hash": "81d61506670dd6f2a12478ef60aeb1bf1f1223161ec6ba26020182df20621dda"
+      },
+      {
+        "object_id": "DRILL_subdivide_a_plane_without_screen_space_guessing",
+        "version_or_hash": "fdd376db189c1e7c2cb638c153f0b0cc5a9f02a9192de5e27713779b6e20a225"
+      },
+      {
+        "object_id": "PAT_align_cylinders_and_cones_to_projected_circle_centers",
+        "version_or_hash": "6f2c6a86b894994ddff55fd1b7cb0c30a23b7570765e5de98e7327410955e31c"
+      },
+      {
+        "object_id": "PAT_block_complex_objects_with_perspective_boxes",
+        "version_or_hash": "562816887f8e56ef229a9d923656dc32e76f6c9db982ea2f9a142887fc522583"
+      },
+      {
+        "object_id": "PAT_carry_scale_through_depth_with_height_and_width_guides",
+        "version_or_hash": "186b5a18b4b2d64cee8f05b00ff840eafdf728ab5b051378581262b97d95d3c2"
+      },
+      {
+        "object_id": "PAT_choose_convergence_from_view_and_orientation",
+        "version_or_hash": "ddef757346d49d1350adfef10029d9f386e05b5a19d2ff887e8137e5102e9c20"
+      },
+      {
+        "object_id": "PAT_construct_circles_as_ellipses_on_perspective_planes",
+        "version_or_hash": "9c867a9cf3b5a188b6e155dc43aabf1ecfa21a045b927468ea11915be4059ce8"
+      },
+      {
+        "object_id": "PAT_construct_inclined_planes_from_base_vanishing_directions",
+        "version_or_hash": "eac65bf0fd057e8f7dae74e1143dd636cd5fb1117406dbe446e9a9bc70b868da"
+      },
+      {
+        "object_id": "PAT_construct_reflections_across_level_planes",
+        "version_or_hash": "419f9726d948e42ec3300742671cfb0ea3e2bad3d4842bf476522b09a4cc8ac3"
+      },
+      {
+        "object_id": "PAT_control_perspective_distortion_with_vanishing_spacing",
+        "version_or_hash": "491dba1f1006cc225f724545ea988bbbff1f680a70b534aec07fbd1e9ff0793d"
+      },
+      {
+        "object_id": "PAT_create_depth_sequence_with_overlap",
+        "version_or_hash": "d23eed3c826630d2a5ad5a0b8406497841df7ccb4e3d3fb5e276551d839f38ec"
+      },
+      {
+        "object_id": "PAT_establish_eye_level_and_vanishing_directions",
+        "version_or_hash": "b28e6c6550a7633b9c7b7cf02f4bbdb36d822f09a85e45770b5f65a81a791bd0"
+      },
+      {
+        "object_id": "PAT_hold_member_identity_with_constant_width",
+        "version_or_hash": "cdbd525edb62f5b71855ef23584273f60ffc2e8307c27d2e257606382563f4d4"
+      },
+      {
+        "object_id": "PAT_integrate_shoulder_mass_with_rib_cage",
+        "version_or_hash": "9c4533de471938bcbd42eb4554e4c2eb4a726e453a90fca298fba6ab1d0e1b89"
+      },
+      {
+        "object_id": "PAT_measure_subdivide_and_repeat_on_perspective_planes",
+        "version_or_hash": "1414f35d95b260e49743141e679ad9b6a1582c3d513bfaeaa639cbc7bf9eafd2"
+      },
+      {
+        "object_id": "PAT_preserve_articulated_limb_chain",
+        "version_or_hash": "12fd24fcd32a7587d5fcdcd98ca859fcceab35f7ed57b14ae4a23c3e080f70a5"
+      },
+      {
+        "object_id": "PAT_project_form_curves_from_camera_view",
+        "version_or_hash": "27bfbe7f108a59b0124e9a73be1c93c3961f0aeef58bcc10c4436d8d32a1ae82"
+      },
+      {
+        "object_id": "PAT_recover_view_field_from_existing_image",
+        "version_or_hash": "cbc9c3c9b059a4f0d432db820c6952d8bdd2fbd3ccc51b5dfb5cab10fa2285a6"
+      },
+      {
+        "object_id": "PAT_turn_cylinder_end_curves_with_depth",
+        "version_or_hash": "cffd95ff8228ec123af1a0c971564c8f4ff0378c4737a4f9ef8173ba670659c6"
+      }
+    ],
+    "capabilities": [
+      "art.drawing.figure_construction.create_depth_sequence_with_overlap",
+      "art.drawing.figure_construction.hold_member_identity_with_constant_width",
+      "art.drawing.figure_construction.preserve_articulated_limb_chain",
+      "art.drawing.figure_construction.project_form_curves_from_camera_view",
+      "art.drawing.figure_construction.turn_cylinder_end_curves_with_depth",
+      "art.drawing.perspective.align_cylinders_and_cones",
+      "art.drawing.perspective.block_objects_with_boxes",
+      "art.drawing.perspective.carry_scale_through_depth",
+      "art.drawing.perspective.choose_convergence_from_view_and_orientation",
+      "art.drawing.perspective.construct_cast_shadows",
+      "art.drawing.perspective.construct_inclined_planes",
+      "art.drawing.perspective.construct_level_planar_reflections",
+      "art.drawing.perspective.construct_projected_circles",
+      "art.drawing.perspective.construct_shared_scene_field",
+      "art.drawing.perspective.control_distortion_with_vanishing_spacing",
+      "art.drawing.perspective.establish_eye_level_and_vanishing_directions",
+      "art.drawing.perspective.measure_subdivide_and_repeat_on_planes",
+      "art.drawing.perspective.project_plan_and_elevation",
+      "art.drawing.perspective.recover_view_field_from_existing_image"
+    ],
+    "snapshot_hash": "7bb7fe7afe47efc08b62f04fbc8d3064d307a78142ef0a1d7e4b64ebe5ecf266"
+  },
+  "intake_policy": {
+    "allow_user_override": true,
+    "teacher_primary_allowed": true,
+    "gate_mutation_prohibited": true
+  },
+  "history": [
+    {
+      "from": "created",
+      "to": "context_loaded",
+      "reason": "Loaded the cumulative D’Amelio + Norling perspective candidate package as a read-only baseline, including the Norling patch/verification queue for overlap control."
+    },
+    {
+      "from": "context_loaded",
+      "to": "gate1_observed",
+      "reason": "Sampled White’s structure, picture-plane model, measuring-point proof, oblique perspective, shadows, cone of rays, and late mirror-reflection constructions."
+    },
+    {
+      "from": "gate1_observed",
+      "to": "gate1_routed",
+      "reason": "Most fundamentals and plan/elevation work overlapped prior candidates; exact oblique-plane metrology and general planar reflections warranted full Gate 2 coverage."
+    },
+    {
+      "from": "gate1_routed",
+      "to": "gate2_reading",
+      "reason": "Read the full source text and rendered all 80 physical PDF pages for visual review."
+    },
+    {
+      "from": "gate2_reading",
+      "to": "gate2_complete",
+      "reason": "Completed the full 80-page source, including all diagrams for parallel, angular, oblique, shadow, cone-of-rays, and reflection sections."
+    },
+    {
+      "from": "gate2_complete",
+      "to": "gate2_routed",
+      "reason": "Routed most material to reference/reinforcement; deep-routed oblique metric construction and arbitrary planar reflections; targeted three strengthening patches; held two unresolved/overbroad claims."
+    },
+    {
+      "from": "gate2_routed",
+      "to": "pass_study",
+      "reason": "Studied only earned deltas against the frozen cumulative perspective state."
+    },
+    {
+      "from": "pass_study",
+      "to": "candidate_ready",
+      "reason": "Authored two candidate Patterns, three non-mutating patch proposals, two holds, reconciliation reports, and validation inputs."
+    }
+  ]
+}

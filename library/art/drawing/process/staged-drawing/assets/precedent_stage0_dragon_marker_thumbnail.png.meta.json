@@ -1,0 +1,16 @@
+{
+  "origin": "first_party_source",
+  "generator_model": null,
+  "generated_at": "2026-08-03",
+  "prompt": "Direct first-party guided validation artifact; generation prompt and critique preserved in the source bundle notes.",
+  "source_renders": [
+    "sources/guided_staged_visual_validation_2026_08_03/precedent_stage0_dragon_marker_thumbnail.png"
+  ],
+  "review": {
+    "verdict": "passed",
+    "reviewer": "Admin guided visual review with Blu analysis",
+    "reviewed_at": "2026-08-03",
+    "method": "human-guided visual inspection across staged continuity and failure diagnosis",
+    "note": "Approved Stage 0 marker-density target; broad composition and value idea without construction detail."
+  }
+}

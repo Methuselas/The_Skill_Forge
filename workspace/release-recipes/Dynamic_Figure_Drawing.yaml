@@ -1,0 +1,5 @@
+name: Dynamic Figure Drawing
+modules:
+  - art/drawing/subjects/figure
+  - art/drawing/perspective
+  - art/drawing/rendering

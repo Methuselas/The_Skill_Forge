@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-06",
+  "prompt": "Guided observatory Stage 0A contact-sheet refinement using the approved chimera mark-language precedent, broad marker masses, limited grayscale values, strategic shorthand, and four composition viewpoints.",
+  "source_renders": [
+    "sources/guided_stage0a_rosetta_2026_08_06/stage0a_observatory_rosetta_contact_sheet.png"
+  ],
+  "generation": {
+    "gen_id": "0d33a2cc-29ed-429b-a897-1cc96c165084",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-06",
+    "method": "human-guided comparison against the Stage 0A chimera mark language and the Stage 4 backcast/Rosetta test",
+    "note": "Approved Stage 0A keeper and upper acceptable density ceiling: thick marker or medium-brush masses, limited grayscale, broken edges, strategic identifying detail, and a mentally visible Stage 4 proposition."
+  }
+}

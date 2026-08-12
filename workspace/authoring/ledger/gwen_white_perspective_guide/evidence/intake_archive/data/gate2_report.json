@@ -1,0 +1,78 @@
+{
+  "session_id": "gwen-white-perspective-guide-2026-08-08",
+  "baseline_snapshot_hash": "7bb7fe7afe47efc08b62f04fbc8d3064d307a78142ef0a1d7e4b64ebe5ecf266",
+  "coverage": "complete",
+  "routes": [
+    {
+      "scope_locator": "printed pp. 3-24",
+      "route": "reference",
+      "delta_ids": [
+        "d01",
+        "d02",
+        "d13"
+      ],
+      "reason": "Strong fundamentals and examples, but the cumulative baseline already owns the practical capabilities; only the camera-model reframe survives as a patch."
+    },
+    {
+      "scope_locator": "printed pp. 25-28",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "d03"
+      ],
+      "reason": "White adds the exact derivation/proof of a measuring point for arbitrary horizontal directions; patch the existing plane-metrology Pattern rather than duplicate it."
+    },
+    {
+      "scope_locator": "printed pp. 29-41",
+      "route": "reference",
+      "delta_ids": [
+        "d04"
+      ],
+      "reason": "Angular plan/elevation examples reinforce the Norling exact-projection AP and D’Amelio metrology."
+    },
+    {
+      "scope_locator": "printed pp. 42-49",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d05"
+      ],
+      "reason": "Oblique perspective supplies a genuinely deeper metric construction for ascending/descending planes, including auxiliary measuring points and true-length transfer."
+    },
+    {
+      "scope_locator": "printed pp. 50-53",
+      "route": "reference",
+      "delta_ids": [
+        "d06"
+      ],
+      "reason": "Applications of the same plan/oblique machinery; no additional separable capability."
+    },
+    {
+      "scope_locator": "printed pp. 54-69",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "d07",
+        "d08"
+      ],
+      "reason": "Light-source logic overlaps D’Amelio, while multi-plane and curved-receiver shadow handling materially strengthens the existing AP."
+    },
+    {
+      "scope_locator": "printed pp. 70-71",
+      "route": "theory",
+      "delta_ids": [
+        "d09",
+        "d10",
+        "d11"
+      ],
+      "reason": "Useful camera/orientation reasoning, but the fixed numeric cone rule is held for modern/mathematical verification and no duplicate foundation card is warranted."
+    },
+    {
+      "scope_locator": "printed pp. 72-79",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d12"
+      ],
+      "reason": "Tipped and vertical mirror constructions generalize the earlier level-plane reflection capability and warrant a new general Pattern."
+    }
+  ],
+  "rationale": "White is mixed by design: Review for the established foundation, targeted strengthening where exactness improves existing cards, and Deep PASS for oblique-plane metric construction and arbitrary planar reflections.",
+  "override": null
+}

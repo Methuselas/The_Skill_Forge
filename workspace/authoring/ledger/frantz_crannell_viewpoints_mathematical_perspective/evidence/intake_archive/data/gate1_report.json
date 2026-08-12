@@ -1,0 +1,100 @@
+{
+  "session_id": "frantz-crannell-viewpoints-perspective-math-audit-2026-08-08",
+  "baseline_snapshot_hash": "2fc94d3112bb585c3821619269fe9f1fdd11768072c91aeacc29d18b088b6f5c",
+  "sampling_plan": [
+    {
+      "sample_id": "s01",
+      "stratum": "structure",
+      "locator": "preface + contents; Chapters 1-9",
+      "purpose": "Confirm that Chapters 1-7 form the mathematical-perspective unit and Chapters 8-9 begin a separate fractal-geometry unit."
+    },
+    {
+      "sample_id": "s02",
+      "stratum": "known_overlap",
+      "locator": "Chapters 1-4, printed pp. 1-58",
+      "purpose": "Compare picture-plane projection, vanishing points, one-point rectangles, and subdivision against D’Amelio/Norling/White/Robertson."
+    },
+    {
+      "sample_id": "s03",
+      "stratum": "unknown_territory",
+      "locator": "Chapter 5, printed pp. 59-76",
+      "purpose": "Test exact two-point station-point/viewing-distance geometry against the provisional camera and distortion patches."
+    },
+    {
+      "sample_id": "s04",
+      "stratum": "unknown_territory",
+      "locator": "Chapter 6, printed pp. 85-116",
+      "purpose": "Audit three-point viewpoint validity, viewing distance, skyscraper paradox, and spherical projection."
+    },
+    {
+      "sample_id": "s05",
+      "stratum": "example_or_visual",
+      "locator": "Chapter 7 + movie interlude, printed pp. 117-138",
+      "purpose": "Check anamorphosis/forced perspective for new projection logic versus special-effect reference."
+    },
+    {
+      "sample_id": "s06",
+      "stratum": "example_or_visual",
+      "locator": "physical pp. 154-165 color plates",
+      "purpose": "Visually inspect artist examples, especially Termes spherical works, before the source changes domain to fractals."
+    }
+  ],
+  "observations": [
+    {
+      "sample_id": "s01",
+      "summary": "The source deliberately separates mathematical perspective (Chs. 1-7) from fractal geometry (Chs. 8-9), matching the requested surgical audit scope.",
+      "signals": [
+        "specialization",
+        "theory"
+      ]
+    },
+    {
+      "sample_id": "s02",
+      "summary": "Most foundational construction overlaps the five-book stack, but Chapters 2-3 provide exact projection and station-point mathematics useful as internal derivation rather than more beginner cards.",
+      "signals": [
+        "overlap",
+        "theory",
+        "reframing"
+      ]
+    },
+    {
+      "sample_id": "s03",
+      "summary": "The two-point viewing semicircle gives a rigorous explanation of VP spacing, station-point recovery, and why a valid image can look distorted from ordinary viewing distance.",
+      "signals": [
+        "novelty",
+        "reframing",
+        "theory"
+      ]
+    },
+    {
+      "sample_id": "s04",
+      "summary": "Chapter 6 contains the intended Deep deltas: acute three-point VP triangle/orthocenter geometry, exact viewing distance, skyscraper paradox, and a spherical projection alternative for extreme fields.",
+      "signals": [
+        "novelty",
+        "specialization",
+        "theory"
+      ]
+    },
+    {
+      "sample_id": "s05",
+      "summary": "Anamorphosis and forced perspective strongly demonstrate viewpoint dependence but mostly specialize the already-emerging camera/projection logic; they do not require another foundation card.",
+      "signals": [
+        "specialization",
+        "overlap"
+      ]
+    },
+    {
+      "sample_id": "s06",
+      "summary": "The plates visually confirm the spherical/Termes examples but add no independent geometric rule.",
+      "signals": [
+        "overlap"
+      ]
+    }
+  ],
+  "route": "proceed_gate2",
+  "rationale": "The source earns the planned surgical Deep PASS because it can resolve the outstanding mathematical holds without reopening the artist-facing curriculum: viewpoint/display distortion, exact tilted/three-point camera geometry, COV claims, and the skyscraper/projection-model question.",
+  "override": {
+    "authority": "user",
+    "reason": "User explicitly requested a Deep mathematical audit of the perspective half after the five regular Perspective books."
+  }
+}

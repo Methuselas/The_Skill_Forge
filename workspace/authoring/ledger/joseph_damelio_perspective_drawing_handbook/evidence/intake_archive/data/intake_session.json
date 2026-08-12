@@ -1,0 +1,117 @@
+{
+  "session_id": "damelio-perspective-handbook-2026-08-08",
+  "contract": "pass-intake-vNext-draft.1",
+  "state": "candidate_ready",
+  "source": {
+    "source_id": "joseph_damelio_perspective_drawing_handbook",
+    "source_type": "book",
+    "title": "Perspective Drawing Handbook",
+    "version": "Dover 2004 unabridged reprint of 1964 Tudor edition",
+    "date": "1964 / 2004",
+    "author_or_teacher": "Joseph D'Amelio"
+  },
+  "purpose": {
+    "summary": "Run a complete-book PASS to establish general perspective foundations against the frozen 2026-08-08 vNext repository, while holding canonical promotion for cross-book perspective reconciliation.",
+    "target_capabilities": [
+      "art.drawing.perspective.establish_eye_level_and_vanishing_directions",
+      "art.drawing.perspective.choose_convergence_from_view_and_orientation",
+      "art.drawing.perspective.control_distortion_with_vanishing_spacing",
+      "art.drawing.perspective.carry_scale_through_depth",
+      "art.drawing.perspective.measure_subdivide_and_repeat_on_planes",
+      "art.drawing.perspective.construct_inclined_planes",
+      "art.drawing.perspective.construct_projected_circles",
+      "art.drawing.perspective.align_cylinders_and_cones",
+      "art.drawing.perspective.construct_cast_shadows",
+      "art.drawing.perspective.construct_shared_scene_field"
+    ]
+  },
+  "baseline": {
+    "lock": "read_only",
+    "snapshot_id": "PASS_Skills_vNext_Current_Repo_2026-08-08(3)-perspective-relevant-baseline",
+    "objects": [
+      {
+        "object_id": "PAT_create_depth_sequence_with_overlap",
+        "version_or_hash": "d23eed3c826630d2a5ad5a0b8406497841df7ccb4e3d3fb5e276551d839f38ec"
+      },
+      {
+        "object_id": "PAT_project_form_curves_from_camera_view",
+        "version_or_hash": "27bfbe7f108a59b0124e9a73be1c93c3961f0aeef58bcc10c4436d8d32a1ae82"
+      },
+      {
+        "object_id": "PAT_turn_cylinder_end_curves_with_depth",
+        "version_or_hash": "cffd95ff8228ec123af1a0c971564c8f4ff0378c4737a4f9ef8173ba670659c6"
+      },
+      {
+        "object_id": "AP_control_foreshortened_form_size_in_stage_two",
+        "version_or_hash": "2d3a5b07f83f9e89870414c2a68bc0fe2e7dd1ebe522bbf097e234448eda6115"
+      },
+      {
+        "object_id": "PAT_hold_member_identity_with_constant_width",
+        "version_or_hash": "cdbd525edb62f5b71855ef23584273f60ffc2e8307c27d2e257606382563f4d4"
+      },
+      {
+        "object_id": "PAT_preserve_articulated_limb_chain",
+        "version_or_hash": "12fd24fcd32a7587d5fcdcd98ca859fcceab35f7ed57b14ae4a23c3e080f70a5"
+      },
+      {
+        "object_id": "PAT_integrate_shoulder_mass_with_rib_cage",
+        "version_or_hash": "9c4533de471938bcbd42eb4554e4c2eb4a726e453a90fca298fba6ab1d0e1b89"
+      }
+    ],
+    "capabilities": [
+      "art.drawing.figure_construction.create_depth_sequence_with_overlap",
+      "art.drawing.figure_construction.project_form_curves_from_camera_view",
+      "art.drawing.figure_construction.turn_cylinder_end_curves_with_depth",
+      "art.drawing.figure_construction.hold_member_identity_with_constant_width",
+      "art.drawing.figure_construction.preserve_articulated_limb_chain"
+    ],
+    "snapshot_hash": "b0c50e82cac4559893d693812854cd4b83a0f64fbf7ee8c48ead8a9b99ad2e06"
+  },
+  "intake_policy": {
+    "allow_user_override": true,
+    "teacher_primary_allowed": true,
+    "gate_mutation_prohibited": true
+  },
+  "history": [
+    {
+      "from": "created",
+      "to": "context_loaded",
+      "reason": "Loaded frozen repo baseline and relevant figure/perspective-adjacent canon; held Hogarth Chapter 6 candidates treated as comparison context only."
+    },
+    {
+      "from": "context_loaded",
+      "to": "gate1_observed",
+      "reason": "Reviewed contents, introduction/method, known overlap, unknown vanishing-point material, cube visuals, late shade/shadow material, and project target."
+    },
+    {
+      "from": "gate1_observed",
+      "to": "gate1_routed",
+      "reason": "Substantial unrepresented perspective foundations required a full second-gate read."
+    },
+    {
+      "from": "gate1_routed",
+      "to": "gate2_reading",
+      "reason": "Started complete source read with all rendered pages visually scanned."
+    },
+    {
+      "from": "gate2_reading",
+      "to": "gate2_complete",
+      "reason": "Completed all 98 physical pages and all numbered instructional content through printed p.96."
+    },
+    {
+      "from": "gate2_complete",
+      "to": "gate2_routed",
+      "reason": "Early chapters routed mostly to theory/reinforcement; chapters 5-14 routed to deep/targeted extraction by capability delta."
+    },
+    {
+      "from": "gate2_routed",
+      "to": "pass_study",
+      "reason": "Synthesized only earned deltas against the frozen baseline."
+    },
+    {
+      "from": "pass_study",
+      "to": "candidate_ready",
+      "reason": "Authored candidate cards, reconciliation notes, reports, and validation inputs without mutating canon."
+    }
+  ]
+}

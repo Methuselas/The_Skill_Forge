@@ -1,0 +1,120 @@
+{
+  "candidate_set_id": "cand-hogarth-ch05-targeted-1",
+  "session_id": "hogarth-dfd-ch05-2026-08-07",
+  "baseline_snapshot_hash": "4c4cc9eb9a08c8659263c78e86ea2ce0b52e0b2f4a4998374633b67e5a8bfb48",
+  "status": "candidate",
+  "changes": [
+    {
+      "change_id": "ch5_c1",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_validate_foreshortened_limb_reach_from_joint_pivots.md",
+      "delta_ids": [
+        "ch5_d2",
+        "ch5_d5",
+        "ch5_d6"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.figure_construction.validate_foreshortened_limb_reach_from_joint_pivots"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_ch5_source",
+        "prov_ch5_teacher",
+        "prov_ch5_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "chapter6_reconciliation_required"
+      ]
+    },
+    {
+      "change_id": "ch5_c2",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "drill",
+      "artifact_path": "candidates/DRILL_correct_wonky_foreshortened_limb_with_pivot_arcs.md",
+      "delta_ids": [
+        "ch5_d2",
+        "ch5_d5",
+        "ch5_d6"
+      ],
+      "capability_effect": {
+        "adds": [
+          "activation.art.drawing.figure_construction.foreshortened_limb_reach_correction"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_ch5_source",
+        "prov_ch5_teacher",
+        "prov_ch5_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "correction_requires_failure_signal",
+        "chapter6_reconciliation_required"
+      ]
+    },
+    {
+      "change_id": "ch5_c3",
+      "action": "patch_card",
+      "target_object_id": "PAT_hold_member_identity_with_constant_width",
+      "proposed_object_type": "pattern",
+      "artifact_path": "patches/PATCH_PAT_hold_member_identity_with_constant_width.md",
+      "delta_ids": [
+        "ch5_d1",
+        "ch5_d3",
+        "ch5_d6"
+      ],
+      "capability_effect": {
+        "adds": [],
+        "changes": [
+          "clarify complementarity of width control and projected-reach control"
+        ],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_ch5_source",
+        "prov_ch5_teacher",
+        "prov_ch5_synthesis"
+      ],
+      "validation_requirements": [
+        "human_review",
+        "chapter6_reconciliation_required"
+      ]
+    }
+  ],
+  "provenance_records": [
+    {
+      "provenance_id": "prov_ch5_source",
+      "kind": "source",
+      "source_id": "burne_hogarth_dynamic_figure_drawing_ocr",
+      "locator": "Chapter 5, printed pp. 135-149; scan images Page_136-150",
+      "note": "Full chapter text read and all chapter instructional page images visually inspected."
+    },
+    {
+      "provenance_id": "prov_ch5_teacher",
+      "kind": "human_teaching",
+      "source_id": "project_teacher_session",
+      "locator": "2026-08-07 Chapter 5 discussion",
+      "note": "Teacher identified the chapter as range-of-motion / anatomy-correction value with substantial redundancy."
+    },
+    {
+      "provenance_id": "prov_ch5_synthesis",
+      "kind": "synthesis",
+      "source_id": "candidate_synthesis",
+      "locator": "Chapter 5 targeted extraction",
+      "note": "Consolidated ellipse/radius, triangle, and body-contact checks into one optional reach Pattern and one correction Drill."
+    }
+  ],
+  "candidate_hash": "dfd966913e5e1c829afe9ce5e0433769beaf8ea785424c22abfa7fa675d9e148"
+}

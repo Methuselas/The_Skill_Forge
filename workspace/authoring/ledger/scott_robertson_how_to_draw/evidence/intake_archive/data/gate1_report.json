@@ -1,0 +1,110 @@
+{
+  "session_id": "scott-robertson-how-to-draw-2026-08-08",
+  "baseline_snapshot_hash": "ed54fe2a99711c03dd82f239fcab9d38b3ab5c24f3390102abe28ce35937480f",
+  "sampling_plan": [
+    {
+      "sample_id": "s01",
+      "stratum": "structure",
+      "locator": "contents / printed pp. 5-7",
+      "purpose": "Map the source’s chapter progression and separate foundational technique from later subject applications."
+    },
+    {
+      "sample_id": "s02",
+      "stratum": "introduction_method",
+      "locator": "printed pp. 14-27",
+      "purpose": "Test line/ellipse drills and Robertson’s viewing-position model against existing eye-level and convergence cards."
+    },
+    {
+      "sample_id": "s03",
+      "stratum": "known_overlap",
+      "locator": "printed pp. 30-43",
+      "purpose": "Compare subdivision, mirroring, and curve-transfer methods to D’Amelio plane metrology and existing perspective construction."
+    },
+    {
+      "sample_id": "s04",
+      "stratum": "unknown_territory",
+      "locator": "printed pp. 44-69",
+      "purpose": "Inspect grid construction, off-page VPs, rotated same-scale grids, underlays, and grid-model tradeoffs for new capabilities."
+    },
+    {
+      "sample_id": "s05",
+      "stratum": "example_or_visual",
+      "locator": "printed pp. 70-79",
+      "purpose": "Inspect ellipse/rotation diagrams and resolve the prior Norling/White ellipse-axis verification hold as far as Robertson supports it."
+    },
+    {
+      "sample_id": "s06",
+      "stratum": "unknown_territory",
+      "locator": "printed pp. 80-103",
+      "purpose": "Test X-Y-Z section drawing and surface projection as a potential Deep capability rather than a collection of small tricks."
+    },
+    {
+      "sample_id": "s07",
+      "stratum": "late_source",
+      "locator": "printed pp. 104-201",
+      "purpose": "Check environments, aircraft, wheeled vehicles, wide-angle grids, and media chapters for late unique perspective deltas."
+    }
+  ],
+  "observations": [
+    {
+      "sample_id": "s01",
+      "summary": "The book is deliberately cumulative: craft and perspective terminology lead to grids, ellipses, X-Y-Z volumes, then environment/vehicle applications. Later chapters mostly apply the earlier machinery.",
+      "signals": [
+        "overlap",
+        "specialization"
+      ]
+    },
+    {
+      "sample_id": "s02",
+      "summary": "Viewing-position terminology reframes existing camera logic with Station Point, Line of Sight, Picture Plane, and Cone of Vision; the line and ellipse exercises are valuable short activations rather than new perspective theory.",
+      "signals": [
+        "reframing",
+        "specialization"
+      ]
+    },
+    {
+      "sample_id": "s03",
+      "summary": "Rectangle division, multiplication, mirroring, and curve transfer substantially reinforce D’Amelio/White plane metrology; no separate duplicate cards are warranted.",
+      "signals": [
+        "overlap"
+      ]
+    },
+    {
+      "sample_id": "s04",
+      "summary": "Two genuine operational deltas survive: preserving unit scale across rotated grids, and constructing coherent local grids when VPs lie off the page. Underlay and grid-type sections also strengthen scene/distortion workflows.",
+      "signals": [
+        "novelty",
+        "specialization",
+        "reframing"
+      ]
+    },
+    {
+      "sample_id": "s05",
+      "summary": "Robertson strongly supports minor-axis control for practical ellipse placement and rotations, but the universal mathematical scope remains unresolved against the prior exact-circle construction.",
+      "signals": [
+        "overlap",
+        "theory"
+      ]
+    },
+    {
+      "sample_id": "s06",
+      "summary": "X-Y-Z section drawing is a major new volume-construction workflow. The chapter builds forms from draft views, perspective profiles, cross-sections, tangent silhouettes, cuts, and projected surface curves.",
+      "signals": [
+        "novelty",
+        "specialization"
+      ]
+    },
+    {
+      "sample_id": "s07",
+      "summary": "Environment, aircraft, and vehicle chapters validate the portability of grids and section drawing; most are domain applications. Wide-angle/fisheye examples create a later mathematical audit queue rather than immediate universal rules.",
+      "signals": [
+        "overlap",
+        "theory",
+        "specialization"
+      ]
+    }
+  ],
+  "route": "proceed_gate2",
+  "rationale": "Robertson overlaps a mature perspective foundation but clearly contains new construction workflows that cannot be judged from samples alone, especially the grid and X-Y-Z volume chapters. Full reading is required to separate durable methods from vehicle/environment examples and numeric camera heuristics.",
+  "override": null
+}

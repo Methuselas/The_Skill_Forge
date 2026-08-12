@@ -1,0 +1,228 @@
+{
+  "candidate_set_id": "cand-gwen-white-perspective-review-selective-deep-1",
+  "session_id": "gwen-white-perspective-guide-2026-08-08",
+  "baseline_snapshot_hash": "7bb7fe7afe47efc08b62f04fbc8d3064d307a78142ef0a1d7e4b64ebe5ecf266",
+  "status": "candidate",
+  "changes": [
+    {
+      "change_id": "c01",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_measure_true_lengths_on_oblique_planes.md",
+      "delta_ids": [
+        "d05"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.measure_true_lengths_on_oblique_planes"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_white_source",
+        "prov_visual_scan",
+        "prov_cumulative_baseline",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c02",
+      "action": "supersede_card",
+      "target_object_id": "PAT_construct_reflections_across_level_planes",
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_construct_reflections_across_arbitrary_planes.md",
+      "delta_ids": [
+        "d12"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.construct_arbitrary_planar_reflections"
+        ],
+        "changes": [
+          "art.drawing.perspective.construct_level_planar_reflections"
+        ],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_white_source",
+        "prov_visual_scan",
+        "prov_cumulative_baseline",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "human_review",
+        "no_baseline_mutation",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c03",
+      "action": "patch_card",
+      "target_object_id": "PAT_measure_subdivide_and_repeat_on_perspective_planes",
+      "proposed_object_type": "pattern",
+      "artifact_path": "patches/PATCH_measurement_derive_arbitrary_measuring_point.md",
+      "delta_ids": [
+        "d03"
+      ],
+      "capability_effect": {
+        "adds": [],
+        "changes": [
+          "art.drawing.perspective.measure_subdivide_and_repeat_on_planes"
+        ],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_white_source",
+        "prov_cumulative_baseline"
+      ],
+      "validation_requirements": [
+        "human_review",
+        "no_baseline_mutation",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c04",
+      "action": "patch_card",
+      "target_object_id": "AP_construct_cast_shadows_in_perspective",
+      "proposed_object_type": "ap",
+      "artifact_path": "patches/PATCH_cast_shadows_curved_and_multiplane_receivers.md",
+      "delta_ids": [
+        "d08"
+      ],
+      "capability_effect": {
+        "adds": [],
+        "changes": [
+          "art.drawing.perspective.construct_cast_shadows"
+        ],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_white_source",
+        "prov_cumulative_baseline",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "human_review",
+        "no_baseline_mutation",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c05",
+      "action": "patch_card",
+      "target_object_id": "PAT_establish_eye_level_and_vanishing_directions",
+      "proposed_object_type": "pattern",
+      "artifact_path": "patches/PATCH_viewfield_picture_plane_and_central_visual_ray.md",
+      "delta_ids": [
+        "d01"
+      ],
+      "capability_effect": {
+        "adds": [],
+        "changes": [
+          "art.drawing.perspective.establish_eye_level_and_vanishing_directions"
+        ],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_white_source",
+        "prov_cumulative_baseline"
+      ],
+      "validation_requirements": [
+        "human_review",
+        "no_baseline_mutation",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c06",
+      "action": "theory_record",
+      "target_object_id": null,
+      "proposed_object_type": null,
+      "artifact_path": "reports/CONE_OF_RAYS_NUMERIC_HOLD.md",
+      "delta_ids": [
+        "d09",
+        "d10",
+        "d11"
+      ],
+      "capability_effect": {
+        "adds": [],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_white_source",
+        "prov_cumulative_baseline"
+      ],
+      "validation_requirements": [
+        "source_verification",
+        "human_review",
+        "no_baseline_mutation"
+      ]
+    },
+    {
+      "change_id": "c07",
+      "action": "reference_record",
+      "target_object_id": null,
+      "proposed_object_type": null,
+      "artifact_path": "reports/ELLIPSE_AXIS_HOLD_UPDATE.md",
+      "delta_ids": [
+        "d13"
+      ],
+      "capability_effect": {
+        "adds": [],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_white_source",
+        "prov_cumulative_baseline"
+      ],
+      "validation_requirements": [
+        "source_verification",
+        "human_review",
+        "no_baseline_mutation"
+      ]
+    }
+  ],
+  "provenance_records": [
+    {
+      "provenance_id": "prov_white_source",
+      "kind": "source",
+      "source_id": "gwen_white_perspective_guide",
+      "locator": "complete supplied book; physical PDF pp. 1-80 / printed pp. 3-79 plus front matter",
+      "note": "Complete source text read; source terminology and geometric constructions preserved rather than silently replaced."
+    },
+    {
+      "provenance_id": "prov_visual_scan",
+      "kind": "source",
+      "source_id": "gwen_white_perspective_guide",
+      "locator": "physical PDF pp. 1-80; full-book renders/contact sheets plus close review of candidate-bearing sequences",
+      "note": "All 80 physical pages visually scanned; diagrams treated as authoritative where OCR was degraded."
+    },
+    {
+      "provenance_id": "prov_cumulative_baseline",
+      "kind": "source",
+      "source_id": "damelio_norling_perspective_candidate_hold",
+      "locator": "ledger/joseph_damelio_perspective_drawing_handbook/evidence/intake_archive + ledger/ernest_norling_perspective_made_easy/evidence/intake_archive",
+      "note": "Frozen cumulative candidate state used for comparison only; prior files remain byte-unchanged."
+    },
+    {
+      "provenance_id": "prov_synthesis",
+      "kind": "synthesis",
+      "source_id": "candidate_synthesis",
+      "locator": "White complete-book Review + selective Deep PASS",
+      "note": "Consolidated surviving deltas into two Patterns and three patches; broad/redundant material remains reference and questionable claims remain held."
+    }
+  ],
+  "candidate_hash": "e44c1b122d5ab514f908d14ed123458256ceed2e541f8a7c2735f2c1987a0c6c"
+}

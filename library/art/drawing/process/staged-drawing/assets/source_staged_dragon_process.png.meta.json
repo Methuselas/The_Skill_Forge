@@ -1,0 +1,16 @@
+{
+  "origin": "first_party_source",
+  "generator_model": null,
+  "generated_at": "2026-08-01",
+  "prompt": "Direct first-party source reference from the authored staged workflow; no generation prompt.",
+  "source_renders": [
+    "sources/gen1_art_fundamentals_4step/dragon.png"
+  ],
+  "review": {
+    "verdict": "passed",
+    "reviewer": "GPT visual review with user expert instruction",
+    "reviewed_at": "2026-08-01",
+    "method": "vision review of first-party staged source",
+    "note": "The wing, tail, limb, torso, and head landmarks remain attached to one coherent structure from framework through final render."
+  }
+}

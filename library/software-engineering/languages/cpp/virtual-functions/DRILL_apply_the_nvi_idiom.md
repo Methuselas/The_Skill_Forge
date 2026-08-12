@@ -1,0 +1,64 @@
+---
+object_id: DRILL_apply_the_nvi_idiom
+object_type: drill
+name: Apply the Non-Virtual Interface Idiom
+target_skill: Wrapping a public virtual in a non-virtual function with controlled context
+library_path:
+- software-engineering
+- languages
+- cpp
+- virtual-functions
+stage_binding: 2 block
+lane_fit: skill
+foundation_role: specialization
+routing_class: specialized
+specialization_axis: language
+foundation_object_id: none
+tags:
+- cpp
+- virtual_functions
+- nvi
+- template_method
+cross_links:
+- rel: related_to
+  target_object_id: PAT_wrap_virtuals_with_nvi_idiom
+reference:
+  source_id: effective_cpp_3e
+  source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
+  author: Scott Meyers
+  publish_date: 2005
+  media_type: PDF
+  locator: u06, pp. 169-172
+  evidence_type: text
+confidence: high
+references: []
+variants: []
+---
+
+# Apply the Non-Virtual Interface Idiom
+
+## Practice Task
+Given a class with a public virtual `healthValue`, convert it to the non-virtual interface idiom so the base controls the context around the call.
+
+## Target Skill
+Turning a public virtual into a public non-virtual wrapper around a non-public virtual.
+
+## Setup
+No special setup required.
+
+## Instructions
+- Make `healthValue` a public non-virtual function and add a private virtual `doHealthValue` that does the real work.
+- Have the wrapper call the private virtual, adding before-work (lock a mutex, check invariants and preconditions) and after-work (unlock, verify postconditions).
+- Override `doHealthValue` in a derived class and confirm the wrapper's context still runs around it.
+- Note when the virtual must be protected instead of private (when overrides call the base version).
+
+## Success Check
+- Clients call only the non-virtual wrapper; derived classes customize only the private virtual.
+- The setup/teardown context runs on every call regardless of the override.
+
+## Common Failures
+- Leaving the virtual public, so clients bypass the wrapper's context.
+- Assuming a private virtual cannot be overridden — it can; only calling it is restricted.
+
+## Notes
+This drills Item 35's NVI idiom (a Template Method form): derived classes control how via the private virtual, the base controls when via the wrapper.

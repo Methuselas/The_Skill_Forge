@@ -1,0 +1,508 @@
+{
+  "candidate_set_id": "cand-damelio-perspective-deep-1",
+  "session_id": "damelio-perspective-handbook-2026-08-08",
+  "baseline_snapshot_hash": "b0c50e82cac4559893d693812854cd4b83a0f64fbf7ee8c48ead8a9b99ad2e06",
+  "status": "candidate",
+  "changes": [
+    {
+      "change_id": "c01",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_establish_eye_level_and_vanishing_directions.md",
+      "delta_ids": [
+        "d04",
+        "d05"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.establish_eye_level_and_vanishing_directions"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c02",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_choose_convergence_from_view_and_orientation.md",
+      "delta_ids": [
+        "d06"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.choose_convergence_from_view_and_orientation"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c03",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_control_perspective_distortion_with_vanishing_spacing.md",
+      "delta_ids": [
+        "d03",
+        "d08"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.control_distortion_with_vanishing_spacing"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c04",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_carry_scale_through_depth_with_height_and_width_guides.md",
+      "delta_ids": [
+        "d09",
+        "d10",
+        "d19"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.carry_scale_through_depth"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c05",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_measure_subdivide_and_repeat_on_perspective_planes.md",
+      "delta_ids": [
+        "d11",
+        "d12",
+        "d13",
+        "d20"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.measure_subdivide_and_repeat_on_planes"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c06",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_construct_inclined_planes_from_base_vanishing_directions.md",
+      "delta_ids": [
+        "d14"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.construct_inclined_planes"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c07",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_construct_circles_as_ellipses_on_perspective_planes.md",
+      "delta_ids": [
+        "d15"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.construct_projected_circles"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c08",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_align_cylinders_and_cones_to_projected_circle_centers.md",
+      "delta_ids": [
+        "d16"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.align_cylinders_and_cones"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c09",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "pattern",
+      "artifact_path": "candidates/PAT_block_complex_objects_with_perspective_boxes.md",
+      "delta_ids": [
+        "d07"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.block_objects_with_boxes"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c10",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "ap",
+      "artifact_path": "candidates/AP_construct_a_shared_scene_perspective_field.md",
+      "delta_ids": [
+        "d04",
+        "d05",
+        "d06",
+        "d07",
+        "d08",
+        "d09",
+        "d10",
+        "d11",
+        "d13",
+        "d14",
+        "d15",
+        "d16",
+        "d19",
+        "d20"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.construct_shared_scene_field"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c11",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "ap",
+      "artifact_path": "candidates/AP_construct_cast_shadows_in_perspective.md",
+      "delta_ids": [
+        "d17",
+        "d18",
+        "d20"
+      ],
+      "capability_effect": {
+        "adds": [
+          "art.drawing.perspective.construct_cast_shadows"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c12",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "drill",
+      "artifact_path": "candidates/DRILL_rotate_boxes_across_eye_levels.md",
+      "delta_ids": [
+        "d06",
+        "d07"
+      ],
+      "capability_effect": {
+        "adds": [
+          "activation.art.drawing.perspective.box_rotation_warmup"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c13",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "drill",
+      "artifact_path": "candidates/DRILL_diagnose_and_correct_perspective_distortion.md",
+      "delta_ids": [
+        "d08"
+      ],
+      "capability_effect": {
+        "adds": [
+          "activation.art.drawing.perspective.distortion_correction"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c14",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "drill",
+      "artifact_path": "candidates/DRILL_subdivide_a_plane_without_screen_space_guessing.md",
+      "delta_ids": [
+        "d11",
+        "d12"
+      ],
+      "capability_effect": {
+        "adds": [
+          "activation.art.drawing.perspective.plane_metrology_warmup"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c15",
+      "action": "new_card",
+      "target_object_id": null,
+      "proposed_object_type": "drill",
+      "artifact_path": "candidates/DRILL_project_circles_and_cylinders_on_tilted_planes.md",
+      "delta_ids": [
+        "d15",
+        "d16"
+      ],
+      "capability_effect": {
+        "adds": [
+          "activation.art.drawing.perspective.round_form_projection_warmup"
+        ],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_visual_scan",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "schema_valid",
+        "provenance_complete",
+        "source_visuals_reviewed",
+        "cross_book_perspective_reconciliation"
+      ]
+    },
+    {
+      "change_id": "c16",
+      "action": "reference_record",
+      "target_object_id": null,
+      "proposed_object_type": null,
+      "artifact_path": "reports/CH6_PERSPECTIVE_RECONCILIATION.md",
+      "delta_ids": [
+        "d19"
+      ],
+      "capability_effect": {
+        "adds": [],
+        "changes": [],
+        "removes": []
+      },
+      "provenance_refs": [
+        "prov_damelio_source",
+        "prov_hogarth_ch6_context",
+        "prov_synthesis"
+      ],
+      "validation_requirements": [
+        "human_review",
+        "no_canonical_mutation"
+      ]
+    }
+  ],
+  "provenance_records": [
+    {
+      "provenance_id": "prov_damelio_source",
+      "kind": "source",
+      "source_id": "joseph_damelio_perspective_drawing_handbook",
+      "locator": "complete book, printed pp. 8-96; Dover 2004 unabridged reprint of 1964 edition",
+      "note": "Complete numbered instructional text read from the supplied PDF/text layer."
+    },
+    {
+      "provenance_id": "prov_visual_scan",
+      "kind": "source",
+      "source_id": "joseph_damelio_perspective_drawing_handbook",
+      "locator": "physical PDF pages 1-98, rendered contact sheets 1-13",
+      "note": "All 98 physical pages visually inspected; diagrams and page images treated as authoritative where text extraction was incomplete."
+    },
+    {
+      "provenance_id": "prov_hogarth_ch6_context",
+      "kind": "source",
+      "source_id": "held_vnext_candidate_context",
+      "locator": "ledger/burne_hogarth_dynamic_figure_drawing_ocr/evidence/intake_archive/chapter_06/candidates/PAT_build_shared_scene_perspective_from_figure.md",
+      "note": "Held candidate used only as comparison context; it is not counted as frozen canonical baseline."
+    },
+    {
+      "provenance_id": "prov_synthesis",
+      "kind": "synthesis",
+      "source_id": "candidate_synthesis",
+      "locator": "D'Amelio complete-book PASS",
+      "note": "Consolidated related page-level methods into bounded operational cards; no equations or external perspective doctrine added."
+    }
+  ],
+  "candidate_hash": "d7878bab3b3a1ff3e00306f4e7134c90c3fcff39905d70c339c9f3a73d20bcbc"
+}

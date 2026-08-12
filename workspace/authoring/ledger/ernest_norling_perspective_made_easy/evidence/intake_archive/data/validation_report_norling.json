@@ -1,0 +1,144 @@
+{
+  "validation_id": "val-norling-perspective-review-targeted-1",
+  "candidate_set_id": "cand-norling-perspective-review-targeted-1",
+  "candidate_hash": "b3122ed1808b2a77b4f807e2d15948bf617809b1d8f39115146e1850e0c0e4e8",
+  "baseline_snapshot_hash": "c607bb20e4a3d6b98a917006b716aed145b48dc9be2eac9072d841ce2c322de9",
+  "checks": [
+    {
+      "check_id": "intake_session_schema",
+      "result": "pass",
+      "blocking": true,
+      "note": "PASS vNext Step 3 intake-session schema validation passed."
+    },
+    {
+      "check_id": "gate1_schema",
+      "result": "pass",
+      "blocking": true,
+      "note": "Gate 1 report schema validation passed."
+    },
+    {
+      "check_id": "gate2_schema",
+      "result": "pass",
+      "blocking": true,
+      "note": "Gate 2 report schema validation passed."
+    },
+    {
+      "check_id": "delta_map_schema",
+      "result": "pass",
+      "blocking": true,
+      "note": "Complete Norling delta map schema validation passed."
+    },
+    {
+      "check_id": "candidate_set_schema",
+      "result": "pass",
+      "blocking": true,
+      "note": "Norling candidate change-set schema validation passed."
+    },
+    {
+      "check_id": "candidate_card_frontmatter",
+      "result": "pass",
+      "blocking": true,
+      "note": "All 3 new candidate cards validate against the Step 1 vNext frontmatter schema."
+    },
+    {
+      "check_id": "candidate_card_body_contract",
+      "result": "pass",
+      "blocking": true,
+      "note": "Both Patterns and the AP include their required vNext body headings."
+    },
+    {
+      "check_id": "artifact_delta_links",
+      "result": "pass",
+      "blocking": true,
+      "note": "All candidate-set artifact paths exist and every referenced delta/provenance id resolves."
+    },
+    {
+      "check_id": "source_hash",
+      "result": "pass",
+      "blocking": true,
+      "note": "Norling PDF SHA-256 matches 781c8c782bb3cd6af20648d3357d55465eb04dbe5dd920df0d20c1a724a8f802."
+    },
+    {
+      "check_id": "golden_repo_hash",
+      "result": "pass",
+      "blocking": true,
+      "note": "Original golden repo ZIP SHA-256 matches 373420fb1ec0c92f46991630b37424b74eb14ed69b9699088f89d610ec2b54eb."
+    },
+    {
+      "check_id": "damelio_candidate_repo_hash",
+      "result": "pass",
+      "blocking": true,
+      "note": "Frozen D’Amelio candidate repo ZIP SHA-256 matches 21d85608e7763b266901b55e3f9d5a62b121d42350ef44ab84af1dc94eb02375."
+    },
+    {
+      "check_id": "damelio_candidate_baseline_unchanged",
+      "result": "pass",
+      "blocking": true,
+      "note": "All 15 D’Amelio perspective candidate card hashes still match the Norling context-load snapshot."
+    },
+    {
+      "check_id": "damelio_repo_outside_norling_intake_byte_identity",
+      "result": "pass",
+      "blocking": true,
+      "note": "All 1093 files from the D’Amelio candidate repo archive are byte-identical and there are no added files outside the new Norling intake."
+    },
+    {
+      "check_id": "source_text_complete",
+      "result": "pass",
+      "blocking": true,
+      "note": "All twenty instructional Steps and printed pp. 1-203 were read."
+    },
+    {
+      "check_id": "source_visuals_complete",
+      "result": "pass",
+      "blocking": true,
+      "note": "All 228 physical PDF pages were rendered and visually scanned; candidate-bearing sequences received close review at higher resolution."
+    },
+    {
+      "check_id": "step3_architecture_tests",
+      "result": "pass",
+      "blocking": true,
+      "note": "PASS vNext Step 3 test suite: 15 passed."
+    },
+    {
+      "check_id": "root_unit_tests",
+      "result": "pass",
+      "blocking": true,
+      "note": "Scoped root unit suite with repository on PYTHONPATH: 78 passed, 4 Pillow deprecation warnings."
+    },
+    {
+      "check_id": "root_library_validation",
+      "result": "pass",
+      "blocking": true,
+      "note": "tools/validate.py: PASS, 268 canonical objects validated."
+    },
+    {
+      "check_id": "progressive_overlap_control",
+      "result": "pass",
+      "blocking": false,
+      "note": "Norling produced only 3 new cards; overlapping material was routed to reference or patch proposals rather than duplicate foundations."
+    },
+    {
+      "check_id": "questionable_ellipse_claim_hold",
+      "result": "pass",
+      "blocking": false,
+      "note": "The broad ellipse-axis T mnemonic is explicitly held as questionable pending White/Robertson/Viewpoints reconciliation."
+    },
+    {
+      "check_id": "stage_doctrine_hold",
+      "result": "pass",
+      "blocking": false,
+      "note": "All 3 new vNext candidate cards use empty development-stage bindings while Stage doctrine remains held."
+    },
+    {
+      "check_id": "perspective_curriculum_reconciliation_pending",
+      "result": "warn",
+      "blocking": true,
+      "note": "Canonical promotion remains intentionally blocked until White, Robertson, Gill, and the chosen Viewpoints audit are reconciled into the Perspective curriculum."
+    }
+  ],
+  "blocking_failures": [
+    "perspective_curriculum_reconciliation_pending"
+  ],
+  "ready_to_commit": false
+}

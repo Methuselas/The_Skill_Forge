@@ -1,0 +1,36 @@
+{
+  "session_id": "hogarth-dfd-ch05-2026-08-07",
+  "baseline_snapshot_hash": "4c4cc9eb9a08c8659263c78e86ea2ce0b52e0b2f4a4998374633b67e5a8bfb48",
+  "coverage": "complete",
+  "routes": [
+    {
+      "scope_locator": "printed pp.135-143",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "ch5_d1",
+        "ch5_d2",
+        "ch5_d3"
+      ],
+      "reason": "One useful new diagnostic capability emerges: validate apparent limb length by fixed segment reach from a joint pivot; the rest reinforces existing foreshortening construction."
+    },
+    {
+      "scope_locator": "printed pp.144-149",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "ch5_d4",
+        "ch5_d5"
+      ],
+      "reason": "Triangle and body-contact checks are useful as optional diagnostics and examples, but do not justify separate foundation cards."
+    },
+    {
+      "scope_locator": "human teaching, 2026-08-07",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "ch5_d6"
+      ],
+      "reason": "Teacher guidance narrows extraction toward range-of-motion correction and away from redundant compulsory geometry."
+    }
+  ],
+  "rationale": "Chapter 5 is a Targeted PASS, not a Deep PASS: it adds a compact reach/range diagnostic that complements Chapter 4, while most examples reinforce already-established joint-chain, proportion, and foreshortening knowledge.",
+  "override": null
+}

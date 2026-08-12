@@ -1,0 +1,16 @@
+{
+  "origin": "first_party_source",
+  "generator_model": null,
+  "generated_at": "2026-08-05",
+  "prompt": "User-supplied first-party calibration artifact: grayscale broad-marker chimera thumbnail.",
+  "source_renders": [
+    "sources/guided_stage_density_gates_2026_08_05/stage0a_standard_marker_chimera.png"
+  ],
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT analysis",
+    "reviewed_at": "2026-08-05",
+    "method": "human-guided visual comparison against requested Stage 0 density profiles",
+    "note": "Approved default Stage 0A density target: recognizable creature and action through broad grayscale marker masses without resolved finish."
+  }
+}

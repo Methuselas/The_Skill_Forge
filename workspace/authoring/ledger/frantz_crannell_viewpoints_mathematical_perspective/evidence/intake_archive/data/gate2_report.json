@@ -1,0 +1,84 @@
+{
+  "session_id": "frantz-crannell-viewpoints-perspective-math-audit-2026-08-08",
+  "baseline_snapshot_hash": "2fc94d3112bb585c3821619269fe9f1fdd11768072c91aeacc29d18b088b6f5c",
+  "coverage": "complete",
+  "routes": [
+    {
+      "scope_locator": "Chapter 1, printed pp. 1-12",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "d01"
+      ],
+      "reason": "Window-plane projection and coordinate framing mostly reinforce prior picture-plane concepts; the exact eye/plane model is retained as internal derivation."
+    },
+    {
+      "scope_locator": "Chapter 2, printed pp. 13-23",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d01"
+      ],
+      "reason": "The Perspective Theorem is the cleanest formal statement of the camera projection model and validates the exact-camera variant without creating a math-heavy runtime card."
+    },
+    {
+      "scope_locator": "Chapter 3, printed pp. 29-38",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d02",
+        "d03"
+      ],
+      "reason": "Formal vanishing-point geometry and exact one-point station recovery directly resolve provisional visual-ray/camera patches."
+    },
+    {
+      "scope_locator": "Chapter 4, printed pp. 43-58",
+      "route": "reference",
+      "delta_ids": [
+        "d04"
+      ],
+      "reason": "One-point rectangles, centers, and repeated spacing strongly overlap the mature plane-metrology cards."
+    },
+    {
+      "scope_locator": "Chapter 5, printed pp. 59-76",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d05",
+        "d06"
+      ],
+      "reason": "The viewing semicircle supplies the missing mathematical explanation for coupled two-point VPs, station recovery, and apparent distortion."
+    },
+    {
+      "scope_locator": "Chapter 6, printed pp. 85-116",
+      "route": "deep_pass",
+      "delta_ids": [
+        "d07",
+        "d08",
+        "d09",
+        "d10",
+        "d12"
+      ],
+      "reason": "This is the core audit: three-point validity theorem, exact viewpoint/distance, skyscraper paradox, and spherical projection settle the major open viewfield/projection questions."
+    },
+    {
+      "scope_locator": "Chapter 7 + movie interlude, printed pp. 117-138",
+      "route": "targeted_pass",
+      "delta_ids": [
+        "d11",
+        "d13"
+      ],
+      "reason": "Anamorphosis and forced perspective reinforce viewpoint-lock logic and expose useful special effects; they do not solve the ellipse-axis theorem or require a new core card."
+    },
+    {
+      "scope_locator": "Color plates, physical pp. 154-165",
+      "route": "reference",
+      "delta_ids": [
+        "d10",
+        "d11"
+      ],
+      "reason": "The plates visually support spherical/anamorphic examples but add no independent operational rule."
+    }
+  ],
+  "rationale": "Viewpoints earns a surgical Deep mathematical audit, not a broad new perspective curriculum. Exact camera/viewpoint logic and Chapter 6 materially alter the cumulative system; one-point construction drills and special-effect examples mostly remain reference.",
+  "override": {
+    "authority": "user",
+    "reason": "Scope intentionally stops before Chapter 8, where the book changes subject to fractal geometry."
+  }
+}

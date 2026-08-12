@@ -1,0 +1,127 @@
+{
+  "session_id": "gwen-white-perspective-guide-2026-08-08",
+  "baseline_snapshot_hash": "7bb7fe7afe47efc08b62f04fbc8d3064d307a78142ef0a1d7e4b64ebe5ecf266",
+  "sampling_plan": [
+    {
+      "sample_id": "s1",
+      "stratum": "structure",
+      "locator": "foreword, abbreviations, contents; PDF pp. 2-3",
+      "purpose": "Map White’s terminology and full topic progression against the cumulative perspective curriculum."
+    },
+    {
+      "sample_id": "s2",
+      "stratum": "known_overlap",
+      "locator": "printed pp. 3-24; PDF pp. 4-25",
+      "purpose": "Compare ground/picture plane, eye level, plan projection, scale transfer, curves, stairs, and level reflections with D’Amelio + Norling."
+    },
+    {
+      "sample_id": "s3",
+      "stratum": "unknown_territory",
+      "locator": "printed pp. 25-28; PDF pp. 26-29",
+      "purpose": "Test White’s arbitrary measuring-point derivation and geometric proof for a genuine metric delta."
+    },
+    {
+      "sample_id": "s4",
+      "stratum": "user_targeted",
+      "locator": "printed pp. 42-49; PDF pp. 43-50",
+      "purpose": "Deep-sample the oblique/inclined-plane section, a known target from the reading order and user routing expectations."
+    },
+    {
+      "sample_id": "s5",
+      "stratum": "example_or_visual",
+      "locator": "printed pp. 54-69; PDF pp. 55-70",
+      "purpose": "Compare White’s sun/artificial shadow constructions, receiver changes, and curved surfaces with the held cast-shadow AP."
+    },
+    {
+      "sample_id": "s6",
+      "stratum": "domain_specific",
+      "locator": "printed pp. 70-71; PDF pp. 71-72",
+      "purpose": "Inspect cone-of-rays, tipped Picture Plane, and panorama guidance for distortion/camera-model deltas."
+    },
+    {
+      "sample_id": "s7",
+      "stratum": "late_source",
+      "locator": "printed pp. 72-79; PDF pp. 73-80",
+      "purpose": "Check whether tipped/vertical mirror reflections generalize Norling’s level-plane reflection capability."
+    },
+    {
+      "sample_id": "s8",
+      "stratum": "user_targeted",
+      "locator": "project reading order + current Perspective sequence",
+      "purpose": "Apply progressive overlap control: Deep only where White materially exceeds the D’Amelio + Norling candidate state."
+    }
+  ],
+  "observations": [
+    {
+      "sample_id": "s1",
+      "summary": "White is a rigorous construction manual organized from parallel and angular perspective into oblique planes, shadows, cone of rays, and reflections; the back half is materially more technical than the already-held artist-facing foundation.",
+      "signals": [
+        "overlap",
+        "specialization",
+        "novelty"
+      ]
+    },
+    {
+      "sample_id": "s2",
+      "summary": "The early ground/picture-plane and plan/elevation material is strong but mostly reinforces established eye-level, scale-transfer, grid, plan-projection, curve-transfer, and level-reflection candidates.",
+      "signals": [
+        "overlap",
+        "reframing"
+      ]
+    },
+    {
+      "sample_id": "s3",
+      "summary": "White explicitly derives the measuring point for an arbitrary horizontal vanishing direction and supplies a geometric proof, strengthening D’Amelio’s existing measuring-line branch without needing a duplicate foundation card.",
+      "signals": [
+        "reframing",
+        "specialization"
+      ]
+    },
+    {
+      "sample_id": "s4",
+      "summary": "The oblique section adds exact metric handling of ascending/descending planes through plane vanishing lines and ascending/descending measuring points; this survives as a specialized new capability.",
+      "signals": [
+        "novelty",
+        "specialization"
+      ]
+    },
+    {
+      "sample_id": "s5",
+      "summary": "Sun and point-light basics overlap D’Amelio, but White materially deepens receiver handling when shadows cross inclined/vertical planes or land on curved surfaces.",
+      "signals": [
+        "overlap",
+        "specialization",
+        "reframing"
+      ]
+    },
+    {
+      "sample_id": "s6",
+      "summary": "The central-visual-ray/picture-plane model is useful, but White’s fixed 60-degree cone/1.5x-distance rule should not be promoted as a universal law before modern/mathematical reconciliation.",
+      "signals": [
+        "reframing",
+        "quality_concern",
+        "theory"
+      ]
+    },
+    {
+      "sample_id": "s7",
+      "summary": "Vertical and tipped mirrors require reflected direction families derived from the mirror geometry, clearly generalizing the Norling level-plane reflection Pattern.",
+      "signals": [
+        "novelty",
+        "specialization"
+      ]
+    },
+    {
+      "sample_id": "s8",
+      "summary": "Gate 1 supports a mixed route: Review for most of the book, targeted strengthening patches, and Deep PASS only for oblique metric construction and general planar reflections.",
+      "signals": [
+        "overlap",
+        "novelty",
+        "specialization"
+      ]
+    }
+  ],
+  "route": "proceed_gate2",
+  "rationale": "White overlaps heavily with the cumulative foundation but contains two high-value technical deltas plus several exactness/receiver-model refinements that justify a complete Gate 2 read.",
+  "override": null
+}

@@ -1,0 +1,91 @@
+---
+object_id: DRILL_notate_action_figures_without_reference
+object_type: drill
+name: Notate Action Figures Without Reference
+library_path:
+- art
+- drawing
+- subjects
+- figure
+- construction
+stage_binding: 2 block
+lane_fit: both
+foundation_role: specialization
+routing_class: specialized
+specialization_axis: medium
+foundation_object_id: none
+tags:
+- figure_drawing
+- figure_notation
+- invention
+- deliberate_practice
+- animal_drawing
+- visualization
+- animal_construction
+- viewpoint_transfer
+- imagination
+cross_links:
+- rel: teaches
+  target_object_id: AP_notate_a_figure_in_structural_order
+reference:
+  source_id: burne_hogarth_dynamic_figure_drawing_ocr
+  source_title: Dynamic Figure Drawing
+  author: Burne Hogarth
+  publish_date: 1970
+  media_type: book
+  locator: ch02, printed pp. 61-64
+  evidence_type: mixed
+confidence: high
+target_skill: inventing a readable action figure from internal visualization while preserving the torso-legs-arms-head construction order
+references: []
+variants:
+- variant_id: VAR_bammes_rebuild_animal_action_from_simplified_forms_at_new_viewpoint
+  variant_name: Rebuild Animal Action From Simplified Forms at a New Viewpoint
+  variant_basis: method_sequence
+  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
+  source_title: The Artist's Guide to Animal Anatomy
+  locator: u15, printed pp. 60-64; physical pp. 58-62
+  difference_from_foundation: 'Adds Bammes''s animal visualization route: after systematic observation and anatomy study, reduce an animal action to linked trunk-neck-head and limb forms, establish the spatial directions and movement, differentiate the forms and add joints/free modeling masses, then reconstruct the same action from an altered viewing angle and optionally through a different medium or related animal type. The changed view is a test of internalized structure rather than a request to copy the original silhouette from memory.'
+  when_to_use: Use after studying an animal pose, anatomy, or movement when you want to test whether the construction can be mentally rotated, adapted, and rebuilt instead of merely recalled from the original view.
+  when_not_to_use: Do not use the imagination pass before the species structure and proportions have been studied, and do not invent unsupported anatomy merely to make the new angle look plausible.
+  absorbed_from_object_id: none
+---
+
+# Notate Action Figures Without Reference
+
+## Practice Task
+Create a page of eight invented action figures from memory, each carried from a minimal framework into a Stage 2 notation.
+
+## Target Skill
+Inventing a readable action figure from internal visualization while preserving the torso-legs-arms-head construction order.
+
+## Setup
+Study the relevant construction notes and examples first, then close all models, photographs, and illustrated references for the attempt. Choose actions that encourage extension, thrust, compression, balance, and change of direction rather than repeating one safe pose.
+
+## Instructions
+1. Place each Step 1 framework with an action line, simple torso and head ovals, hip box, limb paths, joints, hands, and foot wedges.
+2. For each figure, carry the action line into the torso centerline and construct the torso masses first.
+3. Add the legs through the pelvic wedge and make the support, propulsion, suspension, or momentum believable.
+4. Add the linked arm pair through the appropriate shoulder yoke.
+5. Resolve the head and neck last according to the action's context.
+6. Mark any lumpy or detached recession problem for later Chapter 3 correction instead of hiding it with anatomy or shading.
+7. After the page is complete, reopen the notes, diagnose one recurring weakness, study that point, and repeat two figures without looking.
+
+## Success Check
+- All eight figures retain one governing torso action from framework through block.
+- At least six figures show distinct weight, momentum, or support conditions without explanatory arrows.
+- Arms attach as a coordinated pair, and heads complete rather than redirect the body action.
+- Hands and feet already look structurally plausible at Stage 2.
+- Any segmented depth problem is named honestly rather than concealed.
+
+## Common Failures
+- Starting with an expressive head or hand and building the body around it.
+- Reusing one passive stance because it feels safe.
+- Drawing attractive limb contours with no pelvic or shoulder attachment.
+- Opening references during every uncertain mark instead of testing retained understanding.
+- Treating a Chapter 3 unity problem as proof that the Chapter 2 order failed.
+
+## Notes
+Reference-free work is a Drill condition, not a universal production rule. The point is to test whether the studied construction has become usable internal vision. Production drawing may and should use subject and construction references when they improve accuracy. "Free and open" belongs to this action-invention exercise; restrained or compressed production poses remain valid when the context requires them.
+
+`VAR_bammes_rebuild_animal_action_from_simplified_forms_at_new_viewpoint` adapts the same reference-free test to animal construction. Bammes begins from simplified linked forms, solves their spatial directions and movement, then adds anatomical differentiation and redraws the same bucking action from a changed three-quarter view. The useful test is not whether the remembered outline matches; it is whether the action and anatomy remain coherent after the camera changes.

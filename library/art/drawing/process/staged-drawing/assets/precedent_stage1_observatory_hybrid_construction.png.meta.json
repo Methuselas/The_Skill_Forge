@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-06",
+  "prompt": "Regenerate Stage 1 from frozen Candidate 1 while preserving the exact composition; use a full draw-through figure, artist-chosen hybrid construction, and a clear horizon line.",
+  "source_renders": [
+    "sources/guided_stage1_stage3_artist_discretion_2026_08_06/stage1_observatory_hybrid_construction.png"
+  ],
+  "generation": {
+    "gen_id": "74ee1de4-549a-4ba9-bf54-150a242a3e08",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-06",
+    "method": "human-guided stage-density, continuity, and parentage review",
+    "note": "Approved Stage 1 keeper. Heavy but valid; clear enough to build Stage 2 without guessing."
+  }
+}

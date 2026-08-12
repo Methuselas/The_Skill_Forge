@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-06",
+  "prompt": "Expand the approved Stage 1 observatory into Stage 2 connected masses, preserve the composition and inventory, and avoid shadow or shading unless structurally necessary.",
+  "source_renders": [
+    "sources/guided_stage1_stage3_artist_discretion_2026_08_06/stage2_observatory_complete_mass_block.png"
+  ],
+  "generation": {
+    "gen_id": "0145305f-6335-48c8-93e3-c500450bf6ce",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-06",
+    "method": "human-guided stage-density, continuity, and parentage review",
+    "note": "Approved Stage 2 precedent. Complete minimum block inventory with no premature rendering."
+  }
+}
