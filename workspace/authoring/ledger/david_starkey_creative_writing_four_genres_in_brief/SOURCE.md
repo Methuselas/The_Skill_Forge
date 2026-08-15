@@ -25,4 +25,4 @@ Forty-five bounded source-native units follow the book's named instructional sec
 
 ## Summary
 
-In progress.
+In progress. Unit u01 is processed: 4 new teaching objects, 0 variants, and 5 rejected or deferred candidates. Forty-four units remain queued.

@@ -1,6 +1,6 @@
 | unit_id | label | locator | status | objects | notes |
 |---|---|---|---|---|---|
-| u01 | Preface: A Few Words to Instructors | printed/physical PDF pp. 11-26 | in-progress | | claimed as the first queued source-native instructional unit on 2026-08-14 |
+| u01 | Preface: A Few Words to Instructors | printed/physical PDF pp. 11-26 | processed | 4 new, 0 variants | short-form curriculum, matched models, genre cycle, and asynchronous workshop preparation |
 | u02 | A Few Things You Should Know about Creative Writing | printed/physical PDF pp. 27-36 | queued | | shared writing foundations |
 | u03 | A Few Words about Revision | printed/physical PDF pp. 37-42 | queued | | recursive revision and feedback routes |
 | u04 | Writing Poetry: Orientation, Elements, and Three Models | printed/physical PDF pp. 43-58 | queued | | layout extraction required for poems |
