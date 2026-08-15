@@ -2,7 +2,7 @@
 |---|---|---|---|---|---|
 | u001 | PREFACE: A Few Words to Instructors | physical pp. 11-15 | processed | 3 | read twice; 3 new Teaching objects approved by MaDin on 2026-08-15 |
 | u002 | Additional resources for Creative Writing: Four Genres in Brief | physical pp. 16-20 | processed | 2 | read twice; 2 new Teaching objects and 2 Teaching variants approved by MaDin on 2026-08-15 |
-| u003 | A Few Things You Should Know about Creative Writing | physical pp. 27-36 | queued |  | source outline |
+| u003 | A Few Things You Should Know about Creative Writing | physical pp. 27-36 | in-progress |  | source outline |
 | u004 | A Few Words about Revision | physical pp. 37-42 | queued |  | source outline |
 | u005 | 1 Writing Poetry | physical pp. 43-48 | queued |  | outline depth 0 |
 | u006 | The elements of poetry | physical pp. 49-50 | queued |  | outline depth 1 |
