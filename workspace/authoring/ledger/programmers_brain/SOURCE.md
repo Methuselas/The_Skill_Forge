@@ -9,7 +9,7 @@ payload_path: sources/programmers_brain/The_Programmers_Brain.pdf
 sha256:       52063e7300c1f52095b594da93ee75d42fe4b2cd4991be55f0305a0e39cbaa0b
 pdf_page_offset: 26
 added:        2026-08-01
-status:       in-progress
+status:       complete
 
 ## Unit scheme
 

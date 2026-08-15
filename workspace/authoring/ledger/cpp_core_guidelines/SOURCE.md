@@ -9,6 +9,8 @@ payload_path: sources/cpp_core_guidelines/CppCoreGuidelines.md
 sha256:       be29ae459bc206916c0737117ae43a1d4ac601fe2bf18cb6c10186613f083fa2
 added:        2026-08-01
 status:       queued
+unit_ledger_contract: 3
+teaching_lane_grandfathered_units: none
 
 ## Unit scheme (planned)
 

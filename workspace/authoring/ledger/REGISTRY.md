@@ -2,7 +2,7 @@
 
 status: active
 owner: docs/domains/corpus
-last_reviewed: 2026-07-30
+last_reviewed: 2026-08-15
 
 **This file is the duplicate guard.** Before creating a `source_id` or a
 `ledger/<source_id>/` folder, hash the file and search this table for that hash.
@@ -39,7 +39,7 @@ can go stale. If they disagree, the ledger wins.
 
 | george_bridgman_constructive_anatomy | Constructive Anatomy | George B. Bridgman | dadc7dd89aee | complete | 14/14 | 19 variants | committed |
 | george_bridgman_book_of_a_hundred_hands | The Book of a Hundred Hands | George B. Bridgman | 3aafe728e331 | complete | 1/1 | 0 new, 2 variants | committed 2026-08-10 |
-| michael_hampton_figure_drawing_design_and_invention | Figure Drawing: Design and Invention | Michael Hampton | 59a7bb127ad7 | in-progress | 9/10 | 4 new, 14 variants | |
+| michael_hampton_figure_drawing_design_and_invention | Figure Drawing: Design and Invention | Michael Hampton | 59a7bb127ad7 | complete | 10/10 | 4 new, 14 variants | committed 2026-08-09 |
 
 | andrew_loomis_figure_drawing_for_all_its_worth | Figure Drawing for All It's Worth | Andrew Loomis | 30d591db0940 | complete | 12/12 | 2 new, 15 variants | committed |
 | andrew_loomis_drawing_the_head_and_hands | Drawing the Head and Hands | Andrew Loomis | 8572e461e877 | complete | 10/10 | 7 new, 23 variants | committed 2026-08-09 |
@@ -77,4 +77,4 @@ can go stale. If they disagree, the ledger wins.
 | programmers_brain | The Programmer's Brain: What Every Programmer Needs to Know About Cognition | Felienne Hermans | 52063e7300c1 | complete | 13/13 | 66 new, 19 variants | 2026-08-13 |
 | effective_cpp_3e | Effective C++, 3rd ed. | Scott Meyers | 4f983195c37c | complete | 9/9 | 80 | 2026-08-01 |
 | cpp_core_guidelines | C++ Core Guidelines | Stroustrup & Sutter (eds.) | be29ae459bc2 | queued | | | |
-| code_complete_2e | Code Complete: A Practical Handbook of Software Construction, 2nd Ed. | Steve McConnell | c321aafe9402 | in-progress | 3/35 | 13 new, 1 variant | |
+| code_complete_2e | Code Complete: A Practical Handbook of Software Construction, 2nd Ed. | Steve McConnell | c321aafe9402 | in-progress | 4/35 | 16 new, 2 variants | |
