@@ -67,7 +67,7 @@ can go stale. If they disagree, the ledger wins.
 | vladimir_mogilevtsev_fundamentals_of_drawing | Fundamentals of Drawing | V. A. Mogilevtsev | 178328b32aaa | complete | 11/11 | 2 new, 12 variants, 2 refinements | committed 2026-08-14 |
 
 <!-- Writing and teaching candidates sourced from writing books. -->
-| david_starkey_creative_writing_four_genres_in_brief_3e | Creative Writing: Four Genres in Brief, Third Edition | David Starkey | 4dcdd06e0727 | in-progress | 0/151 | | |
+| david_starkey_creative_writing_four_genres_in_brief_3e | Creative Writing: Four Genres in Brief, Third Edition | David Starkey | 4dcdd06e0727 | in-progress | 1/151 | 3 new | |
 
 <!-- Software engineering. These four rows were dropped from the working copy during an
      unrelated edit to this shared table and are restored here; `programmers_brain` is
