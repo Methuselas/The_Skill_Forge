@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_match_models_to_learner_output_scale
 - rel: related_to
   target_object_id: PAT_shrink_practice_scope_to_preserve_revision
+- rel: related_to
+  target_object_id: PAT_verify_understanding_through_application_not_verbal_assent
 reference:
   source_id: david_starkey_creative_writing_four_genres_in_brief_3e
   source_title: 'Creative Writing: Four Genres in Brief, Third Edition'

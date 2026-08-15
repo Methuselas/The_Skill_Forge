@@ -297,6 +297,17 @@ variants:
   when_to_use: "Use when a large tone is correctly grouped but reads pasted-on, tinny, dead, or mechanically even and a small amount of internal variation can restore life without changing the large value design."
   when_not_to_use: "Do not break every quiet field with texture or noise, and do not scatter accents until one coherent mass becomes many unrelated patches. Flatness may be intentionally graphic, atmospheric, or structurally useful; preserve it when it serves the picture."
   absorbed_from_object_id: none
+- variant_id: VAR_pyle_compress_halftones_to_preserve_light_shadow_grouping
+  variant_name: Compress Halftones to Preserve the Large Light/Shadow Grouping
+  variant_basis: method_sequence
+  source_id: andrew_loomis_creative_illustration
+  source_title: Creative Illustration
+  locator: u08, physical PDF pp. 126-133; printed pp. 136-143
+  difference_from_foundation: 'Adds the Pyle/Loomis gamut-compression heuristic: when the available value range lets light-family halftones sink too dark or reflected lights in shadow rise too high, bias those transitions back toward their parent illumination family so the large light-versus-shadow read survives.'
+  when_to_use: Use when local transitions are individually plausible but the picture loses unity because light and shadow families overlap so broadly that the illumination pattern becomes ambiguous.
+  when_not_to_use: Do not force a rigid two-value split or prohibit legitimate crossings such as a light local-value object in shadow remaining lighter than a dark local-value object in light; material, reflected light, exposure, and emphasis still govern.
+  absorbed_from_object_id: none
+
 ---
 
 # Consolidate Resolved Form With Tone
@@ -358,4 +369,6 @@ Dodson supplies the subject-general value organization: map large light/dark rel
 `VAR_loomis_shift_whole_picture_value_key_while_preserving_internal_relations` adds Loomis's whole-picture key-remapping route: shift the picture broadly lighter or darker while preserving enough internal value ordering to keep the subject coherent, then judge whether the new key better serves the intended picture.
 
 `VAR_loomis_break_uniform_tonal_fields_without_losing_value_family` adds a local vitality check after the broad mass is already correct: break mechanical smoothness with restrained modulation or accents while keeping the field inside one coherent value family.
+
+`VAR_pyle_compress_halftones_to_preserve_light_shadow_grouping` adds a bounded gamut-compression route: when light-family halftones and shadow-family reflections overlap so broadly that illumination loses unity, bias transitions back toward their parent family without erasing legitimate local-value crossings.
 
