@@ -8,18 +8,25 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - **Assume It Is Not Easy, Because You Cannot Remember It Being Hard** — read first
   - then: Work Out Which Stage a Learner Is At Before Choosing How to Help
+- **Assess the Groundwork You Inherited Before Writing Code** — read first
+  - then: Refuse to Implement an Architecture You Cannot Follow
+  - then: Write Down the Problem in Terms That Name No Solution
 
 ## Objects
 
+- [Assess the Groundwork You Inherited Before Writing Code](AP_assess_construction_prerequisites_before_building.md) - ap; 0 design.
 - [Assume It Is Not Easy, Because You Cannot Remember It Being Hard](PAT_account_for_the_curse_of_expertise_when_onboarding.md) - pattern; 0 design.
 - [Explain a Concept as a Wave — Abstract, Concrete, Abstract Again](PAT_teach_along_a_semantic_wave.md) - pattern; 0 design.
 - [Externalize Enough State That an Interruption Cannot Cost You the Context](PAT_prepare_for_interruption_before_it_arrives.md) - pattern; 3 rough.
 - [Give a Newcomer One Programming Activity, Not Four](PAT_give_a_newcomer_one_activity_at_a_time.md) - pattern; 0 design.
 - [Grow a System From a Running Skeleton](AP_grow_a_system_from_a_running_skeleton.md) - ap; 1 skeleton.
 - [Interrupt People Between Tasks, Not Inside Them](PAT_interrupt_at_task_boundaries.md) - pattern; 4 final.
+- [Iterating Does Not Buy You Out of the Upfront Work](PAT_do_prerequisites_per_increment_when_iterating.md) - pattern; 0 design.
 - [Name the Activity You Are In, Then Support the Memory It Taxes](PAT_support_the_memory_system_the_activity_taxes.md) - pattern; 0 design.
 - [Pick the Method Per Problem Instead of Committing to One](PAT_keep_a_toolbox_instead_of_adopting_one_methodology.md) - pattern; 0 design.
 - [Prepare an Onboarding That Supports All Three Memory Systems](AP_prepare_an_onboarding_for_all_three_memory_systems.md) - ap; 0 design.
+- [Quote the Cost of a New Requirement Rather Than Swallowing It](PAT_price_a_requirements_change_instead_of_absorbing_it.md) - pattern; 3 rough.
+- [Set Ceremony by What Failure Costs, Not by Habit](PAT_scale_formality_to_the_kind_of_software.md) - pattern; 0 design.
 - [Take On the Whole Construction Span, Not Just the Code](PAT_scope_construction_beyond_writing_the_code.md) - pattern; 0 design.
 - [Work Out Which Stage a Learner Is At Before Choosing How to Help](PAT_locate_a_learner_on_the_neo_piagetian_stages.md) - pattern; 0 design.
 - [You Can Only Multitask What You Have Already Automatized](PAT_dont_multitask_what_you_have_not_automatized.md) - pattern; 0 design.

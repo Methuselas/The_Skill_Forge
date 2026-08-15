@@ -23,6 +23,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - [Classify an Error's Recoverability From Each Call Site](DRILL_classify_error_recoverability_from_call_site.md) - drill; 2 block.
 - [Classify Error Recoverability From the Caller's Position](PAT_classify_error_recoverability_by_caller.md) - pattern; 0 design.
+- [Decide Error Handling Once for the System, Not Once Per Function](PAT_settle_one_error_handling_strategy_systemwide.md) - pattern; 0 design.
 - [Decide How to Signal and Handle an Error](AP_decide_how_to_signal_and_handle_an_error.md) - ap; 2 block.
 - [Don't Hide Errors Behind Default or Silent Results](PAT_dont_hide_errors.md) - pattern; 2 block.
 - [Fail Fast So Errors Surface Near Their Source](PAT_fail_fast_near_error_source.md) - pattern; 2 block.
