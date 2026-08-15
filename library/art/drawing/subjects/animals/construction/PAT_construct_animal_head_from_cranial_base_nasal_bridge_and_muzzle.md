@@ -13,7 +13,7 @@ lane_fit: both
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: domain
-foundation_object_id: PAT_construct_head_from_cranial_ball_and_facial_wedge
+foundation_object_id: none
 tags:
 - animal_drawing
 - animal_head

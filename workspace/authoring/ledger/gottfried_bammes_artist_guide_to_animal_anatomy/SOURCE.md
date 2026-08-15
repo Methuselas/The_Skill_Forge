@@ -9,8 +9,8 @@ payload_path: sources/animal_anatomy/gottfried_bammes_artist_guide_to_animal_ana
 pdf_page_offset: -2
 sha256: 57ad055fadae85e1c15f85af1cc5803155354a3a143554503ef92b92bc96e26d
 added: 2026-08-10
-status: in-progress
-commit_state: staged
+status: complete
+commit_state: committed
 text_layer: usable
 visual: true
 visual_access: renderer
@@ -76,3 +76,7 @@ A third transition spill occurs between §§6.6 and 6.7. Printed p. 92 finishes 
 This is a deep comparative-anatomy PASS source. Strong candidates are expected in functional construction, proportion, support and locomotion, limb specialization, scapular/shoulder mechanics, trunk construction, skull/head design, visualization, and deliberate practice. Anatomy facts do not earn cards merely for being true. Broad biological or teleological claims are kept source-scoped unless the book supplies a drawing-relevant construction decision and enough evidence to support it.
 
 Hultgren is already canonical and is treated as prior ownership. Where Bammes reaches the same learner decision with a different method, sequence, or tradeoff, retain a variant rather than cloning a card. Where Bammes establishes a more general animal-anatomy foundation, new ownership is allowed and later source reconciliation may relink narrower Hultgren specializations.
+
+## Summary
+
+Completed 2026-08-13. All 34/34 planned units were processed through the chapter-by-chapter deep-PASS teaching workflow. The source contributed 59 new canonical objects and 24 absorbed variants across comparative anatomy, proportion, locomotion, limb/trunk construction, skull/head construction, visualization, sketch economy, and mark-role rendering. Hultgren and the existing figure/perspective library remained prior ownership where they already covered the learner decision. Final Animal Anatomy release closure includes the rendering module because Bammes contributes canonical rendering objects in u05 and u34.

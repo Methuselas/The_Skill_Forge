@@ -1,22 +1,35 @@
 {
-  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
-  "attestation_sha256": "8cb205cbcfbdd5020a65b5c12dda823da2ab822bd4cee34487bd06202efbd9bd",
+  "approved_by": "MaDin \u2014 supplied current Art authoring archive as golden truth, 2026-08-14",
+  "attestation_sha256": "257d8e15057482cb2f5f82c5db8d82f07929127139613a93bda245d600400aaa",
   "canonical_archive": {
-    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
-    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+    "name": "SkillForge_Art_Authoring_FUN_WITH_A_PENCIL_COMPLETE_2026-08-14.zip",
+    "sha256": "7c77e73e84ac44cee8a6aae3ae0d28d6dffcc64d0240881171b375ef487888e3"
   },
-  "created": "2026-08-12",
+  "created": "2026-08-14",
   "grounding_basis": "canonical_archive_accepted",
   "ledger_tree_sha256": "399acb34f92c2cc47e13eaf0841ef1d6e65734e234fa0a865421713616cee46b",
   "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_hash_scope": "source_projection_v1",
   "object_sha256": {
-    "art/drawing/subjects/figure/anatomy/PAT_design_drapery_from_tension_points_and_forces.md": "23fdcccd397d2cea37fd3a38ab1ba11f9a8b33990cda1ed063e7be1ed7a6c0e7",
-    "art/drawing/subjects/figure/anatomy/PAT_design_surface_anatomy_as_microgesture_on_parent_forms.md": "fdf12ea62f1a0984199895f5b58409c797eb39ea9d719dee8a217eda76604156",
-    "art/drawing/subjects/figure/construction/DRILL_cycle_hampton_spatial_form_fundamentals.md": "f821d96c489c6243d919f9b207b7698d603f6ded61b62ab054315330c57a5311",
-    "art/drawing/subjects/figure/gesture/DRILL_design_about_to_pose_from_support_shift.md": "b4010993d071601219c70f31dd129d96db35c962dadbe2d882ab759f452fa4f7",
-    "art/drawing/subjects/figure/gesture/PAT_design_pose_against_center_of_gravity.md": "0c5ffa57403fc976fada3c140dc96303cff77c71041618c2e0cd7645514d6ded"
+    "art/drawing/foundations/form-construction/DRILL_cycle_hampton_spatial_form_fundamentals.md": "3caeb1da5cfc0b6f40f9b7375c40b94775c785bb217d8f1a8006f723e7eec08e",
+    "art/drawing/foundations/form-construction/PAT_design_surface_anatomy_as_microgesture_on_parent_forms.md": "d63f1a63676a15de4c9d7e37cbbc3fabb359b659db8959903b1d64158ecc99d6",
+    "art/drawing/foundations/form-construction/PAT_integrate_shoulder_mass_with_rib_cage.md": "e2f39cf0e6bf9fec021aeda480ed6e5a4d00f1830a1d3f828ad24d209691cba7",
+    "art/drawing/foundations/form-construction/PAT_preserve_articulated_limb_chain.md": "a2d6ace7b64e607c231d40f6b04132ac07be95bec2b2bc51a75dd18bf7d9f304",
+    "art/drawing/foundations/form-construction/PAT_project_form_curves_from_camera_view.md": "69cfce625ed02cf76b42c3640816c4b9f973f52817a3f295cfd6fbcf5158c110",
+    "art/drawing/foundations/gesture-force/PAT_design_pose_against_center_of_gravity.md": "26670565170678f32a4957c74d56de516a7c76ee898509f240fbbe9124c458ae",
+    "art/drawing/process/staged-drawing/PAT_choose_stage1_construction_by_readability.md": "50b46b86ce18959020f48eca8acd0ddfed4c650532e172c72960239e98ac636a",
+    "art/drawing/rendering/PAT_consolidate_resolved_form_with_tone.md": "cbafd67f83b1f6df7c4c3b0adef0e8a23966e570810c4ca442aecae1a190e4ce",
+    "art/drawing/subjects/figure/anatomy/PAT_design_drapery_from_tension_points_and_forces.md": "99756a36a10790a6770afb9abd0d5c99c571f420faacd589f73a0d48b761d15c",
+    "art/drawing/subjects/figure/construction/PAT_choose_s_or_b_leg_rhythm_by_view.md": "8daa780a18d7f181e829e1e535ea335a0db3a9ebad0ff94a4811393da0128686",
+    "art/drawing/subjects/figure/construction/PAT_construct_foot_as_soft_tissue_support_wedge.md": "d1e4e1a0a23d8fcda1a70340f179d04930a575298263317cb55957d1fde132cd",
+    "art/drawing/subjects/figure/construction/PAT_lace_separated_forms_with_valid_interconnections.md": "ed8723d5cac4efecd253ed189c5f6c3423324a7e067ebd82a7be1d2f2d922b17",
+    "art/drawing/subjects/figure/construction/PAT_orient_rib_cage_with_curved_openings.md": "e1f145d9dafe7f8eff98d88aa6db2fadab48f7aa22fb8aa2766aaeeabe226c82",
+    "art/drawing/subjects/figure/gesture/DRILL_design_about_to_pose_from_support_shift.md": "3e454d38b518bd65eb4a74f67ad43e72514073da746a46412404ba446c437e90",
+    "art/drawing/subjects/figure/gesture/PAT_carry_action_line_into_torso_centerline.md": "88ab7fc1eb02f92665a0a4e2c40cedb33a2f305db007560b6c4b0b7133736694",
+    "art/drawing/subjects/figure/hands/PAT_unify_finger_chains_with_knuckle_shank_rhythm.md": "8e567aa13ab3e2a2114b112d85ba09c38bdbf7bc3fb470a20855f21001934315",
+    "art/drawing/subjects/figure/heads/PAT_construct_head_from_cranial_ball_and_facial_wedge.md": "f0a9af09cf8c17ee0850eea451e40720dff0db99e828f0dbf8001522f730e3bb"
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "source_id": "michael_hampton_figure_drawing_design_and_invention",
   "source_payload_sha256": "59a7bb127ad7f9dab0aa959a805a3d51a7498621bff06ba53c7633aca230020a",
   "source_record_sha256": "8c25b27d5121ee9887eb950b021db5650a0ce7b5cfaef7752c22b3b41021a2f5"

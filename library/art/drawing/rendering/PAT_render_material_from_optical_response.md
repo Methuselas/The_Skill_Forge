@@ -51,6 +51,26 @@ variants:
   when_to_use: Use when an animal's coat, skin, or markings are important to species or character recognition and the surface would become dead or overworked if rendered hair-by-hair or wrinkle-by-wrinkle.
   when_not_to_use: Do not let surface treatment replace unresolved anatomy, lighting, or volume, and do not force a fashionable texture effect that is remote from the observed body cover. When exact scientific documentation of a surface feature is the task, implication alone may be insufficient.
   absorbed_from_object_id: none
+- variant_id: VAR_dodson_articulate_sample_then_suggest_texture
+  variant_name: Articulate a Sample, Then Suggest the Texture
+  variant_basis: method_sequence
+  source_id: bert_dodson_keys_to_drawing
+  source_title: Keys to Drawing
+  locator: u06, physical pp. 149-153
+  difference_from_foundation: "Adds Dodson's articulation-to-suggestion route: observe and render a small convincing sample closely enough to understand the material evidence, then derive a simpler mark vocabulary and let that vocabulary suggest the remaining surface instead of describing every event literally."
+  when_to_use: Use when full literal texture would become noisy, slow, or visually dominant but the material still needs a few precise anchors before broader suggestion will read.
+  when_not_to_use: Do not use generalized marks before the underlying form, light, and material character are understood, and do not omit exact surface evidence when the assignment specifically requires documentary detail.
+  absorbed_from_object_id: none
+- variant_id: VAR_dodson_strengthen_material_read_through_neighboring_texture_contrast
+  variant_name: Strengthen Material Read Through Neighboring Texture Contrast
+  variant_basis: emphasis
+  source_id: bert_dodson_keys_to_drawing
+  source_title: Keys to Drawing
+  locator: u06, physical pp. 156-157
+  difference_from_foundation: "Adds a relational material check: when a target surface is not reading strongly enough, inspect adjacent texture and value relationships before adding more local detail; roughness can make a smooth neighbor read smoother, hardness can intensify softness, and other contrasts can clarify both surfaces together."
+  when_to_use: Use when the optical evidence inside one material patch is already adequate but the contrast with its surroundings is too weak to make the distinction read.
+  when_not_to_use: Do not invent incompatible neighboring material behavior merely to create contrast, and do not use contextual contrast to hide unresolved form or lighting.
+  absorbed_from_object_id: none
 ---
 
 # Render Material From Optical Response
@@ -84,3 +104,5 @@ Gill's glass and water chapters are kept as variants of one broader decision rat
 `VAR_hultgren_match_brush_stroke_to_animal_coat_finish` retains **Match Brush Stroke to Animal Coat Finish** as a brush-and-ink alternative: use thin close even strokes plus open paper when a sleek coat needs sheen, and a drier broken stroke when shagginess is the material cue. Use the variant only after the animal's large form and lighting already read; it is a mark-making route, not a species texture formula.
 
 `VAR_bammes_imply_animal_body_cover_with_medium_native_marks` broadens the animal route beyond brush-and-ink: decide which visible quality actually identifies the coat or skin, then let the chosen medium imply it through sheen, broken roughness, soft spread, resist, or selected bare-skin landmarks instead of copying every surface event. The texture remains subordinate to solved form and light.
+
+`VAR_dodson_articulate_sample_then_suggest_texture` adds Dodson's articulate-then-suggest route: solve a small texture sample closely, then let a simplified mark language carry the rest of the surface. `VAR_dodson_strengthen_material_read_through_neighboring_texture_contrast` adds the relational check that a material may read more clearly by adjusting its neighboring texture context rather than adding local detail.

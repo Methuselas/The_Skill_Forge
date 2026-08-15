@@ -70,6 +70,17 @@ variants:
   when_to_use: Use when a drawing attempt is overloaded because gesture, perspective, mass, anatomy, contour, and finish are all being solved simultaneously, or when an early stage is being skipped before its main problem is understood.
   when_not_to_use: Do not force a literal fixed sequence when a direct drawing or subject-specific exception is working better; preserve the general-to-specific logic while adapting the visible method.
   absorbed_from_object_id: none
+- variant_id: VAR_mogilevtsev_expand_training_sequence_then_compress_with_experience
+  variant_name: Expand Training Sequence, Then Compress With Experience
+  variant_basis: method_sequence
+  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
+  source_title: Fundamentals of Drawing
+  locator: u01, physical PDF p. 10
+  difference_from_foundation: "Adds Mogilevtsev's training-versus-creative timing distinction to the staged drawing workflow: the same major sequence may be deliberately extended in a training drawing so each problem can be studied separately, while experienced creative work may unite, internalize, or shorten stages when integral vision already keeps their decisions coherent. A visible sketch artifact may disappear in fast work without eliminating the conception, placement, proportion, movement, or tonal decisions that sketch stage normally externalizes."
+  when_to_use: Use when teaching, practicing, diagnosing a difficult drawing, or compressing a familiar process for speed; make each stage explicit when the learner needs separate study, and allow mature execution to carry a stage implicitly only when its decisions are actually resolved.
+  when_not_to_use: Do not turn the expanded sequence into a compulsory visible ritual for an experienced direct drawing, and do not confuse the absence of a separate sketch or other intermediate artifact with permission to abandon the decision responsibility that artifact normally carries.
+  absorbed_from_object_id: none
+
 ---
 
 # Draw a Figure Through Onion-Skinned Stages
@@ -104,3 +115,5 @@ The stage summary is:
 Stage boundaries protect information classes, not one compulsory drawing ritual. The artist chooses the method. The skill guards continuity.
 
 `VAR_vilppu_move_general_to_specific_one_problem_at_a_time` retains **Move General to Specific One Problem at a Time** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
+
+`VAR_mogilevtsev_expand_training_sequence_then_compress_with_experience` preserves Mogilevtsev's pedagogical timing distinction: externalize and lengthen the sequence when training needs separate study, but allow experienced work to merge or internalize stages only when their decisions remain integrated rather than merely omitted. A fast drawing may omit a separate sketch artifact; it may not omit the forethought and large relational decisions that sketch artifact normally makes visible.

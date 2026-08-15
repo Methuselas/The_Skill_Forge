@@ -34,7 +34,17 @@ reference:
   evidence_type: mixed
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_mogilevtsev_audit_big_figure_silhouette_as_single_patch
+  variant_name: Audit the Big Figure Silhouette as a Single Patch
+  variant_basis: method_sequence
+  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
+  source_title: Fundamentals of Drawing
+  locator: u07, physical PDF pp. 42-43
+  difference_from_foundation: "Adds Mogilevtsev's temporary outside-patch audit: when internal anatomy or local masses are distracting from a whole-figure proportion problem, collapse the figure into one solid outer silhouette, ignore interior gaps and detail, and judge only the large height/width/lean/placement relationship before reopening the internal construction."
+  when_to_use: Use when a live-figure block-in is becoming fragmented, or when the parts look individually plausible but the entire figure still feels too wide, too narrow, too tall, too short, or wrongly leaned/placed.
+  when_not_to_use: Do not treat the solid patch as the complete construction method; it deliberately suppresses internal negative spaces, limb separation, overlap, and anatomical information and should be abandoned as soon as the large envelope is corrected.
+  absorbed_from_object_id: none
 target_skill: Construct the Whole Figure From Mass Relations Before Contour
 ---
 
@@ -71,3 +81,5 @@ No special setup required.
 
 ## Notes
 Bammes presents several media for the same perceptual problem—paper strips, flat brush, broad dry brush, and later line correction. The durable lesson is the work order: **large relational mass first, contour and specificity second**.
+
+`VAR_mogilevtsev_audit_big_figure_silhouette_as_single_patch` adds a temporary diagnostic pass before reopening those internal masses: read the entire live figure as one filled outside patch, compare its overall height, width, lean, and placement, correct the earliest large mismatch, then restore internal negative spaces and construction. The patch audit is intentionally incomplete; it is a check on the whole envelope, not a replacement for mass construction.

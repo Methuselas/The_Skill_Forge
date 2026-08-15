@@ -48,6 +48,7 @@ variants: []
 - Let wet-on-wet watercolor create soft, airy, fluffy transitions when the uncontrolled run of the pigment is an asset rather than a defect.
 - On a dry ground with a well-filled brush, vary shape width through pressure, trail the stroke, and lift cleanly; choose a brush whose physical width is appropriate to the scale of the depicted form.
 - Use resist processes when markings are better carried by protected light shapes than by drawing every edge directly.
+- When a running or spreading process produces useful accidental texture, preserve the chance effect where it strengthens form; intervene only when uncontrolled spread begins to erase articulation or the intended mass relationship.
 
 ## Don't
 - Demand crisp, repeatable contours from a process whose useful character comes from spreading on a wet ground.
@@ -63,4 +64,4 @@ variants: []
 - The texture reads from the behavior of the medium while the underlying form remains legible.
 
 ## Notes
-The useful decision is not that one named medium belongs to one named texture. The source demonstrates a continuum: dry-ground pen gives definition; sprayed or damp grounds make ink spread from fuzzy to velvety; half-dry opaque paint gives rapid roughness with more control; wet-on-wet watercolor gives softness at the cost of predictability; a loaded brush on dry paper can move from broad shape to fine line through pressure, trailing, and lift. This Pattern keeps that control-versus-spread tradeoff portable instead of turning the examples into fixed animal-texture recipes.
+The useful decision is not that one named medium belongs to one named texture. The source demonstrates a continuum: dry-ground pen gives definition; sprayed or damp grounds make ink spread from fuzzy to velvety; half-dry opaque paint gives rapid roughness with more control; wet-on-wet watercolor gives softness at the cost of predictability; a loaded brush on dry paper can move from broad shape to fine line through pressure, trailing, and lift. This Pattern keeps that control-versus-spread tradeoff portable instead of turning the examples into fixed animal-texture recipes. Section 9.3 reinforces the same principle from the opposite direction: chance effects from running ink can be welcomed as texture, but they remain useful only while the form stays articulated enough to read.

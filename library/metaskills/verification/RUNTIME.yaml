@@ -1,0 +1,8 @@
+schema_version: 1
+module: metaskills/verification
+activations:
+  - object_id: PAT_verify_result_against_objective_after_production
+    reason: every productive result receives a detached completion check
+    when:
+      productive: true
+      phase: post_production

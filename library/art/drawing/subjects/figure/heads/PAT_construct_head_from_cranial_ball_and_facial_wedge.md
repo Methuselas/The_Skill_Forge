@@ -323,6 +323,16 @@ variants:
   when_to_use: Use for caricature, stylized portraiture, expressive character heads, or deliberately rough rendering where personality needs stronger deviation than an observed naturalistic head.
   when_not_to_use: Do not treat structural fidelity as a demand for realism or average proportions, and do not use 'style' as permission for accidental feature drift. The designed distortion may be extreme, but its internal support relationships still need to agree with one another.
   absorbed_from_object_id: none
+- variant_id: VAR_mogilevtsev_block_observed_portrait_through_nested_whole_to_part_masses
+  variant_name: Block an Observed Portrait Through Nested Whole-to-Part Masses
+  variant_basis: method_sequence
+  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
+  source_title: Fundamentals of Drawing
+  locator: u02, physical PDF pp. 16-17
+  difference_from_foundation: "Adds Mogilevtsev's observational likeness route to the structural head foundation: instead of adding one feature after another, establish the total head-and-shoulder envelope and check overall similarity, then place the face and hair masses, the broad light/shadow silhouette, the eye-socket masses, and only afterward the nose and mouth. The nested silhouettes keep proportion and likeness subordinate to the whole while the portrait is still cheap to correct."
+  when_to_use: Use when drawing an observed portrait and individually plausible features are accumulating without a convincing total likeness, proportion, or unified head mass.
+  when_not_to_use: Do not use the nested silhouette route as a replacement for explicit 3-D cranial/facial construction when the main problem is invention, rotation, or perspective; it is an observational whole-to-part block-in that should inherit the established spatial structure.
+  absorbed_from_object_id: none
 ---
 
 # Construct the Head From a Cranial Ball and Facial Wedge
@@ -406,3 +416,5 @@ Hogarth treats the head as two persistent volumes whose projected relationship c
 `VAR_hogarth_confirm_extreme_head_attitude_with_multi_region_clues` retains **Confirm Extreme Head Attitude With Multi-Region Clues** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 
 `VAR_hogarth_exaggerate_head_character_without_abandoning_form_order` retains **Exaggerate Head Character Without Abandoning Form Order** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
+
+`VAR_mogilevtsev_block_observed_portrait_through_nested_whole_to_part_masses` retains **Block an Observed Portrait Through Nested Whole-to-Part Masses** as a bounded alternative; use it only under the conditions recorded in the variant metadata.

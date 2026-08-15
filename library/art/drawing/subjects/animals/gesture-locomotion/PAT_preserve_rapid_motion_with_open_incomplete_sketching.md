@@ -70,4 +70,4 @@ variants: []
 - The drawing can stop while still feeling complete as a movement statement.
 
 ## Notes
-Bammes calls the extra quality needed for convincing movement its "sharpness" and argues that a fully comprehensive account can weaken it. His examples use nonfinito, lacunae, open possibilities, and freely handled media to keep rapid action fresh. The useful decision is not to imitate a particular historical sketch style, but to recognize when further completion would destroy the temporal impression the study is trying to preserve.
+Bammes calls the extra quality needed for convincing movement its "sharpness" and argues that a fully comprehensive account can weaken it. His examples use nonfinito, lacunae, open possibilities, and freely handled media to keep rapid action fresh. The useful decision is not to imitate a particular historical sketch style, but to recognize when further completion would destroy the temporal impression the study is trying to preserve. Section 9.2 later clarifies that this selective incompleteness can still be a complete sketch: completion belongs to the objective and impression, not to exhaustive description or speed.

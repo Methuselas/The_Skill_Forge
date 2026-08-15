@@ -63,6 +63,16 @@ variants:
   when_to_use: Use when designing a deliberately long-limbed heroic or athletic figure, or when studying Hogarth's proportion system as one coherent alternative before adapting it to a specific character.
   when_not_to_use: Do not treat eight and three-quarter heads, the source's cross-body alignments, or its twentieth-century ideal language as a biological norm, demographic truth, or substitute for measuring an observed individual. Choose another scaffold or follow the reference when the intended body differs.
   absorbed_from_object_id: none
+- variant_id: VAR_loomis_exaggerate_head_body_ratio_for_comic_character
+  variant_name: Exaggerate Head-to-Body Ratio for Comic Character Design
+  variant_basis: context
+  source_id: andrew_loomis_fun_with_a_pencil
+  source_title: Fun With a Pencil
+  locator: u03, physical pp. 51-58, 88-93
+  difference_from_foundation: Adds a comic-character context in which head-to-body ratio is deliberately pushed far outside realistic figure canons while the torso, joints, limb reach, and action remain internally coherent. The ratio is treated as a design variable for character variety, not as anatomy.
+  when_to_use: Use when designing humorous, chibi-like, caricatured, or otherwise stylized figures whose personality depends partly on the relative scale of head and body.
+  when_not_to_use: Do not apply the exaggerated ratio as a biological average or let the large/small head excuse broken balance, attachment, reach, or pose mechanics.
+  absorbed_from_object_id: none
 ---
 
 # Set Figure Proportions With Adjustable Head Units
@@ -90,3 +100,5 @@ Treat head-unit canons as adjustable scaffolds for checking large figure relatio
 `VAR_loomis_check_head_age_against_body_context` retains **Check Head Age Against the Body Context** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 
 `VAR_hda_u04_use_eight_three_quarter_head_heroic_scaffold` retains **Use an Eight-and-Three-Quarter-Head Heroic Scaffold** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
+
+`VAR_loomis_exaggerate_head_body_ratio_for_comic_character` bounds Loomis's extreme head/body shifts to stylized character design. Push the ratio deliberately for variety while preserving the articulated body's internal relationships; do not reinterpret the exaggeration as human proportion doctrine.

@@ -1,0 +1,69 @@
+---
+object_id: PAT_concentrate_contrast_and_accents_at_focal_area
+object_type: pattern
+name: Concentrate Contrast and Accents at the Focal Area
+library_path:
+- art
+- drawing
+- composition
+stage_binding: 3 rough
+lane_fit: both
+foundation_role: foundation
+routing_class: general
+specialization_axis: none
+foundation_object_id: none
+tags:
+- focal_point
+- contrast
+- accents
+- hierarchy
+- composition
+cross_links:
+- rel: related_to
+  target_object_id: PAT_route_viewer_attention_through_planned_visual_paths
+reference:
+  source_id: michael_mattesi_force_animal_drawing
+  source_title: 'FORCE: Animal Drawing'
+  author: Michael D. Mattesi
+  publish_date: Unknown
+  media_type: PDF
+  locator: u06, physical pp. 197-215
+  evidence_type: mixed
+confidence: high
+references: []
+variants:
+- variant_id: VAR_dodson_spend_observation_and_detail_by_focal_priority
+  variant_name: Spend Observation and Detail by Focal Priority
+  variant_basis: emphasis
+  source_id: bert_dodson_keys_to_drawing
+  source_title: Keys to Drawing
+  locator: u01, physical pp. 9-40
+  difference_from_foundation: "Adds attention time and detail density as hierarchy controls: develop the most important regions while observation is sharp and abbreviate less important passages instead of rendering the whole sheet uniformly."
+  when_to_use: Use when equal observation time or equal detail everywhere is flattening the focal hierarchy or exhausting concentration.
+  when_not_to_use: Do not leave structurally essential secondary areas so incomplete that the subject no longer reads or the exercise's accuracy goal is undermined.
+  absorbed_from_object_id: none
+---
+
+# Concentrate Contrast and Accents at the Focal Area
+
+## Pattern Rule
+**IF** a picture has a chosen focal area but the viewer's attention is distributed too evenly
+**THEN** concentrate the strongest local value or color contrast and supporting directional or repeated accents near that focal area while subordinating competing emphasis elsewhere
+**ELSE** maintain a more even field when the design intentionally has no dominant focal hierarchy
+
+## Do
+- Decide what should be seen first before intensifying local contrast.
+- Use surrounding directions, repeated accent colors, or light-dark framing to reinforce the same priority rather than creating unrelated competing spots.
+- Let secondary accents echo the focal area at lower strength when balance needs them.
+
+## Don't
+- Do not distribute every strong contrast evenly across the picture.
+- Do not use a symbolic color as a universal emotional rule; context controls what an accent means.
+
+## Checklist
+- The intended focal area wins at a glance.
+- Secondary accents support or echo the hierarchy without stealing first attention.
+- Removing local detail does not destroy the large emphasis pattern.
+
+## Notes
+Mattesi's animal-design examples coordinate value, color, orientation, and surrounding marks so the chosen head, face, or forward form receives the strongest attention. The same decision is portable to character and creature concept work. `VAR_dodson_spend_observation_and_detail_by_focal_priority` adds attention time and detail density as another way to subordinate secondary areas while the focal area receives the sharpest observation.

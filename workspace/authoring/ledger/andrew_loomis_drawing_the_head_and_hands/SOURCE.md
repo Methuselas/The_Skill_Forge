@@ -5,7 +5,7 @@ title: Drawing the Head and Hands
 author: Andrew Loomis
 publish_date: Unknown
 media_type: PDF
-payload_path: trash/sources/andrew_loomis_drawing_the_head_and_hands/Drawing_the_Head_and_Hands.pdf
+payload_path: sources/art/andrew_loomis_drawing_the_head_and_hands.pdf
 sha256: 8572e461e8772f7fe75e0795dbbcef2471e1ed2f21530207fc9b4e6fb95f513c
 added: 2026-08-09
 status: complete

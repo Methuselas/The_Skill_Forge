@@ -23,11 +23,7 @@ tags:
 - silhouette
 cross_links:
 - rel: related_to
-  target_object_id: PAT_choose_stage1_construction_by_readability
-- rel: related_to
   target_object_id: PAT_design_pose_against_center_of_gravity
-- rel: supports
-  target_object_id: PAT_explore_stage0_with_thumbnail_set
 reference:
   source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
@@ -40,7 +36,6 @@ confidence: high
 references: []
 variants: []
 ---
-
 # Stage Animal Mood Through Whole-Body Pose and Behavioral Cues
 
 ## Pattern Rule

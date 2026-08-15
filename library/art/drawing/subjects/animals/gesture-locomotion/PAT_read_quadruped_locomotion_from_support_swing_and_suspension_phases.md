@@ -31,7 +31,7 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_distinguish_quadruped_forequarter_suspension_from_hindquarter_drive
 - rel: related_to
-  target_object_id: PAT_use_slow_motion_reference_to_find_extreme_animal_action_phases
+  target_object_id: PAT_use_frame_sequence_reference_to_study_fast_action
 reference:
   source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy

@@ -28,11 +28,11 @@
 | u24 | 7.2 Thorax as a plastic core | printed pp. 102-104 | processed | 2 new + 1 variant | committed; thorax plastic-core Pattern + multiview/model Drill + thorax-section/type variant; whole-trunk skeleton held for u25 |
 | u25 | 7.3 Whole trunk skeleton | printed p. 105 | processed | 1 variant | committed; ordered whole-skeleton architecture variant; trunk musculature held for u26 |
 | u26 | 7.4 Pure trunk muscles | printed pp. 106-107 | processed | 2 new | committed; spinal-axis/lever trunk-muscle Pattern + cross-section/action mapping Drill; graphic body aids held for u27 |
-| u27 | 7.5 Graphic aids to depicting the body | printed pp. 108-112 | processed | 2 new + 1 variant | staged; profile-backline memory variant + 3D backline/transverse-axis Pattern + foreshortening construction Drill; head forms held for u28 |
-| u28 | 8.1 Skull structure types | printed pp. 113-118 | queued | | |
-| u29 | 8.2 Constructional skull drawing | printed pp. 119-121 | queued | | |
-| u30 | 8.3 Head soft parts | printed pp. 122-129 | queued | | |
-| u31 | 8.4 Drawing the whole head | printed pp. 130-133 | queued | | |
-| u32 | 9 opener + 9.1 Drawings as built designs | printed pp. 134-135 | queued | | combined to avoid a one-page chapter-opener unit |
-| u33 | 9.2 Sketching | printed pp. 136-137 | queued | | |
-| u34 | 9.3 Free play | printed pp. 138-143 | queued | | |
+| u27 | 7.5 Graphic aids to depicting the body | printed pp. 108-112 | processed | 2 new + 1 variant | committed; profile-backline memory variant + 3D backline/transverse-axis Pattern + foreshortening construction Drill; head forms held for u28 |
+| u28 | 8.1 Skull structure types | printed pp. 113-118 | processed | 2 new | committed; cranial/facial skull architecture Pattern + comparative skull-type Drill |
+| u29 | 8.2 Constructional skull drawing | printed pp. 119-121 | processed | 2 new | committed; type-block/planes/cross-sections Pattern + across-view reconstruction Drill |
+| u30 | 8.3 Head soft parts | printed pp. 122-129 | processed | 4 new | committed; soft-tissue hierarchy + eye + nose-mouth + ear construction Patterns |
+| u31 | 8.4 Drawing the whole head | printed pp. 130-133 | processed | 2 new | committed; structure/experience integration Pattern + explicit/suggestive finish Drill |
+| u32 | 9 opener + 9.1 Drawings as built designs | printed pp. 134-135 | processed | 1 variant | committed; whole-animal built-design hierarchy variant |
+| u33 | 9.2 Sketching | printed pp. 136-137 | processed | 1 variant | committed; objective-led sketch economy variant |
+| u34 | 9.3 Free play | printed pp. 138-143 | processed | 1 new | committed; complementary line/mass-mark Pattern + chance/texture reinforcements |

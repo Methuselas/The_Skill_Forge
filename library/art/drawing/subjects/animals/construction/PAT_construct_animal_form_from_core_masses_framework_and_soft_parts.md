@@ -42,7 +42,18 @@ reference:
   evidence_type: text
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_bammes_organize_whole_animal_as_built_design_hierarchy
+  variant_name: Organize the Whole Animal as a Built-Design Hierarchy
+  variant_basis: method_sequence
+  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
+  source_title: The Artist's Guide to Animal Anatomy
+  locator: u32, printed pp. 134-135; physical pp. 132-133
+  difference_from_foundation: >-
+    Extends inside-out whole-animal construction into a late-study integration pass: order masses by optical weight, coordinate firm framework with variable soft forms, and make proportion, construction, structure, dynamics, and essential animal type cooperate as one total design before moving into visualization or abbreviation.
+  when_to_use: Use when local anatomy is plausible but the animal still reads like assembled parts, an equal-weight inventory, or a technically correct diagram without a governing whole.
+  when_not_to_use: Do not turn the hierarchy into a fixed anatomical ranking or use it to overbuild a gesture study that already communicates the action clearly.
+  absorbed_from_object_id: none
 ---
 
 # Construct Animal Form From Core Masses, Framework, and Soft Parts
@@ -76,3 +87,5 @@ variants: []
 Bammes opens the book by rejecting outward appearance as the starting point and instead describes graphic construction “from within.” He later names the thorax, pelvis, and skull as the core masses of the body and places them in dialogue with the remaining framework and soft, fleshy parts. The source's stated purpose is not anatomical analysis for its own sake, but to organize relationships so form can be understood, simplified, visualized, and eventually reconstructed without the model directly present.
 
 This Pattern is broader than Hultgren's quadruped three-mass block. Hultgren provides a practical quadruped blocking route; Bammes establishes the anatomy-centered foundation that explains how core masses, framework, and surface layers remain structurally connected across animal types.
+
+`VAR_bammes_organize_whole_animal_as_built_design_hierarchy` adds the Chapter 9 capstone. When correct parts still fail to read as one animal, order the masses by optical importance, coordinate firm framework and variable soft forms, and make proportion, structure, dynamics, and essential type cooperate before allowing shorthand or imaginative freedom. The hierarchy is a drawing decision, not a fixed anatomical ranking.

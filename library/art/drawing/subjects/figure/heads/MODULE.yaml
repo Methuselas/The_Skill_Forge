@@ -1,3 +1,4 @@
 name: art/drawing/subjects/figure/heads
 requires:
 - art/drawing/subjects/figure/anatomy
+- art/drawing/foundations/gesture-force

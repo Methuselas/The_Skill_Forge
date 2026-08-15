@@ -27,9 +27,7 @@ tags:
 - ursid
 cross_links:
 - rel: related_to
-  target_object_id: PAT_choose_stage1_construction_by_readability
-- rel: related_to
-  target_object_id: PAT_carry_action_line_into_torso_centerline
+  target_object_id: PAT_track_force_continuity_through_action
 - rel: related_to
   target_object_id: PAT_stage_animal_mood_through_whole_body_pose_and_behavioral_cues
 - rel: prerequisite_for
@@ -76,7 +74,6 @@ variants:
   when_not_to_use: Do not force one diagonal leg-to-leg sweep through every bear pose; if the observed action is vertical, seated, turning, or driven by a different limb relationship, use the governing gesture that the pose actually supports.
   absorbed_from_object_id: none
 ---
-
 # Route Animal Gesture Through a Governing Action Line
 
 ## Pattern Rule

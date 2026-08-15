@@ -34,7 +34,17 @@ reference:
   evidence_type: mixed
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_mogilevtsev_capture_live_torso_then_reconstruct_hidden_anatomy_offline
+  variant_name: Capture the Live Torso, Then Reconstruct Hidden Anatomy Offline
+  variant_basis: method_sequence
+  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
+  source_title: Fundamentals of Drawing
+  locator: u09, physical PDF p. 52
+  difference_from_foundation: "Adds Mogilevtsev's delayed observation-to-anatomy loop: record a live torso or detail in its actual movement and visible landmarks first, preserve that exact pose/view, then after the sitting use anatomy reference to reconstruct the relevant hidden bones and muscle masses inside the recorded study. This reverses the foundation drill's usual anatomy-to-living-form direction and separates unstable observation time from slower structural analysis."
+  when_to_use: Use when a live torso pose or local figure detail is too time-limited for careful anatomical reasoning and you want to preserve the observed action before checking what hidden structure could plausibly produce it.
+  when_not_to_use: Do not let the later anatomy study overwrite the recorded model with a generic atlas body, and do not invent hidden structures unsupported by the observed landmarks; the reconstruction must explain the same pose and surface evidence.
+  absorbed_from_object_id: none
 target_skill: Project the Hidden Torso Skeleton Into Living Form
 ---
 
@@ -71,3 +81,5 @@ No special setup required.
 
 ## Notes
 Bammes explicitly prioritizes the realization of **spatial and functional events** over anxious anatomical precision during this exercise. The anatomy becomes more exact only after the internal construction is spatially convincing.
+
+`VAR_mogilevtsev_capture_live_torso_then_reconstruct_hidden_anatomy_offline` adds the reverse training direction for time-limited live work: capture the observed torso/detail and movement first, then reconstruct the hidden bones and major muscle masses into that same recorded pose afterward with anatomy reference. The delayed reconstruction must explain the observed surface rather than replacing it with an idealized textbook body.

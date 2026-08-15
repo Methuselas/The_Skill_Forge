@@ -32,8 +32,6 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_construct_animal_form_from_core_masses_framework_and_soft_parts
 - rel: related_to
-  target_object_id: DRILL_notate_action_figures_without_reference
-- rel: related_to
   target_object_id: DRILL_improvise_small_animal_sketches_from_internalized_structure
 - rel: prerequisite_for
   target_object_id: DRILL_construct_contrasting_big_cat_poses_from_studied_anatomy

@@ -49,6 +49,17 @@ variants:
   when_to_use: Use for camera reconstruction, plan projection, severe distortion diagnosis, or exact tilted/three-point setup.
   when_not_to_use: Do not burden ordinary perspective drawing with exact station geometry when the simpler eye-level construction is sufficient.
   absorbed_from_object_id: none
+- variant_id: VAR_dodson_estimate_off_page_vanishing_pull_for_freehand_sketching
+  variant_name: Estimate Off-Page Vanishing Pull for Freehand Sketching
+  variant_basis: method_sequence
+  source_id: bert_dodson_keys_to_drawing
+  source_title: Keys to Drawing
+  locator: u05, physical pp. 138-143
+  difference_from_foundation: 'Adds a sketching route for views whose vanishing points fall far outside the page: keep the eye level and likely convergence destination mentally, sight the sloping edges against level/vertical, draw by eye, then use the implied vanishing pull to restate inconsistent angles.'
+  when_to_use: Use for freehand observational or exploratory sketching when constructing a large exact perspective field would be cumbersome and approximate spatial coherence is sufficient.
+  when_not_to_use: Do not use the estimate in place of exact vanishing-point or station-point construction when technical accuracy, repeated measurements, or severe distortion control is required.
+  absorbed_from_object_id: none
+
 ---
 
 # Establish Eye Level and Vanishing Directions
@@ -81,3 +92,4 @@ D'Amelio treats vanishing points and eye level as practical aids derived from li
 This Pattern establishes the principal perspective field. It does not by itself measure intervals, construct inclined planes, or solve cast shadows.
 
 Variants retained in this canonical object: `VAR_high_water_eye_level_diagnostic`, `VAR_exact_camera_viewfield_setup`.
+Variants retained in this canonical object: `VAR_dodson_estimate_off_page_vanishing_pull_for_freehand_sketching`.

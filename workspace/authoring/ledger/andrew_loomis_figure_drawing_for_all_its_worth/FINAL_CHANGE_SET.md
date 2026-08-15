@@ -9,7 +9,7 @@ canon_mutation: true
 ## New objects
 
 1. `PAT_set_figure_proportions_with_adjustable_head_units`
-2. `PAT_measure_live_figure_with_center_out_visual_survey`
+2. `PAT_calibrate_observed_proportion_with_relational_sighting`
 
 ## Retained variants
 

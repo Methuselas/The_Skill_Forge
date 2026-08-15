@@ -32,7 +32,22 @@ reference:
   evidence_type: mixed
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_dodson_analyze_dominant_light_direction_and_quality
+  variant_name: Analyze Dominant Light Direction and Quality
+  variant_basis: method_sequence
+  source_id: bert_dodson_keys_to_drawing
+  source_title: Keys to Drawing
+  locator: u04, physical pp. 110-115
+  difference_from_foundation: Extends the pre-render light check beyond direction
+    to the character of the dominant illumination—direct, diffuse, backlit, underlit,
+    or similarly distinctive—because source quality changes shadow pattern, edge character,
+    and modeling strength.
+  when_to_use: Use before rendering when the scene light is ambiguous or when light
+    quality is a major part of the form or mood read.
+  when_not_to_use: Do not pretend a genuinely complex multi-light scene has only one
+    source; simplify around a dominant light only when that helps analysis or design.
+  absorbed_from_object_id: none
 ---
 
 # Prepare a Construction Drawing for Rendering
@@ -42,7 +57,7 @@ Convert a structurally solved drawing into a clean, light-aware rendering base b
 
 ## Steps / Flow
 1. **Lock the construction.** Verify the perspective, major volumes, overlaps, and supporting planes. Do not let rendering become a substitute for unresolved structure.
-2. **Choose the light.** Establish the light source or dominant light direction in relation to the object and viewer before assigning values.
+2. **Choose the light.** Establish the light source or dominant light direction **and its quality** in relation to the object and viewer before assigning values; note whether the dominant illumination is direct, diffuse, backlit, underlit, or otherwise distinctive enough to change the shadow/edge pattern.
 3. **Construct the cast-shadow shapes.** Use the chosen light direction and the scene geometry to locate where opaque forms block light on receiving surfaces.
 4. **Identify the light/shade separation.** Mark the form boundary where surfaces turn out of direct light. On curved forms treat this as a transition/terminator region rather than automatically drawing a hard contour.
 5. **Name the regions correctly.** Keep form shade separate from cast shadow; reflected light may modify either later, but it does not change which condition produced it.
@@ -51,4 +66,4 @@ Convert a structurally solved drawing into a clean, light-aware rendering base b
 8. **Begin rendering only now.** Introduce values and material response on top of this clean base, preserving the perspective and lighting commitments beneath it.
 
 ## Notes
-Gill's strongest contribution here is procedural separation: construction, light direction, cast-shadow geometry, and light/shade regions are solved before finish work. His exact “basic tonal pattern” is more conditional than the book sometimes implies, so this AP does not hard-code one universal ranking of top plane, side plane, shade, and shadow values.
+Gill's strongest contribution here is procedural separation: construction, light direction, cast-shadow geometry, and light/shade regions are solved before finish work. His exact “basic tonal pattern” is more conditional than the book sometimes implies, so this AP does not hard-code one universal ranking of top plane, side plane, shade, and shadow values. `VAR_dodson_analyze_dominant_light_direction_and_quality` adds Dodson's observational check for the dominant source's character before modeling begins.

@@ -38,7 +38,17 @@ reference:
   evidence_type: text
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_loomis_overlay_head_construction_to_audit_feature_placement
+  variant_name: Overlay Head Construction to Audit Feature Placement
+  variant_basis: method_sequence
+  source_id: andrew_loomis_fun_with_a_pencil
+  source_title: Fun With a Pencil
+  locator: u02, physical p. 45
+  difference_from_foundation: 'Adds a fast diagnostic overlay before the full staged reverse-engineering drill: place the ball/plane, centerline, eye/brow levels, and related construction over an existing head or reference to identify a misplaced feature or infer the underlying head orientation, then rebuild from the earliest disagreement.'
+  when_to_use: 'Use when a head looks wrong but the cause is unclear and a quick construction audit may expose whether the failure begins in orientation, proportion, or feature placement.'
+  when_not_to_use: 'Do not let the overlay become a substitute for independent head construction or force the scaffold onto a reference whose actual skull/soft-tissue structure requires adaptation.'
+  absorbed_from_object_id: none
 target_skill: diagnosing a head-reference failure by reconstructing the same subject through proportion, anatomy/construction, plane, and rendering stages instead of copying the visible finish in one pass
 ---
 
@@ -77,3 +87,5 @@ Use a single reference with readable skull/jaw proportions and a clear enough li
 
 ## Notes
 Loomis treats the combined construction/anatomy/plane/render sequence as a diagnostic summary of the preceding head method. The value of the exercise is the **separation of causes**: a finished head can look wrong for many reasons, while the staged set makes the earliest wrong decision visible.
+
+`VAR_loomis_overlay_head_construction_to_audit_feature_placement` adds a short Control pass before the full four-stage diagnostic: overlay the head scaffold, locate the first placement/orientation mismatch, and rebuild from that cause rather than patching the final feature.

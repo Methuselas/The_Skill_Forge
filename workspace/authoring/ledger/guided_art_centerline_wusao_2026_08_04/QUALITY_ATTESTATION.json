@@ -1,18 +1,19 @@
 {
-  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
-  "attestation_sha256": "f2b4e8b1dc997a6a4830a9be989db9b477443f3b293017c06f3733a6cc7f0e9e",
+  "approved_by": "MaDin \u2014 supplied current Art authoring archive as golden truth, 2026-08-14",
+  "attestation_sha256": "152cbe5427a54a6a8a7225bdab2fb0efdd634bed611c2abef79ae72f45fba90b",
   "canonical_archive": {
-    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
-    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+    "name": "SkillForge_Art_Authoring_FUN_WITH_A_PENCIL_COMPLETE_2026-08-14.zip",
+    "sha256": "7c77e73e84ac44cee8a6aae3ae0d28d6dffcc64d0240881171b375ef487888e3"
   },
-  "created": "2026-08-12",
+  "created": "2026-08-14",
   "grounding_basis": "canonical_archive_accepted",
   "ledger_tree_sha256": "571584b95b62b199005b767ea707d69535ed69c05e925a707b0071a6220b5961",
   "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_hash_scope": "source_projection_v1",
   "object_sha256": {
-    "art/drawing/foundations/visual-centerline/PAT_return_to_art_centerline.md": "16a09fa38a88b9e51c793092aac82db86e8af9df5815b3f77c4782d0c30a4b7c"
+    "art/drawing/foundations/visual-centerline/PAT_return_to_art_centerline.md": "d5e56ab68247c508012f2b4dbd816a2d6491689716f15395692d5107e76873cc"
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "source_id": "guided_art_centerline_wusao_2026_08_04",
   "source_payload_sha256": "e2ab32836b3e56fcca0269820f86b34a99cf3e9d1b25b13f0e5d317af7592336",
   "source_record_sha256": "ce151662d8b24a337686c9d19309dde1806d9247834d2674195128ac2c16f0f7"

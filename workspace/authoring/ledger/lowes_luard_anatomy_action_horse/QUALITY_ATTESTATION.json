@@ -1,0 +1,20 @@
+{
+  "approved_by": "MaDin \u2014 supplied current Art authoring archive as golden truth, 2026-08-14",
+  "attestation_sha256": "2af183b9fb9dd9206c5a01bd52f02651e43f3c168693975c7e3e7c0c6693870a",
+  "canonical_archive": {
+    "name": "SkillForge_Art_Authoring_FUN_WITH_A_PENCIL_COMPLETE_2026-08-14.zip",
+    "sha256": "7c77e73e84ac44cee8a6aae3ae0d28d6dffcc64d0240881171b375ef487888e3"
+  },
+  "created": "2026-08-14",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "ca5f8e12f1c294715ec9a3c972c5ea561fcf82e7aa5b1cff861d019476f8a48d",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_hash_scope": "source_projection_v1",
+  "object_sha256": {
+    "art/drawing/foundations/temporal-movement/PAT_synthesize_temporal_movement_into_rhythmic_visual_pattern.md": "05b9e30036c733305b3abcd58766503a688b11527b79706cb7ea351398636d20"
+  },
+  "schema_version": 2,
+  "source_id": "lowes_luard_anatomy_action_horse",
+  "source_payload_sha256": "81f6f309ccecd6b45ae370642f1e4a0177b3b7e19841456ea7f8626673fa64fb",
+  "source_record_sha256": "9050becfffc69db88e989f89c3b79e1367a64d4328ba988c455d705c415d953d"
+}

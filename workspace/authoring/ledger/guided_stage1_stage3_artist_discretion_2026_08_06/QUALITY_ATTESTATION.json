@@ -1,21 +1,22 @@
 {
-  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
-  "attestation_sha256": "72d6df969c8f0059d3bca901baeb9600a8173d7362725a6a78ab6aa1e03215d2",
+  "approved_by": "MaDin \u2014 supplied current Art authoring archive as golden truth, 2026-08-14",
+  "attestation_sha256": "d34b17e38c9efd8725af80718eae2c6b57f20108c096703ec352d3e958819a74",
   "canonical_archive": {
-    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
-    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
+    "name": "SkillForge_Art_Authoring_FUN_WITH_A_PENCIL_COMPLETE_2026-08-14.zip",
+    "sha256": "7c77e73e84ac44cee8a6aae3ae0d28d6dffcc64d0240881171b375ef487888e3"
   },
-  "created": "2026-08-12",
+  "created": "2026-08-14",
   "grounding_basis": "canonical_archive_accepted",
   "ledger_tree_sha256": "0b3729ba878d01e60e8c8c45db1b0d8ba2542c89714f165011f57a7798c69017",
   "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_hash_scope": "source_projection_v1",
   "object_sha256": {
-    "art/drawing/process/staged-drawing/AP_gate_staged_visual_work_by_approval.md": "ca670f3cd66f94993acaecd1045126806fb7d87d4d85fbbb303dd25fea5835d3",
-    "art/drawing/process/staged-drawing/PAT_block_complete_stage2_inventory.md": "fa89ede9b27c8e2cd3ff9434c9812b98d00bd582053124528bf78601a8f2a312",
-    "art/drawing/process/staged-drawing/PAT_calibrate_stage_information_density_against_precedent.md": "777a1dc6dbe70ba23ebaf18756da43e2d5ae098332730e6a04abd5ca392e9321",
-    "art/drawing/process/staged-drawing/PAT_choose_stage1_construction_by_readability.md": "16a0f9584c91ae34ad664d932f09d95000bd70d6160a18dee9e021e57dea2ba5"
+    "art/drawing/process/staged-drawing/AP_gate_staged_visual_work_by_approval.md": "cda6ada32e7a5e8dc0088f47608ddac10c35812430a7b1cffb866b189f0f77d5",
+    "art/drawing/process/staged-drawing/PAT_block_complete_stage2_inventory.md": "da819a91203319ff4c669e1b80c4722a847ff690c3d26801228933908f9f7d0e",
+    "art/drawing/process/staged-drawing/PAT_calibrate_stage_information_density_against_precedent.md": "a540db6d91a7e5d59e051f630003031eedccd7c5ccb8b82712109a7b55751f3f",
+    "art/drawing/process/staged-drawing/PAT_choose_stage1_construction_by_readability.md": "d5aa79e6deba9efe11478746b3886bcf3a2a2031d37fc04f3afd24f6e08a94c2"
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "source_id": "guided_stage1_stage3_artist_discretion_2026_08_06",
   "source_payload_sha256": "f3609792c05e1e495cae40a3c00800b0c64be53c5e6c059ca15e769c8cfccc94",
   "source_record_sha256": "29bf38d550bea39e9e6c7015628ecd818417aef9d69ce5996a1ea373e1bae239"

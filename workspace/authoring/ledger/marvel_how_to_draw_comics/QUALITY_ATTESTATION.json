@@ -1,0 +1,24 @@
+{
+  "approved_by": "MaDin \u2014 commit and close source after full review, 2026-08-14",
+  "attestation_sha256": "8bf59821f200bcd6e0ca2700eecc5c9d67f8fd517ca1194a3618f2e1c4e2a3c4",
+  "created": "2026-08-14",
+  "grounding_basis": "live_verified",
+  "ledger_tree_sha256": "25d7250d96e40130caac9973a5f18ec99a90be3ce9c013f42d7d2c5fa52aa5ae",
+  "note": "Grounding was re-verified against the real source payload before attestation.",
+  "object_hash_scope": "source_projection_v1",
+  "object_sha256": {
+    "art/drawing/comics/covers/AP_design_comic_cover_from_editorial_brief_to_pencils.md": "bd51189202f065ec8595dec7af8cb9bfc37ec3e9808abc63af128180a7119e5b",
+    "art/drawing/comics/inking/AP_ink_comic_art_for_reproduction_clarity_design_and_mood.md": "264abeb34b500696f132636149934c9a9a31ccfa518d73f147d5dd17eb3b5783",
+    "art/drawing/comics/page-construction/AP_build_comic_page_from_assigned_beats_to_pencils.md": "04893caa662dc2d91ee2213e2a10ed9173498982efcf1e1762484c706504da67",
+    "art/drawing/composition/DRILL_thumbnail_same_scene_across_camera_angles.md": "1414444818240e611d2899294469d9bcc40c70cf5af50fed43f4461408866ea8",
+    "art/drawing/composition/PAT_choose_viewpoint_to_strengthen_story_effect.md": "b4f9a0b5a6f0eae92fcf40e41d0dfd51db975bf02e38f85618f9b164da3d6c90",
+    "art/drawing/composition/PAT_repeat_with_variation_to_balance_coherence_and_interest.md": "7f79032046e2a4d7c5de653eda49ab6a55bc70d348e6f9c08b7e9ee595769f70",
+    "art/drawing/foundations/form-construction/DRILL_reverse_engineer_finished_drawing_into_primitive_construction.md": "9b7e8fa0a53cd88717496eb5c58dec6ee1a547e7b02cc464cb2a7a792f3c83bf",
+    "art/drawing/foundations/observation/PAT_intensify_distinguishing_characteristics_without_losing_structure.md": "0fa646320322924dadd8d9be48a3aa3c3adb453868a7e38493646f3e67c64ce2",
+    "metaskills/iterative-construction/AP_plan_and_build_work_from_thumbnail_to_final.md": "77a342fd55428f0864e34ec32d57101adcafdd0a8c74f9a6654ee456090f6919"
+  },
+  "schema_version": 2,
+  "source_id": "marvel_how_to_draw_comics",
+  "source_payload_sha256": "f5ba454de57c9b6bda43935ade82088539e0287ad6ed358ad13bce4fe34d6aab",
+  "source_record_sha256": "0109c515e776c100317648ef4cb548d6b4a1010696a334665cb1d5a894aaf37b"
+}

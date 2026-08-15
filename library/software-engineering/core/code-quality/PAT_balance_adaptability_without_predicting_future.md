@@ -28,7 +28,17 @@ reference:
   evidence_type: text
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_isolate_the_categories_that_are_historically_volatile
+  variant_name: Isolate the Categories That Are Historically Volatile
+  variant_basis: method_sequence
+  source_id: code_complete_2e
+  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
+  locator: u05, pp. 97-100
+  difference_from_foundation: The foundation applies general adaptability techniques and explicitly declines to predict which change will arrive. This variant supplies a middle route — predict the *category* rather than the specific change. It names areas that are volatile on almost any project (business rules, hardware dependencies, input and output formats, nonstandard language features, difficult design and construction areas, status variables, data-size constraints) and runs a three-step procedure over them: identify items likely to change, separate each volatile item into its own class or into a class with items that change at the same time, then isolate it behind an interface insensitive to the change so callers cannot tell it happened. It adds a proportionality rule the foundation lacks — make the scope of a change proportional to its likelihood, and factor in how cheap the change is to plan for, so an unlikely but easily anticipated change still earns preparation.
+  when_to_use: Use when a component sits in one of the named volatile categories, where the evidence is historical rather than speculative. Also use its two concrete moves wherever status is represented — prefer an enumerated type over a boolean so adding a state is a recompile rather than a sweep, and read state through an access routine so a more sophisticated test can replace a simple one later.
+  when_not_to_use: Do not let it license predicting specific future requirements, which is what the foundation rules out and what turns into speculative generality. Only extremely unlikely changes should be allowed to have drastic consequences across more than one class, so a category membership alone does not justify unlimited insulation.
+  absorbed_from_object_id: none
 ---
 
 # Make Code Adaptable Without Predicting Specific Changes
@@ -54,3 +64,5 @@ variants: []
 
 ## Notes
 Long presents two extreme scenarios — exhaustively engineering for predicted change versus ignoring change entirely — and shows both lose to a competitor, one by shipping a year late and one by needing repeated three-month rewrites. The durable lesson is that adaptability is achievable without prophecy: general techniques (developed through the rest of the book) keep code flexible without committing to guesses about which change will actually arrive.
+
+`VAR_isolate_the_categories_that_are_historically_volatile` supplies a genuinely different route to the same decision, and the two sources disagree in an instructive way. Long declines to predict; McConnell predicts the *category* and not the instance. His claim is that certain areas are volatile on nearly every project regardless of domain — business rules, hardware interfaces, input and output formats, nonstandard language extensions, the parts that were hard to design and may need redoing, status variables, and data-size constraints — so treating them as volatile is reading history rather than forecasting. Where the two agree is on the failure mode: he also holds that only extremely unlikely changes should be allowed drastic consequences across more than one class, which is the same anti-speculation instinct arriving from the other side. His proportionality rule is the useful addition — scope the preparation to the likelihood of the change, adjusted for how cheap it is to prepare for, so a change that is unlikely but trivially anticipated still earns its insulation while a likely one that would cost a rewrite to anticipate may not. His two status-variable moves are worth taking on their own: prefer an enumerated type to a boolean, and read state through an access routine rather than testing the variable directly.

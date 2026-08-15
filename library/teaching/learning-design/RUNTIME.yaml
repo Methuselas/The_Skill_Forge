@@ -1,0 +1,19 @@
+schema_version: 1
+activations:
+  - object_id: AP_teach_craft_from_orientation_to_generation
+    reason: teaching requests need an instructional sequence as well as domain knowledge
+    when:
+      lanes: [teach]
+      phase: pre_production
+  - object_id: PAT_match_models_to_learner_output_scale
+    reason: teaching requests that use examples should match exemplar scale to learner output
+    when:
+      lanes: [teach]
+      phase: pre_production
+      any_phrases: [model, example, exemplar, reading]
+  - object_id: PAT_shrink_practice_scope_to_preserve_revision
+    reason: teaching requests about practice or feedback should preserve room for revision
+    when:
+      lanes: [teach]
+      phase: pre_production
+      any_phrases: [practice, exercise, feedback, revise, revision]

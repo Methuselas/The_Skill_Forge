@@ -29,7 +29,7 @@ cross_links:
 - rel: foundation_of
   target_object_id: PAT_compare_related_animal_types_with_proportion_boxes
 - rel: related_to
-  target_object_id: PAT_set_figure_proportions_with_adjustable_head_units
+  target_object_id: PAT_calibrate_observed_proportion_with_relational_sighting
 reference:
   source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy

@@ -36,7 +36,18 @@ reference:
   evidence_type: text
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_bammes_complete_sketch_with_objective_led_economy
+  variant_name: Complete a Sketch With Objective-Led Economy
+  variant_basis: emphasis
+  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
+  source_title: The Artist's Guide to Animal Anatomy
+  locator: u33, printed pp. 136-137; physical pp. 134-135
+  difference_from_foundation: >-
+    Carries the selected dominant quality into the stopping decision: choose only the contour, hatching, tone, gesture, or other means needed to state that impression decisively, and stop when the statement is complete even if much of the animal remains unstated.
+  when_to_use: Use when a study is called a sketch but its marks are vague, uniformly sparse, speed-driven, or accumulating without a clear criterion for completion.
+  when_not_to_use: Do not equate economy with minimum line count or haste; a forceful contour, dense hatching, or broad marks may be the smallest sufficient means for the chosen impression.
+  absorbed_from_object_id: none
 ---
 
 # Select One Dominant Quality for an Animal Study
@@ -70,3 +81,5 @@ variants: []
 Bammes calls the qualities that first seize the artist's attention **impressional qualities**. His opening exercise is selective: survey the animal, decide which impression is strongest, and concentrate on that one instead of trying to develop every appealing aspect in the same drawing. The purpose is not simplification for its own sake; selection creates a stable graphic concept and trains the artist to distinguish essential information from merely available information.
 
 Section 1.2 immediately places a structural limit on this freedom. A selective study still benefits from enough anatomy to perceive the animal as one articulated entity. Choosing a dominant quality changes emphasis, not the requirement that the parts belong to the same constructed body.
+
+`VAR_bammes_complete_sketch_with_objective_led_economy` adds §9.2's completion test. A sketch is not defined by speed, vagueness, or a low line count. Once the objective is known, use the amount and kind of contour, hatching, tone, or gesture needed for that single impression, then stop when the statement is complete in itself.

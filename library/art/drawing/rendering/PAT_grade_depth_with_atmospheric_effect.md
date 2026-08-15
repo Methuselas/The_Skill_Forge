@@ -30,7 +30,17 @@ reference:
   evidence_type: mixed
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_dodson_shift_texture_mark_vocabulary_with_distance
+  variant_name: Shift Texture Mark Vocabulary With Distance
+  variant_basis: method_sequence
+  source_id: bert_dodson_keys_to_drawing
+  source_title: Keys to Drawing
+  locator: u06, physical pp. 169-170
+  difference_from_foundation: "Adds Dodson's perceptual-scale route: as repeated surface detail recedes, change the kind of mark used to represent it rather than merely shrinking the foreground stroke. Move from individual articulation to grouped texture, broader pattern, and finally near-omission as distance removes resolvable events."
+  when_to_use: Use when grass, foliage, crowds, windows, scales, fur, roof tiles, or other repeated detail extends through substantial depth and literal miniaturization would make the far field noisy or false.
+  when_not_to_use: Do not change mark vocabulary so abruptly that equivalent surfaces stop belonging to the same material family, and do not use simplification to repair incorrect scale or perspective.
+  absorbed_from_object_id: none
 ---
 
 # Grade Depth With Atmospheric Effect
@@ -59,3 +69,5 @@ variants: []
 
 ## Notes
 Gill calls this “atmospheric effect” and repeatedly treats it as part of the same spatial evidence system as convergence, diminution, foreshortening, light, shadow, and overlap. The durable extraction is the near-to-far loss of contrast and clarity, not the book's period-specific account of why the air produces it.
+
+`VAR_dodson_shift_texture_mark_vocabulary_with_distance` adds a perceptual-scale rendering route: let foreground articulation collapse into grouped texture, broader pattern, and eventual omission as distance removes resolvable surface events instead of miniaturizing one mark indefinitely.

@@ -47,6 +47,16 @@ variants:
   when_to_use: Use when clothing looks generically wrinkled, when fitted garments ignore seam logic, or when loose cloth fails to react to the body beneath it.
   when_not_to_use: Do not turn costume drawing into tailoring notation or draw every seam/button; retain only garment-construction information that materially changes fit, drape, or silhouette.
   absorbed_from_object_id: none
+- variant_id: VAR_loomis_stage_costume_practice_from_isolated_figure_to_scene_context
+  variant_name: Stage Costume Practice From Isolated Figure to Scene Context
+  variant_basis: method_sequence
+  source_id: andrew_loomis_successful_drawing
+  source_title: Successful Drawing
+  locator: u09, physical PDF pp. 127-136
+  difference_from_foundation: 'Uses problem-scope sequencing as a costume-study method: first suppress most environmental complexity and solve the clothed figure as body plus garment under one coherent light, then deliberately reintroduce room, furniture, accessories, and scene context so scale, perspective, occlusion, and environmental lighting are tested after the garment/body relationship is controllable.'
+  when_to_use: Use when costume or drapery study is being overloaded by background, perspective, lighting, and environmental information before the garment/body relationship itself can be diagnosed reliably.
+  when_not_to_use: Do not treat background suppression as a final-image rule; graduate back into scene context because environment can alter cast shadows, reflected light, occlusion, silhouette, scale, and composition.
+  absorbed_from_object_id: none
 ---
 
 # Design Drapery From Tension Points and Forces
@@ -72,3 +82,5 @@ variants:
 Drapery becomes intelligible when folds are traced back to support, pull, compression, and release instead of copied as independent zigzags.
 
 `VAR_loomis_separate_garment_construction_from_body_driven_folds` retains **Separate Garment Construction From Body-Driven Folds** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
+
+`VAR_loomis_stage_costume_practice_from_isolated_figure_to_scene_context` adds a training progression: isolate the clothed figure long enough to diagnose body/garment relationships, then restore rooms, furniture, accessories, and environmental lighting so costume skill is tested inside real scene constraints rather than remaining an isolated-study trick.

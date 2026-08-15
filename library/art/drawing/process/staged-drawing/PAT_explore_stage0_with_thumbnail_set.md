@@ -42,6 +42,16 @@ references:
   origin: first_party_source
   review: passed
 variants:
+- variant_id: VAR_dodson_start_composition_with_format_figure_ground_and_few_shapes
+  variant_name: Start Composition With Format, Figure-Ground Ratio, and a Few Dominant Shapes
+  variant_basis: method_sequence
+  source_id: bert_dodson_keys_to_drawing
+  source_title: Keys to Drawing
+  locator: u07, physical pp. 182-184
+  difference_from_foundation: 'Adds Dodson''s fast anti-paralysis route to Stage 0 search: choose vertical or horizontal orientation, decide whether subject or ground should dominate, and reduce the idea to a few large shapes before elaborating alternatives.'
+  when_to_use: Use when an open composition is difficult to begin and the artist needs a quick large-shape proposition before exploring finer camera, pose, or value decisions.
+  when_not_to_use: Do not treat the source's suggested number of shapes as a fixed quota, and do not override a user-fixed format, crop, or subject/background relationship.
+  absorbed_from_object_id: none
 - variant_id: VAR_hultgren_choose_viewpoint_from_dominant_mass_effect
   variant_name: Choose Viewpoint From the Dominant Mass Effect
   variant_basis: method_sequence
@@ -62,6 +72,27 @@ variants:
   when_to_use: Use while the camera is still open and the drawing is primarily an anatomy, construction, or form study whose success depends on making the animal's characteristic volumes and plane changes readable.
   when_not_to_use: Do not override a user-fixed viewpoint, documentary/reference-matching view, orthographic comparison, or composition whose direct view is itself the intended statement; three-quarter high/low views are options for clearer form, not a mandatory recipe.
   absorbed_from_object_id: none
+- variant_id: VAR_mogilevtsev_preview_final_impression_with_integrated_study
+  variant_name: Preview the Final Impression With an Integrated Study
+  variant_basis: method_sequence
+  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
+  source_title: Fundamentals of Drawing
+  locator: u01, physical PDF pp. 14-15; u06, physical PDF pp. 39-41
+  difference_from_foundation: "Adds Mogilevtsev's academic control-study route for a fixed long drawing: make one small preliminary study in a format corresponding to the intended final work, and use it to preview the finished impression while jointly solving composition, proportions, movement, and tonal relationships before detailed execution. For a many-hour live figure pose, record the essential movement early and let the control study preserve the intended pose if the model gradually drifts. Unlike the foundation's alternative-search contact sheet, this study is a committed control image once the subject and direction are already chosen."
+  when_to_use: Use when the model or assignment is fixed and a long training drawing needs a compact control image that exposes large compositional, proportional, movement, and tonal problems before the large sheet becomes expensive to revise; for a fixed live pose, also use the study as a stable movement authority when later observation drifts from the chosen action.
+  when_not_to_use: Do not substitute this single committed study for open Stage 0 exploration when camera, crop, or major placement are still undecided; use alternative thumbnails first when the picture itself still needs searching. Do not let an early study override a deliberate pose reset or a clearly better correction agreed before later construction is committed.
+  absorbed_from_object_id: none
+- variant_id: VAR_mogilevtsev_lower_eye_level_to_clarify_foot_ground_planes
+  variant_name: Lower Eye Level to Clarify Foot-Ground Planes
+  variant_basis: context
+  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
+  source_title: Fundamentals of Drawing
+  locator: u09, physical PDF pp. 60-61
+  difference_from_foundation: "Adds Mogilevtsev's bounded station-point correction for academic figure studies: when a close or high observation station makes the feet appear suspended or makes the free-foot plane unnecessarily confusing, test a lower eye level and/or greater observation distance before the long drawing is committed, then re-evaluate the whole figure-ground projection from that station."
+  when_to_use: Use while the viewpoint is still open and the foot/ground relationship is spatially confusing enough that the observation station itself may be the source of the problem; sitting down is one simple analog way to test a lower eye level.
+  when_not_to_use: Do not change station point midway through an established drawing, because that changes the projection of the entire figure. A low eye level is not inherently better and must yield to a fixed assignment, documentary match, intended camera effect, or any higher view that is structurally clearer for the actual task.
+  absorbed_from_object_id: none
+
 ---
 
 # Explore Stage 0 With a Thumbnail Set
@@ -107,3 +138,9 @@ Stage 0 is the model's widest creative search space. Multiple quick alternatives
 `VAR_hultgren_choose_viewpoint_from_dominant_mass_effect` adds Hultgren's effect-first camera route: choose the dramatic or bulk read before the camera, select the view that magnifies it, establish the principal pose from that view, then make the rest of the picture intensify the same effect. Use this only while Stage 0 viewpoint is still open.
 
 `VAR_bammes_choose_viewpoint_to_reveal_distinctive_animal_form` adds Bammes's anatomy-study criterion: when the camera is open, choose the view that makes the animal's characteristic masses and plane relationships easiest to understand and depict. Three-quarter high or low views often expose more structure than direct views, but only when that serves the actual subject and assignment.
+
+`VAR_dodson_start_composition_with_format_figure_ground_and_few_shapes` adds a fast opening route when Stage 0 feels too unconstrained: choose format, decide whether subject or ground dominates, and reduce the proposition to a few large shapes before expanding the search. The source's suggested shape count is a heuristic rather than a quota.
+
+`VAR_mogilevtsev_preview_final_impression_with_integrated_study` adds a different Stage 0 use case from open alternative search: when the subject and direction are fixed, make a small control study that previews the intended finished impression and jointly checks composition, proportion, movement, and broad tone before the long drawing. In a many-hour live figure study, the same control can preserve the intended movement when the model gradually drifts, while still yielding to a deliberate pose reset or an early agreed correction.
+
+`VAR_mogilevtsev_lower_eye_level_to_clarify_foot_ground_planes` adds a pre-commit station-point diagnostic for live figure studies: if the chosen observation height/distance makes the feet read as suspended or makes the free-foot plane needlessly ambiguous, test a lower eye level or greater distance and recheck the entire figure-ground projection before locking the long drawing. It is a viewpoint correction, not a local foot repair to apply after the drawing's camera is established.

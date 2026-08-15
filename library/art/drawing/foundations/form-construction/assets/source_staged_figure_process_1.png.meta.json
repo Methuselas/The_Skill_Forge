@@ -1,0 +1,16 @@
+{
+  "origin": "first_party_source",
+  "generator_model": null,
+  "generated_at": "2026-07-31",
+  "prompt": "Direct first-party source reference from the authored staged workflow; no generation prompt.",
+  "source_renders": [
+    "sources/gen1_art_fundamentals_4step/4step_figure_process_1.png"
+  ],
+  "review": {
+    "verdict": "passed",
+    "reviewer": "GPT visual review with user expert instruction",
+    "reviewed_at": "2026-08-01",
+    "method": "vision review of first-party staged source",
+    "note": "The human figure preserves its action, depth, support, and major attachments from the framework through blocking, rough construction, and final line art."
+  }
+}

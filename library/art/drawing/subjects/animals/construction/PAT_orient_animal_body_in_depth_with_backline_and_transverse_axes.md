@@ -29,7 +29,7 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_construct_animal_form_from_core_masses_framework_and_soft_parts
 - rel: related_to
-  target_object_id: PAT_measure_live_figure_with_center_out_visual_survey
+  target_object_id: PAT_calibrate_observed_proportion_with_relational_sighting
 - rel: prerequisite_for
   target_object_id: DRILL_construct_foreshortened_animal_from_backline_cross_axes_and_core_masses
 reference:

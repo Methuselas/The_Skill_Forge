@@ -65,16 +65,18 @@ can go stale. If they disagree, the ledger wins.
 | marvel_how_to_draw_comics | How to Draw Comics the Marvel Way | Stan Lee and John Buscema | f5ba454de57c | complete | 12/12 | 6 new, 3 variants | committed 2026-08-14 |
 | andrew_loomis_successful_drawing | Successful Drawing | Andrew Loomis | 2d1d0c6915b2 | complete | 11/11 | 1 new, 11 variants | |
 | vladimir_mogilevtsev_fundamentals_of_drawing | Fundamentals of Drawing | V. A. Mogilevtsev | 178328b32aaa | complete | 11/11 | 2 new, 12 variants, 2 refinements | committed 2026-08-14 |
+| andrew_loomis_creative_illustration | Creative Illustration | Andrew Loomis | 506648bdf3ff | in-progress | 7/22 | 7 new, 10 variants, 1 generalization, 1 refinement | committed through u07 2026-08-15 |
 
-<!-- Writing and teaching candidates sourced from writing books. -->
+<!-- Shared Teaching grounding dependency included in the Art authoring slice. -->
 | david_starkey_creative_writing_four_genres_in_brief_3e | Creative Writing: Four Genres in Brief, Third Edition | David Starkey | 4dcdd06e0727 | in-progress | 3/151 | 18 new, 5 variants | |
 
-<!-- Software engineering. These four rows were dropped from the working copy during an
-     unrelated edit to this shared table and are restored here; `programmers_brain` is
-     also brought up to the state its own SOURCE.md records. Keep the lanes in separate
-     blocks so a rewrite of one block cannot take the other with it. -->
+<!-- Software engineering. THIRD restoration of this block: it has now been dropped from
+     the working copy three times by rewrites of this shared table (2026-08-14, and twice
+     on 2026-08-15). Rule 25 catches it, but only after the fact. If you are regenerating
+     this file, regenerate every ledger under workspace/authoring/ledger/ rather than the
+     rows for one lane, or the other lane's rows will keep disappearing. -->
 | gcbc_think_like_swe | Good Code, Bad Code: Think Like a Software Engineer | Tom Long | 35e22cad8052 | complete | 11/11 | 122 | 2026-07-31 |
 | programmers_brain | The Programmer's Brain: What Every Programmer Needs to Know About Cognition | Felienne Hermans | 52063e7300c1 | complete | 13/13 | 66 new, 19 variants | 2026-08-13 |
 | effective_cpp_3e | Effective C++, 3rd ed. | Scott Meyers | 4f983195c37c | complete | 9/9 | 80 | 2026-08-01 |
 | cpp_core_guidelines | C++ Core Guidelines | Stroustrup & Sutter (eds.) | be29ae459bc2 | queued | | | |
-| code_complete_2e | Code Complete: A Practical Handbook of Software Construction, 2nd Ed. | Steve McConnell | c321aafe9402 | in-progress | 4/35 | 16 new, 2 variants | |
+| code_complete_2e | Code Complete: A Practical Handbook of Software Construction, 2nd Ed. | Steve McConnell | c321aafe9402 | in-progress | 5/35 | 22 new, 3 variants | |

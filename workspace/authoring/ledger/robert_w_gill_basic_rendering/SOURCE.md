@@ -5,7 +5,8 @@ title: Basic Rendering: Effective Drawing for Designers, Artists and Illustrator
 author: Robert W. Gill
 publish_date: 1991
 media_type: book
-sha256: ec1c2dd8e9518801101f140caa1970ca50231982dc9d04d39f0969f6b43e4832
+payload_path: sources/art/robert_w_gill_basic_rendering.pdf
+
 added: 2026-08-09
 status: complete
 visual: true

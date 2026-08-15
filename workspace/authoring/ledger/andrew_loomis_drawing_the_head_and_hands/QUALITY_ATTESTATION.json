@@ -1,25 +1,30 @@
 {
-  "approved_by": "MaDin \u2014 accepted canonical archive during SkillForge rebuild",
-  "attestation_sha256": "8a0937353c5de44e07958d10fba48c6b3a5672a23a2e126f2c151f4bc034a8f7",
-  "canonical_archive": {
-    "name": "PASS_Bammes_AnimalAnatomy_u27_STAGED_ART_REPO_ONLY_2026-08-11(1).zip",
-    "sha256": "11c68837d3ed3012041d9dfa0d4fb3a36b9d0112fe6ee5033c96f670ec6abc82"
-  },
-  "created": "2026-08-12",
-  "grounding_basis": "canonical_archive_accepted",
-  "ledger_tree_sha256": "44fdb4ac723b380c86b2926648cc8434d5ea8cd498244e018cc335f625249cdb",
-  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "approved_by": "MaDin - payload recovered from D:\\Sources by hash match, renders regenerated, grounding re-verified live, 2026-08-15",
+  "attestation_sha256": "05b3996830e9f13695dc6ce9eb3a321b9c0ff17e5304e4262e842c45f5a2d91b",
+  "created": "2026-08-15",
+  "grounding_basis": "live_verified",
+  "ledger_tree_sha256": "0fd848e14c8d3f1c5109854a034cfe9a3a6eade386ad96ec6095948a241c2325",
+  "note": "Grounding was re-verified against the real source payload before attestation.",
+  "object_hash_scope": "source_projection_v1",
   "object_sha256": {
-    "art/drawing/subjects/figure/construction/PAT_elicit_natural_child_expression_through_rapport.md": "f9d91cfbadaea2d8d3840e67ffe1c565d063dbc2b52838b025ce32229ea8563d",
-    "art/drawing/subjects/figure/hands/DRILL_make_many_observational_studies_of_your_own_hand.md": "20bbca20e10ea6d0d91ab1c3f46eb5bb29ee73855900fe7af2d922e7f19103f4",
-    "art/drawing/subjects/figure/heads/DRILL_build_baby_head_age_ladder_from_reference.md": "b3029f58252ac4c84abaad2499c0c6db81c3f033866de790aec2837ca98d7e19",
-    "art/drawing/subjects/figure/heads/DRILL_construct_character_head_from_written_description.md": "a63db68e8e83a89c50acd78bbef7f3a8e87753ba20bc067ee34e15e28c540ea8",
-    "art/drawing/subjects/figure/heads/DRILL_hold_one_head_type_across_expression_set.md": "d29c5c87552ba57b580226cafdd9c4b54f9209f747153cde4a4b7b6a358462ad",
-    "art/drawing/subjects/figure/heads/DRILL_redraw_earlier_head_studies_after_full_pass.md": "cfdc29f6fdbe5587df2fed55d28911269b28b26fc8cd1eb3109b79a4c2229fc3",
-    "art/drawing/subjects/figure/heads/DRILL_reverse_engineer_head_reference_through_structural_stages.md": "52879104bbb1374413cf56170b5345b2ace86f2424b3f8a39d3170ba0333c39e"
+    "art/drawing/foundations/form-construction/PAT_design_surface_anatomy_as_microgesture_on_parent_forms.md": "29c358332615498b5d05c7e5686b09e1a0a2f713a0c660b12ffd2dfc92a5db24",
+    "art/drawing/rendering/PAT_consolidate_resolved_form_with_tone.md": "ae96e35635f01e56a3c9078d04a924cfeeebdfcebec7ac1eb74f64204182e1fc",
+    "art/drawing/subjects/figure/construction/PAT_elicit_natural_child_expression_through_rapport.md": "0f0e3d3e0cfb366e6189f594291a7ef085730e67d107f591f10a25579a14b7a6",
+    "art/drawing/subjects/figure/hands/DRILL_make_many_observational_studies_of_your_own_hand.md": "2f906d2766b52ae1b9438074955ce139eae98dc9bf0c69fe94056977e2feb197",
+    "art/drawing/subjects/figure/hands/PAT_configure_hand_around_function_contact_and_load.md": "f91bcd15e899bbaa97c0f1e9da989fca1de6cb29b64e077b1af85b7a10fbed34",
+    "art/drawing/subjects/figure/hands/PAT_construct_hand_from_palm_wedge_and_digit_chain.md": "a9c30d47399a63b3fb4cc718094e7cb16bd0b4df993770800aeafbc1f43a21c1",
+    "art/drawing/subjects/figure/hands/PAT_design_hand_age_by_structural_and_surface_cues.md": "1358402ed254b7020fea91eda25d017655afb9cd5ccd745d1b06662d52809c7d",
+    "art/drawing/subjects/figure/hands/PAT_unify_finger_chains_with_knuckle_shank_rhythm.md": "5a6e0bce128376f87824a6e827583a3ef0ea3c7676fe1b0e3044c03de30208b8",
+    "art/drawing/subjects/figure/heads/DRILL_build_baby_head_age_ladder_from_reference.md": "13a2ffcc917717cdb6f47d4b58735879dcb3140ebc2e6368ece469940c1f7232",
+    "art/drawing/subjects/figure/heads/DRILL_construct_character_head_from_written_description.md": "7190c7e282e33a31de837b59ca7d17d920e35fd02eb45b49ac1f1d236f0231c9",
+    "art/drawing/subjects/figure/heads/DRILL_hold_one_head_type_across_expression_set.md": "11f8ddfca3de3441394df2f490b72d0a3e540e67778a2e58f7c87725e99292d3",
+    "art/drawing/subjects/figure/heads/DRILL_redraw_earlier_head_studies_after_full_pass.md": "bdea426b77e0ffcf2e6be2855d0d9847c5ab3fad7ad113105a89a60a9a1123c2",
+    "art/drawing/subjects/figure/heads/DRILL_reverse_engineer_head_reference_through_structural_stages.md": "d97bb272184d78ec87ef6d647d465f5fe2bdbc34e399d2d8de1501fbe976353d",
+    "art/drawing/subjects/figure/heads/PAT_construct_head_from_cranial_ball_and_facial_wedge.md": "06b02bb9b538ba955c37b541ae4bcd302213e9595abaae380a5316e645557540",
+    "art/drawing/subjects/figure/heads/PAT_set_figure_proportions_with_adjustable_head_units.md": "36ede59fde736d34e09678d8f807a26e060dd17f26e9b2ad1f5fae7a7df7a4ee"
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "source_id": "andrew_loomis_drawing_the_head_and_hands",
   "source_payload_sha256": "8572e461e8772f7fe75e0795dbbcef2471e1ed2f21530207fc9b4e6fb95f513c",
-  "source_record_sha256": "b854820759d05af89d28b1f73e8c07f6bba036bd7805753d40c0358f834a4d6d"
+  "source_record_sha256": "3360e9192f61075eaf6564197d6eb8badfc1114521e10f5d36a9abeea9a93b10"
 }

@@ -1,0 +1,58 @@
+---
+object_id: PAT_map_observed_subject_as_interlocking_positive_and_negative_shapes
+object_type: pattern
+name: Map an Observed Subject as Interlocking Positive and Negative Shapes
+library_path:
+- art
+- drawing
+- foundations
+- observation
+stage_binding: 1 skeleton
+lane_fit: skill
+foundation_role: foundation
+routing_class: general
+specialization_axis: none
+foundation_object_id: none
+tags:
+- observation
+- positive_shape
+- negative_shape
+- placement
+- proportion
+cross_links: []
+reference:
+  source_id: bert_dodson_keys_to_drawing
+  source_title: Keys to Drawing
+  author: Bert Dodson
+  publish_date: 1985
+  media_type: PDF
+  locator: u01, physical pp. 9-40
+  evidence_type: mixed
+confidence: high
+references: []
+variants: []
+---
+
+# Map an Observed Subject as Interlocking Positive and Negative Shapes
+
+## Pattern Rule
+**IF** an observed subject is difficult to place accurately because named parts or internal structure are biasing the drawing
+**THEN** alternate between the subject's positive shapes and the adjacent or trapped negative shapes so shared boundaries provide independent placement checks
+**ELSE** keep the structural construction primary when observational matching is not the task
+
+## Do
+- Begin with large enclosing or combined shapes before subdividing into smaller openings.
+- Use trapped spaces between limbs, furniture bars, features, or other parts to test the same contour from the opposite side.
+- Compare a three-dimensional construction against the two-dimensional shape map when one reading begins to drift.
+
+## Don't
+- Do not turn negative-space drawing into contour tracing without structural awareness.
+- Do not solve every tiny gap before the major enclosing relationships are stable.
+
+## Checklist
+- Important boundaries agree when read from both the positive and negative side.
+- Large shapes are placed before small trapped spaces are refined.
+- A mismatch between 2-D shape and 3-D construction is investigated rather than ignored.
+
+## Notes
+Because a positive member and the space beside it share the same boundary, Dodson uses negative shapes as an alternate description of the subject. The method is portable across figures, animals, objects, vehicles, architecture, and creatures.

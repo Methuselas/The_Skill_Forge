@@ -1,0 +1,68 @@
+---
+object_id: PAT_select_and_shape_contour_for_expressive_meaning
+object_type: pattern
+name: Select and Shape Contour for Expressive Meaning
+library_path:
+- art
+- drawing
+- rendering
+stage_binding: 3 rough
+lane_fit: both
+foundation_role: foundation
+routing_class: general
+specialization_axis: none
+foundation_object_id: none
+tags:
+- contour
+- line
+- expression
+- interpretation
+- shape_design
+- selective_observation
+cross_links:
+- rel: related_to
+  target_object_id: PAT_pair_directional_line_and_mass_marks_as_complementary_roles
+- rel: related_to
+  target_object_id: PAT_map_observed_subject_as_interlocking_positive_and_negative_shapes
+reference:
+  source_id: andrew_loomis_creative_illustration
+  source_title: Creative Illustration
+  author: Andrew Loomis
+  publish_date: unknown
+  media_type: PDF
+  locator: u01, physical PDF p. 12; printed p. 19
+  evidence_type: text
+confidence: high
+references: []
+variants: []
+---
+
+# Select and Shape Contour for Expressive Meaning
+
+## Pattern Rule
+**IF** the subject is structurally convincing but a literally copied contour states only where the boundary is and not the quality the picture needs to communicate
+**THEN** identify the intended expressive quality and selectively restate the highest-leverage contour passages so their direction, curvature, simplification, or emphasis carries that meaning while remaining anchored to believable construction
+**ELSE** retain the more literal contour when faithful observation, documentation, or an already expressive boundary is the actual objective.
+
+## Do
+- Establish enough proportion, construction, and spatial placement that expressive changes have a reliable structure to act on.
+- Name the quality the contour should help communicate, such as grace, weight, hardness, tension, softness, age, speed, character, or charm.
+- Change only the passages that materially improve that read; a designed contour can simplify, combine, bend, straighten, accent, or omit observed irregularities.
+- Compare the restated line against both the subject and the intended impression. Keep the change only if it strengthens meaning without making the form structurally implausible.
+- Let neighboring internal lines, overlaps, tone, and mass support the same interpretation rather than asking one decorative outer edge to carry the whole effect.
+
+## Don't
+- Do not treat expressive license as permission to ignore anatomy, perspective, proportion, attachment, or form direction.
+- Do not distort every edge merely to make the drawing look stylized.
+- Do not copy incidental bumps and camera-visible irregularities when they weaken the intended statement.
+- Do not replace observation with a stock curve, habitual flourish, or borrowed mannerism unrelated to the subject.
+
+## Checklist
+- The contour communicates an intended quality in addition to locating a boundary.
+- Structural believability survives the expressive restatement.
+- The changed passages are selective and purposeful rather than uniformly stylized.
+- The line agrees with the larger action, mass, and pictorial intent.
+- A more literal contour remains available when fidelity is the governing requirement.
+
+## Notes
+In the Opening Chat, Loomis separates mechanically correct contour placement from what he calls real drawing: interpretation, selection, and statement of contour for meaning. He explicitly allows the chosen line to depart from the literal observed boundary when another contour better expresses qualities such as grace, character, or charm. The Pattern preserves that decision while adding a firm PASS boundary: expressive restatement must remain answerable to construction and purpose, and literal fidelity remains valid when it is the task.

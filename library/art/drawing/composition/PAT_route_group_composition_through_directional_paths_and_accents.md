@@ -22,13 +22,7 @@ tags:
 - accent
 - focal_hierarchy
 - animal_drawing
-cross_links:
-- rel: related_to
-  target_object_id: PAT_explore_stage0_with_thumbnail_set
-- rel: related_to
-  target_object_id: PAT_route_animal_gesture_through_governing_action_line
-- rel: related_to
-  target_object_id: PAT_coordinate_figure_with_encompassing_contour
+cross_links: []
 reference:
   source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
@@ -41,7 +35,6 @@ confidence: high
 references: []
 variants: []
 ---
-
 # Route Group Composition Through Directional Paths and Accents
 
 ## Pattern Rule

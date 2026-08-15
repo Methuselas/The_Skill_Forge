@@ -38,26 +38,6 @@ variants:
     when_to_use: Use when a figure must preserve a lively action curve through construction and cleanup.
     when_not_to_use: Avoid when the primary problem is an unclear overall composition rather than a figure's gesture and structure.
     absorbed_from_object_id: none
-  - variant_id: VAR_ch10_page_wide_staged_pencilling
-    variant_name: Page-Wide Staged Comics Pencilling
-    variant_basis: method_sequence
-    source_id: marvel_how_to_draw_comics
-    source_title: How to Draw Comics the Marvel Way
-    locator: ch10, PDF pp. 108-114
-    difference_from_foundation: "Holds the whole comics page at each construction stage: lay out every panel as stick-figure action, build all figures with primitive masses and draw-through, then flesh out the page rather than finishing one panel before the rest are designed."
-    when_to_use: Use when a multi-panel page needs its action flow and figure relationships judged before local finish work can lock them in.
-    when_not_to_use: Avoid when the work has no page-level sequence or when a single illustration's composition is already settled and its remaining risk is local form construction.
-    absorbed_from_object_id: none
-  - variant_id: VAR_ch11_editorial_cover_layout_review
-    variant_name: Editorial Cover Layout Review
-    variant_basis: method_sequence
-    source_id: marvel_how_to_draw_comics
-    source_title: How to Draw Comics the Marvel Way
-    locator: ch11, PDF pp. 117-121
-    difference_from_foundation: Creates several rough cover layouts, compares their reader hierarchy and production zones with an editor, then develops the selected layout from construction drawing to final pencils.
-    when_to_use: Use when a cover or other promotional image must satisfy an editorial brief before detailed drawing makes its composition expensive to change.
-    when_not_to_use: Avoid when the work has no stakeholder review or promotional-format constraints and a single thumbnail already resolves the intent.
-    absorbed_from_object_id: none
 ---
 
 # Plan and Build Work From Thumbnail to Final
@@ -86,6 +66,3 @@ A C++ random-number generator follows the same order. At Step 0, decide the call
 
 `VAR_ch06_action_centerline_figure_build` adapts the scaffold to an action figure: begin with a center-line gesture, add spheres, cubes, and cylinders through loose exploratory strokes, retain only the marks that clarify the form, and then use tonal treatment to complete it. Use this route when preserving gesture is the main risk; it is not a replacement for a composition-first thumbnail when the whole image still lacks a clear intent.
 
-`VAR_ch10_page_wide_staged_pencilling` adapts the scaffold to a comics page: rough every panel's action as stick figures before finishing any one drawing, build the page's figures with spheres, cubes, cylinders, and necessary draw-through, then flesh out the page. Use it when the page's sequence and action flow need to remain visible throughout construction; it is not a substitute for the general foundation when there is no multi-panel whole to coordinate.
-
-`VAR_ch11_editorial_cover_layout_review` adapts the scaffold to a comicbook cover: make several rough layouts, compare their lead-character visibility, scale, eye level, and available production areas with the editor, then develop the selected layout through construction to finished pencils. Use it when a promotional image must carry a clear editorial hierarchy before detail; it adds review time and format constraints that an ordinary single-image thumbnail may not need.
