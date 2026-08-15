@@ -10,6 +10,8 @@ sha256:       c321aafe940280e0c2fe7fe2b85a7e743ff6009bafeed7af0c8f6263b1ed08d3
 pdf_page_offset: 37
 added:        2026-08-14
 status:       in-progress
+unit_ledger_contract: 3
+teaching_lane_grandfathered_units: u01, u02, u03
 
 ## Unit scheme
 

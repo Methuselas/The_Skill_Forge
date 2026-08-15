@@ -1,0 +1,33 @@
+{
+  "approved_by": "MaDin - in-progress source; u01-u04 verified live against attached payload, 2026-08-15",
+  "attestation_sha256": "d3ecbb8ddb3209997045bbf5f1f7999393a40f6b2fd17294bf0d9706ada65b78",
+  "created": "2026-08-15",
+  "grounding_basis": "live_verified",
+  "ledger_tree_sha256": "89527fe7ee67fae5b9bc9ad23383ffa663e60b48b6fb33022b58e9d218ee5b95",
+  "note": "Grounding was re-verified against the real source payload before attestation.",
+  "object_hash_scope": "source_projection_v1",
+  "object_sha256": {
+    "software-engineering/core/code-quality/PAT_improve_the_code_when_you_cannot_improve_the_process.md": "d2661bad1d16f13a1e1ea1690ad5742f6561d81ddf11aed8be7007866734dc46",
+    "software-engineering/core/code-quality/PAT_reuse_before_reinventing.md": "b5d2df90f6a47ccf4e871b6c214075b83e90fb6ea697d9cb5a47abcf98f852a6",
+    "software-engineering/core/design/PAT_judge_an_architecture_before_building_on_it.md": "f9cc50dbaf3413d4b2f1dda307735d79322684e19c88b9b43082106792dce9a2",
+    "software-engineering/core/design/PAT_program_into_the_language_not_in_it.md": "b3272a1a9ef3366ae664bcc13e21d4d9f44f52b1c1172882f91179feeff9ffe3",
+    "software-engineering/core/design/PAT_set_the_robustness_level_deliberately.md": "9e525bcfab865158d69651a1eba7ab209f7bccd7d5f571193c14a40aceac59f3",
+    "software-engineering/core/design/PAT_settle_load_bearing_decisions_before_finishes.md": "dc7fcb5260dbf1e2bcf132500a8cb89f64381df8f5cec11f1b116c742656fec3",
+    "software-engineering/core/design/PAT_state_the_problem_before_the_solution.md": "bcdf8e114faef67fb395d01c2406f732a04c788d0efb8dc7f500f922850835ab",
+    "software-engineering/core/design/PAT_write_the_language_you_are_in_not_the_one_you_know.md": "3ba941686f2e2a1cca8d87104b4b5876a5cfcce68794ef53d9089ef3afb31c70",
+    "software-engineering/core/error-handling/PAT_settle_one_error_handling_strategy_systemwide.md": "6513dde1ad0420c9f1627eb79d5ca6d52c053ed76f5689c4fb3948fdac5231d2",
+    "software-engineering/core/readability/PAT_follow_a_consistent_coding_style.md": "689c5afe682e87167d836f82c186dc2570ea272d751f94c3c800d76bd0c870b7",
+    "software-engineering/core/working-practice/AP_assess_construction_prerequisites_before_building.md": "72d38a42afb8be24b39775691e585a333e690d9e0fc4b6ce9fe56daa1f5c4ef9",
+    "software-engineering/core/working-practice/AP_grow_a_system_from_a_running_skeleton.md": "bb244226d46ec896b832c25fd90868d03f60fa2b7c33c43723a0cd6035d97210",
+    "software-engineering/core/working-practice/PAT_do_prerequisites_per_increment_when_iterating.md": "6f132f946c2b30dd1d07645564286e81aef6c6c0c926cc527cb7873b06358f80",
+    "software-engineering/core/working-practice/PAT_keep_a_toolbox_instead_of_adopting_one_methodology.md": "f385d843ab52e682b162b5e5b6d00f621c1e33cb51f52e02d218a2ba38c97eb5",
+    "software-engineering/core/working-practice/PAT_locate_yourself_on_the_technology_wave.md": "d8065aa64e65c103ce9c7aa7a670526bf08cc7cb386f0be135c4ff885c058909",
+    "software-engineering/core/working-practice/PAT_price_a_requirements_change_instead_of_absorbing_it.md": "b74d7d2bec2512971ff8aa36e43eac10e33e93be7f39b71064d71fe7d4dc47b1",
+    "software-engineering/core/working-practice/PAT_scale_formality_to_the_kind_of_software.md": "069cda4b67bb79bdac0bf96847298a7c7f2c9d0bbf7c2005e32c935276ad3913",
+    "software-engineering/core/working-practice/PAT_scope_construction_beyond_writing_the_code.md": "a6ce4c084458b04acbe6db808e7d28a946b6fa888e33963ec3e83a12670612fd"
+  },
+  "schema_version": 2,
+  "source_id": "code_complete_2e",
+  "source_payload_sha256": "c321aafe940280e0c2fe7fe2b85a7e743ff6009bafeed7af0c8f6263b1ed08d3",
+  "source_record_sha256": "c4367bfd6f0983cb5a1d51a1e94558408e71bd078e0912c23c5164f178d2de07"
+}
