@@ -20,4 +20,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Refuse to Implement an Architecture You Cannot Follow](PAT_judge_an_architecture_before_building_on_it.md) - pattern; 0 design.
 - [Settle the Load-Bearing Decisions Early, Leave the Finishes Open](PAT_settle_load_bearing_decisions_before_finishes.md) - pattern; 0 design.
 - [State How Robust to Build Before Anyone Builds It](PAT_set_the_robustness_level_deliberately.md) - pattern; 0 design.
+- [Write Design Notation at the Level of Intent](PAT_write_design_notation_at_the_level_of_intent.md) - pattern; 0 design.
 - [Write Down the Problem in Terms That Name No Solution](PAT_state_the_problem_before_the_solution.md) - pattern; 0 design.

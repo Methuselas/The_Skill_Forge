@@ -32,7 +32,17 @@ reference:
   evidence_type: text
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_ppp_split_where_one_design_line_explodes
+  variant_name: Split Where One Design Line Explodes Into Code
+  variant_basis: method_sequence
+  source_id: code_complete_2e
+  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
+  locator: u09, pp. 229, 232
+  difference_from_foundation: The foundation starts from a run of finished code and asks whether pulling it out would hide something worth hiding — an order, a formula, a condition, a representation. This variant supplies a signal that arrives earlier and needs no judgment about hiding, namely the ratio between one line of intent-level design and the code that appears beneath it. Two to ten lines is the expected expansion; a couple of dozen means that one design statement was carrying more than one job. It also offers a repair the foundation does not have. Rather than extracting the code, you can go back and decompose that single design line into several and fill in code beneath each — the split happens in the design, and no extraction is performed at all. When you do extract, the naming problem is already solved, because the new routine's name is the design line you wrote before the code existed.
+  when_to_use: Use while constructing a routine from a written design, where the expansion ratio is observable as it happens. It is the cheaper detection of the two — the foundation's test requires reading finished code and forming a judgment, whereas this one is a count you cannot help noticing. It also catches the case the foundation is weakest on, since a block that grew unexpectedly large may hide nothing in particular and still be two jobs.
+  when_not_to_use: It needs a design pass to exist, so it is unavailable when reading code somebody else already wrote or code you wrote without designing it first. There the foundation's hiding test is the tool you have. Do not read the two-to-ten-line figure as a size limit either — it is a calibration for spotting a surprise, not a target to refactor toward.
+  absorbed_from_object_id: none
 ---
 
 # Two Lines Are Enough to Justify a Routine
@@ -69,3 +79,5 @@ The reason this needs stating is that the usual justification for routines — a
 Hiding a sequence is the entry most often missed and the one with the longest reach. An order dependency spread across call sites is a semantic assumption every caller has to know and none of them can check; the same dependency inside a named routine is a fact about one implementation. That converts something the compiler cannot enforce into something callers cannot get wrong.
 
 The counterweight is that the routine must be genuinely more informative than what it replaces. The test is not size but whether the name says something the code did not. Where it does, two lines are plenty. Where it does not, the extraction has bought a level of indirection and sold nothing.
+
+Variant `VAR_ppp_split_where_one_design_line_explodes` (Code Complete, ch. 9) attacks the same decision from the opposite end of the size range and at an earlier moment. The foundation looks at code that seems too small and argues for pulling it out anyway; this looks at code that came out unexpectedly large under a single line of written design and reads that surprise as the finding. Both are asking whether this run of code should become its own routine, but the evidence differs — one is a judgment about what would be hidden, the other is a count of lines against an expectation of two to ten. The count is available only if you wrote a design first, which is the variant's real precondition. Its second contribution is a repair the foundation has no version of: the fix for an over-large block may be to decompose the *design* line into several rather than to extract the code, which resolves the problem without adding an interface at all. Read the two together as covering different halves of the size distribution, and note that the variant's expected-expansion figure is a detector rather than a target.

@@ -16,6 +16,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - [Assess the Groundwork You Inherited Before Writing Code](AP_assess_construction_prerequisites_before_building.md) - ap; 0 design.
 - [Assume It Is Not Easy, Because You Cannot Remember It Being Hard](PAT_account_for_the_curse_of_expertise_when_onboarding.md) - pattern; 0 design.
+- [Build a Routine From Intent-Level Pseudocode](AP_build_a_routine_from_intent_level_pseudocode.md) - ap; 1 skeleton.
 - [Explain a Concept as a Wave — Abstract, Concrete, Abstract Again](PAT_teach_along_a_semantic_wave.md) - pattern; 0 design.
 - [Externalize Enough State That an Interruption Cannot Cost You the Context](PAT_prepare_for_interruption_before_it_arrives.md) - pattern; 3 rough.
 - [Give a Newcomer One Programming Activity, Not Four](PAT_give_a_newcomer_one_activity_at_a_time.md) - pattern; 0 design.
@@ -28,6 +29,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Quote the Cost of a New Requirement Rather Than Swallowing It](PAT_price_a_requirements_change_instead_of_absorbing_it.md) - pattern; 3 rough.
 - [Set Ceremony by What Failure Costs, Not by Habit](PAT_scale_formality_to_the_kind_of_software.md) - pattern; 0 design.
 - [Take On the Whole Construction Span, Not Just the Code](PAT_scope_construction_beyond_writing_the_code.md) - pattern; 0 design.
+- [Understand the Routine Before the Compiler Sees It](PAT_understand_the_routine_before_the_compiler_sees_it.md) - pattern; 3 rough.
 - [Work Out How Mature Your Toolchain Is Before Trusting It](PAT_locate_yourself_on_the_technology_wave.md) - pattern; 0 design.
 - [Work Out Which Stage a Learner Is At Before Choosing How to Help](PAT_locate_a_learner_on_the_neo_piagetian_stages.md) - pattern; 0 design.
 - [You Can Only Multitask What You Have Already Automatized](PAT_dont_multitask_what_you_have_not_automatized.md) - pattern; 0 design.
