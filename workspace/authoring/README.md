@@ -63,14 +63,21 @@ workspace/authoring/ledger/
 workspace/authoring/renders/
 ```
 
-Stage a book into place, then work normally:
+Stage a book into place with one command — it hashes, runs the duplicate guard,
+preflights, copies, and scaffolds `SOURCE.md`:
 
 ```bash
-python PASS/tools/preflight_pdf.py "D:/Sources/<path>/<book>.pdf"
+python PASS/tools/stage_source.py "D:/Sources/Programming/Practice/<book>.pdf"
 ```
 
-Copy rather than move the file, so the original remains the evidentiary source and
-the staged copy is only the working payload.
+It copies rather than moves, so the original stays the evidentiary source and the
+staged file is only the working payload.
+
+After a fresh checkout every payload is missing, because `sources/` is gitignored.
+Re-staging a book whose hash is already in the ledger is recognised as a re-attach:
+the payload is restored to its recorded `payload_path` and `SOURCE.md` is left
+alone, so `verify_grounding.py` works again immediately. Point it at the same book
+and it will tell you there is nothing to do.
 
 After attesting a source, republish its public receipt:
 
