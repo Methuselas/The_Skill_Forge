@@ -25,7 +25,6 @@ can go stale. If they disagree, the ledger wins.
 
 | source_id | title | author | sha256 (first 12) | status | units | objects | closed |
 |---|---|---|---|---|---|---|---|
-| david_starkey_creative_writing_four_genres_in_brief | Creative Writing: Four Genres in Brief | David Starkey | 4dcdd06e0727 | in-progress | 1/45 | 4 new | |
 | burne_hogarth_drawing_dynamic_hands | Drawing Dynamic Hands | Burne Hogarth | 29ed748014e7 | complete | 12/12 | 8 new, 5 variants | committed 2026-08-08 |
 | burne_hogarth_drawing_the_human_head | Drawing the Human Head | Burne Hogarth | 013572a68262 | complete | 7/7 | 5 new, 19 variants | committed 2026-08-10 |
 | burne_hogarth_dynamic_anatomy | Dynamic Anatomy (Revised and Expanded) | Burne Hogarth | 31e23c691297 | complete | 7/7 | 2 new, 6 variants | committed 2026-08-10 |
