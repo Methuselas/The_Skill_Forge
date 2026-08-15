@@ -25,7 +25,17 @@ reference:
   evidence_type: text
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_starkey_compress_a_short_poem_through_successive_reductions
+  variant_name: Compress a Short Poem Through Successive Reductions
+  variant_basis: method_sequence
+  source_id: david_starkey_creative_writing_four_genres_in_brief_3e
+  source_title: 'Creative Writing: Four Genres in Brief, Third Edition'
+  locator: u007, physical p. 51
+  difference_from_foundation: 'Adds a poetry-specific compression loop after the governing effect is known: treat an unintended third page as a prompt to test cuts, then restate a three-line passage in two lines, one line, and even one word before choosing the shortest version that still carries the intended work.'
+  when_to_use: Use when a short poem sprawls beyond its intended scale or a passage spends several lines achieving an effect that concentrated language may deliver more strongly.
+  when_not_to_use: Do not keep the shortest version when compression erases necessary narrative movement, viewpoint, voice, rhythm, image development, or the intended reader effect.
+  absorbed_from_object_id: none
 ---
 
 # Revise Toward Intended Effect Before Sentence Polish
@@ -66,3 +76,5 @@ Bring an existing draft closer to the work it is trying to become by diagnosing 
 
 ## Notes
 Starkey separates revision from two smaller operations: editing removes sentence-level errors, and proofreading catches final slips. The larger process compares the actual draft with a goal or ideal, diagnoses the difference, and alters whatever scale the gap requires. Sommers's account supplies the whole-piece lens: an early draft may only mark territory, while a later pass discovers patterns and decides what belongs. The cycle is recursive because each change creates a new whole to compare.
+
+`VAR_starkey_compress_a_short_poem_through_successive_reductions` adds a local poetry pass after the poem's intended effect is clear. When a short poem drifts onto an unintended third page or a thought occupies three lines, test successively smaller versions—two lines, one line, even one word—and compare each against the work the passage must still do. The sequence makes concentration observable, but the shortest version does not win automatically: keep enough space for necessary narrative, viewpoint, voice, rhythm, image development, and reader effect.
