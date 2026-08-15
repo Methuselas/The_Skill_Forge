@@ -32,7 +32,17 @@ reference:
   evidence_type: text
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_choose_containment_or_inheritance_by_what_is_shared
+  variant_name: Choose Containment or Inheritance by What Is Shared
+  variant_basis: method_sequence
+  source_id: code_complete_2e
+  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
+  locator: u06, pp. 146-149
+  difference_from_foundation: The foundation defaults to composition and reserves inheritance for genuine is-a relationships. This variant supplies a four-way decision procedure for the same question, keyed on what the classes actually share. Common data but not behaviour - create a common object for them to contain. Common behaviour but not data - derive from a common base class defining the routines. Common data and behaviour - inherit from a base class defining both. And the control test cutting across all three - inherit when you want the base class to control your interface, contain when you want to control it yourself.
+  when_to_use: Use when several classes visibly overlap and the is-a question is genuinely ambiguous, which is where a default alone gives no traction. Also use its repair rule - a derived class that overrides a routine to do nothing means the base class asserted something untrue, so fix it at the source by extracting the optional capability into its own contained class rather than bandaging the descendant.
+  when_not_to_use: Do not read the third case as licence for depth. Deep inheritance trees are significantly associated with increased fault rates, most people cannot hold more than two or three levels at once, and a base class with exactly one derived class usually means somebody was designing ahead.
+  absorbed_from_object_id: none
 ---
 
 # Prefer Composition Over Class Inheritance
@@ -58,3 +68,5 @@ variants: []
 
 ## Notes
 Long's `IntFileReader` example is the case against inheritance-for-reuse: extending `CsvFileHandler` leaks its reader-and-writer API and, when a semicolon format arrives, forces a duplicate `SemicolonIntFileReader`. Composition — holding a `FileValueReader` injected through the constructor and forwarding `close` — yields a clean API and trivial reconfiguration, with delegation features easing the forwarding boilerplate. Even genuine is-a relationships carry the fragile-base-class, diamond, and single-inheritance hazards, so the durable stance is interfaces for hierarchy plus composition for reuse.
+
+`VAR_choose_containment_or_inheritance_by_what_is_shared` adds a decision procedure where this foundation gives a default. Sorting by *what is shared* - data, behaviour, or both - resolves cases the is-a test leaves ambiguous, and the control question underneath it is the sharper one: inheriting hands your interface to the base class, containing keeps it. McConnell's own explanation for why the section needs so many rules is worth carrying - inheritance works against the primary technical imperative of managing complexity, so the bias against it is deliberate rather than stylistic. Two of his diagnostics travel especially well. A derived class that overrides a routine to do nothing, the declawed cat given a no-op scratch, is evidence the base class claimed something false about its subjects, and the fix belongs in the base by extracting the capability into a contained object. And a base class with a single derived class is usually anticipation rather than abstraction.

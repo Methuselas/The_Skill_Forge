@@ -27,5 +27,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Make Each Class Care About Itself](PAT_make_classes_care_about_themselves.md) - pattern; 2 block.
 - [Move Reaching-In Logic Into the Class It Belongs To](DRILL_move_logic_into_the_class_it_belongs_to.md) - drill; 3 rough.
 - [Prefer Composition Over Class Inheritance](PAT_prefer_composition_over_inheritance.md) - pattern; 2 block.
+  - Variants: `Choose Containment or Inheritance by What Is Shared` (method_sequence).
 - [Replace a Hard-Coded Dependency With Injection](DRILL_replace_hard_coded_dependency_with_injection.md) - drill; 3 rough.
 - [Replace Inheritance With Composition](DRILL_replace_inheritance_with_composition.md) - drill; 3 rough.
