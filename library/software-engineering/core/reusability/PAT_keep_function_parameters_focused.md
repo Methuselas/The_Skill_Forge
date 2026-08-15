@@ -30,7 +30,17 @@ reference:
   evidence_type: text
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_order_and_audit_the_parameter_list_as_an_interface
+  variant_name: Order and Audit the Parameter List as an Interface
+  variant_basis: emphasis
+  source_id: code_complete_2e
+  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
+  locator: u07, pp. 174-181
+  difference_from_foundation: The foundation narrows each parameter to what the function actually needs, judged one parameter at a time. This variant treats the parameter list as an interface to be ordered and audited as a whole, on the grounds that inter-routine communication is where a large share of defects live - Basili and Perricone found 39 percent of all errors were internal interface errors. Its rules are conventions rather than judgments. Order parameters input, then input-and-output, then output-only, so the list implies the sequence of operations inside. Keep similar parameters in the same order across similar routines, since inconsistency there is pure memory tax with no compensating benefit. Put status and error variables last, being incidental and output-only. Remove unused parameters, which correlate with defects - 46 percent of routines with no unused variables were error-free against 17 to 29 percent of those with more than one.
+  when_to_use: Use when designing or reviewing a family of related routines, where consistency across the family is worth more than any individual signature's local optimum. The unused-parameter audit is worth running on its own, since it is mechanical and the correlation with defects is strong.
+  when_not_to_use: Do not let ordering conventions override the foundation's narrowing rule - a well-ordered list of parameters the function does not need is still the wrong interface. Language conventions may also conflict, as the C library's modified-parameter-first habit does; consistency within your own codebase matters more than which convention you pick.
+  absorbed_from_object_id: none
 ---
 
 # Make Functions Take Only What They Need
@@ -55,3 +65,5 @@ variants: []
 
 ## Notes
 An over-broad parameter couples a function to more than it uses, blocking reuse and misleading readers. Long's `setTextColor` taking a full `TextOptions` forces a warning-styler to concoct a font, size, and line height that suggest it sets them — it does not. Taking a color instead makes the function reusable and the call self-evident. The judgment clause guards against the opposite mistake from chapter 8: when a function needs most of a cohesive object, keep it encapsulated rather than exploding it into loose arguments.
+
+`VAR_order_and_audit_the_parameter_list_as_an_interface` widens the unit of attention from the individual parameter to the list. The foundation asks whether each parameter is narrow enough; this asks whether the list as a whole reads as an interface, and its justification is that interfaces between routines are where defects concentrate - Basili and Perricone attributed 39 percent of all errors to internal interface communication. The rules are deliberately conventions rather than judgment calls, because their value comes from being applied uniformly: input, then input-output, then output-only, so the ordering itself narrates what happens inside; the same parameters in the same order across similar routines; status and error variables last. The unused-parameter rule is the one to act on first, being mechanical and strongly evidenced, with 46 percent of routines carrying no unused variables coming back error-free against 17 to 29 percent of those carrying more than one. Note that `PAT_dont_mutate_input_parameters` already covers McConnell's related warning against using parameters as working variables, so that guidance is not duplicated here.

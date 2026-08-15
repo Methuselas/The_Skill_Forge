@@ -28,6 +28,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - Variants: `Use High-Level Comments as Chunk Labels` (emphasis), `Comment to Preserve the Author's Model, Including Your Own` (emphasis).
 - [Diagnose and Rewrite an Unreadable Procedure](DRILL_diagnose_and_rewrite_unreadable_procedure.md) - drill; 3 rough.
 - [Favor Readability Over Fewer Lines of Code](PAT_favor_readability_over_brevity.md) - pattern; 3 rough.
+- [Fix the Routine the Honest Name Exposes](PAT_let_an_awkward_name_expose_the_design_fault.md) - pattern; 3 rough.
 - [Flatten Deeply Nested Logic With Early Returns and Extraction](DRILL_flatten_deeply_nested_logic.md) - drill; 3 rough.
 - [Follow a Consistent Coding Style Guide](PAT_follow_a_consistent_coding_style.md) - pattern; 3 rough.
   - Variants: `Prefer Camel Case When the Convention Is Actually Yours to Pick` (constraint); `Settle the Conventions Before Construction, Because They Cannot Be Retrofitted` (method_sequence).

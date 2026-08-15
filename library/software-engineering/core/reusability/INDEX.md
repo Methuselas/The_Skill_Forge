@@ -21,6 +21,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - Variants: `Harvest Reuse at the End Rather Than Designing for It` (method_sequence).
 - [Make a Type-Specific Class Generic](DRILL_make_a_class_generic.md) - drill; 3 rough.
 - [Make Functions Take Only What They Need](PAT_keep_function_parameters_focused.md) - pattern; 2 block.
+  - Variants: `Order and Audit the Parameter List as an Interface` (emphasis).
 - [Provide Default Values in Higher-Level Code](PAT_provide_defaults_in_higher_level_code.md) - pattern; 2 block.
 - [Remove an Unnecessary Assumption or Enforce a Necessary One](DRILL_remove_or_enforce_an_assumption.md) - drill; 3 rough.
 - [Replace Global State With Injected Instance State](DRILL_replace_global_state_with_injection.md) - drill; 3 rough.

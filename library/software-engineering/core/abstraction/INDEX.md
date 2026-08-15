@@ -25,9 +25,11 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Expose a Clean API and Hide Implementation Details](PAT_expose_clean_api_hide_implementation.md) - pattern; 2 block.
 - [Keep Clean Layers of Abstraction Inside Microservices](PAT_keep_clean_layers_inside_microservices.md) - pattern; 0 design.
 - [Make Each Function Read Like a Single Short Sentence](PAT_write_functions_as_single_sentences.md) - pattern; 3 rough.
+  - Variants: `Classify Routine Cohesion and Apply the Matching Repair` (method_sequence).
 - [Name the Operations the Thing Supports Before Choosing How to Store It](PAT_define_the_operation_set_before_the_representation.md) - pattern; 0 design.
 - [Refactor a Monolithic Class Into Clean Layered Abstractions](AP_refactor_monolithic_class_into_layers.md) - ap; 3 rough.
 - [Represent a Layer With an Interface When It Earns Its Keep](PAT_use_interfaces_for_swappable_layers.md) - pattern; 2 block.
 - [Size Classes by the Quality Pillars, Not Line Counts](PAT_size_classes_by_pillars_not_lines.md) - pattern; 2 block.
 - [Translate Each Function Into a Sentence and Split the Clunky Ones](DRILL_translate_functions_into_sentences.md) - drill; 3 rough.
 - [Tune Layer Thickness and Err on the Side of Thin](PAT_tune_layer_thickness_err_thin.md) - pattern; 2 block.
+- [Two Lines Are Enough to Justify a Routine](PAT_extract_a_routine_even_when_it_seems_too_small.md) - pattern; 3 rough.
