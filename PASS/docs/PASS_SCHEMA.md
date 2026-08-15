@@ -2,7 +2,7 @@
 
 status: active
 owner: docs/domains/spec
-last_reviewed: 2026-07-30
+last_reviewed: 2026-08-15
 supersedes: PASS_v20.6_ABSOLUTE_SPEC_FLAT.md §1, §2, §5, §7
 
 The three schemas below are closed contracts, not examples. A file containing
@@ -81,7 +81,12 @@ references:
 - `media_type` describes format (`PDF`, `book`, `video`, `course`, `archive`,
   `image_set`), not subject matter. Subject goes in `library_path`/`tags`.
 - `evidence_type` is exactly `text`, `image`, or `mixed`. No compound values.
-- `lane_fit` describes teaching vs execution. It is not a stage or a role.
+- `lane_fit` describes teaching vs execution. It is orthogonal to domain,
+  package ownership, and execution mode; it is not a stage or a role.
+- `lane_fit: teach` or `both` does not by itself move an object into the
+  top-level `teaching` package. Domain-specific teaching knowledge remains in
+  its domain. Cross-domain instructional foundations belong under
+  `library/teaching/` and continue to use `pattern`, `drill`, or `ap`.
 - `routing_class: general` requires `specialization_axis: none`.
   `routing_class: specialized` requires an axis other than `none`.
 - **Default to `foundation` / `general` / `none`.** Mark `specialization` only when

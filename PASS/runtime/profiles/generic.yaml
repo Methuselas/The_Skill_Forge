@@ -1,0 +1,46 @@
+schema_version: 1
+profile_id: generic
+default_lane: skill
+lanes:
+  skill:
+    label: Domain execution
+  teach:
+    label: Teaching and learning
+lane_routing:
+  rules:
+    - lane: teach
+      reason: explicit teaching/coaching/learning request
+      when:
+        any_phrases:
+          - "teach me"
+          - "coach me"
+          - "help me learn"
+          - "lesson plan"
+          - "practice plan"
+          - "learning progression"
+          - "assess my understanding"
+default_mode: direct
+execution_modes:
+  direct:
+    aliases: [direct]
+    label: Direct Production
+    contract:
+      approval_gates: false
+      rollback_enabled: false
+      post_production_verification: true
+  staged:
+    aliases: [staged, process]
+    label: Staged Production
+    contract:
+      approval_gates: true
+      rollback_enabled: true
+      post_production_verification: true
+routing:
+  rules:
+    - mode: staged
+      reason: explicit staged/process request
+      when:
+        any_phrases: [staged, step by step, show the process, iterative approval]
+completion_gate:
+  required_checks: [instruction_fidelity_check, objective_check]
+  require_all_risk_checks: true

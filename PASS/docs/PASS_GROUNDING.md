@@ -146,3 +146,15 @@ Be honest about the boundary:
 The gate raises the floor from "output that looks grounded" to "output backed by
 verified source evidence." It is a necessary condition for shipping, not a
 sufficient one for quality.
+
+## Authoring render-cache lifecycle
+
+Rendered source pages under `workspace/authoring/renders/` are transient working
+evidence. Preserve them while a source is active, incomplete, unattested, or has
+a stale/invalid attestation. Once the source is `complete` and its current
+`QUALITY_ATTESTATION.json` verifies, the render cache may be omitted from a
+handoff/archive and regenerated later from the original source payload if the
+source is reopened. Ledger visual receipts remain canonical provenance.
+
+Use `tools/cleanup_authoring_cache.py` against a staging/handoff copy to apply
+this rule deterministically.

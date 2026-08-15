@@ -1,5 +1,5 @@
 # Units
 
-| unit_id | locator | description | status |
-|---|---|---|---|
-| u00 | <locator> | <description> | pending |
+| unit_id | label | locator | status | objects | notes |
+|---|---|---|---|---|---|
+| u00 | <label> | <locator> | queued | | |

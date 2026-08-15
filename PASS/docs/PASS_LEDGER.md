@@ -2,7 +2,7 @@
 
 status: active
 owner: docs/domains/corpus
-last_reviewed: 2026-07-30
+last_reviewed: 2026-08-15
 supersedes: PASS_v20.6_ABSOLUTE_SPEC_FLAT.md §6, PASS_LEDGER_SCHEMA.md (v1.0)
 
 The ledger is what makes a run resumable and what makes fail-closed checkable.
@@ -89,7 +89,10 @@ copied — content does not. Key the guard on content.
 ### Keeping it honest
 
 The registry is a derived summary; `UNITS.md` files are the ground truth for
-counts. If they disagree, the ledger wins and the registry row is stale. Anything
+counts and `SOURCE.md` plus unit state determine status. Derived means
+regenerable, not allowed to be wrong. `tools/validate.py` fails when a registry
+row has no source ledger, an authoritative source lacks a row, status differs
+from computed source/unit state, or done/total differs from `UNITS.md`. Anything
 that closes a unit updates both.
 
 ### Retiring a closed source
@@ -114,7 +117,9 @@ media_type:   <PDF | book | video | course | archive | image_set>
 payload_path: <repo-relative active or trash path>
 sha256:       <hash of the source file>
 added:        YYYY-MM-DD
-status:       in-progress | complete | abandoned
+status:       queued | in-progress | complete | low-yield | abandoned
+unit_ledger_contract: 3
+teaching_lane_grandfathered_units: none | <comma-separated historical unit ids>
 text_layer:   usable | mixed | none
 visual:       true | false
 visual_access: renderer | page_images | both | none
@@ -144,6 +149,13 @@ that route includes `page_images`. These are run-readiness facts, not object
 schema fields. Run preflight before admission because OCR changes the payload
 hash. Existing admitted payloads are never silently OCR-replaced: a changed hash
 must be reviewed as a source-identity change before more units are processed.
+
+`unit_ledger_contract: 3` activates the Teaching-lane receipt for every newly
+closed unit. Sources admitted on or after 2026-08-15 require it. An older active
+source may list already-closed unit ids under
+`teaching_lane_grandfathered_units`; those units remain valid without claiming a
+review that did not happen. Queued, in-progress, or future units may not be
+grandfathered.
 
 ---
 
@@ -182,8 +194,8 @@ One row per candidate, including the ones that did not ship. Rejections are the
 most valuable rows here — they stop the next run from re-litigating the same
 material.
 
-New or revised unit ledgers use `ledger_format: 2` and a machine-checkable
-candidate count:
+Historical unit ledgers may remain at format 1 or 2. Format 2 introduced a
+machine-checkable candidate count:
 
 ```markdown
 ledger_format: 2
@@ -199,9 +211,7 @@ these columns:
 ```
 
 For a `variant` row, `object_id` names the foundation and `learner_decision`,
-`variant_basis`, `method_or_policy`, and `tradeoff` are required. Older ledgers
-remain readable during migration; a ledger becomes v2 whenever its unit is
-revised.
+`variant_basis`, `method_or_policy`, and `tradeoff` are required.
 
 ```markdown
 # u02 — Ch.2 Types
@@ -230,6 +240,37 @@ For a `variant` row, the structured fields record the foundation, decision,
 method, and concrete source-versus-foundation tradeoff. A source example may
 also ground a separate `new` candidate; give each learning claim its own row
 rather than discarding the alternative as duplicate evidence.
+
+### Format 3 — Teaching-lane receipt
+
+Every newly processed unit uses:
+
+```markdown
+ledger_format: 3
+candidate_count: 5
+teaching_lane_review: complete
+teaching_candidate_count: 2
+```
+
+Its candidate table adds independent lane, scope, and route columns:
+
+```markdown
+| candidate | type | lane | teaching_scope | teaching_route | disposition | object_id | grounding | learner_decision | variant_basis | method_or_policy | tradeoff | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Practise one API before integration | drill | both | domain-specific | domain | new | DRILL_practise_one_api_before_integration | u04 example | | | | | Programming-specific practice implementation |
+| Isolate a variable before recombination | pattern | teach | cross-domain | teaching:PAT_isolate_variable_before_recombination | new | PAT_isolate_variable_before_recombination | u04 sequence | | | | | Generic Teaching foundation |
+```
+
+`lane` is `skill`, `teach`, or `both`. Skill-only rows use `—` for Teaching
+scope and route. Teaching rows use `domain-specific` with route `domain`, or
+`cross-domain` with `teaching:<owner_object_id>`. A retained cross-domain row's
+owner must resolve inside the top-level Teaching package. The explicit route is
+the machine-checkable receipt that the shared Teaching duplicate guard was used.
+
+The validator requires format 3 for unit ledgers read on or after 2026-08-15 and
+for every non-grandfathered closed unit under a contract-3 source. It compares
+`teaching_candidate_count` with `teach`/`both` rows. Older completed ledgers stay
+valid; changing or newly closing a unit moves it onto the current contract.
 
 ---
 

@@ -35,3 +35,14 @@ working on the factory itself. They are not runtime dependencies of releases.
 A release remains a normal self-contained directory/ZIP even when a host does not
 install it as a native skill. The consumer may inspect `SKILL.md` and the bundled
 `library/` directly. No SkillForge repository path is required.
+
+## Runtime and deployment profiles
+
+Portable releases vendor the canonical SkillForge runtime as
+`scripts/skillforge_runtime.py` and a declarative `runtime/profile.yaml`.
+Consumers must resolve productive tasks through that runtime before execution and
+must satisfy its completion gate afterward.
+
+A release recipe may also name a target-specific `deployment_profile`. Package
+size is measured at release build/check time against that profile. This does not
+change canonical authoring validation or library organization.

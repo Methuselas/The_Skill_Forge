@@ -1,0 +1,109 @@
+schema_version: 1
+profile_id: art
+default_lane: skill
+lanes:
+  skill:
+    label: Art execution
+  teach:
+    label: Art teaching and learning
+lane_routing:
+  rules:
+    - lane: teach
+      reason: explicit teaching/coaching/learning request
+      when:
+        any_phrases:
+          - "teach me"
+          - "coach me"
+          - "help me learn"
+          - "lesson plan"
+          - "practice plan"
+          - "learning progression"
+          - "assess my understanding"
+default_mode: direct_render
+execution_modes:
+  direct_render:
+    aliases: [direct, render, final, one-shot, one shot]
+    label: Stage-informed Direct Render
+    contract:
+      stage_artifacts: false
+      approval_gates: false
+      apply_stage_knowledge: true
+      post_render_verification: true
+      rollback_enabled: false
+  staged_production:
+    aliases: [staged, stages, stage mode, process]
+    label: Staged Production
+    contract:
+      stage_artifacts: true
+      approval_gates: true
+      apply_stage_knowledge: true
+      sequence: [0, 1, 2, 3, 4]
+      parentage_checks: true
+      commitment_checks: true
+      rollback_enabled: true
+      post_render_verification: true
+routing:
+  rules:
+    - mode: staged_production
+      reason: explicit staged/process request
+      when:
+        any_phrases:
+          - "stage 0"
+          - "stage 1"
+          - "stage 2"
+          - "stage 3"
+          - "stage 4"
+          - "staged production"
+          - "stage mode"
+          - "show the stages"
+          - "show stages"
+          - "step by step art process"
+          - "construction passes"
+          - "thumbnail pass"
+          - "approval gate"
+    - mode: staged_production
+      reason: training/drill/debugging requests externalize the process
+      when:
+        any_phrases:
+          - "drill"
+          - "training"
+          - "practice exercise"
+          - "debug the drawing"
+          - "debug this drawing"
+          - "strength training"
+          - "teach me the process"
+          - "anatomy correction pass"
+    - mode: direct_render
+      reason: explicit direct/final request
+      when:
+        any_phrases:
+          - "just render"
+          - "just make it"
+          - "go straight to final"
+          - "no stages"
+          - "final image"
+          - "direct render"
+risk_rules:
+  - id: foreshortening
+    when:
+      any_phrases: [foreshorten, foreshortening, toward the camera, towards the camera, pointing at camera, pointing at the camera, extreme perspective]
+    checks: [foreground foreshortening, camera consistency, articulated reach chain]
+  - id: visible_hands
+    when:
+      any_phrases: [hand, hands, finger, fingers, fist, grip, holding, pointing]
+    checks: [digit count, hand structure, hand-wrist-arm attachment chain]
+  - id: supported_pose
+    when:
+      any_phrases: [standing, planted, leaning, sitting, crouch, crouching, kneeling, weight, support, contact]
+    checks: [weight and support, contact consistency, balance]
+  - id: gaze_action
+    when:
+      any_phrases: [looking at, looking toward, looking towards, gaze, aiming, pointing]
+    checks: [gaze/action alignment]
+  - id: weapon_reach
+    when:
+      any_phrases: [gun, pistol, rifle, weapon, sword, spear]
+    checks: [weapon-hand-arm attachment chain, focal hierarchy]
+completion_gate:
+  required_checks: [instruction_fidelity_check, objective_check]
+  require_all_risk_checks: true

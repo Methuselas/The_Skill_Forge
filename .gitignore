@@ -29,3 +29,12 @@ workspace/authoring/sources/guided_stage_density_gates_2026_08_05/*
 !workspace/authoring/sources/guided_staged_visual_validation_2026_08_03/
 workspace/authoring/sources/guided_staged_visual_validation_2026_08_03/*
 !workspace/authoring/sources/guided_staged_visual_validation_2026_08_03/*.png
+
+# Grounding renders are transient working evidence, not deliverables
+# (PASS_GROUNDING: "Authoring render-cache lifecycle"). They are regenerable
+# from the source payload and are omitted from handoff once a source is
+# complete and its QUALITY_ATTESTATION.json verifies.
+workspace/authoring/renders/
+
+# Agent scratch space
+tmp/

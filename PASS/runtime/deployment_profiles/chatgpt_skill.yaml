@@ -1,0 +1,5 @@
+schema_version: 1
+target: chatgpt_skill
+max_package_bytes: 25000000
+size_policy: hard
+# warning threshold intentionally omitted until observed release sizes justify one.

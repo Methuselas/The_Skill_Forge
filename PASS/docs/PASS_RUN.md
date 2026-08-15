@@ -2,7 +2,7 @@
 
 status: active
 owner: docs/domains/corpus
-last_reviewed: 2026-07-30
+last_reviewed: 2026-08-15
 supersedes: PASS_v20.6_ABSOLUTE_SPEC_FLAT.md §3, §4, §10, §11
 
 This is the operating procedure for an assistant running PASS in this repo.
@@ -67,6 +67,12 @@ Filenames and titles are typed by humans and get changed. The hash is the only
 part of this guard that cannot drift, so it is the part that decides. Record the
 exact repo-relative `payload_path` in `SOURCE.md`; sources may be grouped under
 `sources/` by collection rather than by `source_id`.
+
+New sources use `unit_ledger_contract: 3` and
+`teaching_lane_grandfathered_units: none` in `SOURCE.md`. Sources admitted before
+2026-08-15 may opt into contract 3 while naming only the already-closed unit ids
+that are honestly grandfathered. Grandfathering records absence of the new
+review; it never pretends that a historical Teaching scan occurred.
 
 ## 2. Claim the unit
 
@@ -212,11 +218,37 @@ produce it, the candidate is not extraction — drop it.
 Extract generously. A dense chapter yielding fifteen candidates is normal. Do not
 reduce density to save effort.
 
-**State the candidate count explicitly in the unit ledger.** New or revised
-ledgers use `ledger_format: 2` plus `candidate_count: N`; the validator compares
-that value with the disposition rows. Every candidate raised here must appear in
-exactly one row, so a declared count of 11 against 10 rows is an incomplete run
-rather than a discrepancy hidden in prose.
+### Mandatory Teaching-lane scan
+
+Run two independent scans while extracting:
+
+```text
+CRAFT / SKILL LANE
+Does this passage teach how to perform the domain skill?
+
+TEACHING LANE
+Does this passage teach how to cause someone to learn, practise, diagnose,
+retain, transfer, or improve that skill?
+```
+
+The second scan includes instructional sequence, scaffolding, exercise
+progression, variable isolation and recombination, demonstration, feedback,
+correction, misconception diagnosis, assessment, scheduling, difficulty scaling,
+exemplar comparison, transfer, fluency, sustained application, simplification,
+complexity, repetition, and advancement decisions. It is independent: a passage
+may be `skill`, `teach`, or `both`.
+
+For every `teach` or `both` candidate, classify its scope. A capability whose
+instructional decision still depends on the domain is `domain-specific` and
+stays in that domain. A capability that genuinely transfers across domains is
+`cross-domain` and must be duplicate-guarded against `library/teaching/` before
+placement. Do not bulk-promote domain drills merely because they can be taught.
+
+**State both counts explicitly in the unit ledger.** New units use
+`ledger_format: 3`, `candidate_count: N`, `teaching_lane_review: complete`, and
+`teaching_candidate_count: N`. Each row records `lane`, `teaching_scope`, and
+`teaching_route`. The validator compares both counts with the rows and refuses a
+newly closed unit without this receipt.
 
 ## 5. Second read
 
@@ -235,7 +267,7 @@ The old spec's mandatory double-read over the whole book is what this replaces.
 ### Decision-versus-method recovery check
 
 For every candidate that may overlap an existing skill, name three things during
-the second read and record them in the v2 ledger if the candidate becomes a
+the second read and record them in the current ledger if the candidate becomes a
 variant:
 
 1. the **learner decision** or outcome the source teaches;
@@ -300,16 +332,24 @@ tradition, method, or domain constraint, write a specialization instead and link
 it to the foundation when available. Use tags to retrieve the context across
 these routes; do not create a source-named folder.
 
+For a Teaching-lane candidate, run the scope/promotion test before ordinary
+placement. Domain-specific instructional knowledge routes to domain canon.
+Cross-domain knowledge searches the top-level Teaching package first: attach a
+domain implementation as a variant when an owner exists, or create a generic
+Teaching foundation when it does not. Preserve useful domain evidence rather
+than erasing it during promotion.
+
 ## 7. Write, validate, commit
 
 ```
 1. Write or update object files per PASS_SCHEMA.md
-2. Append one disposition row per candidate to the unit's ledger
+2. Append one disposition row per candidate and complete the Teaching-lane receipt
 3. Write the unit's `## Reading receipt` block (see PASS_GROUNDING.md)
 4. Set the unit to `processed` (or `empty` if it genuinely yielded nothing)
-5. Run BOTH gates:
+5. Run the applicable gates:
      python tools/validate.py                              # card shape
      python tools/verify_grounding.py --source <source_id> # actually read
+     python tools/verify_references.py                     # visual references, if any
 6. Fix every failure. A failing object does not ship; an unverified receipt
    means the unit is not `processed`.
 7. Regenerate indexes
@@ -395,7 +435,8 @@ Pick one book and run one source-native unit. Not a whole book.
 9. library/ is empty on a first run, so every candidate is `new`
    — no retrieval step yet.                                      (§6)
 10. Write the objects. Write ledger/<source_id>/units/<unit>.md
-    with one row per candidate. Mark the unit `processed`.        (§7)
+    as ledger format 3, including the completed Teaching scan and
+    one row per candidate. Mark the unit `processed`.             (§7)
 11. Check each object against docs/PASS_SCHEMA.md by hand,
     and say in the worklog that the check was manual.
 12. Commit.

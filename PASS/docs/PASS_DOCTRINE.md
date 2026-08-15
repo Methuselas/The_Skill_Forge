@@ -2,7 +2,7 @@
 
 status: active
 owner: docs/domains/spec
-last_reviewed: 2026-08-02
+last_reviewed: 2026-08-15
 supersedes: PASS_v20.6_ABSOLUTE_SPEC_FLAT.md (doctrine portion)
 
 Read this before running PASS. It is short on purpose. The enforceable rules live
@@ -141,6 +141,27 @@ clever progression, an effective exercise order. That is worth keeping, but it i
 still a pattern, drill, or AP. It carries `lane_fit: teach` or
 `teaching_foundation` and `routing_class: teaching`. It never becomes its own
 object type.
+
+Teaching is also a top-level shared package, parallel to domain packages and
+distinct from `metaskills`. Metaskills are universal process machinery included
+in every release. Teaching is conditional knowledge retrieved only when a task
+is routed through the Teaching lane. Domain, lane, and execution mode remain
+independent dimensions.
+
+**Teaching Lane Rule.** During source ingestion, independently evaluate whether
+material contributes to domain execution and whether it contributes to causing
+someone to learn, practise, diagnose, retain, transfer, or improve that
+capability. Domain-specific exercises remain with their domain. Instructional
+capabilities that genuinely transfer across domains are duplicate-guarded
+against `library/teaching/` and either attach as variants to an existing Teaching
+foundation or become a new Teaching foundation when genuinely novel. Preserve
+the source's domain-specific implementation as a variant or specialization when
+it carries useful evidence.
+
+`lane_fit: teach` does not imply ownership by the Teaching package. A timed
+gesture exercise remains an Art Drill; a generally transferable progression
+from isolated-variable practice to integrated application may belong to
+Teaching.
 
 ## What happens between extractions
 

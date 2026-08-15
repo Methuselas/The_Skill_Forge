@@ -33,6 +33,7 @@ library/software-engineering/languages/cpp/
 library/art/drawing/perspective/
 library/art/drawing/subjects/figure/anatomy/
 library/art/drawing/subjects/animals/anatomy/
+library/teaching/learning-design/
 ```
 
 Do not create empty future taxonomy merely to anticipate a domain that has not yet been authored or taught.
@@ -67,6 +68,19 @@ Every SkillForge release includes the `metaskills` module automatically. A relea
 
 The metaskill is the universal process baseline. Domain modules extend it; they do not replace it.
 
+## Conditional Teaching package
+
+`teaching` is a top-level shared package, not a child of `metaskills` and not a
+new object type. It owns only instructional decisions that genuinely transfer
+across domains. A domain-specific exercise remains in its domain even when its
+`lane_fit` includes `teach`.
+
+Teaching modules are never added to every release automatically. A teaching-
+capable release explicitly selects `teaching` (or a narrower Teaching module) in
+its recipe. At runtime the Teaching lane activates relevant shared Teaching
+objects alongside the already-selected domain knowledge. Skill-lane execution
+does not activate Teaching merely because the release contains it.
+
 ## Named releases
 
 A named release selects the intended entry module or modules, not a hand-maintained copy of the full dependency closure.
@@ -84,6 +98,9 @@ PASS then materializes:
 3. recursive module requirements;
 4. modules containing hard object prerequisites;
 5. `metaskills`.
+
+Teaching is added only when the release recipe explicitly requests it; it is not
+part of this mandatory closure rule.
 
 The resulting release contains all selected material locally.
 

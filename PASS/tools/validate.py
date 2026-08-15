@@ -8,12 +8,14 @@ import re
 import sys
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
+from datetime import date
 from pathlib import Path
 from typing import Any
 
 import yaml
 
 from paths import default_library_root, default_ledger_root
+from source_provenance import card_source_ids
 
 
 STAGE_VALUES = {"0 design", "1 skeleton", "2 block", "3 rough", "4 final"}
@@ -59,7 +61,16 @@ LEDGER_V2_COLUMNS = [
     "candidate", "type", "disposition", "object_id", "grounding",
     "learner_decision", "variant_basis", "method_or_policy", "tradeoff", "note",
 ]
+LEDGER_V3_COLUMNS = [
+    "candidate", "type", "lane", "teaching_scope", "teaching_route",
+    "disposition", "object_id", "grounding", "learner_decision",
+    "variant_basis", "method_or_policy", "tradeoff", "note",
+]
 DISPOSITIONS = {"new", "variant", "replace", "reject"}
+LANE_REVIEW_VALUES = {"skill", "teach", "both"}
+TEACHING_SCOPE_VALUES = {"domain-specific", "cross-domain"}
+TEACHING_LANE_CONTRACT_DATE = date(2026, 8, 15)
+CLOSED_UNIT_STATUSES = {"processed", "empty", "blocked"}
 VARIANT_KEYS = {
     "variant_id", "variant_name", "variant_basis", "source_id", "source_title", "locator",
     "difference_from_foundation", "when_to_use", "when_not_to_use", "absorbed_from_object_id",
@@ -236,35 +247,157 @@ def table_cells(line: str) -> list[str]:
     return cells
 
 
-def validate_ledgers(ledger_root: Path) -> list[LedgerIssue]:
+def scalar_field(raw: str, key: str) -> str | None:
+    match = re.search(rf"(?mi)^{re.escape(key)}:\s*(.*?)\s*$", raw)
+    if not match:
+        return None
+    return match.group(1).strip().strip('"').strip("'")
+
+
+def comma_values(value: str | None) -> set[str]:
+    if not value or value.casefold() in {"none", "[]"}:
+        return set()
+    value = value.strip()
+    if value.startswith("[") and value.endswith("]"):
+        value = value[1:-1]
+    return {item.strip().strip('"').strip("'") for item in value.split(",") if item.strip()}
+
+
+def markdown_table(raw: str, first_column: str) -> tuple[list[str], list[dict[str, str]]]:
+    lines = raw.splitlines()
+    header_index = next(
+        (
+            index for index, line in enumerate(lines)
+            if table_cells(line) and table_cells(line)[0] == first_column
+        ),
+        None,
+    )
+    if header_index is None:
+        return [], []
+    columns = table_cells(lines[header_index])
+    rows: list[dict[str, str]] = []
+    for line in lines[header_index + 2:]:
+        if not line.startswith("|"):
+            break
+        cells = table_cells(line)
+        if len(cells) == len(columns):
+            rows.append(dict(zip(columns, cells)))
+    return columns, rows
+
+
+def unit_queue(units_path: Path) -> tuple[list[str], list[dict[str, str]]]:
+    if not units_path.is_file():
+        return [], []
+    return markdown_table(units_path.read_text(encoding="utf-8"), "unit_id")
+
+
+def source_contract_requirements(ledger_root: Path) -> tuple[set[Path], list[LedgerIssue]]:
+    required_v3: set[Path] = set()
     issues: list[LedgerIssue] = []
+    for source_dir in sorted(path for path in ledger_root.iterdir() if path.is_dir()):
+        source_path = source_dir / "SOURCE.md"
+        if not source_path.is_file():
+            continue
+        raw = source_path.read_text(encoding="utf-8")
+        contract = scalar_field(raw, "unit_ledger_contract")
+        source_status = scalar_field(raw, "status")
+        added_value = scalar_field(raw, "added")
+        try:
+            added = date.fromisoformat(added_value) if added_value else None
+        except ValueError:
+            issues.append(LedgerIssue(source_path, "rule 24: added must be an ISO date"))
+            added = None
+        if added and added >= TEACHING_LANE_CONTRACT_DATE and contract != "3":
+            issues.append(
+                LedgerIssue(
+                    source_path,
+                    "rule 24: sources admitted on or after 2026-08-15 require unit_ledger_contract: 3",
+                )
+            )
+        if source_status in {"queued", "in-progress"} and contract != "3":
+            issues.append(
+                LedgerIssue(
+                    source_path,
+                    "rule 24: active sources require unit_ledger_contract: 3 before another unit can close",
+                )
+            )
+        if contract not in {None, "3"}:
+            issues.append(LedgerIssue(source_path, "rule 24: unit_ledger_contract must be 3 when present"))
+        if contract != "3":
+            continue
+
+        grandfathered = comma_values(scalar_field(raw, "teaching_lane_grandfathered_units"))
+        units_path = source_dir / "UNITS.md"
+        _columns, units = unit_queue(units_path)
+        known_units = {row.get("unit_id", "") for row in units}
+        for unit_id in sorted(grandfathered - known_units):
+            issues.append(LedgerIssue(source_path, f"rule 24: unknown grandfathered unit {unit_id}"))
+        for row in units:
+            unit_id = row.get("unit_id", "")
+            status = row.get("status", "")
+            if unit_id in grandfathered and status not in CLOSED_UNIT_STATUSES:
+                issues.append(
+                    LedgerIssue(source_path, f"rule 24: grandfathered unit {unit_id} is not historically closed")
+                )
+            if status in CLOSED_UNIT_STATUSES and unit_id not in grandfathered:
+                unit_path = source_dir / "units" / f"{unit_id}.md"
+                if not unit_path.is_file():
+                    issues.append(
+                        LedgerIssue(unit_path, "rule 24: closed contract-v3 unit is missing its unit ledger")
+                    )
+                else:
+                    required_v3.add(unit_path)
+    return required_v3, issues
+
+
+def validate_ledgers(
+    ledger_root: Path,
+    object_packages: dict[str, str] | None = None,
+) -> list[LedgerIssue]:
+    issues: list[LedgerIssue] = []
+    required_v3, contract_issues = source_contract_requirements(ledger_root)
+    issues.extend(contract_issues)
     for path in sorted(ledger_root.glob("*/units/*.md")):
         raw = path.read_text(encoding="utf-8")
-        if not re.search(r"(?m)^ledger_format:\s*2\s*$", raw):
+        format_match = re.search(r"(?m)^ledger_format:\s*(\d+)\s*$", raw)
+        ledger_format = int(format_match.group(1)) if format_match else None
+        read_value = scalar_field(raw, "read")
+        try:
+            read_date = date.fromisoformat(read_value) if read_value else None
+        except ValueError:
+            issues.append(LedgerIssue(path, "rule 24: read must be an ISO date"))
+            read_date = None
+        if read_date and read_date >= TEACHING_LANE_CONTRACT_DATE:
+            required_v3.add(path)
+        if path in required_v3 and ledger_format != 3:
+            issues.append(
+                LedgerIssue(path, "rule 24: newly processed unit requires ledger_format: 3 Teaching-lane receipt")
+            )
+        if ledger_format not in {2, 3}:
             continue
         count_match = re.search(r"(?m)^candidate_count:\s*(\d+)\s*$", raw)
         if not count_match:
-            issues.append(LedgerIssue(path, "rule 21: ledger v2 requires candidate_count"))
+            issues.append(LedgerIssue(path, f"rule 21: ledger v{ledger_format} requires candidate_count"))
             continue
-        lines = raw.splitlines()
-        header_index = next(
-            (index for index, line in enumerate(lines) if table_cells(line) and table_cells(line)[0] == "candidate"),
-            None,
-        )
-        if header_index is None or table_cells(lines[header_index]) != LEDGER_V2_COLUMNS:
-            issues.append(LedgerIssue(path, "rule 21: ledger v2 candidate table has invalid columns"))
+        columns, rows = markdown_table(raw, "candidate")
+        expected_columns = LEDGER_V3_COLUMNS if ledger_format == 3 else LEDGER_V2_COLUMNS
+        if columns != expected_columns:
+            issues.append(LedgerIssue(path, f"rule 21: ledger v{ledger_format} candidate table has invalid columns"))
             continue
-        rows: list[dict[str, str]] = []
-        for line in lines[header_index + 2:]:
-            if not line.startswith("|"):
-                break
-            cells = table_cells(line)
-            if len(cells) != len(LEDGER_V2_COLUMNS):
-                issues.append(LedgerIssue(path, "rule 21: ledger v2 candidate row has the wrong number of columns"))
-                continue
-            rows.append(dict(zip(LEDGER_V2_COLUMNS, cells)))
         if int(count_match.group(1)) != len(rows):
             issues.append(LedgerIssue(path, "rule 21: candidate_count does not match disposition rows"))
+        if ledger_format == 3:
+            if scalar_field(raw, "teaching_lane_review") != "complete":
+                issues.append(LedgerIssue(path, "rule 24: ledger v3 requires teaching_lane_review: complete"))
+            teaching_count_match = re.search(r"(?m)^teaching_candidate_count:\s*(\d+)\s*$", raw)
+            if not teaching_count_match:
+                issues.append(LedgerIssue(path, "rule 24: ledger v3 requires teaching_candidate_count"))
+            else:
+                actual_teaching = sum(row.get("lane") in {"teach", "both"} for row in rows)
+                if int(teaching_count_match.group(1)) != actual_teaching:
+                    issues.append(
+                        LedgerIssue(path, "rule 24: teaching_candidate_count does not match teach/both rows")
+                    )
         for row in rows:
             if row["disposition"] not in DISPOSITIONS:
                 issues.append(LedgerIssue(path, "rule 21: candidate row has an invalid disposition"))
@@ -273,6 +406,136 @@ def validate_ledgers(ledger_root: Path) -> list[LedgerIssue]:
                 required = ("object_id", "learner_decision", "variant_basis", "method_or_policy", "tradeoff")
                 if any(not row[key] for key in required):
                     issues.append(LedgerIssue(path, "rule 22: variant row requires foundation, decision, basis, method, and tradeoff"))
+            if ledger_format != 3:
+                continue
+            lane = row["lane"]
+            scope = row["teaching_scope"]
+            route = row["teaching_route"]
+            if lane not in LANE_REVIEW_VALUES:
+                issues.append(LedgerIssue(path, "rule 24: candidate lane must be skill, teach, or both"))
+                continue
+            if lane == "skill":
+                if scope not in {"—", "-", "none"} or route not in {"—", "-", "none"}:
+                    issues.append(LedgerIssue(path, "rule 24: skill-only candidate cannot claim a Teaching scope or route"))
+                continue
+            if scope not in TEACHING_SCOPE_VALUES:
+                issues.append(LedgerIssue(path, "rule 24: teach/both candidate requires a Teaching scope"))
+                continue
+            object_id = row["object_id"]
+            package = (object_packages or {}).get(object_id)
+            if scope == "domain-specific":
+                if route != "domain":
+                    issues.append(LedgerIssue(path, "rule 24: domain-specific teaching candidate routes to domain"))
+                if package == "teaching":
+                    issues.append(LedgerIssue(path, "rule 24: domain-specific teaching candidate cannot be owned by Teaching"))
+            else:
+                if not route.startswith("teaching:") or not route.removeprefix("teaching:").strip():
+                    issues.append(LedgerIssue(path, "rule 24: cross-domain teaching candidate requires teaching:<owner> route"))
+                    continue
+                owner_id = route.removeprefix("teaching:").strip()
+                owner_package = (object_packages or {}).get(owner_id)
+                if object_packages is not None and owner_package != "teaching":
+                    issues.append(LedgerIssue(path, "rule 24: cross-domain Teaching route must resolve in top-level teaching"))
+                if row["disposition"] in {"new", "variant", "replace"} and object_id != owner_id:
+                    issues.append(LedgerIssue(path, "rule 24: retained cross-domain candidate must target its Teaching owner"))
+    return issues
+
+
+def validate_registry(ledger_root: Path) -> list[LedgerIssue]:
+    issues: list[LedgerIssue] = []
+    registry_path = ledger_root / "REGISTRY.md"
+    if not registry_path.is_file():
+        return [LedgerIssue(registry_path, "rule 25: source registry is missing")]
+    registry_raw = registry_path.read_text(encoding="utf-8")
+    lines = registry_raw.splitlines()
+    header_index = next(
+        (
+            index for index, line in enumerate(lines)
+            if table_cells(line) and table_cells(line)[0] == "source_id"
+        ),
+        None,
+    )
+    if header_index is None:
+        return [LedgerIssue(registry_path, "rule 25: registry table is missing")]
+    columns = table_cells(lines[header_index])
+    expected_columns = ["source_id", "title", "author", "sha256 (first 12)", "status", "units", "objects", "closed"]
+    if columns != expected_columns:
+        return [LedgerIssue(registry_path, "rule 25: registry table has invalid columns")]
+    rows: list[dict[str, str]] = []
+    for line in lines[header_index + 2:]:
+        if not line.startswith("|"):
+            continue
+        cells = table_cells(line)
+        if len(cells) == len(columns) and cells[0] not in {"source_id", "---", ""}:
+            rows.append(dict(zip(columns, cells)))
+    by_id: dict[str, dict[str, str]] = {}
+    for row in rows:
+        source_id = row["source_id"]
+        if source_id in by_id:
+            issues.append(LedgerIssue(registry_path, f"rule 25: duplicate registry row for {source_id}"))
+        by_id[source_id] = row
+
+    source_dirs: dict[str, Path] = {}
+    for source_path in sorted(ledger_root.glob("*/SOURCE.md")):
+        raw = source_path.read_text(encoding="utf-8")
+        source_id = scalar_field(raw, "source_id")
+        if not source_id:
+            issues.append(LedgerIssue(source_path, "rule 25: SOURCE.md lacks source_id"))
+            continue
+        source_dirs[source_id] = source_path.parent
+        if source_id not in by_id:
+            issues.append(LedgerIssue(source_path, f"rule 25: authoritative source {source_id} has no registry row"))
+
+    for source_id, row in sorted(by_id.items()):
+        source_dir = source_dirs.get(source_id)
+        if source_dir is None:
+            issues.append(LedgerIssue(registry_path, f"rule 25: registry row {source_id} has no SOURCE.md"))
+            continue
+        source_path = source_dir / "SOURCE.md"
+        source_raw = source_path.read_text(encoding="utf-8")
+        source_status = scalar_field(source_raw, "status") or ""
+        units_path = source_dir / "UNITS.md"
+        _unit_columns, units = unit_queue(units_path)
+        if not units_path.is_file() and source_status != "queued":
+            issues.append(LedgerIssue(units_path, f"rule 25: {source_id} has no UNITS.md"))
+            continue
+        statuses = [unit.get("status", "") for unit in units]
+        invalid = sorted(set(statuses) - {"queued", "in-progress", *CLOSED_UNIT_STATUSES})
+        if invalid:
+            issues.append(LedgerIssue(units_path, f"rule 25: invalid unit statuses: {', '.join(invalid)}"))
+            continue
+        done = sum(status in CLOSED_UNIT_STATUSES for status in statuses)
+        total = len(statuses)
+        if source_status in {"abandoned", "low-yield"}:
+            computed_status = source_status
+        elif not statuses or all(status == "queued" for status in statuses):
+            computed_status = "queued"
+        elif all(status in CLOSED_UNIT_STATUSES for status in statuses):
+            computed_status = "complete"
+        else:
+            computed_status = "in-progress"
+        if source_status != computed_status:
+            issues.append(
+                LedgerIssue(
+                    source_path,
+                    f"rule 25: SOURCE status {source_status or '<missing>'} != computed unit status {computed_status}",
+                )
+            )
+        if row["status"] != computed_status:
+            issues.append(
+                LedgerIssue(
+                    registry_path,
+                    f"rule 25: registry status for {source_id} is {row['status']} != {computed_status}",
+                )
+            )
+        expected_count = f"{done}/{total}" if total else ""
+        if row["units"] != expected_count:
+            issues.append(
+                LedgerIssue(
+                    registry_path,
+                    f"rule 25: registry units for {source_id} are {row['units'] or '<blank>'} != {expected_count or '<blank>'}",
+                )
+            )
     return issues
 
 
@@ -444,6 +707,14 @@ def validate_library(library_root: Path, ledger_root: Path) -> list[ObjectRecord
     return records
 
 
+def object_package_index(records: list[ObjectRecord]) -> dict[str, str]:
+    return {
+        str(record.data["object_id"]): package_of(record)
+        for record in records
+        if record.data.get("object_id")
+    }
+
+
 def package_of(record: ObjectRecord) -> str:
     parts = record.relative_path.parts
     return parts[0] if parts else ""
@@ -456,15 +727,19 @@ def records_in_package(records: list[ObjectRecord], package: str) -> list[Object
 def source_ids_of(records: list[ObjectRecord]) -> set[str]:
     source_ids: set[str] = set()
     for record in records:
-        reference = record.data.get("reference")
-        if isinstance(reference, dict) and isinstance(reference.get("source_id"), str):
-            source_ids.add(reference["source_id"])
+        source_ids.update(card_source_ids(record.data))
     return source_ids
 
 
 def ledger_issues_for_sources(issues: list[LedgerIssue], source_ids: set[str]) -> list[LedgerIssue]:
-    # A unit record lives at <ledger_root>/<source_id>/units/<unit>.md.
-    return [issue for issue in issues if issue.path.parent.parent.name in source_ids]
+    def issue_source_id(issue: LedgerIssue) -> str:
+        if issue.path.parent.name == "units":
+            return issue.path.parent.parent.name
+        if issue.path.name in {"SOURCE.md", "UNITS.md"}:
+            return issue.path.parent.name
+        return ""
+
+    return [issue for issue in issues if issue_source_id(issue) in source_ids]
 
 
 def main() -> int:
@@ -480,9 +755,19 @@ def main() -> int:
             "checks resolve against every package; only the reported set narrows."
         ),
     )
+    parser.add_argument(
+        "--scope-ledger-to-library",
+        action="store_true",
+        help=(
+            "Report ledger issues only for sources referenced by the supplied library. "
+            "Use this when validating a materialized release closure."
+        ),
+    )
     args = parser.parse_args()
     records = validate_library(args.library, args.ledger)
-    ledger_issues = validate_ledgers(args.ledger)
+    ledger_issues = validate_ledgers(args.ledger, object_package_index(records))
+    if not args.package and not args.scope_ledger_to_library:
+        ledger_issues.extend(validate_registry(args.ledger))
     scope = ""
     if args.package:
         reported = records_in_package(records, args.package)
@@ -493,6 +778,8 @@ def main() -> int:
         scope = f" in package '{args.package}'"
     else:
         reported = records
+        if args.scope_ledger_to_library:
+            ledger_issues = ledger_issues_for_sources(ledger_issues, source_ids_of(reported))
     errors = 0
     for record in reported:
         for error in record.errors:

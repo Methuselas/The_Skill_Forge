@@ -4,7 +4,7 @@
 A release must not silently bypass grounding just because source payloads are not
 kept in Git. Each source therefore carries a QUALITY_ATTESTATION.json beside its
 ledger. The attestation binds the accepted grounding state to the exact ledger
-and exact set of library cards that cite that source.
+and source-scoped contribution of every library card that cites that source.
 
 Two grounding bases are supported:
 - live_verified: verify_grounding.py succeeded against the real source payload.
@@ -12,8 +12,8 @@ Two grounding bases are supported:
   source/ledger state is preserved here; the archive hash is recorded as
   provenance. This does not pretend the payload was re-read during release.
 
-Any card or ledger change invalidates the attestation until the source is
-reviewed/verified and re-attested.
+A change to the source-owned contribution or grounding ledger invalidates the attestation until the source is
+reviewed/verified and re-attested. Adding an unrelated source variant to the same canonical card does not stale it.
 """
 from __future__ import annotations
 
@@ -29,6 +29,11 @@ from typing import Any
 import yaml
 
 from paths import default_library_root, default_ledger_root
+from source_provenance import (
+    all_source_object_hashes,
+    legacy_primary_source_object_hashes,
+    source_object_hashes,
+)
 
 ATTESTATION_NAME = "QUALITY_ATTESTATION.json"
 FRONTMATTER = "---\n"
@@ -82,33 +87,6 @@ def parse_frontmatter(path: Path) -> dict[str, Any] | None:
 
 
 
-def all_source_object_hashes(library: Path) -> dict[str, dict[str, str]]:
-    result: dict[str, dict[str, str]] = {}
-    for path in sorted(library.rglob("*.md")):
-        data = parse_frontmatter(path)
-        if not data:
-            continue
-        ref = data.get("reference")
-        card_source = ref.get("source_id") if isinstance(ref, dict) else data.get("source_id")
-        if not card_source:
-            continue
-        source_id = str(card_source)
-        result.setdefault(source_id, {})[path.relative_to(library).as_posix()] = sha256_file(path)
-    return result
-
-def source_object_hashes(library: Path, source_id: str) -> dict[str, str]:
-    result: dict[str, str] = {}
-    for path in sorted(library.rglob("*.md")):
-        data = parse_frontmatter(path)
-        if not data:
-            continue
-        ref = data.get("reference")
-        card_source = ref.get("source_id") if isinstance(ref, dict) else data.get("source_id")
-        if str(card_source) != source_id:
-            continue
-        result[path.relative_to(library).as_posix()] = sha256_file(path)
-    return result
-
 
 def source_sha_from_record(source_md: Path) -> str | None:
     for line in source_md.read_text(encoding="utf-8").splitlines():
@@ -141,7 +119,7 @@ def build_attestation(
     if not objects:
         raise ValueError(f"{source_id}: no library objects cite this source")
     data: dict[str, Any] = {
-        "schema_version": 1,
+        "schema_version": 2,
         "source_id": source_id,
         "created": date.today().isoformat(),
         "grounding_basis": basis,
@@ -150,6 +128,7 @@ def build_attestation(
         "source_payload_sha256": source_sha_from_record(source_md),
         "ledger_tree_sha256": tree_digest(source_dir),
         "object_sha256": objects,
+        "object_hash_scope": "source_projection_v1",
     }
     if basis == "canonical_archive_accepted":
         if not archive_name or not archive_sha256:
@@ -167,7 +146,25 @@ def build_attestation(
     return data
 
 
-def verify_attestation(source_id: str, library: Path, ledger: Path, current_objects: dict[str, str] | None = None) -> list[str]:
+def verify_attestation(
+    source_id: str,
+    library: Path,
+    ledger: Path,
+    current_objects: dict[str, str] | None = None,
+    scope_paths: set[str] | None = None,
+) -> list[str]:
+    """Verify a source's attestation.
+
+    ``scope_paths`` restricts the *contribution* comparison to the cards named,
+    which is what a release needs: a release ships a subset of a source's canon
+    and must not fail because a card it does not contain drifted. The
+    attestation's own integrity — signature, ``SOURCE.md``, ledger tree — is
+    always checked in full, so a tampered grounding record still fails, and a
+    released card the attestation never covered is reported rather than ignored.
+
+    ``scope_paths=None`` keeps the whole-canon comparison used by the repo-health
+    check (``verify --all``).
+    """
     source_dir = ledger / source_id
     path = source_dir / ATTESTATION_NAME
     if not path.is_file():
@@ -193,9 +190,38 @@ def verify_attestation(source_id: str, library: Path, ledger: Path, current_obje
         problems.append(f"{source_id}: SOURCE.md changed after attestation")
     if data.get("ledger_tree_sha256") != tree_digest(source_dir):
         problems.append(f"{source_id}: ledger evidence changed after attestation")
-    current_objects = current_objects if current_objects is not None else source_object_hashes(library, source_id)
-    if data.get("object_sha256") != current_objects:
-        problems.append(f"{source_id}: cited library objects changed after attestation")
+    schema_version = data.get("schema_version", 1)
+    if schema_version == 1:
+        # Legacy attestations hashed whole primary-source card files. Preserve that
+        # verification mode until the attestation is explicitly reissued as v2.
+        expected_objects = legacy_primary_source_object_hashes(library, source_id)
+    elif schema_version == 2:
+        if data.get("object_hash_scope") != "source_projection_v1":
+            problems.append(f"{source_id}: unsupported object_hash_scope")
+        expected_objects = current_objects if current_objects is not None else source_object_hashes(library, source_id)
+    else:
+        problems.append(f"{source_id}: unsupported attestation schema_version")
+        expected_objects = {}
+    stored_objects = data.get("object_sha256")
+    if scope_paths is None:
+        if stored_objects != expected_objects:
+            problems.append(f"{source_id}: cited source contribution changed after attestation")
+    elif not isinstance(stored_objects, dict):
+        problems.append(f"{source_id}: attestation has no object hash map")
+    else:
+        uncovered = sorted(path for path in scope_paths if path not in stored_objects)
+        if uncovered:
+            problems.append(
+                f"{source_id}: released card not covered by attestation: {', '.join(uncovered)}"
+            )
+        drifted = sorted(
+            path for path in scope_paths
+            if path in stored_objects and stored_objects[path] != expected_objects.get(path)
+        )
+        if drifted:
+            problems.append(
+                f"{source_id}: cited source contribution changed after attestation: {', '.join(drifted)}"
+            )
     return problems
 
 
@@ -250,6 +276,9 @@ def main() -> int:
         failures: list[str] = []
         all_objects = all_source_object_hashes(library)
         for source_id in targets:
+            # verify_attestation selects legacy whole-card hashing for schema v1 and
+            # source-scoped hashing for schema v2. Supplying the v2 cache is safe
+            # only for v2; the verifier ignores it for legacy attestations.
             failures.extend(verify_attestation(source_id, library, ledger, all_objects.get(source_id, {})))
         if failures:
             print("ATTESTATION FAILED:")

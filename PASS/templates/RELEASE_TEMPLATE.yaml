@@ -1,3 +1,10 @@
 name: Example Skill
 modules:
   - example/module
+  # Add `teaching` only when this release should support the Teaching lane.
+  # It is conditional and is never included automatically like metaskills.
+
+# Runtime orchestration is vendored into each portable release.
+runtime_profile: generic
+# Deployment limits are release-target constraints, never authoring-health gates.
+# deployment_profile: chatgpt_skill

@@ -20,9 +20,10 @@ It is separate from the domain skills that consume those objects.
 4. `docs/PASS_SCHEMA.md`
 5. `docs/PASS_LEDGER.md`
 6. `docs/PASS_LIBRARY.md`
+7. `docs/RUNTIME_KERNEL.md` when changing runtime routing, release vendoring, or execution gates.
 
 Use the source material named by the user as the evidentiary basis. Preserve its
 terminology and scope. Do not silently fill unsupported gaps with general
 knowledge. Mark inference, uncertainty, and deferred review explicitly.
 
-After edits, run the applicable validation, grounding, prerequisite, and release-boundary checks under `tools/` before publishing a release. Indexes are optional generated navigation, not canonical dependency state.
+After edits, run the applicable validation, grounding, prerequisite, runtime, cache-lifecycle, and release-boundary checks under `tools/` before publishing a release. Indexes are optional generated navigation, not canonical dependency state.
