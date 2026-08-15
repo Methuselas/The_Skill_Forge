@@ -11,8 +11,12 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
+- [Ask Whether the Difficulty Is in the Problem or in Your Solution](PAT_separate_essential_from_accidental_complexity.md) - pattern; 0 design.
 - [Check You Are Not Writing Your Previous Language in New Syntax](PAT_write_the_language_you_are_in_not_the_one_you_know.md) - pattern; 3 rough.
 - [Decide What to Express First, Then Find How the Language Can Carry It](PAT_program_into_the_language_not_in_it.md) - pattern; 0 design.
+- [Design Deepest Where the Work Looks Easiest](PAT_choose_design_depth_by_risk_not_habit.md) - pattern; 0 design.
+- [Do Not Stop at the First Design That Would Work](PAT_produce_a_second_design_before_committing.md) - pattern; 0 design.
+- [Prototype the Minimum That Answers One Named Question](PAT_prototype_to_answer_one_specific_design_question.md) - pattern; 1 skeleton.
 - [Refuse to Implement an Architecture You Cannot Follow](PAT_judge_an_architecture_before_building_on_it.md) - pattern; 0 design.
 - [Settle the Load-Bearing Decisions Early, Leave the Finishes Open](PAT_settle_load_bearing_decisions_before_finishes.md) - pattern; 0 design.
 - [State How Robust to Build Before Anyone Builds It](PAT_set_the_robustness_level_deliberately.md) - pattern; 0 design.

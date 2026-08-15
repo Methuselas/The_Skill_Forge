@@ -17,6 +17,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
+- [Ask What This Should Hide, Not What It Should Expose](PAT_ask_what_should_be_hidden.md) - pattern; 0 design.
 - [Decompose a Problem Into Clean Layers of Abstraction](PAT_decompose_into_layers_of_abstraction.md) - pattern; 0 design.
 - [Don't Widen the Public API Just to Reuse or Test Internals](PAT_dont_widen_api_for_reuse_or_testing.md) - pattern; 2 block.
 - [Evaluate a Big Class Against the Pillars and Split It by Concept](DRILL_split_a_too_big_class_by_concept.md) - drill; 3 rough.

@@ -17,6 +17,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
+- [Catch the Coupling That the Compiler Cannot See](PAT_watch_for_semantic_coupling.md) - pattern; 3 rough.
 - [Compose Modules With Few Well-Defined Interfaces](PAT_design_modular_interfaces.md) - pattern; 2 block.
 - [Depend on Interfaces, Not Concrete Classes](PAT_depend_on_interfaces_not_concrete_classes.md) - pattern; 2 block.
 - [Don't Leak Implementation Details in Exceptions](PAT_dont_leak_implementation_details_in_exceptions.md) - pattern; 2 block.
