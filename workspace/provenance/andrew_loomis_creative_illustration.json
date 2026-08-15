@@ -1,9 +1,9 @@
 {
   "approved_by": "MaDin",
-  "attestation_sha256": "6c8a17ff4420c0f7c7952b697a283a7499c4f3a1caba9ac7e1bc89b915cfac97",
+  "attestation_sha256": "0930bd2266231102d59ff75239a44fded3e840e52e8690bb4c4990d796dcc1f7",
   "created": "2026-08-15",
   "grounding_basis": "live_verified",
-  "ledger_tree_sha256": "dee846c40067d20113cc149e819d0d593ead507a09a55d9898f6ab7922effa42",
+  "ledger_tree_sha256": "bfd42acd9ebcf6b057c9003ea0c909aec4e3e9887395406049dc32e1832eb378",
   "note": "Grounding was re-verified against the real source payload before attestation.",
   "object_hash_scope": "source_projection_v1",
   "object_sha256": {
@@ -16,11 +16,14 @@
     "art/drawing/composition/PAT_design_whole_picture_as_interlocking_shape_pattern.md": "70040863bce97c0e20acd04282c8e0993dccb27ba71e3320077c0f476a3504ff",
     "art/drawing/rendering/DRILL_compare_same_subject_across_tonal_treatments.md": "5bbbe69b03d141a5e86cdf45c9c0f49cfaa6c1455df96b44cec6b977f99832e4",
     "art/drawing/rendering/DRILL_recompose_one_subject_across_tonal_keys_and_plans.md": "8f997c47053c00e87e55ee8c90dda16581d2bc07e6ee92ec9764c530fdd24cef",
-    "art/drawing/rendering/PAT_consolidate_resolved_form_with_tone.md": "837f91f8a6a34f424e13d02f0af8617dfd4a7932a0bedc05ac985346906e2438",
+    "art/drawing/rendering/DRILL_translate_same_life_study_from_grayscale_to_color.md": "0eca5f9f69ae4a403aab2912c40ad70debe03bc490e5e3c8c6dcbdee060dc76a",
+    "art/drawing/rendering/PAT_consolidate_resolved_form_with_tone.md": "afe9ceb23ad0b259fe493700563b7ce0b7f5e5043bdf348744b914145e092f7f",
     "art/drawing/rendering/PAT_control_edge_hardness_from_form_light_and_focus.md": "e3c68b5c9dc7326c8e559458cba189ede97f2f0756a710f696a1909de0cf76ec",
+    "art/drawing/rendering/PAT_preserve_value_structure_when_translating_tone_into_color.md": "387533cd55ff0821e4d95dcc37fd09fd33e19000982a4a3918b00bdbe0622243",
     "art/drawing/rendering/PAT_select_and_shape_contour_for_expressive_meaning.md": "a8a189df2c188e5fc1b4f6ead7a4a0ef70d141f5dcb750604aacd82ddeb67eb1",
     "art/drawing/rendering/PAT_separate_local_value_from_light_and_shadow_effect.md": "a9e4443249dc577b095460946b041c93e20cea3e550717bb7f281e6696eb330e",
-    "art/drawing/rendering/PAT_translate_value_into_mark_density_and_open_ground.md": "67a3e7a3c28a70510295d515f81c616ee94902daa4b28e9a3423c585a9be386f"
+    "art/drawing/rendering/PAT_translate_value_into_mark_density_and_open_ground.md": "67a3e7a3c28a70510295d515f81c616ee94902daa4b28e9a3423c585a9be386f",
+    "teaching/learning-design/PAT_verify_understanding_through_application_not_verbal_assent.md": "d0d9e0be989b3ed883eca8b878d6098ae92a7aba08d62342ac4810b44d3246c9"
   },
   "processed_units": [
     "u01",
@@ -29,14 +32,15 @@
     "u04",
     "u05",
     "u06",
-    "u07"
+    "u07",
+    "u08"
   ],
   "provenance_schema": 1,
   "rights_first_party": false,
   "schema_version": 2,
   "source_id": "andrew_loomis_creative_illustration",
   "source_payload_sha256": "506648bdf3ff47a583f8960d70816f7413d67ff1a7455cd1441d7d8d1a9129c6",
-  "source_record_sha256": "0da9ea895005f2c20c5aefd92a755338cef5178a0ab09524dc57525fcf91a17b",
+  "source_record_sha256": "53c2dafc7e03070c02f6ea6b7b30d9b1885c5df846bb8178e6c63a939084138f",
   "unit_count": 22,
   "visual": true
 }
