@@ -18,5 +18,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Interrupt People Between Tasks, Not Inside Them](PAT_interrupt_at_task_boundaries.md) - pattern; 4 final.
 - [Name the Activity You Are In, Then Support the Memory It Taxes](PAT_support_the_memory_system_the_activity_taxes.md) - pattern; 0 design.
 - [Prepare an Onboarding That Supports All Three Memory Systems](AP_prepare_an_onboarding_for_all_three_memory_systems.md) - ap; 0 design.
+- [Take On the Whole Construction Span, Not Just the Code](PAT_scope_construction_beyond_writing_the_code.md) - pattern; 0 design.
 - [Work Out Which Stage a Learner Is At Before Choosing How to Help](PAT_locate_a_learner_on_the_neo_piagetian_stages.md) - pattern; 0 design.
 - [You Can Only Multitask What You Have Already Automatized](PAT_dont_multitask_what_you_have_not_automatized.md) - pattern; 0 design.

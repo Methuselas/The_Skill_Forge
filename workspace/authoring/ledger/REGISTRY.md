@@ -30,10 +30,6 @@ can go stale. If they disagree, the ledger wins.
 | burne_hogarth_dynamic_anatomy | Dynamic Anatomy (Revised and Expanded) | Burne Hogarth | 31e23c691297 | complete | 7/7 | 2 new, 6 variants | committed 2026-08-10 |
 | burne_hogarth_dynamic_figure_drawing_ocr | Dynamic Figure Drawing | Burne Hogarth | b0d97d495ca3 | complete | 7/7 | 49 new, 6 variants | committed 2026-08-10 |
 | gen1_art_fundamentals_4step | PASS Gen 1 Universal Step 0 + Four-Stage Workflow | Blu + Admin | d53b1c8b031f | complete | 1/1 | 2 | 2026-07-31 |
-| gcbc_think_like_swe | Good Code, Bad Code: Think Like a Software Engineer | Tom Long | 35e22cad8052 | complete | 11/11 | 122 | 2026-07-31 |
-| effective_cpp_3e | Effective C++, 3rd ed. | Scott Meyers | 4f983195c37c | complete | 9/9 | 80 | 2026-08-01 |
-| cpp_core_guidelines | C++ Core Guidelines | Stroustrup & Sutter (eds.) | be29ae459bc2 | queued | | | |
-| programmers_brain | The Programmer's Brain: What Every Programmer Needs to Know About Cognition | Felienne Hermans | 52063e7300c1 | in-progress | 2/13 | 10 | |
 | guided_staged_visual_validation_2026_08_03 | Guided Staged Visual Validation: Warbot and Zero-G Astronaut | Blu + Admin | 401381d45142 | complete | 1/1 | 3 | 2026-08-03 |
 | guided_art_centerline_wusao_2026_08_04 | Guided Art Centerline: Registered Crescendo Construction | Blu + Admin | e2ab32836b3e | complete | 1/1 | 1 | 2026-08-04 |
 | guided_stage_density_gates_2026_08_05 | Guided Stage Density Profiles, Visible Gates, and Deferred Color/Light Split | MaDin + GPT | 46fd8c084e68 | complete | 2/2 | 1 new, 2 revised | 2026-08-05 |
@@ -50,7 +46,7 @@ can go stale. If they disagree, the ledger wins.
 | glenn_vilppu_basic_figure_drawing | Drawing Manual: Basic Figure Drawing | Glenn Vilppu | 4de3a62133c5 | complete | 13/13 | 2 new, 11 variants | committed |
 
 | gottfried_bammes_wir_zeichnen_den_menschen | Wir zeichnen den Menschen: Eine Grundlegung | Gottfried Bammes | fa2fab46a0c7 | complete | 9/9 | 4 new, 15 variants | committed |
-| gottfried_bammes_artist_guide_to_animal_anatomy | The Artist's Guide to Animal Anatomy | Gottfried Bammes | 57ad055fadae | in-progress | 22/34 | 39 new, 18 variants | |
+| gottfried_bammes_artist_guide_to_animal_anatomy | The Artist's Guide to Animal Anatomy | Gottfried Bammes | 57ad055fadae | complete | 34/34 | 59 new, 24 variants | committed 2026-08-13 |
 
 | joseph_damelio_perspective_drawing_handbook | Perspective Drawing Handbook | Joseph D'Amelio | 34463a150ec2 | complete | 1/1 | 14 canonical perspective objects + cumulative variants/patches | committed 2026-08-09 |
 | ernest_norling_perspective_made_easy | Perspective Made Easy | Ernest R. Norling | 781c8c782bb3 | complete | 1/1 | 2 canonical perspective objects + cumulative variants/patches | committed 2026-08-09 |
@@ -61,3 +57,24 @@ can go stale. If they disagree, the ledger wins.
 
 | uldis_zarins_anatomy_for_sculptors | Anatomy for Sculptors: Understanding the Human Figure | Uldis Zarins with Sandis Kondrats | 691881f80830 | complete | 8/8 | 0 new, 11 variants | committed 2026-08-09 |
 | ken_hultgren_art_of_animal_drawing | The Art of Animal Drawing | Ken Hultgren | 74fc2787e54e | complete | 21/21 | 26 new, 30 variants | committed 2026-08-10 |
+
+| michael_mattesi_force_animal_drawing | FORCE: Animal Drawing | Michael D. Mattesi | e9a4ac547b34 | complete | 6/6 | 4 new, 16 variants | committed 2026-08-13 |
+| lowes_luard_anatomy_action_horse | The Anatomy and Action of the Horse | Lowes D. Luard | 81f6f309ccec | complete | 7/7 | 1 new, 15 variants, 1 revision | committed 2026-08-13 |
+| bert_dodson_keys_to_drawing | Keys to Drawing | Bert Dodson | 7cbff579f0ee | complete | 8/8 | 23 new, 6 promotions, 24 variants, 1 revision | committed 2026-08-13 |
+| andrew_loomis_fun_with_a_pencil | Fun With a Pencil | Andrew Loomis | 15de53dbf81c | complete | 5/5 | 1 new, 9 variants | committed 2026-08-14 |
+| marvel_how_to_draw_comics | How to Draw Comics the Marvel Way | Stan Lee and John Buscema | f5ba454de57c | complete | 12/12 | 6 new, 3 variants | committed 2026-08-14 |
+| andrew_loomis_successful_drawing | Successful Drawing | Andrew Loomis | 2d1d0c6915b2 | complete | 11/11 | 1 new, 11 variants | |
+| vladimir_mogilevtsev_fundamentals_of_drawing | Fundamentals of Drawing | V. A. Mogilevtsev | 178328b32aaa | complete | 11/11 | 2 new, 12 variants, 2 refinements | committed 2026-08-14 |
+
+<!-- Writing and teaching candidates sourced from writing books. -->
+| david_starkey_creative_writing_four_genres_in_brief_3e | Creative Writing: Four Genres in Brief, Third Edition | David Starkey | 4dcdd06e0727 | in-progress | 0/151 | | |
+
+<!-- Software engineering. These four rows were dropped from the working copy during an
+     unrelated edit to this shared table and are restored here; `programmers_brain` is
+     also brought up to the state its own SOURCE.md records. Keep the lanes in separate
+     blocks so a rewrite of one block cannot take the other with it. -->
+| gcbc_think_like_swe | Good Code, Bad Code: Think Like a Software Engineer | Tom Long | 35e22cad8052 | complete | 11/11 | 122 | 2026-07-31 |
+| programmers_brain | The Programmer's Brain: What Every Programmer Needs to Know About Cognition | Felienne Hermans | 52063e7300c1 | complete | 13/13 | 66 new, 19 variants | 2026-08-13 |
+| effective_cpp_3e | Effective C++, 3rd ed. | Scott Meyers | 4f983195c37c | complete | 9/9 | 80 | 2026-08-01 |
+| cpp_core_guidelines | C++ Core Guidelines | Stroustrup & Sutter (eds.) | be29ae459bc2 | queued | | | |
+| code_complete_2e | Code Complete: A Practical Handbook of Software Construction, 2nd Ed. | Steve McConnell | c321aafe9402 | in-progress | 1/35 | 2 new | |
