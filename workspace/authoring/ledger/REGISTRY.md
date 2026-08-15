@@ -68,7 +68,7 @@ can go stale. If they disagree, the ledger wins.
 | andrew_loomis_creative_illustration | Creative Illustration | Andrew Loomis | 506648bdf3ff | in-progress | 7/22 | 7 new, 10 variants, 1 generalization, 1 refinement | committed through u07 2026-08-15 |
 
 <!-- Shared Teaching grounding dependency included in the Art authoring slice. -->
-| david_starkey_creative_writing_four_genres_in_brief_3e | Creative Writing: Four Genres in Brief, Third Edition | David Starkey | 4dcdd06e0727 | in-progress | 3/151 | 18 new, 5 variants | |
+| david_starkey_creative_writing_four_genres_in_brief_3e | Creative Writing: Four Genres in Brief, Third Edition | David Starkey | 4dcdd06e0727 | in-progress | 4/151 | 24 new, 10 variants | |
 
 <!-- Software engineering. THIRD restoration of this block: it has now been dropped from
      the working copy three times by rewrites of this shared table (2026-08-14, and twice

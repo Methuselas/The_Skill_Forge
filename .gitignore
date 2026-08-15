@@ -3,6 +3,8 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 workspace/releases/
+workspace/authoring/sources
+workspace/authoring/ledger
 
 # Local source payloads are authoring inputs, not Git content by default.
 workspace/authoring/sources/*
