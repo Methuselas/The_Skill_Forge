@@ -1,9 +1,9 @@
 {
-  "approved_by": "MaDin - in-progress source; u01-u07 verified live against attached payload, 2026-08-15",
-  "attestation_sha256": "e021ad1f08618794b10e0e91804dbb09d252dd0a22e382989ea66e539f23b23d",
+  "approved_by": "MaDin - in-progress source; u01-u08 verified live against attached payload, 2026-08-15",
+  "attestation_sha256": "fa4c7cc287a880361ddaa7ad6c396240c966549b096c9abe9f45037cb6a79c96",
   "created": "2026-08-15",
   "grounding_basis": "live_verified",
-  "ledger_tree_sha256": "5df83ef3c9c9d0fd1897fb01415e016e0ee0a7177893927aa32f20596bca0916",
+  "ledger_tree_sha256": "a4863a859618a02cb2e5d8adfbfa3b274d93bfe8120939b5e8cc6034fd939316",
   "note": "Grounding was re-verified against the real source payload before attestation.",
   "object_hash_scope": "source_projection_v1",
   "object_sha256": {
@@ -15,6 +15,7 @@
     "software-engineering/core/code-quality/PAT_balance_adaptability_without_predicting_future.md": "8ac9714e1737ed820011775793c58fce455d37a88ee6b11726830a145e64c3c1",
     "software-engineering/core/code-quality/PAT_improve_the_code_when_you_cannot_improve_the_process.md": "d2661bad1d16f13a1e1ea1690ad5742f6561d81ddf11aed8be7007866734dc46",
     "software-engineering/core/code-quality/PAT_reuse_before_reinventing.md": "b5d2df90f6a47ccf4e871b6c214075b83e90fb6ea697d9cb5a47abcf98f852a6",
+    "software-engineering/core/contracts/PAT_enforce_contracts_at_runtime_with_checks.md": "e29eecdef759ccefa3c9bb6e47aa7406ebc6ef47b8382875eb40767611f5a683",
     "software-engineering/core/contracts/PAT_make_breakage_fail_compile_or_test.md": "80d7e5a408fe4e1c016e64efd38a3e246110fe6f8965f7290e808a2f49728318",
     "software-engineering/core/design/PAT_choose_design_depth_by_risk_not_habit.md": "0eeeea5016c79a11a33345687c9345aa0546fa07d8751142226bcad0c257aa76",
     "software-engineering/core/design/PAT_judge_an_architecture_before_building_on_it.md": "f9cc50dbaf3413d4b2f1dda307735d79322684e19c88b9b43082106792dce9a2",
@@ -26,6 +27,8 @@
     "software-engineering/core/design/PAT_settle_load_bearing_decisions_before_finishes.md": "dc7fcb5260dbf1e2bcf132500a8cb89f64381df8f5cec11f1b116c742656fec3",
     "software-engineering/core/design/PAT_state_the_problem_before_the_solution.md": "bcdf8e114faef67fb395d01c2406f732a04c788d0efb8dc7f500f922850835ab",
     "software-engineering/core/design/PAT_write_the_language_you_are_in_not_the_one_you_know.md": "3ba941686f2e2a1cca8d87104b4b5876a5cfcce68794ef53d9089ef3afb31c70",
+    "software-engineering/core/error-handling/PAT_barricade_dirty_data_at_a_named_boundary.md": "49c1aeef85b55fbef9b87d2b2a184caecd7e89b651c3cb89cd3c8486373f3c32",
+    "software-engineering/core/error-handling/PAT_make_the_development_build_fail_louder_than_production.md": "fa4868546b48693ed0755c488d4cb419d8320b73d5d20db54b556a19db379cef",
     "software-engineering/core/error-handling/PAT_settle_one_error_handling_strategy_systemwide.md": "6513dde1ad0420c9f1627eb79d5ca6d52c053ed76f5689c4fb3948fdac5231d2",
     "software-engineering/core/modularity/PAT_prefer_composition_over_inheritance.md": "ceaee501752f8cd4b0e399270d9c25c03004dd2b90f61ec5bfacf7b5f337583b",
     "software-engineering/core/modularity/PAT_watch_for_semantic_coupling.md": "c095f345d6dbef0b9e2865caae8438141980172098eb0aebc6da491630a57280",
@@ -49,7 +52,8 @@
     "u04",
     "u05",
     "u06",
-    "u07"
+    "u07",
+    "u08"
   ],
   "provenance_schema": 1,
   "rights_first_party": false,
