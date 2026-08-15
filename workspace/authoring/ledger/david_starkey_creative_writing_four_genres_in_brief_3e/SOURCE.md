@@ -29,5 +29,6 @@ PASS PDF preflight: READY. Text layer usable on 578/606 pages (769,744 character
 
 ## Summary
 
-In progress. Unit u001 has been read twice and processed, yielding three new
-agnostic Teaching objects. The remaining 150 source-native units are queued.
+In progress. Units u001-u002 have been read twice and processed, yielding five
+new agnostic Teaching objects and two variants. The remaining 149 source-native
+units are queued.

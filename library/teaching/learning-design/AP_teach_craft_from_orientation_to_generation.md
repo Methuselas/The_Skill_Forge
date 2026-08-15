@@ -44,6 +44,26 @@ variants:
   when_to_use: Use when learners need to move from recognizing a writing genre to producing a bounded draft while seeing more than one legitimate style within the form.
   when_not_to_use: Do not force genre terminology, literary-model analysis, or an anthology stage onto a non-writing craft whose examples and generation routes work differently.
   absorbed_from_object_id: none
+- variant_id: VAR_starkey_annotate_writing_models_with_craft_questions
+  variant_name: Annotate Writing Models With Craft Questions
+  variant_basis: method_sequence
+  source_id: david_starkey_creative_writing_four_genres_in_brief_3e
+  source_title: 'Creative Writing: Four Genres in Brief, Third Edition'
+  locator: u002, physical p. 19
+  difference_from_foundation: 'Adds an instructor-led noticing pass to model study: place notes or questions directly on a selected reading so learners identify craft moves where they occur, then let learners respond to the text and to one another before carrying those observations into their own work.'
+  when_to_use: Use when writing learners need guided practice recognizing craft decisions inside a complete model rather than another lecture about craft terms.
+  when_not_to_use: Do not keep this scaffold when the learning goal is independent close reading and instructor prompts would preselect every important observation.
+  absorbed_from_object_id: none
+- variant_id: VAR_starkey_pair_models_with_author_readings_and_interviews
+  variant_name: Pair Writing Models With Author Readings and Interviews
+  variant_basis: medium
+  source_id: david_starkey_creative_writing_four_genres_in_brief_3e
+  source_title: 'Creative Writing: Four Genres in Brief, Third Edition'
+  locator: u002, physical pp. 19-20
+  difference_from_foundation: 'Extends model study with a recording of the author reading the work or discussing the craft process, then turns that companion material into conversation or an assignment rather than leaving it as optional background.'
+  when_to_use: Use when vocal delivery or a practitioner's account of process exposes a choice learners can compare with the written work.
+  when_not_to_use: Do not let commentary replace evidence in the artifact or add media that gives learners no decision to examine or attempt.
+  absorbed_from_object_id: none
 ---
 
 # Teach Craft From Orientation to Generation
@@ -87,3 +107,7 @@ Design a compact craft-learning unit that moves learners from recognizing the ta
 
 ## Notes
 Starkey describes this sequence through writing instruction, but its learner decision travels: orient the form, study compact complete models, translate observations into usable moves, support recognition with vocabulary, open generation, then compare against a broader range. The writing-context route is retained as `VAR_starkey_teach_writing_genre_with_kick_starts_and_anthology`; it specializes the model set into literary works, the working vocabulary into genre elements, the starting routes into kick-starts, and the later comparison set into a short anthology spanning established and experimental writing.
+
+`VAR_starkey_annotate_writing_models_with_craft_questions` makes the model-study step instructor-led and collaborative: questions and notes sit at the relevant passages, learners identify the moves in place, and their replies deepen the reading before transfer. Use that scaffold when learners still need help seeing decisions; withdraw it when independent close reading is the objective.
+
+`VAR_starkey_pair_models_with_author_readings_and_interviews` changes the evidence medium by adding the practitioner's performance or process account. It is useful when voice or commentary reveals a choice learners can test against the work, but not when the extra media becomes biography detached from an observable craft decision.
