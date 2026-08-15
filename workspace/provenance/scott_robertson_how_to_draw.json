@@ -1,0 +1,33 @@
+{
+  "approved_by": "MaDin — supplied current Art authoring archive as golden truth, 2026-08-14",
+  "attestation_sha256": "bbf534283ae5995f894442b64bb54bbe07e2990e94f323108159421e17e4916a",
+  "canonical_archive": {
+    "name": "SkillForge_Art_Authoring_FUN_WITH_A_PENCIL_COMPLETE_2026-08-14.zip",
+    "sha256": "7c77e73e84ac44cee8a6aae3ae0d28d6dffcc64d0240881171b375ef487888e3"
+  },
+  "created": "2026-08-14",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "70af84c489abd38fc685a94eb8accf3f04d5ebdbfe100c9c87047f7b62f9ddc7",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_hash_scope": "source_projection_v1",
+  "object_sha256": {
+    "art/drawing/perspective/AP_build_complex_volumes_with_xyz_sections.md": "e1ee3b00266f6e1c7eaceae4c621399c394da61571ae2fef35278978291eda47",
+    "art/drawing/perspective/AP_construct_a_shared_scene_perspective_field.md": "49e93ba91aa80ed1bdbcd6f6c08dbc603e0b9b5425590fdfb8394de1d57a758b",
+    "art/drawing/perspective/DRILL_aim_clean_perspective_construction_lines.md": "279375fd01536ee9aece904e0ed0214643e2e2ee45395154d68753e6a7c169fc",
+    "art/drawing/perspective/DRILL_place_freehand_ellipses_on_minor_axes.md": "1aac27a2e1c97216eb7deee0448a4b18361e80a85a2d4a427ca667793540b938",
+    "art/drawing/perspective/PAT_build_coherent_grid_when_vanishing_points_are_off_page.md": "8d35419b932524682b8da28be81b397b9ff1f2bc850bda35df7cee3b48bc62fb",
+    "art/drawing/perspective/PAT_project_curves_onto_sectioned_surfaces.md": "fb4d7f0e0c68104e3d7ed773b0692999ba8eb5154b0d8fa22d97f6871437c3c1",
+    "art/drawing/perspective/PAT_rotate_perspective_grids_without_changing_unit_scale.md": "e460fddcbf7b745bd6c281d60d2618bc13f5530d74e0817664001b8eb488826c"
+  },
+  "processed_units": [
+    "u00"
+  ],
+  "provenance_schema": 1,
+  "rights_first_party": false,
+  "schema_version": 2,
+  "source_id": "scott_robertson_how_to_draw",
+  "source_payload_sha256": "c5a54e8bf818c3b3fa7644dfc9353fef8fc6c84d6e1a2c7e5f814dc2c617aa10",
+  "source_record_sha256": "99f57d84d6b5a29574156b0617663b12522dc16628f938864fbcff6e4869f1d7",
+  "unit_count": 1,
+  "visual": true
+}

@@ -15,6 +15,7 @@ from typing import Any
 import yaml
 
 from paths import default_library_root, default_ledger_root
+from provenance import ProvenanceView, provenance_root_for
 from source_provenance import card_source_ids
 
 
@@ -201,7 +202,7 @@ def is_text_only_metaskill(record: ObjectRecord) -> bool:
     )
 
 
-def validate_visual_references(record: ObjectRecord, library_root: Path, ledger_root: Path) -> None:
+def validate_visual_references(record: ObjectRecord, library_root: Path, view: ProvenanceView) -> None:
     data = record.data
     references = data.get("references")
     if not isinstance(references, list):
@@ -220,7 +221,7 @@ def validate_visual_references(record: ObjectRecord, library_root: Path, ledger_
         origin = item.get("origin")
         if origin not in {"generated", "first_party_source"}:
             record.errors.append("rule 23: reference origin must be generated or first_party_source")
-        elif origin == "first_party_source" and not source_is_first_party(ledger_root, str(source_id)):
+        elif origin == "first_party_source" and not view.is_first_party(str(source_id)):
             record.errors.append("rule 23: first_party_source requires SOURCE.md rights: first_party")
         if item.get("review") != "passed":
             record.errors.append("rule 23: reference review must be passed to ship")
@@ -539,7 +540,7 @@ def validate_registry(ledger_root: Path) -> list[LedgerIssue]:
     return issues
 
 
-def validate_record(record: ObjectRecord, library_root: Path, ledger_root: Path) -> None:
+def validate_record(record: ObjectRecord, library_root: Path, view: ProvenanceView) -> None:
     data = record.data
     if not data:
         return
@@ -612,11 +613,11 @@ def validate_record(record: ObjectRecord, library_root: Path, ledger_root: Path)
     if isinstance(reference, dict):
         source_id = reference.get("source_id")
         locator = str(reference.get("locator", ""))
-        statuses = unit_statuses(ledger_root, str(source_id))
+        processed = view.processed_units(str(source_id))
         unit_id = locator.split(",", 1)[0].strip()
-        if not statuses or statuses.get(unit_id) != "processed":
+        if unit_id not in processed:
             record.errors.append("rule 13: locator does not name a processed source unit")
-    validate_visual_references(record, library_root, ledger_root)
+    validate_visual_references(record, library_root, view)
     if data.get("variants"):
         notes = record.sections.get("Notes", "")
         for variant in data["variants"]:
@@ -699,10 +700,10 @@ def discover_objects(library_root: Path) -> list[Path]:
     )
 
 
-def validate_library(library_root: Path, ledger_root: Path) -> list[ObjectRecord]:
+def validate_library(library_root: Path, ledger_root: Path, view: ProvenanceView | None = None) -> list[ObjectRecord]:
     records = [parse_object(path, library_root) for path in discover_objects(library_root)]
     for record in records:
-        validate_record(record, library_root, ledger_root)
+        validate_record(record, library_root, view)
     validate_cross_object(records)
     return records
 
@@ -756,6 +757,15 @@ def main() -> int:
         ),
     )
     parser.add_argument(
+        "--provenance",
+        type=Path,
+        default=None,
+        help=(
+            "public provenance receipts directory (default: workspace/provenance). "
+            "Used when the private authoring ledger is not present."
+        ),
+    )
+    parser.add_argument(
         "--scope-ledger-to-library",
         action="store_true",
         help=(
@@ -764,10 +774,23 @@ def main() -> int:
         ),
     )
     args = parser.parse_args()
-    records = validate_library(args.library, args.ledger)
-    ledger_issues = validate_ledgers(args.ledger, object_package_index(records))
-    if not args.package and not args.scope_ledger_to_library:
-        ledger_issues.extend(validate_registry(args.ledger))
+    view = ProvenanceView(args.ledger, args.provenance)
+    records = validate_library(args.library, args.ledger, view)
+    # Ledger checks (rules 21/24/25) validate the private authoring records
+    # themselves. A public checkout has no ledger, so they do not apply there —
+    # the library checks above run either way, answered from published provenance
+    # receipts instead. See PASS/tools/provenance.py.
+    ledger_issues: list[LedgerIssue] = []
+    if view.has_ledger:
+        ledger_issues = validate_ledgers(args.ledger, object_package_index(records))
+        if not args.package and not args.scope_ledger_to_library:
+            ledger_issues.extend(validate_registry(args.ledger))
+    elif not view.known_source_ids():
+        print(
+            f"FAIL: no authoring ledger at {args.ledger.as_posix()} and no provenance "
+            f"receipts at {view.provenance_root.as_posix()} — cannot verify any source"
+        )
+        return 1
     scope = ""
     if args.package:
         reported = records_in_package(records, args.package)

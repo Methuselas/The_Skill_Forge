@@ -1,0 +1,42 @@
+{
+  "approved_by": "MaDin — approved u11 and source close, 2026-08-14",
+  "attestation_sha256": "021afedac99b40c9ca3ed31cc64186c1ea271edbd8458696028c2b552573943b",
+  "created": "2026-08-15",
+  "grounding_basis": "live_verified",
+  "ledger_tree_sha256": "81ca082279e82919a6c648f57a4f3826dfe86fa6e72874f7a77d357710d0885b",
+  "note": "Grounding was re-verified against the real source payload before attestation.",
+  "object_hash_scope": "source_projection_v1",
+  "object_sha256": {
+    "art/drawing/composition/PAT_crop_decisively_to_reshape_figure_ground_relationships.md": "3cc0ceb4b71118ed9a292adb0c1201c2a24f26882449725cc051143453af11e8",
+    "art/drawing/foundations/observation/DRILL_pair_sustained_studies_with_regular_quick_sketching.md": "47353f717a58f62449d3898f0162609965e5fdbb0ac78081c3b3b66e69376bfa",
+    "art/drawing/foundations/observation/PAT_calibrate_observed_proportion_with_relational_sighting.md": "485ce906d13b594d35079b9959b191a41bfc982a44e9d7a15a5fd6c8dcdde44a",
+    "art/drawing/process/staged-drawing/AP_draw_a_figure_through_onion_skinned_stages.md": "e1f11a083c5b3c7d3b1d7e41bc9ab61e2ee5632c9de8127d418c837b75d0feba",
+    "art/drawing/process/staged-drawing/PAT_explore_stage0_with_thumbnail_set.md": "62c8a53fdc5b2019c740f0aacaa455f94298ff111f3dfae238691485751a853e",
+    "art/drawing/rendering/PAT_consolidate_resolved_form_with_tone.md": "0bc90b56322bbd74ec3ffe5f1472020f5f7c643b5ebf597c06bcd5fca9501637",
+    "art/drawing/subjects/figure/anatomy/DRILL_build_figure_form_repertory_from_classical_exemplar_studies.md": "10d25cdf07e20bf136fe17061a2d9b0be63294a6e9ad9709a24e36d1713a1bc2",
+    "art/drawing/subjects/figure/anatomy/DRILL_construct_whole_figure_from_mass_relations_before_contour.md": "d650b23e01cfabf69f0a70055cfce52a72aa47312286ac2f4e652d84a0ea5d36",
+    "art/drawing/subjects/figure/anatomy/DRILL_project_hidden_torso_skeleton_into_living_form.md": "6f8020a34851fd24de76659266b04dc16271b630a29a813058add4206c336bc6",
+    "art/drawing/subjects/figure/construction/PAT_seat_neck_inside_upper_chest_opening.md": "e54de3bce026aecc18bda61eeb8804b6f7a507935c13c74be2e7b2f7f327e141",
+    "art/drawing/subjects/figure/heads/PAT_construct_head_from_cranial_ball_and_facial_wedge.md": "cbab7345944ba59ef1e019b57f1b3b02f1989c429b9017ae58ccd892168a1e10"
+  },
+  "processed_units": [
+    "u01",
+    "u02",
+    "u03",
+    "u04",
+    "u06",
+    "u07",
+    "u08",
+    "u09",
+    "u10",
+    "u11"
+  ],
+  "provenance_schema": 1,
+  "rights_first_party": false,
+  "schema_version": 2,
+  "source_id": "vladimir_mogilevtsev_fundamentals_of_drawing",
+  "source_payload_sha256": "178328b32aaaf7703e25dd56486b2848a42efa53d01af8347809294af61c1e38",
+  "source_record_sha256": "c168655f0ed06663c4276670e5ccd494b658318ecc37fe19a1a4c341e37ae021",
+  "unit_count": 11,
+  "visual": true
+}

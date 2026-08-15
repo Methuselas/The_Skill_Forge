@@ -4,7 +4,13 @@ __pycache__/
 .DS_Store
 workspace/releases/
 workspace/authoring/sources
-workspace/authoring/ledger
+# Private authoring state. The ledger is the factory's notebook -- REGISTRY,
+# SOURCE.md, UNITS.md, per-unit reading receipts, candidate dispositions and
+# Teaching-lane receipts. It is what makes a run resumable and fail-closed, and
+# it is needed operationally, but it is not published. The public bridge is
+# workspace/provenance/<source_id>.json, written by PASS/tools/publish_provenance.py.
+workspace/authoring/ledger/
+workspace/authoring/handoffs/
 
 # Local source payloads are authoring inputs, not Git content by default.
 workspace/authoring/sources/*

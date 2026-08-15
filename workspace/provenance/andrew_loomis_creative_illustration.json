@@ -1,0 +1,42 @@
+{
+  "approved_by": "MaDin",
+  "attestation_sha256": "6c8a17ff4420c0f7c7952b697a283a7499c4f3a1caba9ac7e1bc89b915cfac97",
+  "created": "2026-08-15",
+  "grounding_basis": "live_verified",
+  "ledger_tree_sha256": "dee846c40067d20113cc149e819d0d593ead507a09a55d9898f6ab7922effa42",
+  "note": "Grounding was re-verified against the real source payload before attestation.",
+  "object_hash_scope": "source_projection_v1",
+  "object_sha256": {
+    "art/drawing/composition/DRILL_hunt_linear_compositions_with_viewfinder_thumbnails.md": "ca61c855663ea276a9e374f279523cda242c106862959cec194a3a25bbae4ec3",
+    "art/drawing/composition/PAT_build_creative_tension_by_straddling_opposites.md": "b9e94b1ff9765a74e985aa5516d93b1201800ffe4d6c4bb8661524f4c9d1ca44",
+    "art/drawing/composition/PAT_choose_line_and_shape_character_to_support_emotional_intent.md": "06f3cd57af4f9eded1a653c77c0c216cf88582c43e1f979f634bafa607716286",
+    "art/drawing/composition/PAT_choose_viewpoint_to_strengthen_story_effect.md": "c514d2e942a9dff9aa3ac42136143114fecfd20b3bc1e1a0520f394ffba70dd8",
+    "art/drawing/composition/PAT_design_lighting_to_serve_subject_mood_and_visual_intent.md": "cc0ec48e87186285455e6e754d7492754379e09025963f62b9382b2973cacc68",
+    "art/drawing/composition/PAT_design_vignette_as_open_composition_with_page_space.md": "7db1d78971dded34a7d9fac92e19dab8b1d0bacafba3a2e2aaa11934f0545035",
+    "art/drawing/composition/PAT_design_whole_picture_as_interlocking_shape_pattern.md": "70040863bce97c0e20acd04282c8e0993dccb27ba71e3320077c0f476a3504ff",
+    "art/drawing/rendering/DRILL_compare_same_subject_across_tonal_treatments.md": "5bbbe69b03d141a5e86cdf45c9c0f49cfaa6c1455df96b44cec6b977f99832e4",
+    "art/drawing/rendering/DRILL_recompose_one_subject_across_tonal_keys_and_plans.md": "8f997c47053c00e87e55ee8c90dda16581d2bc07e6ee92ec9764c530fdd24cef",
+    "art/drawing/rendering/PAT_consolidate_resolved_form_with_tone.md": "837f91f8a6a34f424e13d02f0af8617dfd4a7932a0bedc05ac985346906e2438",
+    "art/drawing/rendering/PAT_control_edge_hardness_from_form_light_and_focus.md": "e3c68b5c9dc7326c8e559458cba189ede97f2f0756a710f696a1909de0cf76ec",
+    "art/drawing/rendering/PAT_select_and_shape_contour_for_expressive_meaning.md": "a8a189df2c188e5fc1b4f6ead7a4a0ef70d141f5dcb750604aacd82ddeb67eb1",
+    "art/drawing/rendering/PAT_separate_local_value_from_light_and_shadow_effect.md": "a9e4443249dc577b095460946b041c93e20cea3e550717bb7f281e6696eb330e",
+    "art/drawing/rendering/PAT_translate_value_into_mark_density_and_open_ground.md": "67a3e7a3c28a70510295d515f81c616ee94902daa4b28e9a3423c585a9be386f"
+  },
+  "processed_units": [
+    "u01",
+    "u02",
+    "u03",
+    "u04",
+    "u05",
+    "u06",
+    "u07"
+  ],
+  "provenance_schema": 1,
+  "rights_first_party": false,
+  "schema_version": 2,
+  "source_id": "andrew_loomis_creative_illustration",
+  "source_payload_sha256": "506648bdf3ff47a583f8960d70816f7413d67ff1a7455cd1441d7d8d1a9129c6",
+  "source_record_sha256": "0da9ea895005f2c20c5aefd92a755338cef5178a0ab09524dc57525fcf91a17b",
+  "unit_count": 22,
+  "visual": true
+}

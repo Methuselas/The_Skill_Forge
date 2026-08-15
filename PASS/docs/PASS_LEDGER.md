@@ -19,12 +19,16 @@ sources/                  the books themselves — GITIGNORED, never committed
 trash/sources/            retired source payload; never committed
   <source_id>/<file>
 
-ledger/                   the run record — tracked
+ledger/                   the run record — GITIGNORED, private authoring state
   <source_id>/
     SOURCE.md             what this source is
     UNITS.md              one row per unit, with status
     units/
       <unit_id>.md        dispositions for that unit
+    QUALITY_ATTESTATION.json
+
+provenance/               the public bridge — tracked
+  <source_id>.json        compact receipt derived from the ledger
 
 library/                  the product — tracked
   <package>/<topic-path...>/
@@ -34,8 +38,31 @@ library/                  the product — tracked
 
 `library/` paths are derived from each object's `library_path` frontmatter. Its
 first segment is the package and all remaining segments are its topic path.
-`ledger/` is the run record. `sources/` holds active payload and is
-gitignored for copyright and repo-size reasons — see `sources/README.md`.
+`sources/` holds active payload and is gitignored for copyright and repo-size
+reasons — see `sources/README.md`.
+
+`ledger/` is the run record and is **local-only**. It is needed operationally —
+duplicate guard, unit queue, grounding receipts, Teaching-lane receipts, rejected
+candidates, resumability — and not publicly. What ships instead is one compact
+receipt per source under `provenance/`, written by
+`tools/publish_provenance.py` after a source is attested. Each receipt carries the
+attestation plus the three ledger facts the library checks need: processed unit
+ids (rule 13), whether the source is `visual`, and whether its images are
+`rights: first_party`.
+
+`ledger_tree_sha256` inside the receipt names the exact private authoring record
+that was approved, so the ledger can be produced later and reconciled against what
+was published.
+
+Validation therefore has two levels, and the tools detect which they are in without
+a flag. With a ledger present, everything runs. Without one, the library, reference
+and provenance checks run and the ledger-only rules (21, 24, 25) are skipped
+because there is nothing for them to check. Republish receipts after attesting:
+
+```bash
+python tools/publish_provenance.py --all
+python tools/publish_provenance.py --check   # fails if any receipt is stale
+```
 
 The SHA-256 is the source identity. `SOURCE.md` records the current
 repo-relative `payload_path`, so a move to trash does not sever the local link.

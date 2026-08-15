@@ -148,6 +148,60 @@ class SkillForgeArchitectureTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertEqual(run("check", out).returncode, 0)
 
+    def test_public_checkout_validates_without_the_ledger(self) -> None:
+        """The ledger is private; a public checkout must still validate itself.
+
+        Library checks are answered from workspace/provenance/<source_id>.json
+        instead of the ledger. Only software-engineering and metaskills are
+        exercised, because those are the packages whose sources are fully attested.
+        """
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            shutil.copytree(ROOT / "library", root / "library")
+            shutil.copytree(ROOT / "workspace/provenance", root / "workspace/provenance")
+            for package in ("art", "writing", "teaching"):
+                shutil.rmtree(root / "library" / package, ignore_errors=True)
+            self.assertFalse((root / "workspace/authoring/ledger").exists())
+            result = subprocess.run(
+                [
+                    sys.executable, str(TOOLS / "validate.py"),
+                    "--library", str(root / "library"),
+                    "--ledger", str(root / "workspace/authoring/ledger"),
+                    "--provenance", str(root / "workspace/provenance"),
+                ],
+                text=True, capture_output=True, cwd=ROOT,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+    def test_public_validation_refuses_a_source_with_no_receipt(self) -> None:
+        """Fail-closed still holds publicly: no receipt means no verification."""
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            shutil.copytree(ROOT / "library", root / "library")
+            shutil.copytree(ROOT / "workspace/provenance", root / "workspace/provenance")
+            for package in ("art", "writing", "teaching"):
+                shutil.rmtree(root / "library" / package, ignore_errors=True)
+            (root / "workspace/provenance/code_complete_2e.json").unlink()
+            result = subprocess.run(
+                [
+                    sys.executable, str(TOOLS / "validate.py"),
+                    "--library", str(root / "library"),
+                    "--ledger", str(root / "workspace/authoring/ledger"),
+                    "--provenance", str(root / "workspace/provenance"),
+                ],
+                text=True, capture_output=True, cwd=ROOT,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("rule 13", result.stdout)
+
+    def test_published_provenance_receipts_are_current(self) -> None:
+        """A stale receipt would publish a claim the ledger no longer supports."""
+        result = subprocess.run(
+            [sys.executable, str(TOOLS / "publish_provenance.py"), "--all", "--check"],
+            text=True, capture_output=True, cwd=ROOT,
+        )
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
     def test_release_still_fails_when_a_shipped_card_drifts(self) -> None:
         """Scoping the attestation gate to shipped cards must not disarm it.
 

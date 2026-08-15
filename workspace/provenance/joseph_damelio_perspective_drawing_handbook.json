@@ -1,0 +1,40 @@
+{
+  "approved_by": "MaDin — supplied current Art authoring archive as golden truth, 2026-08-14",
+  "attestation_sha256": "9e79653852e7019e0deb2e194b5fb29a5eee19b7a9fa1c74e71d7ef7738301d1",
+  "canonical_archive": {
+    "name": "SkillForge_Art_Authoring_FUN_WITH_A_PENCIL_COMPLETE_2026-08-14.zip",
+    "sha256": "7c77e73e84ac44cee8a6aae3ae0d28d6dffcc64d0240881171b375ef487888e3"
+  },
+  "created": "2026-08-14",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "1bd7704bda8fcc345eb893c1010389c5db3b1da44c7a1593f2708c02e21c083e",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_hash_scope": "source_projection_v1",
+  "object_sha256": {
+    "art/drawing/perspective/AP_construct_a_shared_scene_perspective_field.md": "3f38dda14299d77fad57852285c6313484aa9dede38c90a5c4b5329cfd40b1ef",
+    "art/drawing/perspective/AP_construct_cast_shadows_in_perspective.md": "bed320a9bbff4e629326743f485a34b1e795b105ec02ef4056810967c8fb3610",
+    "art/drawing/perspective/DRILL_diagnose_and_correct_perspective_distortion.md": "ad398d54a9869e0fe55e45e2e2010b6d178acea01ed38a61b1afb6c4f151945e",
+    "art/drawing/perspective/DRILL_project_circles_and_cylinders_on_tilted_planes.md": "98bd406ff1fa2b028dcda3fc675fe1a44f73f938ef49d483c80399f860b957f4",
+    "art/drawing/perspective/DRILL_rotate_boxes_across_eye_levels.md": "4fa41691b4c9547e79d9cc838bde4bc590719fbe5ad0788a8804be1a336f7bb3",
+    "art/drawing/perspective/DRILL_subdivide_a_plane_without_screen_space_guessing.md": "31ab74b4c9130303b2437e9a4f68a8216ffbce6aab36d1bf29aabab612743b1c",
+    "art/drawing/perspective/PAT_align_cylinders_and_cones_to_projected_circle_centers.md": "5015256bfaf8b3fbe00375822a5be4c56032a03b0e9c1f9b8e78b6a0de996b1c",
+    "art/drawing/perspective/PAT_block_complex_objects_with_perspective_boxes.md": "b298aa1ea8a7f8b06c6c2e6e7517c059282f98bd3f4cee81796b7406cc5ec00c",
+    "art/drawing/perspective/PAT_carry_scale_through_depth_with_height_and_width_guides.md": "1d67d4be6c02eea3f978d1380336073501ccbde378478851ec0e3d5f321f1afc",
+    "art/drawing/perspective/PAT_choose_convergence_from_view_and_orientation.md": "29388f1ab75b4634c5b531ef0d86b0703d26820da40bd7b6379dea0be808c849",
+    "art/drawing/perspective/PAT_construct_circles_as_ellipses_on_perspective_planes.md": "17dedeecc67c8ca7351b21a0abae46242597435ae5a4e42fab144d11b12e72e5",
+    "art/drawing/perspective/PAT_construct_inclined_planes_from_base_vanishing_directions.md": "52b734edf454194c080605f04dbe247e6e1d66510fa622e34cb71118a981b9c0",
+    "art/drawing/perspective/PAT_establish_eye_level_and_vanishing_directions.md": "17670955f96825691120b09f2fe59c6d34619a707a700782d774120472ac012e",
+    "art/drawing/perspective/PAT_measure_subdivide_and_repeat_on_perspective_planes.md": "2f0cfc28ba8c45d107729b0e5f56c92e8fabed17760e6f8dec9127e0f4bdeee6"
+  },
+  "processed_units": [
+    "u00"
+  ],
+  "provenance_schema": 1,
+  "rights_first_party": false,
+  "schema_version": 2,
+  "source_id": "joseph_damelio_perspective_drawing_handbook",
+  "source_payload_sha256": "34463a150ec257f7f9e12eb64253734b886cacb98c0bd4b9b54ce2a5554cd7af",
+  "source_record_sha256": "d1bf7fbe92de5571faaa87fdf330c7688eedd5948c693924934dfd5cd9445c1d",
+  "unit_count": 1,
+  "visual": true
+}

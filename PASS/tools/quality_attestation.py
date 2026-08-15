@@ -102,6 +102,63 @@ def signature_for(payload: dict[str, Any]) -> str:
     return sha256_bytes(blob)
 
 
+PUBLIC_ONLY_KEYS = {
+    "processed_units", "unit_count", "visual", "rights_first_party", "provenance_schema",
+}
+
+
+def verify_public_provenance(
+    source_id: str,
+    library: Path,
+    record: dict[str, Any],
+    current_objects: dict[str, str] | None = None,
+    scope_paths: set[str] | None = None,
+) -> list[str]:
+    """Verify a source from its public provenance receipt, with no ledger present.
+
+    A public checkout can still prove the shipped library has not drifted from the
+    grounding that was accepted: the receipt is self-signed and carries the
+    source-projection hash of every card citing the source. What it cannot check is
+    the private record itself — `source_record_sha256` and `ledger_tree_sha256` name
+    the authoring state that was approved so it can be reconciled later, but the
+    files are not here. That is the intended trade, not a gap: see
+    PASS/tools/provenance.py.
+    """
+    problems: list[str] = []
+    if record.get("source_id") != source_id:
+        problems.append(f"{source_id}: provenance source_id mismatch")
+    if record.get("grounding_basis") not in {"live_verified", "canonical_archive_accepted"}:
+        problems.append(f"{source_id}: unsupported grounding_basis")
+    attested = {k: v for k, v in record.items() if k not in PUBLIC_ONLY_KEYS}
+    if attested.get("attestation_sha256") != signature_for(attested):
+        problems.append(f"{source_id}: provenance signature/hash mismatch")
+    if record.get("object_hash_scope") != "source_projection_v1":
+        problems.append(f"{source_id}: unsupported object_hash_scope")
+    stored = record.get("object_sha256")
+    expected = current_objects if current_objects is not None else source_object_hashes(library, source_id)
+    if not isinstance(stored, dict):
+        problems.append(f"{source_id}: provenance has no object hash map")
+        return problems
+    if scope_paths is None:
+        if stored != expected:
+            problems.append(f"{source_id}: cited source contribution changed after attestation")
+        return problems
+    uncovered = sorted(path for path in scope_paths if path not in stored)
+    if uncovered:
+        problems.append(
+            f"{source_id}: released card not covered by provenance: {', '.join(uncovered)}"
+        )
+    drifted = sorted(
+        path for path in scope_paths
+        if path in stored and stored[path] != expected.get(path)
+    )
+    if drifted:
+        problems.append(
+            f"{source_id}: cited source contribution changed after attestation: {', '.join(drifted)}"
+        )
+    return problems
+
+
 def build_attestation(
     source_id: str,
     library: Path,

@@ -15,7 +15,9 @@ from typing import Any
 import yaml
 
 from paths import default_ledger_root, default_library_root, repo_root_from_tool
-from quality_attestation import sha256_file, verify_attestation
+from provenance import ProvenanceView
+from provenance import load_all as load_all_provenance
+from quality_attestation import sha256_file, verify_attestation, verify_public_provenance
 from source_provenance import all_source_object_hashes, card_source_ids
 
 FM_RE = re.compile(r"\A---\r?\n(?P<front>.*?)\r?\n---\r?\n(?P<body>.*)\Z", re.S)
@@ -198,16 +200,36 @@ def run_quality_gates(
     # Drift in a shipped card still fails here; drift elsewhere is the job of
     # `quality_attestation.py verify --all`.
     all_objects = all_source_object_hashes(canonical_library)
+    # With the private ledger present, verify the full attestation. Without it —
+    # a public checkout — verify the published provenance receipt instead, which
+    # still proves the shipped cards match their accepted grounding.
+    view = ProvenanceView(ledger)
+    public_records = {} if view.has_ledger else load_all_provenance(view.provenance_root)
     for source_id in sorted(selected_sources):
         source_objects = all_objects.get(source_id, {})
         scope = None if release_paths is None else {
             path for path in source_objects if path in release_paths
         }
+        if view.has_ledger:
+            problems.extend(
+                verify_attestation(
+                    source_id,
+                    canonical_library,
+                    ledger,
+                    source_objects,
+                    scope_paths=scope,
+                )
+            )
+            continue
+        record = public_records.get(source_id)
+        if record is None:
+            problems.append(f"{source_id}: no public provenance receipt")
+            continue
         problems.extend(
-            verify_attestation(
+            verify_public_provenance(
                 source_id,
                 canonical_library,
-                ledger,
+                record,
                 source_objects,
                 scope_paths=scope,
             )

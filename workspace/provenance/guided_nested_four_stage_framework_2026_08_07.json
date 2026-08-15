@@ -1,0 +1,30 @@
+{
+  "approved_by": "MaDin — supplied current Art authoring archive as golden truth, 2026-08-14",
+  "attestation_sha256": "fac8582213e5add4dedb79e05b877b7434568c70f0dbbdb3f1fde686cadc58c7",
+  "canonical_archive": {
+    "name": "SkillForge_Art_Authoring_FUN_WITH_A_PENCIL_COMPLETE_2026-08-14.zip",
+    "sha256": "7c77e73e84ac44cee8a6aae3ae0d28d6dffcc64d0240881171b375ef487888e3"
+  },
+  "created": "2026-08-14",
+  "grounding_basis": "canonical_archive_accepted",
+  "ledger_tree_sha256": "4fe605166eaf8a927d05416fa85b6327966c2eb6d0030930af2780232b30eee6",
+  "note": "Accepted canonical PASS state. Release verifies this content-addressed attestation; the original third-party payload is not required to remain in Git.",
+  "object_hash_scope": "source_projection_v1",
+  "object_sha256": {
+    "art/drawing/process/staged-drawing/AP_draw_a_figure_through_onion_skinned_stages.md": "3fb16de90d167b948b94c1d989f716543cb0c0d98f8b19e291cefb4298c91707",
+    "art/drawing/process/staged-drawing/PAT_commit_stage3_form_realization.md": "2344ff5d50b9bf6857d6b4b98c950f7e31ac5b728a120b1d2ada7b954d219e72",
+    "art/drawing/process/staged-drawing/PAT_preserve_structure_during_stage4_amplification.md": "0ff027288da5852b992001cbc637b29d2a6cec0df642e97eb86c9d348ff190dd",
+    "metaskills/iterative-construction/AP_plan_and_build_work_from_thumbnail_to_final.md": "7dee02829d4875902021608ee8b9683e0adb6a8d073e92424b620b86f29c5cdb"
+  },
+  "processed_units": [
+    "nested_four_stage_framework"
+  ],
+  "provenance_schema": 1,
+  "rights_first_party": true,
+  "schema_version": 2,
+  "source_id": "guided_nested_four_stage_framework_2026_08_07",
+  "source_payload_sha256": "cb22da9899e7e48d6547794006edeb5d3f5ea0f0fe40e261932804c2103f524c",
+  "source_record_sha256": "639ca51bec3a77f209c2668bd195bd425087c0b1536c245abe674ff2b251e5df",
+  "unit_count": 1,
+  "visual": true
+}
