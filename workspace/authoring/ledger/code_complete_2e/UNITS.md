@@ -7,7 +7,7 @@ text when the unit is claimed**. Part-divider pages are excluded from the ranges
 | unit_id | label | locator | status | objects | notes |
 |---|---|---|---|---|---|
 | u01 | Ch.1 Welcome to Software Construction | pp. 3-8 | processed | 2 | Part I. 2 patterns (`working-practice`, `code-quality`); 4 rejects of 6 candidates. Bounds verified; TOC range correct. Figures 1-1 and 1-2 rendered and inspected — both add nuance the captions omit. Low yield is genuine: a six-page framing chapter. |
-| u02 | Ch.2 Metaphors for a Richer Understanding of Software Development | pp. 9-22 | queued | | |
+| u02 | Ch.2 Metaphors for a Richer Understanding of Software Development | pp. 9-21 | processed | 3 | 1 AP + 2 patterns, one of them opening `core/design`; 1 variant onto `PAT_reuse_before_reinventing`; 7 rejects of 11 candidates. **TOC said pp. 9-22; chapter ends p. 21** (p. 22 blank). All four figures rendered and inspected — decorative cartoons, none changed a card. |
 | u03 | Ch.3 Measure Twice, Cut Once: Upstream Prerequisites | pp. 23-60 | queued | | Long chapter; split on numbered sections if one read cannot ground it. |
 | u04 | Ch.4 Key Construction Decisions | pp. 61-71 | queued | | |
 | u05 | Ch.5 Design in Construction | pp. 73-124 | queued | | Part II. Longest chapter in the book; expect a split. |

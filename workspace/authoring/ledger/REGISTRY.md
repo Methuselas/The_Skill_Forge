@@ -77,4 +77,4 @@ can go stale. If they disagree, the ledger wins.
 | programmers_brain | The Programmer's Brain: What Every Programmer Needs to Know About Cognition | Felienne Hermans | 52063e7300c1 | complete | 13/13 | 66 new, 19 variants | 2026-08-13 |
 | effective_cpp_3e | Effective C++, 3rd ed. | Scott Meyers | 4f983195c37c | complete | 9/9 | 80 | 2026-08-01 |
 | cpp_core_guidelines | C++ Core Guidelines | Stroustrup & Sutter (eds.) | be29ae459bc2 | queued | | | |
-| code_complete_2e | Code Complete: A Practical Handbook of Software Construction, 2nd Ed. | Steve McConnell | c321aafe9402 | in-progress | 1/35 | 2 new | |
+| code_complete_2e | Code Complete: A Practical Handbook of Software Construction, 2nd Ed. | Steve McConnell | c321aafe9402 | in-progress | 2/35 | 5 new, 1 variant | |
