@@ -15,7 +15,7 @@ from typing import Any
 import yaml
 
 from paths import default_ledger_root, default_library_root, repo_root_from_tool
-from provenance import ProvenanceView
+from provenance import ProvenanceView, provenance_root_for
 from provenance import load_all as load_all_provenance
 from quality_attestation import sha256_file, verify_attestation, verify_public_provenance
 from source_provenance import all_source_object_hashes, card_source_ids
@@ -536,7 +536,17 @@ def build(
     if not lib.is_dir():
         raise ValueError(f"library root not found: {lib}; pass --library")
     if not led.is_dir() and not unsafe_skip_quality_gates:
-        raise ValueError(f"ledger root not found: {led}; pass --ledger")
+        # A public checkout has no private ledger by design. It can still build,
+        # gated on the published provenance receipts. Refuse only when neither
+        # state is present — then nothing can be verified and the build would be
+        # shipping unchecked cards.
+        published = provenance_root_for(led)
+        if not load_all_provenance(published):
+            raise ValueError(
+                f"ledger root not found: {led}; and no provenance receipts at "
+                f"{published}. Pass --ledger for an authoring checkout, or publish "
+                f"receipts with tools/publish_provenance.py --all."
+            )
     danger = protected_output(outdir, lib, recipe)
     if danger:
         raise ValueError(danger)

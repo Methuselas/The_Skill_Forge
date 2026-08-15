@@ -148,6 +148,174 @@ class SkillForgeArchitectureTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertEqual(run("check", out).returncode, 0)
 
+    def _public_checkout(self, root: Path, drop_packages: tuple[str, ...] = ()) -> Path:
+        """Materialize what a clean public clone actually contains.
+
+        library/ + workspace/provenance/ + the first-party assets that are
+        deliberately tracked under workspace/authoring/sources/. No ledger, no
+        books, no renders.
+        """
+        shutil.copytree(ROOT / "library", root / "library")
+        shutil.copytree(ROOT / "workspace/provenance", root / "workspace/provenance")
+        tracked_sources = subprocess.run(
+            ["git", "ls-files", "workspace/authoring/sources"],
+            text=True, capture_output=True, cwd=ROOT,
+        ).stdout.split()
+        for rel in tracked_sources:
+            destination = root / rel
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(ROOT / rel, destination)
+        for package in drop_packages:
+            shutil.rmtree(root / "library" / package, ignore_errors=True)
+        self.assertFalse((root / "workspace/authoring/ledger").exists())
+        return root / "workspace/authoring/ledger"
+
+    def _run_tool(self, tool: str, *args: object) -> subprocess.CompletedProcess[str]:
+        return subprocess.run(
+            [sys.executable, str(TOOLS / tool), *map(str, args)],
+            text=True, capture_output=True, cwd=ROOT,
+        )
+
+    def test_public_reference_verification_runs_and_fails_closed(self) -> None:
+        """A public checkout must still verify shipped reference images.
+
+        The old gate asked source_is_visual() first, which reads the private
+        SOURCE.md — so with no ledger it answered False for every source, skipped
+        every check, and still reported success. This pins both halves: the checks
+        run, and an unclassifiable source fails rather than being waved through.
+        """
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ledger = self._public_checkout(root)
+            ok = self._run_tool(
+                "verify_references.py",
+                "--library", root / "library",
+                "--ledger", ledger,
+                "--provenance", root / "workspace/provenance",
+            )
+            self.assertEqual(ok.returncode, 0, ok.stdout + ok.stderr)
+            self.assertIn("public mode", ok.stdout)
+
+            # Remove the receipt for a first-party visual source: its images must
+            # now fail rather than silently pass as "not first party".
+            (root / "workspace/provenance"
+             / "guided_stage1_stage3_artist_discretion_2026_08_06.json").unlink()
+            closed = self._run_tool(
+                "verify_references.py",
+                "--library", root / "library",
+                "--ledger", ledger,
+                "--provenance", root / "workspace/provenance",
+            )
+            self.assertNotEqual(closed.returncode, 0)
+            self.assertIn("cannot confirm rights: first_party", closed.stdout)
+
+    def test_public_attestation_verification_command(self) -> None:
+        """The documented public command verifies receipts and catches tampering."""
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ledger = self._public_checkout(root, drop_packages=("art", "writing", "teaching"))
+            for source_id in ("code_complete_2e", "gcbc_think_like_swe", "programmers_brain"):
+                result = self._run_tool(
+                    "quality_attestation.py", "verify", source_id,
+                    "--library", root / "library",
+                    "--ledger", ledger,
+                    "--provenance", root / "workspace/provenance",
+                )
+                self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+                self.assertIn("public attestation", result.stdout)
+
+            receipt = root / "workspace/provenance/code_complete_2e.json"
+            data = json.loads(receipt.read_text(encoding="utf-8"))
+            first = next(iter(data["object_sha256"]))
+            data["object_sha256"][first] = "0" * 64
+            receipt.write_text(json.dumps(data, indent=2, sort_keys=True), encoding="utf-8")
+            tampered = self._run_tool(
+                "quality_attestation.py", "verify", "code_complete_2e",
+                "--library", root / "library",
+                "--ledger", ledger,
+                "--provenance", root / "workspace/provenance",
+            )
+            self.assertNotEqual(tampered.returncode, 0)
+            self.assertIn("provenance signature/hash mismatch", tampered.stdout)
+
+    def test_public_release_build_uses_provenance(self) -> None:
+        """A release must build from a public checkout, gates included."""
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ledger = self._public_checkout(root)
+            result = run(
+                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml",
+                root / "release",
+                "--library", root / "library",
+                "--ledger", ledger,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            self.assertEqual(run("check", root / "release").returncode, 0)
+
+    def test_public_release_build_refuses_a_missing_receipt(self) -> None:
+        """No receipt means no verification, publicly as well as privately.
+
+        This fails at the schema gate rather than the attestation gate, because
+        rule 13 needs the receipt's processed_units to resolve a card's locator.
+        Either way the build must not produce a release.
+        """
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ledger = self._public_checkout(root)
+            (root / "workspace/provenance/gcbc_think_like_swe.json").unlink()
+            result = run(
+                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml",
+                root / "release",
+                "--library", root / "library",
+                "--ledger", ledger,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("rule 13", result.stdout + result.stderr)
+            self.assertFalse((root / "release").exists())
+
+    def test_public_release_build_refuses_a_tampered_receipt(self) -> None:
+        """Isolates the attestation gate: a receipt whose hashes were edited.
+
+        processed_units is left intact so rule 13 still resolves and the schema
+        gate passes; only the provenance signature is wrong.
+        """
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ledger = self._public_checkout(root)
+            receipt = root / "workspace/provenance/gcbc_think_like_swe.json"
+            data = json.loads(receipt.read_text(encoding="utf-8"))
+            first = next(iter(data["object_sha256"]))
+            data["object_sha256"][first] = "0" * 64
+            receipt.write_text(json.dumps(data, indent=2, sort_keys=True), encoding="utf-8")
+            result = run(
+                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml",
+                root / "release",
+                "--library", root / "library",
+                "--ledger", ledger,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            output = result.stdout + result.stderr
+            self.assertIn("gcbc_think_like_swe", output)
+            self.assertIn("provenance", output)
+            self.assertFalse((root / "release").exists())
+
+    def test_stage_source_refuses_a_known_public_source(self) -> None:
+        """Without the ledger, a canonical payload must not become a new identity."""
+        payload = ROOT / "workspace/authoring/sources/gcbc_think_like_swe/Good_Code_Bad_Code.pdf"
+        if not payload.is_file():
+            self.skipTest("payload not staged locally")
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ledger = self._public_checkout(root)
+            ledger.mkdir(parents=True, exist_ok=True)
+            result = self._run_tool("stage_source.py", payload, "--ledger", ledger)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("already canonical as 'gcbc_think_like_swe'", result.stdout)
+            self.assertFalse(
+                any(ledger.glob("*/SOURCE.md")),
+                "staging must not have created a second source identity",
+            )
+
     def test_public_checkout_validates_without_the_ledger(self) -> None:
         """The ledger is private; a public checkout must still validate itself.
 

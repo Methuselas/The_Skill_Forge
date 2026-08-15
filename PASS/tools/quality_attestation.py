@@ -29,6 +29,8 @@ from typing import Any
 import yaml
 
 from paths import default_library_root, default_ledger_root
+from provenance import ProvenanceView
+from provenance import load_all as load_all_provenance
 from source_provenance import (
     all_source_object_hashes,
     legacy_primary_source_object_hashes,
@@ -305,6 +307,10 @@ def main() -> int:
     verify.add_argument("--all", action="store_true")
     verify.add_argument("--library", type=Path, default=default_library_root())
     verify.add_argument("--ledger", type=Path, default=default_ledger_root())
+    verify.add_argument(
+        "--provenance", type=Path, default=None,
+        help="public provenance receipts (default: workspace/provenance); used when no ledger is present",
+    )
     args = parser.parse_args()
 
     try:
@@ -324,24 +330,48 @@ def main() -> int:
             out.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
             print(f"PASS: wrote {out}")
             return 0
+        # With the private ledger present this verifies the full attestation. On a
+        # public clone the ledger is absent by design, so it verifies the published
+        # provenance receipts instead — same command, no flag to remember.
+        view = ProvenanceView(ledger, args.provenance)
+        public_records = {} if view.has_ledger else load_all_provenance(view.provenance_root)
         if args.all:
-            targets = sorted(p.name for p in ledger.iterdir() if p.is_dir() and (p / ATTESTATION_NAME).exists())
+            if view.has_ledger:
+                targets = sorted(
+                    p.name for p in ledger.iterdir()
+                    if p.is_dir() and (p / ATTESTATION_NAME).exists()
+                )
+            else:
+                targets = sorted(public_records)
         elif args.source_id:
             targets = [args.source_id]
         else:
             parser.error("give source_id or --all")
+        if not targets:
+            where = ledger if view.has_ledger else view.provenance_root
+            print(f"FAIL: nothing to verify — no attestations or receipts under {where.as_posix()}")
+            return 1
         failures: list[str] = []
         all_objects = all_source_object_hashes(library)
         for source_id in targets:
-            # verify_attestation selects legacy whole-card hashing for schema v1 and
-            # source-scoped hashing for schema v2. Supplying the v2 cache is safe
-            # only for v2; the verifier ignores it for legacy attestations.
-            failures.extend(verify_attestation(source_id, library, ledger, all_objects.get(source_id, {})))
+            if view.has_ledger:
+                # verify_attestation selects legacy whole-card hashing for schema v1 and
+                # source-scoped hashing for schema v2. Supplying the v2 cache is safe
+                # only for v2; the verifier ignores it for legacy attestations.
+                failures.extend(verify_attestation(source_id, library, ledger, all_objects.get(source_id, {})))
+                continue
+            record = public_records.get(source_id)
+            if record is None:
+                failures.append(f"{source_id}: no public provenance receipt")
+                continue
+            failures.extend(
+                verify_public_provenance(source_id, library, record, all_objects.get(source_id, {}))
+            )
         if failures:
             print("ATTESTATION FAILED:")
             for failure in failures: print(f"- {failure}")
             return 1
-        print(f"PASS: {len(targets)} quality attestation(s) verified")
+        print(f"PASS: {len(targets)} {view.mode} attestation(s) verified")
         return 0
     except (OSError, ValueError) as exc:
         print(f"FAIL: {exc}", file=sys.stderr)

@@ -1,19 +1,28 @@
 # Authoring workspace — private, local-only state
 
-Nothing under this directory except this file is tracked in Git. It is the
-factory; the repository publishes the product and a receipt proving the product
-matches what was accepted.
+This is the factory. The repository publishes the product and a receipt proving
+the product matches what was accepted; the working records that produced it stay
+here, on your machine.
 
 ```
 workspace/
-  authoring/          <- private, local only (this directory)
-    sources/            books and PDFs, staged locally
-    ledger/             REGISTRY.md, SOURCE.md, UNITS.md, unit receipts
-    renders/            page-image cache for visual grounding
-    handoffs/           inter-agent handoff notes
-  provenance/         <- PUBLIC: one compact receipt per source
-    <source_id>.json
+  authoring/            <- private, local only (this directory)
+    sources/              books and PDFs, staged locally      GITIGNORED*
+    ledger/               REGISTRY, SOURCE, UNITS, receipts   GITIGNORED
+    renders/              page-image cache for grounding      GITIGNORED
+    handoffs/             inter-agent handoff notes           GITIGNORED
+    README.md             this file                           tracked
+  provenance/           <- PUBLIC: one compact receipt per source
+    <source_id>.json                                          tracked
 ```
+
+**\* One deliberate exception.** A small set of first-party images under
+`sources/` *is* tracked: the guided art process sheets and renders that shipped
+visual references were generated from. `verify_references.py` compares each
+shipped reference against those renders to prove originality, so they have to
+travel with the repo or the check cannot run publicly. `.gitignore` whitelists
+them by name; every third-party book remains excluded. If you add a first-party
+source whose renders back a shipped reference, whitelist it the same way.
 
 ## Why the ledger is not published
 
@@ -48,9 +57,23 @@ the ledger can be produced later and checked against what was published.
 | unit status, candidate accounting, Teaching-lane receipts (rules 21, 24) | — | yes |
 | live grounding against the real payloads | — | yes |
 
-The tools detect which they are in. `validate.py` reads the ledger when it is
-present and the published receipts when it is not; the release gate does the same.
-No flag is needed.
+The tools detect which they are in — `validate.py`, `verify_references.py`,
+`quality_attestation.py verify` and the release gate all read the ledger when it is
+present and the published receipts when it is not. No flag is needed.
+
+A clean public clone validates itself with:
+
+```bash
+python PASS/tools/validate.py                          # schema, closure, rule 13
+python PASS/tools/verify_references.py                 # shipped reference images
+python PASS/tools/quality_attestation.py verify --all  # provenance receipts
+python PASS/tools/build_release.py build workspace/release-recipes/<recipe>.yaml <out>
+```
+
+None of those need the private ledger. Fail-closed still holds: a source with no
+receipt fails rule 13 rather than passing unverified, an unclassifiable source
+fails the reference gate rather than being waved through, and a tampered receipt
+fails its signature check.
 
 ## Recreating this locally
 

@@ -39,6 +39,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from paths import default_ledger_root  # noqa: E402
+from provenance import load_all as load_all_provenance  # noqa: E402
+from provenance import provenance_root_for, record_path  # noqa: E402
 
 TOOLS = Path(__file__).resolve().parent
 TEMPLATE = TOOLS.parent / "templates" / "SOURCE_TEMPLATE.md"
@@ -164,6 +166,25 @@ def main() -> int:
         print(f"  re-attached to {destination}")
         print("\nREADY: payload restored. SOURCE.md untouched; the ledger already describes this source.")
         return 0
+
+    # --- already canonical, but the private ledger is not here -----------
+    # A public clone has provenance receipts and no ledger. Admitting this payload
+    # as "new" would mint a second identity for a source the library already cites,
+    # so stop instead. The receipt prevents duplicate identity; it is deliberately
+    # not used to reconstruct the private ledger, which holds evidence the receipt
+    # does not carry.
+    published = load_all_provenance(provenance_root_for(args.ledger))
+    for known_id, record in sorted(published.items()):
+        if record.get("source_payload_sha256") != digest:
+            continue
+        print(f"\nFAIL: this payload is already canonical as '{known_id}'.")
+        print("      Its public provenance receipt is present, but its private authoring")
+        print("      ledger is not in this checkout, so there is nothing to re-attach to.")
+        print("      Restore the private authoring state (ledger sidecar) before continuing.")
+        print(f"      Receipt: {record_path(provenance_root_for(args.ledger), known_id)}")
+        print("\n      Not admitting it as a new source — that would create a second identity")
+        print("      for a source the library already cites.")
+        return 1
 
     # --- new source ------------------------------------------------------
     source_id = args.source_id or slugify(payload.name)
