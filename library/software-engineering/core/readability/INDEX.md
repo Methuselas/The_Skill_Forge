@@ -24,6 +24,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Agree on a Few Name Molds and Reuse Them](PAT_agree_on_a_small_set_of_name_molds.md) - pattern; 0 design.
   - Variants: `Take the Molds Off the Shelf Instead of Deriving Them` (method_sequence).
 - [Audit the Names in a Change, Away From the Code](DRILL_audit_identifier_names_in_a_code_review.md) - drill; 4 final.
+- [Box the Related Statements and Look for Overlap](DRILL_box_related_statements_to_find_overlap.md) - drill; 3 rough.
 - [Choose a Name in Three Steps — Concepts, Words, Mold](AP_choose_a_name_with_feitelsons_three_steps.md) - ap; 3 rough.
 - [Comment the Why, Not the What](PAT_comment_why_not_what.md) - pattern; 3 rough.
   - Variants: `Use High-Level Comments as Chunk Labels` (emphasis); `Comment to Preserve the Author's Model, Including Your Own` (emphasis); `Keep the Design Statements You Wrote Before the Code` (method_sequence).
@@ -41,6 +42,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Let a Name's Length Signal Its Scope](PAT_let_name_length_signal_scope.md) - pattern; 3 rough.
 - [Make a Name Serve Both the Reader's Parsing and Their Recall](PAT_design_a_name_for_both_stm_and_ltm.md) - pattern; 3 rough.
 - [Make Call-Site Arguments Self-Explanatory](PAT_use_named_arguments_for_readable_calls.md) - pattern; 3 rough.
+- [Make Order Dependencies Visible](PAT_make_order_dependencies_visible.md) - pattern; 3 rough.
 - [Minimize Nesting With Early Returns and Function Extraction](PAT_minimize_nesting_with_early_returns.md) - pattern; 3 rough.
 - [Name a Boolean for the Condition It Asserts](PAT_name_a_boolean_for_the_condition_it_asserts.md) - pattern; 3 rough.
 - [Name the Problem, Not the Computation](PAT_name_the_problem_not_the_computation.md) - pattern; 3 rough.
