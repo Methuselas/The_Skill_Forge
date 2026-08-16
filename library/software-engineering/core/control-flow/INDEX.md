@@ -9,7 +9,9 @@
 - [Choose a Table's Access Scheme by the Shape of Its Key](PAT_choose_the_tables_access_scheme_by_the_key.md) - pattern; 2 block.
 - [Choose the Control Construct That Fits the Data](PAT_choose_the_control_construct_that_fits_the_data.md) - pattern; 2 block.
 - [Choose the Loop by Where It Tests](PAT_choose_the_loop_by_where_it_tests.md) - pattern; 2 block.
+- [Count a Routine's Decision Points](PAT_count_a_routines_decision_points.md) - pattern; 4 final.
 - [Decide the Else Instead of Omitting It by Default](PAT_decide_the_else_instead_of_omitting_it.md) - pattern; 3 rough.
 - [Keep a Loop's Control Outside Its Body](PAT_keep_a_loops_control_outside_its_body.md) - pattern; 3 rough.
 - [Order Branches So the Common Case Is Found First](PAT_order_branches_so_the_common_case_is_found_first.md) - pattern; 3 rough.
 - [Put the Variation in Data Rather Than Logic](PAT_put_the_variation_in_data_rather_than_logic.md) - pattern; 2 block.
+- [Write Boolean Expressions to Be Read, Not Decoded](PAT_write_boolean_expressions_to_be_read_not_decoded.md) - pattern; 3 rough.
