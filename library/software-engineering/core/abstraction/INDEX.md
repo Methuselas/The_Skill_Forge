@@ -27,7 +27,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Expose a Clean API and Hide Implementation Details](PAT_expose_clean_api_hide_implementation.md) - pattern; 2 block.
 - [Keep Clean Layers of Abstraction Inside Microservices](PAT_keep_clean_layers_inside_microservices.md) - pattern; 0 design.
 - [Make Each Function Read Like a Single Short Sentence](PAT_write_functions_as_single_sentences.md) - pattern; 3 rough.
-  - Variants: `Classify Routine Cohesion and Apply the Matching Repair` (method_sequence).
+  - Variants: `Classify Routine Cohesion and Apply the Matching Repair` (method_sequence); `One Job Per Loop, Even When Two Would Fit in One Pass` (context).
 - [Name the Operations the Thing Supports Before Choosing How to Store It](PAT_define_the_operation_set_before_the_representation.md) - pattern; 0 design.
 - [Refactor a Monolithic Class Into Clean Layered Abstractions](AP_refactor_monolithic_class_into_layers.md) - ap; 3 rough.
 - [Represent a Layer With an Interface When It Earns Its Keep](PAT_use_interfaces_for_swappable_layers.md) - pattern; 2 block.
