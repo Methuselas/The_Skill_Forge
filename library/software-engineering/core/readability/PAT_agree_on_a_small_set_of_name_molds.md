@@ -29,7 +29,14 @@ reference:
   author: Felienne Hermans
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_take_the_molds_off_the_shelf
+  variant_name: Take the Molds Off the Shelf Instead of Deriving Them
+  variant_basis: method_sequence
+  difference_from_foundation: The foundation supplies a process — find the molds already in the codebase, agree a small set, keep the key concept in a predictable slot — and deliberately leaves the content local. This variant supplies the content, a set of prescribed molds that work across projects. Computed-value qualifiers go at the end, so `revenueTotal` and `expenseAverage` rather than `totalRevenue` and `averageExpense`; the most meaningful part of the name then sits at the front where it is read first, and a set of such names acquires a symmetry that a mixed set does not. `Num` is retired on both ends because it means a total at the front and an index at the back, replaced by `Count` for the total and `Index` for the position. Opposites are drawn from a fixed list — begin/end, first/last, locked/unlocked, min/max, next/previous, old/new, opened/closed, visible/invisible, source/target, source/destination, up/down — because pairs that depart from common-language opposites are hard to remember. And boundary words are given exact, non-overlapping meanings, which is where the payoff concentrates — `first` and `last` are relative to the operation in hand, `min` and `max` to the container itself, and `lim` is a noninclusive upper bound equal to `last` plus one and never a valid index.
+  when_to_use: Use when starting fresh, when the existing molds are inconsistent enough that there is nothing to standardise on, or when a team is spending real time negotiating conventions that carry no local stakes. The boundary vocabulary is worth taking on its own even in a codebase with settled molds elsewhere, because ambiguity about whether a bound is inclusive is where off-by-one defects live, and a name that fixes it removes the ambiguity at every use site.
+  when_not_to_use: Do not import these over molds a codebase already uses consistently — the foundation is right that standardising on what is there beats introducing a better scheme, since the gain is consistency rather than the particular choice. The specific vocabulary is also of its period, and a project whose language or libraries have already settled a boundary convention should adopt that convention rather than a second one alongside it.
+  absorbed_from_object_id: none
 ---
 
 # Agree on a Few Name Molds and Reuse Them
@@ -57,5 +64,9 @@ variants: []
 
 ## Notes
 Name molds are Feitelson's term for the patterns in which elements of a name are typically combined. Table 8.4 lists fourteen molds his participants used for a single value, ordered most to least chosen, and normalised so that `max`/`maximum` and `benefit`/`benefits` count as the same element — which means the fourteen are genuine structural differences, not vocabulary differences.
+
+`VAR_take_the_molds_off_the_shelf` fills in the content this card deliberately leaves open. Hermans says agree on molds and does not say which; McConnell prescribes a set — qualifiers such as Total, Sum, Average, Max and Min at the end of the name rather than the front, `Count` and `Index` in place of the ambiguous `Num`, opposites drawn from a fixed list of common-language pairs, and boundary words given exact meanings. The two do not conflict so much as answer different questions, and the ordering between them is the useful part: where a codebase already has consistent molds, the foundation wins and you standardise on what is there, because consistency is the benefit and the particular choice mostly is not. Where there is nothing to standardise on, a prescribed set saves a negotiation with no local stakes.
+
+The boundary vocabulary is the piece worth taking even into a codebase with settled molds. `first` and `last` describe the elements this operation must deal with; `min` and `max` describe the absolute ends of the container itself; `lim` is a noninclusive upper bound, generally `last` plus one, and never a legal index. Most code uses two or three of these words interchangeably, and the ambiguity about whether a bound is inclusive is precisely where off-by-one defects come from — so this is a mold decision that buys correctness rather than only readability. A project whose language or standard library has already fixed a convention should follow that one instead; what matters is that the question has a settled answer, not that this vocabulary supplies it.
 
 The two cognitive arguments are separate and both hold. Mold consistency lowers extraneous load, by putting the concept where the reader's eye already is. It also improves LTM retrieval, by making similar values produce similar names so that one reminds you of the other. Hermans is careful that no studies have been run on molds specifically, and reasons by analogy from the camel-case training results — people get better at recognising the styles they see often — so the mechanism is inference from adjacent evidence rather than a direct finding.

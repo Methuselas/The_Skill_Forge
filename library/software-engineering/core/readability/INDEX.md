@@ -22,6 +22,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - [Adopt a Language Feature Only When It Is the Best Tool](PAT_adopt_language_features_when_best_tool.md) - pattern; 3 rough.
 - [Agree on a Few Name Molds and Reuse Them](PAT_agree_on_a_small_set_of_name_molds.md) - pattern; 0 design.
+  - Variants: `Take the Molds Off the Shelf Instead of Deriving Them` (method_sequence).
 - [Audit the Names in a Change, Away From the Code](DRILL_audit_identifier_names_in_a_code_review.md) - drill; 4 final.
 - [Choose a Name in Three Steps — Concepts, Words, Mold](AP_choose_a_name_with_feitelsons_three_steps.md) - ap; 3 rough.
 - [Comment the Why, Not the What](PAT_comment_why_not_what.md) - pattern; 3 rough.
@@ -35,9 +36,12 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Give Unexplained Values a Name](PAT_name_unexplained_values.md) - pattern; 3 rough.
 - [Hunt for Names That Contradict What the Code Does](PAT_detect_linguistic_antipatterns_in_names.md) - pattern; 4 final.
 - [Judge Names When You Are Not the One Solving the Problem](PAT_review_names_outside_the_coding_moment.md) - pattern; 4 final.
+- [Let a Name's Length Signal Its Scope](PAT_let_name_length_signal_scope.md) - pattern; 3 rough.
 - [Make a Name Serve Both the Reader's Parsing and Their Recall](PAT_design_a_name_for_both_stm_and_ltm.md) - pattern; 3 rough.
 - [Make Call-Site Arguments Self-Explanatory](PAT_use_named_arguments_for_readable_calls.md) - pattern; 3 rough.
 - [Minimize Nesting With Early Returns and Function Extraction](PAT_minimize_nesting_with_early_returns.md) - pattern; 3 rough.
+- [Name a Boolean for the Condition It Asserts](PAT_name_a_boolean_for_the_condition_it_asserts.md) - pattern; 3 rough.
+- [Name the Problem, Not the Computation](PAT_name_the_problem_not_the_computation.md) - pattern; 3 rough.
 - [Rename Nondescriptive Code and Drop the Redundant Comments](DRILL_rename_nondescriptive_code.md) - drill; 3 rough.
 - [Replace Magic Coefficients With Named Constants or Functions](DRILL_replace_magic_coefficients_with_named_values.md) - drill; 3 rough.
 - [Replace Primitive Parameters With Descriptive Types](PAT_replace_primitives_with_descriptive_types.md) - pattern; 2 block.
@@ -46,6 +50,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Use Bad Names as a Place to Look for Bugs](PAT_treat_bad_names_as_a_defect_search_heuristic.md) - pattern; 4 final.
   - Variants: `Use Structural Smells as the Signal Instead of Names` (method_sequence).
 - [Use Descriptive Names Instead of Comments to Explain What Things Are](PAT_use_descriptive_names.md) - pattern; 3 rough.
-  - Variants: `Keep Short Identifiers Visually and Structurally Distinct` (constraint); `Encode a Name's Semantic Kind, Never Its Type` (constraint); `Balance Word Clarity Against the Cost of Remembering the Name` (constraint).
+  - Variants: `Keep Short Identifiers Visually and Structurally Distinct` (constraint); `Encode a Name's Semantic Kind, Never Its Type` (constraint); `Balance Word Clarity Against the Cost of Remembering the Name` (constraint); `Make Names Tell Each Other Apart, Not Just Say What They Are` (constraint).
 - [Write Code That Reads Like a Well-Structured Recipe](PAT_make_code_readable.md) - pattern; 3 rough.
   - Variants: `Use Known Design Patterns as Comprehension Chunks` (emphasis); `Plant Simple and Compound Semantic Beacons` (emphasis).
