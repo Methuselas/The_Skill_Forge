@@ -23,6 +23,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 ## Objects
 
 - [Choose the Proper Build Over the Hacky Shortcut](PAT_invest_in_quality_over_hacky_shortcut.md) - pattern; 0 design.
+- [Concentrate Effort Where Defects Concentrate](PAT_concentrate_effort_where_defects_concentrate.md) - pattern; 4 final.
 - [Every Design Maneuver Buys One Dimension and Charges Another](PAT_expect_a_design_maneuver_to_cost_another_dimension.md) - pattern; 0 design.
 - [Fix the Code When You Cannot Fix the Process](PAT_improve_the_code_when_you_cannot_improve_the_process.md) - pattern; 0 design.
 - [Judge Code Against the Four Quality Goals](PAT_evaluate_code_against_quality_goals.md) - pattern; 0 design.
