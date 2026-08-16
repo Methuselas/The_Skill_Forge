@@ -161,7 +161,7 @@ skill route or report the limitation honestly. Do not hide it with polish.
 ## Use-time guardrails
 
 Consumption needs its own gate, parallel to the fail-closed reading rule that
-governs extraction (`PASS_RUN.md` §1):
+governs extraction (`PASS_RUN.md` §2.1):
 
 - **Intent before execution.** Route the current turn as discuss, inspect,
   produce, or ambiguous before a craft pipeline. Only produce may enter visual

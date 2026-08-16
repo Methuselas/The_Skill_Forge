@@ -41,6 +41,19 @@ working summary.
 7. **`.claude/` and `.agents/` are repo discovery only.** They must never ship as
    runtime dependencies of a release.
 8. **Indexes are generated.** Do not hand-edit `INDEX.md`; run `build_index.py`.
+9. **Front matter may not set a source's subject.** A preface, foreword, or
+   introduction is read for orientation only. The subject is what the
+   instructional body teaches you to do. A preface addressed to instructors is
+   metadata about the preface, not evidence that a craft book is pedagogy.
+10. **A session boundary never creates a unit boundary.** Units are set by
+    instruction; context exhaustion is a separate problem. When a unit does not
+    fit the remaining window, checkpoint and resume the same unit — never split
+    it to make it fit.
+11. **Practice history must not enter cards.** What one attempt revealed about
+    application, calibration, or failure is not a Pattern. Attribute a failure
+    before writing a card about it: missing knowledge justifies a card, while
+    retrieval, application, continuity, reference, tool, and interface failures
+    do not.
 
 ## Commands
 
@@ -66,7 +79,7 @@ python PASS/tools/build_release.py build workspace/release-recipes/CPP_Developme
 | Question | File |
 |---|---|
 | Architecture contract, what must not grow back | `ARCHITECTURE.md` |
-| The authoring loop — read, extract, place, validate | `PASS/docs/PASS_RUN.md` |
+| Preflight and the authoring loop — units, two reads, dispositions | `PASS/docs/PASS_RUN.md` |
 | Card schema (closed contract) | `PASS/docs/PASS_SCHEMA.md` |
 | Why PASS works this way | `PASS/docs/PASS_DOCTRINE.md` |
 | Library layout, modules, releases | `PASS/docs/PASS_LIBRARY.md`, `PASS/docs/MODULE_RELEASES.md` |

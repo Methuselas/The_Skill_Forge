@@ -23,7 +23,18 @@ LIBRARY = ROOT / "library"
 BUILDER = ROOT / "PASS/tools/build_release.py"
 VALIDATOR = ROOT / "PASS/tools/validate.py"
 RECIPES = ROOT / "workspace/release-recipes"
-DOMAINS = ("art", "writing", "software-engineering")
+SHARED_PACKAGE = "metaskills"
+# Discovered, not hardcoded: a lane may be absent or empty while it is being
+# rebuilt, and the invariant is about the domains that exist, not a fixed list.
+DOMAINS = tuple(
+    sorted(
+        path.name
+        for path in LIBRARY.iterdir()
+        if path.is_dir()
+        and path.name != SHARED_PACKAGE
+        and any(p.name != "INDEX.md" for p in path.rglob("*.md"))
+    )
+)
 RETIRED_STATE = ("workspace", "sources", "ledger", "provenance", "renders", "tmp")
 
 
@@ -277,8 +288,14 @@ class ValidatorScopeTests(unittest.TestCase):
     def test_validator_rejects_a_cross_domain_dependency(self) -> None:
         with isolated_library() as tmp:
             root = Path(tmp)
-            # Point a Writing card at a C++ card: a coupling the validator must catch.
-            card = next((root / "library/writing").rglob("PAT_*.md"))
+            # Point a card from another lane at a C++ card: a coupling the
+            # validator must catch. Any non-SE lane will do.
+            card = next(
+                path
+                for path in (root / "library").rglob("PAT_*.md")
+                if path.relative_to(root / "library").parts[0]
+                not in ("software-engineering", SHARED_PACKAGE)
+            )
             _, front, body = card.read_text(encoding="utf-8").split("---\n", 2)
             data = yaml.safe_load(front)
             data["cross_links"] = [

@@ -72,6 +72,8 @@ path outside the checkout.
 
 ## Author a card
 
-See `PASS/docs/PASS_RUN.md`. The loop is: read the source, extract candidates,
-read it again, place each candidate against your own domain, write the card,
-validate, commit.
+See `PASS/docs/PASS_RUN.md`. Preflight the source first — subject, units, and
+what each unit is likely to yield. Then per unit: read it deeply without naming
+cards, raise anything the evidence cannot settle, read it again in full and
+extract there, place each candidate against your own domain, present the delta,
+validate, land it.

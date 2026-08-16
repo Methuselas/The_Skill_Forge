@@ -31,6 +31,19 @@ authoring loop.
 - `archive/` is retired material. Nothing active may depend on it.
 - Art's staged-drawing material is frozen until the user explicitly asks to
   revise it.
+- **Front matter may not set a source's subject.** A preface, foreword, or
+  introduction is read for orientation only. The subject is what the
+  instructional body teaches you to do. A preface addressed to instructors is
+  metadata about the preface, not evidence that a craft book is pedagogy.
+- **A session boundary never creates a unit boundary.** Units are set by
+  instruction; context exhaustion is a separate problem. When a unit does not fit
+  the remaining window, checkpoint and resume the same unit — never split it to
+  make it fit.
+- **Practice history must not enter cards.** What one attempt revealed about
+  application, calibration, or failure is not a Pattern. Attribute a failure
+  before writing a card about it: missing knowledge justifies a card, while
+  retrieval, application, continuity, reference, tool, and interface failures do
+  not.
 
 ## Validation
 
