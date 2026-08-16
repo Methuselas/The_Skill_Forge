@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Bound Recursion Before You Reach For It](PAT_bound_recursion_before_you_reach_for_it.md) - pattern; 2 block.
 - [Build a Loop From the Inside Out](AP_build_a_loop_from_the_inside_out.md) - ap; 1 skeleton.
 - [Choose the Control Construct That Fits the Data](PAT_choose_the_control_construct_that_fits_the_data.md) - pattern; 2 block.
 - [Choose the Loop by Where It Tests](PAT_choose_the_loop_by_where_it_tests.md) - pattern; 2 block.
