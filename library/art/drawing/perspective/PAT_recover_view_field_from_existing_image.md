@@ -31,6 +31,13 @@ variants:
   when_to_use: Use after ordinary vanishing-point/eye-level recovery when exact station geometry materially matters.
   when_not_to_use: Do not claim exact recovery from arbitrary art, distorted/cropped photography, or unknown world geometry.
   absorbed_from_object_id: none
+- variant_id: VAR_loomis_capture_reference_against_measured_scene_grid
+  variant_name: Capture Reference Against Measured Scene Geometry
+  variant_basis: method_sequence
+  difference_from_foundation: Builds recoverable perspective and scale cues into newly captured reference by photographing or observing the subject against known spatial calibration such as a grid, measured markers, or known-size objects.
+  when_to_use: Use when new figure or object reference must later be integrated precisely into a designed scene and relative scale, eye level, or perspective relationships would otherwise be difficult to recover.
+  when_not_to_use: Do not add calibration overhead when approximate integration is sufficient, the reference is direct observation, or trustworthy scene geometry is already available.
+  absorbed_from_object_id: none
 ---
 
 # Recover a Perspective View Field From an Existing Image
@@ -64,4 +71,6 @@ Norling turns the usual construction problem around: instead of beginning with v
 **Boundaries**
 This Pattern reverse-engineers a perspective field from existing image evidence. It does not reconstruct missing geometry when the source has no trustworthy parallel cues, and it does not correct lens or panoramic distortion by itself.
 
-Variants retained in this canonical object: `VAR_recover_station_point_and_viewing_distance`.
+Variants retained in this canonical object: `VAR_recover_station_point_and_viewing_distance`, `VAR_loomis_capture_reference_against_measured_scene_grid`.
+
+`VAR_loomis_capture_reference_against_measured_scene_grid` reverses the usual recovery problem when you control reference acquisition: include known spatial calibration in the captured setup so later integration can recover scale, eye level, and scene relationships from evidence rather than guesswork.

@@ -34,6 +34,13 @@ variants:
   when_to_use: Use when equal observation time or equal detail everywhere is flattening the focal hierarchy or exhausting concentration.
   when_not_to_use: Do not leave structurally essential secondary areas so incomplete that the subject no longer reads or the exercise's accuracy goal is undermined.
   absorbed_from_object_id: none
+- variant_id: VAR_loomis_reserve_peak_chroma_against_greyed_support_colors
+  variant_name: Reserve Peak Chroma Against Greyed Support Colors
+  variant_basis: emphasis
+  difference_from_foundation: "Adds chroma contrast as an explicit hierarchy method: mute or grey supporting color families enough that a limited area of cleaner, stronger color can carry the focal emphasis instead of trying to make the whole picture equally brilliant; broad color masses generally need less aggressive chroma than small accents because their scale already gives them visual force."
+  when_to_use: Use when broad saturation is flattening the hierarchy, making every passage compete, or preventing the intended focal color from feeling vivid; compare the area occupied by a color as well as its nominal saturation when deciding how much strength it needs.
+  when_not_to_use: Do not grey the entire picture indiscriminately, remove color needed for material or story clarity, or assume the focal accent must always be the most saturated passage when another contrast axis is intentionally dominant.
+  absorbed_from_object_id: none
 ---
 
 # Concentrate Contrast and Accents at the Focal Area
@@ -58,4 +65,4 @@ variants:
 - Removing local detail does not destroy the large emphasis pattern.
 
 ## Notes
-Mattesi's animal-design examples coordinate value, color, orientation, and surrounding marks so the chosen head, face, or forward form receives the strongest attention. The same decision is portable to character and creature concept work. `VAR_dodson_spend_observation_and_detail_by_focal_priority` adds attention time and detail density as another way to subordinate secondary areas while the focal area receives the sharpest observation.
+Mattesi's animal-design examples coordinate value, color, orientation, and surrounding marks so the chosen head, face, or forward form receives the strongest attention. The same decision is portable to character and creature concept work. `VAR_dodson_spend_observation_and_detail_by_focal_priority` adds attention time and detail density as another way to subordinate secondary areas while the focal area receives the sharpest observation. `VAR_loomis_reserve_peak_chroma_against_greyed_support_colors` adds a color-hierarchy route: support a limited area of clean or strong chroma by muting competing color elsewhere rather than saturating the entire picture. It also treats scale as part of chroma strength: a broad area can dominate at lower saturation than a small accent needs.

@@ -18,7 +18,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Backcast Stage 0A From the Intended Stage 4 Visual Proposition](PAT_backcast_stage0a_from_stage4_visual_proposition.md) - pattern; 0 design.
 - [Block the Complete Stage 2 Inventory](PAT_block_complete_stage2_inventory.md) - pattern; 2 block.
 - [Calibrate Stage Information Density Against Approved Precedent](PAT_calibrate_stage_information_density_against_precedent.md) - pattern; 0 design.
-  - Variants: `Choose Rendering Density by Study Purpose` (method_sequence).
 - [Choose Stage 1 Construction by Readability](PAT_choose_stage1_construction_by_readability.md) - pattern; 1 skeleton.
   - Variants: `Use Only Intentional Gesture Marks` (method_sequence); `Pose a Learned Mannikin Before Bulk` (method_sequence); `Analyze the Total Action Before Contour` (method_sequence).
 - [Commit Stage 3 Form Realization Against the Thumbnail](PAT_commit_stage3_form_realization.md) - pattern; 3 rough.
@@ -26,6 +25,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Draw a Figure Through Onion-Skinned Stages](AP_draw_a_figure_through_onion_skinned_stages.md) - ap; 0 design.
   - Variants: `Move General to Specific One Problem at a Time` (method_sequence); `Expand Training Sequence, Then Compress With Experience` (method_sequence).
 - [Explore Stage 0 With a Thumbnail Set](PAT_explore_stage0_with_thumbnail_set.md) - pattern; 0 design.
-  - Variants: `Start Composition With Format, Figure-Ground Ratio, and a Few Dominant Shapes` (method_sequence); `Choose Viewpoint From the Dominant Mass Effect` (method_sequence); `Choose Viewpoint to Reveal Distinctive Animal Form` (emphasis); `Preview the Final Impression With an Integrated Study` (method_sequence); `Lower Eye Level to Clarify Foot-Ground Planes` (context).
+  - Variants: `Start Composition With Format, Figure-Ground Ratio, and a Few Dominant Shapes` (method_sequence); `Choose Viewpoint From the Dominant Mass Effect` (method_sequence); `Choose Viewpoint to Reveal Distinctive Animal Form` (emphasis); `Preview the Final Impression With an Integrated Study` (method_sequence); `Lower Eye Level to Clarify Foot-Ground Planes` (context); `Scribble Through Idea Search Before Thumbnail Commitment` (method_sequence).
 - [Gate Staged Visual Work by Approval](AP_gate_staged_visual_work_by_approval.md) - ap; 0 design.
 - [Preserve Structure During Stage 4 Amplification](PAT_preserve_structure_during_stage4_amplification.md) - pattern; 4 final.

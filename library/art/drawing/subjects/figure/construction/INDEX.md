@@ -23,6 +23,7 @@
 - [Correct a Wonky Foreshortened Limb With Pivot Arcs](DRILL_correct_wonky_foreshortened_limb_with_pivot_arcs.md) - drill; 2 block.
 - [Develop One Notation by Two Routes](DRILL_develop_notation_by_two_routes.md) - drill; 2 block.
 - [Diagnose Joint Interlock by Reversing Depth](DRILL_diagnose_joint_interlock_by_reversing_depth.md) - drill; 2 block.
+- [Direct a Reference Subject Through Story State, Not Feature Posing](PAT_direct_reference_subject_through_story_state_not_feature_pose.md) - pattern; 0 design.
 - [Elicit Natural Child Expression Through Rapport](PAT_elicit_natural_child_expression_through_rapport.md) - pattern; 0 design.
 - [Join Rib Cage and Pelvis Through a Flexible Waist](PAT_join_rib_cage_and_pelvis_through_flexible_waist.md) - pattern; 2 block.
   - Variants: `Oppose Major Body Blocks Through Bend, Twist, and Tilt` (method_sequence); `Split the Torso Wedge Through a Mobile Waist` (method_sequence); `Articulate the Seated Torso as a Fold Chain` (method_sequence).

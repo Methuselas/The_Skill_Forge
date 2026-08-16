@@ -6,6 +6,8 @@
 
 - [Calibrate Observed Proportion With Relational Sighting](PAT_calibrate_observed_proportion_with_relational_sighting.md) - pattern; 1 skeleton.
   - Variants: `Center-Out Live-Figure Survey` (method_sequence); `Switch Reclining Measurement to Pose-Specific Relations` (method_sequence); `Cross-Check 3D Construction With a 2D Shape Survey` (method_sequence); `Reorient a Reclining Figure With Longitudinal and Cross Axes` (method_sequence); `Draw by Eye, Then Measure and Correct` (method_sequence); `Increase Check Density When Tolerance Is Small` (emphasis); `Run a Pre-Detail Portrait Landmark-Axis Audit` (method_sequence); `Run a Pre-Detail Figure Axis-and-Support Audit` (method_sequence).
+- [Define Study Target Before Choosing Scope, Medium, and Detail](PAT_define_study_target_before_choosing_scope_medium_and_detail.md) - pattern; 0 design.
+  - Variants: `Isolate Animal Study Difficulty With Medium and Scope` (context); `Route Recurring Work Weakness Into Targeted Study` (method_sequence).
 - [Intensify Distinguishing Characteristics Without Losing Structure](PAT_intensify_distinguishing_characteristics_without_losing_structure.md) - pattern; 3 rough.
   - Variants: `Exaggerate Role-Defining Character Structure` (emphasis).
 - [Map an Observed Subject as Interlocking Positive and Negative Shapes](PAT_map_observed_subject_as_interlocking_positive_and_negative_shapes.md) - pattern; 1 skeleton.

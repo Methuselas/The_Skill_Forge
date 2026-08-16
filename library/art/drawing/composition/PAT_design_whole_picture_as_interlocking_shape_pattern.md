@@ -50,6 +50,13 @@ variants:
   when_to_use: "Use at Stage 0 when the blank frame is producing generic placement, when subject elements will not lock into one picture, or when an abstract structural prompt could generate less habitual arrangements."
   when_not_to_use: "Do not preserve the construction grid mechanically, treat Loomis's preferred unequal divisions as universal laws, or force a subject to obey an armature after the actual picture demands a better relationship. The scaffold is a search device, not a correctness formula."
   absorbed_from_object_id: none
+- variant_id: VAR_loomis_generate_subject_arrangement_from_abstract_mass_pattern
+  variant_name: Generate Subject Arrangement from an Abstract Mass Pattern
+  variant_basis: method_sequence
+  difference_from_foundation: Begins with an abstract arrangement of major light, middle, and dark masses before the literal subject placement is fixed, then lets those masses suggest figure placement, garments, shadows, windows, accessories, grouping, or lighting relationships that can be translated into a coherent scene.
+  when_to_use: Use when object-first staging keeps producing predictable arrangements, when a story scene lacks a strong large-scale value design, or when an abstract mass proposition could generate less habitual subject placement.
+  when_not_to_use: Do not force essential anatomy, perspective, narrative facts, or spatial logic to obey an arbitrary blot pattern after the actual scene demands correction; the mass pattern is a generative scaffold, not a correctness law.
+  absorbed_from_object_id: none
 - variant_id: VAR_loomis_build_tonal_plan_around_one_dominant_value_family
   variant_name: Build a Tonal Plan Around One Dominant Value Family
   variant_basis: emphasis
@@ -93,5 +100,8 @@ Dodson's Chapter 7 shifts positive/negative shape from an observational checking
 `VAR_dodson_reduce_scene_to_nonobject_shape_language` is a temporary abstraction route for seeing the pattern without being trapped by object names. It should lead back to the subject, not erase the subject.
 
 `VAR_loomis_generate_composition_from_informal_subdivision_armature` adds a Stage 0 generative route: build a disposable unequal line scaffold, let its intersections and spaces suggest the arrangement, then erase the scaffold once the subject and picture relationships can stand on their own. Loomis's particular anti-equality rules are retained as variation prompts rather than universal composition laws.
+
+
+`VAR_loomis_generate_subject_arrangement_from_abstract_mass_pattern` reverses the usual object-to-pattern sequence: establish a compelling abstract mass arrangement first, then discover which subject elements can inhabit those masses without losing story or structure. It is generative abstraction, unlike `VAR_dodson_reduce_scene_to_nonobject_shape_language`, which abstracts an already observed or conceived scene to reveal its existing whole-picture pattern.
 
 `VAR_loomis_build_tonal_plan_around_one_dominant_value_family` adds a tonal-design branch: choose a dominant broad value family, organize subordinate and accent masses against it, and restore local modeling only after the large tonal pattern holds together.

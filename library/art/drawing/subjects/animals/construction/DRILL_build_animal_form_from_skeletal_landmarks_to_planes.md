@@ -34,7 +34,7 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_read_hindleg_muscle_groups_from_joint_axes_and_lines_of_pull
 - rel: related_to
-  target_object_id: PAT_isolate_animal_study_difficulty_with_medium_and_scope
+  target_object_id: PAT_define_study_target_before_choosing_scope_medium_and_detail
 reference:
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes

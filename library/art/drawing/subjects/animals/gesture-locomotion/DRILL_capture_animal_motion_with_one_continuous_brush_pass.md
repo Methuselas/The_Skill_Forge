@@ -27,7 +27,7 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_route_animal_gesture_through_governing_action_line
 - rel: related_to
-  target_object_id: PAT_isolate_animal_study_difficulty_with_medium_and_scope
+  target_object_id: PAT_define_study_target_before_choosing_scope_medium_and_detail
 - rel: related_to
   target_object_id: DRILL_capture_gesture_from_short_visual_memory
 reference:

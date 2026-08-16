@@ -27,7 +27,18 @@ reference:
   author: Bert Dodson
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_loomis_solve_uncertainty_on_disposable_study_then_reexecute_cleanly
+  variant_name: Solve Uncertainty on a Disposable Study, Then Reexecute Cleanly
+  variant_basis: method_sequence
+  difference_from_foundation: Moves exploratory corrections onto a separate rough, spare surface, or preliminary pass when
+    repeated revision is physically or visually degrading the intended final, then reexecutes the resolved answer cleanly
+    on the final support.
+  when_to_use: Use when the medium accumulates muddy corrections, hesitant edges, damaged surface, or other visible costs
+    while the artist is still solving uncertain decisions.
+  when_not_to_use: Do not turn every work into a mandatory two-pass copy exercise; keep solving directly on the final when
+    revisions remain cheap, informative, and visually harmless.
+  absorbed_from_object_id: none
 ---
 
 # Alternate Free Search and Controlled Refinement in Mark Making
@@ -55,3 +66,5 @@ variants: []
 
 ## Notes
 Dodson's two handwritings are complementary working modes. The general search/control cycle lives in metaskills; this specialization records how the distinction appears physically in drawing behavior.
+
+`VAR_loomis_solve_uncertainty_on_disposable_study_then_reexecute_cleanly` separates discovery from clean execution when the surface itself is paying for every correction. Resolve the uncertain passage on a rough or spare support, then carry the chosen answer into the final with fewer hesitant repairs.

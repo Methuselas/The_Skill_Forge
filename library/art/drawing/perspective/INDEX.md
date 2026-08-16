@@ -38,7 +38,7 @@
 - [Project Plan and Elevation Into Perspective](AP_project_plan_and_elevation_into_perspective.md) - ap; 2 block.
   - Variants: `Project a Small Interior, Then Enlarge Freehand` (method_sequence).
 - [Recover a Perspective View Field From an Existing Image](PAT_recover_view_field_from_existing_image.md) - pattern; 0 design.
-  - Variants: `Recover Exact Station Point and Viewing Distance` (method_sequence).
+  - Variants: `Recover Exact Station Point and Viewing Distance` (method_sequence); `Capture Reference Against Measured Scene Geometry` (method_sequence).
 - [Rotate Boxes Across Eye Levels](DRILL_rotate_boxes_across_eye_levels.md) - drill; 2 block.
 - [Rotate Perspective Grids Without Changing Unit Scale](PAT_rotate_perspective_grids_without_changing_unit_scale.md) - pattern; 1 skeleton.
 - [Subdivide a Plane Without Screen-Space Guessing](DRILL_subdivide_a_plane_without_screen_space_guessing.md) - drill; 2 block.

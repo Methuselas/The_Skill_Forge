@@ -88,14 +88,7 @@ references:
   derived_from: rejected observatory Stage 3 attempt
   origin: first_party_source
   review: passed
-variants:
-- variant_id: VAR_loomis_choose_rendering_density_by_study_purpose
-  variant_name: Choose Rendering Density by Study Purpose
-  variant_basis: method_sequence
-  difference_from_foundation: 'Adds Loomis''s purpose-first calibration to the staged-density Pattern: decide what the study is meant to learn or communicate—action, construction, proportion, anatomy, value, or finish—then choose line/tone/detail density that serves that purpose instead of treating every drawing with the same finish language.'
-  when_to_use: Use when a study is becoming overworked, underdeveloped, or stylistically automatic relative to its actual learning or communication goal.
-  when_not_to_use: Do not use 'study purpose' as permission to violate a user-approved stage or production brief; explicit stage and delivery constraints still govern.
-  absorbed_from_object_id: none
+variants: []
 ---
 
 # Calibrate Stage Information Density Against Approved Precedent
@@ -148,4 +141,3 @@ The key distinction is not anatomy versus no anatomy. It is **broad identifying 
 
 Stage 0A remains the automatic default because it is cheap to reject and revise. Stage 0B and Stage 0C are legitimate exceptions, not errors, but they must be chosen deliberately. The current runtime keeps Stage 4 as an all-in-one final render. A future migration may split final pencils, four color stages, and adaptive lighting stages, but that architecture is not active until explicitly authorized.
 
-`VAR_loomis_choose_rendering_density_by_study_purpose` retains **Choose Rendering Density by Study Purpose** as a bounded alternative; use it only under the conditions recorded in the variant metadata.

@@ -5,5 +5,6 @@
 ## Objects
 
 - [Alternate Free Search and Controlled Refinement in Mark Making](PAT_alternate_free_search_and_controlled_refinement.md) - pattern; 1 skeleton.
+  - Variants: `Solve Uncertainty on a Disposable Study, Then Reexecute Cleanly` (method_sequence).
 - [Copy Then Emulate a Master's Mark Language](DRILL_copy_then_emulate_master_mark_language.md) - drill; 3 rough.
 - [Use Subtractive and Manipulative Marks as Drawing Tools](PAT_use_subtractive_and_manipulative_marks_as_drawing_tools.md) - pattern; 3 rough.

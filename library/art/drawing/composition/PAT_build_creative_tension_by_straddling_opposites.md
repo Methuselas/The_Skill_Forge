@@ -64,6 +64,13 @@ variants:
   when_to_use: "Use when an intentionally unequal composition feels as if it is toppling or when moving a secondary mass may restore equilibrium without making both sides equal in size, value, or shape."
   when_not_to_use: "Do not calculate balance mechanically from geometric distance, assume size is the only source of visual weight, or override narrative emphasis, directional movement, color, contrast, or frame pressure that legitimately changes the perceptual balance."
   absorbed_from_object_id: none
+- variant_id: VAR_loomis_straddle_warm_and_cool_color
+  variant_name: Straddle Warm and Cool Color
+  variant_basis: emphasis
+  difference_from_foundation: "Applies the parent straddle to color temperature: let warm and cool tendencies coexist, usually with one clearly dominant and the other supplying relational variation, instead of averaging the palette into temperature neutrality or forcing maximum complementary contrast."
+  when_to_use: Use when a color scheme feels uniformly warm, uniformly cool, or inert and a controlled opposing temperature can add life while preserving the dominant family.
+  when_not_to_use: Do not force equal warm/cool quantities, treat temperature labels as fixed emotional meanings, or invent a temperature opposition that contradicts the lighting and material relationships.
+  absorbed_from_object_id: none
 ---
 
 # Build Creative Tension by Straddling Opposites
@@ -106,3 +113,5 @@ The existing Repeat With Variation Pattern is already one strong example of this
 `VAR_dodson_straddle_active_and_passive_shape_behavior` contrasts quieter contained regions with more projecting, irregular, detailed, or gestural regions so activity is not distributed uniformly by habit.
 
 `VAR_loomis_balance_unequal_masses_by_visual_weight_and_distance` makes the balance/imbalance straddle easier to diagnose: compare unequal masses as perceptual weights, generally allowing a heavier mass nearer the center and a lighter counterweight farther away while rechecking the whole picture rather than applying a literal lever equation.
+
+`VAR_loomis_straddle_warm_and_cool_color` applies the same logic to temperature: keep both warm and cool tendencies perceptible, allow one to dominate, and use the other as active relational contrast rather than flattening both into a midpoint.

@@ -34,6 +34,13 @@ variants:
   when_to_use: Use when a long study has a known general format but figure placement, movement, or surrounding space may still require adjustment before the final drawing or transfer is fixed.
   when_not_to_use: Do not keep reopening the frame after the composition is approved, and do not violate required trim, bleed, fixed-output dimensions, or other final-format constraints; digitally, use an equivalent nondestructive crop rather than manufacturing unnecessary canvas margin.
   absorbed_from_object_id: none
+- variant_id: VAR_loomis_leave_sacrificial_crop_margin_for_downstream_formatting
+  variant_name: Leave Sacrificial Crop Margin for Downstream Formatting
+  variant_basis: constraint
+  difference_from_foundation: Preserves expendable image area around a stable compositional core when later production may legitimately place the same artwork into different borders, mats, aspect ratios, or crops. Unlike a revisable working frame, the extra margin is retained for downstream format flexibility after the core composition is already resolved.
+  when_to_use: Use when the final crop is not controlled by the artist and the same image may need to survive multiple known or plausible output formats.
+  when_not_to_use: Do not leave vague excess space when the final format is fixed, and do not let optional crop margin weaken the designed central hierarchy.
+  absorbed_from_object_id: none
 ---
 # Crop Decisively to Reshape Figure-Ground Relationships
 
@@ -65,3 +72,5 @@ variants:
 Dodson treats the frame as part of the design. A crop can alter the viewer's distance, break one broad ground into more useful shapes, or turn a familiar subject into a more abstract pattern. His specific "crop and float" advice is retained as a source heuristic rather than a universal rule; the durable decision is intentional frame-edge design.
 
 `VAR_mogilevtsev_keep_revisable_frame_with_outer_margin` adds Mogilevtsev's paper-study method for delaying final frame commitment: draw the intended format inside a larger field, keep usable outer margin, test the figure, and shift or expand the inner frame before the long drawing is locked.
+
+`VAR_loomis_leave_sacrificial_crop_margin_for_downstream_formatting` covers a different boundary: after the compositional core is resolved, retain expendable outer image area when later production may need to fit the work into several legitimate formats.

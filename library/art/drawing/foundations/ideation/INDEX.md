@@ -4,9 +4,15 @@
 
 ## Objects
 
+- [Branch One Fact Set into Distinct Visual Concept Families](DRILL_branch_one_fact_set_into_distinct_visual_concept_families.md) - drill; 0 design.
+- [Build a Visual Idea Around Audience Motive or Friction](PAT_build_visual_idea_around_audience_motive_or_friction.md) - pattern; 0 design.
+- [Build Visual Humor from Expectation, Twist, Predicament, and Behavior](PAT_build_visual_humor_from_expectation_twist_predicament_and_behavior.md) - pattern; 0 design.
 - [Deepen Visual Inquiry through a Theme Series](PAT_deepen_visual_inquiry_through_theme_series.md) - pattern; 0 design.
   - Variants: `Use a Bounded Formal Premise to Keep a Theme Generative` (context).
+- [Generate Visual Concepts from a Purpose-Driven Questionnaire](AP_generate_visual_concepts_from_purpose_driven_questionnaire.md) - ap; 0 design.
 - [Make a Familiar Subject Strange by Transforming Relationships](PAT_make_familiar_subject_strange_by_transforming_relationships.md) - pattern; 0 design.
   - Variants: `Distort a Character Through a Rescaled Grid` (method_sequence).
 - [Synthesize Visual Concepts from Diverse Source Types](PAT_synthesize_visual_concepts_from_diverse_source_types.md) - pattern; 0 design.
-  - Variants: `Use Photography as Bounded Study or Creative Departure` (constraint); `Use Memcaps as Accumulated Project Experience Source` (context); `Normalize Reference Camera and Light Before Synthesis` (method_sequence); `Triangulate Portrait Identity Across Multiple References` (method_sequence); `Use Applied Realism to Fortify Invention` (method_sequence).
+  - Variants: `Use Photography as Bounded Study or Creative Departure` (constraint); `Use Memcaps as Accumulated Project Experience Source` (context); `Normalize Reference Camera and Light Before Synthesis` (method_sequence); `Triangulate Portrait Identity Across Multiple References` (method_sequence); `Design Action Before Acquiring Pose Reference` (method_sequence); `Use Applied Realism to Fortify Invention` (method_sequence); `Mine Precedent for the General Problem, Then Redesign the Solution` (method_sequence); `Translate Photo Reference Through a Drawn Study Before Final` (method_sequence).
+- [Treat a Brief as Fixed Requirements plus Open Design Space](PAT_treat_brief_as_fixed_requirements_plus_open_design_space.md) - pattern; 0 design.
+  - Variants: `Negotiate Assignment Direction Without Surrendering or Ignoring the Brief` (context).

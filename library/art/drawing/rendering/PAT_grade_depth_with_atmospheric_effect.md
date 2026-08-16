@@ -33,6 +33,13 @@ variants:
   when_to_use: Use when grass, foliage, crowds, windows, scales, fur, roof tiles, or other repeated detail extends through substantial depth and literal miniaturization would make the far field noisy or false.
   when_not_to_use: Do not change mark vocabulary so abruptly that equivalent surfaces stop belonging to the same material family, and do not use simplification to repair incorrect scale or perspective.
   absorbed_from_object_id: none
+- variant_id: VAR_loomis_shift_receding_colors_toward_atmospheric_influence
+  variant_name: Shift Receding Colors Toward Atmospheric Influence
+  variant_basis: method_sequence
+  difference_from_foundation: "Adds a color-specific atmospheric-depth route: as forms recede, let their hue and chroma participate increasingly in the prevailing atmospheric influence while the existing near-to-far losses of contrast, edge clarity, and detail continue to operate."
+  when_to_use: Use when a colored scene needs stronger atmospheric integration across depth, especially in blue-sky distance, gray weather, haze, mist, or another clearly dominant air/light condition.
+  when_not_to_use: Do not apply one canned cool shift to every scene; use the actual or designed atmospheric influence, and do not let color drift erase material identity or contradict the established light.
+  absorbed_from_object_id: none
 ---
 
 # Grade Depth With Atmospheric Effect
@@ -62,4 +69,4 @@ variants:
 ## Notes
 Gill calls this “atmospheric effect” and repeatedly treats it as part of the same spatial evidence system as convergence, diminution, foreshortening, light, shadow, and overlap. The durable extraction is the near-to-far loss of contrast and clarity, not the book's period-specific account of why the air produces it.
 
-`VAR_dodson_shift_texture_mark_vocabulary_with_distance` adds a perceptual-scale rendering route: let foreground articulation collapse into grouped texture, broader pattern, and eventual omission as distance removes resolvable surface events instead of miniaturizing one mark indefinitely.
+`VAR_dodson_shift_texture_mark_vocabulary_with_distance` adds a perceptual-scale rendering route: let foreground articulation collapse into grouped texture, broader pattern, and eventual omission as distance removes resolvable surface events instead of miniaturizing one mark indefinitely. `VAR_loomis_shift_receding_colors_toward_atmospheric_influence` adds the color counterpart: distant hues and chroma increasingly participate in the prevailing atmospheric influence rather than retaining foreground color separation unchanged.

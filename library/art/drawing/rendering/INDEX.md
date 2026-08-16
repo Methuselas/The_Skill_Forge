@@ -4,7 +4,9 @@
 
 ## Objects
 
+- [Audition One Subject Across Small Color Roughs](DRILL_audition_one_subject_across_small_color_roughs.md) - drill; 0 design.
 - [Build a Full Tonal Drawing From a Value Sketch and Relational Checks](DRILL_build_full_tonal_drawing_from_value_sketch_and_relational_checks.md) - drill; 4 final.
+- [Choose Color Strategy to Fit Subject, Purpose, and Viewing Context](PAT_choose_color_strategy_to_fit_subject_purpose_and_viewing_context.md) - pattern; 0 design.
 - [Choose Texture Process by Control and Spread](PAT_choose_texture_process_by_control_and_spread.md) - pattern; 4 final.
 - [Compare the Same Subject Across Medium Behaviors](DRILL_compare_same_subject_across_medium_behaviors.md) - drill; 4 final.
   - Variants: `Compare Medium Behavior on the Same Subject` (context).
@@ -14,9 +16,12 @@
 - [Control Brush-Ink Tone With Moisture and Pressure](PAT_control_brush_ink_tone_with_moisture_and_pressure.md) - pattern; 4 final.
 - [Control Edge Hardness From Form, Light, and Focus](PAT_control_edge_hardness_from_form_light_and_focus.md) - pattern; 4 final.
   - Variants: `Break Continuous Hard Contour When Enclosure Flattens Depth` (emphasis); `Build Soft First, Then Recover Selected Edges` (method_sequence).
+- [Diagnose and Repair Dead Color Relationships](AP_diagnose_and_repair_dead_color_relationships.md) - ap; 3 rough.
 - [Grade Depth With Atmospheric Effect](PAT_grade_depth_with_atmospheric_effect.md) - pattern; 4 final.
-  - Variants: `Shift Texture Mark Vocabulary With Distance` (method_sequence).
+  - Variants: `Shift Texture Mark Vocabulary With Distance` (method_sequence); `Shift Receding Colors Toward Atmospheric Influence` (method_sequence).
+- [Match Rendering Complexity to the Reproduction Process](PAT_match_rendering_complexity_to_reproduction_process.md) - pattern; 3 rough.
 - [Pair Directional Line and Mass Marks as Complementary Roles](PAT_pair_directional_line_and_mass_marks_as_complementary_roles.md) - pattern; 4 final.
+- [Position Peak Chroma Across Light, Halftone, and Shadow](PAT_position_peak_chroma_across_light_halftone_and_shadow.md) - pattern; 4 final.
 - [Practice Wet and Dry Brush Animal Texture Swatches](DRILL_practice_wet_and_dry_brush_animal_texture_swatches.md) - drill; 4 final.
 - [Prepare a Construction Drawing for Rendering](AP_prepare_construction_for_rendering.md) - ap; 4 final.
   - Variants: `Analyze Dominant Light Direction and Quality` (method_sequence).
@@ -25,9 +30,13 @@
 - [Render Blocks Without Outline](DRILL_render_blocks_without_outline.md) - drill; 4 final.
 - [Render Material From Optical Response](PAT_render_material_from_optical_response.md) - pattern; 4 final.
   - Variants: `Match Brush Stroke to Animal Coat Finish` (medium); `Imply Animal Body Cover With Medium-Native Marks` (method_sequence); `Articulate a Sample, Then Suggest the Texture` (method_sequence); `Strengthen Material Read Through Neighboring Texture Contrast` (emphasis).
+- [Resolve Visible Color From Local Color, Light, and Reflection](PAT_resolve_visible_color_from_local_color_light_and_reflection.md) - pattern; 4 final.
+  - Variants: `Key Color Temperature to Environmental Light` (context).
 - [Sculpt and Light an Invented Form for Rendering](DRILL_sculpt_and_light_invented_form_for_rendering.md) - drill; 4 final.
 - [Select and Shape Contour for Expressive Meaning](PAT_select_and_shape_contour_for_expressive_meaning.md) - pattern; 3 rough.
 - [Separate Local Value From Light and Shadow Effect](PAT_separate_local_value_from_light_and_shadow_effect.md) - pattern; 4 final.
   - Variants: `Compress Observed Values Into a Pencil-Safe Four-Band Range` (method_sequence); `Shift Neighboring Local Values as a Relational Group` (method_sequence).
 - [Translate the Same Life Study From Grayscale to Color](DRILL_translate_same_life_study_from_grayscale_to_color.md) - drill; 1 skeleton.
 - [Translate Value Into Mark Density and Open Ground](PAT_translate_value_into_mark_density_and_open_ground.md) - pattern; 4 final.
+- [Unify a Palette With Shared Color Influence](PAT_unify_palette_with_shared_color_influence.md) - pattern; 3 rough.
+  - Variants: `Work Color Into a Shared Wet Undertone` (medium); `Tone the Palette With One Dominant Color` (method_sequence); `Derive the Picture Palette From Restricted Parent Colors` (method_sequence).

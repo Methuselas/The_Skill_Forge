@@ -30,7 +30,14 @@ reference:
   author: Andrew Loomis
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_loomis_choose_background_by_value_range_and_depth_need
+  variant_name: Choose Background by Value Range and Depth Need
+  variant_basis: constraint
+  difference_from_foundation: Chooses open page space or a developed background according to the subject's existing value range, focal-contrast needs, and required spatial depth; when open space would make the subject look pasted on, selective edge loss and interlacing let the ground penetrate the silhouette without abandoning the vignette.
+  when_to_use: Use when deciding whether an illustration should float on open page space or retain enough surrounding tone/background to preserve contrast and depth.
+  when_not_to_use: Do not force a vignette merely for stylistic consistency when the subject needs background value support or environmental depth to read.
+  absorbed_from_object_id: none
 ---
 # Design Vignette as Open Composition with Page Space
 
@@ -63,3 +70,5 @@ variants: []
 
 ## Notes
 Loomis's vignette pages show floating arrangements, designs tied to one or more page edges, open spaces that connect through the subject, small spots attached to a main vignette, borders, silhouettes, relief-like treatments, and combinations of sketchy open masses with more solid image blocks. The portable principle is that a vignette is an open page composition whose missing rectangular boundary is itself part of the design, not merely a rendering trick at the edges.
+
+`VAR_loomis_choose_background_by_value_range_and_depth_need` adds a selection test: open ground can isolate and clarify a subject, but it can also flatten value relationships or produce a cut-paper effect. Choose the treatment from the subject's value range and depth requirements, and use selective lost edges or interlacing when open page space needs to penetrate the subject more naturally.
