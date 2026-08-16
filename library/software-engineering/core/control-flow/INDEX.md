@@ -6,8 +6,10 @@
 
 - [Bound Recursion Before You Reach For It](PAT_bound_recursion_before_you_reach_for_it.md) - pattern; 2 block.
 - [Build a Loop From the Inside Out](AP_build_a_loop_from_the_inside_out.md) - ap; 1 skeleton.
+- [Choose a Table's Access Scheme by the Shape of Its Key](PAT_choose_the_tables_access_scheme_by_the_key.md) - pattern; 2 block.
 - [Choose the Control Construct That Fits the Data](PAT_choose_the_control_construct_that_fits_the_data.md) - pattern; 2 block.
 - [Choose the Loop by Where It Tests](PAT_choose_the_loop_by_where_it_tests.md) - pattern; 2 block.
 - [Decide the Else Instead of Omitting It by Default](PAT_decide_the_else_instead_of_omitting_it.md) - pattern; 3 rough.
 - [Keep a Loop's Control Outside Its Body](PAT_keep_a_loops_control_outside_its_body.md) - pattern; 3 rough.
 - [Order Branches So the Common Case Is Found First](PAT_order_branches_so_the_common_case_is_found_first.md) - pattern; 3 rough.
+- [Put the Variation in Data Rather Than Logic](PAT_put_the_variation_in_data_rather_than_logic.md) - pattern; 2 block.
