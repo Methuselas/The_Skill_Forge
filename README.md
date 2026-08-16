@@ -1,4 +1,4 @@
-# The Skill Forge
+# PASS / The Skill Forge
 
 PASS (Pattern Analysis Skill System) is a universal skill-card system. Sources are studied to create
 self-contained Patterns, Drills, and APs. Cards live in independent skill domains
