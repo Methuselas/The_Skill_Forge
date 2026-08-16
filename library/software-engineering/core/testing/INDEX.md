@@ -27,6 +27,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 ## Objects
 
 - [Choose an Assertion Matcher for a Correct, Clear Failure](DRILL_choose_an_appropriate_assertion_matcher.md) - drill; 4 final.
+- [Combine Detection Techniques Rather Than Perfecting One](PAT_combine_detection_techniques_rather_than_perfecting_one.md) - pattern; 4 final.
 - [Design for Testability While You Write](PAT_design_for_testability.md) - pattern; 0 design.
 - [Don't Make Things Visible Just for Testing](PAT_dont_expose_privates_for_testing.md) - pattern; 4 final.
 - [Inject Dependencies to Make Code Testable](PAT_inject_dependencies_for_testability.md) - pattern; 4 final.

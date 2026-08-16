@@ -127,7 +127,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Abstraction](abstraction/INDEX.md) - 16 object(s).
 - [Avoiding Surprises](avoiding-surprises/INDEX.md) - 11 object(s).
 - [Code Comprehension](code-comprehension/INDEX.md) - 23 object(s).
-- [Code Quality](code-quality/INDEX.md) - 9 object(s).
+- [Code Quality](code-quality/INDEX.md) - 10 object(s).
 - [Contracts](contracts/INDEX.md) - 9 object(s).
 - [Control Flow](control-flow/INDEX.md) - 11 object(s).
 - [Data Types](data-types/INDEX.md) - 3 object(s).
@@ -139,6 +139,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Problem Solving](problem-solving/INDEX.md) - 8 object(s).
 - [Readability](readability/INDEX.md) - 30 object(s).
 - [Reusability](reusability/INDEX.md) - 9 object(s).
-- [Testing](testing/INDEX.md) - 24 object(s).
+- [Testing](testing/INDEX.md) - 25 object(s).
 - [Variables](variables/INDEX.md) - 4 object(s).
 - [Working Practice](working-practice/INDEX.md) - 19 object(s).
