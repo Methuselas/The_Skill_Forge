@@ -29,30 +29,59 @@ variants:
 - variant_id: VAR_hultgren_match_brush_stroke_to_animal_coat_finish
   variant_name: Match Brush Stroke to Animal Coat Finish
   variant_basis: medium
-  difference_from_foundation: 'Adds Hultgren''s brush-and-ink route for making coat finish ride on mark character itself: a smooth, high-sheen coat uses thin, close, even strokes with open paper reserved for highlights, while a shaggy coat shifts toward a drier broken stroke after excess ink is worked out on scratch paper. The material cue comes from spacing, continuity, and paper break as well as value.'
-  when_to_use: Use when rendering animal fur or hair in brush and ink and the surface needs to read as comparatively sleek/glossy versus shaggy/broken without burying the larger form in detail.
-  when_not_to_use: Do not apply the two textures as fixed species symbols, and do not use surface marks to rescue unresolved light, volume, or coat direction. Other media should use their own equivalent material cues rather than imitating brush artifacts literally.
+  difference_from_foundation: 'Adds Hultgren''s brush-and-ink route for making coat finish ride on mark character itself:
+    a smooth, high-sheen coat uses thin, close, even strokes with open paper reserved for highlights, while a shaggy coat
+    shifts toward a drier broken stroke after excess ink is worked out on scratch paper. The material cue comes from spacing,
+    continuity, and paper break as well as value.'
+  when_to_use: Use when rendering animal fur or hair in brush and ink and the surface needs to read as comparatively sleek/glossy
+    versus shaggy/broken without burying the larger form in detail.
+  when_not_to_use: Do not apply the two textures as fixed species symbols, and do not use surface marks to rescue unresolved
+    light, volume, or coat direction. Other media should use their own equivalent material cues rather than imitating brush
+    artifacts literally.
   absorbed_from_object_id: none
 - variant_id: VAR_bammes_imply_animal_body_cover_with_medium_native_marks
   variant_name: Imply Animal Body Cover With Medium-Native Marks
   variant_basis: method_sequence
-  difference_from_foundation: 'Adds Bammes''s body-cover route: treat coat or bare skin as an impressional quality, avoid literal imitation, choose a graphic process whose native edge and mark behavior suggests the surface, and spend detail only on distinctive evidence such as sheen, broken roughness, fluff, markings, cracks, fissures, armor-like divisions, or wrinkle clusters.'
-  when_to_use: Use when an animal's coat, skin, or markings are important to species or character recognition and the surface would become dead or overworked if rendered hair-by-hair or wrinkle-by-wrinkle.
-  when_not_to_use: Do not let surface treatment replace unresolved anatomy, lighting, or volume, and do not force a fashionable texture effect that is remote from the observed body cover. When exact scientific documentation of a surface feature is the task, implication alone may be insufficient.
+  difference_from_foundation: 'Adds Bammes''s body-cover route: treat coat or bare skin as an impressional quality, avoid
+    literal imitation, choose a graphic process whose native edge and mark behavior suggests the surface, and spend detail
+    only on distinctive evidence such as sheen, broken roughness, fluff, markings, cracks, fissures, armor-like divisions,
+    or wrinkle clusters.'
+  when_to_use: Use when an animal's coat, skin, or markings are important to species or character recognition and the surface
+    would become dead or overworked if rendered hair-by-hair or wrinkle-by-wrinkle.
+  when_not_to_use: Do not let surface treatment replace unresolved anatomy, lighting, or volume, and do not force a fashionable
+    texture effect that is remote from the observed body cover. When exact scientific documentation of a surface feature is
+    the task, implication alone may be insufficient.
   absorbed_from_object_id: none
 - variant_id: VAR_dodson_articulate_sample_then_suggest_texture
   variant_name: Articulate a Sample, Then Suggest the Texture
   variant_basis: method_sequence
-  difference_from_foundation: "Adds Dodson's articulation-to-suggestion route: observe and render a small convincing sample closely enough to understand the material evidence, then derive a simpler mark vocabulary and let that vocabulary suggest the remaining surface instead of describing every event literally."
-  when_to_use: Use when full literal texture would become noisy, slow, or visually dominant but the material still needs a few precise anchors before broader suggestion will read.
-  when_not_to_use: Do not use generalized marks before the underlying form, light, and material character are understood, and do not omit exact surface evidence when the assignment specifically requires documentary detail.
+  difference_from_foundation: 'Adds Dodson''s articulation-to-suggestion route: observe and render a small convincing sample
+    closely enough to understand the material evidence, then derive a simpler mark vocabulary and let that vocabulary suggest
+    the remaining surface instead of describing every event literally.'
+  when_to_use: Use when full literal texture would become noisy, slow, or visually dominant but the material still needs a
+    few precise anchors before broader suggestion will read.
+  when_not_to_use: Do not use generalized marks before the underlying form, light, and material character are understood,
+    and do not omit exact surface evidence when the assignment specifically requires documentary detail.
   absorbed_from_object_id: none
 - variant_id: VAR_dodson_strengthen_material_read_through_neighboring_texture_contrast
   variant_name: Strengthen Material Read Through Neighboring Texture Contrast
   variant_basis: emphasis
-  difference_from_foundation: "Adds a relational material check: when a target surface is not reading strongly enough, inspect adjacent texture and value relationships before adding more local detail; roughness can make a smooth neighbor read smoother, hardness can intensify softness, and other contrasts can clarify both surfaces together."
-  when_to_use: Use when the optical evidence inside one material patch is already adequate but the contrast with its surroundings is too weak to make the distinction read.
-  when_not_to_use: Do not invent incompatible neighboring material behavior merely to create contrast, and do not use contextual contrast to hide unresolved form or lighting.
+  difference_from_foundation: 'Adds a relational material check: when a target surface is not reading strongly enough, inspect
+    adjacent texture and value relationships before adding more local detail; roughness can make a smooth neighbor read smoother,
+    hardness can intensify softness, and other contrasts can clarify both surfaces together.'
+  when_to_use: Use when the optical evidence inside one material patch is already adequate but the contrast with its surroundings
+    is too weak to make the distinction read.
+  when_not_to_use: Do not invent incompatible neighboring material behavior merely to create contrast, and do not use contextual
+    contrast to hide unresolved form or lighting.
+  absorbed_from_object_id: none
+- variant_id: VAR_jedruszek_escalate_descriptive_evidence_until_material_identity_clears
+  variant_name: Escalate Descriptive Evidence Until Material Identity Clears
+  variant_basis: method_sequence
+  difference_from_foundation: 'Builds material readability incrementally: start with the simplest useful shape, then add form/light,
+    value or color relationships, and finally texture or reflective behavior only while identity remains ambiguous.'
+  when_to_use: Use when a material or object reads incorrectly and it is unclear which class of evidence is actually missing.
+  when_not_to_use: Do not keep adding detail after the required identity is already clear; more information is not automatically
+    more readable.
   absorbed_from_object_id: none
 ---
 
@@ -89,3 +118,5 @@ Gill's glass and water chapters are kept as variants of one broader decision rat
 `VAR_bammes_imply_animal_body_cover_with_medium_native_marks` broadens the animal route beyond brush-and-ink: decide which visible quality actually identifies the coat or skin, then let the chosen medium imply it through sheen, broken roughness, soft spread, resist, or selected bare-skin landmarks instead of copying every surface event. The texture remains subordinate to solved form and light.
 
 `VAR_dodson_articulate_sample_then_suggest_texture` adds Dodson's articulate-then-suggest route: solve a small texture sample closely, then let a simplified mark language carry the rest of the surface. `VAR_dodson_strengthen_material_read_through_neighboring_texture_contrast` adds the relational check that a material may read more clearly by adjusting its neighboring texture context rather than adding local detail.
+
+`VAR_jedruszek_escalate_descriptive_evidence_until_material_identity_clears` turns material description into an incremental diagnostic. Add the next class of optical evidence only when the previous level still permits a wrong read, and stop once the needed identity is clear.

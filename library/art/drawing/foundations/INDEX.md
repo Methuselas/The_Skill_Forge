@@ -16,7 +16,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Form Construction](form-construction/INDEX.md) - 17 object(s).
 - [Gesture Force](gesture-force/INDEX.md) - 3 object(s).
 - [Ideation](ideation/INDEX.md) - 8 object(s).
-- [Mark Making](mark-making/INDEX.md) - 3 object(s).
-- [Observation](observation/INDEX.md) - 7 object(s).
+- [Mark Making](mark-making/INDEX.md) - 4 object(s).
+- [Observation](observation/INDEX.md) - 8 object(s).
 - [Temporal Movement](temporal-movement/INDEX.md) - 3 object(s).
 - [Visual Centerline](visual-centerline/INDEX.md) - 1 object(s).

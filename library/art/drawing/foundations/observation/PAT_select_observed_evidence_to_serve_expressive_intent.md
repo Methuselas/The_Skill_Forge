@@ -1,0 +1,73 @@
+---
+object_id: PAT_select_observed_evidence_to_serve_expressive_intent
+object_type: pattern
+name: Select Observed Evidence to Serve Expressive Intent
+library_path:
+- art
+- drawing
+- foundations
+- observation
+stage_binding: 0 design
+lane_fit: both
+foundation_role: foundation
+routing_class: general
+specialization_axis: none
+foundation_object_id: none
+tags:
+- observation
+- selection
+- representation
+- expressive_intent
+- visual_hierarchy
+- reference
+cross_links:
+- rel: related_to
+  target_object_id: PAT_define_study_target_before_choosing_scope_medium_and_detail
+- rel: foundation_of
+  target_object_id: PAT_select_one_dominant_quality_for_animal_study
+reference:
+  source_title: Composition
+  author: Arthur Wesley Dow
+confidence: high
+references: []
+variants:
+- variant_id: VAR_dow_force_selection_with_two_value_brush_constraint
+  variant_name: Force Selection With a Two-Value Brush Constraint
+  variant_basis: constraint
+  difference_from_foundation: Restricts an observational study to two major values and a small number of decisive marks so the artist must choose which evidence carries form, texture, character, and complexity instead of recording every visible fact.
+  when_to_use: Use when observation is becoming indiscriminate, when broad structure is being buried by local description, or when the study specifically needs to train selection and economy.
+  when_not_to_use: Do not keep the two-value limit when subtle modeling, documentary accuracy, or a broader value range is essential to the assignment.
+  absorbed_from_object_id: none
+---
+
+# Select Observed Evidence to Serve Expressive Intent
+
+## Pattern Rule
+**IF** a representational drawing or painting is using nature or reference and the available facts compete for equal descriptive attention
+**THEN** identify what the representation must express or accomplish, then select and emphasize the observed evidence that serves that purpose while preserving the structural truth and likeness the task requires
+**ELSE** let neutral documentation or exact accuracy remain primary when faithful description is itself the job
+
+## Do
+- Name the representational purpose before deciding which observed facts deserve the strongest treatment: character, emotion, shape harmony, spatial relation, story, decorative fit, or another concrete job.
+- Preserve the proportions, construction, identity, and spatial facts that the subject needs to remain convincing even when secondary information is simplified.
+- Let line, mass, value, edge, surface, or detail become selective evidence rather than giving every visible fact the same descriptive weight.
+- Compare possible selections against the whole image: an observation is useful when emphasizing it strengthens the intended statement without creating a larger structural error.
+- When the assignment shifts toward documentation, likeness, or technical description, restore the level of literal evidence that the new purpose requires.
+
+## Don't
+- Do not treat expressive selection as permission for careless anatomy, perspective, proportion, or identity.
+- Do not copy every available fact merely because it is visible in the reference.
+- Do not substitute a stereotype or preconceived symbol for evidence actually present in the subject.
+- Do not suppress facts that are essential to the assignment simply because they complicate the composition.
+
+## Checklist
+- The purpose of the representation can be stated before refinement.
+- The most emphasized observations directly support that purpose.
+- Simplified or omitted information is secondary to the required likeness, structure, or story.
+- The subject remains convincing after selective emphasis is applied.
+- A more documentary assignment would trigger a consciously different balance between selection and literal accuracy.
+
+## Notes
+Observation supplies more information than most images need at equal strength. The transferable decision is therefore selective rather than anti-accuracy: determine what the representation is for, choose evidence accordingly, and keep enough structural truth that selection improves expression instead of excusing bad drawing. Exactness can still be the dominant criterion when documentation or likeness is the actual purpose.
+
+`VAR_dow_force_selection_with_two_value_brush_constraint` turns that selection problem into a hard observational constraint: with only two values and a few decisive marks available, the learner must decide which facts actually carry the subject instead of recording everything visible. Restore a broader value range when the assignment depends on subtle modeling or documentation.

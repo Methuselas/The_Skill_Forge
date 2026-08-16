@@ -31,7 +31,33 @@ reference:
   author: Andrew Loomis
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_vandijk_separate_narrative_regions_with_contrasting_palette_families
+  variant_name: Separate Narrative Regions With Contrasting Palette Families
+  variant_basis: context
+  difference_from_foundation: Assigns meaningfully different broad palette families to major narrative regions so their separation
+    reads at the scale of the whole image rather than only through local accents.
+  when_to_use: Use when two places, realms, factions, or environmental states need to feel distinct while still belonging
+    to one image.
+  when_not_to_use: Do not create a palette split that fights the actual light environment or overwhelms required local relationships.
+  absorbed_from_object_id: none
+- variant_id: VAR_vandijk_differentiate_related_images_with_dominant_palette_signatures
+  variant_name: Differentiate Related Images With Distinct Dominant Palette Signatures
+  variant_basis: context
+  difference_from_foundation: Keeps related images recognizably linked while giving each a clearly different dominant palette
+    identity so sibling works remain immediately distinguishable at a glance.
+  when_to_use: Use for a series, trilogy, cover set, or other sibling images whose shared presentation risks making individual
+    entries visually interchangeable.
+  when_not_to_use: Do not sacrifice series coherence or subject-specific lighting merely to maximize difference; distinguish
+    the dominant conception, not every local color.
+  absorbed_from_object_id: none
+- variant_id: VAR_dahlig_use_temperature_and_color_intensity_as_loose_emotional_cues
+  variant_name: Use Temperature and Color Intensity as Loose Emotional Cues
+  variant_basis: emphasis
+  difference_from_foundation: Uses warmer or cooler dominant families, stronger or quieter chroma, and stronger or quieter color contrast as adjustable emotional biases while explicitly refusing a fixed one-hue-equals-one-emotion dictionary.
+  when_to_use: Use when the image's emotional intent would benefit from color reinforcing cues already carried by subject, lighting, pose, or narrative context.
+  when_not_to_use: Do not assume viewers share one universal warm/cool or saturation response; lighting, surrounding colors, subject matter, story context, and cultural associations can reverse or outweigh the cue.
+  absorbed_from_object_id: none
 ---
 # Choose Color Strategy to Fit Subject, Purpose, and Viewing Context
 
@@ -62,3 +88,9 @@ variants: []
 
 ## Notes
 Color strategy is a picture-level design decision. A restrained palette, forceful contrast, broad muted field, or small area of clean chroma can all be correct depending on the image's purpose and viewing context. Historical claims that individual hues produce fixed psychological effects are not required for this decision; the durable skill is to organize color relationally around the intended pictorial job and then verify that organization in the context where the image will actually be seen.
+
+`VAR_vandijk_separate_narrative_regions_with_contrasting_palette_families` uses broad palette-family contrast to separate large narrative regions. The contrast should reinforce a real story distinction and still coexist with the scene lighting.
+
+`VAR_vandijk_differentiate_related_images_with_dominant_palette_signatures` treats dominant palette identity as a series-level differentiation tool. Preserve enough shared visual language for the set to belong together while making each entry distinct at first read.
+
+`VAR_dahlig_use_temperature_and_color_intensity_as_loose_emotional_cues` uses temperature, chroma, and color contrast as supporting emotional biases rather than fixed psychological meanings. Let those choices reinforce the image's other cues, and back off when scene lighting, subject logic, surrounding color, or audience context makes the association unreliable.

@@ -32,30 +32,57 @@ variants:
 - variant_id: VAR_dodson_manipulate_cast_shadow_for_expressive_composition
   variant_name: Manipulate Cast Shadow for Expressive Composition
   variant_basis: emphasis
-  difference_from_foundation: Dodson explicitly permits cast shadows to be moved, darkened, lengthened, enlarged, or reshaped when the altered shadow strengthens drama, mood, or the compositional pattern rather than merely reporting illumination.
-  when_to_use: Use when strict observational lighting is not the primary goal and a changed shadow strengthens subject meaning, focal hierarchy, or the overall shape design.
-  when_not_to_use: Do not use arbitrary shadow distortion to hide ignorance of lighting; retain enough internal coherence that the change reads as intentional design.
+  difference_from_foundation: Dodson explicitly permits cast shadows to be moved, darkened, lengthened, enlarged, or reshaped
+    when the altered shadow strengthens drama, mood, or the compositional pattern rather than merely reporting illumination.
+  when_to_use: Use when strict observational lighting is not the primary goal and a changed shadow strengthens subject meaning,
+    focal hierarchy, or the overall shape design.
+  when_not_to_use: Do not use arbitrary shadow distortion to hide ignorance of lighting; retain enough internal coherence
+    that the change reads as intentional design.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_plan_composition_through_cast_shadow_pattern
   variant_name: Plan the Picture Through the Cast-Shadow Pattern
   variant_basis: method_sequence
-  difference_from_foundation: Starts from physically constructed cast-shadow direction and projection, then treats the resulting large shadow shapes as compositional masses that can strengthen action, grouping, and story before the picture is fully rendered.
-  when_to_use: Use when cast shadows are prominent enough to organize the image and the artist wants lighting geometry to contribute to composition at the planning stage.
-  when_not_to_use: Do not let an attractive shadow pattern contradict the chosen light source accidentally; if the shadow is intentionally bent beyond literal projection, treat that as deliberate expressive design rather than as construction.
+  difference_from_foundation: Starts from physically constructed cast-shadow direction and projection, then treats the resulting
+    large shadow shapes as compositional masses that can strengthen action, grouping, and story before the picture is fully
+    rendered.
+  when_to_use: Use when cast shadows are prominent enough to organize the image and the artist wants lighting geometry to
+    contribute to composition at the planning stage.
+  when_not_to_use: Do not let an attractive shadow pattern contradict the chosen light source accidentally; if the shadow
+    is intentionally bent beyond literal projection, treat that as deliberate expressive design rather than as construction.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_bias_light_shadow_mass_dominance
   variant_name: Bias the Light/Shadow Mass Toward a Deliberate Dominant Side
   variant_basis: method_sequence
-  difference_from_foundation: "Loomis turns the broad light-versus-shadow split itself into a composition decision: when a near half-light/half-shadow setup feels static, compare it with an intentionally unequal arrangement such as roughly three-quarters light and one-quarter shadow, or the reverse, and let one mass dominate the read."
-  when_to_use: Use while designing a simple or figure-lighting setup when the large light and shadow masses divide too evenly and the composition lacks hierarchy or pictorial force.
-  when_not_to_use: Do not treat unequal division as a universal lighting law; equal or frontal lighting may be appropriate for symmetry, neutrality, descriptive clarity, or a deliberately poster-like effect.
+  difference_from_foundation: 'Loomis turns the broad light-versus-shadow split itself into a composition decision: when a
+    near half-light/half-shadow setup feels static, compare it with an intentionally unequal arrangement such as roughly three-quarters
+    light and one-quarter shadow, or the reverse, and let one mass dominate the read.'
+  when_to_use: Use while designing a simple or figure-lighting setup when the large light and shadow masses divide too evenly
+    and the composition lacks hierarchy or pictorial force.
+  when_not_to_use: Do not treat unequal division as a universal lighting law; equal or frontal lighting may be appropriate
+    for symmetry, neutrality, descriptive clarity, or a deliberately poster-like effect.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_audition_lighting_setups_for_big_simple_form
   variant_name: Audition Lighting Setups for the Strongest Big Simple Form
   variant_basis: method_sequence
-  difference_from_foundation: "Loomis adds an explicit selection loop before committing to a lighting design: keep the subject fixed, try several lighting arrangements, compare how clearly each organizes the large light-and-shadow masses and the underlying form, and choose the setup that best serves the intended pictorial effect rather than accepting the first workable light."
-  when_to_use: Use during composition or reference setup when the subject is structurally sound but the light breaks it into fussy fragments, weakens hierarchy, or fails to produce a clear large form statement.
-  when_not_to_use: Do not optimize only for maximum simplicity when the assignment requires a specific factual light condition, multiple motivated sources, deliberately fragmented illumination, or another narrative constraint. The audition is a comparison procedure, not a rule that every picture must use one simple light.
+  difference_from_foundation: 'Loomis adds an explicit selection loop before committing to a lighting design: keep the subject
+    fixed, try several lighting arrangements, compare how clearly each organizes the large light-and-shadow masses and the
+    underlying form, and choose the setup that best serves the intended pictorial effect rather than accepting the first workable
+    light.'
+  when_to_use: Use during composition or reference setup when the subject is structurally sound but the light breaks it into
+    fussy fragments, weakens hierarchy, or fails to produce a clear large form statement.
+  when_not_to_use: Do not optimize only for maximum simplicity when the assignment requires a specific factual light condition,
+    multiple motivated sources, deliberately fragmented illumination, or another narrative constraint. The audition is a comparison
+    procedure, not a rule that every picture must use one simple light.
+  absorbed_from_object_id: none
+- variant_id: VAR_vandijk_bias_background_illumination_for_silhouette_readability
+  variant_name: Bias Background Illumination for Silhouette Readability
+  variant_basis: constraint
+  difference_from_foundation: Permits deliberate brightening or darkening of the background immediately behind an important
+    figure so its silhouette separates, even when that treatment is less strictly realistic than the untouched lighting.
+  when_to_use: Use when a required figure or object merges into its surroundings and silhouette clarity matters more than
+    literal exposure fidelity.
+  when_not_to_use: Do not invent arbitrary halos or break the scene-wide light logic so severely that the correction feels
+    detached from the environment.
   absorbed_from_object_id: none
 ---
 
@@ -85,3 +112,5 @@ variants:
 
 ## Notes
 Dodson demonstrates that changing light quality and cast-shadow design can transform the emotional experience of an otherwise similar subject. Guided Art teaching broadens the ownership distinction: **Composition decides why and where the lighting is designed; Rendering realizes what that lighting does to form and material.** The same composition owner is intended to accept future grounded variants for colored or ambient-light mood design, but Dodson u04 itself grounds value/light-shadow design rather than a full colored-light theory. `VAR_dodson_manipulate_cast_shadow_for_expressive_composition` retains the source's bounded cast-shadow design option when literal illumination is not the primary goal. `VAR_loomis_plan_composition_through_cast_shadow_pattern` adds Loomis's planning route: construct believable cast shadows first, then read their large shapes as composition before rendering commits the picture. `VAR_loomis_bias_light_shadow_mass_dominance` adds a bounded lighting-composition check: compare a static near-50/50 split with an intentionally unequal light/shadow mass and choose the dominant side that best serves the intended read without mistaking the heuristic for a physical law. `VAR_loomis_audition_lighting_setups_for_big_simple_form` adds a pre-commit audition loop: compare several lighting arrangements on the same subject and select by large-form clarity, hierarchy, and intended effect instead of accepting the first plausible setup.
+
+`VAR_vandijk_bias_background_illumination_for_silhouette_readability` lets lighting serve silhouette clarity directly. Shift the background value behind the important subject enough to recover separation while keeping the overall illumination coherent enough to feel designed rather than accidental.

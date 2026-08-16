@@ -46,9 +46,22 @@ variants:
 - variant_id: VAR_loomis_use_cover_as_experience_promise_not_contents_inventory
   variant_name: Use the Cover as an Experience Promise Rather Than a Contents Inventory
   variant_basis: context
-  difference_from_foundation: Specializes the story-job decision for covers and jackets by making the image promise the work's subject, mood, tension, character, question, or reward without trying to summarize every important event or fact inside.
-  when_to_use: Use when a cover must create accurate curiosity and communicate what kind of experience the work offers before the audience enters it.
-  when_not_to_use: Do not use a misleading tease, spoil the work merely to make the cover dramatic, or force a summary when direct identification or another communication job is more important.
+  difference_from_foundation: Specializes the story-job decision for covers and jackets by making the image promise the work's
+    subject, mood, tension, character, question, or reward without trying to summarize every important event or fact inside.
+  when_to_use: Use when a cover must create accurate curiosity and communicate what kind of experience the work offers before
+    the audience enters it.
+  when_not_to_use: Do not use a misleading tease, spoil the work merely to make the cover dramatic, or force a summary when
+    direct identification or another communication job is more important.
+  absorbed_from_object_id: none
+- variant_id: VAR_dahlig_scale_emotional_cue_redundancy_to_desired_explicitness
+  variant_name: Scale Emotional Cue Redundancy to the Desired Explicitness
+  variant_basis: emphasis
+  difference_from_foundation: 'Treats the number of reinforcing emotional channels as an adjustable design variable: a direct
+    read can align face, body, viewpoint, color treatment, and narrative evidence, while an ambiguous read can leave some
+    channels unstated or partially contradictory.'
+  when_to_use: Use when deciding how plainly or subtly the image should communicate its emotional job before rendering begins.
+  when_not_to_use: Do not maximize every cue by default or create ambiguity accidentally; choose the degree of redundancy
+    to fit the intended reading.
   absorbed_from_object_id: none
 ---
 
@@ -86,3 +99,4 @@ Loomis distinguishes illustrations that largely carry their own message, illustr
 
 `VAR_loomis_use_cover_as_experience_promise_not_contents_inventory` treats the image as an accurate promise of the work's experience rather than a literal inventory of its contents.
 
+`VAR_dahlig_scale_emotional_cue_redundancy_to_desired_explicitness` adds an explicitness control to story planning. Reinforce the emotion through multiple channels for a forceful read, or deliberately reduce that redundancy when the image should leave more inference to the viewer.

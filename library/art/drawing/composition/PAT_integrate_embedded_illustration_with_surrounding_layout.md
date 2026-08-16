@@ -35,9 +35,24 @@ variants:
 - variant_id: VAR_loomis_make_title_primary_on_title_led_cover_or_jacket
   variant_name: Make the Title Primary on a Title-Led Cover or Jacket
   variant_basis: context
-  difference_from_foundation: When identification or title recognition is the required first read, establishes the title as the primary layout unit and makes illustration, author line, negative space, value, and other typography support that hierarchy instead of assuming the picture must dominate.
-  when_to_use: Use for covers, jackets, posters, or similar layouts whose brief requires title or identifier recognition before the illustration.
-  when_not_to_use: Do not impose title-first hierarchy when the actual brief calls for image-first recognition, when typography is intentionally secondary, or when another required unit must dominate.
+  difference_from_foundation: When identification or title recognition is the required first read, establishes the title as
+    the primary layout unit and makes illustration, author line, negative space, value, and other typography support that
+    hierarchy instead of assuming the picture must dominate.
+  when_to_use: Use for covers, jackets, posters, or similar layouts whose brief requires title or identifier recognition before
+    the illustration.
+  when_not_to_use: Do not impose title-first hierarchy when the actual brief calls for image-first recognition, when typography
+    is intentionally secondary, or when another required unit must dominate.
+  absorbed_from_object_id: none
+- variant_id: VAR_dow_judge_lettering_as_tonal_mass_before_reading_as_text
+  variant_name: Judge Lettering as a Tonal Mass Before Reading It as Text
+  variant_basis: emphasis
+  difference_from_foundation: Treats a lettering block first as a dark-light mass whose density changes with letter size,
+    stroke thickness, spacing between letters, and surrounding space, then refines typographic character after the large layout
+    relationship works.
+  when_to_use: Use when lettering participates materially in an illustrated page, cover, poster, or display and its tonal
+    weight affects the hierarchy of the whole layout.
+  when_not_to_use: Do not reduce typography to tone when legibility, exact type specification, or textual hierarchy imposes
+    requirements the mass treatment must preserve.
   absorbed_from_object_id: none
 ---
 
@@ -72,3 +87,4 @@ variants:
 ## Notes
 Loomis treats magazine illustration as one unit inside a larger page design and repeatedly asks the artist to coordinate picture, copy, product, white space, and value pattern. The portable principle extends beyond advertising: an embedded image should answer the design conditions around it rather than behaving like an unrelated rectangle pasted into place. `VAR_loomis_make_title_primary_on_title_led_cover_or_jacket` specializes this for title-led covers and jackets by making the required identifier the first layout read and having the illustration support that hierarchy.
 
+`VAR_dow_judge_lettering_as_tonal_mass_before_reading_as_text` treats lettering as part of the page value design before fine typographic character is judged. Step back and compare the density created by letter size, stroke thickness, inter-letter spacing, and surrounding space, while preserving the legibility and hierarchy the text still needs.

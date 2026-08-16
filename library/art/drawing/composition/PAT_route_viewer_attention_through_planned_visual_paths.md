@@ -27,7 +27,27 @@ reference:
   author: Ken Hultgren
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_dumitrescu_frame_view_with_dominant_foreground_mass
+  variant_name: Frame the View With a Dominant Foreground Mass
+  variant_basis: method_sequence
+  difference_from_foundation: Adds a large near-field or edge mass that frames an opening into the scene, contains or redirects
+    attention, and can strengthen the apparent scale of what lies beyond it.
+  when_to_use: Use when the picture needs a stronger entry, contained viewing window, or a near/far scale contrast that makes
+    the subject feel more monumental.
+  when_not_to_use: Do not make the frame mass so heavy that it blocks the scene, steals first attention, or relies on a culture-specific
+    reading-direction assumption.
+  absorbed_from_object_id: none
+- variant_id: VAR_jedruszek_sequence_narrative_stops_with_selective_focus
+  variant_name: Sequence Narrative Stops With Selective Focus
+  variant_basis: method_sequence
+  difference_from_foundation: Supports an existing compositional route with selective sharpness, softness, or blur so one
+    narrative stop wins first while later points remain discoverable in the intended order.
+  when_to_use: Use when several points each contribute story information and their current sharpness gives them equal or confusing
+    priority.
+  when_not_to_use: Do not use blur as a substitute for staging; placement, value, and directional structure must still provide
+    a coherent route.
+  absorbed_from_object_id: none
 ---
 # Route Viewer Attention Through Planned Visual Paths
 
@@ -61,3 +81,7 @@ variants: []
 
 ## Notes
 Hultgren's original foundation moved line-of-action thinking from individual animals to the entire group, coordinating repeated and opposing directions, accents, and setting marks so separate subjects behave as one picture. Loomis broadens the same mechanism beyond group scenes: physical PDF p. 39 / printed p. 47 explicitly asks the artist to provide a planned pathway for the eye, catch lines that lead out of the subject, entertain the viewer with points of interest, and allow a pleasing continuation or exit. PASS therefore generalizes the owner from group composition to whole-picture attention routing. Loomis's warning against giving the eye “two ways to go” is retained only as a diagnosis of accidental competition; branching and multiple focal stops remain valid when hierarchy is controlled.
+
+`VAR_dumitrescu_frame_view_with_dominant_foreground_mass` uses a large foreground or edge mass as an attention-routing frame. The mass should establish entry and scale without becoming a competing focal object; no universal left-to-right reading assumption is required.
+
+`VAR_jedruszek_sequence_narrative_stops_with_selective_focus` adds selective focus as a supporting hierarchy control for multi-stop storytelling. Establish the path compositionally first, then use sharpness or blur to reinforce the intended reading order.

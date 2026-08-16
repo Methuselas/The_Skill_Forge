@@ -37,6 +37,13 @@ variants:
   when_to_use: Use when a display, standee, sign, wrap, panel, or other output will be die-cut, routed, folded, mounted, or required to stand physically rather than remain a flat image.
   when_not_to_use: Do not simplify contours merely because fabrication once had historical limitations; use the current fabricator's real tolerances, materials, cost, and structural requirements.
   absorbed_from_object_id: none
+- variant_id: VAR_dow_adapt_applied_design_to_host_material_and_surface
+  variant_name: Adapt Applied Design to the Host Material and Surface
+  variant_basis: medium
+  difference_from_foundation: Extends production-aware composition from seams and cutting boundaries to the host material itself. The core line or mass idea is adjusted for fabrication method, available value range, surface shape, scale, structural support, and the visual character of the object that will carry it.
+  when_to_use: Use when a design will become part of stone, ceramic, textile, cut or perforated metal, wood, or another physical host whose material and process constrain what can be made and read.
+  when_not_to_use: Do not imitate historical craft limitations when current materials or fabrication methods do not require them; preserve only constraints that belong to the actual host and process.
+  absorbed_from_object_id: none
 ---
 
 # Protect Critical Content from Physical Production Boundaries
@@ -69,3 +76,5 @@ variants:
 Loomis's outdoor-poster example maps the physical sheet divisions before final placement and avoids running joins through small facial features, fingers, or lettering that could be visibly damaged by imperfect installation. The durable principle extends beyond historical billboard sheets: whenever artwork is physically divided or assembled, fabrication boundaries belong to the design problem.
 
 `VAR_loomis_simplify_display_contours_for_cutting_support_and_stability` extends the same production-aware thinking from internal seams to the manufactured silhouette itself: cut, folded, mounted, or free-standing forms must remain buildable and stable under the actual fabrication method.
+
+`VAR_dow_adapt_applied_design_to_host_material_and_surface` broadens that production awareness to the material and host surface themselves: an applied design may need its line, mass, spacing, scale, or detail redistributed so the idea survives fabrication and belongs to the object carrying it.

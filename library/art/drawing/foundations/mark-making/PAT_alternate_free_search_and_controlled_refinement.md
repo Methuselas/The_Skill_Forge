@@ -39,6 +39,16 @@ variants:
   when_not_to_use: Do not turn every work into a mandatory two-pass copy exercise; keep solving directly on the final when
     revisions remain cheap, informative, and visually harmless.
   absorbed_from_object_id: none
+- variant_id: VAR_dow_control_long_expressive_lines_with_slow_whole_arm_motion
+  variant_name: Control Long Expressive Lines With Slow Whole-Arm Motion
+  variant_basis: method_sequence
+  difference_from_foundation: Clarifies that controlled refinement can use a long continuous whole-arm stroke rather than
+    short finger corrections; slow movement lets the artist watch and steer the line as it develops.
+  when_to_use: Use for long intentional brush, pen, or drawing strokes whose direction and character need continuous control
+    across a large distance.
+  when_not_to_use: Do not confuse slow control with stiffness or repair a failed line through many local patches when a fresh
+    continuous stroke would reveal the problem more clearly.
+  absorbed_from_object_id: none
 ---
 
 # Alternate Free Search and Controlled Refinement in Mark Making
@@ -68,3 +78,5 @@ variants:
 Dodson's two handwritings are complementary working modes. The general search/control cycle lives in metaskills; this specialization records how the distinction appears physically in drawing behavior.
 
 `VAR_loomis_solve_uncertainty_on_disposable_study_then_reexecute_cleanly` separates discovery from clean execution when the surface itself is paying for every correction. Resolve the uncertain passage on a rough or spare support, then carry the chosen answer into the final with fewer hesitant repairs.
+
+`VAR_dow_control_long_expressive_lines_with_slow_whole_arm_motion` expands controlled mark-making beyond short corrective strokes. For a long line, move with the whole arm slowly enough to guide the mark continuously; slight organic wavering can remain when the intended direction and character are still clear.

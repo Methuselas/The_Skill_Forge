@@ -36,16 +36,31 @@ variants:
 - variant_id: VAR_loomis_choose_costume_for_character_and_value_mass_role
   variant_name: Choose Costume for Character and Value-Mass Role
   variant_basis: constraint
-  difference_from_foundation: Extends costume from narrative evidence into composition, requiring clothing to support the character while also serving the intended value, color, pattern, and mass relationship of the figure within the picture.
-  when_to_use: Use when costume choice is flexible enough to affect figure-ground separation, grouping, emphasis, or the large picture pattern.
-  when_not_to_use: Do not falsify fixed historical, occupational, ceremonial, or story-critical costume facts merely to simplify the composition; solve the pictorial problem through other means when the garment itself is constrained.
+  difference_from_foundation: Extends costume from narrative evidence into composition, requiring clothing to support the
+    character while also serving the intended value, color, pattern, and mass relationship of the figure within the picture.
+  when_to_use: Use when costume choice is flexible enough to affect figure-ground separation, grouping, emphasis, or the large
+    picture pattern.
+  when_not_to_use: Do not falsify fixed historical, occupational, ceremonial, or story-critical costume facts merely to simplify
+    the composition; solve the pictorial problem through other means when the garment itself is constrained.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_carry_emotion_through_whole_pose_and_hands
   variant_name: Carry Emotion Through the Whole Pose and Hands
   variant_basis: emphasis
-  difference_from_foundation: Extends characterization from role-specific facts into body-wide acting, requiring the same emotional state to organize head attitude, spine, shoulders, hips, weight, limbs, hands, gaze, and interaction instead of attaching a facial expression to an otherwise neutral figure.
+  difference_from_foundation: Extends characterization from role-specific facts into body-wide acting, requiring the same
+    emotional state to organize head attitude, spine, shoulders, hips, weight, limbs, hands, gaze, and interaction instead
+    of attaching a facial expression to an otherwise neutral figure.
   when_to_use: Use when a story figure must communicate a clear emotional or dramatic state through the entire body.
-  when_not_to_use: Do not exaggerate every joint equally or force theatrical tension into quiet, restrained, ambiguous, or intentionally neutral acting.
+  when_not_to_use: Do not exaggerate every joint equally or force theatrical tension into quiet, restrained, ambiguous, or
+    intentionally neutral acting.
+  absorbed_from_object_id: none
+- variant_id: VAR_dahlig_increase_emotional_intensity_through_muscular_tension
+  variant_name: Change Emotional Intensity Through Muscular Tension Without Changing the Basic Pose
+  variant_basis: emphasis
+  difference_from_foundation: Keeps the large pose substantially stable while increasing or decreasing visible muscular tension
+    in shoulders, posture, hands, tendons, and related soft-tissue relationships to alter the emotional intensity.
+  when_to_use: Use when the pose direction is correct but the figure feels too passive or too tense for the intended moment.
+  when_not_to_use: Do not substitute local tension for a fundamentally wrong pose or exaggerate anatomy until the body becomes
+    structurally implausible.
   absorbed_from_object_id: none
 ---
 
@@ -83,3 +98,5 @@ Loomis treats characterization as a problem of specific facts and behavior rathe
 `VAR_loomis_choose_costume_for_character_and_value_mass_role` adds a compositional check to costume selection: clothing should remain believable for the person and story while also being judged as value, color, pattern, and mass inside the whole image.
 
 `VAR_loomis_carry_emotion_through_whole_pose_and_hands` adds body-wide acting: emotional state should alter head attitude, spine, shoulders, hips, weight distribution, limbs, hands, gaze, and interaction as one behavioral system rather than being pasted onto a neutral pose as facial expression alone.
+
+`VAR_dahlig_increase_emotional_intensity_through_muscular_tension` refines whole-body acting without requiring a new pose. Compare relaxed and tensed versions of the same basic stance and let visible muscular relationships change the intensity while the structural body remains coherent.

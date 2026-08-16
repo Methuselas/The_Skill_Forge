@@ -11,7 +11,7 @@ lane_fit: both
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: method
-foundation_object_id: none
+foundation_object_id: PAT_decompose_color_relationships_into_hue_value_and_chroma
 tags:
 - rendering
 - color

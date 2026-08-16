@@ -24,7 +24,27 @@ reference:
   author: Bert Dodson
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_smit_use_repeated_known_size_anchors_across_depth
+  variant_name: Use Repeated Known-Size Anchors Across Depth
+  variant_basis: method_sequence
+  difference_from_foundation: Repeats elements of comparable real size at different depths so their diminishing apparent size
+    becomes a readable spatial rhythm; familiar human-scale elements can also calibrate the apparent scale of the environment.
+  when_to_use: Use when a large environment has weak depth or scale and equivalent objects can be placed coherently through
+    the scene.
+  when_not_to_use: Do not compare objects whose real sizes are materially different or place scale anchors that violate the
+    perspective field simply to force a depth read.
+  absorbed_from_object_id: none
+- variant_id: VAR_smit_separate_depth_planes_with_simplification_not_automatic_blur
+  variant_name: Separate Depth Planes With Simplification, Not Automatic Blur
+  variant_basis: style
+  difference_from_foundation: For a graphic or stylized depth treatment, separates foreground, middle, and background by reducing
+    internal detail, breakup, and shading with distance while allowing silhouette edges to remain intentionally crisp.
+  when_to_use: Use when a stylized image needs clear depth without photographic depth-of-field blur and atmospheric conditions
+    do not require soft distant edges.
+  when_not_to_use: Do not treat crisp distance as a universal optical rule; use atmospheric edge loss or softness when the
+    actual or designed environment calls for it.
+  absorbed_from_object_id: none
 ---
 
 # Design Depth by Coordinating Spatial Cues
@@ -55,3 +75,7 @@ variants: []
 
 ## Notes
 Dodson presents overlap, diminution, convergence, and softening of distant edges/contrast as mutually reinforcing ways to create the illusion of depth, and he explicitly permits intensifying them for effect. This Pattern owns the compositional decision to coordinate and emphasize those cues; Perspective and Rendering retain ownership of accurate convergence and atmospheric/edge behavior.
+
+`VAR_smit_use_repeated_known_size_anchors_across_depth` turns equivalent real-size elements into depth calibrators. Their apparent-size changes should agree with the spatial field, and familiar human-scale anchors can also communicate the magnitude of surrounding forms.
+
+`VAR_smit_separate_depth_planes_with_simplification_not_automatic_blur` provides a graphic depth route: simplify internal information across planes while keeping selected silhouettes crisp. It is an alternative style treatment, not a claim that distant edges are inherently hard.

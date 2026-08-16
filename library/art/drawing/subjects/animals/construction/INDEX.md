@@ -58,7 +58,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Humanize an Animal Character While Preserving Species Anchors](PAT_humanize_animal_character_while_preserving_species_anchors.md) - pattern; 0 design.
   - Variants: `Humanize a Rabbit by Turning Species Anchors Into Expression Controls` (method_sequence).
 - [Integrate Animal Head Structure With Experiential Emphasis](PAT_integrate_animal_head_structure_with_experiential_emphasis.md) - pattern; 4 final.
-- [Isolate Animal Study Difficulty With Medium and Scope](PAT_isolate_animal_study_difficulty_with_medium_and_scope.md) - pattern; 0 design.
 - [Make Single-Quality Animal Studies](DRILL_make_single_quality_animal_studies.md) - drill; 0 design.
 - [Map Primate Arm Mobility From Girdle to Hand Axes](DRILL_map_primate_arm_mobility_from_girdle_to_hand_axes.md) - drill; 1 skeleton.
 - [Model Animal Trunk Torsion With a Four-Sided Block](DRILL_model_animal_trunk_torsion_with_four_sided_block.md) - drill; 2 block.

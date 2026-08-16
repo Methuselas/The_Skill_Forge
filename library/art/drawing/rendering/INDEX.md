@@ -2,11 +2,21 @@
 
 # Art / Drawing / Rendering
 
+## Reading order
+
+_Read a foundation before the skills that build on it (`prerequisite_for`)._
+
+- **Decompose Color Relationships Into Hue, Value, and Chroma** — read first
+  - then: Copy and Transfer a Master Color Scheme
+  - then: Diagnose and Repair Dead Color Relationships
+  - then: Isolate Hue, Value, and Chroma in Matched Color Studies
+
 ## Objects
 
 - [Audition One Subject Across Small Color Roughs](DRILL_audition_one_subject_across_small_color_roughs.md) - drill; 0 design.
 - [Build a Full Tonal Drawing From a Value Sketch and Relational Checks](DRILL_build_full_tonal_drawing_from_value_sketch_and_relational_checks.md) - drill; 4 final.
 - [Choose Color Strategy to Fit Subject, Purpose, and Viewing Context](PAT_choose_color_strategy_to_fit_subject_purpose_and_viewing_context.md) - pattern; 0 design.
+  - Variants: `Separate Narrative Regions With Contrasting Palette Families` (context); `Differentiate Related Images With Distinct Dominant Palette Signatures` (context); `Use Temperature and Color Intensity as Loose Emotional Cues` (emphasis).
 - [Choose Texture Process by Control and Spread](PAT_choose_texture_process_by_control_and_spread.md) - pattern; 4 final.
 - [Compare the Same Subject Across Medium Behaviors](DRILL_compare_same_subject_across_medium_behaviors.md) - drill; 4 final.
   - Variants: `Compare Medium Behavior on the Same Subject` (context).
@@ -16,9 +26,13 @@
 - [Control Brush-Ink Tone With Moisture and Pressure](PAT_control_brush_ink_tone_with_moisture_and_pressure.md) - pattern; 4 final.
 - [Control Edge Hardness From Form, Light, and Focus](PAT_control_edge_hardness_from_form_light_and_focus.md) - pattern; 4 final.
   - Variants: `Break Continuous Hard Contour When Enclosure Flattens Depth` (emphasis); `Build Soft First, Then Recover Selected Edges` (method_sequence).
+- [Copy and Transfer a Master Color Scheme](DRILL_copy_and_transfer_master_color_scheme.md) - drill; 0 design.
+- [Decompose Color Relationships Into Hue, Value, and Chroma](PAT_decompose_color_relationships_into_hue_value_and_chroma.md) - pattern; 0 design.
 - [Diagnose and Repair Dead Color Relationships](AP_diagnose_and_repair_dead_color_relationships.md) - ap; 3 rough.
 - [Grade Depth With Atmospheric Effect](PAT_grade_depth_with_atmospheric_effect.md) - pattern; 4 final.
   - Variants: `Shift Texture Mark Vocabulary With Distance` (method_sequence); `Shift Receding Colors Toward Atmospheric Influence` (method_sequence).
+- [Isolate Hue, Value, and Chroma in Matched Color Studies](DRILL_isolate_hue_value_and_chroma_in_matched_color_studies.md) - drill; 0 design.
+  - Variants: `Increase Palette Complexity One Hue at a Time` (method_sequence).
 - [Match Rendering Complexity to the Reproduction Process](PAT_match_rendering_complexity_to_reproduction_process.md) - pattern; 3 rough.
 - [Pair Directional Line and Mass Marks as Complementary Roles](PAT_pair_directional_line_and_mass_marks_as_complementary_roles.md) - pattern; 4 final.
 - [Position Peak Chroma Across Light, Halftone, and Shadow](PAT_position_peak_chroma_across_light_halftone_and_shadow.md) - pattern; 4 final.
@@ -27,16 +41,18 @@
   - Variants: `Analyze Dominant Light Direction and Quality` (method_sequence).
 - [Preserve Value Structure When Translating Tone Into Color](PAT_preserve_value_structure_when_translating_tone_into_color.md) - pattern; 3 rough.
 - [Recompose One Subject Across Tonal Keys and Plans](DRILL_recompose_one_subject_across_tonal_keys_and_plans.md) - drill; 0 design.
+  - Variants: `Calibrate Three Flat Value Families Before Expanding the Range` (constraint); `Use a Temporary Multi-Value Scale to Stabilize Tonal Intervals` (constraint).
 - [Render Blocks Without Outline](DRILL_render_blocks_without_outline.md) - drill; 4 final.
 - [Render Material From Optical Response](PAT_render_material_from_optical_response.md) - pattern; 4 final.
-  - Variants: `Match Brush Stroke to Animal Coat Finish` (medium); `Imply Animal Body Cover With Medium-Native Marks` (method_sequence); `Articulate a Sample, Then Suggest the Texture` (method_sequence); `Strengthen Material Read Through Neighboring Texture Contrast` (emphasis).
+  - Variants: `Match Brush Stroke to Animal Coat Finish` (medium); `Imply Animal Body Cover With Medium-Native Marks` (method_sequence); `Articulate a Sample, Then Suggest the Texture` (method_sequence); `Strengthen Material Read Through Neighboring Texture Contrast` (emphasis); `Escalate Descriptive Evidence Until Material Identity Clears` (method_sequence).
 - [Resolve Visible Color From Local Color, Light, and Reflection](PAT_resolve_visible_color_from_local_color_light_and_reflection.md) - pattern; 4 final.
   - Variants: `Key Color Temperature to Environmental Light` (context).
 - [Sculpt and Light an Invented Form for Rendering](DRILL_sculpt_and_light_invented_form_for_rendering.md) - drill; 4 final.
 - [Select and Shape Contour for Expressive Meaning](PAT_select_and_shape_contour_for_expressive_meaning.md) - pattern; 3 rough.
 - [Separate Local Value From Light and Shadow Effect](PAT_separate_local_value_from_light_and_shadow_effect.md) - pattern; 4 final.
-  - Variants: `Compress Observed Values Into a Pencil-Safe Four-Band Range` (method_sequence); `Shift Neighboring Local Values as a Relational Group` (method_sequence).
+  - Variants: `Compress Observed Values Into a Pencil-Safe Four-Band Range` (method_sequence); `Shift Neighboring Local Values as a Relational Group` (method_sequence); `Compress Exposure Without Collapsing Material-by-Light States` (constraint).
 - [Translate the Same Life Study From Grayscale to Color](DRILL_translate_same_life_study_from_grayscale_to_color.md) - drill; 1 skeleton.
+  - Variants: `Grow Color Gradually From a Neutral Value Plan` (method_sequence).
 - [Translate Value Into Mark Density and Open Ground](PAT_translate_value_into_mark_density_and_open_ground.md) - pattern; 4 final.
 - [Unify a Palette With Shared Color Influence](PAT_unify_palette_with_shared_color_influence.md) - pattern; 3 rough.
   - Variants: `Work Color Into a Shared Wet Undertone` (medium); `Tone the Palette With One Dominant Color` (method_sequence); `Derive the Picture Palette From Restricted Parent Colors` (method_sequence).

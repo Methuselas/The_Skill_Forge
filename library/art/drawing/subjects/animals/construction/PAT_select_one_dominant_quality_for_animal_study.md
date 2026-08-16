@@ -10,10 +10,10 @@ library_path:
 - construction
 stage_binding: 0 design
 lane_fit: both
-foundation_role: foundation
+foundation_role: specialization
 routing_class: specialized
 specialization_axis: domain
-foundation_object_id: none
+foundation_object_id: PAT_select_observed_evidence_to_serve_expressive_intent
 tags:
 - animal_drawing
 - observation
@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_construct_animal_form_from_core_masses_framework_and_soft_parts
 - rel: related_to
   target_object_id: PAT_stage_animal_mood_through_whole_body_pose_and_behavioral_cues
+- rel: variant_of
+  target_object_id: PAT_select_observed_evidence_to_serve_expressive_intent
 reference:
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
@@ -35,10 +37,13 @@ variants:
 - variant_id: VAR_bammes_complete_sketch_with_objective_led_economy
   variant_name: Complete a Sketch With Objective-Led Economy
   variant_basis: emphasis
-  difference_from_foundation: >-
-    Carries the selected dominant quality into the stopping decision: choose only the contour, hatching, tone, gesture, or other means needed to state that impression decisively, and stop when the statement is complete even if much of the animal remains unstated.
-  when_to_use: Use when a study is called a sketch but its marks are vague, uniformly sparse, speed-driven, or accumulating without a clear criterion for completion.
-  when_not_to_use: Do not equate economy with minimum line count or haste; a forceful contour, dense hatching, or broad marks may be the smallest sufficient means for the chosen impression.
+  difference_from_foundation: 'Carries the selected dominant quality into the stopping decision: choose only the contour,
+    hatching, tone, gesture, or other means needed to state that impression decisively, and stop when the statement is complete
+    even if much of the animal remains unstated.'
+  when_to_use: Use when a study is called a sketch but its marks are vague, uniformly sparse, speed-driven, or accumulating
+    without a clear criterion for completion.
+  when_not_to_use: Do not equate economy with minimum line count or haste; a forceful contour, dense hatching, or broad marks
+    may be the smallest sufficient means for the chosen impression.
   absorbed_from_object_id: none
 ---
 
@@ -75,3 +80,5 @@ Bammes calls the qualities that first seize the artist's attention **impressiona
 Section 1.2 immediately places a structural limit on this freedom. A selective study still benefits from enough anatomy to perceive the animal as one articulated entity. Choosing a dominant quality changes emphasis, not the requirement that the parts belong to the same constructed body.
 
 `VAR_bammes_complete_sketch_with_objective_led_economy` adds §9.2's completion test. A sketch is not defined by speed, vagueness, or a low line count. Once the objective is known, use the amount and kind of contour, hatching, tone, or gesture needed for that single impression, then stop when the statement is complete in itself.
+
+This animal-specific selection rule now sits under `PAT_select_observed_evidence_to_serve_expressive_intent`: the portable foundation governs choosing observed evidence by expressive purpose, while this specialization keeps Bammes's animal-specific decision about selecting one impressional quality from a living subject.

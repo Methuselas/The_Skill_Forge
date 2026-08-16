@@ -29,7 +29,16 @@ reference:
   author: Andrew Loomis
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_dahlig_mask_half_face_to_audit_expression_unity
+  variant_name: Mask Half the Face to Audit Expression Unity
+  variant_basis: method_sequence
+  difference_from_foundation: Adds a diagnostic pass that alternately covers the upper and lower halves of the face to reveal
+    whether eyes/brows/lids and mouth/chin/cheek tissue are both participating in the same expression.
+  when_to_use: Use when an expression reads only through one obvious feature or feels pasted onto an otherwise neutral face.
+  when_not_to_use: Do not require each half to communicate the full emotion independently; the test is for active participation
+    and consistency, not duplicate signaling.
+  absorbed_from_object_id: none
 target_skill: preserving a constructed character head while expression changes the movable facial tissues
 ---
 
@@ -66,3 +75,5 @@ Start from one head whose large cranial envelope, jaw, feature spacing, and view
 
 ## Notes
 Loomis presents expression study as practical mileage: learn the facial muscle actions, use the mirror, then develop one type and make several drawings of that same character in different expressions. The drill preserves that sequence while keeping the head-construction work from the preceding Loomis units active underneath the expression study.
+
+`VAR_dahlig_mask_half_face_to_audit_expression_unity` adds a simple diagnostic to the expression set: cover one half of the face at a time and check whether the visible half still contains expression-specific soft-tissue action instead of relying on one isolated feature.

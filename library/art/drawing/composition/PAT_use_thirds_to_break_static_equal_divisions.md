@@ -23,7 +23,26 @@ reference:
   author: Michael D. Mattesi
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_dumitrescu_use_thirds_intersections_as_temporary_focal_scaffold
+  variant_name: Use Thirds Intersections as a Temporary Focal Scaffold
+  variant_basis: emphasis
+  difference_from_foundation: Uses the four thirds intersections as temporary places to audition primary and secondary focal
+    elements, then lets contrast and the actual picture overrule the grid once the hierarchy works.
+  when_to_use: Use early in horizontal or vertical compositions when focal placement is vague and a quick scaffold would help
+    test a balanced hierarchy.
+  when_not_to_use: Do not force every focal point onto an intersection or keep repeating the same grid solution after contrast,
+    story, or spacing demands a stronger placement.
+  absorbed_from_object_id: none
+- variant_id: VAR_dow_choose_symmetry_deliberately_for_repose_and_formality
+  variant_name: Choose Symmetry Deliberately for Repose and Formal Completeness
+  variant_basis: context
+  difference_from_foundation: Preserves exact or near-exact balance when repose, ceremony, completeness, or strong formality
+    is the intended effect instead of automatically breaking equality for more activity.
+  when_to_use: Use when the design benefits from settled balance or formal completeness more than from asymmetric movement.
+  when_not_to_use: Do not assume symmetry creates quality by itself; spacing, shape, proportion, and hierarchy still have
+    to carry the design.
+  absorbed_from_object_id: none
 ---
 
 # Use Thirds to Break Static Equal Divisions
@@ -49,3 +68,7 @@ variants: []
 
 ## Notes
 Mattesi calls this a law of thirds, but the transferable learner decision is a design heuristic for escaping automatic equality. It applies beyond animal drawing to characters, creatures, objects, vehicles, and page composition.
+
+`VAR_dumitrescu_use_thirds_intersections_as_temporary_focal_scaffold` treats the thirds intersections as disposable focal-placement prompts. Start with them when useful, but let contrast and the actual picture establish the final hierarchy instead of preserving the grid mechanically.
+
+`VAR_dow_choose_symmetry_deliberately_for_repose_and_formality` bounds the anti-equality rule. Symmetry can be the right solution when repose or formality is the goal, but it still requires deliberate spacing and shape relationships rather than relying on mirroring alone.

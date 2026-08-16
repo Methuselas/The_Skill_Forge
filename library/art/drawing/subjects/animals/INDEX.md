@@ -57,5 +57,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 ## Topics
 
 - [Anatomy](anatomy/INDEX.md) - 31 object(s).
-- [Construction](construction/INDEX.md) - 36 object(s).
+- [Construction](construction/INDEX.md) - 35 object(s).
 - [Gesture Locomotion](gesture-locomotion/INDEX.md) - 12 object(s).

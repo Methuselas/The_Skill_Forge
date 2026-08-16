@@ -32,37 +32,100 @@ variants:
 - variant_id: VAR_dodson_merge_same_value_shapes_across_object_boundaries
   variant_name: Merge Same-Value Shapes Across Object Boundaries
   variant_basis: emphasis
-  difference_from_foundation: Allows nearby light, midtone, or dark regions to join into a larger compositional shape even when they belong to different objects, local values, or shadow types, so the whole design can gain unity at the cost of some local separation.
-  when_to_use: Use when several adjacent regions are close enough in value that tying them together strengthens the larger pattern, silhouette, or focal organization.
-  when_not_to_use: Do not merge across boundaries that must remain clear for the subject to read, for technical description, or for a material/light relationship the viewer needs to understand.
+  difference_from_foundation: Allows nearby light, midtone, or dark regions to join into a larger compositional shape even
+    when they belong to different objects, local values, or shadow types, so the whole design can gain unity at the cost of
+    some local separation.
+  when_to_use: Use when several adjacent regions are close enough in value that tying them together strengthens the larger
+    pattern, silhouette, or focal organization.
+  when_not_to_use: Do not merge across boundaries that must remain clear for the subject to read, for technical description,
+    or for a material/light relationship the viewer needs to understand.
   absorbed_from_object_id: none
 - variant_id: VAR_dodson_reduce_scene_to_nonobject_shape_language
   variant_name: Reduce the Scene to Non-Object Shape Language
   variant_basis: method_sequence
-  difference_from_foundation: Temporarily suppresses object labels by squinting and summarizing the view as a few large value/shape masses, then returns to the subject once the whole pattern is visible.
-  when_to_use: Use when named-object thinking or local detail is preventing the artist from judging the overall figure-ground and value pattern.
-  when_not_to_use: Do not remain so abstract that required identity, structure, or narrative information is lost; this is a way to reveal the whole, not a replacement for the subject.
+  difference_from_foundation: Temporarily suppresses object labels by squinting and summarizing the view as a few large value/shape
+    masses, then returns to the subject once the whole pattern is visible.
+  when_to_use: Use when named-object thinking or local detail is preventing the artist from judging the overall figure-ground
+    and value pattern.
+  when_not_to_use: Do not remain so abstract that required identity, structure, or narrative information is lost; this is
+    a way to reveal the whole, not a replacement for the subject.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_generate_composition_from_informal_subdivision_armature
   variant_name: Generate Composition from an Informal Subdivision Armature
   variant_basis: method_sequence
-  difference_from_foundation: "Loomis turns whole-picture shape design into a generative start procedure: divide the format unequally, cross it with a major diagonal, extend horizontals or perpendiculars through selected intersections, recursively subdivide chosen spaces, and let the resulting abstract armature suggest placements, contours, spacing, or even subject ideas. The scaffold is temporary and should disappear once the picture organizes itself."
-  when_to_use: "Use at Stage 0 when the blank frame is producing generic placement, when subject elements will not lock into one picture, or when an abstract structural prompt could generate less habitual arrangements."
-  when_not_to_use: "Do not preserve the construction grid mechanically, treat Loomis's preferred unequal divisions as universal laws, or force a subject to obey an armature after the actual picture demands a better relationship. The scaffold is a search device, not a correctness formula."
+  difference_from_foundation: 'Loomis turns whole-picture shape design into a generative start procedure: divide the format
+    unequally, cross it with a major diagonal, extend horizontals or perpendiculars through selected intersections, recursively
+    subdivide chosen spaces, and let the resulting abstract armature suggest placements, contours, spacing, or even subject
+    ideas. The scaffold is temporary and should disappear once the picture organizes itself.'
+  when_to_use: Use at Stage 0 when the blank frame is producing generic placement, when subject elements will not lock into
+    one picture, or when an abstract structural prompt could generate less habitual arrangements.
+  when_not_to_use: Do not preserve the construction grid mechanically, treat Loomis's preferred unequal divisions as universal
+    laws, or force a subject to obey an armature after the actual picture demands a better relationship. The scaffold is a
+    search device, not a correctness formula.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_generate_subject_arrangement_from_abstract_mass_pattern
   variant_name: Generate Subject Arrangement from an Abstract Mass Pattern
   variant_basis: method_sequence
-  difference_from_foundation: Begins with an abstract arrangement of major light, middle, and dark masses before the literal subject placement is fixed, then lets those masses suggest figure placement, garments, shadows, windows, accessories, grouping, or lighting relationships that can be translated into a coherent scene.
-  when_to_use: Use when object-first staging keeps producing predictable arrangements, when a story scene lacks a strong large-scale value design, or when an abstract mass proposition could generate less habitual subject placement.
-  when_not_to_use: Do not force essential anatomy, perspective, narrative facts, or spatial logic to obey an arbitrary blot pattern after the actual scene demands correction; the mass pattern is a generative scaffold, not a correctness law.
+  difference_from_foundation: Begins with an abstract arrangement of major light, middle, and dark masses before the literal
+    subject placement is fixed, then lets those masses suggest figure placement, garments, shadows, windows, accessories,
+    grouping, or lighting relationships that can be translated into a coherent scene.
+  when_to_use: Use when object-first staging keeps producing predictable arrangements, when a story scene lacks a strong large-scale
+    value design, or when an abstract mass proposition could generate less habitual subject placement.
+  when_not_to_use: Do not force essential anatomy, perspective, narrative facts, or spatial logic to obey an arbitrary blot
+    pattern after the actual scene demands correction; the mass pattern is a generative scaffold, not a correctness law.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_build_tonal_plan_around_one_dominant_value_family
   variant_name: Build a Tonal Plan Around One Dominant Value Family
   variant_basis: emphasis
-  difference_from_foundation: "Adds Loomis's tonal-pattern emphasis to whole-picture shape design: simplify the scene into a few broad value families, identify or choose the family that will occupy the greatest area, then organize the remaining values as subordinate and accent masses against that dominant field before restoring modeling and detail."
-  when_to_use: "Use when a picture contains many scattered value patches, when a broad sky/floor/interior/shadow field could unify the design, or when thumbnail planning needs a simple tonal statement that survives at small size."
-  when_not_to_use: "Do not force every picture into one overwhelmingly dominant family when the intended design depends on a more even, mosaic, or deliberately fragmented distribution. Loomis's named tonal plans are planning aids, not universal laws."
+  difference_from_foundation: 'Adds Loomis''s tonal-pattern emphasis to whole-picture shape design: simplify the scene into
+    a few broad value families, identify or choose the family that will occupy the greatest area, then organize the remaining
+    values as subordinate and accent masses against that dominant field before restoring modeling and detail.'
+  when_to_use: Use when a picture contains many scattered value patches, when a broad sky/floor/interior/shadow field could
+    unify the design, or when thumbnail planning needs a simple tonal statement that survives at small size.
+  when_not_to_use: Do not force every picture into one overwhelmingly dominant family when the intended design depends on
+    a more even, mosaic, or deliberately fragmented distribution. Loomis's named tonal plans are planning aids, not universal
+    laws.
+  absorbed_from_object_id: none
+- variant_id: VAR_dumitrescu_organize_layout_around_implied_geometric_motif
+  variant_name: Organize the Layout Around an Implied Geometric Motif
+  variant_basis: method_sequence
+  difference_from_foundation: Uses a simple implied motif such as an oval, spiral, cross, triangle, radial structure, or nested
+    angular frame to coordinate major masses and directional edges into rhythm, hierarchy, and movement toward a payoff.
+  when_to_use: Use at Stage 0 when a scene has many unrelated parts and a simple recurring geometry could organize their direction
+    and spacing.
+  when_not_to_use: Do not treat any shape as carrying a universal emotional meaning or force literal geometry after the subject
+    requires a better arrangement.
+  absorbed_from_object_id: none
+- variant_id: VAR_dow_treat_dark_light_massing_as_composition_not_literal_shadow
+  variant_name: Treat Dark-and-Light Massing as Composition, Not Merely Literal Shadow
+  variant_basis: emphasis
+  difference_from_foundation: Temporarily judges broad dark and light as arranged compositional masses rather than assuming
+    every dark must correspond literally to a physical shadow, then returns to physical light and material logic when rendering
+    requires it.
+  when_to_use: Use during whole-picture value planning when literal object-by-object shading is obscuring the larger arrangement
+    of light and dark spaces.
+  when_not_to_use: Do not carry the abstraction into physically motivated rendering when the task requires accurate illumination,
+    form, or material response.
+  absorbed_from_object_id: none
+- variant_id: VAR_dow_subordinate_many_parts_to_one_dominant_organizing_relation
+  variant_name: Subordinate Many Parts to One Dominant Organizing Relation
+  variant_basis: emphasis
+  difference_from_foundation: When many parts have roughly equal weight, organizes them around one dominant relation such
+    as an axis, radiation from a center, or a clear scale hierarchy so the whole reads before the pieces.
+  when_to_use: Use when repeated or numerous elements fragment the picture into equally assertive parts with no governing
+    organization.
+  when_not_to_use: Do not impose a central axis, radial scheme, or size hierarchy when the intended composition depends on
+    distributed equality or a different organizing logic.
+  absorbed_from_object_id: none
+- variant_id: VAR_dow_turn_line_weight_into_dark_light_mass_structure
+  variant_name: Turn Line Weight Into Dark-Light Mass Structure
+  variant_basis: method_sequence
+  difference_from_foundation: Starts from a line arrangement, selectively widens some lines until they behave as dark bands
+    or masses, then judges the result as a whole dark-light pattern rather than as isolated thick strokes.
+  when_to_use: Use when a line composition feels uniformly thin or lacks a broad value structure and selected boundaries can
+    carry more dark-light weight.
+  when_not_to_use: Do not thicken a single line so aggressively that it becomes an accidental isolated accent or destroys
+    the larger organization.
   absorbed_from_object_id: none
 ---
 
@@ -105,3 +168,11 @@ Dodson's Chapter 7 shifts positive/negative shape from an observational checking
 `VAR_loomis_generate_subject_arrangement_from_abstract_mass_pattern` reverses the usual object-to-pattern sequence: establish a compelling abstract mass arrangement first, then discover which subject elements can inhabit those masses without losing story or structure. It is generative abstraction, unlike `VAR_dodson_reduce_scene_to_nonobject_shape_language`, which abstracts an already observed or conceived scene to reveal its existing whole-picture pattern.
 
 `VAR_loomis_build_tonal_plan_around_one_dominant_value_family` adds a tonal-design branch: choose a dominant broad value family, organize subordinate and accent masses against it, and restore local modeling only after the large tonal pattern holds together.
+
+`VAR_dumitrescu_organize_layout_around_implied_geometric_motif` uses recurring implied geometry as a structural search device. Repeat or nest a simple motif to coordinate masses and directional flow, but judge the resulting picture rather than assigning fixed emotional meanings to the shape itself.
+
+`VAR_dow_treat_dark_light_massing_as_composition_not_literal_shadow` preserves Dow's useful distinction between organized dark/light massing and literal light-and-shadow facts. It is a compositional abstraction pass that must hand control back to physical rendering when the job demands it.
+
+`VAR_dow_subordinate_many_parts_to_one_dominant_organizing_relation` gives equal-weight parts a governing structure. Axis, radiation, and scale hierarchy are practical routes; after changing one member, recheck the entire arrangement because dominance is relational rather than local.
+
+`VAR_dow_turn_line_weight_into_dark_light_mass_structure` converts selected boundaries into compositional value masses. Widen lines only enough to make a useful dark-light pattern, and keep judging the whole arrangement so one stroke does not become an unintended dominant accent.

@@ -34,6 +34,10 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Construct Contrasting Big-Cat Poses From Studied Anatomy
   - then: Construct a Foreshortened Animal From Backline, Cross-Axes, and Core Masses
   - then: Construct an Animal Thorax as a Plastic Core From Changing Cross-Sections
+- **Decompose Color Relationships Into Hue, Value, and Chroma** — read first
+  - then: Copy and Transfer a Master Color Scheme
+  - then: Diagnose and Repair Dead Color Relationships
+  - then: Isolate Hue, Value, and Chroma in Matched Color Studies
 - **Distinguish Quadruped Forequarter Suspension From Hindquarter Drive** — read first
   - then: Construct a Carnivore Foreleg From Independent Radius-Ulna Rotation and a Rotating Paw
   - then: Construct a Specialized Runner Foreleg From a Mobile Scapula and Hinge-Dominant Chain
@@ -66,4 +70,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Drawing](drawing/INDEX.md) - 281 object(s).
+- [Drawing](drawing/INDEX.md) - 288 object(s).

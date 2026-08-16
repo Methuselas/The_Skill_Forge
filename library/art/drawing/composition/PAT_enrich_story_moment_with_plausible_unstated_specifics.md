@@ -31,7 +31,26 @@ reference:
   author: Andrew Loomis
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_vandijk_imply_offframe_world_through_cast_evidence
+  variant_name: Imply the Off-Frame World Through Cast Evidence
+  variant_basis: method_sequence
+  difference_from_foundation: Uses visible effects such as cast shadows from plausible unseen objects outside the frame to
+    suggest that the world continues beyond the composition without showing every cause directly.
+  when_to_use: Use when the scene would benefit from environmental context or off-frame activity without adding another visible
+    object to the composition.
+  when_not_to_use: Do not add unexplained evidence that contradicts the light direction or creates a more confusing story
+    than the unseen cause is worth.
+  absorbed_from_object_id: none
+- variant_id: VAR_jedruszek_use_environmental_conditions_as_sensory_narrative_evidence
+  variant_name: Use Environmental Conditions as Sensory Narrative Evidence
+  variant_basis: context
+  difference_from_foundation: Lets concrete physical conditions such as wind, cold, rough water, rain, snow, heat, dust, or
+    unstable footing visibly affect subjects and surroundings so the setting carries story stakes and bodily consequence.
+  when_to_use: Use when the environment should participate in the event rather than function as a neutral backdrop.
+  when_not_to_use: Do not assume a condition creates the same emotion for every viewer; make its physical story consequences
+    specific and visible instead.
+  absorbed_from_object_id: none
 ---
 
 # Enrich a Story Moment with Plausible Unstated Specifics
@@ -63,3 +82,7 @@ variants: []
 
 ## Notes
 Loomis argues that a story illustration need not be restricted to only the facts explicitly named in the prose. The illustrator can build reasonable secondary incidents from those facts — a "story within the story" — so long as the additions remain plausible and serve the narrative. The portable skill is controlled narrative inference: enrich the pictured moment with specific consequences and behaviors without rewriting the source.
+
+`VAR_vandijk_imply_offframe_world_through_cast_evidence` enriches a scene with evidence whose cause lies outside the frame. Cast shadows are a strong example: they imply more world beyond the crop, but they must remain physically compatible with the scene lighting.
+
+`VAR_jedruszek_use_environmental_conditions_as_sensory_narrative_evidence` uses weather and other physical conditions as concrete story evidence. The durable move is to show consequences in the scene, not to assign universal emotions to cold, storms, heat, or other conditions.

@@ -56,5 +56,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Animals](animals/INDEX.md) - 79 object(s).
+- [Animals](animals/INDEX.md) - 78 object(s).
 - [Figure](figure/INDEX.md) - 66 object(s).
