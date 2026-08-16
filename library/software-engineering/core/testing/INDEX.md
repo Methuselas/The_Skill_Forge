@@ -38,8 +38,10 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Move Outcome-Affecting Setup Out of Shared Config](DRILL_make_test_config_self_contained.md) - drill; 4 final.
 - [Pick and Choose From Testing Philosophies](PAT_pick_and_choose_testing_philosophies.md) - pattern; 0 design.
 - [Prefer Fakes Over Mocks and Stubs](PAT_prefer_fakes_over_mocks_and_stubs.md) - pattern; 4 final.
+- [Put Review Effort Into Preparation, Not the Meeting](PAT_put_review_effort_into_preparation_not_the_meeting.md) - pattern; 4 final.
 - [Replace a Mock With a Fake and Catch the Hidden Bug](DRILL_replace_mock_with_fake.md) - drill; 4 final.
 - [Replace a Private-Function Test With a Public-API Behavior Test](DRILL_replace_private_test_with_public_api_test.md) - drill; 4 final.
+- [Review to Detect, Not to Correct](PAT_review_to_detect_not_to_correct.md) - pattern; 4 final.
 - [Rewrite an Implementation-Coupled Test to Use the Public API](DRILL_rewrite_test_to_use_public_api.md) - drill; 4 final.
 - [Split and Name Test Cases for the Behavior They Lock In](DRILL_name_test_cases_for_behavior.md) - drill; 4 final.
 - [Split Code Into Smaller Units to Make It Testable](PAT_split_code_to_make_it_testable.md) - pattern; 4 final.
