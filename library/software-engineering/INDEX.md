@@ -13,6 +13,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Write Down the Problem in Terms That Name No Solution
 - **Assume It Is Not Easy, Because You Cannot Remember It Being Hard** — read first
   - then: Work Out Which Stage a Learner Is At Before Choosing How to Help
+- **Change Structure or Change Behaviour, Never Both in One Pass** — read first
+  - then: Refactor Working Code Without Breaking It
 - **Choose the Problem's Representation Before Solving It** — read first
   - then: Add Detail Until the Model Admits One Reading
 - **Classify Error Recoverability From the Caller's Position** — read first
@@ -72,6 +74,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Make Breakage Fail at Compile Time or Fail a Test
   - then: Make Misuse Impossible by Removing Invalid States
   - then: Prefer Unmistakable Contract Terms Over Small Print
+- **Judge a Change's Risk by What It Can Break, Not by How Big It Is** — read first
+  - then: Refactor Working Code Without Breaking It
 - **Judge Code Against the Four Quality Goals** — read first
   - then: Choose the Proper Build Over the Hacky Shortcut
   - then: Classify Error Recoverability From the Caller's Position
@@ -124,5 +128,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Foundations](core/INDEX.md) - 255 object(s).
+- [Foundations](core/INDEX.md) - 259 object(s).
 - [Languages](languages/INDEX.md) - 80 object(s).
