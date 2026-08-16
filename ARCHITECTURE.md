@@ -53,45 +53,58 @@ If no, the runtime does not depend on it.
 18. The current staged-drawing process is frozen until explicitly streamlined
     later.
 
-## Two boundaries this contract does not yet draw
-
-Both are Skill Forge concerns, not PASS concerns. Neither blocks authoring, and
-neither should be built speculatively — they are recorded so they are not
-rediscovered as surprises.
+## The Skill Forge boundary
 
 **PASS is the workbench; Skill Forge is the repository of finished skillsets.**
 A validated card is not a skillset. `library/` holds domain knowledge being
 matured; a skillset is the mature assembled product built from it. Do not
 describe Skill Forge as "where finished cards go" — that collapses the two
-layers. As of 2026-08-16 no lane has crossed the threshold, so every skillset
-question below is still hypothetical.
+layers. As of 2026-08-16 no lane has crossed the threshold.
 
-### 1. Prerequisite skills are duplicated, not declared
+### Foundations ship as their own package
 
-`build_release.py` resolves a recipe's reference closure by **inclusion**: the
-C++ recipe names only `software-engineering/languages/cpp`, and the build
-correctly pulls in every `core` card that the C++ cards reference. Nothing
-dangles, so contract item 12 holds today.
+`build_release.py` currently resolves a recipe's reference closure by
+**inclusion**: the C++ recipe names only `software-engineering/languages/cpp`,
+and the build pulls in every `core` card those cards reference. Nothing dangles,
+so contract item 12 holds — but it holds by copying. That release ships 80 C++
+cards and 251 core cards, and every future language skill would carry its own
+copy of the same 251.
 
-It holds by copying. The C++ release ships 80 C++ cards and 251 core cards —
-core outruns the skill it supports by roughly three to one. Every future
-language skill would carry its own copy of the same 251.
+The intended shape is that a **core or foundational subtree becomes its own
+distributable package**, and dependent skills declare it as a prerequisite
+rather than absorbing it:
 
-That is fine until package-size limits force a mature domain to split into
-several distributable skills, at which point the closure needs to be **declared**
-rather than duplicated: `Figure Drawing` requires `Art Foundation`; a language
-skill requires `Software Engineering Core`. Prefer extending the existing recipe
-or module manifest to express that. Do not build a dependency database.
+```text
+Software Engineering Core          Art Foundation
+        ↑                                ↑
+   Python · C++ · JS               Figure Drawing · …
+```
+
+Two reasons, both practical: a foundation duplicated into every sibling
+consumes each one's package-size budget, and a foundation that ships once can be
+updated once.
+
+Express the dependency by extending the existing recipe or module manifest. Do
+not build a dependency database. A build must still prove the full transitive
+closure plus `metaskills` resolves before publishing — declaring a prerequisite
+replaces duplication, not verification.
 
 This is runtime/distribution metadata about finished packages. It is not retired
 authoring bureaucracy, and the prohibition below does not cover it.
 
-### 2. The maturity threshold is undefined
+### Maturity is declared by the user, never inferred
 
-Nothing currently answers "when is a domain finished enough to build into a
-skillset?" Card count does not answer it: a mature library correctly declines
-most of what it reads, so growth slows precisely as a domain becomes ready.
-Until the question is answered, treat every build as a development artifact.
+A domain is ready to build when **its reading list is complete and the user says
+so.** Both halves matter: the reading list is the scope, and the call is a
+human's.
+
+No agent may declare a domain mature. Nothing measurable supports the judgment —
+card count least of all, since a mature library correctly declines most of what
+it reads, so output slows exactly as readiness arrives. An agent seeing a run
+produce few cards is looking at the same signal a saturated domain and a badly
+read source both produce.
+
+Until the user says otherwise, treat every build as a development artifact.
 
 ## What this architecture must not grow back
 
