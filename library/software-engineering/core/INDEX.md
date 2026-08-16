@@ -129,6 +129,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Code Comprehension](code-comprehension/INDEX.md) - 23 object(s).
 - [Code Quality](code-quality/INDEX.md) - 9 object(s).
 - [Contracts](contracts/INDEX.md) - 9 object(s).
+- [Control Flow](control-flow/INDEX.md) - 3 object(s).
 - [Data Types](data-types/INDEX.md) - 3 object(s).
 - [Deliberate Practice](deliberate-practice/INDEX.md) - 14 object(s).
 - [Design](design/INDEX.md) - 11 object(s).

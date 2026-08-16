@@ -44,6 +44,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Make Call-Site Arguments Self-Explanatory](PAT_use_named_arguments_for_readable_calls.md) - pattern; 3 rough.
 - [Make Order Dependencies Visible](PAT_make_order_dependencies_visible.md) - pattern; 3 rough.
 - [Minimize Nesting With Early Returns and Function Extraction](PAT_minimize_nesting_with_early_returns.md) - pattern; 3 rough.
+  - Variants: `Run the Nominal Path Down the If Branches and Stack the Errors` (method_sequence).
 - [Name a Boolean for the Condition It Asserts](PAT_name_a_boolean_for_the_condition_it_asserts.md) - pattern; 3 rough.
 - [Name the Problem, Not the Computation](PAT_name_the_problem_not_the_computation.md) - pattern; 3 rough.
 - [Rename Nondescriptive Code and Drop the Redundant Comments](DRILL_rename_nondescriptive_code.md) - drill; 3 rough.
