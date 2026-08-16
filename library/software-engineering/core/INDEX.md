@@ -15,6 +15,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Work Out Which Stage a Learner Is At Before Choosing How to Help
 - **Change Structure or Change Behaviour, Never Both in One Pass** — read first
   - then: Refactor Working Code Without Breaking It
+- **Choose the Level Before You Touch the Code** — read first
+  - then: Tune a Measured Bottleneck
 - **Choose the Problem's Representation Before Solving It** — read first
   - then: Add Detail Until the Model Admits One Reading
 - **Classify Error Recoverability From the Caller's Position** — read first
@@ -89,6 +91,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Match the Caller's Mental Model
   - then: Reuse Existing Solutions Instead of Reinventing
   - then: Write Code That Reads Like a Well-Structured Recipe
+- **Let Measurement Decide What to Tune, Never Intuition** — read first
+  - then: Tune a Measured Bottleneck
 - **Make Wrong Usage Hard or Impossible** — read first
   - then: Keep Classes Immutable With Builder or Copy-on-Write
   - then: Keep a Single Source of Truth for Data
@@ -140,6 +144,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Error Handling](error-handling/INDEX.md) - 20 object(s).
 - [Hard To Misuse](hard-to-misuse/INDEX.md) - 12 object(s).
 - [Modularity](modularity/INDEX.md) - 12 object(s).
+- [Performance](performance/INDEX.md) - 3 object(s).
 - [Problem Solving](problem-solving/INDEX.md) - 11 object(s).
 - [Readability](readability/INDEX.md) - 30 object(s).
 - [Refactoring](refactoring/INDEX.md) - 4 object(s).
