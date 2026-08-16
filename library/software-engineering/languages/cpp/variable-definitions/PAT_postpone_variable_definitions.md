@@ -12,7 +12,7 @@ lane_fit: both
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: language
-foundation_object_id: none
+foundation_object_id: PAT_declare_and_initialize_at_first_use
 tags:
 - cpp
 - variable_definitions
@@ -21,6 +21,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_initialize_members_with_init_list
+- rel: variant_of
+  target_object_id: PAT_declare_and_initialize_at_first_use
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

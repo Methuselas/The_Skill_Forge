@@ -28,7 +28,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Judge Code Against the Four Quality Goals](PAT_evaluate_code_against_quality_goals.md) - pattern; 0 design.
   - Variants: `Judge a Codebase by What It Does to Its Readers` (method_sequence).
 - [Make Code Adaptable Without Predicting Specific Changes](PAT_balance_adaptability_without_predicting_future.md) - pattern; 0 design.
-  - Variants: `Isolate the Categories That Are Historically Volatile` (method_sequence).
+  - Variants: `Isolate the Categories That Are Historically Volatile` (method_sequence); `Choose How Late Each Value Is Bound` (method_sequence).
 - [Name Which Cognitive Process a Code Smell Breaks](PAT_diagnose_a_code_smell_by_the_cognitive_process_it_breaks.md) - pattern; 3 rough.
 - [Reuse Existing Solutions Instead of Reinventing](PAT_reuse_before_reinventing.md) - pattern; 0 design.
   - Variants: `Know the C++ Standard Library and TR1 So You Reuse Them` (emphasis); `Custom-Build the Parts a First-Class Product Cannot Buy` (constraint).
