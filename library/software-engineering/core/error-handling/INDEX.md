@@ -30,6 +30,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - Variants: `Normalize the Representation at the Same Boundary` (context).
 - [Fail Fast So Errors Surface Near Their Source](PAT_fail_fast_near_error_source.md) - pattern; 2 block.
 - [Fail Loudly and Signal Unrecoverable Errors Implicitly](PAT_fail_loudly_and_signal_unrecoverable_errors_implicitly.md) - pattern; 2 block.
+- [Instrument for Defects That Cannot Announce Themselves](PAT_instrument_for_defects_that_cannot_announce_themselves.md) - pattern; 3 rough.
 - [Isolate Failures at the Right Scope of Recoverability](PAT_match_failure_to_scope_of_recoverability.md) - pattern; 0 design.
 - [Let the Development Build Be Obnoxious and the Shipped One Graceful](PAT_make_the_development_build_fail_louder_than_production.md) - pattern; 2 block.
 - [Make Async Error Signaling Explicit With a Promise of a Result](PAT_signal_async_errors_with_promise_of_result.md) - pattern; 2 block.

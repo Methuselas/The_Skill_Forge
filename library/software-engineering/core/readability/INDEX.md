@@ -33,6 +33,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Flatten Deeply Nested Logic With Early Returns and Extraction](DRILL_flatten_deeply_nested_logic.md) - drill; 3 rough.
 - [Follow a Consistent Coding Style Guide](PAT_follow_a_consistent_coding_style.md) - pattern; 3 rough.
   - Variants: `Prefer Camel Case When the Convention Is Actually Yours to Pick` (constraint); `Settle the Conventions Before Construction, Because They Cannot Be Retrofitted` (method_sequence).
+- [Give Every Participant in an Operation a Name](PAT_give_every_participant_in_an_operation_a_name.md) - pattern; 3 rough.
 - [Give Unexplained Values a Name](PAT_name_unexplained_values.md) - pattern; 3 rough.
   - Variants: `Draw the Line at Zero and One Rather Than at Obviousness` (method_sequence).
 - [Hunt for Names That Contradict What the Code Does](PAT_detect_linguistic_antipatterns_in_names.md) - pattern; 4 final.

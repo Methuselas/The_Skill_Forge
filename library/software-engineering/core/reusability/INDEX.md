@@ -16,6 +16,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 ## Objects
 
 - [Avoid Global State; Dependency-Inject Shared State](PAT_avoid_global_state_inject_shared_state.md) - pattern; 2 block.
+  - Variants: `Contain a Global Behind Access Routines When You Cannot Remove It` (method_sequence).
 - [Avoid Unnecessary Assumptions and Enforce Necessary Ones](PAT_beware_assumptions_avoid_or_enforce.md) - pattern; 2 block.
 - [Design Code to Be Reusable and Generalizable](PAT_make_code_reusable_and_generalizable.md) - pattern; 2 block.
   - Variants: `Harvest Reuse at the End Rather Than Designing for It` (method_sequence).
