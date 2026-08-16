@@ -33,9 +33,31 @@ python PASS/tools/build_release.py build workspace/release-recipes/<recipe>.yaml
 
 ## Training notes
 
-Guided-teaching notes (for example `art/training-notes/`) live here as local
-scratch. They are raw material for authoring skill cards later, not repository
-content, and no tool reads them. Keep them as long as they are useful to you.
+`art/training-notes/` is tracked — the one exception to this directory being
+scratch. Everything else here is yours and disposable.
+
+Those notes record corrections given during guided teaching runs: where a
+source's method was bounded, where a literal reading would have produced a wrong
+card, where a technique turned out to be one option rather than a law. Some of
+that judgment reached the cards; the reasoning behind it did not, because a card
+carries the decision and not the argument that shaped it.
+
+They are **not canonical**. No tool reads them, no build includes them, no card
+depends on them, and deleting them cannot invalidate the library. They are also
+not retired, so they do not belong in `archive/`.
+
+They are practice history — the class of knowledge that sits between a finished
+card and a practitioner's own memory, described in `PASS/docs/PASS_RUN.md` §5.
+
+**This is a holding position, not a home.** They are tracked here only because
+the practice-memory layer does not exist yet, and untracked they would live on
+one machine and vanish with it. When that layer is designed, these move into it
+or are superseded by it, and this exception and the `.gitignore` line that
+carves it out both go away. Nothing should be built that depends on them
+staying.
+
+Do not promote their contents into cards wholesale. An observation from a
+teaching run is evidence, not a Pattern; the buffer rule in §5 applies.
 
 ## Historical local state
 

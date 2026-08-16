@@ -8,6 +8,10 @@ workspace/releases/
 # invalidate the library. See workspace/authoring/README.md.
 workspace/authoring/*
 !workspace/authoring/README.md
+# Exception: the guided-teaching notes are the only surviving record of
+# corrections given during those runs. Nothing reads them and no build touches
+# them, but untracked they would exist on exactly one machine.
+!workspace/authoring/art/
 
 # Agent scratch space
 tmp/
