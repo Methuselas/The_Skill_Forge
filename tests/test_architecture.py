@@ -38,6 +38,23 @@ DOMAINS = tuple(
 RETIRED_STATE = ("workspace", "sources", "ledger", "provenance", "renders", "tmp")
 
 
+RULE_LEAD_RE = re.compile(r"^\s*(?:[-*]|\d+\.)\s+\*\*(.+?)\*\*", re.MULTILINE | re.DOTALL)
+
+
+def agent_rule_leads(filename: str, heading: str) -> set[str]:
+    """Bold lead sentences of the rules under `heading`, normalized for comparison.
+
+    Whitespace and line wrapping differ between the two files; the wording must
+    not. Normalizing newlines lets each file wrap to its own width.
+    """
+    text = (ROOT / filename).read_text(encoding="utf-8")
+    start = text.index(heading) + len(heading)
+    rest = text[start:]
+    end = rest.find("\n## ")
+    section = rest if end == -1 else rest[:end]
+    return {" ".join(lead.split()) for lead in RULE_LEAD_RE.findall(section)}
+
+
 def run(*args: object) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         [sys.executable, str(BUILDER), *map(str, args)],
@@ -352,25 +369,28 @@ class RepositoryShapeTests(unittest.TestCase):
     def test_pass_dependency_manifest_exists(self) -> None:
         self.assertTrue((ROOT / "PASS/requirements.txt").is_file())
 
-    def test_agent_instruction_files_carry_the_same_hard_rules(self) -> None:
-        # CLAUDE.md and AGENTS.md state the same contract for different agents.
-        # Two copies drift, so every load-bearing rule must appear in both.
-        required = {
-            "source independence": ("source is gone", "source_id"),
-            "one domain per run": ("one domain",),
-            "shared metaskills only": ("metaskills",),
-            "no rebuilding retired state": ("ledger", "provenance", "attestation"),
-            "archive is inert": ("archive/",),
-            "art stages frozen": ("Art Stages", "staged-drawing", "Stages"),
-        }
-        for name in ("CLAUDE.md", "AGENTS.md"):
-            text = (ROOT / name).read_text(encoding="utf-8")
-            for rule, needles in required.items():
-                with self.subTest(file=name, rule=rule):
-                    self.assertTrue(
-                        any(needle.lower() in text.lower() for needle in needles),
-                        f"{name} does not state the '{rule}' rule",
-                    )
+    def test_agent_instruction_files_state_the_same_hard_rules(self) -> None:
+        # CLAUDE.md and AGENTS.md are the same contract written for different
+        # agents. Checking that keywords merely appear in both is too weak: one
+        # file could contradict the other and still pass, because the word it
+        # contradicts is present either way. Instead each rule leads with a bold
+        # sentence that is shared verbatim, and the two sets must match exactly.
+        # A rule added, dropped, or reworded on one side alone fails here.
+        claude = agent_rule_leads("CLAUDE.md", "## Hard rules")
+        agents = agent_rule_leads("AGENTS.md", "## Non-negotiable boundaries")
+
+        self.assertTrue(claude, "no bold rule leads found in CLAUDE.md")
+        self.assertGreaterEqual(len(claude), 10, "hard-rule list looks truncated")
+
+        only_claude = sorted(claude - agents)
+        only_agents = sorted(agents - claude)
+        self.assertEqual(
+            (only_claude, only_agents),
+            ([], []),
+            "CLAUDE.md and AGENTS.md state different rules.\n"
+            f"  only in CLAUDE.md: {only_claude}\n"
+            f"  only in AGENTS.md: {only_agents}",
+        )
 
     def test_retired_authoring_infrastructure_is_gone(self) -> None:
         for path in (

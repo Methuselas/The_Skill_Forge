@@ -19,6 +19,10 @@ archive/          retired material — nothing active may depend on it
 These prevent damage. `ARCHITECTURE.md` is the canonical contract; this is the
 working summary.
 
+Each rule's **bold lead sentence is shared verbatim with `AGENTS.md`** and a test
+enforces that the two files state the same set. Edit a lead here, edit it there.
+The prose after each lead is this file's own.
+
 1. **A card must be valid and executable after its source is gone.** Never write a
    `source_id`, locator, page number, or hash onto a card. `reference` is optional
    attribution (`source_title`, `author`) and nothing reads it.
@@ -28,28 +32,39 @@ working summary.
    library-wide.
 3. **Cards may reference their own package plus `metaskills`.** Any other
    cross-package reference fails validation (rule 26).
-4. **Do not rebuild the retired authoring infrastructure** — ledgers, source
+4. **Do not rebuild the retired authoring infrastructure.** Ledgers, source
    staging, provenance receipts, attestations, source projections, state sidecars,
-   registries of read material, or a shared Teaching lane. All were deleted
+   registries of read material, and a shared Teaching lane were all deleted
    2026-08-15; see `docs/CLEANUP_2026-08-15.md`. When something seems to need
    tracking — what was read, which pages, which candidates were rejected — do not
    add it. Prefer deletion over abstraction, plain files over state machinery.
 5. **Never widen the schema to accommodate a card.** A card that disagrees with its
    template is the card's bug.
-6. **Do not modify the Art Stages** unless the user explicitly starts the
-   Stage-streamlining work.
+6. **Do not modify the Art Stages.** They are frozen unless the user explicitly
+   starts the Stage-streamlining work.
 7. **`.claude/` and `.agents/` are repo discovery only.** They must never ship as
    runtime dependencies of a release.
-8. **Indexes are generated.** Do not hand-edit `INDEX.md`; run `build_index.py`.
-9. **Front matter may not set a source's subject.** A preface, foreword, or
-   introduction is read for orientation only. The subject is what the
-   instructional body teaches you to do. A preface addressed to instructors is
-   metadata about the preface, not evidence that a craft book is pedagogy.
-10. **A session boundary never creates a unit boundary.** Units are set by
+8. **Indexes are generated, never hand-edited.** Do not edit `INDEX.md`; run
+   `build_index.py`. An index that cannot be deleted and regenerated from the
+   cards has become a second database.
+9. **`archive/` is retired material.** Nothing active may depend on it.
+10. **Every release ships `metaskills` and its complete prerequisite closure.**
+    A build that omits a referenced card is broken even when the source library
+    validates.
+11. **Do not add a global registry, repo-wide index, or new architectural
+    convention without explicit authorization.** This is the shape the retired
+    machinery grew back in last time.
+12. **A hardcoded path left by an earlier agent is technical debt, not
+    architecture.** Do not treat it as a constraint to preserve.
+13. **Front matter may not set a source's subject.** A preface, foreword, or
+    introduction is read for orientation only. The subject is what the
+    instructional body teaches you to do. A preface addressed to instructors is
+    metadata about the preface, not evidence that a craft book is pedagogy.
+14. **A session boundary never creates a unit boundary.** Units are set by
     instruction; context exhaustion is a separate problem. When a unit does not
     fit the remaining window, checkpoint and resume the same unit — never split
     it to make it fit.
-11. **Practice history must not enter cards.** What one attempt revealed about
+15. **Practice history must not enter cards.** What one attempt revealed about
     application, calibration, or failure is not a Pattern. Attribute a failure
     before writing a card about it: missing knowledge justifies a card, while
     retrieval, application, continuity, reference, tool, and interface failures

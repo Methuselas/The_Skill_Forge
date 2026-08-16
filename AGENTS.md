@@ -9,28 +9,38 @@ authoring loop.
 
 ## Non-negotiable boundaries
 
+Each rule's **bold lead sentence is shared verbatim with `CLAUDE.md`** and a test
+enforces that the two files state the same set. Edit a lead here, edit it there.
+The prose after each lead is this file's own.
+
 - **A card must be valid and executable after its source is gone.** No card
   carries a source id, locator, page number, hash, receipt, or attestation.
-- **Author in one domain.** `art`, `writing`, and `software-engineering` are
-  independent. Do not inspect, synchronize with, or modify another domain in
-  order to author yours.
-- Cards may reference cards in their own domain plus `metaskills`. Any other
+- **Author in one domain per run.** `art`, `writing`, and `software-engineering`
+  are independent. Do not inspect, synchronize with, or modify another domain in
+  order to author yours. Duplicate-guard against your own domain only; card IDs
+  are unique library-wide.
+- **Cards may reference their own package plus `metaskills`.** Any other
   cross-package reference fails validation.
-- Duplicate-guard against your own domain only. Card IDs are unique library-wide.
-- Every release includes `library/metaskills` and the complete prerequisite
-  closure.
-- Do not add a global registry, repo-wide index, permanent root-level tool, or new
-  architectural convention without explicit authorization.
-- Do not rebuild the retired authoring infrastructure — ledgers, source staging,
-  provenance receipts, attestations, source projections, state sidecars, or a
-  shared Teaching lane. See the end of `ARCHITECTURE.md`.
-- A hardcoded path created by an earlier agent is technical debt, not
-  architecture.
-- `.agents/` and `.claude/` are repo discovery/integration only; they must never
-  ship as runtime dependencies of a release.
-- `archive/` is retired material. Nothing active may depend on it.
-- Art's staged-drawing material is frozen until the user explicitly asks to
-  revise it.
+- **Do not rebuild the retired authoring infrastructure.** Ledgers, source
+  staging, provenance receipts, attestations, source projections, state sidecars,
+  and a shared Teaching lane are all retired. See the end of `ARCHITECTURE.md`.
+- **Never widen the schema to accommodate a card.** A card that disagrees with
+  its template is the card's bug.
+- **Do not modify the Art Stages.** Art's staged-drawing material is frozen until
+  the user explicitly asks to revise it.
+- **`.claude/` and `.agents/` are repo discovery only.** They must never ship as
+  runtime dependencies of a release.
+- **Indexes are generated, never hand-edited.** Run `build_index.py`. An index
+  that cannot be deleted and regenerated from the cards has become a second
+  database.
+- **`archive/` is retired material.** Nothing active may depend on it.
+- **Every release ships `metaskills` and its complete prerequisite closure.** A
+  build that omits a referenced card is broken even when the source library
+  validates.
+- **Do not add a global registry, repo-wide index, or new architectural
+  convention without explicit authorization.** Nor a permanent root-level tool.
+- **A hardcoded path left by an earlier agent is technical debt, not
+  architecture.** Do not treat it as a constraint to preserve.
 - **Front matter may not set a source's subject.** A preface, foreword, or
   introduction is read for orientation only. The subject is what the
   instructional body teaches you to do. A preface addressed to instructors is
