@@ -45,6 +45,7 @@ variants:
 - Read what the warning is really telling you: "private member `displayName` can be removed as the value assigned to it is never read" is the compiler pointing straight at a `getDisplayName()` that wrongly returns the real name.
 - Configure warnings as errors where you can, so warnings cannot be silently ignored and every one must be addressed.
 - When a warning is genuinely a false alarm, suppress just that warning with an explanation — a targeted `@Suppress("unused")` plus a comment and an issue link — never by turning warnings off wholesale.
+- Fix the warning level itself as a project-wide setting rather than a personal one. Where each author compiles at their own level, the warnings are clean for everyone individually and a flood appears the moment the parts are integrated, which is the worst time to meet them. A shared build script or make file makes the setting the default rather than a matter of discipline.
 
 ## Don't
 - Don't dismiss warnings as unimportant because the build passed; an ignored one here hides a bug that leaks a user's real name in place of their display name.
@@ -54,6 +55,7 @@ variants:
 - Has every compiler warning been either fixed or explicitly suppressed with a reason?
 - Does each suppression name why it is safe, ideally with a tracking link?
 - Are warnings configured to fail the build so none slip through unnoticed?
+- Is the warning level set by the project's build, or by whatever each person happens to have configured?
 
 ## Notes
 Long's `UserInfo` example shows a warning catching a real, privacy-violating bug that tests might have missed: an unused-field warning is the visible symptom of a getter returning the wrong field. The rule extends the chapter-3 idea of making breakage fail at compile time — warnings are the compiler's softer signal of suspicious code, and the disciplined end state is a clean build where every warning has been fixed or suppressed with a documented, valid reason.
