@@ -34,6 +34,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Follow a Consistent Coding Style Guide](PAT_follow_a_consistent_coding_style.md) - pattern; 3 rough.
   - Variants: `Prefer Camel Case When the Convention Is Actually Yours to Pick` (constraint); `Settle the Conventions Before Construction, Because They Cannot Be Retrofitted` (method_sequence).
 - [Give Unexplained Values a Name](PAT_name_unexplained_values.md) - pattern; 3 rough.
+  - Variants: `Draw the Line at Zero and One Rather Than at Obviousness` (method_sequence).
 - [Hunt for Names That Contradict What the Code Does](PAT_detect_linguistic_antipatterns_in_names.md) - pattern; 4 final.
 - [Judge Names When You Are Not the One Solving the Problem](PAT_review_names_outside_the_coding_moment.md) - pattern; 4 final.
 - [Let a Name's Length Signal Its Scope](PAT_let_name_length_signal_scope.md) - pattern; 3 rough.

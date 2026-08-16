@@ -35,4 +35,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Translate Each Function Into a Sentence and Split the Clunky Ones](DRILL_translate_functions_into_sentences.md) - drill; 3 rough.
 - [Tune Layer Thickness and Err on the Side of Thin](PAT_tune_layer_thickness_err_thin.md) - pattern; 2 block.
 - [Two Lines Are Enough to Justify a Routine](PAT_extract_a_routine_even_when_it_seems_too_small.md) - pattern; 3 rough.
-  - Variants: `Split Where One Design Line Explodes Into Code` (method_sequence).
+  - Variants: `Split Where One Design Line Explodes Into Code` (method_sequence); `Name the Sub-Conditions in Local Booleans` (method_sequence).

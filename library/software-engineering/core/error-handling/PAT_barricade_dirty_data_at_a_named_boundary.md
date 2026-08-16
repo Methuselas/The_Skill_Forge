@@ -27,7 +27,14 @@ reference:
   author: Steve McConnell
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_normalize_representation_at_the_same_boundary
+  variant_name: Normalize the Representation at the Same Boundary
+  variant_basis: context
+  difference_from_foundation: The foundation draws the line where data becomes *trusted* — outside it is unvalidated, inside it is known good. This variant draws the same line for a different property, where data becomes *canonically represented*. Pick one internal format, hold every value in the program in that format, and convert to and from other formats as close as possible to the input and output operations. The worked case is character encoding, where the decision is which character set the interior speaks — a single alphabetic language can sit on an extended-ASCII standard, while anything needing multiple languages or an ideographic script needs the fuller international one — but the shape applies to any representation the outside world supplies in several forms. The addition the foundation does not carry is that this decision has to be made early in a program's life. Validation can be retrofitted at a boundary that already exists; a representation choice cannot, because by the time the interior is mixed there is no boundary left to convert at.
+  when_to_use: Use when values arrive in more than one representation of the same thing — encodings, units, time zones, numeric formats — and the interior would otherwise carry the variation. It composes with the foundation rather than competing, since the point where data is checked is usually the natural point to convert it, and one boundary doing both is cheaper to reason about than two.
+  when_not_to_use: Do not read it as licence to convert eagerly everywhere. The instruction is one format inside and conversion at the edges, not conversion whenever formats meet, which is how a program ends up converting the same value repeatedly. It also does not settle which format the interior should use — that is a domain decision about what has to be represented, and this only requires that a choice be made and held.
+  absorbed_from_object_id: none
 ---
 
 # Draw a Line Where Data Becomes Trusted
@@ -64,3 +71,5 @@ The value of naming the boundary is that it converts a question every routine fa
 The image McConnell uses is worth keeping because it carries the consequence: compartments in a ship's hull. Hitting an iceberg opens one compartment, and the rest of the ship is unaffected. The operating-room version is the same idea from the other side — data is sterilized before it enters, everything inside is assumed safe, and the design decisions are what to admit, what to keep out, and where to put the doors.
 
 The most useful consequence is that the boundary makes a second decision mechanical. Code outside it must use error handling, because no assumption about the data is safe. Code inside it should use assertions, because the data was supposed to have been sanitized on the way in — so a bad value detected there is a defect in the program rather than a defect in the data. That classification is otherwise a judgment call made per-check; with a boundary in place it follows from where the code sits.
+
+`VAR_normalize_representation_at_the_same_boundary` runs the same architecture for a second property. Where this card's line separates unchecked data from trusted data, the variant's separates the outside world's many representations of a value from the one representation the interior speaks — hold everything internally in a single format and convert as close to the input and output operations as you can get. Character encoding is the worked case, and the general shape covers units, time zones, and numeric formats equally. The two decisions want the same boundary, because the place where a value is checked is the natural place to convert it, and one crossing that does both is easier to reason about than two that do one each. One warning does not transfer from the foundation, though: validation can be added later to a boundary that already exists, whereas a representation policy cannot be retrofitted once the interior holds a mixture, because there is no longer a single place where the conversion could go. That is why this decision belongs early in a program's life rather than at the point it first hurts.

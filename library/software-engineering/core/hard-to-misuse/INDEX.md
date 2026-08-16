@@ -29,3 +29,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Replace an Overly General Type With a Dedicated Type](DRILL_replace_general_type_with_dedicated_type.md) - drill; 3 rough.
 - [Represent Time With Dedicated Types, Not Integers](PAT_use_dedicated_time_types.md) - pattern; 2 block.
 - [Use a Dedicated Type Instead of an Overly General One](PAT_use_dedicated_types_over_general_ones.md) - pattern; 2 block.
+  - Variants: `Alias the Type When a Class Is Too Big a Step` (method_sequence).

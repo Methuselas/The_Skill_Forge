@@ -27,6 +27,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Decide How to Signal and Handle an Error](AP_decide_how_to_signal_and_handle_an_error.md) - ap; 2 block.
 - [Don't Hide Errors Behind Default or Silent Results](PAT_dont_hide_errors.md) - pattern; 2 block.
 - [Draw a Line Where Data Becomes Trusted](PAT_barricade_dirty_data_at_a_named_boundary.md) - pattern; 0 design.
+  - Variants: `Normalize the Representation at the Same Boundary` (context).
 - [Fail Fast So Errors Surface Near Their Source](PAT_fail_fast_near_error_source.md) - pattern; 2 block.
 - [Fail Loudly and Signal Unrecoverable Errors Implicitly](PAT_fail_loudly_and_signal_unrecoverable_errors_implicitly.md) - pattern; 2 block.
 - [Isolate Failures at the Right Scope of Recoverability](PAT_match_failure_to_scope_of_recoverability.md) - pattern; 0 design.
