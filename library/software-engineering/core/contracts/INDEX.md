@@ -18,11 +18,10 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Classify a Contract's Terms as Unmistakable or Small Print](DRILL_classify_contract_terms_unmistakable_vs_small_print.md) - drill; 2 block.
 - [Convey How to Use Code Through Names and Types, Not Documentation](PAT_convey_usage_through_names_and_types.md) - pattern; 2 block.
 - [Enforce Contracts at Runtime With Loud Checks](PAT_enforce_contracts_at_runtime_with_checks.md) - pattern; 3 rough.
-  - Variants: `Enforce With Assertions That May Compile Out` (constraint); `Split Never-Happens From Expected Before Choosing the Check` (method_sequence).
+  - Variants: `Enforce With Assertions That May Compile Out` (constraint).
 - [Harden a Code Contract From Small Print to Enforcement](AP_harden_a_code_contract.md) - ap; 3 rough.
 - [Identify Your Code's Contract Explicitly](PAT_define_your_code_contract_explicitly.md) - pattern; 0 design.
 - [Make Breakage Fail at Compile Time or Fail a Test](PAT_make_breakage_fail_compile_or_test.md) - pattern; 0 design.
-  - Variants: `Convert Semantic Interface Terms Into Programmatic Ones` (method_sequence).
 - [Make Misuse Impossible by Removing Invalid States](PAT_make_misuse_impossible_by_removing_invalid_states.md) - pattern; 2 block.
 - [Prefer Unmistakable Contract Terms Over Small Print](PAT_prefer_unmistakable_over_small_print.md) - pattern; 2 block.
 - [Refactor a Small-Print Class to Be Impossible to Misuse](DRILL_refactor_small_print_class_to_impossible_to_misuse.md) - drill; 3 rough.

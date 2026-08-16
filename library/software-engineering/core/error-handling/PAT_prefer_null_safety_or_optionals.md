@@ -23,14 +23,7 @@ reference:
   author: Tom Long
 confidence: high
 references: []
-variants:
-- variant_id: VAR_error_signal
-  variant_name: Nullable Return as an Explicit Error Signal
-  variant_basis: context
-  difference_from_foundation: Applies the nullable/optional return specifically to signal that a function could not produce a result (an error), not merely that a value is optional. Under null safety this is an explicit signal because the caller is forced to handle the null before use.
-  when_to_use: When a function can fail but the caller does not need to know why — the mere fact that no value could be produced is enough, as in a square-root function returning null for a negative input.
-  when_not_to_use: When the caller needs the reason for the failure; null carries no error detail, so reach for a result type instead. Also weak where the language lacks null safety and the return can be silently dereferenced.
-  absorbed_from_object_id: none
+variants: []
 ---
 
 # Signal Absent Values With Null Safety or Optionals
@@ -43,6 +36,7 @@ variants:
 - Default everything to non-nullable and opt specific things into nullability: under the book's convention a `?` suffix (`Element?`) marks a type that can be null and the compiler blocks use until it is checked.
 - Where null safety is unavailable, reach for an optional type (`Optional`, Rust's `Option`, C++'s equivalent) and return `Optional.empty()` instead of a bare null.
 - Turn on null safety if your language supports or can retrofit it (newer languages by default, opt-in in recent C#, retrofittable in Java).
+- Use the same return to signal that a function could not produce a result at all, not merely that a value is optional. Under null safety the caller is forced to handle the null before use, which makes the failure explicit — but only reach for it when the bare fact of failure is enough, and use a result type the moment the caller needs the reason.
 
 ## Don't
 - Don't return a bare, unmarked null that callers can dereference without checking — that is the road to `NullPointerException`, `NullReferenceException`, and "cannot read property of null."
@@ -56,4 +50,4 @@ variants:
 ## Notes
 This establishes the book's pseudocode convention and a durable typing habit. Long frames nulls as straddling a dichotomy — genuinely useful for representing absence, genuinely dangerous because engineers forget to check them — and resolves it with compiler-enforced null safety or optionals rather than either raw nulls or an absolutist ban. It is the foundation that later error-signaling techniques, such as nullable and optional return types, build on when a function may be unable to produce a result.
 
-The absorbed variant (VAR_error_signal) applies the same nullable/optional return as an explicit error signal: when a function cannot produce a result, returning null under null safety forces the caller to acknowledge the failure before using the value, which makes it an explicit technique. Its limit is that null conveys no reason for the failure, so a result type is preferable when the caller needs error detail — Long shows this with a square-root function that returns null for a negative input and needs a comment to explain what the null means.
+Signalling failure is the same move used for a second purpose. Returning null under null safety forces the caller to acknowledge that no value was produced before using the result, so absence and failure share one compiler-enforced channel. The limit is that null conveys no reason — Long's square-root function returns null for a negative input and needs a comment to say what the null means, which is the signal that a result type would carry the information better. The technique is also weak in a language without null safety, where the return can be silently dereferenced and the caller is never forced to look.

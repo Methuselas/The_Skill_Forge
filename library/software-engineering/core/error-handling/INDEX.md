@@ -24,11 +24,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Classify an Error's Recoverability From Each Call Site](DRILL_classify_error_recoverability_from_call_site.md) - drill; 2 block.
 - [Classify Error Recoverability From the Caller's Position](PAT_classify_error_recoverability_by_caller.md) - pattern; 0 design.
 - [Decide Error Handling Once for the System, Not Once Per Function](PAT_settle_one_error_handling_strategy_systemwide.md) - pattern; 0 design.
-  - Variants: `Settle the Cleanup Mechanism, Not Just the Handling Policy` (context).
 - [Decide How to Signal and Handle an Error](AP_decide_how_to_signal_and_handle_an_error.md) - ap; 2 block.
 - [Don't Hide Errors Behind Default or Silent Results](PAT_dont_hide_errors.md) - pattern; 2 block.
 - [Draw a Line Where Data Becomes Trusted](PAT_barricade_dirty_data_at_a_named_boundary.md) - pattern; 0 design.
-  - Variants: `Normalize the Representation at the Same Boundary` (context).
 - [Fail Fast So Errors Surface Near Their Source](PAT_fail_fast_near_error_source.md) - pattern; 2 block.
 - [Fail Loudly and Signal Unrecoverable Errors Implicitly](PAT_fail_loudly_and_signal_unrecoverable_errors_implicitly.md) - pattern; 2 block.
 - [Instrument for Defects That Cannot Announce Themselves](PAT_instrument_for_defects_that_cannot_announce_themselves.md) - pattern; 3 rough.
@@ -41,7 +39,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Return a Result Type to Convey the Error's Cause](PAT_return_result_type_to_convey_error_cause.md) - pattern; 2 block.
 - [Return an Outcome and Enforce That Callers Check It](PAT_return_outcome_and_enforce_return_check.md) - pattern; 2 block.
 - [Signal Absent Values With Null Safety or Optionals](PAT_prefer_null_safety_or_optionals.md) - pattern; 2 block.
-  - Variants: `Nullable Return as an Explicit Error Signal` (context).
 - [Signal One Error Several Ways and Compare the Tradeoffs](DRILL_signal_one_error_multiple_ways.md) - drill; 2 block.
 - [Treat Compiler Warnings as Potential Bugs](PAT_treat_compiler_warnings_as_potential_bugs.md) - pattern; 3 rough.
   - Variants: `Heed C++ Warnings but Don't Depend on Them` (emphasis).

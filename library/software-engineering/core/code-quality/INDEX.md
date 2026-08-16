@@ -33,6 +33,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Name the Quality Characteristics You Are Trading Away](PAT_name_the_quality_characteristics_you_trade_away.md) - pattern; 0 design.
 - [Name Which Cognitive Process a Code Smell Breaks](PAT_diagnose_a_code_smell_by_the_cognitive_process_it_breaks.md) - pattern; 3 rough.
 - [Reuse Existing Solutions Instead of Reinventing](PAT_reuse_before_reinventing.md) - pattern; 0 design.
-  - Variants: `Know the C++ Standard Library and TR1 So You Reuse Them` (emphasis); `Custom-Build the Parts a First-Class Product Cannot Buy` (constraint).
+  - Variants: `Know the C++ Standard Library and TR1 So You Reuse Them` (emphasis).
 - [Review a Codebase Against the Cognitive Dimensions](DRILL_run_a_cdcb_review_of_a_codebase.md) - drill; 0 design.
 - [Tune a Codebase for the Activities It Will Actually See](PAT_optimize_a_codebase_for_its_likely_activities.md) - pattern; 0 design.

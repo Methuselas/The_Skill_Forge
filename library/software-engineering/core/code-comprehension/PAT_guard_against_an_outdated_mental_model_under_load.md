@@ -29,14 +29,7 @@ reference:
   author: Felienne Hermans
 confidence: high
 references: []
-variants:
-- variant_id: VAR_hermans_actively_suppress_the_competing_old_conception
-  variant_name: Actively Suppress the Old Conception Rather Than Only Detecting It
-  variant_basis: method_sequence
-  difference_from_foundation: The foundation treats the old model as something to notice and route around once you catch it. This variant treats both models as simultaneously present and competing, so the move is not detection but active suppression — deliberately holding the intuitive answer down long enough to reason rather than react. Chapter 7 supplies the mechanism the foundation leaves open, that inhibitory control is what lets a correct conception win the competition, and the felt signal of it working is the wait-a-minute moment where the fast answer arrives and is overridden.
-  when_to_use: Use where the wrong answer arrives instantly and feels obvious, which is the signature of a strongly held prior conception rather than a gap in knowledge. It is also the right frame when a question gets harder — Galili and Bar found students who handled familiar mechanics problems correctly regressed to cruder wrong reasoning on more complicated ones, so rising difficulty is the trigger to expect competition.
-  when_not_to_use: Do not reach for it when the intuitive answer is simply absent and you are stuck rather than confidently wrong; there is no competing conception to inhibit, and the problem is missing knowledge. It also does not apply where the old model has never been learned, so nothing is there to resurface.
-  absorbed_from_object_id: none
+variants: []
 ---
 
 # Suspect an Outdated Mental Model When the Code Gets Hard
@@ -50,6 +43,8 @@ variants:
 - Name the model you intend to be reasoning with before working through a hard passage, so a substitution is detectable rather than invisible.
 - Check the specific pairs where a simpler predecessor exists: values against memory addresses when reading pointer-heavy code, and synchronous execution against asynchronous when debugging code that makes async calls.
 - Expect this of yourself in proportion to how much you have learned. Superseded models are not deleted, so the more revisions a concept has been through in your head, the more predecessors are available to intrude.
+- Hold the fast answer down rather than only noticing it. Both models are present and competing, so detection is not the end of the move — the intuitive answer has to be actively suppressed while you reason, and the wait-a-minute moment where it arrives and gets overridden is what that feels like from inside.
+- Treat a wrong answer that arrives instantly and feels obvious as the signature to watch for, and expect the competition to intensify as the question gets harder rather than easier.
 
 ## Don't
 - Don't assume that learning the correct model retired the old one. Information does not disappear from long-term memory, so there is always a risk of falling back on an incomplete model you learned earlier.
@@ -68,4 +63,6 @@ The programming cases are the direct analogues. Reading code that leans heavily 
 
 This complements the existing confusion-diagnosis foundation rather than duplicating it. That pattern sorts confusion into missing knowledge, missing information, and missing processing power; this one names a distinct cause that survives all three — the knowledge is present, and the wrong copy of it was fetched.
 
-`VAR_hermans_actively_suppress_the_competing_old_conception` retains **Actively Suppress the Old Conception Rather Than Only Detecting It** as a sharper method for the same decision. Chapter 7 returns to the snowman and supplies what chapter 6 left implicit — the two conceptions are both present and in competition, and recent research indicates that active inhibitory control is what lets the correct one win. The practical difference is that detection is not enough on its own; the intuitive answer has to be deliberately held down while you reason, which is what the wait-a-minute moment actually is. Galili and Bar's finding that students regressed to cruder reasoning specifically on harder mechanics questions makes rising difficulty the cue to expect the competition. Use it where a wrong answer arrives fast and feels obvious, and not where you are simply stuck, since then there is no rival conception to inhibit.
+Chapter 7 returns to the snowman and supplies the mechanism chapter 6 leaves implicit: the two conceptions are both present and in competition, and active inhibitory control is what lets the correct one win. That is why suppression, not detection, is where the work actually is — noticing the substitution is necessary but does nothing on its own, because the fast answer keeps arriving. Galili and Bar's finding that students who handled familiar mechanics problems correctly regressed to cruder wrong reasoning on more complicated ones makes rising difficulty the cue to expect competition rather than a reason to trust a confident answer.
+
+None of this applies where the intuitive answer is simply absent and you are stuck rather than confidently wrong; there is no rival conception to inhibit and the problem is missing knowledge, which is the confusion-diagnosis pattern's territory. It equally does not apply where the older model was never learned in the first place, since nothing is there to resurface.

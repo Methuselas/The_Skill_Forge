@@ -20,6 +20,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: DRILL_diagnose_and_rewrite_unreadable_procedure
+- rel: related_to
+  target_object_id: PAT_use_beacons_to_test_code_hypotheses
 - rel: prerequisite_for
   target_object_id: PAT_use_descriptive_names
 - rel: prerequisite_for
@@ -45,21 +47,7 @@ reference:
   author: Tom Long
 confidence: high
 references: []
-variants:
-- variant_id: VAR_cognition_design_patterns_as_chunks
-  variant_name: Use Known Design Patterns as Comprehension Chunks
-  variant_basis: emphasis
-  difference_from_foundation: Makes familiar design patterns an explicit readability device because a maintainer who recognizes the pattern can process its collaborating parts as one semantic chunk instead of reconstructing them line by line.
-  when_to_use: A design problem has a fitting established pattern and the intended maintainers know the pattern or its presence can be made explicit.
-  when_not_to_use: The pattern is unfamiliar to the team, does not fit the problem, or adds more indirection than the maintenance task earns.
-  absorbed_from_object_id: none
-- variant_id: VAR_cognition_semantic_beacons
-  variant_name: Plant Simple and Compound Semantic Beacons
-  variant_basis: emphasis
-  difference_from_foundation: Treats meaningful names, operators, control structures, comments, and cooperating code elements as deliberate signals that let a reader form and test a high-level hypothesis about the data structure or algorithm.
-  when_to_use: Writing or revising code whose purpose is difficult to infer quickly from a local reading.
-  when_not_to_use: A proposed signal would be redundant, misleading, or inconsistent with the behavior it is meant to reveal.
-  absorbed_from_object_id: none
+variants: []
 ---
 
 # Write Code That Reads Like a Well-Structured Recipe
@@ -73,6 +61,8 @@ variants:
 - Present logic as discrete steps or subproblems instead of one undifferentiated wall.
 - Name things for their role — "the bowl with melted butter and chocolate," not "A."
 - Keep related information together: put a quantity next to its ingredient, and state a precondition (preheat the oven) where it matters, not stranded at the end.
+- Reach for an established design pattern where one genuinely fits and the maintainers know it, or can be told it is there. A reader who recognises the pattern takes in its collaborating parts as one structure instead of rebuilding them line by line.
+- Plant beacons on purpose. Meaningful names, operators, and control structures are simple ones; combinations such as paired left and right fields, or a complete loop header, are compound ones that let a reader form and test a hypothesis about the data structure or algorithm before reading the details.
 
 ## Don't
 - Don't force readers to decipher vague single-letter labels or reconstruct meaning from an unstructured block of text.
@@ -87,6 +77,4 @@ variants:
 
 Long demonstrates poor readability with a brownie recipe rewritten as one wall of text: no title, vague labels ("A," "B," "C"), unstructured steps, and the oven-preheat instruction buried at the end. He maps each defect to a code equivalent — a reader struggles to see what the code does, how, what it needs, and what it returns. This is the "readable" pillar's foundation; chapter 5 specializes it into descriptive names, comment use, nesting depth, and named arguments. The paired drill runs the recipe rewrite as practice.
 
-Variant `VAR_cognition_design_patterns_as_chunks` (The Programmer's Brain, Chapter 2) adds a pattern-literacy route: when a fitting design pattern is familiar to the maintainer or explicitly identified, its participants can be processed as one known structure rather than rediscovered line by line. Use it only when the pattern fits and the audience can recognize it; an unfamiliar or gratuitous pattern adds indirection instead of reducing cognitive load.
-
-Variant `VAR_cognition_semantic_beacons` (The Programmer's Brain, Chapter 2) adds a signaling route. Meaningful names and operators are simple beacons, while combinations such as paired left/right fields or a complete loop header become compound beacons that reveal a data structure or operation. Use these signals to support a correct high-level hypothesis, but do not add redundant or misleading cues merely to make code look explanatory.
+Both of the last two Do items come from the chunking research (The Programmer's Brain, ch. 2), and both carry the same limit: they work on what the reader already holds, so neither is free. A design pattern the team does not know is indirection rather than a chunk, and a pattern forced onto a problem it does not fit costs more than the maintenance task earns. A beacon that is redundant, misleading, or inconsistent with the behaviour it advertises is worse than none, because a reader who tests a hypothesis against it draws the wrong conclusion with confidence. The reader-side counterpart is `PAT_use_beacons_to_test_code_hypotheses`; this card is the writer's half of the same mechanism.
