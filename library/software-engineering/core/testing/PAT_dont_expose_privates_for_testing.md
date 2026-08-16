@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_keep_tests_agnostic_to_implementation
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u11, pp. 305-308
-  evidence_type: text
 confidence: high
 references: []
 variants: []

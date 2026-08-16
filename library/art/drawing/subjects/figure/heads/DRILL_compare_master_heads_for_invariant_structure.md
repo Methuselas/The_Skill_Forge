@@ -29,13 +29,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_design_surface_anatomy_as_microgesture_on_parent_forms
 reference:
-  source_id: burne_hogarth_drawing_the_human_head
   source_title: Drawing the Human Head
   author: Burne Hogarth
-  publish_date: '1965'
-  media_type: book
-  locator: u06, physical pp. 128-130
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

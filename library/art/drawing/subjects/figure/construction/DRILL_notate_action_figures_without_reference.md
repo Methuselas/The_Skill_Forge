@@ -28,13 +28,8 @@ cross_links:
 - rel: teaches
   target_object_id: AP_notate_a_figure_in_structural_order
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch02, printed pp. 61-64
-  evidence_type: mixed
 confidence: high
 target_skill: inventing a readable action figure from internal visualization while preserving the torso-legs-arms-head construction order
 references: []
@@ -42,9 +37,6 @@ variants:
 - variant_id: VAR_bammes_rebuild_animal_action_from_simplified_forms_at_new_viewpoint
   variant_name: Rebuild Animal Action From Simplified Forms at a New Viewpoint
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u15, printed pp. 60-64; physical pp. 58-62
   difference_from_foundation: 'Adds Bammes''s animal visualization route: after systematic observation and anatomy study, reduce an animal action to linked trunk-neck-head and limb forms, establish the spatial directions and movement, differentiate the forms and add joints/free modeling masses, then reconstruct the same action from an altered viewing angle and optionally through a different medium or related animal type. The changed view is a test of internalized structure rather than a request to copy the original silhouette from memory.'
   when_to_use: Use after studying an animal pose, anatomy, or movement when you want to test whether the construction can be mentally rotated, adapted, and rebuilt instead of merely recalled from the original view.
   when_not_to_use: Do not use the imagination pass before the species structure and proportions have been studied, and do not invent unsupported anatomy merely to make the new angle look plausible.
@@ -52,9 +44,6 @@ variants:
 - variant_id: VAR_loomis_study_jointed_mannequin_then_invent_without_reference
   variant_name: Study Jointed-Mannequin Poses Before Inventing Without Reference
   variant_basis: method_sequence
-  source_id: andrew_loomis_fun_with_a_pencil
-  source_title: Fun With a Pencil
-  locator: u03, physical pp. 64-69, 86-93
   difference_from_foundation: 'Adds a study-to-invention ladder before the existing closed-reference action drill: reconstruct several observed jointed-mannequin poses from framework into simple masses without tracing, vary the proportions/head/action while the construction is still visible, then remove the mannequin and invent new actions using the internalized assembly logic.'
   when_to_use: 'Use when reference-free action notation repeatedly collapses because the learner has not yet internalized how the torso, pelvis, joints, and limbs assemble across varied poses.'
   when_not_to_use: 'Do not remain dependent on the mannequin after the construction becomes usable, and do not copy its outer contour; the endpoint is independent action invention with coherent attachments.'
@@ -62,9 +51,6 @@ variants:
 - variant_id: VAR_loomis_use_manikin_as_action_scaffold_not_lighting_model
   variant_name: Use the Manikin as an Action Scaffold, Not a Lighting Model
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u06, physical PDF pp. 99-104
   difference_from_foundation: 'Adds a bounded source-trust workflow to mannequin study: take pose, action, and general bulk from the articulated manikin; preserve that structural arrangement while adding muscles from dedicated anatomical reference; replace mannequin-specific joint shapes with living anatomy; then use life, photo, or other appropriate reference for light, value, and final surface behavior. The mannequin stabilizes action but is not treated as evidence for human anatomy or figure lighting.'
   when_to_use: 'Use when a dynamic invented pose needs a stable action scaffold but the mannequin''s simplified joints and surfaces are too crude to support anatomical or lighting decisions.'
   when_not_to_use: 'Do not copy wooden/plastic joint shapes as living anatomy, and do not use the mannequin''s simplified surface lighting as a proxy for the light-and-shadow behavior of a human body.'

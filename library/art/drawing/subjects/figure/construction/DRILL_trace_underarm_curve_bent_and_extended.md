@@ -23,13 +23,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_carry_underarm_curve_through_elbow
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 28-30
 confidence: high
 target_skill: finding and preserving the rear-armpit-to-outer-palm underarm rhythm across arm actions
 references: []

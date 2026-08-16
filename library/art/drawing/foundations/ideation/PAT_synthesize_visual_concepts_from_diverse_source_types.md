@@ -26,22 +26,14 @@ cross_links:
 - rel: related_to
   target_object_id: AP_alternate_search_and_control_cycles
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u08, physical pp. 210-215, 220
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_use_photography_as_bounded_study_or_creative_departure
   variant_name: Use Photography as Bounded Study or Creative Departure
   variant_basis: constraint
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u08, physical pp. 214-215
   difference_from_foundation: Uses a photograph either to study a specific visual relationship or as material to transform and combine, rather than allowing one photograph to become the automatic final answer.
   when_to_use: Use when photography captures inaccessible, fleeting, complex, or reference-rich information that can support observation or ideation.
   when_not_to_use: Do not let tracing, one-photo dependence, or mismatched camera/light information replace construction and drawing judgment when the task requires independent adaptation.
@@ -49,9 +41,6 @@ variants:
 - variant_id: VAR_use_memcaps_as_accumulated_project_experience_source
   variant_name: Use Memcaps as Accumulated Project Experience Source
   variant_basis: context
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u08, physical pp. 212-213; guided teaching 2026-08-13
   difference_from_foundation: Adapts Dodson's personal-experience source route to AI systems that possess durable, provenance-bearing project memory. Prior teachings, corrections, failures, successful outcomes, and judgments preserved in memcaps can be retrieved as learned project experience rather than fabricated as lived human experience.
   when_to_use: Use when a relevant memcap or other durable project-memory record actually exists and can supply prior lessons, failure modes, corrections, or successful precedents for the current visual problem.
   when_not_to_use: Do not invent memories, personal history, emotions, or prior lessons that are absent from the record; without a memcap, use current sources and user-provided context instead.
@@ -59,9 +48,6 @@ variants:
 - variant_id: VAR_loomis_normalize_reference_camera_and_light_before_synthesis
   variant_name: Normalize Reference Camera and Light Before Synthesis
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u01, physical PDF pp. 7, 10, 13-15, 18
   difference_from_foundation: Treats photographs, clippings, studies, or underlays as information to be rebuilt into one chosen viewpoint and one lighting logic instead of accepting each source's camera and illumination unchanged.
   when_to_use: Use when combining multiple visual references whose eye levels, perspective, scale cues, or light sources may conflict.
   when_not_to_use: Do not spend time normalizing a single authoritative reference when the task is direct observation or faithful study of that one setup.
@@ -69,9 +55,6 @@ variants:
 - variant_id: VAR_loomis_triangulate_portrait_identity_across_multiple_references
   variant_name: Triangulate Portrait Identity Across Multiple References
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u08, physical PDF p. 115
   difference_from_foundation: Uses several imperfect portrait references to infer the recurring structural identity of one subject before rebuilding that identity through a single chosen head construction, camera, and lighting system.
   when_to_use: Use when no single photograph cleanly reveals a person's stable character forms, especially when references vary in expression, camera, age, or lighting.
   when_not_to_use: Do not average away genuine asymmetry, age-specific traits, or distinctive forms merely because they vary across sources; and do not multiply references when one authoritative setup already supplies the required likeness.
@@ -79,9 +62,6 @@ variants:
 - variant_id: VAR_loomis_use_applied_realism_to_fortify_invention
   variant_name: Use Applied Realism to Fortify Invention
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u11, physical PDF p. 150
   difference_from_foundation: Starts from an invented or stylized creative proposition and recruits only the real-world structural, material, lighting, environmental, or behavioral evidence needed to make that proposition convincing, rather than treating reference fidelity as the goal.
   when_to_use: Use when imaginative, stylized, fictional, caricatured, or abstract subject matter needs factual credibility without surrendering the intended design.
   when_not_to_use: Do not use selective omission as an excuse for accidental anatomy, perspective, material, or lighting errors; and do not suppress relevant evidence when the task is faithful observation, documentation, or technical study.

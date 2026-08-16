@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_name_unexplained_values
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u05, pp. 124-128
-  evidence_type: text
 confidence: high
 target_skill: naming hard-coded values so their meaning and change-impact are visible
 references: []

@@ -26,13 +26,8 @@ cross_links:
 - rel: supports
   target_object_id: PAT_optimize_a_codebase_for_its_likely_activities
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u12, pp. 192-201
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

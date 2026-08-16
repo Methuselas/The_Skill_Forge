@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_make_code_readable
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 12-13
-  evidence_type: text
 confidence: high
 target_skill: recognizing and fixing the concrete failure modes that make a procedure unreadable
 references: []

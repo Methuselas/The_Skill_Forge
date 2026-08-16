@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_use_dependency_injection
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u08, pp. 208-213
-  evidence_type: text
 confidence: high
 target_skill: converting a hard-coded concrete dependency into an injected interface dependency
 references: []

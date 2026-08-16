@@ -24,22 +24,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_integrate_shoulder_mass_with_rib_cage
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch03, printed pp. 82-94
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bridgman_elbow_masses_from_opposed_condyles
   variant_name: Organize Elbow Flow From Opposed Condylar Masses
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u04, physical pp. 67-93
   difference_from_foundation: 'Adds Bridgman''s elbow-specific routing to the general joint-transition rule: build the inner flexor-pronator mass from the medial condyle and the outer extensor-supinator mass from the lateral side, leaving the cubital fossa between them; let the thumb-side supinator wedge and little-finger-side ulna route carry those masses down the forearm.'
   when_to_use: Use when the elbow reads as a generic hinge bead or the forearm masses do not explain how the upper arm transitions into thumb-side and little-finger-side structure.
   when_not_to_use: Do not expose every named muscle or condyle equally; preserve only the masses and landmarks the view and action actually reveal.
@@ -47,9 +39,6 @@ variants:
 - variant_id: VAR_bridgman_build_knee_as_beveled_block_with_patellar_apex
   variant_name: Build the Knee as a Beveled Block With a Patellar Apex
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u07, physical pp. 193-197
   difference_from_foundation: 'Adds Bridgman''s knee-specific block to the general joint-transition rule: conceive the knee as a roughly square mass beveled toward the front, hollowed behind, with the patella riding at the apex of the angle between thigh and leg while the back is organized by paired hamstring/calf tendons around the popliteal hollow.'
   when_to_use: Use when the knee reads as a round bead, when the patella floats independently of the thigh-leg angle, or when the back of the knee lacks a believable transition.
   when_not_to_use: Do not force a literal square outline or expose every tendon; the block is an internal organizing model whose visible planes change with view and flexion.
@@ -57,9 +46,6 @@ variants:
 - variant_id: VAR_vilppu_use_joint_landmarks_as_directional_cross_axes
   variant_name: Use Joint Landmarks as Directional Cross-Axes
   variant_basis: method_sequence
-  source_id: glenn_vilppu_basic_figure_drawing
-  source_title: 'Drawing Manual: Basic Figure Drawing'
-  locator: u07, physical pp. 88-94
   difference_from_foundation: 'Adds Vilppu''s landmark-as-orientation use to joint transitions: treat paired bony points at the elbow, knee, ankle, and shoulder region as a cross-axis or terminal plane that reveals how the adjoining limb cylinder is facing in space. The landmark relationship is used to orient the form, not merely to decorate anatomy.'
   when_to_use: Use when a limb cylinder or joint is structurally present but its facing direction is ambiguous, especially around bent elbows, knees, ankles, or shoulder-girdle turns.
   when_not_to_use: Do not expose every landmark equally or force textbook symmetry where perspective, flexion, soft tissue, or individual anatomy obscures one point; use only the landmarks the view actually supports.
@@ -67,9 +53,6 @@ variants:
 - variant_id: VAR_bammes_construct_knee_from_rolling_joint_mechanics
   variant_name: Construct Knee Form From Rolling Joint Mechanics
   variant_basis: method_sequence
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
-  source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
-  locator: u04, printed pp. 100-107
   difference_from_foundation: 'Adds Bammes''s mechanical flexion model to the existing knee transition: establish the distal femur as a clear cuboid/roller-like form before rounding it, then let flexion open the knee relationship and roll the femoral condylar mass relative to the tibial platform while the patella remains integrated into the quadriceps-patellar-ligament chain rather than floating as a separate disk.'
   when_to_use: Use when a bent knee looks like two cylinders joined by a bead, when the patella floats independently of the thigh-leg angle, or when flexion does not materially change the front/back knee volumes.
   when_not_to_use: Do not expose a literal mechanical gap or roller in the finished anatomy; cartilage, fat, tendon, capsule, muscle, skin, and viewpoint determine the visible surface. Use the mechanism to organize the form, not to draw an engineering diagram.

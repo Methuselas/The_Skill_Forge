@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_make_misuse_impossible_by_removing_invalid_states
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u03, pp. 60-62
-  evidence_type: text
 confidence: high
 target_skill: removing invalid states from a class so misuse cannot compile
 references: []

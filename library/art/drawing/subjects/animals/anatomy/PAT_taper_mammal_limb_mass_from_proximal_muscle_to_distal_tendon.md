@@ -37,22 +37,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_shape_carnivore_foreleg_from_joint_axes_and_paw_control_muscle_mass
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u14, printed pp. 55-56; physical pp. 53-54
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_keep_carnivore_forearm_muscular_for_paw_control
   variant_name: Keep the Carnivore Forearm More Muscular for Paw Control
   variant_basis: context
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u20, printed pp. 84-86, figs. 89-92; physical pp. 82-84
   difference_from_foundation: 'Qualifies the general proximal-to-distal unloading tendency with Bammes''s carnivore contrast: cats and other paw-intensive carnivores retain a powerful muscular covering through the lower forearm to operate the carpal and digital joints, whereas the ungulate runner example shifts much more of the distal mechanism into long taut tendons and exposed skeletal form.'
   when_to_use: Use when applying the general taper hierarchy to a carnivore and the lower foreleg has become too tendon-dominant or horse-like for the animal's paw function.
   when_not_to_use: Do not remove the proximal-to-distal hierarchy entirely or assume every carnivore has the lion's exact forearm bulk; preserve the actual species, pose, and individual reference.

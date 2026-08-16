@@ -1,6 +1,14 @@
+"""Architecture tests for the simplified PASS / SkillForge system.
+
+These encode the invariants the 2026-08-15 cleanup restored: a finished skill
+library is valid on its own, each domain stands alone, and nothing here needs a
+source PDF, an authoring ledger, a workspace, or a provenance receipt.
+"""
+
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -11,453 +19,362 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-LEDGER = ROOT / "workspace/authoring/ledger"
+LIBRARY = ROOT / "library"
 BUILDER = ROOT / "PASS/tools/build_release.py"
-TOOLS = ROOT / "PASS/tools"
-sys.path.insert(0, str(TOOLS))
-from quality_attestation import all_source_object_hashes, verify_attestation  # noqa: E402
+VALIDATOR = ROOT / "PASS/tools/validate.py"
+RECIPES = ROOT / "workspace/release-recipes"
+DOMAINS = ("art", "writing", "software-engineering")
+RETIRED_STATE = ("workspace", "sources", "ledger", "provenance", "renders", "tmp")
 
 
 def run(*args: object) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         [sys.executable, str(BUILDER), *map(str, args)],
-        text=True,
-        capture_output=True,
-        cwd=ROOT,
+        text=True, capture_output=True, cwd=ROOT,
     )
 
 
-class SkillForgeArchitectureTests(unittest.TestCase):
-    def test_named_release_composition_and_agent_skill_metadata(self) -> None:
-        for recipe in sorted((ROOT / "workspace/release-recipes").glob("*.yaml")):
-            with self.subTest(recipe=recipe.name), tempfile.TemporaryDirectory() as tmp:
-                out = Path(tmp) / "release"
-                result = run("build", recipe, out, "--unsafe-skip-quality-gates")
-                self.assertEqual(result.returncode, 0, result.stderr)
-                self.assertTrue((out / "library/metaskills/MODULE.yaml").is_file())
-                skill = (out / "SKILL.md").read_text(encoding="utf-8")
-                self.assertTrue(skill.startswith("---\n"))
-                front = yaml.safe_load(skill.split("---\n", 2)[1])
-                self.assertTrue(front.get("name"))
-                self.assertTrue(front.get("description"))
+def validate(*args: object) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        [sys.executable, str(VALIDATOR), *map(str, args)],
+        text=True, capture_output=True, cwd=ROOT,
+    )
 
-    def test_real_release_runs_all_quality_gates_and_resolves_assets(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            out = Path(tmp) / "release"
-            result = run("build", ROOT / "workspace/release-recipes/Animal_Anatomy.yaml", out)
-            self.assertEqual(result.returncode, 0, result.stderr)
-            manifest = json.loads((out / "RELEASE_MANIFEST.json").read_text(encoding="utf-8"))
-            gates = manifest["quality_gates"]
+
+def cards(library: Path) -> list[Path]:
+    return [
+        path for path in library.rglob("*.md")
+        if path.name not in {"README.md", "INDEX.md"}
+    ]
+
+
+def frontmatter(card: Path) -> dict:
+    raw = card.read_text(encoding="utf-8")
+    return yaml.safe_load(raw.split("---\n", 2)[1])
+
+
+def isolated_library() -> tempfile.TemporaryDirectory:
+    """A checkout containing the library and tools and nothing else.
+
+    Everything the retired architecture used to require — source payloads, the
+    authoring ledger, workspace state, provenance receipts — is simply absent.
+    """
+    tmp = tempfile.TemporaryDirectory()
+    root = Path(tmp.name)
+    shutil.copytree(LIBRARY, root / "library")
+    shutil.copytree(ROOT / "PASS", root / "PASS", ignore=shutil.ignore_patterns("__pycache__"))
+    shutil.copytree(RECIPES, root / "recipes")
+    return tmp
+
+
+class SourceAndStateIndependenceTests(unittest.TestCase):
+    """1-3, 12: the library is valid with no research state of any kind."""
+
+    def test_library_validates_with_no_sources_ledger_or_workspace(self) -> None:
+        with isolated_library() as tmp:
+            root = Path(tmp)
+            for name in RETIRED_STATE:
+                self.assertFalse((root / name).exists(), f"{name} leaked into a clean checkout")
+            result = subprocess.run(
+                [sys.executable, str(root / "PASS/tools/validate.py"), "--library", str(root / "library")],
+                text=True, capture_output=True, cwd=root,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            self.assertIn("PASS:", result.stdout)
+
+    def test_release_builds_with_no_sources_ledger_or_workspace(self) -> None:
+        # The builder refuses to write inside its own checkout, so the release
+        # lands in a separate directory outside the isolated tree.
+        with isolated_library() as tmp, tempfile.TemporaryDirectory() as dest:
+            root = Path(tmp)
+            out = Path(dest) / "release"
+            result = subprocess.run(
+                [
+                    sys.executable, str(root / "PASS/tools/build_release.py"), "build",
+                    str(root / "recipes/CPP_Development.yaml"), str(out),
+                    "--library", str(root / "library"),
+                ],
+                text=True, capture_output=True, cwd=root,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            gates = json.loads((out / "RELEASE_MANIFEST.json").read_text(encoding="utf-8"))["quality_gates"]
             self.assertEqual(gates["schema_validation"], "passed")
             self.assertEqual(gates["visual_reference_verification"], "passed")
-            self.assertEqual(gates["grounding_attestations"], "passed")
-            self.assertTrue(manifest["files_sha256"])
-            self.assertEqual(run("check", out).returncode, 0)
 
-    def test_cpp_excludes_art(self) -> None:
+    def test_deleting_temporary_research_state_does_not_change_validity(self) -> None:
+        before = validate("--library", str(LIBRARY))
+        with isolated_library() as tmp:
+            root = Path(tmp)
+            after = subprocess.run(
+                [sys.executable, str(root / "PASS/tools/validate.py"), "--library", str(root / "library")],
+                text=True, capture_output=True, cwd=root,
+            )
+        self.assertEqual(before.returncode, 0, before.stdout)
+        self.assertEqual(before.stdout.strip(), after.stdout.strip())
+
+
+class DomainIndependenceTests(unittest.TestCase):
+    """4-7, 10: each domain validates, builds, and links on its own."""
+
+    def test_each_domain_validates_independently(self) -> None:
+        for domain in DOMAINS:
+            with self.subTest(domain=domain):
+                result = validate("--library", str(LIBRARY), "--package", domain)
+                self.assertEqual(result.returncode, 0, result.stdout)
+
+    def test_no_card_depends_on_another_domain(self) -> None:
+        owner = {}
+        for card in cards(LIBRARY):
+            data = frontmatter(card)
+            if data.get("object_id"):
+                owner[data["object_id"]] = card.relative_to(LIBRARY).parts[0]
+        for card in cards(LIBRARY):
+            data = frontmatter(card)
+            if not data.get("object_id"):
+                continue
+            package = card.relative_to(LIBRARY).parts[0]
+            targets = [link["target_object_id"] for link in data.get("cross_links") or []]
+            foundation = data.get("foundation_object_id")
+            if foundation and foundation != "none":
+                targets.append(foundation)
+            for target in targets:
+                # `metaskills` is a shared foundation every release bundles, not a
+                # peer domain. Any other cross-package edge couples two lanes.
+                self.assertIn(
+                    owner.get(target), {package, "metaskills"},
+                    f"{data['object_id']} ({package}) depends on {target} ({owner.get(target)})",
+                )
+
+    def test_domain_release_excludes_unrelated_domains(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp) / "release"
-            result = run(
-                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml", out,
-                "--unsafe-skip-quality-gates",
-            )
-            self.assertEqual(result.returncode, 0, result.stderr)
-            manifest = json.loads((out / "RELEASE_MANIFEST.json").read_text(encoding="utf-8"))
-            self.assertIn("software-engineering/core", manifest["modules"])
-            self.assertFalse(any(name.startswith("art/") for name in manifest["modules"]))
-            self.assertFalse(any(name == "teaching" or name.startswith("teaching/") for name in manifest["modules"]))
+            self.assertEqual(run("build", RECIPES / "CPP_Development.yaml", out).returncode, 0)
+            modules = json.loads((out / "RELEASE_MANIFEST.json").read_text(encoding="utf-8"))["modules"]
+            self.assertIn("software-engineering/languages/cpp", modules)
+            for foreign in ("art", "writing", "teaching"):
+                self.assertFalse(
+                    any(name == foreign or name.startswith(f"{foreign}/") for name in modules),
+                    f"C++ release pulled in {foreign}",
+                )
 
-    def test_teaching_capable_release_opts_in_explicitly(self) -> None:
-        recipe = yaml.safe_load(
-            (ROOT / "workspace/release-recipes/Dynamic_Figure_Drawing.yaml").read_text(encoding="utf-8")
-        )
-        self.assertIn("teaching", recipe["modules"])
+    def test_teaching_is_not_required_by_any_domain(self) -> None:
+        self.assertFalse((LIBRARY / "teaching").exists(), "teaching is quarantined out of library/")
+        for recipe in sorted(RECIPES.glob("*.yaml")):
+            modules = yaml.safe_load(recipe.read_text(encoding="utf-8"))["modules"]
+            with self.subTest(recipe=recipe.name):
+                self.assertFalse(any(str(name).startswith("teaching") for name in modules))
+        for domain in DOMAINS:
+            with self.subTest(domain=domain):
+                self.assertEqual(validate("--library", str(LIBRARY), "--package", domain).returncode, 0)
 
-    def test_missing_module_fails_closed(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            recipe = Path(tmp) / "bad.yaml"
-            recipe.write_text("name: bad\nmodules: [does/not/exist]\n", encoding="utf-8")
-            result = run("build", recipe, Path(tmp) / "out", "--unsafe-skip-quality-gates")
-            self.assertNotEqual(result.returncode, 0)
 
-    def test_release_check_detects_missing_declared_asset(self) -> None:
+class CardContractTests(unittest.TestCase):
+    """8, 9: identity and variants hold without any source record."""
+
+    def test_card_ids_are_globally_unique(self) -> None:
+        seen: dict[str, Path] = {}
+        for card in cards(LIBRARY):
+            data = frontmatter(card)
+            object_id = data.get("object_id")
+            if not object_id:
+                continue
+            self.assertNotIn(object_id, seen, f"{object_id} duplicated in {card} and {seen.get(object_id)}")
+            seen[object_id] = card
+        self.assertGreater(len(seen), 0)
+
+    def test_variants_resolve_to_their_owner_card(self) -> None:
+        found = 0
+        for card in cards(LIBRARY):
+            data = frontmatter(card)
+            notes = card.read_text(encoding="utf-8").split("## Notes", 1)[-1]
+            for variant in data.get("variants") or []:
+                found += 1
+                # A variant is executable through the card it lives in: no source,
+                # no locator, no owner in another domain.
+                self.assertEqual(set(variant), {
+                    "variant_id", "variant_name", "variant_basis",
+                    "difference_from_foundation", "when_to_use", "when_not_to_use",
+                    "absorbed_from_object_id",
+                }, f"{card}: variant carries retired fields")
+                self.assertIn(variant["variant_id"], notes)
+        self.assertGreater(found, 0, "corpus has no variants to check")
+
+    def test_no_card_carries_retired_source_provenance(self) -> None:
+        retired = {"source_id", "locator", "page", "page_range", "source_hash", "evidence_type"}
+        for card in cards(LIBRARY):
+            data = frontmatter(card)
+            with self.subTest(card=card.name):
+                self.assertFalse(retired & set(data), f"{card}: retired root key")
+                reference = data.get("reference")
+                if reference is not None:
+                    self.assertTrue(
+                        set(reference) <= {"source_title", "author"},
+                        f"{card}: reference carries retired provenance fields",
+                    )
+
+
+class ReleaseIntegrityTests(unittest.TestCase):
+    """11: releases package knowledge; the remaining gates are real."""
+
+    def test_every_recipe_builds_and_checks(self) -> None:
+        for recipe in sorted(RECIPES.glob("*.yaml")):
+            with self.subTest(recipe=recipe.name), tempfile.TemporaryDirectory() as tmp:
+                out = Path(tmp) / "release"
+                result = run("build", recipe, out)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                self.assertTrue((out / "library/metaskills/MODULE.yaml").is_file())
+                front = yaml.safe_load((out / "SKILL.md").read_text(encoding="utf-8").split("---\n", 2)[1])
+                self.assertTrue(front.get("name") and front.get("description"))
+                self.assertEqual(run("check", out).returncode, 0)
+
+    def test_release_check_detects_a_changed_card(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp) / "release"
-            result = run(
-                "build", ROOT / "workspace/release-recipes/Animal_Anatomy.yaml", out,
-                "--unsafe-skip-quality-gates",
-            )
-            self.assertEqual(result.returncode, 0, result.stderr)
-            declared = next(out.rglob("precedent_stage1_observatory_hybrid_construction.png"))
-            declared.unlink()
-            check = run("check", out)
-            self.assertNotEqual(check.returncode, 0)
-            self.assertIn("missing image_path", check.stderr)
-
-    def test_release_check_detects_changed_card(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            out = Path(tmp) / "release"
-            result = run(
-                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml", out,
-                "--unsafe-skip-quality-gates",
-            )
-            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(run("build", RECIPES / "CPP_Development.yaml", out).returncode, 0)
             card = next((out / "library/software-engineering/languages/cpp").rglob("PAT_*.md"))
             card.write_text(card.read_text(encoding="utf-8") + "\nmutation\n", encoding="utf-8")
             check = run("check", out)
             self.assertNotEqual(check.returncode, 0)
             self.assertIn("changed release file", check.stderr)
 
-    def test_release_check_detects_deleted_module(self) -> None:
+    def test_release_check_detects_a_missing_declared_asset(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp) / "release"
-            result = run(
-                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml", out,
-                "--unsafe-skip-quality-gates",
-            )
-            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(run("build", RECIPES / "Animal_Anatomy.yaml", out).returncode, 0)
+            next(out.rglob("precedent_stage1_observatory_hybrid_construction.png")).unlink()
+            check = run("check", out)
+            self.assertNotEqual(check.returncode, 0)
+            self.assertIn("missing image_path", check.stderr)
+
+    def test_release_check_detects_a_deleted_module(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "release"
+            self.assertEqual(run("build", RECIPES / "CPP_Development.yaml", out).returncode, 0)
             shutil.rmtree(out / "library/software-engineering/languages/cpp")
             check = run("check", out)
             self.assertNotEqual(check.returncode, 0)
             self.assertIn("missing declared module", check.stderr)
 
-    def test_zip_output_refuses_canonical_library(self) -> None:
+    def test_missing_module_fails_closed(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            recipe = Path(tmp) / "bad.yaml"
+            recipe.write_text("name: bad\nmodules: [does/not/exist]\n", encoding="utf-8")
+            self.assertNotEqual(run("build", recipe, Path(tmp) / "out").returncode, 0)
+
+    def test_output_refuses_the_repository(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             zip_out = ROOT / "library/do-not-overwrite.zip"
-            result = run(
-                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml",
-                Path(tmp) / "release", "--zip", zip_out,
-                "--unsafe-skip-quality-gates",
-            )
+            result = run("build", RECIPES / "CPP_Development.yaml", Path(tmp) / "release", "--zip", zip_out)
             self.assertNotEqual(result.returncode, 0)
             self.assertIn("zip output path inside or above the repository", result.stderr)
             self.assertFalse(zip_out.exists())
+            self.assertNotEqual(run("build", RECIPES / "CPP_Development.yaml", ROOT / "sub").returncode, 0)
 
-    def test_cpp_quality_gates_ignore_invalid_unrelated_art(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            copied_library = Path(tmp) / "library"
-            shutil.copytree(ROOT / "library", copied_library)
-            art_card = next((copied_library / "art").rglob("PAT_*.md"))
-            text = art_card.read_text(encoding="utf-8")
-            art_card.write_text(text.replace("confidence: high", "confidence: invalid", 1), encoding="utf-8")
-            out = Path(tmp) / "release"
-            result = run(
-                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml", out,
-                "--library", copied_library,
-            )
-            self.assertEqual(result.returncode, 0, result.stderr)
-            self.assertEqual(run("check", out).returncode, 0)
 
-    def _public_checkout(self, root: Path, drop_packages: tuple[str, ...] = ()) -> Path:
-        """Materialize what a clean public clone actually contains.
+class ValidatorScopeTests(unittest.TestCase):
+    """The validator checks cards, and refuses to grow research-history checks."""
 
-        library/ + workspace/provenance/ + the first-party assets that are
-        deliberately tracked under workspace/authoring/sources/. No ledger, no
-        books, no renders.
-        """
-        shutil.copytree(ROOT / "library", root / "library")
-        shutil.copytree(ROOT / "workspace/provenance", root / "workspace/provenance")
-        tracked_sources = subprocess.run(
-            ["git", "ls-files", "workspace/authoring/sources"],
-            text=True, capture_output=True, cwd=ROOT,
-        ).stdout.split()
-        for rel in tracked_sources:
-            destination = root / rel
-            destination.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(ROOT / rel, destination)
-        for package in drop_packages:
-            shutil.rmtree(root / "library" / package, ignore_errors=True)
-        self.assertFalse((root / "workspace/authoring/ledger").exists())
-        return root / "workspace/authoring/ledger"
-
-    def _run_tool(self, tool: str, *args: object) -> subprocess.CompletedProcess[str]:
-        return subprocess.run(
-            [sys.executable, str(TOOLS / tool), *map(str, args)],
-            text=True, capture_output=True, cwd=ROOT,
-        )
-
-    def test_public_reference_verification_runs_and_fails_closed(self) -> None:
-        """A public checkout must still verify shipped reference images.
-
-        The old gate asked source_is_visual() first, which reads the private
-        SOURCE.md — so with no ledger it answered False for every source, skipped
-        every check, and still reported success. This pins both halves: the checks
-        run, and an unclassifiable source fails rather than being waved through.
-        """
-        with tempfile.TemporaryDirectory() as tmp:
+    def test_validator_rejects_a_cross_domain_dependency(self) -> None:
+        with isolated_library() as tmp:
             root = Path(tmp)
-            ledger = self._public_checkout(root)
-            ok = self._run_tool(
-                "verify_references.py",
-                "--library", root / "library",
-                "--ledger", ledger,
-                "--provenance", root / "workspace/provenance",
+            # Point a Writing card at a C++ card: a coupling the validator must catch.
+            card = next((root / "library/writing").rglob("PAT_*.md"))
+            _, front, body = card.read_text(encoding="utf-8").split("---\n", 2)
+            data = yaml.safe_load(front)
+            data["cross_links"] = [
+                {"rel": "related_to", "target_object_id": "PAT_wrap_virtuals_with_nvi_idiom"}
+            ]
+            card.write_text(
+                "---\n" + yaml.safe_dump(data, sort_keys=False) + "---\n" + body,
+                encoding="utf-8",
             )
-            self.assertEqual(ok.returncode, 0, ok.stdout + ok.stderr)
-            self.assertIn("public mode", ok.stdout)
-
-            # Remove the receipt for a first-party visual source: its images must
-            # now fail rather than silently pass as "not first party".
-            (root / "workspace/provenance"
-             / "guided_stage1_stage3_artist_discretion_2026_08_06.json").unlink()
-            closed = self._run_tool(
-                "verify_references.py",
-                "--library", root / "library",
-                "--ledger", ledger,
-                "--provenance", root / "workspace/provenance",
-            )
-            self.assertNotEqual(closed.returncode, 0)
-            self.assertIn("cannot confirm rights: first_party", closed.stdout)
-
-    def test_public_attestation_verification_command(self) -> None:
-        """The documented public command verifies receipts and catches tampering."""
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            ledger = self._public_checkout(root, drop_packages=("art", "writing", "teaching"))
-            for source_id in ("code_complete_2e", "gcbc_think_like_swe", "programmers_brain"):
-                result = self._run_tool(
-                    "quality_attestation.py", "verify", source_id,
-                    "--library", root / "library",
-                    "--ledger", ledger,
-                    "--provenance", root / "workspace/provenance",
-                )
-                self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-                self.assertIn("public attestation", result.stdout)
-
-            receipt = root / "workspace/provenance/code_complete_2e.json"
-            data = json.loads(receipt.read_text(encoding="utf-8"))
-            first = next(iter(data["object_sha256"]))
-            data["object_sha256"][first] = "0" * 64
-            receipt.write_text(json.dumps(data, indent=2, sort_keys=True), encoding="utf-8")
-            tampered = self._run_tool(
-                "quality_attestation.py", "verify", "code_complete_2e",
-                "--library", root / "library",
-                "--ledger", ledger,
-                "--provenance", root / "workspace/provenance",
-            )
-            self.assertNotEqual(tampered.returncode, 0)
-            self.assertIn("provenance signature/hash mismatch", tampered.stdout)
-
-    def test_public_release_build_uses_provenance(self) -> None:
-        """A release must build from a public checkout, gates included."""
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            ledger = self._public_checkout(root)
-            result = run(
-                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml",
-                root / "release",
-                "--library", root / "library",
-                "--ledger", ledger,
-            )
-            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-            self.assertEqual(run("check", root / "release").returncode, 0)
-
-    def test_public_release_build_refuses_a_missing_receipt(self) -> None:
-        """No receipt means no verification, publicly as well as privately.
-
-        This fails at the schema gate rather than the attestation gate, because
-        rule 13 needs the receipt's processed_units to resolve a card's locator.
-        Either way the build must not produce a release.
-        """
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            ledger = self._public_checkout(root)
-            (root / "workspace/provenance/gcbc_think_like_swe.json").unlink()
-            result = run(
-                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml",
-                root / "release",
-                "--library", root / "library",
-                "--ledger", ledger,
-            )
-            self.assertNotEqual(result.returncode, 0)
-            self.assertIn("rule 13", result.stdout + result.stderr)
-            self.assertFalse((root / "release").exists())
-
-    def test_public_release_build_refuses_a_tampered_receipt(self) -> None:
-        """Isolates the attestation gate: a receipt whose hashes were edited.
-
-        processed_units is left intact so rule 13 still resolves and the schema
-        gate passes; only the provenance signature is wrong.
-        """
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            ledger = self._public_checkout(root)
-            receipt = root / "workspace/provenance/gcbc_think_like_swe.json"
-            data = json.loads(receipt.read_text(encoding="utf-8"))
-            first = next(iter(data["object_sha256"]))
-            data["object_sha256"][first] = "0" * 64
-            receipt.write_text(json.dumps(data, indent=2, sort_keys=True), encoding="utf-8")
-            result = run(
-                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml",
-                root / "release",
-                "--library", root / "library",
-                "--ledger", ledger,
-            )
-            self.assertNotEqual(result.returncode, 0)
-            output = result.stdout + result.stderr
-            self.assertIn("gcbc_think_like_swe", output)
-            self.assertIn("provenance", output)
-            self.assertFalse((root / "release").exists())
-
-    def test_stage_source_refuses_a_known_public_source(self) -> None:
-        """Without the ledger, a canonical payload must not become a new identity."""
-        payload = ROOT / "workspace/authoring/sources/gcbc_think_like_swe/Good_Code_Bad_Code.pdf"
-        if not payload.is_file():
-            self.skipTest("payload not staged locally")
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            ledger = self._public_checkout(root)
-            ledger.mkdir(parents=True, exist_ok=True)
-            result = self._run_tool("stage_source.py", payload, "--ledger", ledger)
-            self.assertNotEqual(result.returncode, 0)
-            self.assertIn("already canonical as 'gcbc_think_like_swe'", result.stdout)
-            self.assertFalse(
-                any(ledger.glob("*/SOURCE.md")),
-                "staging must not have created a second source identity",
-            )
-
-    def test_public_checkout_validates_without_the_ledger(self) -> None:
-        """The ledger is private; a public checkout must still validate itself.
-
-        Library checks are answered from workspace/provenance/<source_id>.json
-        instead of the ledger. Only software-engineering and metaskills are
-        exercised, because those are the packages whose sources are fully attested.
-        """
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            shutil.copytree(ROOT / "library", root / "library")
-            shutil.copytree(ROOT / "workspace/provenance", root / "workspace/provenance")
-            for package in ("art", "writing", "teaching"):
-                shutil.rmtree(root / "library" / package, ignore_errors=True)
-            self.assertFalse((root / "workspace/authoring/ledger").exists())
             result = subprocess.run(
-                [
-                    sys.executable, str(TOOLS / "validate.py"),
-                    "--library", str(root / "library"),
-                    "--ledger", str(root / "workspace/authoring/ledger"),
-                    "--provenance", str(root / "workspace/provenance"),
-                ],
-                text=True, capture_output=True, cwd=ROOT,
-            )
-            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-
-    def test_public_validation_refuses_a_source_with_no_receipt(self) -> None:
-        """Fail-closed still holds publicly: no receipt means no verification."""
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            shutil.copytree(ROOT / "library", root / "library")
-            shutil.copytree(ROOT / "workspace/provenance", root / "workspace/provenance")
-            for package in ("art", "writing", "teaching"):
-                shutil.rmtree(root / "library" / package, ignore_errors=True)
-            (root / "workspace/provenance/code_complete_2e.json").unlink()
-            result = subprocess.run(
-                [
-                    sys.executable, str(TOOLS / "validate.py"),
-                    "--library", str(root / "library"),
-                    "--ledger", str(root / "workspace/authoring/ledger"),
-                    "--provenance", str(root / "workspace/provenance"),
-                ],
-                text=True, capture_output=True, cwd=ROOT,
+                [sys.executable, str(root / "PASS/tools/validate.py"), "--library", str(root / "library")],
+                text=True, capture_output=True, cwd=root,
             )
             self.assertNotEqual(result.returncode, 0)
-            self.assertIn("rule 13", result.stdout)
+            self.assertIn("rule 26", result.stdout)
 
-    def test_published_provenance_receipts_are_current(self) -> None:
-        """A stale receipt would publish a claim the ledger no longer supports."""
+    def test_validator_takes_no_ledger_or_provenance_arguments(self) -> None:
+        result = validate("--help")
+        self.assertEqual(result.returncode, 0)
+        for retired in ("--ledger", "--provenance", "--scope-ledger-to-library"):
+            self.assertNotIn(retired, result.stdout)
+
+    def test_indexes_are_generated_and_current(self) -> None:
+        # Indexes are derived navigation. A stale one silently hides cards from
+        # any agent that follows a skill's documented load order.
         result = subprocess.run(
-            [sys.executable, str(TOOLS / "publish_provenance.py"), "--all", "--check"],
+            [sys.executable, str(ROOT / "PASS/tools/build_index.py"), "--check"],
             text=True, capture_output=True, cwd=ROOT,
         )
-        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertEqual(result.returncode, 0, result.stdout)
 
-    def test_release_still_fails_when_a_shipped_card_drifts(self) -> None:
-        """Scoping the attestation gate to shipped cards must not disarm it.
+    def test_every_index_lists_the_cards_beside_it(self) -> None:
+        for index in sorted(LIBRARY.rglob("INDEX.md")):
+            listed = set(re.findall(r"\(((?:PAT|DRILL|AP)_[a-z0-9_]+\.md)\)", index.read_text(encoding="utf-8")))
+            beside = {p.name for p in index.parent.glob("*.md") if p.name not in {"INDEX.md", "README.md"}}
+            with self.subTest(index=index.relative_to(LIBRARY).as_posix()):
+                self.assertEqual(beside - listed, set(), "cards missing from their own index")
 
-        The counterpart to test_cpp_quality_gates_ignore_invalid_unrelated_art:
-        corrupting a card the C++ release *does* contain has to fail the build.
-        """
-        with tempfile.TemporaryDirectory() as tmp:
-            copied_library = Path(tmp) / "library"
-            shutil.copytree(ROOT / "library", copied_library)
-            shipped = copied_library / "software-engineering/languages/cpp"
-            card = next(path for path in sorted(shipped.rglob("PAT_*.md")))
-            text = card.read_text(encoding="utf-8")
-            self.assertIn("## Notes", text)
-            card.write_text(text + "\n\nDrifted after attestation.\n", encoding="utf-8")
-            result = run(
-                "build", ROOT / "workspace/release-recipes/CPP_Development.yaml",
-                Path(tmp) / "release", "--library", copied_library,
-            )
-            self.assertNotEqual(result.returncode, 0, "drifted shipped card must fail the gate")
-            self.assertIn("changed after attestation", result.stdout + result.stderr)
+    def test_no_tool_imports_retired_provenance_modules(self) -> None:
+        retired = ("provenance", "quality_attestation", "source_provenance", "stage_source", "verify_grounding")
+        for tool in sorted((ROOT / "PASS/tools").glob("*.py")):
+            text = tool.read_text(encoding="utf-8")
+            for name in retired:
+                with self.subTest(tool=tool.name, module=name):
+                    self.assertNotIn(f"import {name}", text)
+                    self.assertNotIn(f"from {name}", text)
 
-    def test_metaskill_from_another_domain_does_not_couple_releases(self) -> None:
-        """A universally-included metaskill cites its origin source; that citation
-        must not drag the origin's unrelated cards into an unrelated release."""
-        library = ROOT / "library"
-        metaskill_sources = {
-            source_id
-            for source_id, cards in all_source_object_hashes(library).items()
-            if any(path.startswith("metaskills/") for path in cards)
-        }
-        self.assertTrue(metaskill_sources, "expected metaskills to carry provenance")
-        for source_id in metaskill_sources:
-            cards = all_source_object_hashes(library)[source_id]
-            shipped = {path for path in cards if path.startswith("metaskills/")}
-            drifted = dict(cards)
-            for path in cards:
-                if path not in shipped:
-                    drifted[path] = "0" * 64
-            self.assertEqual(
-                verify_attestation(source_id, library, LEDGER, drifted, scope_paths=shipped),
-                [],
-                f"{source_id}: non-shipped card drift must not fail a metaskill-only release",
-            )
 
-    def test_changed_card_invalidates_grounding_attestation(self) -> None:
-        library = ROOT / "library"
-        ledger = ROOT / "workspace/authoring/ledger"
-        all_objects = all_source_object_hashes(library)
-        source_id = "effective_cpp_3e"
-        current = dict(all_objects[source_id])
-        self.assertEqual(verify_attestation(source_id, library, ledger, current), [])
-        card = next(iter(current))
-        current[card] = "0" * 64
-        failures = verify_attestation(source_id, library, ledger, current)
-        self.assertTrue(any("changed after attestation" in failure for failure in failures))
-
-    def test_replace_refuses_repository_root(self) -> None:
-        result = run(
-            "build", ROOT / "workspace/release-recipes/Animal_Anatomy.yaml", ROOT,
-            "--replace", "--unsafe-skip-quality-gates",
-        )
-        self.assertNotEqual(result.returncode, 0)
-        self.assertIn("protected output path", result.stderr)
-        self.assertTrue((ROOT / ".git").is_dir())
-
-    def test_release_output_refuses_any_repository_subdirectory(self) -> None:
-        target = ROOT / "do-not-create-release"
-        result = run(
-            "build", ROOT / "workspace/release-recipes/CPP_Development.yaml", target,
-            "--unsafe-skip-quality-gates",
-        )
-        self.assertNotEqual(result.returncode, 0)
-        self.assertIn("inside or above the repository", result.stderr)
-        self.assertFalse(target.exists())
-
+class RepositoryShapeTests(unittest.TestCase):
     def test_repo_agent_skill_discovery_folders_are_present(self) -> None:
-        for host in (".agents", ".claude"):
-            for skill in ("pass-authoring", "software-engineering", "visual-art"):
-                path = ROOT / host / "skills" / skill / "SKILL.md"
-                self.assertTrue(path.is_file(), path)
-                front = yaml.safe_load(path.read_text(encoding="utf-8").split("---\n", 2)[1])
-                self.assertEqual(front.get("name"), skill)
-                self.assertTrue(front.get("description"))
+        for folder in (".claude/skills", ".agents/skills"):
+            self.assertTrue((ROOT / folder).is_dir(), folder)
 
     def test_pass_dependency_manifest_exists(self) -> None:
-        requirements = (ROOT / "PASS/requirements.txt").read_text(encoding="utf-8")
-        for dependency in ("PyYAML", "Pillow", "pypdfium2"):
-            self.assertIn(dependency, requirements)
+        self.assertTrue((ROOT / "PASS/requirements.txt").is_file())
+
+    def test_agent_instruction_files_carry_the_same_hard_rules(self) -> None:
+        # CLAUDE.md and AGENTS.md state the same contract for different agents.
+        # Two copies drift, so every load-bearing rule must appear in both.
+        required = {
+            "source independence": ("source is gone", "source_id"),
+            "one domain per run": ("one domain",),
+            "shared metaskills only": ("metaskills",),
+            "no rebuilding retired state": ("ledger", "provenance", "attestation"),
+            "archive is inert": ("archive/",),
+            "art stages frozen": ("Art Stages", "staged-drawing", "Stages"),
+        }
+        for name in ("CLAUDE.md", "AGENTS.md"):
+            text = (ROOT / name).read_text(encoding="utf-8")
+            for rule, needles in required.items():
+                with self.subTest(file=name, rule=rule):
+                    self.assertTrue(
+                        any(needle.lower() in text.lower() for needle in needles),
+                        f"{name} does not state the '{rule}' rule",
+                    )
+
+    def test_retired_authoring_infrastructure_is_gone(self) -> None:
+        for path in (
+            "PASS/tools/provenance.py",
+            "PASS/tools/source_provenance.py",
+            "PASS/tools/quality_attestation.py",
+            "PASS/tools/publish_provenance.py",
+            "PASS/tools/stage_source.py",
+            "PASS/tools/verify_grounding.py",
+            "PASS/tools/preflight_pdf.py",
+            "PASS/tools/render_pdf.py",
+            "PASS/tools/cleanup_authoring_cache.py",
+            "PASS/docs/PASS_LEDGER.md",
+            "PASS/docs/PASS_GROUNDING.md",
+            "PASS/templates/SOURCE_TEMPLATE.md",
+            "PASS/templates/UNITS_TEMPLATE.md",
+            "PASS/templates/UNIT_LEDGER_TEMPLATE.md",
+            "workspace/provenance",
+        ):
+            with self.subTest(path=path):
+                self.assertFalse((ROOT / path).exists(), f"{path} survived the cleanup")
 
 
 if __name__ == "__main__":

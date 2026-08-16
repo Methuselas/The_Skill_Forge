@@ -24,22 +24,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_concentrate_contrast_and_accents_at_focal_area
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u04, physical pp. 103-128
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_map_light_and_shadow_before_modeling
   variant_name: Map Light and Shadow Before Modeling
   variant_basis: method_sequence
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u04, physical pp. 103-107
   difference_from_foundation: Dodson starts by reducing the subject to decisive light
     and dark territories, even temporarily imposing a clear border across ambiguous
     transitions, then models and softens those boundaries only after the large value
@@ -53,9 +45,6 @@ variants:
 - variant_id: VAR_hogarth_fuse_resolved_figure_as_one_tonal_mass
   variant_name: Fuse a Resolved Figure as One Tonal Mass
   variant_basis: emphasis
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
-  source_title: Dynamic Figure Drawing
-  locator: ch03, printed pp. 99-104
   difference_from_foundation: Preserves Hogarth's figure-specific use of continuous
     tone gradation to reunify overlap-separated body parts after their construction
     is already solved, allowing selected contour boundaries to soften or disappear
@@ -69,9 +58,6 @@ variants:
 - variant_id: VAR_use_physical_light_and_material_response
   variant_name: Use Physical Light and Material Response for Final Rendering
   variant_basis: method_sequence
-  source_id: robert_w_gill_basic_rendering
-  source_title: Basic Rendering
-  locator: selected lighting/material chapters
   difference_from_foundation: Keeps sculptural tone for form study but makes final
     rendering respect chosen light/shadow geometry first, with material, reflected
     light, transparency, and texture applied afterward.
@@ -83,9 +69,6 @@ variants:
 - variant_id: VAR_hampton_match_value_edge_timing_to_plane_change
   variant_name: Match Value and Edge Timing to the Rate of Plane Change
   variant_basis: method_sequence
-  source_id: michael_hampton_figure_drawing_design_and_invention
-  source_title: 'Figure Drawing: Design and Invention'
-  locator: u09, printed pp. 232-234
   difference_from_foundation: 'Adds Hampton''s form-to-value translation: classify
     a surface turn by the speed of its plane change—slow like a sphere, quicker like
     a cylinder, abrupt like a box—and let value transition and edge softness/hardness
@@ -98,9 +81,6 @@ variants:
 - variant_id: VAR_loomis_keep_cloth_modeling_inside_material_value_family
   variant_name: Keep Cloth Modeling Inside the Material Value Family
   variant_basis: emphasis
-  source_id: andrew_loomis_figure_drawing_for_all_its_worth
-  source_title: Figure Drawing for All It's Worth
-  locator: u12, printed pp. 189-194
   difference_from_foundation: 'Adds Loomis''s garment-value restraint to resolved-form
     tone: model folds and planes strongly enough to describe structure, but keep light
     and dark changes subordinate to the garment''s local material/color value so cloth
@@ -114,9 +94,6 @@ variants:
 - variant_id: VAR_vilppu_model_form_with_viewer_facing_tone_before_direct_light
   variant_name: Model Form With Viewer-Facing Tone Before Direct Light
   variant_basis: method_sequence
-  source_id: glenn_vilppu_basic_figure_drawing
-  source_title: 'Drawing Manual: Basic Figure Drawing'
-  locator: u10, physical pp. 137-147
   difference_from_foundation: 'Adds Vilppu''s analytic modeling-tone study mode to
     resolved-form tone: temporarily treat the viewer as the light source, keep planes
     facing the viewer light, darken surfaces as they turn away, soften receding contours,
@@ -132,9 +109,6 @@ variants:
 - variant_id: VAR_vilppu_separate_core_and_cast_shadow_by_cause
   variant_name: Separate Core and Cast Shadow by Cause
   variant_basis: method_sequence
-  source_id: glenn_vilppu_basic_figure_drawing
-  source_title: 'Drawing Manual: Basic Figure Drawing'
-  locator: u11, physical pp. 149-155
   difference_from_foundation: 'Adds Vilppu''s compact diagnostic to physical lighting:
     identify core shadow as a form-turning event between direct and reflected light,
     and cast shadow as light blocked by another form. Let the core edge inherit the
@@ -148,9 +122,6 @@ variants:
 - variant_id: VAR_vilppu_use_atmospheric_contrast_as_local_depth_design
   variant_name: Use Atmospheric Contrast as Local Depth Design
   variant_basis: emphasis
-  source_id: glenn_vilppu_basic_figure_drawing
-  source_title: 'Drawing Manual: Basic Figure Drawing'
-  locator: u12, physical pp. 161-165
   difference_from_foundation: 'Adds Vilppu''s figurative use of atmospheric perspective
     as a controlled design device: reduce contrast, detail, and edge clarity on receding
     or subordinate passages—even across relatively small depth changes—while keeping
@@ -166,9 +137,6 @@ variants:
 - variant_id: VAR_loomis_model_head_as_single_light_plane_value_study
   variant_name: Model the Head as a Single-Light Plane Value Study
   variant_basis: method_sequence
-  source_id: andrew_loomis_drawing_the_head_and_hands
-  source_title: Drawing the Head and Hands
-  locator: u03, physical pp. 57-61
   difference_from_foundation: 'Adds Loomis''s head-specific analytic tone sequence:
     start from an already constructed plane head, use one strong light, simplify the
     result into broad light/halftone/form-shadow/cast-shadow shapes, keep the underlying
@@ -183,9 +151,6 @@ variants:
 - variant_id: VAR_loomis_turn_planes_with_stroke_direction_before_value_change
   variant_name: Turn Planes With Stroke Direction Before Increasing Value Contrast
   variant_basis: emphasis
-  source_id: andrew_loomis_drawing_the_head_and_hands
-  source_title: Drawing the Head and Hands
-  locator: u03, physical pp. 57 and 61
   difference_from_foundation: 'Adds Loomis''s mark-direction alternative for line-dominant
     modeling: let pencil, pen, or hatch strokes follow the facing direction of a plane,
     and change their direction as the plane turns so solidity can increase without
@@ -199,9 +164,6 @@ variants:
 - variant_id: VAR_loomis_separate_front_and_rim_light_roles_on_head
   variant_name: Separate Front and Rim Light Roles on the Head
   variant_basis: emphasis
-  source_id: andrew_loomis_drawing_the_head_and_hands
-  source_title: Drawing the Head and Hands
-  locator: u06, physical p. 99
   difference_from_foundation: 'Adds Loomis''s controlled two-light portrait-study
     route: combine front illumination with back or rear-top illumination, but assign
     the lights to different visible surface roles so the same head plane is not broken
@@ -219,9 +181,6 @@ variants:
 - variant_id: VAR_loomis_gate_tone_on_age_and_expression_read_in_outline
   variant_name: Gate Tone on Age and Expression Reading in Outline
   variant_basis: method_sequence
-  source_id: andrew_loomis_drawing_the_head_and_hands
-  source_title: Drawing the Head and Hands
-  locator: u07, physical p. 111
   difference_from_foundation: 'Adds Loomis''s child-head staging gate before modeling:
     keep the head in outline until the intended age and expression already read, because
     subsequent tone can strengthen the forms that are present but cannot reliably
@@ -239,9 +198,6 @@ variants:
 - variant_id: VAR_hogarth_concentrate_accents_at_structurally_decisive_points
   variant_name: Concentrate Accents at Structurally Decisive Points
   variant_basis: emphasis
-  source_id: burne_hogarth_drawing_the_human_head
-  source_title: Drawing the Human Head
-  locator: u06, physical pp. 148-152
   difference_from_foundation: 'Adds the gallery''s sparse-rendering alternative: allow
     broad masses, hair, atmosphere, or minor planes to remain tentative or softly
     stated, then spend the darkest line, sharpest edge, clearest highlight, or most
@@ -257,9 +213,6 @@ variants:
 - variant_id: VAR_loomis_freeze_changing_light_with_plane_value_key
   variant_name: Freeze Changing Light With a Plane-Value Key
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u04, physical p. 85
   difference_from_foundation: 'Adds Loomis''s field workflow for unstable illumination: when the observed light changes faster than a finished drawing can be made, capture one chosen moment as a quick broad-plane key, classifying the major surfaces as light, halftone, or shadow, then use that snapshot as the fixed lighting reference for later development rather than chasing subsequent changes.'
   when_to_use: Use when drawing from life under moving sunlight or another changing source and the long rendering needs to preserve one coherent light state across time.
   when_not_to_use: Do not treat the key as infallible or keep following later illumination after choosing the preserved state; verify the broad plane read before committing, because a mistaken first classification can fossilize the error through the finish.
@@ -268,9 +221,6 @@ variants:
 - variant_id: VAR_mogilevtsev_model_portrait_detail_from_light_shadow_boundary_and_planes
   variant_name: Model Portrait Detail From the Light-Shadow Boundary and Planes
   variant_basis: method_sequence
-  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
-  source_title: Fundamentals of Drawing
-  locator: u04, physical PDF pp. 22-30
   difference_from_foundation: >-
     Adds Mogilevtsev's portrait-detail modeling sequence after feature placement is resolved: re-establish the major plane structure, analyze the light/shade boundary, mass the shadow broadly without overworking it, then develop halftone and light while changing edge/tangency and contrast as the surface orientation changes. Recheck the local passage against the whole head before increasing finish.
   when_to_use: Use when facial features are correctly placed but local rendering is becoming patchy, symbolic, or disconnected from the larger head planes and tonal relationships.
@@ -280,9 +230,6 @@ variants:
 - variant_id: VAR_loomis_shift_whole_picture_value_key_while_preserving_internal_relations
   variant_name: Shift the Whole Picture Value Key While Preserving Internal Relations
   variant_basis: method_sequence
-  source_id: andrew_loomis_creative_illustration
-  source_title: Creative Illustration
-  locator: u06, physical PDF pp. 77-80; printed pp. 85-88
   difference_from_foundation: "Adds Loomis's key-manipulation route: remap the picture broadly upward or downward in the available value range while preserving enough internal light/dark ordering and separation that the subject remains coherent. This lets the artist compare high-, middle-, and low-key conceptions without redesigning every relationship independently."
   when_to_use: "Use during tonal planning when the large value relationships are readable but the overall picture feels too light, too dark, too flat, or emotionally mismatched and you want to test a different key while retaining the subject's internal organization."
   when_not_to_use: "Do not preserve numeric intervals mechanically when lighting, material response, exposure limits, or focal emphasis require compression or selective change. The invariant is relational coherence, not identical measured value spacing."
@@ -290,9 +237,6 @@ variants:
 - variant_id: VAR_loomis_break_uniform_tonal_fields_without_losing_value_family
   variant_name: Break Uniform Tonal Fields Without Losing the Value Family
   variant_basis: emphasis
-  source_id: andrew_loomis_creative_illustration
-  source_title: Creative Illustration
-  locator: u07, physical PDF p. 100; printed p. 108
   difference_from_foundation: "Adds Loomis's anti-flatness diagnostic inside an already correct large tonal mass: introduce restrained internal modulation, small accents, or local variation so a mechanically smooth field gains vitality while the broad value family and picture hierarchy remain intact."
   when_to_use: "Use when a large tone is correctly grouped but reads pasted-on, tinny, dead, or mechanically even and a small amount of internal variation can restore life without changing the large value design."
   when_not_to_use: "Do not break every quiet field with texture or noise, and do not scatter accents until one coherent mass becomes many unrelated patches. Flatness may be intentionally graphic, atmospheric, or structurally useful; preserve it when it serves the picture."
@@ -300,9 +244,6 @@ variants:
 - variant_id: VAR_pyle_compress_halftones_to_preserve_light_shadow_grouping
   variant_name: Compress Halftones to Preserve the Large Light/Shadow Grouping
   variant_basis: method_sequence
-  source_id: andrew_loomis_creative_illustration
-  source_title: Creative Illustration
-  locator: u08, physical PDF pp. 126-133; printed pp. 136-143
   difference_from_foundation: 'Adds the Pyle/Loomis gamut-compression heuristic: when the available value range lets light-family halftones sink too dark or reflected lights in shadow rise too high, bias those transitions back toward their parent illumination family so the large light-versus-shadow read survives.'
   when_to_use: Use when local transitions are individually plausible but the picture loses unity because light and shadow families overlap so broadly that the illumination pattern becomes ambiguous.
   when_not_to_use: Do not force a rigid two-value split or prohibit legitimate crossings such as a light local-value object in shadow remaining lighter than a dark local-value object in light; material, reflected light, exposure, and emphasis still govern.

@@ -26,22 +26,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_intensify_distinguishing_characteristics_without_losing_structure
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u08, physical pp. 204-205, 220
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_loomis_distort_character_with_rescaled_grid
   variant_name: Distort a Character Through a Rescaled Grid
   variant_basis: method_sequence
-  source_id: andrew_loomis_fun_with_a_pencil
-  source_title: Fun With a Pencil
-  locator: u02, physical p. 33
   difference_from_foundation: 'Adds a controlled coordinate-remapping route for caricature: grid an existing drawing, stretch or compress the entire grid or selected cells, then transfer the source line crossings into the corresponding altered cells so the distortion changes chosen proportional relationships rather than merely enlarging random features.'
   when_to_use: 'Use when a recognizable drawing needs deliberate proportional distortion and you want a repeatable way to preserve correspondence while changing scale relationships.'
   when_not_to_use: 'Do not use the grid when direct free construction already gives better character, and do not preserve Loomis''s tracing suggestion as doctrine; work from your own drawing or an appropriately used reference and redraw the result coherently.'

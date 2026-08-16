@@ -33,13 +33,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_use_frame_sequence_reference_to_study_fast_action
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u10, printed pp. 35, 37-39; physical pp. 33, 35-37
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -12,28 +12,16 @@ routing_class: specialized
 specialization_axis: genre
 foundation_object_id: none
 tags: [writing, poetry, drafting, discovery, cliche, poetic_form, constraints]
-cross_links:
-- rel: related_to
-  target_object_id: PAT_keep_writing_reading_and_talking_through_block
-- rel: supports
-  target_object_id: AP_develop_writing_through_recursive_returns
+cross_links: []
 reference:
-  source_id: david_starkey_creative_writing_four_genres_in_brief_3e
   source_title: 'Creative Writing: Four Genres in Brief, Third Edition'
   author: David Starkey
-  publish_date: '2017'
-  media_type: PDF
-  locator: u005, physical pp. 44-46
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_starkey_enter_an_inherited_poetic_form_as_a_field_of_play
   variant_name: Enter an Inherited Poetic Form as a Field of Play
   variant_basis: constraint
-  source_id: david_starkey_creative_writing_four_genres_in_brief_3e
-  source_title: 'Creative Writing: Four Genres in Brief, Third Edition'
-  locator: u005, physical pp. 45-46
   difference_from_foundation: 'Begins discovery inside an inherited structure rather than from an unconstrained seed: choose a form whose rhyme, meter, repetition, or sequence requirements can propose the next move without prescribing the poem''s conclusion.'
   when_to_use: Use when the desire to write is present but a blank field or narrow repertoire leaves no workable entry, or when formal apprenticeship is itself the practice goal.
   when_not_to_use: Do not use a form whose demands merely force a predictable conclusion, or when the intended poem needs a freer or more experimental structure to discover its movement.

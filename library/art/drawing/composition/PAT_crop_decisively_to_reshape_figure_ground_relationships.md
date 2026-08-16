@@ -22,22 +22,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_resolve_unintended_tangencies_with_overlap_or_separation
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u07, physical pp. 180-184
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_mogilevtsev_keep_revisable_frame_with_outer_margin
   variant_name: Keep a Revisable Frame With Outer Margin
   variant_basis: method_sequence
-  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
-  source_title: Fundamentals of Drawing
-  locator: u06, physical PDF pp. 40-41
   difference_from_foundation: "Adds Mogilevtsev's reversible paper-framing method: when the intended aspect ratio is known but exact placement is still unsettled, draw the working format inside a larger sheet and keep usable margin beyond it so the frame can shift or expand after the figure is tested. This turns crop preview into an explicit nondestructive construction rather than committing the physical paper edge immediately."
   when_to_use: Use when a long study has a known general format but figure placement, movement, or surrounding space may still require adjustment before the final drawing or transfer is fixed.
   when_not_to_use: Do not keep reopening the frame after the composition is approved, and do not violate required trim, bleed, fixed-output dimensions, or other final-format constraints; digitally, use an equivalent nondestructive crop rather than manufacturing unnecessary canvas margin.

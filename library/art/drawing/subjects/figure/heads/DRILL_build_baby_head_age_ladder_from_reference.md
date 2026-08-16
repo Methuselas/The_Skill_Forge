@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_capture_age_type_from_whole_before_measurement
 reference:
-  source_id: andrew_loomis_drawing_the_head_and_hands
   source_title: Drawing the Head and Hands
   author: Andrew Loomis
-  publish_date: Unknown
-  media_type: PDF
-  locator: u05, physical p. 83
-  evidence_type: text
 confidence: high
 references: []
 variants: []

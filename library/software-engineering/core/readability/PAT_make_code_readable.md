@@ -41,22 +41,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_adopt_language_features_when_best_tool
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 12-13
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_cognition_design_patterns_as_chunks
   variant_name: Use Known Design Patterns as Comprehension Chunks
   variant_basis: emphasis
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u02, pp. 25-27
   difference_from_foundation: Makes familiar design patterns an explicit readability device because a maintainer who recognizes the pattern can process its collaborating parts as one semantic chunk instead of reconstructing them line by line.
   when_to_use: A design problem has a fitting established pattern and the intended maintainers know the pattern or its presence can be made explicit.
   when_not_to_use: The pattern is unfamiliar to the team, does not fit the problem, or adds more indirection than the maintenance task earns.
@@ -64,9 +56,6 @@ variants:
 - variant_id: VAR_cognition_semantic_beacons
   variant_name: Plant Simple and Compound Semantic Beacons
   variant_basis: emphasis
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u02, pp. 28-30
   difference_from_foundation: Treats meaningful names, operators, control structures, comments, and cooperating code elements as deliberate signals that let a reader form and test a high-level hypothesis about the data structure or algorithm.
   when_to_use: Writing or revising code whose purpose is difficult to infer quickly from a local reading.
   when_not_to_use: A proposed signal would be redundant, misleading, or inconsistent with the behavior it is meant to reveal.

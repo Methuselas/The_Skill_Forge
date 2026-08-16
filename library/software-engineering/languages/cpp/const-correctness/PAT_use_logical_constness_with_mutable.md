@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_avoid_const_duplication_via_const_delegation
 reference:
-  source_id: effective_cpp_3e
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers
-  publish_date: 2005
-  media_type: PDF
-  locator: u01, pp. 19-23
-  evidence_type: text
 confidence: high
 references: []
 variants: []

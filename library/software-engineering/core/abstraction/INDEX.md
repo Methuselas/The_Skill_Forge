@@ -14,6 +14,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Represent a Layer With an Interface When It Earns Its Keep
   - then: Size Classes by the Quality Pillars, Not Line Counts
   - then: Tune Layer Thickness and Err on the Side of Thin
+- **Name the Operations the Thing Supports Before Choosing How to Store It** — read first
+  - then: Ask Whether a New Method Belongs Before You Add It
 
 ## Objects
 

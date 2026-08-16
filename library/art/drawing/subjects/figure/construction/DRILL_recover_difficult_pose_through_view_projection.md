@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_correct_wonky_foreshortened_limb_with_pivot_arcs
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: '1970'
-  media_type: book
-  evidence_type: mixed
-  locator: ch06, printed pp. 151-158
 confidence: high
 target_skill: recover a difficult rotated or foreshortened pose by transporting proportional landmarks from a clearer corresponding view
 references: []

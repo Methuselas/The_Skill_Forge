@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_prefer_composition_over_inheritance
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u08, pp. 217-223
-  evidence_type: text
 confidence: high
 target_skill: converting an inheritance-for-reuse relationship into composition over an interface
 references: []

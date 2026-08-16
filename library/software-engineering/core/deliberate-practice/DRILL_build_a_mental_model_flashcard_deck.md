@@ -26,13 +26,8 @@ cross_links:
 - rel: supports
   target_object_id: PAT_space_practice_across_widening_intervals
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u06, pp. 101-102
-  evidence_type: text
 confidence: high
 references: []
 variants: []

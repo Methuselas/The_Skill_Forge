@@ -29,22 +29,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_choose_s_or_b_leg_rhythm_by_view
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch02, printed pp. 48-51
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bridgman_route_thigh_from_deep_socket_through_trochanter
   variant_name: Route the Thigh From Deep Socket Through the Trochanter
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u06, physical pp. 173-177
   difference_from_foundation: 'Deepens pelvic leg attachment by distinguishing the deep hip socket from the lateral shaft mass: the femoral neck carries the thigh outward to the greater trochanter, after which the femur angles inward toward the knee. This prevents the leg from appearing to hang vertically from the outer pelvic rim.'
   when_to_use: Use when a thigh looks pasted to the side of the pelvis, the hip width is being mistaken for socket width, or the knee does not line up plausibly under the load-bearing hip.
   when_not_to_use: Do not expose the femoral neck literally through the surface or force one fixed inward angle on every body type and pose; use the route as an underlying attachment scaffold.

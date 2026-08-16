@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_construct_animal_form_from_core_masses_framework_and_soft_parts
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u02, printed p. 9; physical p. 7
-  evidence_type: text
 confidence: high
 target_skill: identifying the strongest drawing-relevant impression in an animal and concentrating a study on that quality without dissolving into equal-weight detail
 references: []

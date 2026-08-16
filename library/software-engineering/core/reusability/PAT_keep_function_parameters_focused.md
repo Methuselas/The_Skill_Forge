@@ -21,22 +21,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_encapsulate_related_data_together
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u09, pp. 257-259
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_order_and_audit_the_parameter_list_as_an_interface
   variant_name: Order and Audit the Parameter List as an Interface
   variant_basis: emphasis
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u07, pp. 174-181
   difference_from_foundation: The foundation narrows each parameter to what the function actually needs, judged one parameter at a time. This variant treats the parameter list as an interface to be ordered and audited as a whole, on the grounds that inter-routine communication is where a large share of defects live - Basili and Perricone found 39 percent of all errors were internal interface errors. Its rules are conventions rather than judgments. Order parameters input, then input-and-output, then output-only, so the list implies the sequence of operations inside. Keep similar parameters in the same order across similar routines, since inconsistency there is pure memory tax with no compensating benefit. Put status and error variables last, being incidental and output-only. Remove unused parameters, which correlate with defects - 46 percent of routines with no unused variables were error-free against 17 to 29 percent of those with more than one.
   when_to_use: Use when designing or reviewing a family of related routines, where consistency across the family is worth more than any individual signature's local optimum. The unused-parameter audit is worth running on its own, since it is mechanical and the correlation with defects is strong.
   when_not_to_use: Do not let ordering conventions override the foundation's narrowing rule - a well-ordered list of parameters the function does not need is still the wrong interface. Language conventions may also conflict, as the C library's modified-parameter-first habit does; consistency within your own codebase matters more than which convention you pick.

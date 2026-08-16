@@ -27,22 +27,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_reveal_hand_structure_through_surface_stress
 reference:
-  source_id: burne_hogarth_drawing_dynamic_hands
   source_title: Drawing Dynamic Hands
   author: Burne Hogarth
-  publish_date: '1977'
-  media_type: book
-  locator: ch08, printed pp. 102-113
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dynamic_hands_ch11_object_constraint_and_reference_fidelity
   variant_name: Let the Instrument Constrain the Hand
   variant_basis: method_sequence
-  source_id: burne_hogarth_drawing_dynamic_hands
-  source_title: Drawing Dynamic Hands
-  locator: ch11, printed pp. 134-141
   difference_from_foundation: Extends the function/contact/load rule into occupation-specific drawing by establishing the tool or instrument first when it constrains the action, matching the hand to its geometry and procedure, and using stronger reference fidelity for unfamiliar operations than for familiar actions.
   when_to_use: Use when a hand is working with a rigid instrument, tool, machine, or specialized procedure whose geometry or technique restricts plausible hand placement.
   when_not_to_use: Do not over-constrain free expressive hand actions or use occupational reference as a substitute for the underlying palm/digit construction.
@@ -50,9 +42,6 @@ variants:
 - variant_id: VAR_loomis_pre_shape_hand_to_object_contour_before_grasp
   variant_name: Pre-Shape the Hand to the Object Before Contact
   variant_basis: method_sequence
-  source_id: andrew_loomis_drawing_the_head_and_hands
-  source_title: Drawing the Head and Hands
-  locator: u09, physical p. 120
   difference_from_foundation: 'Adds Loomis''s anticipatory-grasp study: inspect the object''s contour first, then watch how the hand begins matching that contour just before contact so the grasp is designed as an approach into contact rather than a generic pose pasted onto the object afterward.'
   when_to_use: Use when drawing a hand about to pick up, catch, cup, or close around a known object and the fingers need a believable pre-contact configuration.
   when_not_to_use: Do not force the final grip shape onto the hand too early when the action is still distant from contact, and do not replace the underlying palm/digit construction with contour tracing.
@@ -60,9 +49,6 @@ variants:
 - variant_id: VAR_bridgman_hundred_hands_rest_on_ulnar_heel
   variant_name: Seat a Resting Hand on the Ulnar Heel
   variant_basis: context
-  source_id: george_bridgman_book_of_a_hundred_hands
-  source_title: The Book of a Hundred Hands
-  locator: u00, physical pp. 34 and 88; printed pp. 38 and 92
   difference_from_foundation: 'Specializes the function/contact/load rule for passive support: when a relaxed hand simply rests on a plane, establish the little-finger-side heel/pisiform as the primary contact, let the thenar mass accept secondary thumb-side pressure, and preserve some natural digit arch instead of flattening the whole palm and fingers equally.'
   when_to_use: Use for relaxed or lightly supported hands resting on a table, floor, body, or other broad plane when the contact pattern needs to feel weighted without becoming an active brace or grip.
   when_not_to_use: Do not force this contact map onto pushing, bracing, gripping, injured, highly rotated, or reference-specific hands; actual task and observed pressure distribution override the passive-rest default.

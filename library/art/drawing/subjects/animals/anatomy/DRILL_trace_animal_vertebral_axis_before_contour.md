@@ -34,22 +34,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_orient_animal_body_in_depth_with_backline_and_transverse_axes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u23, printed pp. 95-98, figs. 101-102; physical pp. 93-96
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_internalize_profile_backline_with_unbroken_contour_and_memory
   variant_name: Internalize a Profile Backline With Unbroken Contour and Memory
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u27, printed pp. 108-110, figs. 112-114; physical pp. 106-108
   difference_from_foundation: 'Adds Bammes''s profile-contour shorthand after the structural axial study: use head length only as a temporary measuring module, put the pen down at the muzzle, follow the outer back profile to the rear foot without lifting, repeat the same animal until the rises and falls are internalized, then alternate a look-only-at-the-animal pass with a memory-only pass. This variant trains observed profile rhythm and optical memory; it must not be confused with the host Drill''s hidden vertebral center route.'
   when_to_use: Use for profile or near-profile animal studies, especially live or restless subjects, when the goal is to internalize the characteristic rise-and-fall rhythm quickly enough that the whole animal can later be stated with economical shorthand.
   when_not_to_use: Do not substitute the outer contour for the internal vertebral route in strong turns, reclining poses, or foreshortening. When depth becomes the main problem, switch to the backline-plus-transverse-axis construction rather than forcing a two-dimensional profile exercise.

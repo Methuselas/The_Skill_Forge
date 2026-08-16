@@ -33,22 +33,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_iterate_imagined_animal_action_until_function_and_expression_agree
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u03, printed pp. 11-14
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hultgren_weave_feline_masses_with_connecting_accents
   variant_name: Weave Feline Masses Together With Connecting Accents
   variant_basis: method_sequence
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u08, physical pp. 60, 62; printed pp. 58, 60
   difference_from_foundation: 'Adds Hultgren''s mass-weaving route to the governing animal gesture: after the main action is understood, carry selected curves and a few connecting accents through the shoulder, ribcage, pelvis, and limb junctions so the blocked feline reads as one flowing body instead of separate anatomical pieces.'
   when_to_use: Use when a cat-family pose has a clear action line but the major masses still look assembled, segmented, or disconnected as the eye crosses their junctions.
   when_not_to_use: Do not smooth away a real joint, overlap, or change of direction, and do not add decorative connector lines where the structure already reads clearly.
@@ -56,9 +48,6 @@ variants:
 - variant_id: VAR_hultgren_move_elephant_bulk_with_hind_leg_trunk_and_head_opposition
   variant_name: Move Elephant Bulk With Hind-Leg, Trunk, and Head Opposition
   variant_basis: context
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u19, physical pp. 117-118; printed pp. 115-116
   difference_from_foundation: 'Adds Hultgren''s elephant-specific antidote to static bulk: let a hind-leg route and the trunk participate strongly in the action line, and when the pose supports it, oppose the head direction against the body''s line of movement so the mass turns instead of reading as a single inert block.'
   when_to_use: Use when an elephant action pose is structurally recognizable but the large body mass has flattened the gesture or made the animal feel planted and immobile.
   when_not_to_use: Do not force the trunk, hind legs, or head into decorative countercurves when the reference does not support them, and do not treat these drawings as a complete elephant gait or biomechanics system.
@@ -66,9 +55,6 @@ variants:
 - variant_id: VAR_hultgren_carry_bear_action_through_outer_forms_and_rear_to_front_leg
   variant_name: Carry Bear Action Through Outer Forms and the Rear-to-Front Leg Route
   variant_basis: method_sequence
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u20, physical pp. 121-122; printed pp. 119-120
   difference_from_foundation: 'Adds Hultgren''s bear-specific way to keep a compact heavy body from going inert: start from the outer structural forms, then carry a continuous action route from a rear leg through the body toward a front leg so the large mass participates in the pose instead of sitting between unrelated limbs.'
   when_to_use: Use when a bear action sketch has believable masses but the limbs feel pasted onto a static body and the rear-to-front travel of the pose is difficult to read.
   when_not_to_use: Do not force one diagonal leg-to-leg sweep through every bear pose; if the observed action is vertical, seated, turning, or driven by a different limb relationship, use the governing gesture that the pose actually supports.

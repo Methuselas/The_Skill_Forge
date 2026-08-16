@@ -28,13 +28,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_commit_stage3_form_realization
 reference:
-  source_id: guided_nested_four_stage_framework_2026_08_07
   source_title: Guided Nested Four-Stage Framework and Stage 3 Ceiling
   author: MaDin + GPT
-  publish_date: 2026-08-07
-  media_type: archive
-  locator: nested_four_stage_framework
-  evidence_type: mixed
 confidence: high
 references:
 - image_path: library/art/drawing/process/staged-drawing/assets/precedent_warbot_process_sheet.png

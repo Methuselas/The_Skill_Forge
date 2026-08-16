@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_size_classes_by_pillars_not_lines
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u02, pp. 35-41
-  evidence_type: text
 confidence: high
 target_skill: judging a class against the quality pillars and refactoring it into one class per concept
 references: []

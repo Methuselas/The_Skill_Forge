@@ -43,22 +43,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_construct_contrasting_big_cat_poses_from_studied_anatomy
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u20, printed pp. 84-86, figs. 89-92; physical pp. 82-84
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_contrast_lion_compact_foreleg_with_dog_light_foreleg
   variant_name: Contrast the Lion's Compact Foreleg With the Dog's Lighter Foreleg
   variant_basis: context
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u20, printed pp. 84-85, figs. 89-90; physical pp. 82-83
   difference_from_foundation: 'Calibrates the shared carnivore musculature by overall build: Bammes uses the lion to emphasize an athletic, compact shoulder and forearm associated with an ambush hunter, while the dog example is visibly lighter and more spare in the foreleg. The functional grouping method stays the same; the relative mass and compactness change.'
   when_to_use: Use when a large cat and a pursuit-built canine are collapsing into the same generic foreleg mass after the joint axes and muscle groups are already correct.
   when_not_to_use: Do not treat the lion/dog comparison as a universal predator rule, a breed standard, or a fixed silhouette; calibrate the actual animal, sex, age, condition, and pose from reference.

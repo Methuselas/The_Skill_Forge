@@ -25,7 +25,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Audit the Names in a Change, Away From the Code](DRILL_audit_identifier_names_in_a_code_review.md) - drill; 4 final.
 - [Choose a Name in Three Steps — Concepts, Words, Mold](AP_choose_a_name_with_feitelsons_three_steps.md) - ap; 3 rough.
 - [Comment the Why, Not the What](PAT_comment_why_not_what.md) - pattern; 3 rough.
-  - Variants: `Use High-Level Comments as Chunk Labels` (emphasis), `Comment to Preserve the Author's Model, Including Your Own` (emphasis), `Keep the Design Statements You Wrote Before the Code` (method_sequence).
+  - Variants: `Use High-Level Comments as Chunk Labels` (emphasis); `Comment to Preserve the Author's Model, Including Your Own` (emphasis); `Keep the Design Statements You Wrote Before the Code` (method_sequence).
 - [Diagnose and Rewrite an Unreadable Procedure](DRILL_diagnose_and_rewrite_unreadable_procedure.md) - drill; 3 rough.
 - [Favor Readability Over Fewer Lines of Code](PAT_favor_readability_over_brevity.md) - pattern; 3 rough.
 - [Fix the Routine the Honest Name Exposes](PAT_let_an_awkward_name_expose_the_design_fault.md) - pattern; 3 rough.
@@ -46,6 +46,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Use Bad Names as a Place to Look for Bugs](PAT_treat_bad_names_as_a_defect_search_heuristic.md) - pattern; 4 final.
   - Variants: `Use Structural Smells as the Signal Instead of Names` (method_sequence).
 - [Use Descriptive Names Instead of Comments to Explain What Things Are](PAT_use_descriptive_names.md) - pattern; 3 rough.
-  - Variants: `Keep Short Identifiers Visually and Structurally Distinct` (constraint), `Encode a Name's Semantic Kind, Never Its Type` (constraint), `Balance Word Clarity Against the Cost of Remembering the Name` (constraint).
+  - Variants: `Keep Short Identifiers Visually and Structurally Distinct` (constraint); `Encode a Name's Semantic Kind, Never Its Type` (constraint); `Balance Word Clarity Against the Cost of Remembering the Name` (constraint).
 - [Write Code That Reads Like a Well-Structured Recipe](PAT_make_code_readable.md) - pattern; 3 rough.
-  - Variants: `Use Known Design Patterns as Comprehension Chunks` (emphasis), `Plant Simple and Compound Semantic Beacons` (emphasis).
+  - Variants: `Use Known Design Patterns as Comprehension Chunks` (emphasis); `Plant Simple and Compound Semantic Beacons` (emphasis).

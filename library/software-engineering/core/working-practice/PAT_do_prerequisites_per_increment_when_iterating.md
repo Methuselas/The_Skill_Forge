@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: AP_grow_a_system_from_a_running_skeleton
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u03, pp. 28, 33-36
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

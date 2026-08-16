@@ -22,22 +22,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_build_gesture_into_clear_masses
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 26-27
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bridgman_forearm_rotation_radius_around_ulna
   variant_name: Carry Hand Rotation Through Radius Crossing Around the Ulna
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u04, physical pp. 67-79
   difference_from_foundation: 'Deepens the existing limb-chain rotation rule with a specific forearm model: keep the ulna as the elbow-to-little-finger-side hinge/hub while the radius carries the wrist and hand around it, so pronation/supination changes the forearm''s internal crossing and surface mass directions rather than swiveling the hand at the wrist.'
   when_to_use: Use when a turned palm or thumb direction does not convincingly propagate through the forearm, especially in pronated/supinated views.
   when_not_to_use: Do not draw the two bones literally through the skin or treat the ulna as perfectly fixed in every pose; use the model to preserve believable rotational continuity.
@@ -45,9 +37,6 @@ variants:
 - variant_id: VAR_hampton_layer_arm_gesture_bone_direction_volume_and_anatomy
   variant_name: Layer Arm Gesture, Bone Direction, Volume, Then Anatomy
   variant_basis: method_sequence
-  source_id: michael_hampton_figure_drawing_design_and_invention
-  source_title: 'Figure Drawing: Design and Invention'
-  locator: u05, printed pp. 145-146
   difference_from_foundation: 'Adds Hampton''s arm-specific sequencing to the articulated limb chain: begin with the lyrical arm gesture, lay a straighter directional line over it to clarify bone placement and 2-D segment position, build the perspective cylinders, then place asymmetrical anatomical shapes over those volumes.'
   when_to_use: Use when an arm has energy but weak mechanics, or has solid cylinders but lost gesture; the layered sequence lets the artist separate action, structural direction, volume, and anatomy without asking one line to do all jobs at once.
   when_not_to_use: Do not treat the straight bone-direction line as the final contour or erase the original gesture's intent; each later layer must refine rather than replace the earlier one.
@@ -55,9 +44,6 @@ variants:
 - variant_id: VAR_bammes_twist_forearm_as_quadrangular_prism
   variant_name: Twist the Forearm as a Quadrangular Prism
   variant_basis: method_sequence
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
-  source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
-  locator: u06, printed pp. 170-173
   difference_from_foundation: 'Adds Bammes''s drawable abstraction to the existing radius-around-ulna rotation model: temporarily compress radius and ulna into one twist-capable four-sided forearm form. In supination the form remains comparatively open and untwisted; during pronation the carrying structure develops a propeller-like torsion, so the hand turn is visible through the forearm''s planes rather than appearing as a wrist swivel.'
   when_to_use: Use when Bridgman's two-bone explanation is understood but the forearm is still hard to orient quickly in perspective, especially between full supination and full pronation.
   when_not_to_use: Do not draw a literal twisted box through the finished arm or replace the actual radius-ulna relationship with a single rigid prism; the four-sided form is a temporary construction aid for orientation.
@@ -65,9 +51,6 @@ variants:
 - variant_id: VAR_zarins_track_pronation_by_section_change_and_ulnar_rail
   variant_name: Track Pronation by Section Change and the Ulnar Rail
   variant_basis: method_sequence
-  source_id: uldis_zarins_anatomy_for_sculptors
-  source_title: 'Anatomy for Sculptors: Understanding the Human Figure'
-  locator: u05, physical pp. 149-150, 165, 170
   difference_from_foundation: 'Adds Zarins''s sculptural surface proof to the existing radius-around-ulna and twist-prism models: pronation/supination should change the forearm''s cross-sectional read and the distribution of flexor/extensor masses, not merely rotate a texture map around one tube. Zarins visualizes a relatively rounder/open supinated section becoming flatter and redistributed through pronation, while the subcutaneous ulna remains a useful elbow-to-little-finger-side surface rail that can read as a ridge or furrow.'
   when_to_use: Use when the palm direction is mechanically correct but the forearm still looks like the same cylinder in every rotation, or when the surface masses lose their orientation between elbow and wrist.
   when_not_to_use: Do not force one exact round-versus-flat cross-section onto every arm, body type, or viewpoint, and do not require the ulnar rail to be equally visible everywhere. Shoulder rotation may add to a forced turn, but it must not substitute for the actual forearm rotation when pronation/supination is the action being constructed.

@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_calibrate_code_reading_scope_to_reader_knowledge
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u02, pp. 15-17, 25, 30-31
-  evidence_type: mixed
 confidence: high
 target_skill: using timed code reproduction to identify missing programming and domain concepts
 references: []

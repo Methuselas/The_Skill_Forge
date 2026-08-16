@@ -24,22 +24,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_hold_member_identity_with_constant_width
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch04, printed pp. 105-107 and 120-121
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_vilppu_set_cylinder_axis_before_end_ellipses
   variant_name: Set the Cylinder Axis Before Its End Ellipses
   variant_basis: method_sequence
-  source_id: glenn_vilppu_basic_figure_drawing
-  source_title: 'Drawing Manual: Basic Figure Drawing'
-  locator: u05, physical pp. 57-60
   difference_from_foundation: 'Adds Vilppu''s axis-first cylinder procedure to the existing end-curve Pattern: establish the cylinder''s directional centerline and intended beginning/end first, then place both ellipses perpendicular to that shared axis so the limb or appendage inherits one coherent spatial direction before side contours are connected.'
   when_to_use: Use when a cylindrical limb has plausible end curves individually but twists, kinks, or loses direction because its two ends were solved independently.
   when_not_to_use: Do not keep explicit centerlines and full ellipses after the organic form reads clearly; Vilppu treats cylinders as learning and analysis tools whose logic can become implicit.

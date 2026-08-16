@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_build_animals_from_pivot_skeletons_to_main_forms
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u03, printed pp. 13-14; physical pp. 11-12
-  evidence_type: mixed
 confidence: high
 target_skill: preserving an animal's articulated anatomy while changing the directions of its spine and limb framework across movement and non-standing poses
 references: []

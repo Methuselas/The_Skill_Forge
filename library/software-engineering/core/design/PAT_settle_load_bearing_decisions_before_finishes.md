@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_balance_adaptability_without_predicting_future
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u02, pp. 14, 18-19
-  evidence_type: text
 confidence: high
 references: []
 variants: []

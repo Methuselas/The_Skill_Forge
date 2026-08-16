@@ -18,22 +18,14 @@ tags:
   - refinement
 cross_links: []
 reference:
-  source_id: guided_nested_four_stage_framework_2026_08_07
   source_title: Guided Nested Four-Stage Framework and Stage 3 Ceiling
   author: MaDin + GPT
-  publish_date: 2026-08-07
-  media_type: archive
-  locator: nested_four_stage_framework
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
   - variant_id: VAR_ch06_action_centerline_figure_build
     variant_name: Action-Centerline Figure Build
     variant_basis: method_sequence
-    source_id: marvel_how_to_draw_comics
-    source_title: How to Draw Comics the Marvel Way
-    locator: ch06, PDF pp. 61-62
     difference_from_foundation: Starts the skeleton with an action center line, develops primitive figure masses with loose draw-through strokes, selects the strongest exploratory lines, then adds tonal form.
     when_to_use: Use when a figure must preserve a lively action curve through construction and cleanup.
     when_not_to_use: Avoid when the primary problem is an unclear overall composition rather than a figure's gesture and structure.

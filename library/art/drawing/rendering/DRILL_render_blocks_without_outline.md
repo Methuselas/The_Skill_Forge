@@ -21,13 +21,8 @@ cross_links:
 - rel: supports
   target_object_id: AP_prepare_construction_for_rendering
 reference:
-  source_id: robert_w_gill_basic_rendering
   source_title: 'Basic Rendering: Effective Drawing for Designers, Artists and Illustrators'
   author: Robert W. Gill
-  publish_date: '1991'
-  media_type: book
-  locator: u00, printed pp. 155-162 (physical PDF pp. 158-165)
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

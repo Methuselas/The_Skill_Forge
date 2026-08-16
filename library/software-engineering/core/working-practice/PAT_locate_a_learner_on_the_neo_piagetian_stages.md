@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_trace_a_state_table_for_calculation_heavy_code
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u13, pp. 207-211
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

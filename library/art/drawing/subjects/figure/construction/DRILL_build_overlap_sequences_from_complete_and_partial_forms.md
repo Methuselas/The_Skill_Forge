@@ -23,13 +23,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_create_depth_sequence_with_overlap
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch03, printed pp. 65-67
-  evidence_type: mixed
 confidence: high
 target_skill: arranging complete and obscured masses into a readable near-to-far sequence
 references: []

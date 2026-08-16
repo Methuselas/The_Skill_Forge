@@ -21,22 +21,14 @@ tags:
 - muzzle
 cross_links: []
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u01, physical p. 4; printed p. 2
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hultgren_place_horse_eye_from_skull_sections
   variant_name: Place the Horse Eye From Skull Sections and Bone Flow
   variant_basis: method_sequence
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u06, physical pp. 29-30; printed pp. 27-28
   difference_from_foundation: 'Adds Hultgren''s horse-specific placement correction to the serial head block: divide the long head before details, read the pronounced bony route beneath and behind the eye toward the ear, and use those skull sections to prevent the eye from drifting too far forward as the head turns.'
   when_to_use: Use when a horse head has the correct muzzle length but the eye/ear relationship still looks humanized, front-heavy, or unstable across perspective.
   when_not_to_use: Do not convert the source's study divisions into fixed universal measurements for every horse or angle; the actual skull, individual, and viewpoint still control placement.
@@ -44,9 +36,6 @@ variants:
 - variant_id: VAR_hultgren_construct_gorilla_face_from_cheekbone_eye_and_nostril_landmarks
   variant_name: Construct a Gorilla Face From Cheekbone, Deep-Eye, and Broad-Nostril Landmarks
   variant_basis: context
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u12, physical p. 89; printed p. 87
   difference_from_foundation: 'Adds Hultgren''s gorilla-specific landmark emphasis after the compact cranial/facial block: keep the cheekbones pronounced, set the eyes deep and inset beneath a low forehead, and make the nostril region broad, using the head centerline to keep those bilateral landmarks attached through the turn.'
   when_to_use: Use when a gorilla head has a plausible generic muzzle but still reads too human, too flat around the eyes, or insufficiently broad through the central face.
   when_not_to_use: Do not treat Hultgren's listed traits as exact measurements or as a complete gorilla taxonomy; age, individual structure, viewpoint, and the actual reference still control the block.

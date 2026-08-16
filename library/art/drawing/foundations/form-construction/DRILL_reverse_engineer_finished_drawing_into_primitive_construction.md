@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_build_gesture_into_clear_masses
 reference:
-  source_id: marvel_how_to_draw_comics
   source_title: How to Draw Comics the Marvel Way
   author: Stan Lee and John Buscema
-  publish_date: 1978
-  media_type: PDF
-  locator: u02, physical PDF pp. 15-23
-  evidence_type: mixed
 confidence: high
 references: []
 target_skill: Seeing the simple solid construction that makes a finished drawing occupy space

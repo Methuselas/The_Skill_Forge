@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: AP_draw_a_figure_through_onion_skinned_stages
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch02, printed pp. 62-63
-  evidence_type: mixed
 confidence: high
 target_skill: preserving the governing action while developing a notation from thumbnail to large format and through a continuous final-size route
 references: []

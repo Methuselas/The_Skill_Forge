@@ -28,13 +28,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_compare_related_animal_types_with_proportion_boxes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u07, printed pp. 26-29; physical pp. 24-27
-  evidence_type: mixed
 confidence: high
 target_skill: calibrating animal proportion from a measured profile framework, then estimating the same large relationships reliably enough that exact measurement becomes an occasional uncertainty check
 references: []

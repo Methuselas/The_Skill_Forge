@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_trace_a_state_table_for_calculation_heavy_code
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u04, pp. 56-59
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_expand_a_slice_from_one_focal_point
   variant_name: Expand a Slice From One Focal Point
   variant_basis: method_sequence
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u05, pp. 76-78
   difference_from_foundation: The foundation annotates every variable, call and class instance on the page, producing a complete map with no starting point. This variant runs the same annotation from a chosen focal point outward, marking only entities that transitively relate to it — the slice of that line — so the result is a partial map organised around one question rather than a total map of the file. Hermans states the relationship directly, calling the six-step procedure an instantiation of Sillito's four-stage model with the entry point left out.
   when_to_use: Use when you have a specific reason to be in the code — a runtime error at a known line, a profiler-flagged hotspot, a feature to place — and when the file is too large to annotate exhaustively. The slice also answers questions the full map cannot, such as which method is called from many places within it and therefore warrants study.
   when_not_to_use: Do not use it when you need the shape of the whole file, when no focal point stands out, or when the framework scatters entry points far enough apart that picking one would mislead you about the structure.

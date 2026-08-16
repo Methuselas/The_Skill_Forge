@@ -41,13 +41,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_map_pure_trunk_muscle_actions_from_spinal_axes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u26, printed pp. 106-107, figs. 110-111; physical pp. 104-105
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

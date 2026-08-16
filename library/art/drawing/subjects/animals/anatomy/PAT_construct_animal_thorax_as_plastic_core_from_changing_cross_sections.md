@@ -36,13 +36,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_model_and_redraw_animal_thorax_across_views_and_sections
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u24, printed pp. 102-104, figs. 106-108; physical pp. 100-102
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

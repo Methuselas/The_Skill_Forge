@@ -31,22 +31,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_attach_joint_overlap_to_advancing_member
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch04, printed pp. 105-133
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_loomis_foreshorten_by_cross_sections_of_complete_form
   variant_name: Foreshorten Through Cross-Sections of the Complete Form
   variant_basis: method_sequence
-  source_id: andrew_loomis_figure_drawing_for_all_its_worth
-  source_title: Figure Drawing for All It's Worth
-  locator: u03, printed pp. 74-75
   difference_from_foundation: 'Adds Loomis''s sectional construction check to Stage 2 foreshortening: imagine the whole form, including hidden depth, place intermittent cross-sections through it, and connect those sections so overlap and contour emerge from one continuous solid instead of from guessed visible lengths.'
   when_to_use: Use when a deeply advancing or receding torso/limb is difficult to size and the visible contour alone gives too little evidence for its full volume.
   when_not_to_use: Do not cover every form in instructional slices when width, end curves, overlap, and centerlines already prove the depth; cross-sections are a diagnostic scaffold.

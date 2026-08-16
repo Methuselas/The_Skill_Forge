@@ -19,22 +19,14 @@ tags:
 - robustness
 cross_links: []
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u03, pp. 52-53
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_convert_semantic_interface_terms_into_programmatic_ones
   variant_name: Convert Semantic Interface Terms Into Programmatic Ones
   variant_basis: method_sequence
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u06, p. 137
   difference_from_foundation: The foundation structures code so that breaking it stops a compile or fails a test. This variant supplies the audit that finds what to structure - split the interface into its programmatic part, meaning the types and attributes a compiler can enforce, and its semantic part, meaning the assumptions about use that it cannot. Requirements such as calling one routine before another, or a member that must be initialized or the call crashes, are semantic, and McConnell is blunt about what that means - any aspect of an interface the compiler cannot enforce is an aspect likely to be misused. Document the semantic part, then work to move items out of it, with assertions as the fallback where the type system cannot reach.
   when_to_use: Use when reviewing an interface you own, especially one carrying call-order or initialization prerequisites. Listing the semantic terms explicitly is what makes them candidates for conversion rather than permanent small print.
   when_not_to_use: Do not treat documenting a semantic term as discharging it, since the foundation's point is that documentation is not a signal that blocks a bad change. Do not convert a term into an assertion when the type system could carry it, because a compile error beats a runtime one.

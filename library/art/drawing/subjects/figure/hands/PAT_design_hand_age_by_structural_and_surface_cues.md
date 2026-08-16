@@ -25,22 +25,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_reveal_hand_structure_through_surface_stress
 reference:
-  source_id: burne_hogarth_drawing_dynamic_hands
   source_title: Drawing Dynamic Hands
   author: Burne Hogarth
-  publish_date: '1977'
-  media_type: book
-  locator: ch10, printed pp. 122-133
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_loomis_age_young_hand_by_palm_to_finger_mass_ratio
   variant_name: Age a Young Hand by Palm-to-Finger Mass Ratio
   variant_basis: emphasis
-  source_id: andrew_loomis_drawing_the_head_and_hands
-  source_title: Drawing the Head and Hands
-  locator: u09, physical pp. 134-137
   difference_from_foundation: 'Adds Loomis''s young-hand mass shortcut: make the baby palm, thumb base, and heel proportionally fuller against shorter/smaller fingers, then move through childhood by reducing that contrast toward the more stable later hand proportions before relying on surface age cues.'
   when_to_use: Use when a baby or child hand has correct generic anatomy but still reads too adult in its large-to-small mass relationship.
   when_not_to_use: Do not treat the examples as fixed biological ratios or infer sex from hand proportions alone; observed individual anatomy overrides the average.

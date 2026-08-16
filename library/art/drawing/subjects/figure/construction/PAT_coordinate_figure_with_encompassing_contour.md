@@ -27,22 +27,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_consolidate_resolved_form_with_tone
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch03, printed pp. 95-99
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_loomis_oppose_rhythmic_line_with_structural_line
   variant_name: Oppose Rhythmic Line With Structural Line
   variant_basis: emphasis
-  source_id: andrew_loomis_figure_drawing_for_all_its_worth
-  source_title: Figure Drawing for All It's Worth
-  locator: u01, printed pp. 36-47
   difference_from_foundation: 'Adds Loomis''s line-design opposition: flowing rhythmic passages gain force when answered by straighter or more angular structural passages instead of making the entire figure uniformly curvilinear.'
   when_to_use: Use when a figure has movement but feels boneless, soft, or monotonously wavy.
   when_not_to_use: Do not impose arbitrary straight-versus-curve alternation where the actual form and action do not support it.
@@ -50,9 +42,6 @@ variants:
 - variant_id: VAR_loomis_pick_up_rhythm_across_separated_contours
   variant_name: Pick Up Rhythm Across Separated Contours
   variant_basis: emphasis
-  source_id: andrew_loomis_figure_drawing_for_all_its_worth
-  source_title: Figure Drawing for All It's Worth
-  locator: u08, printed pp. 136-141
   difference_from_foundation: 'Adds Loomis''s follow-through idea to contour unity: a visible edge can be mentally continued through the solid and picked up by a later contour, allowing separated outer and inner edges to participate in one rhythmic path rather than reading as unrelated fragments.'
   when_to_use: Use when locally correct contours feel jerky, disconnected, or fail to carry movement through the whole figure.
   when_not_to_use: Do not invent elegant connecting rhythms that contradict the actual mass, joint, or perspective; rhythm must unify existing structure rather than replace it.
@@ -60,9 +49,6 @@ variants:
 - variant_id: VAR_hultgren_reverse_and_oppose_animal_line_flow
   variant_name: Reverse and Oppose Animal Line Flow
   variant_basis: context
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u03, printed pp. 11-13
   difference_from_foundation: 'Adapts line-design opposition to animal drawing: interrupt an all-curve passage with a straighter line when it clarifies structure, reverse an arc when the action changes direction, and use repeated or opposing animal contours such as belly, leg, neck, or tail lines to create rhythm instead of uniform waviness.'
   when_to_use: Use when an animal contour has a readable pose but its line flow feels monotonously curved, parallel, or directionally flat.
   when_not_to_use: Do not force straight-versus-curve opposition, repeated arcs, or a checklist of horizontal, vertical, and diagonal lines where the animal's structure and action do not support them.

@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_preserve_articulated_limb_chain
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch04, printed pp. 110-114, 118-119, and 125-126
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

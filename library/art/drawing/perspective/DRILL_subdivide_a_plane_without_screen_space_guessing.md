@@ -22,13 +22,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_measure_subdivide_and_repeat_on_perspective_planes
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 68-76
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

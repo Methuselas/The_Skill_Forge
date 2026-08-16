@@ -31,22 +31,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_resolve_head_and_neck_last_from_context
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch02, printed pp. 45-64
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hogarth_separate_construction_order_from_kinetic_lead
   variant_name: Separate Construction Order From Kinetic Lead
   variant_basis: context
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
-  source_title: Dynamic Figure Drawing
-  locator: ch06, printed pp. 168-173
   difference_from_foundation: 'Clarifies that the order used to construct the figure need not match the apparent origin of motion: the torso/support can remain the construction anchor while eyes, chin, or head direction visually lead the depicted action.'
   when_to_use: Use when torso-first construction is correct but the pose still needs a clearer directional lead or when head-led action tempts the artist to abandon the structural order.
   when_not_to_use: Do not force every action to be head-led; use the visible kinetic lead supported by the pose, and keep pelvis/support mechanics coherent.

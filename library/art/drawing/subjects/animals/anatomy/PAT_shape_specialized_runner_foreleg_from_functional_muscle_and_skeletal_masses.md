@@ -42,22 +42,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_construct_complete_runner_foreleg_from_architectural_masses_and_sections
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u17, printed pp. 69-70, figs. 70-71; physical pp. 67-68
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_shape_ruminant_foreleg_with_angular_masses_and_broad_carpus
   variant_name: Shape a Ruminant Foreleg With Angular Masses and a Broad Carpus
   variant_basis: context
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u18, printed pp. 72 and 74, fig. 73; physical pp. 70 and 72
   difference_from_foundation: 'Adapts the horse-oriented runner mass hierarchy to Bammes''s cow comparison: keep the limb structurally spare, but make the prominent muscle-and-bone forms harder and more angular, broaden the carpal mass strongly, and emphasize the bend above and below the carpus rather than smoothing the chain into the horse''s comparatively straighter rhythm.'
   when_to_use: Use when translating a horse-based ungulate foreleg construction toward a cow or comparable ruminant whose visible carpal width and angular breaks are actually present in the reference.
   when_not_to_use: Do not turn every ruminant into one fixed cow template, and do not infer exact joint proportions or soft-tissue distribution from this comparative example alone.

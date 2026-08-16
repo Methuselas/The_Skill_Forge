@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_space_practice_across_widening_intervals
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u02, pp. 22-23
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_close_the_knowledge_gap_instead_of_only_sizing_around_it
   variant_name: Close the Knowledge Gap Instead of Only Sizing Around It
   variant_basis: method_sequence
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u03, pp. 33-45
   difference_from_foundation: The foundation answers missing long-term knowledge by shrinking the reading slice and supplying concepts at the point of need, which accommodates the gap each time it appears. This variant treats the same gap as something to remove — the reader deliberately acquires the missing syntax and concepts through attempted recall, spaced revisiting, and elaboration, so that later reading needs less accommodation.
   when_to_use: Use when the same person will keep returning to this language, framework, or domain, when the same concepts are looked up repeatedly, or when onboarding is expected to reach unaided fluency rather than a single guided pass.
   when_not_to_use: Do not use it to justify withholding scope control now. Acquisition takes weeks, so a reader facing the code today still needs the smaller slice today; the two run together rather than one replacing the other. It is also the wrong route for genuinely fringe syntax that is not worth holding.

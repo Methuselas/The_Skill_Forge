@@ -23,22 +23,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_build_gesture_into_clear_masses
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 21-25 and 44
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bridgman_three_plane_block_opposition
   variant_name: Oppose Major Body Blocks Through Bend, Twist, and Tilt
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u00, physical pp. 11-16
   difference_from_foundation: 'Specializes torso blocking by treating head, chest, and pelvis as stable block masses whose action is read first from their relative orientation: forward/back bend, horizontal twist, and transverse tilt usually combine rather than occur as isolated movements.'
   when_to_use: Use when a torso pose feels stiff even though the rib cage and pelvis are individually constructed correctly.
   when_not_to_use: Do not reduce the spine to three rigid hinges or impose all three movements when the pose does not show them; the blocks summarize the action rather than replace the continuous body.
@@ -46,9 +38,6 @@ variants:
 - variant_id: VAR_bridgman_split_torso_wedge_through_mobile_waist
   variant_name: Split the Torso Wedge Through a Mobile Waist
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u05, physical pp. 147-168
   difference_from_foundation: Deepens the flexible-waist model by distinguishing comparatively stable chest and pelvis masses from a highly changeable central waist/epigastric region. In bending or turning, Bridgman's straight front wedge should not simply kink; it resolves into upper and lower wedges whose directions are mediated by the mobile center.
   when_to_use: Use when the chest and pelvis are correctly oriented but the torso between them looks like a bent board, pinched hose, or uniformly deformed single mass.
   when_not_to_use: Do not carve a visible seam across every torso or treat the waist as a detachable third block; the split-wedge model is a construction aid for preserving stable end masses through deformation.
@@ -56,9 +45,6 @@ variants:
 - variant_id: VAR_bammes_articulate_seated_torso_as_fold_chain
   variant_name: Articulate the Seated Torso as a Fold Chain
   variant_basis: method_sequence
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
-  source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
-  locator: u08, printed pp. 276-289
   difference_from_foundation: 'Adds Bammes''s seated-torso correction to the flexible-waist model: a forward or relaxed seated front is not one smoothed C-curve. Read it as an articulated sequence in which the rib cage/upper torso turns against the abdomen as an intermediate mass, the abdomen redirects into a pelvis that is tipped or rolled by the seat, and the pelvis then turns into the rising thighs. Seat height, back support, twist, and tissue softness determine how strongly the links bunch, flatten, or stretch.'
   when_to_use: Use when a seated torso looks like a bent hose, a single hollow curve, or a standing torso simply rotated at the hips.
   when_not_to_use: Do not manufacture a fixed stack of visible folds in every seated body. Erect sitting, strong extension, very lean anatomy, clothing, and different seat geometry can reduce or redirect the visible compression even though the underlying articulated mass sequence remains.

@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_reverse_engineer_head_reference_through_structural_stages
 reference:
-  source_id: andrew_loomis_drawing_the_head_and_hands
   source_title: Drawing the Head and Hands
   author: Andrew Loomis
-  publish_date: Unknown
-  media_type: PDF
-  locator: u08, physical p. 114
-  evidence_type: text
 confidence: high
 references: []
 variants: []

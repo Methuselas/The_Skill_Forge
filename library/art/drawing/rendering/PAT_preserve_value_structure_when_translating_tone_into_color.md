@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_separate_local_value_from_light_and_shadow_effect
 reference:
-  source_id: andrew_loomis_creative_illustration
   source_title: Creative Illustration
   author: Andrew Loomis
-  publish_date: unknown
-  media_type: PDF
-  locator: u08, physical PDF pp. 131-133; printed pp. 141-143
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

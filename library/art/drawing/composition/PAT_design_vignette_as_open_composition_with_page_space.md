@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_crop_decisively_to_reshape_figure_ground_relationships
 reference:
-  source_id: andrew_loomis_creative_illustration
   source_title: Creative Illustration
   author: Andrew Loomis
-  publish_date: unknown
-  media_type: PDF
-  locator: u04, physical PDF pp. 44-46; printed pp. 52-54
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

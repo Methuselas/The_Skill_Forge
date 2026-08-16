@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_invent_hand_views_by_projection_and_reversal
 reference:
-  source_id: andrew_loomis_drawing_the_head_and_hands
   source_title: Drawing the Head and Hands
   author: Andrew Loomis
-  publish_date: Unknown
-  media_type: PDF
-  locator: u09, physical pp. 120-121
-  evidence_type: text
 confidence: high
 references: []
 variants: []

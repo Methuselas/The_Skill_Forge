@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_diagnose_source_of_code_confusion
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 10-12
-  evidence_type: mixed
 confidence: high
 target_skill: distinguishing retrieved knowledge, temporary information, and active processing during code comprehension
 references: []

@@ -21,22 +21,14 @@ cross_links:
 - rel: supports
   target_object_id: AP_construct_a_shared_scene_perspective_field
 reference:
-  source_id: robert_w_gill_basic_rendering
   source_title: 'Basic Rendering: Effective Drawing for Designers, Artists and Illustrators'
   author: Robert W. Gill
-  publish_date: '1991'
-  media_type: book
-  locator: u00, printed pp. 25-31 (physical PDF pp. 28-34)
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_shift_texture_mark_vocabulary_with_distance
   variant_name: Shift Texture Mark Vocabulary With Distance
   variant_basis: method_sequence
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u06, physical pp. 169-170
   difference_from_foundation: "Adds Dodson's perceptual-scale route: as repeated surface detail recedes, change the kind of mark used to represent it rather than merely shrinking the foreground stroke. Move from individual articulation to grouped texture, broader pattern, and finally near-omission as distance removes resolvable events."
   when_to_use: Use when grass, foliage, crowds, windows, scales, fur, roof tiles, or other repeated detail extends through substantial depth and literal miniaturization would make the far field noisy or false.
   when_not_to_use: Do not change mark vocabulary so abruptly that equivalent surfaces stop belonging to the same material family, and do not use simplification to repair incorrect scale or perspective.

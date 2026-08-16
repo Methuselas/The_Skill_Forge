@@ -7,4 +7,6 @@ modules:
 # Runtime orchestration is vendored into each portable release.
 runtime_profile: generic
 # Deployment limits are release-target constraints, never authoring-health gates.
-# deployment_profile: chatgpt_skill
+# Add a profile under PASS/runtime/deployment_profiles/ and name it here to gate
+# a release on a target's package-size limit. No profiles ship by default.
+# deployment_profile: <name>

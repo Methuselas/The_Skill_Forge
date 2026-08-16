@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_manage_resources_with_raii_objects
 reference:
-  source_id: effective_cpp_3e
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers
-  publish_date: 2005
-  media_type: PDF
-  locator: u03, pp. 66-69
-  evidence_type: text
 confidence: high
 references: []
 variants: []

@@ -27,22 +27,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_stage_animal_mood_through_whole_body_pose_and_behavioral_cues
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u02, printed p. 9; physical p. 7
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_complete_sketch_with_objective_led_economy
   variant_name: Complete a Sketch With Objective-Led Economy
   variant_basis: emphasis
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u33, printed pp. 136-137; physical pp. 134-135
   difference_from_foundation: >-
     Carries the selected dominant quality into the stopping decision: choose only the contour, hatching, tone, gesture, or other means needed to state that impression decisively, and stop when the statement is complete even if much of the animal remains unstated.
   when_to_use: Use when a study is called a sketch but its marks are vague, uniformly sparse, speed-driven, or accumulating without a clear criterion for completion.

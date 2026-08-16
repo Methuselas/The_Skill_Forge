@@ -19,13 +19,8 @@ tags:
 - thirds
 cross_links: []
 reference:
-  source_id: michael_mattesi_force_animal_drawing
   source_title: 'FORCE: Animal Drawing'
   author: Michael D. Mattesi
-  publish_date: Unknown
-  media_type: PDF
-  locator: u06, physical pp. 197-215
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

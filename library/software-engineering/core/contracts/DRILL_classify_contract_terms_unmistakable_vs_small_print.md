@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_define_your_code_contract_explicitly
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u03, pp. 58-60
-  evidence_type: text
 confidence: high
 target_skill: analyzing a piece of code's contract and spotting terms that rely on unreliable small print
 references: []

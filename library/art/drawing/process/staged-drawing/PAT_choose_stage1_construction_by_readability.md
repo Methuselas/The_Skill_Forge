@@ -29,13 +29,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_block_complete_stage2_inventory
 reference:
-  source_id: guided_stage1_stage3_artist_discretion_2026_08_06
   source_title: Guided Stage 1–3 Artist Discretion, Mass Completion, and Commitment Review
   author: MaDin + GPT
-  publish_date: 2026-08-06
-  media_type: archive
-  locator: stage1_stage3_artist_discretion
-  evidence_type: mixed
 confidence: high
 references:
 - image_path: library/art/drawing/process/staged-drawing/assets/precedent_stage1_observatory_hybrid_construction.png
@@ -47,9 +42,6 @@ variants:
 - variant_id: VAR_hampton_use_only_intentional_gesture_marks
   variant_name: Use Only Intentional Gesture Marks
   variant_basis: method_sequence
-  source_id: michael_hampton_figure_drawing_design_and_invention
-  source_title: 'Figure Drawing: Design and Invention'
-  locator: u00, printed pp. 3-4, 22-27
   difference_from_foundation: 'Adds Hampton''s early-stage mark discipline to the readability-based Stage 1 foundation: gesture is a structural framework, not emotional scribbling, and each mark should have an explainable job in communicating the figure''s intention, movement, proportion, balance, or spatial direction.'
   when_to_use: Use when gesture construction is becoming noisy, decorative, contour-led, or difficult to explain as a plan for the next stage.
   when_not_to_use: Do not interpret economy as a mandatory minimum line count; use as many construction marks as the figure needs when each mark carries a readable purpose.
@@ -57,9 +49,6 @@ variants:
 - variant_id: VAR_loomis_pose_a_learned_mannikin_before_bulk
   variant_name: Pose a Learned Mannikin Before Bulk
   variant_basis: method_sequence
-  source_id: andrew_loomis_figure_drawing_for_all_its_worth
-  source_title: Figure Drawing for All It's Worth
-  locator: u01, printed pp. 39-55
   difference_from_foundation: 'Adds Loomis''s invention method: internalize a simple proportional mannikin well enough to pose it from imagination, establish weight, action, viewpoint, and major segment relationships, then build bulk over it.'
   when_to_use: Use when Stage 1 needs a repeatable internal puppet for invented figures or when free gesture alone leaves Stage 2 relationships uncertain.
   when_not_to_use: Do not force Loomis's exact mannikin geometry or let the puppet stiffen the intended action.
@@ -67,9 +56,6 @@ variants:
 - variant_id: VAR_vilppu_analyze_total_action_before_contour
   variant_name: Analyze the Total Action Before Contour
   variant_basis: method_sequence
-  source_id: glenn_vilppu_basic_figure_drawing
-  source_title: 'Drawing Manual: Basic Figure Drawing'
-  locator: u01, physical pp. 6-12
   difference_from_foundation: 'Adds Vilppu''s observation-first gesture rule to Stage 1: grasp the figure''s total attitude/body language before making a mark, then use simple lines that communicate the felt relationship and flow of the parts even when those lines do not correspond to visible contour. Let one action line lead into the next and use pinch/stretch, weight, and directional continuity as evidence that the analysis is describing the pose rather than copying its outline.'
   when_to_use: Use when drawing from life or reference and Stage 1 is becoming a traced contour map, a disconnected stick figure, or a collection of local observations with no total body language.
   when_not_to_use: Do not turn Vilppu's step sequence into a rigid formula or reject useful contour when contour itself clearly communicates the action; his repeated boundary is that these are tools and the final gesture must not look mechanical.

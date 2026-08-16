@@ -27,22 +27,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_coordinate_figure_with_encompassing_contour
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch03, printed pp. 68-94
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hampton_connect_forms_by_overlap_conformity_or_transition
   variant_name: Connect Forms by Overlap, Conformity, or Transition
   variant_basis: method_sequence
-  source_id: michael_hampton_figure_drawing_design_and_invention
-  source_title: 'Figure Drawing: Design and Invention'
-  locator: u02, printed pp. 52-53
   difference_from_foundation: 'Adds Hampton''s simplified connection-selection logic: when one part must join another, choose among a clear T-overlap for depth, a connecting shape that conforms to the perspective of the larger host form, or a transitional/intersecting form that begins in one perspective and resolves into the next. Keep the original gesture readable through the connection.'
   when_to_use: Use when adjacent construction masses feel pasted together, when a joint/intersection has ambiguous depth, or when adding landmarks and cylinders is making the pose rigid.
   when_not_to_use: Do not add connective lines merely to decorate a junction; choose the simplest connection that actually explains depth, surface continuity, or perspective change.
@@ -50,9 +42,6 @@ variants:
 - variant_id: VAR_vilppu_bridge_dissimilar_masses_with_continuous_surface
   variant_name: Bridge Dissimilar Masses With a Continuous Surface
   variant_basis: method_sequence
-  source_id: glenn_vilppu_basic_figure_drawing
-  source_title: 'Drawing Manual: Basic Figure Drawing'
-  locator: u04, physical pp. 45-56
   difference_from_foundation: 'Adds Vilppu''s skin-over-structure exercise to interconnection: when a rounded mass and an angular mass meet, imagine one continuous elastic surface stretched across both, feel where it leaves each underlying form, and let pinch/stretch and overlap reveal the transition instead of merely joining primitive outlines.'
   when_to_use: Use when Stage 2 primitives are individually clear but still look assembled, pasted together, or separated by a seam that the finished organic form should not have.
   when_not_to_use: Do not erase necessary articulation or invent a smooth bridge across a true joint gap, hard mechanical seam, or anatomical separation; the continuous-surface pass is for forms that are actually unified by skin or another continuous covering.

@@ -35,13 +35,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_dont_leak_implementation_details_in_exceptions
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 16-17
-  evidence_type: text
 confidence: high
 references: []
 variants: []

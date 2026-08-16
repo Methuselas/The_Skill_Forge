@@ -21,22 +21,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_diagnose_source_of_code_confusion
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 6-9
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_choose_a_constrained_model_to_focus_retrieval
   variant_name: Pick a Model Whose Constraints Do the Focusing
   variant_basis: method_sequence
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u06, pp. 92-93
   difference_from_foundation: The foundation externalizes intermediate state to stop working memory from having to store an execution while also processing it, and the trace is shaped by the code being traced. This variant treats the choice of notation as the active ingredient — pick a model whose constraints exclude most of the problem, because being unable to express the irrelevant parts is what directs long-term memory toward the relevant memories. A state diagram can only show values of variables and an entity relationship diagram can only show classes and their relationships, and that inability is the benefit rather than a limitation to work around.
   when_to_use: Use when the difficulty is deciding what to attend to rather than holding too many values — architectural or design questions, or a codebase too large to hold in working memory at all, where the useful move is mapping it on a whiteboard under a notation that admits only one kind of element. Also use when the model has to be shown to someone else, since a constrained notation makes relationships visible that are otherwise hidden in the code.
   when_not_to_use: Do not swap in a constrained notation when you need exactly the values a line-by-line trace produces; a diagram that cannot express intermediate state is the wrong tool for a calculation you are stepping through. It is also the wrong move when you do not yet know which kind of element matters, because choosing the constraint prematurely hides the thing you were looking for.

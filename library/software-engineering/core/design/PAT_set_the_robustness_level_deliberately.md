@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_settle_one_error_handling_strategy_systemwide
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u03, p. 51
-  evidence_type: text
 confidence: high
 references: []
 variants: []

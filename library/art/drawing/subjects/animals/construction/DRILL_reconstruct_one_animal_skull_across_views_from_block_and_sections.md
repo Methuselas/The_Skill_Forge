@@ -28,13 +28,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_compare_animal_skull_types_by_cranial_facial_balance_and_load_paths
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u29, printed pp. 119-121; physical pp. 117-119
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

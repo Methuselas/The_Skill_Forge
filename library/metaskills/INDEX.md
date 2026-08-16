@@ -4,4 +4,6 @@
 
 ## Topics
 
-- [Iterative Construction](iterative-construction/INDEX.md) - 1 object(s).
+- [Creative Search](creative-search/INDEX.md) - 1 object(s).
+- [Iterative Construction](iterative-construction/INDEX.md) - 2 object(s).
+- [Verification](verification/INDEX.md) - 1 object(s).

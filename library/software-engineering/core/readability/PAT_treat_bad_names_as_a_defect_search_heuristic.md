@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_diagnose_source_of_code_confusion
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u08, pp. 141-142
-  evidence_type: text
 confidence: medium
 references: []
 variants:
 - variant_id: VAR_hermans_use_structural_smells_as_the_signal
   variant_name: Use Structural Smells as the Signal Instead of Names
   variant_basis: method_sequence
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u09, p. 151
   difference_from_foundation: The foundation searches on naming flaws detected lexically and structurally in identifiers. This variant searches on Fowler's code smells instead — God classes, God methods, large classes, long methods — which Khomh's analysis of successive Eclipse versions tied to error proneness across every version examined. It also widens what the signal predicts, since the same work found large class and long method significantly raised *change* proneness in more than 75% of Eclipse releases, so smelly code is both likelier to be wrong and likelier to move.
   when_to_use: Use where a smell detector or static analyser is already in the pipeline, since these smells are cheaper to detect mechanically than naming quality, and use it when planning refactoring effort rather than only defect hunting — the change-proneness result speaks directly to where future work will land.
   when_not_to_use: Do not use it on code whose structure is dictated by a framework or generator, where the smell is an artefact of the tool and predicts nothing about the authors. It is also the wrong signal in a codebase already structurally uniform, where names remain the only varying quality dimension.

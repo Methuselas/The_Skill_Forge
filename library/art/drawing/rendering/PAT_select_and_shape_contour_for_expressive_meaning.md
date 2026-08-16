@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_map_observed_subject_as_interlocking_positive_and_negative_shapes
 reference:
-  source_id: andrew_loomis_creative_illustration
   source_title: Creative Illustration
   author: Andrew Loomis
-  publish_date: unknown
-  media_type: PDF
-  locator: u01, physical PDF p. 12; printed p. 19
-  evidence_type: text
 confidence: high
 references: []
 variants: []

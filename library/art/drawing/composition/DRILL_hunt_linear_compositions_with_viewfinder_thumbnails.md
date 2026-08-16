@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_map_observed_subject_as_interlocking_positive_and_negative_shapes
 reference:
-  source_id: andrew_loomis_creative_illustration
   source_title: Creative Illustration
   author: Andrew Loomis
-  publish_date: unknown
-  media_type: PDF
-  locator: u03, physical PDF pp. 22-23; printed pp. 30-31
-  evidence_type: mixed
 confidence: high
 references: []
 target_skill: Discovering compositional arrangements in ordinary surroundings by framing and abstracting contour-space relationships

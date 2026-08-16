@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_design_lighting_to_serve_subject_mood_and_visual_intent
 reference:
-  source_id: andrew_loomis_successful_drawing
   source_title: Successful Drawing
   author: Andrew Loomis
-  publish_date: Unknown
-  media_type: PDF
-  locator: u05, physical PDF pp. 91-92
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

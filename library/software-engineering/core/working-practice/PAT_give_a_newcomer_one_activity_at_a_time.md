@@ -25,13 +25,8 @@ cross_links:
 - rel: supports
   target_object_id: AP_prepare_an_onboarding_for_all_three_memory_systems
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u13, pp. 213-214, 216
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

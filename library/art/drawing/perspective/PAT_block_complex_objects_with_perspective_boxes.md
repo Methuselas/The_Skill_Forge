@@ -19,22 +19,14 @@ tags:
 - object_drawing
 cross_links: []
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 37-49
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hultgren_loose_pose_box_for_animal_angle_shots
   variant_name: Loose Pose Box for Animal Angle Shots
   variant_basis: context
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u01, physical p. 5; printed p. 3
   difference_from_foundation: Uses a temporary coarse box or cage around an organic animal pose to check gross height, depth, orientation, and foreshortening before returning to the animal's curved masses rather than fitting a designed object's contour inside a literal rectilinear solid.
   when_to_use: Use when an animal angle shot is drifting in perspective or its near-to-far body placement is hard to judge from the organic silhouette alone.
   when_not_to_use: Avoid when the pose already reads spatially or when forcing the cage would straighten and stiffen the animal's dominant action.

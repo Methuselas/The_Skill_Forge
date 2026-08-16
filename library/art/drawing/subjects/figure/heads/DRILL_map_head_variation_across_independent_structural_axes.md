@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_reverse_engineer_head_reference_through_structural_stages
 reference:
-  source_id: burne_hogarth_drawing_the_human_head
   source_title: Drawing the Human Head
   author: Burne Hogarth
-  publish_date: '1965'
-  media_type: book
-  locator: u05, physical pp. 110-118
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

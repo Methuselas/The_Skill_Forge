@@ -34,13 +34,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_commit_stage3_form_realization
 reference:
-  source_id: guided_stage1_stage3_artist_discretion_2026_08_06
   source_title: Guided Stage 1–3 Artist Discretion, Mass Completion, and Commitment Review
   author: MaDin + GPT
-  publish_date: '2026-08-06'
-  media_type: archive
-  locator: stage1_stage3_artist_discretion
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

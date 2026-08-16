@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_turn_cylinder_end_curves_with_depth
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch04, printed pp. 105-109 and 115-117
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -23,22 +23,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_consolidate_resolved_form_with_tone
 reference:
-  source_id: robert_w_gill_basic_rendering
   source_title: 'Basic Rendering: Effective Drawing for Designers, Artists and Illustrators'
   author: Robert W. Gill
-  publish_date: '1991'
-  media_type: book
-  locator: u00, printed pp. 52-57 (physical PDF pp. 55-60)
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_analyze_dominant_light_direction_and_quality
   variant_name: Analyze Dominant Light Direction and Quality
   variant_basis: method_sequence
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u04, physical pp. 110-115
   difference_from_foundation: Extends the pre-render light check beyond direction
     to the character of the dominant illumination—direct, diffuse, backlit, underlit,
     or similarly distinctive—because source quality changes shadow pattern, edge character,

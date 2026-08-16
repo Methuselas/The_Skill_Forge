@@ -22,22 +22,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_consolidate_resolved_form_with_tone
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u04, physical pp. 118-121
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_loomis_compress_observed_values_into_pencil_safe_four_band_range
   variant_name: Compress Observed Values Into a Pencil-Safe Four-Band Range
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u07, physical p. 105
   difference_from_foundation: 'Adds Loomis''s medium-aware pencil compression: when the observed dynamic range is broader than pencil can comfortably reproduce, preserve the ordering of local values and illumination while mapping the subject into a small controlled set of value families - paper white for extreme lights, very delicate gray for modeled light, middle gray for halftone, and dark gray/black for shadow and the deepest accents.'
   when_to_use: Use when a pencil rendering is becoming muddy because too many closely spaced observed grays are being copied literally, or when a broad value structure must stay readable despite the medium's practical range.
   when_not_to_use: Do not treat four bands as a universal tonal law or force subtle subjects into four equal steps. Use more or fewer groups when the medium, subject, or intended finish needs them, and preserve local-value ordering so intrinsically dark materials do not become falsely light merely because they are illuminated.
@@ -45,9 +37,6 @@ variants:
 - variant_id: VAR_loomis_shift_neighbor_local_values_as_relational_group
   variant_name: Shift Neighboring Local Values as a Relational Group
   variant_basis: method_sequence
-  source_id: andrew_loomis_creative_illustration
-  source_title: Creative Illustration
-  locator: u02, physical PDF p. 15; printed p. 22
   difference_from_foundation: Loomis makes the local-value comparison operational by holding the approximate difference between neighboring materials while a shared illumination change raises or lowers the group. PASS preserves this as a relational check rather than Loomis's absolute claim that the difference remains constant under every possible light.
   when_to_use: Use when two neighboring materials are drifting independently during a lighting change and their established local-value ordering or separation needs to remain legible as one illumination family moves lighter or darker.
   when_not_to_use: Do not lock the numerical difference mechanically when different materials, colored illumination, specularity, translucency, exposure, or other optical effects legitimately change the apparent separation. Preserve the relationship only as far as the observed or designed light supports it.

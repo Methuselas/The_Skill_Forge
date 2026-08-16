@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_use_appropriate_assertion_matchers
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u11, pp. 328-331
-  evidence_type: text
 confidence: high
 target_skill: selecting an assertion matcher that tests exactly the behavior and explains failures clearly
 references: []

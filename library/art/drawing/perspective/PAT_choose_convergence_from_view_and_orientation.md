@@ -21,22 +21,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_establish_eye_level_and_vanishing_directions
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 37-49
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_derive_coupled_vps_with_visual_rays
   variant_name: Derive Coupled Vanishing Points With Visual Rays
   variant_basis: method_sequence
-  source_id: frantz_crannell_viewpoints_mathematical_perspective
-  source_title: Viewpoints
-  locator: printed pp. 30-31 and 61-62
   difference_from_foundation: 'Finalizes Norling''s coupled-VP intuition and Robertson''s visual-ray method: each vanishing point is the picture-plane intersection of a sight ray from the station point parallel to that world direction.'
   when_to_use: Use when exact horizontal direction families or rotated perpendicular grids must stay camera-consistent.
   when_not_to_use: Do not treat two vanishing points as independently draggable style handles in an exact perspective setup.

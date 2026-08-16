@@ -31,13 +31,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_consolidate_resolved_form_with_tone
 reference:
-  source_id: burne_hogarth_dynamic_anatomy
   source_title: Dynamic Anatomy (Revised and Expanded)
   author: Burne Hogarth
-  publish_date: '2003'
-  media_type: book
-  locator: u06, printed pp. 223-224 / scan pp. 225-226
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

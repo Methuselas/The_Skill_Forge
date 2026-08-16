@@ -6,11 +6,9 @@ requirements in `MODULE.yaml`. A named release recipe selects its entry module(s
 prerequisites, runs the release quality gates, then materializes the complete
 closure under `library/` inside the release.
 
-The top-level `teaching` package is conditional. A teaching-capable release
-selects it explicitly in the recipe; the builder never treats it like mandatory
-`metaskills`. The runtime can then combine the release's domain modules with
-Teaching foundations when `lane: teach` is resolved, while ordinary `skill`
-requests leave those Teaching objects inactive.
+A domain release packages that domain without loading any other. Closure follows
+module and object prerequisites inside the domain, plus the shared `metaskills`
+package. It never requires closure across another skill domain.
 
 The release preserves canonical `library/...` paths. This is deliberate: trained
 cards may contain local asset paths such as `library/art/.../assets/foo.png`, and
@@ -27,24 +25,17 @@ supported or used directly as an archived/context package.
 A normal release build fails closed unless all of these pass:
 
 1. PASS schema and relationship validation;
-2. visual-reference/provenance verification;
-3. content-addressed grounding attestations for every primary or variant source used by the selected
-   dependency closure;
-4. local asset resolution;
-5. portability scan.
+2. visual-reference asset verification;
+3. local asset resolution;
+4. portability scan.
 
-Schema and visual-reference gates run against the materialized release closure,
-so a defect in an unrelated skill family does not block an independent release.
-Grounding attestations bind each source to every canonical card where it appears, whether as the
-primary reference or an absorbed variant. The card hash is source-scoped: unrelated variants from
-other sources are removed from the fingerprint, while the base card and that source's own variants
-remain bound. This prevents a newly absorbed variant from falsely staling the owner source while
-still invalidating the variant source when its method/prose changes. A base-rule change stales the
-owner and attached variants because their meaning depends on the same canonical decision.
+Every gate runs against the materialized release closure, so a release is
+publishable on the strength of the cards it actually ships and a defect in an
+unrelated skill family cannot block an independent release.
 
-Attestations also bind the exact source ledger to either a live source verification or an explicitly
-accepted canonical archive. This lets third-party source books remain outside Git while preventing a
-modified or ungrounded source contribution from silently publishing.
+A release build never resolves research provenance. It cannot fail because a
+source PDF is missing, an attestation is stale, a ledger is absent, or another
+domain was not inspected — none of those exist. Retired 2026-08-15.
 
 `--unsafe-skip-quality-gates` exists only for composition fixtures/tests. A release
 built that way is marked unsafe and intentionally fails `build_release.py check`.

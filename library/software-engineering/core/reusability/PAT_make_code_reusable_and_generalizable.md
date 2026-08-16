@@ -29,22 +29,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_use_generics_for_type_independence
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 17-18
-  evidence_type: text
 confidence: medium
 references: []
 variants:
 - variant_id: VAR_harvest_reuse_at_the_end_rather_than_designing_for_it
   variant_name: Harvest Reuse at the End Rather Than Designing for It
   variant_basis: method_sequence
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u06, pp. 153-154
   difference_from_foundation: The foundation designs a solution to be reusable and generalizable while writing it. This variant inverts the sequence on the strength of NASA's Software Engineering Laboratory result across ten projects that pursued reuse aggressively - identify reuse candidates at the end of a project, then do the work to make those specific classes reusable as a closing task or as the first step of the next project. The reported outcome is that object-oriented projects took more than 70 percent of their code from previous projects against about 35 percent for functionally designed ones, and McConnell notes explicitly that the core of the approach does not involve designing for reuse. Its stated purpose is preventing gold-plating, meaning functionality nobody required that adds complexity anyway.
   when_to_use: Use when you cannot yet name the second caller. Harvesting after the fact means the generalization is shaped by two real uses rather than one real use and one imagined one, and the classes that turned out to matter select themselves.
   when_not_to_use: Do not use it to defer all structural thought to the end, since the foundation's case holds when the recurrence is already visible and concrete. It also does not license shipping something knowingly hostile to reuse on the promise of fixing it later, because the harvest is a scheduled task and not an aspiration.

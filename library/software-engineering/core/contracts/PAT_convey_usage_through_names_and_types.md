@@ -21,13 +21,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_prefer_unmistakable_over_small_print
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u03, pp. 53-55
-  evidence_type: text
 confidence: high
 references: []
 variants: []

@@ -20,13 +20,8 @@ tags:
 - rotation
 cross_links: []
 reference:
-  source_id: burne_hogarth_drawing_dynamic_hands
   source_title: Drawing Dynamic Hands
   author: Burne Hogarth
-  publish_date: '1977'
-  media_type: book
-  locator: ch05, printed pp. 71-76
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -28,13 +28,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_repeat_with_variation_to_balance_coherence_and_interest
 reference:
-  source_id: marvel_how_to_draw_comics
   source_title: How to Draw Comics the Marvel Way
   author: Stan Lee and John Buscema
-  publish_date: 1978
-  media_type: PDF
-  locator: u10, physical PDF pp. 107-115
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -7,7 +7,5 @@ modules:
 - art/drawing/perspective
 - art/drawing/rendering
 - art/drawing/composition
-- teaching
 
 runtime_profile: art
-deployment_profile: chatgpt_skill

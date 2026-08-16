@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_diagnose_weak_recall_as_storage_or_retrieval
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u10, pp. 167-171
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

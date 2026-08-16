@@ -36,13 +36,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_construct_contrasting_big_cat_poses_from_studied_anatomy
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u18, printed pp. 74, 77-79, figs. 79a-84; physical pp. 72, 75-77
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

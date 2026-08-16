@@ -21,13 +21,8 @@ tags:
 - proportion
 cross_links: []
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u01, physical pp. 9-40
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

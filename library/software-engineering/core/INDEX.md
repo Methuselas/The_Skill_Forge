@@ -8,10 +8,70 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - **Arrange the Conditions That Make Prior Knowledge Transfer** — read first
   - then: Expect Prior Knowledge to Mislead You Most Where Languages Are Similar
+- **Assess the Groundwork You Inherited Before Writing Code** — read first
+  - then: Refuse to Implement an Architecture You Cannot Follow
+  - then: Write Down the Problem in Terms That Name No Solution
 - **Assume It Is Not Easy, Because You Cannot Remember It Being Hard** — read first
   - then: Work Out Which Stage a Learner Is At Before Choosing How to Help
 - **Choose the Problem's Representation Before Solving It** — read first
   - then: Add Detail Until the Model Admits One Reading
+- **Classify Error Recoverability From the Caller's Position** — read first
+  - then: Don't Hide Errors Behind Default or Silent Results
+  - then: Fail Fast So Errors Surface Near Their Source
+  - then: Fail Loudly and Signal Unrecoverable Errors Implicitly
+  - then: Isolate Failures at the Right Scope of Recoverability
+  - then: Make Async Error Signaling Explicit With a Promise of a Result
+  - then: Make Callers Aware of Errors They Might Want to Recover From
+  - then: Prefer Explicit Signaling for Recoverable Errors
+  - then: Return a Result Type to Convey the Error's Cause
+  - then: Return an Outcome and Enforce That Callers Check It
+  - then: Signal Absent Values With Null Safety or Optionals
+  - then: Treat Compiler Warnings as Potential Bugs
+- **Compose Modules With Few Well-Defined Interfaces** — read first
+  - then: Depend on Interfaces, Not Concrete Classes
+  - then: Don't Leak Implementation Details in Exceptions
+  - then: Don't Leak Implementation Details in Return Types
+  - then: Encapsulate Inescapably Related Data Together
+  - then: Inject Dependencies Instead of Hard-Coding Them
+  - then: Make Each Class Care About Itself
+  - then: Prefer Composition Over Class Inheritance
+- **Decompose a Problem Into Clean Layers of Abstraction** — read first
+  - then: Don't Widen the Public API Just to Reuse or Test Internals
+  - then: Expose a Clean API and Hide Implementation Details
+  - then: Keep Clean Layers of Abstraction Inside Microservices
+  - then: Make Each Function Read Like a Single Short Sentence
+  - then: Represent a Layer With an Interface When It Earns Its Keep
+  - then: Size Classes by the Quality Pillars, Not Line Counts
+  - then: Tune Layer Thickness and Err on the Side of Thin
+- **Design Code to Be Reusable and Generalizable** — read first
+  - then: Avoid Global State; Dependency-Inject Shared State
+  - then: Avoid Unnecessary Assumptions and Enforce Necessary Ones
+  - then: Make Functions Take Only What They Need
+  - then: Provide Default Values in Higher-Level Code
+  - then: Use Generics for Type-Independent Subproblems
+- **Design for Testability While You Write** — read first
+  - then: Don't Make Things Visible Just for Testing
+  - then: Inject Dependencies to Make Code Testable
+  - then: Keep Outcome-Affecting Setup Inside Each Test Case
+  - then: Keep Unit Tests Fast and Easy to Run
+  - then: Make Test Failures and Test Code Self-Explaining
+  - then: Make Tests Fail When and Only When the Code Is Broken
+  - then: Pick and Choose From Testing Philosophies
+  - then: Prefer Fakes Over Mocks and Stubs
+  - then: Split Code Into Smaller Units to Make It Testable
+  - then: Structure a Test Case as Arrange, Act, Assert
+  - then: Test Behaviors, Not Just Functions
+  - then: Test Every Important Behavior, Even Beyond the Public API
+  - then: Test One Behavior Per Test Case
+  - then: Test Through the Public API, Not Implementation Details
+  - then: Use a Test Double Only When a Real Dependency Won't Do
+  - then: Use an Assertion Matcher That Fits the Behavior
+- **Identify Your Code's Contract Explicitly** — read first
+  - then: Convey How to Use Code Through Names and Types, Not Documentation
+  - then: Enforce Contracts at Runtime With Loud Checks
+  - then: Make Breakage Fail at Compile Time or Fail a Test
+  - then: Make Misuse Impossible by Removing Invalid States
+  - then: Prefer Unmistakable Contract Terms Over Small Print
 - **Judge Code Against the Four Quality Goals** — read first
   - then: Choose the Proper Build Over the Hacky Shortcut
   - then: Classify Error Recoverability From the Caller's Position
@@ -25,6 +85,24 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Match the Caller's Mental Model
   - then: Reuse Existing Solutions Instead of Reinventing
   - then: Write Code That Reads Like a Well-Structured Recipe
+- **Make Wrong Usage Hard or Impossible** — read first
+  - then: Keep Classes Immutable With Builder or Copy-on-Write
+  - then: Keep a Single Source of Truth for Data
+  - then: Keep a Single Source of Truth for Logic
+  - then: Make Immutability Deep, Not Just Shallow
+  - then: Prefer Immutable Objects Set Only at Construction
+  - then: Represent Time With Dedicated Types, Not Integers
+  - then: Use a Dedicated Type Instead of an Overly General One
+- **Match the Caller's Mental Model** — read first
+  - then: Avoid Returning Magic Values
+  - then: Avoid Unexpected Side Effects or Make Them Obvious
+  - then: Design Against Surprises Rather Than Relying on Tests to Catch Them
+  - then: Don't Mutate Input Parameters; Copy Before Mutating
+  - then: Handle Enums Exhaustively So New Values Fail Loudly
+  - then: Make Critical Inputs Required Rather Than Silently No-Op
+  - then: Use the Null Object Pattern Only When the Empty Value Can't Surprise
+- **Name the Operations the Thing Supports Before Choosing How to Store It** — read first
+  - then: Ask Whether a New Method Belongs Before You Add It
 - **Separate Intrinsic From Extraneous Difficulty** — read first
   - then: Refactor Temporarily for Your Own Comprehension
 - **Separate Storage Strength From Retrieval Strength** — read first
@@ -32,6 +110,17 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Space Practice Across Widening Intervals
 - **Tell a Misconception From a Slip Before Trying to Fix It** — read first
   - then: Replace a Misconception Rather Than Correcting It
+- **Write Code That Reads Like a Well-Structured Recipe** — read first
+  - then: Adopt a Language Feature Only When It Is the Best Tool
+  - then: Comment the Why, Not the What
+  - then: Favor Readability Over Fewer Lines of Code
+  - then: Follow a Consistent Coding Style Guide
+  - then: Give Unexplained Values a Name
+  - then: Make Call-Site Arguments Self-Explanatory
+  - then: Minimize Nesting With Early Returns and Function Extraction
+  - then: Replace Primitive Parameters With Descriptive Types
+  - then: Use Anonymous Functions Only for Small Self-Explanatory Logic
+  - then: Use Descriptive Names Instead of Comments to Explain What Things Are
 
 ## Topics
 

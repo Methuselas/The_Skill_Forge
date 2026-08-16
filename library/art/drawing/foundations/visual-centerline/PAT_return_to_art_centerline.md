@@ -30,13 +30,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_calibrate_stage_information_density_against_precedent
 reference:
-  source_id: guided_art_centerline_wusao_2026_08_04
   source_title: 'Guided Art Centerline: Registered Crescendo Construction'
   author: Blu + Admin
-  publish_date: 2026-08-04
-  media_type: archive
-  locator: art_centerline_and_registered_crescendo, guided Chimera staging critique, visual-processing comparison, and Wu Sao synthesis
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

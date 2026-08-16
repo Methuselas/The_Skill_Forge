@@ -33,13 +33,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_trace_surface_paths_over_wrapped_forms
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u27, printed pp. 109-112, figs. 115-116; physical pp. 107-110
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

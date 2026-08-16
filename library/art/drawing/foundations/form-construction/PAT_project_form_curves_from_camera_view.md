@@ -20,22 +20,14 @@ tags:
 - form_flow
 cross_links: []
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch03, printed pp. 72-81
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hampton_make_every_added_line_obey_surface_form
   variant_name: Make Every Added Line Obey the Surface Form
   variant_basis: method_sequence
-  source_id: michael_hampton_figure_drawing_design_and_invention
-  source_title: 'Figure Drawing: Design and Invention'
-  locator: u02, printed pp. 51-54
   difference_from_foundation: 'Adds Hampton''s explicit surface-consistency test to form projection: once a box, sphere, cylinder, or organic volume is established, every later line should travel over or around that surface consistently. A line that cuts across the implied surface logic weakens the illusion even when the underlying primitive was correctly drawn.'
   when_to_use: Use whenever contour, anatomy, construction lines, or secondary forms are being added to an already-established three-dimensional volume.
   when_not_to_use: Do not add wrapping lines mechanically to every surface; the rule governs the direction of marks that are actually needed, not the quantity of cross-contours.
@@ -43,9 +35,6 @@ variants:
 - variant_id: VAR_loomis_square_organic_masses_then_round_to_projection
   variant_name: Square Organic Masses, Solve the View, Then Round Them Back
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u02, physical PDF p. 62
   difference_from_foundation: Temporarily converts ambiguous rounded figure masses into simple block-like plane changes so their relationship to the eye level and camera is easier to solve, then restores the organic anatomy without changing the solved projection.
   when_to_use: Use when an invented or strongly foreshortened figure drifts because rounded anatomy makes it unclear which top, underside, or side surfaces should be visible from the chosen view.
   when_not_to_use: Keep the block pass temporary; do not let the temporary squaring stiffen the final figure, erase gesture, or replace anatomical form design.

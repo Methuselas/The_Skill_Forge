@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_coordinate_figure_with_encompassing_contour
 reference:
-  source_id: burne_hogarth_dynamic_anatomy
   source_title: Dynamic Anatomy (Revised and Expanded)
   author: Burne Hogarth
-  publish_date: '2003'
-  media_type: book
-  locator: u03, printed p. 43 / scan p. 45
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

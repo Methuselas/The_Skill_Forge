@@ -37,13 +37,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_model_animal_trunk_torsion_with_four_sided_block
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u23, printed pp. 95, 100-101, figs. 104-105; physical pp. 93, 98-99
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_keep_a_toolbox_instead_of_adopting_one_methodology
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u05, pp. 74-77, 107, 110-113, 124
-  evidence_type: text
 confidence: high
 references: []
 variants: []

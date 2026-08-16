@@ -28,13 +28,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_route_viewer_attention_through_planned_visual_paths
 reference:
-  source_id: andrew_loomis_creative_illustration
   source_title: Creative Illustration
   author: Andrew Loomis
-  publish_date: unknown
-  media_type: PDF
-  locator: u04, physical PDF p. 42; printed p. 50
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

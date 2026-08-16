@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_detect_linguistic_antipatterns_in_names
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u09, pp. 148-153
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

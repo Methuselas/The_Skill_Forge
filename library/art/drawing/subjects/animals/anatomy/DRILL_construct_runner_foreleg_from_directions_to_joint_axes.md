@@ -35,13 +35,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_build_animal_form_from_skeletal_landmarks_to_planes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u16, printed pp. 66-68, Figure 68 and Figure 69; physical pp. 64-66
-  evidence_type: mixed
 confidence: high
 target_skill: constructing the shoulder and foreleg of a specialized runner from segment directions, joint axes, and state-dependent skeletal forms before surface anatomy
 references: []

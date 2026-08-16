@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_make_immutability_deep
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u07, pp. 181-186
-  evidence_type: text
 confidence: high
 target_skill: finding and closing shared-reference mutation paths in a supposedly immutable class
 references: []

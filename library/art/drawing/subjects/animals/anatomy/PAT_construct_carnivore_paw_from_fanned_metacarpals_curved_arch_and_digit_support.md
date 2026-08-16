@@ -41,22 +41,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_construct_contrasting_big_cat_poses_from_studied_anatomy
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u19, printed pp. 80-82, figs. 86-87; physical pp. 78-80
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_calibrate_lion_and_dog_paw_by_metacarpal_length_and_claw_state
   variant_name: Calibrate Lion and Dog Paw by Metacarpal Length and Claw State
   variant_basis: context
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u21, printed p. 87, fig. 93; physical p. 85
   difference_from_foundation: 'Calibrates the shared carnivore paw architecture by species-specific proportion and claw behavior: Bammes contrasts the lion''s short, stubby metacarpal construction and retractable claws with the dog''s longer, more graceful metacarpal construction and non-retractable claws. The fanned, articulated paw principle remains the same; the distal proportions and claw state change.'
   when_to_use: Use when a large-cat paw and a canine paw are reading as the same generic terminal block after the underlying fan, arch, digit support, and forearm relation are already correct.
   when_not_to_use: Do not turn the comparison into a fixed silhouette or force visible claw exposure in every pose; use the actual species, contact, and reference to set digit spread, pad compression, and whether claws are visible.

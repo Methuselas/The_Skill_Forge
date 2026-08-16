@@ -44,22 +44,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_study_carnivore_foreleg_across_views_and_rotation_axes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u19, printed pp. 80-83, figs. 85-88; physical pp. 78-81
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_distinguish_cat_and_dog_foreleg_rotation_and_carpus
   variant_name: Distinguish Cat and Dog Foreleg Rotation and Carpal Shape
   variant_basis: context
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u19, printed pp. 80-81, fig. 86; physical pp. 78-79
   difference_from_foundation: 'Calibrates the shared carnivore foreleg construction by degree rather than treating cat and dog as one mechanism: Bammes gives cats much more useful pronation/supination, a broader carpus, greater humeral abduction for climbing or attack, and a straighter paw direction, while dogs show restricted forearm rotation, a narrower carpus, and a slight forward bend after the carpal joint.'
   when_to_use: Use when a cat and dog foreleg are reading too similarly or when the paw turn needs to be propagated through the species-appropriate forearm rather than applied at the wrist alone.
   when_not_to_use: Do not turn these comparisons into fixed breed-neutral silhouettes or infer exact ranges of motion from the drawings; use observed anatomy and pose to set the degree.

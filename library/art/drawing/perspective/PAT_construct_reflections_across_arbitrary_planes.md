@@ -19,13 +19,8 @@ tags:
 - oblique
 cross_links: []
 reference:
-  source_id: gwen_white_perspective_guide
   source_title: 'Perspective: A Guide for Artists, Architects and Designers'
   author: Gwen White
-  publish_date: 1968 / 1982
-  media_type: book
-  locator: u00, printed p. 24 (PDF p. 25)
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -23,22 +23,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_build_gesture_into_clear_masses
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 12-17
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hampton_use_landmarks_to_turn_major_masses
   variant_name: Use Landmarks to Turn the Major Masses
   variant_basis: method_sequence
-  source_id: michael_hampton_figure_drawing_design_and_invention
-  source_title: 'Figure Drawing: Design and Invention'
-  locator: u01, printed pp. 29-36
   difference_from_foundation: 'Adds Hampton''s landmark-first perspective check to rib-cage orientation: place the stable skeletal points and symmetry line before committing to box planes; as the mass turns, the symmetry line favors the near-facing side and the opposite side plane becomes more visible. The landmarks generate the perspective scaffold instead of being pasted onto it afterward.'
   when_to_use: Use when the rib cage or pelvis is technically blocked but its turn is ambiguous, or when landmarks and perspective planes disagree.
   when_not_to_use: Do not force every torso into a literal box or treat Hampton's C/S symmetry-line shorthand as an invariant anatomical law; use landmarks to verify the chosen mass construction.

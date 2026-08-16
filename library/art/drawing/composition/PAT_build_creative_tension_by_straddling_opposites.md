@@ -24,22 +24,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_design_whole_picture_as_interlocking_shape_pattern
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u07, physical pp. 184-195
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_straddle_simplicity_and_complexity
   variant_name: Straddle Simplicity and Complexity
   variant_basis: emphasis
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u07, physical pp. 188-190
   difference_from_foundation: 'Applies the opposition to information density: enrich an over-simple whole with selected complexity, or simplify a chaotic whole by standardizing subordinate shapes, tones, or marks.'
   when_to_use: Use when a picture feels either dead from excessive sameness or incoherent from excessive information.
   when_not_to_use: Do not add complexity merely to fill space or simplify away the very distinctions the subject depends on.
@@ -47,9 +39,6 @@ variants:
 - variant_id: VAR_dodson_straddle_clarity_and_ambiguity
   variant_name: Straddle Clarity and Ambiguity
   variant_basis: emphasis
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u07, physical pp. 190-192
   difference_from_foundation: Keeps enough recognizable evidence for the viewer to enter the image while withholding, obscuring, or distorting enough information to require interpretation and discovery.
   when_to_use: Use in expressive, narrative, symbolic, or imaginative work where viewer participation and mystery strengthen the intended experience.
   when_not_to_use: Do not make essential instructions, technical information, or required identity ambiguous when clarity is the task.
@@ -57,9 +46,6 @@ variants:
 - variant_id: VAR_dodson_straddle_balance_and_imbalance
   variant_name: Straddle Balance and Imbalance
   variant_basis: emphasis
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u07, physical pp. 192-194
   difference_from_foundation: Allows centered, edge-biased, or otherwise precarious placement when other visual forces counter it strongly enough to keep the picture intentionally balanced rather than mechanically symmetrical.
   when_to_use: Use when a stable arrangement feels inert or an off-center arrangement can create useful tension while remaining visually contained.
   when_not_to_use: Do not rely on imbalance when the counterforces are too weak to keep the composition from feeling accidental or toppling out of the frame.
@@ -67,9 +53,6 @@ variants:
 - variant_id: VAR_dodson_straddle_active_and_passive_shape_behavior
   variant_name: Straddle Active and Passive Shape Behavior
   variant_basis: emphasis
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u07, physical pp. 194-195
   difference_from_foundation: Contrasts a simpler, contained, quieter region with a more projecting, irregular, gestural, contrast-rich, or detailed region so the figure or design does not carry one uniform level of activity everywhere.
   when_to_use: Use when the subject feels uniformly busy or uniformly inert and a directional contrast between quiet and active regions would clarify the design.
   when_not_to_use: Do not split every subject into equal "quiet" and "busy" halves or force an opposition that has no role in the subject or composition.
@@ -77,9 +60,6 @@ variants:
 - variant_id: VAR_loomis_balance_unequal_masses_by_visual_weight_and_distance
   variant_name: Balance Unequal Masses by Visual Weight and Distance
   variant_basis: emphasis
-  source_id: andrew_loomis_creative_illustration
-  source_title: Creative Illustration
-  locator: u03, physical PDF p. 26; printed p. 34
   difference_from_foundation: "Loomis gives the balance/imbalance decision a concrete visual-weight diagnostic: a larger, darker, denser, or otherwise heavier mass can usually sit nearer the compositional center while a lighter mass can counter it farther away. PASS treats this as a perceptual lever heuristic for comparing unequal masses, not literal physics or a numeric balance formula."
   when_to_use: "Use when an intentionally unequal composition feels as if it is toppling or when moving a secondary mass may restore equilibrium without making both sides equal in size, value, or shape."
   when_not_to_use: "Do not calculate balance mechanically from geometric distance, assume size is the only source of visual weight, or override narrative emphasis, directional movement, color, contrast, or frame pressure that legitimately changes the perceptual balance."

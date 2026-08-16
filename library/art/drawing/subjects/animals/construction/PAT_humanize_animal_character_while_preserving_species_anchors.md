@@ -32,22 +32,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_stage_animal_mood_through_whole_body_pose_and_behavioral_cues
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u15, physical p. 105; printed p. 103
-  evidence_type: mixed
 confidence: medium
 references: []
 variants:
 - variant_id: VAR_hultgren_humanize_rabbit_by_turning_species_anchors_into_expression_controls
   variant_name: Humanize a Rabbit by Turning Species Anchors Into Expression Controls
   variant_basis: method_sequence
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u17, physical p. 112; printed p. 110
   difference_from_foundation: 'Adds Hultgren''s rabbit route in which species anchors do active acting work: jowls and muzzle are shaped for expression, buckteeth can strengthen comic character, and the ears are deliberately posed as large directional expression controls while the rabbit identity remains intact.'
   when_to_use: Use when an anthropomorphic or caricatured rabbit already reads as a rabbit but its acting feels generic or human-only and the species-specific head and ear features could carry more of the emotional statement.
   when_not_to_use: Do not reduce rabbit emotion to stock ear symbols or force Hultgren's sadness/surprise examples onto naturalistic behavior; use the features as design controls in caricature and verify real behavior from appropriate reference when accuracy matters.

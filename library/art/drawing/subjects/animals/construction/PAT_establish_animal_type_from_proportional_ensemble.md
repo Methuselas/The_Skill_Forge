@@ -31,22 +31,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_calibrate_observed_proportion_with_relational_sighting
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u06, printed pp. 23-25; physical pp. 21-23
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_measure_animal_type_with_head_module_and_trunk_rectangle
   variant_name: Measure Animal Type With a Head Module and Trunk Rectangle
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u06-u07, printed pp. 24-29; physical pp. 22-27
   difference_from_foundation: 'Adds Bammes''s explicit profile measuring route for overall conformation: use head length as a temporary module; measure front height to the withers, trunk length, and rear height; join those points into a trunk/ground-clearance rectangle; compare the belly against a halfway line; then add neck length and head direction. The earlier animal grids show what the scaffold reveals, while §3.2 makes the sequence and its eventual release into estimation explicit.'
   when_to_use: Use for side-view or near-side-view animal studies when the subject keeps reading as a generic mammal or the eye needs calibration on trunk height, trunk length, ground clearance, limb length, belly level, and neck/head relation.
   when_not_to_use: Do not treat head length or any source ratio as a universal canon, do not force the rectangle onto a strongly foreshortened pose, and do not keep measuring every relationship once estimation is reliable; Bammes uses exact measurement as training and an occasional uncertainty check.
@@ -54,9 +46,6 @@ variants:
 - variant_id: VAR_bammes_establish_animal_proportion_with_broad_overlapping_shapes
   variant_name: Establish Animal Proportion With Broad Overlapping Shapes
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u08, printed pp. 29, 32; physical pp. 27, 30
   difference_from_foundation: 'Adds Bammes''s rapid broad-medium route after measured proportion has been learned: size a broad tool to state the trunk as one large shape, keep the mark moving instead of tracing contour, swivel the tool into angular or trapezoidal limb shapes, and assemble the animal from overlapping flat masses. This trades exact modular checking for speed and whole-shape judgment while keeping proportion as the primary decision.'
   when_to_use: Use for quick life or reference studies when fine contour is causing detail-first drawing, when the eye needs to judge trunk-to-limb relationships in a few large moves, or when several proportional alternatives should be compared rapidly.
   when_not_to_use: Do not treat the broad geometric pieces as finished anatomy, do not use them to replace three-dimensional construction in strongly foreshortened work, and do not let the chosen tool size dictate proportions that contradict the observed animal.
@@ -64,9 +53,6 @@ variants:
 - variant_id: VAR_bammes_use_backline_profile_as_type_signature
   variant_name: Use Backline Profile as an Animal-Type Signature
   variant_basis: emphasis
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u23, printed pp. 95-97, fig. 101; physical pp. 93-95
   difference_from_foundation: 'Adds Bammes''s vertebral-profile check to the proportional ensemble: compare where the back reaches its highest point and how it rises, falls, flattens, or changes angle through the withers, thoracolumbar transition, sacrum/croup, and tail. The source''s bear, gorilla, human, horse, cow, lion, and dog comparisons show that the linked spinous-process profile can carry type before coat or local identifiers are added.'
   when_to_use: Use in side or readable three-quarter views when the broad body proportions are plausible but the animal still feels generically mammalian, or when the withers/croup/sacral relationship is one of the strongest type cues.
   when_not_to_use: Do not memorize one static back profile as a species law or force it through a pose that flexes, extends, sits, jumps, or twists the vertebral column; the backline changes with action and must still be checked against the actual animal.
@@ -74,9 +60,6 @@ variants:
 - variant_id: VAR_bammes_use_thorax_section_and_front_rear_expansion_as_type_signature
   variant_name: Use Thorax Section and Front-to-Rear Expansion as an Animal-Type Signature
   variant_basis: emphasis
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u24, printed pp. 102-104, figs. 106-108; physical pp. 100-102
   difference_from_foundation: 'Adds Bammes''s thorax-core comparison to the proportional ensemble: judge the rib-cage mass by its width-to-depth section, the way that section changes from the shoulder-girdle region toward the rear, and any marked asymmetry or squareness before local surface identifiers are added. Bammes''s dog, lion, horse, cow, human, and gorilla examples demonstrate that thorax section and front-to-rear expansion can carry type as strongly as silhouette.'
   when_to_use: Use when trunk length and height are plausible but the animal still reads generically, especially in front, rear, high, low, or three-quarter views where the thorax's width-depth relation is more informative than a side-view outline.
   when_not_to_use: Do not memorize the source's sample cross-sections as fixed species templates, assume every non-primate must broaden by the same amount behind the shoulders, or ignore pose, age, individual variation, soft tissue, and viewpoint; calibrate the actual subject.

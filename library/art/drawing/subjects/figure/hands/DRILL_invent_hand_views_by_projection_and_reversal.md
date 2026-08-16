@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: AP_unify_a_foreshortened_figure_in_deep_space
 reference:
-  source_id: burne_hogarth_drawing_dynamic_hands
   source_title: Drawing Dynamic Hands
   author: Burne Hogarth
-  publish_date: '1977'
-  media_type: book
-  locator: ch07, printed pp. 94-101
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -31,22 +31,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_block_quadruped_from_dorsal_axis_and_three_body_masses
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u06, physical pp. 41-43, 47; printed pp. 39-41, 45
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hultgren_compare_warthog_to_domestic_pig_from_shared_frame_and_diagnostic_landmarks
   variant_name: Compare Warthog and Domestic Pig From a Shared Frame and Diagnostic Landmarks
   variant_basis: method_sequence
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u13, physical p. 92; printed p. 90
   difference_from_foundation: 'Adds a related-type comparison route that starts from a shared skeletal/body frame instead of matched proportion boxes: Hultgren treats the warthog as structurally close to the domestic pig, then separates it with a longer nose, more erect ears, a dorsal hair ridge, and view-dependent silhouette checks such as the pig-like rear view.'
   when_to_use: Use when two closely related animal types share enough construction that rebuilding each from scratch hides the useful differences; first establish the common frame, then isolate the few landmarks that actually distinguish the intended type.
   when_not_to_use: Do not promote Hultgren's listed warthog traits into exhaustive or fixed species diagnostics. Age, sex, individual variation, viewpoint, and the actual reference can change how strongly each landmark appears.
@@ -54,9 +46,6 @@ variants:
 - variant_id: VAR_hultgren_compare_dog_breeds_by_resizing_shared_skeleton_parts
   variant_name: Compare Dog Breeds by Resizing Parts of a Shared Skeleton
   variant_basis: method_sequence
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u14, physical pp. 94-101; printed pp. 92-99
   difference_from_foundation: 'Adds Hultgren''s dog-breed comparison route: keep the simplified canine skeleton as the common topology, then change the relative lengths and bulk of its parts to establish breed conformation before coat or facial finish. His opening contrast is a long-backed, short-legged dachshund against the shorter, squarer English bull, with later pages extending the same study across greyhound, cocker, Great Dane, and collie types.'
   when_to_use: Use when several dog breeds keep collapsing into one generic canine and the useful distinction lies in relative segment length, trunk proportion, chest mass, or limb scale more than in markings or grooming.
   when_not_to_use: Do not treat Hultgren's stylized examples as breed-standard measurements or force every individual into one historical type drawing; preserve the shared canine organization, then set the actual proportions from the intended dog or reference.
@@ -64,9 +53,6 @@ variants:
 - variant_id: VAR_bammes_compare_representative_types_by_shared_design_and_function
   variant_name: Compare Representative Animal Types by Shared Design and Functional Specialization
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u01, printed pp. 7-8; physical pp. 5-6
   difference_from_foundation: 'Adds Bammes''s broader comparative-anatomy route: begin from a structural design shared across representative animal types, then compare how proportion, pivotal points, skull/limb emphasis, and front-versus-rear organization change with the animal''s functional demands. This contrasts types by shared plan plus specialization rather than by enclosing them in matched proportion boxes.'
   when_to_use: Use when an unfamiliar animal is either being copied as a disconnected silhouette or being forced into one generic mammal template; compare it with a few structurally informative types to identify what stays common and which relationships actually change.
   when_not_to_use: Do not turn one representative example or Bammes's functional explanation into an exhaustive species law. Use the comparison to generate structural questions, then check the actual animal, age, pose, and reference.

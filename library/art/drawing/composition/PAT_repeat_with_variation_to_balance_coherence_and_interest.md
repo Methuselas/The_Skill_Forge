@@ -22,22 +22,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_route_viewer_attention_through_planned_visual_paths
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u06, physical pp. 153-159
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_unify_disparate_elements_with_shared_texture_stroke
   variant_name: Unify Disparate Elements With a Shared Texture Stroke
   variant_basis: emphasis
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u06, physical pp. 158-159
   difference_from_foundation: 'Applies repetition/variation through mark language rather than repeated objects: carry one recognizable textural stroke family across otherwise different picture elements, then vary it locally so the scene gains unity without becoming mechanically stamped.'
   when_to_use: Use when separate surfaces or objects feel visually unrelated and a recurring mark family can bind the picture at the chosen level of stylization.
   when_not_to_use: Do not force unlike materials into identical literal surface behavior when material distinction is the priority, and do not repeat one mark without enough variation to keep the pattern alive.
@@ -45,9 +37,6 @@ variants:
 - variant_id: VAR_marvel_vary_panel_scale_and_viewpoint_across_sequence
   variant_name: Vary Panel Scale and Viewpoint Across a Sequence
   variant_basis: emphasis
-  source_id: marvel_how_to_draw_comics
-  source_title: How to Draw Comics the Marvel Way
-  locator: u09, physical PDF pp. 94-106
   difference_from_foundation: Applies repetition-with-variation across sequential panels by changing shot scale, figure size, camera placement, and viewpoint while keeping the story beat and page continuity legible.
   when_to_use: Use when adjacent comic or storyboard panels feel monotonous because characters remain the same size, centered in similar frames, or seen from nearly identical viewpoints.
   when_not_to_use: Do not vary the camera merely for novelty when a repeated view is needed for clarity, comparison, timing, or a deliberate formal effect.

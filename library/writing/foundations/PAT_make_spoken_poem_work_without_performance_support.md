@@ -14,17 +14,10 @@ foundation_object_id: none
 tags: [writing, poetry, spoken_word, performance, language, cliche, revision]
 cross_links:
 - rel: related_to
-  target_object_id: PAT_read_draft_aloud_to_recover_a_fresh_reader_perspective
-- rel: related_to
   target_object_id: PAT_break_language_conventions_with_control
 reference:
-  source_id: david_starkey_creative_writing_four_genres_in_brief_3e
   source_title: 'Creative Writing: Four Genres in Brief, Third Edition'
   author: David Starkey
-  publish_date: '2017'
-  media_type: PDF
-  locator: u005, physical pp. 47-48
-  evidence_type: text
 confidence: high
 references: []
 variants: []

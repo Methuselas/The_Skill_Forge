@@ -23,22 +23,14 @@ tags:
 - creature_design
 cross_links: []
 reference:
-  source_id: michael_mattesi_force_animal_drawing
   source_title: 'FORCE: Animal Drawing'
   author: Michael D. Mattesi
-  publish_date: Unknown
-  media_type: PDF
-  locator: u01, physical pp. 12-26
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_mattesi_interlock_forceful_shapes_through_straight_curve_exchange
   variant_name: Interlock Forceful Shapes Through Straight-Curve Exchange
   variant_basis: method_sequence
-  source_id: michael_mattesi_force_animal_drawing
-  source_title: 'FORCE: Animal Drawing'
-  locator: u01, physical pp. 12-26
   difference_from_foundation: Carries directional and applied force into connected straight-to-curve shape pairs so one mass visibly receives and passes the action into the next.
   when_to_use: Use when major body shapes feel like isolated sausages or parallel tubes even though the action line is correct.
   when_not_to_use: Do not force every contour into a stylized straight/curve formula when anatomy, viewpoint, or a quiet action calls for another contour relationship.
@@ -46,9 +38,6 @@ variants:
 - variant_id: VAR_mattesi_exchange_force_between_interacting_bodies
   variant_name: Exchange Force Between Interacting Bodies
   variant_basis: context
-  source_id: michael_mattesi_force_animal_drawing
-  source_title: 'FORCE: Animal Drawing'
-  locator: u03, physical pp. 47-82
   difference_from_foundation: Extends the same continuity across contact so the outgoing force of one body becomes applied force on the other, with both bodies receiving, resisting, redirecting, or returning it.
   when_to_use: Use for grappling, pushing, catching, striking, collisions, paired animal action, or any contact where two bodies mechanically affect each other.
   when_not_to_use: Do not invent a force exchange when bodies merely overlap in the picture without meaningful contact or load transfer.
@@ -56,9 +45,6 @@ variants:
 - variant_id: VAR_mattesi_preload_with_anticipatory_countermovement
   variant_name: Preload a Major Action With Anticipatory Countermovement
   variant_basis: method_sequence
-  source_id: michael_mattesi_force_animal_drawing
-  source_title: 'FORCE: Animal Drawing'
-  locator: u05, physical pp. 141-196
   difference_from_foundation: Adds the preparatory opposite or loading action that makes the next large directional event physically possible before the major thrust and support transfer occur.
   when_to_use: Use when a jump, rear, throw, strike, lift, or other major action needs a believable preparation state before its main keyframe.
   when_not_to_use: Do not add an arbitrary opposite gesture merely for drama; the preparation must follow the intended mechanics and timing.

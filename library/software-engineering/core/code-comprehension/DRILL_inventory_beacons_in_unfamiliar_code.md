@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_use_beacons_to_test_code_hypotheses
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u02, pp. 29-30
-  evidence_type: text
 confidence: high
 target_skill: noticing which code and natural-language signals unlock an unfamiliar function's meaning
 references: []

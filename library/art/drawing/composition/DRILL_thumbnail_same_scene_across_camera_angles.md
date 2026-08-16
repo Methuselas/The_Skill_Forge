@@ -22,13 +22,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_choose_viewpoint_to_strengthen_story_effect
 reference:
-  source_id: marvel_how_to_draw_comics
   source_title: How to Draw Comics the Marvel Way
   author: Stan Lee and John Buscema
-  publish_date: 1978
-  media_type: PDF
-  locator: u09, physical PDF pp. 99-102
-  evidence_type: mixed
 confidence: high
 references: []
 target_skill: Selecting a camera by comparing the story effect of multiple views of the same beat

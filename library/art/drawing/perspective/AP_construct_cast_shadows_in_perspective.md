@@ -19,22 +19,14 @@ tags:
 - projection
 cross_links: []
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 87-92
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_reconstruct_shadows_across_complex_receivers
   variant_name: Reconstruct Shadows Across Changing Receivers
   variant_basis: method_sequence
-  source_id: gwen_white_perspective_guide
-  source_title: 'Perspective: A Guide for Artists, Architects and Designers'
-  locator: printed pp. 57-69
   difference_from_foundation: 'Absorbs Norling''s receiver-turn checkpoint and extends it to inclined, multi-plane, and curved receivers: keep the same light ray but reconstruct each intersection on the new receiving geometry.'
   when_to_use: Use when a cast shadow crosses a wall, incline, curved form, or other receiver break.
   when_not_to_use: Do not continue a shadow as one flat screen-space contour across changing receiver geometry.
@@ -42,9 +34,6 @@ variants:
 - variant_id: VAR_link_cast_shadow_to_terminator_and_depth_grade
   variant_name: Link Cast Shadow to Terminator and Depth Grade
   variant_basis: method_sequence
-  source_id: robert_w_gill_basic_rendering
-  source_title: Basic Rendering
-  locator: printed pp. 76-86
   difference_from_foundation: Connects solved cast-shadow geometry to the form's light/shade separation, then hands distant contrast weakening to the atmosphere/rendering system.
   when_to_use: Use when carrying a perspective shadow solution into a rendered scene.
   when_not_to_use: Do not let atmospheric weakening alter the geometric receiver intersections already solved.

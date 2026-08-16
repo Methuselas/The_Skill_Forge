@@ -21,13 +21,8 @@ cross_links:
 - rel: supports
   target_object_id: AP_construct_a_shared_scene_perspective_field
 reference:
-  source_id: scott_robertson_how_to_draw
   source_title: 'How to Draw: Drawing and Sketching Objects and Environments from Your Imagination'
   author: Scott Robertson with Thomas Bertling
-  publish_date: '2013'
-  media_type: book
-  locator: u00, printed pp. 51-52 (physical PDF pp. 49-50)
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

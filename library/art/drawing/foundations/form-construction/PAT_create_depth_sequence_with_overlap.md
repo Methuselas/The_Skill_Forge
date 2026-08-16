@@ -20,22 +20,14 @@ tags:
 - form_construction
 cross_links: []
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u05, physical pp. 130-133
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hogarth_sequence_foreshortened_figure_with_partial_forms
   variant_name: Sequence a Foreshortened Figure With Partial Forms
   variant_basis: source
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
-  source_title: Dynamic Figure Drawing
-  locator: ch03, printed pp. 65-67
   difference_from_foundation: Hogarth applies the general interposition decision to a tipped human figure, emphasizing that each visible fragment of an obscured limb or torso mass must retain enough identity, direction, volume, and attachment for the viewer to complete the hidden member mentally.
   when_to_use: Use when a foreshortened or self-overlapping figure needs an especially explicit near-to-far ordering through limbs and torso masses.
   when_not_to_use: Do not force extra occlusion when the intended pose is already spatially clear or when another depth cue carries the relationship more cleanly.

@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_write_functions_as_single_sentences
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u02, pp. 30-32
-  evidence_type: text
 confidence: high
 target_skill: spotting functions that do too much and extracting well-named helper functions
 references: []

@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_single_source_of_truth_for_data
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u07, pp. 199-202
-  evidence_type: text
 confidence: high
 target_skill: eliminating stored derived data so a data model cannot hold an inconsistent state
 references: []

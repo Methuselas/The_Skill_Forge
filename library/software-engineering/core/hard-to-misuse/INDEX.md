@@ -7,9 +7,9 @@
 _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - **Make Wrong Usage Hard or Impossible** — read first
+  - then: Keep Classes Immutable With Builder or Copy-on-Write
   - then: Keep a Single Source of Truth for Data
   - then: Keep a Single Source of Truth for Logic
-  - then: Keep Classes Immutable With Builder or Copy-on-Write
   - then: Make Immutability Deep, Not Just Shallow
   - then: Prefer Immutable Objects Set Only at Construction
   - then: Represent Time With Dedicated Types, Not Integers

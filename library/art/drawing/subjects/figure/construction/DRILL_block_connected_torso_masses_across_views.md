@@ -23,13 +23,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_join_rib_cage_and_pelvis_through_flexible_waist
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 21-25 and 44
 confidence: high
 target_skill: orienting the rib cage and pelvis independently while preserving a continuous waist and centerline
 references: []

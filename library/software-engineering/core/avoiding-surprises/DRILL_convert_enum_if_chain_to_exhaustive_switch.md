@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_handle_enums_exhaustively
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u06, pp. 163-167
-  evidence_type: text
 confidence: high
 target_skill: making enum handling robust to future values via exhaustive switch and an all-values test
 references: []

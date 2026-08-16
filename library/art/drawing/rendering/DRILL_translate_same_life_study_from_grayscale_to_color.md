@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_separate_local_value_from_light_and_shadow_effect
 reference:
-  source_id: andrew_loomis_creative_illustration
   source_title: Creative Illustration
   author: Andrew Loomis
-  publish_date: unknown
-  media_type: PDF
-  locator: u08, physical PDF p. 133; printed p. 143
-  evidence_type: text
 confidence: high
 references: []
 target_skill: carrying a solved value structure into color without letting hue and chroma conceal or destroy the relationships that make the subject read

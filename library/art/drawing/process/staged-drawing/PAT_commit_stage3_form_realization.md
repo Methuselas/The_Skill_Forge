@@ -29,13 +29,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_preserve_structure_during_stage4_amplification
 reference:
-  source_id: guided_nested_four_stage_framework_2026_08_07
   source_title: Guided Nested Four-Stage Framework and Stage 3 Ceiling
   author: MaDin + GPT
-  publish_date: 2026-08-07
-  media_type: archive
-  locator: nested_four_stage_framework
-  evidence_type: mixed
 confidence: high
 references:
 - image_path: library/art/drawing/process/staged-drawing/assets/precedent_stage2_observatory_complete_mass_block.png
@@ -52,9 +47,6 @@ variants:
 - variant_id: VAR_hda_u02_stop_anatomy_at_surface_form_threshold
   variant_name: Stop Anatomy at the Surface-Form Threshold
   variant_basis: emphasis
-  source_id: burne_hogarth_dynamic_anatomy
-  source_title: Dynamic Anatomy (Revised and Expanded)
-  locator: u02, printed p. 41 / scan p. 43
   difference_from_foundation: 'Hogarth adds an explicit ceiling to Stage 3 anatomy: stop exposing muscle and bone information once it obstructs the reading of the living surface, and give priority to expressive surface form and interrelated masses in motion.'
   when_to_use: Use when anatomical knowledge is making a figure study diagrammatic, over-segmented, or harder to read as one living surface.
   when_not_to_use: Do not use this ceiling to skip structure that is still needed to explain the pose, attachment, visible landmark, or the anatomy lesson itself.

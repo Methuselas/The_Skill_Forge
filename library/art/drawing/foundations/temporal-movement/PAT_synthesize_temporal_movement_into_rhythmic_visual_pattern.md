@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_track_force_continuity_through_action
 reference:
-  source_id: lowes_luard_anatomy_action_horse
   source_title: The Anatomy and Action of the Horse
   author: Lowes D. Luard
-  publish_date: 1936
-  media_type: PDF
-  locator: u06, physical pp. 131-135
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_luard_allow_motion_conditioned_apparent_deformation
   variant_name: Allow Motion-Conditioned Apparent Deformation
   variant_basis: emphasis
-  source_id: lowes_luard_anatomy_action_horse
-  source_title: The Anatomy and Action of the Horse
-  locator: u06, physical pp. 131-135
   difference_from_foundation: Allows observed or intentionally synthesized movement to lengthen, curve, merge, diminish, or suppress fast detail when that perceptual change better communicates the action than a static anatomical snapshot.
   when_to_use: Use when speed or movement changes the apparent shape enough that a perfectly static rendering would weaken the motion statement.
   when_not_to_use: Do not use deformation to hide uncertain anatomy, broken attachments, or unsupported exaggeration.

@@ -27,22 +27,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_choose_s_or_b_leg_rhythm_by_view
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch02, printed pp. 52-54
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bridgman_settle_foot_from_outer_edge_inward
   variant_name: Settle Weight From the Outer Heel Side Toward the Inner Foot
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u09, physical p. 201
   difference_from_foundation: 'Adds a directional weight-bearing sequence to the existing foot-support rule: in ordinary settling contact, the outer/heel side meets first and the foot then settles inward while the arches adjust to keep the sole functionally related to the ground.'
   when_to_use: Use when designing walking, landing, or weight-settling poses where the foot's contact sequence should explain the leg force.
   when_not_to_use: Do not universalize this into every planted foot or every gait phase; toe-first, medial-edge, pointe, crouched, or specialized contacts follow the actual action instead.

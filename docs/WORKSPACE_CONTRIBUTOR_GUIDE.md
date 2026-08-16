@@ -76,9 +76,9 @@ When building a release:
 
 ## Source and training material
 
-Sources, ledgers, evidence, and training notes belong to the authoring workspace unless the released skill genuinely needs a distilled runtime resource.
+Sources, evidence, and training notes are yours and stay outside the library unless the released skill genuinely needs a distilled runtime resource. PASS does not track them.
 
-Do not ship a source simply because PASS learned from it. Provenance is not a runtime dependency.
+Do not ship a source simply because PASS learned from it, and never record its identity on a card. A card must execute after the source is gone.
 
 Do not invent a memcap subsystem because one may be useful later. Add memcaps only when a trained skill actually needs a defined fallback format and that architecture has been approved.
 
@@ -135,5 +135,8 @@ allowed repo integration points. They are deliberately thin wrappers around the
 canonical `PASS/` and `library/` content. Do not turn those folders into separate
 sources of truth, and never make a release depend on them.
 
-`AGENTS.md` and `CLAUDE.md` carry repository-wide working agreements. These files
-belong to the factory and are excluded from release products.
+`AGENTS.md` (Codex/ChatGPT and other agents) and `CLAUDE.md` (Claude Code) carry the
+same repository-wide working agreements, each written for the agent that loads it.
+`ARCHITECTURE.md` is the canonical contract and decides any disagreement between
+them; change a rule in one and change it in the other. These files belong to the
+factory and are excluded from release products.

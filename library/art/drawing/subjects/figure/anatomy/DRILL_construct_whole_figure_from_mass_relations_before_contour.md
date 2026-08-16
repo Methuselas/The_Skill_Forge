@@ -25,22 +25,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_design_pose_against_center_of_gravity
 reference:
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
   source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
   author: Gottfried Bammes
-  publish_date: '1989'
-  media_type: PDF
-  locator: u01, printed pp. 20-31
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_mogilevtsev_audit_big_figure_silhouette_as_single_patch
   variant_name: Audit the Big Figure Silhouette as a Single Patch
   variant_basis: method_sequence
-  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
-  source_title: Fundamentals of Drawing
-  locator: u07, physical PDF pp. 42-43
   difference_from_foundation: "Adds Mogilevtsev's temporary outside-patch audit: when internal anatomy or local masses are distracting from a whole-figure proportion problem, collapse the figure into one solid outer silhouette, ignore interior gaps and detail, and judge only the large height/width/lean/placement relationship before reopening the internal construction."
   when_to_use: Use when a live-figure block-in is becoming fragmented, or when the parts look individually plausible but the entire figure still feels too wide, too narrow, too tall, too short, or wrongly leaned/placed.
   when_not_to_use: Do not treat the solid patch as the complete construction method; it deliberately suppresses internal negative spaces, limb separation, overlap, and anatomical information and should be abandoned as soon as the large envelope is corrected.

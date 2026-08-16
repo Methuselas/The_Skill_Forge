@@ -22,13 +22,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_use_perceptual_wrongness_as_inspection_trigger
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u01, physical pp. 9-40
-  evidence_type: mixed
 confidence: high
 target_skill: retaining one observed relationship long enough to draw it without replacing it with a remembered symbol
 references: []

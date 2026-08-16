@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_compare_same_subject_across_medium_behaviors
 reference:
-  source_id: andrew_loomis_creative_illustration
   source_title: Creative Illustration
   author: Andrew Loomis
-  publish_date: unknown
-  media_type: PDF
-  locator: u07, physical PDF pp. 106-113; printed pp. 114-121
-  evidence_type: mixed
 confidence: high
 references: []
 target_skill: choosing a tonal rendering treatment by comparing how different edge, plane, and mark organizations change the same subject while the underlying subject stays substantially constant

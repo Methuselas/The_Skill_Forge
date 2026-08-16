@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_configure_hand_around_function_contact_and_load
 reference:
-  source_id: burne_hogarth_drawing_dynamic_hands
   source_title: Drawing Dynamic Hands
   author: Burne Hogarth
-  publish_date: '1977'
-  media_type: book
-  locator: ch09, printed pp. 114-121
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

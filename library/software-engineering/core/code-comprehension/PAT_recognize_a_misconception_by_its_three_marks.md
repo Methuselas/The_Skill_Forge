@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_expect_negative_transfer_between_similar_languages
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u07, pp. 117-118
-  evidence_type: text
 confidence: high
 references: []
 variants: []

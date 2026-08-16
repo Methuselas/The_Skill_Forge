@@ -30,13 +30,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_project_hidden_torso_skeleton_into_living_form
 reference:
-  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
   source_title: Fundamentals of Drawing
   author: V. A. Mogilevtsev
-  publish_date: '2007'
-  media_type: PDF
-  locator: u11, physical PDF pp. 65-73
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

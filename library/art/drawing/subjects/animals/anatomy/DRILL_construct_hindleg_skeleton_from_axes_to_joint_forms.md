@@ -33,13 +33,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_transform_animal_framework_across_pose_changes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u13, printed pp. 53-54; physical pp. 51-52
-  evidence_type: mixed
 confidence: high
 target_skill: reducing an unfamiliar mammal hindleg skeleton to a repeatable sequence of pivots, joint axes, bone forms, and distal-foot construction
 references: []

@@ -21,22 +21,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_make_code_reusable_and_generalizable
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 10-11
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_cpp_know_standard_library_and_tr1
   variant_name: Know the C++ Standard Library and TR1 So You Reuse Them
   variant_basis: emphasis
-  source_id: effective_cpp_3e
-  source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
-  locator: u09, pp. 263-272
   difference_from_foundation: Frames reuse as first being familiar with the C++ standard library and TR1 (smart pointers, function, bind, hash containers, algorithms) and with Boost, so you reach for these vetted, portable, well-maintained facilities instead of hand-rolling equivalents; familiarity is the prerequisite for reuse in C++.
   when_to_use: Implementing a C++ subproblem that a standard library, TR1, or Boost facility likely already covers.
   when_not_to_use: When no suitable standard/TR1/Boost facility exists, or an added dependency is unacceptable.
@@ -44,9 +36,6 @@ variants:
 - variant_id: VAR_custom_build_for_a_first_class_product
   variant_name: Custom-Build the Parts a First-Class Product Cannot Buy
   variant_basis: constraint
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u02, p. 18
   difference_from_foundation: The foundation reaches for the existing solution whenever one plausibly exists. This variant adds the quality ceiling that overrides it — a first-class product may need its own scientific functions for better speed or accuracy, or its own container, user interface, and database classes so the system has a seamless, perfectly consistent look and feel. The house-building parallel is exact — you buy the appliances and the prefabricated cabinets, unless you are building a fancy house, in which case the cabinets are custom-made and the appliances are built in to match them.
   when_to_use: Use when the product's differentiator is precisely the dimension the off-the-shelf part is mediocre at — numerical accuracy, latency, or a consistent feel across every surface a user touches. Naming that dimension first is what separates this from an excuse.
   when_not_to_use: Do not use it to justify hand-rolling filesystem I/O, image parsing, or other low-level infrastructure. Those are the cases the foundation is about, and no amount of product ambition makes writing your own better than a maintained library.

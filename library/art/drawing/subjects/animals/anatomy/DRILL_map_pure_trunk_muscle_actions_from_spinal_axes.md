@@ -42,13 +42,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_read_animal_limb_muscle_groups_from_joint_axes_and_lines_of_pull
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u26, printed pp. 106-107, figs. 110-111; physical pp. 104-105
-  evidence_type: mixed
 confidence: high
 target_skill: reducing the pure trunk musculature to a cross-section and broad pull-system map that predicts flexion, extension, lateral bending, and torsion from the muscles' positions around the spinal axes
 references: []

@@ -21,22 +21,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_validate_three_point_viewpoint_geometry
 reference:
-  source_id: frantz_crannell_viewpoints_mathematical_perspective
   source_title: 'Viewpoints: Mathematical Perspective and Fractal Geometry in Art'
   author: Marc Frantz and Annalisa Crannell
-  publish_date: '2011'
-  media_type: book
-  locator: u00, printed pp. 32-35 (physical PDF pp. 47-50)
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_rectilinear_viewpoint_match
   variant_name: Rectilinear Viewpoint Match
   variant_basis: method_sequence
-  source_id: frantz_crannell_viewpoints_mathematical_perspective
-  source_title: 'Viewpoints: Mathematical Perspective and Fractal Geometry in Art'
-  locator: printed pp. 32-35, 61-64, 93-98
   difference_from_foundation: Recover or derive the viewing target and viewing distance before changing local objects. Reframe, crop, move the station point, spread vanishing points consistently, enlarge the support, or cluster important content nearer the viewing target.
   when_to_use: The intended image is a conventional flat-plane perspective and apparent distortion may be caused by viewing or framing mismatch.
   when_not_to_use: Do not use this as a substitute for correcting an actually inconsistent perspective construction; first distinguish construction error from viewing/framing mismatch.
@@ -44,9 +36,6 @@ variants:
 - variant_id: VAR_extreme_field_projection_swap
   variant_name: Extreme-Field Projection Swap
   variant_basis: method_sequence
-  source_id: frantz_crannell_viewpoints_mathematical_perspective
-  source_title: 'Viewpoints: Mathematical Perspective and Fractal Geometry in Art'
-  locator: printed pp. 100-106
   difference_from_foundation: Consider a curvilinear or spherical projection rather than forcing one rectilinear grid to carry the entire field. Preserve the same scene directions and viewpoint logic while changing the projection surface/model.
   when_to_use: One compact image must cover a close, very tall, very wide, or near-immersive field that would demand an impractically close station point or very large flat support.
   when_not_to_use: Do not switch projection models for an ordinary field that a practical rectilinear viewpoint can carry cleanly.
@@ -54,9 +43,6 @@ variants:
 - variant_id: VAR_reframe_before_local_repair
   variant_name: Reframe Before Local Perspective Repair
   variant_basis: method_sequence
-  source_id: ernest_norling_perspective_made_easy
-  source_title: Perspective Made Easy
-  locator: printed pp. 49-56 and 91-93
   difference_from_foundation: 'Adds the composition-level rollback: when one fixed rectilinear view stretches badly at the edges, change the view, crop, or choose another projection globally instead of repairing objects locally.'
   when_to_use: Use when a coherent construction still produces an unusably wide view.
   when_not_to_use: Do not split one planar perspective into several casual eye positions.
@@ -64,9 +50,6 @@ variants:
 - variant_id: VAR_one_look_edge_distortion_diagnostic
   variant_name: Use the One-Look Edge Diagnostic
   variant_basis: method_sequence
-  source_id: robert_w_gill_basic_rendering
-  source_title: Basic Rendering
-  locator: printed pp. 20-24
   difference_from_foundation: 'Adds a quick production check: compare a major form near the frame edge with equivalent forms nearer the center; conspicuous edge stretch is a signal to move/reframe/crop before local correction.'
   when_to_use: Use for fast diagnosis before invoking exact station geometry.
   when_not_to_use: Do not promote Gill's fixed 60-degree cone as universal project law.

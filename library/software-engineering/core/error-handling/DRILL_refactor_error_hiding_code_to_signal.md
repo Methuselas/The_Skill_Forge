@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_dont_hide_errors
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u04, pp. 75-79
-  evidence_type: text
 confidence: high
 target_skill: spotting hidden errors and replacing them with explicit signaling
 references: []

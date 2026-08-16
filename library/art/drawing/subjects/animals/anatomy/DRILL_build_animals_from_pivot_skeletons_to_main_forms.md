@@ -23,13 +23,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_preserve_articulated_limb_chain
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u01, physical pp. 6-9; printed pp. 4-7
-  evidence_type: mixed
 confidence: high
 target_skill: locating a quadruped's major skeletal pivots and preserving them while the main body forms are added
 references: []

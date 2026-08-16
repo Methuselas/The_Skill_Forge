@@ -31,13 +31,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_capture_gesture_from_short_visual_memory
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u11, printed pp. 41-45; physical pp. 39-43
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

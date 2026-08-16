@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_dont_widen_api_for_reuse_or_testing
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u06, pp. 138-139, 160
-  evidence_type: text
 confidence: high
 references: []
 variants: []

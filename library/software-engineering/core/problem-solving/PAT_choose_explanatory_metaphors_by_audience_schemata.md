@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_calibrate_code_reading_scope_to_reader_knowledge
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u06, pp. 107-108
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_keywords_are_metaphors_you_did_not_choose
   variant_name: Treat Borrowed Keywords as Metaphors Nobody Chose
   variant_basis: context
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u07, pp. 120-121
   difference_from_foundation: The foundation governs a metaphor you select when explaining something, where the choice and its false inferences are yours to manage. This variant covers metaphors already installed by the language itself, since a keyword borrowed from English imports that word's everyday meaning whether or not it matches the semantics. The response differs accordingly — you cannot pick a better word, so the move is to predict the wrong inference the keyword invites and address it directly.
   when_to_use: Use when teaching or onboarding around constructs whose keywords read as ordinary English. Sorva's misconception 33 is the model case, where the natural reading of while implies continuous monitoring — a person saying they will read while it is raining is understood to check the weather repeatedly and leave when it stops, not to finish the book — so learners expect a loop to break the instant its condition turns false. Misconception 17 has the same shape, where a variable named minimum is assumed unable to hold a large value.
   when_not_to_use: Do not apply it to genuinely opaque or invented keywords, which carry no everyday meaning to mislead and are better handled as plain vocabulary. It is also the wrong frame for misconceptions arriving from another programming language rather than from natural language.

@@ -32,13 +32,8 @@ cross_links:
 - rel: supports
   target_object_id: PAT_model_animal_head_soft_tissue_by_plastic_significance_and_aperture_function
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u31, printed pp. 130-133; physical pp. 128-131
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

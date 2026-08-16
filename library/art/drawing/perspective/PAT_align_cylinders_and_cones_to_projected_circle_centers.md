@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_turn_cylinder_end_curves_with_depth
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 83-86
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

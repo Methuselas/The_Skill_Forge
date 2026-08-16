@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_ask_what_should_be_hidden
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u07, pp. 164-168
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_ppp_split_where_one_design_line_explodes
   variant_name: Split Where One Design Line Explodes Into Code
   variant_basis: method_sequence
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u09, pp. 229, 232
   difference_from_foundation: The foundation starts from a run of finished code and asks whether pulling it out would hide something worth hiding — an order, a formula, a condition, a representation. This variant supplies a signal that arrives earlier and needs no judgment about hiding, namely the ratio between one line of intent-level design and the code that appears beneath it. Two to ten lines is the expected expansion; a couple of dozen means that one design statement was carrying more than one job. It also offers a repair the foundation does not have. Rather than extracting the code, you can go back and decompose that single design line into several and fill in code beneath each — the split happens in the design, and no extraction is performed at all. When you do extract, the naming problem is already solved, because the new routine's name is the design line you wrote before the code existed.
   when_to_use: Use while constructing a routine from a written design, where the expansion ratio is observable as it happens. It is the cheaper detection of the two — the foundation's test requires reading finished code and forming a judgment, whereas this one is a count you cannot help noticing. It also catches the case the foundation is weakest on, since a block that grew unexpectedly large may hide nothing in particular and still be two jobs.
   when_not_to_use: It needs a design pass to exist, so it is unavailable when reading code somebody else already wrote or code you wrote without designing it first. There the foundation's hiding test is the tool you have. Do not read the two-to-ten-line figure as a size limit either — it is a calibration for spotting a surprise, not a target to refactor toward.

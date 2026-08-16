@@ -25,22 +25,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_join_rib_cage_and_pelvis_through_flexible_waist
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch02, printed pp. 45-47
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hampton_design_gesture_with_asymmetry_and_visual_timing
   variant_name: Design Gesture With Asymmetry and Visual Timing
   variant_basis: emphasis
-  source_id: michael_hampton_figure_drawing_design_and_invention
-  source_title: 'Figure Drawing: Design and Invention'
-  locator: u00, printed pp. 6-9
   difference_from_foundation: 'Adds a compositional line-design layer to the governing action: offset the apexes of neighboring curves instead of mirroring them, and use repeated curves selectively to slow the eye around complex intersections while longer asymmetrical sweeps accelerate it along forms.'
   when_to_use: Use when the pose is structurally plausible but feels snowman-like, parallel, evenly paced, or visually static.
   when_not_to_use: Do not ban symmetry when the story calls for stability, power, immobility, or deliberate frontal organization; timing is a design choice, not an anatomy law.

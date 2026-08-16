@@ -30,16 +30,27 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertTrue(result["contract"]["approval_gates"])
         self.assertTrue(result["contract"]["rollback_enabled"])
 
-    def test_teaching_lane_is_independent_from_execution_mode(self):
+    def test_teach_lane_is_independent_from_execution_mode(self):
+        # `lane` is card-level semantics: it distinguishes an instructional
+        # request from a production one and is orthogonal to execution mode. It
+        # does not route into a Teaching package — no domain depends on one.
         teaching = runtime.resolve_task(PROFILE, LIBRARY, "Teach me how to draw this head.")
         self.assertEqual(teaching["lane"], "teach")
         self.assertEqual(teaching["mode"], "direct_render")
-        teaching_ids = {item["object_id"] for item in teaching["teaching"]["pre_production"]}
-        self.assertIn("AP_teach_craft_from_orientation_to_generation", teaching_ids)
 
         ordinary = runtime.resolve_task(PROFILE, LIBRARY, "Draw this head.")
         self.assertEqual(ordinary["lane"], "skill")
-        self.assertEqual(ordinary["teaching"]["pre_production"], [])
+        self.assertEqual(ordinary["mode"], "direct_render")
+
+    def test_resolution_exposes_no_teaching_package_routing(self):
+        result = runtime.resolve_task(PROFILE, LIBRARY, "Teach me how to draw this head.")
+        self.assertNotIn("teaching", result)
+        packages = {
+            item["package"]
+            for phase in ("pre_production", "post_production")
+            for item in result["metaskills"][phase]
+        }
+        self.assertEqual(packages - {"metaskills"}, set())
 
     def test_explicit_mode_override_wins(self):
         result = runtime.resolve_task(

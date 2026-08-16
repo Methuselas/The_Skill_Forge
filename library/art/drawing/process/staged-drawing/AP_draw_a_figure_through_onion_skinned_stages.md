@@ -40,13 +40,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_commit_stage3_form_realization
 reference:
-  source_id: guided_nested_four_stage_framework_2026_08_07
   source_title: Guided Nested Four-Stage Framework and Stage 3 Ceiling
   author: MaDin + GPT
-  publish_date: 2026-08-07
-  media_type: archive
-  locator: nested_four_stage_framework
-  evidence_type: mixed
 confidence: high
 references:
 - image_path: library/art/drawing/process/staged-drawing/assets/precedent_stage1_observatory_hybrid_construction.png
@@ -63,9 +58,6 @@ variants:
 - variant_id: VAR_vilppu_move_general_to_specific_one_problem_at_a_time
   variant_name: Move General to Specific One Problem at a Time
   variant_basis: method_sequence
-  source_id: glenn_vilppu_basic_figure_drawing
-  source_title: 'Drawing Manual: Basic Figure Drawing'
-  locator: u06, physical pp. 73-83
   difference_from_foundation: 'Adds Vilppu''s procedural emphasis to the staged figure workflow: begin from the total action, then clarify masses and later specifics in layers so each pass can concentrate on one class of problem at a time. The sequence is a responsive plan, not a rigid ritual; tools such as spheres, boxes, cylinders, contour, and anatomy can be made more or less explicit according to what the drawing needs.'
   when_to_use: Use when a drawing attempt is overloaded because gesture, perspective, mass, anatomy, contour, and finish are all being solved simultaneously, or when an early stage is being skipped before its main problem is understood.
   when_not_to_use: Do not force a literal fixed sequence when a direct drawing or subject-specific exception is working better; preserve the general-to-specific logic while adapting the visible method.
@@ -73,9 +65,6 @@ variants:
 - variant_id: VAR_mogilevtsev_expand_training_sequence_then_compress_with_experience
   variant_name: Expand Training Sequence, Then Compress With Experience
   variant_basis: method_sequence
-  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
-  source_title: Fundamentals of Drawing
-  locator: u01, physical PDF p. 10
   difference_from_foundation: "Adds Mogilevtsev's training-versus-creative timing distinction to the staged drawing workflow: the same major sequence may be deliberately extended in a training drawing so each problem can be studied separately, while experienced creative work may unite, internalize, or shorten stages when integral vision already keeps their decisions coherent. A visible sketch artifact may disappear in fast work without eliminating the conception, placement, proportion, movement, or tonal decisions that sketch stage normally externalizes."
   when_to_use: Use when teaching, practicing, diagnosing a difficult drawing, or compressing a familiar process for speed; make each stage explicit when the learner needs separate study, and allow mature execution to carry a stage implicitly only when its decisions are actually resolved.
   when_not_to_use: Do not turn the expanded sequence into a compulsory visible ritual for an experienced direct drawing, and do not confuse the absence of a separate sketch or other intermediate artifact with permission to abandon the decision responsibility that artifact normally carries.

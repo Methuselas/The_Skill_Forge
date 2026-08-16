@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_build_feline_head_from_skull_midline_and_broad_planes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u30, printed p. 127, fig. 131; physical p. 125
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -21,22 +21,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_make_code_readable
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u05, pp. 106-108
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_cognition_visually_distinct_identifiers
   variant_name: Keep Short Identifiers Visually and Structurally Distinct
   variant_basis: constraint
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u02, p. 17
   difference_from_foundation: Adds a perceptual constraint on top of semantic descriptiveness, requiring a name to also be quick to tell apart from its neighbours and from digits, because unfamiliar or confusable short names defeat the pattern recognition a reader uses to group code.
   when_to_use: Choosing loop counters, temporaries, and other short-lived names, or reviewing code where single letters and lookalike glyphs already appear.
   when_not_to_use: A conventional short name is already unambiguous in context and renaming it would break a convention readers rely on.
@@ -44,9 +36,6 @@ variants:
 - variant_id: VAR_hermans_encode_semantic_kind_not_type_in_the_name
   variant_name: Encode a Name's Semantic Kind, Never Its Type
   variant_basis: constraint
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u05, pp. 73-75
   difference_from_foundation: The foundation asks a name to describe the thing it holds. This variant constrains what a systematic prefix or suffix may encode when a team adopts one — the value's semantic kind or the role it plays in the program, never its data type. Simonyi's original proposal was semantic (cX for a count of X, rw and col for row and column values that are both integers); the discredited convention that encodes types instead is a later misreading, and the two are opposite in value rather than degrees of the same idea.
   when_to_use: Use when a team is agreeing on a naming convention, or when a codebase already carries prefixes and you are deciding whether to keep them. It pairs naturally with the roles-of-variables vocabulary, where putting the role into the name saves every later reader from deducing it.
   when_not_to_use: Do not reintroduce type prefixes in a typed language whose editors already surface types; that is the form the objection was always aimed at. It is also not worth the extra length when the semantic kind is already obvious from the bare name.
@@ -54,9 +43,6 @@ variants:
 - variant_id: VAR_hermans_balance_word_clarity_against_recall_cost
   variant_name: Balance Word Clarity Against the Cost of Remembering the Name
   variant_basis: constraint
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u08, pp. 137-140
   difference_from_foundation: The foundation treats descriptiveness as a one-way improvement, where a fuller name is simply better than a terse one. This variant adds the measured cost on the other side — full words beat abbreviations and single letters for both defect-finding and comprehension, but longer names are harder and slower to recall, and the driver is syllable count rather than character count. Naming therefore becomes a balance between the clarity that helps a reader understand and find bugs and the brevity that helps them hold the name in mind.
   when_to_use: Use when deciding how much to pack into a name, and especially when evaluating a systematic prefix or suffix convention — Lawrie's advice is that such conventions be carefully evaluated to ensure the added information outweighs the added cost of names becoming hard to remember. It also applies when weighing a single-letter name, since outside a handful of cases those carry no reliable shared meaning.
   when_not_to_use: Do not use it to justify abbreviations as a default; the evidence gap between words and abbreviations is large and the recall penalty is comparatively small. It also does not license single letters for anything but genuine conventions such as a loop counter.

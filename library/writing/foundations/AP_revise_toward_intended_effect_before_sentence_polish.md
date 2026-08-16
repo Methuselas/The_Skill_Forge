@@ -12,26 +12,16 @@ routing_class: general
 specialization_axis: none
 foundation_object_id: none
 tags: [writing, revision, diagnosis, structure, editing, proofreading, intended_effect]
-cross_links:
-- rel: related_to
-  target_object_id: AP_develop_writing_through_recursive_returns
+cross_links: []
 reference:
-  source_id: david_starkey_creative_writing_four_genres_in_brief_3e
   source_title: 'Creative Writing: Four Genres in Brief, Third Edition'
   author: David Starkey
-  publish_date: '2017'
-  media_type: PDF
-  locator: u004, physical pp. 37-38
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_starkey_compress_a_short_poem_through_successive_reductions
   variant_name: Compress a Short Poem Through Successive Reductions
   variant_basis: method_sequence
-  source_id: david_starkey_creative_writing_four_genres_in_brief_3e
-  source_title: 'Creative Writing: Four Genres in Brief, Third Edition'
-  locator: u007, physical p. 51
   difference_from_foundation: 'Adds a poetry-specific compression loop after the governing effect is known: treat an unintended third page as a prompt to test cuts, then restate a three-line passage in two lines, one line, and even one word before choosing the shortest version that still carries the intended work.'
   when_to_use: Use when a short poem sprawls beyond its intended scale or a passage spends several lines achieving an effect that concentrated language may deliver more strongly.
   when_not_to_use: Do not keep the shortest version when compression erases necessary narrative movement, viewpoint, voice, rhythm, image development, or the intended reader effect.

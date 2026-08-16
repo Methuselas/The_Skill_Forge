@@ -25,13 +25,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_design_surface_anatomy_as_microgesture_on_parent_forms
 reference:
-  source_id: andrew_loomis_drawing_the_head_and_hands
   source_title: Drawing the Head and Hands
   author: Andrew Loomis
-  publish_date: Unknown
-  media_type: PDF
-  locator: u02, physical pp. 47-48 and 52-54
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

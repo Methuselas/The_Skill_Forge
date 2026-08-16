@@ -21,13 +21,8 @@ cross_links:
 - rel: related_to
   target_object_id: AP_build_complex_volumes_with_xyz_sections
 reference:
-  source_id: scott_robertson_how_to_draw
   source_title: 'How to Draw: Drawing and Sketching Objects and Environments from Your Imagination'
   author: Scott Robertson with Thomas Bertling
-  publish_date: '2013'
-  media_type: book
-  locator: u00, printed pp. 90-91 (physical PDF pp. 88-89)
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -30,13 +30,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_let_an_awkward_name_expose_the_design_fault
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u09, pp. 216-233
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

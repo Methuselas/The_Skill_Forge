@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_scope_construction_beyond_writing_the_code
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u02, pp. 15-16
-  evidence_type: text
 confidence: high
 references: []
 variants: []

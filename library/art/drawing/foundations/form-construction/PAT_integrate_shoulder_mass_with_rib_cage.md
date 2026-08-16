@@ -22,22 +22,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_preserve_articulated_limb_chain
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 16-17
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bridgman_amplify_arm_sweep_through_shoulder_girdle
   variant_name: Amplify Arm Sweep Through the Moving Shoulder Girdle
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u03, physical pp. 95-103
   difference_from_foundation: 'Deepens the existing shoulder integration rule by making arm elevation a compound movement: the humerus turns in the shoulder socket while the scapula slides/lifts over the back and the clavicle moves at the sternum, so the apparent shoulder mass and upper-torso relationship must change with the full girdle rather than with the arm bone alone.'
   when_to_use: Use when a raised, reaching, or strongly displaced arm looks mechanically capped at the socket or when the deltoid is changing but the clavicle/scapular relationship remains frozen.
   when_not_to_use: Do not exaggerate scapular or clavicular travel beyond the pose; the variant is a coordination check, not a mandate to expose every shoulder landmark.
@@ -45,9 +37,6 @@ variants:
 - variant_id: VAR_hampton_block_shoulder_girdle_as_independent_perspective_bridge
   variant_name: Block the Shoulder Girdle as an Independent Perspective Bridge
   variant_basis: method_sequence
-  source_id: michael_hampton_figure_drawing_design_and_invention
-  source_title: 'Figure Drawing: Design and Invention'
-  locator: u05, printed pp. 129-133
   difference_from_foundation: 'Adds Hampton''s explicit shoulder-girdle scaffold to the existing shoulder integration Pattern: treat clavicle and scapula together as a flexible perspectival unit resting on the rib cage, with its own tilt and top/side/front plane relationships, so the arm is attached through a movable bridge rather than directly to the torso shell.'
   when_to_use: Use when the arm is structurally attached but the shoulder perspective feels vague, when the two shoulders do not belong to the same turn/tilt, or when scapular/clavicular motion is hard to organize in 3-D.
   when_not_to_use: Do not preserve a literal football-pad block in the finished figure; it is a temporary spatial organizer for the actual clavicle, scapula, deltoid, chest, and back forms.

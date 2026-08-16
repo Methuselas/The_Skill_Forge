@@ -22,13 +22,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_control_perspective_distortion_with_viewpoint_and_projection_choice
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 58-60
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

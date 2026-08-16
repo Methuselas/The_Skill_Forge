@@ -23,13 +23,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_construct_head_from_cranial_ball_and_facial_wedge
 reference:
-  source_id: andrew_loomis_drawing_the_head_and_hands
   source_title: Drawing the Head and Hands
   author: Andrew Loomis
-  publish_date: Unknown
-  media_type: PDF
-  locator: u01, physical p. 28
-  evidence_type: text
 confidence: high
 references: []
 variants: []

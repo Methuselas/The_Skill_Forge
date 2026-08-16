@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_enforce_contracts_at_runtime_with_checks
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u08, pp. 188, 203-205, 211
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

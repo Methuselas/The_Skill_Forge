@@ -25,22 +25,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_track_force_continuity_through_action
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u07, physical pp. 53-54; printed pp. 51-52
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hultgren_find_extreme_animal_action_phases_in_slow_motion
   variant_name: Find Extreme Animal Action Phases in Slow Motion
   variant_basis: context
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u07, physical pp. 53-54; printed pp. 51-52
   difference_from_foundation: Applies frame-sequence study to animal locomotion, with special attention to support, extension, compression, reversal, and changing head-neck relationships that are difficult to isolate at normal speed.
   when_to_use: Use when fast animal action is being guessed from memory, reduced to a generic pose, or missing the extreme phase relationships that make the movement read.
   when_not_to_use: Do not turn one species, gait, lead, terrain, or speed sequence into a universal locomotion chart.
@@ -48,9 +40,6 @@ variants:
 - variant_id: VAR_dodson_use_freeze_frame_sequence_to_study_fleeting_human_action
   variant_name: Use Freeze-Frame Sequence to Study Fleeting Human Action
   variant_basis: context
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u08, physical pp. 216-217
   difference_from_foundation: Applies successive-frame study to human action captured through television, film, or comparable frame-based reference so brief movement states can be compared and reconstructed rather than guessed from ordinary observation.
   when_to_use: Use when a human action changes too quickly for reliable direct observation or memory and adjacent phases reveal informative differences in support, reach, timing, or silhouette.
   when_not_to_use: Do not copy one accidental frozen frame without checking the neighboring phases or rebuilding the pose through coherent anatomy and perspective.

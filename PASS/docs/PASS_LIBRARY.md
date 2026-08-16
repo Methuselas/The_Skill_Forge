@@ -33,7 +33,7 @@ library/software-engineering/languages/cpp/
 library/art/drawing/perspective/
 library/art/drawing/subjects/figure/anatomy/
 library/art/drawing/subjects/animals/anatomy/
-library/teaching/learning-design/
+library/writing/foundations/
 ```
 
 Do not create empty future taxonomy merely to anticipate a domain that has not yet been authored or taught.
@@ -68,18 +68,20 @@ Every SkillForge release includes the `metaskills` module automatically. A relea
 
 The metaskill is the universal process baseline. Domain modules extend it; they do not replace it.
 
-## Conditional Teaching package
+## Independent skill domains
 
-`teaching` is a top-level shared package, not a child of `metaskills` and not a
-new object type. It owns only instructional decisions that genuinely transfer
-across domains. A domain-specific exercise remains in its domain even when its
-`lane_fit` includes `teach`.
+`art`, `writing`, and `software-engineering` are independent lanes. Each is
+authored, validated, and built without the others. A card may reference other
+cards in its own package, plus `metaskills`; any other cross-package reference is
+a domain coupling and fails validation.
 
-Teaching modules are never added to every release automatically. A teaching-
-capable release explicitly selects `teaching` (or a narrower Teaching module) in
-its recipe. At runtime the Teaching lane activates relevant shared Teaching
-objects alongside the already-selected domain knowledge. Skill-lane execution
-does not activate Teaching merely because the release contains it.
+Instructional knowledge stays in the domain it belongs to. `lane_fit: teach`
+marks a card as instructional within its own domain — it does not route the card
+anywhere else and requires no shared Teaching package.
+
+The former top-level `teaching` package was retired from the shared pipeline on
+2026-08-15 and quarantined under `archive/teaching/`. Nothing active depends on
+it. If Teaching is ever built properly, it becomes its own independent domain.
 
 ## Named releases
 
@@ -99,9 +101,6 @@ PASS then materializes:
 4. modules containing hard object prerequisites;
 5. `metaskills`.
 
-Teaching is added only when the release recipe explicitly requests it; it is not
-part of this mandatory closure rule.
-
 The resulting release contains all selected material locally.
 
 ## Release boundary
@@ -111,8 +110,8 @@ A finished release may contain only material required to use the skill. It must 
 Do not ship:
 
 - `.git`, `.agents`, or `.claude`;
-- source ledgers or worklogs;
-- source PDFs merely used for grounding;
+- source PDFs, books, or other study material;
+- authoring scratch notes;
 - workspace-only tooling;
 - build caches;
 - unrelated skill families;

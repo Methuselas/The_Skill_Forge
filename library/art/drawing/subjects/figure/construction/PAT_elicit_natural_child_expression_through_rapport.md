@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_build_baby_head_age_ladder_from_reference
 reference:
-  source_id: andrew_loomis_drawing_the_head_and_hands
   source_title: Drawing the Head and Hands
   author: Andrew Loomis
-  publish_date: Unknown
-  media_type: PDF
-  locator: u07, physical p. 105
-  evidence_type: text
 confidence: high
 references: []
 variants: []

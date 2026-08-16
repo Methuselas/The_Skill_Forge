@@ -1,3 +1,0 @@
-# Optional system dependency (preferred for PDF text/render parity):
-#   Poppler utilities providing pdftotext and pdftoppm on PATH.
-# PASS falls back to pypdfium2 for rendering when pdftoppm is unavailable.

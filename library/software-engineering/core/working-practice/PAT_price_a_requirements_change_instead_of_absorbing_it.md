@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_do_prerequisites_per_increment_when_iterating
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u03, pp. 39-42
-  evidence_type: text
 confidence: high
 references: []
 variants: []

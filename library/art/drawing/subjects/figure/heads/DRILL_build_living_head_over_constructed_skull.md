@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_rotate_cranial_ball_and_facial_wedge
 reference:
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
   source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
   author: Gottfried Bammes
-  publish_date: '1989'
-  media_type: PDF
-  locator: u07, printed pp. 222-239
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

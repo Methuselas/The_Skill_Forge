@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_join_rib_cage_and_pelvis_through_flexible_waist
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 23-25
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bridgman_anchor_hip_surface_to_iliac_crest
   variant_name: Anchor Changing Hip Surface to the Iliac Crest
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u06, physical pp. 173-175
   difference_from_foundation: 'Adds a stable-landmark rule to rear/side pelvic surface design: keep the iliac crest traceable while gluteal, tensor, and abdominal masses change shape around it with hip action. Bridgman treats the crest as the dependable anchor amid large surface changes.'
   when_to_use: Use when hip flexion, extension, or rotation causes the buttock and side-hip masses to drift so much that the underlying pelvis becomes unreadable.
   when_not_to_use: Do not outline the entire crest mechanically in every view; retain only the portions and depressions the pose and body type actually reveal.

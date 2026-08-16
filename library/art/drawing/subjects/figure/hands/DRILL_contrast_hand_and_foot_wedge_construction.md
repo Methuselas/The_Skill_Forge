@@ -25,13 +25,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_construct_foot_as_soft_tissue_support_wedge
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 37-43
 confidence: high
 target_skill: building hand and foot from related wedge families without making their functions or internal structures interchangeable
 references: []

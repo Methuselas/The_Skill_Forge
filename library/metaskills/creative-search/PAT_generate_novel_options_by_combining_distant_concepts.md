@@ -21,13 +21,8 @@ cross_links:
 - rel: related_to
   target_object_id: AP_alternate_search_and_control_cycles
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u08, physical pp. 200-201
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

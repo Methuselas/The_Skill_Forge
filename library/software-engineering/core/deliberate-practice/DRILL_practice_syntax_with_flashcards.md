@@ -24,22 +24,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_space_practice_across_widening_intervals
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u03, pp. 35-37
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_put_code_on_both_sides_for_construct_synonyms
   variant_name: Put Code on Both Sides for Construct Synonyms
   variant_basis: medium
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u04, pp. 55-56
   difference_from_foundation: The foundation pairs a textual prompt with the code it should produce, which trains recall of syntax from intent. This variant makes both sides code — the plain form on one side and the advanced equivalent on the other, such as an explicit loop against the list comprehension, or an if-statement against the ternary — so the card trains translation between two notations for the same operation rather than recall from a description.
   when_to_use: Use for advanced constructs you keep having to rewrite into a simpler form before you can read them, where a textual prompt would be clumsier than the plain code it describes. Repeatedly downgrading the same construct to read it is the signal that it belongs on a card in this form.
   when_not_to_use: Do not use it for constructs with no clean equivalent, since there is nothing to put on the other side; and not for basic syntax, where a description makes a sharper prompt than a second code snippet.

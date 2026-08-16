@@ -30,13 +30,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_capture_animal_motion_with_one_continuous_brush_pass
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u12, printed pp. 47-48; physical pp. 45-46
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

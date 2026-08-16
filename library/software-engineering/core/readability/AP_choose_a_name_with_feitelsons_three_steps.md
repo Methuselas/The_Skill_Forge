@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_design_a_name_for_both_stm_and_ltm
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u08, pp. 145-146
-  evidence_type: text
 confidence: high
 references: []
 variants: []

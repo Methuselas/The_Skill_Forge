@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_preserve_structure_during_stage4_amplification
 reference:
-  source_id: guided_stage0a_rosetta_2026_08_06
   source_title: Guided Stage 0A Rosetta Backcast and Approved Observatory Precedent
   author: MaDin + GPT
-  publish_date: 2026-08-06
-  media_type: archive
-  locator: stage0a_rosetta_backcast
-  evidence_type: mixed
 confidence: high
 references:
 - image_path: library/art/drawing/process/staged-drawing/assets/precedent_stage0a_observatory_rosetta_contact_sheet.png

@@ -25,22 +25,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_check_whether_a_second_model_composes_or_conflicts
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u06, pp. 95, 97
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_actively_suppress_the_competing_old_conception
   variant_name: Actively Suppress the Old Conception Rather Than Only Detecting It
   variant_basis: method_sequence
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u07, pp. 119-120
   difference_from_foundation: The foundation treats the old model as something to notice and route around once you catch it. This variant treats both models as simultaneously present and competing, so the move is not detection but active suppression — deliberately holding the intuitive answer down long enough to reason rather than react. Chapter 7 supplies the mechanism the foundation leaves open, that inhibitory control is what lets a correct conception win the competition, and the felt signal of it working is the wait-a-minute moment where the fast answer arrives and is overridden.
   when_to_use: Use where the wrong answer arrives instantly and feels obvious, which is the signature of a strongly held prior conception rather than a gap in knowledge. It is also the right frame when a question gets harder — Galili and Bar found students who handled familiar mechanics problems correctly regressed to cruder wrong reasoning on more complicated ones, so rising difficulty is the trigger to expect competition.
   when_not_to_use: Do not reach for it when the intuitive answer is simply absent and you are stuck rather than confidently wrong; there is no competing conception to inhibit, and the problem is missing knowledge. It also does not apply where the old model has never been learned, so nothing is there to resurface.

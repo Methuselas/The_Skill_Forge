@@ -38,13 +38,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_rebuild_animal_limb_joint_form_from_articulation_and_axis
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u19, printed pp. 82-83, figs. 87-88; physical pp. 80-81
-  evidence_type: mixed
 confidence: high
 target_skill: constructing a carnivore shoulder and foreleg consistently across views while tracking segment directions, radius-ulna rotation, paw rays, and the forearm pivot axis
 references: []
@@ -52,9 +47,6 @@ variants:
 - variant_id: VAR_bammes_cycle_carnivore_foreleg_from_life_observation_to_home_reconstruction
   variant_name: Cycle Carnivore Foreleg From Life Observation to Home Reconstruction
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u21, printed pp. 87-90, figs. 94-96; physical pp. 85-88
   difference_from_foundation: 'Adds Bammes''s observation-to-reconstruction practice loop to the controlled multi-view skeletal study: at the live animal, follow the main muscle masses and sharp skeletal landmarks through recurring foreleg and paw attitudes; afterward, redraw the skeletal basis in quiet conditions and compress the most frequent positions into simple blocked shapes. Repetition converts unstable life glimpses into an informed internal repertoire rather than relying only on static anatomy plates.'
   when_to_use: Use after the basic carnivore radius-ulna and paw mechanism is known, especially when zoo or moving-reference studies remain descriptive but cannot yet be reconstructed from memory or simplified reliably.
   when_not_to_use: Do not use the life pass as a substitute for learning the underlying skeleton, and do not chase rare momentary silhouettes while ignoring the recurring positions and structural landmarks the exercise is meant to internalize.

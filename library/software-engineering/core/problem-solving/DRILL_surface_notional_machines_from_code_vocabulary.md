@@ -24,13 +24,8 @@ cross_links:
 - rel: supports
   target_object_id: PAT_check_whether_a_second_model_composes_or_conflicts
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u06, p. 106
-  evidence_type: text
 confidence: high
 references: []
 variants: []

@@ -29,22 +29,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_construct_primate_arm_from_mobile_shoulder_girdle_and_compound_rotation_chain
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u12, physical pp. 88-90; printed pp. 86-88
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_anchor_gorilla_arm_with_lateral_mobile_scapula_on_square_thorax
   variant_name: Anchor the Gorilla Arm With a Lateral Mobile Scapula on a Square Thorax
   variant_basis: context
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u22, printed p. 94, fig. 100; physical p. 92
   difference_from_foundation: 'Adds Bammes''s skeletal shoulder check to Hultgren''s proportion block: give the gorilla scapula a broad mobile surface placed farther around the side of the nearly square thorax, so the long arm is anchored for climbing and hanging rather than merely attached to a broad chest silhouette.'
   when_to_use: Use when a gorilla has the right barrel torso and arm length but the shoulder still reads like a human shoulder pasted onto an ape body or the long arm lacks a convincing lateral scapular base.
   when_not_to_use: Do not turn the nearly square thorax cross-section or lateral scapular placement into a fixed measured template for every gorilla pose or every primate; adjust the degree to the subject and view.

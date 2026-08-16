@@ -21,22 +21,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_make_code_readable
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u05, pp. 108-112
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_cognition_high_level_comments_as_chunks
   variant_name: Use High-Level Comments as Chunk Labels
   variant_basis: emphasis
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u02, pp. 27-28
   difference_from_foundation: Gives high-level functional comments a cognitive role as labels for a larger code chunk while showing that line-level what-comments consume attention and burden the same chunking process.
   when_to_use: A concise functional summary helps a reader, especially a newcomer, recognize the purpose of a larger block before processing its details.
   when_not_to_use: The comment merely narrates an obvious statement or duplicates a name the code can express directly.
@@ -44,9 +36,6 @@ variants:
 - variant_id: VAR_hermans_comment_to_preserve_your_own_context
   variant_name: Comment to Preserve the Author's Model, Including Your Own
   variant_basis: emphasis
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u11, pp. 185-186
   difference_from_foundation: The foundation writes comments for a future reader, explaining why the code is as it is. This variant adds a second beneficiary — you, twenty minutes from now — and widens what belongs in a comment accordingly. What is worth capturing is the designer's mental model, which includes the goals of the code, why this approach was chosen, and which alternatives were considered and rejected. None of that is expressible as code, so the self-documenting-code position does not reach it, and when it goes unwritten it can at best be rediscovered later at cost.
   when_to_use: Use when you are about to be interrupted and can hold the interruption off for a moment, when a design decision rejected a live alternative, or when you will not finish the current task in one sitting. Comments are the right medium specifically because they are always present, whereas separate notes and documents have to be found again before they help.
   when_not_to_use: It does not license narrating what the code does line by line, which the foundation rules out and this variant leaves ruled out. It also does not apply where the decision was forced and no alternative existed, since there is no reasoning to preserve.
@@ -54,9 +43,6 @@ variants:
 - variant_id: VAR_ppp_keep_the_design_statements_written_before_the_code
   variant_name: Keep the Design Statements You Wrote Before the Code
   variant_basis: method_sequence
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u09, pp. 218-219, 226-229, 232
   difference_from_foundation: The foundation writes comments after or alongside the code and keeps only what the code cannot say, treating a comment every line or two as clutter. This variant produces the comments before any code exists — they are the intent-level design statements the routine was grown from — and then keeps them at a density the foundation would reject, roughly one comment per two to ten lines of code. Provenance is what changes the arithmetic. A comment written before its code cannot be a restatement of that code, because the code was written to satisfy the comment; McConnell's own concession is that two lines of comment for two lines of code would nearly always be overkill if you were commenting afterward, and that what matters here is the semantic content rather than the ratio. The cleanup pass then deletes only the ones that turned out redundant, typically a design line sitting above a call to a well-named routine.
   when_to_use: Use when the routine was designed in English before being coded, so the comments are the surviving design rather than a narration added later. It is the routing that makes detailed design durable — a design kept in a separate document drifts out of agreement with the code the first time either changes, whereas one that lives inside the routine stays accurate as long as the inline comments are maintained.
   when_not_to_use: Do not use it to justify retrofitting a comment onto every couple of lines of existing code. Without the design-first provenance those are precisely the restatements the foundation rules out, and the density is what makes them expensive. It also does not apply to routines that never needed a design pass, such as accessors and pass-throughs.

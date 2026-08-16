@@ -41,13 +41,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_stage_animal_mood_through_whole_body_pose_and_behavioral_cues
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u21, printed pp. 87, 91-92, figs. 97-98; physical pp. 85, 89-90
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

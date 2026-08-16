@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_depend_on_interfaces_not_concrete_classes
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u08, pp. 215-225
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_choose_containment_or_inheritance_by_what_is_shared
   variant_name: Choose Containment or Inheritance by What Is Shared
   variant_basis: method_sequence
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u06, pp. 146-149
   difference_from_foundation: The foundation defaults to composition and reserves inheritance for genuine is-a relationships. This variant supplies a four-way decision procedure for the same question, keyed on what the classes actually share. Common data but not behaviour - create a common object for them to contain. Common behaviour but not data - derive from a common base class defining the routines. Common data and behaviour - inherit from a base class defining both. And the control test cutting across all three - inherit when you want the base class to control your interface, contain when you want to control it yourself.
   when_to_use: Use when several classes visibly overlap and the is-a question is genuinely ambiguous, which is where a default alone gives no traction. Also use its repair rule - a derived class that overrides a routine to do nothing means the base class asserted something untrue, so fix it at the source by extracting the optional capability into its own contained class rather than bandaging the descendant.
   when_not_to_use: Do not read the third case as licence for depth. Deep inheritance trees are significantly associated with increased fault rates, most people cannot hold more than two or three levels at once, and a base class with exactly one derived class usually means somebody was designing ahead.

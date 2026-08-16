@@ -21,13 +21,8 @@ cross_links:
 - rel: supports
   target_object_id: PAT_read_code_as_semantic_chunks
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u02, pp. 23-24
-  evidence_type: mixed
 confidence: high
 target_skill: forming an accurate first structural image of code before detailed reading
 references: []

@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_make_classes_care_about_themselves
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u08, pp. 226-228
-  evidence_type: text
 confidence: high
 target_skill: relocating logic that operates on another class's internals into that class
 references: []

@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_train_observation_with_look_hold_draw_and_blind_bursts
 reference:
-  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
   source_title: Fundamentals of Drawing
   author: V. A. Mogilevtsev
-  publish_date: '2007'
-  media_type: PDF
-  locator: u10, physical PDF p. 62
-  evidence_type: text
 confidence: high
 references: []
 variants: []

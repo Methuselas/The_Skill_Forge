@@ -8,8 +8,17 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - **Judge Code Against the Four Quality Goals** — read first
   - then: Choose the Proper Build Over the Hacky Shortcut
+  - then: Classify Error Recoverability From the Caller's Position
+  - then: Compose Modules With Few Well-Defined Interfaces
+  - then: Decompose a Problem Into Clean Layers of Abstraction
+  - then: Design Code to Be Reusable and Generalizable
+  - then: Design for Testability While You Write
+  - then: Identify Your Code's Contract Explicitly
   - then: Make Code Adaptable Without Predicting Specific Changes
+  - then: Make Wrong Usage Hard or Impossible
+  - then: Match the Caller's Mental Model
   - then: Reuse Existing Solutions Instead of Reinventing
+  - then: Write Code That Reads Like a Well-Structured Recipe
 
 ## Objects
 

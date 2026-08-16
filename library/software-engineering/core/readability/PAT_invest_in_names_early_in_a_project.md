@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_follow_a_consistent_coding_style
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u08, pp. 131-132
-  evidence_type: text
 confidence: high
 references: []
 variants: []

@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_design_whole_picture_as_interlocking_shape_pattern
 reference:
-  source_id: andrew_loomis_creative_illustration
   source_title: Creative Illustration
   author: Andrew Loomis
-  publish_date: unknown
-  media_type: PDF
-  locator: u06, physical PDF pp. 77-90; printed pp. 85-98
-  evidence_type: mixed
 confidence: high
 references: []
 target_skill: deliberately testing how one subject changes when its overall tonal key and dominant value organization change before committing to a final rendering

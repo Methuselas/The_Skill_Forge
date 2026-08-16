@@ -6,11 +6,11 @@
 
 _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
-- **Assume It Is Not Easy, Because You Cannot Remember It Being Hard** — read first
-  - then: Work Out Which Stage a Learner Is At Before Choosing How to Help
 - **Assess the Groundwork You Inherited Before Writing Code** — read first
   - then: Refuse to Implement an Architecture You Cannot Follow
   - then: Write Down the Problem in Terms That Name No Solution
+- **Assume It Is Not Easy, Because You Cannot Remember It Being Hard** — read first
+  - then: Work Out Which Stage a Learner Is At Before Choosing How to Help
 
 ## Objects
 

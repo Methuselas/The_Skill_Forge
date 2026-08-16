@@ -8,9 +8,9 @@ description: >-
 
 # Visual Art
 
-Use the trained Art library as canonical knowledge. Books are grounding sources;
-for human-taught Art, the accepted PASS cards and teacher corrections are the
-working curriculum.
+Use the trained Art library as canonical knowledge. Books are study material;
+the accepted PASS cards and teacher corrections are the working curriculum. The
+cards stand on their own — never reach for a source book to apply one.
 
 ## Load order
 
@@ -25,8 +25,11 @@ working curriculum.
 
 Classify the turn from meaning: discuss, inspect, or produce. Do not generate or
 edit an image unless the user actually asks for production. During PASS training,
-work one source chapter/unit at a time, discuss after the read, and ask questions
-only when genuine uncertainty remains.
+work one source chapter at a time, discuss after the read, and ask questions only
+when genuine uncertainty remains.
+
+Art is an independent lane. Authoring Art never requires inspecting or modifying
+Writing or Software Engineering.
 
 The Stages are currently frozen as authored knowledge. Do not streamline, rename,
 merge, or reinterpret them unless the user explicitly starts that work.

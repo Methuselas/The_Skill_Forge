@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_avoid_global_state_inject_shared_state
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u09, pp. 246-252
-  evidence_type: text
 confidence: high
 target_skill: converting global static state into injected instance state so reuse is safe
 references: []

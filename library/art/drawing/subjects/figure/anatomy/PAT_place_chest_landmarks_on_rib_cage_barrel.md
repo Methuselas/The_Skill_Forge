@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_orient_rib_cage_with_curved_openings
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 17-20
 confidence: high
 references: []
 variants:
 - variant_id: VAR_zarins_build_breast_as_deformable_mass_over_pectoralis
   variant_name: Build Breast Tissue as a Deformable Mass Over the Pectoral Wall
   variant_basis: method_sequence
-  source_id: uldis_zarins_anatomy_for_sculptors
-  source_title: 'Anatomy for Sculptors: Understanding the Human Figure'
-  locator: u02, physical pp. 37-41
   difference_from_foundation: 'Extends chest-landmark placement into volumetric tissue behavior: separate the breast mass from the pectoralis and rib-cage wall beneath it, establish its attachment to that wall, then redistribute the mass with gravity and body orientation rather than preserving a pasted sphere. Across pose changes, treat the same breast as approximately conserving its tissue volume while its profile, lower border, projection, and weight distribution change.'
   when_to_use: Use when breasts are correctly placed on the chest but still look like rigid hemispheres, when the torso changes orientation, or when reclining/side-lying poses require the mass to respond to gravity.
   when_not_to_use: Do not freeze Zarins's youthful-shape tips into a universal ideal or literal physics law. Age, size, tissue composition, support, pregnancy/lactation history, motion, clothing, and individual anatomy can change both attachment and deformation; use the actual reference/design as authority.

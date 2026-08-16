@@ -3,16 +3,19 @@
 status: active
 owner: docs/domains/spec
 last_reviewed: 2026-08-15
-supersedes: PASS_v20.6_ABSOLUTE_SPEC_FLAT.md §1, §2, §5, §7
 
 The three schemas below are closed contracts, not examples. A file containing
 useful extraction that does not match its schema is salvageable material, not an
 exported PASS object.
 
 **Every rule in this file that can be checked mechanically is checked by the
-validator** (`tools/validate.py`, see `docs/domains/tooling/`). Rules are written
-here once so the validator has a specification; they are not enforced by asking a
-model to remember them.
+validator** (`PASS/tools/validate.py`). Rules are written here once so the
+validator has a specification; they are not enforced by asking a model to
+remember them.
+
+The validator reads the library and nothing else. It never looks for a source
+document, a page, a reading receipt, or any record of the session that produced
+a card.
 
 ---
 
@@ -27,7 +30,7 @@ object_type:          pattern | drill | ap
 name:                 human-readable skill name (see §5)
 library_path:         list of 2+ path segments; first is the package
 stage_binding:        0 design | 1 skeleton | 2 block | 3 rough | 4 final
-lane_fit:             teach | skill | both | teaching_foundation
+lane_fit:             teach | skill | both
 foundation_role:      foundation | specialization
 routing_class:        general | specialized | teaching
 specialization_axis:  none | language | tool | framework | medium | style |
@@ -35,26 +38,25 @@ specialization_axis:  none | language | tool | framework | medium | style |
 foundation_object_id: object_id | none
 tags:                 list of strings
 cross_links:          list of { rel, target_object_id }
-reference:            map, see below
+reference:            map, optional attribution — see below
 confidence:           low | medium | high
-references:           list, see below (empty list valid except for visual cards)
+references:           list, see below (empty list always valid)
 variants:             list, see §4 (empty list valid)
 ```
 
 `drill` adds exactly one key: `target_skill`.
 
-`reference` contains exactly these keys:
+`reference` is **optional courtesy attribution** and holds at most these keys:
 
 ```yaml
 reference:
-  source_id:      id of the source in the source ledger
-  source_title:   title
-  author:         author | Unknown
-  publish_date:   date | Unknown
-  media_type:     format only, one or two words
-  locator:        unit + page/chapter/panel this came from
-  evidence_type:  text | image | mixed
+  source_title:   title of the work the knowledge was learned from
+  author:         author
 ```
+
+It names a book so credit stays visible. It is not resolved, fetched, or checked
+against anything, and no validator or release build reads it. A card with no
+`reference` at all is fully valid.
 
 `references` records original teaching images for visual cards:
 
@@ -62,7 +64,7 @@ reference:
 references:
   - image_path: library/art/drawing/subjects/figure/hands/assets/hand_rod_ball_wedge.png
     caption: Hand masses reduced to a rod forearm, palm wedge, and finger/thumb blocks.
-    derived_from: u04 p.72 figure
+    derived_from: what the image demonstrates
     origin: generated | first_party_source
     review: passed
 ```
@@ -73,20 +75,23 @@ references:
   No `id` for `object_id`. No `type` for `object_type`. No key containing "guard".
   No custom key for domain metadata, warnings, or safety annotations. The schema
   is closed.
-- `source_id` lives only inside `reference`, never at root.
 - `library_path` is the single source of truth for placement. Its first segment
   is the installable package; every remaining segment is a navigation topic.
   It must have at least two non-empty lowercase segments and exactly match the
   object's directory below `library/`. `category` and `subcategory` are invalid.
-- `media_type` describes format (`PDF`, `book`, `video`, `course`, `archive`,
-  `image_set`), not subject matter. Subject goes in `library_path`/`tags`.
-- `evidence_type` is exactly `text`, `image`, or `mixed`. No compound values.
+- **No card may carry source identity.** `source_id`, `locator`, page numbers,
+  page ranges, source hashes, and `evidence_type` are invalid anywhere in a card —
+  at root, inside `reference`, or inside a variant. A finished card must stay
+  valid and executable after the work it was learned from is gone.
 - `lane_fit` describes teaching vs execution. It is orthogonal to domain,
   package ownership, and execution mode; it is not a stage or a role.
-- `lane_fit: teach` or `both` does not by itself move an object into the
-  top-level `teaching` package. Domain-specific teaching knowledge remains in
-  its domain. Cross-domain instructional foundations belong under
-  `library/teaching/` and continue to use `pattern`, `drill`, or `ap`.
+- `lane_fit: teach` or `both` marks a card as instructional **within its own
+  domain**. It does not route the card anywhere else and does not require any
+  Teaching package to exist. (`teaching_foundation` was retired 2026-08-15 along
+  with the shared Teaching lane.)
+- **A card may reference other cards in its own package**, plus the shared
+  `metaskills` package that every release bundles. A `cross_links` target or
+  `foundation_object_id` in any other package is a domain coupling and fails.
 - `routing_class: general` requires `specialization_axis: none`.
   `routing_class: specialized` requires an axis other than `none`.
 - **Default to `foundation` / `general` / `none`.** Mark `specialization` only when
@@ -99,37 +104,22 @@ references:
   the portable foundation has not been extracted yet. Genericization is deferred
   until the library holds a grounded related route to reconcile with it.
 - `cross_links[].rel` is one of `foundation_of`, `variant_of`, `prerequisite_for`,
-  `supports`, `related_to`, `teaches`, `skill_pair`, `teaching_foundation_for`.
+  `supports`, `related_to`, `teaches`, `skill_pair`.
 - Every `target_object_id` must resolve to an object in the library. Dangling
   links fail. `cross_links: []` is always valid.
-- **No unreplaced `<angle_bracket>` tokens anywhere.** `Unknown` is allowed only
-  for `reference.author` and `reference.publish_date`. `provisional` is never
+- **No unreplaced `<angle_bracket>` tokens anywhere.** `provisional` is never
   valid in an exported object.
-- **`locator` must name a unit the source ledger marks `processed`.** An object
-  whose locator points at an unprocessed unit is a fail-closed violation, not a
-  formatting problem.
 - `references` is a list. Each item contains exactly `image_path`, `caption`,
   `derived_from`, `origin`, and `review`. `origin` is `generated` or
-  `first_party_source`. The latter is valid only when the card's `SOURCE.md`
-  declares `rights: first_party`; `reproduced` and every other value are invalid.
+  `first_party_source`; `reproduced` and every other value are invalid.
   `review` is `pending` or `passed`, but only `passed` ships.
-- A card from a source marked `visual: true` MAY ship with `references: []` — as a
-  text extraction from a visual source. A reference is included only when a
-  first-party image genuinely illustrates the card's move; it is never manufactured
-  to satisfy a gate. (Retired 2026-08-01: the former rule required at least one
-  reference for such cards. It was dropped when generated teaching references were
-  removed from the corpus — requiring a reference would have forced generated ones
-  back. See `docs/domains/spec/decisions.md`.) References that ARE present are still
-  fully validated by the rules below.
+- Any card MAY ship with `references: []`. An image is included only when it
+  genuinely illustrates the card's move; it is never manufactured to satisfy a
+  gate. References that ARE present are fully validated by the rules below.
 - Every `image_path` is repo-relative, exists, and stays under that card's own
   topic directory. Its `<image>.meta.json` sidecar records the generator model,
-  generation date, source renders studied, and a completed review record.
-  `tools/verify_references.py` validates the image, its review, and its
-  dissimilarity from the source render before release.
-- A `first_party_source` reference remains subject to claim review and provenance,
-  but is intentionally exempt from the generated-image similarity failure. This
-  exception applies only to source material the rights holder explicitly marks
-  first-party; it never authorizes reuse from a third-party visual source.
+  generation date, and a completed review record. `tools/verify_references.py`
+  checks that the image exists and carries a passed review before release.
 
 ---
 
@@ -265,7 +255,8 @@ in a body: `see page`, `as shown in the diagram`, `as shown above`, `copy the
 example above`, `study the figure`, `repeat the exercise from the source`, `use
 the pictured pose`, `refer to the illustration`.
 
-Reference the source for provenance. Encode the source for practice.
+Encode the source for practice. The finished card is the durable artifact; the
+work it came from is not a runtime dependency.
 
 ### Practitioner voice
 
@@ -281,7 +272,8 @@ quality`, and similar scholarly filler.
 
 Variants live **inside** the foundation object, not as separate files. A separate
 file is allowed only when a variant is promoted to a true specialization with its
-own route.
+own route. A variant belongs to its owner card and is executable from it: it
+carries no source, no locator, and no owner in another domain.
 
 ```yaml
 variants:
@@ -289,9 +281,6 @@ variants:
     variant_name: <name>
     variant_basis: method_sequence | emphasis | medium | style | source |
                    constraint | context
-    source_id: <source_id>
-    source_title: <title>
-    locator: <unit/page>
     difference_from_foundation: <concrete difference>
     when_to_use: <when useful>
     when_not_to_use: <when poor fit>

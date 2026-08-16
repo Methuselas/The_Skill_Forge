@@ -42,22 +42,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_orient_animal_body_in_depth_with_backline_and_transverse_axes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u03, printed pp. 11, 13-14; physical pp. 9, 11-12
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_transition_animal_repose_by_preserving_contacts_and_folding_chains
   variant_name: Transition Animal Repose by Preserving Contacts and Folding Joint Chains
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u09, printed pp. 34, 36; prose on p. 34 and fig. 36 on p. 36
   difference_from_foundation: 'Adds a repose-transition route to the general animal framework: preserve the contacts that remain planted, fold the articulated limb chains instead of shortening them, and let the thoracolumbar spine change with the body shift. Bammes distinguishes sitting-on-the-haunches from two routes into lying: from sitting, the hindquarters remain folded while the front of the body advances and the forelegs settle from elbow to paw; from standing, the paws stay near their contacts while the joints fold and the body slides back into the lowered pose.'
   when_to_use: Use when converting a quadruped from standing into sitting, crouching, or lying and the result looks like a standing animal merely squashed downward or with limb lengths changing arbitrarily.
   when_not_to_use: Do not treat Bammes''s dog/cat examples as a universal species sequence. Upright hindquarter sitting, hoofed-animal repose, and species-specific folding patterns may use different contacts and joint arrangements; check the animal actually being drawn.
@@ -65,9 +57,6 @@ variants:
 - variant_id: VAR_bammes_order_whole_trunk_skeleton_by_support_function_and_optical_weight
   variant_name: Order the Whole Trunk Skeleton by Support, Function, and Optical Weight
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u25, printed p. 105, fig. 109; physical p. 103
   difference_from_foundation: 'Extends the sparse vertebral-and-limb direction framework into a whole-trunk skeleton study by asking the artist to work architecturally: keep supporting and supported elements clear in space, vary the optical weight and amount of detail by structural importance, preserve the animal''s comparative impression and gesture, and simplify skeletal forms until their function and interaction in the working chain remain legible.'
   when_to_use: Use when the main skeletal directions are correct but a fuller trunk-skeleton study is becoming equally detailed, diagrammatic, or detached from the animal's gesture and support logic.
   when_not_to_use: Do not turn Bammes's list into one fixed anatomical priority ranking or invent mechanical loads that the reference does not support. Optical emphasis, detail, and simplification should follow the animal, pose, and study purpose.

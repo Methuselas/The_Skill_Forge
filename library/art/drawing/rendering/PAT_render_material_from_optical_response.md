@@ -21,22 +21,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_consolidate_resolved_form_with_tone
 reference:
-  source_id: robert_w_gill_basic_rendering
   source_title: 'Basic Rendering: Effective Drawing for Designers, Artists and Illustrators'
   author: Robert W. Gill
-  publish_date: '1991'
-  media_type: book
-  locator: u00, printed pp. 68-71 (physical PDF pp. 71-74)
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hultgren_match_brush_stroke_to_animal_coat_finish
   variant_name: Match Brush Stroke to Animal Coat Finish
   variant_basis: medium
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u05, printed pp. 17-18
   difference_from_foundation: 'Adds Hultgren''s brush-and-ink route for making coat finish ride on mark character itself: a smooth, high-sheen coat uses thin, close, even strokes with open paper reserved for highlights, while a shaggy coat shifts toward a drier broken stroke after excess ink is worked out on scratch paper. The material cue comes from spacing, continuity, and paper break as well as value.'
   when_to_use: Use when rendering animal fur or hair in brush and ink and the surface needs to read as comparatively sleek/glossy versus shaggy/broken without burying the larger form in detail.
   when_not_to_use: Do not apply the two textures as fixed species symbols, and do not use surface marks to rescue unresolved light, volume, or coat direction. Other media should use their own equivalent material cues rather than imitating brush artifacts literally.
@@ -44,9 +36,6 @@ variants:
 - variant_id: VAR_bammes_imply_animal_body_cover_with_medium_native_marks
   variant_name: Imply Animal Body Cover With Medium-Native Marks
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u05, printed pp. 17-22
   difference_from_foundation: 'Adds Bammes''s body-cover route: treat coat or bare skin as an impressional quality, avoid literal imitation, choose a graphic process whose native edge and mark behavior suggests the surface, and spend detail only on distinctive evidence such as sheen, broken roughness, fluff, markings, cracks, fissures, armor-like divisions, or wrinkle clusters.'
   when_to_use: Use when an animal's coat, skin, or markings are important to species or character recognition and the surface would become dead or overworked if rendered hair-by-hair or wrinkle-by-wrinkle.
   when_not_to_use: Do not let surface treatment replace unresolved anatomy, lighting, or volume, and do not force a fashionable texture effect that is remote from the observed body cover. When exact scientific documentation of a surface feature is the task, implication alone may be insufficient.
@@ -54,9 +43,6 @@ variants:
 - variant_id: VAR_dodson_articulate_sample_then_suggest_texture
   variant_name: Articulate a Sample, Then Suggest the Texture
   variant_basis: method_sequence
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u06, physical pp. 149-153
   difference_from_foundation: "Adds Dodson's articulation-to-suggestion route: observe and render a small convincing sample closely enough to understand the material evidence, then derive a simpler mark vocabulary and let that vocabulary suggest the remaining surface instead of describing every event literally."
   when_to_use: Use when full literal texture would become noisy, slow, or visually dominant but the material still needs a few precise anchors before broader suggestion will read.
   when_not_to_use: Do not use generalized marks before the underlying form, light, and material character are understood, and do not omit exact surface evidence when the assignment specifically requires documentary detail.
@@ -64,9 +50,6 @@ variants:
 - variant_id: VAR_dodson_strengthen_material_read_through_neighboring_texture_contrast
   variant_name: Strengthen Material Read Through Neighboring Texture Contrast
   variant_basis: emphasis
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u06, physical pp. 156-157
   difference_from_foundation: "Adds a relational material check: when a target surface is not reading strongly enough, inspect adjacent texture and value relationships before adding more local detail; roughness can make a smooth neighbor read smoother, hardness can intensify softness, and other contrasts can clarify both surfaces together."
   when_to_use: Use when the optical evidence inside one material patch is already adequate but the contrast with its surroundings is too weak to make the distinction read.
   when_not_to_use: Do not invent incompatible neighboring material behavior merely to create contrast, and do not use contextual contrast to hide unresolved form or lighting.

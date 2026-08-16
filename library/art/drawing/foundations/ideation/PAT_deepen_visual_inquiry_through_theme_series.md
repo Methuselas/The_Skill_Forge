@@ -25,22 +25,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_repeat_with_variation_to_balance_coherence_and_interest
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u08, physical pp. 218-220
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_use_bounded_formal_premise_to_keep_theme_generative
   variant_name: Use a Bounded Formal Premise to Keep a Theme Generative
   variant_basis: context
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u08, physical pp. 218-219
   difference_from_foundation: Uses a recurring formal premise such as extreme scale, partial concealment, repeated masses, decorative motifs, or distorted reflections to keep multiple works connected while allowing each one to test a different consequence.
   when_to_use: Use when a broad theme is too vague and a tighter formal constraint would produce more specific questions from work to work.
   when_not_to_use: Do not keep a premise after it stops generating new questions and becomes only a repeated gimmick.

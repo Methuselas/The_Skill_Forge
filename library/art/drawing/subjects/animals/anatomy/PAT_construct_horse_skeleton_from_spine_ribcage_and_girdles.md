@@ -26,13 +26,8 @@ cross_links:
 - rel: supports
   target_object_id: DRILL_build_animals_from_pivot_skeletons_to_main_forms
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u06, physical pp. 21-25; printed pp. 19-23
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

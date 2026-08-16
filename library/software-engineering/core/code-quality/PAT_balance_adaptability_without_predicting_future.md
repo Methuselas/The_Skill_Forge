@@ -19,22 +19,14 @@ tags:
 - requirements_change
 cross_links: []
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 9-10
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_isolate_the_categories_that_are_historically_volatile
   variant_name: Isolate the Categories That Are Historically Volatile
   variant_basis: method_sequence
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u05, pp. 97-100
   difference_from_foundation: The foundation applies general adaptability techniques and explicitly declines to predict which change will arrive. This variant supplies a middle route — predict the *category* rather than the specific change. It names areas that are volatile on almost any project (business rules, hardware dependencies, input and output formats, nonstandard language features, difficult design and construction areas, status variables, data-size constraints) and runs a three-step procedure over them — identify items likely to change, separate each volatile item into its own class or into a class with items that change at the same time, then isolate it behind an interface insensitive to the change so callers cannot tell it happened. It adds a proportionality rule the foundation lacks — make the scope of a change proportional to its likelihood, and factor in how cheap the change is to plan for, so an unlikely but easily anticipated change still earns preparation.
   when_to_use: Use when a component sits in one of the named volatile categories, where the evidence is historical rather than speculative. Also use its two concrete moves wherever status is represented — prefer an enumerated type over a boolean so adding a state is a recompile rather than a sweep, and read state through an access routine so a more sophisticated test can replace a simple one later.
   when_not_to_use: Do not let it license predicting specific future requirements, which is what the foundation rules out and what turns into speculative generality. Only extremely unlikely changes should be allowed to have drastic consequences across more than one class, so a category membership alone does not justify unlimited insulation.

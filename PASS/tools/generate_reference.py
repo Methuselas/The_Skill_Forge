@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Prepare and record an original generated visual reference for a PASS card.
+"""Prepare and record an original visual reference for a PASS card.
 
 This tool deliberately does not call an image API itself. Generate the image with
 the approved image model using the printed prompt, then supply that output with
---image. Keeping the model call outside the repo prevents credentials and source
-renders from being silently sent by a release script.
+--image. Keeping the model call outside the repo prevents credentials and local
+files from being silently sent by a release script.
+
+It writes the image into the card's own assets folder plus a `.meta.json` review
+sidecar. The sidecar starts at `verdict: pending`; `verify_references.py` refuses
+to ship a reference until a real review marks it passed.
 """
 from __future__ import annotations
 
@@ -33,7 +37,7 @@ def card_prompt(card: dict, derived_from: str) -> str:
         "Use case: scientific-educational",
         "Asset type: PASS visual skill-card teaching reference",
         f"Primary request: Create a new, original instructional drawing for '{card['name']}'.",
-        f"Source role: Study the supplied source render only for the idea identified by {derived_from}; do not copy its composition, pose, linework, labels, or distinctive design.",
+        f"Source role: Work only from the idea identified by {derived_from}; do not copy any existing image's composition, pose, linework, labels, or distinctive design.",
         "Style/medium: clean contemporary instructional line art, simple neutral background, readable construction masses.",
         "Composition/framing: a single clear demonstration with enough blank space around the form; use generic anatomy or objects, not a recognizable source plate.",
         "Text: no text, labels, signatures, watermarks, logos, or page borders.",
@@ -53,7 +57,6 @@ def main() -> int:
     parser.add_argument("card", type=Path, help="PASS card with one references item")
     parser.add_argument("--reference-index", type=int, default=0)
     parser.add_argument("--image", type=Path, help="original image output returned by the image model")
-    parser.add_argument("--source-render", type=Path, action="append", default=[], help="render studied by the model; repeatable")
     parser.add_argument("--model", help="image model name used to create --image")
     parser.add_argument("--origin", choices=("generated", "first_party_source"), default="generated")
     parser.add_argument("--prompt-out", type=Path, help="write the image-model prompt here and exit")
@@ -75,9 +78,6 @@ def main() -> int:
         parser.error("--image is required; generated references also require --model")
     if not args.image.is_file():
         parser.error(f"image does not exist: {args.image}")
-    missing = [str(p) for p in args.source_render if not p.is_file()]
-    if missing:
-        parser.error(f"source render(s) do not exist: {', '.join(missing)}")
     repo_root = repo_root_for(args.card.resolve())
     target = repo_root / str(ref["image_path"])
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -88,11 +88,10 @@ def main() -> int:
         "generator_model": args.model,
         "generated_at": date.today().isoformat(),
         "prompt": prompt,
-        "source_renders": [str(p) for p in args.source_render],
         "review": {"verdict": "pending"},
     }, indent=2) + "\n", encoding="utf-8")
     print(f"WROTE REFERENCE: {target}")
-    print(f"WROTE PROVENANCE: {sidecar}")
+    print(f"WROTE REVIEW SIDECAR: {sidecar}")
     return 0
 
 

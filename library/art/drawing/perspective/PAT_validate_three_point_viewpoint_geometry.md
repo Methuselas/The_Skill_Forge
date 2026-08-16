@@ -23,13 +23,8 @@ cross_links:
 - rel: supports
   target_object_id: PAT_control_perspective_distortion_with_viewpoint_and_projection_choice
 reference:
-  source_id: frantz_crannell_viewpoints_mathematical_perspective
   source_title: 'Viewpoints: Mathematical Perspective and Fractal Geometry in Art'
   author: Marc Frantz and Annalisa Crannell
-  publish_date: '2011'
-  media_type: book
-  locator: u00, printed pp. 86-90 (physical PDF pp. 101-105)
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

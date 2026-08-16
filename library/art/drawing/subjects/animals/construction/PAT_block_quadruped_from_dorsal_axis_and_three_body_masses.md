@@ -30,22 +30,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_preserve_articulated_limb_chain
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u01, physical pp. 3, 7-9; printed pp. 1, 5-7
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hultgren_construct_long_haired_dog_from_hidden_core_and_sweeping_coat
   variant_name: Construct a Long-Haired Dog From the Hidden Core and Sweeping Coat
   variant_basis: method_sequence
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u14, physical pp. 98-101; printed pp. 96-99
   difference_from_foundation: 'Adds Hultgren''s coat-obscured dog route: establish the underlying dog construction before letting long hair control the silhouette, then carry the coat with long sweeping lines over that body. His collie study explicitly strips away the long hair to expose a leaner structural form, while the cocker studies keep skull/body construction readable beneath the coat.'
   when_to_use: Use when a long-haired dog is turning into a fur-shaped blob and the hidden torso, limb attachment, or head construction is no longer clear enough to support the coat.
   when_not_to_use: Do not assume every long-haired breed has the collie's lean proportions or copy one coat silhouette as fixed anatomy; build the actual dog's core from reference, then add the observed hair volume and flow.
@@ -53,9 +45,6 @@ variants:
 - variant_id: VAR_hultgren_block_rabbit_from_head_chest_and_lower_body_then_bunch_or_spread
   variant_name: Block a Rabbit From Head, Chest, and Lower Body, Then Bunch or Spread the Forms
   variant_basis: method_sequence
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u17, physical pp. 110-111; printed pp. 108-109
   difference_from_foundation: 'Adds Hultgren''s rabbit-specific shortcut: organize the animal as head, chest, and lower-body/hindquarter units, then let those units bunch and overlap in compact sitting poses or spread apart through extended action. Motion-picture frames are used to reveal the extended state that is easy to miss in ordinary observation.'
   when_to_use: Use when a rabbit is reading as one rigid oval or a generic small quadruped and the main problem is preserving its compact-versus-extended mass relationship across sitting, crouching, or jumping poses.
   when_not_to_use: Do not treat Hultgren's statement that the body can “double its length” as a literal measurement or a universal biomechanics law; check the actual rabbit and action reference, and keep the three-unit scaffold subordinate to observed joint and mass placement.

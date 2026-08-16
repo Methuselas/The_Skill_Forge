@@ -4,5 +4,6 @@
 
 ## Objects
 
+- [Alternate Search and Control Cycles](AP_alternate_search_and_control_cycles.md) - ap; 0 design.
 - [Plan and Build Work From Thumbnail to Final](AP_plan_and_build_work_from_thumbnail_to_final.md) - ap; 0 design.
-  - Variants: `Action-Centerline Figure Build` (method_sequence), `Page-Wide Staged Comics Pencilling` (method_sequence), `Editorial Cover Layout Review` (method_sequence).
+  - Variants: `Action-Centerline Figure Build` (method_sequence).

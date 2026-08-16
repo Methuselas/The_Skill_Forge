@@ -19,22 +19,14 @@ tags:
 - error_prevention
 cross_links: []
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u02, pp. 24-25
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_error_signal
   variant_name: Nullable Return as an Explicit Error Signal
   variant_basis: context
-  source_id: gcbc_think_like_swe
-  source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
-  locator: u04, pp. 84-85
   difference_from_foundation: Applies the nullable/optional return specifically to signal that a function could not produce a result (an error), not merely that a value is optional. Under null safety this is an explicit signal because the caller is forced to handle the null before use.
   when_to_use: When a function can fail but the caller does not need to know why — the mere fact that no value could be produced is enough, as in a square-root function returning null for a negative input.
   when_not_to_use: When the caller needs the reason for the failure; null carries no error detail, so reach for a result type instead. Also weak where the language lacks null safety and the return can be silently dereferenced.

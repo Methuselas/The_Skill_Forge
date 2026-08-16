@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_dont_expose_privates_for_testing
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u11, pp. 305-311
-  evidence_type: text
 confidence: high
 target_skill: converting a test of a private helper into a public-API behavior test, splitting the class if needed
 references: []

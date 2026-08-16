@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_construct_hand_from_palm_wedge_and_digit_chain
 reference:
-  source_id: burne_hogarth_drawing_dynamic_hands
   source_title: Drawing Dynamic Hands
   author: Burne Hogarth
-  publish_date: '1977'
-  media_type: book
-  locator: ch05, printed pp. 77-81
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bridgman_wrist_flexion_limits_finger_closure
   variant_name: Let Wrist Flexion Constrain Finger Closure
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u02, physical pp. 19-20
   difference_from_foundation: 'Adds a wrist-to-finger coupling check to the existing staged flexion model: as the wrist folds strongly toward the palm, the extensor system is drawn taut across the dorsal wrist, so full finger closure becomes mechanically incompatible with extreme wrist flexion.'
   when_to_use: Use when designing a fist, grasp, claw, or compressed hand pose with a strongly flexed wrist and the fingers appear able to close more than the carrying wrist position permits.
   when_not_to_use: Do not turn the source's endpoint demonstration into a universal numeric angle law; use it as a coupled movement constraint and judge the actual pose.
@@ -46,9 +38,6 @@ variants:
 - variant_id: VAR_bridgman_hundred_hands_stage_digit_curl_from_knuckle_outward
   variant_name: Stage Each Digit Curl From the Knuckle Outward
   variant_basis: method_sequence
-  source_id: george_bridgman_book_of_a_hundred_hands
-  source_title: The Book of a Hundred Hands
-  locator: u00, physical pp. 13 and 118; printed pp. 17 and 122
   difference_from_foundation: 'Adds a within-digit construction order to the existing across-finger coupled sequence: start a curling finger at the metacarpophalangeal knuckle, then articulate the successive joints outward toward the tip, while the foundation still controls how neighboring fingers recruit and stagger across the hand.'
   when_to_use: Use when one bent finger looks kinked, disconnected, or as if its distal joints were posed independently of its base, especially inside a fist, hook, or partial grasp.
   when_not_to_use: Do not treat the sequence as a literal universal timing law; real/reference motion can flex several joints together or isolate a distal joint, and the source-specific order is best used as a construction and diagnosis scaffold.

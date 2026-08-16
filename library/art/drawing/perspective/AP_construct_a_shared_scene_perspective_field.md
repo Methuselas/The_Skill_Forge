@@ -23,22 +23,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_choose_convergence_from_view_and_orientation
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 18-36
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_lock_scene_with_minimal_underlay
   variant_name: Lock POV and Large Volumes With a Minimal Underlay
   variant_basis: method_sequence
-  source_id: scott_robertson_how_to_draw
-  source_title: How to Draw
-  locator: printed pp. 58-61
   difference_from_foundation: 'Adds an optional hybrid path: use a simple 3D, photographic, or generated underlay only to lock POV, field impression, grid, and large proportions, then return to drawing.'
   when_to_use: Use when perspective setup is consuming design time or many camera variants must be tested.
   when_not_to_use: Do not overmodel the final design or make software a prerequisite.
@@ -46,9 +38,6 @@ variants:
 - variant_id: VAR_handoff_scene_to_rendered_depth_grade
   variant_name: Hand Off the Solved Scene to a Rendered Depth Grade
   variant_basis: method_sequence
-  source_id: robert_w_gill_basic_rendering
-  source_title: Basic Rendering
-  locator: printed pp. 25-31 and 177-180
   difference_from_foundation: 'Adds a downstream handoff after geometry and scale are stable: rank depth zones and reduce contrast, detail, and edge clarity with distance across objects, ground, and shadows.'
   when_to_use: Use only after the common perspective field is solved.
   when_not_to_use: Do not use atmosphere to repair broken convergence or scale.
@@ -56,9 +45,6 @@ variants:
 - variant_id: VAR_hogarth_calibrate_shared_scene_from_trusted_figure
   variant_name: Calibrate the Shared Scene From a Trusted Figure
   variant_basis: method_sequence
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
-  source_title: Dynamic Figure Drawing
-  locator: ch06, printed pp. 159-164
   difference_from_foundation: 'Adds a figure-first entry route: use known body landmarks, ground contacts, and body planes from one correctly constructed figure to seed relative scale and direction before extending the shared scene field to objects and additional figures.'
   when_to_use: Use when the figure is the primary designed subject and the environment must inherit believable scale and viewpoint from it.
   when_not_to_use: Do not let an uncertain figure override formal eye level, vanishing behavior, or independent perspective checks; the shared field becomes authority once solved.

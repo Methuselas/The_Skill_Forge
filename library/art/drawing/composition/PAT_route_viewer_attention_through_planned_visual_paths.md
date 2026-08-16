@@ -23,13 +23,8 @@ tags:
 - animal_drawing
 cross_links: []
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u21, printed pp. 128-134
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

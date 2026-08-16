@@ -19,13 +19,8 @@ tags:
 - judgment
 cross_links: []
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u02, pp. 45-46
-  evidence_type: text
 confidence: high
 references: []
 variants: []

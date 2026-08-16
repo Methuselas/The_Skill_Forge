@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Fail-closed release gate for PASS visual-card references."""
+"""Fail-closed release gate for PASS visual-card reference assets.
+
+A card that ships an image ships a runtime artifact, so the image must exist and
+must carry a completed review record in its `<image>.meta.json` sidecar. That is
+an asset-quality check on the finished library — it does not consult a source
+document, a render cache, or any authoring record.
+"""
 from __future__ import annotations
 
 import argparse
@@ -10,24 +16,9 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-from PIL import Image, ImageOps
 
 from validate import discover_objects, parse_object
-from paths import default_library_root, default_ledger_root
-from provenance import ProvenanceView
-
-
-SIMILARITY_LIMIT = 0.90
-
-
-def image_similarity(first: Path, second: Path) -> float:
-    """Return a conservative average grayscale similarity, 1.0 for identical."""
-    with Image.open(first) as left, Image.open(second) as right:
-        a = ImageOps.grayscale(left).resize((64, 64))
-        b = ImageOps.grayscale(right).resize((64, 64))
-        pixels_a, pixels_b = list(a.getdata()), list(b.getdata())
-    mean_error = sum(abs(x - y) for x, y in zip(pixels_a, pixels_b)) / (255 * len(pixels_a))
-    return 1.0 - mean_error
+from paths import default_library_root
 
 
 def sidecar_for(image: Path) -> Path:
@@ -52,21 +43,10 @@ def load_sidecar(image: Path) -> dict[str, Any] | None:
     return data if isinstance(data, dict) else None
 
 
-def reference_failures(
-    record: Any, library_root: Path, ledger_root: Path, view: ProvenanceView
-) -> list[str]:
-    data = record.data
-    source_id = data.get("reference", {}).get("source_id") if isinstance(data.get("reference"), dict) else None
-    references = data.get("references") or []
-    # Gate on what the card actually ships, not on whether its source is visual.
-    # The old gate asked source_is_visual() first, which reads SOURCE.md — so in a
-    # public checkout with no private ledger it answered False for every source and
-    # skipped every check while still reporting success. A card that ships no
-    # reference has nothing to verify either way; a card that ships one must have it
-    # verified whatever the source is classified as.
-    if not references:
-        return []
-    classified = str(source_id) in view.known_source_ids()
+def reference_failures(record: Any, library_root: Path) -> list[str]:
+    references = record.data.get("references") or []
+    # A card that ships no reference has nothing to verify. A card that ships one
+    # must have it present and reviewed.
     failures: list[str] = []
     for ref in references:
         if not isinstance(ref, dict):
@@ -77,48 +57,22 @@ def reference_failures(
             continue
         meta = load_sidecar(image)
         if meta is None:
-            failures.append(f"{ref['image_path']}: provenance sidecar is missing or invalid")
+            failures.append(f"{ref['image_path']}: review sidecar is missing or invalid")
             continue
         origin = ref.get("origin")
         if meta.get("origin") != origin or not meta.get("generated_at"):
-            failures.append(f"{ref['image_path']}: provenance does not establish the declared origin and date")
+            failures.append(f"{ref['image_path']}: sidecar does not establish the declared origin and date")
         if origin == "generated" and not meta.get("generator_model"):
-            failures.append(f"{ref['image_path']}: generated provenance has no model")
-        if origin == "first_party_source":
-            # Fail closed rather than treating absent metadata as "not first party"
-            # — that would be a silent downgrade in exactly the direction that
-            # lets an unreviewed source image ship.
-            if not classified:
-                failures.append(
-                    f"{ref['image_path']}: source '{source_id}' is unknown to both the authoring "
-                    "ledger and public provenance — cannot confirm rights: first_party"
-                )
-            elif not view.is_first_party(str(source_id)):
-                failures.append(f"{ref['image_path']}: first-party source reuse lacks SOURCE.md rights: first_party")
+            failures.append(f"{ref['image_path']}: generated image has no model recorded")
         review = meta.get("review")
-        if not isinstance(review, dict) or review.get("verdict") != "passed" or not review.get("reviewer") or not review.get("reviewed_at") or not review.get("method"):
+        if (
+            not isinstance(review, dict)
+            or review.get("verdict") != "passed"
+            or not review.get("reviewer")
+            or not review.get("reviewed_at")
+            or not review.get("method")
+        ):
             failures.append(f"{ref['image_path']}: no completed human or vision review record")
-        renders = meta.get("source_renders")
-        if not isinstance(renders, list) or not renders:
-            failures.append(f"{ref['image_path']}: provenance has no source render for originality comparison")
-            continue
-        for render_name in renders:
-            render = Path(render_name)
-            if not render.is_absolute():
-                # Source-render provenance belongs to the authoring workspace, not
-                # the portable library. In SkillForge the ledger and sources are
-                # siblings under workspace/authoring; portable PASS callers may
-                # still provide any explicit ledger root with the same contract.
-                if render.parts and render.parts[0] == "sources":
-                    render = ledger_root.parent / render
-                else:
-                    render = library_root.parent / render
-            if not render.is_file():
-                failures.append(f"{ref['image_path']}: source render missing: {render_name}")
-                continue
-            similarity = image_similarity(image, render)
-            if origin == "generated" and similarity >= SIMILARITY_LIMIT:
-                failures.append(f"{ref['image_path']}: suspected reproduction (similarity {similarity:.3f} to {render_name})")
     return failures
 
 
@@ -130,8 +84,14 @@ def record_review(card: Path, reference_index: int, reviewer: str, method: str, 
     image = repo_root_for(card.resolve()) / ref["image_path"]
     meta = load_sidecar(image)
     if meta is None:
-        raise ValueError("reference provenance sidecar is missing")
-    meta["review"] = {"verdict": "passed", "reviewer": reviewer, "reviewed_at": date.today().isoformat(), "method": method, "note": note}
+        raise ValueError("reference review sidecar is missing")
+    meta["review"] = {
+        "verdict": "passed",
+        "reviewer": reviewer,
+        "reviewed_at": date.today().isoformat(),
+        "method": method,
+        "note": note,
+    }
     sidecar_for(image).write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
     ref["review"] = "passed"
     card.write_text("---\n" + yaml.safe_dump(data, sort_keys=False) + "---\n" + body, encoding="utf-8")
@@ -141,18 +101,12 @@ def record_review(card: Path, reference_index: int, reviewer: str, method: str, 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--library", type=Path, default=default_library_root())
-    parser.add_argument("--ledger", type=Path, default=default_ledger_root())
     parser.add_argument("--record-review", type=Path, help="card to mark passed after a real human or vision review")
     parser.add_argument("--reference-index", type=int, default=0)
     parser.add_argument("--reviewer")
     parser.add_argument("--method", help="for example: human visual inspection")
     parser.add_argument("--note", default="Depicts the card claim; anatomy and construction checked.")
-    parser.add_argument(
-        "--provenance", type=Path, default=None,
-        help="public provenance receipts (default: workspace/provenance); used when no ledger is present",
-    )
     args = parser.parse_args()
-    view = ProvenanceView(args.ledger, args.provenance)
     if args.record_review:
         if not args.reviewer or not args.method:
             parser.error("--record-review requires --reviewer and --method")
@@ -161,19 +115,19 @@ def main() -> int:
         except (ValueError, IndexError, KeyError) as exc:
             print(f"FAIL: {exc}")
             return 1
+    if not args.library.is_dir():
+        print(f"FAIL: library root not found: {args.library.as_posix()}", file=sys.stderr)
+        return 1
     failures: list[str] = []
     for path in discover_objects(args.library):
         record = parse_object(path, args.library)
-        for failure in reference_failures(record, args.library, args.ledger, view):
+        for failure in reference_failures(record, args.library):
             failures.append(f"{record.label}: {failure}")
     if failures:
         print(f"REFERENCE REVIEW FAILED: {len(failures)} issue(s)")
         print("\n".join(f"- {failure}" for failure in failures))
         return 1
-    print(
-        "REFERENCE REVIEW OK: every visual reference is present, reviewed, and original "
-        f"({view.mode} mode)."
-    )
+    print("REFERENCE REVIEW OK: every visual reference is present and reviewed.")
     return 0
 
 

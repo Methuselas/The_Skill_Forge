@@ -23,13 +23,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_choose_s_or_b_leg_rhythm_by_view
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 30-36
 confidence: high
 target_skill: recognizing a leg view and selecting the matching hip-to-ankle structural rhythm
 references: []

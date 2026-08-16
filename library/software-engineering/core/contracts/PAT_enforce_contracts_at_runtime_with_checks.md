@@ -21,22 +21,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_prefer_unmistakable_over_small_print
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u03, pp. 63-66
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_assertions
   variant_name: Enforce With Assertions That May Compile Out
   variant_basis: constraint
-  source_id: gcbc_think_like_swe
-  source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
-  locator: u03, pp. 65-66
   difference_from_foundation: Uses built-in assertions instead of hand-written checks; assertions are typically compiled out of release builds, so the loud failure fires in development and testing but not in the wild unless assertions are explicitly left enabled.
   when_to_use: When the contract check is expensive enough to matter for performance, or when availability in production matters more than catching the breach at runtime, or when the language's assertion syntax is cleaner and the team keeps assertions on in release.
   when_not_to_use: When the breach must be caught in production too; a compiled-out assertion gives no protection in the wild, so prefer an always-on check there.
@@ -44,9 +36,6 @@ variants:
 - variant_id: VAR_split_never_happens_from_expected_before_choosing_the_check
   variant_name: Split Never-Happens From Expected Before Choosing the Check
   variant_basis: method_sequence
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u08, pp. 189-194, 211
   difference_from_foundation: The foundation adds a loud runtime check for any contract term the compiler cannot enforce, and VAR_assertions decides whether to use an assertion on grounds of cost and production availability. This variant selects on a different basis entirely - what the condition means. A condition that should never occur is a statement about the code and belongs in an assertion, because it checks for bugs and its corrective action is to change the source, recompile and release. A condition you expect to occur, however rarely, is a statement about the data and belongs in shipped error-handling code that responds gracefully. McConnell frames assertions as executable documentation - you cannot rely on them to make the code work, but they record assumptions more actively than comments, covering things like a parameter within range, a stream open or at its start, a pointer non-null, a container with capacity, or a fast routine's result matching a slow clear one.
   when_to_use: Use before writing any unenforceable check, since the classification decides the mechanism, whether it ships, and what a reader does when it fires. It becomes near-mechanical once a validation boundary exists - code outside the boundary uses error handling because no assumption about the data is safe, code inside uses assertions because a bad value there is a defect rather than dirty input.
   when_not_to_use: Do not put executable code inside an assertion; if assertions compile out of production then so does that code, so assign the result to a status variable and test that instead. Do not use an assertion where the condition is genuinely reachable from bad input, because it will be compiled away exactly when it was needed.

@@ -41,13 +41,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_carry_form_flow_through_joint_transitions
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u17, printed pp. 69-70; physical pp. 67-68; comparative confirmation in u14, printed p. 55
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

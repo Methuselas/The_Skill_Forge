@@ -22,22 +22,14 @@ tags:
 - imagination
 cross_links: []
 reference:
-  source_id: glenn_vilppu_basic_figure_drawing
   source_title: 'Drawing Manual: Basic Figure Drawing'
   author: Glenn Vilppu
-  publish_date: Unknown
-  media_type: PDF
-  locator: u01, physical pp. 7-12
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_test_animal_motion_with_visual_memory_and_imagination
   variant_name: Test Animal Motion With Visual Memory and Imagination
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u11, printed p. 46; physical p. 44
   difference_from_foundation: After systematic study of an animal movement problem, remove the live/reference support and draw the movement from visual memory or imagination so uncertainty exposes what was not actually understood; Bammes treats this as a completion test for study, not only as a way to retain a briefly seen pose.
   when_to_use: Use after studying an animal pose or movement sequence when you need to test whether its structure and action can be mentally reconstructed rather than merely copied while visible.
   when_not_to_use: Do not use the imagination pass as a substitute for first observing or studying the movement process; Bammes ties useful visualizing to prior knowledge and experience of the motion.

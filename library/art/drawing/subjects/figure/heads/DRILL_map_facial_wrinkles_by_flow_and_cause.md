@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_hold_one_head_type_across_expression_set
 reference:
-  source_id: burne_hogarth_drawing_the_human_head
   source_title: Drawing the Human Head
   author: Burne Hogarth
-  publish_date: '1965'
-  media_type: book
-  locator: u03, physical pp. 84-92
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

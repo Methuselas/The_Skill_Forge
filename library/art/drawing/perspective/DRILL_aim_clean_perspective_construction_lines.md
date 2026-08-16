@@ -22,13 +22,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_establish_eye_level_and_vanishing_directions
 reference:
-  source_id: scott_robertson_how_to_draw
   source_title: 'How to Draw: Drawing and Sketching Objects and Environments from Your Imagination'
   author: Scott Robertson with Thomas Bertling
-  publish_date: '2013'
-  media_type: book
-  locator: u00, printed pp. 14-15 (physical PDF pp. 12-13)
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

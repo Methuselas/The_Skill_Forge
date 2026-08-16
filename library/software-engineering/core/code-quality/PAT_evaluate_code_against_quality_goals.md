@@ -43,22 +43,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_classify_error_recoverability_by_caller
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 8-11
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_judge_a_codebase_on_cognitive_dimensions
   variant_name: Judge a Codebase by What It Does to Its Readers
   variant_basis: method_sequence
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u12, pp. 192-200
   difference_from_foundation: The foundation evaluates code against four goals that are properties of the software — it works, keeps working, adapts, and does not reinvent. This variant evaluates the same thing against thirteen properties of the *experience of using it*, asking what the codebase does to a reader's brain rather than what it does to a computer. The dimensions are error proneness, consistency, diffuseness, hidden dependencies, provisionality, viscosity, progressive evaluation, role expressiveness, closeness of mapping, hard mental operations, secondary notation, abstraction and visibility. Answers questions the four goals cannot reach, such as whether people will find this code easy to change or easy to find information in.
   when_to_use: Use for libraries, frameworks and modules that other programmers call rather than modify, where the cost of poor design is borne by people you never meet. It is also the right frame for the questions that decide a codebase's future — whether contributors will attempt structural changes or only patch around them, and whether anyone will volunteer to maintain it.
   when_not_to_use: Do not substitute it for the four goals on a single function or class under review; the dimensions are codebase-scale properties and most of them are meaningless at that granularity. It also does not judge correctness, so it complements the first quality goal rather than covering it.

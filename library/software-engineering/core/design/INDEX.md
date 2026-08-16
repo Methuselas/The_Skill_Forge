@@ -2,13 +2,6 @@
 
 # Software Engineering / Foundations / Design
 
-## Reading order
-
-_Read a foundation before the skills that build on it (`prerequisite_for`)._
-
-- **Write Down the Problem in Terms That Name No Solution** — read first
-- **Refuse to Implement an Architecture You Cannot Follow** — read first
-
 ## Objects
 
 - [Ask Whether the Difficulty Is in the Problem or in Your Solution](PAT_separate_essential_from_accidental_complexity.md) - pattern; 0 design.

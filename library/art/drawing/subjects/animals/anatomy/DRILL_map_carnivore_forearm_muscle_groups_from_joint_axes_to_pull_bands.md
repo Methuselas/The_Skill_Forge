@@ -38,13 +38,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_study_carnivore_foreleg_across_views_and_rotation_axes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u20, printed pp. 84-86, especially fig. 92; physical pp. 82-84
-  evidence_type: mixed
 confidence: high
 target_skill: reducing a carnivore forearm from a skeletal front/back study to a functional flexor-extensor band map and then to an origin-to-insertion abstraction without losing the joint-axis logic
 references: []

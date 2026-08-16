@@ -100,8 +100,12 @@ It is also why grounding is non-negotiable. A wrong note is worse than no note: 
 student who highlighted the wrong sentence confidently writes the wrong answer,
 because they "studied it." Ungrounded cards do not merely fail to help — they make
 the model more wrong while feeling more sure. That is precisely the failure the
-fail-closed rule and the grounding gate (`PASS_GROUNDING.md`) exist to prevent, and
-why a skim is not a shortcut but active damage.
+fail-closed rule in `PASS_RUN.md` exists to prevent, and why a skim is not a
+shortcut but active damage.
+
+Grounding is a discipline you exercise while reading, not a record you file
+afterwards. It shows up as a card that says something specific the source
+actually established — not as a citation a future runtime could never check.
 
 ## The three object types
 
@@ -119,8 +123,7 @@ assign when teaching someone.
 defined levels of refinement.
 
 Material that does not fit is transformed into one of the three, attached inside
-an existing object's notes or variants, recorded as context in the ledger, or
-rejected.
+an existing object's notes or variants, or rejected.
 
 ## The stage scaffold
 
@@ -138,30 +141,23 @@ APs and every object's `stage_binding` use one scaffold, unchanged across domain
 
 A source sometimes teaches you *how to teach* something — a good explanation, a
 clever progression, an effective exercise order. That is worth keeping, but it is
-still a pattern, drill, or AP. It carries `lane_fit: teach` or
-`teaching_foundation` and `routing_class: teaching`. It never becomes its own
+still a pattern, drill, or AP. It carries `lane_fit: teach` and, where the rule
+itself is instructional, `routing_class: teaching`. It never becomes its own
 object type.
 
-Teaching is also a top-level shared package, parallel to domain packages and
-distinct from `metaskills`. Metaskills are universal process machinery included
-in every release. Teaching is conditional knowledge retrieved only when a task
-is routed through the Teaching lane. Domain, lane, and execution mode remain
-independent dimensions.
+**Instructional knowledge stays in the domain it belongs to.** A timed gesture
+exercise is an Art Drill. A progression from isolated-variable practice to
+integrated application, learned from a writing text, is a Writing card. `lane_fit`
+marks how a card is applied within its own domain; it routes the card nowhere
+else.
 
-**Teaching Lane Rule.** During source ingestion, independently evaluate whether
-material contributes to domain execution and whether it contributes to causing
-someone to learn, practise, diagnose, retain, transfer, or improve that
-capability. Domain-specific exercises remain with their domain. Instructional
-capabilities that genuinely transfer across domains are duplicate-guarded
-against `library/teaching/` and either attach as variants to an existing Teaching
-foundation or become a new Teaching foundation when genuinely novel. Preserve
-the source's domain-specific implementation as a variant or specialization when
-it carries useful evidence.
-
-`lane_fit: teach` does not imply ownership by the Teaching package. A timed
-gesture exercise remains an Art Drill; a generally transferable progression
-from isolated-variable practice to integrated application may belong to
-Teaching.
+There is no shared Teaching package and no Teaching scan during ingestion. An Art
+run does not evaluate, create, or mutate Teaching objects; neither does a Writing
+or Software Engineering run. Domains are independent lanes that meet only in the
+library. (A top-level `teaching` package and a mandatory cross-domain Teaching
+lane existed until 2026-08-15; both were retired and the material was quarantined
+under `archive/teaching/`. If Teaching is ever built properly, it becomes its own
+independent domain — not a bridge between the others.)
 
 ## What happens between extractions
 
@@ -235,8 +231,13 @@ rebuild. The library improves with every source.
 That last rule is the one that has actually bitten. On 2026-03-04 a run produced
 structured, authoritative-looking output for a book it had not read, and kept
 going after its inputs had expired. Structured output is not evidence of
-grounding. An object whose locator cannot be checked against a processed unit is
-not an object.
+grounding.
+
+The defense against that is **not** a page citation a future runtime cannot check.
+A card stays honest through clear semantic ownership, strong definitions, explicit
+boundaries, named failure modes, variants attached to owners, domain-local
+duplicate guards, schema invariants, and careful review before mutation. The card
+itself must carry the durable operational truth.
 
 ## Why the process is per-unit
 

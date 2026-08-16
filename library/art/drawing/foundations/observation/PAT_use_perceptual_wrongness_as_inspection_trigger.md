@@ -21,22 +21,14 @@ tags:
 - staged_drawing
 cross_links: []
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u01, physical pp. 9-40
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_restate_before_erasing_during_observational_search
   variant_name: Restate Before Erasing During Observational Search
   variant_basis: method_sequence
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u01, physical pp. 9-40
   difference_from_foundation: Places the improved relationship beside the doubtful one first, preserving visual contact and evidence of the search before cleanup removes the rejected mark.
   when_to_use: Use during exploratory observational drawing when frequent erasing would interrupt comparison with the subject.
   when_not_to_use: Do not accumulate so many competing lines that the current decision becomes unreadable; consolidate once the correction is understood.
@@ -44,9 +36,6 @@ variants:
 - variant_id: VAR_loomis_route_wrongness_through_five_ps_and_five_cs
   variant_name: Route Wrongness Through the Five Ps and Five Cs
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u01, physical PDF pp. 6-7, 10-13
   difference_from_foundation: >-
     Adds Loomis's explicit ten-part routing audit after perceptual wrongness is detected.
     Five Ps: Proportion (the three dimensions), Placement (a position in space),

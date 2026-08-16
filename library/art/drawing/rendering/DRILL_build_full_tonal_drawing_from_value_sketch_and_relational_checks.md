@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_separate_local_value_from_light_and_shadow_effect
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u04, physical pp. 118-120
-  evidence_type: mixed
 confidence: high
 references: []
 target_skill: organizing a full tonal drawing from a stable large-value plan while keeping later local modeling subordinate to whole-image value relationships

@@ -25,22 +25,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_build_gesture_into_clear_masses
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  evidence_type: mixed
-  locator: ch01, printed pp. 13-15
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bridgman_separate_neck_turn_from_skull_nod
   variant_name: Separate Cervical Turn From Skull Nod
   variant_basis: method_sequence
-  source_id: george_bridgman_constructive_anatomy
-  source_title: Constructive Anatomy
-  locator: u10, physical pp. 105-111
   difference_from_foundation: 'Deepens the fixed neck-root rule by separating two motion systems: head rotation is distributed through the cervical column, with especially free turning high in the neck, while the skull-to-neck joint chiefly supplies nodding. The sternomastoid pair and rear trapezius buttress should redirect accordingly rather than treating the head as a ball swiveling on a straight tube.'
   when_to_use: Use when a turned or nodded head feels disconnected from the neck, when the neck keeps one rigid cylinder orientation, or when rotation and nod are being collapsed into the same hinge.
   when_not_to_use: Do not turn the cervical spine into a visible segmented mechanism or use the source's anatomical description as a rigid medical range-of-motion formula.
@@ -48,9 +40,6 @@ variants:
 - variant_id: VAR_hogarth_carry_face_centerline_into_anterior_neck
   variant_name: Carry the Facial Centerline Into the Anterior Neck
   variant_basis: method_sequence
-  source_id: burne_hogarth_drawing_the_human_head
-  source_title: Drawing the Human Head
-  locator: u02, physical pp. 81-82
   difference_from_foundation: 'Adds Hogarth''s extreme-angle head-to-neck continuity check: in a strong up-, down-, or three-quarter view, continue the facial centerline from the nose through the mouth toward the anterior throat before drawing the neck contour, then relate that front center to the neck column returning from the skull base. This keeps the throat and neck from being attached as an unrelated tube after the head is tilted.'
   when_to_use: Use when an extreme head angle makes the throat look off-center, the chin-to-neck transition feels detached, or the head axis and neck column appear to belong to different viewpoints.
   when_not_to_use: Do not use the projected line as an exact locator for the larynx or as a substitute for observed neck anatomy. The centerline is an orientation diagnostic; cervical curvature, throat masses, asymmetry, and the torso attachment still determine the real form.
@@ -58,9 +47,6 @@ variants:
 - variant_id: VAR_hda_u05_reduce_neck_to_five_surface_masses
   variant_name: Reduce the Neck to Five Surface Masses
   variant_basis: method_sequence
-  source_id: burne_hogarth_dynamic_anatomy
-  source_title: Dynamic Anatomy (Revised and Expanded)
-  locator: u05, printed pp. 118-122 / scan pp. 120-124
   difference_from_foundation: 'Adds Hogarth''s compact surface-anatomy model after the neck root is seated: organize the visible neck first as a central throat/tracheal funnel, a paired sternomastoid route from behind the ears toward the collarbones, and a paired upper-trapezius route from skull base toward the back shoulders. The five masses give a fast bridge from the structural neck column to the living surface without requiring a complete muscle inventory.'
   when_to_use: Use when the head and neck are structurally attached but the neck surface is becoming a confusing bundle of named anatomy, especially in a turned, stretched, or upward-looking view.
   when_not_to_use: Do not treat the five shapes as the only anatomy present, give them equal prominence in every pose, or use them to override observed throat, fat, tendon, sex/age, and individual surface differences. They are a surface simplification, not five literal anatomical units.
@@ -68,9 +54,6 @@ variants:
 - variant_id: VAR_mogilevtsev_diagnose_head_shoulder_binding_with_axes_and_sternal_plumb
   variant_name: Diagnose Head-Shoulder Binding With Axes and a Sternal Plumb
   variant_basis: method_sequence
-  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
-  source_title: Fundamentals of Drawing
-  locator: u02, physical PDF p. 18
   difference_from_foundation: "Adds Mogilevtsev's observational alignment check after the neck root is structurally seated: compare the axis of the head with the axis of the shoulder girdle, locate the suprasternal notch, and drop a vertical through that notch to see where it falls against the head and eye landmarks. Correct the earliest large misalignment before redrawing local neck or shoulder contours."
   when_to_use: Use when an observed portrait's head, neck, and shoulders are individually plausible but feel disconnected, tilted inconsistently, or poorly balanced as one movement.
   when_not_to_use: Do not treat the plumb as a universal anatomical formula or force a fixed landmark coincidence across viewpoints; it is a view-dependent diagnostic comparison that supplements, rather than replaces, 3-D neck/chest construction.
@@ -78,9 +61,6 @@ variants:
 - variant_id: VAR_mogilevtsev_read_collar_as_evidence_of_neck_root_insertion
   variant_name: Read the Collar as Evidence of Neck-Root Insertion
   variant_basis: method_sequence
-  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
-  source_title: Fundamentals of Drawing
-  locator: u04, physical PDF pp. 32-33
   difference_from_foundation: >-
     Adds Mogilevtsev's clothed-observation route when the neck root is partly hidden: reconstruct the neck cylinder entering the upper-chest/clavicle-trapezius plane, then use the observed collar, neckline, and nearby fold direction as evidence of where that underlying attachment turns before wrapping the garment over the solved structure.
   when_to_use: Use when a clothed portrait's head and shoulders feel pasted together because the visible garment obscures the neck-to-shoulder insertion.

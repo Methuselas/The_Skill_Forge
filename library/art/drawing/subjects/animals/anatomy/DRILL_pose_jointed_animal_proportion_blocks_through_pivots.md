@@ -31,13 +31,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_transform_animal_framework_across_pose_changes
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u08, printed pp. 29, 32; physical pp. 27, 30
-  evidence_type: mixed
 confidence: high
 target_skill: preserving segment proportion and joint identity while changing an animal's pose by rotating a simplified articulated model around fixed pivot locations
 references: []

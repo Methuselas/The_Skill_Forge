@@ -24,13 +24,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_project_form_curves_from_camera_view
 reference:
-  source_id: michael_hampton_figure_drawing_design_and_invention
   source_title: 'Figure Drawing: Design and Invention'
   author: Michael Hampton
-  publish_date: '2009'
-  media_type: PDF
-  locator: u02, printed pp. 50-54
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

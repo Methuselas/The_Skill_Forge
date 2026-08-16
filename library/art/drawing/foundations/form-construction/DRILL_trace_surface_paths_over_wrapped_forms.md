@@ -20,22 +20,14 @@ tags:
 - observation
 cross_links: []
 reference:
-  source_id: glenn_vilppu_basic_figure_drawing
   source_title: 'Drawing Manual: Basic Figure Drawing'
   author: Glenn Vilppu
-  publish_date: Unknown
-  media_type: PDF
-  locator: u08, physical pp. 97-100
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hultgren_use_natural_stripes_as_surface_wrap_guides
   variant_name: Use Natural Stripes as Surface-Wrap Guides
   variant_basis: context
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u06, physical p. 47; printed p. 45
   difference_from_foundation: 'Extends the striped-cloth surface-path drill to naturally marked animals: follow zebra stripes as real paths over rib cage, shoulder, belly, rear mass, neck, and limbs, and use the way those markings change direction and spacing to test the underlying volume without drawing separate construction lines.'
   when_to_use: Use when a striped, banded, or otherwise naturally marked animal provides visible surface paths that can expose whether the body masses are turning convincingly.
   when_not_to_use: Do not force every marking to behave like a perfect geometric cross-contour or invent stripe flow that contradicts the observed animal; markings have their own pattern as well as the form they wrap.

@@ -28,13 +28,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_build_gesture_into_clear_masses
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u08, printed pp. 29, 32; physical pp. 27, 30
-  evidence_type: mixed
 confidence: high
 target_skill: establishing an animal's large proportional relationships quickly with a broad tool by converting trunk and limbs into a few connected, overlapping geometric shapes
 references: []

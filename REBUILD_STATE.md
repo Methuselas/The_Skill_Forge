@@ -10,13 +10,15 @@
 - Phase 8 Local portability tests: complete; clean ChatGPT platform acceptance remains external/pending
 - Phase 9 Human documentation: complete
 - Phase 10 Fresh Git baseline: complete
+- Phase 11 Architecture reset — source, ledger, and domain decoupling: complete (2026-08-15)
 
 Stages are frozen until explicitly streamlined later.
 
-## Post-baseline acceptance repair
+## Phase 11 — architecture reset (2026-08-15)
 
-Codex acceptance review identified release/platform and safety gaps. Repaired:
-Agent Skills frontmatter/discovery, canonical `library/` release paths and asset
-validation, publish-time schema/reference/grounding-attestation gates, destructive
-output protection, discoverable `unittest` coverage, PASS dependency manifests and
-auto-detected repo defaults, plus repo-local `.agents/` and `.claude/` skills.
+The authoring infrastructure that had accumulated around sources was removed
+rather than improved. Cards no longer carry source identity; validation and
+release builds read only the library; the three skill domains are independent;
+Teaching left the shared pipeline and is quarantined under `archive/`.
+
+Full record: `docs/CLEANUP_2026-08-15.md`. Contract: `ARCHITECTURE.md`.

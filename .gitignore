@@ -3,46 +3,11 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 workspace/releases/
-workspace/authoring/sources
-# Private authoring state. The ledger is the factory's notebook -- REGISTRY,
-# SOURCE.md, UNITS.md, per-unit reading receipts, candidate dispositions and
-# Teaching-lane receipts. It is what makes a run resumable and fail-closed, and
-# it is needed operationally, but it is not published. The public bridge is
-# workspace/provenance/<source_id>.json, written by PASS/tools/publish_provenance.py.
-workspace/authoring/ledger/
-workspace/authoring/handoffs/
 
-# Local source payloads are authoring inputs, not Git content by default.
-workspace/authoring/sources/*
-!workspace/authoring/sources/README.md
-
-# Track only first-party/guided image renders required by PASS reference
-# provenance checks. Third-party books/PDFs and training/source notes stay local.
-!workspace/authoring/sources/gen1_art_fundamentals_4step/
-workspace/authoring/sources/gen1_art_fundamentals_4step/*
-!workspace/authoring/sources/gen1_art_fundamentals_4step/*.png
-
-!workspace/authoring/sources/guided_stage0a_rosetta_2026_08_06/
-workspace/authoring/sources/guided_stage0a_rosetta_2026_08_06/*
-!workspace/authoring/sources/guided_stage0a_rosetta_2026_08_06/*.png
-
-!workspace/authoring/sources/guided_stage1_stage3_artist_discretion_2026_08_06/
-workspace/authoring/sources/guided_stage1_stage3_artist_discretion_2026_08_06/*
-!workspace/authoring/sources/guided_stage1_stage3_artist_discretion_2026_08_06/*.png
-
-!workspace/authoring/sources/guided_stage_density_gates_2026_08_05/
-workspace/authoring/sources/guided_stage_density_gates_2026_08_05/*
-!workspace/authoring/sources/guided_stage_density_gates_2026_08_05/*.png
-
-!workspace/authoring/sources/guided_staged_visual_validation_2026_08_03/
-workspace/authoring/sources/guided_staged_visual_validation_2026_08_03/*
-!workspace/authoring/sources/guided_staged_visual_validation_2026_08_03/*.png
-
-# Grounding renders are transient working evidence, not deliverables
-# (PASS_GROUNDING: "Authoring render-cache lifecycle"). They are regenerable
-# from the source payload and are omitted from handoff once a source is
-# complete and its QUALITY_ATTESTATION.json verifies.
-workspace/authoring/renders/
+# Local authoring scratch. Nothing in PASS reads it; deleting it cannot
+# invalidate the library. See workspace/authoring/README.md.
+workspace/authoring/*
+!workspace/authoring/README.md
 
 # Agent scratch space
 tmp/

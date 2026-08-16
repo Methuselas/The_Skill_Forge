@@ -22,22 +22,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_refactor_for_your_own_comprehension
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u04, pp. 49-50
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_account_for_germane_load_as_the_third_type
   variant_name: Count Germane Load, the Capacity Needed to Retain Anything
   variant_basis: constraint
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u10, pp. 173-174
   difference_from_foundation: The foundation splits load into intrinsic, from the problem itself, and extraneous, from how the problem is presented, and treats the goal as removing the extraneous share so thinking can proceed. This variant adds a third claim on the same capacity — germane load, the effort of writing what you are doing back into long-term memory. The consequence changes what counts as success. Under the foundation, a session where the work got done was a session with tolerable load; under this variant a session can be fully consumed by intrinsic and extraneous load, complete the work, and store nothing, which is why a heavy coding session can end with no memory of what you did.
   when_to_use: Use whenever the objective is to learn rather than only to ship — studying a codebase, working through worked examples, onboarding, or any practice session. It is also the right frame for diagnosing the specific complaint of having worked hard on something and retained none of it.
   when_not_to_use: It adds nothing when the goal is genuinely just to complete a task you already know how to do and never need to recall, since there is nothing to store. It is also not a licence to slow work down on the assumption that retention is always the priority.

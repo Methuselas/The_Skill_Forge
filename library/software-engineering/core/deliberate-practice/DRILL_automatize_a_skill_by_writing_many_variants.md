@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_practice_syntax_with_flashcards
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u10, pp. 171-172
-  evidence_type: text
 confidence: high
 references: []
 variants: []

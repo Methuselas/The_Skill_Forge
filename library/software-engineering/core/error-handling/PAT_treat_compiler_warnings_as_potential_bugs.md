@@ -21,22 +21,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_make_breakage_fail_compile_or_test
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u04, pp. 99-100
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_cpp_warnings_implementation_dependent
   variant_name: Heed C++ Warnings but Don't Depend on Them
   variant_basis: emphasis
-  source_id: effective_cpp_3e
-  source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
-  locator: u09, pp. 262-263
   difference_from_foundation: Adds the C++-specific caveat that compiler warnings are implementation-dependent, so you should compile warning-free at the maximum level yet never rely on a particular warning to catch a bug, because another (widely used) compiler may stay silent about the same mistake.
   when_to_use: Writing portable C++ that must behave correctly across compilers and warning levels.
   when_not_to_use: A single-fixed-compiler context where warnings are already errors and portability is not a concern.

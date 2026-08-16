@@ -19,22 +19,14 @@ tags:
 - projection
 cross_links: []
 reference:
-  source_id: ernest_norling_perspective_made_easy
   source_title: Perspective Made Easy
   author: Ernest R. Norling
-  publish_date: 1939 / 1999
-  media_type: book
-  locator: u00, printed pp. 193-201
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_loomis_project_small_interior_then_enlarge_freehand
   variant_name: Project a Small Interior, Then Enlarge Freehand
   variant_basis: method_sequence
-  source_id: andrew_loomis_fun_with_a_pencil
-  source_title: Fun With a Pencil
-  locator: u04, physical pp. 103-107
   difference_from_foundation: 'Uses exact-enough plan projection as a compact planning scaffold rather than as the final drawing: arrange the room and figures in plan, project the layout and key heights into a small perspective study, then enlarge that solved study and return to freehand drawing for the finished illustration.'
   when_to_use: Use when an interior or staged scene needs trustworthy spatial relationships but the final image should retain natural drawing rather than read like mechanical drafting.
   when_not_to_use: Do not enlarge a faulty miniature blindly; verify the small projection first, and retain full mechanical construction when exact technical documentation is the actual goal.

@@ -21,22 +21,14 @@ tags:
 - observation
 cross_links: []
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u03, physical pp. 71-102
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_marvel_exaggerate_role_defining_character_structure
   variant_name: Exaggerate Role-Defining Character Structure
   variant_basis: emphasis
-  source_id: marvel_how_to_draw_comics
-  source_title: How to Draw Comics the Marvel Way
-  locator: u04, physical PDF pp. 36-43
   difference_from_foundation: Selectively pushes structural traits that carry a comics character's intended role—such as shoulder and chest breadth, limb mass, hand or foot scale, stance spread, and head-to-body ratio—while retaining coherent construction, balance, and identity.
   when_to_use: Use when a character should read as more heroic, imposing, squat, bulky, powerful, or otherwise role-specific without becoming indiscriminately distorted.
   when_not_to_use: Do not impose one heroic proportion formula on every character; preserve the role-defining exception when a shorter, larger-headed, narrower, or otherwise different build carries the design.

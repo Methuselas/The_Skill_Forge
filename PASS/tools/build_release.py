@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import shutil
@@ -14,11 +15,7 @@ from typing import Any
 
 import yaml
 
-from paths import default_ledger_root, default_library_root, repo_root_from_tool
-from provenance import ProvenanceView, provenance_root_for
-from provenance import load_all as load_all_provenance
-from quality_attestation import sha256_file, verify_attestation, verify_public_provenance
-from source_provenance import all_source_object_hashes, card_source_ids
+from paths import default_library_root, repo_root_from_tool
 
 FM_RE = re.compile(r"\A---\r?\n(?P<front>.*?)\r?\n---\r?\n(?P<body>.*)\Z", re.S)
 FORBIDDEN = {
@@ -26,6 +23,14 @@ FORBIDDEN = {
     "workspace", "sources", "ledger", "ledgers", "worklogs", "trash",
     "tmp", "build", "dist",
 }
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for chunk in iter(lambda: stream.read(1 << 20), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def read_yaml(path: Path) -> dict[str, Any]:
@@ -148,13 +153,6 @@ def included_objects(selected: set[str], by_id, owner):
     }
 
 
-def source_ids_for(objects) -> set[str]:
-    result: set[str] = set()
-    for _object_id, (_path, data) in objects.items():
-        result.update(card_source_ids(data))
-    return result
-
-
 def run_gate(script: Path, args: list[str]) -> None:
     result = subprocess.run([sys.executable, str(script), *args], text=True, capture_output=True)
     if result.returncode:
@@ -162,85 +160,18 @@ def run_gate(script: Path, args: list[str]) -> None:
         raise ValueError(f"quality gate failed ({script.name}):\n{detail}")
 
 
-def released_card_paths(objects, canonical_library: Path) -> set[str]:
-    """Library-relative paths of the cards this release actually ships."""
-    return {
-        path.resolve().relative_to(canonical_library.resolve()).as_posix()
-        for _object_id, (path, _data) in objects.items()
-    }
+def run_quality_gates(release_library: Path) -> dict[str, Any]:
+    """Gate the packaged library on what it contains, not on how it was authored.
 
-
-def run_quality_gates(
-    release_library: Path,
-    canonical_library: Path,
-    ledger: Path,
-    selected_sources: set[str],
-    release_paths: set[str] | None = None,
-) -> dict[str, Any]:
+    Both gates run against the staged release tree, so a release is publishable
+    on the strength of the cards it actually ships.
+    """
     tool_dir = Path(__file__).resolve().parent
-    run_gate(
-        tool_dir / "validate.py",
-        [
-            "--library", str(release_library),
-            "--ledger", str(ledger),
-            "--scope-ledger-to-library",
-        ],
-    )
-    run_gate(
-        tool_dir / "verify_references.py",
-        ["--library", str(release_library), "--ledger", str(ledger)],
-    )
-    problems: list[str] = []
-    # Every cited source's attestation is checked for integrity — signature,
-    # SOURCE.md, ledger tree. The per-card contribution comparison is scoped to
-    # the cards this release ships. A release carries a subset of each source's
-    # canon (a universally-included metaskill may be the only card it takes from
-    # an otherwise unrelated domain source), so comparing the whole canon made an
-    # edit to a card outside the release fail a build that never contained it.
-    # Drift in a shipped card still fails here; drift elsewhere is the job of
-    # `quality_attestation.py verify --all`.
-    all_objects = all_source_object_hashes(canonical_library)
-    # With the private ledger present, verify the full attestation. Without it —
-    # a public checkout — verify the published provenance receipt instead, which
-    # still proves the shipped cards match their accepted grounding.
-    view = ProvenanceView(ledger)
-    public_records = {} if view.has_ledger else load_all_provenance(view.provenance_root)
-    for source_id in sorted(selected_sources):
-        source_objects = all_objects.get(source_id, {})
-        scope = None if release_paths is None else {
-            path for path in source_objects if path in release_paths
-        }
-        if view.has_ledger:
-            problems.extend(
-                verify_attestation(
-                    source_id,
-                    canonical_library,
-                    ledger,
-                    source_objects,
-                    scope_paths=scope,
-                )
-            )
-            continue
-        record = public_records.get(source_id)
-        if record is None:
-            problems.append(f"{source_id}: no public provenance receipt")
-            continue
-        problems.extend(
-            verify_public_provenance(
-                source_id,
-                canonical_library,
-                record,
-                source_objects,
-                scope_paths=scope,
-            )
-        )
-    if problems:
-        raise ValueError("quality attestation gate failed:\n" + "\n".join(problems))
+    run_gate(tool_dir / "validate.py", ["--library", str(release_library)])
+    run_gate(tool_dir / "verify_references.py", ["--library", str(release_library)])
     return {
         "schema_validation": "passed",
         "visual_reference_verification": "passed",
-        "grounding_attestations": "passed",
-        "sources": sorted(selected_sources),
     }
 
 
@@ -411,8 +342,8 @@ def write_skill(
         f"Runtime profile: `{runtime_profile}`.\n\n"
         "The semantic craft knowledge remains in `library/`; Python owns only routing, "
         "activation, sequencing, gates, and completion bookkeeping. Hard prerequisites "
-        "have already been materialized locally. Source citations are provenance, not "
-        "runtime dependencies.\n\n"
+        "have already been materialized locally. Each card is self-contained: it needs "
+        "no source document to execute.\n\n"
         "## Bundled modules\n\n"
         + "".join(f"- `library/{module}`\n" for module in modules)
     )
@@ -525,28 +456,14 @@ def build(
     outdir: Path,
     zip_out: Path | None = None,
     library: Path | None = None,
-    ledger: Path | None = None,
     *,
     replace: bool = False,
     unsafe_skip_quality_gates: bool = False,
 ):
     lib = (library or default_library_root()).resolve()
-    led = (ledger or default_ledger_root()).resolve()
     recipe = recipe.resolve(); outdir = outdir.resolve()
     if not lib.is_dir():
         raise ValueError(f"library root not found: {lib}; pass --library")
-    if not led.is_dir() and not unsafe_skip_quality_gates:
-        # A public checkout has no private ledger by design. It can still build,
-        # gated on the published provenance receipts. Refuse only when neither
-        # state is present — then nothing can be verified and the build would be
-        # shipping unchecked cards.
-        published = provenance_root_for(led)
-        if not load_all_provenance(published):
-            raise ValueError(
-                f"ledger root not found: {led}; and no provenance receipts at "
-                f"{published}. Pass --ledger for an authoring checkout, or publish "
-                f"receipts with tools/publish_provenance.py --all."
-            )
     danger = protected_output(outdir, lib, recipe)
     if danger:
         raise ValueError(danger)
@@ -572,7 +489,6 @@ def build(
         raise ValueError("release recipe has no modules")
     selected = resolve(entries, modules, by_id, owner)
     objects = included_objects(selected, by_id, owner)
-    selected_sources = source_ids_for(objects)
     display_name = str(spec.get("name") or recipe.stem)
     skill_name = str(spec.get("skill_name") or slugify(display_name))
     description = str(spec.get("description") or f"Use for tasks requiring the {display_name} SkillForge skillset.")
@@ -608,13 +524,7 @@ def build(
         quality = (
             {"status": "UNSAFE_SKIPPED"}
             if unsafe_skip_quality_gates
-            else run_quality_gates(
-                staging / "library",
-                lib,
-                led,
-                selected_sources,
-                released_card_paths(objects, lib),
-            )
+            else run_quality_gates(staging / "library")
         )
 
         manifest = {
@@ -698,7 +608,7 @@ def check(path: Path) -> None:
             if gates.get("status") == "UNSAFE_SKIPPED":
                 problems.append("release was built with quality gates skipped")
             else:
-                for gate in ("schema_validation", "visual_reference_verification", "grounding_attestations"):
+                for gate in ("schema_validation", "visual_reference_verification"):
                     if gates.get(gate) != "passed":
                         problems.append(f"release manifest does not record passed {gate}")
         except (json.JSONDecodeError, ValueError) as exc:
@@ -727,7 +637,6 @@ def main() -> int:
     build_parser.add_argument("recipe", type=Path)
     build_parser.add_argument("outdir", type=Path)
     build_parser.add_argument("--library", type=Path, default=default_library_root())
-    build_parser.add_argument("--ledger", type=Path, default=default_ledger_root())
     build_parser.add_argument("--zip", dest="zip_out", type=Path)
     build_parser.add_argument("--replace", action="store_true", help="replace an existing safe output path")
     build_parser.add_argument(
@@ -741,7 +650,7 @@ def main() -> int:
     try:
         if args.cmd == "build":
             manifest = build(
-                args.recipe, args.outdir, args.zip_out, args.library, args.ledger,
+                args.recipe, args.outdir, args.zip_out, args.library,
                 replace=args.replace,
                 unsafe_skip_quality_gates=args.unsafe_skip_quality_gates,
             )

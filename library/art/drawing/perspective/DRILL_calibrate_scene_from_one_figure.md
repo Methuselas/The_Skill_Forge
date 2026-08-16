@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_carry_scale_through_depth_with_height_and_width_guides
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: '1970'
-  media_type: book
-  evidence_type: mixed
-  locator: ch06, printed pp. 159-164
 confidence: high
 target_skill: use one trustworthy figure to calibrate shared scale and perspective for additional figures and objects
 references: []

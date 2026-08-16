@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_capture_gesture_from_short_visual_memory
 reference:
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
   source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
   author: Gottfried Bammes
-  publish_date: '1989'
-  media_type: PDF
-  locator: u02, printed pp. 55-67
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

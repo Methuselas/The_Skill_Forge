@@ -19,22 +19,14 @@ tags:
 - width
 cross_links: []
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 61-67
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_loomis_scale_cropped_figures_from_visible_landmarks
   variant_name: Scale Cropped Figures From Visible Corresponding Landmarks
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u02, physical PDF pp. 63-64
   difference_from_foundation: Extends depth-scale transfer to figures whose feet or ground contact are cropped or occluded by carrying a trustworthy visible homologous landmark through the solved perspective field and rebuilding the visible figure from that transferred scale.
   when_to_use: Use when equal-height figures share the relevant plane relationship but one figure's feet are hidden by framing, furniture, foreground overlap, or another occluder.
   when_not_to_use: Do not assume the transfer is valid when the compared figures differ materially in real height/proportion or stand on unrelated elevations; solve those differences first.

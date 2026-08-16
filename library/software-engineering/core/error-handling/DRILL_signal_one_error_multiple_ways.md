@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_prefer_explicit_error_signaling_for_recoverable_errors
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u04, pp. 80-92
-  evidence_type: text
 confidence: high
 target_skill: implementing and contrasting explicit and implicit error-signaling techniques
 references: []

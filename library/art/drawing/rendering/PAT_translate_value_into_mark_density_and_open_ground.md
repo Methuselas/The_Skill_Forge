@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_control_edge_hardness_from_form_light_and_focus
 reference:
-  source_id: andrew_loomis_creative_illustration
   source_title: Creative Illustration
   author: Andrew Loomis
-  publish_date: unknown
-  media_type: PDF
-  locator: u05, physical PDF pp. 48-50; printed pp. 56-58
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

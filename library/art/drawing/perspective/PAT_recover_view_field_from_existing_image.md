@@ -19,22 +19,14 @@ tags:
 - reference_analysis
 cross_links: []
 reference:
-  source_id: ernest_norling_perspective_made_easy
   source_title: Perspective Made Easy
   author: Ernest R. Norling
-  publish_date: 1939 / 1999
-  media_type: book
-  locator: u00, printed pp. 35-36
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_recover_station_point_and_viewing_distance
   variant_name: Recover Exact Station Point and Viewing Distance
   variant_basis: method_sequence
-  source_id: frantz_crannell_viewpoints_mathematical_perspective
-  source_title: Viewpoints
-  locator: printed pp. 32-35, 61-69, 86-93
   difference_from_foundation: Finalizes exact camera recovery from trustworthy one-, two-, or three-point image geometry when the needed world-angle or proportion assumptions are available.
   when_to_use: Use after ordinary vanishing-point/eye-level recovery when exact station geometry materially matters.
   when_not_to_use: Do not claim exact recovery from arbitrary art, distorted/cropped photography, or unknown world geometry.

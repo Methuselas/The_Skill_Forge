@@ -37,22 +37,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_preserve_rapid_motion_with_open_incomplete_sketching
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u12, printed pp. 47-48; physical pp. 45-46
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_seed_animal_invention_from_random_marks
   variant_name: Seed Animal Invention From Random Marks
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u18, printed pp. 74 and 78, fig. 80; physical pp. 72 and 76
   difference_from_foundation: Begins the improvisation one step earlier with broad accidental watercolor marks rather than an internally chosen action. Make energetic marks without a predetermined subject, let their curves and masses suggest possibilities, then use pen or a few decisive strokes to crystallize a structurally plausible animal idea from the chance arrangement.
   when_to_use: Use after enough animal structure has been studied to break a stale symbol habit, provoke unfamiliar silhouettes, or generate an unexpected pose without prescribing the subject in advance.
   when_not_to_use: Do not use accidental marks as a substitute for anatomy, proportion, or functional action; if everything is allowed to run until articulation disappears, confine the flow with only enough firm edge or detail to recover structure, and return to study if the suggested figure still cannot be made convincing.

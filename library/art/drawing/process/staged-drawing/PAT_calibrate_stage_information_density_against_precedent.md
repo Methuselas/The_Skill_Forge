@@ -34,13 +34,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_commit_stage3_form_realization
 reference:
-  source_id: guided_stage1_stage3_artist_discretion_2026_08_06
   source_title: Guided Stage 1–3 Artist Discretion, Mass Completion, and Commitment Review
   author: MaDin + GPT
-  publish_date: '2026-08-06'
-  media_type: archive
-  locator: stage1_stage3_artist_discretion
-  evidence_type: mixed
 confidence: high
 references:
 - image_path: library/art/drawing/process/staged-drawing/assets/precedent_stage0a_observatory_rosetta_contact_sheet.png
@@ -97,9 +92,6 @@ variants:
 - variant_id: VAR_loomis_choose_rendering_density_by_study_purpose
   variant_name: Choose Rendering Density by Study Purpose
   variant_basis: method_sequence
-  source_id: andrew_loomis_figure_drawing_for_all_its_worth
-  source_title: Figure Drawing for All It's Worth
-  locator: u08, printed pp. 129-135
   difference_from_foundation: 'Adds Loomis''s purpose-first calibration to the staged-density Pattern: decide what the study is meant to learn or communicate—action, construction, proportion, anatomy, value, or finish—then choose line/tone/detail density that serves that purpose instead of treating every drawing with the same finish language.'
   when_to_use: Use when a study is becoming overworked, underdeveloped, or stylistically automatic relative to its actual learning or communication goal.
   when_not_to_use: Do not use 'study purpose' as permission to violate a user-approved stage or production brief; explicit stage and delivery constraints still govern.

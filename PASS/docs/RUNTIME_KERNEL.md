@@ -13,18 +13,18 @@ Metaskills are therefore **script-dependent, not script-owned**. `RUNTIME.yaml`
 files declare activation conditions, while the AP/Pattern/Drill cards remain the
 source of meaning and method.
 
-## Orthogonal Teaching lane
+## Orthogonal teach lane
 
 Profiles resolve a `lane` independently from execution `mode`. `skill` is the
 default lane. Explicit teaching, coaching, learning-design, or assessment intent
-selects `teach`. A request can therefore resolve as Art + Teaching lane + Direct
-Render, or Art + Teaching lane + Staged Production; choosing Teaching does not
+selects `teach`. A request can therefore resolve as Art + teach lane + Direct
+Render, or Art + teach lane + Staged Production; choosing the teach lane does not
 silently redefine the execution mode.
 
-Runtime manifests under `library/teaching/` activate only when `lanes: [teach]`
-matches. A teaching-capable release must explicitly include the Teaching module.
-Ordinary skill requests do not activate it, and releases that do not need
-teaching do not ship it.
+The lane is card-level semantics only. It selects how the domain's own cards are
+applied; it does not route into a separate Teaching package, and no domain
+depends on one. Resolution activates `metaskills` and the release's own domain
+modules. (The shared Teaching lane was retired 2026-08-15.)
 
 ## Art execution modes
 

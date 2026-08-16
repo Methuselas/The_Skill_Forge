@@ -24,22 +24,14 @@ cross_links:
 - rel: supports
   target_object_id: PAT_choose_texture_process_by_control_and_spread
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: book
-  locator: u05, printed pp. 17-22
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_compare_medium_behavior_on_same_subject
   variant_name: Compare Medium Behavior on the Same Subject
   variant_basis: context
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u02, physical pp. 41-70
   difference_from_foundation: Generalizes the exercise beyond animal surface rendering by keeping one subject fixed while different drawing media reveal distinct handwriting, pressure, edge, and value behaviors.
   when_to_use: Use when medium choice is habitual or when a technique is being forced onto a subject instead of selected for its natural behavior.
   when_not_to_use: Do not change subject, viewpoint, and construction between samples so radically that the media can no longer be compared.

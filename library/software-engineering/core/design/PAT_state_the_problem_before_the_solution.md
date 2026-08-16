@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: AP_assess_construction_prerequisites_before_building
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u03, pp. 36-38
-  evidence_type: text
 confidence: high
 references: []
 variants: []

@@ -25,22 +25,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_orient_rib_cage_with_curved_openings
 reference:
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
   source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
   author: Gottfried Bammes
-  publish_date: '1989'
-  media_type: PDF
-  locator: u05, printed pp. 130-135
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_mogilevtsev_capture_live_torso_then_reconstruct_hidden_anatomy_offline
   variant_name: Capture the Live Torso, Then Reconstruct Hidden Anatomy Offline
   variant_basis: method_sequence
-  source_id: vladimir_mogilevtsev_fundamentals_of_drawing
-  source_title: Fundamentals of Drawing
-  locator: u09, physical PDF p. 52
   difference_from_foundation: "Adds Mogilevtsev's delayed observation-to-anatomy loop: record a live torso or detail in its actual movement and visible landmarks first, preserve that exact pose/view, then after the sitting use anatomy reference to reconstruct the relevant hidden bones and muscle masses inside the recorded study. This reverses the foundation drill's usual anatomy-to-living-form direction and separates unstable observation time from slower structural analysis."
   when_to_use: Use when a live torso pose or local figure detail is too time-limited for careful anatomical reasoning and you want to preserve the observed action before checking what hidden structure could plausibly produce it.
   when_not_to_use: Do not let the later anatomy study overwrite the recorded model with a generic atlas body, and do not invent hidden structures unsupported by the observed landmarks; the reconstruction must explain the same pose and surface evidence.

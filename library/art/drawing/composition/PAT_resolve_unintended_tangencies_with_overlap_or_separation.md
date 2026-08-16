@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_crop_decisively_to_reshape_figure_ground_relationships
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u07, physical pp. 195-196
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

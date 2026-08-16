@@ -29,22 +29,14 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_build_living_head_over_constructed_skull
 reference:
-  source_id: andrew_loomis_drawing_the_head_and_hands
   source_title: Drawing the Head and Hands
   author: Andrew Loomis
-  publish_date: Unknown
-  media_type: PDF
-  locator: u03, physical p. 57
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_loomis_overlay_head_construction_to_audit_feature_placement
   variant_name: Overlay Head Construction to Audit Feature Placement
   variant_basis: method_sequence
-  source_id: andrew_loomis_fun_with_a_pencil
-  source_title: Fun With a Pencil
-  locator: u02, physical p. 45
   difference_from_foundation: 'Adds a fast diagnostic overlay before the full staged reverse-engineering drill: place the ball/plane, centerline, eye/brow levels, and related construction over an existing head or reference to identify a misplaced feature or infer the underlying head orientation, then rebuild from the earliest disagreement.'
   when_to_use: 'Use when a head looks wrong but the cause is unclear and a quick construction audit may expose whether the failure begins in orientation, proportion, or feature placement.'
   when_not_to_use: 'Do not let the overlay become a substitute for independent head construction or force the scaffold onto a reference whose actual skull/soft-tissue structure requires adaptation.'

@@ -26,13 +26,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_make_familiar_subject_strange_by_transforming_relationships
 reference:
-  source_id: andrew_loomis_fun_with_a_pencil
   source_title: Fun With a Pencil
   author: Andrew Loomis
-  publish_date: 1939
-  media_type: PDF
-  locator: u02, physical pp. 28-30
-  evidence_type: mixed
 confidence: high
 target_skill: discovering varied character-head designs from arbitrary primitive mass arrangements and resolving the discovered suggestion into coherent three-dimensional head construction
 references: []

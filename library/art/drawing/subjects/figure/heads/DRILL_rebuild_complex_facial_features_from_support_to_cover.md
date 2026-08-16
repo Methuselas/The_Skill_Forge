@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_build_living_head_over_constructed_skull
 reference:
-  source_id: burne_hogarth_drawing_the_human_head
   source_title: Drawing the Human Head
   author: Burne Hogarth
-  publish_date: '1965'
-  media_type: book
-  locator: u01, physical pp. 38-56
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

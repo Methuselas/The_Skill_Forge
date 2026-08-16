@@ -33,22 +33,14 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_construct_foreshortened_animal_from_backline_cross_axes_and_core_masses
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u01, printed pp. 7-8; physical pp. 5-6
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_bammes_organize_whole_animal_as_built_design_hierarchy
   variant_name: Organize the Whole Animal as a Built-Design Hierarchy
   variant_basis: method_sequence
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
-  source_title: The Artist's Guide to Animal Anatomy
-  locator: u32, printed pp. 134-135; physical pp. 132-133
   difference_from_foundation: >-
     Extends inside-out whole-animal construction into a late-study integration pass: order masses by optical weight, coordinate firm framework with variable soft forms, and make proportion, construction, structure, dynamics, and essential animal type cooperate as one total design before moving into visualization or abbreviation.
   when_to_use: Use when local anatomy is plausible but the animal still reads like assembled parts, an equal-weight inventory, or a technically correct diagram without a governing whole.

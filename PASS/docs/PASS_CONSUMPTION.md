@@ -16,8 +16,7 @@ The host first selects a focused `SKILL.md`, such as `visual-art` or
 a bounded set of PASS objects. There is no universal consumer skill and no domain
 routing hidden inside PASS itself.
 
-The optional `tools/resolve.py` utility identifies a bounded bundle. A domain may
-add its own execution checks: the visual-art skill, for example, owns intent
+A domain may add its own execution checks: the visual-art skill, for example, owns intent
 routing, stage authorization, freeze records, and post-artifact inspection. Those
 rules do not apply to software engineering or PASS authoring.
 
@@ -161,7 +160,8 @@ skill route or report the limitation honestly. Do not hide it with polish.
 
 ## Use-time guardrails
 
-Consumption needs its own gate, parallel to the grounding gate for extraction:
+Consumption needs its own gate, parallel to the fail-closed reading rule that
+governs extraction (`PASS_RUN.md` §1):
 
 - **Intent before execution.** Route the current turn as discuss, inspect,
   produce, or ambiguous before a craft pipeline. Only produce may enter visual
@@ -173,8 +173,9 @@ Consumption needs its own gate, parallel to the grounding gate for extraction:
 - **Scoped authority.** A card governs its learner decision, not the whole task.
 - **Confidence surfaced.** A `low`/`medium`-confidence skill is applied as such,
   not trusted like a `high` one.
-- **Provenance available.** The source and locator travel with the skill so a
-  human can check it.
+- **Self-contained application.** A card carries everything needed to apply it.
+  If applying it would require consulting a source document, the card is
+  incomplete — fix the card rather than reaching for the book.
 - **Reference-aware loading.** Surface useful reviewed references when present;
   surface their absence for visual execution rather than pretending text alone is
   equivalent.
@@ -195,7 +196,7 @@ Consumption needs its own gate, parallel to the grounding gate for extraction:
 
 Every rule here is one a model can rationalize past, exactly like "don't skim."
 Durable checks should therefore be implemented by the domain that needs them.
-A release loader or consumer can enforce bounded retrieval, foundations-first ordering, provenance, and coverage reporting. The visual-art skill may additionally block
+A release loader or consumer can enforce bounded retrieval, foundations-first ordering, and coverage reporting. The visual-art skill may additionally block
 continuation without an approved predecessor, verified edit target, and complete
 freeze record. A software skill may rely instead on compilation, tests, and code
 review.

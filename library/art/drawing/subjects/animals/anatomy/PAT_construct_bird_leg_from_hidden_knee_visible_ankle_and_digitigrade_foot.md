@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_map_animal_pose_as_vertebral_and_limb_direction_framework
 reference:
-  source_id: michael_mattesi_force_animal_drawing
   source_title: 'FORCE: Animal Drawing'
   author: Michael D. Mattesi
-  publish_date: Unknown
-  media_type: PDF
-  locator: u04, physical pp. 83-140
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

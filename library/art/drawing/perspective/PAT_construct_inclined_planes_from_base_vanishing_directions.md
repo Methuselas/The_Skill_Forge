@@ -19,22 +19,14 @@ tags:
 - vanishing_line
 cross_links: []
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 77-80
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_slope_auxiliary_false_eye_level
   variant_name: Use a Slope Auxiliary Vanishing Direction
   variant_basis: method_sequence
-  source_id: ernest_norling_perspective_made_easy
-  source_title: Perspective Made Easy
-  locator: printed pp. 185-189
   difference_from_foundation: 'Adds Norling''s useful hill/street mnemonic while preserving the true eye level: rising or falling directions get their own slope-aligned vanishing line/direction.'
   when_to_use: Use for roads, ramps, roofs, or repeated forms traveling along a shared incline.
   when_not_to_use: Do not interpret the auxiliary slope line as a second literal camera eye level.

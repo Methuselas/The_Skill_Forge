@@ -28,22 +28,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_project_form_curves_from_camera_view
 reference:
-  source_id: michael_hampton_figure_drawing_design_and_invention
   source_title: 'Figure Drawing: Design and Invention'
   author: Michael Hampton
-  publish_date: '2009'
-  media_type: PDF
-  locator: u04, printed pp. 86-120
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_zarins_trace_surface_bulges_to_deeper_layers
   variant_name: Trace Surface Bulges to Deeper Anatomical Layers
   variant_basis: method_sequence
-  source_id: uldis_zarins_anatomy_for_sculptors
-  source_title: 'Anatomy for Sculptors: Understanding the Human Figure'
-  locator: u02, physical pp. 35-36 and 49-51
   difference_from_foundation: 'Adds Zarins''s explicit layer-causality diagnostic to surface-anatomy design: a visible bulge, ridge, or relief may be produced by a deeper structure displacing a superficial sheet rather than by the superficial structure itself. Zarins demonstrates pectoralis minor pushing pectoralis major outward, serratus anterior pushing latissimus dorsi outward beneath the scapular region, and erector-spinae volume lifting the latissimus from below. Read the visible surface through the stacked anatomy before assigning the contour to the topmost named muscle.'
   when_to_use: Use when an observed torso relief does not match the expected outline of the superficial muscle, when a broad sheet looks inexplicably lumpy, or when an écorché-correct drawing still fails to reproduce the living surface.
   when_not_to_use: Do not invent a hidden cause merely to justify an arbitrary bump. Confirm the underlying anatomy and pose, and remember that fat, fascia, skin, compression, and viewpoint can also create or suppress relief.
@@ -51,9 +43,6 @@ variants:
 - variant_id: VAR_bammes_group_muscles_by_joint_axis_and_pull_direction
   variant_name: Group Muscles by Joint Axis and Pull Direction
   variant_basis: method_sequence
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
-  source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
-  locator: u04, printed pp. 103-120
   difference_from_foundation: 'Adds Bammes''s functional grouping step to anatomy design: infer what a muscle or muscle family is doing from its position relative to the relevant joint axis and its line of pull, then consolidate individual muscles into larger architectural mass groups that correspond to the living figure. Use cross-sections to check how those grouped masses meet and change plane around the limb.'
   when_to_use: Use when anatomical names and attachments are known but the leg still reads like a labeled écorché, or when it is unclear which anatomical structures should dominate the visible mass in a particular action.
   when_not_to_use: Do not collapse distinct tendons, bony landmarks, or visibly separated muscles into one generic sausage merely because they share a broad function; group only as far as the actual view and surface form support.
@@ -61,9 +50,6 @@ variants:
 - variant_id: VAR_bammes_deform_torso_wall_by_compression_and_stretch
   variant_name: Deform the Torso Wall by Compression and Stretch
   variant_basis: method_sequence
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
-  source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
-  locator: u05, printed pp. 140-153
   difference_from_foundation: 'Adds Bammes''s explicit soft-wall consequences to active/passive anatomy: the muscular/skin wall bridging rib cage and pelvis does not merely shorten or lengthen. Compression can increase local apparent volume and produce folds transverse to the shortening direction; stretch thins the soft forms and can expose the skeletal cores more sharply; torsion redirects the wall into diagonal/helical tension paths.'
   when_to_use: Use when bending, twisting, extending, or side-bending the torso and the abdominal/flank surface still looks like an undeformed anatomy chart pasted between rib cage and pelvis.
   when_not_to_use: Do not manufacture identical folds or thinning on every body. Skin thickness, body fat, muscle development, age, pose, viewpoint, and individual anatomy determine which effects are visible.
@@ -71,9 +57,6 @@ variants:
 - variant_id: VAR_bammes_offset_upper_and_forearm_mass_dimensions
   variant_name: Offset Upper-Arm Depth Against Forearm Width
   variant_basis: method_sequence
-  source_id: gottfried_bammes_wir_zeichnen_den_menschen
-  source_title: 'Wir zeichnen den Menschen: Eine Grundlegung'
-  locator: u06, printed pp. 176-181
   difference_from_foundation: 'Adds Bammes''s cross-sectional arm architecture to functional muscle grouping: the upper-arm flexor/extensor groups are stacked mainly front-to-back around the elbow axis, giving the upper arm relatively greater depth and less side-to-side spread, while the forearm wrist/finger groups spread more strongly across the width. The muscle volumes also taper away before the wrist so the underlying four-sided skeletal structure can become more legible distally.'
   when_to_use: Use when an anatomically labeled arm still reads as one uniform sausage, when upper arm and forearm have the same cross-sectional character, or when distal muscle bulk smothers the wrist structure.
   when_not_to_use: Do not force a fixed front/back versus side/side silhouette after the arm rotates in space; use the relationship as internal mass architecture and let viewpoint, pronation/supination, body type, and action determine the visible projection.
@@ -81,9 +64,6 @@ variants:
 - variant_id: VAR_zarins_layer_subcutaneous_fat_as_regional_surface_volume
   variant_name: Layer Subcutaneous Fat as Regional Surface Volume
   variant_basis: method_sequence
-  source_id: uldis_zarins_anatomy_for_sculptors
-  source_title: 'Anatomy for Sculptors: Understanding the Human Figure'
-  locator: u02, physical pp. 55-63
   difference_from_foundation: 'Adds a distinct soft-tissue layer above bone and muscle: model subcutaneous fat as regional pads that selectively expand, smooth, bridge, or mask the underlying anatomy instead of uniformly scaling the body outward. Zarins maps recurring torso/hip/thigh pads, shows some landmarks becoming less pronounced as a pad thickens, and contrasts those regions with areas less affected by fat accumulation.'
   when_to_use: Use when a body should read as soft, high-body-fat, sex/body-type-specific, or simply more alive than an écorché; especially when correct muscle placement still leaves the surface too cut, dry, or uniformly inflated.
   when_not_to_use: Do not treat the source's male/female pad maps as fixed diagnostic templates for every person. Individual genetics, age, hormones, movement, compression, and total body composition change the distribution and visibility; preserve the skeleton and parent masses underneath.
@@ -91,9 +71,6 @@ variants:
 - variant_id: VAR_zarins_deform_expression_over_fixed_skull_landmarks
   variant_name: Deform Expression Over Fixed Skull Landmarks
   variant_basis: method_sequence
-  source_id: uldis_zarins_anatomy_for_sculptors
-  source_title: 'Anatomy for Sculptors: Understanding the Human Figure'
-  locator: u04, physical pp. 104-126 and 132-140
   difference_from_foundation: 'Adds Zarins''s sculptural expression constraint to surface-anatomy design: facial muscles pull, squeeze, bunch, and stretch the movable soft tissues around a skull whose bony landmarks and hard framework remain structurally fixed. Preserve the orbit rims, zygomatic support, mandible, and other stable skeletal anchors while allowing eyelids, lips, cheeks, mouth-corner node, platysma, and wrinkle fields to deform around them.'
   when_to_use: Use when an expression is becoming a collection of symbolic feature changes or when the entire face seems to melt, resize, or lose its underlying head structure as emotion increases.
   when_not_to_use: 'Do not keep all surface landmarks rigid: the jaw can articulate, the eyeballs rotate, cartilage and soft tissue deform, and skin/fat shift substantially. ''Fixed skull'' means preserve the rigid bony framework as the reference beneath expression, not freeze every visible point on the face.'
@@ -101,9 +78,6 @@ variants:
 - variant_id: VAR_zarins_model_posterior_knee_as_pose_dependent_layered_surface
   variant_name: Model the Posterior Knee as a Pose-Dependent Layered Surface
   variant_basis: method_sequence
-  source_id: uldis_zarins_anatomy_for_sculptors
-  source_title: 'Anatomy for Sculptors: Understanding the Human Figure'
-  locator: u06, physical p. 205
   difference_from_foundation: 'Adds Zarins''s back-of-knee correction to layered surface anatomy: the popliteal region is not a permanent concave pit. In a straight leg, a popliteal fat pad and the underlying posterior structures can make the area read comparatively full or even project outward; as the knee flexes, the popliteal fossa deepens and the hamstring/calf borders separate more clearly. Draw the visible posterior-knee surface from the present pose and tissue layers rather than copying the hollow of an écorché.'
   when_to_use: Use when the back of a straight knee has been carved into an automatic hole, or when a bent knee lacks the increasing separation/depression expected between thigh and calf masses.
   when_not_to_use: Do not force a bulge on every extended knee or a deep diamond on every flexed knee. Fat thickness, muscle development, flexion amount, lighting, and viewpoint control how strongly the layered event appears.
@@ -111,9 +85,6 @@ variants:
 - variant_id: VAR_loomis_rotate_facial_muscle_map_with_head_construction
   variant_name: Rotate the Facial Muscle Map With the Head Construction
   variant_basis: method_sequence
-  source_id: andrew_loomis_drawing_the_head_and_hands
-  source_title: Drawing the Head and Hands
-  locator: u02, physical pp. 42-44
   difference_from_foundation: 'Adds Loomis''s compact transfer step after learning facial muscle locations and actions: tip and turn the already-constructed head, then place the facial and neck muscle groups inside that same turned structure, balancing paired groups around the facial middle line instead of recalling the anatomy as a fixed front-view chart.'
   when_to_use: Use when facial anatomy is known in isolation but collapses, mirrors incorrectly, or floats off the skull as soon as the head turns or tilts.
   when_not_to_use: Do not turn the finished face into an écorché or force every named muscle to be visible. The exercise is for relocating functional anatomy in perspective; the living surface still controls what is actually seen.
@@ -121,9 +92,6 @@ variants:
 - variant_id: VAR_loomis_age_face_from_structural_forms_before_wrinkles
   variant_name: Age the Face From Structural Forms Before Wrinkles
   variant_basis: method_sequence
-  source_id: andrew_loomis_drawing_the_head_and_hands
-  source_title: Drawing the Head and Hands
-  locator: u02, physical pp. 55-56
   difference_from_foundation: 'Adds Loomis''s aging/detail hierarchy to facial surface anatomy: keep the same underlying head construction, first strengthen age-bearing changes in bony prominence and large soft-tissue behavior—cheek and jaw relief, sag around chin/jaw, under-eye fullness, thinner/inward lips, drooping upper lids/brows, and hairline change—then subordinate fine wrinkles. He distinguishes the larger structural creases between forms from the small network of surface wrinkles and recommends omitting most of the latter.'
   when_to_use: Use when an older face reads like a young head with wrinkle symbols drawn on top, or when fine facial lines are overpowering the larger forms that actually carry age and likeness.
   when_not_to_use: Do not make every older face equally gaunt, sagging, or lined, and do not add age cues that the subject or design does not support. Preserve individual structure and use fine wrinkles only where they materially help the read.
@@ -131,9 +99,6 @@ variants:
 - variant_id: VAR_hogarth_rank_head_anatomy_by_rigidity_and_surface_impact
   variant_name: Rank Head Anatomy by Rigidity and Surface Impact
   variant_basis: method_sequence
-  source_id: burne_hogarth_drawing_the_human_head
-  source_title: Drawing the Human Head
-  locator: u01, physical pp. 57-60
   difference_from_foundation: 'Adds Hogarth''s head-specific anatomy triage before surface description: distinguish rigid bony support, firmer cartilage, and flexible muscular tissue, then rank the muscular groups by how much visible form and movement they actually contribute. Jaw and mouth groups receive priority as large surface masses; eye/socket groups are secondary; superficial scalp/face groups are shown only where their action materially changes the living surface. Anatomy is selected for visual consequence rather than displayed as a complete chart.'
   when_to_use: Use when a head study is becoming an ecorche inventory, when too many equally weighted muscle marks obscure the major forms, or when expression lacks a clear distinction between fixed support and movable tissue.
   when_not_to_use: Do not assume a low-priority structure is never visible or infer motion solely from Hogarth's hierarchy. Pose, expression, age, body type, lighting, and individual anatomy can make normally subtle structures important; observation still decides what survives.
@@ -141,9 +106,6 @@ variants:
 - variant_id: VAR_hogarth_map_wrinkles_as_regional_flow_families
   variant_name: Map Facial Wrinkles as Regional Flow Families Before Local Lines
   variant_basis: method_sequence
-  source_id: burne_hogarth_drawing_the_human_head
-  source_title: Drawing the Human Head
-  locator: u03, physical pp. 84-92
   difference_from_foundation: 'Adds Hogarth''s pre-detail mapping pass for facial creases: before drawing individual wrinkles, group the visible routes into three broad regional flow families—a central/frontal family organized around the nose bridge, nose base, mouth, and chin; an oblique family moving from the inner eye/socket through brow, cheek, jaw, and neck; and a lateral family radiating from the outer eye and continuing around the ear, jaw, and side/back of the neck. Use the families as a directional scaffold so local marks belong to the head''s surface instead of becoming isolated symbols.'
   when_to_use: Use when a face is accumulating disconnected wrinkle marks, when a turned or aged head loses continuity between brow, cheek, jaw, and neck, or when you need a simple map for deciding which crease directions dominate before refinement.
   when_not_to_use: Do not force every face into three equally visible bands or treat Hogarth's routes as fixed anatomical tracks. Expression, age, skin thickness, fat, individual structure, viewpoint, and lighting can suppress, merge, redirect, or omit them; observed surface evidence overrides the scaffold.
@@ -151,9 +113,6 @@ variants:
 - variant_id: VAR_hogarth_classify_wrinkles_by_tension_pressure_sag_and_shrinkage
   variant_name: Classify Facial Wrinkles by Tension, Pressure, Sag, and Shrinkage
   variant_basis: method_sequence
-  source_id: burne_hogarth_drawing_the_human_head
-  source_title: Drawing the Human Head
-  locator: u03, physical pp. 93-94
   difference_from_foundation: 'Adds Hogarth''s cause-first wrinkle taxonomy to surface-anatomy design. Separate creases produced by active pull or stretch (tension) from folds produced by contraction, squeeze, or head/jaw compression (pressure), then distinguish both from age/material effects: loose tissue pulled downward by gravity (sag) and finer cross-grained or withered surface change associated with loss of tissue fullness/elasticity (shrinkage). Draw the cause and tissue behavior first; let the line pattern follow.'
   when_to_use: Use when wrinkles look decorative or interchangeable, when an expression needs believable local compression versus stretch, or when an older head needs surface cues that are not all explained by active facial muscle action.
   when_not_to_use: Do not diagnose a person's medical tissue state from appearance, and do not assume every crease fits one clean category. Hogarth's labels are drawing heuristics; real skin folds can have mixed causes and must be checked against the actual pose, expression, age, tissue, and reference.
@@ -161,9 +120,6 @@ variants:
 - variant_id: VAR_hogarth_layer_interacting_wrinkle_causes
   variant_name: Layer Interacting Wrinkle Causes Instead of Compartmentalizing Them
   variant_basis: emphasis
-  source_id: burne_hogarth_drawing_the_human_head
-  source_title: Drawing the Human Head
-  locator: u03, physical pp. 95-96
   difference_from_foundation: 'Adds Hogarth''s interaction pass after wrinkle routes and causes are identified: allow pressure, tension, sag, and shrinkage to coexist on one head, reinforce each other in one region, or oppose each other across adjacent regions. His examples pair brow pressure with mouth/cheek tension, neck/jaw pressure from a head thrust, forehead tension against downward neck sag, and simultaneous mouth tension with brow/nose pressure. The face is one deforming surface, not a set of isolated wrinkle compartments.'
   when_to_use: Use when one expression or pose produces several different tissue reactions at once, especially in older faces or forceful head/neck actions where a single wrinkle rule makes the result feel uniform and schematic.
   when_not_to_use: Do not add multiple wrinkle systems merely to make a face look complex. Keep only interactions supported by the visible action and tissue; if the large feature deformation is still unclear, solve that before layering crease causes.
@@ -171,9 +127,6 @@ variants:
 - variant_id: VAR_hogarth_verify_observed_expression_asymmetry_against_support_mass
   variant_name: Verify Observed Expression Asymmetry Against Its Support Mass
   variant_basis: method_sequence
-  source_id: burne_hogarth_drawing_the_human_head
-  source_title: Drawing the Human Head
-  locator: u06, physical p. 141
   difference_from_foundation: 'Adds Hogarth''s van der Weyden diagnostic for an apparently misplaced feature: before correcting an asymmetric mouth, eye, or cheek because it looks ''out of drawing,'' inspect the supporting dental/skull mass and the neighboring soft-tissue response. An unusual contour may be a truthful expression deformation when the support volume and surrounding tension explain it.'
   when_to_use: Use when reference-based expression or asymmetry looks suspicious enough that you are tempted to normalize it into a stock symmetrical face.
   when_not_to_use: Do not preserve every odd contour merely because it appears in reference. If the support mass, feature attachment, and surrounding deformation do not agree, treat the mismatch as a drawing or observation error and reconstruct it.
@@ -181,9 +134,6 @@ variants:
 - variant_id: VAR_hda_u05_lay_out_back_anatomy_with_m_scaffold
   variant_name: Lay Out Back Anatomy With an M Scaffold
   variant_basis: method_sequence
-  source_id: burne_hogarth_dynamic_anatomy
-  source_title: Dynamic Anatomy (Revised and Expanded)
-  locator: u05, printed p. 138 / scan p. 140
   difference_from_foundation: 'Adds Hogarth''s temporary placement map for a difficult back view: place a broad M across the back rib cage just below the shoulder level, let its outer arms identify the scapular-edge routes, use the deep inner V to locate the taper of trapezius, lay the latissimus masses beneath the outer arms toward that V, and let the lower erector/oblique groups descend and widen below it. The scaffold organizes large surface groups before individual anatomy is refined.'
   when_to_use: Use when a foreshortened, twisted, or extreme back view has a clear rib cage but the major back masses and scapular region keep drifting or becoming an undifferentiated anatomy map.
   when_not_to_use: Do not draw the M as a literal visible contour, force symmetrical scapulae, or preserve the mnemonic when the actual pose, overlap, body type, or reference gives clearer landmarks. It is a placement scaffold that should disappear into the finished anatomy.
@@ -191,9 +141,6 @@ variants:
 - variant_id: VAR_hda_u05_route_leg_anatomy_along_inner_bow
   variant_name: Route Leg Anatomy Along the Inner Bow
   variant_basis: method_sequence
-  source_id: burne_hogarth_dynamic_anatomy
-  source_title: Dynamic Anatomy (Revised and Expanded)
-  locator: u05, printed pp. 205-206 / scan pp. 207-208
   difference_from_foundation: 'Adds Hogarth''s long-route leg diagnostic before local muscle detail: trace a broad inner bow from the front of the hip through the sartorial channel, swing it around the inside of the knee, and continue it along the tibial channel toward the ankle. Use that continuous route to organize the major inside contour and to place adjoining thigh, knee, and lower-leg masses as one connected design rather than separate anatomy fragments.'
   when_to_use: Use when the inner leg contour breaks into unrelated bulges, when the sartorius/knee/tibial relationships are hard to coordinate, or when a long leg needs one continuous anatomical flow through several parent forms.
   when_not_to_use: Do not treat the bow as a literal anatomical seam or demand that it stay visibly continuous in every view. Foreshortening, rotation, body type, contact, and overlapping soft tissue can hide or redirect parts of the route; observed structure still controls the final contour.
@@ -201,9 +148,6 @@ variants:
 - variant_id: VAR_hultgren_model_pig_fullness_as_overhang_on_structural_core
   variant_name: Model Pig Fullness as Overhang on a Structural Core
   variant_basis: context
-  source_id: ken_hultgren_art_of_animal_drawing
-  source_title: The Art of Animal Drawing
-  locator: u13, physical p. 91; printed p. 89
   difference_from_foundation: 'Adds Hultgren''s pig-specific correction to layered surface form: a full pig should not become uniformly round. Keep the underlying body organization readable, then let fat and soft fullness hang over that core in localized overhangs so the contour can stay heavy without turning into one inflated oval.'
   when_to_use: Use when a domestic pig or pig-like animal is structurally blocked but the added fullness has made the torso balloon-like, featureless, or equally round on every side.
   when_not_to_use: Do not copy Hultgren's stylized fat folds as fixed anatomy or assume the same overhang pattern on every pig, age, breed, pose, or body condition; preserve only soft-tissue effects supported by the intended reference.

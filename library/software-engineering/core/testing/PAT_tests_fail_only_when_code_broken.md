@@ -21,13 +21,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_make_breakage_fail_compile_or_test
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u10, pp. 268-269
-  evidence_type: text
 confidence: high
 references: []
 variants: []

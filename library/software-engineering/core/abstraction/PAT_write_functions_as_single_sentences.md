@@ -21,22 +21,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_make_code_readable
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u02, pp. 30-32
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_classify_routine_cohesion_and_apply_the_matching_repair
   variant_name: Classify Routine Cohesion and Apply the Matching Repair
   variant_basis: method_sequence
-  source_id: code_complete_2e
-  source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
-  locator: u07, pp. 168-174
   difference_from_foundation: The foundation diagnoses an overloaded routine by reading it aloud as one sentence and splitting when the sentence is clunky. This variant replaces the single heuristic with a graded classification that names the failure and prescribes its specific repair. Functional cohesion, where the routine performs one operation and nothing else, is the target. Sequential - steps that share data and must run in order but do not add up to one job - splits into separate routines, with one free to call the other. Communicational - operations linked only by touching the same data, such as printing a report then reinitializing its data - splits, with the reinitialization moved next to where the data is created. Temporal - grouped because they happen at the same moment, such as Startup - is acceptable if it orchestrates calls rather than doing the work itself, and its name should describe the moment rather than list the steps. Procedural - ordered only because a screen asks for fields in that order - splits, and the callers usually change too. Logical, where a flag selects one of several unrelated operations, becomes separate routines instead of a flag, unless the routine is purely a dispatcher of calls, which is a legitimate event handler. Coincidental cohesion needs redesign rather than diagnosis.
   when_to_use: Use when a routine reads badly but the read-aloud test does not say what to do about it. Naming the cohesion type converts a vague sense of wrongness into a specific repair, which is the part the foundation leaves to judgment. Use it also to settle routine length, since McConnell's answer to how long a routine may be is to let cohesion, nesting depth, variable count and decision points decide rather than a line limit.
   when_not_to_use: Do not spend effort pinpointing a diagnosis for a routine with clearly bad cohesion - McConnell says outright that a rewrite beats a precise label there. Do not treat the terminology as the point; the classification is a thinking aid, and functional cohesion is nearly always achievable, so that is where attention belongs.

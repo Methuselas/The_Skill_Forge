@@ -38,13 +38,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_orient_thumb_by_opposition_and_rotation
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u22, printed pp. 92-94, Figure 99; physical pp. 90-92
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

@@ -23,22 +23,14 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_annotate_a_dependency_graph_over_code
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u05, pp. 84-90
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_run_the_seven_strategies_as_a_team_for_onboarding
   variant_name: Run the Seven Strategies Collaboratively to Onboard Someone
   variant_basis: context
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u13, pp. 216-218
   difference_from_foundation: The foundation runs the seven strategies as an individual reader, where each pass is work you do for yourself. This variant runs the same seven as a group with a newcomer present, and the team absorbs the expensive passes on their behalf — the point is to lower the newcomer's load so their working memory can go to the code rather than to orientation. Several strategies change hands entirely. Activating happens before the session, with the team reminding the newcomer of relevant concepts rather than the newcomer recalling them. Determining importance is done by team members naming what they think the key lines are, since someone with low knowledge of a system cannot separate core from peripheral. Inferring surfaces the undocumented domain rules the team holds tacitly, such as a shipment always containing at least one order.
   when_to_use: Use when bringing someone into an unfamiliar codebase, and note that the session is a comprehension activity — so the other four programming activities should be kept out of it. Pitch visualizing and questioning to the newcomer's stage, either supplying a diagram or asking them to draw one, and either asking questions they answer or inviting questions you answer.
   when_not_to_use: Do not run it with an absolute beginner who cannot yet trace code, since the strategies assume a working execution model. Also stop treating it as onboarding once the newcomer can lead the passes themselves — at that point the foundation's individual form is the cheaper tool.

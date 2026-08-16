@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_keep_tests_agnostic_to_implementation
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u10, pp. 269-274
-  evidence_type: text
 confidence: high
 target_skill: converting tests that verify internals into tests that verify behavior through the public API
 references: []

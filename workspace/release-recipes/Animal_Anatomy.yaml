@@ -8,4 +8,3 @@ modules:
 - art/drawing/composition
 
 runtime_profile: art
-deployment_profile: chatgpt_skill

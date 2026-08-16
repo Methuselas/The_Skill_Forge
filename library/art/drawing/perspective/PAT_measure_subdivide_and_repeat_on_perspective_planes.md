@@ -19,22 +19,14 @@ tags:
 - grid
 cross_links: []
 reference:
-  source_id: joseph_damelio_perspective_drawing_handbook
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
-  publish_date: 1964 / 2004
-  media_type: book
-  locator: u00, printed pp. 68-72
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_derive_arbitrary_measuring_point
   variant_name: Derive an Arbitrary Measuring Point
   variant_basis: method_sequence
-  source_id: gwen_white_perspective_guide
-  source_title: 'Perspective: A Guide for Artists, Architects and Designers'
-  locator: printed pp. 25-28
   difference_from_foundation: Adds an exact trigger-only construction for deriving a measuring point from station/view geometry when arbitrary true-distance transfer is required.
   when_to_use: Use when diagonal-center subdivision and simpler proportion transfer are not exact enough.
   when_not_to_use: Do not load the full measuring-point derivation for ordinary subdivision tasks.

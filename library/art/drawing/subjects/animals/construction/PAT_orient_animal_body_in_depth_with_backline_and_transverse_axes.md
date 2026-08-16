@@ -33,13 +33,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: DRILL_construct_foreshortened_animal_from_backline_cross_axes_and_core_masses
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u27, printed pp. 108-111, especially fig. 115; physical pp. 106-109
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

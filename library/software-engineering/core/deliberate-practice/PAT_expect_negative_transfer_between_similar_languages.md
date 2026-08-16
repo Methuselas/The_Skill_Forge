@@ -25,22 +25,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_guard_against_an_outdated_mental_model_under_load
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u07, pp. 115-116
-  evidence_type: text
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hermans_negative_transfer_in_implicit_memory
   variant_name: Negative Transfer That Lives in Your Fingers, Not Your Knowledge
   variant_basis: context
-  source_id: programmers_brain
-  source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
-  locator: u10, p. 166
   difference_from_foundation: The foundation concerns beliefs carried between languages, where the repair is to check the semantics you assumed. This variant covers the same interference operating in implicit memory, where there is no belief to correct — the knowledge is already right and the behaviour is still wrong. Correcting it therefore needs repetition rather than verification, because implicit memories are laid down by practice and cannot be edited by being told.
   when_to_use: Use when you keep producing the wrong form despite knowing the right one — typing curly brackets around Python blocks after years of Java or C#, or reaching for a keyword the new language does not have. Hermans's own case is the marker to recognise, still typing `foreach` instead of `for` years after moving from C# to Python, having drilled the syntax with flashcards.
   when_not_to_use: Do not apply it where you are genuinely unsure what the new language does, which is the foundation's case and wants checking rather than drilling. It also does not fit a one-off slip, since the defining feature here is a stable motor pattern that repeats.

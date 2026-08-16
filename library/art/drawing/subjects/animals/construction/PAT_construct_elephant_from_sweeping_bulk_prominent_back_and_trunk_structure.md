@@ -28,13 +28,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_design_surface_anatomy_as_microgesture_on_parent_forms
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u19, physical pp. 114-120; printed pp. 112-118
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

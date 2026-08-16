@@ -22,22 +22,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_route_viewer_attention_through_planned_visual_paths
 reference:
-  source_id: michael_mattesi_force_animal_drawing
   source_title: 'FORCE: Animal Drawing'
   author: Michael D. Mattesi
-  publish_date: Unknown
-  media_type: PDF
-  locator: u06, physical pp. 197-215
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_dodson_spend_observation_and_detail_by_focal_priority
   variant_name: Spend Observation and Detail by Focal Priority
   variant_basis: emphasis
-  source_id: bert_dodson_keys_to_drawing
-  source_title: Keys to Drawing
-  locator: u01, physical pp. 9-40
   difference_from_foundation: "Adds attention time and detail density as hierarchy controls: develop the most important regions while observation is sharp and abbreviate less important passages instead of rendering the whole sheet uniformly."
   when_to_use: Use when equal observation time or equal detail everywhere is flattening the focal hierarchy or exhausting concentration.
   when_not_to_use: Do not leave structurally essential secondary areas so incomplete that the subject no longer reads or the exercise's accuracy goal is undermined.

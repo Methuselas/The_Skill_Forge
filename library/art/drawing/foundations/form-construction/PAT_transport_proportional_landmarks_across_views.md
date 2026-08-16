@@ -24,22 +24,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_validate_foreshortened_limb_reach_from_joint_pivots
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: '1970'
-  media_type: book
-  evidence_type: mixed
-  locator: ch06, printed pp. 151-158
 confidence: high
 references: []
 variants:
 - variant_id: VAR_hogarth_reverse_projection_between_corresponding_views
   variant_name: Reverse Projection Between Corresponding Views
   variant_basis: method_sequence
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
-  source_title: Dynamic Figure Drawing
-  locator: ch06, printed pp. 156-158
   difference_from_foundation: Extends the clear-view transport method so correspondence can run backward or sideways between side, front, back, over, or under views when one orientation hides a needed relationship.
   when_to_use: Use when a target view compresses or conceals a relationship that becomes obvious in another corresponding view.
   when_not_to_use: Do not treat any one view as privileged or copy flattened contour; rebuild the recovered relationship as volume in the target camera.

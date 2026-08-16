@@ -27,22 +27,14 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_project_form_curves_from_camera_view
 reference:
-  source_id: michael_hampton_figure_drawing_design_and_invention
   source_title: 'Figure Drawing: Design and Invention'
   author: Michael Hampton
-  publish_date: '2009'
-  media_type: PDF
-  locator: u09, printed pp. 219-230
-  evidence_type: mixed
 confidence: high
 references: []
 variants:
 - variant_id: VAR_loomis_separate_garment_construction_from_body_driven_folds
   variant_name: Separate Garment Construction From Body-Driven Folds
   variant_basis: method_sequence
-  source_id: andrew_loomis_figure_drawing_for_all_its_worth
-  source_title: Figure Drawing for All It's Worth
-  locator: u12, printed pp. 189-194
   difference_from_foundation: 'Deepens Hampton''s causal drapery Pattern by separating two sources of cloth behavior: folds created by the underlying body and tension points, and folds or flatness created by the garment''s own cut, seams, darts, gathers, bias, pleats, and intended fit. Reconstruct the figure first, then interpret only the cloth events justified by either source.'
   when_to_use: Use when clothing looks generically wrinkled, when fitted garments ignore seam logic, or when loose cloth fails to react to the body beneath it.
   when_not_to_use: Do not turn costume drawing into tailoring notation or draw every seam/button; retain only garment-construction information that materially changes fit, drape, or silhouette.
@@ -50,9 +42,6 @@ variants:
 - variant_id: VAR_loomis_stage_costume_practice_from_isolated_figure_to_scene_context
   variant_name: Stage Costume Practice From Isolated Figure to Scene Context
   variant_basis: method_sequence
-  source_id: andrew_loomis_successful_drawing
-  source_title: Successful Drawing
-  locator: u09, physical PDF pp. 127-136
   difference_from_foundation: 'Uses problem-scope sequencing as a costume-study method: first suppress most environmental complexity and solve the clothed figure as body plus garment under one coherent light, then deliberately reintroduce room, furniture, accessories, and scene context so scale, perspective, occlusion, and environmental lighting are tested after the garment/body relationship is controllable.'
   when_to_use: Use when costume or drapery study is being overloaded by background, perspective, lighting, and environmental information before the garment/body relationship itself can be diagnosed reliably.
   when_not_to_use: Do not treat background suppression as a final-image rule; graduate back into scene context because environment can alter cast shadows, reflected light, occlusion, silhouette, scale, and composition.

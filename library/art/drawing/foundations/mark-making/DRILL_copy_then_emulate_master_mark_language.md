@@ -22,13 +22,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_alternate_free_search_and_controlled_refinement
 reference:
-  source_id: bert_dodson_keys_to_drawing
   source_title: Keys to Drawing
   author: Bert Dodson
-  publish_date: 1985
-  media_type: PDF
-  locator: u02, physical pp. 41-70
-  evidence_type: mixed
 confidence: high
 target_skill: recognizing how a particular artist's stroke length, pressure, pace, connection, and rhythm create a transferable mark-making system
 references: []

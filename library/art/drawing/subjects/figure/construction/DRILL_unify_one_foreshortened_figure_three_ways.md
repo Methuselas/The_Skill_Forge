@@ -27,13 +27,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_consolidate_resolved_form_with_tone
 reference:
-  source_id: burne_hogarth_dynamic_figure_drawing_ocr
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
-  publish_date: 1970
-  media_type: book
-  locator: ch03, printed pp. 68-104
-  evidence_type: mixed
 confidence: high
 target_skill: choosing the least intrusive combination of interconnection, contour, and tone that preserves figure unity
 references: []

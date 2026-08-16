@@ -23,13 +23,8 @@ cross_links:
 - rel: related_to
   target_object_id: DRILL_audit_cognitive_processes_while_reading_code
 reference:
-  source_id: programmers_brain
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans
-  publish_date: 2021
-  media_type: PDF
-  locator: u01, pp. 4-7
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

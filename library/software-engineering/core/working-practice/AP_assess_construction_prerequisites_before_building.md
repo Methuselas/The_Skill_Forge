@@ -26,13 +26,8 @@ cross_links:
 - rel: prerequisite_for
   target_object_id: PAT_state_the_problem_before_the_solution
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u03, pp. 24-25, 36-43, 55-56
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

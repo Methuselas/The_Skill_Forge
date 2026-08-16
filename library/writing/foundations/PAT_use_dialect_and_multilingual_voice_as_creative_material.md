@@ -18,13 +18,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_break_language_conventions_with_control
 reference:
-  source_id: david_starkey_creative_writing_four_genres_in_brief_3e
   source_title: 'Creative Writing: Four Genres in Brief, Third Edition'
   author: David Starkey
-  publish_date: '2017'
-  media_type: PDF
-  locator: u003, physical p. 34
-  evidence_type: text
 confidence: high
 references: []
 variants: []

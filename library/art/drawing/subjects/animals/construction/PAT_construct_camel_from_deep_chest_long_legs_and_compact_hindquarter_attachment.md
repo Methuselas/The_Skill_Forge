@@ -27,13 +27,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_compare_related_animal_types_with_proportion_boxes
 reference:
-  source_id: ken_hultgren_art_of_animal_drawing
   source_title: The Art of Animal Drawing
   author: Ken Hultgren
-  publish_date: Unknown
-  media_type: book
-  locator: u11, physical pp. 86-87; printed pp. 84-85
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

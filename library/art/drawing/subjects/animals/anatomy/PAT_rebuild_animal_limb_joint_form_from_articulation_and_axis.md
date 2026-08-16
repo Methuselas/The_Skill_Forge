@@ -33,13 +33,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_construct_specialized_runner_foreleg_from_mobile_scapula_and_hinge_chain
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: PDF
-  locator: u16, printed p. 68; physical p. 66; comparative confirmation in u13, printed p. 51
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

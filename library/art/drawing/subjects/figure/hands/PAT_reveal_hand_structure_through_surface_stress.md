@@ -25,13 +25,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_carry_form_flow_through_joint_transitions
 reference:
-  source_id: burne_hogarth_drawing_dynamic_hands
   source_title: Drawing Dynamic Hands
   author: Burne Hogarth
-  publish_date: '1977'
-  media_type: book
-  locator: ch04, printed pp. 52-63
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []

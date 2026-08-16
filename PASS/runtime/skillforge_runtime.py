@@ -254,10 +254,6 @@ def resolve_task(
             "pre_production": [item for item in pre if item["package"] == "metaskills"],
             "post_production": [item for item in post if item["package"] == "metaskills"],
         },
-        "teaching": {
-            "pre_production": [item for item in pre if item["package"] == "teaching"],
-            "post_production": [item for item in post if item["package"] == "teaching"],
-        },
         "risk_checks": risks,
         "completion_gate": completion_gate,
     }

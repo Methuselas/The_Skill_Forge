@@ -21,13 +21,8 @@ cross_links:
 - rel: teaches
   target_object_id: PAT_prefer_fakes_over_mocks_and_stubs
 reference:
-  source_id: gcbc_think_like_swe
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
-  publish_date: 2021
-  media_type: PDF
-  locator: u10, pp. 288-294
-  evidence_type: text
 confidence: high
 target_skill: swapping a mock-based test for a fake-based one to catch realism bugs and decouple from internals
 references: []

@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_judge_an_architecture_before_building_on_it
 reference:
-  source_id: code_complete_2e
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
-  publish_date: 2004
-  media_type: PDF
-  locator: u03, pp. 49-50
-  evidence_type: text
 confidence: high
 references: []
 variants: []

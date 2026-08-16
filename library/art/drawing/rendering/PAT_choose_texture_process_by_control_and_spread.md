@@ -24,13 +24,8 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_control_brush_ink_tone_with_moisture_and_pressure
 reference:
-  source_id: gottfried_bammes_artist_guide_to_animal_anatomy
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
-  publish_date: '2004'
-  media_type: book
-  locator: u05, printed pp. 17-22
-  evidence_type: mixed
 confidence: high
 references: []
 variants: []
