@@ -75,6 +75,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Study a Carnivore Foreleg Across Views and Rotation Axes](DRILL_study_carnivore_foreleg_across_views_and_rotation_axes.md) - drill; 1 skeleton.
   - Variants: `Cycle Carnivore Foreleg From Life Observation to Home Reconstruction` (method_sequence).
 - [Taper Mammal Limb Mass From Proximal Muscle to Distal Tendon](PAT_taper_mammal_limb_mass_from_proximal_muscle_to_distal_tendon.md) - pattern; 2 block.
-  - Variants: `Keep the Carnivore Forearm More Muscular for Paw Control` (context).
 - [Trace the Animal Vertebral Axis Before Contour](DRILL_trace_animal_vertebral_axis_before_contour.md) - drill; 1 skeleton.
   - Variants: `Internalize a Profile Backline With Unbroken Contour and Memory` (method_sequence).

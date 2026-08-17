@@ -3,10 +3,10 @@ object_id: PAT_treat_brief_as_fixed_requirements_plus_open_design_space
 object_type: pattern
 name: Treat a Brief as Fixed Requirements plus Open Design Space
 library_path:
-- art
-- drawing
-- foundations
-- ideation
+  - art
+  - drawing
+  - foundations
+  - ideation
 stage_binding: 0 design
 lane_fit: both
 foundation_role: foundation
@@ -14,30 +14,22 @@ routing_class: general
 specialization_axis: none
 foundation_object_id: none
 tags:
-- brief
-- commissioned_art
-- constraints
-- ideation
-- art_direction
+  - brief
+  - commissioned_art
+  - constraints
+  - ideation
+  - art_direction
 cross_links:
-- rel: related_to
-  target_object_id: PAT_define_image_story_job_before_visualizing
-- rel: related_to
-  target_object_id: AP_generate_visual_concepts_from_purpose_driven_questionnaire
+  - rel: related_to
+    target_object_id: PAT_define_image_story_job_before_visualizing
+  - rel: related_to
+    target_object_id: AP_generate_visual_concepts_from_purpose_driven_questionnaire
 reference:
   source_title: Creative Illustration
   author: Andrew Loomis
 confidence: high
 references: []
-variants:
-- variant_id: VAR_loomis_negotiate_assignment_direction_without_surrendering_or_ignoring_the_brief
-  variant_name: Negotiate Assignment Direction Without Surrendering or Ignoring the Brief
-  variant_basis: context
-  difference_from_foundation: >-
-    Adds a negotiation route for art direction that conflicts with the artist's preferred pictorial solution: identify the reason behind the direction first, preserve any genuine communication, production, or client constraint, and propose a stronger alternative only when the requested staging or treatment is itself negotiable.
-  when_to_use: Use when an art director, editor, client, or collaborator requests a visual solution that seems weaker than another approach but may be serving a legitimate underlying requirement.
-  when_not_to_use: Do not use this as permission to resist fixed requirements, and do not surrender judgment by treating every suggested pose, camera, staging, or treatment as immovable without first understanding why it was requested.
-  absorbed_from_object_id: none
+variants: []
 ---
 
 # Treat a Brief as Fixed Requirements plus Open Design Space
@@ -75,4 +67,3 @@ variants:
 - Any changed requirement is made explicit before substantial additional work begins.
 
 ## Notes
-Loomis's advertising discussion distinguishes the assignment from the illustrator's remaining freedom. The durable lesson is constraint parsing: understand what the job truly requires, then recognize how much camera, staging, composition, and treatment may still be yours to solve. Good commissioned work is neither blind obedience nor disregard of the brief. `VAR_loomis_negotiate_assignment_direction_without_surrendering_or_ignoring_the_brief` adds Loomis's middle route for disagreement with art direction: understand why the instruction exists, preserve legitimate constraints, and negotiate changeable visual choices with concrete pictorial reasoning. His closing query material adds a revision-stage distinction: correcting work that failed an agreed requirement is different from changing the requirement itself, and the latter should be recognized explicitly before substantial rework.

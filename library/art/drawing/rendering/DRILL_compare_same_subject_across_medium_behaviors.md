@@ -3,9 +3,9 @@ object_id: DRILL_compare_same_subject_across_medium_behaviors
 object_type: drill
 name: Compare the Same Subject Across Medium Behaviors
 library_path:
-- art
-- drawing
-- rendering
+  - art
+  - drawing
+  - rendering
 stage_binding: 4 final
 lane_fit: teach
 foundation_role: foundation
@@ -13,30 +13,23 @@ routing_class: general
 specialization_axis: none
 foundation_object_id: none
 tags:
-- drawing
-- medium_experiment
-- mark_making
-- rendering
-- comparison
+  - drawing
+  - medium_experiment
+  - mark_making
+  - rendering
+  - comparison
 cross_links:
-- rel: supports
-  target_object_id: PAT_render_material_from_optical_response
-- rel: supports
-  target_object_id: PAT_choose_texture_process_by_control_and_spread
+  - rel: supports
+    target_object_id: PAT_render_material_from_optical_response
+  - rel: supports
+    target_object_id: PAT_choose_texture_process_by_control_and_spread
 reference:
   source_title: The Artist's Guide to Animal Anatomy
   author: Gottfried Bammes
 confidence: high
 references: []
-variants:
-- variant_id: VAR_dodson_compare_medium_behavior_on_same_subject
-  variant_name: Compare Medium Behavior on the Same Subject
-  variant_basis: context
-  difference_from_foundation: Generalizes the exercise beyond animal surface rendering by keeping one subject fixed while different drawing media reveal distinct handwriting, pressure, edge, and value behaviors.
-  when_to_use: Use when medium choice is habitual or when a technique is being forced onto a subject instead of selected for its natural behavior.
-  when_not_to_use: Do not change subject, viewpoint, and construction between samples so radically that the media can no longer be compared.
-  absorbed_from_object_id: none
 target_skill: selecting a drawing medium by how its native edge, spread, pressure, and broken-mark behavior serves the subject
+variants: []
 ---
 
 # Compare the Same Subject Across Medium Behaviors
@@ -73,4 +66,3 @@ Choose one compact subject and hold its construction, viewpoint, and lighting co
 - Making a detailed underdrawing in another medium that dictates the final marks before the chosen texture process has a chance to act.
 
 ## Notes
-Bammes originally grounds this exercise in animal coat and skin studies. Dodson independently generalizes the decision: repeat the same subject through different media so the hand experiences each tool’s native behavior rather than treating medium as a neutral carrier. The animal body-cover route remains a useful specialization inside this broader drill. `VAR_dodson_compare_medium_behavior_on_same_subject` makes the comparison explicitly subject-general and focuses on what each medium does naturally in the hand.

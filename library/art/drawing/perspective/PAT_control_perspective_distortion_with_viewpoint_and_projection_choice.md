@@ -3,9 +3,9 @@ object_id: PAT_control_perspective_distortion_with_viewpoint_and_projection_choi
 object_type: pattern
 name: Control Perspective Distortion With Viewpoint and Projection Choice
 library_path:
-- art
-- drawing
-- perspective
+  - art
+  - drawing
+  - perspective
 stage_binding: 0 design
 lane_fit: both
 foundation_role: foundation
@@ -13,47 +13,46 @@ routing_class: general
 specialization_axis: none
 foundation_object_id: none
 tags:
-- perspective
-- distortion
-- viewpoint
-- projection
+  - perspective
+  - distortion
+  - viewpoint
+  - projection
 cross_links:
-- rel: related_to
-  target_object_id: PAT_validate_three_point_viewpoint_geometry
+  - rel: related_to
+    target_object_id: PAT_validate_three_point_viewpoint_geometry
 reference:
   source_title: 'Viewpoints: Mathematical Perspective and Fractal Geometry in Art'
   author: Marc Frantz and Annalisa Crannell
 confidence: high
 references: []
 variants:
-- variant_id: VAR_rectilinear_viewpoint_match
-  variant_name: Rectilinear Viewpoint Match
-  variant_basis: method_sequence
-  difference_from_foundation: Recover or derive the viewing target and viewing distance before changing local objects. Reframe, crop, move the station point, spread vanishing points consistently, enlarge the support, or cluster important content nearer the viewing target.
-  when_to_use: The intended image is a conventional flat-plane perspective and apparent distortion may be caused by viewing or framing mismatch.
-  when_not_to_use: Do not use this as a substitute for correcting an actually inconsistent perspective construction; first distinguish construction error from viewing/framing mismatch.
-  absorbed_from_object_id: none
-- variant_id: VAR_extreme_field_projection_swap
-  variant_name: Extreme-Field Projection Swap
-  variant_basis: method_sequence
-  difference_from_foundation: Consider a curvilinear or spherical projection rather than forcing one rectilinear grid to carry the entire field. Preserve the same scene directions and viewpoint logic while changing the projection surface/model.
-  when_to_use: One compact image must cover a close, very tall, very wide, or near-immersive field that would demand an impractically close station point or very large flat support.
-  when_not_to_use: Do not switch projection models for an ordinary field that a practical rectilinear viewpoint can carry cleanly.
-  absorbed_from_object_id: none
-- variant_id: VAR_reframe_before_local_repair
-  variant_name: Reframe Before Local Perspective Repair
-  variant_basis: method_sequence
-  difference_from_foundation: 'Adds the composition-level rollback: when one fixed rectilinear view stretches badly at the edges, change the view, crop, or choose another projection globally instead of repairing objects locally.'
-  when_to_use: Use when a coherent construction still produces an unusably wide view.
-  when_not_to_use: Do not split one planar perspective into several casual eye positions.
-  absorbed_from_object_id: none
-- variant_id: VAR_one_look_edge_distortion_diagnostic
-  variant_name: Use the One-Look Edge Diagnostic
-  variant_basis: method_sequence
-  difference_from_foundation: 'Adds a quick production check: compare a major form near the frame edge with equivalent forms nearer the center; conspicuous edge stretch is a signal to move/reframe/crop before local correction.'
-  when_to_use: Use for fast diagnosis before invoking exact station geometry.
-  when_not_to_use: Do not promote Gill's fixed 60-degree cone as universal project law.
-  absorbed_from_object_id: none
+  - variant_id: VAR_rectilinear_viewpoint_match
+    variant_name: Rectilinear Viewpoint Match
+    variant_basis: method_sequence
+    difference_from_foundation: Recover or derive the viewing target and viewing distance before changing local objects. Reframe, crop, move
+      the station point, spread vanishing points consistently, enlarge the support, or cluster important content nearer the viewing target.
+    when_to_use: The intended image is a conventional flat-plane perspective and apparent distortion may be caused by viewing or framing 
+      mismatch.
+    when_not_to_use: Do not use this as a substitute for correcting an actually inconsistent perspective construction; first distinguish 
+      construction error from viewing/framing mismatch.
+    absorbed_from_object_id: none
+  - variant_id: VAR_extreme_field_projection_swap
+    variant_name: Extreme-Field Projection Swap
+    variant_basis: method_sequence
+    difference_from_foundation: Consider a curvilinear or spherical projection rather than forcing one rectilinear grid to carry the entire 
+      field. Preserve the same scene directions and viewpoint logic while changing the projection surface/model.
+    when_to_use: One compact image must cover a close, very tall, very wide, or near-immersive field that would demand an impractically 
+      close station point or very large flat support.
+    when_not_to_use: Do not switch projection models for an ordinary field that a practical rectilinear viewpoint can carry cleanly.
+    absorbed_from_object_id: none
+  - variant_id: VAR_one_look_edge_distortion_diagnostic
+    variant_name: Use the One-Look Edge Diagnostic
+    variant_basis: method_sequence
+    difference_from_foundation: 'Adds a quick production check: compare a major form near the frame edge with equivalent forms nearer the center;
+      conspicuous edge stretch is a signal to move/reframe/crop before local correction.'
+    when_to_use: Use for fast diagnosis before invoking exact station geometry.
+    when_not_to_use: Do not promote Gill's fixed 60-degree cone as universal project law.
+    absorbed_from_object_id: none
 ---
 
 # Control Perspective Distortion With Viewpoint and Projection Choice
@@ -87,4 +86,8 @@ variants:
 ## Notes
 This Pattern supersedes the earlier D'Amelio VP-spacing-only card. *Viewpoints* resolves the key ambiguity: rectilinear perspective can remain geometrically exact at an extreme field, but only from its implied station point and support geometry. Practical distortion control therefore depends on the intended viewer/display as well as the vanishing geometry. Spherical/curvilinear projection is a deliberate alternate model for compact extreme fields, not a local correction applied after the fact.
 
-Variants retained in this canonical object: `VAR_rectilinear_viewpoint_match`, `VAR_extreme_field_projection_swap`, `VAR_reframe_before_local_repair`, `VAR_one_look_edge_distortion_diagnostic`.
+`VAR_rectilinear_viewpoint_match` remains a bounded variant under the conditions recorded in its variant metadata.
+
+`VAR_extreme_field_projection_swap` remains a bounded variant under the conditions recorded in its variant metadata.
+
+`VAR_one_look_edge_distortion_diagnostic` remains a bounded variant under the conditions recorded in its variant metadata.

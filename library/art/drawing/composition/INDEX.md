@@ -41,7 +41,7 @@
 - [Reduce Master Compositions to Two-Value Mass Maps](DRILL_reduce_master_compositions_to_two_value_mass_maps.md) - drill; 0 design.
   - Variants: `Map Relief Through Two-Value Shadow Shapes` (medium).
 - [Repeat With Variation to Balance Coherence and Interest](PAT_repeat_with_variation_to_balance_coherence_and_interest.md) - pattern; 0 design.
-  - Variants: `Unify Disparate Elements With a Shared Texture Stroke` (emphasis); `Vary Panel Scale and Viewpoint Across a Sequence` (emphasis); `Audit the Secondary Pattern Created by Repeated Negative Spaces` (emphasis); `Differentiate Repeated Zones Through Value Polarity or Motif Scale` (method_sequence).
+  - Variants: `Unify Disparate Elements With a Shared Texture Stroke` (emphasis); `Vary Panel Scale and Viewpoint Across a Sequence` (emphasis); `Differentiate Repeated Zones Through Value Polarity or Motif Scale` (method_sequence).
 - [Resolve Unintended Tangencies With Overlap or Separation](PAT_resolve_unintended_tangencies_with_overlap_or_separation.md) - pattern; 0 design.
 - [Route Group Composition Through Directional Paths and Accents](PAT_route_group_composition_through_directional_paths_and_accents.md) - pattern; 0 design.
 - [Route Viewer Attention Through Planned Visual Paths](PAT_route_viewer_attention_through_planned_visual_paths.md) - pattern; 0 design.

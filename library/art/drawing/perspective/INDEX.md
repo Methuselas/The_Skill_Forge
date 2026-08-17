@@ -17,15 +17,15 @@
 - [Choose Convergence From View and Object Orientation](PAT_choose_convergence_from_view_and_orientation.md) - pattern; 1 skeleton.
   - Variants: `Derive Coupled Vanishing Points With Visual Rays` (method_sequence).
 - [Construct a Shared Scene Perspective Field](AP_construct_a_shared_scene_perspective_field.md) - ap; 0 design.
-  - Variants: `Lock POV and Large Volumes With a Minimal Underlay` (method_sequence); `Hand Off the Solved Scene to a Rendered Depth Grade` (method_sequence); `Calibrate the Shared Scene From a Trusted Figure` (method_sequence).
+  - Variants: `Lock POV and Large Volumes With a Minimal Underlay` (method_sequence); `Calibrate the Shared Scene From a Trusted Figure` (method_sequence).
 - [Construct Cast Shadows in Perspective](AP_construct_cast_shadows_in_perspective.md) - ap; 4 final.
-  - Variants: `Reconstruct Shadows Across Changing Receivers` (method_sequence); `Link Cast Shadow to Terminator and Depth Grade` (method_sequence).
+  - Variants: `Reconstruct Shadows Across Changing Receivers` (method_sequence).
 - [Construct Circles as Ellipses on Perspective Planes](PAT_construct_circles_as_ellipses_on_perspective_planes.md) - pattern; 2 block.
 - [Construct Inclined Planes From Base Vanishing Directions](PAT_construct_inclined_planes_from_base_vanishing_directions.md) - pattern; 2 block.
   - Variants: `Use a Slope Auxiliary Vanishing Direction` (method_sequence).
 - [Construct Reflections Across Arbitrary Planar Mirrors](PAT_construct_reflections_across_arbitrary_planes.md) - pattern; 3 rough.
 - [Control Perspective Distortion With Viewpoint and Projection Choice](PAT_control_perspective_distortion_with_viewpoint_and_projection_choice.md) - pattern; 0 design.
-  - Variants: `Rectilinear Viewpoint Match` (method_sequence); `Extreme-Field Projection Swap` (method_sequence); `Reframe Before Local Perspective Repair` (method_sequence); `Use the One-Look Edge Diagnostic` (method_sequence).
+  - Variants: `Rectilinear Viewpoint Match` (method_sequence); `Extreme-Field Projection Swap` (method_sequence); `Use the One-Look Edge Diagnostic` (method_sequence).
 - [Diagnose and Correct Perspective Distortion](DRILL_diagnose_and_correct_perspective_distortion.md) - drill; 2 block.
 - [Establish Eye Level and Vanishing Directions](PAT_establish_eye_level_and_vanishing_directions.md) - pattern; 0 design.
   - Variants: `Use a High-Water Eye-Level Diagnostic` (method_sequence); `Use Exact Camera/Viewfield Geometry` (method_sequence); `Estimate Off-Page Vanishing Pull for Freehand Sketching` (method_sequence).

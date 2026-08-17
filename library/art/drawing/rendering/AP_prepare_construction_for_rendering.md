@@ -3,9 +3,9 @@ object_id: AP_prepare_construction_for_rendering
 object_type: ap
 name: Prepare a Construction Drawing for Rendering
 library_path:
-- art
-- drawing
-- rendering
+  - art
+  - drawing
+  - rendering
 stage_binding: 4 final
 lane_fit: both
 foundation_role: specialization
@@ -13,33 +13,21 @@ routing_class: specialized
 specialization_axis: method
 foundation_object_id: none
 tags:
-- rendering
-- lighting
-- shade
-- shadow
+  - rendering
+  - lighting
+  - shade
+  - shadow
 cross_links:
-- rel: supports
-  target_object_id: AP_construct_cast_shadows_in_perspective
-- rel: supports
-  target_object_id: PAT_consolidate_resolved_form_with_tone
+  - rel: supports
+    target_object_id: AP_construct_cast_shadows_in_perspective
+  - rel: supports
+    target_object_id: PAT_consolidate_resolved_form_with_tone
 reference:
   source_title: 'Basic Rendering: Effective Drawing for Designers, Artists and Illustrators'
   author: Robert W. Gill
 confidence: high
 references: []
-variants:
-- variant_id: VAR_dodson_analyze_dominant_light_direction_and_quality
-  variant_name: Analyze Dominant Light Direction and Quality
-  variant_basis: method_sequence
-  difference_from_foundation: Extends the pre-render light check beyond direction
-    to the character of the dominant illumination—direct, diffuse, backlit, underlit,
-    or similarly distinctive—because source quality changes shadow pattern, edge character,
-    and modeling strength.
-  when_to_use: Use before rendering when the scene light is ambiguous or when light
-    quality is a major part of the form or mood read.
-  when_not_to_use: Do not pretend a genuinely complex multi-light scene has only one
-    source; simplify around a dominant light only when that helps analysis or design.
-  absorbed_from_object_id: none
+variants: []
 ---
 
 # Prepare a Construction Drawing for Rendering
@@ -58,4 +46,3 @@ Convert a structurally solved drawing into a clean, light-aware rendering base b
 8. **Begin rendering only now.** Introduce values and material response on top of this clean base, preserving the perspective and lighting commitments beneath it.
 
 ## Notes
-Gill's strongest contribution here is procedural separation: construction, light direction, cast-shadow geometry, and light/shade regions are solved before finish work. His exact “basic tonal pattern” is more conditional than the book sometimes implies, so this AP does not hard-code one universal ranking of top plane, side plane, shade, and shadow values. `VAR_dodson_analyze_dominant_light_direction_and_quality` adds Dodson's observational check for the dominant source's character before modeling begins.

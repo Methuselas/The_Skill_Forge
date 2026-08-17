@@ -21,7 +21,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Choose Stage 1 Construction by Readability](PAT_choose_stage1_construction_by_readability.md) - pattern; 1 skeleton.
   - Variants: `Use Only Intentional Gesture Marks` (method_sequence); `Pose a Learned Mannikin Before Bulk` (method_sequence); `Analyze the Total Action Before Contour` (method_sequence).
 - [Commit Stage 3 Form Realization Against the Thumbnail](PAT_commit_stage3_form_realization.md) - pattern; 3 rough.
-  - Variants: `Stop Anatomy at the Surface-Form Threshold` (emphasis).
 - [Draw a Figure Through Onion-Skinned Stages](AP_draw_a_figure_through_onion_skinned_stages.md) - ap; 0 design.
   - Variants: `Move General to Specific One Problem at a Time` (method_sequence); `Expand Training Sequence, Then Compress With Experience` (method_sequence).
 - [Explore Stage 0 With a Thumbnail Set](PAT_explore_stage0_with_thumbnail_set.md) - pattern; 0 design.

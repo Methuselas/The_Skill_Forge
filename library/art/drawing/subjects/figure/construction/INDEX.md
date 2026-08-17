@@ -5,21 +5,19 @@
 ## Objects
 
 - [Attach the Legs Through the Pelvic Wedge](PAT_attach_legs_through_pelvic_wedge.md) - pattern; 2 block.
-  - Variants: `Route the Thigh From Deep Socket Through the Trochanter` (method_sequence).
 - [Block Connected Torso Masses Across Views](DRILL_block_connected_torso_masses_across_views.md) - drill; 2 block.
 - [Build Overlap Sequences From Complete and Partial Forms](DRILL_build_overlap_sequences_from_complete_and_partial_forms.md) - drill; 2 block.
 - [Carry Leg Force Into Foot Support](PAT_carry_leg_force_into_foot_support.md) - pattern; 2 block.
   - Variants: `Settle Weight From the Outer Heel Side Toward the Inner Foot` (method_sequence).
 - [Carry the Underarm Curve Through the Elbow](PAT_carry_underarm_curve_through_elbow.md) - pattern; 2 block.
 - [Choose S or B Leg Rhythm by View](PAT_choose_s_or_b_leg_rhythm_by_view.md) - pattern; 2 block.
-  - Variants: `Drive the Thigh Inward and Bevel It Toward the Knee` (method_sequence); `Oppose the Shin Edge Against the Calf Mass` (method_sequence); `Tumble Leg Anatomy as Asymmetrical Ellipses Around the Cylinder` (emphasis).
 - [Classify and Build S and B Leg Rhythms](DRILL_classify_and_build_s_and_b_leg_rhythms.md) - drill; 2 block.
 - [Construct the Foot as a Soft-Tissue Support Wedge](PAT_construct_foot_as_soft_tissue_support_wedge.md) - pattern; 2 block.
-  - Variants: `Oppose the Outer Heel Side Against the Inner Arch` (method_sequence); `Design Foot Support From Longitudinal and Transverse Arches` (method_sequence); `Design Foot Contour With Hard Top and Soft Weight-Bearing Bottom` (emphasis); `Anchor the Foot Arch to Three Support Points` (method_sequence); `Wrap the Heel Core in Weight-Bearing Fat Pad` (method_sequence).
+  - Variants: `Wrap the Heel Core in Weight-Bearing Fat Pad` (method_sequence).
 - [Control Foreshortened Form Size in Stage Two](AP_control_foreshortened_form_size_in_stage_two.md) - ap; 2 block.
   - Variants: `Foreshorten Through Cross-Sections of the Complete Form` (method_sequence).
 - [Coordinate the Figure With an Encompassing Contour](PAT_coordinate_figure_with_encompassing_contour.md) - pattern; 3 rough.
-  - Variants: `Oppose Rhythmic Line With Structural Line` (emphasis); `Pick Up Rhythm Across Separated Contours` (emphasis); `Reverse and Oppose Animal Line Flow` (context).
+  - Variants: `Oppose Rhythmic Line With Structural Line` (emphasis); `Pick Up Rhythm Across Separated Contours` (emphasis).
 - [Correct a Wonky Foreshortened Limb With Pivot Arcs](DRILL_correct_wonky_foreshortened_limb_with_pivot_arcs.md) - drill; 2 block.
 - [Develop One Notation by Two Routes](DRILL_develop_notation_by_two_routes.md) - drill; 2 block.
 - [Diagnose Joint Interlock by Reversing Depth](DRILL_diagnose_joint_interlock_by_reversing_depth.md) - drill; 2 block.
@@ -31,7 +29,6 @@
   - Variants: `Connect Forms by Overlap, Conformity, or Transition` (method_sequence); `Bridge Dissimilar Masses With a Continuous Surface` (method_sequence).
 - [Link the Arm Pair Through the Shoulder Yoke](PAT_link_arm_pair_through_shoulder_yoke.md) - pattern; 2 block.
 - [Notate a Figure in Structural Order](AP_notate_a_figure_in_structural_order.md) - ap; 2 block.
-  - Variants: `Separate Construction Order From Kinetic Lead` (context).
 - [Notate Action Figures Without Reference](DRILL_notate_action_figures_without_reference.md) - drill; 2 block.
   - Variants: `Rebuild Animal Action From Simplified Forms at a New Viewpoint` (method_sequence); `Study Jointed-Mannequin Poses Before Inventing Without Reference` (method_sequence); `Use the Manikin as an Action Scaffold, Not a Lighting Model` (method_sequence).
 - [Orient the Rib Cage With Curved Openings](PAT_orient_rib_cage_with_curved_openings.md) - pattern; 2 block.

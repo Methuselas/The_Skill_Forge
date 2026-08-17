@@ -64,5 +64,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Orient an Animal Body in Depth With Backline and Transverse Axes](PAT_orient_animal_body_in_depth_with_backline_and_transverse_axes.md) - pattern; 1 skeleton.
 - [Reconstruct One Animal Skull Across Views From Block and Sections](DRILL_reconstruct_one_animal_skull_across_views_from_block_and_sections.md) - drill; 2 block.
 - [Select One Dominant Quality for an Animal Study](PAT_select_one_dominant_quality_for_animal_study.md) - pattern; 0 design.
-  - Variants: `Complete a Sketch With Objective-Led Economy` (emphasis).
 - [Transform an Animal Framework Across Pose Changes](DRILL_transform_animal_framework_across_pose_changes.md) - drill; 1 skeleton.

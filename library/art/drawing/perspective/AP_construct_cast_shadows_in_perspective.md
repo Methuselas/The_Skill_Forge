@@ -3,9 +3,9 @@ object_id: AP_construct_cast_shadows_in_perspective
 object_type: ap
 name: Construct Cast Shadows in Perspective
 library_path:
-- art
-- drawing
-- perspective
+  - art
+  - drawing
+  - perspective
 stage_binding: 4 final
 lane_fit: both
 foundation_role: specialization
@@ -13,10 +13,10 @@ routing_class: specialized
 specialization_axis: method
 foundation_object_id: none
 tags:
-- perspective
-- shadow
-- light
-- projection
+  - perspective
+  - shadow
+  - light
+  - projection
 cross_links: []
 reference:
   source_title: Perspective Drawing Handbook
@@ -24,20 +24,14 @@ reference:
 confidence: high
 references: []
 variants:
-- variant_id: VAR_reconstruct_shadows_across_complex_receivers
-  variant_name: Reconstruct Shadows Across Changing Receivers
-  variant_basis: method_sequence
-  difference_from_foundation: 'Absorbs Norling''s receiver-turn checkpoint and extends it to inclined, multi-plane, and curved receivers: keep the same light ray but reconstruct each intersection on the new receiving geometry.'
-  when_to_use: Use when a cast shadow crosses a wall, incline, curved form, or other receiver break.
-  when_not_to_use: Do not continue a shadow as one flat screen-space contour across changing receiver geometry.
-  absorbed_from_object_id: none
-- variant_id: VAR_link_cast_shadow_to_terminator_and_depth_grade
-  variant_name: Link Cast Shadow to Terminator and Depth Grade
-  variant_basis: method_sequence
-  difference_from_foundation: Connects solved cast-shadow geometry to the form's light/shade separation, then hands distant contrast weakening to the atmosphere/rendering system.
-  when_to_use: Use when carrying a perspective shadow solution into a rendered scene.
-  when_not_to_use: Do not let atmospheric weakening alter the geometric receiver intersections already solved.
-  absorbed_from_object_id: none
+  - variant_id: VAR_reconstruct_shadows_across_complex_receivers
+    variant_name: Reconstruct Shadows Across Changing Receivers
+    variant_basis: method_sequence
+    difference_from_foundation: 'Absorbs Norling''s receiver-turn checkpoint and extends it to inclined, multi-plane, and curved receivers: keep
+      the same light ray but reconstruct each intersection on the new receiving geometry.'
+    when_to_use: Use when a cast shadow crosses a wall, incline, curved form, or other receiver break.
+    when_not_to_use: Do not continue a shadow as one flat screen-space contour across changing receiver geometry.
+    absorbed_from_object_id: none
 ---
 
 # Construct Cast Shadows in Perspective
@@ -80,4 +74,4 @@ Project cast shadows so the light direction, receiving plane, object position, a
 ## Notes
 D'Amelio's chapter is geometric, but the operational question is simple: identify what blocks the light, establish how the rays travel, and solve where those rays meet the receiving surface.
 
-Variants retained in this canonical object: `VAR_reconstruct_shadows_across_complex_receivers`, `VAR_link_cast_shadow_to_terminator_and_depth_grade`.
+`VAR_reconstruct_shadows_across_complex_receivers` remains a bounded variant under the conditions recorded in its variant metadata.

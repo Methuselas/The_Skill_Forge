@@ -3,9 +3,9 @@ object_id: PAT_grade_depth_with_atmospheric_effect
 object_type: pattern
 name: Grade Depth With Atmospheric Effect
 library_path:
-- art
-- drawing
-- rendering
+  - art
+  - drawing
+  - rendering
 stage_binding: 4 final
 lane_fit: both
 foundation_role: specialization
@@ -13,33 +13,51 @@ routing_class: specialized
 specialization_axis: method
 foundation_object_id: none
 tags:
-- atmosphere
-- depth
-- value
-- contrast
+  - atmosphere
+  - depth
+  - value
+  - contrast
 cross_links:
-- rel: supports
-  target_object_id: AP_construct_a_shared_scene_perspective_field
+  - rel: supports
+    target_object_id: AP_construct_a_shared_scene_perspective_field
 reference:
   source_title: 'Basic Rendering: Effective Drawing for Designers, Artists and Illustrators'
   author: Robert W. Gill
 confidence: high
 references: []
 variants:
-- variant_id: VAR_dodson_shift_texture_mark_vocabulary_with_distance
-  variant_name: Shift Texture Mark Vocabulary With Distance
-  variant_basis: method_sequence
-  difference_from_foundation: "Adds Dodson's perceptual-scale route: as repeated surface detail recedes, change the kind of mark used to represent it rather than merely shrinking the foreground stroke. Move from individual articulation to grouped texture, broader pattern, and finally near-omission as distance removes resolvable events."
-  when_to_use: Use when grass, foliage, crowds, windows, scales, fur, roof tiles, or other repeated detail extends through substantial depth and literal miniaturization would make the far field noisy or false.
-  when_not_to_use: Do not change mark vocabulary so abruptly that equivalent surfaces stop belonging to the same material family, and do not use simplification to repair incorrect scale or perspective.
-  absorbed_from_object_id: none
-- variant_id: VAR_loomis_shift_receding_colors_toward_atmospheric_influence
-  variant_name: Shift Receding Colors Toward Atmospheric Influence
-  variant_basis: method_sequence
-  difference_from_foundation: "Adds a color-specific atmospheric-depth route: as forms recede, let their hue and chroma participate increasingly in the prevailing atmospheric influence while the existing near-to-far losses of contrast, edge clarity, and detail continue to operate."
-  when_to_use: Use when a colored scene needs stronger atmospheric integration across depth, especially in blue-sky distance, gray weather, haze, mist, or another clearly dominant air/light condition.
-  when_not_to_use: Do not apply one canned cool shift to every scene; use the actual or designed atmospheric influence, and do not let color drift erase material identity or contradict the established light.
-  absorbed_from_object_id: none
+  - variant_id: VAR_dodson_shift_texture_mark_vocabulary_with_distance
+    variant_name: Shift Texture Mark Vocabulary With Distance
+    variant_basis: method_sequence
+    difference_from_foundation: "Adds Dodson's perceptual-scale route: as repeated surface detail recedes, change the kind of mark used to represent
+      it rather than merely shrinking the foreground stroke. Move from individual articulation to grouped texture, broader pattern, and finally
+      near-omission as distance removes resolvable events."
+    when_to_use: Use when grass, foliage, crowds, windows, scales, fur, roof tiles, or other repeated detail extends through substantial 
+      depth and literal miniaturization would make the far field noisy or false.
+    when_not_to_use: Do not change mark vocabulary so abruptly that equivalent surfaces stop belonging to the same material family, and do 
+      not use simplification to repair incorrect scale or perspective.
+    absorbed_from_object_id: none
+  - variant_id: VAR_loomis_shift_receding_colors_toward_atmospheric_influence
+    variant_name: Shift Receding Colors Toward Atmospheric Influence
+    variant_basis: method_sequence
+    difference_from_foundation: "Adds a color-specific atmospheric-depth route: as forms recede, let their hue and chroma participate increasingly
+      in the prevailing atmospheric influence while the existing near-to-far losses of contrast, edge clarity, and detail continue to operate."
+    when_to_use: Use when a colored scene needs stronger atmospheric integration across depth, especially in blue-sky distance, gray 
+      weather, haze, mist, or another clearly dominant air/light condition.
+    when_not_to_use: Do not apply one canned cool shift to every scene; use the actual or designed atmospheric influence, and do not let 
+      color drift erase material identity or contradict the established light.
+    absorbed_from_object_id: none
+  - variant_id: VAR_vilppu_use_atmospheric_contrast_as_local_depth_design
+    variant_name: Use Atmospheric Contrast as Local Depth Design
+    variant_basis: emphasis
+    difference_from_foundation: 'Adds Vilppu''s figurative use of atmospheric perspective as a controlled design device: reduce contrast, detail,
+      and edge clarity on receding or subordinate passages—even across relatively small depth changes—while keeping nearer or action-critical
+      forms sharper, so overlapping masses separate and the main action reads more strongly.'
+    when_to_use: Use when a figure's near/far organization is technically correct but visually crowded, or when atmospheric edge/value 
+      control can strengthen the action without changing the underlying construction.
+    when_not_to_use: Do not apply arbitrary haze that contradicts the intended scene, material, lighting, or focal hierarchy; when physical 
+      atmospheric perspective matters, actual distance and medium conditions still govern.
+    absorbed_from_object_id: none
 ---
 
 # Grade Depth With Atmospheric Effect
@@ -70,3 +88,5 @@ variants:
 Gill calls this “atmospheric effect” and repeatedly treats it as part of the same spatial evidence system as convergence, diminution, foreshortening, light, shadow, and overlap. The durable extraction is the near-to-far loss of contrast and clarity, not the book's period-specific account of why the air produces it.
 
 `VAR_dodson_shift_texture_mark_vocabulary_with_distance` adds a perceptual-scale rendering route: let foreground articulation collapse into grouped texture, broader pattern, and eventual omission as distance removes resolvable surface events instead of miniaturizing one mark indefinitely. `VAR_loomis_shift_receding_colors_toward_atmospheric_influence` adds the color counterpart: distant hues and chroma increasingly participate in the prevailing atmospheric influence rather than retaining foreground color separation unchanged.
+
+`VAR_vilppu_use_atmospheric_contrast_as_local_depth_design` retains **Use Atmospheric Contrast as Local Depth Design** as a bounded emphasis route: deliberately use atmospheric contrast, edge, and detail reduction even across relatively small figurative depth when it clarifies overlap and spatial separation.

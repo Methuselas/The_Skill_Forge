@@ -3,10 +3,10 @@ object_id: PAT_design_pose_against_center_of_gravity
 object_type: pattern
 name: Design the Pose Against Its Center of Gravity
 library_path:
-- art
-- drawing
-- foundations
-- gesture-force
+  - art
+  - drawing
+  - foundations
+  - gesture-force
 stage_binding: 1 skeleton
 lane_fit: skill
 foundation_role: foundation
@@ -14,14 +14,14 @@ routing_class: general
 specialization_axis: none
 foundation_object_id: none
 tags:
-- figure_drawing
-- animal_drawing
-- quadruped
-- gesture
-- balance
-- center_of_gravity
-- support_base
-- weight_shift
+  - figure_drawing
+  - animal_drawing
+  - quadruped
+  - gesture
+  - balance
+  - center_of_gravity
+  - support_base
+  - weight_shift
 cross_links: []
 reference:
   source_title: 'Figure Drawing: Design and Invention'
@@ -29,76 +29,94 @@ reference:
 confidence: high
 references: []
 variants:
-- variant_id: VAR_hampton_restate_gesture_as_skeletal_weight_mechanics
-  variant_name: Restate Gesture as Skeletal Weight Mechanics
-  variant_basis: method_sequence
-  difference_from_foundation: 'Deepens the center-of-gravity Pattern by requiring the landmark/skeleton pass to retell the original gesture in mechanical terms: identify the weight-bearing side, let the pelvis respond to that support, counter-balance the rib cage, and use the resulting pinch/stretch and overlaps as consequences of the same weight distribution.'
-  when_to_use: Use after the gesture pass when adding landmarks risks stiffening or contradicting the original pose.
-  when_not_to_use: Do not preserve an incorrect gesture merely for consistency; if the skeletal mechanics disprove it, revise the gesture and support design together.
-  absorbed_from_object_id: none
-- variant_id: VAR_loomis_preserve_latent_movement_in_standing_pose
-  variant_name: Preserve Latent Movement in a Standing Pose
-  variant_basis: emphasis
-  difference_from_foundation: 'Adds Loomis''s standing-pose design test to the center-of-gravity Pattern: even when the figure is not actively moving, vary the support, hip/torso/head relationship, limb levels, lean, or external brace so the pose retains the capacity or suggestion of movement instead of defaulting to bilateral stiffness.'
-  when_to_use: Use when a standing figure is balanced but reads like a wooden dummy, especially when both feet, knees, hips, shoulders, elbows, head, and gaze have settled into repetitive symmetry.
-  when_not_to_use: Do not force asymmetry or implied motion into a pose whose story specifically requires rigidity, confrontation, ceremonial stillness, or deliberate frontal stability.
-  absorbed_from_object_id: none
-- variant_id: VAR_loomis_tip_balance_line_into_forward_travel
-  variant_name: Tip the Balance Line Into Forward Travel
-  variant_basis: method_sequence
-  difference_from_foundation: 'Specializes Hampton''s general support model for locomotion: when the whole body travels forward, the body mass tips ahead of the current support, the rear contact supplies propulsion, and the advancing foot catches the displaced balance. Greater speed generally requires a stronger forward bias, while the support roles alternate from step to step.'
-  when_to_use: Use for walking, running, lunging, pushing off, or other whole-body forward travel when the limbs are moving but the torso still feels suspended or stationary.
-  when_not_to_use: Do not impose one fixed slant or literal heel/head formula on every gait phase, body type, camera view, or stylized action; use the actual momentum, support, and next contact to determine the degree of tip.
-  absorbed_from_object_id: none
-- variant_id: VAR_loomis_redistribute_support_through_seated_braces
-  variant_name: Redistribute Support Through Seated Braces
-  variant_basis: method_sequence
-  difference_from_foundation: 'Deepens Hampton''s general support model for kneeling, crouching, and seated figures: move the primary load away from the feet into the buttocks, thighs, knees, hands, elbows, back, or other contact points, then let the torso, shoulder, hip, and limb relationships visibly relax, brace, flatten, or lean toward those supports.'
-  when_to_use: Use when an off-the-feet pose has plausible limb placement but still feels as though the figure is secretly standing upright inside the pose.
-  when_not_to_use: Do not force one seated C-curve or one bracing asymmetry onto every pose; erect sitting, multiple supports, kneeling, crouching, and active transitions distribute load differently.
-  absorbed_from_object_id: none
-- variant_id: VAR_bammes_balance_profile_masses_as_offset_counterweights
-  variant_name: Balance Profile Masses as Offset Counterweights
-  variant_basis: method_sequence
-  difference_from_foundation: 'Adds Bammes''s profile-specific balance model to center-of-gravity construction: frontal bilateral symmetry does not survive into profile. The rib cage, pelvis, head, and lower-body masses project alternately before and behind the gravity plumb, creating a shifted vertical symmetry that keeps the standing figure balanced without stacking its masses like blocks.'
-  when_to_use: Use when a standing or lightly posed profile has a plausible support line but still looks stiff, top-heavy, or mechanically stacked.
-  when_not_to_use: Do not force equal alternation around the plumb in acceleration, falling, extreme leaning, external support, or other poses where the center of mass is intentionally displaced; observe the actual support mechanics.
-  absorbed_from_object_id: none
-- variant_id: VAR_bammes_propagate_one_leg_unloading_through_whole_body
-  variant_name: Propagate One-Leg Unloading Through the Whole Body
-  variant_basis: method_sequence
-  difference_from_foundation: 'Adds Bammes''s contrapposto cause-chain to center-of-gravity construction: when one leg becomes the unloaded Spielbein, the support base shrinks to the remaining foot, the pelvis must shift over that support and drops on the unsupported side, the spine and shoulder girdle compensate above it, and the body develops opposed compressed/bunched versus lengthened/flowing form relationships.'
-  when_to_use: Use for asymmetric standing, contrapposto, or any pose where one leg clearly relinquishes support and the rest of the body must reorganize around the remaining load-bearing side.
-  when_not_to_use: Do not force this chain onto two-leg loading, seated/braced poses, airborne action, or locomotor phases whose center of mass is intentionally outside the current support base.
-  absorbed_from_object_id: none
-- variant_id: VAR_bammes_test_committed_locomotion_against_current_support
-  variant_name: Test Committed Locomotion Against the Current Support
-  variant_basis: method_sequence
-  difference_from_foundation: 'Adds Bammes''s locomotion diagnostic to the support model: true stepping or running commits the center of mass beyond the current support area so the body would fall without a timely new contact. A pose may look energetic yet remain a Scheinbewegung—apparent movement—when its center of mass can still be retained over the existing support.'
-  when_to_use: Use when a walk, run, lunge, push-off, or sports pose has active limbs but it is unclear whether the body itself is actually traveling, falling into the next support, or merely posing dynamically.
-  when_not_to_use: Do not require the center of mass to leave the support base for actions that occur in place, rotations around stable support, externally braced actions, or suspended/airborne phases governed by different contact conditions.
-  absorbed_from_object_id: none
-- variant_id: VAR_bammes_make_support_contacts_deform_the_whole_pose
-  variant_name: Make Support Contacts Deform the Whole Pose
-  variant_basis: method_sequence
-  difference_from_foundation: 'Deepens the existing support model by requiring every weight-bearing contact to have visible structural consequences. A supporting arm must carry load rather than merely touch: the shoulder/upper-arm relationship can become more exposed or compressed while the opposite side sags or releases. In sitting and lying, seat, back, buttock, thigh, elbow, or other contacts also change body angle and allow soft masses to compress, spread, or settle against the support. A contact that carries weight but leaves the rest of the pose unchanged is mechanically incomplete.'
-  when_to_use: Use for leaning, braced standing, supported sitting, crouching, or reclining poses when the contact points are present but the body still reads as self-supporting or weightless.
-  when_not_to_use: Do not exaggerate deformation at a light touch or decorative contact that carries little load, and do not force one identical compression pattern onto every body; tissue thickness, body composition, support hardness, pose, and viewpoint change the visible response.
-  absorbed_from_object_id: none
-- variant_id: VAR_hultgren_follow_weight_reception_across_animal_action_phases
-  variant_name: Follow Weight Reception Across Animal Action Phases
-  variant_basis: context
-  difference_from_foundation: Adapts the support model to sequential quadruped action by separating a limb that is reaching toward the ground from the contact that is actually receiving body weight, then carrying the body into the next support phase while the opposite leg and neck prepare the following leap.
-  when_to_use: Use when a gallop, leap, or other animal locomotion sketch has active legs but it is unclear which contact is carrying weight and which limbs are reaching, recovering, or preparing the next phase.
-  when_not_to_use: Do not infer exact gait timing or species biomechanics from this single stylized sequence; use species-specific locomotion evidence when precise phase mechanics matter.
-  absorbed_from_object_id: none
-- variant_id: VAR_bammes_shift_quadruped_axes_when_support_base_reduces
-  variant_name: Shift Quadruped Body Axes as the Support Base Shrinks
-  variant_basis: context
-  difference_from_foundation: 'Adapts the center-of-gravity support test to quadrupeds when one limb is unloaded or the animal rises onto fewer contacts: move the body mass over the remaining support, let the weight-bearing limb slant as required, and propagate the redistribution into the shoulder-blade or pelvic axes instead of leaving the trunk level and unchanged. Bammes shows a raised foreleg lifting the support-side scapular point, and an unloaded hindleg producing pelvic drop on the free side with compensatory flexion in the trailing limb.'
-  when_to_use: Use for three-leg standing or walking phases, relaxed one-hindleg stances, paw-raised grooming poses, rearing, or any quadruped pose where the support base has visibly shrunk and the torso still reads as evenly four-footed.
-  when_not_to_use: Do not impose one fixed center-of-gravity location, one exact limb slant, or identical scapular/pelvic compensation on every species or pose; verify the actual contacts, anatomy, and degree of load transfer.
-  absorbed_from_object_id: none
+  - variant_id: VAR_hampton_restate_gesture_as_skeletal_weight_mechanics
+    variant_name: Restate Gesture as Skeletal Weight Mechanics
+    variant_basis: method_sequence
+    difference_from_foundation: 'Deepens the center-of-gravity Pattern by requiring the landmark/skeleton pass to retell the original gesture
+      in mechanical terms: identify the weight-bearing side, let the pelvis respond to that support, counter-balance the rib cage, and use the
+      resulting pinch/stretch and overlaps as consequences of the same weight distribution.'
+    when_to_use: Use after the gesture pass when adding landmarks risks stiffening or contradicting the original pose.
+    when_not_to_use: Do not preserve an incorrect gesture merely for consistency; if the skeletal mechanics disprove it, revise the gesture 
+      and support design together.
+    absorbed_from_object_id: none
+  - variant_id: VAR_loomis_preserve_latent_movement_in_standing_pose
+    variant_name: Preserve Latent Movement in a Standing Pose
+    variant_basis: emphasis
+    difference_from_foundation: 'Adds Loomis''s standing-pose design test to the center-of-gravity Pattern: even when the figure is not actively
+      moving, vary the support, hip/torso/head relationship, limb levels, lean, or external brace so the pose retains the capacity or suggestion
+      of movement instead of defaulting to bilateral stiffness.'
+    when_to_use: Use when a standing figure is balanced but reads like a wooden dummy, especially when both feet, knees, hips, shoulders, 
+      elbows, head, and gaze have settled into repetitive symmetry.
+    when_not_to_use: Do not force asymmetry or implied motion into a pose whose story specifically requires rigidity, confrontation, 
+      ceremonial stillness, or deliberate frontal stability.
+    absorbed_from_object_id: none
+  - variant_id: VAR_loomis_tip_balance_line_into_forward_travel
+    variant_name: Tip the Balance Line Into Forward Travel
+    variant_basis: method_sequence
+    difference_from_foundation: 'Specializes Hampton''s general support model for locomotion: when the whole body travels forward, the body mass
+      tips ahead of the current support, the rear contact supplies propulsion, and the advancing foot catches the displaced balance. Greater speed
+      generally requires a stronger forward bias, while the support roles alternate from step to step.'
+    when_to_use: Use for walking, running, lunging, pushing off, or other whole-body forward travel when the limbs are moving but the torso 
+      still feels suspended or stationary.
+    when_not_to_use: Do not impose one fixed slant or literal heel/head formula on every gait phase, body type, camera view, or stylized 
+      action; use the actual momentum, support, and next contact to determine the degree of tip.
+    absorbed_from_object_id: none
+  - variant_id: VAR_loomis_redistribute_support_through_seated_braces
+    variant_name: Redistribute Support Through Seated Braces
+    variant_basis: method_sequence
+    difference_from_foundation: 'Deepens Hampton''s general support model for kneeling, crouching, and seated figures: move the primary load away
+      from the feet into the buttocks, thighs, knees, hands, elbows, back, or other contact points, then let the torso, shoulder, hip, and limb
+      relationships visibly relax, brace, flatten, or lean toward those supports.'
+    when_to_use: Use when an off-the-feet pose has plausible limb placement but still feels as though the figure is secretly standing 
+      upright inside the pose.
+    when_not_to_use: Do not force one seated C-curve or one bracing asymmetry onto every pose; erect sitting, multiple supports, kneeling, 
+      crouching, and active transitions distribute load differently.
+    absorbed_from_object_id: none
+  - variant_id: VAR_bammes_balance_profile_masses_as_offset_counterweights
+    variant_name: Balance Profile Masses as Offset Counterweights
+    variant_basis: method_sequence
+    difference_from_foundation: 'Adds Bammes''s profile-specific balance model to center-of-gravity construction: frontal bilateral symmetry does
+      not survive into profile. The rib cage, pelvis, head, and lower-body masses project alternately before and behind the gravity plumb, creating
+      a shifted vertical symmetry that keeps the standing figure balanced without stacking its masses like blocks.'
+    when_to_use: Use when a standing or lightly posed profile has a plausible support line but still looks stiff, top-heavy, or mechanically
+      stacked.
+    when_not_to_use: Do not force equal alternation around the plumb in acceleration, falling, extreme leaning, external support, or other 
+      poses where the center of mass is intentionally displaced; observe the actual support mechanics.
+    absorbed_from_object_id: none
+  - variant_id: VAR_bammes_propagate_one_leg_unloading_through_whole_body
+    variant_name: Propagate One-Leg Unloading Through the Whole Body
+    variant_basis: method_sequence
+    difference_from_foundation: 'Adds Bammes''s contrapposto cause-chain to center-of-gravity construction: when one leg becomes the unloaded
+      Spielbein, the support base shrinks to the remaining foot, the pelvis must shift over that support and drops on the unsupported side, the
+      spine and shoulder girdle compensate above it, and the body develops opposed compressed/bunched versus lengthened/flowing form relationships.'
+    when_to_use: Use for asymmetric standing, contrapposto, or any pose where one leg clearly relinquishes support and the rest of the body 
+      must reorganize around the remaining load-bearing side.
+    when_not_to_use: Do not force this chain onto two-leg loading, seated/braced poses, airborne action, or locomotor phases whose center of
+      mass is intentionally outside the current support base.
+    absorbed_from_object_id: none
+  - variant_id: VAR_bammes_test_committed_locomotion_against_current_support
+    variant_name: Test Committed Locomotion Against the Current Support
+    variant_basis: method_sequence
+    difference_from_foundation: 'Adds Bammes''s locomotion diagnostic to the support model: true stepping or running commits the center of mass
+      beyond the current support area so the body would fall without a timely new contact. A pose may look energetic yet remain a Scheinbewegung—apparent
+      movement—when its center of mass can still be retained over the existing support.'
+    when_to_use: Use when a walk, run, lunge, push-off, or sports pose has active limbs but it is unclear whether the body itself is 
+      actually traveling, falling into the next support, or merely posing dynamically.
+    when_not_to_use: Do not require the center of mass to leave the support base for actions that occur in place, rotations around stable 
+      support, externally braced actions, or suspended/airborne phases governed by different contact conditions.
+    absorbed_from_object_id: none
+  - variant_id: VAR_bammes_shift_quadruped_axes_when_support_base_reduces
+    variant_name: Shift Quadruped Body Axes as the Support Base Shrinks
+    variant_basis: context
+    difference_from_foundation: 'Adapts the center-of-gravity support test to quadrupeds when one limb is unloaded or the animal rises onto fewer
+      contacts: move the body mass over the remaining support, let the weight-bearing limb slant as required, and propagate the redistribution
+      into the shoulder-blade or pelvic axes instead of leaving the trunk level and unchanged. Bammes shows a raised foreleg lifting the support-side
+      scapular point, and an unloaded hindleg producing pelvic drop on the free side with compensatory flexion in the trailing limb.'
+    when_to_use: Use for three-leg standing or walking phases, relaxed one-hindleg stances, paw-raised grooming poses, rearing, or any 
+      quadruped pose where the support base has visibly shrunk and the torso still reads as evenly four-footed.
+    when_not_to_use: Do not impose one fixed center-of-gravity location, one exact limb slant, or identical scapular/pelvic compensation on 
+      every species or pose; verify the actual contacts, anatomy, and degree of load transfer.
+    absorbed_from_object_id: none
 ---
 
 # Design the Pose Against Its Center of Gravity
@@ -111,6 +129,7 @@ variants:
 ## Do
 - Treat balance and imbalance as design variables that serve the pose's story.
 - Identify the primary weight-bearing contact before judging whether the torso and pelvis can lean as drawn.
+- Let a real support contact change the pose that bears on it: compression, settling, countershift, joint angle, and adjacent mass relationships should propagate from the contact instead of leaving an unchanged mannequin balanced on a point.
 - Use counter-balancing among head, rib cage, pelvis, and limbs rather than stacking all major masses on one vertical.
 - For a mid-step or impending-action pose, let the mass arrangement approach or cross a stable relationship while another contact is positioned to catch, redirect, or complete the action.
 - Check the pose at gesture level before anatomy hides the support logic.
@@ -126,6 +145,7 @@ variants:
 - The major masses have a deliberate relationship to the gravity line rather than an accidental one.
 - A stable pose reads as supported; an unstable pose reads as intentionally moving toward another support condition.
 - Removing anatomy and contour does not destroy the sense of weight.
+- Weight-bearing contacts produce believable structural consequences in the masses and joints they support.
 
 ## Notes
 Hampton frames human movement as repeated controlled loss and recovery of balance. The useful runtime decision is not “make every pose unstable,” but to know whether the current arrangement is stable, tensioned, or transitioning and to design the support accordingly.
@@ -143,9 +163,5 @@ Hampton frames human movement as repeated controlled loss and recovery of balanc
 `VAR_bammes_propagate_one_leg_unloading_through_whole_body` retains **Propagate One-Leg Unloading Through the Whole Body** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 
 `VAR_bammes_test_committed_locomotion_against_current_support` retains **Test Committed Locomotion Against the Current Support** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
-
-`VAR_bammes_make_support_contacts_deform_the_whole_pose` retains **Make Support Contacts Deform the Whole Pose** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
-
-`VAR_hultgren_follow_weight_reception_across_animal_action_phases` retains **Follow Weight Reception Across Animal Action Phases** as a bounded animal-locomotion alternative; use it only under the conditions recorded in the variant metadata.
 
 `VAR_bammes_shift_quadruped_axes_when_support_base_reduces` retains **Shift Quadruped Body Axes as the Support Base Shrinks** as a bounded quadruped-support alternative; use it only under the conditions recorded in the variant metadata.

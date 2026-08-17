@@ -3,9 +3,9 @@ object_id: PAT_control_edge_hardness_from_form_light_and_focus
 object_type: pattern
 name: Control Edge Hardness From Form, Light, and Focus
 library_path:
-- art
-- drawing
-- rendering
+  - art
+  - drawing
+  - rendering
 stage_binding: 4 final
 lane_fit: both
 foundation_role: foundation
@@ -13,36 +13,44 @@ routing_class: general
 specialization_axis: none
 foundation_object_id: none
 tags:
-- rendering
-- edges
-- form_turn
-- light_quality
-- focus
+  - rendering
+  - edges
+  - form_turn
+  - light_quality
+  - focus
 cross_links:
-- rel: related_to
-  target_object_id: PAT_concentrate_contrast_and_accents_at_focal_area
-- rel: related_to
-  target_object_id: PAT_consolidate_resolved_form_with_tone
+  - rel: related_to
+    target_object_id: PAT_concentrate_contrast_and_accents_at_focal_area
+  - rel: related_to
+    target_object_id: PAT_consolidate_resolved_form_with_tone
 reference:
   source_title: Keys to Drawing
   author: Bert Dodson
 confidence: high
 references: []
 variants:
-- variant_id: VAR_loomis_break_contour_when_hard_enclosure_flattens_depth
-  variant_name: Break Continuous Hard Contour When Enclosure Flattens Depth
-  variant_basis: emphasis
-  difference_from_foundation: "Loomis supplies a concrete failure diagnosis for edge control: if every contour remains continuously hard, the form can appear pasted to the picture plane. Selectively lose, soften, or interweave portions of contour where value, overlap, or neighboring shape already carries the boundary, then restore only the edges needed for structure, depth, and focal clarity."
-  when_to_use: Use when an otherwise modeled form reads like a cutout because its perimeter is uniformly enclosed, especially where one form should pass behind another or merge into a neighboring value mass.
-  when_not_to_use: Do not erase boundaries that are required for silhouette recognition, technical clarity, hard material separation, graphic style, or the focal statement. Lost contour must be supported by other depth or form evidence.
-  absorbed_from_object_id: none
-- variant_id: VAR_loomis_build_soft_first_then_recover_selected_edges
-  variant_name: Build Soft First, Then Recover Selected Edges
-  variant_basis: method_sequence
-  difference_from_foundation: "Adds Loomis's sequencing alternative for tight rendering: establish the large tones, soften their boundaries early, preserve the broad softness as the picture develops, and recover only the edges, details, and accents required for form and focus instead of defining everything sharply first and trying to blur it afterward."
-  when_to_use: "Use when a rendering is becoming uniformly hard, overprecise, or pasted onto the picture plane and a soft-first sequence would make selective edge recovery easier to control."
-  when_not_to_use: "Do not suppress genuinely hard silhouettes, cast events, material boundaries, or graphic requirements merely to keep the picture soft. The sequence changes the starting bias; the final edge map must still answer to form, light, material, depth, and hierarchy."
-  absorbed_from_object_id: none
+  - variant_id: VAR_loomis_build_soft_first_then_recover_selected_edges
+    variant_name: Build Soft First, Then Recover Selected Edges
+    variant_basis: method_sequence
+    difference_from_foundation: "Adds Loomis's sequencing alternative for tight rendering: establish the large tones, soften their boundaries
+      early, preserve the broad softness as the picture develops, and recover only the edges, details, and accents required for form and focus
+      instead of defining everything sharply first and trying to blur it afterward."
+    when_to_use: "Use when a rendering is becoming uniformly hard, overprecise, or pasted onto the picture plane and a soft-first sequence would
+      make selective edge recovery easier to control."
+    when_not_to_use: "Do not suppress genuinely hard silhouettes, cast events, material boundaries, or graphic requirements merely to keep the
+      picture soft. The sequence changes the starting bias; the final edge map must still answer to form, light, material, depth, and hierarchy."
+    absorbed_from_object_id: none
+  - variant_id: VAR_vilppu_separate_core_and_cast_shadow_by_cause
+    variant_name: Separate Core and Cast Shadow by Cause
+    variant_basis: method_sequence
+    difference_from_foundation: 'Adds Vilppu''s compact diagnostic to physical lighting: identify core shadow as a form-turning event between
+      direct and reflected light, and cast shadow as light blocked by another form. Let the core edge inherit the sharpness of the surface turn,
+      while the cast-shadow edge is sharpest near the occluder and softens with separation.'
+    when_to_use: Use when a tonal drawing has plausible dark shapes but the shadow edges do not explain whether the form is turning or 
+      another object is blocking the light.
+    when_not_to_use: Do not force every core or cast edge into one fixed softness; actual source size, geometry, material, reflected light, 
+      and scene conditions still govern.
+    absorbed_from_object_id: none
 ---
 
 # Control Edge Hardness From Form, Light, and Focus
@@ -72,6 +80,7 @@ variants:
 - Lost and softened edges have an identifiable optical, spatial, material, or compositional cause instead of being applied as a generalized blur.
 
 ## Notes
-Dodson treats edges as boundaries between shapes whose character changes with the event producing them. The result is both descriptive and compositional: edge quality can explain form and illumination while also directing attention. `VAR_loomis_break_contour_when_hard_enclosure_flattens_depth` adds Loomis's cutout diagnosis: continuous hard enclosure can pin a form to the picture plane, so selectively losing or softening supported contour passages can restore spatial interlock without sacrificing necessary structure. Loomis's later edge discussion expands the diagnostic by cause—light spread, material diffusion, value convergence, turning form, overlap, distance, and subordination—and stresses that convincing edge design depends on an interlaced balance rather than an all-hard or all-soft treatment.
 
 `VAR_loomis_build_soft_first_then_recover_selected_edges` adds a sequencing route for tight work: bias the early tonal statement toward softness, then recover only the boundaries and accents that the final form and hierarchy actually require.
+
+`VAR_vilppu_separate_core_and_cast_shadow_by_cause` retains **Separate Core and Cast Shadow by Cause** as a cause-and-edge diagnostic: core shadow comes from a form turning away from light, while cast shadow comes from blocked light and its edge character follows source, occluder, and receiver geometry.
