@@ -18,6 +18,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Assume It Is Not Easy, Because You Cannot Remember It Being Hard](PAT_account_for_the_curse_of_expertise_when_onboarding.md) - pattern; 0 design.
 - [Build a Routine From Intent-Level Pseudocode](AP_build_a_routine_from_intent_level_pseudocode.md) - ap; 1 skeleton.
 - [Choose What to Integrate Next by Where the Risk Is](PAT_choose_the_integration_order_by_risk.md) - pattern; 0 design.
+- [Decide Which Automated Checks Earn the Right to Block](PAT_decide_whether_a_check_blocks_or_warns.md) - pattern; 1 skeleton.
 - [Estimate by Decomposing and Cross-Checking, Never by Feel](PAT_estimate_by_decomposition_and_cross_check.md) - pattern; 0 design.
 - [Explain a Concept as a Wave — Abstract, Concrete, Abstract Again](PAT_teach_along_a_semantic_wave.md) - pattern; 0 design.
 - [Externalize Enough State That an Interruption Cannot Cost You the Context](PAT_prepare_for_interruption_before_it_arrives.md) - pattern; 3 rough.

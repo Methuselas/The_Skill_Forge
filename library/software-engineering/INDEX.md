@@ -118,6 +118,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Space Practice Across Widening Intervals
 - **Tell a Misconception From a Slip Before Trying to Fix It** — read first
   - then: Replace a Misconception Rather Than Correcting It
+- **Work Out How the Code Got This Way Before You Improve It** — read first
+  - then: Divide a Long Change Into Places You Could Walk Away From
 - **Write Code That Reads Like a Well-Structured Recipe** — read first
   - then: Adopt a Language Feature Only When It Is the Best Tool
   - then: Comment the Why, Not the What
@@ -132,5 +134,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Foundations](core/INDEX.md) - 280 object(s).
+- [Foundations](core/INDEX.md) - 287 object(s).
 - [Languages](languages/INDEX.md) - 80 object(s).

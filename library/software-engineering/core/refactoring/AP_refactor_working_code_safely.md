@@ -28,6 +28,8 @@ cross_links:
   target_object_id: AP_build_a_routine_from_intent_level_pseudocode
 - rel: related_to
   target_object_id: PAT_prepare_for_interruption_before_it_arrives
+- rel: related_to
+  target_object_id: PAT_prove_behaviour_held_by_running_both_paths
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
@@ -43,6 +45,8 @@ variants: []
 Take a section of working code from its current shape to a better one without any caller noticing, and without reaching a state where you can neither finish nor go back. The orchestration is the whole technique: each individual move here is unremarkable, and it is doing them in this order — with a verified, returnable state between every pair of them — that separates refactoring from opening a working system and hoping.
 
 Reach for this whenever the change is meant to preserve behaviour. Where the code does not currently work, or where the pass will alter what callers observe, this is the wrong procedure and the risk it manages is not the risk you have.
+
+Before step 1, settle two separate questions about the tests, because the whole procedure rests on their answers and neither is checked anywhere inside it. Does coverage exist for the code you are about to move — which is a matter of opening the test file and looking — and is what exists adequate, which it is not merely because a percentage is high. Thin coverage does not stop the work; it relocates the safety into the review and tells you to write tests first, and knowing which of those you are doing is the difference between a procedure and a hope.
 
 ## Steps / Flow
 
@@ -67,6 +71,8 @@ Reach for this whenever the change is meant to preserve behaviour. Where the cod
 The ordering carries the technique, which is why this is a procedure rather than a list of good habits. Steps 1, 4, and 6 are all the same idea at different scales — there is always a recent state you can return to — and removing any one of them breaks the others' value. Step 5 exists to protect step 4 from the specific way refactoring sessions fail, which is not a bad transformation but an accumulation of unfinished ones.
 
 Step 7 depends on something outside this procedure and will not save a codebase that lacks it. Retesting proves behaviour was preserved only to the extent that the tests described the behaviour in the first place; against a thin suite it proves that the thin suite still passes. Where the tests are weak, the review in step 8 is doing more of the work than it looks like, and the honest response is to raise the review effort rather than to trust a green bar that was never checking much.
+
+That weakness has a second answer once the surface is large enough that no achievable suite would cover it. Rather than certifying the change against tests, certify it against the traffic — keep both implementations executing, compare their results on live input, and switch which one answers only after the differences are accounted for. It is a far heavier arrangement than this procedure and it is the wrong tool for a session of ordinary restructuring, but it is the available option when the code is old, the coverage is thin, and the volume is high enough that production is a better specification than anything anyone would sit down and write.
 
 The counterintuitive input to step 8 is that small changes are not the safe ones. Programmers have better than a fifty percent chance of erring on a first attempt at a change, and measured error rates *peak* at around five lines changed. That is why the streamlining permitted for easy refactorings is defined by what the change can reach and never by how little of it there is.
 

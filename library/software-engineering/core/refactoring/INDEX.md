@@ -14,6 +14,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 ## Objects
 
 - [Change Structure or Change Behaviour, Never Both in One Pass](PAT_separate_structural_change_from_behavioural_change.md) - pattern; 4 final.
+- [Divide a Long Change Into Places You Could Walk Away From](PAT_make_every_milestone_a_place_you_could_stop.md) - pattern; 0 design.
 - [Judge a Change's Risk by What It Can Break, Not by How Big It Is](PAT_judge_change_risk_by_what_it_can_break.md) - pattern; 4 final.
 - [Put a Named Boundary Between Your Ideal Code and the Messy Real World](PAT_move_code_across_a_named_quality_boundary.md) - pattern; 0 design.
 - [Refactor Working Code Without Breaking It](AP_refactor_working_code_safely.md) - ap; 4 final.
+- [Run the Old and New Paths Together and Diff Them](PAT_prove_behaviour_held_by_running_both_paths.md) - pattern; 4 final.
+- [Treat the Transition's Leftovers as Part of the Work](PAT_remove_the_scaffolding_a_migration_leaves.md) - pattern; 4 final.

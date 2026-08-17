@@ -19,11 +19,15 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Match the Caller's Mental Model
   - then: Reuse Existing Solutions Instead of Reinventing
   - then: Write Code That Reads Like a Well-Structured Recipe
+- **Work Out How the Code Got This Way Before You Improve It** — read first
+  - then: Divide a Long Change Into Places You Could Walk Away From
 
 ## Objects
 
+- [Apply a New Standard Forward, Not Retroactively](PAT_enforce_a_new_rule_only_on_new_code.md) - pattern; 4 final.
 - [Choose the Proper Build Over the Hacky Shortcut](PAT_invest_in_quality_over_hacky_shortcut.md) - pattern; 0 design.
 - [Concentrate Effort Where Defects Concentrate](PAT_concentrate_effort_where_defects_concentrate.md) - pattern; 4 final.
+  - Variants: `Rank by How Often a File Changes` (method_sequence).
 - [Every Design Maneuver Buys One Dimension and Charges Another](PAT_expect_a_design_maneuver_to_cost_another_dimension.md) - pattern; 0 design.
 - [Fix a Broken Window Now, or Board It Up Where Everyone Can See](PAT_fix_or_board_up_a_broken_window.md) - pattern; 4 final.
 - [Fix the Code When You Cannot Fix the Process](PAT_improve_the_code_when_you_cannot_improve_the_process.md) - pattern; 0 design.
@@ -33,7 +37,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - Variants: `Isolate the Categories That Are Historically Volatile` (method_sequence); `Choose How Late Each Value Is Bound` (method_sequence).
 - [Name the Quality Characteristics You Are Trading Away](PAT_name_the_quality_characteristics_you_trade_away.md) - pattern; 0 design.
 - [Name Which Cognitive Process a Code Smell Breaks](PAT_diagnose_a_code_smell_by_the_cognitive_process_it_breaks.md) - pattern; 3 rough.
+- [Read the Record Around the Code, Not Only the Code](PAT_look_for_the_evidence_outside_the_code.md) - pattern; 0 design.
 - [Reuse Existing Solutions Instead of Reinventing](PAT_reuse_before_reinventing.md) - pattern; 0 design.
   - Variants: `Know the C++ Standard Library and TR1 So You Reuse Them` (emphasis).
 - [Review a Codebase Against the Cognitive Dimensions](DRILL_run_a_cdcb_review_of_a_codebase.md) - drill; 0 design.
 - [Tune a Codebase for the Activities It Will Actually See](PAT_optimize_a_codebase_for_its_likely_activities.md) - pattern; 0 design.
+- [Work Out How the Code Got This Way Before You Improve It](PAT_diagnose_why_the_code_degraded_before_changing_it.md) - pattern; 0 design.
