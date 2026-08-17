@@ -132,10 +132,10 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Abstraction](abstraction/INDEX.md) - 16 object(s).
+- [Abstraction](abstraction/INDEX.md) - 17 object(s).
 - [Avoiding Surprises](avoiding-surprises/INDEX.md) - 11 object(s).
 - [Code Comprehension](code-comprehension/INDEX.md) - 23 object(s).
-- [Code Quality](code-quality/INDEX.md) - 11 object(s).
+- [Code Quality](code-quality/INDEX.md) - 12 object(s).
 - [Contracts](contracts/INDEX.md) - 9 object(s).
 - [Control Flow](control-flow/INDEX.md) - 12 object(s).
 - [Data Types](data-types/INDEX.md) - 3 object(s).

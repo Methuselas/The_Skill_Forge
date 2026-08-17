@@ -43,6 +43,7 @@ variants: []
 - Decide up front that the code is going away. People who believe the code will end up in production cannot bring themselves to write the minimum, and quietly start implementing the system instead of prototyping it.
 - Make disposal structural rather than a matter of willpower. Build the prototype in a different technology from the production code — a Java design explored in Python, an interface mocked in slideware — so it cannot be absorbed.
 - When you must use the production technology, mark it so extension takes a conscious act: prefix the class or package names with `prototype`, which at least makes someone think twice before building on it.
+- If nothing structural stops the code being absorbed and you cannot trust the culture to throw it away, do not build a prototype at all — build a lean but *complete* end-to-end slice instead, carrying real error handling and structure, and grow it. You lose the freedom to ignore details and you gain code you are not lying about.
 
 ## Don't
 - Don't let the prototype grow past its question. Every addition past the answer is production code being written under prototype rules — no tests, no error handling, no design.

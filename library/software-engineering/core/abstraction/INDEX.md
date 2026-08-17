@@ -25,6 +25,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Don't Widen the Public API Just to Reuse or Test Internals](PAT_dont_widen_api_for_reuse_or_testing.md) - pattern; 2 block.
 - [Evaluate a Big Class Against the Pillars and Split It by Concept](DRILL_split_a_too_big_class_by_concept.md) - drill; 3 rough.
 - [Expose a Clean API and Hide Implementation Details](PAT_expose_clean_api_hide_implementation.md) - pattern; 2 block.
+- [Give Every Piece of Knowledge One Authoritative Home](PAT_give_knowledge_one_authoritative_home.md) - pattern; 0 design.
 - [Keep Clean Layers of Abstraction Inside Microservices](PAT_keep_clean_layers_inside_microservices.md) - pattern; 0 design.
 - [Make Each Function Read Like a Single Short Sentence](PAT_write_functions_as_single_sentences.md) - pattern; 3 rough.
   - Variants: `Classify Routine Cohesion and Apply the Matching Repair` (method_sequence).

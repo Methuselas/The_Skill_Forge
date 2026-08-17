@@ -47,6 +47,10 @@ variants: []
 - Refuse to estimate an undefined thing. Nobody can price "a pretty big house", and the honest response to "roughly how long for something like this?" is to define it first or to plan a short exploration whose only deliverable is a better estimate.
 - Give the estimate time. A rushed estimate is an inaccurate estimate, and on anything substantial the estimate deserves planning as a small task in its own right.
 - Re-estimate as you learn, and expect the range to narrow rather than the number to hold. Early estimates span roughly four times to a quarter of the truth; that spread closes as the work reveals itself, so an estimate is a thing you maintain rather than a thing you produce once.
+- Pick the unit to carry the accuracy you actually have. "About six months" and "130 working days" name the same duration and promise very different things; quote in days below about three weeks, in weeks up to two months, in months beyond that, and treat anything past about thirty weeks as a number to think hard before saying aloud at all.
+- State the scope inside the answer rather than refusing to answer. "Twenty minutes, assuming no accidents and there is fuel in the car" is both honest and usable, where either a bare number or a refusal is not.
+- Look for someone who has already done it before building any model. It is the cheapest estimate available and it is routinely better than a careful derivation from first principles.
+- Keep a log of what you estimated against what happened, and when one misses, find out which part was wrong — the model, or a parameter in it. A standing bias cannot be corrected by anyone who is not measuring it.
 - Hold the number when it is challenged, and move the conversation to what is actually negotiable. You cannot negotiate how long the work takes any more than you can negotiate how many feet are in a mile — but features, performance targets, delivery in increments, and people against calendar time are all genuinely on the table. Change one of those, then re-estimate and quote the new number.
 
 ## Don't

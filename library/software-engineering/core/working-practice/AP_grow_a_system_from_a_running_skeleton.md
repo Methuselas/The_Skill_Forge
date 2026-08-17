@@ -55,6 +55,10 @@ Get a system to a state where it runs end to end as early as possible, then repl
 
 ## Notes
 
+One property separates this from prototyping and is easy to lose: **the skeleton is not disposable.** It carries the error checking, the structure, the documentation and the self-checks that any production code carries — it is simply not yet fully functional. A prototype is built to answer a question and then thrown away; this is built to be kept and grown, which is why it can bear weight. Confusing the two produces the worst of both: throwaway code that nobody throws away.
+
+Two benefits fall out of the end-to-end run that are worth naming because they are why the technique is worth its cost. It is an integration platform — components join a system that already works, every day, instead of meeting each other for the first time at the end. And it answers the blank-page problem: once the interactions exist in code, nobody on the team has to invent the shape of the thing from nothing, which is both faster and more consistent than everyone guessing separately.
+
 The alternative this displaces is building the parts separately and integrating at the end, which concentrates all the discovery of how they fit into the phase with the least time left. Growing from a skeleton spreads that discovery across the whole build, one replacement at a time. The related words are worth knowing because they show up in different traditions describing the same move: incremental, iterative, adaptive, evolutionary.
 
 The historical evidence behind this is unusually strong for a practice recommendation. Fred Brooks advised in 1975 building one version to throw away; two decades later he reported that nothing in the intervening years had so radically changed his own practice or its effectiveness as incremental development. Tom Gilb's *Principles of Software Engineering Management* introduced Evolutionary Delivery on the same basis and laid the groundwork for much of what became Agile practice, and a long line of methodologies since rests on the same idea.
