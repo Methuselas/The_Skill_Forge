@@ -49,6 +49,28 @@ variants:
   when_not_to_use: Do not confuse slow control with stiffness or repair a failed line through many local patches when a fresh
     continuous stroke would reveal the problem more clearly.
   absorbed_from_object_id: none
+- variant_id: VAR_eissen_search_product_shape_with_extended_lines_then_select
+  variant_name: Search Product Shape With Extended Lines Then Select
+  variant_basis: method_sequence
+  difference_from_foundation: Uses long light directional lines that may extend beyond the anticipated object so trajectory
+    and proportion can change while drawing; once useful geometry emerges, the governing lines are selected and strengthened.
+    If corrections become dense, the search becomes a lighter underlay and the selected structure is actively redrawn rather
+    than mechanically traced.
+  when_to_use: Use during exploratory product sketching when a fully predetermined contour would lock the form too early.
+  when_not_to_use: Do not preserve every search line into presentation work, and do not use extended-line looseness to avoid
+    resolving perspective or proportion once the design direction is chosen.
+  absorbed_from_object_id: none
+- variant_id: VAR_olofsson_probe_unresolved_product_form_with_selective_tone
+  variant_name: Probe Unresolved Product Form With Selective Tone
+  variant_basis: method_sequence
+  difference_from_foundation: Uses local shadow, highlight, or paired light/dark masses as exploratory probes before every
+    contour is fixed. The tonal proposal tests whether a recess, protrusion, turn, or broader volume gives the product a convincing
+    spatial read or desired expression; geometry is selected or repaired only after the tonal test reveals a useful direction.
+  when_to_use: Use when a product region or overall volume is still ambiguous and tone can cheaply test one interpretation
+    without prematurely hardening the contour.
+  when_not_to_use: Do not let an attractive lighting patch override incoherent geometry, and do not treat exploratory tone
+    as a substitute for resolving the form after a direction is selected.
+  absorbed_from_object_id: none
 ---
 
 # Alternate Free Search and Controlled Refinement in Mark Making
@@ -80,3 +102,5 @@ Dodson's two handwritings are complementary working modes. The general search/co
 `VAR_loomis_solve_uncertainty_on_disposable_study_then_reexecute_cleanly` separates discovery from clean execution when the surface itself is paying for every correction. Resolve the uncertain passage on a rough or spare support, then carry the chosen answer into the final with fewer hesitant repairs.
 
 `VAR_dow_control_long_expressive_lines_with_slow_whole_arm_motion` expands controlled mark-making beyond short corrective strokes. For a long line, move with the whole arm slowly enough to guide the mark continuously; slight organic wavering can remain when the intended direction and character are still clear.
+
+`VAR_eissen_search_product_shape_with_extended_lines_then_select` makes the line pass itself a discovery tool: long light trajectories can overshoot the expected object while proportion and direction are still changing, then the few governing relationships are selected and strengthened. `VAR_olofsson_probe_unresolved_product_form_with_selective_tone` searches through value instead: broad shadow, highlight, or paired light/dark masses can test a possible recess, turn, or overall expression before the final contour is committed. In both variants, search is temporary evidence; the chosen geometry must still be made coherent afterward.

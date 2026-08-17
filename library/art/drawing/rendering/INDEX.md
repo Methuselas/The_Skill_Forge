@@ -13,44 +13,83 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
+- [Account for Perceptual Color Context, Adaptation, and Constancy](PAT_account_for_perceptual_color_context_adaptation_and_constancy.md) - pattern; 3 rough.
+  - Variants: `Isolate Suspect Color, Then Restore Context` (context); `Use Colored Fill to Induce a Complementary Key Read` (context).
 - [Audition One Subject Across Small Color Roughs](DRILL_audition_one_subject_across_small_color_roughs.md) - drill; 0 design.
+  - Variants: `Duplicate a Near-Final Render for Global Finish Auditions` (method_sequence).
 - [Build a Full Tonal Drawing From a Value Sketch and Relational Checks](DRILL_build_full_tonal_drawing_from_value_sketch_and_relational_checks.md) - drill; 4 final.
+  - Variants: `Bracket Observed Values With Neutral Extreme Anchors` (method_sequence).
+- [Build Broken Color as Optical Mixture](PAT_build_broken_color_as_optical_mixture.md) - pattern; 4 final.
+- [Characterize a Light Source by Relative Strength, Apparent Size, and Spectrum](PAT_characterize_light_source_by_relative_strength_apparent_size_and_spectrum.md) - pattern; 0 design.
+  - Variants: `Decompose Clear Day Into Sun, Skylight, and Bounce` (context); `Model Overcast as a Large Diffuse Sky Source` (context); `Model Window Daylight as Aperture Plus Exterior Bounce` (context); `Apply Inverse-Square Falloff to a Local Point Source` (constraint); `Model Golden Hour as Warm Weakened Sun Plus Rich Sky Fill` (context); `Model Partly Cloudy Day as Sun Patches Under Cloud Fill` (context).
 - [Choose Color Strategy to Fit Subject, Purpose, and Viewing Context](PAT_choose_color_strategy_to_fit_subject_purpose_and_viewing_context.md) - pattern; 0 design.
-  - Variants: `Separate Narrative Regions With Contrasting Palette Families` (context); `Differentiate Related Images With Distinct Dominant Palette Signatures` (context); `Use Temperature and Color Intensity as Loose Emotional Cues` (emphasis).
+  - Variants: `Separate Narrative Regions With Contrasting Palette Families` (context); `Differentiate Related Images With Distinct Dominant Palette Signatures` (context); `Use Temperature and Color Intensity as Loose Emotional Cues` (emphasis); `Use a Colored Ground as the Product Base Tone` (method_sequence); `Break Green Monotony With Varied Mixtures and Reddish Neutrals` (context); `Constrain a Scheme to One Hue Family Across Value and Chroma` (context); `Season a Restrained Field With Sparse Opposing Color Accents` (emphasis).
 - [Choose Texture Process by Control and Spread](PAT_choose_texture_process_by_control_and_spread.md) - pattern; 4 final.
+- [Combine Multiple Colored Lights Additively](PAT_combine_multiple_colored_lights_additively.md) - pattern; 4 final.
+- [Compare a Fixed Subject Across Changing Light and Atmosphere](DRILL_compare_fixed_subject_across_changing_light_and_atmosphere.md) - drill; 3 rough.
 - [Compare the Same Subject Across Medium Behaviors](DRILL_compare_same_subject_across_medium_behaviors.md) - drill; 4 final.
 - [Compare the Same Subject Across Tonal Treatments](DRILL_compare_same_subject_across_tonal_treatments.md) - drill; 4 final.
 - [Consolidate Resolved Form With Tone](PAT_consolidate_resolved_form_with_tone.md) - pattern; 3 rough.
-  - Variants: `Map Light and Shadow Before Modeling` (method_sequence); `Fuse a Resolved Figure as One Tonal Mass` (emphasis); `Keep Cloth Modeling Inside the Material Value Family` (emphasis); `Model Form With Viewer-Facing Tone Before Direct Light` (method_sequence); `Model the Head as a Single-Light Plane Value Study` (method_sequence); `Turn Planes With Stroke Direction Before Increasing Value Contrast` (emphasis); `Separate Front and Rim Light Roles on the Head` (emphasis); `Gate Tone on Age and Expression Reading in Outline` (method_sequence); `Concentrate Accents at Structurally Decisive Points` (emphasis); `Freeze Changing Light With a Plane-Value Key` (method_sequence); `Model Portrait Detail From the Light-Shadow Boundary and Planes` (method_sequence); `Shift the Whole Picture Value Key While Preserving Internal Relations` (method_sequence); `Break Uniform Tonal Fields Without Losing the Value Family` (emphasis); `Compress Halftones to Preserve the Large Light/Shadow Grouping` (method_sequence).
+  - Variants: `Map Light and Shadow Before Modeling` (method_sequence); `Fuse a Resolved Figure as One Tonal Mass` (emphasis); `Keep Cloth Modeling Inside the Material Value Family` (emphasis); `Model Form With Viewer-Facing Tone Before Direct Light` (method_sequence); `Model the Head as a Single-Light Plane Value Study` (method_sequence); `Turn Planes With Stroke Direction Before Increasing Value Contrast` (emphasis); `Separate Front and Rim Light Roles on the Head` (emphasis); `Gate Tone on Age and Expression Reading in Outline` (method_sequence); `Concentrate Accents at Structurally Decisive Points` (emphasis); `Freeze Changing Light With a Plane-Value Key` (method_sequence); `Model Portrait Detail From the Light-Shadow Boundary and Planes` (method_sequence); `Shift the Whole Picture Value Key While Preserving Internal Relations` (method_sequence); `Break Uniform Tonal Fields Without Losing the Value Family` (emphasis); `Compress Halftones to Preserve the Large Light/Shadow Grouping` (method_sequence); `Reserve Single Peak Light and Dark for Tonal Unity` (emphasis); `Counterchange Value to Preserve Spatial Detachment` (method_sequence); `Simplify Diffuse Multisource Values Then Restore Reflective Accents` (method_sequence).
+- [Construct a Rainbow From Antisolar Geometry and Additive Light](PAT_construct_rainbow_from_antisolar_geometry_and_additive_light.md) - pattern; 4 final.
+- [Construct Foliage From Characteristic Mass, Skeleton, and Value](PAT_construct_foliage_from_characteristic_mass_skeleton_and_value.md) - pattern; 3 rough.
 - [Control Brush-Ink Tone With Moisture and Pressure](PAT_control_brush_ink_tone_with_moisture_and_pressure.md) - pattern; 4 final.
+- [Control Color Layering With Transparency, Opacity, and Ground](PAT_control_color_layering_with_transparency_opacity_and_ground.md) - pattern; 4 final.
+  - Variants: `Resolve Background Gradient Before Intricate Overpainting` (method_sequence).
 - [Control Edge Hardness From Form, Light, and Focus](PAT_control_edge_hardness_from_form_light_and_focus.md) - pattern; 4 final.
-  - Variants: `Build Soft First, Then Recover Selected Edges` (method_sequence); `Separate Core and Cast Shadow by Cause` (method_sequence).
+  - Variants: `Build Soft First, Then Recover Selected Edges` (method_sequence); `Separate Core and Cast Shadow by Cause` (method_sequence); `Overstate Plane Edges Early, Then Soften to Final Truth` (method_sequence).
 - [Copy and Transfer a Master Color Scheme](DRILL_copy_and_transfer_master_color_scheme.md) - drill; 0 design.
 - [Decompose Color Relationships Into Hue, Value, and Chroma](PAT_decompose_color_relationships_into_hue_value_and_chroma.md) - pattern; 0 design.
+- [Define and Enforce a Picture Gamut](PAT_define_and_enforce_picture_gamut.md) - pattern; 0 design.
+  - Variants: `Audition Picture Gamuts by Moving a Mask` (method_sequence); `Prepare Value Strings From Selected Gamut Colors` (method_sequence).
+- [Design Color Gradation Across Hue, Value, and Chroma](PAT_design_color_gradation_across_hue_value_and_chroma.md) - pattern; 3 rough.
 - [Diagnose and Repair Dead Color Relationships](AP_diagnose_and_repair_dead_color_relationships.md) - ap; 3 rough.
-- [Grade Depth With Atmospheric Effect](PAT_grade_depth_with_atmospheric_effect.md) - pattern; 4 final.
-  - Variants: `Shift Texture Mark Vocabulary With Distance` (method_sequence); `Shift Receding Colors Toward Atmospheric Influence` (method_sequence); `Use Atmospheric Contrast as Local Depth Design` (emphasis).
+- [Filter Underwater Color by Optical Path and Water Content](PAT_filter_underwater_color_by_optical_path_and_water_content.md) - pattern; 4 final.
+- [Grade Depth With Illuminated Atmospheric Effect](PAT_grade_depth_with_atmospheric_effect.md) - pattern; 4 final.
+  - Variants: `Shift Texture Mark Vocabulary With Distance` (method_sequence); `Shift Receding Colors Toward Atmospheric Influence` (method_sequence); `Use Atmospheric Contrast as Local Depth Design` (emphasis); `Reverse Atmospheric Perspective in Warm Near-Sun Glare` (context); `Compress Depth Through Dense Fog, Mist, Smoke, or Dust` (context).
+- [Ground Contacts With Occlusion Shadow](PAT_ground_contacts_with_occlusion_shadow.md) - pattern; 4 final.
 - [Isolate Hue, Value, and Chroma in Matched Color Studies](DRILL_isolate_hue_value_and_chroma_in_matched_color_studies.md) - drill; 0 design.
   - Variants: `Increase Palette Complexity One Hue at a Time` (method_sequence).
 - [Match Rendering Complexity to the Reproduction Process](PAT_match_rendering_complexity_to_reproduction_process.md) - pattern; 3 rough.
+- [Model Daytime Sky From Solar Glare and Horizon Glow](PAT_model_daytime_sky_from_solar_glare_and_horizon_glow.md) - pattern; 4 final.
+  - Variants: `Build Sunset From Low Sun, Air Layers, Cloud Height, and Earth Shadow` (context).
+- [Model Matte Form From Primary Light and Secondary Fill](PAT_model_matte_form_from_primary_light_and_secondary_fill.md) - pattern; 4 final.
+- [Model Specular Reflection From Environment, Source, and Surface Geometry](PAT_model_specular_reflection_from_environment_source_and_surface_geometry.md) - pattern; 4 final.
+  - Variants: `Build Annular Highlights From Oriented Microelements` (context).
+- [Model Subsurface Scattering From Thickness and Backlight](PAT_model_subsurface_scattering_from_thickness_and_backlight.md) - pattern; 4 final.
+  - Variants: `Model Snow From Granular Scattering, Age, and Specularity` (context).
+- [Model Water Surface From View Angle, Reflection, Transmission, and Wave Distortion](PAT_model_water_surface_from_view_angle_reflection_transmission_and_wave_distortion.md) - pattern; 4 final.
 - [Pair Directional Line and Mass Marks as Complementary Roles](PAT_pair_directional_line_and_mass_marks_as_complementary_roles.md) - pattern; 4 final.
-- [Position Peak Chroma Across Light, Halftone, and Shadow](PAT_position_peak_chroma_across_light_halftone_and_shadow.md) - pattern; 4 final.
+  - Variants: `Assign Mixed Media Distinct Line, Mass, and Accent Roles` (method_sequence).
+- [Position Strongest Chroma Across Light, Halftone, and Shadow](PAT_position_peak_chroma_across_light_halftone_and_shadow.md) - pattern; 4 final.
 - [Practice Wet and Dry Brush Animal Texture Swatches](DRILL_practice_wet_and_dry_brush_animal_texture_swatches.md) - drill; 4 final.
 - [Prepare a Construction Drawing for Rendering](AP_prepare_construction_for_rendering.md) - ap; 4 final.
 - [Preserve Value Structure When Translating Tone Into Color](PAT_preserve_value_structure_when_translating_tone_into_color.md) - pattern; 3 rough.
+- [Project Caustic Light From Refractive or Reflective Curvature](PAT_project_caustic_light_from_refractive_or_reflective_curvature.md) - pattern; 4 final.
+- [Project Directional Light Through Apertures Into Beams and Dapple](PAT_project_directional_light_through_apertures_into_beams_and_dapple.md) - pattern; 4 final.
+  - Variants: `Reveal Sunbeams in Participating Atmosphere` (context); `Project Dappled Sun Disks Through Small Openings` (context).
 - [Recompose One Subject Across Tonal Keys and Plans](DRILL_recompose_one_subject_across_tonal_keys_and_plans.md) - drill; 0 design.
-  - Variants: `Calibrate Three Flat Value Families Before Expanding the Range` (constraint); `Use a Temporary Multi-Value Scale to Stabilize Tonal Intervals` (constraint).
+  - Variants: `Calibrate Three Flat Value Families Before Expanding the Range` (constraint); `Use a Temporary Multi-Value Scale to Stabilize Tonal Intervals` (constraint); `Audition Material Value Versus Shadow Weight on a Fixed Outline` (method_sequence).
 - [Render Blocks Without Outline](DRILL_render_blocks_without_outline.md) - drill; 4 final.
+- [Render Luminescent Emission Over a Darker Base](PAT_render_luminescent_emission_over_darker_base.md) - pattern; 4 final.
 - [Render Material From Optical Response](PAT_render_material_from_optical_response.md) - pattern; 4 final.
-  - Variants: `Match Brush Stroke to Animal Coat Finish` (medium); `Imply Animal Body Cover With Medium-Native Marks` (method_sequence); `Articulate a Sample, Then Suggest the Texture` (method_sequence); `Strengthen Material Read Through Neighboring Texture Contrast` (emphasis); `Escalate Descriptive Evidence Until Material Identity Clears` (method_sequence).
+  - Variants: `Match Brush Stroke to Animal Coat Finish` (medium); `Imply Animal Body Cover With Medium-Native Marks` (method_sequence); `Articulate a Sample, Then Suggest the Texture` (method_sequence); `Strengthen Material Read Through Neighboring Texture Contrast` (emphasis); `Escalate Descriptive Evidence Until Material Identity Clears` (method_sequence); `Simplify Secondary Optics When Material Identity Is the Main Read` (context); `Group Hair Into Ribbon Masses With Cross-Form Highlights` (context).
+- [Render Motion Blur From Relative Motion Between Subject and View](PAT_render_motion_blur_from_relative_motion_between_subject_and_view.md) - pattern; 4 final.
 - [Resolve Visible Color From Local Color, Light, and Reflection](PAT_resolve_visible_color_from_local_color_light_and_reflection.md) - pattern; 4 final.
-  - Variants: `Key Color Temperature to Environmental Light` (context).
+  - Variants: `Key Color Temperature to Environmental Light` (context); `Key Product Planes With Simplified Color States` (emphasis); `Build Lighting From an Ambient Matte Base` (method_sequence); `Use Light-Skin Facial Color Zones as a Subtle Starting Bias` (context).
+- [Script Gamut Changes Across Sequential Images](PAT_script_gamut_changes_across_sequential_images.md) - pattern; 0 design.
+  - Variants: `Ground a Color Script in an Observed Daylight Sequence` (method_sequence).
 - [Sculpt and Light an Invented Form for Rendering](DRILL_sculpt_and_light_invented_form_for_rendering.md) - drill; 4 final.
 - [Select and Shape Contour for Expressive Meaning](PAT_select_and_shape_contour_for_expressive_meaning.md) - pattern; 3 rough.
+  - Variants: `Match Final Line Character to Shape and Texture` (emphasis).
 - [Separate Local Value From Light and Shadow Effect](PAT_separate_local_value_from_light_and_shadow_effect.md) - pattern; 4 final.
   - Variants: `Compress Observed Values Into a Pencil-Safe Four-Band Range` (method_sequence); `Shift Neighboring Local Values as a Relational Group` (method_sequence); `Compress Exposure Without Collapsing Material-by-Light States` (constraint).
+- [Simulate Overrange Brightness With Source-Colored Corona](PAT_simulate_overrange_brightness_with_source_colored_corona.md) - pattern; 4 final.
+- [Trade Chroma Against Value at the Medium Gamut Boundary](PAT_trade_chroma_against_value_within_available_gamut.md) - pattern; 3 rough.
+- [Translate Low-Light Perception Into Nocturne Color, Value, and Detail](PAT_translate_low_light_perception_into_nocturne_color_value_and_detail.md) - pattern; 4 final.
 - [Translate the Same Life Study From Grayscale to Color](DRILL_translate_same_life_study_from_grayscale_to_color.md) - drill; 1 skeleton.
   - Variants: `Grow Color Gradually From a Neutral Value Plan` (method_sequence).
 - [Translate Value Into Mark Density and Open Ground](PAT_translate_value_into_mark_density_and_open_ground.md) - pattern; 4 final.
+  - Variants: `Outline, Then Add Selective Tone for Economy` (method_sequence).
 - [Unify a Palette With Shared Color Influence](PAT_unify_palette_with_shared_color_influence.md) - pattern; 3 rough.
-  - Variants: `Work Color Into a Shared Wet Undertone` (medium); `Tone the Palette With One Dominant Color` (method_sequence); `Derive the Picture Palette From Restricted Parent Colors` (method_sequence).
+  - Variants: `Work Color Into a Shared Wet Undertone` (medium); `Tone the Palette With One Dominant Color` (method_sequence); `Derive the Picture Palette From Restricted Parent Colors` (method_sequence); `Mix Chromatic Neutrals From Complementary Pairs` (method_sequence); `Use a Warm Ground to Activate Cool Passages` (method_sequence).

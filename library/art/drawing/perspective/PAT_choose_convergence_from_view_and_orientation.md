@@ -29,9 +29,21 @@ variants:
 - variant_id: VAR_derive_coupled_vps_with_visual_rays
   variant_name: Derive Coupled Vanishing Points With Visual Rays
   variant_basis: method_sequence
-  difference_from_foundation: 'Finalizes Norling''s coupled-VP intuition and Robertson''s visual-ray method: each vanishing point is the picture-plane intersection of a sight ray from the station point parallel to that world direction.'
+  difference_from_foundation: 'Finalizes Norling''s coupled-VP intuition and Robertson''s visual-ray method: each vanishing
+    point is the picture-plane intersection of a sight ray from the station point parallel to that world direction.'
   when_to_use: Use when exact horizontal direction families or rotated perpendicular grids must stay camera-consistent.
   when_not_to_use: Do not treat two vanishing points as independently draggable style handles in an exact perspective setup.
+  absorbed_from_object_id: none
+- variant_id: VAR_eissen_estimate_two_point_convergence_without_drawn_vanishing_points
+  variant_name: Estimate Two-Point Convergence Without Drawn Vanishing Points
+  variant_basis: method_sequence
+  difference_from_foundation: 'Uses local edge-family convergence and relational checks instead of forcing distant vanishing
+    points onto the page: set the view, let the more turned direction converge more strongly, compress surfaces as they approach
+    eye level, and keep both receding families from drifting into axonometric parallelism.'
+  when_to_use: Use for ordinary freehand product views where the realistic vanishing points would lie far outside the sheet
+    and exact measured construction would cost more than the sketch requires.
+  when_not_to_use: Do not use estimation when shared grids, exact measurements, difficult rotations, or technical perspective
+    relationships must be proven explicitly.
   absorbed_from_object_id: none
 ---
 
@@ -65,3 +77,5 @@ D'Amelio's cube sequence is the practical carrier for this rule: named systems a
 This Pattern selects convergence topology. It does not determine exact spacing or correct excessive distortion.
 
 Variants retained in this canonical object: `VAR_derive_coupled_vps_with_visual_rays`.
+
+`VAR_eissen_estimate_two_point_convergence_without_drawn_vanishing_points` is the freehand branch for distant vanishing points. Judge the two receding direction families relationally: the direction effectively aimed toward the nearer vanishing point converges more strongly, surfaces compress as they approach the horizon, and neither family should accidentally become a parallel axonometric set.

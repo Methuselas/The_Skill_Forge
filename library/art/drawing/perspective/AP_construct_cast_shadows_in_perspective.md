@@ -3,9 +3,9 @@ object_id: AP_construct_cast_shadows_in_perspective
 object_type: ap
 name: Construct Cast Shadows in Perspective
 library_path:
-  - art
-  - drawing
-  - perspective
+- art
+- drawing
+- perspective
 stage_binding: 4 final
 lane_fit: both
 foundation_role: specialization
@@ -13,10 +13,10 @@ routing_class: specialized
 specialization_axis: method
 foundation_object_id: none
 tags:
-  - perspective
-  - shadow
-  - light
-  - projection
+- perspective
+- shadow
+- light
+- projection
 cross_links: []
 reference:
   source_title: Perspective Drawing Handbook
@@ -24,14 +24,26 @@ reference:
 confidence: high
 references: []
 variants:
-  - variant_id: VAR_reconstruct_shadows_across_complex_receivers
-    variant_name: Reconstruct Shadows Across Changing Receivers
-    variant_basis: method_sequence
-    difference_from_foundation: 'Absorbs Norling''s receiver-turn checkpoint and extends it to inclined, multi-plane, and curved receivers: keep
-      the same light ray but reconstruct each intersection on the new receiving geometry.'
-    when_to_use: Use when a cast shadow crosses a wall, incline, curved form, or other receiver break.
-    when_not_to_use: Do not continue a shadow as one flat screen-space contour across changing receiver geometry.
-    absorbed_from_object_id: none
+- variant_id: VAR_reconstruct_shadows_across_complex_receivers
+  variant_name: Reconstruct Shadows Across Changing Receivers
+  variant_basis: method_sequence
+  difference_from_foundation: 'Absorbs Norling''s receiver-turn checkpoint and extends it to inclined, multi-plane, and curved
+    receivers: keep the same light ray but reconstruct each intersection on the new receiving geometry.'
+  when_to_use: Use when a cast shadow crosses a wall, incline, curved form, or other receiver break.
+  when_not_to_use: Do not continue a shadow as one flat screen-space contour across changing receiver geometry.
+  absorbed_from_object_id: none
+- variant_id: VAR_eissen_estimate_cast_shadow_from_simplified_proxy_geometry
+  variant_name: Estimate Cast Shadow From Simplified Proxy Geometry
+  variant_basis: method_sequence
+  difference_from_foundation: 'Adds a fast product-sketch branch: reduce the caster to cheap proxy geometry, project only
+    the few boundaries or cross-sections needed to establish direction and footprint, and for thin elevated forms project
+    the top surface or cross-section as a pseudo-cast/drop shadow rather than reconstructing the whole contour. Offset the
+    footprint visibly when that explains elevation and light direction better than a centered halo.'
+  when_to_use: Use when an exploratory or explanatory sketch needs a believable cast shadow quickly and exact constructed
+    projection would cost more time than the drawing requires.
+  when_not_to_use: Do not use the estimate when technical accuracy, a difficult receiver, or close shadow-object alignment
+    must be proven constructively; return to the foundation projection method instead.
+  absorbed_from_object_id: none
 ---
 
 # Construct Cast Shadows in Perspective
@@ -75,3 +87,7 @@ Project cast shadows so the light direction, receiving plane, object position, a
 D'Amelio's chapter is geometric, but the operational question is simple: identify what blocks the light, establish how the rays travel, and solve where those rays meet the receiving surface.
 
 `VAR_reconstruct_shadows_across_complex_receivers` remains a bounded variant under the conditions recorded in its variant metadata.
+
+`VAR_eissen_estimate_cast_shadow_from_simplified_proxy_geometry` is the fast-sketch alternative when exact projection is unnecessary. Reduce a block to the relevant footprint or top corners, an upright cylinder to its top ellipse, a rounded irregular form to a few decisive horizontal cross-sections, or a horizontal cylinder to an enclosing square that can be projected before an ellipse is inscribed. For spherical or similarly simple rounded forms, estimate the slanted shadow ellipse from the established light direction and apparent width. The shortcut is successful when the shadow explains orientation and contact without pretending to be an exact construction.
+
+For a thin elevated caster, the proxy can become extremely cheap: project its top surface or cross-section as the drop-shadow footprint. Keep the result subordinate to the established light direction, and avoid a mechanically centered symmetrical halo when an asymmetric offset makes the elevation and shadow direction easier to read.

@@ -70,15 +70,15 @@ variants:
 - variant_id: VAR_loomis_balance_unequal_masses_by_visual_weight_and_distance
   variant_name: Balance Unequal Masses by Visual Weight and Distance
   variant_basis: emphasis
-  difference_from_foundation: 'Loomis gives the balance/imbalance decision a concrete visual-weight diagnostic: a larger,
-    darker, denser, or otherwise heavier mass can usually sit nearer the compositional center while a lighter mass can counter
-    it farther away. PASS treats this as a perceptual lever heuristic for comparing unequal masses, not literal physics or
-    a numeric balance formula.'
-  when_to_use: Use when an intentionally unequal composition feels as if it is toppling or when moving a secondary mass may
-    restore equilibrium without making both sides equal in size, value, or shape.
-  when_not_to_use: Do not calculate balance mechanically from geometric distance, assume size is the only source of visual
-    weight, or override narrative emphasis, directional movement, color, contrast, or frame pressure that legitimately changes
-    the perceptual balance.
+  difference_from_foundation: 'Loomis gives the balance/imbalance decision a concrete visual-weight diagnostic: unequal masses
+    can counter each other through perceptual weight and distance. Guptill sharpens the audit by noting that weight also shifts
+    with shape complexity or irregularity, contrast against the ground, isolation versus grouping, implied motion, and pressure
+    created by proximity to the frame or corners. PASS treats these as comparison factors, not literal physics or a numeric
+    formula.'
+  when_to_use: Use when an intentionally unequal composition feels as if it is toppling or when moving, regrouping, simplifying,
+    or changing the contrast of a secondary mass may restore equilibrium without making both sides equal.
+  when_not_to_use: Do not calculate balance mechanically from geometric distance or size alone; recheck complexity, contrast,
+    isolation, implied motion, frame pressure, narrative emphasis, color, and directional movement at the whole-picture level.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_straddle_warm_and_cool_color
   variant_name: Straddle Warm and Cool Color

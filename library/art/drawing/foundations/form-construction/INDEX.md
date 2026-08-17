@@ -6,11 +6,11 @@
 
 - [Attach Joint Overlap to the Advancing Member](PAT_attach_joint_overlap_to_advancing_member.md) - pattern; 2 block.
 - [Build Gesture Into Clear Masses](PAT_build_gesture_into_clear_masses.md) - pattern; 2 block.
-  - Variants: `Ovoid, Column, and Spatulate Figure Mass Selection` (method_sequence); `Mass First, Plane Second, Line Last With Wedged Interlocks` (method_sequence); `Square Rounded Form Into Editable Planes` (method_sequence); `Inflate Gesture With Overlapping Spherical Masses` (method_sequence); `Animate Box Logic Without Losing Its Corners` (method_sequence); `Reduce Anatomy to a Landmark-Anchored Planar Blockout` (method_sequence); `Enclose Animal Masses With Viewing Planes and Sections` (method_sequence); `Reduce Complex Form to a Familiar Solid Analogue` (method_sequence).
+  - Variants: `Ovoid, Column, and Spatulate Figure Mass Selection` (method_sequence); `Mass First, Plane Second, Line Last With Wedged Interlocks` (method_sequence); `Square Rounded Form Into Editable Planes` (method_sequence); `Inflate Gesture With Overlapping Spherical Masses` (method_sequence); `Animate Box Logic Without Losing Its Corners` (method_sequence); `Reduce Anatomy to a Landmark-Anchored Planar Blockout` (method_sequence); `Enclose Animal Masses With Viewing Planes and Sections` (method_sequence); `Reduce Complex Form to a Familiar Solid Analogue` (method_sequence); `Analyze a Product as Connected Primary Solids` (method_sequence).
 - [Carry Form Flow Through Joint Transitions](PAT_carry_form_flow_through_joint_transitions.md) - pattern; 3 rough.
   - Variants: `Organize Elbow Flow From Opposed Condylar Masses` (method_sequence); `Build the Knee as a Beveled Block With a Patellar Apex` (method_sequence); `Use Joint Landmarks as Directional Cross-Axes` (method_sequence); `Construct Knee Form From Rolling Joint Mechanics` (method_sequence).
 - [Construct Only the Hidden Path Visible Forms Require](PAT_construct_only_the_hidden_path_visible_forms_require.md) - pattern; 1 skeleton.
-  - Variants: `Scale the Hidden Figure Chain to Visible Dependencies` (method_sequence); `Think Through After Transparent Construction Is Internalized` (method_sequence).
+  - Variants: `Scale the Hidden Figure Chain to Visible Dependencies` (method_sequence); `Think Through After Transparent Construction Is Internalized` (method_sequence); `Retain Selected Construction Guides for Shape Communication` (context).
 - [Create a Depth Sequence With Overlap](PAT_create_depth_sequence_with_overlap.md) - pattern; 2 block.
   - Variants: `Sequence a Foreshortened Figure With Partial Forms` (source).
 - [Cycle Hampton’s Spatial Form Fundamentals](DRILL_cycle_hampton_spatial_form_fundamentals.md) - drill; 2 block.
@@ -25,6 +25,7 @@
 - [Project Form Curves From the Camera View](PAT_project_form_curves_from_camera_view.md) - pattern; 3 rough.
   - Variants: `Square Organic Masses, Solve the View, Then Round Them Back` (method_sequence).
 - [Reverse-Engineer a Finished Drawing Into Primitive Construction](DRILL_reverse_engineer_finished_drawing_into_primitive_construction.md) - drill; 2 block.
+  - Variants: `Reconstruct Product Then Redraw From a New Viewpoint` (method_sequence).
 - [Trace Surface Paths Over Wrapped Forms](DRILL_trace_surface_paths_over_wrapped_forms.md) - drill; 2 block.
   - Variants: `Use Natural Stripes as Surface-Wrap Guides` (context).
 - [Transport Proportional Landmarks Across Views](PAT_transport_proportional_landmarks_across_views.md) - pattern; 2 block.

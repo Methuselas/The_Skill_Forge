@@ -27,7 +27,17 @@ reference:
 confidence: high
 target_skill: retaining one observed relationship long enough to draw it without replacing it with a remembered symbol
 references: []
-variants: []
+variants:
+- variant_id: VAR_guptill_cycle_whole_subject_through_memory_and_reveal
+  variant_name: Cycle the Whole Subject Through Memory and Reveal
+  variant_basis: method_sequence
+  difference_from_foundation: 'Extends short look-hold-draw bursts into a whole-subject memory cycle: study the subject, hide
+    it, block major proportions and distinguishing characteristics from memory, reveal and compare, hide again, then correct
+    from retained observation.'
+  when_to_use: Use when training retention of the subject as an organized whole rather than isolated local features.
+  when_not_to_use: Do not convert the exercise into repeated tracing or continuous reference checking; the memory interval
+    is the point of the rep.
+  absorbed_from_object_id: none
 ---
 
 # Train Observation With Look-Hold-Draw and Blind Bursts
@@ -58,3 +68,5 @@ The drawing shows repeated accurate local observations without long passages tha
 
 ## Notes
 Dodson's blind passages are short intensifications of an ordinary observational loop, not a demand to finish entire drawings without looking at the paper. Continuous access to the subject distinguishes this exercise from short-memory gesture drills that deliberately remove the reference.
+
+`VAR_guptill_cycle_whole_subject_through_memory_and_reveal` extends retention practice to a whole-subject hide, draw, reveal, compare, and redraw cycle.

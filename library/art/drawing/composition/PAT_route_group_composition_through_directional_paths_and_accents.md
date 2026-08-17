@@ -28,8 +28,20 @@ reference:
   author: Ken Hultgren
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_olofsson_balance_product_sheet_with_active_face_directions
+  variant_name: Balance a Product Sheet With Active-Face Directions
+  variant_basis: context
+  difference_from_foundation: Treats each product sketch's active face, implied front, or motion direction as a compositional
+    vector. Vary facing direction together with size and perspective so views route attention through the page instead of
+    all pointing out of frame or converging rigidly on one point.
+  when_to_use: Use when several product views or alternatives share one sheet and their individual orientations create a strong
+    directional rhythm.
+  when_not_to_use: Do not rotate products away from the viewpoint that best communicates the design merely to satisfy decorative
+    page symmetry.
+  absorbed_from_object_id: none
 ---
+
 # Route Group Composition Through Directional Paths and Accents
 
 ## Pattern Rule
@@ -58,3 +70,5 @@ variants: []
 
 ## Notes
 Hultgren's final chapter moves line-of-action thinking from the individual animal to the entire picture. His horse layouts use a foreground foreleg as a vertical that both stabilizes the group and leads into three heads, then use another foreleg as a diagonal toward a rear head accent. His deer layout carries action across separate animals, turns the mother's head toward the fawn, and gives the fawn a secondary motion path. In the draft-horse scene, even the grooves of the earth participate by running downhill against the up-angle of the foreground horse. The portable lesson is not that every image must contain a fixed inventory of vertical, horizontal, and diagonal lines; it is that direction, repetition, opposition, and accent should be coordinated at picture scale so separate subjects behave as one composition.
+
+`VAR_olofsson_balance_product_sheet_with_active_face_directions` treats each product's active face as an arrow in the page composition. Avoid accidental exits at the edge and avoid making every object aim at one rigid center; vary facing, size, and perspective so the group circulates attention while each view still serves its information job.

@@ -58,11 +58,12 @@ variants:
 # Control Perspective Distortion With Viewpoint and Projection Choice
 
 ## Pattern Rule
-**IF** perspective looks stretched, pinched, unnaturally rapid, or implausibly flat **THEN** first determine whether the construction is wrong or whether a valid construction is being viewed/framed from the wrong station relationship; correct the field globally through viewpoint, framing/support scale, or projection choice before repairing individual objects.
+**IF** perspective looks stretched, pinched, unnaturally rapid, implausibly flat, or makes the subject read at a misleading apparent size **THEN** first determine whether the construction is wrong or whether a valid construction is being viewed/framed from the wrong station relationship; correct the field globally through viewpoint, framing/support scale, or projection choice before repairing individual objects.
 
 ## Do
 - Recover or establish the viewing target and viewing distance when the view is exact enough to justify it.
 - Treat vanishing-point spacing as one consequence of the viewpoint geometry, not as the only distortion control.
+- Check the subject's apparent scale as well as edge stretch: stronger convergence from a closer or more aggressive viewpoint can make the same product read as larger or more imposing even when its local proportions remain coherent.
 - When a flat-plane image is valid but requires an implausibly close station point, move the viewpoint back and rebuild the field, crop/reframe, enlarge the support, or cluster key content nearer the viewing target.
 - For a close skyscraper or other very large angular field, distinguish a mathematically valid rectilinear image from a practical display problem: the flat image may need to be physically huge to be experienced from a comfortable distance.
 - When the intended compact image must preserve a much wider directional field than a practical flat-plane setup can carry, switch deliberately to a curvilinear/spherical projection rather than locally bending objects inside a rectilinear field.
@@ -79,12 +80,13 @@ variants:
 - The implied station point/viewing distance is known or at least directionally plausible for the intended presentation.
 - Equivalent objects do not change perspective logic merely because they approach the frame edge.
 - Important content sits in a usable relation to the viewing target unless deliberate edge stress is intended.
+- The chosen convergence does not accidentally make the subject read materially larger or smaller than the intended product-scale impression.
 - A close tall/wide scene has an explicit decision: larger support/reframe versus alternate projection.
 - The chosen projection model is consistent across the full scene.
 - No fixed numeric COV rule is being mistaken for a theorem.
 
 ## Notes
-This Pattern supersedes the earlier D'Amelio VP-spacing-only card. *Viewpoints* resolves the key ambiguity: rectilinear perspective can remain geometrically exact at an extreme field, but only from its implied station point and support geometry. Practical distortion control therefore depends on the intended viewer/display as well as the vanishing geometry. Spherical/curvilinear projection is a deliberate alternate model for compact extreme fields, not a local correction applied after the fact.
+This Pattern supersedes the earlier D'Amelio VP-spacing-only card. *Viewpoints* resolves the key ambiguity: rectilinear perspective can remain geometrically exact at an extreme field, but only from its implied station point and support geometry. Eissen and Steur add a useful design-sketch diagnostic: convergence changes perceived product scale as well as shape, so a technically consistent view can still communicate the wrong size impression. Practical distortion control therefore depends on the intended viewer/display as well as the vanishing geometry. Spherical/curvilinear projection is a deliberate alternate model for compact extreme fields, not a local correction applied after the fact.
 
 `VAR_rectilinear_viewpoint_match` remains a bounded variant under the conditions recorded in its variant metadata.
 

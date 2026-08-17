@@ -38,6 +38,7 @@ confidence: high
 references: []
 variants: []
 ---
+
 # Decompose Color Relationships Into Hue, Value, and Chroma
 
 ## Pattern Rule
@@ -51,12 +52,15 @@ variants: []
 - After isolated tests, restore the full color context and include the relative area occupied by each color in the judgment.
 - Use wheels, scales, swatches, or other ordering aids to clarify relationships and locate a failure, then return to the picture rather than treating the aid as the artwork's governing standard.
 - Diagnose a discord by asking whether the failure comes primarily from hue selection, weak value separation, mismatched chroma, or a combination of those dimensions.
+- Use a color wheel as a process-specific navigation model rather than universal physics; keep subtractive pigment, additive light, and perceptual ordering models conceptually separate when their predictions differ.
+- When warm/cool language affects execution, translate it back into an actual hue direction plus value/chroma changes; temperature is relational shorthand, not a fourth independent color coordinate.
 
 ## Don't
 - Do not change hue, value, and chroma indiscriminately when only one relationship is causing the problem.
 - Do not mistake a convenient color model or evenly spaced scale for a universal recipe for harmonious pictures.
 - Do not judge a color only as an isolated swatch; its quantity, neighboring colors, and position in the design can change the effect.
 - Do not assume analytical separation guarantees a successful scheme; the isolated dimensions still have to be recombined and judged as one composition.
+- Do not assume one traditional RYB wheel completely describes pigment mixing, emitted light, and visual perception at the same time.
 
 ## Checklist
 - The artist can state whether hue, value, chroma, or more than one dimension is currently being changed.

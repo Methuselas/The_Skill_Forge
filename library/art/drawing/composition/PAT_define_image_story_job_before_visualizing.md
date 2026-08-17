@@ -63,6 +63,17 @@ variants:
   when_not_to_use: Do not maximize every cue by default or create ambiguity accidentally; choose the degree of redundancy
     to fit the intended reading.
   absorbed_from_object_id: none
+- variant_id: VAR_eissen_explain_novel_product_with_user_scenario_context
+  variant_name: Explain a Novel Product With User-Scenario Context
+  variant_basis: context
+  difference_from_foundation: Shifts the image job from describing an unfamiliar product in isolation to showing the target
+    user, posture or behavior, product interaction, setting, and visible consequence of use. The product itself may remain
+    suggestive when the interaction is the design idea under discussion.
+  when_to_use: Use when stakeholders cannot infer what a new product does, feels like, provokes, or means from an isolated
+    object sketch.
+  when_not_to_use: Do not let scenario context replace the product views needed to resolve actual form, construction, or engineering
+    questions.
+  absorbed_from_object_id: none
 ---
 
 # Define the Image's Story Job Before Visualizing
@@ -100,3 +111,5 @@ Loomis distinguishes illustrations that largely carry their own message, illustr
 `VAR_loomis_use_cover_as_experience_promise_not_contents_inventory` treats the image as an accurate promise of the work's experience rather than a literal inventory of its contents.
 
 `VAR_dahlig_scale_emotional_cue_redundancy_to_desired_explicitness` adds an explicitness control to story planning. Reinforce the emotion through multiple channels for a forceful read, or deliberately reduce that redundancy when the image should leave more inference to the viewer.
+
+`VAR_eissen_explain_novel_product_with_user_scenario_context` makes use the subject of the image when the object alone cannot explain the concept. Show the relevant person, behavior, environment, interaction, and consequence; keep unresolved product detail only as specific as the scenario needs.

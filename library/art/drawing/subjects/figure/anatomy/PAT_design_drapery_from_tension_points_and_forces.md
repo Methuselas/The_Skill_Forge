@@ -57,6 +57,7 @@ variants:
 - Treat structural landmarks as potential tension points.
 - Let gravity provide the default tendency unless motion, suspension, wind, or another force overrides it.
 - Combine fold families when causes combine.
+- Let fabric weight and stiffness modulate the fold frequency and span: heavier or more resistant cloth tends toward broader, straighter masses with fewer small creases, while lighter or more yielding cloth can support more frequent smaller folds under the same forces.
 - Carry gesture, asymmetry, overlap, hard/soft, and squash/stretch into the fabric.
 
 ## Don't
@@ -68,7 +69,7 @@ variants:
 - The result shows the intended structural or functional change without contradicting the surrounding construction.
 
 ## Notes
-Drapery becomes intelligible when folds are traced back to support, pull, compression, and release instead of copied as independent zigzags.
+Drapery becomes intelligible when folds are traced back to support, pull, compression, and release instead of copied as independent zigzags. Fabric behavior also depends on the cloth itself: under comparable forces, weight and stiffness change how broadly or frequently those folds can form.
 
 `VAR_loomis_separate_garment_construction_from_body_driven_folds` retains **Separate Garment Construction From Body-Driven Folds** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

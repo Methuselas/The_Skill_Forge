@@ -9,31 +9,33 @@
 - [Characterize Story Figures Through Specific Behavior and Evidence](PAT_characterize_story_figures_through_specific_behavior_and_evidence.md) - pattern; 0 design.
   - Variants: `Choose Costume for Character and Value-Mass Role` (constraint); `Carry Emotion Through the Whole Pose and Hands` (emphasis); `Change Emotional Intensity Through Muscular Tension Without Changing the Basic Pose` (emphasis).
 - [Choose Line and Shape Character to Support Emotional Intent](PAT_choose_line_and_shape_character_to_support_emotional_intent.md) - pattern; 0 design.
+  - Variants: `Orient Group Mass for Repose or Instability` (emphasis).
 - [Choose Viewer Participation Through Character Address](PAT_choose_viewer_participation_through_character_address.md) - pattern; 0 design.
 - [Choose Viewpoint to Strengthen the Story Effect](PAT_choose_viewpoint_to_strengthen_story_effect.md) - pattern; 0 design.
-  - Variants: `Set Eye Level from Character or Power Relationship` (context); `Cant the Horizon to Increase Instability and Action` (emphasis).
+  - Variants: `Set Eye Level from Character or Power Relationship` (context); `Cant the Horizon to Increase Instability and Action` (emphasis); `Choose the View That Reveals the Product's Most Useful Information` (context).
 - [Concentrate Contrast and Accents at the Focal Area](PAT_concentrate_contrast_and_accents_at_focal_area.md) - pattern; 3 rough.
-  - Variants: `Spend Observation and Detail by Focal Priority` (emphasis); `Reserve Peak Chroma Against Greyed Support Colors` (emphasis).
+  - Variants: `Spend Observation and Detail by Focal Priority` (emphasis); `Reserve Peak Chroma Against Greyed Support Colors` (emphasis); `Build Focal Contrast With a Graded Surround` (method_sequence).
 - [Crop Decisively to Reshape Figure-Ground Relationships](PAT_crop_decisively_to_reshape_figure_ground_relationships.md) - pattern; 0 design.
   - Variants: `Keep a Revisable Frame With Outer Margin` (method_sequence); `Leave Sacrificial Crop Margin for Downstream Formatting` (constraint); `Treat Frame Proportion as a Compositional Variable, Not a Formula` (constraint).
 - [Define the Image's Story Job Before Visualizing](PAT_define_image_story_job_before_visualizing.md) - pattern; 0 design.
-  - Variants: `Use the Illustration as an Entry Point to the Surrounding Message` (context); `Use the Cover as an Experience Promise Rather Than a Contents Inventory` (context); `Scale Emotional Cue Redundancy to the Desired Explicitness` (emphasis).
+  - Variants: `Use the Illustration as an Entry Point to the Surrounding Message` (context); `Use the Cover as an Experience Promise Rather Than a Contents Inventory` (context); `Scale Emotional Cue Redundancy to the Desired Explicitness` (emphasis); `Explain a Novel Product With User-Scenario Context` (context).
 - [Design a Distance-Read Poster from Brief to Production-Ready Art](AP_design_distance_read_poster_from_brief_to_production_ready_art.md) - ap; 0 design.
 - [Design Depth by Coordinating Spatial Cues](PAT_design_depth_by_coordinating_spatial_cues.md) - pattern; 0 design.
   - Variants: `Use Repeated Known-Size Anchors Across Depth` (method_sequence); `Separate Depth Planes With Simplification, Not Automatic Blur` (style).
 - [Design Lighting to Serve Subject, Mood, and Visual Intent](PAT_design_lighting_to_serve_subject_mood_and_visual_intent.md) - pattern; 0 design.
-  - Variants: `Manipulate Cast Shadow for Expressive Composition` (emphasis); `Plan the Picture Through the Cast-Shadow Pattern` (method_sequence); `Bias the Light/Shadow Mass Toward a Deliberate Dominant Side` (method_sequence); `Audition Lighting Setups for the Strongest Big Simple Form` (method_sequence); `Bias Background Illumination for Silhouette Readability` (constraint).
+  - Variants: `Manipulate Cast Shadow for Expressive Composition` (emphasis); `Plan the Picture Through the Cast-Shadow Pattern` (method_sequence); `Bias the Light/Shadow Mass Toward a Deliberate Dominant Side` (method_sequence); `Audition Lighting Setups for the Strongest Big Simple Form` (method_sequence); `Bias Background Illumination for Silhouette Readability` (constraint); `Use Elevated Oblique Light for Descriptive Product Clarity` (context); `Conceal a Motivated Light Source to Create Mystery and Silhouette` (context).
 - [Design the Whole Picture as an Interlocking Shape Pattern](PAT_design_whole_picture_as_interlocking_shape_pattern.md) - pattern; 0 design.
   - Variants: `Merge Same-Value Shapes Across Object Boundaries` (emphasis); `Reduce the Scene to Non-Object Shape Language` (method_sequence); `Generate Composition from an Informal Subdivision Armature` (method_sequence); `Generate Subject Arrangement from an Abstract Mass Pattern` (method_sequence); `Build a Tonal Plan Around One Dominant Value Family` (emphasis); `Organize the Layout Around an Implied Geometric Motif` (method_sequence); `Treat Dark-and-Light Massing as Composition, Not Merely Literal Shadow` (emphasis); `Subordinate Many Parts to One Dominant Organizing Relation` (emphasis); `Turn Line Weight Into Dark-Light Mass Structure` (method_sequence).
 - [Design Vignette as Open Composition with Page Space](PAT_design_vignette_as_open_composition_with_page_space.md) - pattern; 0 design.
-  - Variants: `Choose Background by Value Range and Depth Need` (constraint).
+  - Variants: `Choose Background by Value Range and Depth Need` (constraint); `Anchor a Product Sketch With a Partial Background Field` (context).
 - [Enrich a Story Moment with Plausible Unstated Specifics](PAT_enrich_story_moment_with_plausible_unstated_specifics.md) - pattern; 0 design.
   - Variants: `Imply the Off-Frame World Through Cast Evidence` (method_sequence); `Use Environmental Conditions as Sensory Narrative Evidence` (context).
 - [Generate Composition Variations Inside a Fixed Frame](DRILL_generate_composition_variations_inside_fixed_frame.md) - drill; 0 design.
   - Variants: `Carry One Theme Across Changing Aspect Ratios` (constraint); `Recompose an Observed Scene From Its Essential Line Skeleton` (method_sequence); `Hold the Line Skeleton, Vary Which Lines Become Masses` (constraint); `Hold the Line Scheme, Remap Whole Areas Between Two Values` (constraint).
 - [Hunt Linear Compositions with Viewfinder Thumbnails](DRILL_hunt_linear_compositions_with_viewfinder_thumbnails.md) - drill; 0 design.
+  - Variants: `Compare Multiple Crops of One Reference With Quick Value Trials` (method_sequence).
 - [Integrate Embedded Illustration with the Surrounding Layout](PAT_integrate_embedded_illustration_with_surrounding_layout.md) - pattern; 0 design.
-  - Variants: `Make the Title Primary on a Title-Led Cover or Jacket` (context); `Judge Lettering as a Tonal Mass Before Reading It as Text` (emphasis).
+  - Variants: `Make the Title Primary on a Title-Led Cover or Jacket` (context); `Judge Lettering as a Tonal Mass Before Reading It as Text` (emphasis); `Group Explanatory Segments With Local Backplates` (context).
 - [Isolate and Recombine Depth Cues on One Scene](DRILL_isolate_and_recombine_depth_cues_on_one_scene.md) - drill; 0 design.
 - [Protect Critical Content from Physical Production Boundaries](PAT_protect_critical_content_from_physical_production_boundaries.md) - pattern; 0 design.
   - Variants: `Simplify Display Contours for Cutting, Support, and Stability` (constraint); `Adapt Applied Design to the Host Material and Surface` (medium).
@@ -44,6 +46,7 @@
   - Variants: `Unify Disparate Elements With a Shared Texture Stroke` (emphasis); `Vary Panel Scale and Viewpoint Across a Sequence` (emphasis); `Differentiate Repeated Zones Through Value Polarity or Motif Scale` (method_sequence).
 - [Resolve Unintended Tangencies With Overlap or Separation](PAT_resolve_unintended_tangencies_with_overlap_or_separation.md) - pattern; 0 design.
 - [Route Group Composition Through Directional Paths and Accents](PAT_route_group_composition_through_directional_paths_and_accents.md) - pattern; 0 design.
+  - Variants: `Balance a Product Sheet With Active-Face Directions` (context).
 - [Route Viewer Attention Through Planned Visual Paths](PAT_route_viewer_attention_through_planned_visual_paths.md) - pattern; 0 design.
   - Variants: `Frame the View With a Dominant Foreground Mass` (method_sequence); `Sequence Narrative Stops With Selective Focus` (method_sequence).
 - [Scale Visual Information to Viewing Time and Display Context](PAT_scale_visual_information_to_viewing_time_and_display_context.md) - pattern; 0 design.

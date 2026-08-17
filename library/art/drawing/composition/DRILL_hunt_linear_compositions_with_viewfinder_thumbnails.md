@@ -30,7 +30,18 @@ reference:
 confidence: high
 references: []
 target_skill: Discovering compositional arrangements in ordinary surroundings by framing and abstracting contour-space relationships
-variants: []
+variants:
+- variant_id: VAR_guptill_compare_multiple_crops_of_one_reference_with_quick_value_trials
+  variant_name: Compare Multiple Crops of One Reference With Quick Value Trials
+  variant_basis: method_sequence
+  difference_from_foundation: Keeps one complex reference fixed and generates several materially different crops, reducing
+    each to a rapid broad-value thumbnail so framing, foreground/sky amount, center of interest, and large value balance can
+    be compared directly.
+  when_to_use: Use when a single reference contains several plausible pictures and the strongest selection is not obvious
+    from looking alone.
+  when_not_to_use: Do not spend enough time rendering each crop that selection turns into a finish contest; the studies must
+    stay cheap and comparable.
+  absorbed_from_object_id: none
 ---
 
 # Hunt Linear Compositions with Viewfinder Thumbnails
@@ -66,3 +77,5 @@ Cut or improvise a small rectangular viewing aperture. Use a pocket sketchbook o
 
 ## Notes
 Loomis asks the artist to cut a small picture finder, walk through ordinary surroundings, and jot down a dozen or two miniature linear arrangements before proceeding. The transferable Art skill is not accurate sketching of the objects; it is learning to discover composition by actively framing the contour-and-space relationships that already exist around you. This differs from the existing same-scene camera-angle drill, which keeps one narrative beat fixed and searches viewpoint for story effect. Here the environment itself is scanned as raw compositional material.
+
+`VAR_guptill_compare_multiple_crops_of_one_reference_with_quick_value_trials` turns one fixed reference into a controlled crop-and-value comparison instead of scanning many different views.

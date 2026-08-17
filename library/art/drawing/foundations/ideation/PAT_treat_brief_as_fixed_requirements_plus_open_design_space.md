@@ -41,6 +41,7 @@ variants: []
 
 ## Do
 - Extract required subject matter, communication outcome, assigned space, mandatory text/product relationships, deadlines, and other actual constraints before drawing.
+- Resolve accuracy/fidelity separately from speed and finish: identify which forms, relationships, or details must remain exact, which may be abbreviated or omitted, how finished the result is expected to look, and what practical role the image must serve. A request for a rough, quick, or sketchy treatment does not by itself authorize factual inaccuracy.
 - Distinguish requirements from suggestions about pose, staging, costume, camera, treatment, or arrangement that may still be negotiable.
 - Ask what purpose a requested element serves so a better pictorial solution can preserve the requirement even when the literal first suggestion changes.
 - Spend creative freedom on decisions the brief leaves open rather than defaulting to the safest literal execution.
@@ -58,6 +59,7 @@ variants: []
 
 ## Checklist
 - Fixed requirements are listed separately from open design decisions.
+- Accuracy obligations, permissible abbreviation, finish level, time budget, and image role are distinguished rather than collapsed into a single idea of "rough" or "finished."
 - Each major open choice has a reason tied to the intended communication.
 - The solution preserves the purpose behind required elements.
 - Any risky deviation is surfaced before expensive execution.

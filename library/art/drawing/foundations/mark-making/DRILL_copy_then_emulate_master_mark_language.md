@@ -25,7 +25,8 @@ reference:
   source_title: Keys to Drawing
   author: Bert Dodson
 confidence: high
-target_skill: recognizing how a particular artist's stroke length, pressure, pace, connection, and rhythm create a transferable mark-making system
+target_skill: recognizing how a particular artist's stroke length, pressure, pace, connection, and rhythm create a transferable
+  mark-making system
 references: []
 variants: []
 ---
@@ -47,6 +48,7 @@ Choose a master drawing with clearly legible marks and use a reasonably similar 
 3. Put the master drawing aside or at a secondary reference position and draw a new subject using the borrowed handwriting.
 4. Note which mark behaviors transfer and which collapse when they are no longer tied to the copied shapes.
 5. Repeat later with a markedly different artist rather than settling permanently into one borrowed manner.
+6. If the source is a reduced reproduction, infer the original mark scale from its structural role and overall drawing size instead of literally copying the reproduced line width.
 
 ## Success Check
 The second drawing applies recognizable mark-making behavior to new forms without tracing or repeating the original composition.
@@ -55,6 +57,7 @@ The second drawing applies recognizable mark-making behavior to new forms withou
 - Copying subject contours while ignoring the physical character of the strokes.
 - Treating emulation as permanent style adoption.
 - Choosing a different medium whose behavior makes the target mark language impossible to test.
+- Turning a broad economical source into finicky micro-marking because the reference was reproduced smaller than the original.
 
 ## Notes
 Dodson separates copying from emulating: copying gives a felt understanding of another artist's handwriting, while emulating tests whether that understanding can survive on a new subject.

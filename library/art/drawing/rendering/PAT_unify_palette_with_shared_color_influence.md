@@ -33,25 +33,58 @@ variants:
 - variant_id: VAR_loomis_work_color_into_a_shared_wet_undertone
   variant_name: Work Color Into a Shared Wet Undertone
   variant_basis: medium
-  difference_from_foundation: "Adds a physical-paint route for palette unity: establish a colored wet ground or undertone and let later strokes pick up enough of that common influence to relate otherwise separate colors without erasing their identities."
-  when_to_use: Use in a medium and workflow where wet-into-wet pickup or transparent influence can deliberately carry one ground color through later passages.
-  when_not_to_use: Do not use when the ground will contaminate colors unpredictably, when clean isolated mixtures are required, or when the medium does not support controlled wet interaction.
+  difference_from_foundation: 'Adds a physical-paint route for palette unity: establish a colored wet ground or
+    undertone and let later strokes pick up enough of that common influence to relate otherwise separate colors
+    without erasing their identities.'
+  when_to_use: Use in a medium and workflow where wet-into-wet pickup or transparent influence can deliberately
+    carry one ground color through later passages.
+  when_not_to_use: Do not use when the ground will contaminate colors unpredictably, when clean isolated mixtures
+    are required, or when the medium does not support controlled wet interaction.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_tone_palette_with_one_dominant_color
   variant_name: Tone the Palette With One Dominant Color
   variant_basis: method_sequence
-  difference_from_foundation: "Adds a mixture-based route for palette unity: introduce a small amount of one chosen influence into multiple palette colors so they remain distinct but share a family resemblance and reduced opposition."
-  when_to_use: Use when many individually plausible colors feel unrelated, over-separated, or mechanically sampled and the picture needs a stronger overall color family.
-  when_not_to_use: Do not add so much common color that important hue distinctions collapse, focal accents lose their function, or every surface becomes the same mixture.
+  difference_from_foundation: 'Adds a mixture-based route for palette unity: introduce a small amount of one chosen
+    influence into multiple palette colors so they remain distinct but share a family resemblance and reduced opposition.'
+  when_to_use: Use when many individually plausible colors feel unrelated, over-separated, or mechanically sampled
+    and the picture needs a stronger overall color family.
+  when_not_to_use: Do not add so much common color that important hue distinctions collapse, focal accents lose
+    their function, or every surface becomes the same mixture.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_derive_picture_palette_from_restricted_parent_colors
   variant_name: Derive the Picture Palette From Restricted Parent Colors
   variant_basis: method_sequence
-  difference_from_foundation: "Adds a limited-palette route for built-in relationship: choose a small set of parent colors and derive most subsequent mixtures from that set so the picture shares common color ancestry without requiring one identical toner in every mixture."
-  when_to_use: Use when a broad palette feels scattered, when a strong family relationship is desirable, or when deliberate mixture limits will help keep the color conception coherent.
-  when_not_to_use: Do not treat one historical primary-color model as universal color science, and do not restrict the palette so severely that necessary material, lighting, or focal distinctions disappear.
+  difference_from_foundation: 'Adds a limited-parent route for built-in relationship: choose any small set of deliberately
+    selected parent colors—not necessarily historical primaries, tube colors, or equal-chroma notes—and derive the
+    picture through their tints, shades, tones, intermediate mixtures, and controlled exceptions.'
+  when_to_use: Use when a broad palette feels scattered or when three or another small number of parent colors can
+    generate a coherent range while keeping unrelated outsiders rare.
+  when_not_to_use: Do not force historical primary-color doctrine, equal chroma, or one fixed parent count; preserve
+    necessary material, lighting, and focal distinctions.
+  absorbed_from_object_id: none
+- variant_id: VAR_gurney_mix_chromatic_neutrals_from_complementary_pairs
+  variant_name: Mix Chromatic Neutrals From Complementary Pairs
+  variant_basis: method_sequence
+  difference_from_foundation: Builds useful grays and near-neutrals from opposing color families so some parent
+    hue identity survives and the neutral field can mediate between chromatic accents.
+  when_to_use: Use when black-plus-white gray feels disconnected from the active palette or when neutral passages
+    should share ancestry with stronger colors.
+  when_not_to_use: Do not force exact textbook complements or neutralize until all hue identity disappears when
+    a chromatic neutral would serve better.
+  absorbed_from_object_id: none
+- variant_id: VAR_gurney_use_warm_ground_to_activate_cool_passages
+  variant_name: Use a Warm Ground to Activate Cool Passages
+  variant_basis: method_sequence
+  difference_from_foundation: Establishes a restrained warm ground beneath a picture expected to contain substantial
+    cool color, then allows controlled fragments of that ground to remain optically active through later coverage
+    for shared influence and complementary sparks.
+  when_to_use: Use when an established underlying warmth can unify blue/green/cool passages without requiring one
+    identical toner in every mixture.
+  when_not_to_use: Do not leave the ground exposed mechanically or let it contaminate passages that require clean
+    opaque coverage.
   absorbed_from_object_id: none
 ---
+
 # Unify a Palette With Shared Color Influence
 
 ## Pattern Rule
@@ -83,3 +116,9 @@ variants:
 Palette unity can be designed by letting many colors participate in one larger influence. That influence may enter physically through a colored wet ground, through deliberate palette mixtures, or through another controlled workflow. The transferable principle is relational: reduce unnecessary color isolation while preserving the differences the picture still needs.
 
 `VAR_loomis_work_color_into_a_shared_wet_undertone` is a medium-dependent version that uses actual paint pickup from a common ground. `VAR_loomis_tone_palette_with_one_dominant_color` achieves the same family resemblance by deliberately mixing a small amount of one chosen color into multiple palette colors. `VAR_loomis_derive_picture_palette_from_restricted_parent_colors` builds relationship from a small parent palette so later mixtures share common ancestry. A narrow transitional color can also soften an over-abrupt meeting between two color families when it genuinely relates to both sides.
+
+`VAR_loomis_derive_picture_palette_from_restricted_parent_colors` is not restricted to canonical primaries. A small parent set can be chosen anywhere in color space and exploited through broad value/chroma variation so long as unrelated outsiders remain rare enough for the ancestry to stay legible.
+
+`VAR_gurney_mix_chromatic_neutrals_from_complementary_pairs` Builds useful grays and near-neutrals from opposing color families so some parent hue identity survives and the neutral field can mediate between chromatic accents.
+
+`VAR_gurney_use_warm_ground_to_activate_cool_passages` Establishes a restrained warm ground beneath a picture expected to contain substantial cool color, then allows controlled fragments of that ground to remain optically active through later coverage for shared influence and complementary sparks.

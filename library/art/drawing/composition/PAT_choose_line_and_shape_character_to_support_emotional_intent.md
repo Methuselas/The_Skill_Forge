@@ -32,7 +32,17 @@ reference:
   author: Andrew Loomis
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_guptill_orient_group_mass_for_repose_or_instability
+  variant_name: Orient Group Mass for Repose or Instability
+  variant_basis: emphasis
+  difference_from_foundation: 'Adds a mass-orientation audition: a grouped shape with a broad, convincing support can reinforce
+    repose, while a mass balanced on a point, rounded base, or precarious orientation can reinforce motion or instability.'
+  when_to_use: Use when the large grouped silhouette should support a calm, settled, active, or precarious emotional read
+    before detail.
+  when_not_to_use: Do not treat triangle, point, or base shapes as fixed emotional symbols; judge the effect in the actual
+    composition.
+  absorbed_from_object_id: none
 ---
 # Choose Line and Shape Character to Support Emotional Intent
 
@@ -62,3 +72,5 @@ variants: []
 
 ## Notes
 Loomis's “relationship of line to emotional response” plate groups circles, ovals, spirals, radiating structures, triangles, formal divisions, irregular subdivisions, curves, and angular arrangements with differing emotional associations. The transferable capability is not the plate's period-specific one-to-one labels; it is the design decision to make the dominant line-and-shape character participate in the intended emotional read, then test that association in context.
+
+`VAR_guptill_orient_group_mass_for_repose_or_instability` auditions the support and balance of the grouped silhouette as one lever for calm, motion, or precariousness without turning shape types into fixed emotional symbols.

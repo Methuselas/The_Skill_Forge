@@ -54,6 +54,17 @@ variants:
   when_not_to_use: Do not reduce typography to tone when legibility, exact type specification, or textual hierarchy imposes
     requirements the mass treatment must preserve.
   absorbed_from_object_id: none
+- variant_id: VAR_olofsson_group_explanatory_segments_with_local_backplates
+  variant_name: Group Explanatory Segments With Local Backplates
+  variant_basis: context
+  difference_from_foundation: Uses local shaded or value fields behind selected clusters of diagrams, text, scenarios, alternate
+    views, or detail sketches so related information groups separate clearly without forcing the whole sheet into a uniform
+    boxed grid.
+  when_to_use: Use for dense explanatory sheets where several kinds of information must remain grouped and scannable while
+    the overall page should stay open and dynamic.
+  when_not_to_use: Do not give every segment an equal box or equal contrast when their explanatory importance differs; that
+    recreates the rigid grid this method is meant to avoid.
+  absorbed_from_object_id: none
 ---
 
 # Integrate Embedded Illustration with the Surrounding Layout
@@ -88,3 +99,5 @@ variants:
 Loomis treats magazine illustration as one unit inside a larger page design and repeatedly asks the artist to coordinate picture, copy, product, white space, and value pattern. The portable principle extends beyond advertising: an embedded image should answer the design conditions around it rather than behaving like an unrelated rectangle pasted into place. `VAR_loomis_make_title_primary_on_title_led_cover_or_jacket` specializes this for title-led covers and jackets by making the required identifier the first layout read and having the illustration support that hierarchy.
 
 `VAR_dow_judge_lettering_as_tonal_mass_before_reading_as_text` treats lettering as part of the page value design before fine typographic character is judged. Step back and compare the density created by letter size, stroke thickness, inter-letter spacing, and surrounding space, while preserving the legibility and hierarchy the text still needs.
+
+`VAR_olofsson_group_explanatory_segments_with_local_backplates` organizes a dense sheet by placing backing fields only behind related clusters. Let group size and contrast follow explanatory importance, and preserve enough unboxed page space that the composition does not collapse into a uniform panel matrix.

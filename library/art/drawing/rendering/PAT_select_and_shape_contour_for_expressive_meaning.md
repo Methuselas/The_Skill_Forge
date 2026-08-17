@@ -29,7 +29,17 @@ reference:
   author: Andrew Loomis
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_guptill_match_final_line_character_to_shape_and_texture
+  variant_name: Match Final Line Character to Shape and Texture
+  variant_basis: emphasis
+  difference_from_foundation: 'After construction and proportion are secure, vary final contour character with the represented
+    form and surface instead of applying one mechanically uniform outline: delicate versus strong, fine versus broad, and
+    locally graded where the subject calls for it.'
+  when_to_use: Use in line-led rendering when a uniform contour makes unlike shapes or materials feel mechanically identical.
+  when_not_to_use: Do not vary line character randomly or let surface suggestion override the structural contour that still
+    has to read.
+  absorbed_from_object_id: none
 ---
 
 # Select and Shape Contour for Expressive Meaning
@@ -61,3 +71,5 @@ variants: []
 
 ## Notes
 In the Opening Chat, Loomis separates mechanically correct contour placement from what he calls real drawing: interpretation, selection, and statement of contour for meaning. He explicitly allows the chosen line to depart from the literal observed boundary when another contour better expresses qualities such as grace, character, or charm. The Pattern preserves that decision while adding a firm PASS boundary: expressive restatement must remain answerable to construction and purpose, and literal fidelity remains valid when it is the task.
+
+`VAR_guptill_match_final_line_character_to_shape_and_texture` delays final line-character decisions until structure is secure, then varies contour strength with the form and surface being described.

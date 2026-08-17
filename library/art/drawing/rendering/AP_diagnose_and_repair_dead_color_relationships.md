@@ -37,13 +37,14 @@ confidence: high
 references: []
 variants: []
 ---
+
 # Diagnose and Repair Dead Color Relationships
 
 ## Objective
 Repair a picture whose color feels dull, disconnected, muddy, or ineffective by diagnosing relational causes before adding saturation indiscriminately.
 
 ## Steps / Flow
-1. **Stop global saturation fixes.** Before making the whole image brighter or more colorful, identify whether the failure is actually chroma, value organization, palette unity, lighting logic, or focal hierarchy.
+1. **Fork mixture failure from relational failure.** First ask whether repeated mixing has physically overhomogenized a passage and erased useful component variation, or whether the mixture itself is serviceable but dead because of value organization, neighboring chroma, palette unity, lighting, or focal hierarchy.
 2. **Check for unrelated color competition.** Ask whether too many raw or independently chosen colors are fighting each other. If so, simplify the active palette or introduce a stronger shared color influence.
 3. **Recheck the large value masses.** Temporarily ignore hue and verify that the major light, middle, and dark organization still reads. Repair value structure before expecting color alone to create clarity.
 4. **Inspect light-to-shadow color behavior.** Check whether highlights, halftones, turning regions, and shadows carry plausible relative chroma instead of one mechanical blend or arbitrary shadow hue.
@@ -54,3 +55,5 @@ Repair a picture whose color feels dull, disconnected, muddy, or ineffective by 
 
 ## Notes
 A picture can feel "dead in color" for several different reasons, and indiscriminately adding purer pigment or stronger saturation can make the relationships worse. The useful troubleshooting sequence is relational: simplify competing hues, verify value structure, repair light and reflection logic, provide muted support for accents, and only then restore chroma where the picture truly needs it. This AP coordinates existing color skills rather than replacing them with a single correction formula.
+
+Gray and brown are not inherently defective colors. A muted mixture can be exactly what a strong palette needs, while a picture full of individually clean high-chroma notes can still fail through unrelated competition. Repair actual mixture collapse differently from relational deadness.

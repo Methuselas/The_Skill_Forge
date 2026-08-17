@@ -28,8 +28,19 @@ reference:
   author: Bert Dodson
 confidence: high
 references: []
-target_skill: organizing a full tonal drawing from a stable large-value plan while keeping later local modeling subordinate to whole-image value relationships
-variants: []
+target_skill: organizing a full tonal drawing from a stable large-value plan while keeping later local modeling subordinate
+  to whole-image value relationships
+variants:
+- variant_id: VAR_guptill_bracket_observed_values_with_neutral_extreme_anchors
+  variant_name: Bracket Observed Values With Neutral Extreme Anchors
+  variant_basis: method_sequence
+  difference_from_foundation: Before committing the tonal range, compare suspected lights and darks against neutral white
+    and black anchors, or equivalent reference patches, so observed value is judged relationally rather than inferred from
+    the object name.
+  when_to_use: Use when local-color labels such as white, black, or gray are biasing value judgment under unusual illumination.
+  when_not_to_use: Do not force every scene to contain literal paper white or absolute black; the anchors calibrate observation
+    and can then be compressed to the intended output range.
+  absorbed_from_object_id: none
 ---
 
 # Build a Full Tonal Drawing From a Value Sketch and Relational Checks
@@ -63,3 +74,5 @@ Choose a subject with a readable light pattern. Use a viewfinder if helpful. Wor
 
 ## Notes
 Dodson's method uses squinting, a small value plan, and repeated relational comparison to keep a long tonal drawing coherent. The exercise is subject-general and is meant to train value judgment, not prescribe one rendering medium.
+
+`VAR_guptill_bracket_observed_values_with_neutral_extreme_anchors` uses neutral light and dark anchors to break local-color naming bias before the working value range is committed.

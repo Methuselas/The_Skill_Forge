@@ -30,37 +30,39 @@ variants:
 - variant_id: VAR_loomis_compress_observed_values_into_pencil_safe_four_band_range
   variant_name: Compress Observed Values Into a Pencil-Safe Four-Band Range
   variant_basis: method_sequence
-  difference_from_foundation: 'Adds Loomis''s medium-aware pencil compression: when the observed dynamic range is broader
-    than pencil can comfortably reproduce, preserve the ordering of local values and illumination while mapping the subject
-    into a small controlled set of value families - paper white for extreme lights, very delicate gray for modeled light,
-    middle gray for halftone, and dark gray/black for shadow and the deepest accents.'
-  when_to_use: Use when a pencil rendering is becoming muddy because too many closely spaced observed grays are being copied
-    literally, or when a broad value structure must stay readable despite the medium's practical range.
-  when_not_to_use: Do not treat four bands as a universal tonal law or force subtle subjects into four equal steps. Use more
-    or fewer groups when the medium, subject, or intended finish needs them, and preserve local-value ordering so intrinsically
-    dark materials do not become falsely light merely because they are illuminated.
+  difference_from_foundation: 'Adds Loomis''s medium-aware pencil compression: when the observed dynamic range is
+    broader than pencil can comfortably reproduce, preserve the ordering of local values and illumination while
+    mapping the subject into a small controlled set of value families - paper white for extreme lights, very delicate
+    gray for modeled light, middle gray for halftone, and dark gray/black for shadow and the deepest accents.'
+  when_to_use: Use when a pencil rendering is becoming muddy because too many closely spaced observed grays are
+    being copied literally, or when a broad value structure must stay readable despite the medium's practical range.
+  when_not_to_use: Do not treat four bands as a universal tonal law or force subtle subjects into four equal steps.
+    Use more or fewer groups when the medium, subject, or intended finish needs them, and preserve local-value ordering
+    so intrinsically dark materials do not become falsely light merely because they are illuminated.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_shift_neighbor_local_values_as_relational_group
   variant_name: Shift Neighboring Local Values as a Relational Group
   variant_basis: method_sequence
-  difference_from_foundation: Loomis makes the local-value comparison operational by holding the approximate difference between
-    neighboring materials while a shared illumination change raises or lowers the group. PASS preserves this as a relational
-    check rather than Loomis's absolute claim that the difference remains constant under every possible light.
-  when_to_use: Use when two neighboring materials are drifting independently during a lighting change and their established
-    local-value ordering or separation needs to remain legible as one illumination family moves lighter or darker.
-  when_not_to_use: Do not lock the numerical difference mechanically when different materials, colored illumination, specularity,
-    translucency, exposure, or other optical effects legitimately change the apparent separation. Preserve the relationship
-    only as far as the observed or designed light supports it.
+  difference_from_foundation: Loomis makes the local-value comparison operational by holding the approximate difference
+    between neighboring materials while a shared illumination change raises or lowers the group. PASS preserves
+    this as a relational check rather than Loomis's absolute claim that the difference remains constant under every
+    possible light.
+  when_to_use: Use when two neighboring materials are drifting independently during a lighting change and their
+    established local-value ordering or separation needs to remain legible as one illumination family moves lighter
+    or darker.
+  when_not_to_use: Do not lock the numerical difference mechanically when different materials, colored illumination,
+    specularity, translucency, exposure, or other optical effects legitimately change the apparent separation. Preserve
+    the relationship only as far as the observed or designed light supports it.
   absorbed_from_object_id: none
 - variant_id: VAR_vandijk_compress_exposure_without_collapsing_material_light_states
   variant_name: Compress Exposure Without Collapsing Material-by-Light States
   variant_basis: constraint
-  difference_from_foundation: Allows the value range to be compressed away from literal camera-like exposure when necessary
-    to keep important combinations of material and illumination readable as distinct states.
-  when_to_use: Use when extreme brightness or darkness would merge materially important states such as lit snow, shadowed
-    snow, lit rock, and shadowed rock into an unreadable value collapse.
-  when_not_to_use: Do not flatten the lighting arbitrarily; preserve the relational logic of light, material, and distance
-    while remapping the range only as much as readability requires.
+  difference_from_foundation: Allows the value range to be compressed away from literal camera-like exposure when
+    necessary to keep important combinations of material and illumination readable as distinct states.
+  when_to_use: Use when extreme brightness or darkness would merge materially important states such as lit snow,
+    shadowed snow, lit rock, and shadowed rock into an unreadable value collapse.
+  when_not_to_use: Do not flatten the lighting arbitrarily; preserve the relational logic of light, material, and
+    distance while remapping the range only as much as readability requires.
   absorbed_from_object_id: none
 ---
 
@@ -76,11 +78,13 @@ variants:
 - Let a dark local-value object remain part of a darker family even when illuminated, and let a light local-value object become substantially darker when turned away from strong light.
 - Use direct observation to override symbolic labels such as “white snow,” “light skin,” or “black hair” when the actual value relationships differ.
 - Recheck the whole value range after changing the lighting because illumination can cause previously separate local-value shapes to merge or separate.
+- Treat local-value ordering as most reliable when surfaces are compared under comparable illumination; across different light families, a strong light ratio can make a nominally white surface in shadow darker than a nominally black surface in direct light.
 
 ## Don't
 - Assign a fixed tone from the object's name or remembered color.
 - Confuse a surface being intrinsically dark with that surface being in shadow.
 - Lighten every nominally white object until it breaks the observed or designed value pattern.
+- Do not preserve intrinsic dark-before-light ordering globally when the illumination difference is strong enough to reverse the visible values.
 
 ## Checklist
 - You can state which major value differences come from material/local value and which come from illumination.

@@ -52,6 +52,20 @@ variants:
   when_not_to_use: Do not cant the horizon as decoration, and do not let camera roll excuse incoherent perspective or accidental
     staging.
   absorbed_from_object_id: none
+- variant_id: VAR_eissen_choose_viewpoint_for_product_information
+  variant_name: Choose the View That Reveals the Product's Most Useful Information
+  variant_basis: context
+  difference_from_foundation: 'Adds a descriptive product-design criterion to camera choice: identify the dominant informative
+    face and keep it less foreshortened than secondary faces, expose enough neighboring surfaces to make volume legible, and
+    reject views where important parts overlap and hide one another. Deliberately favor a high, low, side, or user-like view
+    when the current design problem lives on a particular surface or interaction; the most informative view may change as
+    the design question changes.'
+  when_to_use: Use when the drawing is meant to investigate, compare, explain, or develop a product and the most useful camera
+    is the one that makes its relevant shape or functional relationships easiest to read.
+  when_not_to_use: Do not force an oblique or dramatic view when a side, front, or other direct view communicates the needed
+    information more clearly, do not add foreshortening past the point where needed surface information disappears, and do
+    not expect one view to explain every side or relationship of a product.
+  absorbed_from_object_id: none
 ---
 
 # Choose Viewpoint to Strengthen the Story Effect
@@ -84,3 +98,6 @@ Marvel demonstrates the same doorway entrance, telephone confrontation, and vill
 `VAR_loomis_set_eye_level_from_character_or_power_relationship` adds a character-centered viewpoint question: decide whose eye height the picture implicitly occupies, then use that relation to support power, scale, age, intimacy, or detachment without turning low/high-angle tendencies into fixed emotional formulas.
 
 `VAR_dumitrescu_cant_horizon_to_increase_instability_and_action` adds camera roll to the viewpoint toolbox. Test the same scene level and tilted; preserve the cant only when it contributes a needed instability or action read and the perspective still holds together.
+`VAR_eissen_choose_viewpoint_for_product_information` adds a descriptive product-design branch to the same camera decision. Choose the side and elevation by what the sketch must reveal: direct profile is often best for silhouette and side-view comparison; controlled foreshortening can add depth but progressively sacrifices visible surface information; a higher user-like view can expose controls; and a three-dimensional view becomes necessary when form transitions, connections, or hidden spatial relationships are the information being designed.
+
+The Eissen product-information route is diagnostic rather than dramatic: identify the face that carries the current design question, keep that face readable, expose only enough secondary surface to explain volume, and watch for self-overlap that hides important parts. A user-like viewpoint is one useful criterion, not an automatic default.

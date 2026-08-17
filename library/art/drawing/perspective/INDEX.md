@@ -10,17 +10,18 @@
   - Variants: `Loose Pose Box for Animal Angle Shots` (context).
 - [Build a Coherent Grid When Vanishing Points Are Off the Page](PAT_build_coherent_grid_when_vanishing_points_are_off_page.md) - pattern; 1 skeleton.
 - [Build Complex Volumes With X-Y-Z Sections](AP_build_complex_volumes_with_xyz_sections.md) - ap; 2 block.
-  - Variants: `Slice the Torso at Anatomical Landmark Levels` (method_sequence); `Connect Leg Sections With Anatomical Rails` (method_sequence).
+  - Variants: `Slice the Torso at Anatomical Landmark Levels` (method_sequence); `Connect Leg Sections With Anatomical Rails` (method_sequence); `Solve Cylindrical Junctions With Projected Cross-Sections` (method_sequence); `Construct Curved Tubes With Sections and Longitudinal Rails` (method_sequence); `Control Changing Product Rounding With Sparse Sections and Seams` (method_sequence); `Curve a Surface by Offsetting Sections From a Flat Datum` (method_sequence).
 - [Calibrate a Scene From One Figure](DRILL_calibrate_scene_from_one_figure.md) - drill; 0 design.
 - [Carry Scale Through Depth With Height and Width Guides](PAT_carry_scale_through_depth_with_height_and_width_guides.md) - pattern; 2 block.
   - Variants: `Scale Cropped Figures From Visible Corresponding Landmarks` (method_sequence).
 - [Choose Convergence From View and Object Orientation](PAT_choose_convergence_from_view_and_orientation.md) - pattern; 1 skeleton.
-  - Variants: `Derive Coupled Vanishing Points With Visual Rays` (method_sequence).
+  - Variants: `Derive Coupled Vanishing Points With Visual Rays` (method_sequence); `Estimate Two-Point Convergence Without Drawn Vanishing Points` (method_sequence).
 - [Construct a Shared Scene Perspective Field](AP_construct_a_shared_scene_perspective_field.md) - ap; 0 design.
   - Variants: `Lock POV and Large Volumes With a Minimal Underlay` (method_sequence); `Calibrate the Shared Scene From a Trusted Figure` (method_sequence).
 - [Construct Cast Shadows in Perspective](AP_construct_cast_shadows_in_perspective.md) - ap; 4 final.
-  - Variants: `Reconstruct Shadows Across Changing Receivers` (method_sequence).
+  - Variants: `Reconstruct Shadows Across Changing Receivers` (method_sequence); `Estimate Cast Shadow From Simplified Proxy Geometry` (method_sequence).
 - [Construct Circles as Ellipses on Perspective Planes](PAT_construct_circles_as_ellipses_on_perspective_planes.md) - pattern; 2 block.
+  - Variants: `Derive a Perspective Frame From an Established Ellipse` (method_sequence).
 - [Construct Inclined Planes From Base Vanishing Directions](PAT_construct_inclined_planes_from_base_vanishing_directions.md) - pattern; 2 block.
   - Variants: `Use a Slope Auxiliary Vanishing Direction` (method_sequence).
 - [Construct Reflections Across Arbitrary Planar Mirrors](PAT_construct_reflections_across_arbitrary_planes.md) - pattern; 3 rough.
@@ -28,7 +29,7 @@
   - Variants: `Rectilinear Viewpoint Match` (method_sequence); `Extreme-Field Projection Swap` (method_sequence); `Use the One-Look Edge Diagnostic` (method_sequence).
 - [Diagnose and Correct Perspective Distortion](DRILL_diagnose_and_correct_perspective_distortion.md) - drill; 2 block.
 - [Establish Eye Level and Vanishing Directions](PAT_establish_eye_level_and_vanishing_directions.md) - pattern; 0 design.
-  - Variants: `Use a High-Water Eye-Level Diagnostic` (method_sequence); `Use Exact Camera/Viewfield Geometry` (method_sequence); `Estimate Off-Page Vanishing Pull for Freehand Sketching` (method_sequence).
+  - Variants: `Use a High-Water Eye-Level Diagnostic` (method_sequence); `Use Exact Camera/Viewfield Geometry` (method_sequence); `Estimate Off-Page Vanishing Pull for Freehand Sketching` (method_sequence); `Derive an Eye-Level Product View From a Higher-View Layout` (method_sequence).
 - [Measure True Lengths on Oblique Perspective Planes](PAT_measure_true_lengths_on_oblique_planes.md) - pattern; 2 block.
 - [Measure, Subdivide, and Repeat on Perspective Planes](PAT_measure_subdivide_and_repeat_on_perspective_planes.md) - pattern; 2 block.
   - Variants: `Derive an Arbitrary Measuring Point` (method_sequence).

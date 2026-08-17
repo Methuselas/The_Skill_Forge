@@ -34,9 +34,24 @@ variants:
 - variant_id: VAR_dow_force_selection_with_two_value_brush_constraint
   variant_name: Force Selection With a Two-Value Brush Constraint
   variant_basis: constraint
-  difference_from_foundation: Restricts an observational study to two major values and a small number of decisive marks so the artist must choose which evidence carries form, texture, character, and complexity instead of recording every visible fact.
-  when_to_use: Use when observation is becoming indiscriminate, when broad structure is being buried by local description, or when the study specifically needs to train selection and economy.
-  when_not_to_use: Do not keep the two-value limit when subtle modeling, documentary accuracy, or a broader value range is essential to the assignment.
+  difference_from_foundation: Restricts an observational study to two major values and a small number of decisive marks so
+    the artist must choose which evidence carries form, texture, character, and complexity instead of recording every visible
+    fact.
+  when_to_use: Use when observation is becoming indiscriminate, when broad structure is being buried by local description,
+    or when the study specifically needs to train selection and economy.
+  when_not_to_use: Do not keep the two-value limit when subtle modeling, documentary accuracy, or a broader value range is
+    essential to the assignment.
+  absorbed_from_object_id: none
+- variant_id: VAR_guptill_recompose_secondary_reference_elements_with_plausible_changes
+  variant_name: Recompose Secondary Reference Elements With Plausible Changes
+  variant_basis: constraint
+  difference_from_foundation: Permits omission, relocation, size/value adjustment, or integration of secondary reference elements
+    when their literal placement damages unity, provided the main subject remains truthful and the altered condition stays
+    visually plausible.
+  when_to_use: Use when an otherwise useful reference contains a distracting secondary tree, boat, shadow, accessory, or similar
+    element that steals attention or fractures the composition.
+  when_not_to_use: Do not alter primary identity, architecture, action, or other facts the assignment requires to remain documentary;
+    this is selective recomposition, not arbitrary falsification.
   absorbed_from_object_id: none
 ---
 
@@ -71,3 +86,5 @@ variants:
 Observation supplies more information than most images need at equal strength. The transferable decision is therefore selective rather than anti-accuracy: determine what the representation is for, choose evidence accordingly, and keep enough structural truth that selection improves expression instead of excusing bad drawing. Exactness can still be the dominant criterion when documentation or likeness is the actual purpose.
 
 `VAR_dow_force_selection_with_two_value_brush_constraint` turns that selection problem into a hard observational constraint: with only two values and a few decisive marks available, the learner must decide which facts actually carry the subject instead of recording everything visible. Restore a broader value range when the assignment depends on subtle modeling or documentation.
+
+`VAR_guptill_recompose_secondary_reference_elements_with_plausible_changes` permits bounded changes to secondary reference elements when unity improves and the required primary truth remains intact.

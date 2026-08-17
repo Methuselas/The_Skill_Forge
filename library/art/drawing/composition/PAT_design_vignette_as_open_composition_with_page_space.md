@@ -34,11 +34,28 @@ variants:
 - variant_id: VAR_loomis_choose_background_by_value_range_and_depth_need
   variant_name: Choose Background by Value Range and Depth Need
   variant_basis: constraint
-  difference_from_foundation: Chooses open page space or a developed background according to the subject's existing value range, focal-contrast needs, and required spatial depth; when open space would make the subject look pasted on, selective edge loss and interlacing let the ground penetrate the silhouette without abandoning the vignette.
-  when_to_use: Use when deciding whether an illustration should float on open page space or retain enough surrounding tone/background to preserve contrast and depth.
-  when_not_to_use: Do not force a vignette merely for stylistic consistency when the subject needs background value support or environmental depth to read.
+  difference_from_foundation: Chooses open page space or a developed background according to the subject's existing value
+    range, focal-contrast needs, and required spatial depth; when open space would make the subject look pasted on, selective
+    edge loss and interlacing let the ground penetrate the silhouette without abandoning the vignette.
+  when_to_use: Use when deciding whether an illustration should float on open page space or retain enough surrounding tone/background
+    to preserve contrast and depth.
+  when_not_to_use: Do not force a vignette merely for stylistic consistency when the subject needs background value support
+    or environmental depth to read.
+  absorbed_from_object_id: none
+- variant_id: VAR_olofsson_anchor_product_sketch_with_partial_background_field
+  variant_name: Anchor a Product Sketch With a Partial Background Field
+  variant_basis: context
+  difference_from_foundation: 'Places a bounded value or color field behind only part of a loose product sketch to strengthen
+    containment and figure-ground organization without building a full environment. The field edge is treated as spatially
+    meaningful: coincidence with the support line can imply a tabletop or plane, while separation leaves it reading as a graphic
+    backdrop.'
+  when_to_use: Use when a loose product sketch needs stronger containment, contrast, or page anchoring without a complete
+    background scene.
+  when_not_to_use: Do not place the field edge accidentally at the product support if an implied physical plane would confuse
+    the intended graphic reading.
   absorbed_from_object_id: none
 ---
+
 # Design Vignette as Open Composition with Page Space
 
 ## Pattern Rule
@@ -72,3 +89,5 @@ variants:
 Loomis's vignette pages show floating arrangements, designs tied to one or more page edges, open spaces that connect through the subject, small spots attached to a main vignette, borders, silhouettes, relief-like treatments, and combinations of sketchy open masses with more solid image blocks. The portable principle is that a vignette is an open page composition whose missing rectangular boundary is itself part of the design, not merely a rendering trick at the edges.
 
 `VAR_loomis_choose_background_by_value_range_and_depth_need` adds a selection test: open ground can isolate and clarify a subject, but it can also flatten value relationships or produce a cut-paper effect. Choose the treatment from the subject's value range and depth requirements, and use selective lost edges or interlacing when open page space needs to penetrate the subject more naturally.
+
+`VAR_olofsson_anchor_product_sketch_with_partial_background_field` uses a simple value or color patch as a bounded backdrop. Its edge is not neutral: align it with the product's support and it can read as a table or floor; separate it and the same patch reads more graphically. Position the field according to the spatial implication you actually want.

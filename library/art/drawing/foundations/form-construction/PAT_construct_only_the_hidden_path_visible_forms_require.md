@@ -41,6 +41,13 @@ variants:
   when_to_use: Use in practiced freehand work when the hidden solid is understood well enough to guide visible edges without cluttering the drawing.
   when_not_to_use: Do not skip explicit draw-through when symmetry, attachment, contact, or continuation is still uncertain; mental construction is earned by understanding, not by avoiding the check.
   absorbed_from_object_id: none
+- variant_id: VAR_eissen_retain_selected_construction_guides_for_shape_communication
+  variant_name: Retain Selected Construction Guides for Shape Communication
+  variant_basis: context
+  difference_from_foundation: Keeps a small amount of transparent construction visible after the form is solved when those guides help a reader understand exact placement, a hidden side, a lid or part relationship, or the underlying volume that generated the visible contour.
+  when_to_use: Use in exploratory or explanatory product sketches where showing how the form is built communicates information that the clean contour alone would hide.
+  when_not_to_use: Do not preserve every hidden edge or guideline in a presentation image when the extra construction no longer explains a specific shape relationship.
+  absorbed_from_object_id: none
 ---
 
 # Construct Only the Hidden Path Visible Forms Require
@@ -71,4 +78,6 @@ variants:
 
 ## Notes
 Dodson demonstrates transparent draw-through with cups, chairs, figures, and architecture, then explicitly recommends progressing toward "thinking through" once the solid can be held mentally. The earlier Hogarth figure card is therefore promoted into this subject-general foundation, with its minimum-sufficient hidden-limb rule retained as a figure-specific variant.
-Variants retained in this canonical object: `VAR_hogarth_scale_hidden_figure_chain_to_visible_dependencies`, `VAR_dodson_think_through_after_transparent_construction_is_internalized`.
+Eissen and Steur add a communication exception to the usual cleanup endpoint: in an exploratory product sketch, selected transparent blocks, hidden sides, and construction guides may remain visible when they tell the reader where a part sits or how the shape was derived. `VAR_eissen_retain_selected_construction_guides_for_shape_communication` preserves that explanatory use while rejecting indiscriminate hidden-line clutter.
+
+Variants retained in this canonical object: `VAR_hogarth_scale_hidden_figure_chain_to_visible_dependencies`, `VAR_dodson_think_through_after_transparent_construction_is_internalized`, `VAR_eissen_retain_selected_construction_guides_for_shape_communication`.

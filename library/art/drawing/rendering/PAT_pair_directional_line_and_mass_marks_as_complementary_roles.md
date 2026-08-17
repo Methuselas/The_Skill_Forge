@@ -29,7 +29,14 @@ reference:
   author: Gottfried Bammes
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_guptill_assign_mixed_media_distinct_line_mass_and_accent_roles
+  variant_name: Assign Mixed Media Distinct Line, Mass, and Accent Roles
+  variant_basis: method_sequence
+  difference_from_foundation: 'Adds a mixed-media sequencing route: let a primary line medium establish structural character and selected detail, use a broader tonal or restrained-color medium to simplify and carry broad masses, then restore only selected crisp accents or edges after the broad pass. If broad color is intended to be the primary statement, reverse the hierarchy instead of forcing line to remain dominant.'
+  when_to_use: Use when combining line with wash, color, broad tone, or another area-based medium and the image benefits from a clear division of labor rather than having every medium describe every feature.
+  when_not_to_use: Do not add extra media when one mark language already communicates the image cleanly, and do not keep line dominant when the intended final statement is primarily painterly or color-led.
+  absorbed_from_object_id: none
 ---
 
 # Pair Directional Line and Mass Marks as Complementary Roles
@@ -61,3 +68,5 @@ variants: []
 
 ## Notes
 In §9.3 Bammes describes a “dialog” between line and patch. Line progresses toward a goal; a patch spreads and occupies area. Their contrast becomes useful only when they do not duplicate one another. His wet-ink examples also welcome controlled accident, while the final random-mark exercise adds the key limit: if everything runs, articulation disappears, so a few firmer edges or details must confine the flow. The Pattern generalizes that role assignment beyond animal drawing while retaining the source's control-versus-chance tradeoff.
+
+`VAR_guptill_assign_mixed_media_distinct_line_mass_and_accent_roles` turns the same division of labor into a staged mixed-media sequence: establish structure and selected detail with the primary line system, simplify broad values or restrained color with an area-based pass, then return only a few crisp finishing accents after that broader statement is dry/resolved. The hierarchy can be reversed when color or mass is meant to be primary; the durable rule is role separation, not pencil supremacy.

@@ -76,19 +76,21 @@ variants:
 - variant_id: VAR_mogilevtsev_preview_final_impression_with_integrated_study
   variant_name: Preview the Final Impression With an Integrated Study
   variant_basis: method_sequence
-  difference_from_foundation: 'Adds Mogilevtsev''s academic control-study route for a fixed long drawing: make one small preliminary
+  difference_from_foundation: 'Adds the committed control-study route for a fixed long, large, complex, or expensive final: make one small preliminary
     study in a format corresponding to the intended final work, and use it to preview the finished impression while jointly
-    solving composition, proportions, movement, and tonal relationships before detailed execution. For a many-hour live figure
+    solving composition, proportions, movement, broad tone, surroundings, and focal hierarchy before detailed execution. For a many-hour live figure
     pose, record the essential movement early and let the control study preserve the intended pose if the model gradually
-    drifts. Unlike the foundation''s alternative-search contact sheet, this study is a committed control image once the subject
+    drifts. During the final, periodically inspect the image at reduced scale or viewing distance so the whole can be judged without
+    local detail dominating attention. Unlike the foundation''s alternative-search contact sheet, this study is a committed control image once the subject
     and direction are already chosen.'
-  when_to_use: Use when the model or assignment is fixed and a long training drawing needs a compact control image that exposes
-    large compositional, proportional, movement, and tonal problems before the large sheet becomes expensive to revise; for
-    a fixed live pose, also use the study as a stable movement authority when later observation drifts from the chosen action.
+  when_to_use: Use when the model or assignment is fixed and a long, large, complex, or expensive drawing needs a compact control image that exposes
+    large compositional, proportional, movement, tonal, surroundings, or focal-hierarchy problems before the final becomes expensive to revise; for
+    a fixed live pose, also use the study as a stable movement authority when later observation drifts from the chosen action. Use reduced-scale or
+    distance checks during execution when the work risks becoming coherent only at close local inspection.
   when_not_to_use: Do not substitute this single committed study for open Stage 0 exploration when camera, crop, or major
     placement are still undecided; use alternative thumbnails first when the picture itself still needs searching. Do not
     let an early study override a deliberate pose reset or a clearly better correction agreed before later construction is
-    committed.
+    committed, and do not use reduced viewing as an excuse to neglect required local accuracy.
   absorbed_from_object_id: none
 - variant_id: VAR_mogilevtsev_lower_eye_level_to_clarify_foot_ground_planes
   variant_name: Lower Eye Level to Clarify Foot-Ground Planes
@@ -135,6 +137,7 @@ variants:
 - Refer to candidates by stable sheet position such as upper-left, upper-right, lower-left, and lower-right unless the image can carry reliable labels.
 - Treat selection and approval as separate decisions when the user's wording is not explicit. Choosing a candidate makes it active for refinement; `advance` freezes its Stage 0 commitments.
 - After approval, preserve the chosen image as the exact Stage 0 predecessor. Discard the rejected alternatives rather than averaging or recombining them during Stage 1.
+- When alternatives are being shown for selection, keep their scale, density, degree of finish, contrast treatment, and general visual polish comparable enough that presentation does not predetermine the winner.
 
 ## Don't
 - Default to a single composition merely because the first idea is attractive when the prompt is still open-ended.
@@ -163,8 +166,10 @@ Stage 0 is the model's widest creative search space. Multiple quick alternatives
 
 `VAR_dodson_start_composition_with_format_figure_ground_and_few_shapes` adds a fast opening route when Stage 0 feels too unconstrained: choose format, decide whether subject or ground dominates, and reduce the proposition to a few large shapes before expanding the search. The source's suggested shape count is a heuristic rather than a quota.
 
-`VAR_mogilevtsev_preview_final_impression_with_integrated_study` adds a different Stage 0 use case from open alternative search: when the subject and direction are fixed, make a small control study that previews the intended finished impression and jointly checks composition, proportion, movement, and broad tone before the long drawing. In a many-hour live figure study, the same control can preserve the intended movement when the model gradually drifts, while still yielding to a deliberate pose reset or an early agreed correction.
+`VAR_mogilevtsev_preview_final_impression_with_integrated_study` adds a different Stage 0 use case from open alternative search: when the subject and direction are fixed, make a small control study that previews the intended finished impression and jointly checks composition, proportion, movement, broad tone, surroundings, and focal hierarchy before a long, large, complex, or expensive final. During execution, inspect the work periodically at reduced scale or viewing distance so local detail does not hide whole-picture imbalance. In a many-hour live figure study, the same control can preserve the intended movement when the model gradually drifts, while still yielding to a deliberate pose reset or an early agreed correction.
 
 `VAR_mogilevtsev_lower_eye_level_to_clarify_foot_ground_planes` adds a pre-commit station-point diagnostic for live figure studies: if the chosen observation height/distance makes the feet read as suspended or makes the free-foot plane needlessly ambiguous, test a lower eye level or greater distance and recheck the entire figure-ground projection before locking the long drawing. It is a viewpoint correction, not a local foot repair to apply after the drawing's camera is established.
 
 `VAR_loomis_scribble_through_idea_search_before_thumbnail_commitment` adds a pre-thumbnail search mode for an undefined proposition: let loose marks and thoughts provoke one another until a usable visual idea appears, then stop free scribbling and move the discovery into the normal Stage 0 comparison process.
+
+For concept comparison, visual fairness is part of the Stage 0 job. A candidate should win because its proposition is stronger, not because it received a more seductive rendering pass than its neighbors.

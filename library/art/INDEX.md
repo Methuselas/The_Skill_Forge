@@ -70,4 +70,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Drawing](drawing/INDEX.md) - 288 object(s).
+- [Drawing](drawing/INDEX.md) - 329 object(s).

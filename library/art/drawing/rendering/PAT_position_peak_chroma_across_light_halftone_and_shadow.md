@@ -1,7 +1,7 @@
 ---
 object_id: PAT_position_peak_chroma_across_light_halftone_and_shadow
 object_type: pattern
-name: Position Peak Chroma Across Light, Halftone, and Shadow
+name: Position Strongest Chroma Across Light, Halftone, and Shadow
 library_path:
 - art
 - drawing
@@ -31,7 +31,8 @@ confidence: high
 references: []
 variants: []
 ---
-# Position Peak Chroma Across Light, Halftone, and Shadow
+
+# Position Strongest Chroma Across Light, Halftone, and Shadow
 
 ## Pattern Rule
 **IF** a colored form feels dead because light and shadow colors are being blended together mechanically
@@ -59,3 +60,5 @@ variants: []
 
 ## Notes
 A useful color transition is not merely the average of a light-side color and a shadow-side color. Bright highlights may approach the color of the light, lit halftones can carry strong local color, and the turning region can become a strategic place for chroma before the shadow is tempered by reduced light and reflected influence. Treat this as a placement problem with exceptions, not as a fixed optical law.
+
+Terminology boundary: reserve **peak chroma value** for the value level at which a hue reaches its maximum attainable chroma. This card uses **strongest chroma** for the picture-specific placement of saturation across a lit form so the two concepts do not share one technical term.

@@ -32,8 +32,19 @@ reference:
 confidence: high
 references: []
 target_skill: deliberately comparing several picture-level color conceptions before committing to a finished palette
-variants: []
+variants:
+- variant_id: VAR_olofsson_duplicate_near_final_render_for_global_finish_auditions
+  variant_name: Duplicate a Near-Final Render for Global Finish Auditions
+  variant_basis: method_sequence
+  difference_from_foundation: 'Moves the audition later in the process: freeze one substantially resolved geometry base, duplicate
+    it identically, then vary picture-level value, contrast, hue, saturation, temperature, background key, and focal highlights
+    so finish decisions can be compared without design changes contaminating the test.'
+  when_to_use: Use when product geometry is stable but the final color, mood, background, or contrast treatment is still undecided.
+  when_not_to_use: Do not use late finish auditions to avoid fixing unresolved geometry, and do not alter the product design
+    between copies if the goal is a controlled finish comparison.
+  absorbed_from_object_id: none
 ---
+
 # Audition One Subject Across Small Color Roughs
 
 ## Practice Task
@@ -70,3 +81,5 @@ Choose one subject with a stable crop and readable value structure. Prepare four
 
 ## Notes
 Small color roughs make palette decisions cheap enough to compare before they become entangled with finish. The exercise complements tonal thumbnail drills: those vary value organization, while this drill keeps the subject and basic structure relatively stable and varies the color conception itself. Including the anticipated surround is useful whenever page, cover, display, or reproduction context will materially change the apparent strength of the palette. Loomis's poster workflow adds a distance test: for large-format work, the color rough should be judged as a carrier of the final big decisions and tested from far enough away that small finish cannot disguise weak mass relationships.
+
+`VAR_olofsson_duplicate_near_final_render_for_global_finish_auditions` freezes the design and moves the experiment to picture-level finish. Duplicate one stable base, change only the global value/color/background/highlight treatment, and compare the copies side by side so one version cannot win merely because its geometry also changed.
