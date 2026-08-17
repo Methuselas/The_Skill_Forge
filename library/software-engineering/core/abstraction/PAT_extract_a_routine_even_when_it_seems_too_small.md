@@ -58,6 +58,7 @@ variants:
 - Treat deep nesting as an extraction signal. An inner loop or conditional nested several levels down is a candidate to pull out whole — the containing routine loses the complexity, and the extracted part gains a name.
 - Extract to introduce an abstraction that is missing. Eight lines walking a list to its end become `leafName = GetLeafName(node)`, and the routine is then so short that a good name is nearly all the documentation it needs.
 - Extract to isolate what is not portable, and what is error-prone by nature. Nonstandard language features, platform dependencies, and pointer manipulation all get easier to find, verify, and later replace once they live in one named place.
+- Dismiss the performance objection rather than trading against it. Modern machines impose virtually no penalty for calling a routine, and measurements of inlining a routine by hand run from a few percent gained to ten percent *lost* — you are about as likely to slow the program down as speed it up.
 
 ## Don't
 - Don't require a routine to save lines to earn its place. The most common reason people cite for extracting — avoiding duplication — is real but is only one of many, and a routine called once can still be worth having.
@@ -76,6 +77,8 @@ variants:
 The reason this needs stating is that the usual justification for routines — avoiding duplicate code — sets the bar in the wrong place. Under that rule a run of code appearing once has no case, and a two-line run has no case at all. McConnell's list of reasons is much longer, and most entries have nothing to do with duplication: reducing complexity, introducing an abstraction, hiding sequences, hiding pointer operations, isolating nonportable capabilities, simplifying boolean tests, supporting subclassing, and enabling a single place to optimize.
 
 Hiding a sequence is the entry most often missed and the one with the longest reach. An order dependency spread across call sites is a semantic assumption every caller has to know and none of them can check; the same dependency inside a named routine is a fact about one implementation. That converts something the compiler cannot enforce into something callers cannot get wrong.
+
+The performance objection deserves burying because it is the most common reason people decline to extract, and it is empirically dead. Machines once charged heavily for a call — swapping the program out, a directory of routines in, the routine in, then all of it back — and the belief outlived the hardware by decades. Measured on anything you are likely to work on, hand-inlining a routine returns a few percent at best and can cost around ten percent, so the trade people think they are making is not on offer. The relationship runs the other way: good decomposition is one of the more powerful things you can do *for* performance work, because a hot routine can be tuned once and every caller benefits, and because a small routine is tractable to rewrite in a lower-level language while a long tortuous one is not.
 
 The counterweight is that the routine must be genuinely more informative than what it replaces. The test is not size but whether the name says something the code did not. Where it does, two lines are plenty. Where it does not, the extraction has bought a level of indirection and sold nothing.
 

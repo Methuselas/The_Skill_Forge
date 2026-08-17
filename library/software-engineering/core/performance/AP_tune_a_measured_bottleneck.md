@@ -58,9 +58,15 @@ Reach for this only once the program works and the earlier levels have been clea
 
 7. **Revert anything that did not earn its place.** More than half of attempted tunings produce only negligible improvement or actively degrade performance, so removal is the expected outcome rather than an admission. Code that is less readable and no faster is a pure loss and there is no reason to keep it.
 
-8. **Iterate, because the gains come from accumulation.** You will rarely get a tenfold improvement from a single technique, but techniques combine: one implementation went from twenty-one minutes forty seconds to twenty-two seconds through a dozen individually modest changes, no three or four of which would have met the goal. Return to step 3 and profile again — the hot spot moves once you have removed the first one.
+8. **Iterate on the same hot spot before moving to the next one.** The first optimization that works is often not the best one available, and the gap can be large — one routine gained 30 to 40 percent from its first tuning and then far more from the second and third attacks on the same code. So do not treat a successful change as the end of that bottleneck. Only once the returns there have flattened should you profile again and go after the hot spot that has now surfaced.
+
+9. **Accumulate, because that is where the large gains live.** You will rarely get a tenfold improvement from a single technique, but techniques combine: one implementation went from twenty-one minutes forty seconds to twenty-two seconds through a dozen individually modest changes, no three or four of which would have met the goal.
+
+10. **Escalate to a lower-level language only at the end, and only for small pieces.** The order is fixed: write the whole application in the high-level language, test it and establish that it is correct, profile it, and only then recode the few small hot pieces. Since a few percent of a program accounts for most of its running time, those pieces are usually small enough to translate, and a rudimentary translation can be worth a large fraction on its own. Starting in the low-level language inverts every step above it.
 
 ## Notes
+
+Step 8 is the one most often skipped, and skipping it is expensive in a specific way: a change that worked feels like a finished job, so the code keeps a modest gain and the larger one available on the same lines is never found. The related observation is that a failed attempt does not condemn its neighbourhood either — a tuning that produced nothing in one form has repeatedly worked in a near-identical form, so "this did not help" is a fact about that attempt rather than about the hot spot.
 
 Steps 2, 6, and 7 form the loop that carries the value, and they are the ones under pressure to be skipped when a change obviously helps. The base rate is what justifies keeping them: in the aggressive tuning effort behind the twenty-one-minutes-to-twenty-two-seconds figure, at least two-thirds of the attempted optimizations did not work, and some doubled the run time. A process that assumes its changes are improvements will keep those.
 
