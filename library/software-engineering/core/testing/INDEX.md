@@ -44,6 +44,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Replace a Mock With a Fake and Catch the Hidden Bug](DRILL_replace_mock_with_fake.md) - drill; 4 final.
 - [Replace a Private-Function Test With a Public-API Behavior Test](DRILL_replace_private_test_with_public_api_test.md) - drill; 4 final.
 - [Review to Detect, Not to Correct](PAT_review_to_detect_not_to_correct.md) - pattern; 4 final.
+  - Variants: `Carry the Remedy When the Review Is Written` (context).
 - [Rewrite an Implementation-Coupled Test to Use the Public API](DRILL_rewrite_test_to_use_public_api.md) - drill; 4 final.
 - [Split and Name Test Cases for the Behavior They Lock In](DRILL_name_test_cases_for_behavior.md) - drill; 4 final.
 - [Split Code Into Smaller Units to Make It Testable](PAT_split_code_to_make_it_testable.md) - pattern; 4 final.

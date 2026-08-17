@@ -29,7 +29,14 @@ reference:
   author: Steve McConnell
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: written_asynchronous_review
+  variant_name: Carry the Remedy When the Review Is Written
+  variant_basis: context
+  difference_from_foundation: Each finding carries a suggested remedy and a priority alongside the defect, instead of stopping at recognition — because the constraint the foundation protects against, a shared hour consumed by designing one fix, does not exist when reviewers comment asynchronously and the author reads later.
+  when_to_use: Written review of a submitted change, where reviewer and author work at different times and a bare defect report costs the author a round trip to find out what was meant.
+  when_not_to_use: Any convened session with several people in it, where proposing fixes competes for the same clock as finding the remaining defects — and wherever a suggested remedy would be read as a required one by an author who does not feel free to decline it.
+  absorbed_from_object_id: none
 ---
 
 # Review to Detect, Not to Correct
@@ -65,5 +72,7 @@ variants: []
 The separation of detection from correction is what keeps a review finite. Fixing is open-ended and interesting, and a group that starts designing a solution will spend the remaining time on one defect and never reach the rest of the material. Recording and moving on feels abrupt and is the only way a two-hour session covers what it was convened to cover — the fix is not being skipped, it is being done later by the person best placed to do it.
 
 The rule against defending is doing something subtler than keeping the peace. If the author argues each point, every disputed item costs meeting time whether or not it turns out to be real, and the reviewers learn that raising a marginal observation is expensive. Since a good share of what gets found starts as a marginal observation, that cost suppresses exactly the material worth having. Acknowledging without agreeing keeps the raising cheap while leaving the judgment where it belongs.
+
+The absorbed variant `written_asynchronous_review` inverts the central rule for the setting most reviews now happen in, and it does so by attacking the foundation's reason rather than ignoring it. Stopping at recognition exists to protect a shared hour — with several people in a room, designing one fix spends the time the remaining defects needed. Written comments on a submitted change have no shared hour to protect. The reviewer writes when they are free, the author reads when they are free, and the cost that dominates is the round trip: a comment saying only that there are too many dependencies between two components leaves the author guessing at what was meant, and the next exchange happens hours or days later. So in that setting each finding carries three things — what the defect is, a concrete suggestion for addressing it, and how much it matters relative to the rest — and the author still decides, exactly as in the foundation. Use it for written review of a change; do not carry it into a convened session, and do not use it where a suggestion will be received as an instruction by someone who does not feel able to decline it.
 
 There is a second-order effect worth knowing about, because it does not depend on the review finding anything. When people know their work will be examined, they examine it more carefully themselves before submitting it. Part of the return therefore arrives before the review starts and would not show up in any measurement of what the review caught — which is one reason the practice tends to be undervalued by anyone assessing it purely on defects found per hour.

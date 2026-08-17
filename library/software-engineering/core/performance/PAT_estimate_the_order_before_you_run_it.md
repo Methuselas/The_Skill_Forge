@@ -22,6 +22,8 @@ cross_links:
   target_object_id: PAT_choose_the_level_before_tuning_the_code
 - rel: related_to
   target_object_id: PAT_let_measurement_decide_what_to_tune
+- rel: related_to
+  target_object_id: PAT_decide_if_the_problem_is_worth_parallelizing
 reference:
   source_title: The Pragmatic Programmer
   author: Andrew Hunt & David Thomas
@@ -47,6 +49,7 @@ variants: []
 - Don't read the notation as a ranking of implementations. It deliberately discards constant factors and low-order terms, so one square-law routine can be a thousand times faster than another with the identical classification, and nothing in the notation says so.
 - Don't assume the better growth rate is the better choice. On a small input a straightforward insertion sort matches a quicksort and costs far less to write and debug, a sophisticated algorithm with an expensive inner loop loses to a naive one, and an algorithm with a high setup cost can be dwarfed by its own setup before it processes anything.
 - Don't trust a curve measured only on small inputs. Runtime can look convincingly linear right until the working set stops fitting in memory, at which point the system starts swapping and the times degrade sharply — and nothing about the code predicted the cliff.
+- Don't rank parallel implementations by growth rate at all. Dividing work adds a coordination term that grows with the number of units and the data moved, and that term is linear or worse while the term it is attached to may grow far more slowly — so the version with the better classification can be the slower one across every size you will ever run, not merely at small ones.
 - Don't measure with random data alone. A sort fed random keys can behave completely differently the first time it meets input that is already ordered, which is precisely where the average-case guarantee of a partitioning sort stops applying.
 
 ## Checklist
@@ -55,10 +58,13 @@ variants: []
 - Have you run it at three or four sizes and looked at the shape of the plot?
 - Would constant factors or setup cost reverse the ranking at the sizes you actually see?
 - Does the test data include the ordered and degenerate cases, or only random ones?
+- If the work is divided across units, have you varied the unit count as well as the input size?
 
 ## Notes
 This is a daily estimate rather than a formal analysis. Most of the time the check is subconscious — you write a loop, you notice it runs once per item, you satisfy yourself that is sensible here — and the notation only comes out when the answer is not obvious. Treating it as a piece of computer science reserved for people who write sort routines is what causes it to be skipped, because almost nobody writes sort routines and the library version will beat anything you produce without serious effort. The shapes still turn up constantly in ordinary code, which is where the estimate pays.
 
 The difference between a linear and a square-law routine is invisible at the size you develop against and decisive at the size you deploy against. An algorithm that takes a minute on ten items can take a lifetime on a hundred, and the code looks the same either way. That asymmetry is the whole argument for doing the estimate up front: it is nearly free, and the alternative is finding out from a production dataset.
+
+Work divided across units needs the caveat about discarded terms stated more strongly than it is usually taken, because there the discarded term is not a constant factor but the coordination cost, and coordination grows. Splitting the input, moving it to where it will be processed, waiting for the slowest unit, and combining the results all scale with the problem, so they enter the expression as a term of their own rather than as a multiplier on the existing one. Set a slow-growing term beside a linear coordination term and the linear one dominates until the input reaches a size at which the slow-growing term finally overtakes it — a crossover that routinely sits far beyond any input the program will ever see. The classification is then describing behaviour in a regime that does not exist for this code. This is also why one measurement cannot settle it: the answer moves with the number of units as well as with the size of the input, and holding either fixed hides half the picture.
 
 The estimate and the measurement do different jobs and neither replaces the other. The estimate tells you the shape of the curve, which is what lets you answer "it handles a thousand records, what about a million" without having a million records. The measurement tells you the constants, the setup costs, and the point where the machine's own limits take over — none of which the analysis knows about. The honest summary is that the only timing that finally counts is the code running in production against real data, and the estimate is what stops you from discovering that too late to change the design.
