@@ -54,7 +54,9 @@ Reach for this when the loop is nested, when its body indexes something by more 
 
 6. **Repeat steps 4 and 5 for each further level of nesting.** Each new loop wraps the previous one, and each time only the newly-varying values change. Three levels of nesting built this way involve three separate one-thing-at-a-time decisions rather than one simultaneous six-way decision.
 
-7. **Add the initializations last.** Accumulators and counters get initialized once the loop's shape is settled, immediately above the loop that uses them. Leaving this to the end is deliberate — you cannot know what needs initializing until you know what varies.
+7. **State the loop invariant once the shape is settled, even if you never write it as code.** An invariant is the loop's eventual goal rewritten so that it is already true before the first iteration and stays true after every one — for a maximum-finding loop, *m holds the largest value seen so far in the range already examined*. Its use is that if the invariant holds when the loop ends, the result is correct by construction, so the boundary questions that produce off-by-one and fencepost errors get answered by writing one sentence instead of by tracing cases.
+
+8. **Add the initializations last.** Accumulators and counters get initialized once the loop's shape is settled, immediately above the loop that uses them. Leaving this to the end is deliberate — you cannot know what needs initializing until you know what varies.
 
 ## Notes
 

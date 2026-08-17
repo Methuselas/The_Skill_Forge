@@ -47,7 +47,10 @@ variants: []
 ## Do
 - Name the preconditions: what must be true before the code runs — required inputs and the state the system must already be in.
 - Name the postconditions: what will be true after — values returned and the new state the system is left in.
-- Name the invariants: what must be unchanged between before and after the call.
+- Name the invariants: what must be unchanged between before and after the call. A class invariant holds whenever a caller can observe the object — on entry and on exit — and may legitimately be false partway through a routine, which is why no member participating in it can be left publicly writable.
+- Put the precondition on the *caller*. Once the domain is stated in the contract, the routine may be written assuming its inputs are in range, and the burden of ensuring that sits where the knowledge is. It follows that a precondition is never the place to validate user input: breaking a contract is a bug in the program, not a fact about the data.
+- Be strict in what you accept and promise as little as you can get away with. A contract that takes anything and guarantees the world is a contract you have to write all the code for.
+- Where inheritance is in play, write the contract once in the base class. A subclass may accept a *wider* range of input and make *stronger* guarantees, but never less of either — that is what makes it genuinely usable through the base interface rather than merely compiling against it.
 
 ## Don't
 - Don't assume "I'm not programming by contract" means there is no contract — any function with parameters, a return value, or a side effect already imposes obligations and expectations.

@@ -45,6 +45,8 @@ variants: []
 - Fix which layer validates. Either each class validates its own inputs, or a designated group of classes validates the system's data and everything inside that boundary may assume clean data. What breaks systems is neither policy — it is having both beliefs held in different modules.
 - Decide explicitly whether to use the environment's built-in exception mechanism or your own, and settle when exceptions may be thrown, where they are caught, how they are logged and documented.
 - Set the conventions for error messages at the same time.
+- Fix who owns a resource before fixing how it is released: whoever allocates it is responsible for freeing it, in the same routine where possible. A pair of routines that between them open a file, stash the handle somewhere shared, and close it later are coupled through that handle, and the first maintainer to add an early return leaks it — which is how a system that passed its tests dies of too many open files after a few hours in production.
+- Where a routine holds several resources, release them in the reverse of the order acquired, so nothing is freed while something still references it — and acquire them in the *same* order everywhere in the codebase, because two routines taking the same two locks in opposite orders is the deadlock.
 - Settle the cleanup mechanism too, not only the policy above it: how a routine releases what it acquired when a step partway through fails. Choose one of the four — a jump to a single exit label, nested conditionals, a status variable tested before each subsequent step, or a try-finally block — and hold the project to it, because this is the question that gets answered per-routine by default.
 
 ## Don't
