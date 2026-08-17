@@ -11,7 +11,9 @@
 - [Design Deepest Where the Work Looks Easiest](PAT_choose_design_depth_by_risk_not_habit.md) - pattern; 0 design.
 - [Do Not Stop at the First Design That Would Work](PAT_produce_a_second_design_before_committing.md) - pattern; 0 design.
 - [Prototype the Minimum That Answers One Named Question](PAT_prototype_to_answer_one_specific_design_question.md) - pattern; 1 skeleton.
+  - Variants: `Prototype to Test an Inarticulate Reluctance` (context).
 - [Refuse to Implement an Architecture You Cannot Follow](PAT_judge_an_architecture_before_building_on_it.md) - pattern; 0 design.
+- [Separate the Durable Need From the Current Policy](PAT_separate_the_durable_need_from_the_current_policy.md) - pattern; 0 design.
 - [Settle the Load-Bearing Decisions Early, Leave the Finishes Open](PAT_settle_load_bearing_decisions_before_finishes.md) - pattern; 0 design.
 - [State How Robust to Build Before Anyone Builds It](PAT_set_the_robustness_level_deliberately.md) - pattern; 0 design.
 - [Write Design Notation at the Level of Intent](PAT_write_design_notation_at_the_level_of_intent.md) - pattern; 0 design.

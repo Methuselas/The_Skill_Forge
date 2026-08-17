@@ -140,12 +140,12 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Control Flow](control-flow/INDEX.md) - 12 object(s).
 - [Data Types](data-types/INDEX.md) - 3 object(s).
 - [Deliberate Practice](deliberate-practice/INDEX.md) - 14 object(s).
-- [Design](design/INDEX.md) - 12 object(s).
+- [Design](design/INDEX.md) - 13 object(s).
 - [Error Handling](error-handling/INDEX.md) - 20 object(s).
 - [Hard To Misuse](hard-to-misuse/INDEX.md) - 12 object(s).
 - [Modularity](modularity/INDEX.md) - 15 object(s).
 - [Performance](performance/INDEX.md) - 4 object(s).
-- [Problem Solving](problem-solving/INDEX.md) - 11 object(s).
+- [Problem Solving](problem-solving/INDEX.md) - 12 object(s).
 - [Readability](readability/INDEX.md) - 31 object(s).
 - [Refactoring](refactoring/INDEX.md) - 4 object(s).
 - [Reusability](reusability/INDEX.md) - 9 object(s).

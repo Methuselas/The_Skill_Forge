@@ -27,7 +27,14 @@ reference:
   author: Steve McConnell
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_prototype_to_test_an_inarticulate_reluctance
+  variant_name: Prototype to Test an Inarticulate Reluctance
+  variant_basis: context
+  difference_from_foundation: The foundation requires a specific question with a threshold before starting, and turns away work whose uncertainty cannot be stated that precisely. This variant covers the case the foundation excludes — you are reluctant to start and cannot say why. The instrument is the same minimal throwaway build, aimed at the area that feels most difficult, but the question it answers is about you rather than about the design — whether this reluctance is accumulated judgment detecting something, or avoidance of a blank page. It supplies its own success conditions in place of a threshold. Boredom or a sense of wasting time arriving shortly after starting means the hesitation was reluctance to commit, so the prototype is abandoned and the real work begins immediately. A moment of recognition that some basic premise was wrong, together with a clear view of how to correct it, means the hesitation was information, and it has just saved the effort that would have been spent building on the wrong premise.
+  when_to_use: Use when a nagging doubt is blocking a start and cannot be converted into a stated question — which is exactly when the foundation's entry test fails and the alternatives are stalling or overriding an instinct that may be right. It is also the more socially workable move, since producing a proof of concept in the difficult area reads differently from announcing that you do not feel ready.
+  when_not_to_use: Do not use it when the uncertainty can be stated, because the foundation is stricter and better where it applies. Do not use it to keep exploring after the diagnosis has come back either way — both outcomes end the prototype, and continuing past that point is the foundation's failure mode arriving through a different door. And do not let its looser entry conditions carry over to the exit — this variant relaxes what you must know before starting, not what you may keep afterwards.
+  absorbed_from_object_id: none
 ---
 
 # Prototype the Minimum That Answers One Named Question
@@ -65,3 +72,9 @@ How to judge the outcome follows from what a prototype is for, and it is the opp
 The three failure modes that arise once you are building are worth holding separately because they have different fixes. Undisciplined scope is fixed by the minimum-code rule. A vague question is fixed before any code is written. And treating the output as production code is the one that cannot be fixed by intention alone, which is why the countermeasures are structural — a different technology, or a naming prefix that makes absorption deliberate rather than accidental.
 
 Used with discipline this is the workhorse against design uncertainty. Used without it, prototyping adds uncertainty of its own: half-built code with production ambitions and no production rigour, which is worse than the unresolved question it was meant to settle.
+
+`VAR_prototype_to_test_an_inarticulate_reluctance` covers the case this pattern's entry test deliberately turns away, and the disagreement is worth stating plainly rather than smoothing over. The rule above says that an uncertainty you cannot state precisely is not ready to be prototyped — sharpen the question first. The variant's situation is one where sharpening is not available: you are about to start, something feels wrong, and you cannot name it. Overriding that feeling and starting anyway discards the only signal you have, and stalling until it resolves itself is not a plan either.
+
+What the variant does is aim the same minimal build at the area that feels most difficult and read your own reaction as the result. Losing interest quickly means the doubt was reluctance to commit rather than a finding, and the answer is to abandon the prototype and start properly. Hitting a realisation that a basic premise was wrong, and seeing how to fix it, means the doubt was accumulated judgment reporting something real before it could be articulated. Either way the exercise terminates quickly and cheaply, which is what makes it worth running on a signal this vague.
+
+The reason the two coexist rather than one replacing the other is that they answer different questions with the same instrument. The foundation resolves an uncertainty about the design and finishes when the threshold is met. The variant resolves an uncertainty about whether there is an uncertainty, and finishes as soon as you can tell which. The exit discipline is identical in both and is where the variant is most at risk, because a prototype begun without a stated question has nothing but your memory to stop it quietly becoming the project — which is the specific way this one fails, weeks in, with everybody still calling it a prototype.
