@@ -5,6 +5,7 @@
 ## Objects
 
 - [Ask Whether the Difficulty Is in the Problem or in Your Solution](PAT_separate_essential_from_accidental_complexity.md) - pattern; 0 design.
+- [Assume Calls Can Overlap and Arrive in Any Order](PAT_assume_calls_can_overlap_and_arrive_in_any_order.md) - pattern; 0 design.
 - [Check You Are Not Writing Your Previous Language in New Syntax](PAT_write_the_language_you_are_in_not_the_one_you_know.md) - pattern; 3 rough.
 - [Decide What to Express First, Then Find How the Language Can Carry It](PAT_program_into_the_language_not_in_it.md) - pattern; 0 design.
 - [Design Deepest Where the Work Looks Easiest](PAT_choose_design_depth_by_risk_not_habit.md) - pattern; 0 design.
