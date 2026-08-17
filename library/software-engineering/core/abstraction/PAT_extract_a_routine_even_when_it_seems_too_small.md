@@ -59,6 +59,8 @@ variants:
 - Extract to introduce an abstraction that is missing. Eight lines walking a list to its end become `leafName = GetLeafName(node)`, and the routine is then so short that a good name is nearly all the documentation it needs.
 - Extract to isolate what is not portable, and what is error-prone by nature. Nonstandard language features, platform dependencies, and pointer manipulation all get easier to find, verify, and later replace once they live in one named place.
 - Dismiss the performance objection rather than trading against it. Modern machines impose virtually no penalty for calling a routine, and measurements of inlining a routine by hand run from a few percent gained to ten percent *lost* — you are about as likely to slow the program down as speed it up.
+- Take a routine that needs two levels of comment as a routine that wants splitting. A routine should be logically flat, with its activities sitting at one level; if you find yourself marking some comments as major and others as subordinate to them, the unevenness is the finding, and extracting the major operation gives you two flat routines instead of one lumpy one.
+- Check what your own conventions charge for a new routine. A house style that demands a heavy prolog on every routine — purpose, algorithm, inputs, outputs, assumptions, author, revision history — prices extraction so high that people quietly create fewer routines, which is the opposite of what the convention was meant to encourage.
 
 ## Don't
 - Don't require a routine to save lines to earn its place. The most common reason people cite for extracting — avoiding duplication — is real but is only one of many, and a routine called once can still be worth having.
