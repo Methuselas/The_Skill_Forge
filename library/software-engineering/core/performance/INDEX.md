@@ -14,5 +14,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 ## Objects
 
 - [Choose the Level Before You Touch the Code](PAT_choose_the_level_before_tuning_the_code.md) - pattern; 0 design.
+- [Estimate How the Cost Grows Before You Run It](PAT_estimate_the_order_before_you_run_it.md) - pattern; 2 block.
 - [Let Measurement Decide What to Tune, Never Intuition](PAT_let_measurement_decide_what_to_tune.md) - pattern; 4 final.
 - [Tune a Measured Bottleneck](AP_tune_a_measured_bottleneck.md) - ap; 4 final.

@@ -26,6 +26,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
+- [Build a Way to See Inside the Running System](PAT_build_a_way_to_see_inside_the_running_system.md) - pattern; 2 block.
 - [Choose an Assertion Matcher for a Correct, Clear Failure](DRILL_choose_an_appropriate_assertion_matcher.md) - drill; 4 final.
 - [Choose Test Cases Systematically](AP_choose_test_cases_systematically.md) - ap; 3 rough.
 - [Combine Detection Techniques Rather Than Perfecting One](PAT_combine_detection_techniques_rather_than_perfecting_one.md) - pattern; 4 final.

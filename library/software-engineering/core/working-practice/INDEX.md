@@ -26,6 +26,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Interrupt People Between Tasks, Not Inside Them](PAT_interrupt_at_task_boundaries.md) - pattern; 4 final.
 - [Iterating Does Not Buy You Out of the Upfront Work](PAT_do_prerequisites_per_increment_when_iterating.md) - pattern; 0 design.
 - [Keep a Known-Good Build Behind an Automated Smoke Test](PAT_keep_the_build_green_with_an_automated_smoke_test.md) - pattern; 1 skeleton.
+- [Know Why It Works Before You Build on It](PAT_know_why_it_works_before_you_move_on.md) - pattern; 2 block.
 - [Name the Activity You Are In, Then Support the Memory It Taxes](PAT_support_the_memory_system_the_activity_taxes.md) - pattern; 0 design.
 - [Pick the Method Per Problem Instead of Committing to One](PAT_keep_a_toolbox_instead_of_adopting_one_methodology.md) - pattern; 0 design.
 - [Prepare an Onboarding That Supports All Three Memory Systems](AP_prepare_an_onboarding_for_all_three_memory_systems.md) - ap; 0 design.
