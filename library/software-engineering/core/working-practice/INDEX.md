@@ -17,6 +17,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Assess the Groundwork You Inherited Before Writing Code](AP_assess_construction_prerequisites_before_building.md) - ap; 0 design.
 - [Assume It Is Not Easy, Because You Cannot Remember It Being Hard](PAT_account_for_the_curse_of_expertise_when_onboarding.md) - pattern; 0 design.
 - [Build a Routine From Intent-Level Pseudocode](AP_build_a_routine_from_intent_level_pseudocode.md) - ap; 1 skeleton.
+- [Choose What to Integrate Next by Where the Risk Is](PAT_choose_the_integration_order_by_risk.md) - pattern; 0 design.
 - [Estimate by Decomposing and Cross-Checking, Never by Feel](PAT_estimate_by_decomposition_and_cross_check.md) - pattern; 0 design.
 - [Explain a Concept as a Wave — Abstract, Concrete, Abstract Again](PAT_teach_along_a_semantic_wave.md) - pattern; 0 design.
 - [Externalize Enough State That an Interruption Cannot Cost You the Context](PAT_prepare_for_interruption_before_it_arrives.md) - pattern; 3 rough.
@@ -24,6 +25,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Grow a System From a Running Skeleton](AP_grow_a_system_from_a_running_skeleton.md) - ap; 1 skeleton.
 - [Interrupt People Between Tasks, Not Inside Them](PAT_interrupt_at_task_boundaries.md) - pattern; 4 final.
 - [Iterating Does Not Buy You Out of the Upfront Work](PAT_do_prerequisites_per_increment_when_iterating.md) - pattern; 0 design.
+- [Keep a Known-Good Build Behind an Automated Smoke Test](PAT_keep_the_build_green_with_an_automated_smoke_test.md) - pattern; 1 skeleton.
 - [Name the Activity You Are In, Then Support the Memory It Taxes](PAT_support_the_memory_system_the_activity_taxes.md) - pattern; 0 design.
 - [Pick the Method Per Problem Instead of Committing to One](PAT_keep_a_toolbox_instead_of_adopting_one_methodology.md) - pattern; 0 design.
 - [Prepare an Onboarding That Supports All Three Memory Systems](AP_prepare_an_onboarding_for_all_three_memory_systems.md) - ap; 0 design.
