@@ -22,5 +22,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Find the Real Constraints Before Calling It Impossible](PAT_find_the_real_constraints_before_calling_it_impossible.md) - pattern; 0 design.
 - [Fix the Cause, Not the Symptom](PAT_fix_the_cause_not_the_symptom.md) - pattern; 3 rough.
 - [Pick the Abstraction Level of Your Machine Model and Name What It Hides](PAT_reason_with_a_notional_machine_at_a_chosen_level.md) - pattern; 0 design.
+- [Reduce the Problem Until You Can Already Solve It](PAT_reduce_the_problem_until_you_can_already_solve_it.md) - pattern; 0 design.
 - [Surface the Notional Machine Hiding in Your Team's Vocabulary](DRILL_surface_notional_machines_from_code_vocabulary.md) - drill; 1 skeleton.
 - [Time-Box the Guess and Name the Fallback](PAT_time_box_the_guess_and_name_the_fallback.md) - pattern; 3 rough.
