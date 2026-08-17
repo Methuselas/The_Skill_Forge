@@ -38,6 +38,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - Variants: `Draw the Line at Zero and One Rather Than at Obviousness` (method_sequence).
 - [Hunt for Names That Contradict What the Code Does](PAT_detect_linguistic_antipatterns_in_names.md) - pattern; 4 final.
 - [Judge Names When You Are Not the One Solving the Problem](PAT_review_names_outside_the_coding_moment.md) - pattern; 4 final.
+- [Lay Out Code to Show Its Logical Structure, Not to Look Pretty](PAT_lay_out_code_to_show_its_logical_structure.md) - pattern; 3 rough.
 - [Let a Name's Length Signal Its Scope](PAT_let_name_length_signal_scope.md) - pattern; 3 rough.
 - [Make a Name Serve Both the Reader's Parsing and Their Recall](PAT_design_a_name_for_both_stm_and_ltm.md) - pattern; 3 rough.
 - [Make Call-Site Arguments Self-Explanatory](PAT_use_named_arguments_for_readable_calls.md) - pattern; 3 rough.
