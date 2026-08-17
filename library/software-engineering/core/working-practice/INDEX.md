@@ -31,6 +31,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Pick the Method Per Problem Instead of Committing to One](PAT_keep_a_toolbox_instead_of_adopting_one_methodology.md) - pattern; 0 design.
 - [Prepare an Onboarding That Supports All Three Memory Systems](AP_prepare_an_onboarding_for_all_three_memory_systems.md) - ap; 0 design.
 - [Quote the Cost of a New Requirement Rather Than Swallowing It](PAT_price_a_requirements_change_instead_of_absorbing_it.md) - pattern; 3 rough.
+- [Script the Procedure Instead of Writing Down the Steps](PAT_script_the_procedure_instead_of_writing_down_the_steps.md) - pattern; 4 final.
 - [Set Ceremony by What Failure Costs, Not by Habit](PAT_scale_formality_to_the_kind_of_software.md) - pattern; 0 design.
 - [Take On the Whole Construction Span, Not Just the Code](PAT_scope_construction_beyond_writing_the_code.md) - pattern; 0 design.
 - [Understand the Routine Before the Compiler Sees It](PAT_understand_the_routine_before_the_compiler_sees_it.md) - pattern; 3 rough.

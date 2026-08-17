@@ -53,6 +53,7 @@ variants:
 - Don't write redundant what-comments on self-explanatory code; a comment restating `firstName + "." + lastName` just adds clutter and a second thing to keep in sync.
 - Don't let a per-line synopsis pile up; a comment on every line is like a synopsis before every paragraph of a book — it harms readability rather than helping.
 - Don't comment tricky code — rewrite it. If you have to ask yourself whether something is tricky, it is, and a comment cannot rescue it. The exception is code you are maintaining and have no licence to rewrite; there, commenting the tricky parts is the right move.
+- Don't hand-maintain anything a tool can derive. A list of the functions the file exports, a list of the other files it uses, the filename, and a revision history all belong to tools that read the source or the version control system, and each one becomes a lie the first time someone renames, moves, or edits without updating the header.
 - Don't read a dense patch of comments as a well-documented patch. Regions carrying the most comments have been measured carrying the most defects and consuming the most effort, because people comment what they found hard — so the density is a signal about the code, not about the diligence of its author.
 
 ## Checklist

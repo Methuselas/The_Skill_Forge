@@ -151,4 +151,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Reusability](reusability/INDEX.md) - 9 object(s).
 - [Testing](testing/INDEX.md) - 29 object(s).
 - [Variables](variables/INDEX.md) - 4 object(s).
-- [Working Practice](working-practice/INDEX.md) - 23 object(s).
+- [Working Practice](working-practice/INDEX.md) - 24 object(s).
