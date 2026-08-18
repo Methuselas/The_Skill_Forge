@@ -15,14 +15,14 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Avoid Global State; Dependency-Inject Shared State](PAT_avoid_global_state_inject_shared_state.md) - pattern; 2 block.
+- [Avoid Global State; Dependency-Inject Shared State](PAT_avoid_global_state_inject_shared_state.md) - pattern; 2 block. Tags: dependency_injection, encapsulation, global_state, reusability.
   - Variants: `Contain a Global Behind Access Routines When You Cannot Remove It` (method_sequence).
-- [Avoid Unnecessary Assumptions and Enforce Necessary Ones](PAT_beware_assumptions_avoid_or_enforce.md) - pattern; 2 block.
-- [Design Code to Be Reusable and Generalizable](PAT_make_code_reusable_and_generalizable.md) - pattern; 2 block.
+- [Avoid Unnecessary Assumptions and Enforce Necessary Ones](PAT_beware_assumptions_avoid_or_enforce.md) - pattern; 2 block. Tags: assumptions, checks, fail_fast, reusability.
+- [Design Code to Be Reusable and Generalizable](PAT_make_code_reusable_and_generalizable.md) - pattern; 2 block. Tags: abstraction, code_quality, generalization, reusability.
   - Variants: `Harvest Reuse at the End Rather Than Designing for It` (method_sequence).
-- [Make a Type-Specific Class Generic](DRILL_make_a_class_generic.md) - drill; 3 rough.
-- [Make Functions Take Only What They Need](PAT_keep_function_parameters_focused.md) - pattern; 2 block.
-- [Provide Default Values in Higher-Level Code](PAT_provide_defaults_in_higher_level_code.md) - pattern; 2 block.
-- [Remove an Unnecessary Assumption or Enforce a Necessary One](DRILL_remove_or_enforce_an_assumption.md) - drill; 3 rough.
-- [Replace Global State With Injected Instance State](DRILL_replace_global_state_with_injection.md) - drill; 3 rough.
-- [Use Generics for Type-Independent Subproblems](PAT_use_generics_for_type_independence.md) - pattern; 2 block.
+- [Make a Type-Specific Class Generic](DRILL_make_a_class_generic.md) - drill; 3 rough. Tags: generalization, generics, refactoring, reusability.
+- [Make Functions Take Only What They Need](PAT_keep_function_parameters_focused.md) - pattern; 2 block. Tags: function_parameters, modularity, readability, reusability.
+- [Provide Default Values in Higher-Level Code](PAT_provide_defaults_in_higher_level_code.md) - pattern; 2 block. Tags: default_values, dependency_injection, layers_of_abstraction, reusability.
+- [Remove an Unnecessary Assumption or Enforce a Necessary One](DRILL_remove_or_enforce_an_assumption.md) - drill; 3 rough. Tags: assumptions, checks, refactoring, reusability.
+- [Replace Global State With Injected Instance State](DRILL_replace_global_state_with_injection.md) - drill; 3 rough. Tags: dependency_injection, global_state, refactoring, reusability.
+- [Use Generics for Type-Independent Subproblems](PAT_use_generics_for_type_independence.md) - pattern; 2 block. Tags: generalization, generics, reusability, types.

@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Generate Novel Options by Combining Distant Concepts](PAT_generate_novel_options_by_combining_distant_concepts.md) - pattern; 0 design.
+- [Generate Novel Options by Combining Distant Concepts](PAT_generate_novel_options_by_combining_distant_concepts.md) - pattern; 0 design. Tags: analogy, combination, creativity, ideation, search.

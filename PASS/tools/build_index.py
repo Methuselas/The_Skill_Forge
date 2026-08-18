@@ -107,6 +107,19 @@ def variant_summary(card: Card) -> str | None:
     return f"  - Variants: {'; '.join(entries)}." if entries else None
 
 
+def tag_summary(card: Card) -> str:
+    """Tags are the index's retrieval surface.
+
+    A card's name states the decision it carries, which frequently omits the
+    words someone would actually search for -- a concurrency card can be named
+    without containing "concurrency". Sorted rather than declared order: tags
+    are lookup keys with no reading sequence, and sorting keeps regenerated
+    indexes stable against reordering in the frontmatter.
+    """
+    tags = [str(tag).strip() for tag in card.data.get("tags") or [] if str(tag).strip()]
+    return f" Tags: {', '.join(sorted(tags))}." if tags else ""
+
+
 def reading_order_lines(subtree_cards: list[Card], names: dict[str, str]) -> list[str]:
     lines: list[str] = []
     for card in sorted(subtree_cards, key=sort_key):
@@ -140,6 +153,7 @@ def render(directory: Path, library: Path, cards: list[Card], directories: set[P
             out.append(
                 f"- [{card.name}]({card.path.name}) - "
                 f"{card.data.get('object_type')}; {card.data.get('stage_binding')}."
+                f"{tag_summary(card)}"
             )
             variants = variant_summary(card)
             if variants:

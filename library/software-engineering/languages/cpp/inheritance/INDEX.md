@@ -4,9 +4,9 @@
 
 ## Objects
 
-- [Model Has-A and Is-Implemented-In-Terms-Of with Composition](PAT_model_has_a_with_composition.md) - pattern; 0 design.
-- [Refactor a Broken Is-A Hierarchy to Composition](DRILL_refactor_broken_is_a_to_composition.md) - drill; 2 block.
-- [Unhide Inherited Overloads with using Declarations](PAT_unhide_inherited_names_with_using.md) - pattern; 3 rough.
-- [Use Multiple Inheritance Judiciously](PAT_use_multiple_inheritance_judiciously.md) - pattern; 2 block.
-- [Use Private Inheritance Only When Composition Cannot Do the Job](PAT_use_private_inheritance_judiciously.md) - pattern; 2 block.
-- [Use Public Inheritance Only for an Is-A Relationship](PAT_use_public_inheritance_only_for_is_a.md) - pattern; 0 design.
+- [Model Has-A and Is-Implemented-In-Terms-Of with Composition](PAT_model_has_a_with_composition.md) - pattern; 0 design. Tags: class_design, composition, cpp, inheritance.
+- [Refactor a Broken Is-A Hierarchy to Composition](DRILL_refactor_broken_is_a_to_composition.md) - drill; 2 block. Tags: composition, cpp, inheritance, refactoring.
+- [Unhide Inherited Overloads with using Declarations](PAT_unhide_inherited_names_with_using.md) - pattern; 3 rough. Tags: cpp, inheritance, name_hiding, overloading.
+- [Use Multiple Inheritance Judiciously](PAT_use_multiple_inheritance_judiciously.md) - pattern; 2 block. Tags: class_design, cpp, multiple_inheritance, virtual_inheritance.
+- [Use Private Inheritance Only When Composition Cannot Do the Job](PAT_use_private_inheritance_judiciously.md) - pattern; 2 block. Tags: class_design, composition, cpp, private_inheritance.
+- [Use Public Inheritance Only for an Is-A Relationship](PAT_use_public_inheritance_only_for_is_a.md) - pattern; 0 design. Tags: class_design, cpp, inheritance, is_a.

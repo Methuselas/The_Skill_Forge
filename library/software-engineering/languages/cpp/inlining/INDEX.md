@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Limit Inlining to Small, Frequently Called Functions](PAT_limit_inlining_to_small_hot_functions.md) - pattern; 3 rough.
+- [Limit Inlining to Small, Frequently Called Functions](PAT_limit_inlining_to_small_hot_functions.md) - pattern; 3 rough. Tags: build, cpp, inlining, performance.

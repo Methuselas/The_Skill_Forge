@@ -4,7 +4,7 @@
 
 ## Objects
 
-- [Declare and Initialize a Variable Where It Is First Used](PAT_declare_and_initialize_at_first_use.md) - pattern; 3 rough.
-- [Give Each Variable Exactly One Purpose](PAT_give_each_variable_exactly_one_purpose.md) - pattern; 3 rough.
-- [Keep a Variable's References Close and Its Life Short](PAT_minimize_variable_span_and_live_time.md) - pattern; 3 rough.
-- [Start a Variable at the Narrowest Scope and Widen Only on Demand](PAT_start_a_variable_at_the_narrowest_scope.md) - pattern; 2 block.
+- [Declare and Initialize a Variable Where It Is First Used](PAT_declare_and_initialize_at_first_use.md) - pattern; 3 rough. Tags: declarations, initialization, proximity, variables.
+- [Give Each Variable Exactly One Purpose](PAT_give_each_variable_exactly_one_purpose.md) - pattern; 3 rough. Tags: hybrid_coupling, magic_values, naming, variables.
+- [Keep a Variable's References Close and Its Life Short](PAT_minimize_variable_span_and_live_time.md) - pattern; 3 rough. Tags: live_time, readability, scope, span, variables.
+- [Start a Variable at the Narrowest Scope and Widen Only on Demand](PAT_start_a_variable_at_the_narrowest_scope.md) - pattern; 2 block. Tags: information_hiding, scope, variables, visibility.

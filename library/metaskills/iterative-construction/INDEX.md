@@ -4,6 +4,6 @@
 
 ## Objects
 
-- [Alternate Search and Control Cycles](AP_alternate_search_and_control_cycles.md) - ap; 0 design.
-- [Plan and Build Work From Thumbnail to Final](AP_plan_and_build_work_from_thumbnail_to_final.md) - ap; 0 design.
+- [Alternate Search and Control Cycles](AP_alternate_search_and_control_cycles.md) - ap; 0 design. Tags: control, exploration, iteration, refinement, search.
+- [Plan and Build Work From Thumbnail to Final](AP_plan_and_build_work_from_thumbnail_to_final.md) - ap; 0 design. Tags: error_prevention, iterative_construction, planning, refinement.
   - Variants: `Action-Centerline Figure Build` (method_sequence).

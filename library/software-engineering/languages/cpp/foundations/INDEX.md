@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Adapt Your Rules to the Active C++ Sublanguage](PAT_adapt_rules_to_active_cpp_sublanguage.md) - pattern; 0 design.
+- [Adapt Your Rules to the Active C++ Sublanguage](PAT_adapt_rules_to_active_cpp_sublanguage.md) - pattern; 0 design. Tags: cpp, idioms, parameter_passing, sublanguages.

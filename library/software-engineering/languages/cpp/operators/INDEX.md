@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Make a Function Non-member When All Arguments Need Conversion](PAT_make_operator_nonmember_for_conversions.md) - pattern; 2 block.
+- [Make a Function Non-member When All Arguments Need Conversion](PAT_make_operator_nonmember_for_conversions.md) - pattern; 2 block. Tags: class_design, cpp, operators, type_conversion.

@@ -21,24 +21,24 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Classify an Error's Recoverability From Each Call Site](DRILL_classify_error_recoverability_from_call_site.md) - drill; 2 block.
-- [Classify Error Recoverability From the Caller's Position](PAT_classify_error_recoverability_by_caller.md) - pattern; 0 design.
-- [Decide Error Handling Once for the System, Not Once Per Function](PAT_settle_one_error_handling_strategy_systemwide.md) - pattern; 0 design.
-- [Decide How to Signal and Handle an Error](AP_decide_how_to_signal_and_handle_an_error.md) - ap; 2 block.
-- [Don't Hide Errors Behind Default or Silent Results](PAT_dont_hide_errors.md) - pattern; 2 block.
-- [Draw a Line Where Data Becomes Trusted](PAT_barricade_dirty_data_at_a_named_boundary.md) - pattern; 0 design.
-- [Fail Fast So Errors Surface Near Their Source](PAT_fail_fast_near_error_source.md) - pattern; 2 block.
-- [Fail Loudly and Signal Unrecoverable Errors Implicitly](PAT_fail_loudly_and_signal_unrecoverable_errors_implicitly.md) - pattern; 2 block.
-- [Instrument for Defects That Cannot Announce Themselves](PAT_instrument_for_defects_that_cannot_announce_themselves.md) - pattern; 3 rough.
-- [Isolate Failures at the Right Scope of Recoverability](PAT_match_failure_to_scope_of_recoverability.md) - pattern; 0 design.
-- [Let the Development Build Be Obnoxious and the Shipped One Graceful](PAT_make_the_development_build_fail_louder_than_production.md) - pattern; 2 block.
-- [Make Async Error Signaling Explicit With a Promise of a Result](PAT_signal_async_errors_with_promise_of_result.md) - pattern; 2 block.
-- [Make Callers Aware of Errors They Might Want to Recover From](PAT_make_callers_aware_of_recoverable_errors.md) - pattern; 0 design.
-- [Prefer Explicit Signaling for Recoverable Errors](PAT_prefer_explicit_error_signaling_for_recoverable_errors.md) - pattern; 0 design.
-- [Refactor Error-Hiding Code to Signal the Error](DRILL_refactor_error_hiding_code_to_signal.md) - drill; 3 rough.
-- [Return a Result Type to Convey the Error's Cause](PAT_return_result_type_to_convey_error_cause.md) - pattern; 2 block.
-- [Return an Outcome and Enforce That Callers Check It](PAT_return_outcome_and_enforce_return_check.md) - pattern; 2 block.
-- [Signal Absent Values With Null Safety or Optionals](PAT_prefer_null_safety_or_optionals.md) - pattern; 2 block.
-- [Signal One Error Several Ways and Compare the Tradeoffs](DRILL_signal_one_error_multiple_ways.md) - drill; 2 block.
-- [Treat Compiler Warnings as Potential Bugs](PAT_treat_compiler_warnings_as_potential_bugs.md) - pattern; 3 rough.
+- [Classify an Error's Recoverability From Each Call Site](DRILL_classify_error_recoverability_from_call_site.md) - drill; 2 block. Tags: analysis, api_design, error_handling, recoverability.
+- [Classify Error Recoverability From the Caller's Position](PAT_classify_error_recoverability_by_caller.md) - pattern; 0 design. Tags: abstraction, api_design, error_handling, recoverability.
+- [Decide Error Handling Once for the System, Not Once Per Function](PAT_settle_one_error_handling_strategy_systemwide.md) - pattern; 0 design. Tags: architecture, consistency, error_handling, exceptions, validation.
+- [Decide How to Signal and Handle an Error](AP_decide_how_to_signal_and_handle_an_error.md) - ap; 2 block. Tags: api_design, decision_process, error_handling, recoverability.
+- [Don't Hide Errors Behind Default or Silent Results](PAT_dont_hide_errors.md) - pattern; 2 block. Tags: avoid_surprises, error_handling, magic_values, robustness.
+- [Draw a Line Where Data Becomes Trusted](PAT_barricade_dirty_data_at_a_named_boundary.md) - pattern; 0 design. Tags: architecture, error_handling, input_handling, validation.
+- [Fail Fast So Errors Surface Near Their Source](PAT_fail_fast_near_error_source.md) - pattern; 2 block. Tags: debugging, error_handling, fail_fast, robustness.
+- [Fail Loudly and Signal Unrecoverable Errors Implicitly](PAT_fail_loudly_and_signal_unrecoverable_errors_implicitly.md) - pattern; 2 block. Tags: error_handling, fail_loudly, robustness, unchecked_exceptions.
+- [Instrument for Defects That Cannot Announce Themselves](PAT_instrument_for_defects_that_cannot_announce_themselves.md) - pattern; 3 rough. Tags: corruption, debugging, defensive_programming, detection.
+- [Isolate Failures at the Right Scope of Recoverability](PAT_match_failure_to_scope_of_recoverability.md) - pattern; 0 design. Tags: architecture, error_handling, monitoring, robustness.
+- [Let the Development Build Be Obnoxious and the Shipped One Graceful](PAT_make_the_development_build_fail_louder_than_production.md) - pattern; 2 block. Tags: build_configuration, debugging, defensive_programming, error_handling.
+- [Make Async Error Signaling Explicit With a Promise of a Result](PAT_signal_async_errors_with_promise_of_result.md) - pattern; 2 block. Tags: async, error_handling, promises, result_type.
+- [Make Callers Aware of Errors They Might Want to Recover From](PAT_make_callers_aware_of_recoverable_errors.md) - pattern; 0 design. Tags: abstraction, api_design, avoid_surprises, error_handling.
+- [Prefer Explicit Signaling for Recoverable Errors](PAT_prefer_explicit_error_signaling_for_recoverable_errors.md) - pattern; 0 design. Tags: api_design, checked_exceptions, error_handling, team_conventions.
+- [Refactor Error-Hiding Code to Signal the Error](DRILL_refactor_error_hiding_code_to_signal.md) - drill; 3 rough. Tags: avoid_surprises, error_handling, refactoring, robustness.
+- [Return a Result Type to Convey the Error's Cause](PAT_return_result_type_to_convey_error_cause.md) - pattern; 2 block. Tags: api_design, error_handling, factory_function, result_type.
+- [Return an Outcome and Enforce That Callers Check It](PAT_return_outcome_and_enforce_return_check.md) - pattern; 2 block. Tags: api_design, compiler_enforcement, error_handling, outcome_type.
+- [Signal Absent Values With Null Safety or Optionals](PAT_prefer_null_safety_or_optionals.md) - pattern; 2 block. Tags: error_prevention, null_safety, optionals, types.
+- [Signal One Error Several Ways and Compare the Tradeoffs](DRILL_signal_one_error_multiple_ways.md) - drill; 2 block. Tags: api_design, checked_exceptions, error_handling, result_type.
+- [Treat Compiler Warnings as Potential Bugs](PAT_treat_compiler_warnings_as_potential_bugs.md) - pattern; 3 rough. Tags: code_review, compiler_warnings, error_prevention, static_analysis.
   - Variants: `Heed C++ Warnings but Don't Depend on Them` (emphasis).

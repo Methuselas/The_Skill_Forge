@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Verify the Result Against the Objective After Production](PAT_verify_result_against_objective_after_production.md) - pattern; 4 final.
+- [Verify the Result Against the Objective After Production](PAT_verify_result_against_objective_after_production.md) - pattern; 4 final. Tags: instruction_following, post_check, quality_control, verification.

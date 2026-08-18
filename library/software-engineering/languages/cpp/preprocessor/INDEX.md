@@ -4,5 +4,5 @@
 
 ## Objects
 
-- [Prefer const Objects and enums to #define Constants](PAT_prefer_const_and_enum_to_define.md) - pattern; 3 rough.
-- [Prefer inline Functions to Function-Like Macros](PAT_prefer_inline_functions_to_macro_functions.md) - pattern; 3 rough.
+- [Prefer const Objects and enums to #define Constants](PAT_prefer_const_and_enum_to_define.md) - pattern; 3 rough. Tags: constants, cpp, enum_hack, preprocessor.
+- [Prefer inline Functions to Function-Like Macros](PAT_prefer_inline_functions_to_macro_functions.md) - pattern; 3 rough. Tags: cpp, inline, preprocessor, templates.

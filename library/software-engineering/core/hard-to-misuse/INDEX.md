@@ -17,16 +17,16 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Close the Deep-Mutability Holes in a Class](DRILL_fix_deep_mutability_in_a_class.md) - drill; 3 rough.
-- [Keep a Single Source of Truth for Data](PAT_single_source_of_truth_for_data.md) - pattern; 2 block.
-- [Keep a Single Source of Truth for Logic](PAT_single_source_of_truth_for_logic.md) - pattern; 2 block.
-- [Keep Classes Immutable With Builder or Copy-on-Write](PAT_keep_immutable_with_builder_or_copy_on_write.md) - pattern; 2 block.
-- [Make a Class Deeply Immutable While Keeping It Usable](AP_make_a_class_immutable.md) - ap; 3 rough.
-- [Make Immutability Deep, Not Just Shallow](PAT_make_immutability_deep.md) - pattern; 2 block.
-- [Make Wrong Usage Hard or Impossible](PAT_make_code_hard_to_misuse.md) - pattern; 2 block.
-- [Prefer Immutable Objects Set Only at Construction](PAT_prefer_immutable_objects.md) - pattern; 2 block.
-- [Remove a Redundant Second Source of Truth From a Data Model](DRILL_remove_redundant_derived_data.md) - drill; 3 rough.
-- [Replace an Overly General Type With a Dedicated Type](DRILL_replace_general_type_with_dedicated_type.md) - drill; 3 rough.
-- [Represent Time With Dedicated Types, Not Integers](PAT_use_dedicated_time_types.md) - pattern; 2 block.
-- [Use a Dedicated Type Instead of an Overly General One](PAT_use_dedicated_types_over_general_ones.md) - pattern; 2 block.
+- [Close the Deep-Mutability Holes in a Class](DRILL_fix_deep_mutability_in_a_class.md) - drill; 3 rough. Tags: defensive_copying, immutability, refactoring, references.
+- [Keep a Single Source of Truth for Data](PAT_single_source_of_truth_for_data.md) - pattern; 2 block. Tags: caching, derived_data, hard_to_misuse, single_source_of_truth.
+- [Keep a Single Source of Truth for Logic](PAT_single_source_of_truth_for_logic.md) - pattern; 2 block. Tags: decomposition, duplication, hard_to_misuse, single_source_of_truth.
+- [Keep Classes Immutable With Builder or Copy-on-Write](PAT_keep_immutable_with_builder_or_copy_on_write.md) - pattern; 2 block. Tags: builder_pattern, copy_on_write, design_patterns, immutability.
+- [Make a Class Deeply Immutable While Keeping It Usable](AP_make_a_class_immutable.md) - ap; 3 rough. Tags: builder_pattern, hard_to_misuse, immutability, refactoring.
+- [Make Immutability Deep, Not Just Shallow](PAT_make_immutability_deep.md) - pattern; 2 block. Tags: defensive_copying, hard_to_misuse, immutability, references.
+- [Make Wrong Usage Hard or Impossible](PAT_make_code_hard_to_misuse.md) - pattern; 2 block. Tags: api_design, error_prevention, hard_to_misuse, interfaces.
+- [Prefer Immutable Objects Set Only at Construction](PAT_prefer_immutable_objects.md) - pattern; 2 block. Tags: class_design, concurrency, hard_to_misuse, immutability.
+- [Remove a Redundant Second Source of Truth From a Data Model](DRILL_remove_redundant_derived_data.md) - drill; 3 rough. Tags: derived_data, hard_to_misuse, refactoring, single_source_of_truth.
+- [Replace an Overly General Type With a Dedicated Type](DRILL_replace_general_type_with_dedicated_type.md) - drill; 3 rough. Tags: hard_to_misuse, refactoring, type_safety, types.
+- [Represent Time With Dedicated Types, Not Integers](PAT_use_dedicated_time_types.md) - pattern; 2 block. Tags: hard_to_misuse, time, types, units.
+- [Use a Dedicated Type Instead of an Overly General One](PAT_use_dedicated_types_over_general_ones.md) - pattern; 2 block. Tags: api_design, hard_to_misuse, type_safety, types.
   - Variants: `Alias the Type When a Class Is Too Big a Step` (method_sequence).

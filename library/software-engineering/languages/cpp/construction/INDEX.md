@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Don't Call Virtual Functions During Construction or Destruction](PAT_no_virtual_calls_in_constructors_or_destructors.md) - pattern; 3 rough.
+- [Don't Call Virtual Functions During Construction or Destruction](PAT_no_virtual_calls_in_constructors_or_destructors.md) - pattern; 3 rough. Tags: construction, cpp, destructors, virtual_functions.

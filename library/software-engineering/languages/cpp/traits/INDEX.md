@@ -4,5 +4,5 @@
 
 ## Objects
 
-- [Implement Traits-Based Compile-Time Dispatch](DRILL_implement_traits_based_dispatch.md) - drill; 2 block.
-- [Use Traits Classes for Compile-Time Type Information](PAT_use_traits_classes_for_type_info.md) - pattern; 2 block.
+- [Implement Traits-Based Compile-Time Dispatch](DRILL_implement_traits_based_dispatch.md) - drill; 2 block. Tags: compile_time, cpp, templates, traits.
+- [Use Traits Classes for Compile-Time Type Information](PAT_use_traits_classes_for_type_info.md) - pattern; 2 block. Tags: compile_time, cpp, templates, traits.

@@ -4,20 +4,17 @@
 
 ## Objects
 
-- [Ask Both What Must Never Happen and What Must Eventually Happen](PAT_check_concurrent_code_for_safety_and_liveness.md) - pattern; 0 design.
-- [Ask Whether the Difficulty Is in the Problem or in Your Solution](PAT_separate_essential_from_accidental_complexity.md) - pattern; 0 design.
-- [Assume Calls Can Overlap and Arrive in Any Order](PAT_assume_calls_can_overlap_and_arrive_in_any_order.md) - pattern; 0 design.
-- [Check You Are Not Writing Your Previous Language in New Syntax](PAT_write_the_language_you_are_in_not_the_one_you_know.md) - pattern; 3 rough.
-- [Decide What to Express First, Then Find How the Language Can Carry It](PAT_program_into_the_language_not_in_it.md) - pattern; 0 design.
-- [Design Deepest Where the Work Looks Easiest](PAT_choose_design_depth_by_risk_not_habit.md) - pattern; 0 design.
-- [Do Not Stop at the First Design That Would Work](PAT_produce_a_second_design_before_committing.md) - pattern; 0 design.
-- [Immutability Is a Guarantee You Have to Actually Check](PAT_verify_an_object_is_as_immutable_as_you_think.md) - pattern; 0 design.
-- [Prototype the Minimum That Answers One Named Question](PAT_prototype_to_answer_one_specific_design_question.md) - pattern; 1 skeleton.
+- [Ask Whether the Difficulty Is in the Problem or in Your Solution](PAT_separate_essential_from_accidental_complexity.md) - pattern; 0 design. Tags: complexity, design, diagnosis, simplicity.
+- [Assume Calls Can Overlap and Arrive in Any Order](PAT_assume_calls_can_overlap_and_arrive_in_any_order.md) - pattern; 0 design. Tags: api_design, concurrency, coupling, temporal_coupling.
+- [Check You Are Not Writing Your Previous Language in New Syntax](PAT_write_the_language_you_are_in_not_the_one_you_know.md) - pattern; 3 rough. Tags: code_review, design, idiom, language_choice, transfer.
+- [Decide What to Express First, Then Find How the Language Can Carry It](PAT_program_into_the_language_not_in_it.md) - pattern; 0 design. Tags: abstraction, construction, conventions, design, language_choice.
+- [Design Deepest Where the Work Looks Easiest](PAT_choose_design_depth_by_risk_not_habit.md) - pattern; 0 design. Tags: design, documentation, planning, risk.
+- [Do Not Stop at the First Design That Would Work](PAT_produce_a_second_design_before_committing.md) - pattern; 0 design. Tags: alternatives, design, heuristics, iteration.
+- [Prototype the Minimum That Answers One Named Question](PAT_prototype_to_answer_one_specific_design_question.md) - pattern; 1 skeleton. Tags: design, experiment, prototyping, risk_reduction.
   - Variants: `Prototype to Test an Inarticulate Reluctance` (context).
-- [Refuse to Implement an Architecture You Cannot Follow](PAT_judge_an_architecture_before_building_on_it.md) - pattern; 0 design.
-- [Separate the Durable Need From the Current Policy](PAT_separate_the_durable_need_from_the_current_policy.md) - pattern; 0 design.
-- [Settle the Load-Bearing Decisions Early, Leave the Finishes Open](PAT_settle_load_bearing_decisions_before_finishes.md) - pattern; 0 design.
-- [State How Robust to Build Before Anyone Builds It](PAT_set_the_robustness_level_deliberately.md) - pattern; 0 design.
-- [Two Atomic Operations Are Not One Atomic Operation](PAT_atomic_steps_do_not_compose_into_a_safe_whole.md) - pattern; 0 design.
-- [Write Design Notation at the Level of Intent](PAT_write_design_notation_at_the_level_of_intent.md) - pattern; 0 design.
-- [Write Down the Problem in Terms That Name No Solution](PAT_state_the_problem_before_the_solution.md) - pattern; 0 design.
+- [Refuse to Implement an Architecture You Cannot Follow](PAT_judge_an_architecture_before_building_on_it.md) - pattern; 0 design. Tags: architecture, conceptual_integrity, design_review, prerequisites.
+- [Separate the Durable Need From the Current Policy](PAT_separate_the_durable_need_from_the_current_policy.md) - pattern; 0 design. Tags: abstraction, adaptability, business_rules, requirements.
+- [Settle the Load-Bearing Decisions Early, Leave the Finishes Open](PAT_settle_load_bearing_decisions_before_finishes.md) - pattern; 0 design. Tags: construction, cost_of_change, design, planning, sequencing.
+- [State How Robust to Build Before Anyone Builds It](PAT_set_the_robustness_level_deliberately.md) - pattern; 0 design. Tags: architecture, consistency, overengineering, robustness, simplicity.
+- [Write Design Notation at the Level of Intent](PAT_write_design_notation_at_the_level_of_intent.md) - pattern; 0 design. Tags: comments, design_notation, detailed_design, intent, pseudocode.
+- [Write Down the Problem in Terms That Name No Solution](PAT_state_the_problem_before_the_solution.md) - pattern; 0 design. Tags: design, problem_definition, requirements, scope.

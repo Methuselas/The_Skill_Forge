@@ -11,17 +11,17 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Add Detail Until the Model Admits One Reading](PAT_make_a_reasoning_model_determinate.md) - pattern; 3 rough.
-- [Build a Working Mental Model of Unfamiliar Code](AP_build_a_mental_model_of_unfamiliar_code.md) - ap; 3 rough.
-- [Check Whether a Second Model Composes With the One You Already Use](PAT_check_whether_a_second_model_composes_or_conflicts.md) - pattern; 2 block.
-- [Choose an Explanatory Metaphor by What the Audience Already Knows](PAT_choose_explanatory_metaphors_by_audience_schemata.md) - pattern; 4 final.
+- [Add Detail Until the Model Admits One Reading](PAT_make_a_reasoning_model_determinate.md) - pattern; 3 rough. Tags: models, problem_solving, reasoning, working_memory.
+- [Build a Working Mental Model of Unfamiliar Code](AP_build_a_mental_model_of_unfamiliar_code.md) - ap; 3 rough. Tags: code_comprehension, mental_model, problem_solving, working_memory.
+- [Check Whether a Second Model Composes With the One You Already Use](PAT_check_whether_a_second_model_composes_or_conflicts.md) - pattern; 2 block. Tags: abstraction, mental_model, notional_machine, problem_solving.
+- [Choose an Explanatory Metaphor by What the Audience Already Knows](PAT_choose_explanatory_metaphors_by_audience_schemata.md) - pattern; 4 final. Tags: mental_model, notional_machine, onboarding, teaching.
   - Variants: `Treat Borrowed Keywords as Metaphors Nobody Chose` (context).
-- [Choose the Problem's Representation Before Solving It](PAT_choose_a_problem_representation_before_solving.md) - pattern; 0 design.
-- [Cue Yourself With the Domain, Not With a Generic Problem-Solving Frame](PAT_use_domain_specific_cues_not_generic_problem_frames.md) - pattern; 0 design.
-- [Find a Defect by Hypothesis, Not by Guessing](AP_find_a_defect_by_hypothesis_not_by_guessing.md) - ap; 3 rough.
-- [Find the Real Constraints Before Calling It Impossible](PAT_find_the_real_constraints_before_calling_it_impossible.md) - pattern; 0 design.
-- [Fix the Cause, Not the Symptom](PAT_fix_the_cause_not_the_symptom.md) - pattern; 3 rough.
-- [Pick the Abstraction Level of Your Machine Model and Name What It Hides](PAT_reason_with_a_notional_machine_at_a_chosen_level.md) - pattern; 0 design.
-- [Reduce the Problem Until You Can Already Solve It](PAT_reduce_the_problem_until_you_can_already_solve_it.md) - pattern; 0 design.
-- [Surface the Notional Machine Hiding in Your Team's Vocabulary](DRILL_surface_notional_machines_from_code_vocabulary.md) - drill; 1 skeleton.
-- [Time-Box the Guess and Name the Fallback](PAT_time_box_the_guess_and_name_the_fallback.md) - pattern; 3 rough.
+- [Choose the Problem's Representation Before Solving It](PAT_choose_a_problem_representation_before_solving.md) - pattern; 0 design. Tags: cognition, models, problem_solving, representation.
+- [Cue Yourself With the Domain, Not With a Generic Problem-Solving Frame](PAT_use_domain_specific_cues_not_generic_problem_frames.md) - pattern; 0 design. Tags: deliberate_practice, problem_solving, retrieval, transfer.
+- [Find a Defect by Hypothesis, Not by Guessing](AP_find_a_defect_by_hypothesis_not_by_guessing.md) - ap; 3 rough. Tags: debugging, defects, diagnosis, hypothesis.
+- [Find the Real Constraints Before Calling It Impossible](PAT_find_the_real_constraints_before_calling_it_impossible.md) - pattern; 0 design. Tags: assumptions, constraints, design, problem_solving.
+- [Fix the Cause, Not the Symptom](PAT_fix_the_cause_not_the_symptom.md) - pattern; 3 rough. Tags: corrections, debugging, defects, maintainability.
+- [Pick the Abstraction Level of Your Machine Model and Name What It Hides](PAT_reason_with_a_notional_machine_at_a_chosen_level.md) - pattern; 0 design. Tags: abstraction, mental_model, notional_machine, problem_solving.
+- [Reduce the Problem Until You Can Already Solve It](PAT_reduce_the_problem_until_you_can_already_solve_it.md) - pattern; 0 design. Tags: constraints, decomposition, getting_unstuck, problem_solving.
+- [Surface the Notional Machine Hiding in Your Team's Vocabulary](DRILL_surface_notional_machines_from_code_vocabulary.md) - drill; 1 skeleton. Tags: mental_model, notional_machine, problem_solving, vocabulary.
+- [Time-Box the Guess and Name the Fallback](PAT_time_box_the_guess_and_name_the_fallback.md) - pattern; 3 rough. Tags: brute_force, debugging, estimation, sunk_cost.

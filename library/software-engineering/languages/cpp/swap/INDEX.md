@@ -4,5 +4,5 @@
 
 ## Objects
 
-- [Implement an Efficient Non-throwing swap for a Pimpl Type](DRILL_implement_nonthrowing_swap_for_pimpl.md) - drill; 3 rough.
-- [Support a Non-throwing swap for Pimpl-style Types](PAT_support_nonthrowing_swap.md) - pattern; 3 rough.
+- [Implement an Efficient Non-throwing swap for a Pimpl Type](DRILL_implement_nonthrowing_swap_for_pimpl.md) - drill; 3 rough. Tags: cpp, exception_safety, pimpl, swap.
+- [Support a Non-throwing swap for Pimpl-style Types](PAT_support_nonthrowing_swap.md) - pattern; 3 rough. Tags: cpp, exception_safety, pimpl, swap.

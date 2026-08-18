@@ -5,7 +5,7 @@ name: Immutability Is a Guarantee You Have to Actually Check
 library_path:
 - software-engineering
 - core
-- design
+- concurrency
 stage_binding: 0 design
 lane_fit: skill
 foundation_role: foundation
@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_atomic_steps_do_not_compose_into_a_safe_whole
 - rel: related_to
   target_object_id: PAT_dont_mutate_input_parameters
+- rel: related_to
+  target_object_id: PAT_prefer_immutable_objects
 - rel: related_to
   target_object_id: PAT_avoid_global_state_inject_shared_state
 reference:

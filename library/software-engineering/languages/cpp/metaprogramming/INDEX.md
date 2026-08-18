@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Reach for Template Metaprogramming to Move Work to Compile Time](PAT_use_template_metaprogramming.md) - pattern; 2 block.
+- [Reach for Template Metaprogramming to Move Work to Compile Time](PAT_use_template_metaprogramming.md) - pattern; 2 block. Tags: compile_time, cpp, metaprogramming, templates.

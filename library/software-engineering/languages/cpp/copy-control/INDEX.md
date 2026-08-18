@@ -4,11 +4,11 @@
 
 ## Objects
 
-- [Complete a Derived Class's Copying Functions](DRILL_complete_a_derived_class_copying_functions.md) - drill; 3 rough.
-- [Copy Every Member and Base Part in Copying Functions](PAT_copy_all_members_and_base_parts.md) - pattern; 3 rough.
-- [Don't Implement One Copying Function in Terms of the Other](PAT_dont_implement_one_copying_function_via_the_other.md) - pattern; 3 rough.
-- [Know the Special Member Functions the Compiler Writes for You](PAT_know_compiler_generated_special_members.md) - pattern; 2 block.
-- [Make a Copy Assignment Operator Self- and Exception-Safe](DRILL_make_copy_assignment_self_and_exception_safe.md) - drill; 3 rough.
-- [Make Copy Assignment Safe Under Self-Assignment](PAT_handle_self_assignment_in_copy_assignment.md) - pattern; 3 rough.
-- [Return a Reference to *this from Assignment Operators](PAT_return_reference_to_this_from_assignment.md) - pattern; 3 rough.
-- [Suppress Unwanted Copying by Making Copy Operations Private and Undefined](PAT_suppress_copying_with_private_undefined_or_uncopyable.md) - pattern; 2 block.
+- [Complete a Derived Class's Copying Functions](DRILL_complete_a_derived_class_copying_functions.md) - drill; 3 rough. Tags: class_design, copy_control, cpp, inheritance.
+- [Copy Every Member and Base Part in Copying Functions](PAT_copy_all_members_and_base_parts.md) - pattern; 3 rough. Tags: class_design, copy_control, cpp, inheritance.
+- [Don't Implement One Copying Function in Terms of the Other](PAT_dont_implement_one_copying_function_via_the_other.md) - pattern; 3 rough. Tags: class_design, code_duplication, copy_control, cpp.
+- [Know the Special Member Functions the Compiler Writes for You](PAT_know_compiler_generated_special_members.md) - pattern; 2 block. Tags: class_design, copy_control, cpp, special_members.
+- [Make a Copy Assignment Operator Self- and Exception-Safe](DRILL_make_copy_assignment_self_and_exception_safe.md) - drill; 3 rough. Tags: copy_control, cpp, exception_safety, self_assignment.
+- [Make Copy Assignment Safe Under Self-Assignment](PAT_handle_self_assignment_in_copy_assignment.md) - pattern; 3 rough. Tags: copy_control, cpp, exception_safety, self_assignment.
+- [Return a Reference to *this from Assignment Operators](PAT_return_reference_to_this_from_assignment.md) - pattern; 3 rough. Tags: convention, copy_control, cpp, operators.
+- [Suppress Unwanted Copying by Making Copy Operations Private and Undefined](PAT_suppress_copying_with_private_undefined_or_uncopyable.md) - pattern; 2 block. Tags: class_design, copy_control, cpp, hard_to_misuse.

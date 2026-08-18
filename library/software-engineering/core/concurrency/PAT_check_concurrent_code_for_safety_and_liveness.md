@@ -5,7 +5,7 @@ name: Ask Both What Must Never Happen and What Must Eventually Happen
 library_path:
 - software-engineering
 - core
-- design
+- concurrency
 stage_binding: 0 design
 lane_fit: skill
 foundation_role: foundation

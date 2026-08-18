@@ -4,7 +4,7 @@
 
 ## Objects
 
-- [Convert Constructor Body Assignments to an Initializer List](DRILL_convert_constructor_assignment_to_init_list.md) - drill; 3 rough.
-- [Initialize Members with the Initializer List, in Declaration Order](PAT_initialize_members_with_init_list.md) - pattern; 3 rough.
-- [Manually Initialize Objects of Built-in Type Before Use](PAT_manually_initialize_builtin_objects.md) - pattern; 3 rough.
-- [Replace Non-local static Objects with Function-Local statics](PAT_replace_nonlocal_statics_with_local_statics.md) - pattern; 2 block.
+- [Convert Constructor Body Assignments to an Initializer List](DRILL_convert_constructor_assignment_to_init_list.md) - drill; 3 rough. Tags: constructors, cpp, initialization, member_initialization.
+- [Initialize Members with the Initializer List, in Declaration Order](PAT_initialize_members_with_init_list.md) - pattern; 3 rough. Tags: constructors, cpp, initialization, member_initialization.
+- [Manually Initialize Objects of Built-in Type Before Use](PAT_manually_initialize_builtin_objects.md) - pattern; 3 rough. Tags: builtins, cpp, initialization, undefined_behavior.
+- [Replace Non-local static Objects with Function-Local statics](PAT_replace_nonlocal_statics_with_local_statics.md) - pattern; 2 block. Tags: cpp, initialization, singleton, static_objects.

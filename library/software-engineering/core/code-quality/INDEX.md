@@ -24,22 +24,22 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Apply a New Standard Forward, Not Retroactively](PAT_enforce_a_new_rule_only_on_new_code.md) - pattern; 4 final.
-- [Choose the Proper Build Over the Hacky Shortcut](PAT_invest_in_quality_over_hacky_shortcut.md) - pattern; 0 design.
-- [Concentrate Effort Where Defects Concentrate](PAT_concentrate_effort_where_defects_concentrate.md) - pattern; 4 final.
+- [Apply a New Standard Forward, Not Retroactively](PAT_enforce_a_new_rule_only_on_new_code.md) - pattern; 4 final. Tags: automation, code_quality, deprecation, maintenance, migration.
+- [Choose the Proper Build Over the Hacky Shortcut](PAT_invest_in_quality_over_hacky_shortcut.md) - pattern; 0 design. Tags: code_quality, engineering_judgment, maintainability, technical_debt.
+- [Concentrate Effort Where Defects Concentrate](PAT_concentrate_effort_where_defects_concentrate.md) - pattern; 4 final. Tags: defects, maintenance, quality, rework.
   - Variants: `Rank by How Often a File Changes` (method_sequence).
-- [Every Design Maneuver Buys One Dimension and Charges Another](PAT_expect_a_design_maneuver_to_cost_another_dimension.md) - pattern; 0 design.
-- [Fix a Broken Window Now, or Board It Up Where Everyone Can See](PAT_fix_or_board_up_a_broken_window.md) - pattern; 4 final.
-- [Fix the Code When You Cannot Fix the Process](PAT_improve_the_code_when_you_cannot_improve_the_process.md) - pattern; 0 design.
-- [Judge Code Against the Four Quality Goals](PAT_evaluate_code_against_quality_goals.md) - pattern; 0 design.
+- [Every Design Maneuver Buys One Dimension and Charges Another](PAT_expect_a_design_maneuver_to_cost_another_dimension.md) - pattern; 0 design. Tags: api_design, code_quality, refactoring, tradeoffs.
+- [Fix a Broken Window Now, or Board It Up Where Everyone Can See](PAT_fix_or_board_up_a_broken_window.md) - pattern; 4 final. Tags: code_quality, entropy, maintenance, technical_debt.
+- [Fix the Code When You Cannot Fix the Process](PAT_improve_the_code_when_you_cannot_improve_the_process.md) - pattern; 0 design. Tags: code_quality, construction, documentation, prioritization, process_improvement.
+- [Judge Code Against the Four Quality Goals](PAT_evaluate_code_against_quality_goals.md) - pattern; 0 design. Tags: code_quality, engineering_judgment, maintainability, requirements.
   - Variants: `Judge a Codebase by What It Does to Its Readers` (method_sequence).
-- [Make Code Adaptable Without Predicting Specific Changes](PAT_balance_adaptability_without_predicting_future.md) - pattern; 0 design.
+- [Make Code Adaptable Without Predicting Specific Changes](PAT_balance_adaptability_without_predicting_future.md) - pattern; 0 design. Tags: adaptability, code_quality, over_engineering, requirements_change.
   - Variants: `Isolate the Categories That Are Historically Volatile` (method_sequence); `Choose How Late Each Value Is Bound` (method_sequence).
-- [Name the Quality Characteristics You Are Trading Away](PAT_name_the_quality_characteristics_you_trade_away.md) - pattern; 0 design.
-- [Name Which Cognitive Process a Code Smell Breaks](PAT_diagnose_a_code_smell_by_the_cognitive_process_it_breaks.md) - pattern; 3 rough.
-- [Read the Record Around the Code, Not Only the Code](PAT_look_for_the_evidence_outside_the_code.md) - pattern; 0 design.
-- [Reuse Existing Solutions Instead of Reinventing](PAT_reuse_before_reinventing.md) - pattern; 0 design.
+- [Name the Quality Characteristics You Are Trading Away](PAT_name_the_quality_characteristics_you_trade_away.md) - pattern; 0 design. Tags: design, objectives, quality, tradeoffs.
+- [Name Which Cognitive Process a Code Smell Breaks](PAT_diagnose_a_code_smell_by_the_cognitive_process_it_breaks.md) - pattern; 3 rough. Tags: code_comprehension, code_smells, cognitive_load, refactoring.
+- [Read the Record Around the Code, Not Only the Code](PAT_look_for_the_evidence_outside_the_code.md) - pattern; 0 design. Tags: code_quality, diagnosis, evidence, legacy_code, maintenance.
+- [Reuse Existing Solutions Instead of Reinventing](PAT_reuse_before_reinventing.md) - pattern; 0 design. Tags: code_quality, decomposition, libraries, reuse.
   - Variants: `Know the C++ Standard Library and TR1 So You Reuse Them` (emphasis).
-- [Review a Codebase Against the Cognitive Dimensions](DRILL_run_a_cdcb_review_of_a_codebase.md) - drill; 0 design.
-- [Tune a Codebase for the Activities It Will Actually See](PAT_optimize_a_codebase_for_its_likely_activities.md) - pattern; 0 design.
-- [Work Out How the Code Got This Way Before You Improve It](PAT_diagnose_why_the_code_degraded_before_changing_it.md) - pattern; 0 design.
+- [Review a Codebase Against the Cognitive Dimensions](DRILL_run_a_cdcb_review_of_a_codebase.md) - drill; 0 design. Tags: api_design, code_quality, cognitive_load, review.
+- [Tune a Codebase for the Activities It Will Actually See](PAT_optimize_a_codebase_for_its_likely_activities.md) - pattern; 0 design. Tags: api_design, code_quality, tradeoffs, working_practice.
+- [Work Out How the Code Got This Way Before You Improve It](PAT_diagnose_why_the_code_degraded_before_changing_it.md) - pattern; 0 design. Tags: code_quality, diagnosis, legacy_code, maintenance, technical_debt.

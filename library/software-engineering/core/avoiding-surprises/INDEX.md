@@ -17,14 +17,14 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Avoid Returning Magic Values](PAT_avoid_returning_magic_values.md) - pattern; 2 block.
-- [Avoid Unexpected Side Effects or Make Them Obvious](PAT_avoid_unexpected_side_effects.md) - pattern; 2 block.
-- [Convert an Enum If-Chain to an Exhaustive Switch With a Test](DRILL_convert_enum_if_chain_to_exhaustive_switch.md) - drill; 3 rough.
-- [Design Against Surprises Rather Than Relying on Tests to Catch Them](PAT_design_against_surprises_not_rely_on_tests.md) - pattern; 0 design.
-- [Don't Mutate Input Parameters; Copy Before Mutating](PAT_dont_mutate_input_parameters.md) - pattern; 2 block.
-- [Handle Enums Exhaustively So New Values Fail Loudly](PAT_handle_enums_exhaustively.md) - pattern; 2 block.
-- [Make a Hidden Side Effect Obvious or Remove It](DRILL_make_a_side_effect_obvious_or_remove_it.md) - drill; 3 rough.
-- [Make Critical Inputs Required Rather Than Silently No-Op](PAT_make_critical_inputs_required.md) - pattern; 2 block.
-- [Match the Caller's Mental Model](PAT_match_caller_mental_model.md) - pattern; 2 block.
-- [Replace a Magic Return Value With Explicit Absence](DRILL_replace_magic_value_with_explicit_absence.md) - drill; 3 rough.
-- [Use the Null Object Pattern Only When the Empty Value Can't Surprise](PAT_use_null_object_pattern_only_when_safe.md) - pattern; 2 block.
+- [Avoid Returning Magic Values](PAT_avoid_returning_magic_values.md) - pattern; 2 block. Tags: api_design, avoid_surprises, magic_values, null_safety.
+- [Avoid Unexpected Side Effects or Make Them Obvious](PAT_avoid_unexpected_side_effects.md) - pattern; 2 block. Tags: avoid_surprises, concurrency, naming, side_effects.
+- [Convert an Enum If-Chain to an Exhaustive Switch With a Test](DRILL_convert_enum_if_chain_to_exhaustive_switch.md) - drill; 3 rough. Tags: avoid_surprises, enums, exhaustive_switch, testing.
+- [Design Against Surprises Rather Than Relying on Tests to Catch Them](PAT_design_against_surprises_not_rely_on_tests.md) - pattern; 0 design. Tags: api_design, avoid_surprises, mocks, testing.
+- [Don't Mutate Input Parameters; Copy Before Mutating](PAT_dont_mutate_input_parameters.md) - pattern; 2 block. Tags: avoid_surprises, defensive_copying, mutation, side_effects.
+- [Handle Enums Exhaustively So New Values Fail Loudly](PAT_handle_enums_exhaustively.md) - pattern; 2 block. Tags: avoid_surprises, enums, exhaustive_switch, fail_fast.
+- [Make a Hidden Side Effect Obvious or Remove It](DRILL_make_a_side_effect_obvious_or_remove_it.md) - drill; 3 rough. Tags: avoid_surprises, naming, refactoring, side_effects.
+- [Make Critical Inputs Required Rather Than Silently No-Op](PAT_make_critical_inputs_required.md) - pattern; 2 block. Tags: api_design, avoid_surprises, hard_to_misuse, required_parameters.
+- [Match the Caller's Mental Model](PAT_match_caller_mental_model.md) - pattern; 2 block. Tags: api_design, avoid_surprises, least_astonishment, mental_model.
+- [Replace a Magic Return Value With Explicit Absence](DRILL_replace_magic_value_with_explicit_absence.md) - drill; 3 rough. Tags: avoid_surprises, magic_values, null_safety, refactoring.
+- [Use the Null Object Pattern Only When the Empty Value Can't Surprise](PAT_use_null_object_pattern_only_when_safe.md) - pattern; 2 block. Tags: api_design, avoid_surprises, null_object_pattern, null_safety.

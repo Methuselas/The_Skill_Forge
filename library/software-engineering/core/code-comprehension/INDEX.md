@@ -13,30 +13,30 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Annotate a Dependency Graph Over Printed Code](DRILL_annotate_a_dependency_graph_over_code.md) - drill; 0 design.
+- [Annotate a Dependency Graph Over Printed Code](DRILL_annotate_a_dependency_graph_over_code.md) - drill; 0 design. Tags: code_comprehension, cognitive_load, tracing.
   - Variants: `Expand a Slice From One Focal Point` (method_sequence).
-- [Audit Cognitive Processes While Reading Code](DRILL_audit_cognitive_processes_while_reading_code.md) - drill; 3 rough.
-- [Build a State Table for Calculation-Heavy Code](DRILL_trace_a_state_table_for_calculation_heavy_code.md) - drill; 0 design.
-- [Calibrate Code-Reading Scope to Reader Knowledge](PAT_calibrate_code_reading_scope_to_reader_knowledge.md) - pattern; 0 design.
+- [Audit Cognitive Processes While Reading Code](DRILL_audit_cognitive_processes_while_reading_code.md) - drill; 3 rough. Tags: code_comprehension, cognitive_load, deliberate_practice, tracing.
+- [Build a State Table for Calculation-Heavy Code](DRILL_trace_a_state_table_for_calculation_heavy_code.md) - drill; 0 design. Tags: code_comprehension, cognitive_load, tracing.
+- [Calibrate Code-Reading Scope to Reader Knowledge](PAT_calibrate_code_reading_scope_to_reader_knowledge.md) - pattern; 0 design. Tags: code_comprehension, cognitive_load, onboarding, teaching.
   - Variants: `Close the Knowledge Gap Instead of Only Sizing Around It` (method_sequence).
-- [Capture Code Structure at a Glance](DRILL_capture_code_at_a_glance.md) - drill; 3 rough.
-- [Choose Which Constructs to Downgrade for Reading](PAT_replace_unfamiliar_constructs_with_basic_equivalents.md) - pattern; 0 design.
-- [Classify Variables by the Role They Play](PAT_classify_variables_by_role.md) - pattern; 0 design.
-- [Diagnose the Source of Code Confusion Before Acting](PAT_diagnose_source_of_code_confusion.md) - pattern; 3 rough.
-- [Externalize Intermediate State When Tracing Code](PAT_externalize_intermediate_state_when_tracing.md) - pattern; 3 rough.
+- [Capture Code Structure at a Glance](DRILL_capture_code_at_a_glance.md) - drill; 3 rough. Tags: code_comprehension, deliberate_practice, iconic_memory, structural_reading.
+- [Choose Which Constructs to Downgrade for Reading](PAT_replace_unfamiliar_constructs_with_basic_equivalents.md) - pattern; 0 design. Tags: code_comprehension, cognitive_load, refactoring.
+- [Classify Variables by the Role They Play](PAT_classify_variables_by_role.md) - pattern; 0 design. Tags: beacons, code_comprehension, variables.
+- [Diagnose the Source of Code Confusion Before Acting](PAT_diagnose_source_of_code_confusion.md) - pattern; 3 rough. Tags: code_comprehension, cognitive_load, debugging, learning.
+- [Externalize Intermediate State When Tracing Code](PAT_externalize_intermediate_state_when_tracing.md) - pattern; 3 rough. Tags: code_comprehension, debugging, tracing, working_memory.
   - Variants: `Pick a Model Whose Constraints Do the Focusing` (method_sequence).
-- [Inventory Beacons in Unfamiliar Code](DRILL_inventory_beacons_in_unfamiliar_code.md) - drill; 3 rough.
-- [Pin Down an Assumption About a Codebase With a Test or Another Person](PAT_verify_code_assumptions_with_tests_and_pairing.md) - pattern; 4 final.
-- [Rate the Effort a Piece of Code Costs You, and Say Why](DRILL_rate_code_with_the_paas_scale.md) - drill; 1 skeleton.
-- [Read Code as Semantic Chunks](PAT_read_code_as_semantic_chunks.md) - pattern; 3 rough.
-- [Read Unfamiliar Code With Text-Comprehension Strategies](DRILL_read_code_with_text_comprehension_strategies.md) - drill; 0 design.
+- [Inventory Beacons in Unfamiliar Code](DRILL_inventory_beacons_in_unfamiliar_code.md) - drill; 3 rough. Tags: beacons, code_comprehension, code_review, deliberate_practice.
+- [Pin Down an Assumption About a Codebase With a Test or Another Person](PAT_verify_code_assumptions_with_tests_and_pairing.md) - pattern; 4 final. Tags: code_comprehension, documentation, misconceptions, testing.
+- [Rate the Effort a Piece of Code Costs You, and Say Why](DRILL_rate_code_with_the_paas_scale.md) - drill; 1 skeleton. Tags: code_comprehension, cognitive_load, deliberate_practice, measurement.
+- [Read Code as Semantic Chunks](PAT_read_code_as_semantic_chunks.md) - pattern; 3 rough. Tags: chunking, code_comprehension, pattern_recognition, working_memory.
+- [Read Unfamiliar Code With Text-Comprehension Strategies](DRILL_read_code_with_text_comprehension_strategies.md) - drill; 0 design. Tags: code_comprehension, onboarding, reading_strategies.
   - Variants: `Run the Seven Strategies Collaboratively to Onboard Someone` (context).
-- [Refactor Temporarily for Your Own Comprehension](PAT_refactor_for_your_own_comprehension.md) - pattern; 0 design.
-- [Replace a Misconception Rather Than Correcting It](PAT_replace_a_misconception_with_a_new_model.md) - pattern; 3 rough.
-- [Reproduce Code to Diagnose Knowledge Gaps](DRILL_reproduce_code_to_diagnose_knowledge.md) - drill; 3 rough.
-- [Separate Intrinsic From Extraneous Difficulty](PAT_separate_intrinsic_from_extraneous_load.md) - pattern; 0 design.
-- [Separate Text Knowledge From Plan Knowledge](PAT_separate_text_knowledge_from_plan_knowledge.md) - pattern; 0 design.
-- [Suspect an Outdated Mental Model When the Code Gets Hard](PAT_guard_against_an_outdated_mental_model_under_load.md) - pattern; 3 rough.
-- [Tell a Misconception From a Slip Before Trying to Fix It](PAT_recognize_a_misconception_by_its_three_marks.md) - pattern; 3 rough.
-- [Use Beacons to Form and Test Code Hypotheses](PAT_use_beacons_to_test_code_hypotheses.md) - pattern; 3 rough.
-- [Verify Familiar-Looking Code Instead of Autocorrecting It](PAT_verify_familiar_looking_code_tokens.md) - pattern; 4 final.
+- [Refactor Temporarily for Your Own Comprehension](PAT_refactor_for_your_own_comprehension.md) - pattern; 0 design. Tags: code_comprehension, cognitive_load, refactoring.
+- [Replace a Misconception Rather Than Correcting It](PAT_replace_a_misconception_with_a_new_model.md) - pattern; 3 rough. Tags: mental_model, misconceptions, onboarding, teaching.
+- [Reproduce Code to Diagnose Knowledge Gaps](DRILL_reproduce_code_to_diagnose_knowledge.md) - drill; 3 rough. Tags: chunking, code_comprehension, deliberate_practice, self_assessment.
+- [Separate Intrinsic From Extraneous Difficulty](PAT_separate_intrinsic_from_extraneous_load.md) - pattern; 0 design. Tags: code_comprehension, cognitive_load, diagnosis.
+- [Separate Text Knowledge From Plan Knowledge](PAT_separate_text_knowledge_from_plan_knowledge.md) - pattern; 0 design. Tags: code_comprehension, diagnosis, intent.
+- [Suspect an Outdated Mental Model When the Code Gets Hard](PAT_guard_against_an_outdated_mental_model_under_load.md) - pattern; 3 rough. Tags: code_comprehension, cognitive_load, debugging, mental_model.
+- [Tell a Misconception From a Slip Before Trying to Fix It](PAT_recognize_a_misconception_by_its_three_marks.md) - pattern; 3 rough. Tags: debugging, defects, mental_model, misconceptions.
+- [Use Beacons to Form and Test Code Hypotheses](PAT_use_beacons_to_test_code_hypotheses.md) - pattern; 3 rough. Tags: beacons, code_comprehension, hypothesis_testing, reading.
+- [Verify Familiar-Looking Code Instead of Autocorrecting It](PAT_verify_familiar_looking_code_tokens.md) - pattern; 4 final. Tags: code_comprehension, code_review, defects, expectations.

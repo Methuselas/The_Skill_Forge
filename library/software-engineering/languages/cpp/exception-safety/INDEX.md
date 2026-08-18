@@ -4,6 +4,6 @@
 
 ## Objects
 
-- [Make a Function Exception-Safe with RAII and Copy-and-Swap](DRILL_make_a_function_exception_safe.md) - drill; 3 rough.
-- [Offer a Definite Exception-Safety Guarantee](PAT_offer_an_exception_safety_guarantee.md) - pattern; 2 block.
-- [Use Copy-and-Swap for the Strong Exception-Safety Guarantee](PAT_use_copy_and_swap_for_strong_guarantee.md) - pattern; 3 rough.
+- [Make a Function Exception-Safe with RAII and Copy-and-Swap](DRILL_make_a_function_exception_safe.md) - drill; 3 rough. Tags: copy_and_swap, cpp, exception_safety, raii.
+- [Offer a Definite Exception-Safety Guarantee](PAT_offer_an_exception_safety_guarantee.md) - pattern; 2 block. Tags: cpp, exception_safety, invariants, resource_management.
+- [Use Copy-and-Swap for the Strong Exception-Safety Guarantee](PAT_use_copy_and_swap_for_strong_guarantee.md) - pattern; 3 rough. Tags: copy_and_swap, cpp, exception_safety, pimpl.

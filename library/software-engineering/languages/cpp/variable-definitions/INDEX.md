@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Postpone Variable Definitions Until You Can Initialize Them](PAT_postpone_variable_definitions.md) - pattern; 3 rough.
+- [Postpone Variable Definitions Until You Can Initialize Them](PAT_postpone_variable_definitions.md) - pattern; 3 rough. Tags: cpp, efficiency, initialization, variable_definitions.

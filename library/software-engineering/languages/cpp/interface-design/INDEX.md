@@ -4,6 +4,6 @@
 
 ## Objects
 
-- [Design a Class as You Would Design a Type](PAT_design_a_class_as_type.md) - pattern; 0 design.
-- [Make Interfaces Easy to Use Correctly and Hard to Use Incorrectly](PAT_make_interfaces_hard_to_misuse.md) - pattern; 2 block.
-- [Redesign an Error-Prone Interface So Misuse Won't Compile](DRILL_redesign_interface_to_prevent_misuse.md) - drill; 2 block.
+- [Design a Class as You Would Design a Type](PAT_design_a_class_as_type.md) - pattern; 0 design. Tags: class_design, cpp, invariants, type_design.
+- [Make Interfaces Easy to Use Correctly and Hard to Use Incorrectly](PAT_make_interfaces_hard_to_misuse.md) - pattern; 2 block. Tags: cpp, hard_to_misuse, interface_design, type_safety.
+- [Redesign an Error-Prone Interface So Misuse Won't Compile](DRILL_redesign_interface_to_prevent_misuse.md) - drill; 2 block. Tags: cpp, hard_to_misuse, interface_design, type_safety.

@@ -20,39 +20,39 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Adopt a Language Feature Only When It Is the Best Tool](PAT_adopt_language_features_when_best_tool.md) - pattern; 3 rough.
-- [Agree on a Few Name Molds and Reuse Them](PAT_agree_on_a_small_set_of_name_molds.md) - pattern; 0 design.
+- [Adopt a Language Feature Only When It Is the Best Tool](PAT_adopt_language_features_when_best_tool.md) - pattern; 3 rough. Tags: judgment, language_features, maintainability, readability.
+- [Agree on a Few Name Molds and Reuse Them](PAT_agree_on_a_small_set_of_name_molds.md) - pattern; 0 design. Tags: consistency, conventions, naming, readability.
   - Variants: `Take the Molds Off the Shelf Instead of Deriving Them` (method_sequence).
-- [Audit the Names in a Change, Away From the Code](DRILL_audit_identifier_names_in_a_code_review.md) - drill; 4 final.
-- [Box the Related Statements and Look for Overlap](DRILL_box_related_statements_to_find_overlap.md) - drill; 3 rough.
-- [Choose a Name in Three Steps — Concepts, Words, Mold](AP_choose_a_name_with_feitelsons_three_steps.md) - ap; 3 rough.
-- [Comment the Why, Not the What](PAT_comment_why_not_what.md) - pattern; 3 rough.
+- [Audit the Names in a Change, Away From the Code](DRILL_audit_identifier_names_in_a_code_review.md) - drill; 4 final. Tags: code_review, deliberate_practice, naming, readability.
+- [Box the Related Statements and Look for Overlap](DRILL_box_related_statements_to_find_overlap.md) - drill; 3 rough. Tags: code_review, readability, refactoring, statement_organization.
+- [Choose a Name in Three Steps — Concepts, Words, Mold](AP_choose_a_name_with_feitelsons_three_steps.md) - ap; 3 rough. Tags: code_review, conventions, naming, readability.
+- [Comment the Why, Not the What](PAT_comment_why_not_what.md) - pattern; 3 rough. Tags: comments, documentation, maintainability, readability.
   - Variants: `Keep the Design Statements You Wrote Before the Code` (method_sequence).
-- [Diagnose and Rewrite an Unreadable Procedure](DRILL_diagnose_and_rewrite_unreadable_procedure.md) - drill; 3 rough.
-- [Favor Readability Over Fewer Lines of Code](PAT_favor_readability_over_brevity.md) - pattern; 3 rough.
-- [Fix the Routine the Honest Name Exposes](PAT_let_an_awkward_name_expose_the_design_fault.md) - pattern; 3 rough.
-- [Flatten Deeply Nested Logic With Early Returns and Extraction](DRILL_flatten_deeply_nested_logic.md) - drill; 3 rough.
-- [Follow a Consistent Coding Style Guide](PAT_follow_a_consistent_coding_style.md) - pattern; 3 rough.
-- [Give Every Participant in an Operation a Name](PAT_give_every_participant_in_an_operation_a_name.md) - pattern; 3 rough.
-- [Give Unexplained Values a Name](PAT_name_unexplained_values.md) - pattern; 3 rough.
+- [Diagnose and Rewrite an Unreadable Procedure](DRILL_diagnose_and_rewrite_unreadable_procedure.md) - drill; 3 rough. Tags: comprehension, naming, readability, refactoring.
+- [Favor Readability Over Fewer Lines of Code](PAT_favor_readability_over_brevity.md) - pattern; 3 rough. Tags: code_length, maintainability, readability, single_source_of_truth.
+- [Fix the Routine the Honest Name Exposes](PAT_let_an_awkward_name_expose_the_design_fault.md) - pattern; 3 rough. Tags: design_signal, naming, routines, side_effects.
+- [Flatten Deeply Nested Logic With Early Returns and Extraction](DRILL_flatten_deeply_nested_logic.md) - drill; 3 rough. Tags: control_flow, nesting, readability, refactoring.
+- [Follow a Consistent Coding Style Guide](PAT_follow_a_consistent_coding_style.md) - pattern; 3 rough. Tags: coding_style, conventions, linters, readability.
+- [Give Every Participant in an Operation a Name](PAT_give_every_participant_in_an_operation_a_name.md) - pattern; 3 rough. Tags: data_structures, naming, readability, traversal.
+- [Give Unexplained Values a Name](PAT_name_unexplained_values.md) - pattern; 3 rough. Tags: constants, magic_numbers, readability, single_source_of_truth.
   - Variants: `Draw the Line at Zero and One Rather Than at Obviousness` (method_sequence).
-- [Hunt for Names That Contradict What the Code Does](PAT_detect_linguistic_antipatterns_in_names.md) - pattern; 4 final.
-- [Judge Names When You Are Not the One Solving the Problem](PAT_review_names_outside_the_coding_moment.md) - pattern; 4 final.
-- [Lay Out Code to Show Its Logical Structure, Not to Look Pretty](PAT_lay_out_code_to_show_its_logical_structure.md) - pattern; 3 rough.
-- [Let a Name's Length Signal Its Scope](PAT_let_name_length_signal_scope.md) - pattern; 3 rough.
-- [Make a Name Serve Both the Reader's Parsing and Their Recall](PAT_design_a_name_for_both_stm_and_ltm.md) - pattern; 3 rough.
-- [Make Call-Site Arguments Self-Explanatory](PAT_use_named_arguments_for_readable_calls.md) - pattern; 3 rough.
-- [Make Order Dependencies Visible](PAT_make_order_dependencies_visible.md) - pattern; 3 rough.
-- [Minimize Nesting With Early Returns and Function Extraction](PAT_minimize_nesting_with_early_returns.md) - pattern; 3 rough.
+- [Hunt for Names That Contradict What the Code Does](PAT_detect_linguistic_antipatterns_in_names.md) - pattern; 4 final. Tags: code_review, cognitive_load, defects, naming.
+- [Judge Names When You Are Not the One Solving the Problem](PAT_review_names_outside_the_coding_moment.md) - pattern; 4 final. Tags: code_review, cognitive_load, naming, readability.
+- [Lay Out Code to Show Its Logical Structure, Not to Look Pretty](PAT_lay_out_code_to_show_its_logical_structure.md) - pattern; 3 rough. Tags: formatting, layout, maintainability, readability.
+- [Let a Name's Length Signal Its Scope](PAT_let_name_length_signal_scope.md) - pattern; 3 rough. Tags: loops, naming, readability, scope.
+- [Make a Name Serve Both the Reader's Parsing and Their Recall](PAT_design_a_name_for_both_stm_and_ltm.md) - pattern; 3 rough. Tags: code_comprehension, naming, readability, working_memory.
+- [Make Call-Site Arguments Self-Explanatory](PAT_use_named_arguments_for_readable_calls.md) - pattern; 3 rough. Tags: api_design, function_calls, named_arguments, readability.
+- [Make Order Dependencies Visible](PAT_make_order_dependencies_visible.md) - pattern; 3 rough. Tags: control_flow, dependencies, maintainability, sequencing.
+- [Minimize Nesting With Early Returns and Function Extraction](PAT_minimize_nesting_with_early_returns.md) - pattern; 3 rough. Tags: control_flow, nesting, readability, refactoring.
   - Variants: `Run the Nominal Path Down the If Branches and Stack the Errors` (method_sequence); `Flatten by Restructuring the Tests Themselves` (method_sequence).
-- [Name a Boolean for the Condition It Asserts](PAT_name_a_boolean_for_the_condition_it_asserts.md) - pattern; 3 rough.
-- [Name the Problem, Not the Computation](PAT_name_the_problem_not_the_computation.md) - pattern; 3 rough.
-- [Rename Nondescriptive Code and Drop the Redundant Comments](DRILL_rename_nondescriptive_code.md) - drill; 3 rough.
-- [Replace Magic Coefficients With Named Constants or Functions](DRILL_replace_magic_coefficients_with_named_values.md) - drill; 3 rough.
-- [Replace Primitive Parameters With Descriptive Types](PAT_replace_primitives_with_descriptive_types.md) - pattern; 2 block.
-- [Spend Your Naming Effort at the Start of a Project](PAT_invest_in_names_early_in_a_project.md) - pattern; 0 design.
-- [Use Anonymous Functions Only for Small Self-Explanatory Logic](PAT_use_anonymous_functions_only_when_small.md) - pattern; 3 rough.
-- [Use Bad Names as a Place to Look for Bugs](PAT_treat_bad_names_as_a_defect_search_heuristic.md) - pattern; 4 final.
+- [Name a Boolean for the Condition It Asserts](PAT_name_a_boolean_for_the_condition_it_asserts.md) - pattern; 3 rough. Tags: booleans, naming, readability, status_variables.
+- [Name the Problem, Not the Computation](PAT_name_the_problem_not_the_computation.md) - pattern; 3 rough. Tags: constants, naming, problem_domain, readability.
+- [Rename Nondescriptive Code and Drop the Redundant Comments](DRILL_rename_nondescriptive_code.md) - drill; 3 rough. Tags: comments, naming, readability, refactoring.
+- [Replace Magic Coefficients With Named Constants or Functions](DRILL_replace_magic_coefficients_with_named_values.md) - drill; 3 rough. Tags: constants, magic_numbers, readability, refactoring.
+- [Replace Primitive Parameters With Descriptive Types](PAT_replace_primitives_with_descriptive_types.md) - pattern; 2 block. Tags: api_design, hard_to_misuse, readability, types.
+- [Spend Your Naming Effort at the Start of a Project](PAT_invest_in_names_early_in_a_project.md) - pattern; 0 design. Tags: conventions, naming, project_setup, readability.
+- [Use Anonymous Functions Only for Small Self-Explanatory Logic](PAT_use_anonymous_functions_only_when_small.md) - pattern; 3 rough. Tags: anonymous_functions, functional_programming, readability, reuse.
+- [Use Bad Names as a Place to Look for Bugs](PAT_treat_bad_names_as_a_defect_search_heuristic.md) - pattern; 4 final. Tags: code_review, defects, naming, static_analysis.
   - Variants: `Use Structural Smells as the Signal Instead of Names` (method_sequence).
-- [Use Descriptive Names Instead of Comments to Explain What Things Are](PAT_use_descriptive_names.md) - pattern; 3 rough.
-- [Write Code That Reads Like a Well-Structured Recipe](PAT_make_code_readable.md) - pattern; 3 rough.
+- [Use Descriptive Names Instead of Comments to Explain What Things Are](PAT_use_descriptive_names.md) - pattern; 3 rough. Tags: comments, naming, readability, self_documenting_code.
+- [Write Code That Reads Like a Well-Structured Recipe](PAT_make_code_readable.md) - pattern; 3 rough. Tags: code_structure, comprehension, naming, readability.

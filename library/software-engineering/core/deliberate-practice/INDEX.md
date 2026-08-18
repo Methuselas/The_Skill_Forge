@@ -14,19 +14,19 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Arrange the Conditions That Make Prior Knowledge Transfer](PAT_set_up_for_transfer_when_learning_a_new_language.md) - pattern; 0 design.
-- [Attempt Recall Before Looking Syntax Up](PAT_attempt_recall_before_looking_up.md) - pattern; 0 design.
-- [Automatize a Construct by Writing and Converting Many Variants](DRILL_automatize_a_skill_by_writing_many_variants.md) - drill; 0 design.
-- [Build a Flashcard Deck of Mental Models](DRILL_build_a_mental_model_flashcard_deck.md) - drill; 0 design.
-- [Build and Prune a Syntax Flashcard Set](DRILL_practice_syntax_with_flashcards.md) - drill; 0 design.
+- [Arrange the Conditions That Make Prior Knowledge Transfer](PAT_set_up_for_transfer_when_learning_a_new_language.md) - pattern; 0 design. Tags: deliberate_practice, learning, onboarding, transfer.
+- [Attempt Recall Before Looking Syntax Up](PAT_attempt_recall_before_looking_up.md) - pattern; 0 design. Tags: deliberate_practice, memory, retrieval_practice, syntax.
+- [Automatize a Construct by Writing and Converting Many Variants](DRILL_automatize_a_skill_by_writing_many_variants.md) - drill; 0 design. Tags: automatization, deliberate_practice, repetition, spacing.
+- [Build a Flashcard Deck of Mental Models](DRILL_build_a_mental_model_flashcard_deck.md) - drill; 0 design. Tags: deliberate_practice, flashcards, mental_model, retrieval_practice.
+- [Build and Prune a Syntax Flashcard Set](DRILL_practice_syntax_with_flashcards.md) - drill; 0 design. Tags: deliberate_practice, flashcards, retrieval_practice, syntax.
   - Variants: `Put Code on Both Sides for Construct Synonyms` (medium).
-- [Elaborate a New Concept Against What You Already Know](DRILL_elaborate_a_new_concept_against_known_ones.md) - drill; 0 design.
-- [Expect Prior Knowledge to Mislead You Most Where Languages Are Similar](PAT_expect_negative_transfer_between_similar_languages.md) - pattern; 0 design.
+- [Elaborate a New Concept Against What You Already Know](DRILL_elaborate_a_new_concept_against_known_ones.md) - drill; 0 design. Tags: deliberate_practice, elaboration, memory, onboarding.
+- [Expect Prior Knowledge to Mislead You Most Where Languages Are Similar](PAT_expect_negative_transfer_between_similar_languages.md) - pattern; 0 design. Tags: defects, learning, misconceptions, transfer.
   - Variants: `Negative Transfer That Lives in Your Fingers, Not Your Knowledge` (context).
-- [Map a New Language Against One You Already Know](DRILL_compare_a_new_language_against_a_known_one.md) - drill; 0 design.
-- [Pick the Practice Method That Fits the Kind of Memory You Need](PAT_match_practice_method_to_the_memory_type.md) - pattern; 0 design.
-- [Separate Storage Strength From Retrieval Strength](PAT_diagnose_weak_recall_as_storage_or_retrieval.md) - pattern; 0 design.
-- [Sort Your Programming Skills Into the Three Automatization Phases](DRILL_diagnose_which_automatization_phase_a_skill_is_in.md) - drill; 0 design.
-- [Space Practice Across Widening Intervals](PAT_space_practice_across_widening_intervals.md) - pattern; 0 design.
-- [Study Solved Problems, Don't Only Solve New Ones](PAT_study_worked_examples_rather_than_only_solving.md) - pattern; 0 design.
-- [Work From a Misconception Checklist Instead of Waiting to Be Wrong](PAT_use_a_misconception_checklist_when_learning_a_language.md) - pattern; 0 design.
+- [Map a New Language Against One You Already Know](DRILL_compare_a_new_language_against_a_known_one.md) - drill; 0 design. Tags: deliberate_practice, learning, onboarding, transfer.
+- [Pick the Practice Method That Fits the Kind of Memory You Need](PAT_match_practice_method_to_the_memory_type.md) - pattern; 0 design. Tags: automatization, deliberate_practice, memory, problem_solving.
+- [Separate Storage Strength From Retrieval Strength](PAT_diagnose_weak_recall_as_storage_or_retrieval.md) - pattern; 0 design. Tags: deliberate_practice, diagnosis, memory, retrieval_practice.
+- [Sort Your Programming Skills Into the Three Automatization Phases](DRILL_diagnose_which_automatization_phase_a_skill_is_in.md) - drill; 0 design. Tags: automatization, cognitive_load, deliberate_practice, self_assessment.
+- [Space Practice Across Widening Intervals](PAT_space_practice_across_widening_intervals.md) - pattern; 0 design. Tags: deliberate_practice, memory, onboarding, spaced_repetition.
+- [Study Solved Problems, Don't Only Solve New Ones](PAT_study_worked_examples_rather_than_only_solving.md) - pattern; 0 design. Tags: code_reading, cognitive_load, deliberate_practice, worked_examples.
+- [Work From a Misconception Checklist Instead of Waiting to Be Wrong](PAT_use_a_misconception_checklist_when_learning_a_language.md) - pattern; 0 design. Tags: learning, misconceptions, onboarding, transfer.

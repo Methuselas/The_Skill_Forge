@@ -4,5 +4,5 @@
 
 ## Objects
 
-- [Give Polymorphic Base Classes a Virtual Destructor](PAT_give_polymorphic_base_a_virtual_destructor.md) - pattern; 2 block.
-- [Never Let Exceptions Escape a Destructor](PAT_never_let_exceptions_leave_a_destructor.md) - pattern; 2 block.
+- [Give Polymorphic Base Classes a Virtual Destructor](PAT_give_polymorphic_base_a_virtual_destructor.md) - pattern; 2 block. Tags: cpp, destructors, inheritance, polymorphism.
+- [Never Let Exceptions Escape a Destructor](PAT_never_let_exceptions_leave_a_destructor.md) - pattern; 2 block. Tags: cpp, destructors, exceptions, resource_management.

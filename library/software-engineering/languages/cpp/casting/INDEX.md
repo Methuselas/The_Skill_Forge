@@ -4,5 +4,5 @@
 
 ## Objects
 
-- [Avoid dynamic_cast with Virtuals or Type-Safe Containers](PAT_avoid_dynamic_cast_with_alternatives.md) - pattern; 2 block.
-- [Minimize Casting and Prefer C++-Style Casts](PAT_minimize_and_prefer_cpp_style_casts.md) - pattern; 3 rough.
+- [Avoid dynamic_cast with Virtuals or Type-Safe Containers](PAT_avoid_dynamic_cast_with_alternatives.md) - pattern; 2 block. Tags: casting, cpp, performance, polymorphism.
+- [Minimize Casting and Prefer C++-Style Casts](PAT_minimize_and_prefer_cpp_style_casts.md) - pattern; 3 rough. Tags: casting, cpp, maintainability, type_safety.

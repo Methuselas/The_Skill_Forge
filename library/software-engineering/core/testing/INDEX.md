@@ -26,33 +26,33 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Build a Way to See Inside the Running System](PAT_build_a_way_to_see_inside_the_running_system.md) - pattern; 2 block.
-- [Choose an Assertion Matcher for a Correct, Clear Failure](DRILL_choose_an_appropriate_assertion_matcher.md) - drill; 4 final.
-- [Choose Test Cases Systematically](AP_choose_test_cases_systematically.md) - ap; 3 rough.
-- [Combine Detection Techniques Rather Than Perfecting One](PAT_combine_detection_techniques_rather_than_perfecting_one.md) - pattern; 4 final.
-- [Design for Testability While You Write](PAT_design_for_testability.md) - pattern; 0 design.
-- [Don't Make Things Visible Just for Testing](PAT_dont_expose_privates_for_testing.md) - pattern; 4 final.
-- [Inject Dependencies to Make Code Testable](PAT_inject_dependencies_for_testability.md) - pattern; 4 final.
-- [Keep Outcome-Affecting Setup Inside Each Test Case](PAT_use_shared_test_setup_carefully.md) - pattern; 4 final.
-- [Keep Unit Tests Fast and Easy to Run](PAT_keep_unit_tests_fast_to_run.md) - pattern; 4 final.
-- [Make Test Failures and Test Code Self-Explaining](PAT_write_well_explained_test_failures.md) - pattern; 4 final.
-- [Make Tests Fail When and Only When the Code Is Broken](PAT_tests_fail_only_when_code_broken.md) - pattern; 4 final.
-- [Move Outcome-Affecting Setup Out of Shared Config](DRILL_make_test_config_self_contained.md) - drill; 4 final.
-- [Pick and Choose From Testing Philosophies](PAT_pick_and_choose_testing_philosophies.md) - pattern; 0 design.
-- [Prefer Fakes Over Mocks and Stubs](PAT_prefer_fakes_over_mocks_and_stubs.md) - pattern; 4 final.
-- [Put Review Effort Into Preparation, Not the Meeting](PAT_put_review_effort_into_preparation_not_the_meeting.md) - pattern; 4 final.
-- [Replace a Mock With a Fake and Catch the Hidden Bug](DRILL_replace_mock_with_fake.md) - drill; 4 final.
-- [Replace a Private-Function Test With a Public-API Behavior Test](DRILL_replace_private_test_with_public_api_test.md) - drill; 4 final.
-- [Review to Detect, Not to Correct](PAT_review_to_detect_not_to_correct.md) - pattern; 4 final.
+- [Build a Way to See Inside the Running System](PAT_build_a_way_to_see_inside_the_running_system.md) - pattern; 2 block. Tags: diagnostics, logging, observability, testability.
+- [Choose an Assertion Matcher for a Correct, Clear Failure](DRILL_choose_an_appropriate_assertion_matcher.md) - drill; 4 final. Tags: assertions, failure_messages, matchers, unit_testing.
+- [Choose Test Cases Systematically](AP_choose_test_cases_systematically.md) - ap; 3 rough. Tags: boundary_analysis, coverage, defect_detection, test_design.
+- [Combine Detection Techniques Rather Than Perfecting One](PAT_combine_detection_techniques_rather_than_perfecting_one.md) - pattern; 4 final. Tags: defect_detection, inspections, reviews, testing.
+- [Design for Testability While You Write](PAT_design_for_testability.md) - pattern; 0 design. Tags: design, modularity, testability, testing.
+- [Don't Make Things Visible Just for Testing](PAT_dont_expose_privates_for_testing.md) - pattern; 4 final. Tags: encapsulation, implementation_details, public_api, unit_testing.
+- [Inject Dependencies to Make Code Testable](PAT_inject_dependencies_for_testability.md) - pattern; 4 final. Tags: dependency_injection, test_doubles, testability, unit_testing.
+- [Keep Outcome-Affecting Setup Inside Each Test Case](PAT_use_shared_test_setup_carefully.md) - pattern; 4 final. Tags: determinism, shared_state, test_setup, unit_testing.
+- [Keep Unit Tests Fast and Easy to Run](PAT_keep_unit_tests_fast_to_run.md) - pattern; 4 final. Tags: developer_experience, presubmit, test_speed, unit_testing.
+- [Make Test Failures and Test Code Self-Explaining](PAT_write_well_explained_test_failures.md) - pattern; 4 final. Tags: failure_messages, readability, test_naming, unit_testing.
+- [Make Tests Fail When and Only When the Code Is Broken](PAT_tests_fail_only_when_code_broken.md) - pattern; 4 final. Tags: determinism, flaky_tests, regression_testing, unit_testing.
+- [Move Outcome-Affecting Setup Out of Shared Config](DRILL_make_test_config_self_contained.md) - drill; 4 final. Tags: refactoring, shared_state, test_setup, unit_testing.
+- [Pick and Choose From Testing Philosophies](PAT_pick_and_choose_testing_philosophies.md) - pattern; 0 design. Tags: judgment, methodology, tdd, unit_testing.
+- [Prefer Fakes Over Mocks and Stubs](PAT_prefer_fakes_over_mocks_and_stubs.md) - pattern; 4 final. Tags: fakes, mocks, stubs, unit_testing.
+- [Put Review Effort Into Preparation, Not the Meeting](PAT_put_review_effort_into_preparation_not_the_meeting.md) - pattern; 4 final. Tags: code_reading, defect_detection, inspections, reviews.
+- [Replace a Mock With a Fake and Catch the Hidden Bug](DRILL_replace_mock_with_fake.md) - drill; 4 final. Tags: fakes, mocks, refactoring, unit_testing.
+- [Replace a Private-Function Test With a Public-API Behavior Test](DRILL_replace_private_test_with_public_api_test.md) - drill; 4 final. Tags: encapsulation, public_api, refactoring, unit_testing.
+- [Review to Detect, Not to Correct](PAT_review_to_detect_not_to_correct.md) - pattern; 4 final. Tags: code_review, collaboration, inspections, reviews.
   - Variants: `Carry the Remedy When the Review Is Written` (context).
-- [Rewrite an Implementation-Coupled Test to Use the Public API](DRILL_rewrite_test_to_use_public_api.md) - drill; 4 final.
-- [Split and Name Test Cases for the Behavior They Lock In](DRILL_name_test_cases_for_behavior.md) - drill; 4 final.
-- [Split Code Into Smaller Units to Make It Testable](PAT_split_code_to_make_it_testable.md) - pattern; 4 final.
-- [Structure a Test Case as Arrange, Act, Assert](PAT_structure_tests_arrange_act_assert.md) - pattern; 4 final.
-- [Test Behaviors, Not Just Functions](PAT_test_behaviors_not_functions.md) - pattern; 4 final.
-- [Test Every Important Behavior, Even Beyond the Public API](PAT_test_important_behaviors_beyond_public_api.md) - pattern; 4 final.
-- [Test One Behavior Per Test Case](PAT_test_one_behavior_per_case.md) - pattern; 4 final.
-- [Test Through the Public API, Not Implementation Details](PAT_keep_tests_agnostic_to_implementation.md) - pattern; 4 final.
-- [Use a Test Double Only When a Real Dependency Won't Do](PAT_use_test_double_only_when_needed.md) - pattern; 4 final.
-- [Use an Assertion Matcher That Fits the Behavior](PAT_use_appropriate_assertion_matchers.md) - pattern; 4 final.
-- [Write a Unit Test Suite for a Piece of Code](AP_write_a_unit_test_suite.md) - ap; 4 final.
+- [Rewrite an Implementation-Coupled Test to Use the Public API](DRILL_rewrite_test_to_use_public_api.md) - drill; 4 final. Tags: implementation_details, public_api, refactoring, unit_testing.
+- [Split and Name Test Cases for the Behavior They Lock In](DRILL_name_test_cases_for_behavior.md) - drill; 4 final. Tags: failure_messages, refactoring, test_naming, unit_testing.
+- [Split Code Into Smaller Units to Make It Testable](PAT_split_code_to_make_it_testable.md) - pattern; 4 final. Tags: modularity, public_api, refactoring, unit_testing.
+- [Structure a Test Case as Arrange, Act, Assert](PAT_structure_tests_arrange_act_assert.md) - pattern; 4 final. Tags: arrange_act_assert, readability, test_structure, unit_testing.
+- [Test Behaviors, Not Just Functions](PAT_test_behaviors_not_functions.md) - pattern; 4 final. Tags: behaviors, error_handling, test_coverage, unit_testing.
+- [Test Every Important Behavior, Even Beyond the Public API](PAT_test_important_behaviors_beyond_public_api.md) - pattern; 4 final. Tags: important_behaviors, public_api, side_effects, unit_testing.
+- [Test One Behavior Per Test Case](PAT_test_one_behavior_per_case.md) - pattern; 4 final. Tags: parameterized_tests, readability, test_structure, unit_testing.
+- [Test Through the Public API, Not Implementation Details](PAT_keep_tests_agnostic_to_implementation.md) - pattern; 4 final. Tags: implementation_details, public_api, refactoring, unit_testing.
+- [Use a Test Double Only When a Real Dependency Won't Do](PAT_use_test_double_only_when_needed.md) - pattern; 4 final. Tags: dependencies, determinism, test_doubles, unit_testing.
+- [Use an Assertion Matcher That Fits the Behavior](PAT_use_appropriate_assertion_matchers.md) - pattern; 4 final. Tags: assertions, failure_messages, matchers, unit_testing.
+- [Write a Unit Test Suite for a Piece of Code](AP_write_a_unit_test_suite.md) - ap; 4 final. Tags: behaviors, test_design, test_doubles, unit_testing.

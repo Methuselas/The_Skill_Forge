@@ -14,28 +14,28 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Assess the Groundwork You Inherited Before Writing Code](AP_assess_construction_prerequisites_before_building.md) - ap; 0 design.
-- [Assume It Is Not Easy, Because You Cannot Remember It Being Hard](PAT_account_for_the_curse_of_expertise_when_onboarding.md) - pattern; 0 design.
-- [Build a Routine From Intent-Level Pseudocode](AP_build_a_routine_from_intent_level_pseudocode.md) - ap; 1 skeleton.
-- [Choose What to Integrate Next by Where the Risk Is](PAT_choose_the_integration_order_by_risk.md) - pattern; 0 design.
-- [Decide Which Automated Checks Earn the Right to Block](PAT_decide_whether_a_check_blocks_or_warns.md) - pattern; 1 skeleton.
-- [Estimate by Decomposing and Cross-Checking, Never by Feel](PAT_estimate_by_decomposition_and_cross_check.md) - pattern; 0 design.
-- [Explain a Concept as a Wave — Abstract, Concrete, Abstract Again](PAT_teach_along_a_semantic_wave.md) - pattern; 0 design.
-- [Externalize Enough State That an Interruption Cannot Cost You the Context](PAT_prepare_for_interruption_before_it_arrives.md) - pattern; 3 rough.
-- [Give a Newcomer One Programming Activity, Not Four](PAT_give_a_newcomer_one_activity_at_a_time.md) - pattern; 0 design.
-- [Grow a System From a Running Skeleton](AP_grow_a_system_from_a_running_skeleton.md) - ap; 1 skeleton.
-- [Interrupt People Between Tasks, Not Inside Them](PAT_interrupt_at_task_boundaries.md) - pattern; 4 final.
-- [Iterating Does Not Buy You Out of the Upfront Work](PAT_do_prerequisites_per_increment_when_iterating.md) - pattern; 0 design.
-- [Keep a Known-Good Build Behind an Automated Smoke Test](PAT_keep_the_build_green_with_an_automated_smoke_test.md) - pattern; 1 skeleton.
-- [Know Why It Works Before You Build on It](PAT_know_why_it_works_before_you_move_on.md) - pattern; 2 block.
-- [Name the Activity You Are In, Then Support the Memory It Taxes](PAT_support_the_memory_system_the_activity_taxes.md) - pattern; 0 design.
-- [Pick the Method Per Problem Instead of Committing to One](PAT_keep_a_toolbox_instead_of_adopting_one_methodology.md) - pattern; 0 design.
-- [Prepare an Onboarding That Supports All Three Memory Systems](AP_prepare_an_onboarding_for_all_three_memory_systems.md) - ap; 0 design.
-- [Quote the Cost of a New Requirement Rather Than Swallowing It](PAT_price_a_requirements_change_instead_of_absorbing_it.md) - pattern; 3 rough.
-- [Script the Procedure Instead of Writing Down the Steps](PAT_script_the_procedure_instead_of_writing_down_the_steps.md) - pattern; 4 final.
-- [Set Ceremony by What Failure Costs, Not by Habit](PAT_scale_formality_to_the_kind_of_software.md) - pattern; 0 design.
-- [Take On the Whole Construction Span, Not Just the Code](PAT_scope_construction_beyond_writing_the_code.md) - pattern; 0 design.
-- [Understand the Routine Before the Compiler Sees It](PAT_understand_the_routine_before_the_compiler_sees_it.md) - pattern; 3 rough.
-- [Work Out How Mature Your Toolchain Is Before Trusting It](PAT_locate_yourself_on_the_technology_wave.md) - pattern; 0 design.
-- [Work Out Which Stage a Learner Is At Before Choosing How to Help](PAT_locate_a_learner_on_the_neo_piagetian_stages.md) - pattern; 0 design.
-- [You Can Only Multitask What You Have Already Automatized](PAT_dont_multitask_what_you_have_not_automatized.md) - pattern; 0 design.
+- [Assess the Groundwork You Inherited Before Writing Code](AP_assess_construction_prerequisites_before_building.md) - ap; 0 design. Tags: architecture, construction, prerequisites, requirements, risk_reduction.
+- [Assume It Is Not Easy, Because You Cannot Remember It Being Hard](PAT_account_for_the_curse_of_expertise_when_onboarding.md) - pattern; 0 design. Tags: cognitive_load, onboarding, teaching, working_practice.
+- [Build a Routine From Intent-Level Pseudocode](AP_build_a_routine_from_intent_level_pseudocode.md) - ap; 1 skeleton. Tags: construction, detailed_design, iteration, pseudocode, routines.
+- [Choose What to Integrate Next by Where the Risk Is](PAT_choose_the_integration_order_by_risk.md) - pattern; 0 design. Tags: construction, integration, risk, sequencing.
+- [Decide Which Automated Checks Earn the Right to Block](PAT_decide_whether_a_check_blocks_or_warns.md) - pattern; 1 skeleton. Tags: automation, build, discipline, feedback, review.
+- [Estimate by Decomposing and Cross-Checking, Never by Feel](PAT_estimate_by_decomposition_and_cross_check.md) - pattern; 0 design. Tags: calibration, estimation, planning, scheduling.
+- [Explain a Concept as a Wave — Abstract, Concrete, Abstract Again](PAT_teach_along_a_semantic_wave.md) - pattern; 0 design. Tags: explanation, memory, onboarding, teaching.
+- [Externalize Enough State That an Interruption Cannot Cost You the Context](PAT_prepare_for_interruption_before_it_arrives.md) - pattern; 3 rough. Tags: interruptions, note_taking, prospective_memory, working_practice.
+- [Give a Newcomer One Programming Activity, Not Four](PAT_give_a_newcomer_one_activity_at_a_time.md) - pattern; 0 design. Tags: cognitive_load, onboarding, teaching, working_practice.
+- [Grow a System From a Running Skeleton](AP_grow_a_system_from_a_running_skeleton.md) - ap; 1 skeleton. Tags: construction, incremental_development, integration, iteration, skeleton.
+- [Interrupt People Between Tasks, Not Inside Them](PAT_interrupt_at_task_boundaries.md) - pattern; 4 final. Tags: cognitive_load, collaboration, interruptions, working_practice.
+- [Iterating Does Not Buy You Out of the Upfront Work](PAT_do_prerequisites_per_increment_when_iterating.md) - pattern; 0 design. Tags: architecture, iterative_development, prerequisites, requirements, rework.
+- [Keep a Known-Good Build Behind an Automated Smoke Test](PAT_keep_the_build_green_with_an_automated_smoke_test.md) - pattern; 1 skeleton. Tags: build, discipline, integration, testing.
+- [Know Why It Works Before You Build on It](PAT_know_why_it_works_before_you_move_on.md) - pattern; 2 block. Tags: assumptions, deliberate_practice, generated_code, undocumented_behaviour.
+- [Name the Activity You Are In, Then Support the Memory It Taxes](PAT_support_the_memory_system_the_activity_taxes.md) - pattern; 0 design. Tags: code_comprehension, cognitive_load, note_taking, working_practice.
+- [Pick the Method Per Problem Instead of Committing to One](PAT_keep_a_toolbox_instead_of_adopting_one_methodology.md) - pattern; 0 design. Tags: construction, judgment, methodology, technique_selection.
+- [Prepare an Onboarding That Supports All Three Memory Systems](AP_prepare_an_onboarding_for_all_three_memory_systems.md) - ap; 0 design. Tags: cognitive_load, documentation, onboarding, teaching.
+- [Quote the Cost of a New Requirement Rather Than Swallowing It](PAT_price_a_requirements_change_instead_of_absorbing_it.md) - pattern; 3 rough. Tags: change_control, construction, requirements, scope.
+- [Script the Procedure Instead of Writing Down the Steps](PAT_script_the_procedure_instead_of_writing_down_the_steps.md) - pattern; 4 final. Tags: automation, build, reproducibility, tooling.
+- [Set Ceremony by What Failure Costs, Not by Habit](PAT_scale_formality_to_the_kind_of_software.md) - pattern; 0 design. Tags: change_control, formality, process, reviews, risk.
+- [Take On the Whole Construction Span, Not Just the Code](PAT_scope_construction_beyond_writing_the_code.md) - pattern; 0 design. Tags: construction, estimation, planning, scope, software_process.
+- [Understand the Routine Before the Compiler Sees It](PAT_understand_the_routine_before_the_compiler_sees_it.md) - pattern; 3 rough. Tags: compiler, debugging, desk_checking, self_review, verification.
+- [Work Out How Mature Your Toolchain Is Before Trusting It](PAT_locate_yourself_on_the_technology_wave.md) - pattern; 0 design. Tags: construction, estimation, expectations, risk, tooling.
+- [Work Out Which Stage a Learner Is At Before Choosing How to Help](PAT_locate_a_learner_on_the_neo_piagetian_stages.md) - pattern; 0 design. Tags: mental_model, onboarding, teaching, working_practice.
+- [You Can Only Multitask What You Have Already Automatized](PAT_dont_multitask_what_you_have_not_automatized.md) - pattern; 0 design. Tags: automatization, cognitive_load, multitasking, working_practice.

@@ -4,6 +4,6 @@
 
 ## Objects
 
-- [Declare Data Members private](PAT_declare_data_members_private.md) - pattern; 2 block.
-- [Don't Return Handles to Object Internals](PAT_dont_return_handles_to_internals.md) - pattern; 2 block.
-- [Prefer Non-member Non-friend Functions to Member Functions](PAT_prefer_non_member_non_friend_functions.md) - pattern; 2 block.
+- [Declare Data Members private](PAT_declare_data_members_private.md) - pattern; 2 block. Tags: access_control, class_design, cpp, encapsulation.
+- [Don't Return Handles to Object Internals](PAT_dont_return_handles_to_internals.md) - pattern; 2 block. Tags: const_correctness, cpp, dangling, encapsulation.
+- [Prefer Non-member Non-friend Functions to Member Functions](PAT_prefer_non_member_non_friend_functions.md) - pattern; 2 block. Tags: class_design, cpp, encapsulation, namespaces.

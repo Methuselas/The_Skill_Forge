@@ -17,19 +17,19 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Catch the Coupling That the Compiler Cannot See](PAT_watch_for_semantic_coupling.md) - pattern; 3 rough.
-- [Compose Modules With Few Well-Defined Interfaces](PAT_design_modular_interfaces.md) - pattern; 2 block.
-- [Depend on Interfaces, Not Concrete Classes](PAT_depend_on_interfaces_not_concrete_classes.md) - pattern; 2 block.
-- [Design the File and Library Dependencies, Not Only the Class Ones](PAT_design_the_physical_dependency_graph_too.md) - pattern; 0 design.
-- [Don't Leak Implementation Details in Exceptions](PAT_dont_leak_implementation_details_in_exceptions.md) - pattern; 2 block.
-- [Don't Leak Implementation Details in Return Types](PAT_dont_leak_implementation_details_in_return_types.md) - pattern; 2 block.
-- [Encapsulate Inescapably Related Data Together](PAT_encapsulate_related_data_together.md) - pattern; 2 block.
-- [Inject Dependencies Instead of Hard-Coding Them](PAT_use_dependency_injection.md) - pattern; 2 block.
-- [Make Each Class Care About Itself](PAT_make_classes_care_about_themselves.md) - pattern; 2 block.
-- [Move Reaching-In Logic Into the Class It Belongs To](DRILL_move_logic_into_the_class_it_belongs_to.md) - drill; 3 rough.
-- [Post Facts to a Shared Space When Arrival Order Is Unknown](PAT_post_facts_to_a_shared_space_when_order_is_unknown.md) - pattern; 0 design.
-- [Prefer Composition Over Class Inheritance](PAT_prefer_composition_over_inheritance.md) - pattern; 2 block.
+- [Catch the Coupling That the Compiler Cannot See](PAT_watch_for_semantic_coupling.md) - pattern; 3 rough. Tags: coupling, design, hidden_dependencies, modularity.
+- [Compose Modules With Few Well-Defined Interfaces](PAT_design_modular_interfaces.md) - pattern; 2 block. Tags: adaptability, coupling, interfaces, modularity.
+- [Depend on Interfaces, Not Concrete Classes](PAT_depend_on_interfaces_not_concrete_classes.md) - pattern; 2 block. Tags: adaptability, dependency_inversion, interfaces, modularity.
+- [Design the File and Library Dependencies, Not Only the Class Ones](PAT_design_the_physical_dependency_graph_too.md) - pattern; 0 design. Tags: build_structure, coupling, dependencies, modularity.
+- [Don't Leak Implementation Details in Exceptions](PAT_dont_leak_implementation_details_in_exceptions.md) - pattern; 2 block. Tags: abstraction, error_handling, exceptions, modularity.
+- [Don't Leak Implementation Details in Return Types](PAT_dont_leak_implementation_details_in_return_types.md) - pattern; 2 block. Tags: abstraction, api_design, modularity, return_types.
+- [Encapsulate Inescapably Related Data Together](PAT_encapsulate_related_data_together.md) - pattern; 2 block. Tags: coupling, data_objects, encapsulation, modularity.
+- [Inject Dependencies Instead of Hard-Coding Them](PAT_use_dependency_injection.md) - pattern; 2 block. Tags: configurability, dependency_injection, modularity, testability.
+- [Make Each Class Care About Itself](PAT_make_classes_care_about_themselves.md) - pattern; 2 block. Tags: coupling, encapsulation, law_of_demeter, modularity.
+- [Move Reaching-In Logic Into the Class It Belongs To](DRILL_move_logic_into_the_class_it_belongs_to.md) - drill; 3 rough. Tags: encapsulation, law_of_demeter, modularity, refactoring.
+- [Post Facts to a Shared Space When Arrival Order Is Unknown](PAT_post_facts_to_a_shared_space_when_order_is_unknown.md) - pattern; 0 design. Tags: coordination, coupling, modularity, workflow.
+- [Prefer Composition Over Class Inheritance](PAT_prefer_composition_over_inheritance.md) - pattern; 2 block. Tags: composition, inheritance, interfaces, modularity.
   - Variants: `Choose Containment or Inheritance by What Is Shared` (method_sequence).
-- [Publish Changes and Let the Interested Parties Register](PAT_publish_changes_and_let_consumers_register.md) - pattern; 2 block.
-- [Replace a Hard-Coded Dependency With Injection](DRILL_replace_hard_coded_dependency_with_injection.md) - drill; 3 rough.
-- [Replace Inheritance With Composition](DRILL_replace_inheritance_with_composition.md) - drill; 3 rough.
+- [Publish Changes and Let the Interested Parties Register](PAT_publish_changes_and_let_consumers_register.md) - pattern; 2 block. Tags: coupling, events, model_view_separation, modularity.
+- [Replace a Hard-Coded Dependency With Injection](DRILL_replace_hard_coded_dependency_with_injection.md) - drill; 3 rough. Tags: dependency_injection, interfaces, modularity, refactoring.
+- [Replace Inheritance With Composition](DRILL_replace_inheritance_with_composition.md) - drill; 3 rough. Tags: composition, inheritance, interfaces, refactoring.
