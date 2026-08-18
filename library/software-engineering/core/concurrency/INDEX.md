@@ -5,5 +5,14 @@
 ## Objects
 
 - [Ask Both What Must Never Happen and What Must Eventually Happen](PAT_check_concurrent_code_for_safety_and_liveness.md) - pattern; 0 design. Tags: concurrency, correctness, deadlock, review, threading.
+- [Avoid Sharing Before You Reach for Protecting It](PAT_avoid_sharing_before_you_reach_for_protecting_it.md) - pattern; 0 design. Tags: concurrency, design, encapsulation, shared_state, threading.
+- [Break One of Deadlock's Four Conditions](PAT_break_one_of_deadlocks_four_conditions.md) - pattern; 0 design. Tags: concurrency, deadlock, locking, resources, threading.
+- [Get the Single-Threaded Version Working First](PAT_get_the_single_threaded_version_working_first.md) - pattern; 1 skeleton. Tags: concurrency, debugging, separation_of_concerns, testing, threading.
 - [Immutability Is a Guarantee You Have to Actually Check](PAT_verify_an_object_is_as_immutable_as_you_think.md) - pattern; 0 design. Tags: concurrency, immutability, invariants, state, threading.
+- [Keep Thread-Aware Code Away From Thread-Ignorant Code](PAT_keep_thread_aware_code_away_from_thread_ignorant_code.md) - pattern; 0 design. Tags: concurrency, design, maintainability, separation_of_concerns, threading.
+- [Lock the Smallest Region That Must Be Atomic](PAT_lock_the_smallest_region_that_must_be_atomic.md) - pattern; 2 block. Tags: concurrency, contention, locking, performance, threading.
+- [Match the Problem to a Known Coordination Shape](PAT_match_the_problem_to_a_known_coordination_shape.md) - pattern; 0 design. Tags: concurrency, design, patterns, starvation, threading.
+- [Run Threaded Code Under Conditions Built to Break It](PAT_run_threaded_code_under_conditions_built_to_break_it.md) - pattern; 3 rough. Tags: concurrency, defects, test_design, testing, threading.
+- [Treat a Failure You Cannot Reproduce as a Defect](PAT_treat_an_unreproducible_failure_as_a_defect.md) - pattern; 4 final. Tags: concurrency, defects, diagnosis, testing, threading.
 - [Two Atomic Operations Are Not One Atomic Operation](PAT_atomic_steps_do_not_compose_into_a_safe_whole.md) - pattern; 0 design. Tags: atomicity, concurrency, correctness, invariants, threading.
+- [Work Out How It Stops Before You Build How It Runs](PAT_plan_the_shutdown_early.md) - pattern; 0 design. Tags: concurrency, deadlock, design, lifecycle, threading.
