@@ -13,10 +13,13 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
+- [A Deprecation Warning Migrates Nobody](PAT_a_warning_migrates_nobody.md) - pattern; 4 final. Tags: dead_code, dependencies, deprecation, maintenance, migration.
 - [Change Structure or Change Behaviour, Never Both in One Pass](PAT_separate_structural_change_from_behavioural_change.md) - pattern; 4 final. Tags: code_quality, discipline, maintenance, refactoring.
 - [Divide a Long Change Into Places You Could Walk Away From](PAT_make_every_milestone_a_place_you_could_stop.md) - pattern; 0 design. Tags: maintenance, milestones, planning, refactoring, risk.
 - [Judge a Change's Risk by What It Can Break, Not by How Big It Is](PAT_judge_change_risk_by_what_it_can_break.md) - pattern; 4 final. Tags: defects, maintenance, review, risk.
+- [Plan the Removal While You Are Still Building](PAT_plan_the_removal_while_you_build.md) - pattern; 0 design. Tags: deprecation, design, lifecycle, maintenance, migration.
 - [Put a Named Boundary Between Your Ideal Code and the Messy Real World](PAT_move_code_across_a_named_quality_boundary.md) - pattern; 0 design. Tags: architecture, legacy_code, maintenance, refactoring.
 - [Refactor Working Code Without Breaking It](AP_refactor_working_code_safely.md) - ap; 4 final. Tags: discipline, maintenance, refactoring, verification.
 - [Run the Old and New Paths Together and Diff Them](PAT_prove_behaviour_held_by_running_both_paths.md) - pattern; 4 final. Tags: migration, refactoring, risk, rollout, verification.
+- [Tell Obsolete From Merely Old](PAT_tell_obsolete_from_merely_old.md) - pattern; 0 design. Tags: dead_code, deprecation, maintenance, migration, technical_debt.
 - [Treat the Transition's Leftovers as Part of the Work](PAT_remove_the_scaffolding_a_migration_leaves.md) - pattern; 4 final. Tags: cleanup, dead_code, maintenance, refactoring, technical_debt.
