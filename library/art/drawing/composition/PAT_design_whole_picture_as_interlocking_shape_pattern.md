@@ -141,11 +141,13 @@ variants:
 - Judge boundaries twice: once for what they describe locally and again for what shape relationship they create in the whole sheet.
 - Let subject and background solve one another instead of treating the background as leftover space.
 - Merge compatible value regions when a larger connected shape gives the picture more unity or directional clarity.
+- Diagnose disappearing boundaries by combined value and chroma separation: if adjacent regions merge more than intended, increase useful value or chroma difference before reaching for an outline.
 - Return from abstract pattern to structural and descriptive information before necessary identity disappears.
 
 ## Don't
 - Finish one object beautifully while ignoring the shape problems it creates around the rest of the frame.
 - Assume every object boundary needs equal contrast or explicit separation.
+- Add an outline automatically when a boundary can be recovered more cleanly by adjusting the neighboring value or chroma relationship.
 - Confuse observational positive/negative checking with composition: the same shared boundaries can verify accuracy in observation and be deliberately redesigned in composition.
 - Merge shapes only because they are close in value if the lost boundary carries essential spatial, anatomical, or narrative information.
 
@@ -154,6 +156,7 @@ variants:
 - Large value/shape groups remain intelligible at thumbnail size or through squinting.
 - Shared boundaries help both local description and the whole composition.
 - Any merged boundary is intentional and does not destroy information the image needs.
+- Boundaries that must remain readable have enough value and/or chroma separation to survive without unnecessary contour reinforcement.
 
 ## Notes
 Dodson's Chapter 7 shifts positive/negative shape from an observational checking device into a whole-picture design principle. The existing observation foundation remains the owner of using shared positive/negative boundaries to verify what was seen; this Pattern owns how those same kinds of boundaries are organized deliberately across the final picture.

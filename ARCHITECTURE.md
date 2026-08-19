@@ -52,6 +52,31 @@ If no, the runtime does not depend on it.
     agent-authored. The repo must not force either mode.
 18. The current staged-drawing process is frozen until explicitly streamlined
     later.
+19. **Patterns own reusable decisions; APs own goal-directed orchestration; Drills
+    own repeatable practice or evaluation.** Runtime may route and verify
+    deterministically, but it must not hide domain action logic inside scripts.
+
+## Knowledge and action composition
+
+PASS has one knowledge vocabulary with three roles, not three competing stores of
+the same information:
+
+```text
+Pattern  -> what decision to make
+AP       -> how to apply decisions together to complete an action
+Drill    -> how to practise or evaluate those capabilities
+```
+
+An AP is allowed to be synthesized from accepted Patterns after the sources that
+taught those Patterns are gone. That does not weaken source grounding: the AP may
+only coordinate canonical knowledge that already exists, and it remains
+source-independent like every other card. Practice results may reveal that an AP
+is missing, but one run's history does not become the AP's content.
+
+For productive requests, semantic retrieval should prefer the closest applicable
+AP and let that protocol activate its Pattern owners. When no AP exists, ad-hoc
+Pattern composition is a valid runtime fallback and an authoring signal, not a new
+architectural subsystem. No AP registry or separate workflow database is needed.
 
 ## The Skill Forge boundary
 

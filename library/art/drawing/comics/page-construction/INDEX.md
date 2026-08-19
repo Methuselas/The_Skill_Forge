@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Build a Comic Page From Assigned Beats to Pencils](AP_build_comic_page_from_assigned_beats_to_pencils.md) - ap; 1 skeleton.
+- [Build a Comic Page From Assigned Beats to Pencils](AP_build_comic_page_from_assigned_beats_to_pencils.md) - ap; 1 skeleton. Tags: action_flow, comics, page_layout, penciling, sequential_art, staging.

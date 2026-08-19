@@ -33,50 +33,32 @@ variants:
 - variant_id: VAR_loomis_key_color_temperature_to_environmental_light
   variant_name: Key Color Temperature to Environmental Light
   variant_basis: context
-  difference_from_foundation: 'Adds an environment-wide temperature route: identify the dominant illumination and
-    reflected-light conditions, then let those conditions bias related surfaces consistently rather than applying
-    a memorized warm-light/cool-shadow formula object by object.'
-  when_to_use: Use when daylight, skylight, artificial light, ground reflection, or another dominant environmental
-    source gives the scene a clear temperature relationship that should carry across multiple forms.
-  when_not_to_use: Do not assume sunlight always requires one fixed warm/cool split, ignore colored surroundings
-    or multiple sources, or force an inverse temperature relationship when the observed or designed lighting does
-    not support it.
+  difference_from_foundation: 'Adds an environment-wide temperature route: identify the dominant illumination and reflected-light conditions, then let those conditions bias related surfaces consistently rather than applying a memorized warm-light/cool-shadow formula object by object.'
+  when_to_use: Use when daylight, skylight, artificial light, ground reflection, or another dominant environmental source gives the scene a clear temperature relationship that should carry across multiple forms.
+  when_not_to_use: Do not assume sunlight always requires one fixed warm/cool split, ignore colored surroundings or multiple sources, or force an inverse temperature relationship when the observed or designed lighting does not support it.
   absorbed_from_object_id: none
 - variant_id: VAR_eissen_key_product_planes_with_simplified_color_states
   variant_name: Key Product Planes With Simplified Color States
   variant_basis: emphasis
-  difference_from_foundation: 'Adds a schematic product-sketch convention for simple neutral lighting: keep one
-    descriptive plane near the object''s fuller local colour, push the shade-facing plane darker and less saturated,
-    and lift the upward or light-facing plane brighter so the major planes separate immediately.'
-  when_to_use: Use when a fast product sketch needs legible plane turning and colour identity under a simple descriptive
-    light without a fully observed material-light simulation.
-  when_not_to_use: Do not treat the three-state split as universal colour physics; abandon it when coloured illumination,
-    strong reflected light, complex materials, or observed reference produces a different relationship.
+  difference_from_foundation: 'Adds a schematic product-sketch convention for simple neutral lighting: keep one descriptive plane near the object''s fuller local colour, push the shade-facing plane darker and less saturated, and lift the upward or light-facing plane brighter so the major planes separate immediately.'
+  when_to_use: Use when a fast product sketch needs legible plane turning and colour identity under a simple descriptive light without a fully observed material-light simulation.
+  when_not_to_use: Do not treat the three-state split as universal colour physics; abandon it when coloured illumination, strong reflected light, complex materials, or observed reference produces a different relationship.
   absorbed_from_object_id: none
 - variant_id: VAR_olofsson_build_lighting_from_ambient_matte_base
   variant_name: Build Lighting From an Ambient Matte Base
   variant_basis: method_sequence
-  difference_from_foundation: Begins from a comparatively matte ambient-light statement of the product, then introduces
-    designed light sources one at a time by layering their illumination, highlights, and reflected-light effects.
-    Areas that receive none of those added contributions remain naturally in the darker family.
-  when_to_use: Use for stylized persuasive product rendering with artificial or multiple designed lights when the
-    contribution of each source should stay controllable.
-  when_not_to_use: Do not treat the sequence as universal light physics or ignore occlusion, cast shadows, material
-    response, and actual source geometry.
+  difference_from_foundation: Begins from a comparatively matte ambient-light statement of the product, then introduces designed light sources one at a time by layering their illumination, highlights, and reflected-light effects. Areas that receive none of those added contributions remain naturally in the darker family.
+  when_to_use: Use for stylized persuasive product rendering with artificial or multiple designed lights when the contribution of each source should stay controllable.
+  when_not_to_use: Do not treat the sequence as universal light physics or ignore occlusion, cast shadows, material response, and actual source geometry.
   absorbed_from_object_id: none
 - variant_id: VAR_gurney_use_light_skin_facial_color_zones_as_subtle_starting_bias
   variant_name: Use Light-Skin Facial Color Zones as a Subtle Starting Bias
   variant_basis: context
-  difference_from_foundation: 'Adds a bounded observational tendency for light-skinned faces: a slightly more golden
-    forehead, relatively redder central face, and cooler/greyer lower zone can serve as a starting bias when the
-    actual reference supports it.'
-  when_to_use: Use only when complexion, circulation, activity, age, facial hair, environment, and lighting visibly
-    support these subtle zones.
-  when_not_to_use: Do not impose the zones as a universal face-color template across people or lighting conditions;
-    actual evidence overrides the tendency.
+  difference_from_foundation: 'Adds a bounded observational tendency for light-skinned faces: a slightly more golden forehead, relatively redder central face, and cooler/greyer lower zone can serve as a starting bias when the actual reference supports it.'
+  when_to_use: Use only when complexion, circulation, activity, age, facial hair, environment, and lighting visibly support these subtle zones.
+  when_not_to_use: Do not impose the zones as a universal face-color template across people or lighting conditions; actual evidence overrides the tendency.
   absorbed_from_object_id: none
 ---
-
 # Resolve Visible Color From Local Color, Light, and Reflection
 
 ## Pattern Rule
@@ -93,6 +75,7 @@ variants:
 - Treat source spectrum as an independent input: an uneven or narrow-band illuminant can strengthen some color families while leaving others weak, so artificial light is not always equivalent to a uniform warm/cool tint.
 - Model a strongly illuminated neighboring surface as a secondary source whose reflected contribution changes with its brightness, scale, distance, and the orientation of the receiving plane; combine multiple secondary sources instead of assigning one canned shadow color.
 - After resolving material, illumination, and reflection physically, hand off any additional viewer-caused shift to perceptual context, adaptation, and color constancy rather than inventing another physical source.
+- Under strongly biased illumination, ask which hue families should be weakened or absent because the source spectrum does not support them, and restrain those families in proportion to the actual light rather than applying one uniform tint to every surface.
 
 ## Don't
 - Do not paint an object by repeating one remembered or named local color across every plane.
@@ -117,3 +100,5 @@ The durable rendering decision is to separate a surface's color identity from th
 `VAR_olofsson_build_lighting_from_ambient_matte_base` is a controlled workflow for designed illumination. Establish a subdued local-color/material base first, then add the effect of each light source deliberately. The untouched base becomes the darker family where no added source contribution reaches it, while highlights and reflected light accumulate causally rather than being painted as disconnected accents.
 
 `VAR_gurney_use_light_skin_facial_color_zones_as_subtle_starting_bias` Adds a bounded observational tendency for light-skinned faces: a slightly more golden forehead, relatively redder central face, and cooler/greyer lower zone can serve as a starting bias when the actual reference supports it.
+
+Strongly biased illumination can be diagnosed partly by what it suppresses: hue families that the source spectrum weakly supports should not remain arbitrarily pure merely because they belong to the object's remembered local color.

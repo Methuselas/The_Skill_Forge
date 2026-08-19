@@ -27,10 +27,23 @@ reference:
   source_title: 'Color and Light: A Guide for the Realist Painter'
   author: James Gurney
 confidence: high
-variants: []
+variants:
+- variant_id: VAR_schmid_preserve_dry_medium_crispness_with_broken_color_before_overblending
+  variant_name: Preserve Dry-Medium Crispness With Broken Color Before Overblending
+  variant_basis: medium
+  difference_from_foundation: Uses adjacent color notes and fewer blending interventions when repeated rubbing or smoothing would collapse a dry or particulate medium into generic smoothness, preserving a crisp granular surface while holding the large value/color family.
+  when_to_use: Use with pastel or analogous dry media when broken adjacency can create the needed color integration without destroying the medium-specific surface.
+  when_not_to_use: Do not preserve broken texture when the passage needs a truly smooth continuous transition or when the marks become noisy at the target scale.
+  absorbed_from_object_id: none
+- variant_id: VAR_schmid_preserve_intra_stroke_color_variation_with_partial_wet_mixing
+  variant_name: Preserve Intra-Stroke Color Variation With Partial Wet Mixing
+  variant_basis: medium
+  difference_from_foundation: Leaves controlled partial mixing within a wet stroke so closely related color striations and scintillation remain inside the mark instead of homogenizing every mixture before application.
+  when_to_use: Use in larger paint-like passages where slight internal color variation adds life without breaking the parent value/color family.
+  when_not_to_use: Do not use where precise drawing, tiny shapes, uniform local color, or clean graphic separation requires a fully controlled mixture.
+  absorbed_from_object_id: none
 references: []
 ---
-
 # Build Broken Color as Optical Mixture
 
 ## Pattern Rule
@@ -57,3 +70,5 @@ references: []
 
 ## Notes
 Broken color is a controlled optical mixture: separate marks retain local vibration while the eye integrates them into a larger color statement. Its success depends as much on mark scale and aggregate value as on hue choice.
+
+`VAR_schmid_preserve_dry_medium_crispness_with_broken_color_before_overblending` protects the granular/broken surface of dry media when smoothing would destroy useful color vibration. `VAR_schmid_preserve_intra_stroke_color_variation_with_partial_wet_mixing` applies the same optical principle inside a wet mark by leaving controlled pigment variation rather than homogenizing every stroke.

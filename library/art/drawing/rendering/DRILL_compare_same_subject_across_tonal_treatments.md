@@ -32,7 +32,14 @@ reference:
 confidence: high
 references: []
 target_skill: choosing a tonal rendering treatment by comparing how different edge, plane, and mark organizations change the same subject while the underlying subject stays substantially constant
-variants: []
+variants:
+- variant_id: VAR_martin_build_fixed_head_shadow_pattern_library
+  variant_name: Build a Fixed-Head Shadow Pattern Library
+  variant_basis: method_sequence
+  difference_from_foundation: Duplicates one neutral head construction without changing proportions, expression, view, or feature placement, then derives several broad facial shadow patterns from grounded lighting references so only the light/shadow solution changes.
+  when_to_use: Use to learn how major facial planes enter or leave shadow under different source directions and to build plausible alternatives for later inking without confusing lighting change with anatomy change.
+  when_not_to_use: Do not turn the resulting masks into formulas to stamp onto unrelated heads, and do not treat top, back, or underlight as an exhaustive taxonomy or a fixed emotional dictionary.
+  absorbed_from_object_id: none
 ---
 
 # Compare the Same Subject Across Tonal Treatments
@@ -69,3 +76,5 @@ Choose a subject with enough simple form and value structure to survive several 
 
 ## Notes
 Loomis contrasts soft, brittle, blocky, and related approaches and explicitly recommends setting up one subject—or even one photograph—and interpreting it in several ways. PASS separates this from `DRILL_compare_same_subject_across_medium_behaviors`: that Drill isolates what different tools naturally do, while this Drill keeps the tool substantially stable and isolates the rendering treatment. Medium-specific paint chemistry, wetness, support, brush loading, and similar handling remain deferred to the Materials / Media curriculum.
+
+`VAR_martin_build_fixed_head_shadow_pattern_library` narrows the comparison to facial lighting. Keep one neutral head unchanged, derive several broad black/light patterns from observed or otherwise grounded source directions, and compare both the repeated plane behavior and the changed mood/graphic read. Retain successful patterns as reference alternatives rather than universal face-shadow recipes.

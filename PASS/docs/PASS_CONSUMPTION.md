@@ -2,7 +2,7 @@
 
 status: active
 owner: docs/domains/spec
-last_reviewed: 2026-08-04
+last_reviewed: 2026-08-18
 
 Everything else in PASS governs **extraction** — how a source becomes grounded
 skill objects. This governs **use**: how a focused domain skill draws on those
@@ -54,14 +54,19 @@ Before acting, perform a bounded study pass:
 
 1. **Restate the craft problem.** Identify the actual decision, artifact, and
    required result rather than matching the whole prompt verbatim.
-2. **Retrieve the relevant APs, Patterns, and Drills.** Load foundations first and
-   keep the bundle small enough to use deliberately.
+2. **Resolve the closest applicable AP first.** Let that action protocol pull in
+   the Pattern owners and variants its flow actually reaches. If no adequate AP
+   exists, assemble a bounded ad-hoc Pattern chain and treat the missing
+   orchestration as an AP-coverage gap rather than pretending the task already has
+   a protocol. Load Drills only when practice or evaluation is actually needed.
 3. **Name the known risks.** Notice the parts where the model, the medium, or the
    current task commonly fails. Do not confuse confidence with competence.
 4. **Study the useful precedents.** Inspect the medium-appropriate references,
    worked examples, formats, tests, or corrections that backstop the task.
-5. **Execute in stage order.** Let APs organize the work, Patterns guide local
-   decisions, and Drills repair weak execution.
+5. **Execute in protocol order.** Let the AP organize dependencies, gates,
+   branches, continuity, and stopping; let Patterns govern the local decisions
+   reached by that flow. Use the universal stage scaffold where the action really
+   has refinement stages, not as a substitute for the AP's own control logic.
 6. **Inspect before repeating.** Diagnose the visible or testable failure, preserve
    what worked, and make the next attempt answer that diagnosis rather than simply
    generating another variation.
@@ -81,46 +86,54 @@ handful of skills whose IF clauses plausibly match the situation, not everything
 under a package. Loading too much is both wasteful and a way to let irrelevant
 notes crowd out judgment.
 
-## Foundations first, in stage order — never start at step 3
+## Foundations first; let the action protocol own the order
 
-A person drawing a figure does not begin at step 3. They thumbnail the intent,
-lay a skeleton, block it with simple solids, tighten, then finalize. A person
-writing code does not begin at the special case. The model works the same way:
+A specialization still cannot safely run without the foundations it depends on,
+but **foundation order and action order are different questions**. The model uses
+both:
 
 1. **Foundations before specializations.** Within a selected skillset, load and
    apply the foundation skills before their specializations. `foundation_role`,
-   `foundation_object_id`, and `prerequisite_for` links encode this order; honor
-   it. A specialization applied without its foundation is a step-3 start.
-2. **The universal stage scaffold is the spine.** Run work through
-   `0 design → 1 skeleton → 2 block → 3 rough → 4 final` (the mandatory
-   `metaskills/iterative-construction` AP). Each skill's `stage_binding` says where
-   it belongs in that arc; apply it at its stage, not before.
-3. **Visual art returns to its centerline after a produce route.** A turn routed
+   `foundation_object_id`, and `prerequisite_for` links encode this dependency;
+   honor it.
+2. **The applicable AP owns task control flow.** Its dependency order, gates,
+   branches, recovery, and completion decide when each Pattern becomes actionable.
+   Do not replace a debugging, revision, diagnosis, or other action with a generic
+   five-stage ritual merely because all cards have `stage_binding`.
+3. **Use the universal stage scaffold where refinement is genuinely part of the
+   action.** `0 design → 1 skeleton → 2 block → 3 rough → 4 final` remains the
+   shared vocabulary for refinement state. An AP may traverse some or all of it,
+   or remain inside one stage. In Art, Direct Render keeps earlier-stage decisions
+   active internally while Staged Production externalizes the approved stage flow.
+4. **Visual art returns to its centerline after a produce route.** A turn routed
    as discussion or inspection does not enter production merely because art words
    are present. After a valid produce route, the activated `art` package loads
    `PAT_return_to_art_centerline` before drawing, painting, design, or rendering
-   cards. The latest approved artifact and its compact freeze
-   record are the controlling pair for the next registered pass; when none exists,
-   establish Stage 0.
+   cards. The latest approved artifact and its compact freeze record are the
+   controlling pair for the next registered pass; when none exists, establish
+   Stage 0 when the selected Art mode requires an external staged predecessor.
 
-Starting from foundations in stage order stops the model from producing
-confident, detailed output that is structurally wrong — the code equivalent of a
-beautifully rendered hand with six fingers.
+The point is not to begin with "step 3." It is to make every later decision depend
+on trustworthy earlier ones **without confusing one universal refinement scaffold
+for every possible action protocol**.
 
 ## APs guide; Patterns check; Drills strengthen
 
 The object types have different use-time roles:
 
-- An **AP** organizes a repeatable section or workflow. A top-level AP may delegate
-  to subordinate APs when the task has distinct construction problems.
+- An **AP** organizes a complete user-level action. It owns the action's control
+  flow and may delegate a genuine reusable sub-action to another AP. It should
+  activate Patterns as their decision moments arrive rather than copying their
+  knowledge into one giant card.
 - A **Pattern** governs a local decision at the moment its IF clause becomes true.
   It is not a universal instruction merely because it was retrieved.
 - A **Drill** develops or restores a weak capability. Invoke it when inspection
   reveals a recurring failure, not as decoration around finished work.
 
-This prevents a universal AP from becoming a chain of every possibly related
-rule. The AP establishes order; the relevant local skill enters when the work
-reaches it.
+This prevents an AP from becoming a dump of every possibly related rule. The AP
+establishes the **necessary chain**; the relevant local Pattern enters when the
+flow reaches its decision moment. If an unordered bundle would work equally well,
+the AP is not adding orchestration value.
 
 ## References and examples follow the medium
 
@@ -166,6 +179,10 @@ governs extraction (`PASS_RUN.md` §2.1):
 - **Intent before execution.** Route the current turn as discuss, inspect,
   produce, or ambiguous before a craft pipeline. Only produce may enter visual
   generation, and a persistent no-image lock still wins.
+- **AP-first action routing.** For a productive request, resolve the closest
+  applicable AP before collecting local Patterns. If none exists, make the ad-hoc
+  fallback explicit to the skill's own reasoning and do not treat it as canonical
+  coverage.
 - **Prerequisite enforcement.** A specialization does not load until its
   foundation is loaded.
 - **IF-match.** Apply a skill only when its IF clause actually matches the
@@ -196,7 +213,9 @@ governs extraction (`PASS_RUN.md` §2.1):
 
 Every rule here is one a model can rationalize past, exactly like "don't skim."
 Durable checks should therefore be implemented by the domain that needs them.
-A release loader or consumer can enforce bounded retrieval, foundations-first ordering, and coverage reporting. The visual-art skill may additionally block
+A release loader or consumer can enforce bounded retrieval, AP-first action
+selection where declared, foundations-first dependency ordering, and coverage
+reporting. The visual-art skill may additionally block
 continuation without an approved predecessor, verified edit target, and complete
 freeze record. A software skill may rely instead on compilation, tests, and code
 review.

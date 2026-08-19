@@ -4,17 +4,21 @@
 
 ## Objects
 
-- [Calibrate Observed Proportion With Relational Sighting](PAT_calibrate_observed_proportion_with_relational_sighting.md) - pattern; 1 skeleton.
+- [Calibrate Observed Proportion With Relational Sighting](PAT_calibrate_observed_proportion_with_relational_sighting.md) - pattern; 1 skeleton. Tags: measurement, observation, placement, proportion, sighting.
   - Variants: `Center-Out Live-Figure Survey` (method_sequence); `Switch Reclining Measurement to Pose-Specific Relations` (method_sequence); `Cross-Check 3D Construction With a 2D Shape Survey` (method_sequence); `Reorient a Reclining Figure With Longitudinal and Cross Axes` (method_sequence); `Draw by Eye, Then Measure and Correct` (method_sequence); `Run a Pre-Detail Portrait Landmark-Axis Audit` (method_sequence); `Run a Pre-Detail Figure Axis-and-Support Audit` (method_sequence); `Register Drawing Against the Observed Source` (method_sequence).
-- [Define Study Target Before Choosing Scope, Medium, and Detail](PAT_define_study_target_before_choosing_scope_medium_and_detail.md) - pattern; 0 design.
+- [Define Study Target Before Choosing Scope, Medium, and Detail](PAT_define_study_target_before_choosing_scope_medium_and_detail.md) - pattern; 0 design. Tags: deliberate_practice, diagnostic_practice, information_density, medium_choice, quick_sketching, scope_control, study_design.
   - Variants: `Isolate Animal Study Difficulty With Medium and Scope` (context); `Route Recurring Work Weakness Into Targeted Study` (method_sequence); `Isolate Structural Elements, Then Recombine Them` (method_sequence); `Freeze Non-Target Variables to Isolate the Relationship Being Trained` (constraint); `Compare Diverse Exemplars Through One Fixed Structural Question` (method_sequence); `Anchor Observational Study to a Live Design Question` (method_sequence).
-- [Intensify Distinguishing Characteristics Without Losing Structure](PAT_intensify_distinguishing_characteristics_without_losing_structure.md) - pattern; 3 rough.
+- [Infer Execution Sequence From Unfinished Artwork](DRILL_infer_execution_sequence_from_unfinished_artwork.md) - drill; 0 design. Tags: master_study, observation, process, unfinished_artwork, workflow_inference.
+- [Intensify Distinguishing Characteristics Without Losing Structure](PAT_intensify_distinguishing_characteristics_without_losing_structure.md) - pattern; 3 rough. Tags: character_design, exaggeration, identity, observation, proportion.
   - Variants: `Exaggerate Role-Defining Character Structure` (emphasis).
-- [Map an Observed Subject as Interlocking Positive and Negative Shapes](PAT_map_observed_subject_as_interlocking_positive_and_negative_shapes.md) - pattern; 1 skeleton.
-- [Pair Sustained Studies With Regular Quick Sketching](DRILL_pair_sustained_studies_with_regular_quick_sketching.md) - drill; 1 skeleton.
-- [Select Observed Evidence to Serve Expressive Intent](PAT_select_observed_evidence_to_serve_expressive_intent.md) - pattern; 0 design.
-  - Variants: `Force Selection With a Two-Value Brush Constraint` (constraint); `Recompose Secondary Reference Elements With Plausible Changes` (constraint).
-- [Train Observation With Look-Hold-Draw and Blind Bursts](DRILL_train_observation_with_look_hold_draw_and_blind_bursts.md) - drill; 1 skeleton.
+- [Map an Observed Subject as Interlocking Positive and Negative Shapes](PAT_map_observed_subject_as_interlocking_positive_and_negative_shapes.md) - pattern; 1 skeleton. Tags: negative_shape, observation, placement, positive_shape, proportion.
+  - Variants: `Reduce an Observed Scene to Flat Color, Value, and Edge Shapes` (emphasis).
+- [Pair Sustained Studies With Regular Quick Sketching](DRILL_pair_sustained_studies_with_regular_quick_sketching.md) - drill; 1 skeleton. Tags: deliberate_practice, integral_vision, observation, quick_sketching, sustained_study.
+- [Preflight Observed Rendering for Constraints and Failure Points](PAT_preflight_observed_rendering_for_constraints_and_failure_points.md) - pattern; 0 design. Tags: constraints, light, observation, preflight, reference, rendering.
+- [Resolve an Observed Curve as a Sequence of Direction Changes](PAT_resolve_observed_curve_as_sequence_of_direction_changes.md) - pattern; 1 skeleton. Tags: accuracy, contour, curves, direction_change, observation.
+- [Select Observed Evidence to Serve Expressive Intent](PAT_select_observed_evidence_to_serve_expressive_intent.md) - pattern; 0 design. Tags: expressive_intent, observation, reference, representation, selection, visual_hierarchy.
+  - Variants: `Force Selection With a Two-Value Brush Constraint` (constraint); `Recompose Secondary Reference Elements With Plausible Changes` (constraint); `Previsualize the Result as Painted Relationships` (method_sequence); `Choose a Dominant Visual Element and Subordinate the Rest` (emphasis).
+- [Train Observation With Look-Hold-Draw and Blind Bursts](DRILL_train_observation_with_look_hold_draw_and_blind_bursts.md) - drill; 1 skeleton. Tags: blind_drawing, eye_hand_coordination, observation, visual_memory.
   - Variants: `Cycle the Whole Subject Through Memory and Reveal` (method_sequence).
-- [Use Perceptual Wrongness as an Inspection Trigger](PAT_use_perceptual_wrongness_as_inspection_trigger.md) - pattern; 1 skeleton.
-  - Variants: `Restate Before Erasing During Observational Search` (method_sequence); `Route Wrongness Through the Five Ps and Five Cs` (method_sequence).
+- [Use Perceptual Wrongness as an Inspection Trigger](PAT_use_perceptual_wrongness_as_inspection_trigger.md) - pattern; 1 skeleton. Tags: diagnosis, error_detection, observation, seeing, staged_drawing.
+  - Variants: `Restate Before Erasing During Observational Search` (method_sequence); `Route Wrongness Through the Five Ps and Five Cs` (method_sequence); `Reduce Vague Failure to Add/Omit Errors and Four Visual Elements` (method_sequence); `Translate Abstract Composition Complaints Into Concrete Relations` (method_sequence).

@@ -4,25 +4,25 @@
 
 ## Objects
 
-- [Annotate Exploratory Sketches With Decision Cues](PAT_annotate_exploratory_sketches_with_decision_cues.md) - pattern; 0 design.
+- [Annotate Exploratory Sketches With Decision Cues](PAT_annotate_exploratory_sketches_with_decision_cues.md) - pattern; 0 design. Tags: annotation, communication, decisions, ideation, sketching.
   - Variants: `Pair Concept Notes With Thumbnail Memory Cues` (context).
-- [Bias Line Weight Toward Shade and Underside for Depth](PAT_bias_line_weight_toward_shade_and_underside_for_depth.md) - pattern; 3 rough.
-  - Variants: `Assign Line Weight by Spatial Edge Role` (emphasis).
-- [Calibrate Product Redesign With a Reference Underlay](PAT_calibrate_product_redesign_with_reference_underlay.md) - pattern; 0 design.
+- [Bias Line Weight Toward Shade and Underside for Depth](PAT_bias_line_weight_toward_shade_and_underside_for_depth.md) - pattern; 3 rough. Tags: depth, form, lighting, line_weight, sketching.
+  - Variants: `Assign Line Weight by Spatial Edge Role` (emphasis); `Anchor Line Weight to Primary Light and Scene Continuity` (context).
+- [Calibrate Product Redesign With a Reference Underlay](PAT_calibrate_product_redesign_with_reference_underlay.md) - pattern; 0 design. Tags: ergonomics, proportion, redesign, scale, sketching, underlay.
   - Variants: `Reopen Design Decisions With a 3D Model Underlay` (method_sequence); `Overlay Prototype Photos for Ergonomic Review` (context).
-- [Communicate Product Scale With a Familiar Reference](PAT_communicate_product_scale_with_familiar_reference.md) - pattern; 2 block.
+- [Communicate Product Scale With a Familiar Reference](PAT_communicate_product_scale_with_familiar_reference.md) - pattern; 2 block. Tags: comparison, context, product_scale, size, sketching.
   - Variants: `Imply Scale With Detail Size and Density` (emphasis).
-- [Construct Centered Bilateral Product From One Solved Half](PAT_construct_centered_bilateral_product_from_one_solved_half.md) - pattern; 2 block.
+- [Construct Centered Bilateral Product From One Solved Half](PAT_construct_centered_bilateral_product_from_one_solved_half.md) - pattern; 2 block. Tags: centerline, construction, product_design, sketching, symmetry.
   - Variants: `Alternate Sides Around the Centerline During Freehand Symmetry` (method_sequence).
-- [Construct Product Rounding From Surface Transition Boundaries](PAT_construct_product_rounding_from_surface_transition_boundaries.md) - pattern; 2 block.
-- [Cover Product Information With Complementary Views](PAT_cover_product_information_with_complementary_views.md) - pattern; 0 design.
+- [Construct Product Rounding From Surface Transition Boundaries](PAT_construct_product_rounding_from_surface_transition_boundaries.md) - pattern; 2 block. Tags: construction, fillets, product_design, rounding, sketching, surface_transition.
+- [Cover Product Information With Complementary Views](PAT_cover_product_information_with_complementary_views.md) - pattern; 0 design. Tags: communication, multiple_views, product_information, sketching, viewpoint.
   - Variants: `Simplify a Local Connection Then Check It With a Truthful View` (method_sequence).
-- [Generate Product Forms From Ambiguous Shape Seeds](DRILL_generate_product_forms_from_ambiguous_shape_seeds.md) - drill; 0 design.
-- [Integrate Inserted Image Parts With Scene Geometry and Light](PAT_integrate_inserted_image_parts_with_scene_geometry_and_light.md) - pattern; 4 final.
-- [Interpolate a Rigid Part Pose Along Its Motion Path](PAT_interpolate_rigid_part_pose_along_motion_path.md) - pattern; 2 block.
-- [Match Sketch Resolution to Design Role and Audience](PAT_match_sketch_resolution_to_design_role_and_audience.md) - pattern; 0 design.
-- [Preserve an Expressive Seed Sketch Through Development](PAT_preserve_expressive_seed_sketch_through_development.md) - pattern; 0 design.
-- [Refresh Visual Judgment With Mirror and Inversion](PAT_refresh_visual_judgment_with_mirror_and_inversion.md) - pattern; 3 rough.
-- [Search Product Silhouette in Profile Before Volumetric Development](PAT_search_product_silhouette_in_profile_before_volumetric_development.md) - pattern; 0 design.
-- [Stage Product Instruction Sequence With Consistent State and Action Cues](PAT_stage_product_instruction_sequence_with_consistent_state_and_action_cues.md) - pattern; 2 block.
-- [Translate Source Form Language Across Scale and Product Type](DRILL_translate_source_form_language_across_scale_and_product_type.md) - drill; 0 design.
+- [Generate Product Forms From Ambiguous Shape Seeds](DRILL_generate_product_forms_from_ambiguous_shape_seeds.md) - drill; 0 design. Tags: anti_fixation, form_search, ideation, product_design, sketching.
+- [Integrate Inserted Image Parts With Scene Geometry and Light](PAT_integrate_inserted_image_parts_with_scene_geometry_and_light.md) - pattern; 4 final. Tags: compositing, lighting, perspective, reflections, sketching.
+- [Interpolate a Rigid Part Pose Along Its Motion Path](PAT_interpolate_rigid_part_pose_along_motion_path.md) - pattern; 2 block. Tags: articulation, mechanism, motion, product_construction, sketching.
+- [Match Sketch Resolution to Design Role and Audience](PAT_match_sketch_resolution_to_design_role_and_audience.md) - pattern; 0 design. Tags: audience, communication, design_process, resolution, sketching.
+- [Preserve an Expressive Seed Sketch Through Development](PAT_preserve_expressive_seed_sketch_through_development.md) - pattern; 0 design. Tags: character, concept_continuity, design_development, expressive_shape, ideation, sketching.
+- [Refresh Visual Judgment With Mirror and Inversion](PAT_refresh_visual_judgment_with_mirror_and_inversion.md) - pattern; 3 rough. Tags: critique, habituation, inversion, mirror, sketching.
+- [Search Product Silhouette in Profile Before Volumetric Development](PAT_search_product_silhouette_in_profile_before_volumetric_development.md) - pattern; 0 design. Tags: ideation, product_design, profile, silhouette, sketching.
+- [Stage Product Instruction Sequence With Consistent State and Action Cues](PAT_stage_product_instruction_sequence_with_consistent_state_and_action_cues.md) - pattern; 2 block. Tags: instructions, motion, product_use, sequence, sketching.
+- [Translate Source Form Language Across Scale and Product Type](DRILL_translate_source_form_language_across_scale_and_product_type.md) - drill; 0 design. Tags: abstraction, form_language, ideation, scale, sketching.

@@ -44,12 +44,15 @@ variants: []
 - On a dry ground with a well-filled brush, vary shape width through pressure, trail the stroke, and lift cleanly; choose a brush whose physical width is appropriate to the scale of the depicted form.
 - Use resist processes when markings are better carried by protected light shapes than by drawing every edge directly.
 - When a running or spreading process produces useful accidental texture, preserve the chance effect where it strengthens form; intervene only when uncontrolled spread begins to erase articulation or the intended mass relationship.
+- When the target texture is stochastic, prefer a process that naturally varies event shape and placement rather than manually spacing identical marks. If a stamp-like source is reused, perturb orientation and placement so the mechanism does not reveal itself as an obvious repeating tile.
+- When the field is already dark, consider a subtractive or light-mark route when carving negative-space texture is cleaner than rebuilding the same transition entirely with dark marks. Keep the resulting irregularity subordinate to form, value, and focal hierarchy.
 
 ## Don't
 - Demand crisp, repeatable contours from a process whose useful character comes from spreading on a wet ground.
 - Force every texture through the same mark language merely because one medium is familiar.
 - Turn half-dry opaque texture into a hard-edged cutout; broken coat character still has to belong to a living form.
 - Draw a laborious second-medium preliminary sketch when the chosen texture process depends on direct, fresh execution and the underdrawing would dictate marks the final medium should discover for itself.
+- Repeat an identical stochastic stamp at obvious intervals or orientations when the surface is supposed to feel irregular.
 
 ## Checklist
 - The chosen process has the right balance of controllability and natural irregularity for the intended surface.
@@ -57,6 +60,7 @@ variants: []
 - Dry or half-dry passages create deliberate broken texture rather than accidental scratchiness.
 - Brush width, pressure change, trailing, and lift produce shapes at a scale appropriate to the drawing.
 - The texture reads from the behavior of the medium while the underlying form remains legible.
+- Repeated stochastic marks do not reveal an accidental tile or stamp pattern, and subtractive/light marks are used only where they clarify the intended texture or transition.
 
 ## Notes
-The useful decision is not that one named medium belongs to one named texture. The source demonstrates a continuum: dry-ground pen gives definition; sprayed or damp grounds make ink spread from fuzzy to velvety; half-dry opaque paint gives rapid roughness with more control; wet-on-wet watercolor gives softness at the cost of predictability; a loaded brush on dry paper can move from broad shape to fine line through pressure, trailing, and lift. This Pattern keeps that control-versus-spread tradeoff portable instead of turning the examples into fixed animal-texture recipes. Section 9.3 reinforces the same principle from the opposite direction: chance effects from running ink can be welcomed as texture, but they remain useful only while the form stays articulated enough to read.
+The useful decision is not that one named medium belongs to one named texture. The source demonstrates a continuum: dry-ground pen gives definition; sprayed or damp grounds make ink spread from fuzzy to velvety; half-dry opaque paint gives rapid roughness with more control; wet-on-wet watercolor gives softness at the cost of predictability; a loaded brush on dry paper can move from broad shape to fine line through pressure, trailing, and lift. This Pattern keeps that control-versus-spread tradeoff portable instead of turning the examples into fixed animal-texture recipes. Section 9.3 reinforces the same principle from the opposite direction: chance effects from running ink can be welcomed as texture, but they remain useful only while the form stays articulated enough to read. Later inking examples extend that logic to deliberately stochastic marks: vary placement and orientation when reusing a stamp-like source so the process does not expose itself as a repeating tile, and consider carving light texture from a dark field when a subtractive route produces the target transition more directly.

@@ -109,25 +109,48 @@ actually established — not as a citation a future runtime could never check.
 
 ## The three object types
 
-Everything extracted becomes exactly one of three things. There is no fourth type.
+Everything canonical becomes exactly one of three things. There is no fourth type.
 Inventing one is not creativity; it is failure.
 
-**Pattern** — a decision rule. IF this situation, THEN this action, ELSE this
-fallback, with source-derived DOs and DON'Ts. The reusable craft knowledge that
-improves the work every time it is applied.
+**Pattern** — a reusable decision primitive. IF this situation, THEN this action,
+ELSE this fallback, with grounded DOs and DON'Ts. A Pattern owns the craft decision
+itself.
 
-**Drill** — a short repeatable training exercise. What you do to practise, or
-assign when teaching someone.
+**Drill** — a short repeatable training or evaluation rep. A Drill exists to make
+one or more capabilities more reliable through practice, comparison, or testing.
 
-**AP (Action Protocol)** — a repeatable staged workflow that produces work at
-defined levels of refinement.
+**AP (Action Protocol)** — a goal-directed application of accepted Patterns that
+accomplishes a complete action. An AP owns control flow: where the action starts,
+which decisions must happen and in what dependency order, what must remain true,
+what gates allow progress, how to branch or recover when a check fails, and what
+counts as done. It does **not** become a second owner of the Pattern knowledge it
+coordinates.
+
+A source may directly teach any of the three. APs may also be synthesized from a
+mature set of already-accepted Patterns when their orchestration has become a
+stable reusable action. That synthesis is canonical authoring, not a fourth
+object type and not permission to invent missing craft knowledge.
 
 Material that does not fit is transformed into one of the three, attached inside
 an existing object's notes or variants, or rejected.
 
+### Action-first execution
+
+When the user asks the skillset to **do** something, the normal semantic retrieval
+order is:
+
+```text
+requested action -> closest applicable AP -> required Patterns -> applicable variants
+```
+
+If no suitable AP exists, the model may assemble an ad-hoc Pattern chain and
+complete the work. That is a runtime fallback, not proof that the library already
+has adequate AP coverage. Repeated or consequential ad-hoc orchestration is a
+candidate for a later AP synthesis audit.
+
 ## The stage scaffold
 
-APs and every object's `stage_binding` use one scaffold, unchanged across domains:
+Every object's `stage_binding` uses one scaffold, unchanged across domains:
 
 | Stage | Meaning |
 |---|---|
@@ -136,6 +159,12 @@ APs and every object's `stage_binding` use one scaffold, unchanged across domain
 | `2 block` | Solid shapes. Limbs as cylinders. You can tell what it is. |
 | `3 rough` | Definition visible but unclean. Compiles but needs refactoring. Plated, not garnished. |
 | `4 final` | Keep what works, cut what doesn't. Clean, tested, weighted, finished. |
+
+An AP does not have to expose all five stages or even traverse refinement stages at
+all. `stage_binding` records where the protocol is normally entered or primarily
+operates. A protocol may cross stages when the action genuinely requires it, and a
+Direct Render may apply stage-bound knowledge internally without showing
+intermediate artifacts.
 
 ## Teaching is a route, not a type
 

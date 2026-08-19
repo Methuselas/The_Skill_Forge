@@ -2,7 +2,7 @@
 
 status: active
 owner: docs/domains/corpus
-last_reviewed: 2026-08-16
+last_reviewed: 2026-08-18
 supersedes: the read/extract/place/validate loop previously documented here
 
 Read `PASS_DOCTRINE.md` and `PASS_SCHEMA.md` first.
@@ -358,7 +358,8 @@ What the second read reliably catches: a caveat that kills a universal reading;
 an attractive example that is not a transferable skill; two decisions merged into
 one candidate; a "new" skill that is an alternate method under an existing owner;
 a method broader than the author's terminology; a drill with no distinct practice
-target; an AP that merely strings existing capabilities together.
+target; a purported AP that copies source order without defining a reusable action,
+dependency order, gates, recovery, or completion.
 
 ### 2.4 Dispositions
 
@@ -398,8 +399,11 @@ Additional bars:
 - A demonstration does not earn a **Drill**. A Drill needs a capability worth
   practicing, a concrete practice act, a success condition, and enough reuse to
   justify permanent residence.
-- A sequence does not earn an **AP**. "Use A, then B, then C" is not an AP unless
-  the orchestration itself is a durable reusable decision.
+- A source sequence earns an **AP** only when it exposes durable reusable
+  orchestration for a complete action. The AP may indeed say "use A, then B, then
+  C" — that is its job — but the order must exist for a reason, the action must have
+  a defined result, and the protocol must say how to know whether to advance,
+  branch, recover, or stop. Mere chapter order is not an AP.
 - Do not let a source colonize the library. An author may contribute a way to
   solve a problem; they may not turn the domain into "do it their way."
 - **An empty unit is a real result.** Never manufacture objects to make a unit
@@ -452,6 +456,48 @@ Then validate, verify references, regenerate indexes, and land the change.
 environment supports commits; where it does not, the accepted change set is
 atomic all the same. Git is not PASS architecture.
 
+### 2.7 AP synthesis is a separate authoring move
+
+Normal source extraction naturally produces many Patterns because sources often
+teach local decisions one at a time. **Do not wait for a single source to hand you
+every useful AP.** A durable action may only become visible after several sources
+have supplied the decisions it needs.
+
+Trigger an AP synthesis audit when at least one of these is true:
+
+- a book or subcategory closes and the accepted Patterns now support a recurring
+  user-level action;
+- repeated work keeps assembling the same ad-hoc Pattern chain;
+- an execution test shows that the necessary Pattern knowledge existed but was
+  omitted, mistimed, or allowed to be destroyed later;
+- an existing AP no longer coordinates the strongest current owners.
+
+Synthesize in this order:
+
+1. **Name the action and result.** Use a user-level verb: debug the service, revise
+   the essay, paint the landscape, construct the cast shadow.
+2. **Check for an existing AP.** Refine it when it already owns the action. Do not
+   create parallel workflows just because a new source phrases the steps
+   differently.
+3. **Retrieve the Pattern owners.** Keep each craft decision in its existing
+   Pattern. The AP coordinates; it does not restate their full rules.
+4. **Order by dependency, not by source order.** State what has to be decided or
+   made trustworthy before later decisions can safely depend on it.
+5. **Add invariants and gates.** Say what must survive, what evidence permits
+   advance, and what condition blocks progress.
+6. **Add branches and recovery where the action can fail in more than one way.**
+   Route the failure back to the decision that owns it instead of pushing damage
+   downstream.
+7. **Define completion.** Name the stopping condition or verification state that
+   makes the action complete.
+8. **Link only real dependencies.** Use existing object relationships; do not add a
+   second dependency system for APs.
+9. **Present the AP delta for approval** just like any other canonical mutation.
+
+The synthesis must be supportable from accepted canon. Practice history can reveal
+that orchestration is missing, but the resulting AP must be general and reusable;
+it may not encode one attempt's personal quirks as universal workflow.
+
 ---
 
 ## 3. Checking the run against the prediction
@@ -501,6 +547,11 @@ Report **named dispositions**, not counts. A variant names its foundation and th
 method that differed. A refinement names what it sharpened. A rejection names
 why. This is the only artifact that distinguishes a mature library correctly
 declining material from an agent that read badly — the counts are identical.
+
+At a meaningful closure boundary, also ask one AP question: **did the accepted
+knowledge materially improve a recurring complete action whose orchestration is
+missing or stale?** If no, close normally. If yes, run §2.7 as a separate approved
+AP synthesis move; do not force it into the last source unit.
 
 Discard the run state. The accepted cards are what remains.
 
@@ -554,20 +605,25 @@ every consumer; discarding it makes the practitioner reteach the system every
 session.
 
 **Attribute a failure before writing a card about it.** An unsuccessful result
-does not mean the knowledge is missing:
+does not mean the underlying Pattern knowledge is missing:
 
 ```
-knowledge    the skillset lacks the principle
-retrieval    the knowledge exists but was not brought to the attempt
-application  retrieved correctly, executed wrong
-continuity   a later stage destroyed a decision established correctly earlier
-reference    the source or reference was misread or insufficient
-tool         the execution system could not perform the intended construction
-interface    the instruction given to the execution system was ambiguous
+knowledge       the skillset lacks the decision principle
+orchestration   the principles exist, but no adequate AP orders/gates them for the action
+retrieval       the right canon exists but was not brought to the attempt
+application     retrieved correctly, executed wrong
+continuity      a later step destroyed a decision established correctly earlier
+reference       the source or reference was misread or insufficient
+tool            the execution system could not perform the intended construction
+interface       the instruction given to the execution system was ambiguous
 ```
 
-Only the first justifies a new card. The rest are execution problems, and
-treating them as knowledge gaps bloats the library with cards it never needed.
+A **knowledge** gap can justify a Pattern or refinement. A reusable
+**orchestration** gap can justify a new AP or AP refinement under §2.7. A Drill is
+justified only when the missing thing is a general repeatable practice/evaluation
+route, not because one attempt went badly. Retrieval, application, continuity,
+reference, tool, and interface failures remain execution problems; do not bloat
+Patterns to compensate for them.
 
 **Buffer experience before it becomes canon:**
 

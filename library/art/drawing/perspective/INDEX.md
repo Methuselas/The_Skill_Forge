@@ -4,43 +4,43 @@
 
 ## Objects
 
-- [Aim Clean Perspective Construction Lines](DRILL_aim_clean_perspective_construction_lines.md) - drill; 2 block.
-- [Align Cylinders and Cones to Projected Circle Centers](PAT_align_cylinders_and_cones_to_projected_circle_centers.md) - pattern; 2 block.
-- [Block Complex Objects With Perspective Boxes](PAT_block_complex_objects_with_perspective_boxes.md) - pattern; 2 block.
+- [Aim Clean Perspective Construction Lines](DRILL_aim_clean_perspective_construction_lines.md) - drill; 2 block. Tags: construction, line_control, perspective, warmup.
+- [Align Cylinders and Cones to Projected Circle Centers](PAT_align_cylinders_and_cones_to_projected_circle_centers.md) - pattern; 2 block. Tags: cone, cylinder, ellipse, perspective.
+- [Block Complex Objects With Perspective Boxes](PAT_block_complex_objects_with_perspective_boxes.md) - pattern; 2 block. Tags: box, construction, object_drawing, perspective.
   - Variants: `Loose Pose Box for Animal Angle Shots` (context).
-- [Build a Coherent Grid When Vanishing Points Are Off the Page](PAT_build_coherent_grid_when_vanishing_points_are_off_page.md) - pattern; 1 skeleton.
-- [Build Complex Volumes With X-Y-Z Sections](AP_build_complex_volumes_with_xyz_sections.md) - ap; 2 block.
+- [Build a Coherent Grid When Vanishing Points Are Off the Page](PAT_build_coherent_grid_when_vanishing_points_are_off_page.md) - pattern; 1 skeleton. Tags: brewer_method, grid, offpage_vp, perspective.
+- [Build Complex Volumes With X-Y-Z Sections](AP_build_complex_volumes_with_xyz_sections.md) - ap; 2 block. Tags: perspective, sections, volume, workflow.
   - Variants: `Slice the Torso at Anatomical Landmark Levels` (method_sequence); `Connect Leg Sections With Anatomical Rails` (method_sequence); `Solve Cylindrical Junctions With Projected Cross-Sections` (method_sequence); `Construct Curved Tubes With Sections and Longitudinal Rails` (method_sequence); `Control Changing Product Rounding With Sparse Sections and Seams` (method_sequence); `Curve a Surface by Offsetting Sections From a Flat Datum` (method_sequence).
-- [Calibrate a Scene From One Figure](DRILL_calibrate_scene_from_one_figure.md) - drill; 0 design.
-- [Carry Scale Through Depth With Height and Width Guides](PAT_carry_scale_through_depth_with_height_and_width_guides.md) - pattern; 2 block.
+- [Calibrate a Scene From One Figure](DRILL_calibrate_scene_from_one_figure.md) - drill; 0 design. Tags: environment, figure_drawing, perspective, scale.
+- [Carry Scale Through Depth With Height and Width Guides](PAT_carry_scale_through_depth_with_height_and_width_guides.md) - pattern; 2 block. Tags: height, perspective, scale, width.
   - Variants: `Scale Cropped Figures From Visible Corresponding Landmarks` (method_sequence).
-- [Choose Convergence From View and Object Orientation](PAT_choose_convergence_from_view_and_orientation.md) - pattern; 1 skeleton.
+- [Choose Convergence From View and Object Orientation](PAT_choose_convergence_from_view_and_orientation.md) - pattern; 1 skeleton. Tags: convergence, one_point, perspective, two_point.
   - Variants: `Derive Coupled Vanishing Points With Visual Rays` (method_sequence); `Estimate Two-Point Convergence Without Drawn Vanishing Points` (method_sequence).
-- [Construct a Shared Scene Perspective Field](AP_construct_a_shared_scene_perspective_field.md) - ap; 0 design.
+- [Construct a Shared Scene Perspective Field](AP_construct_a_shared_scene_perspective_field.md) - ap; 0 design. Tags: construction, perspective, scene, workflow.
   - Variants: `Lock POV and Large Volumes With a Minimal Underlay` (method_sequence); `Calibrate the Shared Scene From a Trusted Figure` (method_sequence).
-- [Construct Cast Shadows in Perspective](AP_construct_cast_shadows_in_perspective.md) - ap; 4 final.
+- [Construct Cast Shadows in Perspective](AP_construct_cast_shadows_in_perspective.md) - ap; 4 final. Tags: light, perspective, projection, shadow.
   - Variants: `Reconstruct Shadows Across Changing Receivers` (method_sequence); `Estimate Cast Shadow From Simplified Proxy Geometry` (method_sequence).
-- [Construct Circles as Ellipses on Perspective Planes](PAT_construct_circles_as_ellipses_on_perspective_planes.md) - pattern; 2 block.
+- [Construct Circles as Ellipses on Perspective Planes](PAT_construct_circles_as_ellipses_on_perspective_planes.md) - pattern; 2 block. Tags: center, circle, ellipse, perspective.
   - Variants: `Derive a Perspective Frame From an Established Ellipse` (method_sequence).
-- [Construct Inclined Planes From Base Vanishing Directions](PAT_construct_inclined_planes_from_base_vanishing_directions.md) - pattern; 2 block.
+- [Construct Inclined Planes From Base Vanishing Directions](PAT_construct_inclined_planes_from_base_vanishing_directions.md) - pattern; 2 block. Tags: inclined_plane, perspective, slope, vanishing_line.
   - Variants: `Use a Slope Auxiliary Vanishing Direction` (method_sequence).
-- [Construct Reflections Across Arbitrary Planar Mirrors](PAT_construct_reflections_across_arbitrary_planes.md) - pattern; 3 rough.
-- [Control Perspective Distortion With Viewpoint and Projection Choice](PAT_control_perspective_distortion_with_viewpoint_and_projection_choice.md) - pattern; 0 design.
+- [Construct Reflections Across Arbitrary Planar Mirrors](PAT_construct_reflections_across_arbitrary_planes.md) - pattern; 3 rough. Tags: mirror, oblique, perspective, reflection.
+- [Control Perspective Distortion With Viewpoint and Projection Choice](PAT_control_perspective_distortion_with_viewpoint_and_projection_choice.md) - pattern; 0 design. Tags: distortion, perspective, projection, viewpoint.
   - Variants: `Rectilinear Viewpoint Match` (method_sequence); `Extreme-Field Projection Swap` (method_sequence); `Use the One-Look Edge Diagnostic` (method_sequence).
-- [Diagnose and Correct Perspective Distortion](DRILL_diagnose_and_correct_perspective_distortion.md) - drill; 2 block.
-- [Establish Eye Level and Vanishing Directions](PAT_establish_eye_level_and_vanishing_directions.md) - pattern; 0 design.
+- [Diagnose and Correct Perspective Distortion](DRILL_diagnose_and_correct_perspective_distortion.md) - drill; 2 block. Tags: correction, distortion, drill, perspective.
+- [Establish Eye Level and Vanishing Directions](PAT_establish_eye_level_and_vanishing_directions.md) - pattern; 0 design. Tags: eye_level, horizon, perspective, vanishing_point.
   - Variants: `Use a High-Water Eye-Level Diagnostic` (method_sequence); `Use Exact Camera/Viewfield Geometry` (method_sequence); `Estimate Off-Page Vanishing Pull for Freehand Sketching` (method_sequence); `Derive an Eye-Level Product View From a Higher-View Layout` (method_sequence).
-- [Measure True Lengths on Oblique Perspective Planes](PAT_measure_true_lengths_on_oblique_planes.md) - pattern; 2 block.
-- [Measure, Subdivide, and Repeat on Perspective Planes](PAT_measure_subdivide_and_repeat_on_perspective_planes.md) - pattern; 2 block.
+- [Measure True Lengths on Oblique Perspective Planes](PAT_measure_true_lengths_on_oblique_planes.md) - pattern; 2 block. Tags: inclined_plane, measuring_point, oblique, perspective.
+- [Measure, Subdivide, and Repeat on Perspective Planes](PAT_measure_subdivide_and_repeat_on_perspective_planes.md) - pattern; 2 block. Tags: diagonal, grid, measurement, perspective.
   - Variants: `Derive an Arbitrary Measuring Point` (method_sequence).
-- [Place Freehand Ellipses on Minor Axes](DRILL_place_freehand_ellipses_on_minor_axes.md) - drill; 2 block.
-- [Project Circles and Cylinders on Tilted Planes](DRILL_project_circles_and_cylinders_on_tilted_planes.md) - drill; 2 block.
-- [Project Curves Onto Sectioned Surfaces](PAT_project_curves_onto_sectioned_surfaces.md) - pattern; 2 block.
-- [Project Plan and Elevation Into Perspective](AP_project_plan_and_elevation_into_perspective.md) - ap; 2 block.
+- [Place Freehand Ellipses on Minor Axes](DRILL_place_freehand_ellipses_on_minor_axes.md) - drill; 2 block. Tags: ellipse, line_control, perspective, warmup.
+- [Project Circles and Cylinders on Tilted Planes](DRILL_project_circles_and_cylinders_on_tilted_planes.md) - drill; 2 block. Tags: cylinder, drill, ellipse, perspective.
+- [Project Curves Onto Sectioned Surfaces](PAT_project_curves_onto_sectioned_surfaces.md) - pattern; 2 block. Tags: curve, perspective, projection, sections.
+- [Project Plan and Elevation Into Perspective](AP_project_plan_and_elevation_into_perspective.md) - ap; 2 block. Tags: elevation, perspective, plan, projection.
   - Variants: `Project a Small Interior, Then Enlarge Freehand` (method_sequence).
-- [Recover a Perspective View Field From an Existing Image](PAT_recover_view_field_from_existing_image.md) - pattern; 0 design.
+- [Recover a Perspective View Field From an Existing Image](PAT_recover_view_field_from_existing_image.md) - pattern; 0 design. Tags: eye_level, perspective, reference_analysis, vanishing_point.
   - Variants: `Recover Exact Station Point and Viewing Distance` (method_sequence); `Capture Reference Against Measured Scene Geometry` (method_sequence).
-- [Rotate Boxes Across Eye Levels](DRILL_rotate_boxes_across_eye_levels.md) - drill; 2 block.
-- [Rotate Perspective Grids Without Changing Unit Scale](PAT_rotate_perspective_grids_without_changing_unit_scale.md) - pattern; 1 skeleton.
-- [Subdivide a Plane Without Screen-Space Guessing](DRILL_subdivide_a_plane_without_screen_space_guessing.md) - drill; 2 block.
-- [Validate Three-Point Perspective From the Vanishing Triangle](PAT_validate_three_point_viewpoint_geometry.md) - pattern; 1 skeleton.
+- [Rotate Boxes Across Eye Levels](DRILL_rotate_boxes_across_eye_levels.md) - drill; 2 block. Tags: box, drill, eye_level, perspective.
+- [Rotate Perspective Grids Without Changing Unit Scale](PAT_rotate_perspective_grids_without_changing_unit_scale.md) - pattern; 1 skeleton. Tags: grid, perspective, rotation, scale.
+- [Subdivide a Plane Without Screen-Space Guessing](DRILL_subdivide_a_plane_without_screen_space_guessing.md) - drill; 2 block. Tags: diagonal, drill, measurement, perspective.
+- [Validate Three-Point Perspective From the Vanishing Triangle](PAT_validate_three_point_viewpoint_geometry.md) - pattern; 1 skeleton. Tags: orthocenter, perspective, three_point, vanishing_point.

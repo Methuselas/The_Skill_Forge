@@ -45,6 +45,7 @@ variants: []
 - Recheck the colored version at reduced size or in grayscale when a passage becomes harder to read after color is introduced.
 - Preserve enough separation between important neighboring forms that color differences do not become the only thing holding them apart.
 - Allow color to alter the tonal plan when the change is intentional and improves the picture; then treat the new relationship as a redesign rather than an accidental drift.
+- When subdividing a strong parent mass, prefer hue, chroma, or temperature variation that stays inside the parent value family unless a real value break is necessary; extra values should not fracture a large light or dark shape without cause.
 
 ## Don't
 - Do not assume an attractive hue or high chroma will compensate for a collapsed value hierarchy.

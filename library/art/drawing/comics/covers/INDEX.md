@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Design a Comic Cover From Editorial Brief to Pencils](AP_design_comic_cover_from_editorial_brief_to_pencils.md) - ap; 0 design.
+- [Design a Comic Cover From Editorial Brief to Pencils](AP_design_comic_cover_from_editorial_brief_to_pencils.md) - ap; 0 design. Tags: comics, cover_design, editorial_brief, hierarchy, production_zones, promotional_illustration, thumbnailing.

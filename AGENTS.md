@@ -50,10 +50,10 @@ The prose after each lead is this file's own.
   the remaining window, checkpoint and resume the same unit — never split it to
   make it fit.
 - **Practice history must not enter cards.** What one attempt revealed about
-  application, calibration, or failure is not a Pattern. Attribute a failure
-  before writing a card about it: missing knowledge justifies a card, while
-  retrieval, application, continuity, reference, tool, and interface failures do
-  not.
+  application, calibration, or failure is not itself canonical knowledge.
+  Attribute a failure before authoring: a missing reusable decision may justify a
+  Pattern, and a missing reusable action orchestration may justify an AP; retrieval,
+  application, continuity, reference, tool, and interface failures do not.
 
 ## Validation
 

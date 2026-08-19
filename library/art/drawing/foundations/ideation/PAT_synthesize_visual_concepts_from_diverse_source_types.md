@@ -33,90 +33,53 @@ variants:
 - variant_id: VAR_dodson_use_photography_as_bounded_study_or_creative_departure
   variant_name: Use Photography as Bounded Study or Creative Departure
   variant_basis: constraint
-  difference_from_foundation: 'Uses a photograph either to study a specific visual relationship or as material to
-    transform and combine, rather than allowing one photograph to become the automatic final answer. Adds a color-reference
-    boundary: photography may clip deep shadows/highlights, shift or weaken chroma, lose subtle adjacent warm/cool
-    variation, or omit weak reflected-color contributions that remain visible in direct observation.'
-  when_to_use: Use photography for structure, detail, or bounded study while pairing it with direct observation
-    or contemporaneous color notes when color fidelity, weak bounce, or extreme values matter.
-  when_not_to_use: Do not let a photograph dictate palette relationships when its exposure, white balance, gamut,
-    or tonal compression visibly conflicts with direct observation or the intended scene.
+  difference_from_foundation: 'Uses a photograph for the information channels it actually supports rather than treating it as globally reliable or unreliable. Structure and frozen detail may be strong while extreme values, subtle temperature/chroma, edge hierarchy, reflected color, or selective emphasis are compressed or distorted by capture and processing.'
+  when_to_use: Use photography as bounded evidence, assigning it specific jobs and supplementing weak channels with direct observation, color studies, notes, or other references when those relationships matter.
+  when_not_to_use: Do not let photographic sharpness, clipped values, compressed color, or indiscriminate frozen detail dictate the final picture when the source does not actually support those decisions.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_normalize_reference_camera_and_light_before_synthesis
   variant_name: Normalize Reference Camera and Light Before Synthesis
   variant_basis: method_sequence
-  difference_from_foundation: Establishes the target viewpoint, eye level, value arrangement, and lighting logic
-    before synthesis; when reference acquisition is controllable, captures new material to match that target upstream,
-    then rebuilds any remaining mixed photographs, clippings, studies, or underlays into the same camera and illumination
-    system.
-  when_to_use: Use when combining multiple visual references whose eye levels, perspective, scale cues, value structures,
-    or light sources may conflict, especially when some reference can be staged or photographed specifically for
-    the designed rough.
-  when_not_to_use: Do not spend time normalizing a single authoritative reference when the task is direct observation
-    or faithful study of that one setup.
+  difference_from_foundation: Establishes the target viewpoint, eye level, major value structure, light direction, and light/shadow temperature relationship before synthesis; when reference acquisition is controllable, captures new material to match that target, then rebuilds remaining mixed sources into the same camera and illumination system.
+  when_to_use: Use when combining multiple visual references whose eye levels, perspective, scale cues, value structures, or light sources may conflict, especially when some reference can be staged or photographed specifically for the designed rough.
+  when_not_to_use: Do not spend time normalizing a single authoritative reference when the task is direct observation or faithful study of that one setup.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_triangulate_portrait_identity_across_multiple_references
   variant_name: Triangulate Portrait Identity Across Multiple References
   variant_basis: method_sequence
-  difference_from_foundation: Uses several imperfect portrait references to infer the recurring structural identity
-    of one subject before rebuilding that identity through a single chosen head construction, camera, and lighting
-    system.
-  when_to_use: Use when no single photograph cleanly reveals a person's stable character forms, especially when
-    references vary in expression, camera, age, or lighting.
-  when_not_to_use: Do not average away genuine asymmetry, age-specific traits, or distinctive forms merely because
-    they vary across sources; and do not multiply references when one authoritative setup already supplies the required
-    likeness.
+  difference_from_foundation: Uses several imperfect portrait references to infer the recurring structural identity of one subject before rebuilding that identity through a single chosen head construction, camera, and lighting system.
+  when_to_use: Use when no single photograph cleanly reveals a person's stable character forms, especially when references vary in expression, camera, age, or lighting.
+  when_not_to_use: Do not average away genuine asymmetry, age-specific traits, or distinctive forms merely because they vary across sources; and do not multiply references when one authoritative setup already supplies the required likeness.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_design_action_before_acquiring_pose_reference
   variant_name: Design Action Before Acquiring Pose Reference
   variant_basis: method_sequence
-  difference_from_foundation: Designs the intended action, interaction, and broad pose first with cheap gesture
-    or skeleton sketches, then acquires model or photographic reference to make that chosen conception convincing
-    instead of letting available reference originate the composition.
-  when_to_use: Use when a narrative pose, multi-figure interaction, or dramatic action must serve a preselected
-    story beat and camera rather than whatever pose happens to be easiest to photograph.
-  when_not_to_use: Do not ignore useful accidental discoveries from a model session, and do not predesign away the
-    observational task when the assignment is direct life study; the rule is to keep reference subordinate to an
-    intentional conception when illustration is being staged.
+  difference_from_foundation: Designs the intended action, interaction, and broad pose first with cheap gesture or skeleton sketches, then acquires model or photographic reference to make that chosen conception convincing instead of letting available reference originate the composition.
+  when_to_use: Use when a narrative pose, multi-figure interaction, or dramatic action must serve a preselected story beat and camera rather than whatever pose happens to be easiest to photograph.
+  when_not_to_use: Do not ignore useful accidental discoveries from a model session, and do not predesign away the observational task when the assignment is direct life study; the rule is to keep reference subordinate to an intentional conception when illustration is being staged.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_use_applied_realism_to_fortify_invention
   variant_name: Use Applied Realism to Fortify Invention
   variant_basis: method_sequence
-  difference_from_foundation: 'Connects invention and factual study in either direction: start from an invented
-    or stylized proposition and research only the missing facts needed to make it convincing, or study real structure/behavior
-    first, internalize the useful facts, and later recombine them freely in invention rather than treating reference
-    fidelity as the goal.'
-  when_to_use: Use when imaginative, stylized, fictional, caricatured, or abstract subject matter needs factual
-    credibility without surrendering the intended design, or when deliberate study is being banked for later imaginative
-    use.
-  when_not_to_use: Do not use selective omission as an excuse for accidental anatomy, perspective, material, or
-    lighting errors; and do not suppress relevant evidence when the task is faithful observation, documentation,
-    or technical study.
+  difference_from_foundation: 'Connects invention and factual study in either direction: start from an invented or stylized proposition and research only the missing facts needed to make it convincing, or study real structure/behavior first, internalize the useful facts, and later recombine them freely in invention rather than treating reference fidelity as the goal.'
+  when_to_use: Use when imaginative, stylized, fictional, caricatured, or abstract subject matter needs factual credibility without surrendering the intended design, or when deliberate study is being banked for later imaginative use.
+  when_not_to_use: Do not use selective omission as an excuse for accidental anatomy, perspective, material, or lighting errors; and do not suppress relevant evidence when the task is faithful observation, documentation, or technical study.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_mine_precedent_for_general_problem_then_redesign_solution
   variant_name: Mine Precedent for the General Problem, Then Redesign the Solution
   variant_basis: method_sequence
-  difference_from_foundation: Uses an earlier image to identify a broad recurring problem, relationship, audience
-    appeal, or subject situation while deliberately discarding the donor image's specific composition and pictorial
-    solution before rebuilding from the current brief.
-  when_to_use: Use when precedent is valuable as an idea stimulus but the current work needs an original construction
-    rather than a close visual paraphrase.
-  when_not_to_use: Do not treat this as permission to reproduce protected or distinctive expression; actual reuse
-    still follows the applicable rights and permissions context.
+  difference_from_foundation: Uses an earlier image to identify a broad recurring problem, relationship, audience appeal, or subject situation while deliberately discarding the donor image's specific composition and pictorial solution before rebuilding from the current brief.
+  when_to_use: Use when precedent is valuable as an idea stimulus but the current work needs an original construction rather than a close visual paraphrase.
+  when_not_to_use: Do not treat this as permission to reproduce protected or distinctive expression; actual reuse still follows the applicable rights and permissions context.
   absorbed_from_object_id: none
 - variant_id: VAR_loomis_translate_photo_reference_through_drawn_study_before_final
   variant_name: Translate Photo Reference Through a Drawn Study Before Final
   variant_basis: method_sequence
-  difference_from_foundation: Inserts an interpretive drawing between photographic evidence and final execution
-    so the artist selects, simplifies, and restates useful information before the polished photograph can become
-    the aesthetic target.
-  when_to_use: Use when a highly finished photograph is beginning to dictate slickness, literal detail, or surface
-    treatment beyond the limited facts the final illustration actually needs.
-  when_not_to_use: Do not add an intermediate study mechanically when the photograph is already being used narrowly
-    and the extra pass would not improve selection or interpretation.
+  difference_from_foundation: Inserts an interpretive drawing between photographic evidence and final execution so the artist selects, simplifies, and restates useful information before the polished photograph can become the aesthetic target.
+  when_to_use: Use when a highly finished photograph is beginning to dictate slickness, literal detail, or surface treatment beyond the limited facts the final illustration actually needs.
+  when_not_to_use: Do not add an intermediate study mechanically when the photograph is already being used narrowly and the extra pass would not improve selection or interpretation.
   absorbed_from_object_id: none
 ---
-
 # Synthesize Visual Concepts from Diverse Source Types
 
 ## Pattern Rule
@@ -131,6 +94,8 @@ variants:
 - Reconstruct the result through the active drawing foundations so borrowed parts behave as one design.
 - Keep source-specific factual claims attributable when attribution matters, while rebuilding transferable visual relationships into the active design.
 - Recheck the synthesized result as a whole; more references do not automatically create a coherent design.
+- Assign each photographic source only the channels it can support at the intended output scale; when a source cannot justify local color, edge, or detail decisions, lower the specificity or bring in stronger evidence rather than inventing false precision.
+- When several photographs feed one scene, normalize them to one chosen light direction, major value structure, and light/shadow temperature relationship before integration.
 
 ## Don't
 - Ask one reference to solve structure, mood, costume, anatomy, lighting, and style when it only supports one of those jobs.
@@ -165,3 +130,5 @@ This is especially important for future creature and character design. A hybrid 
 `VAR_loomis_translate_photo_reference_through_drawn_study_before_final` adds a translation buffer: photograph -> interpretive study -> final. The study becomes the immediate authority for selection and design, while the photograph remains evidence instead of silently setting the final work's finish and surface language.
 
 `VAR_dodson_use_photography_as_bounded_study_or_creative_departure` also treats photographic color as fallible evidence: when a camera clips, shifts, or suppresses subtle color relationships, keep the photograph for structure/detail and let observation or color notes govern the palette.
+
+The photography variant is channel-specific: a photograph can be excellent evidence for frozen structure or detail and weak evidence for extreme values, subtle color, edge authority, or selective emphasis. Multi-photo synthesis must also preserve one illumination system; individually plausible photographs do not become coherent simply by being collaged together.

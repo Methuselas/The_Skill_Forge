@@ -4,16 +4,16 @@
 
 ## Objects
 
-- [Audit Foreshortening With Nine Depth Checks](DRILL_audit_foreshortening_with_nine_depth_checks.md) - drill; 2 block.
-- [Build a Figure-Form Repertory From Classical Exemplar Studies](DRILL_build_figure_form_repertory_from_classical_exemplar_studies.md) - drill; 2 block.
-- [Compare Figure Styles by Context and Form](DRILL_compare_figure_styles_by_context_and_form.md) - drill; 0 design.
-- [Construct the Whole Figure From Mass Relations Before Contour](DRILL_construct_whole_figure_from_mass_relations_before_contour.md) - drill; 1 skeleton.
+- [Audit Foreshortening With Nine Depth Checks](DRILL_audit_foreshortening_with_nine_depth_checks.md) - drill; 2 block. Tags: depth, diagnosis, figure_drawing, foreshortening.
+- [Build a Figure-Form Repertory From Classical Exemplar Studies](DRILL_build_figure_form_repertory_from_classical_exemplar_studies.md) - drill; 2 block. Tags: anatomy, deliberate_practice, figure_drawing, master_study, proportion.
+- [Compare Figure Styles by Context and Form](DRILL_compare_figure_styles_by_context_and_form.md) - drill; 0 design. Tags: deliberate_practice, figure_drawing, master_study, style_analysis.
+- [Construct the Whole Figure From Mass Relations Before Contour](DRILL_construct_whole_figure_from_mass_relations_before_contour.md) - drill; 1 skeleton. Tags: figure_drawing, mass, observation, proportion.
   - Variants: `Audit the Big Figure Silhouette as a Single Patch` (method_sequence).
-- [Design Drapery From Tension Points and Forces](PAT_design_drapery_from_tension_points_and_forces.md) - pattern; 3 rough.
+- [Design Drapery From Tension Points and Forces](PAT_design_drapery_from_tension_points_and_forces.md) - pattern; 3 rough. Tags: drapery, figure_drawing, folds, tension.
   - Variants: `Separate Garment Construction From Body-Driven Folds` (method_sequence); `Stage Costume Practice From Isolated Figure to Scene Context` (method_sequence).
-- [Map Rear Pelvic Masses Without Breaking the Wedge](PAT_map_rear_pelvic_masses_without_breaking_wedge.md) - pattern; 3 rough.
+- [Map Rear Pelvic Masses Without Breaking the Wedge](PAT_map_rear_pelvic_masses_without_breaking_wedge.md) - pattern; 3 rough. Tags: figure_drawing, pelvis, rear_view, surface_form.
   - Variants: `Anchor Changing Hip Surface to the Iliac Crest` (method_sequence).
-- [Place Chest Landmarks on the Rib-Cage Barrel](PAT_place_chest_landmarks_on_rib_cage_barrel.md) - pattern; 2 block.
+- [Place Chest Landmarks on the Rib-Cage Barrel](PAT_place_chest_landmarks_on_rib_cage_barrel.md) - pattern; 2 block. Tags: chest_anatomy, figure_drawing, landmark_placement, surface_form.
   - Variants: `Build Breast Tissue as a Deformable Mass Over the Pectoral Wall` (method_sequence).
-- [Project the Hidden Torso Skeleton Into Living Form](DRILL_project_hidden_torso_skeleton_into_living_form.md) - drill; 2 block.
+- [Project the Hidden Torso Skeleton Into Living Form](DRILL_project_hidden_torso_skeleton_into_living_form.md) - drill; 2 block. Tags: anatomy, figure_drawing, skeleton, torso.
   - Variants: `Capture the Live Torso, Then Reconstruct Hidden Anatomy Offline` (method_sequence).

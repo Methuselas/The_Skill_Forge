@@ -23,6 +23,17 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertTrue(result["contract"]["apply_stage_knowledge"])
         self.assertTrue(result["contract"]["post_render_verification"])
 
+    def test_direct_stage4_language_suppresses_external_stages(self):
+        result = runtime.resolve_task(
+            PROFILE, LIBRARY, "No stages. Go directly to stage 4 and render the final image."
+        )
+        self.assertEqual(result["mode"], "direct_render")
+        self.assertFalse(result["contract"]["stage_artifacts"])
+        review = result["contract"]["risk_region_review"]
+        self.assertTrue(review["enumerate_all_visible_instances"])
+        self.assertTrue(review["inspect_full_frame_and_local_scale"])
+        self.assertFalse(review["representative_sampling_allowed"])
+
     def test_training_or_drill_routes_to_staged_production(self):
         result = runtime.resolve_task(PROFILE, LIBRARY, "Give me a figure drawing drill for this pose.")
         self.assertEqual(result["mode"], "staged_production")
@@ -78,7 +89,9 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         )
         checks = set(result["risk_checks"])
         self.assertIn("camera consistency", checks)
-        self.assertIn("digit count", checks)
+        self.assertIn("digit count for every visible hand", checks)
+        self.assertIn("weapon-hand contact map", checks)
+        self.assertIn("thumb opposition and active/support digit roles", checks)
         self.assertIn("weapon-hand-arm attachment chain", checks)
         self.assertIn("gaze/action alignment", checks)
 
@@ -94,14 +107,45 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertIn("objective_check", incomplete["missing_required_checks"])
         self.assertTrue(incomplete["unresolved_risk_checks"])
 
-        complete = runtime.verify_completion(
+        complete_without_local_review = runtime.verify_completion(
             resolution,
             {
                 "checks": {"instruction_fidelity_check": True, "objective_check": True},
                 "risk_checks": {name: True for name in resolution["risk_checks"]},
             },
         )
+        self.assertFalse(complete_without_local_review["passed"])
+        self.assertIn("risk_region_inventory_check", complete_without_local_review["missing_required_checks"])
+        self.assertIn("local_risk_inspection_check", complete_without_local_review["missing_required_checks"])
+
+        complete = runtime.verify_completion(
+            resolution,
+            {
+                "checks": {
+                    "instruction_fidelity_check": True,
+                    "objective_check": True,
+                    "risk_region_inventory_check": True,
+                    "local_risk_inspection_check": True,
+                },
+                "risk_checks": {name: True for name in resolution["risk_checks"]},
+            },
+        )
         self.assertTrue(complete["passed"])
+
+    def test_weapon_and_reference_language_activate_hand_and_canon_checks(self):
+        result = runtime.resolve_task(
+            PROFILE,
+            LIBRARY,
+            "Use these reference sheets as golden truth and draw Blu firing a pistol in an extreme action pose.",
+        )
+        checks = set(result["risk_checks"])
+        self.assertIn("weapon-hand contact map", checks)
+        self.assertIn("digit count for every visible weapon hand", checks)
+        self.assertIn("hand-wrist-arm endpoint continuity", checks)
+        self.assertIn("character identity and face lock", checks)
+        self.assertIn("costume seam and emblem lock", checks)
+        self.assertIn("equipment mount lock", checks)
+        self.assertIn("digit contract", checks)
 
 
 if __name__ == "__main__":

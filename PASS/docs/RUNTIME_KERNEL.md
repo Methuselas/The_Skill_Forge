@@ -1,17 +1,42 @@
 # SkillForge Runtime Kernel
 
-The runtime kernel is SkillForge's procedural centerline. It makes lane and
-execution-mode routing, knowledge activation, gates, and completion requirements
-deterministic without moving semantic craft judgment out of the knowledge cards.
+The runtime kernel is SkillForge's deterministic routing and completion
+centerline. It makes lane and execution-mode routing, declared metaskill
+activation, risk checks, and completion requirements deterministic without moving
+semantic craft judgment or task orchestration out of the knowledge cards.
 
 ## Boundary
 
-**Scripts decide when thinking must happen. Skills teach how to think about it.
-The model makes the judgment. Verification checks what happened.**
+**Scripts decide deterministic routing and when checks must happen. APs organize
+the craft action. Patterns supply the decisions. Drills supply practice. The model
+makes semantic judgments. Verification checks what happened.**
 
 Metaskills are therefore **script-dependent, not script-owned**. `RUNTIME.yaml`
 files declare activation conditions, while the AP/Pattern/Drill cards remain the
-source of meaning and method.
+source of meaning and method. The kernel must not become a hidden domain workflow
+engine.
+
+## Semantic action routing
+
+For a productive user request, the model resolves knowledge **AP-first** inside
+the active domain:
+
+```text
+request -> applicable AP -> Pattern owners -> applicable variants
+```
+
+The AP supplies semantic control flow: dependency order, gates, branches, recovery,
+continuity checks, and stopping. Patterns remain the owners of the individual
+decisions, so improving a Pattern automatically improves every AP that uses it.
+
+If no adequate AP exists, the model may assemble an ad-hoc Pattern chain and still
+complete the request. Runtime does not silently manufacture a canonical AP. The
+missing orchestration is an **AP coverage gap** that may be taken to a later PASS
+authoring audit.
+
+AP-first is independent of execution mode. **Direct Render** may execute an AP
+internally without exposing intermediate artifacts. **Staged Production** may
+externalize the same or another AP's gates where the mode contract requires it.
 
 ## Orthogonal teach lane
 

@@ -4,4 +4,5 @@
 
 ## Objects
 
-- [Ink Comic Art for Reproduction Clarity, Design, and Mood](AP_ink_comic_art_for_reproduction_clarity_design_and_mood.md) - ap; 4 final.
+- [Ink Comic Art for Reproduction Clarity, Design, and Mood](AP_ink_comic_art_for_reproduction_clarity_design_and_mood.md) - ap; 4 final. Tags: black_mass, clarity, comics, inking, line_weight, mood, reproduction, value_pattern.
+  - Variants: `Scale Finishing Authority to Pencil Resolution` (context).

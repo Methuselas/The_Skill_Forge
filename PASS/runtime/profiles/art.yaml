@@ -30,6 +30,10 @@ execution_modes:
       apply_stage_knowledge: true
       post_render_verification: true
       rollback_enabled: false
+      risk_region_review:
+        enumerate_all_visible_instances: true
+        inspect_full_frame_and_local_scale: true
+        representative_sampling_allowed: false
   staged_production:
     aliases: [staged, stages, stage mode, process]
     label: Staged Production
@@ -42,8 +46,22 @@ execution_modes:
       commitment_checks: true
       rollback_enabled: true
       post_render_verification: true
+      risk_region_review:
+        enumerate_all_visible_instances: true
+        inspect_full_frame_and_local_scale: true
+        representative_sampling_allowed: false
 routing:
   rules:
+    - mode: direct_render
+      reason: explicit direct/final request suppresses external stage artifacts
+      when:
+        any_phrases:
+          - "just render"
+          - "just make it"
+          - "go straight to final"
+          - "go directly to stage 4"
+          - "no stages"
+          - "direct render"
     - mode: staged_production
       reason: explicit staged/process request
       when:
@@ -74,15 +92,10 @@ routing:
           - "teach me the process"
           - "anatomy correction pass"
     - mode: direct_render
-      reason: explicit direct/final request
+      reason: explicit final-image wording confirms the default direct mode
       when:
         any_phrases:
-          - "just render"
-          - "just make it"
-          - "go straight to final"
-          - "no stages"
           - "final image"
-          - "direct render"
 risk_rules:
   - id: foreshortening
     when:
@@ -90,8 +103,8 @@ risk_rules:
     checks: [foreground foreshortening, camera consistency, articulated reach chain]
   - id: visible_hands
     when:
-      any_phrases: [hand, hands, finger, fingers, fist, grip, holding, pointing]
-    checks: [digit count, hand structure, hand-wrist-arm attachment chain]
+      any_phrases: [hand, hands, finger, fingers, fist, grip, grasp, gripping, holding, open hand, outstretched hand, reaching]
+    checks: [digit count for every visible hand, hand structure for every visible hand, hand-wrist-arm attachment chain for every visible hand]
   - id: supported_pose
     when:
       any_phrases: [standing, planted, leaning, sitting, crouch, crouching, kneeling, weight, support, contact]
@@ -103,7 +116,31 @@ risk_rules:
   - id: weapon_reach
     when:
       any_phrases: [gun, pistol, rifle, weapon, sword, spear]
-    checks: [weapon-hand-arm attachment chain, focal hierarchy]
+    checks:
+      - weapon-hand contact map
+      - thumb opposition and active/support digit roles
+      - digit count for every visible weapon hand
+      - hand-wrist-arm attachment chain for every visible weapon hand
+      - weapon-hand-arm attachment chain
+      - focal hierarchy
+  - id: articulated_endpoints
+    when:
+      any_phrases: [pose, action pose, combat pose, leap, leaping, jump, jumping, lunge, lunging, running, sprinting, kicking, reaching]
+    checks:
+      - hand-wrist-arm endpoint continuity
+      - foot-ankle-leg endpoint continuity
+      - head-neck attachment continuity
+      - prop-contact endpoint continuity
+  - id: character_reference_lock
+    when:
+      any_phrases: [reference sheet, reference sheets, ref sheet, ref sheets, character sheet, character sheets, golden truth, canon reference, canonical reference, lock pack]
+    checks:
+      - character identity and face lock
+      - silhouette anchor lock
+      - costume seam and emblem lock
+      - equipment mount lock
+      - palette lock
+      - digit contract
 completion_gate:
-  required_checks: [instruction_fidelity_check, objective_check]
+  required_checks: [instruction_fidelity_check, objective_check, risk_region_inventory_check, local_risk_inspection_check]
   require_all_risk_checks: true

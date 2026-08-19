@@ -25,10 +25,16 @@ reference:
   source_title: 'Color and Light: A Guide for the Realist Painter'
   author: James Gurney
 confidence: high
-variants: []
+variants:
+- variant_id: VAR_schmid_render_continuous_natural_motion_as_recurring_soft_edged_patterns
+  variant_name: Render Continuous Natural Motion as Recurring Soft-Edged Patterns
+  variant_basis: context
+  difference_from_foundation: For continuous phenomena such as falling water, waves, or moving foliage, preserves characteristic recurring shapes through the motion while softening edges enough to avoid a frozen high-speed look, rather than replacing motion with uniform fuzz.
+  when_to_use: Use when the subject is a continuously changing natural event whose identity depends on recurring flow patterns more than on one frozen instant.
+  when_not_to_use: Do not use when a sharp frozen phase is intentionally required or when relative camera/subject motion already determines a different blur model.
+  absorbed_from_object_id: none
 references: []
 ---
-
 # Render Motion Blur From Relative Motion Between Subject and View
 
 ## Pattern Rule
@@ -55,3 +61,5 @@ references: []
 
 ## Notes
 Motion blur is a relative-motion effect. Identifying what moves with respect to the view makes it possible to place direction, amount, and depth variation instead of using generic smearing.
+
+`VAR_schmid_render_continuous_natural_motion_as_recurring_soft_edged_patterns` handles continuously changing natural events by preserving recurring characteristic shapes while softening their edges enough to avoid a frozen instant; the result should still contain recognizable flow structure rather than generic fuzz.

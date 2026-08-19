@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Deterministic SkillForge execution router and completion guard.
 
-Python owns orchestration, not domain judgment. It resolves execution mode,
-activates declared metaskills, emits required risk/completion checks, and fails
-closed when a required completion check has not been recorded. The semantic
-meaning of those checks remains in the SkillForge cards and profile.
+Python owns deterministic routing and completion enforcement, not semantic craft
+orchestration. It resolves execution mode, activates declared metaskills, emits
+required risk/completion checks, and fails closed when a required completion
+check has not been recorded. APs own goal-directed craft control flow; Patterns
+own the individual decisions. The semantic meaning remains in the SkillForge
+cards and profile.
 """
 from __future__ import annotations
 

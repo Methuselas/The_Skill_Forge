@@ -50,8 +50,21 @@ variants:
   when_to_use: Use when the drawing feels wrong but the cause is unclear or several plausible causes compete.
   when_not_to_use: Do not turn the ten labels into a ritual checklist when the failure is already obvious; correct the known issue and return to whole-picture inspection.
   absorbed_from_object_id: none
+- variant_id: VAR_schmid_reduce_vague_failure_to_add_omit_and_four_visual_elements
+  variant_name: Reduce Vague Failure to Add/Omit Errors and Four Visual Elements
+  variant_basis: method_sequence
+  difference_from_foundation: When representational work merely feels as though it is not working, first ask whether unsupported information was added or essential information omitted, then test drawing, value, edges, and color singly and in combination until the complaint becomes a concrete correction.
+  when_to_use: Use when frustration is real but the current diagnosis is only emotional or metaphorical, such as dead, weak, flat, lifeless, or not working.
+  when_not_to_use: Do not run the full elimination sequence when the failure is already obvious; correct the known relationship and recheck the whole image.
+  absorbed_from_object_id: none
+- variant_id: VAR_schmid_translate_abstract_composition_complaint_into_concrete_relations
+  variant_name: Translate Abstract Composition Complaints Into Concrete Relations
+  variant_basis: method_sequence
+  difference_from_foundation: Converts labels such as unbalanced, no unity, no movement, or does not work into visible relations—an overweight mass, isolated region, premature exit path, competing shapes, or awkward interval—before routing to the owning correction.
+  when_to_use: Use when a composition complaint names an effect but not the actual relation that must change.
+  when_not_to_use: Do not invent a diagnostic vocabulary when the specific offending mass, path, interval, or hierarchy failure is already known.
+  absorbed_from_object_id: none
 ---
-
 # Use Perceptual Wrongness as an Inspection Trigger
 
 ## Pattern Rule
@@ -64,6 +77,8 @@ variants:
 - Compare shape, angle, interval, alignment, proportion, overlap, support, and tone before deciding which structural tool is relevant.
 - Return to the whole read after a local correction; a technically plausible fix can still fail perceptually.
 - Apply the same inspection at meaningful stage gates so a correct procedure does not excuse a visibly wrong result.
+- Treat significant known errors as urgent because later comparisons depend on the relationships already on the image; a wrong anchor can make correct later decisions look wrong and propagate error.
+- Use anatomy, perspective, material, and other learned knowledge to generate diagnostic hypotheses, but let clear observed evidence overrule a remembered general rule when faithful observation is the task.
 
 ## Don't
 - Do not rationalize a visibly implausible result merely because construction steps were followed.
@@ -79,3 +94,5 @@ variants:
 Dodson repeatedly shifts attention from named objects to the particular visual relationships in front of the artist. Guided teaching extended this into a stage-level error alarm: human vision often detects implausibility before conscious diagnosis, so perceptual wrongness should trigger inspection before the artist returns to anatomy, perspective, proportion, or other structural methods. `VAR_dodson_restate_before_erasing_during_observational_search` preserves the doubtful and improved relationships together long enough to compare them before cleanup.
 
 `VAR_loomis_route_wrongness_through_five_ps_and_five_cs` supplies a broad routing audit when the alarm is real but the cause is unclear. The **Five Ps** are **Proportion, Placement, Perspective, Planes, and Pattern**. The **Five Cs** are **Conception, Construction, Contour, Character, and Consistency**. Use the framework to locate the failed relationship, not as a substitute for the specialized correction method that owns it.
+
+`VAR_schmid_reduce_vague_failure_to_add_omit_and_four_visual_elements` turns a vague failure state into a bounded elimination search through unsupported additions, essential omissions, drawing, value, edges, and color. `VAR_schmid_translate_abstract_composition_complaint_into_concrete_relations` applies the same discipline to composition language by replacing labels such as imbalance or lack of movement with the specific mass, path, interval, or competition that can actually be edited.

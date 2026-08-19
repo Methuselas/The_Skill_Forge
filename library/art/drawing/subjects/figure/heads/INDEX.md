@@ -4,25 +4,25 @@
 
 ## Objects
 
-- [Age One Head Through a Lifespan Strip](DRILL_age_one_head_through_lifespan_strip.md) - drill; 2 block.
-- [Build a Baby-Head Age Ladder From Reference](DRILL_build_baby_head_age_ladder_from_reference.md) - drill; 2 block.
-- [Build the Living Head Over a Constructed Skull](DRILL_build_living_head_over_constructed_skull.md) - drill; 2 block.
-- [Capture Age Type From the Whole Before Measurement](DRILL_capture_age_type_from_whole_before_measurement.md) - drill; 1 skeleton.
-- [Compare Master Heads for Invariant Structure](DRILL_compare_master_heads_for_invariant_structure.md) - drill; 2 block.
-- [Construct a Character Head From a Written Description](DRILL_construct_character_head_from_written_description.md) - drill; 0 design.
-- [Construct the Head From a Cranial Ball and Facial Wedge](PAT_construct_head_from_cranial_ball_and_facial_wedge.md) - pattern; 2 block.
+- [Age One Head Through a Lifespan Strip](DRILL_age_one_head_through_lifespan_strip.md) - drill; 2 block. Tags: age, character_consistency, deliberate_practice, head_construction.
+- [Build a Baby-Head Age Ladder From Reference](DRILL_build_baby_head_age_ladder_from_reference.md) - drill; 2 block. Tags: age, child_portrait, deliberate_practice, head_construction.
+- [Build the Living Head Over a Constructed Skull](DRILL_build_living_head_over_constructed_skull.md) - drill; 2 block. Tags: anatomy, figure_drawing, head, skull.
+- [Capture Age Type From the Whole Before Measurement](DRILL_capture_age_type_from_whole_before_measurement.md) - drill; 1 skeleton. Tags: age, figure_drawing, proportion, sketchbook.
+- [Compare Master Heads for Invariant Structure](DRILL_compare_master_heads_for_invariant_structure.md) - drill; 2 block. Tags: deliberate_practice, head_construction, master_study, style_analysis.
+- [Construct a Character Head From a Written Description](DRILL_construct_character_head_from_written_description.md) - drill; 0 design. Tags: character_design, deliberate_practice, head_construction, invention.
+- [Construct the Head From a Cranial Ball and Facial Wedge](PAT_construct_head_from_cranial_ball_and_facial_wedge.md) - pattern; 2 block. Tags: figure_drawing, foreshortening, head_construction, viewpoint.
   - Variants: `Block the Head Inside a Perspective Cage` (method_sequence); `Construct Feature Placement From a Divided Cranial Ball` (method_sequence); `Establish Head Likeness From Global Proportion Before Features` (method_sequence); `Anchor Head Planes to Skull Boundaries` (method_sequence); `Vary Head Type by Reshaping the Cranial Envelope` (method_sequence); `Block the Head With Basic Then Secondary Planes` (method_sequence); `Read Character From Bone First, Flesh Second` (method_sequence); `Set a Standard Head in a Memorized Unit Grid` (method_sequence); `Coordinate Paired Eyes as Linked Spheres` (method_sequence); `Keep Planar Structure Under a Soft Head Design` (method_sequence); `Block Hair as a Large Mass Before Strands` (method_sequence); `Construct a Baby Head With a Short Facial Plane and Four Divisions` (method_sequence); `Age a Young Child Head by Growing the Facial Mass Under the Cranium` (method_sequence); `Transition From Baby to Small Child by Maturing the Face Inside the Cranium` (method_sequence); `Transition From Small Child to School Age by Raising the Eye Band and Maturing the Jaw` (method_sequence); `Transition From School Age to Teen With Near-Adult Structure and Youthful Surface` (method_sequence); `Refine the Cranial Ball Into a Five-Part Helmet` (method_sequence); `Build the Facial Mass From a Dominant Jaw and Secondary Forms` (method_sequence); `Refine Complex Features From Support Mass to Secondary Forms` (method_sequence); `Balance Facial Turn With Rear-Cranial Reveal` (method_sequence); `Track the Side Plane From the Shifted Brow Point` (method_sequence); `Propagate Head Tilt Through Curved Feature Tracks` (method_sequence); `Age the Head by Coordinating Growth, Tissue Change, and Carriage` (method_sequence); `Rebuild the Late-Life Lower Face From Support Change Before Wrinkles` (method_sequence); `Separate Cranial Proportion From Facial Projection` (method_sequence); `Confirm Extreme Head Attitude With Multi-Region Clues` (method_sequence); `Exaggerate Head Character Without Abandoning Form Order` (constraint); `Block an Observed Portrait Through Nested Whole-to-Part Masses` (method_sequence).
-- [Hold One Head Type Across an Expression Set](DRILL_hold_one_head_type_across_expression_set.md) - drill; 2 block.
+- [Hold One Head Type Across an Expression Set](DRILL_hold_one_head_type_across_expression_set.md) - drill; 2 block. Tags: character_consistency, deliberate_practice, facial_expression, head_construction.
   - Variants: `Mask Half the Face to Audit Expression Unity` (method_sequence).
-- [Improvise Character Heads From Arbitrary Primitive Arrangements](DRILL_improvise_character_heads_from_arbitrary_primitive_arrangements.md) - drill; 2 block.
-- [Map Facial Wrinkles by Flow and Cause](DRILL_map_facial_wrinkles_by_flow_and_cause.md) - drill; 3 rough.
-- [Map Head Variation Across Independent Structural Axes](DRILL_map_head_variation_across_independent_structural_axes.md) - drill; 2 block.
-- [Rebuild Complex Facial Features From Support to Cover](DRILL_rebuild_complex_facial_features_from_support_to_cover.md) - drill; 2 block.
-- [Redraw Earlier Head Studies After a Full Pass](DRILL_redraw_earlier_head_studies_after_full_pass.md) - drill; 2 block.
-- [Resolve the Head and Neck Last From Context](PAT_resolve_head_and_neck_last_from_context.md) - pattern; 2 block.
-- [Reverse-Engineer a Head Reference Through Structural Stages](DRILL_reverse_engineer_head_reference_through_structural_stages.md) - drill; 2 block.
+- [Improvise Character Heads From Arbitrary Primitive Arrangements](DRILL_improvise_character_heads_from_arbitrary_primitive_arrangements.md) - drill; 2 block. Tags: character_design, deliberate_practice, head_construction, ideation, search_control.
+- [Map Facial Wrinkles by Flow and Cause](DRILL_map_facial_wrinkles_by_flow_and_cause.md) - drill; 3 rough. Tags: deliberate_practice, facial_expression, head, wrinkles.
+- [Map Head Variation Across Independent Structural Axes](DRILL_map_head_variation_across_independent_structural_axes.md) - drill; 2 block. Tags: character_design, deliberate_practice, head_construction, portrait.
+- [Rebuild Complex Facial Features From Support to Cover](DRILL_rebuild_complex_facial_features_from_support_to_cover.md) - drill; 2 block. Tags: deliberate_practice, facial_features, form_analysis, head_construction.
+- [Redraw Earlier Head Studies After a Full Pass](DRILL_redraw_earlier_head_studies_after_full_pass.md) - drill; 2 block. Tags: deliberate_practice, head_construction, revision, self_assessment.
+- [Resolve the Head and Neck Last From Context](PAT_resolve_head_and_neck_last_from_context.md) - pattern; 2 block. Tags: composition, figure_drawing, head_direction, neck_attachment.
+- [Reverse-Engineer a Head Reference Through Structural Stages](DRILL_reverse_engineer_head_reference_through_structural_stages.md) - drill; 2 block. Tags: deliberate_practice, diagnosis, head_construction, reference_study.
   - Variants: `Overlay Head Construction to Audit Feature Placement` (method_sequence).
-- [Rotate Cranial Ball and Facial Wedge Head Blocks](DRILL_rotate_cranial_ball_and_facial_wedge.md) - drill; 2 block.
+- [Rotate Cranial Ball and Facial Wedge Head Blocks](DRILL_rotate_cranial_ball_and_facial_wedge.md) - drill; 2 block. Tags: deliberate_practice, figure_drawing, head_construction, viewpoint.
   - Variants: `Build a Measured Rotation Strip From a Front Template` (method_sequence); `Project a Character Head From Front and Profile Before Free Rotation` (method_sequence).
-- [Set Figure Proportions With Adjustable Head Units](PAT_set_figure_proportions_with_adjustable_head_units.md) - pattern; 1 skeleton.
+- [Set Figure Proportions With Adjustable Head Units](PAT_set_figure_proportions_with_adjustable_head_units.md) - pattern; 1 skeleton. Tags: design, figure_drawing, measurement, proportion.
   - Variants: `Build Age and Body Type From a Proportional Ensemble` (method_sequence); `Check Head Age Against the Body Context` (context); `Use an Eight-and-Three-Quarter-Head Heroic Scaffold` (context); `Exaggerate Head-to-Body Ratio for Comic Character Design` (context).

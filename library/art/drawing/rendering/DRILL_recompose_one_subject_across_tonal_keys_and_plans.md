@@ -66,6 +66,13 @@ variants:
   when_not_to_use: Do not change viewpoint, geometry, and composition at the same time or the exercise stops isolating the
     tonal-source decision.
   absorbed_from_object_id: none
+- variant_id: VAR_martin_permute_three_value_families_across_depth_planes
+  variant_name: Permute Three Value Families Across Depth Planes
+  variant_basis: constraint
+  difference_from_foundation: Keeps one outline composition fixed with clear foreground, middle-ground, and background elements, limits the study to light, middle, and dark families, and deliberately changes which plane receives which family so spatial separation and visual weight can be compared without changing the drawing.
+  when_to_use: Use when a line-art or graphic composition feels flat, muddy, or accidentally fused and you need to test whether a different large-value assignment improves depth and hierarchy.
+  when_not_to_use: Do not treat black-foreground, gray-middle, white-background as a universal recipe; the point is permutation and comparison, and useful same-value mergers may remain when the lost boundary is expendable.
+  absorbed_from_object_id: none
 ---
 
 # Recompose One Subject Across Tonal Keys and Plans
@@ -108,3 +115,5 @@ Loomis's Tone sequence repeatedly treats value organization as a design decision
 `VAR_dow_use_temporary_multivalue_scale_to_stabilize_tonal_intervals` extends that calibration into five- or seven-value studies when intermediate tones begin to drift. The temporary scale keeps intended intervals legible during comparison, then gets discarded once the tonal organization can be handled freely.
 
 `VAR_guptill_audition_material_value_vs_shadow_weight_on_fixed_outline` holds the outline stable while comparing whether local/material value or illumination should carry more of the picture.
+
+`VAR_martin_permute_three_value_families_across_depth_planes` keeps the spatial drawing fixed while assigning light, middle, and dark to different foreground/middle-ground/background combinations. Judge whether the planes remain distinct, whether adjacent forms fuse usefully or accidentally, how visual weight shifts, and which large plan reads most clearly before detail returns.

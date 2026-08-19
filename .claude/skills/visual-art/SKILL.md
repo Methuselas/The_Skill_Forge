@@ -28,6 +28,17 @@ edit an image unless the user actually asks for production. During PASS training
 work one source chapter at a time, discuss after the read, and ask questions only
 when genuine uncertainty remains.
 
+For productive Art requests, resolve the runtime profile before production. An
+explicit request such as “no stages” or “go directly to Stage 4” remains
+Stage-informed Direct Render: do not expose Stage 0–3 artifacts, but keep their
+construction knowledge active internally. After rendering, inventory every
+visible instance named by the activated risk checks and inspect both the full
+image and each risk region at local/enlarged scale. Checking one representative
+hand, foot, prop contact, or joint does not clear the other visible instances.
+When a rigid object constrains a hand, load the hand function/contact owner and
+verify the object axis, palm facing, thumb opposition, active/support digit roles,
+palm contact, wrist axis, and forearm chain before accepting the render.
+
 Art is an independent lane. Authoring Art never requires inspecting or modifying
 Writing or Software Engineering.
 

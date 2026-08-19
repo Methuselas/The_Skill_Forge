@@ -38,6 +38,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Copy and Transfer a Master Color Scheme
   - then: Diagnose and Repair Dead Color Relationships
   - then: Isolate Hue, Value, and Chroma in Matched Color Studies
+  - then: Match Target Color by Hue, Value, and Chroma Correction
 - **Distinguish Quadruped Forequarter Suspension From Hindquarter Drive** — read first
   - then: Construct a Carnivore Foreleg From Independent Radius-Ulna Rotation and a Rotating Paw
   - then: Construct a Specialized Runner Foreleg From a Mobile Scapula and Hinge-Dominant Chain
@@ -70,4 +71,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Drawing](drawing/INDEX.md) - 329 object(s).
+- [Drawing](drawing/INDEX.md) - 345 object(s).

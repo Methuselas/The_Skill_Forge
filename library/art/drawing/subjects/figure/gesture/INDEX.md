@@ -4,6 +4,6 @@
 
 ## Objects
 
-- [Carry the Action Line Into the Torso Centerline](PAT_carry_action_line_into_torso_centerline.md) - pattern; 2 block.
+- [Carry the Action Line Into the Torso Centerline](PAT_carry_action_line_into_torso_centerline.md) - pattern; 2 block. Tags: action_line, figure_drawing, gesture, torso_centerline.
   - Variants: `Design Gesture With Asymmetry and Visual Timing` (emphasis).
-- [Design an “About To…” Pose From a Support Shift](DRILL_design_about_to_pose_from_support_shift.md) - drill; 1 skeleton.
+- [Design an “About To…” Pose From a Support Shift](DRILL_design_about_to_pose_from_support_shift.md) - drill; 1 skeleton. Tags: action, balance, figure_drawing, gesture.

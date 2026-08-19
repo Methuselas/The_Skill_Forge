@@ -25,9 +25,15 @@ reference:
   author: Bert Dodson
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_schmid_reduce_observed_scene_to_flat_color_value_edge_shapes
+  variant_name: Reduce an Observed Scene to Flat Color, Value, and Edge Shapes
+  variant_basis: emphasis
+  difference_from_foundation: Extends flat-shape observation from contour and negative-space checking to the entire visible field, reading named objects temporarily as adjoining two-dimensional shapes defined by placement, shape/size, color or value, and edge character.
+  when_to_use: Use when semantic knowledge of objects is causing the model to paint what things are supposed to look like instead of the particular light/color pattern actually observed.
+  when_not_to_use: Do not discard structural knowledge permanently; return to form, anatomy, perspective, or material understanding when it helps interpret ambiguous evidence without overruling clear observation.
+  absorbed_from_object_id: none
 ---
-
 # Map an Observed Subject as Interlocking Positive and Negative Shapes
 
 ## Pattern Rule
@@ -51,3 +57,5 @@ variants: []
 
 ## Notes
 Because a positive member and the space beside it share the same boundary, Dodson uses negative shapes as an alternate description of the subject. The method is portable across figures, animals, objects, vehicles, architecture, and creatures.
+
+`VAR_schmid_reduce_observed_scene_to_flat_color_value_edge_shapes` broadens the flat-shape read to the whole visual field: temporarily suppress object names and compare adjoining shapes by placement, size, color/value, and edge before restoring structural interpretation where it helps.

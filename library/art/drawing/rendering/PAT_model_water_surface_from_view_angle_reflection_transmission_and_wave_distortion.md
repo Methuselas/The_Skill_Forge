@@ -28,7 +28,14 @@ reference:
   source_title: 'Color and Light: A Guide for the Realist Painter'
   author: James Gurney
 confidence: high
-variants: []
+variants:
+- variant_id: VAR_martin_encode_water_state_with_black_white_wave_rhythm
+  variant_name: Encode Water State With Black-White Wave Rhythm
+  variant_basis: medium
+  difference_from_foundation: 'Adds a black-and-white line-art route: use alternating dark mass and retained light shapes to make crest/trough structure legible, change the mark rhythm with surface state and flow, and compress articulation with recession while keeping the larger wave/perspective geometry intact.'
+  when_to_use: Use when water must read clearly in stylized black-and-white ink without continuous tone or color, especially when wave state and depth recession need to survive reproduction.
+  when_not_to_use: Do not use the graphic shorthand as a substitute for reflection, transmission, and optical-path reasoning when physical water behavior is important.
+  absorbed_from_object_id: none
 references: []
 ---
 
@@ -58,3 +65,5 @@ references: []
 
 ## Notes
 Water is not one optical behavior. It simultaneously reflects and transmits, with the balance changing across view angle and environment; wave geometry then remaps the reflected image. This deserves a dedicated model rather than a few generic material bullets.
+
+`VAR_martin_encode_water_state_with_black_white_wave_rhythm` specializes the optical water model for economical black-and-white inking. Alternate dark mass with retained light crest/trough shapes, let the mark rhythm follow the actual surface state and flow, and reduce mark size, contrast, and articulation with recession. The shorthand must remain subordinate to the larger surface perspective and wave geometry, and it yields back to the foundation whenever reflection/transmission fidelity matters.

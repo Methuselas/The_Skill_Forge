@@ -103,6 +103,7 @@ references: []
 - Compare source strength at the receiving surface rather than by bulb name, wattage, or apparent brightness alone.
 - Judge hardness from how large the luminous source appears from the subject's position; apparent size, not physical size by itself, governs penumbra breadth.
 - Treat source spectrum as a color-availability constraint: uneven spectral output can strengthen some color families while weakening others.
+- Judge color under the illuminant that will actually light or display the subject; a material match made under one source can shift in hue, value, or chroma under another source even when the nominal local color is unchanged.
 - Separate primary and secondary sources so their effects can be combined causally instead of painted as one undifferentiated tint.
 - Re-evaluate the source model when distance, diffusion, cloud cover, aperture geometry, or surrounding bounce changes.
 
@@ -114,6 +115,7 @@ references: []
 ## Checklist
 - Each important source has a stated relative strength, apparent size, and color/spectral character.
 - Shadow softness and color shifts follow those source properties.
+- Critical color judgments have been checked under the intended viewing illuminant when source spectrum differs materially.
 - Secondary sources remain subordinate or competitive according to their actual contribution.
 
 ## Notes

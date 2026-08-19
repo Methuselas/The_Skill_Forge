@@ -2,7 +2,7 @@
 
 status: active
 owner: docs/domains/spec
-last_reviewed: 2026-08-15
+last_reviewed: 2026-08-18
 
 The three schemas below are closed contracts, not examples. A file containing
 useful extraction that does not match its schema is salvageable material, not an
@@ -177,6 +177,36 @@ references:
 Headings must appear in the order given, with no substitutes and no extras. Any
 heading containing "Guard" is invalid as a body section. So are `## Canon`,
 `## Purpose`, `## Source Evidence`, `## Validation`, `## PASS Accounting`.
+
+The three headings are deliberately broad; AP control-flow semantics live inside
+them rather than by widening the schema:
+
+- `Objective` names the complete user-level action and the result that counts as
+  success.
+- `Steps / Flow` owns orchestration. It must make the entry state clear, order
+  dependent decisions, activate or point to the relevant Pattern owners, preserve
+  important invariants, state advance gates, include branches/recovery when the
+  action can fail in materially different ways, and end in a completion check.
+  These may be bold labels, list items, or prose inside the section; they are not
+  extra H2 headings.
+- `Notes` explains scope, tradeoffs, and bounded exceptions. It must not duplicate
+  the full rules of the Patterns the AP coordinates.
+
+An AP may call subordinate APs where a genuine reusable sub-action already has an
+owner. It must not create a second dependency mechanism: use `foundation_object_id`
+and `cross_links` for real object relationships.
+
+For an AP, `stage_binding` indicates the stage where the protocol is normally
+entered or primarily operates. The AP may traverse later or earlier stages when
+its action genuinely requires that flow.
+
+### AP value test
+
+> If the same set of Patterns were handed to the model as an unordered bag, would
+> the action still be performed just as reliably?
+
+If yes, the AP adds no orchestration value. If ordering, gating, branching,
+continuity, or stopping materially changes reliability, the AP earns its place.
 
 ---
 

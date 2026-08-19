@@ -13,4 +13,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [Return to the Art Centerline](PAT_return_to_art_centerline.md) - pattern; 0 design.
+- [Return to the Art Centerline](PAT_return_to_art_centerline.md) - pattern; 0 design. Tags: drawing_process, image_generation, staged_construction, visual_art, visual_continuity, wu_sao.

@@ -35,7 +35,7 @@ variants:
 - variant_id: VAR_dynamic_hands_ch11_object_constraint_and_reference_fidelity
   variant_name: Let the Instrument Constrain the Hand
   variant_basis: method_sequence
-  difference_from_foundation: Extends the function/contact/load rule into occupation-specific drawing by establishing the tool or instrument first when it constrains the action, matching the hand to its geometry and procedure, and using stronger reference fidelity for unfamiliar operations than for familiar actions.
+  difference_from_foundation: Extends the function/contact/load rule into occupation-specific drawing by establishing the tool or instrument first when it constrains the action, then solving an explicit contact chain from object axis through palm orientation, thumb opposition, active digits, support digits, palm contact, wrist axis, and forearm before final contour. It also calls for stronger reference fidelity for unfamiliar operations than for familiar actions.
   when_to_use: Use when a hand is working with a rigid instrument, tool, machine, or specialized procedure whose geometry or technique restricts plausible hand placement.
   when_not_to_use: Do not over-constrain free expressive hand actions or use occupational reference as a substitute for the underlying palm/digit construction.
   absorbed_from_object_id: none
@@ -66,6 +66,7 @@ variants:
 - Identify what the hand is doing before choosing the final finger pose.
 - Distinguish striking/prying actions from hooking, pinching, supporting, cupping, bracing, or digging by their different contact surfaces and force directions.
 - Let a held or contained object govern the local contour where the hand must wrap around it.
+- For a rigid instrument, solve the contact chain before contour: object axis → palm orientation → thumb opposition → active digit or digits → support-digit wrap → palm contact → wrist axis → forearm. Keep every visible digit traceable to one base even when several fingers compress around the same grip.
 - In support actions, spread or brace the digits so the load path reads from contact points through palm and wrist.
 - In precision actions, reduce contact to the digits actually needed and keep unnecessary fingers from competing with the task.
 - Use Chapter 4 surface-stress cues only where the functional load would actually reveal them.
@@ -73,15 +74,16 @@ variants:
 ## Don't
 - Pose the fingers first and assign a function afterward.
 - Make every grip a fist.
+- Fuse the support fingers into an undifferentiated mitten around a rigid grip when their roots, knuckles, or separate contact roles should remain readable.
 - Ignore the shape or stiffness of the contacted object.
 - Add equal tension to every finger regardless of which digits carry the force.
 - Treat a supporting hand and a grasping hand as the same mechanical problem.
 
 ## Checklist
-Ask three questions: What is the hand trying to accomplish? Where does it touch? Where does the force travel? If the drawing cannot answer all three, the hand is probably posed rather than functioning.
+Ask: What is the hand trying to accomplish? What axis or shape constrains it? Where do palm, thumb, active digits, and support digits touch? Can every visible digit be traced back to its root? Where does the force travel through the wrist and forearm? If the drawing cannot answer those questions coherently, the hand is probably posed around the object rather than mechanically engaged with it.
 
 
-The `VAR_dynamic_hands_ch11_object_constraint_and_reference_fidelity` variant adds an occupation-specific order of operations: establish the constraining instrument or procedure first, fit the hand to its geometry and required contacts, and increase reference fidelity as the action becomes less familiar or more technically constrained.
+The `VAR_dynamic_hands_ch11_object_constraint_and_reference_fidelity` variant adds an occupation-specific order of operations: establish the constraining instrument or procedure first, then map object axis, palm facing, thumb opposition, active and support digits, palm contact, wrist axis, and forearm before final contour. Increase reference fidelity as the action becomes less familiar or more technically constrained.
 
 ## Notes
 The hand should inherit its pose from what it is doing: contact, load, object shape, and intended action constrain the configuration before decorative gesture does.

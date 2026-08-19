@@ -4,41 +4,41 @@
 
 ## Objects
 
-- [Attach the Legs Through the Pelvic Wedge](PAT_attach_legs_through_pelvic_wedge.md) - pattern; 2 block.
-- [Block Connected Torso Masses Across Views](DRILL_block_connected_torso_masses_across_views.md) - drill; 2 block.
-- [Build Overlap Sequences From Complete and Partial Forms](DRILL_build_overlap_sequences_from_complete_and_partial_forms.md) - drill; 2 block.
-- [Carry Leg Force Into Foot Support](PAT_carry_leg_force_into_foot_support.md) - pattern; 2 block.
+- [Attach the Legs Through the Pelvic Wedge](PAT_attach_legs_through_pelvic_wedge.md) - pattern; 2 block. Tags: figure_drawing, leg_attachment, pelvis, weight_support.
+- [Block Connected Torso Masses Across Views](DRILL_block_connected_torso_masses_across_views.md) - drill; 2 block. Tags: deliberate_practice, figure_drawing, torso_construction, viewpoint.
+- [Build Overlap Sequences From Complete and Partial Forms](DRILL_build_overlap_sequences_from_complete_and_partial_forms.md) - drill; 2 block. Tags: deliberate_practice, figure_drawing, foreshortening, overlap.
+- [Carry Leg Force Into Foot Support](PAT_carry_leg_force_into_foot_support.md) - pattern; 2 block. Tags: balance, figure_drawing, foot_support, force_direction.
   - Variants: `Settle Weight From the Outer Heel Side Toward the Inner Foot` (method_sequence).
-- [Carry the Underarm Curve Through the Elbow](PAT_carry_underarm_curve_through_elbow.md) - pattern; 2 block.
-- [Choose S or B Leg Rhythm by View](PAT_choose_s_or_b_leg_rhythm_by_view.md) - pattern; 2 block.
-- [Classify and Build S and B Leg Rhythms](DRILL_classify_and_build_s_and_b_leg_rhythms.md) - drill; 2 block.
-- [Construct the Foot as a Soft-Tissue Support Wedge](PAT_construct_foot_as_soft_tissue_support_wedge.md) - pattern; 2 block.
+- [Carry the Underarm Curve Through the Elbow](PAT_carry_underarm_curve_through_elbow.md) - pattern; 2 block. Tags: arm_rhythm, contour, elbow, figure_drawing.
+- [Choose S or B Leg Rhythm by View](PAT_choose_s_or_b_leg_rhythm_by_view.md) - pattern; 2 block. Tags: contour, figure_drawing, leg_rhythm, viewpoint.
+- [Classify and Build S and B Leg Rhythms](DRILL_classify_and_build_s_and_b_leg_rhythms.md) - drill; 2 block. Tags: deliberate_practice, figure_drawing, leg_rhythm, viewpoint.
+- [Construct the Foot as a Soft-Tissue Support Wedge](PAT_construct_foot_as_soft_tissue_support_wedge.md) - pattern; 2 block. Tags: figure_drawing, foot_construction, soft_tissue, support.
   - Variants: `Wrap the Heel Core in Weight-Bearing Fat Pad` (method_sequence).
-- [Control Foreshortened Form Size in Stage Two](AP_control_foreshortened_form_size_in_stage_two.md) - ap; 2 block.
+- [Control Foreshortened Form Size in Stage Two](AP_control_foreshortened_form_size_in_stage_two.md) - ap; 2 block. Tags: figure_drawing, foreshortening, stage_two, width_control.
   - Variants: `Foreshorten Through Cross-Sections of the Complete Form` (method_sequence).
-- [Coordinate the Figure With an Encompassing Contour](PAT_coordinate_figure_with_encompassing_contour.md) - pattern; 3 rough.
+- [Coordinate the Figure With an Encompassing Contour](PAT_coordinate_figure_with_encompassing_contour.md) - pattern; 3 rough. Tags: contour, figure_drawing, form_unity, simplification.
   - Variants: `Oppose Rhythmic Line With Structural Line` (emphasis); `Pick Up Rhythm Across Separated Contours` (emphasis).
-- [Correct a Wonky Foreshortened Limb With Pivot Arcs](DRILL_correct_wonky_foreshortened_limb_with_pivot_arcs.md) - drill; 2 block.
-- [Develop One Notation by Two Routes](DRILL_develop_notation_by_two_routes.md) - drill; 2 block.
-- [Diagnose Joint Interlock by Reversing Depth](DRILL_diagnose_joint_interlock_by_reversing_depth.md) - drill; 2 block.
-- [Direct a Reference Subject Through Story State, Not Feature Posing](PAT_direct_reference_subject_through_story_state_not_feature_pose.md) - pattern; 0 design.
-- [Elicit Natural Child Expression Through Rapport](PAT_elicit_natural_child_expression_through_rapport.md) - pattern; 0 design.
-- [Join Rib Cage and Pelvis Through a Flexible Waist](PAT_join_rib_cage_and_pelvis_through_flexible_waist.md) - pattern; 2 block.
+- [Correct a Wonky Foreshortened Limb With Pivot Arcs](DRILL_correct_wonky_foreshortened_limb_with_pivot_arcs.md) - drill; 2 block. Tags: correction, figure_drawing, foreshortening, joint_reach.
+- [Develop One Notation by Two Routes](DRILL_develop_notation_by_two_routes.md) - drill; 2 block. Tags: figure_drawing, iteration, notation_development, thumbnail.
+- [Diagnose Joint Interlock by Reversing Depth](DRILL_diagnose_joint_interlock_by_reversing_depth.md) - drill; 2 block. Tags: figure_drawing, joints, overlap, practice.
+- [Direct a Reference Subject Through Story State, Not Feature Posing](PAT_direct_reference_subject_through_story_state_not_feature_pose.md) - pattern; 0 design. Tags: acting, expression, figure, model_direction, reference, storytelling.
+- [Elicit Natural Child Expression Through Rapport](PAT_elicit_natural_child_expression_through_rapport.md) - pattern; 0 design. Tags: child_portrait, expression, portrait, reference.
+- [Join Rib Cage and Pelvis Through a Flexible Waist](PAT_join_rib_cage_and_pelvis_through_flexible_waist.md) - pattern; 2 block. Tags: centerline, figure_drawing, pelvis, torso_construction.
   - Variants: `Oppose Major Body Blocks Through Bend, Twist, and Tilt` (method_sequence); `Split the Torso Wedge Through a Mobile Waist` (method_sequence); `Articulate the Seated Torso as a Fold Chain` (method_sequence).
-- [Lace Separated Forms With Valid Interconnections](PAT_lace_separated_forms_with_valid_interconnections.md) - pattern; 3 rough.
+- [Lace Separated Forms With Valid Interconnections](PAT_lace_separated_forms_with_valid_interconnections.md) - pattern; 3 rough. Tags: anatomy, figure_drawing, form_flow, interconnection.
   - Variants: `Connect Forms by Overlap, Conformity, or Transition` (method_sequence); `Bridge Dissimilar Masses With a Continuous Surface` (method_sequence).
-- [Link the Arm Pair Through the Shoulder Yoke](PAT_link_arm_pair_through_shoulder_yoke.md) - pattern; 2 block.
-- [Notate a Figure in Structural Order](AP_notate_a_figure_in_structural_order.md) - ap; 2 block.
-- [Notate Action Figures Without Reference](DRILL_notate_action_figures_without_reference.md) - drill; 2 block.
+- [Link the Arm Pair Through the Shoulder Yoke](PAT_link_arm_pair_through_shoulder_yoke.md) - pattern; 2 block. Tags: arm_attachment, arm_yoke, figure_drawing, shoulder_girdle.
+- [Notate a Figure in Structural Order](AP_notate_a_figure_in_structural_order.md) - ap; 2 block. Tags: action, construction_order, figure_drawing, figure_notation.
+- [Notate Action Figures Without Reference](DRILL_notate_action_figures_without_reference.md) - drill; 2 block. Tags: animal_construction, animal_drawing, deliberate_practice, figure_drawing, figure_notation, imagination, invention, viewpoint_transfer, visualization.
   - Variants: `Rebuild Animal Action From Simplified Forms at a New Viewpoint` (method_sequence); `Study Jointed-Mannequin Poses Before Inventing Without Reference` (method_sequence); `Use the Manikin as an Action Scaffold, Not a Lighting Model` (method_sequence).
-- [Orient the Rib Cage With Curved Openings](PAT_orient_rib_cage_with_curved_openings.md) - pattern; 2 block.
+- [Orient the Rib Cage With Curved Openings](PAT_orient_rib_cage_with_curved_openings.md) - pattern; 2 block. Tags: figure_drawing, rib_cage, torso_construction, viewpoint.
   - Variants: `Use Landmarks to Turn the Major Masses` (method_sequence).
-- [Recover a Difficult Pose Through View Projection](DRILL_recover_difficult_pose_through_view_projection.md) - drill; 2 block.
-- [Rotate One Limb Cylinder While Holding Width](DRILL_rotate_one_limb_cylinder_while_holding_width.md) - drill; 2 block.
-- [Seat the Neck Inside the Upper Chest Opening](PAT_seat_neck_inside_upper_chest_opening.md) - pattern; 2 block.
+- [Recover a Difficult Pose Through View Projection](DRILL_recover_difficult_pose_through_view_projection.md) - drill; 2 block. Tags: correction, figure_drawing, foreshortening, projection.
+- [Rotate One Limb Cylinder While Holding Width](DRILL_rotate_one_limb_cylinder_while_holding_width.md) - drill; 2 block. Tags: figure_drawing, foreshortening, practice, width_control.
+- [Seat the Neck Inside the Upper Chest Opening](PAT_seat_neck_inside_upper_chest_opening.md) - pattern; 2 block. Tags: anatomy, figure_drawing, neck_attachment, torso_construction.
   - Variants: `Separate Cervical Turn From Skull Nod` (method_sequence); `Carry the Facial Centerline Into the Anterior Neck` (method_sequence); `Reduce the Neck to Five Surface Masses` (method_sequence); `Diagnose Head-Shoulder Binding With Axes and a Sternal Plumb` (method_sequence); `Read the Collar as Evidence of Neck-Root Insertion` (method_sequence).
-- [Solve a Hidden Limb With Minimum Construction](DRILL_solve_hidden_limb_with_minimum_construction.md) - drill; 1 skeleton.
-- [Trace Joint Connections Across Camera Angles](DRILL_trace_joint_connections_across_camera_angles.md) - drill; 3 rough.
-- [Trace Underarm Rhythm in Bent and Extended Arms](DRILL_trace_underarm_curve_bent_and_extended.md) - drill; 2 block.
-- [Unify a Foreshortened Figure in Deep Space](AP_unify_a_foreshortened_figure_in_deep_space.md) - ap; 3 rough.
-- [Unify One Foreshortened Figure Three Ways](DRILL_unify_one_foreshortened_figure_three_ways.md) - drill; 3 rough.
+- [Solve a Hidden Limb With Minimum Construction](DRILL_solve_hidden_limb_with_minimum_construction.md) - drill; 1 skeleton. Tags: draw_through, figure_drawing, hidden_forms, practice.
+- [Trace Joint Connections Across Camera Angles](DRILL_trace_joint_connections_across_camera_angles.md) - drill; 3 rough. Tags: deliberate_practice, figure_drawing, joint_connection, viewpoint.
+- [Trace Underarm Rhythm in Bent and Extended Arms](DRILL_trace_underarm_curve_bent_and_extended.md) - drill; 2 block. Tags: arm_rhythm, deliberate_practice, elbow, figure_drawing.
+- [Unify a Foreshortened Figure in Deep Space](AP_unify_a_foreshortened_figure_in_deep_space.md) - ap; 3 rough. Tags: figure_drawing, foreshortening, form_flow, form_unity.
+- [Unify One Foreshortened Figure Three Ways](DRILL_unify_one_foreshortened_figure_three_ways.md) - drill; 3 rough. Tags: contour, deliberate_practice, figure_drawing, form_unity.
