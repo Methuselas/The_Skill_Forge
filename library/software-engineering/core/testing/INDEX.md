@@ -23,6 +23,16 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Test Through the Public API, Not Implementation Details
   - then: Use a Test Double Only When a Real Dependency Won't Do
   - then: Use an Assertion Matcher That Fits the Behavior
+- **Read Coverage as a Floor, Never as a Score** — read first
+  - then: Choose Test Cases Systematically
+- **Test Just Below, Exactly On, and Just Above Every Boundary** — read first
+  - then: Choose Test Cases Systematically
+- **Test What Happens When Each Resource Runs Out** — read first
+  - then: Choose Test Cases Systematically
+- **Trace Each Variable From Definition to Use** — read first
+  - then: Choose Test Cases Systematically
+- **Work the Input Classes From a Fixed List, Not From Imagination** — read first
+  - then: Choose Test Cases Systematically
 
 ## Objects
 
@@ -41,6 +51,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Pick and Choose From Testing Philosophies](PAT_pick_and_choose_testing_philosophies.md) - pattern; 0 design. Tags: judgment, methodology, tdd, unit_testing.
 - [Prefer Fakes Over Mocks and Stubs](PAT_prefer_fakes_over_mocks_and_stubs.md) - pattern; 4 final. Tags: fakes, mocks, stubs, unit_testing.
 - [Put Review Effort Into Preparation, Not the Meeting](PAT_put_review_effort_into_preparation_not_the_meeting.md) - pattern; 4 final. Tags: code_reading, defect_detection, inspections, reviews.
+- [Read Coverage as a Floor, Never as a Score](PAT_read_coverage_as_a_floor_not_a_score.md) - pattern; 4 final. Tags: coverage, measurement, metrics, test_design, testing.
 - [Replace a Mock With a Fake and Catch the Hidden Bug](DRILL_replace_mock_with_fake.md) - drill; 4 final. Tags: fakes, mocks, refactoring, unit_testing.
 - [Replace a Private-Function Test With a Public-API Behavior Test](DRILL_replace_private_test_with_public_api_test.md) - drill; 4 final. Tags: encapsulation, public_api, refactoring, unit_testing.
 - [Review to Detect, Not to Correct](PAT_review_to_detect_not_to_correct.md) - pattern; 4 final. Tags: code_review, collaboration, inspections, reviews.
@@ -51,8 +62,12 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Structure a Test Case as Arrange, Act, Assert](PAT_structure_tests_arrange_act_assert.md) - pattern; 4 final. Tags: arrange_act_assert, readability, test_structure, unit_testing.
 - [Test Behaviors, Not Just Functions](PAT_test_behaviors_not_functions.md) - pattern; 4 final. Tags: behaviors, error_handling, test_coverage, unit_testing.
 - [Test Every Important Behavior, Even Beyond the Public API](PAT_test_important_behaviors_beyond_public_api.md) - pattern; 4 final. Tags: important_behaviors, public_api, side_effects, unit_testing.
+- [Test Just Below, Exactly On, and Just Above Every Boundary](PAT_test_three_cases_at_every_boundary.md) - pattern; 3 rough. Tags: boundary_analysis, defects, off_by_one, test_design, testing.
 - [Test One Behavior Per Test Case](PAT_test_one_behavior_per_case.md) - pattern; 4 final. Tags: parameterized_tests, readability, test_structure, unit_testing.
 - [Test Through the Public API, Not Implementation Details](PAT_keep_tests_agnostic_to_implementation.md) - pattern; 4 final. Tags: implementation_details, public_api, refactoring, unit_testing.
+- [Test What Happens When Each Resource Runs Out](PAT_test_what_happens_when_a_resource_runs_out.md) - pattern; 3 rough. Tags: failure_modes, resources, robustness, test_design, testing.
+- [Trace Each Variable From Definition to Use](PAT_trace_each_variable_from_definition_to_use.md) - pattern; 3 rough. Tags: data_flow, defects, test_design, testing, variables.
 - [Use a Test Double Only When a Real Dependency Won't Do](PAT_use_test_double_only_when_needed.md) - pattern; 4 final. Tags: dependencies, determinism, test_doubles, unit_testing.
 - [Use an Assertion Matcher That Fits the Behavior](PAT_use_appropriate_assertion_matchers.md) - pattern; 4 final. Tags: assertions, failure_messages, matchers, unit_testing.
+- [Work the Input Classes From a Fixed List, Not From Imagination](PAT_work_the_input_classes_from_a_fixed_list.md) - pattern; 3 rough. Tags: checklists, defects, input_validation, test_design, testing.
 - [Write a Unit Test Suite for a Piece of Code](AP_write_a_unit_test_suite.md) - ap; 4 final. Tags: behaviors, test_design, test_doubles, unit_testing.

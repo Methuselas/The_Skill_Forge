@@ -24,6 +24,18 @@ cross_links:
   target_object_id: PAT_prefer_fakes_over_mocks_and_stubs
 - rel: related_to
   target_object_id: PAT_keep_tests_agnostic_to_implementation
+- rel: related_to
+  target_object_id: PAT_split_code_to_make_it_testable
+- rel: related_to
+  target_object_id: PAT_use_test_double_only_when_needed
+- rel: related_to
+  target_object_id: PAT_test_one_behavior_per_case
+- rel: related_to
+  target_object_id: PAT_structure_tests_arrange_act_assert
+- rel: related_to
+  target_object_id: PAT_use_appropriate_assertion_matchers
+- rel: related_to
+  target_object_id: PAT_write_well_explained_test_failures
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

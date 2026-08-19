@@ -24,6 +24,12 @@ cross_links:
   target_object_id: PAT_account_for_the_curse_of_expertise_when_onboarding
 - rel: related_to
   target_object_id: PAT_locate_a_learner_on_the_neo_piagetian_stages
+- rel: related_to
+  target_object_id: PAT_support_the_memory_system_the_activity_taxes
+- rel: related_to
+  target_object_id: PAT_teach_along_a_semantic_wave
+- rel: related_to
+  target_object_id: PAT_calibrate_code_reading_scope_to_reader_knowledge
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

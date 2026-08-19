@@ -24,6 +24,10 @@ cross_links:
   target_object_id: PAT_keep_immutable_with_builder_or_copy_on_write
 - rel: related_to
   target_object_id: PAT_make_immutability_deep
+- rel: related_to
+  target_object_id: PAT_verify_an_object_is_as_immutable_as_you_think
+- rel: related_to
+  target_object_id: PAT_dont_mutate_input_parameters
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

@@ -24,6 +24,12 @@ cross_links:
   target_object_id: PAT_make_misuse_impossible_by_removing_invalid_states
 - rel: related_to
   target_object_id: PAT_enforce_contracts_at_runtime_with_checks
+- rel: related_to
+  target_object_id: PAT_define_your_code_contract_explicitly
+- rel: related_to
+  target_object_id: PAT_convey_usage_through_names_and_types
+- rel: related_to
+  target_object_id: PAT_make_breakage_fail_compile_or_test
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

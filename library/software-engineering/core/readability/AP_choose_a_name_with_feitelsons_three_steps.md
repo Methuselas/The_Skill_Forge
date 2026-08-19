@@ -24,6 +24,12 @@ cross_links:
   target_object_id: PAT_agree_on_a_small_set_of_name_molds
 - rel: related_to
   target_object_id: PAT_design_a_name_for_both_stm_and_ltm
+- rel: related_to
+  target_object_id: PAT_name_the_problem_not_the_computation
+- rel: related_to
+  target_object_id: PAT_favor_readability_over_brevity
+- rel: related_to
+  target_object_id: PAT_let_name_length_signal_scope
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

@@ -111,6 +111,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Use the Null Object Pattern Only When the Empty Value Can't Surprise
 - **Name the Operations the Thing Supports Before Choosing How to Store It** — read first
   - then: Ask Whether a New Method Belongs Before You Add It
+- **Read Coverage as a Floor, Never as a Score** — read first
+  - then: Choose Test Cases Systematically
 - **Separate Intrinsic From Extraneous Difficulty** — read first
   - then: Refactor Temporarily for Your Own Comprehension
 - **Separate Storage Strength From Retrieval Strength** — read first
@@ -118,8 +120,16 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Space Practice Across Widening Intervals
 - **Tell a Misconception From a Slip Before Trying to Fix It** — read first
   - then: Replace a Misconception Rather Than Correcting It
+- **Test Just Below, Exactly On, and Just Above Every Boundary** — read first
+  - then: Choose Test Cases Systematically
+- **Test What Happens When Each Resource Runs Out** — read first
+  - then: Choose Test Cases Systematically
+- **Trace Each Variable From Definition to Use** — read first
+  - then: Choose Test Cases Systematically
 - **Work Out How the Code Got This Way Before You Improve It** — read first
   - then: Divide a Long Change Into Places You Could Walk Away From
+- **Work the Input Classes From a Fixed List, Not From Imagination** — read first
+  - then: Choose Test Cases Systematically
 - **Write Code That Reads Like a Well-Structured Recipe** — read first
   - then: Adopt a Language Feature Only When It Is the Best Tool
   - then: Comment the Why, Not the What
@@ -134,5 +144,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Foundations](core/INDEX.md) - 306 object(s).
+- [Foundations](core/INDEX.md) - 312 object(s).
 - [Languages](languages/INDEX.md) - 80 object(s).

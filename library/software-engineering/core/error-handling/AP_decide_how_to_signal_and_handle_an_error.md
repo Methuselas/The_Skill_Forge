@@ -24,6 +24,16 @@ cross_links:
   target_object_id: PAT_prefer_explicit_error_signaling_for_recoverable_errors
 - rel: related_to
   target_object_id: PAT_dont_hide_errors
+- rel: related_to
+  target_object_id: PAT_fail_fast_near_error_source
+- rel: related_to
+  target_object_id: PAT_fail_loudly_and_signal_unrecoverable_errors_implicitly
+- rel: related_to
+  target_object_id: PAT_match_failure_to_scope_of_recoverability
+- rel: related_to
+  target_object_id: PAT_make_callers_aware_of_recoverable_errors
+- rel: related_to
+  target_object_id: PAT_treat_compiler_warnings_as_potential_bugs
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

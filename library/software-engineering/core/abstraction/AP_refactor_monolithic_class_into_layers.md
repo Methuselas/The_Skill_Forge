@@ -22,6 +22,12 @@ cross_links:
   target_object_id: PAT_size_classes_by_pillars_not_lines
 - rel: related_to
   target_object_id: PAT_use_interfaces_for_swappable_layers
+- rel: related_to
+  target_object_id: PAT_decompose_into_layers_of_abstraction
+- rel: related_to
+  target_object_id: PAT_use_dependency_injection
+- rel: related_to
+  target_object_id: PAT_tune_layer_thickness_err_thin
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
