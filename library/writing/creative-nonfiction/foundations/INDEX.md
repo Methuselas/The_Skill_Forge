@@ -5,7 +5,10 @@
 ## Objects
 
 - [Choose a Subject for Open-Ended Exploration](PAT_choose_subject_for_open_ended_exploration.md) - pattern; 0 design. Tags: creative_nonfiction, exploration, inquiry, self_discovery, subject.
+- [Interrogate Memory Before Claiming Precision](PAT_interrogate_memory_before_claiming_precision.md) - pattern; 3 rough. Tags: accuracy, creative_nonfiction, memory, reconstruction, self_scrutiny.
 - [Make Personal Presence Part of the Inquiry](PAT_make_personal_presence_part_of_inquiry.md) - pattern; 1 skeleton. Tags: creative_nonfiction, literary_journalism, personal_presence, perspective, reflection.
 - [Move Between Conversational Exploration and Formal Argument](PAT_move_between_conversational_exploration_and_formal_argument.md) - pattern; 1 skeleton. Tags: argument, creative_nonfiction, personal_essay, structure, voice.
   - Variants: `Use Conversational Exploration to Discover` (emphasis); `Use Formal Argument to Compress a Claim` (emphasis).
 - [Preserve Factual Accountability While Using Literary Craft](PAT_preserve_factual_accountability_while_using_literary_craft.md) - pattern; 0 design. Tags: creative_nonfiction, genre_contract, interpretation, literary_craft, truth.
+  - Variants: `Disclose Privacy-Protecting Alterations` (constraint).
+- [Verify Checkable Facts and Research Necessary Context](PAT_verify_checkable_facts_and_research_necessary_context.md) - pattern; 3 rough. Tags: authority, context, creative_nonfiction, fact_checking, research.
