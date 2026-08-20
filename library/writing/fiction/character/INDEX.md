@@ -7,6 +7,7 @@
 - [Build a Hidden Character Profile](DRILL_build_a_hidden_character_profile.md) - drill; 0 design. Tags: biography, character, fiction, practice, profile.
 - [Build Round Characters from Contradiction and Desire](PAT_build_round_characters_from_contradiction_and_desire.md) - pattern; 0 design. Tags: character, contradiction, desire, fiction, protagonist.
 - [Compress Cast without Flattening Main Characters](PAT_compress_cast_without_flattening_main_characters.md) - pattern; 1 skeleton. Tags: cast, character, compression, fiction, flash-fiction, naming.
+- [Develop and Reveal a Short-Story Character](AP_develop_and_reveal_a_short_story_character.md) - ap; 0 design. Tags: character, development, fiction, revelation, short_story.
 - [Inhabit Unsympathetic Characters from Inside](PAT_inhabit_unsympathetic_characters_from_inside.md) - pattern; 0 design. Tags: character, fiction, motivation, point-of-view, sympathy.
 - [Reveal Character Incrementally through Behavior](PAT_reveal_character_incrementally_through_behavior.md) - pattern; 2 block. Tags: behavior, character, fiction, observation, scene.
   - Variants: `Characterize through Selective Observation` (emphasis).
