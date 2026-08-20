@@ -55,6 +55,7 @@ variants: []
 - Don't read a slow function containing an `if` as evidence about branches. Slowness has many causes, and the counters distinguish them in one run.
 - Don't assume a branch inside a loop is the branch that matters. Every loop carries a hidden end-of-loop conditional, and it is predicted almost perfectly for any loop with many iterations — the interesting misprediction is the data-dependent one.
 - Don't treat a low overall miss rate as clearing a specific hot loop. The rate is diluted by all the well-predicted branches in the program, so a small percentage can still be one loop missing constantly.
+- Don't read the percentages on the scale you would use for other ratios. A healthy program sits below a tenth of a percent of branches mispredicted; one percent is already a large number, and anything higher indicates a branch worth finding.
 
 ## Checklist
 - What does the whole-run branch-miss rate say?

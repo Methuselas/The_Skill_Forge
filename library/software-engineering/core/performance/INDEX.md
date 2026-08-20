@@ -38,6 +38,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Count the Dependency Chain, Not the Operations](PAT_count_the_dependency_chain_not_the_operations.md) - pattern; 4 final. Tags: hardware, loops, optimization, performance, tuning.
 - [Establish That the Work Divides Before Dividing It](PAT_decide_if_the_problem_is_worth_parallelizing.md) - pattern; 0 design. Tags: concurrency, parallelism, performance, trade_offs, tuning.
 - [Estimate How the Cost Grows Before You Run It](PAT_estimate_the_order_before_you_run_it.md) - pattern; 2 block. Tags: algorithms, complexity, estimation, performance.
+- [Hoist Allocation Out of the Work](PAT_hoist_allocation_out_of_the_work.md) - pattern; 4 final. Tags: allocation, concurrency, memory, performance, tuning.
 - [Let Measurement Decide What to Tune, Never Intuition](PAT_let_measurement_decide_what_to_tune.md) - pattern; 4 final. Tags: measurement, optimization, performance, premature_optimization.
 - [Locate a Performance Bottleneck by Measurement](AP_locate_a_performance_bottleneck_by_measurement.md) - ap; 4 final. Tags: benchmarking, diagnosis, measurement, performance, profiling.
 - [Locate the Working Set on the Memory Hierarchy](PAT_locate_the_working_set_on_the_memory_hierarchy.md) - pattern; 4 final. Tags: caching, hardware, measurement, memory, performance.

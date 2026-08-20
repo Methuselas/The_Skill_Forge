@@ -4,5 +4,7 @@
 
 ## Objects
 
+- [Pass a Smart Pointer Only to Transfer Ownership](PAT_pass_a_smart_pointer_only_to_transfer_ownership.md) - pattern; 0 design. Tags: cpp, ownership, parameter_passing, performance, smart_pointers.
 - [Prefer Pass-by-Reference-to-const to Pass-by-Value](PAT_prefer_pass_by_reference_to_const.md) - pattern; 3 rough. Tags: cpp, efficiency, parameter_passing, slicing.
+  - Variants: `Take By Value and Move From the Parameter` (constraint).
 - [Return by Value When You Must Return a New Object](PAT_return_by_value_when_returning_new_object.md) - pattern; 3 rough. Tags: cpp, parameter_passing, return_values, undefined_behavior.

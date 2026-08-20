@@ -41,6 +41,8 @@ variants: []
 - Declare both copy operations private with no bodies; a member or friend that copies then fails at link time.
 - Push the failure to compile time by inheriting privately from an Uncopyable base whose copy operations are themselves private and undefined.
 - Omit the parameter names on those declarations — the functions are never defined or called.
+- Extend the same treatment to types that merely cannot *afford* to be copied, not only those that must not be. Suppressing copying on an expensive type turns every accidental copy into a compile error, and where copies are genuinely wanted a named operation such as `clone()` provides them — so the copies that remain are the ones somebody asked for, and they are visible in the code.
+- Give such a type move operations if moving is cheaper than copying. Cheap moves are what let an otherwise non-copyable type still be returned by value, stored in containers, and passed around without the copies you were trying to prevent.
 
 ## Don't
 - Don't just leave the copy operations undeclared; the compiler then generates public ones and the class becomes silently copyable.
