@@ -20,6 +20,7 @@
 - [Interface Design](interface-design/INDEX.md) - 3 object(s).
 - [Memory Management](memory-management/INDEX.md) - 10 object(s).
 - [Metaprogramming](metaprogramming/INDEX.md) - 1 object(s).
+- [Move Semantics](move-semantics/INDEX.md) - 3 object(s).
 - [Operators](operators/INDEX.md) - 1 object(s).
 - [Optimization](optimization/INDEX.md) - 2 object(s).
 - [Parameter Passing](parameter-passing/INDEX.md) - 3 object(s).
