@@ -28,7 +28,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_flash_fiction_variant_reduce_location_changes_for_unified_action
+    variant_name: Reduce Location Changes for a Unified Action
+    variant_basis: constraint
+    difference_from_foundation: Compress a single governing action into fewer locations so repeated reorientation does not consume the space needed for development and consequence.
+    when_to_use: A flash draft scatters one unified action across many lightly developed scenes or places.
+    when_not_to_use: Movement across time and ground is itself the story's governing structure, and each location earns its transition.
+    absorbed_from_object_id: none
 ---
 
 # Compress a Complete Flash Story Without Dead Space
@@ -64,3 +71,5 @@ variants: []
 
 ## Notes
 Flash fiction intensifies ordinary story requirements rather than suspending them. Its small canvas exposes weak paragraphs, detachable details, and borrowed formulas that a longer story might temporarily hide. Compression succeeds when omission increases density while the reader still experiences a complete human movement and a finish with enough snap to change the meaning or texture of what came before. Some stories end at the instant of greatest force and let the reader supply the stunned response; others need a sentence or two of falling action. The useful distinction is not twist versus closure but whether anything after the climax still changes the work.
+
+`writing_flash_fiction_variant_reduce_location_changes_for_unified_action` applies compression to scene geography. When one action is dispersed across many lightly established places, combine or remove locations so orientation does not consume the space needed for pressure and change. Do not use the method when travel across distinct places is the story's essential movement and each transition alters its meaning.
