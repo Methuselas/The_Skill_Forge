@@ -4,5 +4,7 @@
 
 ## Objects
 
+- [Choose Diction to Serve Purpose and Tone](PAT_choose_diction_to_serve_purpose_and_tone.md) - pattern; 3 rough. Tags: creative_writing, diction, revision, style, tone.
 - [Control Irony to Preserve Reader Trust](PAT_control_irony_to_preserve_reader_trust.md) - pattern; 3 rough. Tags: creative_writing, irony, reader_response, revision, tone.
 - [Make Nonstandard Language a Deliberate Craft Choice](PAT_make_nonstandard_language_a_deliberate_craft_choice.md) - pattern; 3 rough. Tags: dialect, grammar, language, multilingual_writing, voice.
+- [Replace Received Language with Precise Distinctive Phrasing](PAT_replace_received_language_with_precise_distinctive_phrasing.md) - pattern; 3 rough. Tags: cliche, creative_writing, precision, revision, voice.

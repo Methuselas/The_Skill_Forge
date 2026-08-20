@@ -4,5 +4,5 @@
 
 ## Topics
 
-- [Foundations](foundations/INDEX.md) - 13 object(s).
+- [Foundations](foundations/INDEX.md) - 15 object(s).
 - [Poetry](poetry/INDEX.md) - 18 object(s).

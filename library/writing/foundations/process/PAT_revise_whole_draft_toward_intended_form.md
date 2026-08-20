@@ -34,6 +34,13 @@ variants:
     when_to_use: A once-productive pattern has become mere formality, distorts the poem's changing substance, or consumes attention needed by the poem itself.
     when_not_to_use: The meter remains vital to the poem's effect, still generates discovery, or is a required constraint of the task.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_compose_toward_clarity_then_revise_toward_strangeness
+    variant_name: Compose Toward Clarity Then Revise Toward Strangeness
+    variant_basis: method_sequence
+    difference_from_foundation: Use the early draft to approximate the intended thought or emotion clearly, then use later passes to cut verbiage and received language and introduce precise, personally distinctive phrasing.
+    when_to_use: Pressure to sound poetic is obscuring what the draft is trying to express, while a merely clear version would still lack concentrated and individual language.
+    when_not_to_use: Clarifying too early would close a productive discovery process, or later strangeness would become arbitrary novelty instead of a more exact expression.
+    absorbed_from_object_id: none
 ---
 
 # Revise the Whole Draft Toward Its Intended Form
@@ -63,3 +70,5 @@ variants:
 Experienced writers approach redrafting holistically and recursively. Discovery may require moving backward, repeating a decision, or changing something established earlier; messiness is not proof that the process has failed. Context changes which strategy is practical, but not the need to reconsider the work before declaring it finished.
 
 `writing_poetry_variant_release_prescribed_meter_that_no_longer_fits` tests a constrained poem by recasting it in free verse when meter or rhyme has stopped serving the emerging work. Use the comparison to release mere formality while preserving any formal elements that still carry useful energy; do not discard a constraint that remains essential or required.
+
+`writing_poetry_variant_compose_toward_clarity_then_revise_toward_strangeness` separates two pressures that can interfere when applied simultaneously. The early pass gets close enough to the intended thought or emotion to establish a target; later passes remove verbiage and received phrasing and search for language shaped by the writer's particular perception. Use the sequence to prevent premature performance of poetic style, but do not let clarity flatten ambiguity that the drafting process still needs to explore.
