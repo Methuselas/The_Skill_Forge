@@ -4,7 +4,7 @@
 
 ## Topics
 
-- [Creative Nonfiction](creative-nonfiction/INDEX.md) - 8 object(s).
+- [Creative Nonfiction](creative-nonfiction/INDEX.md) - 9 object(s).
 - [Fiction](fiction/INDEX.md) - 40 object(s).
 - [Foundations](foundations/INDEX.md) - 18 object(s).
 - [Poetry](poetry/INDEX.md) - 27 object(s).
