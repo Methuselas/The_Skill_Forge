@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Choose a Truth Contract Before Shaping Real Material](PAT_choose_truth_contract_before_shaping_real_material.md) - pattern; 0 design. Tags: creative_writing, evidence, fiction, genre, nonfiction.
 - [Read a Draft Aloud to Defamiliarize It](PAT_read_draft_aloud_to_defamiliarize_it.md) - pattern; 3 rough. Tags: creative_writing, defamiliarization, reader_response, reading_aloud, revision.
   - Variants: `Reflow Poetic Lines as Prose to Test Syntax` (method_sequence).
 - [Reassess Inspired Drafts After Distance](PAT_reassess_inspired_drafts_after_distance.md) - pattern; 3 rough. Tags: creative_writing, drafting, recursive_process, revision.
