@@ -6,6 +6,7 @@
 
 - [Casting](casting/INDEX.md) - 2 object(s).
 - [Compilation Dependencies](compilation-dependencies/INDEX.md) - 2 object(s).
+- [Concurrency](concurrency/INDEX.md) - 1 object(s).
 - [Const Correctness](const-correctness/INDEX.md) - 5 object(s).
 - [Construction](construction/INDEX.md) - 1 object(s).
 - [Copy Control](copy-control/INDEX.md) - 8 object(s).

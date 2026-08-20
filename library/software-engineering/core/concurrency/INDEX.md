@@ -7,17 +7,23 @@
 - [Ask Both What Must Never Happen and What Must Eventually Happen](PAT_check_concurrent_code_for_safety_and_liveness.md) - pattern; 0 design. Tags: concurrency, correctness, deadlock, review, threading.
 - [Avoid Sharing Before You Reach for Protecting It](PAT_avoid_sharing_before_you_reach_for_protecting_it.md) - pattern; 0 design. Tags: concurrency, design, encapsulation, shared_state, threading.
 - [Break One of Deadlock's Four Conditions](PAT_break_one_of_deadlocks_four_conditions.md) - pattern; 0 design. Tags: concurrency, deadlock, locking, resources, threading.
+- [Buy Concurrent Performance With Restrictions, Not Cleverness](PAT_buy_concurrent_performance_with_restrictions.md) - pattern; 0 design. Tags: concurrency, data_structures, design, simplicity, threading.
 - [Classify Synchronization by the Progress It Guarantees](PAT_classify_synchronization_by_progress_guarantee.md) - pattern; 0 design. Tags: concurrency, design, lock_free, locking, threading.
+- [Estimate a Concurrent Design's Ceiling Before Building It](PAT_estimate_a_concurrent_designs_ceiling_before_building_it.md) - pattern; 0 design. Tags: benchmarking, concurrency, design, estimation, measurement.
 - [Get the Single-Threaded Version Working First](PAT_get_the_single_threaded_version_working_first.md) - pattern; 1 skeleton. Tags: concurrency, debugging, separation_of_concerns, testing, threading.
 - [Immutability Is a Guarantee You Have to Actually Check](PAT_verify_an_object_is_as_immutable_as_you_think.md) - pattern; 0 design. Tags: concurrency, immutability, invariants, state, threading.
+- [Keep the Memory Alive Until the Compare-and-Swap Completes](PAT_keep_memory_alive_until_the_compare_and_swap_completes.md) - pattern; 4 final. Tags: concurrency, correctness, lock_free, memory_management, threading.
 - [Keep Thread-Aware Code Away From Thread-Ignorant Code](PAT_keep_thread_aware_code_away_from_thread_ignorant_code.md) - pattern; 0 design. Tags: concurrency, design, maintainability, separation_of_concerns, threading.
 - [Lock the Smallest Region That Must Be Atomic](PAT_lock_the_smallest_region_that_must_be_atomic.md) - pattern; 2 block. Tags: concurrency, contention, locking, performance, threading.
+- [Make Every Concurrent Operation a Complete Transaction](PAT_make_every_concurrent_operation_a_complete_transaction.md) - pattern; 0 design. Tags: api_design, concurrency, interfaces, invariants, threading.
 - [Match the Lock to the Length of the Critical Section](PAT_match_the_lock_to_the_length_of_the_critical_section.md) - pattern; 4 final. Tags: concurrency, contention, locking, performance, threading.
 - [Match the Problem to a Known Coordination Shape](PAT_match_the_problem_to_a_known_coordination_shape.md) - pattern; 0 design. Tags: concurrency, design, patterns, starvation, threading.
 - [Publish Shared Data Through One Atomic Handle](PAT_publish_shared_data_through_one_atomic_handle.md) - pattern; 4 final. Tags: concurrency, data_structures, lock_free, memory_order, threading.
 - [Put the Thread-Safety Guarantee at the Transaction Boundary](PAT_put_the_thread_safety_guarantee_at_the_transaction_boundary.md) - pattern; 0 design. Tags: api_design, concurrency, design, invariants, threading.
 - [Run Threaded Code Under Conditions Built to Break It](PAT_run_threaded_code_under_conditions_built_to_break_it.md) - pattern; 3 rough. Tags: concurrency, defects, test_design, testing, threading.
 - [Separate Per-Thread Data by a Full Cache Line](PAT_separate_per_thread_data_by_a_cache_line.md) - pattern; 4 final. Tags: concurrency, memory, performance, shared_state, threading.
+- [Size the Thread Count to the Hardware, Not to the Work](PAT_do_not_create_a_thread_for_every_task.md) - pattern; 0 design. Tags: concurrency, design, performance, scalability, threading.
+- [Trade Exact Ordering for Independent Sub-Structures](PAT_trade_exact_ordering_for_independent_substructures.md) - pattern; 0 design. Tags: concurrency, data_structures, design, scalability, threading.
 - [Treat a Failure You Cannot Reproduce as a Defect](PAT_treat_an_unreproducible_failure_as_a_defect.md) - pattern; 4 final. Tags: concurrency, defects, diagnosis, testing, threading.
 - [Two Atomic Operations Are Not One Atomic Operation](PAT_atomic_steps_do_not_compose_into_a_safe_whole.md) - pattern; 0 design. Tags: atomicity, concurrency, correctness, invariants, threading.
 - [Weaken a Memory Order Only Against a Measurement](PAT_weaken_a_memory_order_only_against_a_measurement.md) - pattern; 4 final. Tags: concurrency, correctness, memory_order, performance, threading.

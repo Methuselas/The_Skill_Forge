@@ -1,0 +1,68 @@
+---
+object_id: PAT_do_not_create_a_thread_for_every_task
+object_type: pattern
+name: Size the Thread Count to the Hardware, Not to the Work
+library_path:
+- software-engineering
+- core
+- concurrency
+stage_binding: 0 design
+lane_fit: both
+foundation_role: foundation
+routing_class: general
+specialization_axis: none
+foundation_object_id: none
+tags:
+- concurrency
+- threading
+- design
+- performance
+- scalability
+cross_links:
+- rel: related_to
+  target_object_id: PAT_match_the_problem_to_a_known_coordination_shape
+- rel: related_to
+  target_object_id: PAT_decide_if_the_problem_is_worth_parallelizing
+- rel: related_to
+  target_object_id: PAT_check_for_memory_saturation_before_adding_threads
+reference:
+  source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
+  author: Fedor G. Pikus
+confidence: high
+references: []
+variants: []
+---
+
+# Size the Thread Count to the Hardware, Not to the Work
+
+## Pattern Rule
+**IF** you are deciding how a program will get its independent work onto multiple processors
+**THEN** create a number of threads determined by the cores available and feed tasks to them, rather than creating a thread per unit of work
+**ELSE** where the program has a handful of long-lived activities that each map to one thread for the program's lifetime, a thread apiece is the right structure and there is nothing to pool.
+
+## Do
+- Separate the two counts in your design vocabulary. How many tasks the program has is a property of the problem and can be enormous; how many threads should exist is a property of the machine and is small. Conflating them is what produces the thread-per-task design.
+- Price thread creation before relying on it. Starting and joining threads costs enough that it shows up plainly in measurements — parallel standard algorithms that start and join threads on each call are slower than the sequential version on short sequences for that reason alone, and it is the same cost paid explicitly by a thread-per-task program.
+- Treat the language's asynchronous-call facility as a convenience rather than a parallelism strategy. Implementations either provide very limited parallelism or run each call on its own thread, and neither is what a program with many tasks needs.
+- Expect the raw thread interface to be too low-level in both directions. It costs too much for fine-grained work, and it exposes too little to build a scheduler on, since most of the attributes that would let you control placement and priority are platform-specific.
+- Set the count from cores, adjusted by measurement. Simultaneous multi-threading presents more logical processors than physical cores and the gain from the extra ones varies from substantial to nothing, so whether to count them is a question the program answers by being run both ways.
+
+## Don't
+- Don't assume the operating system will absorb the excess. Very few can schedule threads in the millions with any efficiency, and a design that assumes otherwise is portable to almost nowhere.
+- Don't judge the design on a small input. Thread-per-task looks fine at ten tasks and collapses at a hundred thousand, which is usually the size that matters and rarely the size that gets tested first.
+- Don't add threads to a program that is already limited by something shared. More threads against a saturated memory bus, or against a guarded region everything passes through, add overhead and no throughput.
+- Don't write your own scheduler as the first response. It is a substantial component with its own failure modes, and a library pool or a parallel algorithm covers most of what a program actually needs.
+
+## Checklist
+- How many tasks will this create at realistic input sizes, and how many threads?
+- What does a thread cost to start on the target platform, relative to the work one task does?
+- Where do tasks queue up, and what happens when they arrive faster than they are consumed?
+- Is the thread count derived from the hardware, or from the shape of the input?
+- Has the count been varied and measured, including with and without the logical cores?
+
+## Notes
+The appeal of thread-per-task is that it makes the code read the way the problem is described — here is an independent piece of work, here is a thread for it. That correspondence is genuinely valuable, and the way to keep it is a task abstraction over a fixed pool, so the code still says "this is an independent task" while the runtime decides where it runs.
+
+Two costs sit behind the rule, and they are different. Creation and joining is a per-thread cost, paid up front, which is what makes fine-grained tasks lose. Oversubscription is a running cost: threads beyond the available processors do not add capacity, they timeslice, so the work is the same and the context switching is extra.
+
+The exception worth keeping in view is a thread that mostly waits. Threads blocked on input, on the network, or on a user are not consuming a processor, so the count that matters is how many are runnable rather than how many exist. That is a different design from the compute-bound case and the reason a rule stated as "one thread per core" needs the qualifier.
