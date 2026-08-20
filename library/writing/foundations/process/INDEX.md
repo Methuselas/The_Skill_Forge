@@ -6,5 +6,6 @@
 
 - [Read a Draft Aloud to Defamiliarize It](PAT_read_draft_aloud_to_defamiliarize_it.md) - pattern; 3 rough. Tags: creative_writing, defamiliarization, reader_response, reading_aloud, revision.
 - [Reassess Inspired Drafts After Distance](PAT_reassess_inspired_drafts_after_distance.md) - pattern; 3 rough. Tags: creative_writing, drafting, recursive_process, revision.
+- [Revise a Creative Draft from Diagnosis to Final Proof](AP_revise_creative_draft_from_diagnosis_to_final_proof.md) - ap; 3 rough. Tags: creative_writing, editing, feedback, proofreading, recursive_process, revision.
 - [Revise the Whole Draft Toward Its Intended Form](PAT_revise_whole_draft_toward_intended_form.md) - pattern; 3 rough. Tags: creative_writing, recursive_process, redrafting, revision, structure.
 - [Separate Revision from Editing and Proofreading](PAT_separate_revision_from_editing_and_proofreading.md) - pattern; 3 rough. Tags: creative_writing, drafting, editing, proofreading, revision.
