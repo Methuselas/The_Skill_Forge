@@ -20,7 +20,7 @@ tags:
 - smart_pointers
 cross_links:
 - rel: related_to
-  target_object_id: PAT_store_newed_object_in_smart_pointer_standalone
+  target_object_id: PAT_prefer_make_functions_to_direct_new
 - rel: related_to
   target_object_id: PAT_never_let_exceptions_leave_a_destructor
 reference:
@@ -39,7 +39,7 @@ variants: []
 
 ## Do
 - Acquire the resource and hand it to the managing object in the same statement (Resource Acquisition Is Initialization), so it is guarded the instant it exists.
-- For heap objects use a ready-made smart pointer, and prefer a reference-counting shared pointer, whose copy behaves intuitively, over auto_ptr, whose copy nulls the source.
+- For heap objects use a ready-made smart pointer, and start from the exclusive-ownership one rather than the reference-counting one: it is normally the size of a raw pointer, converts cheaply to a shared pointer if a second owner appears, and the reverse conversion does not exist. The C++98 auto-pointer, whose copy nulls the source, is deprecated and has no remaining use outside a C++98 compiler.
 - Let the manager's destructor perform the release, so it happens automatically on every path out of the scope.
 
 ## Don't

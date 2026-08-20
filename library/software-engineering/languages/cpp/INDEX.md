@@ -24,7 +24,7 @@
 - [Optimization](optimization/INDEX.md) - 2 object(s).
 - [Parameter Passing](parameter-passing/INDEX.md) - 3 object(s).
 - [Preprocessor](preprocessor/INDEX.md) - 2 object(s).
-- [Resource Management](resource-management/INDEX.md) - 5 object(s).
+- [Resource Management](resource-management/INDEX.md) - 7 object(s).
 - [Swap](swap/INDEX.md) - 2 object(s).
 - [Templates](templates/INDEX.md) - 7 object(s).
 - [Traits](traits/INDEX.md) - 2 object(s).

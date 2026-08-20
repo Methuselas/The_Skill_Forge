@@ -9,8 +9,9 @@
 - [Give a Class Its Own New-Handler with a CRTP Mixin](PAT_provide_class_specific_new_handler_via_crtp.md) - pattern; 3 rough. Tags: cpp, crtp, memory_management, new_handler.
 - [Pair a Placement new with a Placement delete and Restore Hidden Forms](DRILL_pair_a_placement_new_with_placement_delete.md) - drill; 2 block. Tags: cpp, memory_management, name_hiding, placement_new.
 - [Pair Every Placement new with a Matching Placement delete](PAT_pair_placement_new_with_placement_delete.md) - pattern; 2 block. Tags: cpp, exception_safety, memory_management, placement_new.
+- [Prefer the make Functions to Direct Use of new](PAT_prefer_make_functions_to_direct_new.md) - pattern; 2 block. Tags: cpp, exception_safety, memory_management, performance, smart_pointers.
+  - Variants: `Put the new and Its Smart Pointer in a Standalone Statement` (constraint).
 - [Replace new and delete Only for a Concrete Reason](PAT_replace_new_delete_only_with_clear_reason.md) - pattern; 2 block. Tags: allocation, cpp, memory_management, performance.
-- [Store a newed Object in a Smart Pointer in Its Own Statement](PAT_store_newed_object_in_smart_pointer_standalone.md) - pattern; 3 rough. Tags: cpp, exception_safety, memory_management, smart_pointers.
 - [Use Matching new and delete Forms](PAT_match_new_and_delete_forms.md) - pattern; 3 rough. Tags: cpp, memory_management, new_delete, undefined_behavior.
 - [Write a Conforming Class-Specific operator new and delete](DRILL_write_a_conforming_operator_new.md) - drill; 3 rough. Tags: allocation, conventions, cpp, memory_management.
 - [Write a New-Handler That Always Makes Progress](PAT_write_a_well_behaved_new_handler.md) - pattern; 2 block. Tags: allocation, cpp, memory_management, new_handler.

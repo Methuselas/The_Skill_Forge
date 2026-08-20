@@ -7,5 +7,7 @@
 - [Choose an RAII Class's Copying Behavior Deliberately](PAT_choose_raii_copying_behavior_deliberately.md) - pattern; 2 block. Tags: copy_control, cpp, raii, resource_management.
 - [Choose and Implement an RAII Class's Copying Behavior](DRILL_choose_copying_behavior_for_an_raii_class.md) - drill; 3 rough. Tags: copy_control, cpp, raii, resource_management.
 - [Manage Every Resource with an RAII Object](PAT_manage_resources_with_raii_objects.md) - pattern; 2 block. Tags: cpp, raii, resource_management, smart_pointers.
+- [Price Shared Ownership Before Choosing It](PAT_price_shared_ownership_before_choosing_it.md) - pattern; 2 block. Tags: concurrency, cpp, ownership, resource_management, smart_pointers.
 - [Provide Access to the Raw Resource in an RAII Class](PAT_provide_access_to_raw_resource_in_raii_class.md) - pattern; 2 block. Tags: conversions, cpp, raii, resource_management.
+- [Reach for Exclusive Ownership First](PAT_use_unique_ptr_for_exclusive_ownership.md) - pattern; 2 block. Tags: cpp, ownership, performance, resource_management, smart_pointers.
 - [Refactor Manual Resource Cleanup into an RAII Object](DRILL_refactor_manual_cleanup_to_raii.md) - drill; 3 rough. Tags: cpp, raii, refactoring, resource_management.

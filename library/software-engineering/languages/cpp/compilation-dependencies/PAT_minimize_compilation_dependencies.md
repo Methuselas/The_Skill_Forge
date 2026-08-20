@@ -41,6 +41,7 @@ variants: []
 - Give the class a single pointer to a forward-declared implementation class and forward its calls to that class (a Handle class), so the header needs only declarations.
 - Or make the class an abstract Interface class of pure virtual functions, with a static factory returning a smart pointer to a concrete subclass.
 - Ship headers in pairs — a declaration-only header and a definition header — and have clients include the declaration header rather than forward-declaring types themselves.
+- Declare the special member functions in the header and define them in the implementation file when the handle is an exclusive-ownership smart pointer, even where the compiler-generated versions would be correct. Its deleter needs the complete type, and a compiler-generated destructor is inline in the header where that type is still incomplete — so accepting the default fails to compile at the client. A shared pointer does not have this problem, because its deleter is not part of its type and the complete type is captured when the pointer is constructed.
 
 ## Don't
 - Don't include a definition where a declaration will do; declaring a function that passes or returns a type by value needs only that type's declaration, not its definition.
