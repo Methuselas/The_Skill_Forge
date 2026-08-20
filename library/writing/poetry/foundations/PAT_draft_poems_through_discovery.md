@@ -33,13 +33,6 @@ variants:
     when_to_use: The open page feels too vague, the poem lacks forward pressure, or a formal constraint is likely to provoke useful choices.
     when_not_to_use: Managing the form overwhelms the intended exploration or the work requires a different mode.
     absorbed_from_object_id: none
-  - variant_id: writing_poetry_variant_harvest_fragments_in_a_poetry_journal
-    variant_name: Harvest Fragments in a Poetry Journal
-    variant_basis: method_sequence
-    difference_from_foundation: Collect observations, images, words, phrases, lines, and partial stanzas before requiring them to become a poem, then begin drafting when several fragments develop a live relation.
-    when_to_use: No single idea can yet sustain a draft, but daily perception and language are producing charged pieces worth preserving.
-    when_not_to_use: A poem is already gathering momentum and continued collecting would postpone composition.
-    absorbed_from_object_id: none
 ---
 
 # Draft Poems Through Discovery
@@ -67,4 +60,4 @@ variants:
 - The ending feels earned by the draft's movement rather than attached to a preset lesson.
 
 ## Notes
-Discovery does not require an unstructured process. `writing_poetry_variant_enter_discovery_through_traditional_form` uses inherited form as a generative constraint: the rules narrow the field while the writer remains alert to unforeseen language and meaning. `writing_poetry_variant_harvest_fragments_in_a_poetry_journal` delays the demand for a complete poem while preserving small pieces of live material; use it when accumulation can reveal connections, but leave collection mode once a draft begins to cohere.
+Discovery does not require an unstructured process. `writing_poetry_variant_enter_discovery_through_traditional_form` uses inherited form as a generative constraint: the rules narrow the field while the writer remains alert to unforeseen language and meaning. Use `writing_collect_fragments_before_demanding_complete_draft` when charged pieces need to accumulate before any one of them can sustain a poem.

@@ -7,3 +7,4 @@
 - [Compress a Complete Flash Story Without Dead Space](PAT_compress_a_complete_flash_story_without_dead_space.md) - pattern; 1 skeleton. Tags: compression, endings, fiction, flash_fiction, pacing.
   - Variants: `Reduce Location Changes for a Unified Action` (constraint).
 - [Match Story Scope to Required Accumulation](PAT_match_story_scope_to_required_accumulation.md) - pattern; 0 design. Tags: backstory, fiction, form, pacing, story_scope.
+- [Turn Concrete Stimuli into Story Pressure](PAT_turn_concrete_stimuli_into_story_pressure.md) - pattern; 0 design. Tags: conflict, fiction, invention, objects, story_ideas.
