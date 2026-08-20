@@ -49,6 +49,8 @@ variants: []
 - Decide it during design rather than afterwards. Which operations are transactions determines the interfaces, the module boundaries, and where data lives, and none of those can be retrofitted by adding guards later.
 - Check for sharing the interface does not reveal before assuming an unshared object is safe. Static members and class-specific allocators are shared by every instance, so an object used by exactly one thread can still race with another thread's object of the same type.
 - Distrust a read-only interface as evidence of read-only behaviour. Copying a reference-counted pointer takes its source by const reference and still modifies the count — safe here because it was designed to be, at a real cost, but the const alone did not establish it.
+- Ship both forms where a component is used two ways. Anything that is both a client-visible component and a building block for a larger transaction needs a guarded variant and an unguarded one — otherwise every use inside a larger transaction pays for a lock the enclosing guard has already made redundant. A construction-time flag with a conditional guard, a locking policy chosen at compile time, or a thin decorator that wraps each operation in a guard all work; which fits depends on whether the choice is known when the code is built.
+- Classify every piece of data during design as exclusive to one thread, read-only, or shared for writing, and record where it changes category. Data produced by one thread and later read by many is a common and useful shape, and it is the classification — not the code — that says which components need which guarantee.
 
 ## Don't
 - Don't make everything strongly thread-safe by default. It costs on every operation, most objects in a threaded program are used by one thread, and the guarantee is frequently useless at the level where it was applied.
@@ -69,3 +71,19 @@ The reason this decision cannot be deferred is that concurrency is not a propert
 Sorting types into the three levels is more useful than the binary it replaces. The weak guarantee describes the majority of well-written library code: private to a thread, do as you like; shared, read only. Recognizing that as a real and sufficient guarantee stops it being read as a deficiency, and stops the reflex to wrap such types in locks they do not need.
 
 There is a cost argument as well as a correctness one, and they point the same way. A strong guarantee taken by default is overhead on every operation, on objects that are usually not shared, in service of atomicity at a level nothing depends on — three ways of paying for nothing at once.
+
+Providing both a guarded and an unguarded form of the same component resolves what otherwise
+looks like a contradiction in this card. Interfaces meant for concurrent use should be
+transactional and safe; interfaces meant as building blocks should carry no synchronization,
+because the component assembling them will guard the whole transaction and any inner lock is
+then pure cost. Both are true, of the same component, in different roles — so the answer is
+two forms rather than a compromise between them. There is a second reason to avoid the
+gratuitous inner lock beyond its run-time cost: every lock enlarges the body of code that has
+to be examined for deadlock.
+
+Doing the data classification during design rather than discovering it later is what makes the
+rest of this affordable. Retrofitting thread safety onto a component built on the assumption of
+exclusive access is difficult and tends to produce something slow, because the safe version
+wants different boundaries than the exclusive one had. Knowing which data is exclusive,
+which is read-only, and which is written by several threads tells you where the transactional
+components belong before those boundaries are set.
