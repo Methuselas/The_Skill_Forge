@@ -28,7 +28,14 @@ reference:
 confidence: high
 references: []
 target_skill: Poetic fluency, selective judgment, and revision triage
-variants: []
+variants:
+  - variant_id: writing_poetry_variant_sample_invention_families_before_selection
+    variant_name: Sample Invention Families Before Selection
+    variant_basis: method_sequence
+    difference_from_foundation: Begin the production cycle with short starts from unrelated invention families rather than assigning one prompt or constraint to each complete draft in advance.
+    when_to_use: A familiar starting method repeatedly yields flat material or the writer needs greater flexibility in getting poems underway.
+    when_not_to_use: The current practice goal is sustained completion within one specific form or invention method.
+    absorbed_from_object_id: none
 ---
 
 # Write, Cull, and Rework Poems to Train Judgment
@@ -62,4 +69,4 @@ Choose a repeatable span such as several sessions or one week. Prepare a differe
 - Revising or showing every draft because selection feels harsher than improvement.
 
 ## Notes
-Sustained production trains two linked abilities: making poems and recognizing which ones merit more work. Discarding weak drafts is not a verdict on the practice; it protects revision time for the poems most capable of becoming stronger.
+Sustained production trains two linked abilities: making poems and recognizing which ones merit more work. Discarding weak drafts is not a verdict on the practice; it protects revision time for the poems most capable of becoming stronger. `writing_poetry_variant_sample_invention_families_before_selection` precedes the ordinary cycle with brief starts drawn from unlike sources of pressure—language, form, source response, role, setting, or tonal opposition—because no single prompt works reliably for every writer or every session. Use the variant to locate live material, then return to complete drafting and delayed selection rather than treating prompt sampling as the finished practice.

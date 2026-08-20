@@ -5,7 +5,8 @@
 ## Objects
 
 - [Draft Poems Through Discovery](PAT_draft_poems_through_discovery.md) - pattern; 0 design. Tags: discovery, drafting, generative_constraints, poetry.
-  - Variants: `Enter Discovery Through Traditional Form` (constraint).
+  - Variants: `Enter Discovery Through Traditional Form` (constraint); `Harvest Fragments in a Poetry Journal` (method_sequence).
 - [Make Performance Poetry Stand on Its Language](PAT_make_performance_poetry_stand_on_its_language.md) - pattern; 3 rough. Tags: performance, poetry, revision, spoken_word.
 - [Sustain Poetic Intensity Beyond Meter and Lineation](PAT_sustain_poetic_intensity_beyond_meter_and_lineation.md) - pattern; 0 design. Tags: free_verse, poetic_language, poetry, prose_poetry.
   - Variants: `Build a Prose Poem Through Sentence Music` (medium).
+- [Transform Source Material into a Standalone Poem](PAT_transform_source_material_into_a_standalone_poem.md) - pattern; 0 design. Tags: drafting, perspective, poetry, source_response, transformation.
