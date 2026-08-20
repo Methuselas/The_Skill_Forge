@@ -6,15 +6,34 @@
 
 _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
+- **Ask Whether the Hot Code Can Run Less Often** — read first
+  - then: Locate a Performance Bottleneck by Measurement
 - **Choose the Level Before You Touch the Code** — read first
   - then: Tune a Measured Bottleneck
 - **Let Measurement Decide What to Tune, Never Intuition** — read first
   - then: Tune a Measured Bottleneck
+- **Make the Benchmarked Work Observable** — read first
+  - then: Locate a Performance Bottleneck by Measurement
+- **Name the Metric Before You Call It Fast** — read first
+  - then: Tune a Measured Bottleneck
+- **Read a Profile as a Statement About Machine Code** — read first
+  - then: Locate a Performance Bottleneck by Measurement
+- **Read Wall, CPU, and Thread Time Together** — read first
+  - then: Locate a Performance Bottleneck by Measurement
+- **Reproduce the Real Context Before Believing a Micro-Benchmark** — read first
+  - then: Locate a Performance Bottleneck by Measurement
 
 ## Objects
 
+- [Ask Whether the Hot Code Can Run Less Often](PAT_ask_whether_the_hot_code_can_run_less_often.md) - pattern; 4 final. Tags: design, optimization, performance, profiling, tuning.
 - [Choose the Level Before You Touch the Code](PAT_choose_the_level_before_tuning_the_code.md) - pattern; 0 design. Tags: architecture, optimization, performance, requirements.
 - [Establish That the Work Divides Before Dividing It](PAT_decide_if_the_problem_is_worth_parallelizing.md) - pattern; 0 design. Tags: concurrency, parallelism, performance, trade_offs, tuning.
 - [Estimate How the Cost Grows Before You Run It](PAT_estimate_the_order_before_you_run_it.md) - pattern; 2 block. Tags: algorithms, complexity, estimation, performance.
 - [Let Measurement Decide What to Tune, Never Intuition](PAT_let_measurement_decide_what_to_tune.md) - pattern; 4 final. Tags: measurement, optimization, performance, premature_optimization.
+- [Locate a Performance Bottleneck by Measurement](AP_locate_a_performance_bottleneck_by_measurement.md) - ap; 4 final. Tags: benchmarking, diagnosis, measurement, performance, profiling.
+- [Make the Benchmarked Work Observable](PAT_make_benchmarked_work_observable.md) - pattern; 4 final. Tags: benchmarking, compilers, measurement, optimization, performance.
+- [Name the Metric Before You Call It Fast](PAT_name_the_performance_metric_before_you_optimize.md) - pattern; 0 design. Tags: measurement, metrics, performance, requirements, trade_offs.
+- [Read a Profile as a Statement About Machine Code](PAT_read_a_profile_as_a_statement_about_machine_code.md) - pattern; 4 final. Tags: compilers, diagnosis, measurement, performance, profiling.
+- [Read Wall, CPU, and Thread Time Together](PAT_read_wall_cpu_and_thread_time_together.md) - pattern; 4 final. Tags: benchmarking, concurrency, diagnosis, measurement, performance.
+- [Reproduce the Real Context Before Believing a Micro-Benchmark](PAT_reproduce_the_real_context_before_believing_a_microbenchmark.md) - pattern; 4 final. Tags: benchmarking, measurement, optimization, performance, validity.
 - [Tune a Measured Bottleneck](AP_tune_a_measured_bottleneck.md) - ap; 4 final. Tags: iteration, measurement, optimization, performance.

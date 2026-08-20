@@ -54,6 +54,7 @@ variants: []
 - Don't forget that a tuning commits you to re-measuring it forever. Every compiler upgrade, library version, and platform change can turn a hand optimization into a pessimization, and one that is never reprofiled will eventually be one.
 - Don't accept a speed argument over a correctness argument. It is hardly ever true that a program needs to be fast before it needs to be right — a program that does not have to work can be made to run instantly.
 - Don't tune something because tuning it is satisfying. Taking a routine from twenty microseconds to two feels like defying physics and carries real cachet among programmers, and neither is a reason.
+- Don't assume that strictly less work means less time on the same machine. Deleting a provably unnecessary comparison from the inner loop of a string compare — same compiler, same hardware, same data — more than doubled its run time, and switching the loop index from an unsigned to a signed integer, a change with no effect on the values computed, made it faster than the original. Unpredictability is not only a property of moving between platforms; it lives inside one binary on one machine.
 
 ## Checklist
 - Have you profiled, or are you working from a belief about where the time goes?

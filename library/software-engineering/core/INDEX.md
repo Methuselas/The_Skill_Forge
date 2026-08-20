@@ -8,6 +8,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - **Arrange the Conditions That Make Prior Knowledge Transfer** — read first
   - then: Expect Prior Knowledge to Mislead You Most Where Languages Are Similar
+- **Ask Whether the Hot Code Can Run Less Often** — read first
+  - then: Locate a Performance Bottleneck by Measurement
 - **Assess the Groundwork You Inherited Before Writing Code** — read first
   - then: Refuse to Implement an Architecture You Cannot Follow
   - then: Write Down the Problem in Terms That Name No Solution
@@ -93,6 +95,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Write Code That Reads Like a Well-Structured Recipe
 - **Let Measurement Decide What to Tune, Never Intuition** — read first
   - then: Tune a Measured Bottleneck
+- **Make the Benchmarked Work Observable** — read first
+  - then: Locate a Performance Bottleneck by Measurement
 - **Make Wrong Usage Hard or Impossible** — read first
   - then: Keep Classes Immutable With Builder or Copy-on-Write
   - then: Keep a Single Source of Truth for Data
@@ -109,10 +113,18 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Handle Enums Exhaustively So New Values Fail Loudly
   - then: Make Critical Inputs Required Rather Than Silently No-Op
   - then: Use the Null Object Pattern Only When the Empty Value Can't Surprise
+- **Name the Metric Before You Call It Fast** — read first
+  - then: Tune a Measured Bottleneck
 - **Name the Operations the Thing Supports Before Choosing How to Store It** — read first
   - then: Ask Whether a New Method Belongs Before You Add It
+- **Read a Profile as a Statement About Machine Code** — read first
+  - then: Locate a Performance Bottleneck by Measurement
 - **Read Coverage as a Floor, Never as a Score** — read first
   - then: Choose Test Cases Systematically
+- **Read Wall, CPU, and Thread Time Together** — read first
+  - then: Locate a Performance Bottleneck by Measurement
+- **Reproduce the Real Context Before Believing a Micro-Benchmark** — read first
+  - then: Locate a Performance Bottleneck by Measurement
 - **Separate Intrinsic From Extraneous Difficulty** — read first
   - then: Refactor Temporarily for Your Own Comprehension
 - **Separate Storage Strength From Retrieval Strength** — read first
@@ -158,7 +170,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Error Handling](error-handling/INDEX.md) - 20 object(s).
 - [Hard To Misuse](hard-to-misuse/INDEX.md) - 12 object(s).
 - [Modularity](modularity/INDEX.md) - 15 object(s).
-- [Performance](performance/INDEX.md) - 5 object(s).
+- [Performance](performance/INDEX.md) - 12 object(s).
 - [Problem Solving](problem-solving/INDEX.md) - 13 object(s).
 - [Readability](readability/INDEX.md) - 31 object(s).
 - [Refactoring](refactoring/INDEX.md) - 11 object(s).
