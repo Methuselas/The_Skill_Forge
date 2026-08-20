@@ -4,7 +4,8 @@
 
 ## Objects
 
+- [Consider Emplacement Where It Can Actually Help](PAT_consider_emplacement_where_it_can_actually_help.md) - pattern; 3 rough. Tags: avoiding_surprises, containers, cpp, exception_safety, performance.
 - [Pass a Smart Pointer Only to Transfer Ownership](PAT_pass_a_smart_pointer_only_to_transfer_ownership.md) - pattern; 0 design. Tags: cpp, ownership, parameter_passing, performance, smart_pointers.
+- [Pass by Value Only When All Four Conditions Hold](PAT_pass_by_value_only_when_all_four_conditions_hold.md) - pattern; 2 block. Tags: class_design, cpp, move_semantics, parameter_passing, performance.
 - [Prefer Pass-by-Reference-to-const to Pass-by-Value](PAT_prefer_pass_by_reference_to_const.md) - pattern; 3 rough. Tags: cpp, efficiency, parameter_passing, slicing.
-  - Variants: `Take By Value and Move From the Parameter` (constraint).
 - [Return by Value When You Must Return a New Object](PAT_return_by_value_when_returning_new_object.md) - pattern; 3 rough. Tags: cpp, parameter_passing, return_values, undefined_behavior.

@@ -24,7 +24,7 @@
 - [Move Semantics](move-semantics/INDEX.md) - 3 object(s).
 - [Operators](operators/INDEX.md) - 1 object(s).
 - [Optimization](optimization/INDEX.md) - 2 object(s).
-- [Parameter Passing](parameter-passing/INDEX.md) - 3 object(s).
+- [Parameter Passing](parameter-passing/INDEX.md) - 5 object(s).
 - [Preprocessor](preprocessor/INDEX.md) - 2 object(s).
 - [Resource Management](resource-management/INDEX.md) - 7 object(s).
 - [Swap](swap/INDEX.md) - 2 object(s).
