@@ -4,4 +4,5 @@
 
 ## Objects
 
+- [Control Irony to Preserve Reader Trust](PAT_control_irony_to_preserve_reader_trust.md) - pattern; 3 rough. Tags: creative_writing, irony, reader_response, revision, tone.
 - [Make Nonstandard Language a Deliberate Craft Choice](PAT_make_nonstandard_language_a_deliberate_craft_choice.md) - pattern; 3 rough. Tags: dialect, grammar, language, multilingual_writing, voice.
