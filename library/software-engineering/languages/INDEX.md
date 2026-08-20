@@ -4,4 +4,4 @@
 
 ## Topics
 
-- [Cpp](cpp/INDEX.md) - 102 object(s).
+- [Cpp](cpp/INDEX.md) - 105 object(s).

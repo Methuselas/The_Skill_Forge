@@ -5,3 +5,6 @@
 ## Objects
 
 - [Choose the Execution Policy the Loop Body Can Survive](PAT_choose_the_execution_policy_the_loop_body_can_survive.md) - pattern; 4 final. Tags: algorithms, concurrency, cpp, parallelism, performance.
+- [Keep volatile and atomic Apart](PAT_keep_volatile_and_atomic_apart.md) - pattern; 2 block. Tags: atomics, avoiding_surprises, concurrency, correctness, cpp.
+- [Make Threads Unjoinable on Every Path](PAT_make_threads_unjoinable_on_every_path.md) - pattern; 2 block. Tags: concurrency, cpp, lifecycle, resource_management, threading.
+- [Specify the Launch Policy When Asynchrony Is Required](PAT_specify_the_launch_policy_when_asynchrony_is_required.md) - pattern; 2 block. Tags: api_design, avoiding_surprises, concurrency, cpp, threading.
