@@ -19,6 +19,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Spend Computation to Buy Sequential Access
 - **Make the Benchmarked Work Observable** — read first
   - then: Locate a Performance Bottleneck by Measurement
+- **Name the Binding Constraint Before Choosing a Remedy** — read first
+  - then: Tune a Measured Bottleneck
 - **Name the Metric Before You Call It Fast** — read first
   - then: Tune a Measured Bottleneck
 - **Read a Profile as a Statement About Machine Code** — read first
@@ -45,6 +47,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Look for Hot Data When There Is No Hot Code](PAT_look_for_hot_data_when_there_is_no_hot_code.md) - pattern; 4 final. Tags: caching, diagnosis, memory, performance, profiling.
 - [Make the Benchmarked Work Observable](PAT_make_benchmarked_work_observable.md) - pattern; 4 final. Tags: benchmarking, compilers, measurement, optimization, performance.
 - [Model the Design Before There Is Code to Measure](PAT_model_the_design_before_there_is_code_to_measure.md) - pattern; 0 design. Tags: benchmarking, design, estimation, measurement, performance.
+- [Name the Binding Constraint Before Choosing a Remedy](PAT_name_the_binding_constraint_before_choosing_a_remedy.md) - pattern; 4 final. Tags: diagnosis, hardware, measurement, performance, tuning.
 - [Name the Metric Before You Call It Fast](PAT_name_the_performance_metric_before_you_optimize.md) - pattern; 0 design. Tags: measurement, metrics, performance, requirements, trade_offs.
 - [Optimize for What the Compiler Can Prove](PAT_optimize_for_what_the_compiler_can_prove.md) - pattern; 4 final. Tags: compilers, design, optimization, performance, tuning.
 - [Read a Profile as a Statement About Machine Code](PAT_read_a_profile_as_a_statement_about_machine_code.md) - pattern; 4 final. Tags: compilers, diagnosis, measurement, performance, profiling.

@@ -118,6 +118,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Handle Enums Exhaustively So New Values Fail Loudly
   - then: Make Critical Inputs Required Rather Than Silently No-Op
   - then: Use the Null Object Pattern Only When the Empty Value Can't Surprise
+- **Name the Binding Constraint Before Choosing a Remedy** — read first
+  - then: Tune a Measured Bottleneck
 - **Name the Metric Before You Call It Fast** — read first
   - then: Tune a Measured Bottleneck
 - **Name the Operations the Thing Supports Before Choosing How to Store It** — read first
@@ -161,5 +163,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Foundations](core/INDEX.md) - 345 object(s).
+- [Foundations](core/INDEX.md) - 346 object(s).
 - [Languages](languages/INDEX.md) - 87 object(s).
