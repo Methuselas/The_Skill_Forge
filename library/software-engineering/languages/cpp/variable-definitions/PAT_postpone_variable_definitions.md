@@ -41,6 +41,7 @@ variants: []
 - Define the variable only after any early-exit checks, such as a length test that throws, so an exception before that point costs no construction or destruction.
 - Initialize it with its real value in the definition (copy-construct from that value) instead of default-constructing and assigning afterward.
 - For a variable used only inside a loop, define it inside the loop unless assignment is cheaper than a constructor-destructor pair and the loop is performance-critical.
+- Declare it `auto` where its type comes from the initializer, and this rule stops depending on your discipline. An `auto` variable with no initializer does not compile, so the definition cannot be separated from the initialization even by accident.
 
 ## Don't
 - Don't define a variable at the top of a function out of habit; if a later throw skips its use, you paid for its construction and destruction for nothing.
