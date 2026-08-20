@@ -34,6 +34,13 @@ variants:
     when_to_use: Lineation or rhyme may be making awkward syntax feel intentional, or the writer cannot tell whether a sentence remains controlled apart from the poem's page shape.
     when_not_to_use: The syntax is intentionally fragmentary and has already been tested as a controlled departure, so prose reflow would misrepresent rather than diagnose its operation.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_read_dialogue_aloud_for_spoken_authenticity
+    variant_name: Read Dialogue Aloud for Spoken Authenticity
+    variant_basis: context
+    difference_from_foundation: Voice only the spoken lines, preferably with another reader, and diagnose false formality, unspeakable rhythm, and unclear speaker identity before revising the exchange.
+    when_to_use: A fiction scene sounds natural in the writer's imagination but may be too polished, phony, rhythmically inert, or hard to assign on the page.
+    when_not_to_use: The passage contains no represented speech, or deliberately stylized dialogue has already passed an oral test for its intended effect.
+    absorbed_from_object_id: none
 ---
 
 # Read a Draft Aloud to Defamiliarize It
@@ -61,3 +68,5 @@ variants:
 Sound makes familiar writing temporarily unfamiliar. A listener can intensify that shift because the writer begins to encounter the words through another person's attention, but an audience is not required. The value lies in hearing what the page actually produces rather than relying only on the writer's memory of what it means.
 
 `writing_poetry_variant_reflow_lines_as_prose_to_test_syntax` removes poetic line breaks before the reading so sentences must stand without visual or sonic cover. Use it when rhyme or lineation may be hiding inverted, awkward, or incomplete syntax; retain a deliberate fragment when the reflow confirms that its disruption performs a controlled effect rather than an accidental error.
+
+`writing_fiction_variant_read_dialogue_aloud_for_spoken_authenticity` narrows the reading to represented speech. Voice the lines or give them to another reader, then mark false formality, rhythms the mouth resists, and turns whose speaker cannot be identified without private knowledge. Use the test to rough up contractions and fragments where needed, not to normalize deliberate stylization.
