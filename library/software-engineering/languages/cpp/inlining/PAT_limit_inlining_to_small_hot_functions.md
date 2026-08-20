@@ -38,6 +38,8 @@ variants: []
 ## Do
 - Inline trivial, hot functions such as a one-line accessor; start by inlining almost nothing and add it later as a deliberate, measured optimization.
 - Keep inline off library functions whose bodies may change, so clients can relink instead of recompiling.
+- Weigh what inlining buys the optimizer, not just what it saves on the call. Removing the call sequence is the smallest benefit. The larger one is that the compiler can then see what the function does *not* do — that it touches no globals, changes no arguments — and so is free to optimize across what was previously an opaque call. A destructor loop over a container of a trivially destructible type disappears entirely when the element's destructor is visible, and costs one call per element when it is defined in another translation unit.
+- Give the compiler a call site with only one possible target when you want an indirect call inlined. Passing a function to an algorithm by name leaves the target a runtime pointer value that many instantiations could share; wrapping the same call in a lambda gives the instantiation a unique type, so there is exactly one target and inlining becomes straightforward — an extra layer of indirection in the source that removes one in the object code.
 
 ## Don't
 - Don't declare a function template inline merely because it lives in a header; template placement and the inlining decision are independent.
@@ -50,3 +52,16 @@ variants: []
 
 ## Notes
 inline is a request the compiler may ignore, and it rarely inlines loops, recursion, or virtual calls. The costs are code bloat (worse instruction-cache behavior), debuggers that cannot step into an absent function, and binary fragility: a change to an inline library function forces clients to recompile, not just relink. Constructors and destructors hide generated construction/destruction code, so they inline larger than they appear. Follow the 80-20 rule and inline only the small, hot functions that matter.
+
+The reason inlining matters to the optimizer more than to the call sequence is worth holding
+onto, because it explains which non-inlined calls are expensive. Most compiler optimizations
+operate within a region of code with one entry and one exit, and a call the compiler cannot
+see into ends that region: everything reachable must be assumed modified, every value held
+in a register must be assumed stale. Inlining enlarges the region. It also produces a copy of
+the body specialized to this call site, where facts that do not hold for the function in general
+may hold here — which is a second source of gains that has nothing to do with call overhead.
+
+That cuts both ways and is the reason the guidance above is a limit rather than an
+encouragement. A larger region is also more code for the optimizer to analyze within a finite
+budget, so inlining everything degrades optimization as surely as inlining nothing. The
+resolution is the one this card already states: a small number of small, hot functions.

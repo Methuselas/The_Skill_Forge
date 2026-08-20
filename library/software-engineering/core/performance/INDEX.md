@@ -45,6 +45,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Look for Hot Data When There Is No Hot Code](PAT_look_for_hot_data_when_there_is_no_hot_code.md) - pattern; 4 final. Tags: caching, diagnosis, memory, performance, profiling.
 - [Make the Benchmarked Work Observable](PAT_make_benchmarked_work_observable.md) - pattern; 4 final. Tags: benchmarking, compilers, measurement, optimization, performance.
 - [Name the Metric Before You Call It Fast](PAT_name_the_performance_metric_before_you_optimize.md) - pattern; 0 design. Tags: measurement, metrics, performance, requirements, trade_offs.
+- [Optimize for What the Compiler Can Prove](PAT_optimize_for_what_the_compiler_can_prove.md) - pattern; 4 final. Tags: compilers, design, optimization, performance, tuning.
 - [Read a Profile as a Statement About Machine Code](PAT_read_a_profile_as_a_statement_about_machine_code.md) - pattern; 4 final. Tags: compilers, diagnosis, measurement, performance, profiling.
 - [Read Wall, CPU, and Thread Time Together](PAT_read_wall_cpu_and_thread_time_together.md) - pattern; 4 final. Tags: benchmarking, concurrency, diagnosis, measurement, performance.
 - [Reproduce the Real Context Before Believing a Micro-Benchmark](PAT_reproduce_the_real_context_before_believing_a_microbenchmark.md) - pattern; 4 final. Tags: benchmarking, measurement, optimization, performance, validity.
