@@ -1,0 +1,3 @@
+name: writing/poetry
+requires:
+  - writing/foundations
