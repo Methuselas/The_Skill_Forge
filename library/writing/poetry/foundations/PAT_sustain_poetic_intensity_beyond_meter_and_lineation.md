@@ -23,7 +23,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_poetry_variant_build_prose_poem_through_sentence_music
+    variant_name: Build a Prose Poem Through Sentence Music
+    variant_basis: medium
+    difference_from_foundation: Remove poetic line breaks and concentrate the poem's organization in compact sentences shaped by natural-speech rhythm, metaphor, imagery, unusual sound, and syntactic pressure.
+    when_to_use: The poem needs prose continuity, hybrid or experimental movement, or content that gains risk and surprise when the sentence replaces the line as its basic unit.
+    when_not_to_use: Line endings perform necessary pacing, emphasis, or visual work, or the paragraph remains ordinary narrative prose with only a poetic label.
+    absorbed_from_object_id: none
 ---
 
 # Sustain Poetic Intensity Beyond Meter and Lineation
@@ -51,3 +58,5 @@ variants: []
 
 ## Notes
 Poetry is broader than metrical verse. A poem may use inherited form, free verse, or prose, but each mode still needs language whose concentration and patterned energy distinguish it from merely reformatted prose.
+
+`writing_poetry_variant_build_prose_poem_through_sentence_music` makes the sentence carry work that lineation would otherwise perform. Use compactness, metaphor, image, unconventional sound, and the rhythm of natural speech to sustain pressure across the paragraph; exploratory or surreal content still needs careful sentence craft. The method is a poor fit when line breaks are indispensable or when uncharged exposition is being relabeled rather than transformed.

@@ -41,6 +41,13 @@ variants:
     when_to_use: Pressure to sound poetic is obscuring what the draft is trying to express, while a merely clear version would still lack concentrated and individual language.
     when_not_to_use: Clarifying too early would close a productive discovery process, or later strangeness would become arbitrary novelty instead of a more exact expression.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_audition_alternate_form_for_same_material
+    variant_name: Audition an Alternate Form for the Same Material
+    variant_basis: method_sequence
+    difference_from_foundation: Recast the poem's governing material in a different inherited form and compare which constraint generates stronger language, movement, and discovery before committing to either version.
+    when_to_use: The current form is dragging down the content, but the material may benefit from a different pattern of repetition, stanza, rhyme, or turn rather than from abandoning form altogether.
+    when_not_to_use: The existing structure already propels the poem, or rewriting into another form would consume effort without testing a named mismatch.
+    absorbed_from_object_id: none
 ---
 
 # Revise the Whole Draft Toward Its Intended Form
@@ -72,3 +79,5 @@ Experienced writers approach redrafting holistically and recursively. Discovery 
 `writing_poetry_variant_release_prescribed_meter_that_no_longer_fits` tests a constrained poem by recasting it in free verse when meter or rhyme has stopped serving the emerging work. Use the comparison to release mere formality while preserving any formal elements that still carry useful energy; do not discard a constraint that remains essential or required.
 
 `writing_poetry_variant_compose_toward_clarity_then_revise_toward_strangeness` separates two pressures that can interfere when applied simultaneously. The early pass gets close enough to the intended thought or emotion to establish a target; later passes remove verbiage and received phrasing and search for language shaped by the writer's particular perception. Use the sequence to prevent premature performance of poetic style, but do not let clarity flatten ambiguity that the drafting process still needs to explore.
+
+`writing_poetry_variant_audition_alternate_form_for_same_material` diagnoses a form-content mismatch by giving the same material a different inherited pressure. Compare what each version discovers, distorts, or leaves inert; keep the form that propels the poem rather than the one that merely preserves prior effort. Use the existing free-verse recast when the evidence points away from prescribed structure altogether.
