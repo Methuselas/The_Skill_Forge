@@ -48,6 +48,13 @@ variants:
     when_to_use: The current form is dragging down the content, but the material may benefit from a different pattern of repetition, stanza, rhyme, or turn rather than from abandoning form altogether.
     when_not_to_use: The existing structure already propels the poem, or rewriting into another form would consume effort without testing a named mismatch.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_redesign_structure_after_draft_discovery
+    variant_name: Redesign Fiction Structure After Draft Discovery
+    variant_basis: method_sequence
+    difference_from_foundation: Treat the first draft as evidence about the story's actual center, then replace the planned chronology, opening, conflict sequence, or ending when discovery has made the initial design into a maze.
+    when_to_use: Drafting reveals a more consequential event, relation, or turn than the outline anticipated, or the planned sequence blocks movement toward the emerging story.
+    when_not_to_use: The structure already carries the discovered material and the difficulty is local execution rather than global design.
+    absorbed_from_object_id: none
 ---
 
 # Revise the Whole Draft Toward Its Intended Form
@@ -81,3 +88,5 @@ Experienced writers approach redrafting holistically and recursively. Discovery 
 `writing_poetry_variant_compose_toward_clarity_then_revise_toward_strangeness` separates two pressures that can interfere when applied simultaneously. The early pass gets close enough to the intended thought or emotion to establish a target; later passes remove verbiage and received phrasing and search for language shaped by the writer's particular perception. Use the sequence to prevent premature performance of poetic style, but do not let clarity flatten ambiguity that the drafting process still needs to explore.
 
 `writing_poetry_variant_audition_alternate_form_for_same_material` diagnoses a form-content mismatch by giving the same material a different inherited pressure. Compare what each version discovers, distorts, or leaves inert; keep the form that propels the poem rather than the one that merely preserves prior effort. Use the existing free-verse recast when the evidence points away from prescribed structure altogether.
+
+`writing_fiction_variant_redesign_structure_after_draft_discovery` treats an outline as a working route rather than a contract. Use the completed first draft to locate the story's true center, then knock down structural walls by changing where the narrative begins, which events cause later ones, how time is arranged, or where the ending falls. Do not invoke a global redesign when the sequence remains sound and only a scene, transition, or sentence needs repair.

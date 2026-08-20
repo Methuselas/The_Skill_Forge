@@ -4,6 +4,6 @@
 
 ## Topics
 
-- [Fiction](fiction/INDEX.md) - 2 object(s).
+- [Fiction](fiction/INDEX.md) - 8 object(s).
 - [Foundations](foundations/INDEX.md) - 16 object(s).
 - [Poetry](poetry/INDEX.md) - 27 object(s).
