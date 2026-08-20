@@ -18,6 +18,7 @@
 - [Initialization](initialization/INDEX.md) - 5 object(s).
 - [Inlining](inlining/INDEX.md) - 1 object(s).
 - [Interface Design](interface-design/INDEX.md) - 3 object(s).
+- [Lambdas](lambdas/INDEX.md) - 2 object(s).
 - [Memory Management](memory-management/INDEX.md) - 10 object(s).
 - [Metaprogramming](metaprogramming/INDEX.md) - 1 object(s).
 - [Move Semantics](move-semantics/INDEX.md) - 3 object(s).
