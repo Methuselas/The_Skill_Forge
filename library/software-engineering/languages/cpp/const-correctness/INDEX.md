@@ -7,5 +7,6 @@
 - [Apply const Wherever a Value Should Not Change](PAT_apply_const_to_lock_invariants.md) - pattern; 3 rough. Tags: const, cpp, immutability, pointers.
 - [Implement the Non-const Overload in Terms of the const One](PAT_avoid_const_duplication_via_const_delegation.md) - pattern; 3 rough. Tags: casting, const, cpp, member_functions.
 - [Make a C++ Class Fully const-Correct](DRILL_add_const_correctness_to_a_class.md) - drill; 3 rough. Tags: const, cpp, member_functions, mutable.
+- [Make const Member Functions Thread Safe](PAT_make_const_member_functions_thread_safe.md) - pattern; 2 block. Tags: class_design, concurrency, const_correctness, cpp, threading.
 - [Make Member Functions const for Logical, Not Bitwise, Constness](PAT_use_logical_constness_with_mutable.md) - pattern; 2 block. Tags: const, cpp, member_functions, mutable.
 - [Return by const Value to Block Accidental Assignment](PAT_return_by_const_value_to_block_assignment.md) - pattern; 2 block. Tags: const, cpp, interface_design, operator_overloading.

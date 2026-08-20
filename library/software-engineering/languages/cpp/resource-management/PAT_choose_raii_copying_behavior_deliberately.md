@@ -20,7 +20,7 @@ tags:
 - resource_management
 cross_links:
 - rel: related_to
-  target_object_id: PAT_suppress_copying_with_private_undefined_or_uncopyable
+  target_object_id: PAT_delete_the_functions_you_want_to_forbid
 - rel: related_to
   target_object_id: PAT_manage_resources_with_raii_objects
 reference:

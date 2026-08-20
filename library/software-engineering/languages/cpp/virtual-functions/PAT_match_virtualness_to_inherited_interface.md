@@ -41,6 +41,7 @@ variants: []
 - Declare a pure virtual function when derived classes must supply their own implementation and the base has no sensible default (Shape::draw).
 - Declare a simple virtual function when there is a reasonable default derived classes may override (Shape::error).
 - Declare a non-virtual function when the behavior is an invariant over specialization that no derived class should change (Shape::objectID).
+- Mark every function you intend as an override with the `override` keyword, and let the compiler check that it is one. Overriding requires the base function to be virtual and the names, parameter types, constness, return types, exception specifications, and — since C++11 — reference qualifiers all to match. Miss any one and you have silently declared a new function that the base interface will never call; the keyword turns that into a compile error.
 
 ## Don't
 - Don't give a simple virtual both an interface and a silently-inherited default when forgetting to override is dangerous; sever them — make it pure virtual and offer the default as a separate protected `defaultFly`, or as a definition of the pure virtual that derived classes call explicitly — so a new ModelC cannot inherit the wrong behavior by accident.

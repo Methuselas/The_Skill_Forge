@@ -22,7 +22,7 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_copy_all_members_and_base_parts
 - rel: related_to
-  target_object_id: PAT_suppress_copying_with_private_undefined_or_uncopyable
+  target_object_id: PAT_delete_the_functions_you_want_to_forbid
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

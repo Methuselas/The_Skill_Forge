@@ -7,15 +7,15 @@
 - [Casting](casting/INDEX.md) - 2 object(s).
 - [Compilation Dependencies](compilation-dependencies/INDEX.md) - 2 object(s).
 - [Concurrency](concurrency/INDEX.md) - 1 object(s).
-- [Const Correctness](const-correctness/INDEX.md) - 5 object(s).
+- [Const Correctness](const-correctness/INDEX.md) - 6 object(s).
 - [Construction](construction/INDEX.md) - 1 object(s).
-- [Copy Control](copy-control/INDEX.md) - 8 object(s).
+- [Copy Control](copy-control/INDEX.md) - 9 object(s).
 - [Destructors](destructors/INDEX.md) - 2 object(s).
 - [Encapsulation](encapsulation/INDEX.md) - 3 object(s).
 - [Exception Safety](exception-safety/INDEX.md) - 3 object(s).
-- [Foundations](foundations/INDEX.md) - 1 object(s).
+- [Foundations](foundations/INDEX.md) - 3 object(s).
 - [Inheritance](inheritance/INDEX.md) - 6 object(s).
-- [Initialization](initialization/INDEX.md) - 4 object(s).
+- [Initialization](initialization/INDEX.md) - 5 object(s).
 - [Inlining](inlining/INDEX.md) - 1 object(s).
 - [Interface Design](interface-design/INDEX.md) - 3 object(s).
 - [Memory Management](memory-management/INDEX.md) - 10 object(s).
