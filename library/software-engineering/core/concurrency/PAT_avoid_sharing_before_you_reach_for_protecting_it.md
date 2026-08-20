@@ -55,6 +55,7 @@ variants: []
 - Don't leave data shared because copying it seems wasteful. That trade is usually assumed rather than measured, and the guarding it avoids has costs in contention and in the faults it fails to prevent.
 - Don't spread the protective logic across the callers. Duplicated guarding drifts out of step, and the site that drifts is the one nobody was looking at.
 - Don't assume a portion is independent because it looks independent. Shared connections, pools, caches, and logs are easy to overlook and are shared by every thread that touches them.
+- Don't expect the guarded portion to get faster with more threads. It cannot: the best case for concurrent access to shared data is single-threaded speed, and measurement shows it going the other way — an atomic increment of a shared counter took *longer* on two threads than on one, and a mutex-guarded increment degraded faster still.
 
 ## Checklist
 - Can this data be divided so each thread works on a portion nobody else touches?
@@ -70,3 +71,5 @@ The ordering matters because the two approaches differ enormously in what they d
 The copying trade is worth stating plainly because it is habitually judged wrong. Creating extra objects looks wasteful in a way that is easy to see, while the cost of the guarding avoided is spread across contention, blocked threads, and the faults that eventually escape — none of which appears at the point of decision. Where copying removes the need to guard at all, it frequently wins outright, and the recommendation is not to assume that in either direction but to treat it as measurable, because it is.
 
 Concentrating whatever remains shared is the second-best outcome and deserves as much attention as the first. The number of sites that touch shared data drives everything difficult about it: the chance of an unguarded one, the effort of keeping the protective logic consistent, and the size of the search when a value turns out wrong. A design where one component owns the shared state and exposes operations that are correct by construction converts a rule every caller must remember into a property the callers cannot break, which is the same move that makes any other invariant survive contact with people who did not write it.
+
+The price of the guarding this card asks you to avoid has been measured, and it is worth carrying as a number rather than an intuition. A mutex-guarded increment cost around twenty-three nanoseconds against seven for an atomic one, on a single thread with no contention at all — before any of the scaling behaviour above. Whatever fraction of a program runs inside that guarded region is a fraction that additional threads cannot speed up, which is the concurrency version of the sequential-remainder ceiling.

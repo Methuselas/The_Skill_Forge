@@ -41,6 +41,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Inject Dependencies Instead of Hard-Coding Them
   - then: Make Each Class Care About Itself
   - then: Prefer Composition Over Class Inheritance
+- **Confirm a Branch Is Mispredicted Before Optimizing It** — read first
+  - then: Trade a Branch for Unconditional Work
 - **Decompose a Problem Into Clean Layers of Abstraction** — read first
   - then: Don't Widen the Public API Just to Reuse or Test Internals
   - then: Expose a Clean API and Hide Implementation Details
@@ -95,6 +97,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Write Code That Reads Like a Well-Structured Recipe
 - **Let Measurement Decide What to Tune, Never Intuition** — read first
   - then: Tune a Measured Bottleneck
+- **Locate the Working Set on the Memory Hierarchy** — read first
+  - then: Choose the Data Structure for the Dominant Access Pattern
+  - then: Spend Computation to Buy Sequential Access
 - **Make the Benchmarked Work Observable** — read first
   - then: Locate a Performance Bottleneck by Measurement
 - **Make Wrong Usage Hard or Impossible** — read first
@@ -160,7 +165,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Avoiding Surprises](avoiding-surprises/INDEX.md) - 11 object(s).
 - [Code Comprehension](code-comprehension/INDEX.md) - 23 object(s).
 - [Code Quality](code-quality/INDEX.md) - 15 object(s).
-- [Concurrency](concurrency/INDEX.md) - 12 object(s).
+- [Concurrency](concurrency/INDEX.md) - 14 object(s).
 - [Contracts](contracts/INDEX.md) - 9 object(s).
 - [Control Flow](control-flow/INDEX.md) - 13 object(s).
 - [Data Types](data-types/INDEX.md) - 3 object(s).
@@ -170,7 +175,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Error Handling](error-handling/INDEX.md) - 20 object(s).
 - [Hard To Misuse](hard-to-misuse/INDEX.md) - 12 object(s).
 - [Modularity](modularity/INDEX.md) - 15 object(s).
-- [Performance](performance/INDEX.md) - 12 object(s).
+- [Performance](performance/INDEX.md) - 21 object(s).
 - [Problem Solving](problem-solving/INDEX.md) - 13 object(s).
 - [Readability](readability/INDEX.md) - 31 object(s).
 - [Refactoring](refactoring/INDEX.md) - 11 object(s).

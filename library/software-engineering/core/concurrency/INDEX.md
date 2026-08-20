@@ -13,6 +13,8 @@
 - [Lock the Smallest Region That Must Be Atomic](PAT_lock_the_smallest_region_that_must_be_atomic.md) - pattern; 2 block. Tags: concurrency, contention, locking, performance, threading.
 - [Match the Problem to a Known Coordination Shape](PAT_match_the_problem_to_a_known_coordination_shape.md) - pattern; 0 design. Tags: concurrency, design, patterns, starvation, threading.
 - [Run Threaded Code Under Conditions Built to Break It](PAT_run_threaded_code_under_conditions_built_to_break_it.md) - pattern; 3 rough. Tags: concurrency, defects, test_design, testing, threading.
+- [Separate Per-Thread Data by a Full Cache Line](PAT_separate_per_thread_data_by_a_cache_line.md) - pattern; 4 final. Tags: concurrency, memory, performance, shared_state, threading.
 - [Treat a Failure You Cannot Reproduce as a Defect](PAT_treat_an_unreproducible_failure_as_a_defect.md) - pattern; 4 final. Tags: concurrency, defects, diagnosis, testing, threading.
 - [Two Atomic Operations Are Not One Atomic Operation](PAT_atomic_steps_do_not_compose_into_a_safe_whole.md) - pattern; 0 design. Tags: atomicity, concurrency, correctness, invariants, threading.
+- [Weaken a Memory Order Only Against a Measurement](PAT_weaken_a_memory_order_only_against_a_measurement.md) - pattern; 4 final. Tags: concurrency, correctness, memory_order, performance, threading.
 - [Work Out How It Stops Before You Build How It Runs](PAT_plan_the_shutdown_early.md) - pattern; 0 design. Tags: concurrency, deadlock, design, lifecycle, threading.

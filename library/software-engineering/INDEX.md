@@ -41,6 +41,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Inject Dependencies Instead of Hard-Coding Them
   - then: Make Each Class Care About Itself
   - then: Prefer Composition Over Class Inheritance
+- **Confirm a Branch Is Mispredicted Before Optimizing It** — read first
+  - then: Trade a Branch for Unconditional Work
 - **Decompose a Problem Into Clean Layers of Abstraction** — read first
   - then: Don't Widen the Public API Just to Reuse or Test Internals
   - then: Expose a Clean API and Hide Implementation Details
@@ -95,6 +97,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Write Code That Reads Like a Well-Structured Recipe
 - **Let Measurement Decide What to Tune, Never Intuition** — read first
   - then: Tune a Measured Bottleneck
+- **Locate the Working Set on the Memory Hierarchy** — read first
+  - then: Choose the Data Structure for the Dominant Access Pattern
+  - then: Spend Computation to Buy Sequential Access
 - **Make the Benchmarked Work Observable** — read first
   - then: Locate a Performance Bottleneck by Measurement
 - **Make Wrong Usage Hard or Impossible** — read first
@@ -156,5 +161,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Foundations](core/INDEX.md) - 319 object(s).
+- [Foundations](core/INDEX.md) - 330 object(s).
 - [Languages](languages/INDEX.md) - 80 object(s).
