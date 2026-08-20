@@ -33,6 +33,21 @@ variants:
   when_to_use: When the contract check is expensive enough to matter for performance, or when availability in production matters more than catching the breach at runtime, or when the language's assertion syntax is cleaner and the team keeps assertions on in release.
   when_not_to_use: When the breach must be caught in production too; a compiled-out assertion gives no protection in the wild, so prefer an always-on check there.
   absorbed_from_object_id: none
+- variant_id: VAR_separate_validator
+  variant_name: Ship the Check as a Separate Validation Pass
+  variant_basis: constraint
+  difference_from_foundation: The precondition is documented rather than enforced in
+    the operation, and the check is provided as a separate tool or an optional mode
+    the caller runs when they want it, instead of running on every call.
+  when_to_use: Validating the input costs as much as, or more than, doing the work —
+    which happens when confirming validity requires the same search the computation
+    performs. Callers who supply valid input then pay nothing, and callers who are
+    unsure have a way to find out.
+  when_not_to_use: The check is cheap relative to the operation, or a breach is
+    dangerous rather than merely wrong. A documented precondition nobody validates
+    is only acceptable where the consequence of violating it is a wrong answer the
+    caller asked for.
+  absorbed_from_object_id: none
 ---
 
 # Enforce Contracts at Runtime With Loud Checks
@@ -67,3 +82,20 @@ Whether a never-happens check should *ship* is genuinely contested, and the case
 The other way an assertion can betray you is by having a side effect. A check that advances an iterator, consumes a stream, or mutates a counter changes the run it was supposed to observe, so the program behaves differently with checking on than off — and the version you tested is not the version you shipped. Read the condition as something that must be free to be evaluated any number of times, or not at all.
 
 McConnell's framing of assertions as executable documentation is what makes them worth the effort beyond the check itself. They record assumptions more actively than a comment does — a parameter within range, a stream open or at its start, a pointer non-null, a container with capacity, a fast routine's result matching a slow clear one — while never being something the working code may rely on.
+
+There is a third position between checking every call and leaving a precondition implicit, and
+it is the right one when validation is genuinely expensive. The variant `VAR_separate_validator`
+documents the precondition, does not enforce it in the operation, and ships the check as
+something the caller can run when they choose. The case that forces it is where confirming
+the input is valid costs as much as using it: a routine that stops searching as soon as it has
+what it needs cannot also prove that nothing else was there, and being made to prove it can
+double the run time. Users who supply correct input — usually most of them — would be paying
+that permanently to catch a mistake they do not make.
+
+Two obligations come with taking that route. The contract must be written down precisely
+enough that a caller can tell whether they satisfy it, including exactly which inputs leave the
+behaviour unspecified. And any breach that *is* cheap to detect should still be caught, since a
+broader contract is worth more than a narrow one and the argument here is only about the
+checks that are expensive. Offering the validator as a tool rather than only publishing the
+rules is what makes the arrangement fair to the caller who cannot tell which side of the line
+they are on.

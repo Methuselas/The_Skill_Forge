@@ -28,5 +28,6 @@
 - [Swap](swap/INDEX.md) - 2 object(s).
 - [Templates](templates/INDEX.md) - 7 object(s).
 - [Traits](traits/INDEX.md) - 2 object(s).
+- [Undefined Behavior](undefined-behavior/INDEX.md) - 2 object(s).
 - [Variable Definitions](variable-definitions/INDEX.md) - 1 object(s).
 - [Virtual Functions](virtual-functions/INDEX.md) - 7 object(s).

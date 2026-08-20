@@ -54,6 +54,7 @@ variants: []
 - Don't expect a helpful name or a comment to establish non-aliasing. The compiler compiles the function for all callers, including one that passes the same object twice.
 - Don't apply it outside measured hot code. Each of these is a small transformation with a small readability cost, and doing it everywhere buys nothing while making the code noisier.
 - Don't assume the non-standard aliasing keyword means the same thing everywhere. The spellings differ across compilers and so do the details of what is promised, so a build that relies on it needs the assumption stated somewhere a reader will find it.
+- Don't expect `const` on a *parameter* to buy what it buys on a local. A function receiving a reference-to-const may legally cast the const away and modify the object, so the compiler cannot assume the value survives the call — which is precisely why the local copy is the fix rather than adding const to the parameter. The guarantee attaches to an object *declared* const at its creation, because casting const away from one of those is undefined and the compiler may assume it does not happen.
 
 ## Checklist
 - Does this fragment read the same indirect value more than once?
