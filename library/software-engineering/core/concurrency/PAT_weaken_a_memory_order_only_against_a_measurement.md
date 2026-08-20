@@ -49,6 +49,7 @@ variants: []
 - Take the ordering that locks already give you rather than reinventing it. Acquiring a lock is an acquire operation and releasing it is a release operation, so a critical section is a membrane that outside work can enter but nothing inside can leave — everything one thread did before its critical section is visible to another thread after its own.
 - Run the weakened version under a race detector, and run it on more than one architecture if it will ship on more than one. Tooling of the thread-sanitizer kind is what finds an ordering bug that the hardware is hiding.
 - Measure the ordering itself when you suspect it. A benchmark that performs nothing but atomic stores under different orders isolates the cost of the barrier, which is the quantity in question.
+- State the order the protocol actually requires even where it costs nothing to omit. Asking for relaxed order on an x86 atomic increment buys no speed, and it still says which guarantee the code depends on — to the next architecture, and to the next reader, who otherwise has to search for the subtle place that relies on a barrier the code never mentions.
 
 ## Don't
 - Don't reason about which interleavings would go wrong. Unsynchronized access to one location from several threads where at least one writes is undefined behaviour, full stop; whether you can construct a failing sequence is not the test and there is nothing to gain from that line of thought.

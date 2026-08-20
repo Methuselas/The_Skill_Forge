@@ -56,6 +56,7 @@ variants: []
 - Don't assume more cores means faster. Adding computational units changes nothing on its own; something has to be able to use them, and plenty of code cannot.
 - Don't judge the result from a single run. Vary the number of units and the size of the problem separately, because a division that pays at one combination frequently loses at another, and one measurement cannot distinguish the two.
 - Don't reach for this before the cheaper levels have been considered. Restructuring the work, choosing a better algorithm, or fixing how data is accessed are all available first and none of them add coordination cost.
+- Don't count only the obviously sequential code toward that ceiling. Every stretch spent holding a lock or waiting for one belongs in the same fraction, and the arithmetic is unforgiving at scale: on a 256-processor machine, a program that is single-threaded for one 256th of its run time is capped at half the machine's capacity, however well the rest is written.
 
 ## Checklist
 - What fraction of this work can proceed without waiting on another part?
