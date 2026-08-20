@@ -26,7 +26,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_poetry_variant_release_prescribed_meter_that_no_longer_fits
+    variant_name: Release a Prescribed Meter That No Longer Fits
+    variant_basis: constraint
+    difference_from_foundation: Recast a metered or rhymed poem in free verse, retain only the formal elements that remain expressive, and compare whether the new shape better serves its emerging thought and voice.
+    when_to_use: A once-productive pattern has become mere formality, distorts the poem's changing substance, or consumes attention needed by the poem itself.
+    when_not_to_use: The meter remains vital to the poem's effect, still generates discovery, or is a required constraint of the task.
+    absorbed_from_object_id: none
 ---
 
 # Revise the Whole Draft Toward Its Intended Form
@@ -54,3 +61,5 @@ variants: []
 
 ## Notes
 Experienced writers approach redrafting holistically and recursively. Discovery may require moving backward, repeating a decision, or changing something established earlier; messiness is not proof that the process has failed. Context changes which strategy is practical, but not the need to reconsider the work before declaring it finished.
+
+`writing_poetry_variant_release_prescribed_meter_that_no_longer_fits` tests a constrained poem by recasting it in free verse when meter or rhyme has stopped serving the emerging work. Use the comparison to release mere formality while preserving any formal elements that still carry useful energy; do not discard a constraint that remains essential or required.
