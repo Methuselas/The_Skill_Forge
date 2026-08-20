@@ -9,3 +9,4 @@
 - [Foundations](foundations/INDEX.md) - 2 object(s).
 - [Setting](setting/INDEX.md) - 6 object(s).
 - [Structure](structure/INDEX.md) - 6 object(s).
+- [Viewpoint](viewpoint/INDEX.md) - 7 object(s).

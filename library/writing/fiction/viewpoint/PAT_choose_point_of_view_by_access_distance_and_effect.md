@@ -1,0 +1,103 @@
+---
+object_id: writing_fiction_choose_point_of_view_by_access_distance_and_effect
+object_type: pattern
+name: Choose Point of View by Access Distance and Effect
+library_path:
+  - writing
+  - fiction
+  - viewpoint
+stage_binding: 0 design
+lane_fit: skill
+foundation_role: specialization
+routing_class: specialized
+specialization_axis: genre
+foundation_object_id: none
+tags:
+  - fiction
+  - point_of_view
+  - narrator
+  - distance
+  - access
+cross_links:
+  - rel: related_to
+    target_object_id: writing_fiction_filter_setting_through_character_consciousness
+  - rel: related_to
+    target_object_id: writing_fiction_inhabit_unsympathetic_characters_from_inside
+reference:
+  source_title: "Creative Writing: Four Genres in Brief"
+  author: David Starkey
+confidence: high
+references: []
+variants:
+  - variant_id: writing_fiction_variant_use_first_person_for_urgent_subjective_witness
+    variant_name: Use First Person for an Urgent Subjective Witness
+    variant_basis: emphasis
+    difference_from_foundation: Place a participating or witnessing narrator inside the event so immediacy, partial knowledge, personal language, and possible unreliability become structural features.
+    when_to_use: The story gains from one person's authority, urgency, bias, or complicity and can tolerate being locked within that account.
+    when_not_to_use: Essential effects require independent access to several minds or facts the narrator cannot plausibly know.
+    absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_use_first_person_plural_for_community_voice
+    variant_name: Use First Person Plural for a Community Voice
+    variant_basis: emphasis
+    difference_from_foundation: Let a group narrate as we, making collective identity, shared judgment, and the boundary between insiders and outsiders part of the story's action.
+    when_to_use: The community's changing consensus or relation to an individual matters more than one favored protagonist's private account.
+    when_not_to_use: The group cannot plausibly share the stated knowledge or the device only disguises an ordinary singular narrator.
+    absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_use_second_person_for_implication_and_distance
+    variant_name: Use Second Person for Implication and Distance
+    variant_basis: emphasis
+    difference_from_foundation: Address the central figure as you to implicate the reader, reproduce an imperative or spoken-story rhythm, or let a narrator displace shame and responsibility onto a grammatical double.
+    when_to_use: Direct address creates a necessary pressure, ritual, accusation, instruction, or defensive distance.
+    when_not_to_use: The address feels bossy or intrusive without producing an effect the story needs.
+    absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_use_third_person_limited_for_close_flexible_access
+    variant_name: Use Third Person Limited for Close Flexible Access
+    variant_basis: emphasis
+    difference_from_foundation: Filter the story through one character while retaining room to observe that character from outside and to use language more sophisticated than the character would speak.
+    when_to_use: The story needs intimate consciousness plus controlled visual or ironic distance around one focal character.
+    when_not_to_use: The narration repeatedly requires knowledge outside that focal access or the external distance weakens a voice whose confinement is the point.
+    absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_use_omniscient_for_controlled_multi_character_scope
+    variant_name: Use Omniscient for Controlled Multi-Character Scope
+    variant_basis: emphasis
+    difference_from_foundation: Establish an encompassing narrative intelligence that can move across minds, places, and times while maintaining a stable governing voice.
+    when_to_use: The story's essential design depends on comparisons or information no single character can supply and has enough space to establish the transitions.
+    when_not_to_use: A short form would spend more attention managing access shifts than developing the event, or omniscience merely excuses accidental head-hopping.
+    absorbed_from_object_id: none
+---
+
+# Choose Point of View by Access Distance and Effect
+
+## Pattern Rule
+**IF** a fiction project needs a narrator but the default grammatical person has not been tested against the story's required knowledge and reader relation
+**THEN** choose the narrative position whose access, distance, authority, and address create the effects the story needs at the moment it is being told
+
+## Do
+- Ask who has a reason to tell this event now and what that teller can perceive, remember, infer, conceal, or misunderstand.
+- Treat grammatical person as a bundle of permissions and costs rather than as a label chosen for familiarity.
+- Account for form length: a conspicuous collective or roaming voice needs enough space or control to establish how it works.
+- Separate the fictional speaking self from the author so invention can enter even when the narrator says I.
+
+## Don't
+- Choose first person because the material began in autobiography and then deny the narrator any subjectivity.
+- Use we without defining who belongs to the group or how the group possesses its knowledge.
+- Address the reader as you when direct address contributes only novelty or coercion.
+- Call uncontrolled movement between private minds omniscience.
+
+## Checklist
+- The narrator has a credible reason or pressure to tell this event now.
+- The chosen position grants every essential piece of access and withholds something usefully.
+- Reader proximity, implication, or distance supports the intended tone.
+- The voice's conspicuousness is worth the attention it demands.
+- A simpler position would lose a named effect rather than merely change pronouns.
+
+## Notes
+`writing_fiction_variant_use_first_person_for_urgent_subjective_witness` makes a participant or witness's urgency, authority, and distortion inseparable from the story. Use it when confinement to that account creates pressure; do not confuse the fictional I with the author or grant it impossible knowledge.
+
+`writing_fiction_variant_use_first_person_plural_for_community_voice` moves the center of narration into a group's shared identity. It suits stories about consensus, exclusion, or collective fascination, but every claim must remain plausible for the narrating we.
+
+`writing_fiction_variant_use_second_person_for_implication_and_distance` uses you as an active device: invitation, accusation, instruction, oral address, or self-division. Its intensity is useful only when the effect outweighs the risk of making the reader resist being assigned a role.
+
+`writing_fiction_variant_use_third_person_limited_for_close_flexible_access` stays inside one focal consciousness while allowing an over-the-shoulder view and controlled authorial phrasing. Its flexibility increases the writer's obligation to distinguish legitimate outside observation from a leak into another mind.
+
+`writing_fiction_variant_use_omniscient_for_controlled_multi_character_scope` permits deliberate movement across characters and time under one stable narrative intelligence. It carries the greatest access and the greatest management cost, especially in flash fiction, where a limited position often delivers more pressure per sentence.

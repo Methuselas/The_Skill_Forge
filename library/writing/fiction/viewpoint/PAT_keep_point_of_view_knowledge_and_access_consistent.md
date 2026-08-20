@@ -1,0 +1,62 @@
+---
+object_id: writing_fiction_keep_point_of_view_knowledge_and_access_consistent
+object_type: pattern
+name: Keep Point-of-View Knowledge and Access Consistent
+library_path:
+  - writing
+  - fiction
+  - viewpoint
+stage_binding: 2 block
+lane_fit: skill
+foundation_role: specialization
+routing_class: specialized
+specialization_axis: genre
+foundation_object_id: none
+tags:
+  - fiction
+  - point_of_view
+  - knowledge
+  - continuity
+  - head_hopping
+cross_links:
+  - rel: related_to
+    target_object_id: writing_fiction_choose_point_of_view_by_access_distance_and_effect
+  - rel: related_to
+    target_object_id: writing_fiction_filter_setting_through_character_consciousness
+  - rel: related_to
+    target_object_id: writing_flash_fiction_compress_complete_story_without_dead_space
+reference:
+  source_title: "Creative Writing: Four Genres in Brief"
+  author: David Starkey
+confidence: high
+references: []
+variants: []
+---
+
+# Keep Point-of-View Knowledge and Access Consistent
+
+## Pattern Rule
+**IF** narration begins revealing perceptions, facts, or private thoughts beyond the established viewpoint's reach
+**THEN** enforce a stable access boundary or mark and motivate a deliberate transition before using the additional knowledge
+
+## Do
+- Track whether each claim comes from direct perception, memory, inference, report, or an established omniscient intelligence.
+- Keep diction and noticing consistent with the focal character's experience even when third-person prose can exceed that character's spoken vocabulary.
+- Give a viewpoint transition enough formal evidence for readers to relocate before new private knowledge appears.
+- Prefer fewer access changes as the form becomes shorter and each transition consumes a larger share of the story.
+
+## Don't
+- Enter another character's thoughts to solve a local exposition problem.
+- Report an unseen event as fact when the narrator could only guess or learn it later.
+- Alternate pronouns while leaving the narrative source of knowledge unchanged and call that a viewpoint shift.
+- Preserve a dramatic irony that depends on readers knowing information the chosen narrator has accidentally disclosed.
+
+## Checklist
+- Every private thought belongs to the current focal consciousness or an established omniscient voice.
+- Reported facts have a plausible route into the narrator's knowledge.
+- A transition is recognizable before, not after, the first inaccessible detail.
+- Description reflects the active observer's attention and blind spots.
+- Removing an access shift would not improve clarity without sacrificing a necessary effect.
+
+## Notes
+Consistency does not require a story to use only one viewpoint. It requires every change in access to be governed. Longer works can establish several focal positions; short and flash fiction pay a steeper cost because relocation competes directly with development. An apparent break may instead be an inference or a narrator's false belief, but the prose must let readers distinguish that condition from authorial confusion.
