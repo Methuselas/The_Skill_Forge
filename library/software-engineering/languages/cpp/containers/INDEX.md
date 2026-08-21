@@ -5,10 +5,15 @@
 ## Objects
 
 - [Avoid the Packed Bool Specialization](PAT_avoid_the_packed_bool_specialization.md) - pattern; 2 block. Tags: avoiding_surprises, containers, cpp, generic_programming, proxy_types.
+- [Change an Associative Element Without Breaking Its Ordering](PAT_change_an_associative_element_without_breaking_its_ordering.md) - pattern; 2 block. Tags: casting, containers, cpp, invariants, undefined_behavior.
 - [Choose a Container on More Than Algorithmic Complexity](PAT_choose_a_container_on_more_than_algorithmic_complexity.md) - pattern; 0 design. Tags: containers, cpp, data_structures, design, iterator_invalidation.
+- [Choose the Map Update Call That Does Not Construct Twice](PAT_choose_the_map_update_call_that_does_not_construct_twice.md) - pattern; 2 block. Tags: api_design, containers, cpp, efficiency, lookup.
 - [Decide What a Container Holds](PAT_decide_what_a_container_holds.md) - pattern; 0 design. Tags: containers, copy_control, cpp, resource_management, slicing.
 - [Encapsulate the Container Choice Instead of Abstracting Over It](PAT_encapsulate_the_container_choice_instead_of_abstracting_over_it.md) - pattern; 0 design. Tags: abstraction, containers, cpp, design, encapsulation.
+- [Give an Ordered Container a Comparison Type That Is a Strict Weak Ordering](PAT_give_an_ordered_container_a_comparison_type_that_is_a_strict_weak_ordering.md) - pattern; 2 block. Tags: comparison, containers, cpp, invariants, undefined_behavior.
 - [Hand Container Data to a C API as a Pointer and a Count](PAT_hand_container_data_to_a_c_api_as_a_pointer_and_a_count.md) - pattern; 2 block. Tags: containers, cpp, language_interop, legacy_code, undefined_behavior.
 - [Prefer Range Member Functions to Repeated Single-Element Calls](PAT_prefer_range_member_functions_to_repeated_single_element_calls.md) - pattern; 2 block. Tags: algorithms, containers, cpp, efficiency, readability.
 - [Recover the Iterator From Erase Rather Than Advancing It](PAT_recover_the_iterator_from_erase_rather_than_advancing_it.md) - pattern; 2 block. Tags: containers, cpp, idioms, iterator_invalidation, undefined_behavior.
 - [Reserve Capacity Up Front and Release It Deliberately](PAT_reserve_capacity_up_front_and_release_it_deliberately.md) - pattern; 2 block. Tags: containers, cpp, iterator_invalidation, memory_management, performance.
+- [Tell Equality From Equivalence When Looking Up](PAT_tell_equality_from_equivalence_when_looking_up.md) - pattern; 2 block. Tags: avoiding_surprises, comparison, containers, cpp, lookup.
+- [Use a Sorted Sequence When Lookups Dominate](PAT_use_a_sorted_sequence_when_lookups_dominate.md) - pattern; 0 design. Tags: containers, cpp, data_structures, memory, performance.
