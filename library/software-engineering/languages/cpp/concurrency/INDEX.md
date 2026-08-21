@@ -5,8 +5,10 @@
 ## Objects
 
 - [Check an Atomic Is Lock-Free Before Relying on It](PAT_check_an_atomic_is_lock_free_before_relying_on_it.md) - pattern; 2 block. Tags: atomics, concurrency, cpp, lock_free, portability.
+- [Choose a Thread-Safe Initialization Mechanism](PAT_choose_a_thread_safe_initialization_mechanism.md) - pattern; 2 block. Tags: concurrency, cpp, immutability, initialization, threading.
 - [Choose the Compare-Exchange Form by Whether You Loop](PAT_choose_the_compare_exchange_form_by_whether_you_loop.md) - pattern; 2 block. Tags: atomics, concurrency, correctness, cpp, lock_free.
 - [Choose the Execution Policy the Loop Body Can Survive](PAT_choose_the_execution_policy_the_loop_body_can_survive.md) - pattern; 4 final. Tags: algorithms, concurrency, cpp, parallelism, performance.
+- [Don't Call Unknown Code While Holding a Lock](PAT_dont_call_unknown_code_while_holding_a_lock.md) - pattern; 2 block. Tags: concurrency, cpp, deadlock, dependencies, locking.
 - [Keep volatile and atomic Apart](PAT_keep_volatile_and_atomic_apart.md) - pattern; 2 block. Tags: atomics, avoiding_surprises, concurrency, correctness, cpp.
 - [Know When Two Accesses Are a Data Race](PAT_know_when_two_accesses_are_a_data_race.md) - pattern; 0 design. Tags: concurrency, cpp, memory_model, threading, undefined_behavior.
 - [Make Shared-Pointer Atomicity a Property of the Type](PAT_make_shared_pointer_atomicity_a_property_of_the_type.md) - pattern; 2 block. Tags: api_design, atomics, concurrency, cpp, smart_pointers.
@@ -15,4 +17,5 @@
 - [Reach for a Fence Only When No Atomic Carries the Order](PAT_reach_for_a_fence_only_when_no_atomic_carries_the_order.md) - pattern; 2 block. Tags: atomics, concurrency, cpp, memory_model, performance.
 - [Specify a Memory Order the Operation Can Actually Carry](PAT_specify_a_memory_order_the_operation_can_actually_carry.md) - pattern; 2 block. Tags: atomics, avoiding_surprises, concurrency, cpp, memory_model.
 - [Specify the Launch Policy When Asynchrony Is Required](PAT_specify_the_launch_policy_when_asynchrony_is_required.md) - pattern; 2 block. Tags: api_design, avoiding_surprises, concurrency, cpp, threading.
+- [Take the Simplest Lock Type That Does the Job](PAT_take_the_simplest_lock_type_that_does_the_job.md) - pattern; 2 block. Tags: concurrency, cpp, deadlock, locking, raii.
 - [Wrap a Thread Argument That Must Arrive by Reference](PAT_wrap_a_thread_argument_that_must_arrive_by_reference.md) - pattern; 2 block. Tags: concurrency, cpp, lifetime, parameter_passing, threading.

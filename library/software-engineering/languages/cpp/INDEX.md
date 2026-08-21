@@ -7,7 +7,7 @@
 - [Algorithms](algorithms/INDEX.md) - 8 object(s).
 - [Casting](casting/INDEX.md) - 2 object(s).
 - [Compilation Dependencies](compilation-dependencies/INDEX.md) - 2 object(s).
-- [Concurrency](concurrency/INDEX.md) - 12 object(s).
+- [Concurrency](concurrency/INDEX.md) - 15 object(s).
 - [Const Correctness](const-correctness/INDEX.md) - 6 object(s).
 - [Construction](construction/INDEX.md) - 3 object(s).
 - [Containers](containers/INDEX.md) - 13 object(s).
