@@ -4,7 +4,7 @@
 
 ## Topics
 
-- [Algorithms](algorithms/INDEX.md) - 4 object(s).
+- [Algorithms](algorithms/INDEX.md) - 6 object(s).
 - [Casting](casting/INDEX.md) - 2 object(s).
 - [Compilation Dependencies](compilation-dependencies/INDEX.md) - 2 object(s).
 - [Concurrency](concurrency/INDEX.md) - 4 object(s).
@@ -26,7 +26,7 @@
 - [Memory Management](memory-management/INDEX.md) - 11 object(s).
 - [Metaprogramming](metaprogramming/INDEX.md) - 1 object(s).
 - [Move Semantics](move-semantics/INDEX.md) - 3 object(s).
-- [Operators](operators/INDEX.md) - 5 object(s).
+- [Operators](operators/INDEX.md) - 6 object(s).
 - [Optimization](optimization/INDEX.md) - 2 object(s).
 - [Parameter Passing](parameter-passing/INDEX.md) - 5 object(s).
 - [Preprocessor](preprocessor/INDEX.md) - 2 object(s).

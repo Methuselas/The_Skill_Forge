@@ -5,6 +5,8 @@
 ## Objects
 
 - [Choose the Weakest Ordering Operation That Does the Job](PAT_choose_the_weakest_ordering_operation_that_does_the_job.md) - pattern; 2 block. Tags: algorithms, cpp, performance, readability, sorting.
+- [Design a Callable for the Copies an Algorithm Will Make](PAT_design_a_callable_for_the_copies_an_algorithm_will_make.md) - pattern; 2 block. Tags: algorithms, cpp, efficiency, function_objects, slicing.
+- [Make a Predicate a Pure Function](PAT_make_a_predicate_a_pure_function.md) - pattern; 2 block. Tags: algorithms, correctness, cpp, function_objects, state.
 - [Make Sure the Destination Range Can Hold the Output](PAT_make_sure_the_destination_range_can_hold_the_output.md) - pattern; 2 block. Tags: algorithms, containers, cpp, iterators, undefined_behavior.
 - [Match the Search Comparison to the Sort Comparison](PAT_match_the_search_comparison_to_the_sort_comparison.md) - pattern; 2 block. Tags: algorithms, cpp, invariants, sorting, undefined_behavior.
 - [Remember an Algorithm Cannot Change a Container's Size](PAT_remember_an_algorithm_cannot_change_a_containers_size.md) - pattern; 2 block. Tags: algorithms, containers, cpp, idioms, resource_management.
