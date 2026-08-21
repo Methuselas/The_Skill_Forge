@@ -7,11 +7,12 @@
 - [Choose a Subject for Open-Ended Exploration](PAT_choose_subject_for_open_ended_exploration.md) - pattern; 0 design. Tags: creative_nonfiction, exploration, inquiry, self_discovery, subject.
 - [Interrogate Memory Before Claiming Precision](PAT_interrogate_memory_before_claiming_precision.md) - pattern; 3 rough. Tags: accuracy, creative_nonfiction, memory, reconstruction, self_scrutiny.
   - Variants: `Paraphrase or Summarize Uncertain Speech` (method_sequence).
-- [Make Personal Presence Part of the Inquiry](PAT_make_personal_presence_part_of_inquiry.md) - pattern; 1 skeleton. Tags: creative_nonfiction, literary_journalism, personal_presence, perspective, reflection.
+- [Make Personal Presence Part of the Inquiry](PAT_make_personal_presence_part_of_inquiry.md) - pattern; 1 skeleton. Tags: authorial_position, creative_nonfiction, literary_journalism, personal_presence, perspective, reflection.
 - [Move Between Conversational Exploration and Formal Argument](PAT_move_between_conversational_exploration_and_formal_argument.md) - pattern; 1 skeleton. Tags: argument, creative_nonfiction, personal_essay, structure, voice.
   - Variants: `Use Conversational Exploration to Discover` (emphasis); `Use Formal Argument to Compress a Claim` (emphasis).
 - [Portray Real People through Selective Behavioral Detail](PAT_portray_real_people_through_selective_behavioral_detail.md) - pattern; 2 block. Tags: behavioral_detail, caricature, character, creative_nonfiction, real_people.
 - [Preserve Factual Accountability While Using Literary Craft](PAT_preserve_factual_accountability_while_using_literary_craft.md) - pattern; 0 design. Tags: creative_nonfiction, genre_contract, interpretation, literary_craft, truth.
   - Variants: `Disclose Privacy-Protecting Alterations` (constraint).
+- [Select a Candid Essay Self for the Inquiry](PAT_select_a_candid_essay_self_for_the_inquiry.md) - pattern; 2 block. Tags: candor, contradiction, creative_nonfiction, personal_essay, self_portrayal.
 - [Separate the Experiencing Self from the Reflective Narrator](PAT_separate_experiencing_self_from_reflective_narrator.md) - pattern; 2 block. Tags: characterization, creative_nonfiction, experiencing_self, hindsight, narrator.
 - [Verify Checkable Facts and Research Necessary Context](PAT_verify_checkable_facts_and_research_necessary_context.md) - pattern; 3 rough. Tags: authority, context, creative_nonfiction, fact_checking, research.
