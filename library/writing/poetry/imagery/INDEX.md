@@ -4,5 +4,4 @@
 
 ## Objects
 
-- [Balance Symbols Between Cliche and Obscurity](PAT_balance_symbols_between_cliche_and_obscurity.md) - pattern; 3 rough. Tags: audience, imagery, poetry, revision, symbolism.
 - [Build a Poem Around a Productive Comparison](DRILL_build_poem_around_productive_comparison.md) - drill; 1 skeleton. Tags: deliberate_practice, figurative_language, metaphor, poetry, simile.

@@ -7,8 +7,9 @@
 - [Audit Harm and Privacy When Portraying Real People](PAT_audit_harm_and_privacy_when_portraying_real_people.md) - pattern; 3 rough. Tags: creative_nonfiction, ethics, privacy, publication, real_people.
   - Variants: `Invite Subject Review for a High-Stakes Portrayal` (method_sequence).
 - [Choose a Subject for Open-Ended Exploration](PAT_choose_subject_for_open_ended_exploration.md) - pattern; 0 design. Tags: creative_nonfiction, exploration, inquiry, self_discovery, subject.
+  - Variants: `Investigate an Overlooked Event or Life` (context).
 - [Interrogate Memory Before Claiming Precision](PAT_interrogate_memory_before_claiming_precision.md) - pattern; 3 rough. Tags: accuracy, creative_nonfiction, memory, reconstruction, self_scrutiny.
-  - Variants: `Paraphrase or Summarize Uncertain Speech` (method_sequence).
+  - Variants: `Paraphrase or Summarize Uncertain Speech` (method_sequence); `Research Your Own Life as an External Subject` (method_sequence).
 - [Make Personal Presence Part of the Inquiry](PAT_make_personal_presence_part_of_inquiry.md) - pattern; 1 skeleton. Tags: authorial_position, creative_nonfiction, literary_journalism, personal_presence, perspective, reflection.
 - [Move Between Conversational Exploration and Formal Argument](PAT_move_between_conversational_exploration_and_formal_argument.md) - pattern; 1 skeleton. Tags: argument, creative_nonfiction, personal_essay, structure, voice.
   - Variants: `Use Conversational Exploration to Discover` (emphasis); `Use Formal Argument to Compress a Claim` (emphasis).

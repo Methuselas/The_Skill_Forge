@@ -28,7 +28,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_investigate_overlooked_event_or_life
+    variant_name: Investigate an Overlooked Event or Life
+    variant_basis: context
+    difference_from_foundation: Begin from an event, participant, or life neglected by the dominant public account and research how attention to the margin changes the larger story.
+    when_to_use: A consequential subject has been flattened by attention to major players and enough evidence exists to recover a more complete perspective.
+    when_not_to_use: The angle depends on inventing missing evidence, treats marginality as novelty, or cannot connect the smaller account to a genuine inquiry.
+    absorbed_from_object_id: none
 ---
 
 # Choose a Subject for Open-Ended Exploration
@@ -59,3 +66,5 @@ variants: []
 
 ## Notes
 An essay is an attempt: it can test, speculate, backtrack, and revise its thinking in public. That flexibility does not remove design; it changes design from proof of a fixed thesis into a shaped record of inquiry. A modest subject may support substantial discovery when examined closely, while a grand assigned topic can remain inert when the writer has no live question inside it.
+
+`writing_creative_nonfiction_variant_investigate_overlooked_event_or_life` directs that curiosity toward the portion omitted by an official or dominant account. Research the neglected event or participant rather than inventing the missing life, and use the recovered evidence to test what the larger story hid or simplified. The route is useful when marginal detail changes understanding, not when obscurity alone is treated as importance.
