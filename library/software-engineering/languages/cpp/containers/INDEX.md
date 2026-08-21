@@ -5,4 +5,7 @@
 ## Objects
 
 - [Choose a Container on More Than Algorithmic Complexity](PAT_choose_a_container_on_more_than_algorithmic_complexity.md) - pattern; 0 design. Tags: containers, cpp, data_structures, design, iterator_invalidation.
+- [Decide What a Container Holds](PAT_decide_what_a_container_holds.md) - pattern; 0 design. Tags: containers, copy_control, cpp, resource_management, slicing.
 - [Encapsulate the Container Choice Instead of Abstracting Over It](PAT_encapsulate_the_container_choice_instead_of_abstracting_over_it.md) - pattern; 0 design. Tags: abstraction, containers, cpp, design, encapsulation.
+- [Prefer Range Member Functions to Repeated Single-Element Calls](PAT_prefer_range_member_functions_to_repeated_single_element_calls.md) - pattern; 2 block. Tags: algorithms, containers, cpp, efficiency, readability.
+- [Recover the Iterator From Erase Rather Than Advancing It](PAT_recover_the_iterator_from_erase_rather_than_advancing_it.md) - pattern; 2 block. Tags: containers, cpp, idioms, iterator_invalidation, undefined_behavior.
