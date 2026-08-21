@@ -26,7 +26,14 @@ reference:
   author: Amanda McCarthy and Kate Southam
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_resume_achievement_variant_fill_in_result_prompts
+    variant_name: Fill-In Result Prompts
+    variant_basis: method_sequence
+    difference_from_foundation: Begin with an action-and-benefit or metric-and-method sentence frame for a result category, fill it with verified facts, then remove the scaffolding and revise the completed claim into natural resume language.
+    when_to_use: The candidate has credible achievement evidence but cannot readily turn it into a concise statement from a blank page.
+    when_not_to_use: No verified action, benefit, measure, or recognition exists, or the available frame would imply a causal relationship the evidence does not support.
+    absorbed_from_object_id: none
 ---
 
 # Turn Added Value into Resume Achievements
@@ -57,3 +64,5 @@ variants: []
 
 ## Notes
 Achievement language answers a different question from responsibility language: not what the role required, but what became better because of the candidate's contribution. Measures strengthen that answer only when they clarify magnitude. A precise but contextless figure can be less credible than a bounded qualitative result.
+
+`writing_resume_achievement_variant_fill_in_result_prompts` supplies temporary drafting scaffolds when the facts are known but the sentence is not. Choose the result family first—improvement, creation, productivity, customer response, revenue, saving, or recognition—then complete a frame such as action plus benefit or measure plus method. Use the filled facts to write the final claim and discard the template wording; never let a convenient frame invent causality or evidence.

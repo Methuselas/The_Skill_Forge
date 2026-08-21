@@ -48,6 +48,7 @@ variants: []
 - Add a term solely to increase match frequency when the candidate cannot support it.
 - Favor a witty or fashionable title that hides the occupation a recruiter is trying to find.
 - Use a dense keyword block that disconnects terms from the experience or qualifications that substantiate them.
+- Treat a static industry keyword list as universal, exhaustive, or more authoritative than the vocabulary of the actual vacancy.
 - Assume one employer's internal vocabulary is the language used across the whole field.
 
 ## Checklist
@@ -58,4 +59,4 @@ variants: []
 - A reviewer can locate the main match without decoding organization-specific wording.
 
 ## Notes
-Online databases and busy recruiters both reduce a candidate to retrievable criteria before they encounter the fuller career story. Specific nouns and short phrases make genuine qualifications findable. The move is translation, not stuffing: the document should use the market's shared vocabulary without inventing experience or surrendering readable prose.
+Online databases and busy recruiters both reduce a candidate to retrievable criteria before they encounter the fuller career story. Specific nouns and short phrases make genuine qualifications findable. There is no permanent universal list: search terms vary with the vacancy, recruiter, occupation, and current market usage. The move is translation, not stuffing; the document should use the market's shared vocabulary without inventing experience or surrendering readable prose.

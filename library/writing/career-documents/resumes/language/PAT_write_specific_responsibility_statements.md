@@ -45,6 +45,7 @@ variants: []
 ## Don't
 - Treat an action verb by itself as evidence; managed or coordinated still leaves the reviewer asking what and how.
 - Use vague connectors such as liaised with when a more exact verb can state the exchange, decision, or result.
+- Force variety by substituting a more dramatic verb that changes the candidate's authority, task, or contribution.
 - Mix current and past tense randomly within one role.
 - Copy every routine duty until the important responsibilities disappear in a catalogue.
 
@@ -52,8 +53,9 @@ variants: []
 - Each statement answers what the candidate actually did.
 - Verbs match the candidate's authority and do not inflate participation into ownership.
 - Tense agrees with whether the responsibility is current or completed.
+- Repeated opening verbs have been varied where an equally exact alternative exists.
 - At least the responsibilities central to the target role include concrete scope or context.
 - No responsibility is being presented as an achievement without a distinct benefit or result.
 
 ## Notes
-Responsibilities establish the candidate's entrusted scope. Their evidentiary value comes from precision: a short statement can distinguish advising from deciding, assisting from leading, or processing from redesigning. Verb lists are prompts, not finished copy; the noun, method, and boundary determine whether the claim can be understood.
+Responsibilities establish the candidate's entrusted scope. Their evidentiary value comes from precision: a short statement can distinguish advising from deciding, assisting from leading, or processing from redesigning. Verb lists are prompts, not finished copy; the noun, method, and boundary determine whether the claim can be understood. Repeated openings are worth revising when they make the history monotonous, but accurate repetition is safer than decorative synonym swapping.

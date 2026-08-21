@@ -5,5 +5,6 @@
 ## Objects
 
 - [Turn Added Value into Resume Achievements](PAT_turn_added_value_into_resume_achievements.md) - pattern; 3 rough. Tags: achievements, metrics, results, resume_writing.
+  - Variants: `Fill-In Result Prompts` (method_sequence).
 - [Use Recognizable Job Language for Resume Discovery](PAT_use_recognizable_job_language_for_resume_discovery.md) - pattern; 2 block. Tags: applicant_tracking, job_search, keywords, recruiters, resume_writing.
 - [Write Specific Responsibility Statements](PAT_write_specific_responsibility_statements.md) - pattern; 3 rough. Tags: action_verbs, responsibilities, resume_writing, specificity.
