@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Build Resume Competency Statements from Fit and Verifiable Evidence](PAT_build_resume_competency_statements_from_fit_and_verifiable_evidence.md) - pattern; 3 rough. Tags: competency_statements, evidence, graduates, resume_writing, transferable_skills.
 - [Translate Insider Experience into Recruiter Language](PAT_translate_insider_experience_into_recruiter_language.md) - pattern; 3 rough. Tags: acronyms, active_voice, jargon, plain_language, resume_writing.
 - [Turn Added Value into Resume Achievements](PAT_turn_added_value_into_resume_achievements.md) - pattern; 3 rough. Tags: achievements, metrics, results, resume_writing.
   - Variants: `Fill-In Result Prompts` (method_sequence).

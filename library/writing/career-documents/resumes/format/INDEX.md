@@ -5,4 +5,4 @@
 ## Objects
 
 - [Choose Resume Format by Evidence Visibility](PAT_choose_resume_format_by_evidence_visibility.md) - pattern; 1 skeleton. Tags: chronology, recruiter_reading, resume_format, resume_writing, transferable_skills.
-  - Variants: `Functional Skill Clusters` (emphasis); `Skill Summary Plus Employment Timeline` (method_sequence).
+  - Variants: `Functional Skill Clusters` (emphasis); `Skill Summary Plus Employment Timeline` (method_sequence); `Professional and Other Experience Split` (emphasis).

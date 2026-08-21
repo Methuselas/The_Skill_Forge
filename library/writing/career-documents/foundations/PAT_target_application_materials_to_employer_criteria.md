@@ -46,9 +46,11 @@ variants:
 - Research enough about the organization to distinguish generic employability from a credible reason this candidate fits this workplace and role.
 - Pair important requirements with concrete achievements, examples, or qualifications that show the candidate can meet them.
 - Reuse the employer's recognizable terminology only where the candidate can truthfully claim the corresponding capability.
+- Treat sample applications and templates as structural prompts, then rebuild every claim and sentence from this candidate's target, evidence, and voice.
 
 ## Don't
 - Send one unchanged application everywhere and expect employers to infer commitment or fit.
+- Copy another candidate's résumé or retain template prose that was written for a different history, even when the target roles look similar.
 - Claim a requirement merely because its wording appears in the advertisement.
 - Let decorative novelty displace the facts a recruiter needs to match against the vacancy.
 
@@ -58,6 +60,7 @@ variants:
 - Important claims are supported by examples, results, experience, or qualifications.
 - Reused role language remains truthful and natural in context.
 - Removing the employer and role names would not leave a generic document that could be sent anywhere unchanged.
+- Every substantive sentence can be traced to this candidate's evidence rather than a peer, example, or template.
 
 ## Notes
 Recruiters evaluate an application as a proposed match, not as an autobiography. A resume supplies the career evidence; a cover letter introduces and interprets that evidence for the opening. Relevance therefore governs selection before polish: strong but unrelated material can consume attention while failing to answer the employer's actual question.

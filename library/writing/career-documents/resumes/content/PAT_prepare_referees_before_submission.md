@@ -38,7 +38,7 @@ variants: []
 ## Do
 - Prefer direct supervisors who observed the candidate's performance and can discuss the work relevant to the target role.
 - Use another manager, colleague, customer, supplier, or contractor when the relationship gives that person direct and credible knowledge of the candidate's contribution.
-- When no workplace supervisor exists, choose a teacher, coach, volunteer coordinator, customer, or other responsible adult who directly observed relevant work habits, conduct, or contribution.
+- When no workplace supervisor exists, choose a teacher, lecturer, thesis or project supervisor, coach, volunteer coordinator, customer, or other responsible adult who directly observed relevant work habits, academic performance, conduct, or contribution.
 - Brief each willing referee on the kinds of roles being pursued and confirm the evidence they are in a position to discuss.
 - Record the referee's current title and organization as well as the earlier relationship that explains how the person knows the candidate.
 - For a referee in another country, supply a callable international-format number and a current email address rather than a local-only number.

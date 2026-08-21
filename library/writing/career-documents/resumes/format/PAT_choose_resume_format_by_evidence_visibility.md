@@ -42,6 +42,13 @@ variants:
     when_to_use: The candidate needs to foreground transferable skills while preserving a readable timeline, such as after varied temporary work, long tenure with expanding duties, or experience assembled across several settings.
     when_not_to_use: The leading summary merely repeats the history, makes the document unwieldy, or invites the reviewer to stop before reaching the evidence attached to specific roles.
     absorbed_from_object_id: none
+  - variant_id: writing_resume_variant_professional_and_other_experience_split
+    variant_name: Professional and Other Experience Split
+    variant_basis: emphasis
+    difference_from_foundation: Preserve reverse chronology within two clearly named experience sections, placing directly profession-related placements, internships, projects, or roles first and retaining other paid, casual, temporary, or volunteer work in a secondary section with its strongest transferable evidence.
+    when_to_use: A graduate or early-career candidate has a small amount of directly related experience that would be buried inside a larger sequence of unrelated but still credible work.
+    when_not_to_use: The categories would contain too little material, the secondary label would diminish highly relevant transferable evidence, or the split would make the overall chronology harder to reconstruct.
+    absorbed_from_object_id: none
 ---
 
 # Choose Resume Format by Evidence Visibility
@@ -78,3 +85,5 @@ The conventional sequence makes employment history easy to scan, but it also exp
 `writing_resume_variant_functional_skill_clusters` changes the emphasis when transferable capability is stronger than the visible job sequence. Use three or four requirement-matched headings and place achievements beneath them, but retain a compact work history and accept that reviewers may find the source of those skills harder to verify.
 
 `writing_resume_variant_combination_skill_summary_plus_timeline` offers a less opaque compromise. It leads with capability clusters and then supplies the full sequence that the functional route suppresses. Use it when both emphasis and traceability matter; reject it when the opening duplicates the later roles or consumes attention before the supporting record appears.
+
+`writing_resume_variant_professional_and_other_experience_split` changes emphasis without abandoning role-based chronology. Put directly profession-related placements, internships, projects, or jobs in the first section, then retain other paid, temporary, casual, or volunteer work in a second section with useful responsibilities and achievements. Use the split when a small amount of target-field experience needs visibility; keep one sequence when the categories would fragment the record or cause strong transferable evidence to be dismissed as merely other.

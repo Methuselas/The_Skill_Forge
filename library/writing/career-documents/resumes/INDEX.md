@@ -7,6 +7,7 @@
 - [Content](content/INDEX.md) - 10 object(s).
 - [Finalization](finalization/INDEX.md) - 1 object(s).
 - [Format](format/INDEX.md) - 1 object(s).
-- [Language](language/INDEX.md) - 4 object(s).
+- [Graduates](graduates/INDEX.md) - 1 object(s).
+- [Language](language/INDEX.md) - 5 object(s).
 - [Presentation](presentation/INDEX.md) - 1 object(s).
 - [School Leavers](school-leavers/INDEX.md) - 2 object(s).
