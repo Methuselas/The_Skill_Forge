@@ -17,5 +17,7 @@
 - [Reach for a Fence Only When No Atomic Carries the Order](PAT_reach_for_a_fence_only_when_no_atomic_carries_the_order.md) - pattern; 2 block. Tags: atomics, concurrency, cpp, memory_model, performance.
 - [Specify a Memory Order the Operation Can Actually Carry](PAT_specify_a_memory_order_the_operation_can_actually_carry.md) - pattern; 2 block. Tags: atomics, avoiding_surprises, concurrency, cpp, memory_model.
 - [Specify the Launch Policy When Asynchrony Is Required](PAT_specify_the_launch_policy_when_asynchrony_is_required.md) - pattern; 2 block. Tags: api_design, avoiding_surprises, concurrency, cpp, threading.
+- [Stop a Thread by Asking It, Rather Than Killing It](PAT_stop_a_thread_by_asking_it_rather_than_killing_it.md) - pattern; 0 design. Tags: cancellation, concurrency, cpp, lifecycle, threading.
 - [Take the Simplest Lock Type That Does the Job](PAT_take_the_simplest_lock_type_that_does_the_job.md) - pattern; 2 block. Tags: concurrency, cpp, deadlock, locking, raii.
+- [Wait on a Predicate, Not on a Notification](PAT_wait_on_a_predicate_not_on_a_notification.md) - pattern; 2 block. Tags: concurrency, condition_variables, correctness, cpp, deadlock.
 - [Wrap a Thread Argument That Must Arrive by Reference](PAT_wrap_a_thread_argument_that_must_arrive_by_reference.md) - pattern; 2 block. Tags: concurrency, cpp, lifetime, parameter_passing, threading.
