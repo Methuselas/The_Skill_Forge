@@ -4,6 +4,6 @@
 
 ## Topics
 
-- [Content](content/INDEX.md) - 6 object(s).
+- [Content](content/INDEX.md) - 10 object(s).
 - [Format](format/INDEX.md) - 1 object(s).
 - [Language](language/INDEX.md) - 3 object(s).

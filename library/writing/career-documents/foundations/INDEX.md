@@ -14,3 +14,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Build a Career-Evidence Inventory Before Drafting](PAT_build_career_evidence_inventory_before_drafting.md) - pattern; 0 design. Tags: career_history, cover_letters, evidence, job_applications, resume_writing.
   - Variants: `Maintain an Ongoing Career-Evidence Log` (method_sequence).
 - [Target Application Materials to Employer Criteria](PAT_target_application_materials_to_employer_criteria.md) - pattern; 0 design. Tags: audience, cover_letters, employer_criteria, job_applications, resume_writing.
+  - Variants: `Transferable-Skill Bridge for Career Change` (method_sequence).

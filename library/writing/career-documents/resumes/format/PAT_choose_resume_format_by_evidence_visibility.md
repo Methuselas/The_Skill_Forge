@@ -61,17 +61,19 @@ variants:
 - Switch to skill-only grouping merely to delay discovery of a difficult employment fact.
 - Separate achievements from their roles so completely that a recruiter must guess where or when the work occurred.
 - Repeat the same evidence in an opening skill section and the later history until the document becomes longer without becoming clearer.
+- Use Present for a role that has ended or reduce date precision solely to disguise an interruption.
 - Mix year-only dates with month-and-year dates in one employment sequence.
 
 ## Checklist
 - A reviewer can identify the current or most recent role immediately.
 - Date ranges use one consistent level of precision and form a readable sequence.
+- Present appears only beside work that is genuinely ongoing.
 - The chosen structure makes the strongest relevant evidence easier, not merely earlier, to evaluate.
 - Skill claims remain connected to achievements, roles, or other credible experience.
 - Any departure from reverse chronology solves a named evidence problem worth its loss of transparency.
 
 ## Notes
-The conventional sequence makes employment history easy to scan, but it also exposes gaps, long stays, and changes directly. That exposure is part of its value: the reader can judge the career record rather than infer that the document is hiding it.
+The conventional sequence makes employment history easy to scan, but it also exposes gaps, long stays, and changes directly. That exposure is part of its value: the reader can judge the career record rather than infer that the document is hiding it. Changing a finished role to Present or broadening dates only until a break disappears converts a formatting choice into a factual misrepresentation.
 
 `writing_resume_variant_functional_skill_clusters` changes the emphasis when transferable capability is stronger than the visible job sequence. Use three or four requirement-matched headings and place achievements beneath them, but retain a compact work history and accept that reviewers may find the source of those skills harder to verify.
 

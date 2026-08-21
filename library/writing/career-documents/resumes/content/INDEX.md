@@ -4,10 +4,14 @@
 
 ## Objects
 
+- [Account for Career Interruptions Without Distorting Dates](PAT_account_for_career_interruptions_without_distorting_dates.md) - pattern; 2 block. Tags: career_breaks, chronology, integrity, resume_writing, unpaid_experience.
 - [Include Optional Resume Sections Only as Evidence](PAT_include_optional_resume_sections_only_as_evidence.md) - pattern; 2 block. Tags: interests, memberships, optional_sections, publications, resume_writing.
 - [Make Resume Contact Details Professionally Reachable](PAT_make_resume_contact_details_professionally_reachable.md) - pattern; 2 block. Tags: contact_details, job_applications, professional_identity, resume_writing.
 - [Open a Resume with Employer-Relevant Evidence](PAT_open_resume_with_employer_relevant_evidence.md) - pattern; 2 block. Tags: career_objective, first_page, profile, resume_writing.
   - Variants: `Career Objective for Direction Change` (context).
 - [Prepare Referees Before Submission](PAT_prepare_referees_before_submission.md) - pattern; 4 final. Tags: job_applications, referees, references, resume_writing.
 - [Present Education and Training by Hiring Relevance](PAT_present_education_and_training_by_hiring_relevance.md) - pattern; 2 block. Tags: education, professional_development, qualifications, resume_writing.
+- [Preserve Employer Continuity Through Name Changes](PAT_preserve_employer_continuity_through_name_changes.md) - pattern; 2 block. Tags: acquisitions, career_continuity, employer_names, mergers, resume_writing.
 - [Scale Work-History Detail by Role Relevance](PAT_scale_work_history_detail_by_role_relevance.md) - pattern; 2 block. Tags: chronology, employment_history, relevance, resume_writing.
+- [Show Current Readiness After an Extended Career Break](PAT_show_current_readiness_after_extended_career_break.md) - pattern; 0 design. Tags: career_breaks, professional_currency, resume_writing, training, workforce_reentry.
+- [State Neutral Departure Context When It Resolves Concern](PAT_state_neutral_departure_context_when_it_resolves_concern.md) - pattern; 2 block. Tags: employment_history, reasons_for_leaving, redundancy, resume_writing, short_term_work.
