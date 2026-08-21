@@ -12,6 +12,7 @@
 - [Construction](construction/INDEX.md) - 3 object(s).
 - [Containers](containers/INDEX.md) - 13 object(s).
 - [Copy Control](copy-control/INDEX.md) - 10 object(s).
+- [Coroutines](coroutines/INDEX.md) - 3 object(s).
 - [Destructors](destructors/INDEX.md) - 2 object(s).
 - [Encapsulation](encapsulation/INDEX.md) - 3 object(s).
 - [Exception Safety](exception-safety/INDEX.md) - 5 object(s).
