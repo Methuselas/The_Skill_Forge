@@ -10,5 +10,8 @@
 - [Keep volatile and atomic Apart](PAT_keep_volatile_and_atomic_apart.md) - pattern; 2 block. Tags: atomics, avoiding_surprises, concurrency, correctness, cpp.
 - [Know When Two Accesses Are a Data Race](PAT_know_when_two_accesses_are_a_data_race.md) - pattern; 0 design. Tags: concurrency, cpp, memory_model, threading, undefined_behavior.
 - [Make Shared-Pointer Atomicity a Property of the Type](PAT_make_shared_pointer_atomicity_a_property_of_the_type.md) - pattern; 2 block. Tags: api_design, atomics, concurrency, cpp, smart_pointers.
+- [Make the Acquire Actually Observe the Release](PAT_make_the_acquire_actually_observe_the_release.md) - pattern; 2 block. Tags: atomics, concurrency, correctness, cpp, memory_model.
 - [Make Threads Unjoinable on Every Path](PAT_make_threads_unjoinable_on_every_path.md) - pattern; 2 block. Tags: concurrency, cpp, lifecycle, resource_management, threading.
+- [Reach for a Fence Only When No Atomic Carries the Order](PAT_reach_for_a_fence_only_when_no_atomic_carries_the_order.md) - pattern; 2 block. Tags: atomics, concurrency, cpp, memory_model, performance.
+- [Specify a Memory Order the Operation Can Actually Carry](PAT_specify_a_memory_order_the_operation_can_actually_carry.md) - pattern; 2 block. Tags: atomics, avoiding_surprises, concurrency, cpp, memory_model.
 - [Specify the Launch Policy When Asynchrony Is Required](PAT_specify_the_launch_policy_when_asynchrony_is_required.md) - pattern; 2 block. Tags: api_design, avoiding_surprises, concurrency, cpp, threading.
