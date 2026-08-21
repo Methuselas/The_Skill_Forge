@@ -31,7 +31,7 @@ variants:
     variant_name: Disclose Privacy-Protecting Alterations
     variant_basis: constraint
     difference_from_foundation: Change identifying names, places, descriptions, or other particulars only as needed to protect people, and tell readers what class of material was altered.
-    when_to_use: Publishing truthful material would otherwise expose a person unnecessarily or create avoidable privacy harm while altered identifiers can preserve the account's substance.
+    when_to_use: Sharing or publishing truthful material would otherwise expose a person unnecessarily or create avoidable privacy harm while altered identifiers can preserve the account's substance.
     when_not_to_use: The change would conceal a consequential fabrication, distort responsibility, or make a necessary fact materially false.
     absorbed_from_object_id: none
 ---
@@ -66,4 +66,4 @@ variants:
 ## Notes
 Creative nonfiction shares tools with fiction and poetry, not their full license to invent. Its freedom lies in voice, selection, sequence, form, image, and reflection under a factual promise. That promise does not require a neutral or exhaustive record, but it does require the writer's shaped version to remain recognizably accountable to actuality.
 
-`writing_creative_nonfiction_variant_disclose_privacy_protecting_alterations` addresses the constraint created when accurate identifying detail would expose other people unnecessarily. It permits bounded changes to names, places, descriptions, and similar identifiers when the class of alteration is disclosed and the account's responsibility, outcome, and meaning remain intact. A disclaimer cannot convert invented consequential events into nonfiction or excuse a distortion that privacy did not require.
+`writing_creative_nonfiction_variant_disclose_privacy_protecting_alterations` addresses the constraint created when accurate identifying detail would expose other people unnecessarily during sharing or publication. It permits bounded changes to names, places, descriptions, and similar identifiers when the class of alteration is disclosed and the account's responsibility, outcome, and meaning remain intact. A disclaimer cannot convert invented consequential events into nonfiction or excuse a distortion that privacy did not require.

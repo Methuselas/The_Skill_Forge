@@ -4,4 +4,4 @@
 
 ## Objects
 
-- [Calibrate Context to Intended Audience and Venue](PAT_calibrate_context_to_intended_audience_and_venue.md) - pattern; 0 design. Tags: accessibility, audience, context, genre, publication.
+- [Calibrate Context to Intended Audience and Venue](PAT_calibrate_context_to_intended_audience_and_venue.md) - pattern; 0 design. Tags: accessibility, audience, circulation, context, genre, publication.

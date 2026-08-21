@@ -4,6 +4,8 @@
 
 ## Objects
 
+- [Audit Harm and Privacy When Portraying Real People](PAT_audit_harm_and_privacy_when_portraying_real_people.md) - pattern; 3 rough. Tags: creative_nonfiction, ethics, privacy, publication, real_people.
+  - Variants: `Invite Subject Review for a High-Stakes Portrayal` (method_sequence).
 - [Choose a Subject for Open-Ended Exploration](PAT_choose_subject_for_open_ended_exploration.md) - pattern; 0 design. Tags: creative_nonfiction, exploration, inquiry, self_discovery, subject.
 - [Interrogate Memory Before Claiming Precision](PAT_interrogate_memory_before_claiming_precision.md) - pattern; 3 rough. Tags: accuracy, creative_nonfiction, memory, reconstruction, self_scrutiny.
   - Variants: `Paraphrase or Summarize Uncertain Speech` (method_sequence).
