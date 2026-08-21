@@ -6,6 +6,7 @@
 
 - [Check an Atomic Is Lock-Free Before Relying on It](PAT_check_an_atomic_is_lock_free_before_relying_on_it.md) - pattern; 2 block. Tags: atomics, concurrency, cpp, lock_free, portability.
 - [Choose a Thread-Safe Initialization Mechanism](PAT_choose_a_thread_safe_initialization_mechanism.md) - pattern; 2 block. Tags: concurrency, cpp, immutability, initialization, threading.
+- [Choose Between a Semaphore, a Latch, and a Barrier](PAT_choose_between_a_semaphore_a_latch_and_a_barrier.md) - pattern; 0 design. Tags: concurrency, coordination, cpp, synchronization, threading.
 - [Choose the Compare-Exchange Form by Whether You Loop](PAT_choose_the_compare_exchange_form_by_whether_you_loop.md) - pattern; 2 block. Tags: atomics, concurrency, correctness, cpp, lock_free.
 - [Choose the Execution Policy the Loop Body Can Survive](PAT_choose_the_execution_policy_the_loop_body_can_survive.md) - pattern; 4 final. Tags: algorithms, concurrency, cpp, parallelism, performance.
 - [Don't Call Unknown Code While Holding a Lock](PAT_dont_call_unknown_code_while_holding_a_lock.md) - pattern; 2 block. Tags: concurrency, cpp, deadlock, dependencies, locking.
