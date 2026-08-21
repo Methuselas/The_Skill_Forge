@@ -5,5 +5,6 @@
 ## Objects
 
 - [Adapt Your Rules to the Active C++ Sublanguage](PAT_adapt_rules_to_active_cpp_sublanguage.md) - pattern; 0 design. Tags: cpp, idioms, parameter_passing, sublanguages.
+- [Choose Between Pointer and Reference by Nullability and Rebinding](PAT_choose_pointer_or_reference_by_nullability_and_rebinding.md) - pattern; 2 block. Tags: cpp, foundations, interface_design, pointers, references.
 - [Prefer the Form That Refuses What You Did Not Mean](PAT_prefer_the_form_that_refuses_what_you_did_not_mean.md) - pattern; 3 rough. Tags: avoiding_surprises, cpp, modernization, overloading, type_safety.
 - [State the Guarantees a Function Can Honor](PAT_state_the_guarantees_a_function_can_honor.md) - pattern; 0 design. Tags: compile_time, cpp, exception_safety, interface_design, performance.

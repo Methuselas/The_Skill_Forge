@@ -65,3 +65,12 @@ That cuts both ways and is the reason the guidance above is a limit rather than 
 encouragement. A larger region is also more code for the optimizer to analyze within a finite
 budget, so inlining everything degrades optimization as surely as inlining nothing. The
 resolution is the one this card already states: a small number of small, hot functions.
+
+Virtual functions deserve a specific mention because the request is not merely ignored there —
+it can cost you something. Compilers commonly decide which object file holds a class's dispatch
+table by a rule keyed to the first non-inline, non-pure virtual function the class defines. A class
+whose virtual functions are all declared inline gives that rule nothing to key on, and
+implementations following it may then emit a copy of the table in every object file that uses
+the class. On a large system that is a great many copies of something there was supposed to be
+one of, which is a reason to leave virtual functions out of line beyond the fact that they were
+not going to be inlined anyway.

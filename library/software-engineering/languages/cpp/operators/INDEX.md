@@ -4,4 +4,7 @@
 
 ## Objects
 
+- [Implement Postfix Increment in Terms of Prefix](PAT_implement_postfix_increment_in_terms_of_prefix.md) - pattern; 2 block. Tags: class_design, consistency, cpp, operators.
+- [Implement the Standalone Operator From Its Compound Assignment](PAT_implement_the_standalone_operator_from_the_compound.md) - pattern; 2 block. Tags: class_design, consistency, cpp, efficiency, operators.
+- [Leave the Short-Circuit and Comma Operators Alone](PAT_leave_the_short_circuit_and_comma_operators_alone.md) - pattern; 2 block. Tags: avoiding_surprises, cpp, evaluation_order, operators.
 - [Make a Function Non-member When All Arguments Need Conversion](PAT_make_operator_nonmember_for_conversions.md) - pattern; 2 block. Tags: class_design, cpp, operators, type_conversion.

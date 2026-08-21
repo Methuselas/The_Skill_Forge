@@ -34,6 +34,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - [Ask Whether the Hot Code Can Run Less Often](PAT_ask_whether_the_hot_code_can_run_less_often.md) - pattern; 4 final. Tags: design, optimization, performance, profiling, tuning.
 - [Check for Memory Saturation Before Adding Threads](PAT_check_for_memory_saturation_before_adding_threads.md) - pattern; 0 design. Tags: concurrency, hardware, memory, performance, scalability.
+- [Choose Lazy or Eager by How Often the Result Is Actually Needed](PAT_choose_lazy_or_eager_by_how_often_the_result_is_needed.md) - pattern; 0 design. Tags: caching, design, optimization, performance, trade_offs.
 - [Choose the Data Structure for the Dominant Access Pattern](PAT_choose_the_data_structure_for_the_dominant_access_pattern.md) - pattern; 0 design. Tags: caching, data_structures, design, memory, performance.
 - [Choose the Level Before You Touch the Code](PAT_choose_the_level_before_tuning_the_code.md) - pattern; 0 design. Tags: architecture, optimization, performance, requirements.
 - [Confirm a Branch Is Mispredicted Before Optimizing It](PAT_confirm_a_branch_is_mispredicted_before_optimizing_it.md) - pattern; 4 final. Tags: branches, hardware, measurement, performance, profiling.

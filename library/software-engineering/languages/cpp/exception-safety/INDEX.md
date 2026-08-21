@@ -4,6 +4,8 @@
 
 ## Objects
 
+- [Catch Exceptions by Reference and Rethrow With a Bare Throw](PAT_catch_exceptions_by_reference_and_rethrow_bare.md) - pattern; 2 block. Tags: cpp, error_handling, exception_safety, polymorphism, slicing.
+- [Give Every Constructor-Acquired Resource a Self-Releasing Owner](PAT_give_every_constructor_resource_a_self_releasing_owner.md) - pattern; 2 block. Tags: constructors, cpp, exception_safety, raii, resource_management.
 - [Make a Function Exception-Safe with RAII and Copy-and-Swap](DRILL_make_a_function_exception_safe.md) - drill; 3 rough. Tags: copy_and_swap, cpp, exception_safety, raii.
 - [Offer a Definite Exception-Safety Guarantee](PAT_offer_an_exception_safety_guarantee.md) - pattern; 2 block. Tags: cpp, exception_safety, invariants, resource_management.
 - [Use Copy-and-Swap for the Strong Exception-Safety Guarantee](PAT_use_copy_and_swap_for_strong_guarantee.md) - pattern; 3 rough. Tags: copy_and_swap, cpp, exception_safety, pimpl.

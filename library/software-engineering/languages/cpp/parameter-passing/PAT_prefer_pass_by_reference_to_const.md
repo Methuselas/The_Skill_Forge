@@ -61,3 +61,13 @@ a function that consumes its argument destructively — passing by value stops b
 inefficiency it looks like, because one signature then serves lvalues and rvalues without a
 second overload taking an rvalue reference. That is a decision with four qualifying conditions
 and two ways to go wrong, and it has its own card rather than living here as a footnote.
+
+One consequence of the const on that reference is worth knowing, because it is where a
+surprising share of unnoticed temporaries come from. When the argument's type does not match
+the parameter's, a const reference parameter will happily bind to a temporary conjured up to
+make the call work, so passing a character array where a string is expected constructs and
+destroys a string on every call. A reference to non-const will not do this — the language forbids
+it, because modifying such a temporary would change something the caller never sees — which
+means the same mismatch that compiles silently in the const case is a diagnostic in the other.
+The two places temporaries arise are exactly this and returning an object by value; learning to
+notice both is more useful than any individual fix for them.
