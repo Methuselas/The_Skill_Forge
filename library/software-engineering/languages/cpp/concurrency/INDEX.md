@@ -4,7 +4,11 @@
 
 ## Objects
 
+- [Check an Atomic Is Lock-Free Before Relying on It](PAT_check_an_atomic_is_lock_free_before_relying_on_it.md) - pattern; 2 block. Tags: atomics, concurrency, cpp, lock_free, portability.
+- [Choose the Compare-Exchange Form by Whether You Loop](PAT_choose_the_compare_exchange_form_by_whether_you_loop.md) - pattern; 2 block. Tags: atomics, concurrency, correctness, cpp, lock_free.
 - [Choose the Execution Policy the Loop Body Can Survive](PAT_choose_the_execution_policy_the_loop_body_can_survive.md) - pattern; 4 final. Tags: algorithms, concurrency, cpp, parallelism, performance.
 - [Keep volatile and atomic Apart](PAT_keep_volatile_and_atomic_apart.md) - pattern; 2 block. Tags: atomics, avoiding_surprises, concurrency, correctness, cpp.
+- [Know When Two Accesses Are a Data Race](PAT_know_when_two_accesses_are_a_data_race.md) - pattern; 0 design. Tags: concurrency, cpp, memory_model, threading, undefined_behavior.
+- [Make Shared-Pointer Atomicity a Property of the Type](PAT_make_shared_pointer_atomicity_a_property_of_the_type.md) - pattern; 2 block. Tags: api_design, atomics, concurrency, cpp, smart_pointers.
 - [Make Threads Unjoinable on Every Path](PAT_make_threads_unjoinable_on_every_path.md) - pattern; 2 block. Tags: concurrency, cpp, lifecycle, resource_management, threading.
 - [Specify the Launch Policy When Asynchrony Is Required](PAT_specify_the_launch_policy_when_asynchrony_is_required.md) - pattern; 2 block. Tags: api_design, avoiding_surprises, concurrency, cpp, threading.
