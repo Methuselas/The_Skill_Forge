@@ -4,7 +4,7 @@
 
 ## Topics
 
-- [Algorithms](algorithms/INDEX.md) - 6 object(s).
+- [Algorithms](algorithms/INDEX.md) - 8 object(s).
 - [Casting](casting/INDEX.md) - 2 object(s).
 - [Compilation Dependencies](compilation-dependencies/INDEX.md) - 2 object(s).
 - [Concurrency](concurrency/INDEX.md) - 4 object(s).

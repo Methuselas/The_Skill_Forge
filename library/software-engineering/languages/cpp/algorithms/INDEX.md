@@ -9,4 +9,6 @@
 - [Make a Predicate a Pure Function](PAT_make_a_predicate_a_pure_function.md) - pattern; 2 block. Tags: algorithms, correctness, cpp, function_objects, state.
 - [Make Sure the Destination Range Can Hold the Output](PAT_make_sure_the_destination_range_can_hold_the_output.md) - pattern; 2 block. Tags: algorithms, containers, cpp, iterators, undefined_behavior.
 - [Match the Search Comparison to the Sort Comparison](PAT_match_the_search_comparison_to_the_sort_comparison.md) - pattern; 2 block. Tags: algorithms, cpp, invariants, sorting, undefined_behavior.
+- [Pick the Search That Fits the Container and the Range](PAT_pick_the_search_that_fits_the_container_and_the_range.md) - pattern; 2 block. Tags: algorithms, containers, cpp, efficiency, lookup.
+- [Reach for a Named Algorithm Before Writing the Loop](PAT_reach_for_a_named_algorithm_before_writing_the_loop.md) - pattern; 2 block. Tags: abstraction, algorithms, cpp, loops, readability.
 - [Remember an Algorithm Cannot Change a Container's Size](PAT_remember_an_algorithm_cannot_change_a_containers_size.md) - pattern; 2 block. Tags: algorithms, containers, cpp, idioms, resource_management.
