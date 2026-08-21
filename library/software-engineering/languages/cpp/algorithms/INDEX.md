@@ -12,3 +12,4 @@
 - [Pick the Search That Fits the Container and the Range](PAT_pick_the_search_that_fits_the_container_and_the_range.md) - pattern; 2 block. Tags: algorithms, containers, cpp, efficiency, lookup.
 - [Reach for a Named Algorithm Before Writing the Loop](PAT_reach_for_a_named_algorithm_before_writing_the_loop.md) - pattern; 2 block. Tags: abstraction, algorithms, cpp, loops, readability.
 - [Remember an Algorithm Cannot Change a Container's Size](PAT_remember_an_algorithm_cannot_change_a_containers_size.md) - pattern; 2 block. Tags: algorithms, containers, cpp, idioms, resource_management.
+- [Use an Order-Free Fold Only With an Associative Operation](PAT_use_an_order_free_fold_only_with_an_associative_operation.md) - pattern; 2 block. Tags: algorithms, concurrency, correctness, cpp, numerics.
