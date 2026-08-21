@@ -20,4 +20,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Online Profiles](online-profiles/INDEX.md) - 8 object(s).
 - [Portfolios](portfolios/INDEX.md) - 2 object(s).
 - [Resumes](resumes/INDEX.md) - 21 object(s).
+- [Selection Criteria](selection-criteria/INDEX.md) - 4 object(s).
 - [Supporting Documents](supporting-documents/INDEX.md) - 1 object(s).

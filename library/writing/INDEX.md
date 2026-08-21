@@ -11,7 +11,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Career Documents](career-documents/INDEX.md) - 47 object(s).
+- [Career Documents](career-documents/INDEX.md) - 51 object(s).
 - [Creative Nonfiction](creative-nonfiction/INDEX.md) - 19 object(s).
 - [Fiction](fiction/INDEX.md) - 40 object(s).
 - [Foundations](foundations/INDEX.md) - 24 object(s).

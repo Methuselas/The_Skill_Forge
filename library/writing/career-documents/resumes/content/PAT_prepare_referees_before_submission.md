@@ -39,7 +39,7 @@ variants: []
 - Prefer direct supervisors who observed the candidate's performance and can discuss the work relevant to the target role.
 - Use another manager, colleague, customer, supplier, or contractor when the relationship gives that person direct and credible knowledge of the candidate's contribution.
 - When no workplace supervisor exists, choose a teacher, lecturer, thesis or project supervisor, coach, volunteer coordinator, customer, or other responsible adult who directly observed relevant work habits, academic performance, conduct, or contribution.
-- Brief each willing referee on the kinds of roles being pursued and confirm the evidence they are in a position to discuss.
+- Brief each willing referee on the kinds of roles being pursued and confirm the evidence they are in a position to discuss. For a criteria-based application, provide the exact position description and criterion set so the referee can identify relevant observed performance without being coached toward unsupported claims.
 - Record the referee's current title and organization as well as the earlier relationship that explains how the person knows the candidate.
 - For a referee in another country, supply a callable international-format number and a current email address rather than a local-only number.
 - State that referees are available on request unless the application instructions require names and contact details at submission.
@@ -58,6 +58,7 @@ variants: []
 - Current contact details and availability have been confirmed.
 - Overseas contact routes have been checked from the employer's likely calling or messaging context.
 - The referee understands the candidate's current direction without being coached to make false claims.
+- For a criteria-based process, the referee has the current role material and knows which requirements their direct observations can honestly address.
 - Disclosure follows the application's instructions and the candidate's confidentiality needs.
 
 ## Notes
