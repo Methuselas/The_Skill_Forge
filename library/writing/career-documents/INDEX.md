@@ -11,6 +11,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
+- [Academic Cv](academic-cv/INDEX.md) - 1 object(s).
 - [Delivery](delivery/INDEX.md) - 2 object(s).
 - [Foundations](foundations/INDEX.md) - 2 object(s).
-- [Resumes](resumes/INDEX.md) - 1 object(s).
+- [Resumes](resumes/INDEX.md) - 2 object(s).
