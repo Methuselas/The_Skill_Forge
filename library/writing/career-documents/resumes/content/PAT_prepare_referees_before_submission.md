@@ -38,6 +38,7 @@ variants: []
 ## Do
 - Prefer direct supervisors who observed the candidate's performance and can discuss the work relevant to the target role.
 - Use another manager, colleague, customer, supplier, or contractor when the relationship gives that person direct and credible knowledge of the candidate's contribution.
+- When no workplace supervisor exists, choose a teacher, coach, volunteer coordinator, customer, or other responsible adult who directly observed relevant work habits, conduct, or contribution.
 - Brief each willing referee on the kinds of roles being pursued and confirm the evidence they are in a position to discuss.
 - Record the referee's current title and organization as well as the earlier relationship that explains how the person knows the candidate.
 - For a referee in another country, supply a callable international-format number and a current email address rather than a local-only number.
@@ -46,12 +47,14 @@ variants: []
 ## Don't
 - Publish a person's contact details or imply their endorsement without permission.
 - Substitute a personal acquaintance when the employer needs evidence of workplace performance.
+- Use a family member merely because of the relationship; for work in a family business, prefer a non-family manager or another independent observer who supervised the candidate.
 - Surprise a current supervisor with a reference request when the job search has not been disclosed.
 - Rely on stale titles, disconnected numbers, or a referee who cannot recall the relevant work.
 
 ## Checklist
 - Each referee has explicitly agreed to act.
 - The relationship supports the kind of evidence the employer is likely to seek.
+- A candidate without formal work history still has referees who directly observed relevant responsibility or conduct.
 - Current contact details and availability have been confirmed.
 - Overseas contact routes have been checked from the employer's likely calling or messaging context.
 - The referee understands the candidate's current direction without being coached to make false claims.

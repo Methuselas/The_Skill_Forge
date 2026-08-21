@@ -26,10 +26,10 @@ confidence: high
 references: []
 variants:
   - variant_id: writing_application_targeting_variant_transferable_skill_bridge
-    variant_name: Transferable-Skill Bridge for Career Change
+    variant_name: Transferable-Skill Bridge When Titles Do Not Establish Fit
     variant_basis: method_sequence
-    difference_from_foundation: Inventory skills from paid work, unpaid work, study, community activity, and other credible experience; extract the target role's requirements; keep the intersection; then express each match through concrete evidence in the opening, skill summary, or relevant experience entry.
-    when_to_use: A career changer lacks the target occupation's usual job sequence but has capabilities acquired in other settings that genuinely perform the new role's work.
+    difference_from_foundation: Inventory capabilities from paid, casual, informal, volunteer, educational, sporting, community, and self-directed activity; extract the target role's requirements; keep the genuine intersections; then preview each match in the opening or skill summary and substantiate it in the relevant experience, education, or optional section.
+    when_to_use: A school leaver, graduate, career changer, workforce re-entrant, or other candidate lacks occupational titles that directly establish fit but has capabilities acquired in credible settings that perform the target work.
     when_not_to_use: The proposed skills do not match the target requirements, cannot be supported by an example, or direct experience already makes the bridge unnecessary.
     absorbed_from_object_id: none
 ---
@@ -62,4 +62,4 @@ variants:
 ## Notes
 Recruiters evaluate an application as a proposed match, not as an autobiography. A resume supplies the career evidence; a cover letter introduces and interprets that evidence for the opening. Relevance therefore governs selection before polish: strong but unrelated material can consume attention while failing to answer the employer's actual question.
 
-`writing_application_targeting_variant_transferable_skill_bridge` changes the evidence-selection sequence when occupational titles do not establish the match. Inventory capabilities across paid, unpaid, educational, and community settings; identify the new role's actual requirements; retain only genuine intersections; then attach each claimed skill to the work that demonstrated it. Use this bridge for a career change, not to rename generic traits or imply technical experience the candidate has not acquired.
+`writing_application_targeting_variant_transferable_skill_bridge` changes the evidence-selection sequence when occupational titles do not establish the match. Inventory capabilities across paid, casual, informal, volunteer, educational, sporting, community, and self-directed settings; identify the new role's actual requirements; retain only genuine intersections; then preview each claimed skill where the reviewer will see it early and substantiate it in the section that owns the underlying experience. Use this bridge when the evidence exists outside a conventional job sequence, not to rename generic traits or imply technical experience the candidate has not acquired.
