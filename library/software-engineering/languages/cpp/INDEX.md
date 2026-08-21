@@ -9,7 +9,7 @@
 - [Concurrency](concurrency/INDEX.md) - 4 object(s).
 - [Const Correctness](const-correctness/INDEX.md) - 6 object(s).
 - [Construction](construction/INDEX.md) - 3 object(s).
-- [Containers](containers/INDEX.md) - 5 object(s).
+- [Containers](containers/INDEX.md) - 8 object(s).
 - [Copy Control](copy-control/INDEX.md) - 10 object(s).
 - [Destructors](destructors/INDEX.md) - 2 object(s).
 - [Encapsulation](encapsulation/INDEX.md) - 3 object(s).
