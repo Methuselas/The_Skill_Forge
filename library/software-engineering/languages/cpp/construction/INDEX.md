@@ -6,3 +6,4 @@
 
 - [Don't Add a Default Constructor a Class Cannot Honor](PAT_dont_add_a_default_constructor_a_class_cannot_honor.md) - pattern; 2 block. Tags: class_design, construction, cpp, initialization, invariants.
 - [Don't Call Virtual Functions During Construction or Destruction](PAT_no_virtual_calls_in_constructors_or_destructors.md) - pattern; 3 rough. Tags: construction, cpp, destructors, virtual_functions.
+- [Restrict a Special Member to Control Where Objects Can Exist](PAT_restrict_a_special_member_to_control_where_objects_can_exist.md) - pattern; 2 block. Tags: access_control, class_design, construction, cpp, invariants.

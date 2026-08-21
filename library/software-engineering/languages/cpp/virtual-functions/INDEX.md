@@ -6,8 +6,10 @@
 
 - [Apply the Non-Virtual Interface Idiom](DRILL_apply_the_nvi_idiom.md) - drill; 2 block. Tags: cpp, nvi, template_method, virtual_functions.
 - [Externalize Varying Behavior with the Strategy Pattern](PAT_externalize_varying_behavior_with_strategy.md) - pattern; 2 block. Tags: callable, cpp, strategy, virtual_functions.
+- [Give a Polymorphic Class a Virtual Clone](PAT_give_a_polymorphic_class_a_virtual_clone.md) - pattern; 2 block. Tags: class_design, copying, cpp, polymorphism, virtual_functions.
 - [Match a Function's Virtual-ness to What Derived Classes Must Inherit](PAT_match_virtualness_to_inherited_interface.md) - pattern; 2 block. Tags: cpp, inheritance, interface_design, virtual_functions.
 - [Never Redefine an Inherited Default Parameter Value](PAT_never_redefine_inherited_default_parameter.md) - pattern; 3 rough. Tags: cpp, default_parameters, static_binding, virtual_functions.
 - [Never Redefine an Inherited Non-Virtual Function](PAT_never_redefine_inherited_non_virtual.md) - pattern; 3 rough. Tags: cpp, inheritance, static_binding, virtual_functions.
 - [Price Virtual Dispatch Against the Real Alternative](PAT_price_virtual_dispatch_against_the_real_alternative.md) - pattern; 0 design. Tags: cpp, design, inlining, performance, virtual_functions.
+- [Redesign Away From Multiple Dispatch](PAT_redesign_away_from_multiple_dispatch.md) - pattern; 0 design. Tags: cpp, design, extensibility, polymorphism, virtual_functions.
 - [Wrap Virtual Functions with the Non-Virtual Interface Idiom](PAT_wrap_virtuals_with_nvi_idiom.md) - pattern; 2 block. Tags: cpp, nvi, template_method, virtual_functions.

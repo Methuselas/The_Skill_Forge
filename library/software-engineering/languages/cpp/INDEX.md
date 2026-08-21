@@ -8,21 +8,22 @@
 - [Compilation Dependencies](compilation-dependencies/INDEX.md) - 2 object(s).
 - [Concurrency](concurrency/INDEX.md) - 4 object(s).
 - [Const Correctness](const-correctness/INDEX.md) - 6 object(s).
-- [Construction](construction/INDEX.md) - 2 object(s).
-- [Copy Control](copy-control/INDEX.md) - 9 object(s).
+- [Construction](construction/INDEX.md) - 3 object(s).
+- [Copy Control](copy-control/INDEX.md) - 10 object(s).
 - [Destructors](destructors/INDEX.md) - 2 object(s).
 - [Encapsulation](encapsulation/INDEX.md) - 3 object(s).
 - [Exception Safety](exception-safety/INDEX.md) - 5 object(s).
 - [Foundations](foundations/INDEX.md) - 4 object(s).
-- [Inheritance](inheritance/INDEX.md) - 6 object(s).
+- [Inheritance](inheritance/INDEX.md) - 7 object(s).
 - [Initialization](initialization/INDEX.md) - 5 object(s).
 - [Inlining](inlining/INDEX.md) - 1 object(s).
 - [Interface Design](interface-design/INDEX.md) - 4 object(s).
 - [Lambdas](lambdas/INDEX.md) - 2 object(s).
+- [Language Interop](language-interop/INDEX.md) - 1 object(s).
 - [Memory Management](memory-management/INDEX.md) - 10 object(s).
 - [Metaprogramming](metaprogramming/INDEX.md) - 1 object(s).
 - [Move Semantics](move-semantics/INDEX.md) - 3 object(s).
-- [Operators](operators/INDEX.md) - 4 object(s).
+- [Operators](operators/INDEX.md) - 5 object(s).
 - [Optimization](optimization/INDEX.md) - 2 object(s).
 - [Parameter Passing](parameter-passing/INDEX.md) - 5 object(s).
 - [Preprocessor](preprocessor/INDEX.md) - 2 object(s).
@@ -33,4 +34,4 @@
 - [Type Deduction](type-deduction/INDEX.md) - 3 object(s).
 - [Undefined Behavior](undefined-behavior/INDEX.md) - 2 object(s).
 - [Variable Definitions](variable-definitions/INDEX.md) - 1 object(s).
-- [Virtual Functions](virtual-functions/INDEX.md) - 7 object(s).
+- [Virtual Functions](virtual-functions/INDEX.md) - 9 object(s).
