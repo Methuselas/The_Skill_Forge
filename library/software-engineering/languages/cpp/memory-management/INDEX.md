@@ -11,6 +11,7 @@
 - [Pair Every Placement new with a Matching Placement delete](PAT_pair_placement_new_with_placement_delete.md) - pattern; 2 block. Tags: cpp, exception_safety, memory_management, placement_new.
 - [Prefer the make Functions to Direct Use of new](PAT_prefer_make_functions_to_direct_new.md) - pattern; 2 block. Tags: cpp, exception_safety, memory_management, performance, smart_pointers.
   - Variants: `Put the new and Its Smart Pointer in a Standalone Statement` (constraint).
+- [Reach for a Custom Allocator Only for What It Can Buy](PAT_reach_for_a_custom_allocator_only_for_what_it_can_buy.md) - pattern; 0 design. Tags: allocators, containers, cpp, memory_management, performance.
 - [Replace new and delete Only for a Concrete Reason](PAT_replace_new_delete_only_with_clear_reason.md) - pattern; 2 block. Tags: allocation, cpp, memory_management, performance.
 - [Use Matching new and delete Forms](PAT_match_new_and_delete_forms.md) - pattern; 3 rough. Tags: cpp, memory_management, new_delete, undefined_behavior.
 - [Write a Conforming Class-Specific operator new and delete](DRILL_write_a_conforming_operator_new.md) - drill; 3 rough. Tags: allocation, conventions, cpp, memory_management.
