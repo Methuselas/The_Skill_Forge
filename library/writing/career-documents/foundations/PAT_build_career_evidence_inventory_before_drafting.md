@@ -26,7 +26,14 @@ reference:
   author: Amanda McCarthy and Kate Southam
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_career_inventory_variant_ongoing_evidence_log
+    variant_name: Maintain an Ongoing Career-Evidence Log
+    variant_basis: method_sequence
+    difference_from_foundation: Capture achievements, praise, changed responsibilities, training, and measurable results when they occur, then periodically reconcile them into the broader inventory instead of reconstructing everything only when an application is due.
+    when_to_use: Work is producing evidence that will be difficult to recover later, especially changing metrics, informal recognition, project milestones, or expanding duties.
+    when_not_to_use: The record would contain confidential material that cannot be safely retained, or no durable storage and review practice can be maintained.
+    absorbed_from_object_id: none
 ---
 
 # Build a Career-Evidence Inventory Before Drafting
@@ -59,3 +66,5 @@ variants: []
 
 ## Notes
 Drafting directly from memory favors recent duties and generic traits while hiding the raw material that makes an application credible. The inventory is deliberately broader than any one resume. It preserves enough dated, specific material to support different applications without forcing every fact into every document.
+
+`writing_career_inventory_variant_ongoing_evidence_log` changes reconstruction into a capture-and-reconcile routine. Use it to record a result, compliment, new duty, or completed training while names, dates, numbers, and context are still available, then fold durable entries into the main inventory. Do not use the log to retain protected employer information or as an unreviewed substitute for the coherent career record.
