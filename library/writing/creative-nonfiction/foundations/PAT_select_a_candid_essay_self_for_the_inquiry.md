@@ -30,7 +30,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_present_candid_growth_under_admission_evaluation
+    variant_name: Present Candid Growth Under Admission Evaluation
+    variant_basis: context
+    difference_from_foundation: Under high-stakes personal admission evaluation, select a truthful partial self that may include a consequential limitation or challenge while emphasizing the applicant's response, reflection, and effort to grow instead of projecting perfection.
+    when_to_use: A personal statement or supplemental essay is meant to show readiness, character, or development beyond the rest of the application.
+    when_not_to_use: The limitation is irrelevant, included as harmless self-deprecation, or too unresolved or private to examine without disguise.
+    absorbed_from_object_id: none
 ---
 
 # Select a Candid Essay Self for the Inquiry
@@ -67,3 +74,5 @@ variants: []
 The self on the page is made by subtraction. Selection does not authorize fabrication; it concentrates one truthful configuration of a larger life around the work's present question. Candor earns trust when it admits pressures that materially complicate the narrator's preferred account. Routine self-mockery can do the opposite by offering a harmless flaw in place of the contradiction the essay actually needs to face.
 
 A personal essay is also not a police confession. Readers encounter the writer through what is disclosed and through how the language has been shaped. The usable balance is enough intimacy to expose the live tension, enough restraint to keep unrelated privacy from colonizing the work, and enough revision to turn disclosure into a deliberate literary experience.
+
+`writing_creative_nonfiction_variant_present_candid_growth_under_admission_evaluation` applies candid self-selection to an evaluative personal statement: present the strongest truthful self, not a flawless invention. When a shortcoming or challenge is material, make the response, reflection, and effort to grow visible; do not use cosmetic self-deprecation or disclose material that cannot yet withstand candid examination.

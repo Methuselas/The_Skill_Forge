@@ -17,5 +17,6 @@
 - [Preserve Factual Accountability While Using Literary Craft](PAT_preserve_factual_accountability_while_using_literary_craft.md) - pattern; 0 design. Tags: creative_nonfiction, genre_contract, interpretation, literary_craft, truth.
   - Variants: `Disclose Privacy-Protecting Alterations` (constraint).
 - [Select a Candid Essay Self for the Inquiry](PAT_select_a_candid_essay_self_for_the_inquiry.md) - pattern; 2 block. Tags: candor, contradiction, creative_nonfiction, personal_essay, self_portrayal.
+  - Variants: `Present Candid Growth Under Admission Evaluation` (context).
 - [Separate the Experiencing Self from the Reflective Narrator](PAT_separate_experiencing_self_from_reflective_narrator.md) - pattern; 2 block. Tags: characterization, creative_nonfiction, experiencing_self, hindsight, narrator.
 - [Verify Checkable Facts and Research Necessary Context](PAT_verify_checkable_facts_and_research_necessary_context.md) - pattern; 3 rough. Tags: authority, context, creative_nonfiction, fact_checking, research.
