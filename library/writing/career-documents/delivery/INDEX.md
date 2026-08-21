@@ -6,3 +6,4 @@
 
 - [Control Online Resume Visibility and Currency](PAT_control_online_resume_visibility_and_currency.md) - pattern; 4 final. Tags: job_boards, maintenance, online_profiles, privacy, resume_writing.
 - [Package Emailed Application Documents for Reliable Routing](PAT_package_emailed_application_documents_for_reliable_routing.md) - pattern; 4 final. Tags: attachments, email, file_format, job_applications, submission.
+- [Proofread Application Materials with Independent Passes](PAT_proofread_application_materials_with_independent_passes.md) - pattern; 4 final. Tags: job_applications, proofreading, quality_control, read_aloud, spellcheck.

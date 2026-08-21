@@ -38,6 +38,7 @@ variants: []
 - Put the advertised job title and reference number in the subject line so the message can be sorted without opening attachments.
 - Name each file with the applicant's identity and document type rather than a generic label shared by hundreds of candidates.
 - Keep formatted documents as attachments when pasting them into the message body would damage layout or legibility.
+- Send the actual attachment set through a test transmission and reopen it independently to catch damaged formatting or files that work only in the authoring environment.
 - Recheck the recipient address, filenames, document versions, and actual attachments immediately before sending.
 
 ## Don't
@@ -51,6 +52,7 @@ variants: []
 - Filenames identify both the applicant and the document type.
 - The subject line identifies the vacancy and includes its reference number when one exists.
 - The final rendered files retain their intended formatting and are readable when reopened.
+- A transmitted copy, not only the local original, has opened successfully in the intended format.
 - The recipient, attachments, and versions have been verified in the outgoing message.
 
 ## Notes

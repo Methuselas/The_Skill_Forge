@@ -40,6 +40,7 @@ variants: []
 - Use another manager, colleague, customer, supplier, or contractor when the relationship gives that person direct and credible knowledge of the candidate's contribution.
 - Brief each willing referee on the kinds of roles being pursued and confirm the evidence they are in a position to discuss.
 - Record the referee's current title and organization as well as the earlier relationship that explains how the person knows the candidate.
+- For a referee in another country, supply a callable international-format number and a current email address rather than a local-only number.
 - State that referees are available on request unless the application instructions require names and contact details at submission.
 
 ## Don't
@@ -52,6 +53,7 @@ variants: []
 - Each referee has explicitly agreed to act.
 - The relationship supports the kind of evidence the employer is likely to seek.
 - Current contact details and availability have been confirmed.
+- Overseas contact routes have been checked from the employer's likely calling or messaging context.
 - The referee understands the candidate's current direction without being coached to make false claims.
 - Disclosure follows the application's instructions and the candidate's confidentiality needs.
 

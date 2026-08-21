@@ -5,5 +5,7 @@
 ## Topics
 
 - [Content](content/INDEX.md) - 10 object(s).
+- [Finalization](finalization/INDEX.md) - 1 object(s).
 - [Format](format/INDEX.md) - 1 object(s).
-- [Language](language/INDEX.md) - 3 object(s).
+- [Language](language/INDEX.md) - 4 object(s).
+- [Presentation](presentation/INDEX.md) - 1 object(s).
