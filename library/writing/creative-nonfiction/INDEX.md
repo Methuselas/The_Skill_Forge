@@ -4,5 +4,5 @@
 
 ## Topics
 
-- [Foundations](foundations/INDEX.md) - 6 object(s).
-- [Structure](structure/INDEX.md) - 5 object(s).
+- [Foundations](foundations/INDEX.md) - 8 object(s).
+- [Structure](structure/INDEX.md) - 7 object(s).

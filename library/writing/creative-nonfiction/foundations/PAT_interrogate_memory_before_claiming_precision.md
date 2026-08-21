@@ -28,7 +28,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_paraphrase_or_summarize_uncertain_speech
+    variant_name: Paraphrase or Summarize Uncertain Speech
+    variant_basis: method_sequence
+    difference_from_foundation: Replace unsupported verbatim reconstruction with clearly mediated paraphrase or concise summary that preserves the remembered substance without claiming exact wording.
+    when_to_use: A conversation matters to the essay but elapsed time, lack of recording, or incomplete recall makes direct quotation implausibly precise.
+    when_not_to_use: Exact wording was recorded or is distinctly remembered and its voice, rhythm, or phrasing carries necessary meaning.
+    absorbed_from_object_id: none
 ---
 
 # Interrogate Memory Before Claiming Precision
@@ -42,6 +49,7 @@ variants: []
 - Ask what the remembering self would prefer to have happened and whether that preference has cleaned up motive, conduct, dialogue, or consequence.
 - Compare the account with diaries, messages, photographs, records, physical facts, or other participants' memories when those are available and consequential.
 - Separate a distinctly remembered remark from dialogue rebuilt only to convey the substance of an exchange.
+- Use direct quotation selectively when wording is supportable; otherwise shift to paraphrase or summary before invented precision becomes part of the scene.
 - Identify whether a scene happened once, recurred in similar forms, or combines material from several occasions, then make that status legible where it affects trust.
 - Keep difficult or embarrassing evidence when removing it would protect the narrator at the cost of an honest account.
 
@@ -56,8 +64,11 @@ variants: []
 - The degree of narrative precision matches the available memory and supporting evidence.
 - Wishes, defenses, shame, and later knowledge have been considered as possible sources of distortion.
 - Repeated, composite, and reconstructed material is not presented as one verbatim occasion without a responsible signal.
+- Readers can distinguish exact remembered or recorded words from the narrator's rendering of their substance.
 - Conflicting accounts are acknowledged when they materially change interpretation.
 - The narrator's subjectivity remains visible without becoming a license to fabricate.
 
 ## Notes
 Memory supplies a personal perspective rather than a neutral recording. Its selectivity can produce meaning, but it can also revise the past toward comfort, coherence, or self-protection. Self-scrutiny therefore asks more than whether a scene feels true: it asks which details are remembered, which are inferred, which can be checked, and which version the narrator is motivated to prefer. Qualification should expose the real limit without draining the account of every usable conviction.
+
+`writing_creative_nonfiction_variant_paraphrase_or_summarize_uncertain_speech` preserves a consequential conversation without pretending to recover a transcript. Use paraphrase when the substance and character of a shorter utterance matter, and summary when the outcome of a longer exchange matters more than its verbal texture. Recorded or distinctly remembered phrases may remain direct quotations, but long dialogue from the distant past should not gain false authority merely because quotation marks make a scene more immediate.
