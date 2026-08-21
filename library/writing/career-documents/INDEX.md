@@ -15,4 +15,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Cover Letters](cover-letters/INDEX.md) - 6 object(s).
 - [Delivery](delivery/INDEX.md) - 3 object(s).
 - [Foundations](foundations/INDEX.md) - 2 object(s).
+- [Online Profiles](online-profiles/INDEX.md) - 8 object(s).
 - [Resumes](resumes/INDEX.md) - 17 object(s).
