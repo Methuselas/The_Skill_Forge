@@ -7,4 +7,3 @@
 - [Make Rhyme Serve Sense and Effect](PAT_make_rhyme_serve_sense_and_effect.md) - pattern; 3 rough. Tags: diction, poetry, revision, rhyme, sound.
   - Variants: `Use Perfect End Rhyme for Closure` (emphasis); `Use Slant Rhyme for Flexibility` (constraint); `Use Internal Rhyme Without End-Word Pressure` (method_sequence); `Use Sight Rhyme for Visual Correspondence` (medium).
 - [Revise Poetic Sound Without Sacrificing Sense](AP_revise_poetic_sound_without_sacrificing_sense.md) - ap; 3 rough. Tags: musicality, poetry, revision, rhyme, sound.
-- [Use Repeated Sounds to Link Poetic Ideas](PAT_use_repeated_sounds_to_link_poetic_ideas.md) - pattern; 3 rough. Tags: alliteration, assonance, consonance, musicality, poetry.

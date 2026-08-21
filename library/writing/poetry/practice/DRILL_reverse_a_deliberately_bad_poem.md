@@ -22,7 +22,7 @@ cross_links:
   - rel: related_to
     target_object_id: writing_replace_received_language_with_precise_distinctive_phrasing
   - rel: related_to
-    target_object_id: writing_poetry_replace_abstractions_with_specific_sensory_images
+    target_object_id: writing_replace_abstractions_with_specific_sensory_images
   - rel: related_to
     target_object_id: writing_poetry_drill_write_cull_rework_for_judgment
 reference:

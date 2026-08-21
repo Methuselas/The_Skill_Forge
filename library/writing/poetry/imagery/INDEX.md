@@ -6,5 +6,3 @@
 
 - [Balance Symbols Between Cliche and Obscurity](PAT_balance_symbols_between_cliche_and_obscurity.md) - pattern; 3 rough. Tags: audience, imagery, poetry, revision, symbolism.
 - [Build a Poem Around a Productive Comparison](DRILL_build_poem_around_productive_comparison.md) - drill; 1 skeleton. Tags: deliberate_practice, figurative_language, metaphor, poetry, simile.
-- [Make Figurative Language Unexpected and Fitting](PAT_make_figurative_language_unexpected_and_fitting.md) - pattern; 3 rough. Tags: figurative_language, metaphor, poetry, revision, simile.
-- [Replace Poetic Abstractions with Specific Sensory Images](PAT_replace_poetic_abstractions_with_specific_sensory_images.md) - pattern; 3 rough. Tags: imagery, poetry, revision, sensory_detail, specificity.

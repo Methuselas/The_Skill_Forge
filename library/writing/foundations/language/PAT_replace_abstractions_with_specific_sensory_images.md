@@ -1,30 +1,20 @@
 ---
-object_id: writing_poetry_replace_abstractions_with_specific_sensory_images
+object_id: writing_replace_abstractions_with_specific_sensory_images
 object_type: pattern
-name: Replace Poetic Abstractions with Specific Sensory Images
-library_path:
-  - writing
-  - poetry
-  - imagery
+name: Replace Abstractions with Specific Sensory Images
+library_path: [writing, foundations, language]
 stage_binding: 3 rough
 lane_fit: skill
-foundation_role: specialization
-routing_class: specialized
-specialization_axis: genre
+foundation_role: foundation
+routing_class: general
+specialization_axis: none
 foundation_object_id: none
-tags:
-  - poetry
-  - imagery
-  - sensory_detail
-  - specificity
-  - revision
+tags: [creative_writing, imagery, sensory_detail, specificity, revision]
 cross_links:
   - rel: related_to
-    target_object_id: writing_poetry_balance_symbols_between_cliche_and_obscurity
+    target_object_id: writing_make_figurative_language_unexpected_and_fitting
   - rel: related_to
-    target_object_id: writing_poetry_make_figurative_language_unexpected_and_fitting
-  - rel: related_to
-    target_object_id: writing_poetry_sustain_intensity_beyond_meter_and_lineation
+    target_object_id: writing_replace_received_language_with_precise_distinctive_phrasing
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -33,10 +23,10 @@ references: []
 variants: []
 ---
 
-# Replace Poetic Abstractions with Specific Sensory Images
+# Replace Abstractions with Specific Sensory Images
 
 ## Pattern Rule
-**IF** a poem states a person, feeling, place, or event mainly through generalization or abstract labels
+**IF** a passage states a person, feeling, place, or event mainly through generalization or abstract labels
 **THEN** convert the consequential claims into concrete, specific, and appropriately unusual details that readers can see, hear, smell, touch, or taste
 **ELSE** retain an abstraction only when its surrounding images have earned it or its distance performs a chosen effect
 
@@ -61,4 +51,4 @@ variants: []
 - The image is memorable because it is both specific and fitting, not merely strange.
 
 ## Notes
-Generality often feels inclusive to the writer but gives the reader nothing substantial to encounter. A concrete image slows attention and can carry physical fact, emotion, and implication at once. Language cannot reproduce experience exactly, so specificity is not a promise of perfect transmission; it is the writer's best available gesture toward a world the reader can enter.
+Generality often feels inclusive to the writer but gives the reader nothing substantial to encounter. A concrete image slows attention and can carry physical fact, emotion, and implication at once. Language cannot reproduce experience exactly, so specificity is not a promise of perfect transmission; it is the writer's best available gesture toward a world the reader can enter. The decision applies across forms: poetry may concentrate the image into a line, while brief nonfiction may ask one sensory detail to carry exposition, memory, and inward movement together.

@@ -19,6 +19,7 @@ tags:
   - chronology
   - thematic_braiding
   - segmentation
+  - lyric_essay
 cross_links:
   - rel: related_to
     target_object_id: writing_creative_nonfiction_choose_subject_for_open_ended_exploration
@@ -49,8 +50,8 @@ variants:
   - variant_id: writing_creative_nonfiction_variant_segment_by_juxtaposition_and_jump_cut
     variant_name: Segment by Juxtaposition and Jump Cut
     variant_basis: method_sequence
-    difference_from_foundation: Separate focused units with white space so adjacency, contrast, and omission carry transitions that connective exposition would flatten.
-    when_to_use: Meaning depends on readers making an active leap between self-contained moments, voices, facts, or images.
+    difference_from_foundation: Separate image-led or otherwise focused units with white space so adjacency, contrast, silence, and omission carry structural pressure that connective exposition would flatten.
+    when_to_use: A lyric essay or segmented inquiry depends on readers making an active leap between self-contained moments, voices, facts, or images.
     when_not_to_use: The sequence becomes arbitrary, readers cannot relocate after a break, or essential causal information is being withheld.
     absorbed_from_object_id: none
 ---
@@ -90,4 +91,4 @@ Exploratory drafting can discover an essay's connections before it discovers its
 
 `writing_creative_nonfiction_variant_braid_themes_around_recurring_anchor` rotates among distinct strands held together by a recurring post. Use it when each return alters the reader's understanding of the other strands; avoid it when repetition supplies only a decorative motif.
 
-`writing_creative_nonfiction_variant_segment_by_juxtaposition_and_jump_cut` makes adjacency and white space meaningful transitions. It suits an inquiry whose force depends on contrast, omission, or collision, provided each segment is locally coherent and readers receive enough orientation to make the jump.
+`writing_creative_nonfiction_variant_segment_by_juxtaposition_and_jump_cut` makes adjacency, imagery, silence, and white space exert structural pressure. It suits a lyric essay or other inquiry whose force depends on contrast, omission, or collision, provided each segment is locally coherent and readers receive enough orientation to make the jump.

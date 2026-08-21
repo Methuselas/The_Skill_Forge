@@ -20,7 +20,7 @@ tags:
   - revision
 cross_links:
   - rel: related_to
-    target_object_id: writing_poetry_replace_abstractions_with_specific_sensory_images
+    target_object_id: writing_replace_abstractions_with_specific_sensory_images
   - rel: related_to
     target_object_id: writing_calibrate_context_to_audience_and_venue
 reference:

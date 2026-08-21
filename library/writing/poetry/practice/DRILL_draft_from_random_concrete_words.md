@@ -22,7 +22,7 @@ cross_links:
   - rel: related_to
     target_object_id: writing_poetry_draft_through_discovery
   - rel: related_to
-    target_object_id: writing_poetry_replace_abstractions_with_specific_sensory_images
+    target_object_id: writing_replace_abstractions_with_specific_sensory_images
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey

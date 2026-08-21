@@ -20,7 +20,7 @@ tags:
   - revision
 cross_links:
   - rel: related_to
-    target_object_id: writing_poetry_use_repeated_sounds_to_link_ideas
+    target_object_id: writing_shape_sound_to_reinforce_meaning
   - rel: related_to
     target_object_id: writing_read_draft_aloud_to_defamiliarize_it
   - rel: related_to

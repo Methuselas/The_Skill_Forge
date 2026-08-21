@@ -24,7 +24,7 @@ cross_links:
   - rel: related_to
     target_object_id: writing_synthesize_literary_influences_into_voice
   - rel: related_to
-    target_object_id: writing_poetry_make_figurative_language_unexpected_and_fitting
+    target_object_id: writing_make_figurative_language_unexpected_and_fitting
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey

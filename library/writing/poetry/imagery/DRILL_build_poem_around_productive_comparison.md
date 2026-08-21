@@ -20,9 +20,9 @@ tags:
   - deliberate_practice
 cross_links:
   - rel: teaches
-    target_object_id: writing_poetry_make_figurative_language_unexpected_and_fitting
+    target_object_id: writing_make_figurative_language_unexpected_and_fitting
   - rel: related_to
-    target_object_id: writing_poetry_replace_abstractions_with_specific_sensory_images
+    target_object_id: writing_replace_abstractions_with_specific_sensory_images
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
