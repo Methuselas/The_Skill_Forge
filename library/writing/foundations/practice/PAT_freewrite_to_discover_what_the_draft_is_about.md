@@ -30,7 +30,14 @@ reference:
   author: Jessica Brenner and Geraldine Woods
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_variant_recenter_successive_freewrites_on_marked_live_passages
+    variant_name: Recenter Successive Freewrites on Marked Live Passages
+    variant_basis: method_sequence
+    difference_from_foundation: After each exploratory pass, mark one phrase or passage with live pressure, place it at the head of a fresh page, and freewrite from it again until a usable center and supporting particulars emerge.
+    when_to_use: An initial freewrite contains promising fragments but remains too diffuse or thin to establish what the piece should pursue.
+    when_not_to_use: The first pass already exposes a draftable center, or repeated rounds merely paraphrase the same insight without adding detail, complication, or relation.
+    absorbed_from_object_id: none
 ---
 
 # Freewrite to Discover What the Draft Is About
@@ -62,3 +69,5 @@ variants: []
 
 ## Notes
 Freewriting and brainstorming suspend judgment for different reasons. Brainstorming searches for alternatives inside a named problem; freewriting helps discover the problem itself. The review after the interval is essential: association creates raw material, while marking the passages that surprise, specify, or complicate converts that material into a usable next move.
+
+`writing_variant_recenter_successive_freewrites_on_marked_live_passages` turns that review into an iterative narrowing loop. After a pass, mark a phrase whose concrete detail, tension, changed understanding, or unexplained energy deserves pursuit; use that exact material as the next pass's starting pressure, then write continuously again. Allow a genuinely stronger new subject to replace the old one, but use a positive restatement of the chosen center when accidental drift needs correction. Stop when further rounds stop changing the understanding or when the material supplies a draftable center with enough supporting particulars.

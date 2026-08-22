@@ -47,12 +47,14 @@ variants: []
 - Pair an abstract possibility such as identity, curiosity, learning, belonging, or courage with moments in which choices and consequences make it observable.
 - Include ordinary incidents when their repetition or intimacy reveals more than a celebrated milestone does.
 - For an accomplishment, setback, activity, or interest, identify what changed in the writer's understanding, conduct, method, or relation rather than stopping at what happened.
+- When a passion, talent, or strength yields only praise, probe for a real challenge, a pressure the activity relieves, a source of support or misunderstanding, or conduct the pursuit changed; retain only the complexity the evidence actually supports.
 - Use exploratory passages to test more than one interpretation before choosing the relation that best explains the strongest material.
 
 ## Don't
 - Treat a category from a theme list as sufficient content for an essay.
 - Assert a flattering trait and then collect memories only to certify a conclusion already protected from complication.
 - Infer that failure itself proves risk-taking, resilience, or growth without showing the writer's response and change.
+- Manufacture adversity or conflict merely to make an otherwise truthful interest appear deeper.
 - Force every remembered episode under one label when contradictions or exclusions reveal a more accurate theme.
 - Let thematic coherence erase uncertainty, privacy boundaries, or differences between what was known then and understood later.
 
@@ -61,6 +63,7 @@ variants: []
 - At least one specific choice, response, or consequence allows the reader to test the interpretation.
 - The material includes reflection or change that an activity list or factual record would not convey.
 - Contrary or awkward evidence has been examined rather than silently discarded.
+- A strength- or passion-led theme includes demonstrated pressure, relation, or change rather than unsupported enthusiasm alone.
 - The proposed theme is narrow enough to guide selection while leaving room for discovery during drafting.
 
 ## Notes
