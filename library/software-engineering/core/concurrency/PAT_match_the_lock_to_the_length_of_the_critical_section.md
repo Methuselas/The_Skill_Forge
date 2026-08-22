@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_classify_synchronization_by_progress_guarantee
 - rel: related_to
   target_object_id: PAT_separate_per_thread_data_by_a_cache_line
+- rel: related_to
+  target_object_id: PAT_give_each_waiter_its_own_location_to_spin_on
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus
@@ -44,6 +46,8 @@ variants: []
 - Read the general-purpose mutex as a compromise rather than a default. It is somewhat inefficient for guarding a single instruction, reasonable for a computation of dozens of nanoseconds, and clearly best once the hold time gets long — a millisecond being very long at processor speeds.
 - Use a spinlock where the wait is a handful of cycles, and expect the gain to be large. Guarding a shared counter, the sleep-and-wake path costs far more than the operation being guarded, and the CPU time burned spinning is a few instructions.
 - Poll with a plain read before attempting the exchange. Acquiring by unconditionally writing the flag takes exclusive access to its cache line on every failed attempt, bouncing the line between processors while the holder is not even touching it; reading until the flag clears and only then exchanging lets every waiter keep a valid shared copy, and the line moves only when the value actually changes.
+- Back off before retrying when an attempt fails on a lock you had just seen free, and randomize how long. Failing there means somebody took it in between, which is evidence of contention specifically — whereas simply finding the lock held tells you nothing. Doubling the delay after each such failure, up to a ceiling, and drawing the actual wait randomly from that range is what keeps competing threads from falling into lockstep and colliding again together.
+- Price backoff's two costs against the traffic it saves. The critical section goes underused, because when the lock frees there may be nobody awake to take it — and that gets worse at higher contention, which is when it can least be afforded. And it is markedly unfair: a thread that released the lock may never observe contention at all and so never back off, letting it reacquire repeatedly while others wait.
 - Yield the processor after a bounded number of failed attempts. An unyielding spinner looks to the scheduler like a thread doing useful work, so it accrues CPU time while the thread that would release the lock waits to be scheduled — the pathology the yield exists to prevent. Somewhere between eight and sixteen attempts before yielding works well across hardware.
 - Pick the yielding call by measurement, not by name. On Linux, sleeping for a single nanosecond outperformed the dedicated yield call in practice; either way it is a system call and costs far more than an instruction, which is what the attempt budget is protecting.
 - Consider making the lock the only handle to what it guards. A lock holding a pointer, which hands the pointer out on acquisition and takes it back on release, makes unguarded access to the data impossible to write by accident — and measured slightly faster than a flag-based spinlock more often than not.
