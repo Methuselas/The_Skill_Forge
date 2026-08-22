@@ -35,6 +35,13 @@ variants:
     when_to_use: A completed profile remains inert, the character's voice is generic, or facts have not yet become pressure between this person and someone else.
     when_not_to_use: The story itself is already an epistolary form, the document merely summarizes the profile, or private explanation is being used to avoid dramatizing consequential behavior.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_hot_seat_character_with_responsive_questions
+    variant_name: Hot-Seat a Character with Responsive Questions
+    variant_basis: method_sequence
+    difference_from_foundation: Interview the character in role, following evasive, contradictory, or surprising answers with unscripted questions, then test the resulting discoveries in behavior rather than preserving the exchange as biography.
+    when_to_use: A static profile supplies facts but the character's voice, self-justification, relationships, or response under pressure remains generic.
+    when_not_to_use: The character already acts and speaks distinctly in consequential scenes, or improvised answers are being treated as binding facts despite contradicting the story's established conditions.
+    absorbed_from_object_id: none
 ---
 
 # Build a Hidden Character Profile
@@ -73,3 +80,5 @@ Choose a central character from a planned or incomplete fiction draft. Have the 
 The exercise separates design knowledge from disclosure. A submerged biography gives the writer reasons for choices and verbal texture, but its value disappears when the draft displays the whole worksheet. Repeat with another central character when motives feel interchangeable.
 
 `writing_fiction_variant_pressure_hidden_profile_through_unsent_document` inserts a private voice experiment between profile and scene. Give the character a specific addressee, situation, and emotional pressure; let selection, accusation, evasion, formality, and omission reveal the relationship. Mark the few discoveries capable of changing action or speech, then draft the ordinary scene without requiring the document to appear. The variant succeeds when it activates the profile, not when it creates a more elegant block of exposition.
+
+`writing_fiction_variant_hot_seat_character_with_responsive_questions` makes character design conversational and adaptive. Begin with a specific interviewer relationship or neutral rehearsal frame, ask about a live desire or problem, and follow language that evades, contradicts, boasts, minimizes, or unexpectedly specifies. Answer in the character's available diction without forcing immediate consistency. Afterward, separate useful discoveries from improvisational noise and retain only answers that can alter motive, relation, speech, or choice in the story. The interview generates hypotheses; the drafted behavior decides which become character facts.

@@ -5,12 +5,15 @@
 ## Objects
 
 - [Build a Hidden Character Profile](DRILL_build_a_hidden_character_profile.md) - drill; 0 design. Tags: biography, character, fiction, practice, profile.
-  - Variants: `Pressure a Hidden Profile Through an Unsent Document` (method_sequence).
+  - Variants: `Pressure a Hidden Profile Through an Unsent Document` (method_sequence); `Hot-Seat a Character with Responsive Questions` (method_sequence).
 - [Build Round Characters from Contradiction and Desire](PAT_build_round_characters_from_contradiction_and_desire.md) - pattern; 0 design. Tags: character, contradiction, desire, fiction, protagonist.
 - [Compress Cast without Flattening Main Characters](PAT_compress_cast_without_flattening_main_characters.md) - pattern; 1 skeleton. Tags: cast, character, compression, fiction, flash-fiction, naming.
 - [Develop and Reveal a Short-Story Character](AP_develop_and_reveal_a_short_story_character.md) - ap; 0 design. Tags: character, development, fiction, revelation, short_story.
+- [Differentiate Character Voices through Parallel Monologues](DRILL_differentiate_character_voices_through_parallel_monologues.md) - drill; 1 skeleton. Tags: character, deliberate_practice, diction, fiction, monologue, voice.
 - [Inhabit Unsympathetic Characters from Inside](PAT_inhabit_unsympathetic_characters_from_inside.md) - pattern; 0 design. Tags: character, fiction, motivation, point-of-view, sympathy.
+- [Portray Characters Beyond Direct Experience with Accountable Imagination](PAT_portray_characters_beyond_direct_experience_with_accountable_imagination.md) - pattern; 0 design. Tags: character, fiction, identity, imagination, research, stereotype.
 - [Propagate One Counterfactual Change through a Fictional Life](DRILL_propagate_one_counterfactual_change_through_a_fictional_life.md) - drill; 0 design. Tags: character, counterfactual, deliberate_practice, fiction, invention, transformation.
+- [Render One Character through Five Portrayal Channels](DRILL_render_one_character_through_five_portrayal_channels.md) - drill; 2 block. Tags: character, characterization, deliberate_practice, fiction, revision, scene.
 - [Reveal Character Incrementally through Behavior](PAT_reveal_character_incrementally_through_behavior.md) - pattern; 2 block. Tags: behavior, character, fiction, observation, scene.
   - Variants: `Characterize through Selective Observation` (emphasis).
 - [Scale Character Change to Story Length](PAT_scale_character_change_to_story_length.md) - pattern; 3 rough. Tags: change, character, fiction, flash-fiction, realization.
