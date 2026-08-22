@@ -46,9 +46,11 @@ variants: []
 - Expect the second question to be the harder one and budget for it accordingly. Whether something eventually happens depends on the scheduler, so it cannot be settled by reading the source the way the first question can — it needs reasoning about interleavings, or a test that runs long enough under contention to expose starvation.
 - Treat correct locking as the beginning rather than the end. Mutual exclusion is the property locks provide; it is entirely possible for every critical region to be properly guarded and for the program to stop dead because two of those guards are acquired in opposite orders.
 - Look for the failure where every participant is waiting on something another participant holds and will not release until it finishes. Five diners, four forks, nobody willing to put one down — the shape is the same whether the resources are files, connections, or rows.
+- State the invariants explicitly when you put concurrent code in front of reviewers, and give them the code far enough ahead to reason about it. Both questions above are asked against an invariant, and a reviewer who has to infer yours from the code is deriving the standard and applying it in the same pass.
 - Name the condition where a result depends on which thread happens to get there first. That dependence on timing is the thing to hunt, and it is present whether or not the wrong outcome has been observed yet.
 
 ## Don't
+- Don't expect review by reading to find races reliably, even from competent readers who know one is there. Asked to find a planted race in a short, self-contained program, about one in ten seminar participants located it within five minutes. Reading is worth doing and is not a detector; the tools that instrument the running program are.
 - Don't accept the absence of observed failure as evidence. Both classes of fault depend on interleavings that may occur rarely, and a suite that passes a thousand times has sampled a tiny share of the possible orderings.
 - Don't assume that adding a lock makes a region correct. A lock introduces the possibility of the second failure while removing the first, so every one you add is a trade rather than a gain.
 - Don't confine the check to the code you wrote. A library call, a connection pool, or a framework holding something on your behalf can supply the other half of a mutual block.

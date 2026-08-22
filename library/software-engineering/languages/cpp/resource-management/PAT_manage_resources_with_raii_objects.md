@@ -44,6 +44,7 @@ variants: []
 
 ## Don't
 - Don't count on reaching a manual delete or release at the end of a function; a premature return, a loop break, or a thrown exception skips it and leaks the resource plus everything it owns.
+- Don't construct the managing object without a name. A declaration that gives it a name binds it to the enclosing scope; the same constructor call written as a bare expression creates a temporary that is destroyed at the end of that statement, so the resource is released immediately and the code that follows runs unprotected. The two forms differ by an identifier, both compile, and only the named one does anything.
 - Don't put an array allocation into auto_ptr or a shared pointer — they call delete, not delete[]; use a vector or string instead.
 
 ## Checklist

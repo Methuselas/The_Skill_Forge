@@ -51,6 +51,7 @@ variants: []
 ## Don't
 - Don't hand-write the lock and unlock calls around a critical section. An exception thrown inside leaves the mutex held forever, and so does any early return added later by someone who did not notice the unlock at the bottom.
 - Don't hand the multi-mutex guard a mutex this thread already holds. Unless the mutex is a recursive one the behaviour is undefined, and what it usually does in practice is deadlock.
+- Don't write the guard without a name. An unnamed guard is a temporary: it locks and unlocks within the one statement that constructs it, and every line after it — the lines you meant to protect — then runs with the mutex free. Nothing fails, nothing reports, and the section is simply unsynchronized, which makes this worse than forgetting the guard entirely because the code reads as though it is protected.
 - Don't reach for the flexible lock as a default because it can do everything. Capability here costs something at every acquisition, and a lock that can be unlocked early is also a lock a reader has to check for early unlocking.
 
 ## Checklist
