@@ -1,0 +1,134 @@
+memory_schema_version: 1
+skillset: art
+memory_version: 1
+
+# Compact current empirical state for the Art lane. Contract:
+# PASS/docs/MEMORY_SCHEMA.md. This file is not canon and never becomes canon by
+# being copied into a card; a lesson that seems to belong everywhere has earned
+# promotion review instead.
+#
+# Seeded conservatively from pre-Memory practical runs. Every entry below is a
+# craft observation from a run that was a valid test of the thing it describes.
+# Controller, tool, packaging, and reference-routing failures from the same
+# period are deliberately absent: those were not tests of craft, and several are
+# now held by regression tests where they belong.
+
+entries:
+  - id: ART_MEM_001
+    scope_type: topic
+    scope_id: hands_and_object_contact
+    type: recurring_failure
+    evidence_class: stochastic_performance
+    observation: >
+      In a full-scene action render with a character reference supplied, broad
+      identity, costume, palette, atmosphere and perspective stayed readable
+      while both visible hands degraded: the gripping hand lost clear thumb
+      opposition and digit separation, and the open hand lost digit grouping and
+      the wrist-to-hand transition.
+    diagnosis:
+      failure_layer: application
+      hypothesis: >
+        Hand knowledge exists in canon and is applied under low load, but is not
+        held under competing full-scene demands, and post-render verification
+        did not catch what generation missed.
+    boundary: >
+      Observed on a single high-load cyberpunk action render with a weapon in
+      hand. Not evidence about isolated or neutral hand studies, which were not
+      tested.
+    confidence: provisional
+    status: active
+    evidence_count: 1
+    evidence_events:
+      - ART_EV_0001
+    evidence_origin:
+      - user_feedback
+      - runtime_self_audit
+    likely_owners:
+      - PAT_configure_hand_around_function_contact_and_load
+    interventions:
+      - drill: none_run
+        isolation_result: untested
+        retention_result: untested
+        transfer_result: untested
+    retrieval_cues:
+      - hand
+      - hands
+      - grip
+      - weapon
+      - contact
+      - action pose
+    runtime_scope: generic
+    last_verified: 2026-08-22
+
+  - id: ART_MEM_002
+    scope_type: topic
+    scope_id: action_pose_dynamism
+    type: recurring_failure
+    evidence_class: stochastic_performance
+    observation: >
+      Under high-action prompts the image gains camera angle, effects, and
+      diagonal energy while the underlying body remains comparatively
+      conservative: ribcage and pelvis stay close to aligned, compression and
+      extension stay mild, and the centre of gravity stays near-central. Removing
+      the camera and effects leaves a pose that does not read as extreme action.
+    diagnosis:
+      failure_layer: application
+      hypothesis: >
+        Presentation energy is raised before whole-body force, axis opposition,
+        and depth staggering are resolved.
+    boundary: >
+      Observed on character action renders. Not tested against non-figurative
+      subjects or against staged work where structure is ratified before finish.
+    confidence: repeated
+    status: active
+    evidence_count: 1
+    evidence_events:
+      - ART_EV_0001
+    evidence_origin:
+      - user_feedback
+      - runtime_self_audit
+    retrieval_cues:
+      - action
+      - dynamic
+      - punch
+      - superhero
+      - foreshortening
+      - extreme pose
+    runtime_scope: generic
+    last_verified: 2026-08-22
+
+  - id: ART_MEM_003
+    scope_type: topic
+    scope_id: terrain_mesostructure
+    type: recurring_failure
+    evidence_class: stochastic_performance
+    observation: >
+      In landscape work the large terrain silhouette and broad light/shadow
+      separation survive to the finished image, while meso-scale structure -
+      ridges, plane changes, fractures, erosion pattern - thins out before
+      atmosphere and surface finish are applied.
+    diagnosis:
+      failure_layer: orchestration
+      hypothesis: >
+        The working sequence applies atmospheric reduction before meso-scale
+        terrain structure has been verified, so the reduction removes structure
+        that was never established.
+    boundary: >
+      Observed on observational/painterly landscape work. Not tested on
+      architectural or figure subjects, and not retested after any sequence
+      change.
+    confidence: provisional
+    status: active
+    evidence_count: 1
+    evidence_events:
+      - ART_EV_0002
+    evidence_origin:
+      - user_feedback
+    retrieval_cues:
+      - landscape
+      - terrain
+      - mountain
+      - geology
+      - atmosphere
+    runtime_scope: generic
+    last_verified: 2026-08-22

@@ -54,6 +54,14 @@ The prose after each lead is this file's own.
   Attribute a failure before authoring: a missing reusable decision may justify a
   Pattern, and a missing reusable action orchestration may justify an AP; retrieval,
   application, continuity, reference, tool, and interface failures do not.
+- **Skillset Memory records what happened; it is never canon and is never copied
+  into canon.** Empirical state lives in `memory/<domain>/`. Cards do not carry
+  it and entrypoints do not inline it; an observation that appears to belong
+  everywhere goes through promotion review instead.
+- **An invalid run is never evidence about a capability.** If the run failed
+  before the capability was exercised, record it in `training_history.jsonl` with
+  a reason and attribute it to the tool, controller, or package that failed. It
+  never counts toward a craft weakness. See `PASS/docs/MEMORY_SCHEMA.md`.
 
 ## Validation
 
@@ -65,6 +73,14 @@ python PASS/tools/validate.py --package art
 python PASS/tools/verify_references.py
 python PASS/tools/build_index.py            # regenerate INDEX.md navigation
 python -m unittest discover -s tests -p "test_*.py"
+```
+
+Skillset Memory has its own tool, which reads `memory/` and nothing else:
+
+```bash
+python PASS/tools/memory.py validate
+python PASS/tools/memory.py query --domain art --cues hand
+python PASS/tools/memory.py append --domain art --task "..."
 ```
 
 A release build is publishable only when schema, visual-reference,

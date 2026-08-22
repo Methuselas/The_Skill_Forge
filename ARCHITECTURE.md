@@ -57,6 +57,14 @@ If no, the runtime does not depend on it.
     audit completion deterministically when invoked, but it must not hide domain
     action logic inside scripts, and nothing may describe it as enforcing what
     only the model and host can actually do.
+20. **Skillset Memory is empirical state, not canon and not a fourth object
+    type.** It records what happened when the canon was used. It lives in
+    `memory/<domain>/`, is domain-scoped rather than global, never mutates a
+    card, and is never copied into one. An invalid run — one that failed before
+    the capability was exercised — stays in history and never counts as evidence
+    about craft. Memory does not choose the AP, does not substitute for a
+    regression test, and does not carry source, session, or workflow state. The
+    contract is `PASS/docs/MEMORY_SCHEMA.md`.
 
 ## Knowledge and action composition
 
@@ -145,3 +153,13 @@ a shared Teaching lane, a migration framework, or a mandatory session-state
 object.
 
 Retired 2026-08-15. See `docs/CLEANUP_2026-08-15.md`.
+
+**Skillset Memory is not one of these, and must not become one.** It records
+empirical results of using the canon, which is the one thing the retired
+machinery never did — that machinery tracked what had been *read*. Memory holds
+no source ids, no page numbers, no reading progress, no unit maps, and no session
+or workflow state; its schema rejects those keys outright. The test that keeps
+the two apart is whether deleting the store invalidates the library. It does not:
+`library/` validates with `memory/` absent, exactly as it validates with sources
+absent. If memory ever starts recording what was read rather than what happened,
+it has grown back into the thing above and should be deleted again.

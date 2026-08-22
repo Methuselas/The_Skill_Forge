@@ -586,18 +586,32 @@ Three classes of knowledge exist. Only the first is a repository concern.
 3. **Practitioner-specific** — stable personal choices, style preferences,
    recurring individual weaknesses. Belongs to the practitioner.
 
-**Layer 2 is deferred, not rejected.** The *exploratory design goal* is for
-practice history to travel with, or remain available alongside, its skillset. **No
-persistence architecture has been accepted**, and nothing here may be read as
-requiring one. It must not become a validator or build dependency, and it must
-not be rebuilt as an authoring workspace under a new name. It is not built yet
-because it requires a body of actual drill runs and produced work to learn from,
-and that follows a skillset being complete rather than preceding it.
+**Layer 2 now has an accepted home: `memory/<domain>/`.** Skillset Memory holds
+practice history as compact empirical state beside the canonical cards, never
+inside them. Its contract is `PASS/docs/MEMORY_SCHEMA.md` and its tool is
+`PASS/tools/memory.py`. Three constraints did not change when it landed:
 
-What holds now is narrower: **practice history must not enter cards.** A card
-stays general, reusable, and source-independent. An observation from one attempt
-is not a Pattern. Wherever layer 2 eventually lands, it sits beside the canonical
-cards, never inside them.
+- It is **not a validator or build dependency**. `library/` validates with
+  `memory/` absent, and a test enforces that.
+- It is **not an authoring workspace under a new name**. It records what happened
+  when the canon was *used* — never what was read, which unit is next, or where a
+  source stopped. Its schema rejects those keys.
+- **Practice history must not enter cards.** A card stays general, reusable, and
+  source-independent. An observation from one attempt is not a Pattern.
+
+**On timing:** an earlier draft of this section said layer 2 follows a skillset
+being complete rather than preceding it. That is now settled the other way, and
+the distinction is between two different things. *Recording* empirical results
+may begin as soon as real execution exists — waiting until a lane is complete
+would discard the evidence produced while getting there. What waits for maturity
+is *distribution*: a Skill Forge release is still declared by the user, never
+inferred, and memory travelling in a release does not make the release mature.
+
+**Layer 3 remains deferred.** Practitioner-specific style and preference is a
+separate layer with its own evidence firewall, it is user-owned rather than
+skill-owned, and no architecture has been accepted for it. Do not put it in
+`memory/`: that store is domain-scoped empirical state about the skill, not about
+the person using it.
 
 Layer 3 currently lives per-lane outside the repository, and that is the right
 place for it. Forcing personal calibration into the library contaminates it for

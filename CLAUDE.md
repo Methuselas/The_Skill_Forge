@@ -10,6 +10,7 @@ library/          the universal library — the whole system of record
   art/ writing/ software-engineering/    independent domains
   metaskills/                            shared foundation, bundled into every release
 PASS/             the portable authoring package: schema, docs, tools, runtime
+memory/           per-domain empirical state — what happened when canon was used
 workspace/        release recipes, plus your local scratch (nothing reads it)
 archive/          retired material — nothing active may depend on it
 ```
@@ -70,6 +71,18 @@ The prose after each lead is this file's own.
     Pattern, and a missing reusable action orchestration may justify an AP;
     retrieval, application, continuity, reference, tool, and interface failures
     do not.
+16. **Skillset Memory records what happened; it is never canon and is never
+    copied into canon.** Memory lives in `memory/<domain>/`, not in cards. If an
+    entry seems important enough to apply on every turn, that is evidence it has
+    earned promotion review — not a reason to paste it into a card or an
+    entrypoint. Pasting creates a second write site and lets the real owner decay
+    unobserved. `tests/test_memory.py` checks this.
+17. **An invalid run is never evidence about a capability.** A run that failed
+    before the capability was exercised — unreachable tool source, bypassed
+    controller, absent-by-design package, unrouted reference, blocked request,
+    missing prerequisite — stays in `training_history.jsonl` and never counts
+    toward a craft weakness. Attribute it to the tool, controller, or package
+    that actually failed. See `PASS/docs/MEMORY_SCHEMA.md`.
 
 ## Commands
 
@@ -81,8 +94,20 @@ python PASS/tools/build_index.py                 # regenerate INDEX.md navigatio
 python -m unittest discover -s tests -p "test_*.py"
 ```
 
-Every tool reads the library and nothing else. They work on a clean clone with no
-source material present — that is the point, and the tests enforce it.
+Skillset Memory is a separate store with its own tool. It reads `memory/` and
+nothing else:
+
+```bash
+python PASS/tools/memory.py validate                          # shape, vocabularies, admissibility
+python PASS/tools/memory.py query --domain art --cues hand    # bounded retrieval
+python PASS/tools/memory.py append --domain art --task "..."  # one event, verified by readback
+python PASS/tools/memory.py compact --domain art              # events awaiting consolidation
+python PASS/tools/memory.py review --domain art               # what needs revalidating
+```
+
+Each tool reads one store and nothing else: the card tools read `library/`, the
+memory tool reads `memory/`. They work on a clean clone with no source material
+present — that is the point, and the tests enforce it.
 
 Build a release (the output path must be outside the repo):
 
@@ -97,6 +122,7 @@ python PASS/tools/build_release.py build workspace/release-recipes/CPP_Developme
 | Architecture contract, what must not grow back | `ARCHITECTURE.md` |
 | Preflight and the authoring loop — units, two reads, dispositions | `PASS/docs/PASS_RUN.md` |
 | Card schema (closed contract) | `PASS/docs/PASS_SCHEMA.md` |
+| Skillset Memory contract | `PASS/docs/MEMORY_SCHEMA.md` |
 | Why PASS works this way | `PASS/docs/PASS_DOCTRINE.md` |
 | Library layout, modules, releases | `PASS/docs/PASS_LIBRARY.md`, `PASS/docs/MODULE_RELEASES.md` |
 | What the 2026-08-15 reset removed and why | `docs/CLEANUP_2026-08-15.md` |
