@@ -35,12 +35,15 @@ variants: []
 - Choose details that reveal individuality or circumstance while they create a sensory picture; one precise object or action can imply character without naming the trait.
 - Let one image engage several senses when the object naturally carries color, texture, temperature, smell, taste, or sound together.
 - Develop a generic noun with a few exact particulars rather than covering it with a large inventory of interchangeable description.
+- Gather more sensory material than the passage needs, then select the details that belong to this observer, place, time, pressure, and scale of attention.
+- Look for a discrepancy between habitual expectation and present perception; an ordinary object can become consequential because it changed, was remembered inaccurately, or is newly noticed now.
 - Use an unusual detail only when it remains plausible and clarifies the subject instead of calling attention to invention for its own sake.
 
 ## Don't
 - Assume that a vague statement becomes more relatable because every reader can fill it with a different private picture.
 - Replace an abstraction with a familiar comparison that readers will glide over just as quickly.
 - Dictate the exact memory or association a reader must have; provide a vivid trigger and leave room for individual response.
+- Add one detail for every sense as a quota when only some senses sharpen the moment.
 - Accumulate sensory detail after the important image has already made the moment distinct.
 
 ## Checklist
@@ -51,4 +54,4 @@ variants: []
 - The image is memorable because it is both specific and fitting, not merely strange.
 
 ## Notes
-Generality often feels inclusive to the writer but gives the reader nothing substantial to encounter. A concrete image slows attention and can carry physical fact, emotion, and implication at once. Language cannot reproduce experience exactly, so specificity is not a promise of perfect transmission; it is the writer's best available gesture toward a world the reader can enter. The decision applies across forms: poetry may concentrate the image into a line, while brief nonfiction may ask one sensory detail to carry exposition, memory, and inward movement together.
+Generality often feels inclusive to the writer but gives the reader nothing substantial to encounter. A concrete image slows attention and can carry physical fact, emotion, and implication at once. Significance does not require spectacle: a shifted habitual perception can make a faded surface, altered route, or misremembered object disclose time and attention. Language cannot reproduce experience exactly, so specificity is not a promise of perfect transmission; it is the writer's best available gesture toward a world the reader can enter. The decision applies across forms: poetry may concentrate the image into a line, while brief nonfiction may ask one sensory detail to carry exposition, memory, and inward movement together.
