@@ -50,6 +50,7 @@ variants: []
 - Watch for the instant that falls outside the operation's own execution, and treat it as a warning. Designs exist where an operation is completed by another thread helping it along, so its effect happens at a step that thread executed; these are legitimate and considerably harder to reason about, and knowing you are in one is worth more than the elegance of the construction.
 - Write the step down next to the code. It is one line, it is what the whole safety argument rests on, and it is invisible in the source — a reader who cannot find it cannot check any change they make against it.
 - Recheck it after every change to the operation. Adding a fast path, reordering two statements, or hoisting a read all move it, and the change that moves it is rarely the change that looks dangerous.
+- Handle an operation that cannot be satisfied when it is called by finding the instant it is *fulfilled*, which may be much later and caused by somebody else. A removal from an empty structure that waits rather than failing takes effect when an insertion supplies it, so its committing step sits in the inserting thread's execution — the operation's interval simply extends until then. An operation like this has no committing step inside its own code at all, and looking for one is how the design gets mistaken for broken.
 - Ask the same question of an operation that fails or throws. An operation that aborts still either happened or did not, and saying which — and at what step it was decided — is part of the contract.
 
 ## Don't
