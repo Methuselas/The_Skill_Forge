@@ -23,11 +23,13 @@
 - [Keep Thread-Aware Code Away From Thread-Ignorant Code](PAT_keep_thread_aware_code_away_from_thread_ignorant_code.md) - pattern; 0 design. Tags: concurrency, design, maintainability, separation_of_concerns, threading.
 - [Lock the Smallest Region That Must Be Atomic](PAT_lock_the_smallest_region_that_must_be_atomic.md) - pattern; 2 block. Tags: concurrency, contention, locking, performance, threading.
 - [Make Every Concurrent Operation a Complete Transaction](PAT_make_every_concurrent_operation_a_complete_transaction.md) - pattern; 0 design. Tags: api_design, concurrency, interfaces, invariants, threading.
+- [Mark a Node Removed Before Unlinking It](PAT_mark_a_node_removed_before_unlinking_it.md) - pattern; 0 design. Tags: concurrency, data_structures, design, invariants, lock_free.
 - [Match the Lock to the Length of the Critical Section](PAT_match_the_lock_to_the_length_of_the_critical_section.md) - pattern; 4 final. Tags: concurrency, contention, locking, performance, threading.
 - [Match the Problem to a Known Coordination Shape](PAT_match_the_problem_to_a_known_coordination_shape.md) - pattern; 0 design. Tags: concurrency, design, patterns, starvation, threading.
 - [Publish Shared Data Through One Atomic Handle](PAT_publish_shared_data_through_one_atomic_handle.md) - pattern; 4 final. Tags: concurrency, data_structures, lock_free, memory_order, threading.
 - [Put the Thread-Safety Guarantee at the Transaction Boundary](PAT_put_the_thread_safety_guarantee_at_the_transaction_boundary.md) - pattern; 0 design. Tags: api_design, concurrency, design, invariants, threading.
 - [Run Threaded Code Under Conditions Built to Break It](PAT_run_threaded_code_under_conditions_built_to_break_it.md) - pattern; 3 rough. Tags: concurrency, defects, test_design, testing, threading.
+- [Search Without Locks, Then Lock and Validate](PAT_search_without_locks_then_lock_and_validate.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
 - [Separate Per-Thread Data by a Full Cache Line](PAT_separate_per_thread_data_by_a_cache_line.md) - pattern; 4 final. Tags: concurrency, memory, performance, shared_state, threading.
 - [Size the Thread Count to the Hardware, Not to the Work](PAT_do_not_create_a_thread_for_every_task.md) - pattern; 0 design. Tags: concurrency, design, performance, scalability, threading.
 - [Specify a Concurrent Object as a Sequential Object Plus a Correctness Condition](PAT_specify_a_concurrent_object_as_a_sequential_object_plus_a_correctness_condition.md) - pattern; 0 design. Tags: composition, concurrency, contracts, correctness, design.
