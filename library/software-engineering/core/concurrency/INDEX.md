@@ -14,6 +14,7 @@
 - [Estimate a Concurrent Design's Ceiling Before Building It](PAT_estimate_a_concurrent_designs_ceiling_before_building_it.md) - pattern; 0 design. Tags: benchmarking, concurrency, design, estimation, measurement.
 - [Get the Single-Threaded Version Working First](PAT_get_the_single_threaded_version_working_first.md) - pattern; 1 skeleton. Tags: concurrency, debugging, separation_of_concerns, testing, threading.
 - [Give a Shared Object Its Own Thread Instead of a Lock](PAT_give_a_shared_object_its_own_thread_instead_of_a_lock.md) - pattern; 0 design. Tags: concurrency, design, latency, patterns, threading.
+- [Give Every Operation One Instant Where It Takes Effect](PAT_give_every_operation_one_instant_where_it_takes_effect.md) - pattern; 0 design. Tags: concurrency, correctness, data_structures, design, review.
 - [Immutability Is a Guarantee You Have to Actually Check](PAT_verify_an_object_is_as_immutable_as_you_think.md) - pattern; 0 design. Tags: concurrency, immutability, invariants, state, threading.
 - [Keep the Memory Alive Until the Compare-and-Swap Completes](PAT_keep_memory_alive_until_the_compare_and_swap_completes.md) - pattern; 4 final. Tags: concurrency, correctness, lock_free, memory_management, threading.
 - [Keep Thread-Aware Code Away From Thread-Ignorant Code](PAT_keep_thread_aware_code_away_from_thread_ignorant_code.md) - pattern; 0 design. Tags: concurrency, design, maintainability, separation_of_concerns, threading.
@@ -26,6 +27,7 @@
 - [Run Threaded Code Under Conditions Built to Break It](PAT_run_threaded_code_under_conditions_built_to_break_it.md) - pattern; 3 rough. Tags: concurrency, defects, test_design, testing, threading.
 - [Separate Per-Thread Data by a Full Cache Line](PAT_separate_per_thread_data_by_a_cache_line.md) - pattern; 4 final. Tags: concurrency, memory, performance, shared_state, threading.
 - [Size the Thread Count to the Hardware, Not to the Work](PAT_do_not_create_a_thread_for_every_task.md) - pattern; 0 design. Tags: concurrency, design, performance, scalability, threading.
+- [Specify a Concurrent Object as a Sequential Object Plus a Correctness Condition](PAT_specify_a_concurrent_object_as_a_sequential_object_plus_a_correctness_condition.md) - pattern; 0 design. Tags: composition, concurrency, contracts, correctness, design.
 - [Split a Lock Only Where the Structure Makes the Regions Disjoint](PAT_split_a_lock_only_where_the_structure_makes_the_regions_disjoint.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
 - [Split Acquisition Into a Bounded Doorway and a Wait](PAT_split_acquisition_into_a_bounded_doorway_and_a_wait.md) - pattern; 0 design. Tags: concurrency, design, fairness, locking, starvation.
 - [Trade Exact Ordering for Independent Sub-Structures](PAT_trade_exact_ordering_for_independent_substructures.md) - pattern; 0 design. Tags: concurrency, data_structures, design, scalability, threading.
