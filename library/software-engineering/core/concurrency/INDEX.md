@@ -30,6 +30,7 @@
 - [Specify a Concurrent Object as a Sequential Object Plus a Correctness Condition](PAT_specify_a_concurrent_object_as_a_sequential_object_plus_a_correctness_condition.md) - pattern; 0 design. Tags: composition, concurrency, contracts, correctness, design.
 - [Split a Lock Only Where the Structure Makes the Regions Disjoint](PAT_split_a_lock_only_where_the_structure_makes_the_regions_disjoint.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
 - [Split Acquisition Into a Bounded Doorway and a Wait](PAT_split_acquisition_into_a_bounded_doorway_and_a_wait.md) - pattern; 0 design. Tags: concurrency, design, fairness, locking, starvation.
+- [Take a Consistent View by Collecting Twice](PAT_take_a_consistent_view_by_collecting_twice.md) - pattern; 0 design. Tags: concurrency, consistency, data_structures, design, lock_free.
 - [Trade Exact Ordering for Independent Sub-Structures](PAT_trade_exact_ordering_for_independent_substructures.md) - pattern; 0 design. Tags: concurrency, data_structures, design, scalability, threading.
 - [Treat a Failure You Cannot Reproduce as a Defect](PAT_treat_an_unreproducible_failure_as_a_defect.md) - pattern; 4 final. Tags: concurrency, defects, diagnosis, testing, threading.
 - [Two Atomic Operations Are Not One Atomic Operation](PAT_atomic_steps_do_not_compose_into_a_safe_whole.md) - pattern; 0 design. Tags: atomicity, concurrency, correctness, invariants, threading.

@@ -50,6 +50,7 @@ variants: []
 ## Don't
 - Don't conclude that a program is fine because it produces the right answer. A data race makes the whole program undefined, so a run that looks correct is not evidence of anything — and the compiler is entitled to have optimized on the assumption the race cannot happen.
 - Don't assume distinct member variables are automatically distinct locations. The bit-field case is the exception, and it is invisible at the point of access — nothing at the call site distinguishes writing a bit field from writing an ordinary member.
+- Don't picture a racing read as returning either the old value or the new one. That is a real guarantee, but it is one a register has to be built to provide, and it is not what an unsynchronized access gives you — a read overlapping a write may produce a value that was never written at all. The intuition matters even though the language's answer is simply undefined behaviour, because "it will get one or the other" is the reasoning people use to talk themselves out of synchronizing.
 - Don't count a read against a read. Two threads reading the same location, with nothing writing, is not a race no matter how many threads there are, which is why immutable data needs no protection at all.
 
 ## Checklist
