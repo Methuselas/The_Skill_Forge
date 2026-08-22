@@ -51,3 +51,7 @@ variants: []
 
 ## Notes
 Strategy externalizes what a virtual function keeps inside the hierarchy. A function-pointer member already gives per-object, runtime-swappable behavior; a tr1::function member generalizes it to any compatible callable (free function, functor, or a member bound with tr1::bind), even with a convertible return type. A separate strategy hierarchy is the textbook form. The one cost is access: an external strategy cannot see private members, so pick it only when the calculation needs no private state or the encapsulation trade is acceptable.
+
+Locking is a varying behavior worth recognizing as a candidate, and it is one people rarely think to externalize. A component written for reuse has to protect its critical sections to be safe in a concurrent program, and every single-threaded client then pays for synchronization it cannot use. Making the lock a pluggable strategy — a real mutex for concurrent callers, a do-nothing object for the rest — lets one implementation serve both without the component knowing which it is serving.
+
+The choice between resolving that strategy at run time and at compile time matters more here than in most applications of the pattern. A virtual call to acquire a lock adds an indirection to something that may be executed extremely often and does almost nothing; supplying the strategy as a template parameter instead resolves it during compilation, so the do-nothing case optimizes away entirely rather than becoming a virtual call that returns immediately.

@@ -12,6 +12,7 @@
 - [Don't Call Unknown Code While Holding a Lock](PAT_dont_call_unknown_code_while_holding_a_lock.md) - pattern; 2 block. Tags: concurrency, cpp, deadlock, dependencies, locking.
 - [Keep volatile and atomic Apart](PAT_keep_volatile_and_atomic_apart.md) - pattern; 2 block. Tags: atomics, avoiding_surprises, concurrency, correctness, cpp.
 - [Know When Two Accesses Are a Data Race](PAT_know_when_two_accesses_are_a_data_race.md) - pattern; 0 design. Tags: concurrency, cpp, memory_model, threading, undefined_behavior.
+- [Lock at the Public Boundary and Nowhere Inside](PAT_lock_at_the_public_boundary_and_nowhere_inside.md) - pattern; 0 design. Tags: class_design, concurrency, cpp, deadlock, locking.
 - [Make Shared-Pointer Atomicity a Property of the Type](PAT_make_shared_pointer_atomicity_a_property_of_the_type.md) - pattern; 2 block. Tags: api_design, atomics, concurrency, cpp, smart_pointers.
 - [Make the Acquire Actually Observe the Release](PAT_make_the_acquire_actually_observe_the_release.md) - pattern; 2 block. Tags: atomics, concurrency, correctness, cpp, memory_model.
 - [Make Threads Unjoinable on Every Path](PAT_make_threads_unjoinable_on_every_path.md) - pattern; 2 block. Tags: concurrency, cpp, lifecycle, resource_management, threading.
