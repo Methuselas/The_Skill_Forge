@@ -5,6 +5,6 @@
 ## Topics
 
 - [Foundations](foundations/INDEX.md) - 1 object(s).
-- [Process](process/INDEX.md) - 1 object(s).
+- [Process](process/INDEX.md) - 3 object(s).
 - [Prompt Response](prompt-response/INDEX.md) - 1 object(s).
 - [Topic Development](topic-development/INDEX.md) - 1 object(s).

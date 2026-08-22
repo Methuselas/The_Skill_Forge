@@ -4,4 +4,6 @@
 
 ## Objects
 
+- [Manage College Admission Essay Help Across Drafting Stages](AP_manage_college_admission_essay_help_across_drafting_stages.md) - ap; 0 design. Tags: authorship, collaboration, college_admission_essays, feedback, revision.
 - [Plan the College Admission Essay Workload](AP_plan_college_admission_essay_workload.md) - ap; 0 design. Tags: application_planning, college_admission_essays, deadlines, personal_statements, supplemental_essays.
+- [Preserve Applicant Authorship While Receiving Essay Help](PAT_preserve_applicant_authorship_while_receiving_essay_help.md) - pattern; 0 design. Tags: authorship, college_admission_essays, feedback, integrity, revision.
