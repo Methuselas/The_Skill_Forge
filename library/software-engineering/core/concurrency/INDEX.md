@@ -10,6 +10,7 @@
 - [Block With a Deadline Before Polling on an Interval](PAT_block_with_a_deadline_before_polling_on_an_interval.md) - pattern; 0 design. Tags: concurrency, design, latency, timeouts, waiting.
 - [Break One of Deadlock's Four Conditions](PAT_break_one_of_deadlocks_four_conditions.md) - pattern; 0 design. Tags: concurrency, deadlock, locking, resources, threading.
 - [Buy Concurrent Performance With Restrictions, Not Cleverness](PAT_buy_concurrent_performance_with_restrictions.md) - pattern; 0 design. Tags: concurrency, data_structures, design, simplicity, threading.
+- [Cancel Complementary Operations Instead of Applying Them](PAT_cancel_complementary_operations_instead_of_applying_them.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, scalability.
 - [Check a Primitive's Coordination Power Before Designing on It](PAT_check_a_primitives_coordination_power_before_designing_on_it.md) - pattern; 0 design. Tags: atomics, concurrency, design, hardware, lock_free.
 - [Classify Synchronization by the Progress It Guarantees](PAT_classify_synchronization_by_progress_guarantee.md) - pattern; 0 design. Tags: concurrency, design, lock_free, locking, threading.
 - [Dispatch on Readiness or on Completion](PAT_dispatch_on_readiness_or_on_completion.md) - pattern; 0 design. Tags: concurrency, design, event_handling, io, patterns.
