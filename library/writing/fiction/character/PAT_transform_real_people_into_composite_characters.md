@@ -21,6 +21,8 @@ tags:
 cross_links:
   - rel: related_to
     target_object_id: writing_choose_truth_contract_before_shaping_real_material
+  - rel: related_to
+    target_object_id: writing_fiction_drill_propagate_one_counterfactual_change_through_fictional_life
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -40,20 +42,23 @@ variants: []
 - Collect portable particulars such as a verbal tic, habitual gesture, sensory association, posture, or way of handling an object.
 - Combine features from several people so no single model dictates the resulting personality or course of action.
 - Change circumstances and motives freely when the story needs a more consequential choice than life supplied.
+- Trace how a changed circumstance affects access, expectations, relationships, and later choices; revise inherited biography when its original causes no longer apply.
 - Recheck the work's truth contract whenever factual identity, disclosure, or fidelity still matters to the intended form.
 
 ## Don't
 - Treat memory as a transcript the invented character must obey.
 - Copy a recognizable person feature for feature and assume changing the name completes the transformation.
+- Swap an identity marker cosmetically while leaving the person's pressures and relationships unchanged or filling the gap with stereotype.
 - Preserve an actual sequence merely because it happened when invention would create a clearer causal design.
 - Replace lived specificity with a generic type in the attempt to disguise the model.
 
 ## Checklist
 - The character contains concrete observed behavior rather than only labels.
 - Traits and motives come from more than one source or have been substantially invented.
+- Consequential changes propagate through the character's circumstances and behavior instead of remaining surface disguise.
 - The story can send the character somewhere the original person never went.
 - Removing knowledge of the real model would not make the characterization unintelligible.
 - Any remaining factual or ethical obligations match the chosen truth contract.
 
 ## Notes
-Real people are rich raw material because they supply irregular details imagination may smooth away. They are poor masters of fiction when fidelity prevents selection, recombination, or change. A composite creates useful distance while preserving the grain of observation.
+Real people are rich raw material because they supply irregular details imagination may smooth away. They are poor masters of fiction when fidelity prevents selection, recombination, or change. A composite creates useful distance while preserving the grain of observation. Transformation becomes structurally meaningful when one altered condition changes what the character can do, what others expect, and which later choices become plausible; otherwise the alteration may remain only concealment.

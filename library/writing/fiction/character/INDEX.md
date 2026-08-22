@@ -10,6 +10,7 @@
 - [Compress Cast without Flattening Main Characters](PAT_compress_cast_without_flattening_main_characters.md) - pattern; 1 skeleton. Tags: cast, character, compression, fiction, flash-fiction, naming.
 - [Develop and Reveal a Short-Story Character](AP_develop_and_reveal_a_short_story_character.md) - ap; 0 design. Tags: character, development, fiction, revelation, short_story.
 - [Inhabit Unsympathetic Characters from Inside](PAT_inhabit_unsympathetic_characters_from_inside.md) - pattern; 0 design. Tags: character, fiction, motivation, point-of-view, sympathy.
+- [Propagate One Counterfactual Change through a Fictional Life](DRILL_propagate_one_counterfactual_change_through_a_fictional_life.md) - drill; 0 design. Tags: character, counterfactual, deliberate_practice, fiction, invention, transformation.
 - [Reveal Character Incrementally through Behavior](PAT_reveal_character_incrementally_through_behavior.md) - pattern; 2 block. Tags: behavior, character, fiction, observation, scene.
   - Variants: `Characterize through Selective Observation` (emphasis).
 - [Scale Character Change to Story Length](PAT_scale_character_change_to_story_length.md) - pattern; 3 rough. Tags: change, character, fiction, flash-fiction, realization.
