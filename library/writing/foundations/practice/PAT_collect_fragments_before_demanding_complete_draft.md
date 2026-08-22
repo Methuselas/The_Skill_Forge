@@ -52,24 +52,28 @@ variants:
 
 ## Do
 - Record the odd detail, verbal rhythm, object, encounter, remembered incident, sketch, line, or partial scene before deciding what genre or work it belongs to.
-- Carry a capture method that is quick enough to use in public places and ordinary daily movement.
+- Choose a capture method that invites rough entry instead of making each mark feel permanent, formal, or precious.
+- Carry a method that is quick enough to use in public places and ordinary daily movement; keep a different home method when portability and spacious development require different tools.
+- Capture an impression while its wording, sensory particulars, or emotional pressure remain live, then organize it only as much as later retrieval requires.
 - Revisit accumulated material to pair people, settings, phrases, and problems that did not originally arrive together.
 - Preserve rough or borrowed starting ideas as prompts while transforming any retained language, identity, and circumstance into the new work.
 
 ## Don't
 - Require each entry to explain its importance or become a finished piece on the day it is noticed.
 - Turn the journal into an orderly archive whose maintenance consumes the energy meant for writing.
+- Choose an impressive tool whose appearance inhibits crossing out, unfinished language, or rapid capture.
 - Copy identifiable lives or conversations unchanged because observation supplied them.
 - Continue gathering indefinitely after a combination has begun producing consequential language or action.
 
 ## Checklist
 - Entries contain concrete material rather than only broad topics such as love, loss, or family.
 - The collection can be searched or browsed when a writing session needs a starting point.
+- The capture method is available where observations occur and tolerates visibly rough work.
 - At least two previously separate fragments can be tested in relation.
 - Material taken into a draft is transformed enough to serve that work independently.
 - Collection yields to composition when a live cluster begins to move.
 
 ## Notes
-Accumulation separates noticing from the demand to finish. Poetry may begin when images, words, and partial lines develop a charged relation; fiction may begin when a person, place, object, or overheard incident collides with a motive or trouble. The journal is a bag of workable particulars, not a publication record and not a substitute for drafting.
+Accumulation separates noticing from the demand to finish. Poetry may begin when images, words, and partial lines develop a charged relation; fiction may begin when a person, place, object, or overheard incident collides with a motive or trouble. The journal is a bag of workable particulars, not a publication record and not a substitute for drafting. Organization is personal and proportional: chronological accumulation, loose sections, cards, and separate portable and home tools can all work when they preserve entry and retrieval. Simplify the system whenever maintaining it begins to displace noticing, rereading, or composing.
 
 `writing_variant_reconstruct_autobiographical_moments_across_time_and_witnesses` changes incidental capture into a deliberate life review. Move across several ages, include ordinary days as well as milestones, consult photos or other personal records, and ask long-term witnesses which episodes they remember. Mark turning points, recurrences, and discrepancies, but treat another person's account as a perspective that can expand or challenge memory rather than as authority over what happened.

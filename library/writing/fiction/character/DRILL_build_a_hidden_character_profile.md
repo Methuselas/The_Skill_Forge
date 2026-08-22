@@ -27,7 +27,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_pressure_hidden_profile_through_unsent_document
+    variant_name: Pressure a Hidden Profile Through an Unsent Document
+    variant_basis: method_sequence
+    difference_from_foundation: Before drafting the public scene, have the character privately write a letter, diary entry, complaint, confession, or comparable document to a consequential addressee under strong emotion; mine the result for voice, relationship, history, and activated contradiction, then transfer only behaviorally useful evidence into the scene.
+    when_to_use: A completed profile remains inert, the character's voice is generic, or facts have not yet become pressure between this person and someone else.
+    when_not_to_use: The story itself is already an epistolary form, the document merely summarizes the profile, or private explanation is being used to avoid dramatizing consequential behavior.
+    absorbed_from_object_id: none
 ---
 
 # Build a Hidden Character Profile
@@ -64,3 +71,5 @@ Choose a central character from a planned or incomplete fiction draft. Have the 
 
 ## Notes
 The exercise separates design knowledge from disclosure. A submerged biography gives the writer reasons for choices and verbal texture, but its value disappears when the draft displays the whole worksheet. Repeat with another central character when motives feel interchangeable.
+
+`writing_fiction_variant_pressure_hidden_profile_through_unsent_document` inserts a private voice experiment between profile and scene. Give the character a specific addressee, situation, and emotional pressure; let selection, accusation, evasion, formality, and omission reveal the relationship. Mark the few discoveries capable of changing action or speech, then draft the ordinary scene without requiring the document to appear. The variant succeeds when it activates the profile, not when it creates a more elegant block of exposition.

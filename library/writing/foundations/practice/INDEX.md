@@ -9,8 +9,9 @@
   - Variants: `Reconstruct Autobiographical Moments Across Time and Witnesses` (method_sequence).
 - [Conduct Prepared and Responsive Interviews](PAT_conduct_prepared_and_responsive_interviews.md) - pattern; 0 design. Tags: interview, profile, reporting, research, writing.
 - [Freewrite to Discover What the Draft Is About](PAT_freewrite_to_discover_what_the_draft_is_about.md) - pattern; 0 design. Tags: association, creative_writing, discovery, drafting, freewriting.
-  - Variants: `Recenter Successive Freewrites on Marked Live Passages` (method_sequence).
+  - Variants: `Recenter Successive Freewrites on Marked Live Passages` (method_sequence); `Freewrite Before Incoming Language and Daily Roles` (context).
 - [Generate Relevant Options with Goal-Directed Brainstorming](PAT_generate_relevant_options_with_goal_directed_brainstorming.md) - pattern; 0 design. Tags: brainstorming, creative_writing, drafting, invention, options, self_reflection.
   - Variants: `Interrogate Life Domains with Layered Self-Questions` (method_sequence); `Map Associations Spatially and Recenter a Promising Node` (method_sequence); `Branch Associations During Generation, Then Freewrite` (method_sequence); `Cascade Story Titles into Concrete Detail Lists` (method_sequence).
 - [Recover from Writing Block by Lowering the Hurdle](PAT_recover_from_writing_block_by_lowering_the_hurdle.md) - pattern; 0 design. Tags: creative_writing, task_scoping, writers_block, writing_process.
 - [Train Generative Fluency with Cluster-to-Freewrite Cycles](DRILL_train_generative_fluency_with_cluster_to_freewrite_cycles.md) - drill; 0 design. Tags: association, clustering, creative_writing, deliberate_practice, freewriting.
+- [Use a Writer's Notebook from Capture to Draft](AP_use_a_writers_notebook_from_capture_to_draft.md) - ap; 0 design. Tags: creative_writing, development, invention, notebook, observation.

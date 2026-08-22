@@ -10,3 +10,4 @@
 - [Make Refrains and Repeated Words Accumulate Meaning](PAT_make_refrains_and_repeated_words_accumulate_meaning.md) - pattern; 2 block. Tags: poetic_forms, poetry, refrain, repetition, revision.
 - [Map Poetic Form Rules Across Multiple Examples](DRILL_map_form_rules_across_multiple_examples.md) - drill; 0 design. Tags: analysis, close_reading, constraints, poetic_forms, poetry.
 - [Turn a Sonnet Before Closure](PAT_turn_sonnet_before_closure.md) - pattern; 2 block. Tags: argument, poetry, sonnet, structure, volta.
+- [Write Daily Haiku to Train Concise Attention](DRILL_write_daily_haiku_to_train_concise_attention.md) - drill; 1 skeleton. Tags: concision, deliberate_practice, haiku, observation, poetry.

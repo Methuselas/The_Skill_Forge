@@ -38,6 +38,13 @@ variants:
     when_to_use: An initial freewrite contains promising fragments but remains too diffuse or thin to establish what the piece should pursue.
     when_not_to_use: The first pass already exposes a draftable center, or repeated rounds merely paraphrase the same insight without adding detail, complication, or relation.
     absorbed_from_object_id: none
+  - variant_id: writing_variant_freewrite_before_incoming_language_and_daily_roles
+    variant_name: Freewrite Before Incoming Language and Daily Roles
+    variant_basis: context
+    difference_from_foundation: Begin immediately after waking, before reading, conversation, messages, or ordinary tasks supply other language and social roles; keep the writing private and uncritical, and stop at a sustainable time or volume rather than rereading immediately.
+    when_to_use: Early waking leaves accessible dream residue, reverie, or less rehearsed associations, and the experiment fits the writer's sleep, health, care, and work constraints.
+    when_not_to_use: Earlier waking would reduce needed rest, disrupt care or work, intensify distress, or turn one productive condition into a compulsory definition of serious writing.
+    absorbed_from_object_id: none
 ---
 
 # Freewrite to Discover What the Draft Is About
@@ -71,3 +78,5 @@ variants:
 Freewriting and brainstorming suspend judgment for different reasons. Brainstorming searches for alternatives inside a named problem; freewriting helps discover the problem itself. The review after the interval is essential: association creates raw material, while marking the passages that surprise, specify, or complicate converts that material into a usable next move.
 
 `writing_variant_recenter_successive_freewrites_on_marked_live_passages` turns that review into an iterative narrowing loop. After a pass, mark a phrase whose concrete detail, tension, changed understanding, or unexplained energy deserves pursuit; use that exact material as the next pass's starting pressure, then write continuously again. Allow a genuinely stronger new subject to replace the old one, but use a positive restatement of the chosen center when accidental drift needs correction. Stop when further rounds stop changing the understanding or when the material supplies a draftable center with enough supporting particulars.
+
+`writing_variant_freewrite_before_incoming_language_and_daily_roles` changes the operating condition rather than the basic generative action. Prepare the capture method before sleep, begin before consuming language or entering the day's roles, and write rapidly without rereading or judging the material. Test the condition over a bounded run, then compare ease of entry, specificity, and usable discovery with freewriting at other times. Preserve adequate rest and real obligations as invariants; the useful lesson is whether a low-interference interval helps this writer, not whether morning is inherently superior.
