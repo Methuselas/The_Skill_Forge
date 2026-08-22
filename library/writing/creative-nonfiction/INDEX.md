@@ -6,4 +6,4 @@
 
 - [Foundations](foundations/INDEX.md) - 10 object(s).
 - [Practice](practice/INDEX.md) - 1 object(s).
-- [Structure](structure/INDEX.md) - 8 object(s).
+- [Structure](structure/INDEX.md) - 9 object(s).

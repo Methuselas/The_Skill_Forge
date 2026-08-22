@@ -8,6 +8,7 @@
 - [Choose Structure from Discovered Connections](PAT_choose_structure_from_discovered_connections.md) - pattern; 2 block. Tags: chronology, creative_nonfiction, essay, lyric_essay, segmentation, structure, thematic_braiding.
   - Variants: `Use Chronology as a Narrative Spine` (method_sequence); `Braid Themes Around a Recurring Anchor` (method_sequence); `Segment by Juxtaposition and Jump Cut` (method_sequence).
 - [Compress a Short Essay Around Its Active Inquiry](PAT_compress_short_essay_around_active_inquiry.md) - pattern; 3 rough. Tags: compression, creative_nonfiction, inquiry, revision, short_essay.
+- [Derive a Personal Essay Theme from Recurring Life Evidence](PAT_derive_a_personal_essay_theme_from_recurring_life_evidence.md) - pattern; 0 design. Tags: autobiography, creative_nonfiction, personal_essay, theme, topic_selection.
 - [Draft and Revise Short Creative Nonfiction](AP_draft_and_revise_short_creative_nonfiction.md) - ap; 0 design. Tags: creative_nonfiction, drafting, ethics, fact_checking, revision, short_essay.
 - [End at a Resonant Turn or Deepening](PAT_end_at_resonant_turn_or_deepening.md) - pattern; 3 rough. Tags: creative_nonfiction, ending, resonance, revision, turn.
 - [Move across Time with Concrete Summary and Brief Scenes](PAT_move_across_time_with_concrete_summary_and_brief_scenes.md) - pattern; 2 block. Tags: compression, creative_nonfiction, pacing, scene_summary, time.
