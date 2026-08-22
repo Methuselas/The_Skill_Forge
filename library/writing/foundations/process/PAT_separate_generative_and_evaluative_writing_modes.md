@@ -57,12 +57,14 @@ variants:
 ## Do
 - Label the immediate job before beginning: gather options, discover meaning, select and order material, draft forward, or diagnose the result.
 - During a generative pass, keep moving through awkward language and unresolved details; mark a placeholder when necessary instead of stopping to polish.
+- Handle deadlines, audience requirements, publication aims, grades, and other external outcomes during planning or evaluation, then bracket them while generating language.
 - During an evaluative pass, compare the available material with the piece's purpose, select what serves it, and name any missing function that requires another bounded generation pass.
 - Choose a plan-first sequence when the governing route is already understood and a discovery-first sequence when writing must reveal the route.
 - Preserve earlier versions until structural choices are stable enough to know that discarded language or material no longer performs needed work.
 
 ## Don't
 - Revise the opening sentences repeatedly while the rest of the draft has not yet been allowed to exist.
+- Ask each emerging sentence to prove that the finished work will earn approval, publication, or another external result.
 - Treat generation as permanent suspension of judgment; every exploratory pass needs a later selection or diagnosis handoff.
 - Force an outline onto material whose meaning is still unknown merely because planning feels safer than discovery.
 - Keep drafting forward after a complete version exists when the next useful move is to reread, diagnose, and restructure.
@@ -70,12 +72,15 @@ variants:
 ## Checklist
 - The current pass has one named job rather than several competing jobs.
 - Generative work contains enough uninterrupted material to expose options or movement.
+- External requirements remain available for the next planning or evaluative pass without interrupting the production of each sentence.
 - Evaluation occurs against the piece's purpose rather than against moment-to-moment discomfort with rough prose.
 - A failed evaluation routes to a specific missing-material or structural question before generation resumes.
 - Superseded versions remain recoverable until their useful material has been deliberately retained or rejected.
 
 ## Notes
 Mode separation is functional, not neurological: invention and judgment are both necessary, but asking them to control the same sentence at the same instant commonly turns drafting into premature polishing. The handoff may be small—a paragraph generated before it is assessed—or span a complete exploratory draft before structural diagnosis.
+
+External goals are not forbidden; they become destructive when their final verdict is imported into every generative choice. A deadline can set the length of a session, and an audience can constrain the eventual form, while the active drafting pass still uses a process target such as producing a scene, testing a voice, or extending an image. Restore the external criteria when the material is ready to be selected, shaped, and delivered.
 
 `writing_variant_plan_before_drafting_when_structure_is_known` begins with a short evaluative map of the essential moment, details, and insights, then protects the prose-drafting pass from local correction. Use it when the intended movement is stable enough that planning frees attention for language rather than narrowing the inquiry too soon.
 

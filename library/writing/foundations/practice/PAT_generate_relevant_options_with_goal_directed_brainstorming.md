@@ -46,6 +46,13 @@ variants:
     when_to_use: Linear lists keep reproducing habitual categories, or visible clusters and cross-connections would help the writer discover a topic, theme, detail field, or possible metaphor.
     when_not_to_use: The current problem already has a clear linear option set, or arranging a visual map would consume attention without producing meaningful relations.
     absorbed_from_object_id: none
+  - variant_id: writing_variant_branch_associations_during_generation_then_freewrite
+    variant_name: Branch Associations During Generation, Then Freewrite
+    variant_basis: method_sequence
+    difference_from_foundation: Connect each new association to the thought that produced it, return to the starting cue when a branch exhausts itself, then use the most promising node as the subject of a focused freewrite.
+    when_to_use: Sequential chains of association may expose an unexpected image, character quality, concrete embodiment, or verbal relation that a flat option list would conceal.
+    when_not_to_use: The problem needs independently generated alternatives for later comparison, or a live node is already developed enough to draft without another associative pass.
+    absorbed_from_object_id: none
   - variant_id: writing_variant_cascade_story_titles_into_concrete_detail_lists
     variant_name: Cascade Story Titles into Concrete Detail Lists
     variant_basis: method_sequence
@@ -87,5 +94,7 @@ Brainstorming and freewriting suspend early judgment for different purposes. Fre
 `writing_variant_interrogate_life_domains_with_layered_self_questions` uses a selective self-interview when a broad personal-writing problem is known but ordinary recall is thin. Scan several relevant domains, answer appealing questions with short retrieval phrases, and expand only answers that produce a concrete situation, unexpected relation, tension, change, or further question. The writer may ask the questions privately or invite a trusted helper to ask them, but exploratory disclosure remains under the writer's control. Route a live answer into freewriting; do not mistake completion of the questionnaire for discovery.
 
 `writing_variant_map_associations_spatially_and_recenter_promising_node` externalizes association without requiring a linear order. Begin from one cue, place related thoughts near one another while allowing separate clusters to form elsewhere, and postpone drawing connections until the generation flow stops. Select a node that produces specificity, surprise, tension, or a credible relation, recenter it on a fresh map, and repeat only while each round deepens or redirects the available material. Treat an odd recurring image as a candidate relation to test, not as proof of hidden significance.
+
+`writing_variant_branch_associations_during_generation_then_freewrite` uses visible links as part of generation rather than adding them afterward. Put one cue at the center, attach each new word or phrase to the node that elicited it, follow that branch until it stalls, and then return to the center or another live node. When one association carries concrete detail, tension, surprise, or verbal energy, stop mapping and write continuously about that node. The branch records a route into material; it does not prove a psychological or symbolic interpretation.
 
 `writing_variant_cascade_story_titles_into_concrete_detail_lists` moves from breadth to depth through successive lists. Generate brief titles for several possible personal episodes under a broad cue, choose one that carries live action or meaning, then list remembered setting, sensation, conduct, emotion, objects, and speech without deciding which details will survive. If one submoment remains thin, make it the heading of another detail list. Stop when the selected episode has both enactable particulars and a question or pressure worth developing; list length is not the completion test.

@@ -42,6 +42,7 @@ variants: []
 ## Do
 - Choose a form small enough to finish, such as one brief poem, scene, or compact prose piece with a clear endpoint.
 - Reserve a recurring writing time that coincides with the part of the day when focused work comes most readily.
+- When self-consciousness freezes the first meaningful sentence, begin with deliberately disposable language, copied words, or another consequence-free verbal warm-up, then move into the actual material as soon as attention settles.
 - Keep reading and talking about the work while drafting; either activity can expose the problem that silent effort has concealed.
 - Postpone grammar, punctuation, polish, and public evaluation while generating the first usable body of material.
 - When actual words feel clumsy beside a vivid mental version, name one mismatch the next pass can narrow instead of asking the draft to realize the whole vision at once.
@@ -50,6 +51,7 @@ variants: []
 ## Don't
 - Treat a temporary loss of ideas as proof that you lack the ability to write.
 - Wait for resistance to disappear before making more language; the next manageable attempt is part of overcoming it.
+- Polish or preserve a verbal warm-up after it has completed its job of getting language moving.
 - Demand that a private first attempt display the compression, correctness, and finish expected of a shared final work.
 - Treat the loss that occurs when an imagined work first becomes language as proof that the idea or the writer has failed.
 - Inflate one draft, paragraph, or sentence into a judgment about the writer's entire future.
@@ -57,6 +59,7 @@ variants: []
 ## Checklist
 - The reduced task has an observable finish line and fewer demands than the stalled version.
 - The session produced new words rather than only plans for future writing.
+- Any disposable warm-up yielded to the intended material instead of becoming a new avoidance ritual.
 - Early correction did not repeatedly interrupt the generation of sentences, images, scenes, or options.
 - The gap between the imagined work and the existing text can be named without turning into a verdict about ability.
 - The current pass has a bounded job even when the finished work carries serious consequences.
@@ -66,3 +69,5 @@ variants: []
 Block often appears when the current hurdle is too large for the writer's present experience and skill, or when the standards of the finished work are applied before a draft exists. Clearly bounded short forms turn an indefinite ambition into a reachable completion, while private permission to make a poor attempt prevents evaluation from choking generation. Talking remains useful even when the listener has no special expertise because articulating the difficulty can reveal it.
 
 An imagined work has not yet encountered the limits and choices of actual language, so its first embodiment commonly feels smaller, flatter, or less coherent than the version held in mind. That difference is usable evidence, not a final assessment: tolerate enough disappointment to produce material, identify a specific mismatch, and make another pass. Once a substantial draft exists, shift from lowering the entry hurdle to whole-draft revision so the remaining gaps can be diagnosed and narrowed deliberately.
+
+A disposable warm-up lowers the entry threshold without pretending to solve the writing problem. Its words need not be original or retained; the method succeeds when mechanical verbal motion reduces self-observation enough for the writer to enter the live task. If the warm-up repeats without a handoff, replace it with a smaller explicit drafting target or diagnose the obstacle aloud.
