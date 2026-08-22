@@ -53,8 +53,10 @@ If no, the runtime does not depend on it.
 18. The current staged-drawing process is frozen until explicitly streamlined
     later.
 19. **Patterns own reusable decisions; APs own goal-directed orchestration; Drills
-    own repeatable practice or evaluation.** Runtime may route and verify
-    deterministically, but it must not hide domain action logic inside scripts.
+    own repeatable practice or evaluation.** The resolver may resolve routing and
+    audit completion deterministically when invoked, but it must not hide domain
+    action logic inside scripts, and nothing may describe it as enforcing what
+    only the model and host can actually do.
 
 ## Knowledge and action composition
 

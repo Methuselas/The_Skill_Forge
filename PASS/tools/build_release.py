@@ -332,18 +332,28 @@ def write_skill(
     ).strip()
     body = (
         f"# {display_name}\n\n"
-        "This is a self-contained SkillForge release. Before productive work, run "
-        "`python scripts/skillforge_runtime.py doctor` once per installed release and run "
-        "`python scripts/skillforge_runtime.py resolve --request <user request>` for each "
-        "productive task. Follow the returned execution contract; do not infer or skip the "
-        "mode-resolution step. After production, perform the returned post-production "
-        "metaskills/risk checks and use the runtime completion gate before declaring the "
-        "task complete.\n\n"
-        f"Runtime profile: `{runtime_profile}`.\n\n"
-        "The semantic craft knowledge remains in `library/`; Python owns only routing, "
-        "activation, sequencing, gates, and completion bookkeeping. Hard prerequisites "
-        "have already been materialized locally. Each card is self-contained: it needs "
-        "no source document to execute.\n\n"
+        "This is a self-contained SkillForge release.\n\n"
+        f"`runtime/profile.yaml` (profile `{runtime_profile}`) is this release's "
+        "**execution contract**. It declares the execution modes, routing, risk checks, "
+        "and completion requirements this skill is expected to honor. Read it and honor "
+        "it: resolve the execution mode before productive work, apply the activated "
+        "metaskills, perform the risk checks the contract names for the request, and "
+        "satisfy the completion requirements before declaring a task complete. That "
+        "responsibility is yours — nothing in this package can check it for you.\n\n"
+        "`scripts/skillforge_runtime.py` is an **optional deterministic helper** for "
+        "hosts that can execute Python. It holds no state, runs only when invoked, and "
+        "cannot observe or block anything you do:\n\n"
+        "- `doctor` checks that the bundled profile and library are internally consistent.\n"
+        "- `resolve --request <user request>` returns the contract for a request as JSON, "
+        "so mode and check selection are deterministic instead of re-derived each time.\n"
+        "- `verify` audits a completion record you write, and reports which required "
+        "checks it does not contain.\n\n"
+        "Where Python is unavailable, apply the contract in `runtime/profile.yaml` "
+        "directly. The release is complete without it.\n\n"
+        "The semantic craft knowledge lives in `library/`. Python resolves and reports; "
+        "it does not sequence stages, gate approvals, or enforce the contract. Hard "
+        "prerequisites have already been materialized locally. Each card is "
+        "self-contained: it needs no source document to execute.\n\n"
         "## Bundled modules\n\n"
         + "".join(f"- `library/{module}`\n" for module in modules)
     )
@@ -356,15 +366,15 @@ def runtime_root() -> Path:
 
 def vendor_runtime(staging: Path, runtime_profile: str, deployment_profile: str | None) -> None:
     root = runtime_root()
-    kernel = root / "skillforge_runtime.py"
+    resolver = root / "skillforge_runtime.py"
     profile = root / "profiles" / f"{runtime_profile}.yaml"
-    if not kernel.is_file():
-        raise ValueError(f"runtime kernel not found: {kernel}")
+    if not resolver.is_file():
+        raise ValueError(f"SkillForge resolver not found: {resolver}")
     if not profile.is_file():
         raise ValueError(f"runtime profile not found: {profile}")
     (staging / "scripts").mkdir(parents=True, exist_ok=True)
     (staging / "runtime").mkdir(parents=True, exist_ok=True)
-    shutil.copy2(kernel, staging / "scripts" / "skillforge_runtime.py")
+    shutil.copy2(resolver, staging / "scripts" / "skillforge_runtime.py")
     shutil.copy2(profile, staging / "runtime" / "profile.yaml")
     if deployment_profile:
         source = root / "deployment_profiles" / f"{deployment_profile}.yaml"
@@ -409,14 +419,14 @@ def deployment_size_result(tree: Path, profile_path: Path, root_name: str) -> di
 
 
 def runtime_release_problems(path: Path) -> list[str]:
-    kernel = path / "scripts" / "skillforge_runtime.py"
+    resolver = path / "scripts" / "skillforge_runtime.py"
     profile = path / "runtime" / "profile.yaml"
-    if not kernel.is_file():
-        return ["missing vendored SkillForge runtime kernel"]
+    if not resolver.is_file():
+        return ["missing vendored SkillForge resolver"]
     if not profile.is_file():
         return ["missing vendored SkillForge runtime profile"]
     result = subprocess.run(
-        [sys.executable, str(kernel), "--profile", str(profile), "--library", str(path / "library"), "doctor"],
+        [sys.executable, str(resolver), "--profile", str(profile), "--library", str(path / "library"), "doctor"],
         text=True, capture_output=True,
     )
     if result.returncode:

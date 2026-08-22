@@ -1,12 +1,26 @@
 #!/usr/bin/env python3
-"""Deterministic SkillForge execution router and completion guard.
+"""Repository-side SkillForge contract resolver and auditor.
 
-Python owns deterministic routing and completion enforcement, not semantic craft
-orchestration. It resolves execution mode, activates declared metaskills, emits
-required risk/completion checks, and fails closed when a required completion
-check has not been recorded. APs own goal-directed craft control flow; Patterns
-own the individual decisions. The semantic meaning remains in the SkillForge
-cards and profile.
+This is an optional deterministic helper, not a host-native execution kernel. It
+runs only when something explicitly invokes it, holds no state between
+invocations, and cannot observe, intercept, or block anything a model or host
+does. Describing it as a runtime that enforces behavior would be false.
+
+What it actually provides:
+
+- ``resolve`` reads a profile, matches the request text against the profile's
+  ordered routing rules, and returns the resolved mode/lane together with the
+  declared execution contract, activated metaskills, and required checks. The
+  contract block is returned verbatim; Python does not interpret its meaning.
+- ``verify`` audits a completion record that its caller supplies, reporting which
+  required checks are absent. It is a report on a record, not a gate on an
+  action: whoever must satisfy the checks also writes the record.
+- ``doctor`` validates that a profile and the library's activation manifests are
+  internally consistent and that every object reference resolves to a real card.
+
+Honoring the returned contract is the consuming skill's responsibility. APs own
+goal-directed craft control flow; Patterns own the individual decisions. The
+semantic meaning lives in the SkillForge cards and profile.
 """
 from __future__ import annotations
 
@@ -43,16 +57,19 @@ def regex_matches(text: str, patterns: list[str]) -> list[str]:
     return [pattern for pattern in patterns if re.search(pattern, text, flags=re.I)]
 
 
+CONDITION_KEYS = frozenset({"phase", "modes", "lanes", "any_phrases", "all_phrases", "any_regex"})
+
+
 def condition_matches(condition: dict[str, Any], context: dict[str, Any]) -> bool:
     """Evaluate a small declarative activation condition.
 
-    Supported keys intentionally stay generic: productive, phase, modes, lanes,
-    any_phrases, all_phrases, any_regex. Domain-specific semantics live in data.
+    Supported keys are CONDITION_KEYS and intentionally stay generic;
+    domain-specific semantics live in data. `phase` is only meaningful for
+    RUNTIME.yaml activations — routing, lane, and risk rules are evaluated in a
+    single phase, so a `phase` condition there is always trivially true.
     """
     if not condition:
         return True
-    if "productive" in condition and bool(condition["productive"]) != bool(context.get("productive")):
-        return False
     if condition.get("phase") and condition["phase"] != context.get("phase"):
         return False
     modes = condition.get("modes") or []
@@ -112,7 +129,7 @@ def resolve_mode(profile: dict[str, Any], request: str, explicit_mode: str | Non
         raise ValueError("profile.routing must be a mapping")
 
     # Rules are ordered. Profiles can therefore express deterministic priority
-    # without teaching the kernel what an art drill or code review means.
+    # without teaching the resolver what an art drill or code review means.
     for rule in routing.get("rules") or []:
         if not isinstance(rule, dict) or not rule.get("mode"):
             continue
@@ -122,7 +139,7 @@ def resolve_mode(profile: dict[str, Any], request: str, explicit_mode: str | Non
         condition = rule.get("when") or {}
         if not isinstance(condition, dict):
             raise ValueError("routing rule 'when' must be a mapping")
-        context = {"request": request, "mode": mode, "productive": True, "phase": "pre_production"}
+        context = {"request": request, "mode": mode, "phase": "pre_production"}
         if condition_matches(condition, context):
             return mode, str(rule.get("reason") or f"matched routing rule for {mode}")
 
@@ -148,7 +165,7 @@ def resolve_lane(profile: dict[str, Any], request: str) -> tuple[str, str]:
         condition = rule.get("when") or {}
         if not isinstance(condition, dict):
             raise ValueError("lane routing rule 'when' must be a mapping")
-        context = {"request": request, "lane": lane, "productive": True, "phase": "pre_production"}
+        context = {"request": request, "lane": lane, "phase": "pre_production"}
         if condition_matches(condition, context):
             return lane, str(rule.get("reason") or f"matched lane routing rule for {lane}")
     default_lane = str(profile.get("default_lane") or "")
@@ -163,7 +180,6 @@ def activate_metaskills(
     mode: str,
     lane: str = "skill",
     *,
-    productive: bool = True,
     phase: str = "pre_production",
 ) -> list[dict[str, Any]]:
     active: list[dict[str, Any]] = []
@@ -171,7 +187,6 @@ def activate_metaskills(
         "request": request,
         "mode": mode,
         "lane": lane,
-        "productive": productive,
         "phase": phase,
     }
     for path, manifest in discover_runtime_manifests(library):
@@ -211,7 +226,7 @@ def resolve_risk_checks(profile: dict[str, Any], request: str, mode: str) -> lis
         when = rule.get("when") or {}
         if not isinstance(when, dict):
             raise ValueError("risk rule 'when' must be a mapping")
-        context = {"request": request, "mode": mode, "productive": True, "phase": "pre_production"}
+        context = {"request": request, "mode": mode, "phase": "pre_production"}
         if condition_matches(when, context):
             for check in rule.get("checks") or []:
                 value = str(check)
@@ -302,6 +317,52 @@ def _frontmatter_object_ids(library: Path) -> set[str]:
     return result
 
 
+OBJECT_ID_PATTERN = re.compile(r"^(?:AP|PAT|DRILL)_[a-z0-9_]+$")
+
+
+def _object_id_references(node: Any, trail: str = "profile") -> list[tuple[str, str]]:
+    """Collect (path, object_id) for every value shaped like a card object_id.
+
+    Profiles carry card references in ordinary contract fields — `stage_ap_thread`,
+    `staged_controller`, `image_generation_handoff` — that no schema declares. A
+    reference is recognized by the library's own naming convention rather than by
+    a per-domain key list, so a new profile gets the same check for free.
+    """
+    found: list[tuple[str, str]] = []
+    if isinstance(node, dict):
+        for key, value in node.items():
+            found.extend(_object_id_references(value, f"{trail}.{key}"))
+    elif isinstance(node, list):
+        for index, value in enumerate(node):
+            found.extend(_object_id_references(value, f"{trail}[{index}]"))
+    elif isinstance(node, str) and OBJECT_ID_PATTERN.match(node):
+        found.append((trail, node))
+    return found
+
+
+def _condition_problems(condition: Any, where: str) -> list[str]:
+    if not isinstance(condition, dict):
+        return [f"{where}: 'when' must be a mapping"]
+    unknown = sorted(set(condition) - CONDITION_KEYS)
+    return [f"{where}: unknown condition key {key!r}" for key in unknown]
+
+
+def _rule_conditions(profile: dict[str, Any]) -> list[tuple[Any, str]]:
+    conditions: list[tuple[Any, str]] = []
+    for section, key in (("routing", "mode"), ("lane_routing", "lane")):
+        block = profile.get(section)
+        if not isinstance(block, dict):
+            continue
+        for index, rule in enumerate(block.get("rules") or []):
+            if isinstance(rule, dict) and "when" in rule:
+                conditions.append((rule["when"], f"profile.{section}.rules[{index}]"))
+    for index, rule in enumerate(profile.get("risk_rules") or []):
+        if isinstance(rule, dict) and "when" in rule:
+            name = rule.get("id") or index
+            conditions.append((rule["when"], f"profile.risk_rules[{name}]"))
+    return conditions
+
+
 def doctor(profile: dict[str, Any], library: Path) -> list[str]:
     problems: list[str] = []
     if profile.get("schema_version") != SCHEMA_VERSION:
@@ -316,11 +377,18 @@ def doctor(profile: dict[str, Any], library: Path) -> list[str]:
         problems.append("profile.lanes must be a non-empty mapping")
     elif profile.get("default_lane") not in lanes:
         problems.append("profile.default_lane must name a lane")
+    for condition, where in _rule_conditions(profile):
+        problems.extend(_condition_problems(condition, where))
     if not library.is_dir():
         problems.append(f"library not found: {library}")
         return problems
 
     known = _frontmatter_object_ids(library)
+    # Contract fields naming a card are returned to the consumer verbatim, so a
+    # typo there is invisible until a live run asks for an AP that never existed.
+    for where, object_id in _object_id_references(profile):
+        if object_id not in known:
+            problems.append(f"{where}: unknown object_id {object_id}")
     try:
         manifests = discover_runtime_manifests(library)
     except (OSError, ValueError, yaml.YAMLError) as exc:
@@ -330,6 +398,11 @@ def doctor(profile: dict[str, Any], library: Path) -> list[str]:
     for path, manifest in manifests:
         if manifest.get("schema_version") != SCHEMA_VERSION:
             problems.append(f"{path}: schema_version must be {SCHEMA_VERSION}")
+        # resolve_task returns metaskill activations only. A manifest anywhere
+        # else parses and validates but is silently discarded, so say so here
+        # rather than letting a domain believe it declared an activation.
+        if path.parent.relative_to(library).parts[0] != "metaskills":
+            problems.append(f"{path}: activations outside metaskills/ are never returned by resolve")
         for entry in manifest.get("activations") or []:
             if not isinstance(entry, dict) or not entry.get("object_id"):
                 problems.append(f"{path}: invalid activation entry")
@@ -337,6 +410,8 @@ def doctor(profile: dict[str, Any], library: Path) -> list[str]:
             object_id = str(entry["object_id"])
             if object_id not in known:
                 problems.append(f"{path}: unknown object_id {object_id}")
+            if "when" in entry:
+                problems.extend(_condition_problems(entry["when"], f"{path}: {object_id}"))
     return sorted(set(problems))
 
 
@@ -359,16 +434,29 @@ def main() -> int:
     parser.add_argument("--library", type=Path, default=default_library)
     sub = parser.add_subparsers(dest="cmd", required=True)
 
-    resolve = sub.add_parser("resolve")
+    resolve = sub.add_parser(
+        "resolve",
+        help="resolve a request against the profile and return the declared execution contract",
+    )
     resolve.add_argument("--request", required=True)
     resolve.add_argument("--mode")
     resolve.add_argument("--out", type=Path)
 
-    verify = sub.add_parser("verify")
+    verify = sub.add_parser(
+        "verify",
+        help=(
+            "audit a caller-supplied completion record against the resolved required checks; "
+            "reports what is absent, exit 2 if anything is. This is a report on a record, "
+            "not a gate on an action."
+        ),
+    )
     verify.add_argument("--resolution", type=Path, required=True)
     verify.add_argument("--completion", type=Path, required=True)
 
-    sub.add_parser("doctor")
+    sub.add_parser(
+        "doctor",
+        help="check profile and library activation manifests for internal consistency",
+    )
     args = parser.parse_args()
 
     try:

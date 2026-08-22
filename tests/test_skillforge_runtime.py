@@ -1,10 +1,23 @@
+"""Repository tests for the SkillForge resolver.
+
+These prove repository-side behavior only: that profiles parse, that a given
+request string resolves to a given mode and lane, that declared checks are
+reported, that profile card references resolve, and that the completion audit
+reports what a record omits.
+
+They prove nothing about a live host. Mode Lock, Stage Lock, Visual Lock,
+exact-predecessor accessibility, one-approval-one-transition, and no-silent-
+fallback-to-Direct are model- and host-dependent, and only live regression
+testing of an installed skill can show whether they held. Tests named
+`test_art_profile_declares_*` assert what the YAML says, not what any host does.
+"""
 from __future__ import annotations
 
 import importlib.util
 import unittest
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 RUNTIME_PATH = ROOT / "PASS" / "runtime" / "skillforge_runtime.py"
 SPEC = importlib.util.spec_from_file_location("skillforge_runtime", RUNTIME_PATH)
 assert SPEC and SPEC.loader
@@ -23,23 +36,92 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertTrue(result["contract"]["apply_stage_knowledge"])
         self.assertTrue(result["contract"]["post_render_verification"])
 
-    def test_direct_stage4_language_suppresses_external_stages(self):
+    def test_art_profile_declares_terminal_artifact_only_for_explicit_stage4(self):
         result = runtime.resolve_task(
-            PROFILE, LIBRARY, "No stages. Go directly to stage 4 and render the final image."
+            PROFILE, LIBRARY, "No stages. Go directly to stage 4 for Drawing Finished Pencils."
         )
         self.assertEqual(result["mode"], "direct_render")
         self.assertFalse(result["contract"]["stage_artifacts"])
+        self.assertEqual(
+            result["contract"]["external_stage_artifacts"],
+            "requested_terminal_artifact_only",
+        )
         review = result["contract"]["risk_region_review"]
         self.assertTrue(review["enumerate_all_visible_instances"])
         self.assertTrue(review["inspect_full_frame_and_local_scale"])
         self.assertFalse(review["representative_sampling_allowed"])
 
+    def test_explicit_mode_directive_routes_staged(self):
+        result = runtime.resolve_task(
+            PROFILE, LIBRARY, "MODE Staged\nDraw Blu in a cyberpunk alley."
+        )
+        self.assertEqual(result["mode"], "staged_production")
+        self.assertTrue(result["contract"]["approval_gates"])
+
+    def test_explicit_mode_directive_routes_direct(self):
+        result = runtime.resolve_task(
+            PROFILE, LIBRARY, "MODE Direct\nDraw Blu in a cyberpunk alley."
+        )
+        self.assertEqual(result["mode"], "direct_render")
+        self.assertFalse(result["contract"]["stage_artifacts"])
+
+    def test_plain_do_it_in_stages_routes_to_staged_production(self):
+        result = runtime.resolve_task(
+            PROFILE, LIBRARY, "Draw me a red dragon flying over a forest during the day. Do it in stages."
+        )
+        self.assertEqual(result["mode"], "staged_production")
+        self.assertTrue(result["contract"]["approval_gates"])
+        self.assertTrue(result["contract"]["stage0_root_anchor_required"])
+        self.assertTrue(result["contract"]["one_successor_artifact_per_approval"])
+
     def test_training_or_drill_routes_to_staged_production(self):
         result = runtime.resolve_task(PROFILE, LIBRARY, "Give me a figure drawing drill for this pose.")
         self.assertEqual(result["mode"], "staged_production")
+        self.assertEqual(result["contract"]["stage_thread_scope"], "drawing")
         self.assertEqual(result["contract"]["sequence"], [0, 1, 2, 3, 4])
+        self.assertEqual(
+            result["contract"]["stage_ap_thread"][4],
+            "AP_finish_stage4_as_finished_pencils",
+        )
         self.assertTrue(result["contract"]["approval_gates"])
         self.assertTrue(result["contract"]["rollback_enabled"])
+
+    def test_art_profile_declares_artifact_only_handoff_contract(self):
+        result = runtime.resolve_task(
+            PROFILE, LIBRARY,
+            "Draw Blu in a cyberpunk alley. I want this to be a staged composition."
+        )
+        self.assertEqual(result["mode"], "staged_production")
+        contract = result["contract"]
+        self.assertEqual(
+            contract["image_generation_handoff"],
+            "AP_prepare_artifact_only_image_generation_handoff",
+        )
+        self.assertTrue(contract["productive_workflow_vocabulary_suppressed"])
+        self.assertTrue(contract["current_artifact_only"])
+        self.assertEqual(contract["multi_step_presentation_default"], "forbidden")
+        self.assertTrue(contract["staged_mode_persistent_until_exit_or_completion"])
+        self.assertTrue(contract["direct_render_fallback_forbidden_while_staged"])
+        self.assertTrue(contract["rejection_never_advances"])
+        self.assertTrue(contract["invalid_artifact_cannot_anchor_successor"])
+        self.assertTrue(contract["registered_successor_required_after_approval"])
+        self.assertTrue(contract["stage0_structural_divergence_required"])
+        self.assertTrue(contract["stage0_prefer_separate_candidate_images"])
+
+    def test_art_profile_declares_stage_handoff_prompts(self):
+        result = runtime.resolve_task(
+            PROFILE, LIBRARY, "Draw me a red dragon flying over a forest during the day. Do it in stages."
+        )
+        contract = result["contract"]
+        self.assertTrue(contract["stage_handoff_prompts_required"])
+        self.assertTrue(contract["stage_legal_next_actions_advertised"])
+        prompts = contract["stage_handoff_prompt_map"]
+        self.assertIn("Select the thumbnail you like", prompts[0])
+        self.assertIn("Approve this structure to continue", prompts[1])
+        self.assertIn("Approve this mass block to continue", prompts[2])
+        self.assertIn("Approve this rough realization to continue", prompts[3])
+        self.assertIn("Finished Pencils", prompts[4])
+        self.assertIn("approve the Drawing as complete", prompts[4])
 
     def test_teach_lane_is_independent_from_execution_mode(self):
         # `lane` is card-level semantics: it distinguishes an instructional
@@ -80,7 +162,7 @@ class SkillForgeRuntimeTests(unittest.TestCase):
 
         staged = runtime.resolve_task(PROFILE, LIBRARY, "Show the stages and brainstorm different directions.")
         staged_pre = {x["object_id"] for x in staged["metaskills"]["pre_production"]}
-        self.assertIn("AP_plan_and_build_work_from_thumbnail_to_final", staged_pre)
+        self.assertIn("AP_progress_artifact_through_ratified_steps", staged_pre)
         self.assertIn("PAT_generate_novel_options_by_combining_distant_concepts", staged_pre)
 
     def test_art_risk_checks_are_required_without_making_the_judgment(self):
@@ -95,7 +177,7 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertIn("weapon-hand-arm attachment chain", checks)
         self.assertIn("gaze/action alignment", checks)
 
-    def test_completion_gate_blocks_missing_required_or_risk_checks(self):
+    def test_completion_audit_reports_missing_required_or_risk_checks(self):
         resolution = runtime.resolve_task(
             PROFILE, LIBRARY, "Draw her pointing a gun toward the camera with one hand visible."
         )
@@ -146,6 +228,52 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertIn("costume seam and emblem lock", checks)
         self.assertIn("equipment mount lock", checks)
         self.assertIn("digit contract", checks)
+
+
+class ProfileReferenceIntegrityTests(unittest.TestCase):
+    """Every card a profile names must exist.
+
+    Profiles carry card references in ordinary contract fields that no schema
+    declares — `stage_ap_thread`, `staged_controller`, `image_generation_handoff`.
+    Those values are handed to the consumer verbatim, so a typo stays invisible
+    until a live run asks for an AP that was never authored. This replaces the
+    narrow per-domain assertion that only covered Art's Stage 4 mapping.
+    """
+
+    PROFILE_DIR = ROOT / "PASS" / "runtime" / "profiles"
+
+    def test_every_shipped_profile_passes_doctor(self):
+        profiles = sorted(self.PROFILE_DIR.glob("*.yaml"))
+        self.assertTrue(profiles, "no runtime profiles found")
+        for path in profiles:
+            with self.subTest(profile=path.name):
+                self.assertEqual(runtime.doctor(runtime.read_yaml(path), LIBRARY), [])
+
+    def test_every_profile_card_reference_resolves(self):
+        known = runtime._frontmatter_object_ids(LIBRARY)
+        for path in sorted(self.PROFILE_DIR.glob("*.yaml")):
+            references = runtime._object_id_references(runtime.read_yaml(path))
+            for where, object_id in references:
+                with self.subTest(profile=path.name, field=where):
+                    self.assertIn(object_id, known)
+
+    def test_art_profile_actually_carries_references_to_check(self):
+        # Guards the test above against silently passing on an empty set if the
+        # reference-shape rule ever stops recognizing PASS object ids.
+        references = runtime._object_id_references(PROFILE)
+        fields = {where for where, _ in references}
+        self.assertTrue(any(field.endswith(".stage_ap_thread.4") for field in fields))
+        self.assertTrue(any(field.endswith(".image_generation_handoff") for field in fields))
+
+    def test_doctor_rejects_an_unresolvable_card_reference(self):
+        broken = runtime.read_yaml(self.PROFILE_DIR / "art.yaml")
+        contract = broken["execution_modes"]["staged_production"]["contract"]
+        contract["stage_ap_thread"][4] = "AP_this_ap_was_never_authored"
+        problems = runtime.doctor(broken, LIBRARY)
+        self.assertTrue(
+            any("AP_this_ap_was_never_authored" in problem for problem in problems),
+            problems,
+        )
 
 
 if __name__ == "__main__":

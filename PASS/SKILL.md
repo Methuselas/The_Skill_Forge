@@ -22,8 +22,8 @@ page, hash, or receipt.
 2. `docs/PASS_RUN.md`
 3. `docs/PASS_SCHEMA.md`
 4. `docs/PASS_LIBRARY.md`
-5. `docs/RUNTIME_KERNEL.md` when changing runtime routing, release vendoring, or
-   execution gates.
+5. `docs/EXECUTION_CONTRACT.md` when changing profile routing, release vendoring,
+   or the declared execution/completion contract.
 
 ## Working rules
 

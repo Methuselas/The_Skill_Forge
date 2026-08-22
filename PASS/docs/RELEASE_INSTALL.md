@@ -36,13 +36,21 @@ A release remains a normal self-contained directory/ZIP even when a host does no
 install it as a native skill. The consumer may inspect `SKILL.md` and the bundled
 `library/` directly. No SkillForge repository path is required.
 
-## Runtime and deployment profiles
+## Execution contract and deployment profiles
 
-Portable releases vendor the canonical SkillForge runtime as
+Portable releases vendor the canonical SkillForge resolver as
 `scripts/skillforge_runtime.py` and a declarative `runtime/profile.yaml`.
-Consumers must resolve productive tasks through that runtime before execution and
-must satisfy its completion gate afterward.
+
+`runtime/profile.yaml` is the release's **execution contract**: it declares the
+execution modes, routing, risk checks, and completion requirements the consuming
+skill is expected to honor. The vendored script is an optional deterministic
+helper that resolves a request against that contract and can audit a completion
+record afterward. It does not run by itself, hold state, or gate anything — a
+host that never invokes it still has a complete, usable release. Honoring the
+contract is the consuming skill's responsibility. See `EXECUTION_CONTRACT.md`.
 
 A release recipe may also name a target-specific `deployment_profile`. Package
-size is measured at release build/check time against that profile. This does not
-change canonical authoring validation or library organization.
+size is then measured at release build/check time against that profile. No recipe
+currently names one and `PASS/runtime/deployment_profiles/` does not yet exist;
+it is an available extension point. This does not change canonical authoring
+validation or library organization.
