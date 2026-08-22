@@ -6,6 +6,7 @@
 
 - [Ask Both What Must Never Happen and What Must Eventually Happen](PAT_check_concurrent_code_for_safety_and_liveness.md) - pattern; 0 design. Tags: concurrency, correctness, deadlock, review, threading.
 - [Avoid Sharing Before You Reach for Protecting It](PAT_avoid_sharing_before_you_reach_for_protecting_it.md) - pattern; 0 design. Tags: concurrency, design, encapsulation, shared_state, threading.
+- [Block With a Deadline Before Polling on an Interval](PAT_block_with_a_deadline_before_polling_on_an_interval.md) - pattern; 0 design. Tags: concurrency, design, latency, timeouts, waiting.
 - [Break One of Deadlock's Four Conditions](PAT_break_one_of_deadlocks_four_conditions.md) - pattern; 0 design. Tags: concurrency, deadlock, locking, resources, threading.
 - [Buy Concurrent Performance With Restrictions, Not Cleverness](PAT_buy_concurrent_performance_with_restrictions.md) - pattern; 0 design. Tags: concurrency, data_structures, design, simplicity, threading.
 - [Classify Synchronization by the Progress It Guarantees](PAT_classify_synchronization_by_progress_guarantee.md) - pattern; 0 design. Tags: concurrency, design, lock_free, locking, threading.
