@@ -25,6 +25,7 @@
 - [Run Threaded Code Under Conditions Built to Break It](PAT_run_threaded_code_under_conditions_built_to_break_it.md) - pattern; 3 rough. Tags: concurrency, defects, test_design, testing, threading.
 - [Separate Per-Thread Data by a Full Cache Line](PAT_separate_per_thread_data_by_a_cache_line.md) - pattern; 4 final. Tags: concurrency, memory, performance, shared_state, threading.
 - [Size the Thread Count to the Hardware, Not to the Work](PAT_do_not_create_a_thread_for_every_task.md) - pattern; 0 design. Tags: concurrency, design, performance, scalability, threading.
+- [Split a Lock Only Where the Structure Makes the Regions Disjoint](PAT_split_a_lock_only_where_the_structure_makes_the_regions_disjoint.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
 - [Trade Exact Ordering for Independent Sub-Structures](PAT_trade_exact_ordering_for_independent_substructures.md) - pattern; 0 design. Tags: concurrency, data_structures, design, scalability, threading.
 - [Treat a Failure You Cannot Reproduce as a Defect](PAT_treat_an_unreproducible_failure_as_a_defect.md) - pattern; 4 final. Tags: concurrency, defects, diagnosis, testing, threading.
 - [Two Atomic Operations Are Not One Atomic Operation](PAT_atomic_steps_do_not_compose_into_a_safe_whole.md) - pattern; 0 design. Tags: atomicity, concurrency, correctness, invariants, threading.

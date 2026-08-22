@@ -46,6 +46,7 @@ variants: []
 - Treat the danger as growing over time rather than as a property of today's code. The library you call may be fine now; the next version may not be, and nothing about your code will change when it stops being fine.
 - Remember that ordinary mutexes are not re-entrant. If the called code reaches back into the same object and takes the same mutex, the behaviour is undefined and what you will usually see is the thread waiting for a lock it is itself holding.
 - Count callbacks, comparators, and virtual functions as unknown code. They are supplied by the caller by design, which means their contents are exactly what the component cannot know.
+- Watch what the called code is given as well as what it does, where it is invoked on your internals. Anything handed a reference to guarded state can return it, store it, or capture it, and the caller then holds a way into the protected data that outlives the lock. This defeats a self-guarding type completely, and unlike the liveness failures it announces nothing — the interface still looks closed, because the escape route is supplied by the caller and appears nowhere in the type.
 
 ## Don't
 - Don't switch to a recursive mutex to make the re-entrant case work. It resolves the immediate stall and leaves you holding a lock across code that may take other locks, which is the condition that produces the cycles — and it makes the critical section's real extent much harder to see.

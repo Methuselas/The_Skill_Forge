@@ -44,6 +44,7 @@ variants: []
 ## Don't
 - Don't return a non-const reference, pointer, or iterator to a data member; a member is only as encapsulated as the most accessible function returning a handle to it, so this makes it effectively public.
 - Don't return a handle from a function whose result may outlive the object — a handle into a temporary returned by value dangles at the end of the statement.
+- Don't return one from a type that guards itself for concurrent use, on any path. The handle leaves the guarded region while still referring to what the guard protects, so the caller reaches the internals with no lock held at all — the type's whole guarantee, undone by one function that looked like an accessor.
 
 ## Checklist
 - Does this function return a reference, pointer, or iterator into the object's internals?
