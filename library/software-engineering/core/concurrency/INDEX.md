@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Announce the Operation So Another Thread Can Finish It](PAT_announce_the_operation_so_another_thread_can_finish_it.md) - pattern; 0 design. Tags: concurrency, design, latency, lock_free, starvation.
 - [Ask Both What Must Never Happen and What Must Eventually Happen](PAT_check_concurrent_code_for_safety_and_liveness.md) - pattern; 0 design. Tags: concurrency, correctness, deadlock, review, threading.
 - [Avoid Sharing Before You Reach for Protecting It](PAT_avoid_sharing_before_you_reach_for_protecting_it.md) - pattern; 0 design. Tags: concurrency, design, encapsulation, shared_state, threading.
 - [Block With a Deadline Before Polling on an Interval](PAT_block_with_a_deadline_before_polling_on_an_interval.md) - pattern; 0 design. Tags: concurrency, design, latency, timeouts, waiting.
