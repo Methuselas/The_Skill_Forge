@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_classify_synchronization_by_progress_guarantee
 - rel: related_to
   target_object_id: PAT_match_the_problem_to_a_known_coordination_shape
+- rel: related_to
+  target_object_id: PAT_check_a_primitives_coordination_power_before_designing_on_it
 reference:
   source_title: The Art of Multiprocessor Programming
   author: Maurice Herlihy, Nir Shavit, Victor Luchangco, Michael Spear
