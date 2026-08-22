@@ -54,6 +54,7 @@ variants: []
 ## Don't
 - Don't rely on reaching a join at the end of the function. An exception thrown between the thread's creation and that call skips it, and the destructor then terminates the program — which is the failure mode this rule exists to prevent.
 - Don't detach to make the termination go away. It compiles, it stops the crash, and it replaces a loud failure with a thread that outlives the objects it refers to.
+- Don't overlook move assignment as one of the paths. Moving one thread object onto another destroys what the target was holding, so a target that was still joinable terminates the program exactly as it would at the end of a scope — and the moved-from object is left with no thread of execution, which makes a later join on it throw rather than terminate. One statement, two different failures, and neither reads as a destruction.
 - Don't assume a thread that has finished its work is unjoinable. Joinability is about whether the object still corresponds to a thread of execution, not about whether that thread is still running; a completed thread's object is joinable until joined or detached.
 - Don't treat this as a special case unrelated to other resources. A thread is a resource acquired in a scope, and the reason to hand it to an object with a destructor is the reason that applies to every other resource.
 
