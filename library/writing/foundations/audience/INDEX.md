@@ -5,3 +5,4 @@
 ## Objects
 
 - [Calibrate Context to Intended Audience and Venue](PAT_calibrate_context_to_intended_audience_and_venue.md) - pattern; 0 design. Tags: accessibility, audience, circulation, context, genre, publication.
+  - Variants: `Write for a High-Volume Evaluative Reader` (context).

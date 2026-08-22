@@ -7,6 +7,7 @@
 - [Balance Symbols Between Cliche and Obscurity](PAT_balance_symbols_between_cliche_and_obscurity.md) - pattern; 3 rough. Tags: audience, creative_writing, imagery, revision, symbolism.
   - Variants: `Imply Symbolism Through Concrete Description` (context).
 - [Choose Diction to Serve Purpose and Tone](PAT_choose_diction_to_serve_purpose_and_tone.md) - pattern; 3 rough. Tags: creative_writing, diction, revision, style, tone.
+  - Variants: `Draft by Speaking to Recover a Natural Register` (method_sequence).
 - [Control Irony to Preserve Reader Trust](PAT_control_irony_to_preserve_reader_trust.md) - pattern; 3 rough. Tags: creative_writing, irony, reader_response, revision, tone.
 - [Make Figurative Language Unexpected and Fitting](PAT_make_figurative_language_unexpected_and_fitting.md) - pattern; 3 rough. Tags: creative_writing, figurative_language, metaphor, revision, simile.
 - [Make Nonstandard Language a Deliberate Craft Choice](PAT_make_nonstandard_language_a_deliberate_craft_choice.md) - pattern; 3 rough. Tags: dialect, grammar, language, multilingual_writing, voice.

@@ -25,7 +25,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_variant_write_for_high_volume_evaluative_reader
+    variant_name: Write for a High-Volume Evaluative Reader
+    variant_basis: context
+    difference_from_foundation: Prioritize immediate specific relevance, economical orientation, and low-friction movement for an unfamiliar reader evaluating many similar submissions without turning attention into a contest for spectacle.
+    when_to_use: An application, selection statement, or other short evaluative document must reveal meaningful distinctions to a reader working quickly across a large comparison set.
+    when_not_to_use: The work is meant for leisurely literary reading, a familiar private audience, or a context where compression would remove evidence the reader needs to judge fairly.
+    absorbed_from_object_id: none
 ---
 
 # Calibrate Context to Intended Audience and Venue
@@ -57,3 +64,5 @@ variants: []
 
 ## Notes
 Writing is a social act: the writer's responsibilities change with who will read the piece, why, and through which route. A reference that works perfectly for a close friend may be opaque to a class or public audience, while an electronically shared draft can escape the intimate context that first made it legible or safe. Publication adds another layer because editors and agents sort work by genre and apply standards even when those standards are not fully articulated. Convention can be a reader contract without becoming a formula: familiar genres often derive pleasure from recognizable promises executed through new characters, obstacles, voices, or settings, and strong work can borrow across categories while remaining clear about the experience it offers.
+
+`writing_variant_write_for_high_volume_evaluative_reader` treats reader attention as a constrained resource without treating novelty as the evaluation criterion. Establish the document's specific human or practical relevance early, supply only the context an unfamiliar evaluator needs, and make each transition easy to follow. A common experience can remain compelling through exact perception and consequence; a strange detail fails when it is detachable, confusing, or unsupported. The test is whether the reader can quickly enter and accurately assess the work, not whether the opening performs the loudest stunt in the comparison set.
