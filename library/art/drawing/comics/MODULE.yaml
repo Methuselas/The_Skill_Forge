@@ -1,5 +1,0 @@
-name: art/drawing/comics
-requires:
-- art/drawing/comics/page-construction
-- art/drawing/comics/covers
-- art/drawing/comics/inking

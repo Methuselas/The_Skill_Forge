@@ -45,9 +45,13 @@ variants:
 - variant_id: VAR_martin_feather_black_edges_with_tapered_form_wrapping_lines
   variant_name: Feather Black Edges With Tapered Form-Wrapping Lines
   variant_basis: method_sequence
-  difference_from_foundation: Starts from an intended solid-black mass, then softens selected edges with tapered feather lines whose thick ends merge into the black, whose exposed ground increases toward the light, and whose direction bends around the underlying volume so the transition carries both value and form.
-  when_to_use: Use when a hard black mass should graduate into a lighter line field while retaining a clear sense of turning form.
-  when_not_to_use: Do not feather a boundary that is meant to remain genuinely hard, and do not use equal-width ornamental stripes or blunt perpendicular joins when the goal is a gradual organic transition.
+  difference_from_foundation: Starts from an intended solid-black mass, then softens selected edges with tapered feather lines
+    whose thick ends merge into the black, whose exposed ground increases toward the light, and whose direction bends around
+    the underlying volume so the transition carries both value and form.
+  when_to_use: Use when a hard black mass should graduate into a lighter line field while retaining a clear sense of turning
+    form.
+  when_not_to_use: Do not feather a boundary that is meant to remain genuinely hard, and do not use equal-width ornamental
+    stripes or blunt perpendicular joins when the goal is a gradual organic transition.
   absorbed_from_object_id: none
 ---
 # Translate Value Into Mark Density and Open Ground

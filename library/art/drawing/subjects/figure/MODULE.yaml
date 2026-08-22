@@ -1,7 +1,0 @@
-name: art/drawing/subjects/figure
-requires:
-- art/drawing/subjects/figure/anatomy
-- art/drawing/subjects/figure/construction
-- art/drawing/subjects/figure/gesture
-- art/drawing/subjects/figure/hands
-- art/drawing/subjects/figure/heads

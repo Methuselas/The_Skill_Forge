@@ -1,0 +1,4 @@
+name: art/process/staged-drawing
+requires:
+- art/foundations/visual-centerline
+- art/foundations/form-construction

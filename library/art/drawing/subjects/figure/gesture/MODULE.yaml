@@ -1,3 +1,0 @@
-name: art/drawing/subjects/figure/gesture
-requires:
-- art/drawing/foundations/gesture-force

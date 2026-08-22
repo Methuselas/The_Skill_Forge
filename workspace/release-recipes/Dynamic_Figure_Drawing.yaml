@@ -1,11 +1,11 @@
 name: Dynamic Figure Drawing
 skill_name: dynamic-figure-drawing
-description: Use for dynamic human figure drawing, including gesture, construction,
-  anatomy, heads, hands, perspective, staged drawing process, and rendering decisions.
+description: Use for dynamic human figure drawing, including gesture, construction, anatomy, heads, hands, perspective, staged
+  drawing process, and rendering decisions.
 modules:
-- art/drawing/subjects/figure
-- art/drawing/perspective
+- art/subjects/figure
+- art/perspective
+- art/rendering
 - art/drawing/rendering
-- art/drawing/composition
-
+- art/composition
 runtime_profile: art

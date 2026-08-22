@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-21",
+  "prompt": "Guided Broken Gate universal Drawing precedent authoring run; current-artifact brief supplied through PASS stage discipline.",
+  "source_renders": [
+    "chat_authoring_run/broken_gate_stage1_canonical_scene_skeleton.png"
+  ],
+  "generation": {
+    "gen_id": "2dcdb7af-4333-4c6a-a4eb-ff2900984e84",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-21",
+    "method": "human-guided continuity, stage-density, and canonical-lineage review",
+    "note": "Canonical Broken Gate Stage 1 scene skeleton. Human-approved as the structural successor: scene-wide scaffold preserved, humanoids reduced to skeletal gesture/construction language, and no Stage 2 mass intentionally added."
+  }
+}

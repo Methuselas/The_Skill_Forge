@@ -1,0 +1,4 @@
+name: art/comics/covers
+requires:
+- art/composition
+- art/process/staged-drawing

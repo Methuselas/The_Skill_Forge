@@ -62,7 +62,7 @@ against anything, and no validator or release build reads it. A card with no
 
 ```yaml
 references:
-  - image_path: library/art/drawing/subjects/figure/hands/assets/hand_rod_ball_wedge.png
+  - image_path: library/art/subjects/figure/hands/assets/hand_rod_ball_wedge.png
     caption: Hand masses reduced to a rod forearm, palm wedge, and finger/thumb blocks.
     derived_from: what the image demonstrates
     origin: generated | first_party_source
@@ -363,7 +363,7 @@ library_path: [art, drawing, subjects, figure, construction]
 belongs at:
 
 ```text
-library/art/drawing/subjects/figure/construction/
+library/art/subjects/figure/construction/
 ```
 
 The library tree is organized from object ownership and `library_path`. Indexes, when used, are optional generated navigation aids rather than canonical dependency state. Moving a skill means changing `library_path`, moving the file, and regenerating any derived navigation.

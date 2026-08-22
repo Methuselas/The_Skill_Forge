@@ -269,7 +269,7 @@ class ReleaseIntegrityTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp) / "release"
             self.assertEqual(run("build", RECIPES / "Animal_Anatomy.yaml", out).returncode, 0)
-            next(out.rglob("precedent_stage1_observatory_hybrid_construction.png")).unlink()
+            next(out.rglob("broken_gate_stage1_canonical_scene_skeleton.png")).unlink()
             check = run("check", out)
             self.assertNotEqual(check.returncode, 0)
             self.assertIn("missing image_path", check.stderr)

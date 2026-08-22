@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-21",
+  "prompt": "Guided Broken Gate universal Drawing precedent authoring run; current-artifact brief supplied through PASS stage discipline.",
+  "source_renders": [
+    "chat_authoring_run/broken_gate_debug_stage3_late_surface_drift_INVALID.png"
+  ],
+  "generation": {
+    "gen_id": "1d09d410-b9f7-4c9c-9607-6a52c35fe8c1",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-21",
+    "method": "human-guided continuity, stage-density, and canonical-lineage review",
+    "note": "INVALID / NON-CANONICAL negative precedent. Near-hit/late Stage 3: figure specificity is healthy, but masonry, rubble, wagon, road, and line finish overconsume the Stage 3 information budget and drift toward finished presentation."
+  }
+}

@@ -1,0 +1,4 @@
+name: art/subjects/figure/construction
+requires:
+- art/process/staged-drawing
+- art/foundations/form-construction

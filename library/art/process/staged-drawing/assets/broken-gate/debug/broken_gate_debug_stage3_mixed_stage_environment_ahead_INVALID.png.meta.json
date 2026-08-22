@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-21",
+  "prompt": "Guided Broken Gate universal Drawing precedent authoring run; current-artifact brief supplied through PASS stage discipline.",
+  "source_renders": [
+    "chat_authoring_run/broken_gate_debug_stage3_mixed_stage_environment_ahead_INVALID.png"
+  ],
+  "generation": {
+    "gen_id": "5725cc29-655a-4a43-b198-2de43706c5be",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-21",
+    "method": "human-guided continuity, stage-density, and canonical-lineage review",
+    "note": "INVALID / NON-CANONICAL negative precedent. Mixed-stage Stage 3 failure: environment advances toward late Stage 3/Stage 4 rendering while courier and pursuers remain largely Stage 2 mannequins."
+  }
+}

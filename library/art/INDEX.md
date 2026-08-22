@@ -8,10 +8,14 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - **Block the Complete Stage 2 Inventory** — read first
   - then: Commit Stage 3 Form Realization Against the Thumbnail
+- **Build the Stage 1 Scene Skeleton** — read first
+  - then: Build the Stage 2 Complete Mass Block
+- **Build the Stage 2 Complete Mass Block** — read first
+  - then: Realize the Stage 3 Rough Image
 - **Choose Stage 1 Construction by Readability** — read first
   - then: Block the Complete Stage 2 Inventory
 - **Commit Stage 3 Form Realization Against the Thumbnail** — read first
-  - then: Preserve Structure During Stage 4 Amplification
+  - then: Preserve Structure During Stage 4 Pencil Finish
 - **Construct a Carnivore Foreleg From Independent Radius-Ulna Rotation and a Rotating Paw** — read first
   - then: Construct a Carnivore Paw From Fanned Metacarpals, Curved Arch, and Digit Support
   - then: Shape a Carnivore Foreleg From Joint Axes and Paw-Control Muscle Mass
@@ -57,6 +61,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Model Animal Trunk Torsion With a Four-Sided Block
 - **Read Animal Trunk Muscles From Spinal Axes and Levers** — read first
   - then: Map Pure Trunk Muscle Actions From Spinal Axes
+- **Realize the Stage 3 Rough Image** — read first
+  - then: Finish Stage 4 as Finished Pencils
 - **Return to the Art Centerline** — read first
   - then: Calibrate Stage Information Density Against Approved Precedent
   - then: Draw a Figure Through Onion-Skinned Stages
@@ -71,4 +77,13 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Drawing](drawing/INDEX.md) - 345 object(s).
+- [Color](color/INDEX.md) - 26 object(s).
+- [Comics](comics/INDEX.md) - 3 object(s).
+- [Composition](composition/INDEX.md) - 32 object(s).
+- [Drawing](drawing/INDEX.md) - 23 object(s).
+- [Foundations](foundations/INDEX.md) - 47 object(s).
+- [Painting](painting/INDEX.md) - 5 object(s).
+- [Perspective](perspective/INDEX.md) - 27 object(s).
+- [Process](process/INDEX.md) - 17 object(s).
+- [Rendering](rendering/INDEX.md) - 40 object(s).
+- [Subjects](subjects/INDEX.md) - 147 object(s).

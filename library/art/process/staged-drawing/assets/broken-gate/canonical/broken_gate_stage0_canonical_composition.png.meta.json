@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-21",
+  "prompt": "Guided Broken Gate universal Drawing precedent authoring run; current-artifact brief supplied through PASS stage discipline.",
+  "source_renders": [
+    "chat_authoring_run/broken_gate_stage0_canonical_composition.png"
+  ],
+  "generation": {
+    "gen_id": "a6eaa342-8e9d-40af-8282-8c6cb6053da6",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-21",
+    "method": "human-guided continuity, stage-density, and canonical-lineage review",
+    "note": "Canonical Broken Gate Stage 0 root. Human-approved after lowering information density while preserving the selected low three-quarter composition, spear diagonal, wagon anchor, gate framing, pursuer placement, road depth path, and major negative spaces."
+  }
+}

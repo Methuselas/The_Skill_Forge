@@ -30,17 +30,26 @@ variants:
 - variant_id: VAR_olofsson_assign_line_weight_by_spatial_edge_role
   variant_name: Assign Line Weight by Spatial Edge Role
   variant_basis: emphasis
-  difference_from_foundation: 'Assigns hierarchy from edge role rather than primarily from lighting: emphasize important ground/contact edges and free separating edges with open space behind them, keep interior or descriptive edges lighter, and allow receding construction to lose weight with depth. When distinct spatial planes must separate clearly in line art, step contour weight down from foreground to middle ground to background instead of outlining every plane equally.'
-  when_to_use: Use for quick line drawings where spatial separation must read clearly before or without a committed lighting scheme, especially when foreground, middle-ground, and background planes otherwise collapse together.
+  difference_from_foundation: 'Assigns hierarchy from edge role rather than primarily from lighting: emphasize important ground/contact
+    edges and free separating edges with open space behind them, keep interior or descriptive edges lighter, and allow receding
+    construction to lose weight with depth. When distinct spatial planes must separate clearly in line art, step contour weight
+    down from foreground to middle ground to background instead of outlining every plane equally.'
+  when_to_use: Use for quick line drawings where spatial separation must read clearly before or without a committed lighting
+    scheme, especially when foreground, middle-ground, and background planes otherwise collapse together.
   when_not_to_use: Do not let spatial-role weighting contradict a strong established light hierarchy or turn every silhouette
     into one uniformly heavy outline.
   absorbed_from_object_id: none
 - variant_id: VAR_martin_anchor_line_weight_to_primary_light_and_scene_continuity
   variant_name: Anchor Line Weight to Primary Light and Scene Continuity
   variant_basis: context
-  difference_from_foundation: Uses the primary light as the stable backbone of the contour-weight system when multiple lights or sequential panels complicate the drawing; secondary light modifies highlights and local details without overturning the main shade-side hierarchy, and the chosen logic persists through a continuous scene unless a deliberate dramatic break is intended.
-  when_to_use: Use when an inked figure, face, or object has more than one source or appears across several panels and line weight needs a consistent causal lighting basis.
-  when_not_to_use: Do not force physical continuity when the image intentionally changes lighting for dramatic effect, and do not let the primary-light shorthand override a clearly designed local value pattern.
+  difference_from_foundation: Uses the primary light as the stable backbone of the contour-weight system when multiple lights
+    or sequential panels complicate the drawing; secondary light modifies highlights and local details without overturning
+    the main shade-side hierarchy, and the chosen logic persists through a continuous scene unless a deliberate dramatic break
+    is intended.
+  when_to_use: Use when an inked figure, face, or object has more than one source or appears across several panels and line
+    weight needs a consistent causal lighting basis.
+  when_not_to_use: Do not force physical continuity when the image intentionally changes lighting for dramatic effect, and
+    do not let the primary-light shorthand override a clearly designed local value pattern.
   absorbed_from_object_id: none
 ---
 

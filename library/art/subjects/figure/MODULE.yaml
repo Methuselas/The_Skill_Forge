@@ -1,0 +1,7 @@
+name: art/subjects/figure
+requires:
+- art/subjects/figure/anatomy
+- art/subjects/figure/construction
+- art/subjects/figure/gesture
+- art/subjects/figure/hands
+- art/subjects/figure/heads

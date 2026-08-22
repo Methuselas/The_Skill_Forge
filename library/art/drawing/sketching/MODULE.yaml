@@ -1,2 +1,6 @@
 name: art/drawing/sketching
-requires: []
+requires:
+- art/foundations/ideation
+- art/perspective
+- art/composition
+- art/rendering

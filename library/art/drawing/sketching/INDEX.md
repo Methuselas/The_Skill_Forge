@@ -17,6 +17,7 @@
 - [Construct Product Rounding From Surface Transition Boundaries](PAT_construct_product_rounding_from_surface_transition_boundaries.md) - pattern; 2 block. Tags: construction, fillets, product_design, rounding, sketching, surface_transition.
 - [Cover Product Information With Complementary Views](PAT_cover_product_information_with_complementary_views.md) - pattern; 0 design. Tags: communication, multiple_views, product_information, sketching, viewpoint.
   - Variants: `Simplify a Local Connection Then Check It With a Truthful View` (method_sequence).
+- [Develop a Product Concept From Search Sketch to Communicable Design](AP_develop_product_concept_from_search_sketch_to_communicable_design.md) - ap; 0 design. Tags: communication, concept_development, construction, product_design, sketching, viewpoint.
 - [Generate Product Forms From Ambiguous Shape Seeds](DRILL_generate_product_forms_from_ambiguous_shape_seeds.md) - drill; 0 design. Tags: anti_fixation, form_search, ideation, product_design, sketching.
 - [Integrate Inserted Image Parts With Scene Geometry and Light](PAT_integrate_inserted_image_parts_with_scene_geometry_and_light.md) - pattern; 4 final. Tags: compositing, lighting, perspective, reflections, sketching.
 - [Interpolate a Rigid Part Pose Along Its Motion Path](PAT_interpolate_rigid_part_pose_along_motion_path.md) - pattern; 2 block. Tags: articulation, mechanism, motion, product_construction, sketching.

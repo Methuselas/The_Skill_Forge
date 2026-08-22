@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-21",
+  "prompt": "Guided Broken Gate universal Drawing precedent authoring run; current-artifact brief supplied through PASS stage discipline.",
+  "source_renders": [
+    "chat_authoring_run/broken_gate_debug_stage4_edit_target_near_regeneration_INVALID.png"
+  ],
+  "generation": {
+    "gen_id": "74783566-b6fa-43df-8493-bb5f11935018",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-21",
+    "method": "human-guided continuity, stage-density, and canonical-lineage review",
+    "note": "INVALID / NON-CANONICAL debugging evidence. Requested local Stage 4 pencil tightening could not access the exact accepted predecessor as a reliable native edit target; generation produced a near-reconstruction with small regenerative changes and no material targeted improvement. Canonical Stage 4 remains the first accepted finished-pencil artifact."
+  }
+}

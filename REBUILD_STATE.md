@@ -11,8 +11,10 @@
 - Phase 9 Human documentation: complete
 - Phase 10 Fresh Git baseline: complete
 - Phase 11 Architecture reset — source, ledger, and domain decoupling: complete (2026-08-15)
+- Phase 12 Progressive ratification metaskill + Art stage-AP split: complete for Debug Chat 1 testing (2026-08-20)
+- Phase 13 Broken Gate canonical Drawing precedent checkpoint: complete as an intermediate source state (2026-08-21); Drawing Stage 4 now means Finished Pencils, exact-predecessor edit-target access fails closed, and downstream Ink/Color/Paint architecture remains pending audit.
 
-Stages are frozen until explicitly streamlined later.
+The Art Drawing 0→4 progression now resolves as Search/Composition → Scene Skeleton → Complete Minimum Mass → Specific Rough/Developed Pencils → Finished Pencils. Staged execution runs these as separate Art APs under a craft-neutral ratification metaskill. Search/Control remains an operating mode rather than a stage replacement. No hidden runtime state or image lineage is simulated. Registered-successor editing additionally requires the exact canonical predecessor to be genuinely accessible to the native image tool; loss of edit-target access fails closed rather than authorizing a near-regeneration.
 
 ## Phase 11 — architecture reset (2026-08-15)
 

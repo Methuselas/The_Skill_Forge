@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-21",
+  "prompt": "Guided Broken Gate universal Drawing precedent authoring run; current-artifact brief supplied through PASS stage discipline.",
+  "source_renders": [
+    "chat_authoring_run/broken_gate_stage4_canonical_finished_pencils.png"
+  ],
+  "generation": {
+    "gen_id": "1921b05a-d832-4d92-95a1-6ce6acc21dad",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-21",
+    "method": "human-guided continuity, stage-density, and canonical-lineage review",
+    "note": "Canonical Broken Gate Stage 4 finished pencils: the FIRST accepted Stage 4 artifact. It closes the Drawing AP. Minor accepted limitation: pencil finish is slightly soft/uniformly busy. Do not substitute the later tightening reconstruction."
+  }
+}

@@ -20,6 +20,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: AP_plan_and_build_work_from_thumbnail_to_final
+- rel: related_to
+  target_object_id: AP_progress_artifact_through_ratified_steps
 reference:
   source_title: Keys to Drawing
   author: Bert Dodson
@@ -35,11 +37,14 @@ Develop complex work by alternating operations that discover possibilities with 
 
 ## Steps / Flow
 1. **Search.** Generate, observe, probe, or sketch enough alternatives to expose promising directions without requiring final precision.
-2. **Control the search.** Compare the discovered material against the current objective, structure, constraints, or tests; select what survives and remove or subordinate what does not.
-3. **Reopen search at the next level.** Once the broad direction is controlled, explore the unresolved specifics that could not be decided earlier.
-4. **Control the developed result.** Consolidate, verify, clean, test, or finish the newly discovered material against the commitments already made.
-5. **Nest smaller loops when needed.** A control phase may reopen a local search when evidence shows the current solution is inadequate; a search phase may pause for a small control check before exploration drifts too far.
-6. **Do not confuse the mode with the artifact stage.** Search and control describe how attention operates; a staged workflow describes what information the work currently contains. Map the modes onto the domain's stages without replacing those stages.
+2. **Control the search.** Compare the discovered material against the current objective, structure, constraints, or tests; identify what survives and what does not.
+3. **Reopen Search when the solution space fails or the next unresolved level becomes available.** Broad rejection is a reason to search again, not merely to polish rejected options. Preserve useful critique and constraints while allowing genuinely different solutions.
+4. **Control a viable result.** Consolidate, verify, clean, test, or refine material that remains directionally sound without reopening commitments that have already been ratified.
+5. **Nest smaller loops when needed.** A Control phase may reopen a local Search when evidence shows the current solution is inadequate; a Search phase may pause for a small Control check before exploration drifts too far.
+6. **Do not confuse Control with authority.** Evaluation, ranking, recommendation, or the assistant's artistic preference can inform a decision but cannot substitute for an approval that the surrounding workflow requires from the user or another authority.
+7. **Do not confuse the mode with the artifact step.** Search and Control describe how attention operates; a staged or domain-specific workflow describes what information the work currently contains. The current step defines what Search is allowed to invent and what Control must preserve.
 
 ## Notes
-Dodson distinguishes a freer, intuitive handwriting from a slower, analytical one and shows artists moving back and forth between them. Guided teaching exposed the larger cross-domain rhythm. In the current four-stage Art process, the macro mapping is **Stage 1 Search → Stage 2 Control of Stage 1 → Stage 3 Search → Stage 4 Control of Stage 3**, while smaller loops can occur inside each stage. Writing can search ideas, control structure, search language, then control final clarity; coding can explore designs, constrain interfaces/tests, explore implementation, then validate and harden.
+Dodson distinguishes a freer, intuitive handwriting from a slower, analytical one and shows artists moving back and forth between them. The transferable behavior is the alternation, not a fixed mapping such as “this numbered stage is always Search.”
+
+In a staged visual workflow, Stage 0 may contain a large Search loop followed by Control and user selection; after that approval, Stage 1 primarily Controls the chosen picture while searching only inside unresolved structural decisions. Other domains can map the same modes differently.

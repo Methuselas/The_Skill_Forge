@@ -1,0 +1,4 @@
+name: art/subjects/figure/heads
+requires:
+- art/subjects/figure/anatomy
+- art/foundations/gesture-force

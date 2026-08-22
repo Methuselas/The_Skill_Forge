@@ -33,16 +33,25 @@ variants:
 - variant_id: VAR_guptill_assign_mixed_media_distinct_line_mass_and_accent_roles
   variant_name: Assign Mixed Media Distinct Line, Mass, and Accent Roles
   variant_basis: method_sequence
-  difference_from_foundation: 'Adds a mixed-media sequencing route: let a primary line medium establish structural character and selected detail, use a broader tonal or restrained-color medium to simplify and carry broad masses, then restore only selected crisp accents or edges after the broad pass. If broad color is intended to be the primary statement, reverse the hierarchy instead of forcing line to remain dominant.'
-  when_to_use: Use when combining line with wash, color, broad tone, or another area-based medium and the image benefits from a clear division of labor rather than having every medium describe every feature.
-  when_not_to_use: Do not add extra media when one mark language already communicates the image cleanly, and do not keep line dominant when the intended final statement is primarily painterly or color-led.
+  difference_from_foundation: 'Adds a mixed-media sequencing route: let a primary line medium establish structural character
+    and selected detail, use a broader tonal or restrained-color medium to simplify and carry broad masses, then restore only
+    selected crisp accents or edges after the broad pass. If broad color is intended to be the primary statement, reverse
+    the hierarchy instead of forcing line to remain dominant.'
+  when_to_use: Use when combining line with wash, color, broad tone, or another area-based medium and the image benefits from
+    a clear division of labor rather than having every medium describe every feature.
+  when_not_to_use: Do not add extra media when one mark language already communicates the image cleanly, and do not keep line
+    dominant when the intended final statement is primarily painterly or color-led.
   absorbed_from_object_id: none
 - variant_id: VAR_martin_define_billowing_smoke_with_black_mass_and_negative_space
   variant_name: Define Billowing Smoke With Black Mass and Negative Space
   variant_basis: medium
-  difference_from_foundation: 'Specializes complementary mass/ground roles for stylized black-and-white smoke: establish one coherent dark smoke mass, articulate overlapping lobes with designed negative-space cuts and openings, and choose solid, broken, or stochastic edge treatment without letting the effect dissolve into unrelated spots.'
-  when_to_use: Use for graphic ink smoke or similar billowing effects where broad black shape and retained white openings must carry the volume without continuous tone.
-  when_not_to_use: Do not use this shorthand when smoke must behave as physically participating atmosphere, and do not fragment the mass so aggressively that it stops reading as one evolving volume.
+  difference_from_foundation: 'Specializes complementary mass/ground roles for stylized black-and-white smoke: establish one
+    coherent dark smoke mass, articulate overlapping lobes with designed negative-space cuts and openings, and choose solid,
+    broken, or stochastic edge treatment without letting the effect dissolve into unrelated spots.'
+  when_to_use: Use for graphic ink smoke or similar billowing effects where broad black shape and retained white openings
+    must carry the volume without continuous tone.
+  when_not_to_use: Do not use this shorthand when smoke must behave as physically participating atmosphere, and do not fragment
+    the mass so aggressively that it stops reading as one evolving volume.
   absorbed_from_object_id: none
 ---
 

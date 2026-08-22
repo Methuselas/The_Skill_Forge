@@ -4,7 +4,7 @@ description: Use for drawing and constructing animals with grounded comparative 
   proportion, locomotion, skeletal landmarks, musculature, and species-specific structural
   reasoning.
 modules:
-- art/drawing/subjects/animals
-- art/drawing/composition
+- art/subjects/animals
+- art/composition
 
 runtime_profile: art

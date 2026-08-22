@@ -30,7 +30,8 @@ reference:
   author: Gary Martin
 confidence: high
 references: []
-target_skill: constructing and diagnosing line-based black-to-light transitions so mark taper, spacing, layering, and direction carry the intended value edge and form without accidental ledges or interference patterns
+target_skill: constructing and diagnosing line-based black-to-light transitions so mark taper, spacing, layering, and direction
+  carry the intended value edge and form without accidental ledges or interference patterns
 variants: []
 ---
 

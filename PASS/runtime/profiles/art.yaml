@@ -8,21 +8,26 @@ lanes:
     label: Art teaching and learning
 lane_routing:
   rules:
-    - lane: teach
-      reason: explicit teaching/coaching/learning request
-      when:
-        any_phrases:
-          - "teach me"
-          - "coach me"
-          - "help me learn"
-          - "lesson plan"
-          - "practice plan"
-          - "learning progression"
-          - "assess my understanding"
+  - lane: teach
+    reason: explicit teaching/coaching/learning request
+    when:
+      any_phrases:
+      - teach me
+      - coach me
+      - help me learn
+      - lesson plan
+      - practice plan
+      - learning progression
+      - assess my understanding
 default_mode: direct_render
 execution_modes:
   direct_render:
-    aliases: [direct, render, final, one-shot, one shot]
+    aliases:
+    - direct
+    - render
+    - final
+    - one-shot
+    - one shot
     label: Stage-informed Direct Render
     contract:
       stage_artifacts: false
@@ -34,15 +39,26 @@ execution_modes:
         enumerate_all_visible_instances: true
         inspect_full_frame_and_local_scale: true
         representative_sampling_allowed: false
+      internal_stage_reasoning_only: true
+      external_stage_artifacts: requested_terminal_artifact_only
   staged_production:
-    aliases: [staged, stages, stage mode, process]
+    aliases:
+    - staged
+    - stages
+    - stage mode
+    - process
     label: Staged Production
     contract:
       stage_artifacts: true
       approval_gates: true
       apply_stage_knowledge: true
-      sequence: [0, 1, 2, 3, 4]
-      parentage_checks: true
+      stage_thread_scope: drawing
+      sequence:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
       commitment_checks: true
       rollback_enabled: true
       post_render_verification: true
@@ -50,97 +66,240 @@ execution_modes:
         enumerate_all_visible_instances: true
         inspect_full_frame_and_local_scale: true
         representative_sampling_allowed: false
+      conversational_stage_revision_labels: true
+      stage0_root_anchor_required: true
+      immediate_approved_anchor_required: true
+      prompt_carry_required: true
+      visual_continuity_checks: true
+      one_successor_artifact_per_approval: true
+      tool_lineage_policy: use_when_exposed_never_simulate
+      staged_controller: AP_progress_artifact_through_ratified_steps
+      approval_provenance: explicit_user_only
+      assistant_recommendation_is_approval: false
+      rejected_candidate_resurrection: explicit_user_only
+      current_stage_prompt_isolation: true
+      stage_handoff_prompts_required: true
+      stage_legal_next_actions_advertised: true
+      stage_handoff_prompt_map:
+        0: Select the thumbnail you like, with any revisions you may have, or reject them and I'll start over.
+        1: Approve this structure to continue, tell me any structural revisions you want, or reject it and we'll return to
+          the appropriate earlier stage.
+        2: Approve this mass block to continue, tell me any mass or proportion revisions you want, or reject it and we'll
+          return to the appropriate earlier stage.
+        3: Approve this rough realization to continue, tell me any Stage 3 revisions you want, or reject it and we'll return
+          to the appropriate earlier stage.
+        4: These are the Finished Pencils that complete the Drawing thread. Request any final pencil revisions you want, or approve the Drawing as complete.
+      stage_ap_thread:
+        0: AP_run_stage0_rough_composition_search
+        1: AP_build_stage1_scene_skeleton
+        2: AP_build_stage2_complete_mass_block
+        3: AP_realize_stage3_rough_image
+        4: AP_finish_stage4_as_finished_pencils
+      image_generation_handoff: AP_prepare_artifact_only_image_generation_handoff
+      productive_workflow_vocabulary_suppressed: true
+      current_artifact_only: true
+      staged_mode_persistent_until_exit_or_completion: true
+      direct_render_fallback_forbidden_while_staged: true
+      rejection_never_advances: true
+      invalid_artifact_cannot_anchor_successor: true
+      registered_successor_required_after_approval: true
+      stage0_structural_divergence_required: true
+      stage0_prefer_separate_candidate_images: true
+      multi_step_presentation_default: forbidden
 routing:
   rules:
-    - mode: direct_render
-      reason: explicit direct/final request suppresses external stage artifacts
-      when:
-        any_phrases:
-          - "just render"
-          - "just make it"
-          - "go straight to final"
-          - "go directly to stage 4"
-          - "no stages"
-          - "direct render"
-    - mode: staged_production
-      reason: explicit staged/process request
-      when:
-        any_phrases:
-          - "stage 0"
-          - "stage 1"
-          - "stage 2"
-          - "stage 3"
-          - "stage 4"
-          - "staged production"
-          - "stage mode"
-          - "show the stages"
-          - "show stages"
-          - "step by step art process"
-          - "construction passes"
-          - "thumbnail pass"
-          - "approval gate"
-    - mode: staged_production
-      reason: training/drill/debugging requests externalize the process
-      when:
-        any_phrases:
-          - "drill"
-          - "training"
-          - "practice exercise"
-          - "debug the drawing"
-          - "debug this drawing"
-          - "strength training"
-          - "teach me the process"
-          - "anatomy correction pass"
-    - mode: direct_render
-      reason: explicit final-image wording confirms the default direct mode
-      when:
-        any_phrases:
-          - "final image"
+  - mode: staged_production
+    reason: explicit Mode staged directive has priority
+    when:
+      any_phrases:
+      - mode staged
+      - 'mode: staged'
+      - mode = staged
+  - mode: direct_render
+    reason: explicit Mode direct directive has priority
+    when:
+      any_phrases:
+      - mode direct
+      - 'mode: direct'
+      - mode = direct
+  - mode: direct_render
+    reason: explicit direct/final request suppresses external stage artifacts
+    when:
+      any_phrases:
+      - just render
+      - just make it
+      - go straight to final
+      - go directly to stage 4
+      - no stages
+      - direct render
+  - mode: staged_production
+    reason: explicit staged/process request
+    when:
+      any_phrases:
+      - stage 0
+      - stage 1
+      - stage 2
+      - stage 3
+      - stage 4
+      - staged production
+      - stage mode
+      - show the stages
+      - show stages
+      - step by step art process
+      - construction passes
+      - thumbnail pass
+      - approval gate
+      - in stages
+      - do it in stages
+      - work in stages
+      - staged composition
+      - staged drawing
+      - staged illustration
+      - staged image
+      - staged art
+      - staged workflow
+      - staged process
+      - composition in stages
+  - mode: staged_production
+    reason: training/drill/debugging requests externalize the process
+    when:
+      any_phrases:
+      - drill
+      - training
+      - practice exercise
+      - debug the drawing
+      - debug this drawing
+      - strength training
+      - teach me the process
+      - anatomy correction pass
+  - mode: direct_render
+    reason: explicit final-image wording confirms the default direct mode
+    when:
+      any_phrases:
+      - final image
 risk_rules:
-  - id: foreshortening
-    when:
-      any_phrases: [foreshorten, foreshortening, toward the camera, towards the camera, pointing at camera, pointing at the camera, extreme perspective]
-    checks: [foreground foreshortening, camera consistency, articulated reach chain]
-  - id: visible_hands
-    when:
-      any_phrases: [hand, hands, finger, fingers, fist, grip, grasp, gripping, holding, open hand, outstretched hand, reaching]
-    checks: [digit count for every visible hand, hand structure for every visible hand, hand-wrist-arm attachment chain for every visible hand]
-  - id: supported_pose
-    when:
-      any_phrases: [standing, planted, leaning, sitting, crouch, crouching, kneeling, weight, support, contact]
-    checks: [weight and support, contact consistency, balance]
-  - id: gaze_action
-    when:
-      any_phrases: [looking at, looking toward, looking towards, gaze, aiming, pointing]
-    checks: [gaze/action alignment]
-  - id: weapon_reach
-    when:
-      any_phrases: [gun, pistol, rifle, weapon, sword, spear]
-    checks:
-      - weapon-hand contact map
-      - thumb opposition and active/support digit roles
-      - digit count for every visible weapon hand
-      - hand-wrist-arm attachment chain for every visible weapon hand
-      - weapon-hand-arm attachment chain
-      - focal hierarchy
-  - id: articulated_endpoints
-    when:
-      any_phrases: [pose, action pose, combat pose, leap, leaping, jump, jumping, lunge, lunging, running, sprinting, kicking, reaching]
-    checks:
-      - hand-wrist-arm endpoint continuity
-      - foot-ankle-leg endpoint continuity
-      - head-neck attachment continuity
-      - prop-contact endpoint continuity
-  - id: character_reference_lock
-    when:
-      any_phrases: [reference sheet, reference sheets, ref sheet, ref sheets, character sheet, character sheets, golden truth, canon reference, canonical reference, lock pack]
-    checks:
-      - character identity and face lock
-      - silhouette anchor lock
-      - costume seam and emblem lock
-      - equipment mount lock
-      - palette lock
-      - digit contract
+- id: foreshortening
+  when:
+    any_phrases:
+    - foreshorten
+    - foreshortening
+    - toward the camera
+    - towards the camera
+    - pointing at camera
+    - pointing at the camera
+    - extreme perspective
+  checks:
+  - foreground foreshortening
+  - camera consistency
+  - articulated reach chain
+- id: visible_hands
+  when:
+    any_phrases:
+    - hand
+    - hands
+    - finger
+    - fingers
+    - fist
+    - grip
+    - grasp
+    - gripping
+    - holding
+    - open hand
+    - outstretched hand
+    - reaching
+  checks:
+  - digit count for every visible hand
+  - hand structure for every visible hand
+  - hand-wrist-arm attachment chain for every visible hand
+- id: supported_pose
+  when:
+    any_phrases:
+    - standing
+    - planted
+    - leaning
+    - sitting
+    - crouch
+    - crouching
+    - kneeling
+    - weight
+    - support
+    - contact
+  checks:
+  - weight and support
+  - contact consistency
+  - balance
+- id: gaze_action
+  when:
+    any_phrases:
+    - looking at
+    - looking toward
+    - looking towards
+    - gaze
+    - aiming
+    - pointing
+  checks:
+  - gaze/action alignment
+- id: weapon_reach
+  when:
+    any_phrases:
+    - gun
+    - pistol
+    - rifle
+    - weapon
+    - sword
+    - spear
+  checks:
+  - weapon-hand contact map
+  - thumb opposition and active/support digit roles
+  - digit count for every visible weapon hand
+  - hand-wrist-arm attachment chain for every visible weapon hand
+  - weapon-hand-arm attachment chain
+  - focal hierarchy
+- id: articulated_endpoints
+  when:
+    any_phrases:
+    - pose
+    - action pose
+    - combat pose
+    - leap
+    - leaping
+    - jump
+    - jumping
+    - lunge
+    - lunging
+    - running
+    - sprinting
+    - kicking
+    - reaching
+  checks:
+  - hand-wrist-arm endpoint continuity
+  - foot-ankle-leg endpoint continuity
+  - head-neck attachment continuity
+  - prop-contact endpoint continuity
+- id: character_reference_lock
+  when:
+    any_phrases:
+    - reference sheet
+    - reference sheets
+    - ref sheet
+    - ref sheets
+    - character sheet
+    - character sheets
+    - golden truth
+    - canon reference
+    - canonical reference
+    - lock pack
+  checks:
+  - character identity and face lock
+  - silhouette anchor lock
+  - costume seam and emblem lock
+  - equipment mount lock
+  - palette lock
+  - digit contract
 completion_gate:
-  required_checks: [instruction_fidelity_check, objective_check, risk_region_inventory_check, local_risk_inspection_check]
+  required_checks:
+  - instruction_fidelity_check
+  - objective_check
+  - risk_region_inventory_check
+  - local_risk_inspection_check
   require_all_risk_checks: true

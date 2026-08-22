@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-21",
+  "prompt": "Guided Broken Gate universal Drawing precedent authoring run; current-artifact brief supplied through PASS stage discipline.",
+  "source_renders": [
+    "chat_authoring_run/broken_gate_stage3_canonical_specific_rough.png"
+  ],
+  "generation": {
+    "gen_id": "5a0a7945-795c-431e-9751-b102240a64d5",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-21",
+    "method": "human-guided continuity, stage-density, and canonical-lineage review",
+    "note": "Canonical Broken Gate Stage 3 specific rough/developed pencils. Human-approved after balancing figure specificity and environment specificity while keeping surface finish below the finished-pencil ceiling."
+  }
+}

@@ -4,11 +4,9 @@ activations:
   - object_id: AP_alternate_search_and_control_cycles
     reason: productive work benefits from explicit Search/Control separation
     when:
-      productive: true
       phase: pre_production
-  - object_id: AP_plan_and_build_work_from_thumbnail_to_final
-    reason: staged production requires the canonical staged-build contract
+  - object_id: AP_progress_artifact_through_ratified_steps
+    reason: staged production requires ratification, current-step isolation, revision classification, and rollback
     when:
-      productive: true
       phase: pre_production
       modes: [staged_production, staged]

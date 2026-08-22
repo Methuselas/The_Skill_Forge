@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-21",
+  "prompt": "Guided Broken Gate universal Drawing precedent authoring run; current-artifact brief supplied through PASS stage discipline.",
+  "source_renders": [
+    "chat_authoring_run/broken_gate_debug_stage1_mannequin_mass_leakage_INVALID.png"
+  ],
+  "generation": {
+    "gen_id": "6475bc4f-8340-4ef3-8443-df5a03698e95",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-21",
+    "method": "human-guided continuity, stage-density, and canonical-lineage review",
+    "note": "INVALID / NON-CANONICAL negative precedent. Stage 1 environment is largely structural, but humanoids leak Stage 2 mass through cylindrical limbs, solid torso volume, mannequin joints, and developed body thickness."
+  }
+}

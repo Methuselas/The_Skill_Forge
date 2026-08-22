@@ -1,0 +1,20 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-21",
+  "prompt": "Guided Broken Gate universal Drawing precedent authoring run; current-artifact brief supplied through PASS stage discipline.",
+  "source_renders": [
+    "chat_authoring_run/broken_gate_stage2_canonical_complete_mass.png"
+  ],
+  "generation": {
+    "gen_id": "67c2e461-0438-42de-bc3f-1db27a8c8897",
+    "parent_gen_id": null
+  },
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with GPT critique",
+    "reviewed_at": "2026-08-21",
+    "method": "human-guided continuity, stage-density, and canonical-lineage review",
+    "note": "Canonical Broken Gate Stage 2 complete minimum-mass construction. Human-approved as the registered successor of Stage 1 with scene-wide solid forms and no premature rendering."
+  }
+}

@@ -1,0 +1,9 @@
+name: art/subjects/animals
+requires:
+- art/subjects/animals/gesture-locomotion
+- art/perspective
+- art/rendering
+- art/foundations/observation
+- art/foundations/form-construction
+- art/foundations/gesture-force
+- art/foundations/temporal-movement

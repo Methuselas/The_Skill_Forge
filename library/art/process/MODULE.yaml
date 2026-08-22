@@ -1,0 +1,4 @@
+name: art/process
+requires:
+- art/foundations/ideation
+- art/composition

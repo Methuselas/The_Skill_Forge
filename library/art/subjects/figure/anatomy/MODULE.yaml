@@ -1,0 +1,5 @@
+name: art/subjects/figure/anatomy
+requires:
+- art/process/staged-drawing
+- art/subjects/figure/construction
+- art/foundations/gesture-force

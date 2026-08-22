@@ -1,0 +1,6 @@
+name: art/comics/inking
+requires:
+- art/composition
+- art/rendering
+- art/drawing/rendering
+- art/process/staged-drawing

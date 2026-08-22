@@ -4,7 +4,6 @@ activations:
   - object_id: PAT_generate_novel_options_by_combining_distant_concepts
     reason: novelty/search intent warrants deliberate option expansion
     when:
-      productive: true
       phase: pre_production
       any_phrases:
         - "novel"

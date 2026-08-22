@@ -28,21 +28,28 @@ reference:
   author: Bert Dodson
 confidence: high
 references: []
-target_skill: organizing a full tonal drawing from a stable large-value plan while keeping later local modeling subordinate to whole-image value relationships
+target_skill: organizing a full tonal drawing from a stable large-value plan while keeping later local modeling subordinate
+  to whole-image value relationships
 variants:
 - variant_id: VAR_guptill_bracket_observed_values_with_neutral_extreme_anchors
   variant_name: Bracket Observed Values With Neutral Extreme Anchors
   variant_basis: method_sequence
-  difference_from_foundation: Before committing the tonal range, compare suspected lights and darks against neutral white and black anchors, or equivalent reference patches, so observed value is judged relationally rather than inferred from the object name.
+  difference_from_foundation: Before committing the tonal range, compare suspected lights and darks against neutral white
+    and black anchors, or equivalent reference patches, so observed value is judged relationally rather than inferred from
+    the object name.
   when_to_use: Use when local-color labels such as white, black, or gray are biasing value judgment under unusual illumination.
-  when_not_to_use: Do not force every scene to contain literal paper white or absolute black; the anchors calibrate observation and can then be compressed to the intended output range.
+  when_not_to_use: Do not force every scene to contain literal paper white or absolute black; the anchors calibrate observation
+    and can then be compressed to the intended output range.
   absorbed_from_object_id: none
 - variant_id: VAR_schmid_low_pass_source_without_softening_output
   variant_name: Low-Pass the Source Without Softening the Output
   variant_basis: method_sequence
-  difference_from_foundation: Progressively simplifies the source until detail collapses into coherent value/edge masses, uses that low-frequency read to establish the broad hierarchy, then checks the actual drawing or render at full clarity rather than applying the same blur to hide local errors.
-  when_to_use: Use when detail is obscuring the large value structure or when squint-like simplification would help identify broad masses before tonal development.
-  when_not_to_use: Do not simplify so far that the major form becomes ambiguous, and do not blur the output as a substitute for correcting drawing, value, or edge mistakes.
+  difference_from_foundation: Uses progressive source simplification only to discover mergers and hierarchy, then reopens
+    the source to judge actual value/color and inspects the output at full clarity rather than hiding errors with the same
+    low-pass treatment.
+  when_to_use: Use when local detail is obscuring the major value organization or edge grouping during a tonal study.
+  when_not_to_use: Do not copy the artificially darkened/desaturated squinted appearance and do not soften the output to make
+    structural errors disappear.
   absorbed_from_object_id: none
 ---
 # Build a Full Tonal Drawing From a Value Sketch and Relational Checks
@@ -80,3 +87,5 @@ Dodson's method uses squinting, a small value plan, and repeated relational comp
 `VAR_guptill_bracket_observed_values_with_neutral_extreme_anchors` uses neutral light and dark anchors to break local-color naming bias before the working value range is committed.
 
 `VAR_schmid_low_pass_source_without_softening_output` uses source simplification to reveal broad value and edge organization, then returns to a clear view for output inspection. Simplification is an analysis aid, not a blur pass for hiding incorrect drawing or transitions.
+
+`VAR_schmid_low_pass_source_without_softening_output` follows a two-view loop: low-pass the source to identify hierarchy and mergers, reopen the source for actual value/color judgment, and inspect the drawing at full clarity. Never low-pass the output to conceal mistakes.

@@ -1,31 +1,34 @@
 name: SkillForge Art
 skill_name: skillforge-art
-description: Use for visual-art execution, critique, rendering, drawing, composition,
-  perspective, figures, comics, sketching, and related Art tasks using the SkillForge
-  Art knowledge library.
+description: Use for visual-art execution, critique, rendering, drawing, composition, perspective, figures, comics, sketching,
+  and related Art tasks using the SkillForge Art knowledge library.
 modules:
-- art/drawing/comics
-- art/drawing/comics/covers
-- art/drawing/comics/inking
-- art/drawing/comics/page-construction
-- art/drawing/composition
-- art/drawing/foundations/form-construction
-- art/drawing/foundations/gesture-force
-- art/drawing/foundations/ideation
-- art/drawing/foundations/mark-making
-- art/drawing/foundations/observation
-- art/drawing/foundations/temporal-movement
-- art/drawing/foundations/visual-centerline
-- art/drawing/perspective
-- art/drawing/process/staged-drawing
+- art/color
+- art/comics
+- art/comics/covers
+- art/comics/inking
+- art/comics/page-construction
+- art/composition
 - art/drawing/rendering
 - art/drawing/sketching
-- art/drawing/subjects/animals
-- art/drawing/subjects/animals/gesture-locomotion
-- art/drawing/subjects/figure
-- art/drawing/subjects/figure/anatomy
-- art/drawing/subjects/figure/construction
-- art/drawing/subjects/figure/gesture
-- art/drawing/subjects/figure/hands
-- art/drawing/subjects/figure/heads
+- art/foundations/form-construction
+- art/foundations/gesture-force
+- art/foundations/ideation
+- art/foundations/mark-making
+- art/foundations/observation
+- art/foundations/temporal-movement
+- art/foundations/visual-centerline
+- art/painting
+- art/perspective
+- art/process
+- art/process/staged-drawing
+- art/rendering
+- art/subjects/animals
+- art/subjects/animals/gesture-locomotion
+- art/subjects/figure
+- art/subjects/figure/anatomy
+- art/subjects/figure/construction
+- art/subjects/figure/gesture
+- art/subjects/figure/hands
+- art/subjects/figure/heads
 runtime_profile: art

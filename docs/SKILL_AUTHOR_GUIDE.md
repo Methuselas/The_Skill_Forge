@@ -10,9 +10,9 @@ Examples:
 
 - `software-engineering/core`
 - `software-engineering/languages/cpp`
-- `art/drawing/perspective`
-- `art/drawing/subjects/figure/anatomy`
-- `art/drawing/subjects/animals/anatomy`
+- `art/perspective`
+- `art/subjects/figure/anatomy`
+- `art/subjects/animals/anatomy`
 
 The folder tree is navigation, not a second ontology. Moving two related skills into different folders must not erase their relationship.
 
@@ -80,7 +80,7 @@ A named release recipe should identify the requested product and its entry modul
 ```yaml
 name: Animal Anatomy
 modules:
-  - art/drawing/subjects/animals/anatomy
+  - art/subjects/animals/anatomy
 ```
 
 The recipe is not a hand-maintained duplicate of the prerequisite graph. PASS calculates the closure.

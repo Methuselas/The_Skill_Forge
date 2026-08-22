@@ -1,0 +1,4 @@
+name: art/painting
+requires:
+- art/rendering
+- art/color

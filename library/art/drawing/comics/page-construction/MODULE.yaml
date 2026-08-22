@@ -1,4 +1,0 @@
-name: art/drawing/comics/page-construction
-requires:
-- art/drawing/composition
-- art/drawing/process/staged-drawing

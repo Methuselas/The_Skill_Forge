@@ -1,0 +1,4 @@
+name: art/foundations/ideation
+requires:
+- metaskills/creative-search
+- metaskills/iterative-construction

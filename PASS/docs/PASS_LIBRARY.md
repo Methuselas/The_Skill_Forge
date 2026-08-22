@@ -19,7 +19,7 @@ library_path: [art, drawing, subjects, figure, construction]
 belongs at:
 
 ```text
-library/art/drawing/subjects/figure/construction/
+library/art/subjects/figure/construction/
 ```
 
 `library_path` is navigation and ownership. It must match the object's actual directory. It is not a hidden dependency system; prerequisites remain explicit in object relationships.
@@ -30,9 +30,9 @@ Typical durable paths include:
 library/metaskills/
 library/software-engineering/core/
 library/software-engineering/languages/cpp/
-library/art/drawing/perspective/
-library/art/drawing/subjects/figure/anatomy/
-library/art/drawing/subjects/animals/anatomy/
+library/art/perspective/
+library/art/subjects/figure/anatomy/
+library/art/subjects/animals/anatomy/
 library/writing/foundations/
 ```
 
@@ -90,7 +90,7 @@ A named release selects the intended entry module or modules, not a hand-maintai
 ```yaml
 name: Animal Anatomy
 modules:
-  - art/drawing/subjects/animals
+  - art/subjects/animals
 ```
 
 PASS then materializes:
