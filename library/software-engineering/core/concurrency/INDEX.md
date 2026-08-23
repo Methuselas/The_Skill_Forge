@@ -12,6 +12,7 @@
 - [Buy Concurrent Performance With Restrictions, Not Cleverness](PAT_buy_concurrent_performance_with_restrictions.md) - pattern; 0 design. Tags: concurrency, data_structures, design, simplicity, threading.
 - [Cancel Complementary Operations Instead of Applying Them](PAT_cancel_complementary_operations_instead_of_applying_them.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, scalability.
 - [Check a Primitive's Coordination Power Before Designing on It](PAT_check_a_primitives_coordination_power_before_designing_on_it.md) - pattern; 0 design. Tags: atomics, concurrency, design, hardware, lock_free.
+- [Choose Between a Parallel Program and Parallel Regions](PAT_choose_between_a_parallel_program_and_parallel_regions.md) - pattern; 0 design. Tags: architecture, concurrency, decomposition, design, scalability.
 - [Classify Synchronization by the Progress It Guarantees](PAT_classify_synchronization_by_progress_guarantee.md) - pattern; 0 design. Tags: concurrency, design, lock_free, locking, threading.
 - [Cover Many Regions With a Fixed Number of Locks](PAT_cover_many_regions_with_a_fixed_number_of_locks.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
 - [Derive the Parallelism From Work and Span](PAT_derive_the_parallelism_from_work_and_span.md) - pattern; 0 design. Tags: concurrency, design, estimation, scalability, scheduling.
