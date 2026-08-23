@@ -4,8 +4,10 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import shutil
+import stat
 import subprocess
 import sys
 import tempfile
@@ -15,7 +17,7 @@ from typing import Any
 
 import yaml
 
-from paths import default_library_root, repo_root_from_tool
+from paths import default_library_root, default_memory_root, repo_root_from_tool
 
 FM_RE = re.compile(r"\A---\r?\n(?P<front>.*?)\r?\n---\r?\n(?P<body>.*)\Z", re.S)
 FORBIDDEN = {
@@ -23,6 +25,8 @@ FORBIDDEN = {
     "workspace", "sources", "ledger", "ledgers", "worklogs", "trash",
     "tmp", "build", "dist",
 }
+MEMORY_DIR = "memory"
+MEMORY_STORE = "skill_memory.yaml"
 
 
 def sha256_file(path: Path) -> str:
@@ -153,6 +157,88 @@ def included_objects(selected: set[str], by_id, owner):
     }
 
 
+def remove_tree(path: Path, ignore_errors: bool = False) -> None:
+    """Delete a tree that may contain the read-only files this builder writes.
+
+    Shipped memory is chmod'd read-only, and on Windows a read-only file cannot
+    be unlinked. Clear the bit first rather than leaving staging behind.
+    """
+
+    for item in path.rglob("*"):
+        # Directories keep their mode: on POSIX a traversable directory needs
+        # its execute bit, and on Windows only the file bit blocks unlink.
+        if item.is_file():
+            try:
+                os.chmod(item, stat.S_IWRITE | stat.S_IREAD)
+            except OSError:
+                if not ignore_errors:
+                    raise
+    shutil.rmtree(path, ignore_errors=ignore_errors)
+
+
+def release_domains(selected: set[str]) -> list[str]:
+    """Top-level library package for each selected module.
+
+    `art/subjects/figure` and `art/composition` are both the `art` domain, and
+    that is the name a memory directory carries.
+    """
+    return sorted({name.split("/", 1)[0] for name in selected})
+
+
+def stage_memory(staging: Path, memory_root: Path, selected: set[str]) -> list[str]:
+    """Copy the memory store of every domain this release ships.
+
+    Memory is domain-scoped exactly as the library is, so a release carries the
+    stores of its own domains and nothing else. It stays outside `library/`:
+    empirical state travels with the canon, it does not become canon. A domain
+    with no store simply contributes nothing — memory is never a build
+    dependency (`ARCHITECTURE.md` contract 20).
+    """
+    shipped: list[str] = []
+    for domain in release_domains(selected):
+        source = memory_root / domain
+        if not (source / MEMORY_STORE).is_file():
+            continue
+        shutil.copytree(source, staging / MEMORY_DIR / domain)
+        shipped.append(domain)
+    return shipped
+
+
+def make_read_only(root: Path) -> list[str]:
+    """Strip write permission from every shipped memory file, then read it back.
+
+    A release inherits its memory as a finished record. Writing new events
+    belongs to the authoring repository that owns the store, so the packaged
+    copy is not a persistence target. The readback is the same contract
+    `memory.py` applies to its own writes: reported is not verified.
+    """
+    problems: list[str] = []
+    for item in sorted(root.rglob("*")):
+        if not item.is_file():
+            continue
+        os.chmod(item, 0o444)
+        if os.access(item, os.W_OK):
+            problems.append(f"memory file is still writable: {item.name}")
+    return problems
+
+
+def memory_release_problems(path: Path, declared: list[str]) -> list[str]:
+    """Check a packaged release against the memory domains it declares."""
+    root = path / MEMORY_DIR
+    problems: list[str] = []
+    for domain in declared:
+        if not (root / domain / MEMORY_STORE).is_file():
+            problems.append(f"missing declared memory domain: {domain}")
+    if root.is_dir():
+        present = sorted(item.name for item in root.iterdir() if item.is_dir())
+        for domain in present:
+            if domain not in declared:
+                problems.append(f"undeclared packaged memory domain: {domain}")
+            elif not (path / "library" / domain).is_dir():
+                problems.append(f"memory domain has no packaged library package: {domain}")
+    return problems
+
+
 def run_gate(script: Path, args: list[str]) -> None:
     result = subprocess.run([sys.executable, str(script), *args], text=True, capture_output=True)
     if result.returncode:
@@ -160,19 +246,24 @@ def run_gate(script: Path, args: list[str]) -> None:
         raise ValueError(f"quality gate failed ({script.name}):\n{detail}")
 
 
-def run_quality_gates(release_library: Path) -> dict[str, Any]:
+def run_quality_gates(release_library: Path, release_memory: Path | None = None) -> dict[str, Any]:
     """Gate the packaged library on what it contains, not on how it was authored.
 
-    Both gates run against the staged release tree, so a release is publishable
-    on the strength of the cards it actually ships.
+    Every gate runs against the staged release tree, so a release is publishable
+    on the strength of what it actually ships. The memory gate runs only when
+    the release ships memory, and reads the staged store and nothing else.
     """
     tool_dir = Path(__file__).resolve().parent
     run_gate(tool_dir / "validate.py", ["--library", str(release_library)])
     run_gate(tool_dir / "verify_references.py", ["--library", str(release_library)])
-    return {
+    gates = {
         "schema_validation": "passed",
         "visual_reference_verification": "passed",
     }
+    if release_memory is not None:
+        run_gate(tool_dir / "memory.py", ["validate", "--memory", str(release_memory)])
+        gates["memory_validation"] = "passed"
+    return gates
 
 
 def scan_tree(path: Path) -> list[str]:
@@ -183,7 +274,7 @@ def scan_tree(path: Path) -> list[str]:
             problems.append(f"forbidden path: {rel}")
         if item.is_symlink():
             problems.append(f"symlink: {rel}")
-        if item.is_file() and item.suffix.lower() in {".md", ".yaml", ".yml", ".json", ".py", ".txt"}:
+        if item.is_file() and item.suffix.lower() in {".md", ".yaml", ".yml", ".json", ".jsonl", ".py", ".txt"}:
             text = item.read_text(encoding="utf-8", errors="ignore")
             if "/mnt/data/" in text or re.search(r"(?m)(?:^|[\s`\"'])\.\./", text):
                 problems.append(f"external path reference: {rel}")
@@ -324,6 +415,7 @@ def write_skill(
     description: str,
     modules: list[str],
     runtime_profile: str,
+    memory_domains: list[str] | None = None,
 ) -> None:
     front = yaml.safe_dump(
         {"name": skill_name, "description": description},
@@ -357,6 +449,24 @@ def write_skill(
         "## Bundled modules\n\n"
         + "".join(f"- `library/{module}`\n" for module in modules)
     )
+    if memory_domains:
+        body += (
+            "\n## Skillset Memory\n\n"
+            "`memory/<domain>/skill_memory.yaml` is this skillset's **empirical record**: "
+            "what actually happened when this canon was used, including known weak "
+            "areas and the boundaries of what has been verified. It is not canon and "
+            "never overrides a card. Consult it when a task touches a scope it names, "
+            "and read each entry as an observation carrying a stated confidence, not "
+            "as an instruction. `training_history.jsonl` holds the events an entry was "
+            "consolidated from; an event marked `invalid` failed before the capability "
+            "was exercised and is evidence about a tool or a package, never about "
+            "craft.\n\n"
+            "These files ship **read-only**. This package is not the persistence "
+            "target: new events belong to the library that owns the store, so do not "
+            "append to them, edit them, or copy their content into a card or a "
+            "prompt.\n\n"
+            + "".join(f"- `memory/{domain}/`\n" for domain in memory_domains)
+        )
     (path / "SKILL.md").write_text(f"---\n{front}\n---\n\n{body}", encoding="utf-8")
 
 
@@ -384,10 +494,23 @@ def vendor_runtime(staging: Path, runtime_profile: str, deployment_profile: str 
 
 
 def write_zip_from_tree(tree: Path, zip_path: Path, root_name: str) -> None:
+    """Archive the tree, carrying read-only files through as read-only.
+
+    zipfile records the POSIX mode, which Windows extractors ignore, and the
+    DOS attribute byte, which they honor. Set both, so a shipped memory store
+    arrives read-only under either one.
+    """
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as archive:
         for item in sorted(tree.rglob("*")):
-            if item.is_file():
-                archive.write(item, Path(root_name) / item.relative_to(tree))
+            if not item.is_file():
+                continue
+            arcname = (Path(root_name) / item.relative_to(tree)).as_posix()
+            info = zipfile.ZipInfo.from_file(item, arcname)
+            info.compress_type = zipfile.ZIP_DEFLATED
+            if not os.access(item, os.W_OK):
+                info.external_attr = (info.external_attr & ~(0o222 << 16)) | 0x01
+            with item.open("rb") as source, archive.open(info, "w") as target:
+                shutil.copyfileobj(source, target)
 
 
 def deployment_size_result(tree: Path, profile_path: Path, root_name: str) -> dict[str, Any]:
@@ -435,16 +558,20 @@ def runtime_release_problems(path: Path) -> list[str]:
     return []
 
 
-def protected_output(outdir: Path, library: Path, recipe: Path) -> str | None:
+def protected_output(
+    outdir: Path, library: Path, recipe: Path, memory: Path | None = None
+) -> str | None:
     outdir = outdir.resolve()
     library = library.resolve()
     recipe = recipe.resolve()
     repo = repo_root_from_tool().resolve()
-    protected = {
-        repo,
-        library,
-        recipe.parent,
-    }
+    # The memory root is a second canonical input. It normally sits inside the
+    # repository, but --memory may point outside it, and a release that copies
+    # a store must never be able to delete the store it copied.
+    canonical = [library, recipe.parent]
+    if memory is not None:
+        canonical.append(memory.resolve())
+    protected = {repo, *canonical}
     if outdir in protected:
         return f"refusing protected output path: {outdir}"
     # Never allow output inside or above the factory repository. There is no
@@ -454,9 +581,9 @@ def protected_output(outdir: Path, library: Path, recipe: Path) -> str | None:
         return f"refusing output path inside or above the repository: {outdir}"
     # Explicit library/recipe arguments may live outside the factory repo and
     # must receive the same ancestor/descendant protection.
-    if library.is_relative_to(outdir) or recipe.is_relative_to(outdir):
+    if any(item.is_relative_to(outdir) for item in canonical):
         return f"refusing output path that is an ancestor of canonical content: {outdir}"
-    if outdir.is_relative_to(library) or outdir.is_relative_to(recipe.parent):
+    if any(outdir.is_relative_to(item) for item in canonical):
         return f"refusing output path inside canonical content: {outdir}"
     return None
 
@@ -466,15 +593,21 @@ def build(
     outdir: Path,
     zip_out: Path | None = None,
     library: Path | None = None,
+    memory: Path | None = None,
     *,
     replace: bool = False,
     unsafe_skip_quality_gates: bool = False,
 ):
     lib = (library or default_library_root()).resolve()
+    # Memory is optional by contract: a lane may have no store yet, and a clean
+    # clone with memory/ deleted must still build.
+    mem = (memory or default_memory_root()).resolve()
     recipe = recipe.resolve(); outdir = outdir.resolve()
     if not lib.is_dir():
         raise ValueError(f"library root not found: {lib}; pass --library")
-    danger = protected_output(outdir, lib, recipe)
+    if memory is not None and not mem.is_dir():
+        raise ValueError(f"memory root not found: {mem}")
+    danger = protected_output(outdir, lib, recipe, mem)
     if danger:
         raise ValueError(danger)
     if outdir.exists() and not replace:
@@ -483,7 +616,7 @@ def build(
         zip_out = zip_out.resolve()
         if zip_out.suffix.lower() != ".zip":
             raise ValueError("zip output must use a .zip extension")
-        danger = protected_output(zip_out, lib, recipe)
+        danger = protected_output(zip_out, lib, recipe, mem)
         if danger:
             raise ValueError(danger.replace("output path", "zip output path"))
         if zip_out == outdir or zip_out.is_relative_to(outdir):
@@ -530,11 +663,15 @@ def build(
             shutil.copytree(src, dst, dirs_exist_ok=True, ignore=ignore_nested_modules)
 
         vendor_runtime(staging, runtime_profile, deployment_profile)
+        memory_domains = stage_memory(staging, mem, selected) if mem.is_dir() else []
 
         quality = (
             {"status": "UNSAFE_SKIPPED"}
             if unsafe_skip_quality_gates
-            else run_quality_gates(staging / "library")
+            else run_quality_gates(
+                staging / "library",
+                staging / MEMORY_DIR if memory_domains else None,
+            )
         )
 
         manifest = {
@@ -543,11 +680,18 @@ def build(
             "skill_name": skill_name,
             "description": description,
             "modules": sorted(selected),
+            "memory_domains": memory_domains,
             "runtime_profile": runtime_profile,
             "deployment_profile": deployment_profile,
             "quality_gates": quality,
         }
-        write_skill(staging, skill_name, display_name, description, manifest["modules"], runtime_profile)
+        write_skill(
+            staging, skill_name, display_name, description, manifest["modules"],
+            runtime_profile, memory_domains,
+        )
+        # Freeze before hashing, so the manifest describes files in the state the
+        # release actually ships them in.
+        read_only_problems = make_read_only(staging / MEMORY_DIR) if memory_domains else []
         manifest["files_sha256"] = release_file_hashes(staging)
         (staging / "RELEASE_MANIFEST.json").write_text(
             json.dumps(manifest, indent=2) + "\n",
@@ -559,6 +703,8 @@ def build(
             + asset_problems(staging)
             + skill_metadata_problem(staging)
             + release_graph_problems(staging / "library")
+            + memory_release_problems(staging, memory_domains)
+            + read_only_problems
             + manifest_problems(staging, manifest)
             + runtime_release_problems(staging)
         )
@@ -578,7 +724,7 @@ def build(
 
         if outdir.exists():
             # Safe only because protected_output() already rejected canonical paths.
-            shutil.rmtree(outdir)
+            remove_tree(outdir)
         staging.rename(outdir)
         staging = None  # type: ignore[assignment]
 
@@ -594,7 +740,7 @@ def build(
         return result_manifest
     finally:
         if staging is not None and staging.exists():
-            shutil.rmtree(staging, ignore_errors=True)
+            remove_tree(staging, ignore_errors=True)
 
 
 def check(path: Path) -> None:
@@ -614,11 +760,21 @@ def check(path: Path) -> None:
             if not isinstance(manifest, dict):
                 raise ValueError("release manifest is not a JSON object")
             problems.extend(manifest_problems(path, manifest))
+            declared_memory = manifest.get("memory_domains") or []
+            if not isinstance(declared_memory, list) or not all(
+                isinstance(name, str) for name in declared_memory
+            ):
+                problems.append("release manifest lacks a valid memory_domains list")
+            else:
+                problems.extend(memory_release_problems(path, declared_memory))
             gates = manifest.get("quality_gates", {})
             if gates.get("status") == "UNSAFE_SKIPPED":
                 problems.append("release was built with quality gates skipped")
             else:
-                for gate in ("schema_validation", "visual_reference_verification"):
+                required = ["schema_validation", "visual_reference_verification"]
+                if (path / MEMORY_DIR).is_dir():
+                    required.append("memory_validation")
+                for gate in required:
                     if gates.get(gate) != "passed":
                         problems.append(f"release manifest does not record passed {gate}")
         except (json.JSONDecodeError, ValueError) as exc:
@@ -647,6 +803,10 @@ def main() -> int:
     build_parser.add_argument("recipe", type=Path)
     build_parser.add_argument("outdir", type=Path)
     build_parser.add_argument("--library", type=Path, default=default_library_root())
+    build_parser.add_argument(
+        "--memory", type=Path, default=None,
+        help="memory root to ship domain stores from; defaults to the tree beside the library",
+    )
     build_parser.add_argument("--zip", dest="zip_out", type=Path)
     build_parser.add_argument("--replace", action="store_true", help="replace an existing safe output path")
     build_parser.add_argument(
@@ -660,7 +820,7 @@ def main() -> int:
     try:
         if args.cmd == "build":
             manifest = build(
-                args.recipe, args.outdir, args.zip_out, args.library,
+                args.recipe, args.outdir, args.zip_out, args.library, args.memory,
                 replace=args.replace,
                 unsafe_skip_quality_gates=args.unsafe_skip_quality_gates,
             )

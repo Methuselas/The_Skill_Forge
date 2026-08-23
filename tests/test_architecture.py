@@ -8,6 +8,7 @@ source PDF, an authoring ledger, a workspace, or a provenance receipt.
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -20,6 +21,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 LIBRARY = ROOT / "library"
+MEMORY = ROOT / "memory"
 BUILDER = ROOT / "PASS/tools/build_release.py"
 VALIDATOR = ROOT / "PASS/tools/validate.py"
 RECIPES = ROOT / "workspace/release-recipes"
@@ -412,6 +414,99 @@ class RepositoryShapeTests(unittest.TestCase):
         ):
             with self.subTest(path=path):
                 self.assertFalse((ROOT / path).exists(), f"{path} survived the cleanup")
+
+
+class ReleaseMemoryTests(unittest.TestCase):
+    """20: a release carries its own domains' empirical record, frozen.
+
+    Memory ships beside the canon rather than inside it, so packaging it cannot
+    turn an observation into a card. It ships read-only because the package is
+    not the store's persistence target: new events belong to the library that
+    owns it.
+    """
+
+    ART_STORE = MEMORY / "art" / "skill_memory.yaml"
+
+    @unittest.skipUnless(ART_STORE.is_file(), "no Art memory store in this checkout")
+    def test_release_ships_the_memory_of_the_domains_it_bundles(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "release"
+            self.assertEqual(run("build", RECIPES / "Animal_Anatomy.yaml", out).returncode, 0)
+            manifest = json.loads((out / "RELEASE_MANIFEST.json").read_text(encoding="utf-8"))
+            self.assertEqual(manifest["memory_domains"], ["art"])
+            self.assertTrue((out / "memory/art/skill_memory.yaml").is_file())
+            self.assertTrue((out / "memory/art/training_history.jsonl").is_file())
+            self.assertEqual(manifest["quality_gates"]["memory_validation"], "passed")
+            self.assertIn("## Skillset Memory", (out / "SKILL.md").read_text(encoding="utf-8"))
+            self.assertEqual(run("check", out).returncode, 0)
+
+    @unittest.skipUnless(ART_STORE.is_file(), "no Art memory store in this checkout")
+    def test_shipped_memory_is_read_only(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "release"
+            self.assertEqual(run("build", RECIPES / "Animal_Anatomy.yaml", out).returncode, 0)
+            for shipped in (out / "memory").rglob("*"):
+                if shipped.is_file():
+                    with self.subTest(file=shipped.name):
+                        self.assertFalse(
+                            os.access(shipped, os.W_OK),
+                            f"{shipped.name} shipped writable",
+                        )
+
+    def test_release_ships_no_other_domain_memory(self) -> None:
+        """Memory is domain-scoped exactly as the library is."""
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "release"
+            self.assertEqual(run("build", RECIPES / "CPP_Development.yaml", out).returncode, 0)
+            manifest = json.loads((out / "RELEASE_MANIFEST.json").read_text(encoding="utf-8"))
+            self.assertNotIn("art", manifest["memory_domains"])
+            self.assertFalse((out / "memory/art").exists())
+
+    def test_release_builds_with_the_memory_tree_absent(self) -> None:
+        """Deleting the store never breaks a build; memory is not a dependency."""
+        with isolated_library() as tmp, tempfile.TemporaryDirectory() as dest:
+            root = Path(tmp)
+            self.assertFalse((root / "memory").exists())
+            out = Path(dest) / "release"
+            result = subprocess.run(
+                [
+                    sys.executable, str(root / "PASS/tools/build_release.py"), "build",
+                    str(root / "recipes/Animal_Anatomy.yaml"), str(out),
+                    "--library", str(root / "library"),
+                ],
+                text=True, capture_output=True, cwd=root,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            manifest = json.loads((out / "RELEASE_MANIFEST.json").read_text(encoding="utf-8"))
+            self.assertEqual(manifest["memory_domains"], [])
+            self.assertNotIn("## Skillset Memory", (out / "SKILL.md").read_text(encoding="utf-8"))
+
+    @unittest.skipUnless(ART_STORE.is_file(), "no Art memory store in this checkout")
+    def test_release_check_detects_a_deleted_memory_store(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "release"
+            self.assertEqual(run("build", RECIPES / "Animal_Anatomy.yaml", out).returncode, 0)
+            store = out / "memory/art/skill_memory.yaml"
+            store.chmod(0o600)
+            store.unlink()
+            check = run("check", out)
+            self.assertNotEqual(check.returncode, 0)
+            self.assertIn("missing declared memory domain: art", check.stderr)
+
+    @unittest.skipUnless(ART_STORE.is_file(), "no Art memory store in this checkout")
+    def test_shipped_memory_validates_on_its_own(self) -> None:
+        """The packaged store is portable: the memory tool reads it and nothing else."""
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "release"
+            self.assertEqual(run("build", RECIPES / "Animal_Anatomy.yaml", out).returncode, 0)
+            result = subprocess.run(
+                [
+                    sys.executable, str(ROOT / "PASS/tools/memory.py"), "validate",
+                    "--memory", str(out / "memory"),
+                ],
+                text=True, capture_output=True, cwd=ROOT,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
 
 
 if __name__ == "__main__":

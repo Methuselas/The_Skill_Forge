@@ -47,6 +47,14 @@ artifact was good and never writes an observation for you: consolidating several
 events into one honest sentence is a judgment, and a script that guessed at it
 would be inventing empirical claims.
 
+## Releases
+
+`build_release.py` copies the store of every domain a release bundles to
+`memory/<domain>/` in the release root, beside `library/` rather than inside
+it, and writes those files read-only. A release reads the record it inherited;
+it is not the target new events are written to. See
+`PASS/docs/MODULE_RELEASES.md`.
+
 ## Deleting this directory
 
 Nothing breaks. `library/` validates with `memory/` absent, and a test enforces
