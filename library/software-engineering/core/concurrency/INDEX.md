@@ -9,6 +9,7 @@
 - [Avoid Sharing Before You Reach for Protecting It](PAT_avoid_sharing_before_you_reach_for_protecting_it.md) - pattern; 0 design. Tags: concurrency, design, encapsulation, shared_state, threading.
 - [Block With a Deadline Before Polling on an Interval](PAT_block_with_a_deadline_before_polling_on_an_interval.md) - pattern; 0 design. Tags: concurrency, design, latency, timeouts, waiting.
 - [Break One of Deadlock's Four Conditions](PAT_break_one_of_deadlocks_four_conditions.md) - pattern; 0 design. Tags: concurrency, deadlock, locking, resources, threading.
+- [Budget Per-Thread Resources Against Residency](PAT_budget_per_thread_resources_against_residency.md) - pattern; 0 design. Tags: concurrency, design, gpu, memory, performance.
 - [Buy Concurrent Performance With Restrictions, Not Cleverness](PAT_buy_concurrent_performance_with_restrictions.md) - pattern; 0 design. Tags: concurrency, data_structures, design, simplicity, threading.
 - [Cancel Complementary Operations Instead of Applying Them](PAT_cancel_complementary_operations_instead_of_applying_them.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, scalability.
 - [Check a Primitive's Coordination Power Before Designing on It](PAT_check_a_primitives_coordination_power_before_designing_on_it.md) - pattern; 0 design. Tags: atomics, concurrency, design, hardware, lock_free.
