@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: art
-memory_version: 8
+memory_version: 9
 entries:
 - id: ART_MEM_001
   scope_type: topic
@@ -14,32 +14,40 @@ entries:
     improved to a provisional 28/30 no-object isolation retest, 14/15 on an extreme hand-plus-forearm
     test, and 14/15 in a fresh chat with no renewed hand coaching. Cold full-production renders
     preserved hand topology under strong figure, costume, perspective, environment, and rendering
-    load. Residual topology misses remain possible, and one cold firearm render showed a separate
-    function/contact/load failure despite broadly coherent hand topology.
+    load. A later portable-Skill-only full-production support pose also preserved coherent hand
+    topology and convincing body-support contact/load behavior even though that Skill release did
+    not contain the Art Memory files, providing evidence that the canonical hand intervention itself
+    can transfer independently of Memory retrieval. Residual topology misses remain possible, and
+    one cold firearm render showed a separate function/contact/load failure despite broadly coherent
+    hand topology.
 
     '
   diagnosis:
     failure_layer: application
     hypothesis: 'The topology-first root map plus deepest-to-nearest complete-chain route
       materially reduces the earlier extra/missing/root-failure classes, and the improvement
-      now survives fresh-chat retention and full-production load. Remaining topology misses
-      are best treated as residual stochastic application/verification failures rather than
-      proof that the current hand canon is underspecified. Object-constrained actions remain
-      a distinct vulnerability: a topologically valid hand can still fail palm seating, digit
-      wrap, thumb opposition, contact, or load/control semantics.
+      now survives fresh-chat retention, full-production load, and at least one portable-Skill
+      execution without Art Memory. Remaining topology misses are best treated as residual
+      stochastic application/verification failures rather than proof that the current hand canon
+      is underspecified. Object-constrained actions remain a distinct vulnerability: a topologically
+      valid hand can still fail palm seating, digit wrap, thumb opposition, contact, or load/control
+      semantics, although the later nonweapon body-support example provides positive transfer
+      evidence for support/contact/load behavior outside the earlier firearm case.
 
       '
   boundary: 'Verified on ordinary human hands across no-object isolation, varied-angle grips,
-    extreme hand-plus-forearm foreshortening, fresh-chat retention, and cold full-character
-    production. The topology intervention has improved and retained across chats, but it is
-    not deterministic. Object-contact/function transfer remains partial after one cold firearm-grip
-    failure. Character- specific nonhuman topology and broader object-contact classes have
-    not been retested to the same depth.
+    extreme hand-plus-forearm foreshortening, fresh-chat retention, cold full-character production,
+    and one portable-Skill-only full-production body-support case without Art Memory. The topology
+    intervention has improved and retained across chats and package conditions, but it is not
+    deterministic. Nonweapon support/contact/load behavior now has one strong positive full-production
+    example, while broader object-contact/function transfer remains partial because the earlier cold
+    firearm-grip failure is still valid. Character-specific nonhuman topology and broader weapon/tool
+    contact classes have not been retested to the same depth.
 
     '
   confidence: repeated
   status: monitoring
-  evidence_count: 10
+  evidence_count: 11
   evidence_events:
   - ART_EV_0001
   - ART_EV_0004
@@ -51,6 +59,7 @@ entries:
   - ART_EV_0010
   - ART_EV_0011
   - ART_EV_0012
+  - ART_EV_0017
   evidence_origin:
   - user_feedback
   - human_teaching
@@ -107,7 +116,7 @@ entries:
   - foreshortening
   - direct render
   runtime_scope: generic
-  last_verified: 2026-08-22
+  last_verified: 2026-08-23
 - id: ART_MEM_002
   scope_type: topic
   scope_id: action_pose_dynamism
