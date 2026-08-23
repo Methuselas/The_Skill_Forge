@@ -50,6 +50,7 @@ variants: []
 - Take the locks in a fixed order before validating. Locking two positions found by a search is locking two things at once, so the ordering discipline that prevents cycles applies here as it does anywhere else.
 - Price validation before choosing this, because it is the part that decides whether the technique pays. Where confirming your findings means traversing the structure again, validation costs as much as the search did, and the operation is now two traversals rather than one — acceptable when contention is rare, and a poor trade otherwise. A structure that lets each position carry its own evidence of still being valid reduces that to a couple of reads, which is what makes the technique worthwhile rather than merely clever.
 - Establish that traversing without locks is safe at all, which is a separate obligation. Readers walk over positions that other threads are actively modifying and may walk into ones already removed, so the structure must guarantee that following a link from a removed position still leads somewhere well-formed rather than into freed memory.
+- Keep the speculative phase free of anything that cannot be taken back. It will be run more than once — that is the design — so any effect it produces is produced repeatedly: a log line per attempt, a counter incremented per attempt, a message sent per attempt, a file written per attempt. The rule is that the optimistic phase computes and the committed phase acts, and an effect that escapes into the optimistic phase is a bug that appears only under contention, which is when nobody is watching closely.
 - Say plainly that this is blocking. Threads still take locks and can still be delayed indefinitely by a slow holder, and an operation can be forced to retry repeatedly by a stream of conflicting ones. The technique buys throughput under low contention; it does not buy a progress guarantee.
 
 ## Don't
@@ -64,6 +65,7 @@ variants: []
 - How expensive is validation compared to the search itself?
 - Under what conflict rate does this stop paying, and what is the actual rate?
 - Are the locks taken in a consistent order?
+- Does the speculative phase produce any effect that a retry would repeat?
 - Is a traversal that walks over a concurrently removed position still safe?
 - Is there a bound on retries, and is anyone measuring how often they happen?
 
