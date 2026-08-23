@@ -47,6 +47,9 @@ variants: []
 - Use the caller breakdown to aim the question. When a hot function has several callers, the call-count reduction is usually available at one of them rather than in the function, and the call graph is what shows which one carries the volume.
 - Take the reduction where the count is structural rather than incidental. Work that was cheap when a collection held ten elements and became the dominant cost when it held thousands is a volume problem wearing the costume of a slow function.
 
+- Read the cost of a crossing as two terms rather than one, wherever the work leaves the process — a network hop, a system call, a device transfer, a query to another service. There is a fixed charge per crossing, covering everything that has to be set in motion, and a charge proportional to the bytes moved. Many small crossings pay the fixed charge every time for the same total payload, which is why ten transfers of one unit routinely cost far more than one transfer of ten while moving identical data.
+- Treat that particular case as knowable before profiling. The cost structure of a boundary is a property of the boundary rather than of your program, so a design that crosses it in small pieces is wrong by construction and does not need a measurement to establish it. This is the one place where reducing the call count is a design decision rather than a tuning response.
+
 ## Don't
 - Don't go straight to making the function faster because that is the question the profile appears to ask. The report names a function and invites you to open it; the count of calls into it is nowhere on the screen, which is precisely why the second route gets forgotten.
 - Don't accept a per-call improvement as the finished job when the call count is still open. A faster function called the same excessive number of times leaves the larger reduction unclaimed and makes the code harder to read on the way.
