@@ -42,6 +42,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Establish That the Work Divides Before Dividing It](PAT_decide_if_the_problem_is_worth_parallelizing.md) - pattern; 0 design. Tags: concurrency, parallelism, performance, trade_offs, tuning.
 - [Estimate How the Cost Grows Before You Run It](PAT_estimate_the_order_before_you_run_it.md) - pattern; 2 block. Tags: algorithms, complexity, estimation, performance.
 - [Hoist Allocation Out of the Work](PAT_hoist_allocation_out_of_the_work.md) - pattern; 4 final. Tags: allocation, concurrency, memory, performance, tuning.
+- [Lay Data Out for the Group That Reads It Together](PAT_lay_data_out_for_the_group_that_reads_it_together.md) - pattern; 0 design. Tags: concurrency, data_layout, gpu, memory, performance.
 - [Let Measurement Decide What to Tune, Never Intuition](PAT_let_measurement_decide_what_to_tune.md) - pattern; 4 final. Tags: measurement, optimization, performance, premature_optimization.
 - [Locate a Performance Bottleneck by Measurement](AP_locate_a_performance_bottleneck_by_measurement.md) - ap; 4 final. Tags: benchmarking, diagnosis, measurement, performance, profiling.
 - [Locate the Working Set on the Memory Hierarchy](PAT_locate_the_working_set_on_the_memory_hierarchy.md) - pattern; 4 final. Tags: caching, hardware, measurement, memory, performance.
