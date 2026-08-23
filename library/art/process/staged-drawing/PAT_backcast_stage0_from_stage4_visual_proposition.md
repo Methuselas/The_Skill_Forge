@@ -36,8 +36,8 @@ references:
   origin: first_party_source
   review: passed
 - image_path: library/art/process/staged-drawing/assets/broken-gate/canonical/broken_gate_stage4_canonical_finished_pencils.png
-  caption: 'Canonical Stage 4 counterpart: the same registered composition developed to finished pencils, useful for validating that low-frequency Stage 0 decisions survive forward development.'
-  derived_from: guided Broken Gate canonical Drawing precedent run, first accepted Stage 4
+  caption: 'Historical Stage 4 counterpart retained for composition-continuity evidence only: the registered Stage 0 proposition survives forward, but later testing demoted this image from positive Finished-Pencils quality authority.'
+  derived_from: guided Broken Gate Stage 4 run, later superseded as a positive finish-quality authority by practical retest evidence
   origin: first_party_source
   review: passed
 - image_path: library/art/process/staged-drawing/assets/precedent_stage0a_observatory_rosetta_contact_sheet.png
@@ -57,7 +57,7 @@ variants: []
 
 ## Do
 - Freeze the proposed camera, crop, pose, major silhouettes, inventory, object placement, perspective, focal hierarchy, and broad value arrangement before dreaming forward.
-- Imagine the full Stage 4 **finished-pencil drawing** inside that fixed container: resolved anatomy/design, final pencil contours, line hierarchy, selective graphite value/hatching, and complete drawing integration. Do not import downstream color, paint, ink, or material-finish decisions into the Drawing backcast. An explicitly authorized temporary scratch drawing may be used as evidence only and never becomes an approved successor stage.
+- Imagine the full Stage 4 **finished-pencil drawing** inside that fixed container: resolved anatomy/design and intentional pencil expression appropriate to the intended drawing, with no important Drawing decisions left exploratory. Do not import downstream color, paint, ink, or material-finish decisions into the Drawing backcast. An explicitly authorized temporary scratch drawing may be used as evidence only and never becomes an approved successor stage.
 - Reduce the finished proposition conceptually to three or four broad grayscale families. Compare low-frequency structure rather than literal pixels or brush marks.
 - Rebuild Stage 0 with rough line/mass shorthand, broken contours or edges where useful, broad value grouping, and only strategic identifiers. A tiny eye mark, book bar, or prop notch is allowed only when it confirms presence without beginning description.
 - Compare the two directions: the viewer should mentally reconstruct the Stage 4 finished-pencil drawing from Stage 0, and the simplified Stage 4 should recover the Stage 0 composition without relocating major forms.

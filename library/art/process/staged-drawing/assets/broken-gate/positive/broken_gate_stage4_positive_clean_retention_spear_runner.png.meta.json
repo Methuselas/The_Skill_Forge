@@ -1,0 +1,16 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-23",
+  "prompt": "Neutral Broken Gate Stage 4 execution from the revised Finished-Pencils source in a genuinely fresh chat; exact canonical Stage 3 predecessor supplied through registered-successor discipline.",
+  "source_renders": [
+    "chat_stage4_clean_retest/Spear Runner at the Fortress Gate.png"
+  ],
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with independent Dev and Audit critique",
+    "reviewed_at": "2026-08-23",
+    "method": "fresh-chat cold-retention review against predecessor continuity, Drawing closure, specificity, functional endpoints, pencil-language coherence, and successor-readiness",
+    "note": "POSITIVE COLD-RETENTION Stage 4 evidence. A genuinely clean chat crossed Stage 3 to Finished Pencils without receiving the warm teaching that produced the source repair. The artifact is somewhat more tonal and its focal face is weaker than the warm quality example, but Drawing closure, continuity, functional readability, and successor-readiness pass. Preserve as retention evidence; do not treat it as the sole universal Stage 4 quality authority."
+  }
+}

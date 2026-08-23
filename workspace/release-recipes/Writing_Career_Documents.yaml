@@ -1,0 +1,9 @@
+name: Writing Career Documents
+skill_name: writing-career-documents
+description: >-
+  Use for creating, targeting, revising, and submitting resumes, cover letters,
+  application forms, selection-criteria responses, portfolios, professional
+  profiles, academic CVs, and related career documents.
+modules:
+  - writing/career-documents
+runtime_profile: generic

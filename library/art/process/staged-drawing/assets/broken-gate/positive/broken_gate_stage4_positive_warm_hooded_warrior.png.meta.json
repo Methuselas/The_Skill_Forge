@@ -1,0 +1,16 @@
+{
+  "origin": "first_party_source",
+  "generator_model": "OpenAI image generation",
+  "generated_at": "2026-08-23",
+  "prompt": "Neutral Broken Gate Stage 4 execution from the revised Finished-Pencils source in a context-exposed test chat; exact canonical Stage 3 predecessor supplied through registered-successor discipline.",
+  "source_renders": [
+    "chat_stage4_retest/Hooded Warrior Charges the Castle Gate.png"
+  ],
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin guided review with independent Dev and Audit critique",
+    "reviewed_at": "2026-08-23",
+    "method": "warm/context-exposed Stage 4 quality review against predecessor continuity, Drawing closure, specificity, functional endpoints, pencil-language coherence, and successor-readiness",
+    "note": "PROVISIONAL POSITIVE Stage 4 quality evidence. Strong Finished-Pencils result with especially good focal face, local specificity, contour clarity, and cross-medium readability. Because the generating chat was context-exposed, use this as positive quality calibration rather than cold-retention evidence. It is the current stronger Stage 4 quality example until a better validated universal reference is selected."
+  }
+}

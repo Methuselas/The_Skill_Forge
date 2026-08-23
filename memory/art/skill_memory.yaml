@@ -1,197 +1,252 @@
 memory_schema_version: 1
 skillset: art
-memory_version: 5
-
-# Compact current empirical state for the Art lane. Contract:
-# PASS/docs/MEMORY_SCHEMA.md. This file is not canon and never becomes canon by
-# being copied into a card; a lesson that seems to belong everywhere has earned
-# promotion review instead.
-#
-# Seeded conservatively from pre-Memory practical runs. Every entry below is a
-# craft observation from a run that was a valid test of the thing it describes.
-# Controller, tool, packaging, and reference-routing failures from the same
-# period are deliberately absent: those were not tests of craft, and several are
-# now held by regression tests where they belong.
-
+memory_version: 8
 entries:
-  - id: ART_MEM_001
-    scope_type: topic
-    scope_id: hands_and_object_contact
-    type: recurring_failure
-    evidence_class: stochastic_performance
-    observation: >
-      Across earlier character renders and isolated hand benchmarks, individual
-      hands repeatedly failed through extra or missing digit chains, broken palm
-      roots, thumb/finger identity substitution, occlusion deleting anatomy, and
-      mechanically incoherent configurations. After the topology-first root-map
-      and deepest-to-nearest construction intervention, performance improved to a
-      provisional 28/30 no-object isolation retest, 14/15 on an extreme
-      hand-plus-forearm test, and 14/15 in a fresh chat with no renewed hand
-      coaching. Cold full-production renders preserved hand topology under strong
-      figure, costume, perspective, environment, and rendering load. Residual
-      topology misses remain possible, and one cold firearm render showed a
-      separate function/contact/load failure despite broadly coherent hand
-      topology.
-    diagnosis:
-      failure_layer: application
-      hypothesis: >
-        The topology-first root map plus deepest-to-nearest complete-chain route
-        materially reduces the earlier extra/missing/root-failure classes, and the
-        improvement now survives fresh-chat retention and full-production load.
-        Remaining topology misses are best treated as residual stochastic
-        application/verification failures rather than proof that the current hand
-        canon is underspecified. Object-constrained actions remain a distinct
-        vulnerability: a topologically valid hand can still fail palm seating,
-        digit wrap, thumb opposition, contact, or load/control semantics.
-    boundary: >
-      Verified on ordinary human hands across no-object isolation, varied-angle
-      grips, extreme hand-plus-forearm foreshortening, fresh-chat retention, and
-      cold full-character production. The topology intervention has improved and
-      retained across chats, but it is not deterministic. Object-contact/function
-      transfer remains partial after one cold firearm-grip failure. Character-
-      specific nonhuman topology and broader object-contact classes have not been
-      retested to the same depth.
-    confidence: repeated
-    status: monitoring
-    evidence_count: 10
-    evidence_events:
-      - ART_EV_0001
-      - ART_EV_0004
-      - ART_EV_0005
-      - ART_EV_0006
-      - ART_EV_0007
-      - ART_EV_0008
-      - ART_EV_0009
-      - ART_EV_0010
-      - ART_EV_0011
-      - ART_EV_0012
-    evidence_origin:
-      - user_feedback
-      - human_teaching
-      - runtime_self_audit
-      - training_benchmark
-    likely_owners:
-      - AP_construct_hand_from_function_contact_and_articulated_form
-      - PAT_construct_hand_from_palm_wedge_and_digit_chain
-      - PAT_configure_hand_around_function_contact_and_load
-      - PAT_sequence_finger_flexion_as_a_coupled_spiral
-      - PAT_orient_thumb_by_opposition_and_rotation
-      - PAT_consolidate_resolved_form_with_tone
-    interventions:
-      - drill: varied_hand_isolation_30
-        isolation_result: partial
-        retention_result: untested
-        transfer_result: untested
-      - drill: varied_angle_grip_isolation_30
-        isolation_result: partial
-        retention_result: untested
-        transfer_result: partial
-      - drill: no_object_foreshortened_hand_retest_30
-        isolation_result: partial
-        retention_result: untested
-        transfer_result: untested
-      - training: topology_first_root_map_deepest_to_nearest
-        isolation_result: improved
-        retention_result: improved
-        transfer_result: partial
-    retrieval_cues:
-      - hand
-      - hands
-      - human
-      - humanoid
-      - finger
-      - fingers
-      - thumb
-      - digit
-      - topology
-      - root map
-      - extra digit
-      - missing digit
-      - digit chain
-      - occlusion
-      - overlap
-      - deepest to nearest
-      - grip
-      - contact
-      - load
-      - palm seating
-      - fist
-      - gesture
-      - biomechanics
-      - foreshortening
-      - direct render
-    runtime_scope: generic
-    last_verified: 2026-08-22
+- id: ART_MEM_001
+  scope_type: topic
+  scope_id: hands_and_object_contact
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: 'Across earlier character renders and isolated hand benchmarks, individual
+    hands repeatedly failed through extra or missing digit chains, broken palm roots, thumb/finger
+    identity substitution, occlusion deleting anatomy, and mechanically incoherent configurations.
+    After the topology-first root-map and deepest-to-nearest construction intervention, performance
+    improved to a provisional 28/30 no-object isolation retest, 14/15 on an extreme hand-plus-forearm
+    test, and 14/15 in a fresh chat with no renewed hand coaching. Cold full-production renders
+    preserved hand topology under strong figure, costume, perspective, environment, and rendering
+    load. Residual topology misses remain possible, and one cold firearm render showed a separate
+    function/contact/load failure despite broadly coherent hand topology.
 
-  - id: ART_MEM_002
-    scope_type: topic
-    scope_id: action_pose_dynamism
-    type: recurring_failure
-    evidence_class: stochastic_performance
-    observation: >
-      Under high-action prompts the image gains camera angle, effects, and
-      diagonal energy while the underlying body remains comparatively
-      conservative: ribcage and pelvis stay close to aligned, compression and
-      extension stay mild, and the centre of gravity stays near-central. Removing
-      the camera and effects leaves a pose that does not read as extreme action.
-    diagnosis:
-      failure_layer: application
-      hypothesis: >
-        Presentation energy is raised before whole-body force, axis opposition,
-        and depth staggering are resolved.
-    boundary: >
-      Observed on character action renders. Not tested against non-figurative
-      subjects or against staged work where structure is ratified before finish.
-    confidence: repeated
-    status: active
-    evidence_count: 1
-    evidence_events:
-      - ART_EV_0001
-    evidence_origin:
-      - user_feedback
-      - runtime_self_audit
-    retrieval_cues:
-      - action
-      - dynamic
-      - punch
-      - superhero
-      - foreshortening
-      - extreme pose
-    runtime_scope: generic
-    last_verified: 2026-08-22
+    '
+  diagnosis:
+    failure_layer: application
+    hypothesis: 'The topology-first root map plus deepest-to-nearest complete-chain route
+      materially reduces the earlier extra/missing/root-failure classes, and the improvement
+      now survives fresh-chat retention and full-production load. Remaining topology misses
+      are best treated as residual stochastic application/verification failures rather than
+      proof that the current hand canon is underspecified. Object-constrained actions remain
+      a distinct vulnerability: a topologically valid hand can still fail palm seating, digit
+      wrap, thumb opposition, contact, or load/control semantics.
 
-  - id: ART_MEM_003
-    scope_type: topic
-    scope_id: terrain_mesostructure
-    type: recurring_failure
-    evidence_class: stochastic_performance
-    observation: >
-      In landscape work the large terrain silhouette and broad light/shadow
-      separation survive to the finished image, while meso-scale structure -
-      ridges, plane changes, fractures, erosion pattern - thins out before
-      atmosphere and surface finish are applied.
-    diagnosis:
-      failure_layer: orchestration
-      hypothesis: >
-        The working sequence applies atmospheric reduction before meso-scale
-        terrain structure has been verified, so the reduction removes structure
-        that was never established.
-    boundary: >
-      Observed on observational/painterly landscape work. Not tested on
-      architectural or figure subjects, and not retested after any sequence
-      change.
-    confidence: provisional
-    status: active
-    evidence_count: 1
-    evidence_events:
-      - ART_EV_0002
-    evidence_origin:
-      - user_feedback
-    retrieval_cues:
-      - landscape
-      - terrain
-      - mountain
-      - geology
-      - atmosphere
-    runtime_scope: generic
-    last_verified: 2026-08-22
+      '
+  boundary: 'Verified on ordinary human hands across no-object isolation, varied-angle grips,
+    extreme hand-plus-forearm foreshortening, fresh-chat retention, and cold full-character
+    production. The topology intervention has improved and retained across chats, but it is
+    not deterministic. Object-contact/function transfer remains partial after one cold firearm-grip
+    failure. Character- specific nonhuman topology and broader object-contact classes have
+    not been retested to the same depth.
+
+    '
+  confidence: repeated
+  status: monitoring
+  evidence_count: 10
+  evidence_events:
+  - ART_EV_0001
+  - ART_EV_0004
+  - ART_EV_0005
+  - ART_EV_0006
+  - ART_EV_0007
+  - ART_EV_0008
+  - ART_EV_0009
+  - ART_EV_0010
+  - ART_EV_0011
+  - ART_EV_0012
+  evidence_origin:
+  - user_feedback
+  - human_teaching
+  - runtime_self_audit
+  - training_benchmark
+  likely_owners:
+  - AP_construct_hand_from_function_contact_and_articulated_form
+  - PAT_construct_hand_from_palm_wedge_and_digit_chain
+  - PAT_configure_hand_around_function_contact_and_load
+  - PAT_sequence_finger_flexion_as_a_coupled_spiral
+  - PAT_orient_thumb_by_opposition_and_rotation
+  - PAT_consolidate_resolved_form_with_tone
+  interventions:
+  - drill: varied_hand_isolation_30
+    isolation_result: partial
+    retention_result: untested
+    transfer_result: untested
+  - drill: varied_angle_grip_isolation_30
+    isolation_result: partial
+    retention_result: untested
+    transfer_result: partial
+  - drill: no_object_foreshortened_hand_retest_30
+    isolation_result: partial
+    retention_result: untested
+    transfer_result: untested
+  - training: topology_first_root_map_deepest_to_nearest
+    isolation_result: improved
+    retention_result: improved
+    transfer_result: partial
+  retrieval_cues:
+  - hand
+  - hands
+  - human
+  - humanoid
+  - finger
+  - fingers
+  - thumb
+  - digit
+  - topology
+  - root map
+  - extra digit
+  - missing digit
+  - digit chain
+  - occlusion
+  - overlap
+  - deepest to nearest
+  - grip
+  - contact
+  - load
+  - palm seating
+  - fist
+  - gesture
+  - biomechanics
+  - foreshortening
+  - direct render
+  runtime_scope: generic
+  last_verified: 2026-08-22
+- id: ART_MEM_002
+  scope_type: topic
+  scope_id: action_pose_dynamism
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: 'Under high-action prompts the image gains camera angle, effects, and diagonal
+    energy while the underlying body remains comparatively conservative: ribcage and pelvis
+    stay close to aligned, compression and extension stay mild, and the centre of gravity
+    stays near-central. Removing the camera and effects leaves a pose that does not read as
+    extreme action.
+
+    '
+  diagnosis:
+    failure_layer: application
+    hypothesis: 'Presentation energy is raised before whole-body force, axis opposition, and
+      depth staggering are resolved.
+
+      '
+  boundary: 'Observed on character action renders. Not tested against non-figurative subjects
+    or against staged work where structure is ratified before finish.
+
+    '
+  confidence: repeated
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - ART_EV_0001
+  evidence_origin:
+  - user_feedback
+  - runtime_self_audit
+  retrieval_cues:
+  - action
+  - dynamic
+  - punch
+  - superhero
+  - foreshortening
+  - extreme pose
+  runtime_scope: generic
+  last_verified: 2026-08-22
+- id: ART_MEM_003
+  scope_type: topic
+  scope_id: terrain_mesostructure
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: 'In landscape work the large terrain silhouette and broad light/shadow separation
+    survive to the finished image, while meso-scale structure - ridges, plane changes, fractures,
+    erosion pattern - thins out before atmosphere and surface finish are applied.
+
+    '
+  diagnosis:
+    failure_layer: orchestration
+    hypothesis: 'The working sequence applies atmospheric reduction before meso-scale terrain
+      structure has been verified, so the reduction removes structure that was never established.
+
+      '
+  boundary: 'Observed on observational/painterly landscape work. Not tested on architectural
+    or figure subjects, and not retested after any sequence change.
+
+    '
+  confidence: provisional
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - ART_EV_0002
+  evidence_origin:
+  - user_feedback
+  retrieval_cues:
+  - landscape
+  - terrain
+  - mountain
+  - geology
+  - atmosphere
+  runtime_scope: generic
+  last_verified: 2026-08-22
+- id: ART_MEM_004
+  scope_type: topic
+  scope_id: stage4_finished_pencil_resolution
+  type: training_result
+  evidence_class: stochastic_performance
+  observation: 'Repeated Stage 4 attempts under the pre-repair source advanced pencil activity
+    without reliably closing Drawing decisions: graphite, hatch, detail, and local cleanup increased
+    while provisional contours, redundant marks, and under-resolved hierarchy remained. Direct
+    human teaching that Finished Pencils is a resolved Drawing state, that approved Stage 3 decisions
+    should be preserved rather than provisional Stage 3 marks, and that pencil style or density does
+    not itself define completion produced a materially improved warm retry. After the bounded source
+    repair, a context-exposed retest passed strongly and a genuinely clean fresh-chat retest also
+    passed without renewed teaching. The historical more-graphite-equals-more-finished failure was
+    not reproduced, supporting fresh-chat retention of the repaired Stage 4 closure behavior.
+
+    '
+  diagnosis:
+    failure_layer: orchestration
+    hypothesis: 'The earlier Stage 4 terminal threshold and positive calibration were too permissive,
+      allowing Stage 3 plus additional pencil activity to pass as completion. The repaired contract
+      now emphasizes decision closure under exact predecessor continuity, preserves approved decisions
+      rather than exploratory marks, avoids one universal mark-density target, and keeps separately
+      owned Rendering and downstream medium work outside universal Drawing Stage 4.
+
+      '
+  boundary: 'Verified on repeated Broken Gate registered-successor Stage 3 to Stage 4 runs, including
+    one genuinely fresh clean-chat retention test after source repair. The warm and clean successful
+    artifacts used somewhat different pencil expressions while both closing Drawing. Cross-subject
+    transfer and broad successor-aware variants remain separate future questions.
+
+    '
+  confidence: strong
+  status: resolved
+  evidence_origin:
+  - user_feedback
+  - human_teaching
+  - runtime_self_audit
+  - training_benchmark
+  likely_owners:
+  - AP_finish_stage4_as_finished_pencils
+  - PAT_preserve_structure_during_stage4_pencil_finish
+  - PAT_calibrate_stage_information_density_against_precedent
+  interventions:
+  - training: stage4_decision_resolution_teaching
+    isolation_result: improved
+    retention_result: improved
+    transfer_result: untested
+  retrieval_cues:
+  - stage 4
+  - finished pencils
+  - finished pencil
+  - drawing closure
+  - provisional marks
+  - graphite
+  - hatching
+  - pencil density
+  - decision resolution
+  - successor readiness
+  - developed pencils
+  - drawing finish
+  runtime_scope: generic
+  last_verified: '2026-08-23'
+  evidence_events:
+  - ART_EV_0013
+  - ART_EV_0014
+  - ART_EV_0015
+  - ART_EV_0016
+  evidence_count: 4

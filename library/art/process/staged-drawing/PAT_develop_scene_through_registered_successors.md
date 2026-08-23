@@ -68,19 +68,14 @@ references:
   origin: first_party_source
   review: passed
 - image_path: library/art/process/staged-drawing/assets/broken-gate/canonical/broken_gate_stage4_canonical_finished_pencils.png
-  caption: 'Canonical Broken Gate Stage 4 finished pencils: the FIRST accepted Stage
-    4 artifact closes the Drawing AP by cleaning, resolving, and integrating the Stage
-    3 drawing in pencil. Minor accepted limitation: finish is slightly soft/uniformly
-    busy.'
-  derived_from: guided Broken Gate canonical Drawing precedent run, first accepted
-    Stage 4
+  caption: 'Historical Broken Gate Stage 4 successor evidence: useful for registered-continuity review, but later practical testing demoted it from positive Finished-Pencils quality authority because its finish remained under-resolved.'
+  derived_from: guided Broken Gate Stage 4 run, later superseded as a positive finish-quality authority by practical retest evidence
   origin: first_party_source
   review: passed
 - image_path: library/art/process/staged-drawing/assets/broken-gate/debug/broken_gate_debug_stage4_edit_target_near_regeneration_INVALID.png
   caption: 'INVALID / NON-CANONICAL Stage 4 debugging precedent: a local tightening
     request lacked reliable access to the exact accepted predecessor and produced
-    a near-reconstruction with no material targeted improvement; it must not replace
-    the first accepted Stage 4.'
+    a near-reconstruction with no material targeted improvement; it is invalid exact-edit-target evidence and must not be used as a successor authority.'
   derived_from: guided Broken Gate Stage 4 edit-target failure review
   origin: first_party_source
   review: passed
@@ -125,6 +120,6 @@ Develop every important object in an accepted scene from its exact ratified pred
 ## Notes
 This is the scene-wide generalization of onion-skin continuity. The figure-specific onion-skin AP remains useful for articulated figure construction, but weapons, buildings, props, and environments require the same predecessor discipline.
 
-The Broken Gate sequence is the canonical positive lineage for this rule. Its failed Stage 4 tightening attempt is the negative accessibility precedent: PASS retained the accepted Stage 4 identity, but the native editor did not reliably expose that exact image as an editable source. A highly similar reconstruction did not count as a valid local edit.
+Broken Gate Stages 0–3 remain the canonical positive lineage for this rule. The retained historical Stage 4 attempt still demonstrates substantial continuity but no longer defines Finished-Pencils quality; its failed tightening attempt is the negative accessibility precedent: PASS retained the accepted Stage 4 identity, but the native editor did not reliably expose that exact image as an editable source. A highly similar reconstruction did not count as a valid local edit.
 
 The compact rules are: **develop the accepted artifact forward; do not restart from the prompt and hope for resemblance** and **loss of edit-target access does not authorize visual reinterpretation.**
