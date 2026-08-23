@@ -36,6 +36,7 @@
 - [Match the Lock to the Length of the Critical Section](PAT_match_the_lock_to_the_length_of_the_critical_section.md) - pattern; 4 final. Tags: concurrency, contention, locking, performance, threading.
 - [Match the Problem to a Known Coordination Shape](PAT_match_the_problem_to_a_known_coordination_shape.md) - pattern; 0 design. Tags: concurrency, design, patterns, starvation, threading.
 - [Merge Concurrent Operations Into One Before Applying Them](PAT_merge_concurrent_operations_into_one_before_applying_them.md) - pattern; 0 design. Tags: concurrency, contention, design, latency, scalability.
+- [Place Cooperating Work at the Narrowest Scope That Holds It](PAT_place_cooperating_work_at_the_narrowest_scope_that_holds_it.md) - pattern; 0 design. Tags: concurrency, decomposition, design, gpu, locality.
 - [Publish Shared Data Through One Atomic Handle](PAT_publish_shared_data_through_one_atomic_handle.md) - pattern; 4 final. Tags: concurrency, data_structures, lock_free, memory_order, threading.
 - [Put the Thread-Safety Guarantee at the Transaction Boundary](PAT_put_the_thread_safety_guarantee_at_the_transaction_boundary.md) - pattern; 0 design. Tags: api_design, concurrency, design, invariants, threading.
 - [Run Threaded Code Under Conditions Built to Break It](PAT_run_threaded_code_under_conditions_built_to_break_it.md) - pattern; 3 rough. Tags: concurrency, defects, test_design, testing, threading.
