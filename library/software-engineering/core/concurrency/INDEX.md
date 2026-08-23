@@ -14,6 +14,7 @@
 - [Check a Primitive's Coordination Power Before Designing on It](PAT_check_a_primitives_coordination_power_before_designing_on_it.md) - pattern; 0 design. Tags: atomics, concurrency, design, hardware, lock_free.
 - [Classify Synchronization by the Progress It Guarantees](PAT_classify_synchronization_by_progress_guarantee.md) - pattern; 0 design. Tags: concurrency, design, lock_free, locking, threading.
 - [Cover Many Regions With a Fixed Number of Locks](PAT_cover_many_regions_with_a_fixed_number_of_locks.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
+- [Derive the Parallelism From Work and Span](PAT_derive_the_parallelism_from_work_and_span.md) - pattern; 0 design. Tags: concurrency, design, estimation, scalability, scheduling.
 - [Dispatch on Readiness or on Completion](PAT_dispatch_on_readiness_or_on_completion.md) - pattern; 0 design. Tags: concurrency, design, event_handling, io, patterns.
 - [Estimate a Concurrent Design's Ceiling Before Building It](PAT_estimate_a_concurrent_designs_ceiling_before_building_it.md) - pattern; 0 design. Tags: benchmarking, concurrency, design, estimation, measurement.
 - [Get the Single-Threaded Version Working First](PAT_get_the_single_threaded_version_working_first.md) - pattern; 1 skeleton. Tags: concurrency, debugging, separation_of_concerns, testing, threading.
@@ -23,6 +24,7 @@
 - [Immutability Is a Guarantee You Have to Actually Check](PAT_verify_an_object_is_as_immutable_as_you_think.md) - pattern; 0 design. Tags: concurrency, immutability, invariants, state, threading.
 - [Keep the Memory Alive Until the Compare-and-Swap Completes](PAT_keep_memory_alive_until_the_compare_and_swap_completes.md) - pattern; 4 final. Tags: concurrency, correctness, lock_free, memory_management, threading.
 - [Keep Thread-Aware Code Away From Thread-Ignorant Code](PAT_keep_thread_aware_code_away_from_thread_ignorant_code.md) - pattern; 0 design. Tags: concurrency, design, maintainability, separation_of_concerns, threading.
+- [Let Idle Workers Take Work Rather Than Busy Ones Hand It Out](PAT_let_idle_workers_take_work_rather_than_busy_ones_hand_it_out.md) - pattern; 0 design. Tags: concurrency, contention, design, load_balancing, scheduling.
 - [Lock the Smallest Region That Must Be Atomic](PAT_lock_the_smallest_region_that_must_be_atomic.md) - pattern; 2 block. Tags: concurrency, contention, locking, performance, threading.
 - [Make Every Concurrent Operation a Complete Transaction](PAT_make_every_concurrent_operation_a_complete_transaction.md) - pattern; 0 design. Tags: api_design, concurrency, interfaces, invariants, threading.
 - [Mark a Node Removed Before Unlinking It](PAT_mark_a_node_removed_before_unlinking_it.md) - pattern; 0 design. Tags: concurrency, data_structures, design, invariants, lock_free.
