@@ -18,6 +18,7 @@
 - [Make Threads Unjoinable on Every Path](PAT_make_threads_unjoinable_on_every_path.md) - pattern; 2 block. Tags: concurrency, cpp, lifecycle, resource_management, threading.
 - [Prefer a Task to a Thread When Work Returns Something](PAT_prefer_a_task_to_a_thread_when_work_returns_something.md) - pattern; 0 design. Tags: concurrency, cpp, error_handling, tasks, threading.
 - [Reach for a Fence Only When No Atomic Carries the Order](PAT_reach_for_a_fence_only_when_no_atomic_carries_the_order.md) - pattern; 2 block. Tags: atomics, concurrency, cpp, memory_model, performance.
+- [Restructure a Class That Locks Every Member Function](DRILL_restructure_a_class_that_locks_every_member.md) - drill; 3 rough. Tags: class_design, concurrency, cpp, locking.
 - [Specify a Memory Order the Operation Can Actually Carry](PAT_specify_a_memory_order_the_operation_can_actually_carry.md) - pattern; 2 block. Tags: atomics, avoiding_surprises, concurrency, cpp, memory_model.
 - [Specify the Launch Policy When Asynchrony Is Required](PAT_specify_the_launch_policy_when_asynchrony_is_required.md) - pattern; 2 block. Tags: api_design, avoiding_surprises, concurrency, cpp, threading.
 - [Stop a Thread by Asking It, Rather Than Killing It](PAT_stop_a_thread_by_asking_it_rather_than_killing_it.md) - pattern; 0 design. Tags: cancellation, concurrency, cpp, lifecycle, threading.

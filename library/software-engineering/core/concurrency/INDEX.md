@@ -16,12 +16,15 @@
 - [Choose Between a Parallel Program and Parallel Regions](PAT_choose_between_a_parallel_program_and_parallel_regions.md) - pattern; 0 design. Tags: architecture, concurrency, decomposition, design, scalability.
 - [Classify a Dependency Before Trying to Remove It](PAT_classify_a_dependency_before_trying_to_remove_it.md) - pattern; 0 design. Tags: concurrency, control_flow, correctness, decomposition, design.
 - [Classify Synchronization by the Progress It Guarantees](PAT_classify_synchronization_by_progress_guarantee.md) - pattern; 0 design. Tags: concurrency, design, lock_free, locking, threading.
+- [Classify the Dependencies in a Loop Before Parallelizing It](DRILL_classify_the_dependencies_in_a_loop.md) - drill; 3 rough. Tags: concurrency, control_flow, correctness, decomposition.
 - [Cover Many Regions With a Fixed Number of Locks](PAT_cover_many_regions_with_a_fixed_number_of_locks.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
+- [Decide Whether a Primitive Can Coordinate the Design](DRILL_decide_whether_a_primitive_can_coordinate_the_design.md) - drill; 0 design. Tags: atomics, concurrency, design, lock_free.
 - [Derive the Parallelism From Work and Span](PAT_derive_the_parallelism_from_work_and_span.md) - pattern; 0 design. Tags: concurrency, design, estimation, scalability, scheduling.
 - [Design a Parallel Decomposition](AP_design_a_parallel_decomposition.md) - ap; 0 design. Tags: concurrency, decomposition, design, load_balancing, scalability.
 - [Dispatch on Readiness or on Completion](PAT_dispatch_on_readiness_or_on_completion.md) - pattern; 0 design. Tags: concurrency, design, event_handling, io, patterns.
 - [Estimate a Concurrent Design's Ceiling Before Building It](PAT_estimate_a_concurrent_designs_ceiling_before_building_it.md) - pattern; 0 design. Tags: benchmarking, concurrency, design, estimation, measurement.
 - [Find the Axis the Parallelism Lies Along](PAT_find_the_axis_the_parallelism_lies_along.md) - pattern; 0 design. Tags: concurrency, decomposition, design, patterns, scalability.
+- [Fold an Interface Whose Operations Do Not Compose](DRILL_fold_an_unsafe_interface_into_transactions.md) - drill; 3 rough. Tags: concurrency, contracts, correctness, interface_design.
 - [Get the Single-Threaded Version Working First](PAT_get_the_single_threaded_version_working_first.md) - pattern; 1 skeleton. Tags: concurrency, debugging, separation_of_concerns, testing, threading.
 - [Give a Shared Object Its Own Thread Instead of a Lock](PAT_give_a_shared_object_its_own_thread_instead_of_a_lock.md) - pattern; 0 design. Tags: concurrency, design, latency, patterns, threading.
 - [Give Each Waiter Its Own Location to Spin On](PAT_give_each_waiter_its_own_location_to_spin_on.md) - pattern; 0 design. Tags: cache, concurrency, contention, fairness, locking.
@@ -37,9 +40,12 @@
 - [Match the Lock to the Length of the Critical Section](PAT_match_the_lock_to_the_length_of_the_critical_section.md) - pattern; 4 final. Tags: concurrency, contention, locking, performance, threading.
 - [Match the Problem to a Known Coordination Shape](PAT_match_the_problem_to_a_known_coordination_shape.md) - pattern; 0 design. Tags: concurrency, design, patterns, starvation, threading.
 - [Merge Concurrent Operations Into One Before Applying Them](PAT_merge_concurrent_operations_into_one_before_applying_them.md) - pattern; 0 design. Tags: concurrency, contention, design, latency, scalability.
+- [Name the Committing Step on Every Path](DRILL_name_the_committing_step_on_every_path.md) - drill; 3 rough. Tags: concurrency, correctness, lock_free, review.
 - [Place Cooperating Work at the Narrowest Scope That Holds It](PAT_place_cooperating_work_at_the_narrowest_scope_that_holds_it.md) - pattern; 0 design. Tags: concurrency, decomposition, design, gpu, locality.
 - [Publish Shared Data Through One Atomic Handle](PAT_publish_shared_data_through_one_atomic_handle.md) - pattern; 4 final. Tags: concurrency, data_structures, lock_free, memory_order, threading.
 - [Put the Thread-Safety Guarantee at the Transaction Boundary](PAT_put_the_thread_safety_guarantee_at_the_transaction_boundary.md) - pattern; 0 design. Tags: api_design, concurrency, design, invariants, threading.
+- [Replace Value Comparison With a Version Stamp](DRILL_replace_value_validation_with_a_version_stamp.md) - drill; 3 rough. Tags: concurrency, consistency, correctness, lock_free.
+- [Run the Decomposition Procedure on a Concrete Problem](DRILL_run_the_decomposition_procedure_on_a_problem.md) - drill; 3 rough. Tags: concurrency, decomposition, design, scalability.
 - [Run Threaded Code Under Conditions Built to Break It](PAT_run_threaded_code_under_conditions_built_to_break_it.md) - pattern; 3 rough. Tags: concurrency, defects, test_design, testing, threading.
 - [Search Without Locks, Then Lock and Validate](PAT_search_without_locks_then_lock_and_validate.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
 - [Separate Buffer Ownership From Message Delivery](PAT_separate_buffer_ownership_from_message_delivery.md) - pattern; 0 design. Tags: concurrency, design, distributed, io, latency.
@@ -49,6 +55,7 @@
 - [Split a Lock Only Where the Structure Makes the Regions Disjoint](PAT_split_a_lock_only_where_the_structure_makes_the_regions_disjoint.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
 - [Split Acquisition Into a Bounded Doorway and a Wait](PAT_split_acquisition_into_a_bounded_doorway_and_a_wait.md) - pattern; 0 design. Tags: concurrency, design, fairness, locking, starvation.
 - [Take a Consistent View by Collecting Twice](PAT_take_a_consistent_view_by_collecting_twice.md) - pattern; 0 design. Tags: concurrency, consistency, data_structures, design, lock_free.
+- [Trace Divergence and Coalescing From One Index Mapping](DRILL_trace_divergence_and_coalescing_from_an_index_mapping.md) - drill; 3 rough. Tags: concurrency, data_layout, gpu, performance.
 - [Trade Exact Ordering for Independent Sub-Structures](PAT_trade_exact_ordering_for_independent_substructures.md) - pattern; 0 design. Tags: concurrency, data_structures, design, scalability, threading.
 - [Treat a Failure You Cannot Reproduce as a Defect](PAT_treat_an_unreproducible_failure_as_a_defect.md) - pattern; 4 final. Tags: concurrency, defects, diagnosis, testing, threading.
 - [Two Atomic Operations Are Not One Atomic Operation](PAT_atomic_steps_do_not_compose_into_a_safe_whole.md) - pattern; 0 design. Tags: atomicity, concurrency, correctness, invariants, threading.
