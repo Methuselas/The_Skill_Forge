@@ -47,6 +47,7 @@ variants: []
 - Separate the two questions such a facility is asked to answer, because the answers differ. As a way to saturate many cores with compute, an asynchronous-call facility disappoints: implementations either provide limited parallelism or run each call on its own thread, and neither is what a throughput-bound program needs. As a way to *manage* tasks, it is a considerable improvement on raw threads — it carries return values back to the caller, propagates exceptions instead of terminating the program when one escapes, and leaves oversubscription and load balancing to a runtime that can see the machine. Which of those you need decides whether it is the right tool.
 - Weigh what raw threads make you responsible for before choosing them: exhaustion when the system will not create another, oversubscription when more are runnable than there are cores, distributing work between them, and adapting all of that to the next platform. A task-based facility is worth its limits partly because it takes those on.
 - Expect the raw thread interface to be too low-level in both directions. It costs too much for fine-grained work, and it exposes too little to build a scheduler on, since most of the attributes that would let you control placement and priority are platform-specific.
+- Invert this rule on hardware where a thread's context lives on-chip. A graphics processor keeps every thread's registers resident, so switching between groups of threads costs nothing, and the scheduler covers memory latency by running another group whenever one stalls. There, oversubscription is the *mechanism* rather than the waste: you deliberately launch far more threads than there are cores, because having spare groups ready is what keeps the memory pipeline covered. The rule above is a consequence of context switching being expensive, and it holds exactly as far as that premise does.
 - Set the count from cores, adjusted by measurement. Simultaneous multi-threading presents more logical processors than physical cores and the gain from the extra ones varies from substantial to nothing, so whether to count them is a question the program answers by being run both ways.
 
 ## Don't
@@ -60,6 +61,7 @@ variants: []
 - What does a thread cost to start on the target platform, relative to the work one task does?
 - Where do tasks queue up, and what happens when they arrive faster than they are consumed?
 - Is the thread count derived from the hardware, or from the shape of the input?
+- Does a context switch on this hardware actually cost anything, or is the premise behind the rule absent here?
 - Has the count been varied and measured, including with and without the logical cores?
 
 ## Notes
