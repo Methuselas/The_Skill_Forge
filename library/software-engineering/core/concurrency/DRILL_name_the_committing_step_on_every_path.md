@@ -52,7 +52,8 @@ No special setup required.
 
 ## Success Check
 - Every operation has at least one committing step written down, and operations with several outcomes have one per outcome.
-- For each, the before-and-after description shows the operation as entirely un-started and then entirely finished.
+- Each step is named as a specific line or operation, and no step named is the operation's return.
+- For at least one mutating path, a candidate step is written down and rejected, along with the observation that disqualified it — what an observer sees between that step and the real commit.
 - Any path lacking a single step is identified as a design defect rather than left blank.
 
 ## Common Failures

@@ -52,7 +52,8 @@ No special setup required.
 
 ## Success Check
 - The schedule from step 1 is now rejected by the validation.
-- The counter cannot repeat a value within one collection under the stated assumption.
+- The counter's width is derived from a stated bound on how long a participant may be delayed between its two passes, and the derivation is shown. A width that would wrap inside that bound is named and rejected.
+- What happens when no such bound exists — a paused process, a stopped debugger — is stated, and the answer is not a wider counter.
 - A partly-completed write is detectable rather than collectable.
 - Repeated failure has a defined outcome that is not an unbounded retry.
 

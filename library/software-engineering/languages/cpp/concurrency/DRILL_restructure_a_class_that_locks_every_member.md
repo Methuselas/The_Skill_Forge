@@ -47,14 +47,14 @@ No special setup required.
 1. Find every path where a public function calls another public function on the same object. Say what happens at each with an ordinary mutex, and what happens with a recursive one.
 2. Move the locking so that public functions acquire it and non-public functions never do. Where a public function needed another's behaviour, extract that behaviour into a non-public function both can call.
 3. Check the accessibility of every function that still locks, and every function that no longer does, against the rule — not against what the code happened to need.
-4. Add a virtual interface function and an override, then decide whether the override locks. Justify the answer from how dispatch reaches it.
+4. Do this for both kinds of virtual, because they are reached differently. Make the public interface function virtual, override it in a derived class with the override declared private, and decide whether that override locks. Then add a non-public virtual hook that a public function calls, and decide whether that one locks. Justify each answer from how dispatch reaches the function.
 5. Make one piece of the guarded state static, and decide what that does to the mutex. Say what breaks if the mutex stays per-object.
 6. Find any place the class calls out to something it does not control while holding the lock — a callback, a comparator, a virtual call — and restructure so the call happens outside the guarded region.
 
 ## Success Check
 - Every public member function acquires the lock; no non-public one does.
 - No public function calls another public function on the same object.
-- The virtual override's locking decision is stated with its reason, not merely made.
+- Each of the two virtuals has its locking decision stated with its reason, and each reason is drawn from how dispatch reaches that function rather than from its declared accessibility.
 - Static state is guarded by a static mutex, and the failure of the per-object version is stated.
 - No unknown code executes while the lock is held.
 

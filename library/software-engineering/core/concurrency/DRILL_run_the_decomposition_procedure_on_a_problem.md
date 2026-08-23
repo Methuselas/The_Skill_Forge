@@ -44,17 +44,17 @@ No special setup required.
 
 ## Instructions
 1. Choose the axis the parallelism lies along, and say which of the three it is and why the others were rejected.
-2. Split as finely as the algorithm allows — one piece per cell, not one per processor. Count the pieces and confirm the count is one to two orders of magnitude above the execution units you expect.
+2. Split as finely as the algorithm allows — one piece per cell, not one per processor. Count the pieces. The count should be a formula in the problem's own dimensions and should exceed the execution units by at least an order of magnitude; if it came out close to the unit count, you split to the machine rather than to the algorithm and must go back.
 3. For every piece, write down what it needs from its neighbours and how much. Total the crossings.
-4. Merge pieces into groups so the expensive crossings fall inside a group. Do this twice — once grouping along one dimension, once into rectangular tiles — and total the crossings for each.
-5. Compare the two totals against each other and against step 3. State which grouping wins and at what ratio of communication cost to computation cost the answer would flip.
+4. Merge pieces into groups so the expensive crossings fall inside a group, aiming for a group count one to two orders of magnitude above the execution units so that placement still has slack to work with. Do this twice — once grouping along one dimension, once into rectangular tiles — and total the crossings for each.
+5. Compare the two totals against each other and against step 3. State which grouping wins, and at what ratio of fixed per-transfer cost to per-value cost the answer would flip — computation is identical across the two groupings, so it cancels and cannot decide between them.
 6. Place the groups, balancing work and co-locating heavy communicators. Then state what would have to change if the execution unit count doubled.
 
 ## Success Check
-- The piece count after step 2 is far larger than the processor count, and nothing about the processors influenced it.
+- The piece count after step 2 is far larger than the processor count, and is written as a formula in the problem's own dimensions rather than as a multiple of the unit count.
 - The crossing totals for both groupings are written down as numbers, not as impressions.
-- The chosen grouping is justified by those numbers plus a stated cost ratio, not by which looked tidier.
-- The final answer includes what changes when the machine changes.
+- The chosen grouping is justified by those numbers plus the per-transfer-to-per-value ratio at which the choice flips, with a machine instantiated on each side of that threshold.
+- The final answer separates what changes when the machine changes from what does not, and says which steps would be redone.
 
 ## Common Failures
 - Splitting straight to the processor count, which fixes the granularity before the dependencies are known and disguises a mapping decision as a decomposition.

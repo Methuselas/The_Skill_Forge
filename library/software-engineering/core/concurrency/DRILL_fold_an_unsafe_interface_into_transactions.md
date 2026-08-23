@@ -52,6 +52,7 @@ No special setup required.
 
 ## Success Check
 - No operation's contract requires a fact the caller obtained from a previous call.
+- No surviving operation reports a fact about the collection's contents without also acting on them. Any query kept is documented as advisory and unusable as a precondition, and the reason it survived is stated.
 - The case that was formerly a precondition is now an ordinary return value.
 - The failing interleaving from step 2 can no longer be constructed against the new interface.
 

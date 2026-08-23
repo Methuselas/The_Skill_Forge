@@ -52,6 +52,7 @@ No special setup required.
 
 ## Success Check
 - Every conflict is classified, and the classification says which remedy applies rather than merely naming the kind.
+- For every location given private storage, the reason no flow runs through it is written down; and any location carrying both a flow and a name conflict is identified as such and left shared.
 - All shared-name conflicts are gone after privatization, with nothing reordered to accommodate them.
 - Any surviving flow is stated explicitly, along with what still runs in parallel despite it.
 
