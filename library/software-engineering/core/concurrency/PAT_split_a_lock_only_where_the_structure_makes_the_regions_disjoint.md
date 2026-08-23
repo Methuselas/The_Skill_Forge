@@ -49,6 +49,8 @@ variants: []
 - Find the operations that must still see both regions, and give them both locks. Answering whether the structure is empty means comparing the two ends, so it cannot be done under either lock alone. Take both, always in the same order, and hold them for that comparison only.
 - Accept the fixed order as a local obligation rather than a global discipline. Two locks acquired in one order inside one component is checkable by reading that component; it becomes the hazard the deadlock rules describe only when the order is a convention spread across a codebase.
 - Guard only what touches the shared structure. Constructing the new element is local work that no other thread can observe, so it belongs outside the guarded region; only the few operations that relink the shared structure belong inside.
+- Weigh how a structure maintains its own shape before choosing it for shared use, because that decides whether any split is available. A structure that periodically rebalances — restoring a depth guarantee by restructuring a region — has an operation that touches many nodes at once by design, and no lock granularity makes that operation local. A structure that reaches the same guarantee by having each element decide its own contribution to the shape at random, consulting nothing, has no such operation at all: its depth is a property of the distribution rather than of a maintenance pass.
+- Read randomization as a substitute for coordination rather than as a performance trick. Where a global decision would otherwise be needed — how tall this node should be, where to look for a partner, how long to wait before retrying — letting each participant draw independently gets the aggregate property without anyone consulting anyone. That is why probabilistic structures so often survive concurrency better than their deterministic equivalents, and it is worth checking for before concluding a structure resists splitting.
 - Recognise when no split exists. Where every operation acts on the same region by definition — a stack pushes and pops at one end — there are no disjoint regions to find, and the available moves are a different structure, less sharing, or accepting the single lock.
 - Reach the coarse version first and keep it. It is the reference the fine-grained one is checked against, both for behaviour and for whether the split bought anything.
 
@@ -64,6 +66,7 @@ variants: []
 - What in the structure guarantees they cannot — an invariant, or the way the operations happen to be written?
 - Which operations need both locks, and are they taken in the same order everywhere?
 - Is any work inside a guarded region that no other thread could observe?
+- Does this structure have an operation that restores a global property by touching many nodes at once?
 - Does the coarse-grained version still exist to check this one against?
 - Has the split been measured, and did the overlapping operations actually overlap?
 
