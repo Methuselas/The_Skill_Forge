@@ -38,6 +38,7 @@
 - [Put the Thread-Safety Guarantee at the Transaction Boundary](PAT_put_the_thread_safety_guarantee_at_the_transaction_boundary.md) - pattern; 0 design. Tags: api_design, concurrency, design, invariants, threading.
 - [Run Threaded Code Under Conditions Built to Break It](PAT_run_threaded_code_under_conditions_built_to_break_it.md) - pattern; 3 rough. Tags: concurrency, defects, test_design, testing, threading.
 - [Search Without Locks, Then Lock and Validate](PAT_search_without_locks_then_lock_and_validate.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
+- [Separate Buffer Ownership From Message Delivery](PAT_separate_buffer_ownership_from_message_delivery.md) - pattern; 0 design. Tags: concurrency, design, distributed, io, latency.
 - [Separate Per-Thread Data by a Full Cache Line](PAT_separate_per_thread_data_by_a_cache_line.md) - pattern; 4 final. Tags: concurrency, memory, performance, shared_state, threading.
 - [Size the Thread Count to the Hardware, Not to the Work](PAT_do_not_create_a_thread_for_every_task.md) - pattern; 0 design. Tags: concurrency, design, performance, scalability, threading.
 - [Specify a Concurrent Object as a Sequential Object Plus a Correctness Condition](PAT_specify_a_concurrent_object_as_a_sequential_object_plus_a_correctness_condition.md) - pattern; 0 design. Tags: composition, concurrency, contracts, correctness, design.
