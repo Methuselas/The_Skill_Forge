@@ -2,6 +2,41 @@
 
 # Software Engineering / Languages / Cpp / Concurrency
 
+## Reading order
+
+_Read a foundation before the skills that build on it (`prerequisite_for`)._
+
+- **Check an Atomic Is Lock-Free Before Relying on It** — read first
+  - then: Choose the Compare-Exchange Form by Whether You Loop
+  - then: Make Shared-Pointer Atomicity a Property of the Type
+- **Don't Call Unknown Code While Holding a Lock** — read first
+  - then: Restructure a Class That Locks Every Member Function
+- **Know When Two Accesses Are a Data Race** — read first
+  - then: Keep volatile and atomic Apart
+  - then: Make Shared-Pointer Atomicity a Property of the Type
+  - then: Make the Acquire Actually Observe the Release
+  - then: Wrap a Thread Argument That Must Arrive by Reference
+  - then: Write to a Shared Stream Through a Synchronized Wrapper
+- **Lock at the Public Boundary and Nowhere Inside** — read first
+  - then: Restructure a Class That Locks Every Member Function
+- **Make the Acquire Actually Observe the Release** — read first
+  - then: Reach for a Fence Only When No Atomic Carries the Order
+- **Make Threads Unjoinable on Every Path** — read first
+  - then: Prefer a Task to a Thread When Work Returns Something
+  - then: Stop a Thread by Asking It, Rather Than Killing It
+  - then: Wrap a Thread Argument That Must Arrive by Reference
+- **Prefer a Task to a Thread When Work Returns Something** — read first
+  - then: Specify the Launch Policy When Asynchrony Is Required
+- **Specify a Memory Order the Operation Can Actually Carry** — read first
+  - then: Make the Acquire Actually Observe the Release
+  - then: Reach for a Fence Only When No Atomic Carries the Order
+- **Take the Simplest Lock Type That Does the Job** — read first
+  - then: Don't Call Unknown Code While Holding a Lock
+  - then: Wait on a Predicate, Not on a Notification
+- **Wait on a Predicate, Not on a Notification** — read first
+  - then: Choose Between a Semaphore, a Latch, and a Barrier
+  - then: Stop a Thread by Asking It, Rather Than Killing It
+
 ## Objects
 
 - [Check an Atomic Is Lock-Free Before Relying on It](PAT_check_an_atomic_is_lock_free_before_relying_on_it.md) - pattern; 2 block. Tags: atomics, concurrency, cpp, lock_free, portability.

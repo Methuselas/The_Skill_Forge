@@ -26,6 +26,10 @@ cross_links:
   target_object_id: PAT_make_the_acquire_actually_observe_the_release
 - rel: related_to
   target_object_id: PAT_match_the_problem_to_a_known_coordination_shape
+- rel: prerequisite_for
+  target_object_id: PAT_stop_a_thread_by_asking_it_rather_than_killing_it
+- rel: prerequisite_for
+  target_object_id: PAT_choose_between_a_semaphore_a_latch_and_a_barrier
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

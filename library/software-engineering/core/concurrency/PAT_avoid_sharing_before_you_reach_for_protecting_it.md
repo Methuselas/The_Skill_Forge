@@ -27,6 +27,16 @@ cross_links:
   target_object_id: PAT_verify_an_object_is_as_immutable_as_you_think
 - rel: related_to
   target_object_id: PAT_avoid_global_state_inject_shared_state
+- rel: prerequisite_for
+  target_object_id: PAT_keep_thread_aware_code_away_from_thread_ignorant_code
+- rel: prerequisite_for
+  target_object_id: PAT_verify_an_object_is_as_immutable_as_you_think
+- rel: prerequisite_for
+  target_object_id: PAT_give_a_shared_object_its_own_thread_instead_of_a_lock
+- rel: prerequisite_for
+  target_object_id: AP_design_a_parallel_decomposition
+- rel: prerequisite_for
+  target_object_id: DRILL_classify_the_dependencies_in_a_loop
 reference:
   source_title: 'Clean Code: A Handbook of Agile Software Craftsmanship'
   author: Robert C. Martin, with Brett L. Schuchert

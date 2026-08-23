@@ -27,6 +27,10 @@ cross_links:
   target_object_id: PAT_model_the_design_before_there_is_code_to_measure
 - rel: related_to
   target_object_id: PAT_let_idle_workers_take_work_rather_than_busy_ones_hand_it_out
+- rel: prerequisite_for
+  target_object_id: PAT_estimate_a_concurrent_designs_ceiling_before_building_it
+- rel: prerequisite_for
+  target_object_id: AP_design_a_parallel_decomposition
 reference:
   source_title: The Art of Multiprocessor Programming
   author: Maurice Herlihy, Nir Shavit, Victor Luchangco, Michael Spear

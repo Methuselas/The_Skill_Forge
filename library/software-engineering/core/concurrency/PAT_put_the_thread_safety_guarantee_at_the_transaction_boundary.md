@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_avoid_sharing_before_you_reach_for_protecting_it
 - rel: related_to
   target_object_id: PAT_define_your_code_contract_explicitly
+- rel: prerequisite_for
+  target_object_id: DRILL_fold_an_unsafe_interface_into_transactions
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus

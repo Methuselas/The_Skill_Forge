@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_take_the_simplest_lock_type_that_does_the_job
 - rel: related_to
   target_object_id: PAT_lock_the_smallest_region_that_must_be_atomic
+- rel: prerequisite_for
+  target_object_id: DRILL_restructure_a_class_that_locks_every_member
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

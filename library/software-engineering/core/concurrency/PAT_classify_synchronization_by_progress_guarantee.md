@@ -27,6 +27,12 @@ cross_links:
   target_object_id: PAT_atomic_steps_do_not_compose_into_a_safe_whole
 - rel: related_to
   target_object_id: PAT_avoid_sharing_before_you_reach_for_protecting_it
+- rel: prerequisite_for
+  target_object_id: PAT_announce_the_operation_so_another_thread_can_finish_it
+- rel: prerequisite_for
+  target_object_id: PAT_split_acquisition_into_a_bounded_doorway_and_a_wait
+- rel: prerequisite_for
+  target_object_id: DRILL_decide_whether_a_primitive_can_coordinate_the_design
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus

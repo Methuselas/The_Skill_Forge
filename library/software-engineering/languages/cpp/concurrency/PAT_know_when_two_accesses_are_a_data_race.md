@@ -26,6 +26,16 @@ cross_links:
   target_object_id: PAT_treat_undefined_behavior_as_a_whole_program_assumption
 - rel: related_to
   target_object_id: PAT_weaken_a_memory_order_only_against_a_measurement
+- rel: prerequisite_for
+  target_object_id: PAT_keep_volatile_and_atomic_apart
+- rel: prerequisite_for
+  target_object_id: PAT_make_the_acquire_actually_observe_the_release
+- rel: prerequisite_for
+  target_object_id: PAT_make_shared_pointer_atomicity_a_property_of_the_type
+- rel: prerequisite_for
+  target_object_id: PAT_wrap_a_thread_argument_that_must_arrive_by_reference
+- rel: prerequisite_for
+  target_object_id: PAT_write_to_a_shared_stream_through_a_synchronized_wrapper
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

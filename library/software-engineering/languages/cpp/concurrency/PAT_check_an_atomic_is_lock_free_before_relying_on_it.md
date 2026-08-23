@@ -26,6 +26,10 @@ cross_links:
   target_object_id: PAT_know_when_two_accesses_are_a_data_race
 - rel: related_to
   target_object_id: PAT_choose_the_compare_exchange_form_by_whether_you_loop
+- rel: prerequisite_for
+  target_object_id: PAT_choose_the_compare_exchange_form_by_whether_you_loop
+- rel: prerequisite_for
+  target_object_id: PAT_make_shared_pointer_atomicity_a_property_of_the_type
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

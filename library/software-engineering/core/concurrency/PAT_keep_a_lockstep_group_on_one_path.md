@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_choose_between_a_parallel_program_and_parallel_regions
 - rel: related_to
   target_object_id: PAT_trade_a_branch_for_unconditional_work
+- rel: prerequisite_for
+  target_object_id: DRILL_trace_divergence_and_coalescing_from_an_index_mapping
 reference:
   source_title: 'Multicore and GPU Programming: An Integrated Approach'
   author: Gerassimos Barlas

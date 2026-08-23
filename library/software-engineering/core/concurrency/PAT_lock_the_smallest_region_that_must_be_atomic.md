@@ -25,6 +25,14 @@ cross_links:
   target_object_id: PAT_avoid_sharing_before_you_reach_for_protecting_it
 - rel: related_to
   target_object_id: PAT_break_one_of_deadlocks_four_conditions
+- rel: prerequisite_for
+  target_object_id: PAT_match_the_lock_to_the_length_of_the_critical_section
+- rel: prerequisite_for
+  target_object_id: PAT_split_a_lock_only_where_the_structure_makes_the_regions_disjoint
+- rel: prerequisite_for
+  target_object_id: PAT_cover_many_regions_with_a_fixed_number_of_locks
+- rel: prerequisite_for
+  target_object_id: PAT_search_without_locks_then_lock_and_validate
 reference:
   source_title: 'Clean Code: A Handbook of Agile Software Craftsmanship'
   author: Robert C. Martin, with Brett L. Schuchert

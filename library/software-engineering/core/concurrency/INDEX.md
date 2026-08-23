@@ -2,6 +2,66 @@
 
 # Software Engineering / Foundations / Concurrency
 
+## Reading order
+
+_Read a foundation before the skills that build on it (`prerequisite_for`)._
+
+- **Avoid Sharing Before You Reach for Protecting It** — read first
+  - then: Classify the Dependencies in a Loop Before Parallelizing It
+  - then: Design a Parallel Decomposition
+  - then: Give a Shared Object Its Own Thread Instead of a Lock
+  - then: Immutability Is a Guarantee You Have to Actually Check
+  - then: Keep Thread-Aware Code Away From Thread-Ignorant Code
+- **Check a Primitive's Coordination Power Before Designing on It** — read first
+  - then: Decide Whether a Primitive Can Coordinate the Design
+- **Classify a Dependency Before Trying to Remove It** — read first
+  - then: Classify the Dependencies in a Loop Before Parallelizing It
+- **Classify Synchronization by the Progress It Guarantees** — read first
+  - then: Announce the Operation So Another Thread Can Finish It
+  - then: Decide Whether a Primitive Can Coordinate the Design
+  - then: Split Acquisition Into a Bounded Doorway and a Wait
+- **Derive the Parallelism From Work and Span** — read first
+  - then: Design a Parallel Decomposition
+  - then: Estimate a Concurrent Design's Ceiling Before Building It
+- **Design a Parallel Decomposition** — read first
+  - then: Run the Decomposition Procedure on a Concrete Problem
+- **Find the Axis the Parallelism Lies Along** — read first
+  - then: Choose Between a Parallel Program and Parallel Regions
+  - then: Design a Parallel Decomposition
+  - then: Run the Decomposition Procedure on a Concrete Problem
+- **Get the Single-Threaded Version Working First** — read first
+  - then: Run Threaded Code Under Conditions Built to Break It
+  - then: Treat a Failure You Cannot Reproduce as a Defect
+- **Give Every Operation One Instant Where It Takes Effect** — read first
+  - then: Name the Committing Step on Every Path
+- **Keep a Lockstep Group on One Path** — read first
+  - then: Trace Divergence and Coalescing From One Index Mapping
+- **Keep the Memory Alive Until the Compare-and-Swap Completes** — read first
+  - then: Mark a Node Removed Before Unlinking It
+  - then: Replace Value Comparison With a Version Stamp
+- **Let Idle Workers Take Work Rather Than Busy Ones Hand It Out** — read first
+  - then: Design a Parallel Decomposition
+- **Lock the Smallest Region That Must Be Atomic** — read first
+  - then: Cover Many Regions With a Fixed Number of Locks
+  - then: Match the Lock to the Length of the Critical Section
+  - then: Search Without Locks, Then Lock and Validate
+  - then: Split a Lock Only Where the Structure Makes the Regions Disjoint
+- **Make Every Concurrent Operation a Complete Transaction** — read first
+  - then: Fold an Interface Whose Operations Do Not Compose
+- **Put the Thread-Safety Guarantee at the Transaction Boundary** — read first
+  - then: Fold an Interface Whose Operations Do Not Compose
+- **Size the Thread Count to the Hardware, Not to the Work** — read first
+  - then: Let Idle Workers Take Work Rather Than Busy Ones Hand It Out
+- **Specify a Concurrent Object as a Sequential Object Plus a Correctness Condition** — read first
+  - then: Ask Both What Must Never Happen and What Must Eventually Happen
+  - then: Give Every Operation One Instant Where It Takes Effect
+  - then: Name the Committing Step on Every Path
+- **Take a Consistent View by Collecting Twice** — read first
+  - then: Replace Value Comparison With a Version Stamp
+- **Two Atomic Operations Are Not One Atomic Operation** — read first
+  - then: Make Every Concurrent Operation a Complete Transaction
+  - then: Put the Thread-Safety Guarantee at the Transaction Boundary
+
 ## Objects
 
 - [Announce the Operation So Another Thread Can Finish It](PAT_announce_the_operation_so_another_thread_can_finish_it.md) - pattern; 0 design. Tags: concurrency, design, latency, lock_free, starvation.

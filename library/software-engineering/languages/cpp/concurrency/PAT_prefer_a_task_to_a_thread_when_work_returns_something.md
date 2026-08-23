@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_make_threads_unjoinable_on_every_path
 - rel: related_to
   target_object_id: PAT_match_the_problem_to_a_known_coordination_shape
+- rel: prerequisite_for
+  target_object_id: PAT_specify_the_launch_policy_when_asynchrony_is_required
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

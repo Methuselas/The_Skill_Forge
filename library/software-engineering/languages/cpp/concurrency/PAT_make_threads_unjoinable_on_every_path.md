@@ -28,6 +28,12 @@ cross_links:
   target_object_id: PAT_do_not_create_a_thread_for_every_task
 - rel: related_to
   target_object_id: PAT_specify_the_launch_policy_when_asynchrony_is_required
+- rel: prerequisite_for
+  target_object_id: PAT_prefer_a_task_to_a_thread_when_work_returns_something
+- rel: prerequisite_for
+  target_object_id: PAT_stop_a_thread_by_asking_it_rather_than_killing_it
+- rel: prerequisite_for
+  target_object_id: PAT_wrap_a_thread_argument_that_must_arrive_by_reference
 reference:
   source_title: 'Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14'
   author: Scott Meyers

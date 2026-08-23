@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_split_a_lock_only_where_the_structure_makes_the_regions_disjoint
 - rel: related_to
   target_object_id: PAT_decide_if_the_problem_is_worth_parallelizing
+- rel: prerequisite_for
+  target_object_id: AP_design_a_parallel_decomposition
 reference:
   source_title: The Art of Multiprocessor Programming
   author: Maurice Herlihy, Nir Shavit, Victor Luchangco, Michael Spear

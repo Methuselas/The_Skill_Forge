@@ -27,6 +27,10 @@ cross_links:
   target_object_id: PAT_buy_concurrent_performance_with_restrictions
 - rel: related_to
   target_object_id: PAT_run_threaded_code_under_conditions_built_to_break_it
+- rel: prerequisite_for
+  target_object_id: PAT_mark_a_node_removed_before_unlinking_it
+- rel: prerequisite_for
+  target_object_id: DRILL_replace_value_validation_with_a_version_stamp
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus

@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_classify_synchronization_by_progress_guarantee
 - rel: related_to
   target_object_id: PAT_specify_a_concurrent_object_as_a_sequential_object_plus_a_correctness_condition
+- rel: prerequisite_for
+  target_object_id: DRILL_replace_value_validation_with_a_version_stamp
 reference:
   source_title: The Art of Multiprocessor Programming
   author: Maurice Herlihy, Nir Shavit, Victor Luchangco, Michael Spear

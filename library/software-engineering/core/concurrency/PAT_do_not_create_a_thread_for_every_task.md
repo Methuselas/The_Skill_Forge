@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_decide_if_the_problem_is_worth_parallelizing
 - rel: related_to
   target_object_id: PAT_check_for_memory_saturation_before_adding_threads
+- rel: prerequisite_for
+  target_object_id: PAT_let_idle_workers_take_work_rather_than_busy_ones_hand_it_out
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus

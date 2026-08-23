@@ -28,6 +28,8 @@ cross_links:
   target_object_id: PAT_dont_call_unknown_code_while_holding_a_lock
 - rel: related_to
   target_object_id: PAT_give_a_shared_object_its_own_thread_instead_of_a_lock
+- rel: prerequisite_for
+  target_object_id: DRILL_restructure_a_class_that_locks_every_member
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

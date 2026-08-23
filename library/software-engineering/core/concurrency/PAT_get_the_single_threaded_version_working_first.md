@@ -25,6 +25,10 @@ cross_links:
   target_object_id: PAT_run_threaded_code_under_conditions_built_to_break_it
 - rel: related_to
   target_object_id: PAT_diagnose_source_of_code_confusion
+- rel: prerequisite_for
+  target_object_id: PAT_run_threaded_code_under_conditions_built_to_break_it
+- rel: prerequisite_for
+  target_object_id: PAT_treat_an_unreproducible_failure_as_a_defect
 reference:
   source_title: 'Clean Code: A Handbook of Agile Software Craftsmanship'
   author: Robert C. Martin, with Brett L. Schuchert

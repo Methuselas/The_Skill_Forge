@@ -27,6 +27,12 @@ cross_links:
   target_object_id: PAT_let_idle_workers_take_work_rather_than_busy_ones_hand_it_out
 - rel: related_to
   target_object_id: PAT_match_the_problem_to_a_known_coordination_shape
+- rel: prerequisite_for
+  target_object_id: PAT_choose_between_a_parallel_program_and_parallel_regions
+- rel: prerequisite_for
+  target_object_id: AP_design_a_parallel_decomposition
+- rel: prerequisite_for
+  target_object_id: DRILL_run_the_decomposition_procedure_on_a_problem
 reference:
   source_title: 'Multicore and GPU Programming: An Integrated Approach'
   author: Gerassimos Barlas

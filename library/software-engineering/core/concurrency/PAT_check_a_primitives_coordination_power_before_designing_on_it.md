@@ -29,6 +29,8 @@ cross_links:
   target_object_id: PAT_estimate_a_concurrent_designs_ceiling_before_building_it
 - rel: related_to
   target_object_id: PAT_announce_the_operation_so_another_thread_can_finish_it
+- rel: prerequisite_for
+  target_object_id: DRILL_decide_whether_a_primitive_can_coordinate_the_design
 reference:
   source_title: The Art of Multiprocessor Programming
   author: Maurice Herlihy, Nir Shavit, Victor Luchangco, Michael Spear

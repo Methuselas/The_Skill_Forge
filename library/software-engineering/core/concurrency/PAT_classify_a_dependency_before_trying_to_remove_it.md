@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_find_the_axis_the_parallelism_lies_along
 - rel: related_to
   target_object_id: PAT_avoid_sharing_before_you_reach_for_protecting_it
+- rel: prerequisite_for
+  target_object_id: DRILL_classify_the_dependencies_in_a_loop
 reference:
   source_title: 'Multicore and GPU Programming: An Integrated Approach'
   author: Gerassimos Barlas

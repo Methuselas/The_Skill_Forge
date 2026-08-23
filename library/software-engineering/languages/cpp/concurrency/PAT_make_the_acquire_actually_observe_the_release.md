@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_specify_a_memory_order_the_operation_can_actually_carry
 - rel: related_to
   target_object_id: PAT_know_when_two_accesses_are_a_data_race
+- rel: prerequisite_for
+  target_object_id: PAT_reach_for_a_fence_only_when_no_atomic_carries_the_order
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

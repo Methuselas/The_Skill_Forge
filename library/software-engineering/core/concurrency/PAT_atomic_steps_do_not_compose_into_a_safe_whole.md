@@ -25,6 +25,10 @@ cross_links:
   target_object_id: PAT_assume_calls_can_overlap_and_arrive_in_any_order
 - rel: related_to
   target_object_id: PAT_define_your_code_contract_explicitly
+- rel: prerequisite_for
+  target_object_id: PAT_make_every_concurrent_operation_a_complete_transaction
+- rel: prerequisite_for
+  target_object_id: PAT_put_the_thread_safety_guarantee_at_the_transaction_boundary
 reference:
   source_title: 'Implementing Effective Code Reviews: How to Build and Maintain Clean Code'
   author: Giuliana Carullo

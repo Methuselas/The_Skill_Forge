@@ -15,12 +15,25 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Write Down the Problem in Terms That Name No Solution
 - **Assume It Is Not Easy, Because You Cannot Remember It Being Hard** — read first
   - then: Work Out Which Stage a Learner Is At Before Choosing How to Help
+- **Avoid Sharing Before You Reach for Protecting It** — read first
+  - then: Classify the Dependencies in a Loop Before Parallelizing It
+  - then: Design a Parallel Decomposition
+  - then: Give a Shared Object Its Own Thread Instead of a Lock
+  - then: Immutability Is a Guarantee You Have to Actually Check
+  - then: Keep Thread-Aware Code Away From Thread-Ignorant Code
 - **Change Structure or Change Behaviour, Never Both in One Pass** — read first
   - then: Refactor Working Code Without Breaking It
+- **Check a Primitive's Coordination Power Before Designing on It** — read first
+  - then: Decide Whether a Primitive Can Coordinate the Design
+- **Check an Atomic Is Lock-Free Before Relying on It** — read first
+  - then: Choose the Compare-Exchange Form by Whether You Loop
+  - then: Make Shared-Pointer Atomicity a Property of the Type
 - **Choose the Level Before You Touch the Code** — read first
   - then: Tune a Measured Bottleneck
 - **Choose the Problem's Representation Before Solving It** — read first
   - then: Add Detail Until the Model Admits One Reading
+- **Classify a Dependency Before Trying to Remove It** — read first
+  - then: Classify the Dependencies in a Loop Before Parallelizing It
 - **Classify Error Recoverability From the Caller's Position** — read first
   - then: Don't Hide Errors Behind Default or Silent Results
   - then: Fail Fast So Errors Surface Near Their Source
@@ -33,6 +46,10 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Return an Outcome and Enforce That Callers Check It
   - then: Signal Absent Values With Null Safety or Optionals
   - then: Treat Compiler Warnings as Potential Bugs
+- **Classify Synchronization by the Progress It Guarantees** — read first
+  - then: Announce the Operation So Another Thread Can Finish It
+  - then: Decide Whether a Primitive Can Coordinate the Design
+  - then: Split Acquisition Into a Bounded Doorway and a Wait
 - **Compose Modules With Few Well-Defined Interfaces** — read first
   - then: Depend on Interfaces, Not Concrete Classes
   - then: Don't Leak Implementation Details in Exceptions
@@ -51,6 +68,11 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Represent a Layer With an Interface When It Earns Its Keep
   - then: Size Classes by the Quality Pillars, Not Line Counts
   - then: Tune Layer Thickness and Err on the Side of Thin
+- **Derive the Parallelism From Work and Span** — read first
+  - then: Design a Parallel Decomposition
+  - then: Estimate a Concurrent Design's Ceiling Before Building It
+- **Design a Parallel Decomposition** — read first
+  - then: Run the Decomposition Procedure on a Concrete Problem
 - **Design Code to Be Reusable and Generalizable** — read first
   - then: Avoid Global State; Dependency-Inject Shared State
   - then: Avoid Unnecessary Assumptions and Enforce Necessary Ones
@@ -74,6 +96,17 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Test Through the Public API, Not Implementation Details
   - then: Use a Test Double Only When a Real Dependency Won't Do
   - then: Use an Assertion Matcher That Fits the Behavior
+- **Don't Call Unknown Code While Holding a Lock** — read first
+  - then: Restructure a Class That Locks Every Member Function
+- **Find the Axis the Parallelism Lies Along** — read first
+  - then: Choose Between a Parallel Program and Parallel Regions
+  - then: Design a Parallel Decomposition
+  - then: Run the Decomposition Procedure on a Concrete Problem
+- **Get the Single-Threaded Version Working First** — read first
+  - then: Run Threaded Code Under Conditions Built to Break It
+  - then: Treat a Failure You Cannot Reproduce as a Defect
+- **Give Every Operation One Instant Where It Takes Effect** — read first
+  - then: Name the Committing Step on Every Path
 - **Identify Your Code's Contract Explicitly** — read first
   - then: Convey How to Use Code Through Names and Types, Not Documentation
   - then: Enforce Contracts at Runtime With Loud Checks
@@ -95,13 +128,41 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Match the Caller's Mental Model
   - then: Reuse Existing Solutions Instead of Reinventing
   - then: Write Code That Reads Like a Well-Structured Recipe
+- **Keep a Lockstep Group on One Path** — read first
+  - then: Trace Divergence and Coalescing From One Index Mapping
+- **Keep the Memory Alive Until the Compare-and-Swap Completes** — read first
+  - then: Mark a Node Removed Before Unlinking It
+  - then: Replace Value Comparison With a Version Stamp
+- **Know When Two Accesses Are a Data Race** — read first
+  - then: Keep volatile and atomic Apart
+  - then: Make Shared-Pointer Atomicity a Property of the Type
+  - then: Make the Acquire Actually Observe the Release
+  - then: Wrap a Thread Argument That Must Arrive by Reference
+  - then: Write to a Shared Stream Through a Synchronized Wrapper
+- **Let Idle Workers Take Work Rather Than Busy Ones Hand It Out** — read first
+  - then: Design a Parallel Decomposition
 - **Let Measurement Decide What to Tune, Never Intuition** — read first
   - then: Tune a Measured Bottleneck
 - **Locate the Working Set on the Memory Hierarchy** — read first
   - then: Choose the Data Structure for the Dominant Access Pattern
   - then: Spend Computation to Buy Sequential Access
+- **Lock at the Public Boundary and Nowhere Inside** — read first
+  - then: Restructure a Class That Locks Every Member Function
+- **Lock the Smallest Region That Must Be Atomic** — read first
+  - then: Cover Many Regions With a Fixed Number of Locks
+  - then: Match the Lock to the Length of the Critical Section
+  - then: Search Without Locks, Then Lock and Validate
+  - then: Split a Lock Only Where the Structure Makes the Regions Disjoint
+- **Make Every Concurrent Operation a Complete Transaction** — read first
+  - then: Fold an Interface Whose Operations Do Not Compose
+- **Make the Acquire Actually Observe the Release** — read first
+  - then: Reach for a Fence Only When No Atomic Carries the Order
 - **Make the Benchmarked Work Observable** — read first
   - then: Locate a Performance Bottleneck by Measurement
+- **Make Threads Unjoinable on Every Path** — read first
+  - then: Prefer a Task to a Thread When Work Returns Something
+  - then: Stop a Thread by Asking It, Rather Than Killing It
+  - then: Wrap a Thread Argument That Must Arrive by Reference
 - **Make Wrong Usage Hard or Impossible** — read first
   - then: Keep Classes Immutable With Builder or Copy-on-Write
   - then: Keep a Single Source of Truth for Data
@@ -124,6 +185,10 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Tune a Measured Bottleneck
 - **Name the Operations the Thing Supports Before Choosing How to Store It** — read first
   - then: Ask Whether a New Method Belongs Before You Add It
+- **Prefer a Task to a Thread When Work Returns Something** — read first
+  - then: Specify the Launch Policy When Asynchrony Is Required
+- **Put the Thread-Safety Guarantee at the Transaction Boundary** — read first
+  - then: Fold an Interface Whose Operations Do Not Compose
 - **Read a Profile as a Statement About Machine Code** — read first
   - then: Locate a Performance Bottleneck by Measurement
 - **Read Coverage as a Floor, Never as a Score** — read first
@@ -137,6 +202,20 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - **Separate Storage Strength From Retrieval Strength** — read first
   - then: Attempt Recall Before Looking Syntax Up
   - then: Space Practice Across Widening Intervals
+- **Size the Thread Count to the Hardware, Not to the Work** — read first
+  - then: Let Idle Workers Take Work Rather Than Busy Ones Hand It Out
+- **Specify a Concurrent Object as a Sequential Object Plus a Correctness Condition** — read first
+  - then: Ask Both What Must Never Happen and What Must Eventually Happen
+  - then: Give Every Operation One Instant Where It Takes Effect
+  - then: Name the Committing Step on Every Path
+- **Specify a Memory Order the Operation Can Actually Carry** — read first
+  - then: Make the Acquire Actually Observe the Release
+  - then: Reach for a Fence Only When No Atomic Carries the Order
+- **Take a Consistent View by Collecting Twice** — read first
+  - then: Replace Value Comparison With a Version Stamp
+- **Take the Simplest Lock Type That Does the Job** — read first
+  - then: Don't Call Unknown Code While Holding a Lock
+  - then: Wait on a Predicate, Not on a Notification
 - **Tell a Misconception From a Slip Before Trying to Fix It** — read first
   - then: Replace a Misconception Rather Than Correcting It
 - **Test Just Below, Exactly On, and Just Above Every Boundary** — read first
@@ -145,6 +224,12 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Choose Test Cases Systematically
 - **Trace Each Variable From Definition to Use** — read first
   - then: Choose Test Cases Systematically
+- **Two Atomic Operations Are Not One Atomic Operation** — read first
+  - then: Make Every Concurrent Operation a Complete Transaction
+  - then: Put the Thread-Safety Guarantee at the Transaction Boundary
+- **Wait on a Predicate, Not on a Notification** — read first
+  - then: Choose Between a Semaphore, a Latch, and a Barrier
+  - then: Stop a Thread by Asking It, Rather Than Killing It
 - **Work Out How the Code Got This Way Before You Improve It** — read first
   - then: Divide a Long Change Into Places You Could Walk Away From
 - **Work the Input Classes From a Fixed List, Not From Imagination** — read first
