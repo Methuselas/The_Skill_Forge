@@ -17,7 +17,13 @@ tags:
 - code_quality
 - over_engineering
 - requirements_change
-cross_links: []
+cross_links:
+- rel: related_to
+  target_object_id: PAT_beware_assumptions_avoid_or_enforce
+- rel: related_to
+  target_object_id: PAT_make_code_reusable_and_generalizable
+- rel: related_to
+  target_object_id: PAT_invest_in_quality_over_hacky_shortcut
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

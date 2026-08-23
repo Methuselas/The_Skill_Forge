@@ -17,7 +17,13 @@ tags:
 - granularity
 - coupling
 - judgment
-cross_links: []
+cross_links:
+- rel: related_to
+  target_object_id: PAT_size_classes_by_pillars_not_lines
+- rel: related_to
+  target_object_id: PAT_use_interfaces_for_swappable_layers
+- rel: related_to
+  target_object_id: PAT_dont_widen_api_for_reuse_or_testing
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

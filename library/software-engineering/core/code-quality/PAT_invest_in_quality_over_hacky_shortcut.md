@@ -17,7 +17,11 @@ tags:
 - code_quality
 - engineering_judgment
 - maintainability
-cross_links: []
+cross_links:
+- rel: related_to
+  target_object_id: PAT_balance_adaptability_without_predicting_future
+- rel: related_to
+  target_object_id: AP_refactor_working_code_safely
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

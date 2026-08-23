@@ -17,7 +17,13 @@ tags:
 - encapsulation
 - testability
 - reuse
-cross_links: []
+cross_links:
+- rel: related_to
+  target_object_id: PAT_dont_expose_privates_for_testing
+- rel: related_to
+  target_object_id: PAT_expose_clean_api_hide_implementation
+- rel: related_to
+  target_object_id: PAT_use_interfaces_for_swappable_layers
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

@@ -17,7 +17,13 @@ tags:
 - optionals
 - types
 - error_prevention
-cross_links: []
+cross_links:
+- rel: related_to
+  target_object_id: PAT_return_result_type_to_convey_error_cause
+- rel: related_to
+  target_object_id: PAT_avoid_returning_magic_values
+- rel: related_to
+  target_object_id: PAT_use_null_object_pattern_only_when_safe
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long
