@@ -15,8 +15,10 @@
 - [Classify Synchronization by the Progress It Guarantees](PAT_classify_synchronization_by_progress_guarantee.md) - pattern; 0 design. Tags: concurrency, design, lock_free, locking, threading.
 - [Cover Many Regions With a Fixed Number of Locks](PAT_cover_many_regions_with_a_fixed_number_of_locks.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
 - [Derive the Parallelism From Work and Span](PAT_derive_the_parallelism_from_work_and_span.md) - pattern; 0 design. Tags: concurrency, design, estimation, scalability, scheduling.
+- [Design a Parallel Decomposition](AP_design_a_parallel_decomposition.md) - ap; 0 design. Tags: concurrency, decomposition, design, load_balancing, scalability.
 - [Dispatch on Readiness or on Completion](PAT_dispatch_on_readiness_or_on_completion.md) - pattern; 0 design. Tags: concurrency, design, event_handling, io, patterns.
 - [Estimate a Concurrent Design's Ceiling Before Building It](PAT_estimate_a_concurrent_designs_ceiling_before_building_it.md) - pattern; 0 design. Tags: benchmarking, concurrency, design, estimation, measurement.
+- [Find the Axis the Parallelism Lies Along](PAT_find_the_axis_the_parallelism_lies_along.md) - pattern; 0 design. Tags: concurrency, decomposition, design, patterns, scalability.
 - [Get the Single-Threaded Version Working First](PAT_get_the_single_threaded_version_working_first.md) - pattern; 1 skeleton. Tags: concurrency, debugging, separation_of_concerns, testing, threading.
 - [Give a Shared Object Its Own Thread Instead of a Lock](PAT_give_a_shared_object_its_own_thread_instead_of_a_lock.md) - pattern; 0 design. Tags: concurrency, design, latency, patterns, threading.
 - [Give Each Waiter Its Own Location to Spin On](PAT_give_each_waiter_its_own_location_to_spin_on.md) - pattern; 0 design. Tags: cache, concurrency, contention, fairness, locking.
