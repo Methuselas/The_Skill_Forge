@@ -64,6 +64,8 @@ variants:
 - Let neighboring digits be visibly related instead of posing every finger as an isolated mechanism.
 - Treat the index as later in closure and the thumb as the final enclosing/opposing member.
 - Reverse the overall sequence when designing the fist opening.
+- After posing the local chains, check the four-finger group against the thumb and wrist as one mechanism; if the combined flexion pattern produces contradictory crossings, implausible relative fingertip placement, or an obviously strained read, revise the group rather than preserving each finger independently.
+- When a finger curls deeply toward or behind the palm, preserve its root-to-tip joint chain and distal/nail plane where that plane is needed to explain orientation; hide the chain by overlap rather than driving it through the palm mass or detaching it from the hand.
 
 ## Don't
 - Curl all four long fingers by the same amount at the same instant.
@@ -71,7 +73,7 @@ variants:
 - Turn the staged fist example into an unsupported universal ranking for every hand action.
 
 ## Checklist
-If the closing hand looks like four cloned finger animations attached to a palm, restore the staggered sequence and spiral.
+If the closing hand looks like cloned finger animations attached to a palm, restore the staggered sequence and spiral. Then trace each required curling digit from its palm root to its tip, verify that hidden portions pass behind rather than through the palm, and confirm that the resulting group, thumb where present, and wrist can coexist as one mechanically coherent hand rather than merely several individually plausible digit chains.
 
 ## Notes
 Finger closure reads more naturally when the digit group shares a staggered directional relationship while preserving any intentional independent action.

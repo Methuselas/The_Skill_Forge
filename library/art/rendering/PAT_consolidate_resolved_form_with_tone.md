@@ -241,17 +241,20 @@ variants:
 - Let tone unify forms that already have correct attachment, overlap, and volume.
 - Allow selected contour boundaries to soften, break, or disappear when adjacent value relationships still explain the form.
 - Distinguish study-mode modeling tone from a finished lighting statement; once scene light is specified, values must answer to that light unless an expressive composition deliberately bends it.
+- Place value edges and accents so they reinforce the already accepted planes, joints, and attachments. If a shadow or tonal seam creates an apparent articulation that the construction does not contain, repair the value statement rather than accepting the false structure.
 
 ## Don't
 - Use darkening to hide an unclear attachment, wrong perspective, contradictory overlap, or unresolved joint.
 - Shade every part independently until the subject becomes a collection of separately modeled pieces.
 - Treat one teaching value map as a universal formula for every light, material, or subject.
+- Invent a joint, split one continuous member into two, fuse a required member into its neighbor, or erase a structurally necessary orientation cue solely through value or edge treatment.
 
 ## Checklist
 - The largest value pattern reads before small modeling is added.
 - Tone makes the subject more coherent without moving the solved construction.
 - Lost or softened edges remain understandable through adjacent planes and values.
 - A finished rendering's value pattern agrees with the intended light, material, and compositional purpose.
+- No value edge or tonal merge introduces anatomy/structure absent from the accepted construction or removes a boundary/plane cue that is still required to read it correctly.
 
 ## Notes
 `VAR_loomis_freeze_changing_light_with_plane_value_key` adds Loomis's unstable-light field route: capture one chosen light state as a quick broad-plane L/H/S key, then develop against that fixed key instead of chasing later changes.

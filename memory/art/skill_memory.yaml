@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: art
-memory_version: 1
+memory_version: 5
 
 # Compact current empirical state for the Art lane. Contract:
 # PASS/docs/MEMORY_SCHEMA.md. This file is not canon and never becomes canon by
@@ -20,43 +20,106 @@ entries:
     type: recurring_failure
     evidence_class: stochastic_performance
     observation: >
-      In a full-scene action render with a character reference supplied, broad
-      identity, costume, palette, atmosphere and perspective stayed readable
-      while both visible hands degraded: the gripping hand lost clear thumb
-      opposition and digit separation, and the open hand lost digit grouping and
-      the wrist-to-hand transition.
+      Across earlier character renders and isolated hand benchmarks, individual
+      hands repeatedly failed through extra or missing digit chains, broken palm
+      roots, thumb/finger identity substitution, occlusion deleting anatomy, and
+      mechanically incoherent configurations. After the topology-first root-map
+      and deepest-to-nearest construction intervention, performance improved to a
+      provisional 28/30 no-object isolation retest, 14/15 on an extreme
+      hand-plus-forearm test, and 14/15 in a fresh chat with no renewed hand
+      coaching. Cold full-production renders preserved hand topology under strong
+      figure, costume, perspective, environment, and rendering load. Residual
+      topology misses remain possible, and one cold firearm render showed a
+      separate function/contact/load failure despite broadly coherent hand
+      topology.
     diagnosis:
       failure_layer: application
       hypothesis: >
-        Hand knowledge exists in canon and is applied under low load, but is not
-        held under competing full-scene demands, and post-render verification
-        did not catch what generation missed.
+        The topology-first root map plus deepest-to-nearest complete-chain route
+        materially reduces the earlier extra/missing/root-failure classes, and the
+        improvement now survives fresh-chat retention and full-production load.
+        Remaining topology misses are best treated as residual stochastic
+        application/verification failures rather than proof that the current hand
+        canon is underspecified. Object-constrained actions remain a distinct
+        vulnerability: a topologically valid hand can still fail palm seating,
+        digit wrap, thumb opposition, contact, or load/control semantics.
     boundary: >
-      Observed on a single high-load cyberpunk action render with a weapon in
-      hand. Not evidence about isolated or neutral hand studies, which were not
-      tested.
-    confidence: provisional
-    status: active
-    evidence_count: 1
+      Verified on ordinary human hands across no-object isolation, varied-angle
+      grips, extreme hand-plus-forearm foreshortening, fresh-chat retention, and
+      cold full-character production. The topology intervention has improved and
+      retained across chats, but it is not deterministic. Object-contact/function
+      transfer remains partial after one cold firearm-grip failure. Character-
+      specific nonhuman topology and broader object-contact classes have not been
+      retested to the same depth.
+    confidence: repeated
+    status: monitoring
+    evidence_count: 10
     evidence_events:
       - ART_EV_0001
+      - ART_EV_0004
+      - ART_EV_0005
+      - ART_EV_0006
+      - ART_EV_0007
+      - ART_EV_0008
+      - ART_EV_0009
+      - ART_EV_0010
+      - ART_EV_0011
+      - ART_EV_0012
     evidence_origin:
       - user_feedback
+      - human_teaching
       - runtime_self_audit
+      - training_benchmark
     likely_owners:
+      - AP_construct_hand_from_function_contact_and_articulated_form
+      - PAT_construct_hand_from_palm_wedge_and_digit_chain
       - PAT_configure_hand_around_function_contact_and_load
+      - PAT_sequence_finger_flexion_as_a_coupled_spiral
+      - PAT_orient_thumb_by_opposition_and_rotation
+      - PAT_consolidate_resolved_form_with_tone
     interventions:
-      - drill: none_run
-        isolation_result: untested
+      - drill: varied_hand_isolation_30
+        isolation_result: partial
         retention_result: untested
         transfer_result: untested
+      - drill: varied_angle_grip_isolation_30
+        isolation_result: partial
+        retention_result: untested
+        transfer_result: partial
+      - drill: no_object_foreshortened_hand_retest_30
+        isolation_result: partial
+        retention_result: untested
+        transfer_result: untested
+      - training: topology_first_root_map_deepest_to_nearest
+        isolation_result: improved
+        retention_result: improved
+        transfer_result: partial
     retrieval_cues:
       - hand
       - hands
+      - human
+      - humanoid
+      - finger
+      - fingers
+      - thumb
+      - digit
+      - topology
+      - root map
+      - extra digit
+      - missing digit
+      - digit chain
+      - occlusion
+      - overlap
+      - deepest to nearest
       - grip
-      - weapon
       - contact
-      - action pose
+      - load
+      - palm seating
+      - fist
+      - gesture
+      - biomechanics
+      - foreshortening
+      - direct render
     runtime_scope: generic
     last_verified: 2026-08-22
 

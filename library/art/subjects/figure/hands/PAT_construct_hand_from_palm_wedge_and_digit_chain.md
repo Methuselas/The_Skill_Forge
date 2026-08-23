@@ -132,32 +132,47 @@ variants:
     line, or override wrist rotation and perspective. They are alignment checks whose visibility and exact projection change
     with pose and view.
   absorbed_from_object_id: none
+- variant_id: VAR_training_construct_overlapping_digits_deepest_to_nearest
+  variant_name: Construct Overlapping Digits From Deepest to Nearest
+  variant_basis: method_sequence
+  difference_from_foundation: 'Adds a topology-preserving depth-order route for occluded or foreshortened hands: resolve the expected digit roots first, construct the most obscured required digit as a complete root-to-tip chain, then add progressively nearer required digits one at a time while counting completed chains against the established hand topology. Only after every required chain exists should nearer overlap reject the hidden construction from the visible result.'
+  when_to_use: Use when fingers overlap heavily, curl into the palm, interlace, or project strongly in depth and visible-contour drawing risks losing, duplicating, or mis-rooting digits.
+  when_not_to_use: Do not impose a human digit count when character/species anatomy establishes a different topology, and do not leave hidden construction visibly exposed in a finished artifact; this route governs internal construction and verification.
+  absorbed_from_object_id: none
 ---
 
 # Construct the Hand From a Palm Wedge and Digit Chains
 
 ## Pattern Rule
-**IF** a hand must be made dimensional before finger anatomy and contour detail
-**THEN** build a broad thick rear palm wedge that narrows toward the fingers, attach each finger as a rod-and-knuckle chain, and set the thumb as a separate spade-like wedge on an opposing plane
-**ELSE** return to the palm orientation before spreading or bending the digits
+**IF** a hand must be made dimensional before digit anatomy and contour detail
+**THEN** establish the palm wedge and the expected hand topology first, map one valid root for every required digit branch, and construct each branch as a continuous articulated chain before visible overlap is allowed to hide it
+**ELSE** return to the palm orientation and topology map before spreading or bending the digits
 
 ## Do
-- Graduate finger thickness from the heavier thumb and index side toward the little finger side.
-- Use knuckle capsules to articulate direction changes without losing each finger's continuous chain.
-- On the palm side, organize the thumb mound, little-finger cushion, and finger-base pads around the central triangular depression.
+- Resolve the expected topology from explicit design information or authoritative reference before counting digits. If no different anatomy is established for an otherwise humanlike subject, use a humanlike fallback of four long-finger roots on the finger side of the palm plus one thumb root on the thumb side.
+- Map all required roots before local contour or foreshortening hides their identities; each required branch gets one root and each root owns one branch.
+- When digits overlap strongly, use `VAR_training_construct_overlapping_digits_deepest_to_nearest`: fully construct the most obscured required chain first, then add progressively nearer chains one at a time, counting completed chains against the established topology. Reject hidden construction only after the anatomy exists underneath.
+- Graduate humanlike finger thickness from the heavier thumb and index side toward the little finger side; for nonhuman or stylized anatomy, preserve the established design rather than forcing this gradient.
+- Use knuckle capsules to articulate direction changes without losing each digit's continuous chain; when a chain passes behind another digit, preserve its hidden continuation rather than terminating it at the overlap.
+- On a humanlike palm side, organize the thumb mound, little-finger cushion, and finger-base pads around the central triangular depression.
 
 ## Don't
-- Build five equal tubes from a flat rectangle.
-- Keep the thumb coplanar with the fingers or attach it as a fifth parallel digit.
-- Add finger detail before the palm wedge establishes the hand view.
+- Treat a plausible silhouette or fingertip count as proof that the root topology is correct.
+- Add a new digit chain after the established topology is already complete simply because a shadow, gap, or overlap suggests one.
+- Let a required digit dissolve into the palm, detach from its root, share another digit's invented root, or penetrate the palm mass because its continuation is occluded or compressed.
+- For a humanlike hand, satisfy a five-protrusion silhouette with the wrong identities, such as three long fingers plus two thumb-like branches, or keep the thumb coplanar with the fingers as a fifth parallel digit.
+- Impose the humanlike 4+1 fallback on an established character/species design with different digit or joint topology.
+- Add digit detail before the palm wedge and root map establish the hand view.
 
 ## Checklist
 - The palm has a clear thick rear, shallow front, and readable facing plane.
-- Every digit traces to one base and changes direction at a knuckle.
-- The thumb opposes the finger group and can drop below the palm plane.
+- The completed digit set matches the established hand topology exactly; the humanlike fallback resolves as four long-finger chains plus one mechanically distinct thumb branch.
+- Every required digit traces root-to-tip through one unique valid base, remains continuous through overlap, and changes direction at joints rather than merging into or emerging arbitrarily from the palm.
+- No extra chain survives after the expected topology is complete.
+- When the topology includes a humanlike thumb, it opposes the finger group and can drop below the palm plane rather than behaving as another long finger.
 
 ## Notes
-The hand's complexity becomes manageable when the palm controls the view and the digits inherit their placement from it. The rod-and-ball idea explains articulation, while the wedge and cushion structure prevents a skeletal or mechanical-looking result.
+The hand's complexity becomes manageable when the palm controls the view and the digits inherit their placement from it. The topology map prevents a convincing contour from hiding an impossible anatomical graph. The rod-and-ball idea explains articulation, while the wedge and cushion structure prevents a skeletal or mechanical-looking result.
 
 `VAR_dynamic_hands_ch01_compound_palm_scoop` retains **Build the Palm as a Compound Scoop** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 
@@ -166,6 +181,8 @@ The hand's complexity becomes manageable when the palm controls the view and the
 `VAR_dynamic_hands_ch03_structural_palm_dome` retains **Preserve the Structural Palm Dome** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 
 `VAR_dynamic_hands_ch06_interlace_digit_depth` retains **Interlace Digit Chains Through Hand Foreshortening** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
+
+`VAR_training_construct_overlapping_digits_deepest_to_nearest` retains **Construct Overlapping Digits From Deepest to Nearest** as a bounded alternative; use it when overlap or foreshortening makes visible-contour construction likely to lose or duplicate digit chains.
 
 `VAR_bridgman_hand_action_inaction_sides` retains **Build Hand Action Against a Straight Inaction Side** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

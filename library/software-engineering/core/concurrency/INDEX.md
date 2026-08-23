@@ -13,6 +13,7 @@
 - [Cancel Complementary Operations Instead of Applying Them](PAT_cancel_complementary_operations_instead_of_applying_them.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, scalability.
 - [Check a Primitive's Coordination Power Before Designing on It](PAT_check_a_primitives_coordination_power_before_designing_on_it.md) - pattern; 0 design. Tags: atomics, concurrency, design, hardware, lock_free.
 - [Classify Synchronization by the Progress It Guarantees](PAT_classify_synchronization_by_progress_guarantee.md) - pattern; 0 design. Tags: concurrency, design, lock_free, locking, threading.
+- [Cover Many Regions With a Fixed Number of Locks](PAT_cover_many_regions_with_a_fixed_number_of_locks.md) - pattern; 0 design. Tags: concurrency, contention, data_structures, design, locking.
 - [Dispatch on Readiness or on Completion](PAT_dispatch_on_readiness_or_on_completion.md) - pattern; 0 design. Tags: concurrency, design, event_handling, io, patterns.
 - [Estimate a Concurrent Design's Ceiling Before Building It](PAT_estimate_a_concurrent_designs_ceiling_before_building_it.md) - pattern; 0 design. Tags: benchmarking, concurrency, design, estimation, measurement.
 - [Get the Single-Threaded Version Working First](PAT_get_the_single_threaded_version_working_first.md) - pattern; 1 skeleton. Tags: concurrency, debugging, separation_of_concerns, testing, threading.
