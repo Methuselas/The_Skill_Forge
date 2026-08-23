@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_estimate_the_order_before_you_run_it
 - rel: related_to
   target_object_id: PAT_check_concurrent_code_for_safety_and_liveness
+- rel: related_to
+  target_object_id: PAT_ask_whether_the_problem_grows_with_the_machine
 reference:
   source_title: 'Implementing Effective Code Reviews: How to Build and Maintain Clean Code'
   author: Giuliana Carullo
@@ -56,7 +58,7 @@ variants: []
 - Split in proportion to capability where you know it, since that recovers most of what dynamic balancing would give you and costs nothing at run time. It requires a model — relative speed per worker, and the cost of getting data to each — which is worth building when the platform is fixed and worth skipping when it is not. This is the honest case for a static split: not that the work is uniform, but that the non-uniformity is known in advance.
 - Distrust an equal split of the inputs as an equal split of the work. Cost per item is rarely uniform — some items are far more expensive than others, and which ones may not be knowable in advance — so partitioning the domain into equal ranges balances the wrong quantity. Handing pieces out on demand as workers finish balances the right one, at the price of a shared point of coordination that then has to be cheap.
 - Prefer deriving the ceiling from the algorithm's dependency structure where you can, rather than estimating a sequential fraction. The longest chain of steps that must run in order is a structural property you can read off the algorithm, and the total work divided by that chain gives the largest processor count worth using — which answers the same question the sequential-fraction estimate answers, without requiring a judgment about code that may not exist yet.
-- Hold the ceiling in mind before promising anything. Whatever fraction of the work stays sequential sets a hard limit on the total speedup, and that limit applies no matter how many units are added — doubling the resources on a computation that is a third sequential does not come close to doubling the speed.
+- Hold the ceiling in mind before promising anything, and hold its scope with it. Whatever fraction of the work stays sequential sets a hard limit on the total speedup for a problem of *fixed size* — doubling the resources on a computation that is a third sequential does not come close to doubling the speed. That qualifier is load-bearing and is usually dropped: where the problem grows alongside the machine, the sequential portion is often close to constant while the parallel work rises with the input, and the ceiling largely dissolves. Establish which regime this program runs in before quoting the limit at anyone.
 
 ## Don't
 - Don't expect the speedup to track the resources. The relationship is capped by the sequential remainder, and the gap between the naive expectation and the achievable result is where most disappointment with this approach comes from.
