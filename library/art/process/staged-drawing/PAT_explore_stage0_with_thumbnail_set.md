@@ -35,11 +35,6 @@ references:
   derived_from: guided Broken Gate canonical Drawing precedent run, accepted Stage 0
   origin: first_party_source
   review: passed
-- image_path: library/art/process/staged-drawing/assets/precedent_stage0a_observatory_rosetta_contact_sheet.png
-  caption: 'Supplementary composition-search precedent only: four alternatives keep one scene inventory while varying camera, crop, emphasis, spatial balance, and broad value grouping. Its historical rendering density is not the universal Stage 0 ceiling; calibrate density against Broken Gate Stage 0.'
-  derived_from: guided observatory Rosetta backcast and human approval; reclassified 2026-08-21
-  origin: first_party_source
-  review: passed
 variants:
 - variant_id: VAR_dodson_start_composition_with_format_figure_ground_and_few_shapes
   variant_name: Start Composition With Format, Figure-Ground Ratio, and a Few Dominant Shapes
@@ -83,8 +78,7 @@ variants:
     impression while jointly solving composition, proportions, movement, broad tone, surroundings, and focal hierarchy before
     detailed execution. For a many-hour live figure pose, record the essential movement early and let the control study preserve
     the intended pose if the model gradually drifts. During the final, periodically inspect the image at reduced scale or
-    viewing distance so the whole can be judged without local detail dominating attention. Unlike the foundation''s alternative-search
-    contact sheet, this study is a committed control image once the subject and direction are already chosen.'
+    viewing distance so the whole can be judged without local detail dominating attention. Unlike the foundation''s open alternative-search candidate set, this study is a committed control image once the subject and direction are already chosen.'
   when_to_use: Use when the model or assignment is fixed and a long, large, complex, or expensive drawing needs a compact
     control image that exposes large compositional, proportional, movement, tonal, surroundings, or focal-hierarchy problems
     before the final becomes expensive to revise; for a fixed live pose, also use the study as a stable movement authority
@@ -126,18 +120,18 @@ variants:
 
 ## Pattern Rule
 **IF** an open-ended visual request has no approved Stage 0 composition and the user has not fixed the camera/viewpoint, crop, and major placement
-**THEN** generate four to six meaningfully different rough composition candidates under the single universal Stage 0 low-information ceiling, preferring separate image outputs when the host supports them and otherwise using one neutral contact sheet; let the user select or redirect one, and treat only the explicitly user-approved candidate as the Stage 0 root
+**THEN** generate a **global total of four to six meaningfully different rough composition candidate images**, with exactly one composition candidate per image and no contact-sheet/production-sheet fallback; let the user select or redirect one, and treat only the explicitly user-approved candidate as the Stage 0 root
 **ELSE** preserve the supplied composition and generate only the requested candidate count
 
 ## Do
-- Use four candidates as the minimum useful open Search and up to six when the brief explicitly asks for camera/action experimentation. Prefer separate outputs when the host supports them so each candidate can become a clean predecessor after selection; an explicit user count overrides the default.
-- Give alternatives one canonical visible identifier each, normally `A`, `B`, `C`, and `D`. Do not mix numeric and alphabetic identifiers in the continuing branch. If the user says `4/D`, normalize that once to `D`.
+- Treat four to six as a **global controller total for one open Search cycle**, not a per-image instruction. Normally produce four; use five or six only when the brief benefits from additional camera/action exploration. Generate each candidate with its own native image invocation. **Never use a host multi-output option for Stage 0, even if one is available.** The image-facing task for each call describes only one rough composition proposition and contains no global count, candidate index, or batch language.
+- Give alternatives one canonical conversational identifier each, normally `A`, `B`, `C`, and `D`. Keep the identifier outside the artwork whenever the host/UI can associate it with the image. Do not mix numeric and alphabetic identifiers in the continuing branch. If the user says `4/D`, normalize that once to `D`.
 - Keep prompt inventory, story beat, and explicit constraints constant across the set. Vary meaningful picture decisions: action family, camera height/side/roll/distance, torso orientation, support/contact surface, crop, major placement, dominant diagonal, negative space, focal hierarchy, foreground relationship, silhouette family, depth path, broad light, and value grouping.
 - Make the alternatives structurally different enough that selection is a design decision rather than a near-duplicate preference. As a practical gate, each candidate should differ materially from its nearest neighbor across several coarse descriptors, not merely costume, limb micro-position, or rendering.
 - At the universal Stage 0 ceiling, stop at rough picture readability: camera, framing, large masses, placement, gesture, broad value/light grouping, and only enough identifying structure to imagine the eventual finish. Do not miniaturize a Stage 3/4 render or developed color concept into each thumbnail.
-- Keep the candidate set neutral unless the user asks for ranking. The assistant may privately evaluate strengths, but no star, border, “best/root” label, or automatic development may convert that preference into approval.
+- Keep the candidate set neutral unless the user explicitly asks for ranking **after the candidates exist**. The assistant may privately evaluate strengths, but the productive images may never contain a star, checkmark, border, “preferred,” “best,” “chosen,” or “root” marker. Assistant preference never creates approval and never belongs inside a Stage 0 candidate image.
 - Classify broad rejection as a search restart. Preserve the brief and critique, record the rejected family in coarse descriptors (action family, camera, torso orientation, support surface, primary diagonal, crop/scale, depth path), and explore territory that changes several of those descriptors instead of cosmetically repairing the old option.
-- After approval, refer to the chosen candidate as the canonical Stage 0 root, for example `S0-D APPROVED`. If candidates were returned as separate images, the exact selected image is the registered predecessor. If the approved candidate exists only as one panel inside a contact sheet, its semantic identity is canonical but do not assume that panel is independently accessible to the native image tool. Before Stage 1, pass the exact-predecessor accessibility gate required by `PAT_develop_scene_through_registered_successors`. When the host can deterministically crop/extract the exact selected panel without regeneration or reinterpretation, that extraction may restore access to the same canonical Stage 0 identity; otherwise fail closed and recover/request an exact accessible source rather than regenerating an isolated near-match.
+- After approval, refer to the chosen candidate as the canonical Stage 0 root, for example `S0-D APPROVED`. Because every candidate is already an independent image artifact, the exact selected image is the registered predecessor. Before Stage 1, pass the exact-predecessor accessibility gate required by `PAT_develop_scene_through_registered_successors`; if that exact selected image is not accessible to the native image tool, fail closed and recover/request the exact source rather than regenerating a near-match.
 - Freeze the approved picture proposition: camera/viewpoint, framing/crop, composition, major subject placement and apparent scale, dominant action read, major negative spaces, broad value/light proposition, scene inventory, focal hierarchy, and story intent.
 - Leave later-stage specificity open: exact joints, local anatomical corrections, precise surface design, detailed materials, texture, and final rendering.
 
@@ -146,8 +140,9 @@ variants:
 - Do not let rejected alternatives leak into the approved branch. Once `D` is selected and approved, later prompts should not keep `A`, `B`, and `C` active as interchangeable inspiration.
 - Do not let a rejected candidate or rejected set become approved because the assistant prefers it. Only the user may explicitly resurrect a rejected option.
 - Do not treat “do it in stages” as permission to depict the whole process on one sheet; Stage 0 output contains rough composition search only.
+- Do not create contact sheets, production sheets, grids, or multi-panel candidate images. Four to six candidates means four to six individual image artifacts total.
 - Do not interpret Stage 0 approval as permission to alter the selected camera, subject scale, placement, hierarchy, or large negative-space pattern during Stage 1.
-- Do not generate a fresh separate “selected root” image merely to manufacture edit-target access. Deterministic extraction of the exact approved panel is acceptable when the host supports it; regenerative isolation is not.
+- Do not generate a fresh separate “selected root” image merely to manufacture edit-target access; the selected independent candidate already is the root.
 
 ## Checklist
 - Alternatives are clearly identifiable and meaningfully different at the level of action/camera/composition, not merely rendering.
@@ -155,11 +150,11 @@ variants:
 - Rejected composition/action families are absent unless the user explicitly resurrected them.
 - One canonical identifier survives selection.
 - The approved candidate is identifiable as the Stage 0 root in the conversation and the approval came explicitly from the user.
-- If Stage 1 requires edit/reference continuity, the exact approved Stage 0 source is independently accessible to the native image tool, or the workflow fails closed until access is restored; a contact-sheet panel is not assumed accessible merely because its identity is known.
+- If Stage 1 requires edit/reference continuity, the exact approved Stage 0 image is independently accessible to the native image tool, or the workflow fails closed until access is restored.
 - Major subject scale/placement, camera, crop, hierarchy, broad value/light, and scene inventory are decidable enough to freeze.
 - Stage 1 can improve construction without needing to invent a new picture.
 
 ## Notes
-Stage 0 searches the picture under one deliberately cheap information ceiling. Once approved, it stops being a suggestion pool and becomes the composition compass for every later Drawing stage. The observatory contact sheet remains useful for alternative-layout search structure, but Broken Gate Stage 0 owns the universal density ceiling.
+Stage 0 searches the picture under one deliberately cheap information ceiling. Once approved, it stops being a suggestion pool and becomes the composition compass for every later Drawing stage. **The search set is a collection of independent candidate images, never a production sheet.** Broken Gate Stage 0 remains the universal density ceiling.
 
 Retained bounded variants: `VAR_dodson_start_composition_with_format_figure_ground_and_few_shapes`, `VAR_hultgren_choose_viewpoint_from_dominant_mass_effect`, `VAR_bammes_choose_viewpoint_to_reveal_distinctive_animal_form`, `VAR_mogilevtsev_preview_final_impression_with_integrated_study`, `VAR_mogilevtsev_lower_eye_level_to_clarify_foot_ground_planes`, `VAR_loomis_scribble_through_idea_search_before_thumbnail_commitment`.

@@ -128,10 +128,21 @@ without new approval.
 Profiles may add task-specific checks such as camera consistency, digit count,
 weight/support, or articulated attachment chains. The profile declares which
 checks a request activates, and the resolver reports that list on request.
-Performing them is the skill's obligation; recording them is the skill's
-obligation; `verify` audits the record afterward if someone runs it. Python never
-decides whether the pose, anatomy, composition, prose, or code is correct, and it
-cannot tell whether a check was genuinely performed or merely written down.
+
+For staged Art, a risk rule may also declare `checks_by_stage`. This is a
+**resolution compatibility rule**, not permission to ignore risk. A low-information
+stage verifies the same underlying concern at the visual resolution it legally
+owns: Stage 0 can verify gross contact/action intent without inventing fingers;
+Stage 1 can verify hand blocks and attachment chains without finished digits;
+Stage 2 can verify palm/contact masses; Stage 3-4 may require full visible digit
+and topology checks. The consuming staged controller must pass the actual current
+Drawing stage to the resolver after Stage 0. A fresh staged resolution defaults
+to Stage 0 because no later stage is legal before approval.
+
+Performing the selected checks is the skill's obligation; recording them is the
+skill's obligation; `verify` audits the record afterward if someone runs it. Python
+never decides whether the pose, anatomy, composition, prose, or code is correct,
+and it cannot tell whether a check was genuinely performed or merely written down.
 
 ## Resolver CLI
 
@@ -142,6 +153,16 @@ python PASS/runtime/skillforge_runtime.py \
   --profile PASS/runtime/profiles/art.yaml \
   --library library \
   resolve --request "Draw a figure pointing toward the camera"
+```
+
+For a continuing staged Drawing thread, supply the controller's current stage so
+stage-aware risk checks resolve at the legal information ceiling:
+
+```bash
+python PASS/runtime/skillforge_runtime.py \
+  --profile PASS/runtime/profiles/art.yaml \
+  --library library \
+  resolve --mode staged --stage 2 --request "Continue the approved mass-block successor"
 ```
 
 Portable releases vendor the same canonical resolver as

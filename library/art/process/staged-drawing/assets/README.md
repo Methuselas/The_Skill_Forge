@@ -24,8 +24,9 @@ Files under `broken-gate/debug/` are explicitly INVALID / NON-CANONICAL negative
 
 ## Bounded supplementary runtime evidence
 
-- `precedent_stage0a_observatory_rosetta_contact_sheet.png` — composition-search support for camera, crop, emphasis, spatial balance, depth path, and broad value comparison. Its historical rendering density is not the Stage 0 ceiling.
 - `precedent_stage0a_standard_marker_chimera.png` — rough mark-language comparator only when used at or below the Broken Gate Stage 0 information ceiling.
+
+The historical observatory Stage 0 contact-sheet precedent has been removed from active runtime evidence. It remains development history only: **production-sheet form is not a current Stage 0 artifact-form authority.**
 - `precedent_stage2_observatory_complete_mass_block.png` — supplementary Stage 2 minimum-mass comparator.
 - `failure_stage3_observatory_composition_drift.png` — negative continuity example for Stage 3 fresh-generation drift.
 

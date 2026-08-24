@@ -1,5 +1,12 @@
 schema_version: 1
 profile_id: art
+consumer_instructions:
+- The latest explicit Art mode directive in the conversation is sticky. While Staged Mode is active, words such as finished, final, one image, one finished image, full-character image, or similar terminal-output language describe the eventual goal and never switch execution to Direct Render. Only an explicit user mode change or explicit exit from the staged thread may do that.
+- The deterministic resolver is stateless. If an earlier turn established an active mode, pass that mode back to the resolver with --mode; never let a later brief fall back to the profile default merely because the mode words are absent from the current turn.
+- In active staged Drawing, a request for one finished/final image means one eventual terminal image after the approval-gated Drawing thread; it does not suppress Stage 0 Search, intermediate approved artifacts, or approval gates.
+- Any supplied attachment, archive, image set, or file that the user identifies as required character/design/reference authority must be inspected before dependent image generation, whether or not the user says golden truth. Resolve the relevant sheets plus explicit spec/rules first. If the package cannot be inspected or the relevant contents cannot be resolved, fail closed instead of generating.
+- Never merely promise to use required references. Complete the reference inspection before the native image call, then preserve their locked design decisions at the current legal information resolution.
+- "Before every productive staged image call, enforce this order: active-mode lock, authoritative-reference preflight, single legal current Drawing operation, current-resolution risk checks, artifact-only handoff, one current-artifact generation call, then stop for the user gate."
 default_lane: skill
 lanes:
   skill:
@@ -99,12 +106,35 @@ execution_modes:
       productive_workflow_vocabulary_suppressed: true
       current_artifact_only: true
       staged_mode_persistent_until_exit_or_completion: true
+      staged_mode_state_owner: conversation_controller
+      staged_mode_exit_requires_explicit_user_directive: true
+      terminal_goal_language_does_not_change_active_mode: true
+      stateless_resolver_requires_active_mode_override: true
+      terminal_finished_image_request_is_eventual_goal_only: true
       direct_render_fallback_forbidden_while_staged: true
+      authoritative_reference_preflight_required: true
+      reference_authority_is_semantic_not_magic_phrase: true
+      reference_preflight_must_complete_before_generation: true
+      reference_preflight_fail_closed_if_unreadable: true
       rejection_never_advances: true
       invalid_artifact_cannot_anchor_successor: true
       registered_successor_required_after_approval: true
       stage0_structural_divergence_required: true
+      stage0_candidate_budget_min: 4
+      stage0_candidate_budget_max: 6
+      stage0_candidate_budget_scope: global_per_open_search_cycle
+      stage0_candidate_budget_owner: controller_only
+      stage0_candidate_artifact_unit: one_composition_per_image
+      stage0_native_generation_unit: one_candidate_per_call
+      stage0_native_multi_output_forbidden: true
+      stage0_image_facing_batch_vocabulary_forbidden: true
+      stage0_contact_sheet_forbidden: true
+      stage0_multi_panel_candidate_image_forbidden: true
+      stage0_generator_self_selection_forbidden: true
+      stage0_invalid_candidate_does_not_count_toward_budget: true
       stage0_prefer_separate_candidate_images: true
+      stage_aware_risk_resolution_required: true
+      staged_risk_resolver_requires_current_stage_after_stage0: true
       multi_step_presentation_default: forbidden
 routing:
   rules:
@@ -123,7 +153,7 @@ routing:
       - 'mode: direct'
       - mode = direct
   - mode: direct_render
-    reason: explicit direct/final request suppresses external stage artifacts
+    reason: explicit direct/skip-stages command suppresses external stage artifacts
     when:
       any_phrases:
       - just render
@@ -192,6 +222,27 @@ risk_rules:
   - foreground foreshortening
   - camera consistency
   - articulated reach chain
+  checks_by_stage:
+    0:
+    - gross foreshortening read in gesture and silhouette
+    - camera consistency
+    - gross reach-chain continuity
+    1:
+    - structural foreshortening axes
+    - camera consistency
+    - articulated reach-chain scaffold
+    2:
+    - foreshortened mass consistency
+    - camera consistency
+    - articulated mass-chain continuity
+    3:
+    - foreground foreshortening
+    - camera consistency
+    - articulated reach chain
+    4:
+    - foreground foreshortening
+    - camera consistency
+    - articulated reach chain
 - id: visible_hands
   when:
     any_phrases:
@@ -211,6 +262,25 @@ risk_rules:
   - digit count for every visible hand
   - hand structure for every visible hand
   - hand-wrist-arm attachment chain for every visible hand
+  checks_by_stage:
+    0:
+    - gross hand/contact intent
+    - gross hand-to-limb continuity
+    1:
+    - hand block attached to correct limb chain
+    - hand/contact location consistency
+    2:
+    - palm and hand mass consistency
+    - contact plane and load direction
+    - major opposition mass where structurally necessary
+    3:
+    - digit count for every visible hand
+    - hand structure for every visible hand
+    - hand-wrist-arm attachment chain for every visible hand
+    4:
+    - digit count for every visible hand
+    - hand structure for every visible hand
+    - hand-wrist-arm attachment chain for every visible hand
 - id: supported_pose
   when:
     any_phrases:
@@ -228,6 +298,26 @@ risk_rules:
   - weight and support
   - contact consistency
   - balance
+  checks_by_stage:
+    0:
+    - gross support/contact intent
+    - gross center-of-mass and balance plausibility
+    1:
+    - support-point map
+    - contact relationship consistency
+    - balance scaffold
+    2:
+    - mass-to-support contact consistency
+    - load direction
+    - balance of blocked masses
+    3:
+    - weight and support
+    - contact consistency
+    - balance
+    4:
+    - weight and support
+    - contact consistency
+    - balance
 - id: gaze_action
   when:
     any_phrases:
@@ -239,6 +329,17 @@ risk_rules:
     - pointing
   checks:
   - gaze/action alignment
+  checks_by_stage:
+    0:
+    - head/facing direction supports the action
+    1:
+    - head-axis/action alignment
+    2:
+    - head-mass/action alignment
+    3:
+    - gaze/action alignment
+    4:
+    - gaze/action alignment
 - id: weapon_reach
   when:
     any_phrases:
@@ -255,6 +356,35 @@ risk_rules:
   - hand-wrist-arm attachment chain for every visible weapon hand
   - weapon-hand-arm attachment chain
   - focal hierarchy
+  checks_by_stage:
+    0:
+    - weapon role and gross contact intent
+    - weapon action axis
+    - focal hierarchy
+    1:
+    - weapon attachment/contact location
+    - hand block-to-weapon relation
+    - weapon-hand-arm scaffold continuity
+    - focal hierarchy
+    2:
+    - weapon-hand contact plane
+    - palm/opposition mass relation
+    - weapon-hand-arm mass-chain continuity
+    - focal hierarchy
+    3:
+    - weapon-hand contact map
+    - thumb opposition and active/support digit roles
+    - digit count for every visible weapon hand
+    - hand-wrist-arm attachment chain for every visible weapon hand
+    - weapon-hand-arm attachment chain
+    - focal hierarchy
+    4:
+    - weapon-hand contact map
+    - thumb opposition and active/support digit roles
+    - digit count for every visible weapon hand
+    - hand-wrist-arm attachment chain for every visible weapon hand
+    - weapon-hand-arm attachment chain
+    - focal hierarchy
 - id: articulated_endpoints
   when:
     any_phrases:
@@ -276,6 +406,30 @@ risk_rules:
   - foot-ankle-leg endpoint continuity
   - head-neck attachment continuity
   - prop-contact endpoint continuity
+  checks_by_stage:
+    0:
+    - gross limb endpoint continuity
+    - gross prop-contact intent
+    - head-to-torso continuity
+    1:
+    - hand/foot block attachment continuity
+    - head-neck scaffold continuity
+    - prop attachment/contact location
+    2:
+    - hand-wrist-arm mass-chain continuity
+    - foot-ankle-leg mass-chain continuity
+    - head-neck mass continuity
+    - prop-contact mass continuity
+    3:
+    - hand-wrist-arm endpoint continuity
+    - foot-ankle-leg endpoint continuity
+    - head-neck attachment continuity
+    - prop-contact endpoint continuity
+    4:
+    - hand-wrist-arm endpoint continuity
+    - foot-ankle-leg endpoint continuity
+    - head-neck attachment continuity
+    - prop-contact endpoint continuity
 - id: character_reference_lock
   when:
     any_phrases:
@@ -296,6 +450,32 @@ risk_rules:
   - equipment mount lock
   - palette lock
   - digit contract
+  checks_by_stage:
+    0:
+    - body-plan and proportion anchor lock
+    - broad silhouette identity lock
+    - broad hair-mass identity lock
+    - silhouette-critical gear/equipment mass lock
+    1:
+    - body-plan and proportion anchor lock
+    - head/torso axis identity lock
+    - silhouette-critical equipment attachment-block lock
+    2:
+    - body-plan and proportion anchor lock
+    - distinctive mass-topology lock
+    - equipment mass/mount relationship lock
+    3:
+    - character identity and face lock
+    - silhouette anchor lock
+    - costume seam and emblem lock
+    - equipment mount lock
+    - digit contract
+    4:
+    - character identity and face lock
+    - silhouette anchor lock
+    - costume seam and emblem lock
+    - equipment mount lock
+    - digit contract
 completion_gate:
   required_checks:
   - instruction_fidelity_check

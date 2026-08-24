@@ -58,6 +58,35 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertEqual(result["mode"], "staged_production")
         self.assertTrue(result["contract"]["approval_gates"])
 
+    def test_finished_terminal_goal_does_not_override_explicit_staged_mode(self):
+        request = """MODE Staged
+Draw Blu in an extremely dynamic, acrobatic full-body action pose.
+The character design itself must be the character in the Blu_ref_sheets.zip
+Generate one finished full-character image."""
+        result = runtime.resolve_task(PROFILE, LIBRARY, request)
+        self.assertEqual(result["mode"], "staged_production")
+        self.assertEqual(result["current_stage"], 0)
+        self.assertTrue(result["contract"]["terminal_goal_language_does_not_change_active_mode"])
+        self.assertTrue(result["contract"]["authoritative_reference_preflight_required"])
+
+    def test_sticky_staged_mode_must_be_reapplied_to_stateless_resolver(self):
+        request = """Draw Blu in an extremely dynamic full-body action pose.
+Generate one finished full-character image."""
+        result = runtime.resolve_task(PROFILE, LIBRARY, request, explicit_mode="staged")
+        self.assertEqual(result["mode"], "staged_production")
+        self.assertEqual(result["current_stage"], 0)
+        self.assertTrue(result["contract"]["stateless_resolver_requires_active_mode_override"])
+
+    def test_ref_sheets_filename_activates_stage0_character_reference_lock(self):
+        result = runtime.resolve_task(
+            PROFILE, LIBRARY,
+            "MODE Staged. The character design must match Blu_ref_sheets.zip.",
+        )
+        self.assertEqual(result["mode"], "staged_production")
+        self.assertIn("body-plan and proportion anchor lock", result["risk_checks"])
+        self.assertIn("broad silhouette identity lock", result["risk_checks"])
+        self.assertNotIn("character identity and face lock", result["risk_checks"])
+
     def test_explicit_mode_directive_routes_direct(self):
         result = runtime.resolve_task(
             PROFILE, LIBRARY, "MODE Direct\nDraw Blu in a cyberpunk alley."
@@ -107,6 +136,11 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertTrue(contract["registered_successor_required_after_approval"])
         self.assertTrue(contract["stage0_structural_divergence_required"])
         self.assertTrue(contract["stage0_prefer_separate_candidate_images"])
+        self.assertEqual(contract["stage0_candidate_budget_owner"], "controller_only")
+        self.assertEqual(contract["stage0_native_generation_unit"], "one_candidate_per_call")
+        self.assertTrue(contract["stage0_native_multi_output_forbidden"])
+        self.assertTrue(contract["stage0_image_facing_batch_vocabulary_forbidden"])
+        self.assertTrue(contract["stage_aware_risk_resolution_required"])
 
     def test_art_profile_declares_stage_handoff_prompts(self):
         result = runtime.resolve_task(
@@ -177,6 +211,51 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertIn("weapon-hand-arm attachment chain", checks)
         self.assertIn("gaze/action alignment", checks)
 
+
+    def test_staged_stage0_risk_checks_match_low_information_ceiling(self):
+        result = runtime.resolve_task(
+            PROFILE,
+            LIBRARY,
+            "MODE Staged. Draw her kneeling while gripping a spear with one visible hand, using these reference sheets as golden truth.",
+            current_stage=0,
+        )
+        self.assertEqual(result["mode"], "staged_production")
+        self.assertEqual(result["current_stage"], 0)
+        checks = set(result["risk_checks"])
+        self.assertIn("gross hand/contact intent", checks)
+        self.assertIn("gross support/contact intent", checks)
+        self.assertIn("weapon role and gross contact intent", checks)
+        self.assertIn("body-plan and proportion anchor lock", checks)
+        self.assertNotIn("digit count for every visible hand", checks)
+        self.assertNotIn("digit count for every visible weapon hand", checks)
+        self.assertNotIn("character identity and face lock", checks)
+        self.assertNotIn("costume seam and emblem lock", checks)
+        self.assertNotIn("palette lock", checks)
+
+    def test_staged_stage3_restores_detailed_hand_checks_without_palette(self):
+        result = runtime.resolve_task(
+            PROFILE,
+            LIBRARY,
+            "MODE Staged. Stage 3: draw her gripping a spear with one visible hand, using these reference sheets as golden truth.",
+            current_stage=3,
+        )
+        self.assertEqual(result["current_stage"], 3)
+        checks = set(result["risk_checks"])
+        self.assertIn("digit count for every visible hand", checks)
+        self.assertIn("digit count for every visible weapon hand", checks)
+        self.assertIn("character identity and face lock", checks)
+        self.assertIn("costume seam and emblem lock", checks)
+        self.assertNotIn("palette lock", checks)
+
+    def test_fresh_staged_resolution_defaults_risk_resolution_to_stage0(self):
+        result = runtime.resolve_task(
+            PROFILE, LIBRARY, "Draw her holding a spear. Do it in stages."
+        )
+        self.assertEqual(result["mode"], "staged_production")
+        self.assertEqual(result["current_stage"], 0)
+        self.assertIn("gross hand/contact intent", result["risk_checks"])
+        self.assertNotIn("digit count for every visible hand", result["risk_checks"])
+
     def test_completion_audit_reports_missing_required_or_risk_checks(self):
         resolution = runtime.resolve_task(
             PROFILE, LIBRARY, "Draw her pointing a gun toward the camera with one hand visible."
@@ -228,6 +307,41 @@ class SkillForgeRuntimeTests(unittest.TestCase):
         self.assertIn("costume seam and emblem lock", checks)
         self.assertIn("equipment mount lock", checks)
         self.assertIn("digit contract", checks)
+
+
+
+class Stage0ExecutionBoundaryTests(unittest.TestCase):
+    STAGE0_AP = ROOT / "library" / "art" / "process" / "staged-drawing" / "AP_run_stage0_rough_composition_search.md"
+    HANDOFF_AP = ROOT / "library" / "art" / "process" / "staged-drawing" / "AP_prepare_artifact_only_image_generation_handoff.md"
+    GATE_AP = ROOT / "library" / "art" / "process" / "staged-drawing" / "AP_gate_staged_visual_work_by_approval.md"
+    PATTERN = ROOT / "library" / "art" / "process" / "staged-drawing" / "PAT_explore_stage0_with_thumbnail_set.md"
+
+    def _productive_contract(self) -> str:
+        text = self.STAGE0_AP.read_text(encoding="utf-8")
+        return text.split("### Productive Image Contract", 1)[1].split("## Notes", 1)[0].casefold()
+
+    def test_stage0_productive_image_contract_is_singular_and_batch_free(self):
+        contract = self._productive_contract()
+        self.assertIn("one full-frame loose composition sketch", contract)
+        self.assertIn("exactly one rough picture proposition", contract)
+        for forbidden in (
+            "four to six", "4-6", "4–6", "candidate", "thumbnail set",
+            "search", "batch", "controller", "stage",
+        ):
+            self.assertNotIn(forbidden, contract)
+
+    def test_stage0_active_owners_forbid_native_multi_output(self):
+        texts = [
+            self.STAGE0_AP.read_text(encoding="utf-8"),
+            self.HANDOFF_AP.read_text(encoding="utf-8"),
+            self.GATE_AP.read_text(encoding="utf-8"),
+            self.PATTERN.read_text(encoding="utf-8"),
+        ]
+        joined = "\n".join(texts).casefold()
+        self.assertGreaterEqual(joined.count("one native image call = one stage 0 candidate"), 2)
+        self.assertIn("never use a host multi-output option for stage 0", joined)
+        self.assertNotIn("if the host can return several separate images in one request, use that capability", joined)
+        self.assertNotIn("if the host supports several separate outputs in one request", joined)
 
 
 class ProfileReferenceIntegrityTests(unittest.TestCase):

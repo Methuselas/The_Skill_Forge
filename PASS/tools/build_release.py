@@ -320,6 +320,21 @@ def skill_metadata_problem(path: Path) -> list[str]:
         problems.append("SKILL.md frontmatter missing name")
     if not isinstance(data.get("description"), str) or not data["description"].strip():
         problems.append("SKILL.md frontmatter missing description")
+
+    profile_path = path / "runtime" / "profile.yaml"
+    if profile_path.is_file():
+        profile = read_yaml(profile_path)
+        consumer_instructions = profile.get("consumer_instructions") or []
+        if not isinstance(consumer_instructions, list) or not all(
+            isinstance(item, str) and item.strip() for item in consumer_instructions
+        ):
+            problems.append("runtime/profile.yaml consumer_instructions are invalid")
+        else:
+            body = match.group("body")
+            for item in consumer_instructions:
+                if item.strip() not in body:
+                    problems.append("SKILL.md omits a runtime consumer instruction")
+                    break
     return problems
 
 
@@ -422,6 +437,14 @@ def write_skill(
         sort_keys=False,
         default_flow_style=False,
     ).strip()
+    profile_path = runtime_root() / "profiles" / f"{runtime_profile}.yaml"
+    profile_data = read_yaml(profile_path)
+    consumer_instructions = profile_data.get("consumer_instructions") or []
+    if not isinstance(consumer_instructions, list) or not all(
+        isinstance(item, str) and item.strip() for item in consumer_instructions
+    ):
+        raise ValueError(f"{profile_path}: consumer_instructions must be a list of non-empty strings")
+
     body = (
         f"# {display_name}\n\n"
         "This is a self-contained SkillForge release.\n\n"
@@ -449,6 +472,12 @@ def write_skill(
         "## Bundled modules\n\n"
         + "".join(f"- `library/{module}`\n" for module in modules)
     )
+    if consumer_instructions:
+        body += (
+            "\n## Mandatory execution barriers\n\n"
+            "These profile-owned instructions are part of the portable execution contract, not optional guidance:\n\n"
+            + "".join(f"- {item.strip()}\n" for item in consumer_instructions)
+        )
     if memory_domains:
         body += (
             "\n## Skillset Memory\n\n"

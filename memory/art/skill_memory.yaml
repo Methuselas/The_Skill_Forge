@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: art
-memory_version: 9
+memory_version: 11
 entries:
 - id: ART_MEM_001
   scope_type: topic
@@ -14,12 +14,12 @@ entries:
     improved to a provisional 28/30 no-object isolation retest, 14/15 on an extreme hand-plus-forearm
     test, and 14/15 in a fresh chat with no renewed hand coaching. Cold full-production renders
     preserved hand topology under strong figure, costume, perspective, environment, and rendering
-    load. A later portable-Skill-only full-production support pose also preserved coherent hand
-    topology and convincing body-support contact/load behavior even though that Skill release did
-    not contain the Art Memory files, providing evidence that the canonical hand intervention itself
-    can transfer independently of Memory retrieval. Residual topology misses remain possible, and
-    one cold firearm render showed a separate function/contact/load failure despite broadly coherent
-    hand topology.
+    load. A later portable-Skill-only full-production support pose also preserved coherent
+    hand topology and convincing body-support contact/load behavior even though that Skill
+    release did not contain the Art Memory files, providing evidence that the canonical hand
+    intervention itself can transfer independently of Memory retrieval. Residual topology
+    misses remain possible, and one cold firearm render showed a separate function/contact/load
+    failure despite broadly coherent hand topology.
 
     '
   diagnosis:
@@ -28,21 +28,22 @@ entries:
       materially reduces the earlier extra/missing/root-failure classes, and the improvement
       now survives fresh-chat retention, full-production load, and at least one portable-Skill
       execution without Art Memory. Remaining topology misses are best treated as residual
-      stochastic application/verification failures rather than proof that the current hand canon
-      is underspecified. Object-constrained actions remain a distinct vulnerability: a topologically
-      valid hand can still fail palm seating, digit wrap, thumb opposition, contact, or load/control
-      semantics, although the later nonweapon body-support example provides positive transfer
-      evidence for support/contact/load behavior outside the earlier firearm case.
+      stochastic application/verification failures rather than proof that the current hand
+      canon is underspecified. Object-constrained actions remain a distinct vulnerability:
+      a topologically valid hand can still fail palm seating, digit wrap, thumb opposition,
+      contact, or load/control semantics, although the later nonweapon body-support example
+      provides positive transfer evidence for support/contact/load behavior outside the earlier
+      firearm case.
 
       '
   boundary: 'Verified on ordinary human hands across no-object isolation, varied-angle grips,
     extreme hand-plus-forearm foreshortening, fresh-chat retention, cold full-character production,
-    and one portable-Skill-only full-production body-support case without Art Memory. The topology
-    intervention has improved and retained across chats and package conditions, but it is not
-    deterministic. Nonweapon support/contact/load behavior now has one strong positive full-production
-    example, while broader object-contact/function transfer remains partial because the earlier cold
-    firearm-grip failure is still valid. Character-specific nonhuman topology and broader weapon/tool
-    contact classes have not been retested to the same depth.
+    and one portable-Skill-only full-production body-support case without Art Memory. The
+    topology intervention has improved and retained across chats and package conditions, but
+    it is not deterministic. Nonweapon support/contact/load behavior now has one strong positive
+    full-production example, while broader object-contact/function transfer remains partial
+    because the earlier cold firearm-grip failure is still valid. Character-specific nonhuman
+    topology and broader weapon/tool contact classes have not been retested to the same depth.
 
     '
   confidence: repeated
@@ -197,29 +198,32 @@ entries:
   type: training_result
   evidence_class: stochastic_performance
   observation: 'Repeated Stage 4 attempts under the pre-repair source advanced pencil activity
-    without reliably closing Drawing decisions: graphite, hatch, detail, and local cleanup increased
-    while provisional contours, redundant marks, and under-resolved hierarchy remained. Direct
-    human teaching that Finished Pencils is a resolved Drawing state, that approved Stage 3 decisions
-    should be preserved rather than provisional Stage 3 marks, and that pencil style or density does
-    not itself define completion produced a materially improved warm retry. After the bounded source
-    repair, a context-exposed retest passed strongly and a genuinely clean fresh-chat retest also
-    passed without renewed teaching. The historical more-graphite-equals-more-finished failure was
-    not reproduced, supporting fresh-chat retention of the repaired Stage 4 closure behavior.
+    without reliably closing Drawing decisions: graphite, hatch, detail, and local cleanup
+    increased while provisional contours, redundant marks, and under-resolved hierarchy remained.
+    Direct human teaching that Finished Pencils is a resolved Drawing state, that approved
+    Stage 3 decisions should be preserved rather than provisional Stage 3 marks, and that
+    pencil style or density does not itself define completion produced a materially improved
+    warm retry. After the bounded source repair, a context-exposed retest passed strongly
+    and a genuinely clean fresh-chat retest also passed without renewed teaching. The historical
+    more-graphite-equals-more-finished failure was not reproduced, supporting fresh-chat retention
+    of the repaired Stage 4 closure behavior.
 
     '
   diagnosis:
     failure_layer: orchestration
-    hypothesis: 'The earlier Stage 4 terminal threshold and positive calibration were too permissive,
-      allowing Stage 3 plus additional pencil activity to pass as completion. The repaired contract
-      now emphasizes decision closure under exact predecessor continuity, preserves approved decisions
-      rather than exploratory marks, avoids one universal mark-density target, and keeps separately
-      owned Rendering and downstream medium work outside universal Drawing Stage 4.
+    hypothesis: 'The earlier Stage 4 terminal threshold and positive calibration were too
+      permissive, allowing Stage 3 plus additional pencil activity to pass as completion.
+      The repaired contract now emphasizes decision closure under exact predecessor continuity,
+      preserves approved decisions rather than exploratory marks, avoids one universal mark-density
+      target, and keeps separately owned Rendering and downstream medium work outside universal
+      Drawing Stage 4.
 
       '
-  boundary: 'Verified on repeated Broken Gate registered-successor Stage 3 to Stage 4 runs, including
-    one genuinely fresh clean-chat retention test after source repair. The warm and clean successful
-    artifacts used somewhat different pencil expressions while both closing Drawing. Cross-subject
-    transfer and broad successor-aware variants remain separate future questions.
+  boundary: 'Verified on repeated Broken Gate registered-successor Stage 3 to Stage 4 runs,
+    including one genuinely fresh clean-chat retention test after source repair. The warm
+    and clean successful artifacts used somewhat different pencil expressions while both closing
+    Drawing. Cross-subject transfer and broad successor-aware variants remain separate future
+    questions.
 
     '
   confidence: strong
@@ -259,3 +263,53 @@ entries:
   - ART_EV_0015
   - ART_EV_0016
   evidence_count: 4
+- id: ART_MEM_005
+  scope_type: runtime
+  scope_id: registered_successor_continuity
+  type: known_boundary
+  evidence_class: stochastic_performance
+  observation: In a fresh hard-locked Broken Gate Stage 3 to Stage 4 run using the optimized
+    portable Art Skill and the exact canonical predecessor, the native generative image operation
+    preserved the approved scene at the decision and structural level and produced valid Finished
+    Pencils, but it still re-synthesized local topology. Wheel spokes and hub construction,
+    broken plank endpoints, individual rubble shapes, stair damage, masonry cracks, costume
+    microstructure, facial microstructure, and other secondary details changed into similar-but-different
+    equivalents despite explicit continuity locks.
+  diagnosis:
+    failure_layer: tool
+    hypothesis: The native whole-image generative successor operation can follow semantic
+      and structural predecessor constraints but is not deterministic at local raster/topology
+      level. Hard-lock prose can reduce decision drift, but it cannot guarantee exact local
+      preservation when the host operation re-synthesizes the frame rather than exposing an
+      enforceable exact-edit lineage.
+  boundary: Verified on the canonical Broken Gate registered-successor Stage 3 to Stage 4
+    task in a fresh chat with the optimized portable Skill, exact predecessor, and explicit
+    hard locks. This does not establish the same limitation for future hosts or operations
+    that expose deterministic masked editing, compositing, or mechanically verifiable exact-predecessor
+    lineage.
+  confidence: provisional
+  status: monitoring
+  evidence_origin:
+  - runtime_self_audit
+  - user_feedback
+  - training_benchmark
+  likely_owners:
+  - registered-successor runtime enforcement
+  - native image-generation successor operation
+  retrieval_cues:
+  - registered successor
+  - exact predecessor
+  - successor continuity
+  - hard lock
+  - image edit
+  - edit lineage
+  - local topology
+  - pixel drift
+  - rubble drift
+  - generator variance
+  - stage 4 continuity
+  runtime_scope: native generative image successor
+  last_verified: '2026-08-23'
+  evidence_events:
+  - ART_EV_0018
+  evidence_count: 1

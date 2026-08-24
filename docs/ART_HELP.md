@@ -11,7 +11,7 @@ Typical start:
 
 `MODE Staged`
 
-Then give the art brief normally. PASS keeps the staged route active until you explicitly change mode, exit the active domain thread, or complete it. The owning Art domain supplies the actual number and meaning of visible operations; not every downstream workflow uses Drawing's five-stage sequence.
+Then give the art brief normally. PASS keeps the staged route active until you explicitly change mode, exit the active domain thread, or complete it. A later request for a “finished,” “final,” or “one finished full-character” image describes the eventual goal and does not cancel Staged Mode or skip the approval-gated Drawing operations. The owning Art domain supplies the actual number and meaning of visible operations; not every downstream workflow uses Drawing's five-stage sequence.
 
 For **Drawing**, the visible workflow remains:
 
@@ -90,7 +90,7 @@ If exact edit/reference access is unavailable, PASS should stop and ask to recov
 
 ## Golden-truth references
 
-If you identify supplied references as **golden truth**, PASS must inspect the relevant visual sheets and explicit rules/specs before generating dependent artwork.
+If you identify supplied references as required character/design/canon authority, PASS must inspect the relevant visual sheets and explicit rules/specs before generating dependent artwork. You do not need to use the literal phrase **golden truth**; making a supplied package/file the required design source is enough.
 
 Golden truth controls design authority. Early low-information artifacts may omit fine details, but omission is not permission to redesign them. Details become visible only when the current visual operation needs them.
 

@@ -40,11 +40,6 @@ references:
   derived_from: guided Broken Gate Stage 4 run, later superseded as a positive finish-quality authority by practical retest evidence
   origin: first_party_source
   review: passed
-- image_path: library/art/process/staged-drawing/assets/precedent_stage0a_observatory_rosetta_contact_sheet.png
-  caption: 'Supplementary composition-search Rosetta evidence only. Its four alternatives remain useful for camera/crop/layout comparison, but its historical mark density is not the current universal Stage 0 ceiling.'
-  derived_from: guided observatory Rosetta backcast and human review; reclassified 2026-08-21
-  origin: first_party_source
-  review: passed
 variants: []
 ---
 

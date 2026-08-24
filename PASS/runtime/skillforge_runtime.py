@@ -45,7 +45,10 @@ def read_yaml(path: Path) -> dict[str, Any]:
 
 
 def normalize_text(value: str) -> str:
-    return re.sub(r"\s+", " ", value.casefold()).strip()
+    # Treat underscores as word separators so ordinary attachment names such as
+    # ``Blu_ref_sheets.zip`` activate the same declarative phrase rules as
+    # ``Blu ref sheets.zip``. Keep other punctuation behavior stable.
+    return re.sub(r"\s+", " ", value.casefold().replace("_", " ")).strip()
 
 
 def phrase_matches(text: str, phrases: list[str]) -> list[str]:
@@ -218,7 +221,19 @@ def activate_metaskills(
     return deduped
 
 
-def resolve_risk_checks(profile: dict[str, Any], request: str, mode: str) -> list[str]:
+def resolve_risk_checks(
+    profile: dict[str, Any],
+    request: str,
+    mode: str,
+    current_stage: int | None = None,
+) -> list[str]:
+    """Resolve task-risk checks at the legal visual resolution.
+
+    Direct mode uses each rule's ordinary ``checks`` list. Staged Art may declare
+    ``checks_by_stage`` so a low-information stage is not forced to prove detail
+    it is explicitly required to withhold. The resolver reports the selected
+    checks; it still does not judge the artwork or observe the host.
+    """
     checks: list[str] = []
     for rule in profile.get("risk_rules") or []:
         if not isinstance(rule, dict):
@@ -228,11 +243,20 @@ def resolve_risk_checks(profile: dict[str, Any], request: str, mode: str) -> lis
             raise ValueError("risk rule 'when' must be a mapping")
         context = {"request": request, "mode": mode, "phase": "pre_production"}
         if condition_matches(when, context):
-            for check in rule.get("checks") or []:
+            selected_checks = rule.get("checks") or []
+            stage_map = rule.get("checks_by_stage") or {}
+            if mode == "staged_production" and current_stage is not None and isinstance(stage_map, dict):
+                selected_checks = stage_map.get(current_stage, stage_map.get(str(current_stage), selected_checks))
+            for check in selected_checks or []:
                 value = str(check)
                 if value not in checks:
                     checks.append(value)
     return checks
+
+
+def _explicit_stage_from_request(request: str) -> int | None:
+    match = re.search(r"\bstage\s*([0-4])\b", request, flags=re.I)
+    return int(match.group(1)) if match else None
 
 
 def resolve_task(
@@ -240,6 +264,7 @@ def resolve_task(
     library: Path,
     request: str,
     explicit_mode: str | None = None,
+    current_stage: int | None = None,
 ) -> dict[str, Any]:
     mode, reason = resolve_mode(profile, request, explicit_mode)
     lane, lane_reason = resolve_lane(profile, request)
@@ -252,7 +277,18 @@ def resolve_task(
 
     pre = activate_metaskills(library, request, mode, lane, phase="pre_production")
     post = activate_metaskills(library, request, mode, lane, phase="post_production")
-    risks = resolve_risk_checks(profile, request, mode)
+    if mode == "staged_production":
+        if current_stage is None:
+            current_stage = _explicit_stage_from_request(request)
+        if current_stage is None:
+            # A fresh staged thread can legally begin only at Stage 0. Later
+            # turns should supply the controller's actual approved current stage.
+            current_stage = 0
+        if current_stage not in {0, 1, 2, 3, 4}:
+            raise ValueError(f"unsupported Drawing stage: {current_stage}")
+    else:
+        current_stage = None
+    risks = resolve_risk_checks(profile, request, mode, current_stage)
     completion_gate = profile.get("completion_gate") or {}
     if not isinstance(completion_gate, dict):
         raise ValueError("profile.completion_gate must be a mapping")
@@ -266,6 +302,7 @@ def resolve_task(
         "mode_reason": reason,
         "lane": lane,
         "lane_reason": lane_reason,
+        "current_stage": current_stage,
         "contract": contract,
         "metaskills": {
             "pre_production": [item for item in pre if item["package"] == "metaskills"],
@@ -379,6 +416,30 @@ def doctor(profile: dict[str, Any], library: Path) -> list[str]:
         problems.append("profile.default_lane must name a lane")
     for condition, where in _rule_conditions(profile):
         problems.extend(_condition_problems(condition, where))
+    for index, rule in enumerate(profile.get("risk_rules") or []):
+        if not isinstance(rule, dict):
+            continue
+        stage_map = rule.get("checks_by_stage")
+        if stage_map is None:
+            continue
+        name = rule.get("id") or index
+        if not isinstance(stage_map, dict):
+            problems.append(f"profile.risk_rules[{name}].checks_by_stage must be a mapping")
+            continue
+        normalized_stages: set[int] = set()
+        for stage, checks in stage_map.items():
+            try:
+                stage_number = int(stage)
+            except (TypeError, ValueError):
+                problems.append(f"profile.risk_rules[{name}].checks_by_stage has invalid stage {stage!r}")
+                continue
+            normalized_stages.add(stage_number)
+            if stage_number not in {0, 1, 2, 3, 4}:
+                problems.append(f"profile.risk_rules[{name}].checks_by_stage has unsupported stage {stage_number}")
+            if not isinstance(checks, list) or not all(isinstance(item, str) for item in checks):
+                problems.append(f"profile.risk_rules[{name}].checks_by_stage[{stage_number}] must be a string list")
+        if normalized_stages != {0, 1, 2, 3, 4}:
+            problems.append(f"profile.risk_rules[{name}].checks_by_stage must define stages 0-4")
     if not library.is_dir():
         problems.append(f"library not found: {library}")
         return problems
@@ -440,6 +501,7 @@ def main() -> int:
     )
     resolve.add_argument("--request", required=True)
     resolve.add_argument("--mode")
+    resolve.add_argument("--stage", type=int, choices=range(5), help="current Drawing stage for staged risk resolution")
     resolve.add_argument("--out", type=Path)
 
     verify = sub.add_parser(
@@ -472,7 +534,7 @@ def main() -> int:
             print("PASS: SkillForge runtime doctor")
             return 0
         if args.cmd == "resolve":
-            result = resolve_task(profile, library, args.request, args.mode)
+            result = resolve_task(profile, library, args.request, args.mode, args.stage)
             rendered = json.dumps(result, indent=2, sort_keys=False) + "\n"
             if args.out:
                 args.out.write_text(rendered, encoding="utf-8")
