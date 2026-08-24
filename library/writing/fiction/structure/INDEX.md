@@ -6,12 +6,17 @@
 
 - [Allocate Scene and Summary by Narrative Pressure](PAT_allocate_scene_and_summary_by_narrative_pressure.md) - pattern; 2 block. Tags: exposition, fiction, pacing, reader_inference, scene, summary.
   - Variants: `Sustain Summary for Tale or Parable Logic` (context).
+- [Anchor Narrative Time in a Dramatic Present and Habitual World](PAT_anchor_narrative_time_in_a_dramatic_present_and_habitual_world.md) - pattern; 0 design. Tags: backstory, dramatic_present, fiction, habitual_time, narrative_time.
+  - Variants: `Structure Through Habitual Recurrence Without a Dramatic Present` (context).
 - [Begin Fiction at the Point of Attack](PAT_begin_at_the_point_of_attack.md) - pattern; 1 skeleton. Tags: conflict, exposition, fiction, in_medias_res, openings.
 - [Build Plot from Causal Consequences](PAT_build_plot_from_causal_consequences.md) - pattern; 0 design. Tags: causality, consequences, fiction, plot, structure.
 - [Design and Revise Short Story Structure](AP_design_and_revise_short_story_structure.md) - ap; 0 design. Tags: chronology, fiction, plot, revision, structure.
 - [Escalate Central Conflict Through the Middle](PAT_escalate_central_conflict_through_the_middle.md) - pattern; 2 block. Tags: conflict, fiction, middles, rising_action, transitions.
+- [Foreshadow a Consequence While Withholding Its Route](PAT_foreshadow_a_consequence_while_withholding_its_route.md) - pattern; 1 skeleton. Tags: anticipation, fiction, foreshadowing, openings, titles.
 - [Generate and Cull Multiple Story Openings](DRILL_generate_and_cull_multiple_story_openings.md) - drill; 1 skeleton. Tags: fiction, invention, openings, practice, selection.
 - [Map Chronology Before Compressing Story Time](PAT_map_chronology_before_compressing_story_time.md) - pattern; 0 design. Tags: chronology, compression, exposition, fiction, flashback.
 - [Omit Eventless Travel between Consequential Scenes](PAT_omit_eventless_travel_between_consequential_scenes.md) - pattern; 2 block. Tags: compression, fiction, pacing, scene_transition, travel.
 - [Reduce a Story to a Logline](DRILL_reduce_story_to_a_logline.md) - drill; 0 design. Tags: conflict, diagnosis, fiction, logline, story_core.
+- [Reinforce Story Structure Through Repetition and Variation](PAT_reinforce_story_structure_through_repetition_and_variation.md) - pattern; 2 block. Tags: fiction, motifs, repetition, structure, variation.
 - [Revise One Event through Summary Scene and Blend](DRILL_revise_one_event_through_summary_scene_and_blend.md) - drill; 2 block. Tags: deliberate_practice, fiction, pacing, revision, scene, summary.
+- [Test Structural Recurrence with Exact Repetition and Varied Echo](DRILL_test_structural_recurrence_with_exact_repetition_and_varied_echo.md) - drill; 2 block. Tags: deliberate_practice, fiction, repetition, structure, variation.

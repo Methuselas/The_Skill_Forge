@@ -34,14 +34,14 @@ variants: []
 # Begin Fiction at the Point of Attack
 
 ## Pattern Rule
-**IF** the opening explains how characters reached the story before an imminent decision, crisis, or consequential encounter appears
-**THEN** move the opening to the latest moment from which readers can enter the live conflict and supply earlier information only as the present action requires it
+**IF** the opening explains how characters reached the story before its governing situation, relation, pattern, decision, crisis, or consequential encounter becomes active
+**THEN** move the opening to the latest point from which readers can enter the live story and supply earlier information only as current pressure requires it
 **ELSE** keep the earlier scene only when it is itself the event whose consequences the story will pursue
 
 ## Do
-- Search the full chronology for the moment when a character is close enough to trouble that action or decision cannot be postponed.
+- Search the full chronology or recurrent design for the point where the governing pressure, relation, or pattern is already perceptible.
 - State the current situation through exact action and selected detail instead of furniture-moving exposition.
-- Let a few opening sentences establish world, pressure, and viewpoint simultaneously.
+- Let a few opening sentences establish time, place, voice, relation, or viewpoint while making the world feel already underway.
 - Distribute essential background in brief units through description, action, or dialogue after readers have entered the story.
 - Test an opening against an intelligent but impatient reader who will not wait through a preamble for the story to come alive.
 
@@ -52,11 +52,11 @@ variants: []
 - Confuse immediate engagement with unexplained action that gives readers no foothold.
 
 ## Checklist
-- Conflict or consequential pressure is present in the opening situation.
-- The first scene contains an action, decision, or encounter the rest of the story develops.
+- Conflict, consequential pressure, or the governing recurrent pattern is present in the opening situation.
+- The first unit contains an action, relation, decision, encounter, or recurrence the rest of the story develops.
 - Background arrives only when it changes the meaning of what is happening now.
 - Starting later would remove necessary orientation, while starting earlier would add preamble.
 - The opening creates curiosity about the live story rather than patience for it to begin.
 
 ## Notes
-Beginning in the middle of things is a selection principle, not a demand for spectacle. The strongest point of attack may occur after a battle, before a private revelation, during an ordinary trip already underway, or at the first sign of a distorted household rule. The opening earns attention by placing readers where current action already contains the story's pressure.
+Beginning in the middle of things is a selection principle, not a demand for spectacle or overt conflict. The strongest entry may occur after a battle, before a private revelation, during an ordinary trip already underway, inside a habitual exchange, or at the first sign of a distorted household rule. Time, place, voice, or dialogue can provide the foothold when they make a pre-existing world and its pressure immediately legible. The opening earns attention by placing readers where the governing story is already active.
