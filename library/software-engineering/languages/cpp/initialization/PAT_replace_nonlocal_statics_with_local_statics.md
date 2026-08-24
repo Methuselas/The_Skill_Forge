@@ -42,11 +42,13 @@ variants: []
 ## Don't
 - Don't leave a cross-translation-unit static dependency to chance: a `tempDir` whose constructor calls `tfs.numDisks()` may run before `tfs` is constructed, which is undefined and varies by platform.
 - Don't assume this is thread-safe — the first-use initialization of a local static can race, so trigger each function during single-threaded startup.
+- Don't take this as a fix for destruction order. It pins down when each object is built and leaves teardown on the reverse of that — so of two objects converted this way, the one built first is destroyed last, and if it is the one the other reports to during its own teardown, the reference handed back names an object that is already gone.
 
 ## Checklist
 - Does any non-local static depend on another defined in a different translation unit?
 - Is each such object now reached through a function returning a local-static reference?
 - Are those functions invoked during single-threaded startup to head off initialization races?
+- Does any of these objects get used during another's teardown, and if so is it guaranteed to still be alive then?
 
 ## Notes
 This is the "static initialization order fiasco": the standard leaves the cross-translation-unit ordering undefined, and finding a correct order is unsolvable in general once implicit template instantiations enter. The fix converts non-local statics into local statics, whose initialization order C++ *does* pin down — first use. Aficionados will recognize this as the reference-returning core of the Singleton pattern.
@@ -54,3 +56,5 @@ This is the "static initialization order fiasco": the standard leaves the cross-
 The threading caveat that used to attach to this no longer holds and should not be carried forward. Initialization of a function-local static has been required to be thread-safe since C++11 — a thread arriving while another is still initializing blocks until that finishes — so warming the functions up on a single thread at startup is no longer necessary. It remains necessary on a pre-C++11 toolchain, and on compilers offering a switch to disable the guard, which some do for embedded targets where the guard's cost is unwanted.
 
 First use also decides *whether* the object is built at all, which is a second reason to prefer this form over a static data member. A static at class or namespace scope is constructed whether or not the program ever touches it; a function-local one that no execution reaches is never constructed. What you pay for that is a check on entry to see whether construction has already happened.
+
+The fiasco this solves is an initialization one, and converting to local statics leaves the mirror-image problem untouched: teardown runs in reverse order of construction, so a dependency that was safe going up is inverted coming down. Where two of these use each other at all, the one needed late has to be exempted from that order deliberately — `PAT_design_shutdown_for_process_lifetime_objects` owns that decision. The failure is quiet, because the storage outlives the object seated in it and a call against the remains often appears to work.

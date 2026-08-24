@@ -250,5 +250,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Foundations](core/INDEX.md) - 391 object(s).
+- [Foundations](core/INDEX.md) - 393 object(s).
 - [Languages](languages/INDEX.md) - 185 object(s).
