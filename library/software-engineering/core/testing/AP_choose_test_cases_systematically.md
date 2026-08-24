@@ -18,21 +18,21 @@ tags:
 - boundary_analysis
 - defect_detection
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_count_a_routines_decision_points
-- rel: related_to
+- rel: supports
   target_object_id: PAT_trace_each_variable_from_definition_to_use
-- rel: related_to
+- rel: supports
   target_object_id: PAT_test_three_cases_at_every_boundary
-- rel: related_to
+- rel: supports
   target_object_id: PAT_work_the_input_classes_from_a_fixed_list
-- rel: related_to
+- rel: supports
   target_object_id: PAT_test_what_happens_when_a_resource_runs_out
-- rel: related_to
+- rel: supports
   target_object_id: PAT_read_coverage_as_a_floor_not_a_score
-- rel: related_to
+- rel: supports
   target_object_id: PAT_concentrate_effort_where_defects_concentrate
-- rel: related_to
+- rel: supports
   target_object_id: PAT_combine_detection_techniques_rather_than_perfecting_one
 - rel: related_to
   target_object_id: AP_write_a_unit_test_suite
@@ -56,25 +56,25 @@ Exhaustive testing was never available. A trivial routine taking a twenty-charac
 
 1. **Write cases from the requirements and the design, before the code exists.** One per relevant requirement and per relevant design concern. Earlier detection is the obvious return; the better one is that a poor requirement is hard to write a test against at all, so the attempt exposes it while it is still cheap to change.
 
-2. **Compute the floor from the decision points.** The same count that flags a routine as too complex sets the minimum number of cases it needs, and each of those keywords needs one case making it true and one making it false. Read the result as a lower bound and nothing more: the number says how many are needed and nothing about which, and any six arbitrary cases will not cover a routine that needs six.
+2. **Compute the floor from the decision points.** The same count that flags a routine as too complex sets the minimum number of cases it needs, and each of those keywords needs one case making it true and one making it false. Read the result as a lower bound and nothing more: the number says how many are needed and nothing about which, and any six arbitrary cases will not cover a routine that needs six. The count is `PAT_count_a_routines_decision_points`.
 
    *Gate.* A routine scoring above ten is simultaneously telling you to break it up and telling you that testing it properly starts at eleven cases. Consider simplifying before continuing, because everything after this step gets cheaper if you do.
 
-3. **Inspect the variables before running anything.** Follow each from definition through use, and treat the suspect sequences as findings. This is the only pass that costs nothing to execute, so it comes before the passes that do.
+3. **Inspect the variables before running anything.** Follow each from definition through use, and treat the suspect sequences as findings. This is the only pass that costs nothing to execute, so it comes before the passes that do. `PAT_trace_each_variable_from_definition_to_use` owns the inspection.
 
 4. **Add the definition-to-use pairs the path cases missed.** Exercising every line guarantees each assignment was reached, not that each reached every use, and the crossed combinations of conditions are the ones that do not fall out for free.
 
-5. **Add the boundary cases, then the compound ones.** Below, on, and above each limit; then the cases where two limits are reached together, which belong to no single variable and so appear in no per-variable pass.
+5. **Add the boundary cases, then the compound ones.** Below, on, and above each limit; then the cases where two limits are reached together, which belong to no single variable and so appear in no per-variable pass. `PAT_test_three_cases_at_every_boundary` owns what a boundary requires.
 
-6. **Work the input classes from the fixed list.** Both halves — the malformed classes and the well-formed ones. Much will already be covered by now, and the value is that the list does not vary with what you happen to think of at this point.
+6. **Work the input classes from the fixed list.** Both halves — the malformed classes and the well-formed ones. Much will already be covered by now, and the value is that the list does not vary with what you happen to think of at this point. The list is `PAT_work_the_input_classes_from_a_fixed_list`.
 
-7. **Add cases from this codebase's own defect history.** Guessing where faults are is respectable when the guesses come from a record of what actually breaks here, which is the same record a review checklist is built from.
+7. **Add cases from this codebase's own defect history.** Guessing where faults are is respectable when the guesses come from a record of what actually breaks here, which is the same record a review checklist is built from. `PAT_concentrate_effort_where_defects_concentrate` owns where history is worth mining.
 
-8. **Test what the environment can deny.** Resource exhaustion arrives through no parameter, so nothing in the preceding steps will have suggested it.
+8. **Test what the environment can deny.** Resource exhaustion arrives through no parameter, so nothing in the preceding steps will have suggested it. `PAT_test_what_happens_when_a_resource_runs_out` owns that class of case.
 
 9. **Branch where the space is too large to enumerate.** Generate inputs instead, weighting the distribution toward realistic sizes rather than spreading evenly across everything legal, and pick values whose expected results you can compute without redoing the work under test.
 
-10. **Measure what was reached, and stop on evidence rather than on feel.** Aim past statement coverage at branch coverage. The report's reliable output is the list of code no case reached; treat that list as the completion condition, and treat the percentage as carrying no information about how well anything was tested.
+10. **Measure what was reached, and stop on evidence rather than on feel.** Aim past statement coverage at branch coverage. The report's reliable output is the list of code no case reached; treat that list as the completion condition, and treat the percentage as carrying no information about how well anything was tested. `PAT_read_coverage_as_a_floor_not_a_score` owns how to read the number, and `PAT_combine_detection_techniques_rather_than_perfecting_one` owns why testing alone does not finish the job.
 
    *Completion.* The set is finished when nothing is unreached and every pass above has been run — not when the figure looks respectable. A high percentage obtained without steps 3 through 8 is a thorough pass over a routine that has not been tested.
 

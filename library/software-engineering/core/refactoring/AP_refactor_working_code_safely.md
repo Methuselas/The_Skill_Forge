@@ -18,17 +18,17 @@ tags:
 - verification
 - discipline
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_separate_structural_change_from_behavioural_change
-- rel: related_to
+- rel: supports
   target_object_id: PAT_judge_change_risk_by_what_it_can_break
-- rel: related_to
+- rel: supports
   target_object_id: PAT_treat_compiler_warnings_as_potential_bugs
 - rel: related_to
   target_object_id: AP_build_a_routine_from_intent_level_pseudocode
-- rel: related_to
+- rel: supports
   target_object_id: PAT_prepare_for_interruption_before_it_arrives
-- rel: related_to
+- rel: supports
   target_object_id: PAT_prove_behaviour_held_by_running_both_paths
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
@@ -56,15 +56,15 @@ Before step 1, settle two separate questions about the tests, because the whole 
 
 3. **Size each step so you can hold its full effect in your head.** What counts as "one refactoring" is genuinely fuzzy at the edges, and the operative test is not a line count but whether you can state everything this move touches. A step you cannot fully account for is two steps.
 
-4. **Do exactly one, then recompile and retest.** This is the step that people skip and it is the one carrying the guarantee. With a verification between every pair of transformations, a failure identifies the transformation that caused it; batched, a failure identifies only the batch. Set the compiler to its pickiest warning level first, so the errors it can catch surface as you type rather than after four more moves.
+4. **Do exactly one, then recompile and retest.** This is the step that people skip and it is the one carrying the guarantee. With a verification between every pair of transformations, a failure identifies the transformation that caused it; batched, a failure identifies only the batch. Set the compiler to its pickiest warning level first, so the errors it can catch surface as you type rather than after four more moves. `PAT_separate_structural_change_from_behavioural_change` owns what one step may contain, `PAT_treat_compiler_warnings_as_potential_bugs` owns the recompile, and `PAT_prove_behaviour_held_by_running_both_paths` owns the retest where the change is risky enough to warrant it.
 
 5. **Park what you find instead of chasing it.** Midway through one refactoring you will see a second worth doing, and midway through that a third. Keep a parking lot — a written list of changes worth making that do not need making now — and return to step 4. The parking lot exists because the alternative is a call stack of half-finished transformations with no working state anywhere in it.
 
-6. **Checkpoint at intervals, not only at the start.** Save a returnable state at points through the session, so that coding yourself into a dead end costs you the last few moves rather than all of them.
+6. **Checkpoint at intervals, not only at the start.** Save a returnable state at points through the session, so that coding yourself into a dead end costs you the last few moves rather than all of them. `PAT_prepare_for_interruption_before_it_arrives` owns what a checkpoint has to leave behind.
 
 7. **Add tests for the new shape, and retire the ones the change made meaningless.** Retesting with the old cases proves behaviour was preserved; that is what they are for and it is why they were not rewritten first. New unit tests then cover the structure that now exists, and test cases the refactoring made obsolete get removed rather than left to rot.
 
-8. **Scale the review to what the change can reach, then close the session.** Mechanical local changes can be batched and simply retested. Interface changes, schema changes, and changes to boolean tests get a reviewer or a pair, on top of the compiler and the tests. Before closing, ask the question the whole procedure exists to serve: is the program's internal quality better than when you started, or merely different?
+8. **Scale the review to what the change can reach, then close the session.** Mechanical local changes can be batched and simply retested. Interface changes, schema changes, and changes to boolean tests get a reviewer or a pair, on top of the compiler and the tests. Before closing, ask the question the whole procedure exists to serve: is the program's internal quality better than when you started, or merely different? `PAT_judge_change_risk_by_what_it_can_break` owns the review scope.
 
 ## Notes
 

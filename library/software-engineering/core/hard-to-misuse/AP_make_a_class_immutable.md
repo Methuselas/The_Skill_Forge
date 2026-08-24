@@ -18,15 +18,15 @@ tags:
 - builder_pattern
 - refactoring
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_prefer_immutable_objects
-- rel: related_to
+- rel: supports
   target_object_id: PAT_keep_immutable_with_builder_or_copy_on_write
-- rel: related_to
+- rel: supports
   target_object_id: PAT_make_immutability_deep
-- rel: related_to
+- rel: supports
   target_object_id: PAT_verify_an_object_is_as_immutable_as_you_think
-- rel: related_to
+- rel: supports
   target_object_id: PAT_dont_mutate_input_parameters
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
@@ -42,10 +42,10 @@ variants: []
 Take a class that is mutable or only shallowly immutable and make it deeply immutable, without losing the ability to specify optional values or obtain modified copies.
 
 ## Steps / Flow
-1. **Remove setters and freeze members.** Delete setter functions, set every member in the constructor, and mark each member final (const/readonly) so nothing reassigns them after construction.
-2. **Restore flexibility with a pattern, not mutation.** If some construction values are optional, add a builder that takes required values in its constructor and optional ones via chained setters, returning the immutable object from `build()`. If callers need a tweaked instance, add copy-on-write `with`-style functions that return a new object with one value changed.
-3. **Close the deep-mutability holes.** For any member of a mutable type, stop outside references from reaching it: defensively copy the object in the constructor and in its getter, or — preferably — hold it in an immutable data structure so no copy is needed and even in-class code cannot mutate it.
-4. **Check for hidden mutation paths.** Confirm no getter returns a live reference to mutable internal state, no member is reassigned inside the class, and constructing or copying the object cannot leave a caller holding a reference that mutates it.
+1. **Remove setters and freeze members.** Delete setter functions, set every member in the constructor, and mark each member final (const/readonly) so nothing reassigns them after construction. `PAT_prefer_immutable_objects` owns whether immutability is the right answer here at all.
+2. **Restore flexibility with a pattern, not mutation.** If some construction values are optional, add a builder that takes required values in its constructor and optional ones via chained setters, returning the immutable object from `build()`. If callers need a tweaked instance, add copy-on-write `with`-style functions that return a new object with one value changed. `PAT_keep_immutable_with_builder_or_copy_on_write` owns which pattern to reach for.
+3. **Close the deep-mutability holes.** For any member of a mutable type, stop outside references from reaching it: defensively copy the object in the constructor and in its getter, or — preferably — hold it in an immutable data structure so no copy is needed and even in-class code cannot mutate it. `PAT_make_immutability_deep` owns the depth requirement, and `PAT_dont_mutate_input_parameters` owns the constructor's side of it.
+4. **Check for hidden mutation paths.** Confirm no getter returns a live reference to mutable internal state, no member is reassigned inside the class, and constructing or copying the object cannot leave a caller holding a reference that mutates it. `PAT_verify_an_object_is_as_immutable_as_you_think` owns the check.
 5. **Weigh the cost where it matters.** On hot paths or large structures, prefer immutable data structures over repeated defensive copies, and use the language's compiler support (such as C++ const correctness) where available.
 
 ## Notes

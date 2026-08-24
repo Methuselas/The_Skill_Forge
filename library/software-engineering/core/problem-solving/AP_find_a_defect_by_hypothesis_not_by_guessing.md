@@ -20,11 +20,11 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: AP_build_a_mental_model_of_unfamiliar_code
-- rel: related_to
+- rel: supports
   target_object_id: PAT_fix_the_cause_not_the_symptom
-- rel: related_to
+- rel: supports
   target_object_id: PAT_time_box_the_guess_and_name_the_fallback
-- rel: related_to
+- rel: supports
   target_object_id: PAT_externalize_intermediate_state_when_tracing
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
@@ -54,7 +54,7 @@ The alternative is not a slower method, it is a different activity. Adjusting co
 
 5. **Design each test so it can disprove, not merely confirm.** A test that fails to support your hypothesis is not a wasted cycle — it tells you the defect is not where you thought, which shrinks the remaining search space. Treat a negative result as information rather than as a setback.
 
-6. **Narrow the region by bisection when reasoning stalls.** Remove or bypass roughly half the suspect code and see whether the symptom survives; that tells you which half holds it. Repeat. A debugger's breakpoints and step-over do the same job without editing anything. Bisect the call hierarchy the same way rather than descending into it: step *over* each call and check whether the values that depend on it are right, and only step into the one whose results are wrong. Stepping into a function that turns out to be correct is the most common way to spend an hour reading code that was never the problem. And bisect in time as well as in space — a value that has gone bad by the thousandth iteration can be checked at the five hundredth.
+6. **Narrow the region by bisection when reasoning stalls.** Remove or bypass roughly half the suspect code and see whether the symptom survives; that tells you which half holds it. Repeat. A debugger's breakpoints and step-over do the same job without editing anything. Bisect the call hierarchy the same way rather than descending into it: step *over* each call and check whether the values that depend on it are right, and only step into the one whose results are wrong. Stepping into a function that turns out to be correct is the most common way to spend an hour reading code that was never the problem. And bisect in time as well as in space — a value that has gone bad by the thousandth iteration can be checked at the five hundredth. `PAT_externalize_intermediate_state_when_tracing` owns what you record as you go.
 
 7. **Suspect your own code before the layers under it.** The operating system is probably not broken, the database is probably fine, and the library call probably works — it is far more likely that your code is calling into it wrongly. An engineer once spent weeks writing workarounds for a system call he was certain was broken, on a machine where every other application using it worked, and found his own error minutes after being made to read the documentation. Even when the fault does turn out to be a third party's, you have to eliminate your own code before the bug report is worth filing.
 
@@ -64,11 +64,11 @@ The alternative is not a slower method, it is a different activity. Adjusting co
 
 10. **Explain the problem out loud to someone.** Describing the symptom, what you have ruled out, and why, frequently produces the answer mid-sentence and before the listener has spoken. It costs one interruption of one colleague.
 
-11. **Stop and step away when the anxiety starts.** Once you are no longer generating new hypotheses, more time at the screen produces guesses rather than diagnosis. The onset of frustration is a reliable signal that the productive phase has ended.
+11. **Stop and step away when the anxiety starts.** Once you are no longer generating new hypotheses, more time at the screen produces guesses rather than diagnosis. The onset of frustration is a reliable signal that the productive phase has ended. `PAT_time_box_the_guess_and_name_the_fallback` owns the budget you set before starting.
 
 12. **Confirm the diagnosis before touching anything.** Run cases that should reproduce the error and cases that should not. You are done when you can predict the defect's occurrence correctly every time — not when you have one explanation that fits.
 
-13. **Fix the cause, check the fix, and add a test that would have caught it.** The correction itself has its own discipline, since more than half of defect corrections are wrong on the first attempt.
+13. **Fix the cause, check the fix, and add a test that would have caught it.** The correction itself has its own discipline, since more than half of defect corrections are wrong on the first attempt. The correction itself is `PAT_fix_the_cause_not_the_symptom`.
 
 14. **Look for the same defect elsewhere.** Defects arrive in groups, and the understanding you just paid for is at its most valuable now. If you cannot work out how to search for siblings, that is a warning that you do not yet understand the defect as well as you think.
 

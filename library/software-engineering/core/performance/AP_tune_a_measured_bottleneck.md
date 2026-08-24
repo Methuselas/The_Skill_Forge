@@ -18,17 +18,17 @@ tags:
 - measurement
 - iteration
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_choose_the_level_before_tuning_the_code
-- rel: related_to
+- rel: supports
   target_object_id: PAT_let_measurement_decide_what_to_tune
 - rel: related_to
   target_object_id: AP_refactor_working_code_safely
-- rel: related_to
+- rel: supports
   target_object_id: PAT_separate_structural_change_from_behavioural_change
 - rel: related_to
   target_object_id: AP_locate_a_performance_bottleneck_by_measurement
-- rel: related_to
+- rel: supports
   target_object_id: PAT_name_the_binding_constraint_before_choosing_a_remedy
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
@@ -52,15 +52,15 @@ Reach for this only once the program works and the earlier levels have been clea
 
 2. **Save a working version you can return to.** Everything after this assumes a last known good state exists. Given how many attempts will be reverted, this is the step that makes the rest affordable rather than a formality.
 
-3. **Measure to find the hot spots.** Profile rather than reason. Most programs spend most of their time in a small fraction of their code, and you will not know which fraction until you look — one team made an operating system's inner loop ten times faster and changed nothing at all, because it was the idle loop.
+3. **Measure to find the hot spots.** Profile rather than reason. Most programs spend most of their time in a small fraction of their code, and you will not know which fraction until you look — one team made an operating system's inner loop ten times faster and changed nothing at all, because it was the idle loop. `PAT_let_measurement_decide_what_to_tune` owns what counts as evidence here.
 
-4. **Decide whether code tuning is even the right answer, and be willing to leave.** Weak performance often comes from the design, the data types, or the algorithms, and if it does, go back to step 1 and fix it there. This is the step that distinguishes the procedure from a tuning reflex, and skipping it is how a project ends up hand-optimizing arithmetic that a different design would have removed.
+4. **Decide whether code tuning is even the right answer, and be willing to leave.** Weak performance often comes from the design, the data types, or the algorithms, and if it does, go back to step 1 and fix it there. This is the step that distinguishes the procedure from a tuning reflex, and skipping it is how a project ends up hand-optimizing arithmetic that a different design would have removed. That decision belongs to `PAT_choose_the_level_before_tuning_the_code`.
 
-5. **Name what is limiting this code before choosing what to change.** Whether the region is stalled on memory traffic, on a mispredicted branch, on its own dependency chain, or is simply executing a great deal of work decides which techniques are even applicable — and they are not interchangeable, so a remedy picked by familiarity usually addresses a constraint this code does not have. *Advance when* the classification accounts for the time you are trying to explain.
+5. **Name what is limiting this code before choosing what to change.** Whether the region is stalled on memory traffic, on a mispredicted branch, on its own dependency chain, or is simply executing a great deal of work decides which techniques are even applicable — and they are not interchangeable, so a remedy picked by familiarity usually addresses a constraint this code does not have. *Advance when* the classification accounts for the time you are trying to explain. `PAT_name_the_binding_constraint_before_choosing_a_remedy` owns the diagnosis.
 
 6. **Tune the one bottleneck you identified.** Change the expensive operation for a cheaper one, drawn from the family the classification pointed at. Keep the change small enough to attribute a result to.
 
-7. **Measure the improvement, one change at a time.** A batch of changes yields one number that belongs to no particular change, which is worthless given how many of them will turn out to be neutral or harmful.
+7. **Measure the improvement, one change at a time.** A batch of changes yields one number that belongs to no particular change, which is worthless given how many of them will turn out to be neutral or harmful. `PAT_separate_structural_change_from_behavioural_change` owns keeping the two kinds of edit apart while you do it.
 
 8. **Revert anything that did not earn its place.** More than half of attempted tunings produce only negligible improvement or actively degrade performance, so removal is the expected outcome rather than an admission. Code that is less readable and no faster is a pure loss and there is no reason to keep it.
 

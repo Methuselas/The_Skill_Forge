@@ -18,9 +18,9 @@ tags:
 - code_comprehension
 - working_memory
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_make_a_reasoning_model_determinate
-- rel: related_to
+- rel: supports
   target_object_id: PAT_externalize_intermediate_state_when_tracing
 - rel: related_to
   target_object_id: DRILL_annotate_a_dependency_graph_over_code
@@ -38,10 +38,10 @@ variants: []
 Turn a codebase you cannot hold in your head into an abstraction you can reason from directly, so that questions about the system are answered against the model rather than by repeatedly returning to the source.
 
 ## Steps / Flow
-1. **Start from local models you already know how to draw.** Build the state tables and dependency graphs covered by the tracing and annotation work. They only cover a small part of the codebase, and that is fine — they serve twice over, first by lowering cognitive load so you have capacity left for a larger picture, and second by supplying its building blocks. A dependency graph that exposes a few strongly connected lines has already told you where the larger model's center is.
+1. **Start from local models you already know how to draw.** Build the state tables and dependency graphs covered by the tracing and annotation work. They only cover a small part of the codebase, and that is fine — they serve twice over, first by lowering cognitive load so you have capacity left for a larger picture, and second by supplying its building blocks. A dependency graph that exposes a few strongly connected lines has already told you where the larger model's center is. `PAT_externalize_intermediate_state_when_tracing` owns what goes on paper rather than in your head.
 2. **List the elements, then map the relationships.** Write out the objects, classes, or pages in the codebase on a whiteboard or in a digital tool, then draw what connects them. Capture the constraints, not just the links: in an invoicing system, that a person can have several invoices but an invoice belongs to exactly one person is the kind of statement the model exists to hold.
 3. **Interrogate the model and repair it against the code.** Answer questions using the model you just built, then verify each answer in the source. The generic set that usually works: what are the most important elements, and are they in the model? What are the relationships between them? What are the program's main goals? How do those goals relate to the core elements and their relationships? What is a typical use case, and does the model cover it?
-4. **Tighten anything that admits more than one reading.** Where a question had several defensible answers under the current model, that is indeterminacy rather than ambiguity in the code — add the detail that rules out the rival reading before moving on.
+4. **Tighten anything that admits more than one reading.** Where a question had several defensible answers under the current model, that is indeterminacy rather than ambiguity in the code — add the detail that rules out the rival reading before moving on. `PAT_make_a_reasoning_model_determinate` owns what counts as ruled out.
 5. **Stop when the model answers the question you came for.** The effort scales with how complex and unfamiliar the code is, and it is worth paying because the resulting model is an asset for every later question. It is not a mandate to model the whole system.
 
 ## Notes

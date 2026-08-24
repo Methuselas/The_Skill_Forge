@@ -21,11 +21,11 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: AP_tune_a_measured_bottleneck
-- rel: related_to
+- rel: supports
   target_object_id: PAT_name_the_performance_metric_before_you_optimize
-- rel: related_to
+- rel: supports
   target_object_id: PAT_let_measurement_decide_what_to_tune
-- rel: related_to
+- rel: supports
   target_object_id: PAT_choose_the_level_before_tuning_the_code
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
@@ -45,9 +45,9 @@ This ends where changing the code begins. The discipline for making, measuring, 
 
 ## Steps / Flow
 
-**Entry state.** The program is correct and complete, and there is a named metric with a target on it — throughput, turnaround, power, or a latency percentile. Without the metric there is nothing to be a bottleneck *of*, and the first move is to establish it, not to start a profiler. Also settle here whether the code level is even the right level; a problem in the requirements, the design, or the algorithm will not be found by this procedure and will waste the whole pass.
+**Entry state.** The program is correct and complete, and there is a named metric with a target on it — throughput, turnaround, power, or a latency percentile. Without the metric there is nothing to be a bottleneck *of*, and the first move is to establish it, not to start a profiler. Also settle here whether the code level is even the right level; a problem in the requirements, the design, or the algorithm will not be found by this procedure and will waste the whole pass. `PAT_name_the_performance_metric_before_you_optimize` owns the metric itself, and `PAT_choose_the_level_before_tuning_the_code` owns the level question.
 
-**1 — Measure the whole program, coarsely.** Start from what existing instrumentation reports, plus a whole-run counter pass if the platform offers one. Take elapsed, process CPU, and thread CPU time together. *Advance when* you know the program's current value on the target metric and its gross character: computing steadily, waiting on something, or limited by a resource such as memory traffic. *Branch:* if the program is waiting rather than computing, or the machine is paging, the bottleneck is not in the code that looks slow and the investigation moves to what it is waiting on.
+**1 — Measure the whole program, coarsely.** Start from what existing instrumentation reports, plus a whole-run counter pass if the platform offers one. Take elapsed, process CPU, and thread CPU time together. *Advance when* you know the program's current value on the target metric and its gross character: computing steadily, waiting on something, or limited by a resource such as memory traffic. *Branch:* if the program is waiting rather than computing, or the machine is paging, the bottleneck is not in the code that looks slow and the investigation moves to what it is waiting on. `PAT_let_measurement_decide_what_to_tune` owns what those numbers are allowed to conclude.
 
 **2 — Break the total down by region.** If large sections are already timed, this step is a read rather than a run. If not, take a coarse profile — a breakdown across modules and large functions, built optimized with debug information. *Advance when* the samples are numerous enough for the shares to mean something. *Then do the thing that pays next time:* add the benchmark instrumentation whose absence forced you to profile, while you know where it belongs.
 

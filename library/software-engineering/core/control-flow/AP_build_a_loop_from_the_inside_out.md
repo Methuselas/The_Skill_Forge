@@ -18,11 +18,11 @@ tags:
 - nesting
 - indexes
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: AP_build_a_routine_from_intent_level_pseudocode
-- rel: related_to
+- rel: supports
   target_object_id: PAT_keep_a_loops_control_outside_its_body
-- rel: related_to
+- rel: supports
   target_object_id: PAT_write_design_notation_at_the_level_of_intent
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
@@ -42,7 +42,7 @@ Reach for this when the loop is nested, when its body indexes something by more 
 
 ## Steps / Flow
 
-1. **Write the body's steps as comments, before any syntax.** Two lines are typical — get the rate from the table, add the rate to the total. Writing what has to happen is easier while you are not simultaneously thinking about indexes, bounds, and array order.
+1. **Write the body's steps as comments, before any syntax.** Two lines are typical — get the rate from the table, add the rate to the total. Writing what has to happen is easier while you are not simultaneously thinking about indexes, bounds, and array order. `PAT_write_design_notation_at_the_level_of_intent` owns the level those comments are written at; for a whole routine rather than one loop, delegate to `AP_build_a_routine_from_intent_level_pseudocode`.
 
 2. **Turn those comments into code for one case, using concrete values and leaving the subscripts empty.** Fetch from the table and accumulate, with the table access written but unindexed. You are not trying to produce runnable code yet; you are fixing what the body does before deciding how it is reached.
 
@@ -54,7 +54,7 @@ Reach for this when the loop is nested, when its body indexes something by more 
 
 6. **Repeat steps 4 and 5 for each further level of nesting.** Each new loop wraps the previous one, and each time only the newly-varying values change. Three levels of nesting built this way involve three separate one-thing-at-a-time decisions rather than one simultaneous six-way decision.
 
-7. **State the loop invariant once the shape is settled, even if you never write it as code.** An invariant is the loop's eventual goal rewritten so that it is already true before the first iteration and stays true after every one — for a maximum-finding loop, *m holds the largest value seen so far in the range already examined*. Its use is that if the invariant holds when the loop ends, the result is correct by construction, so the boundary questions that produce off-by-one and fencepost errors get answered by writing one sentence instead of by tracing cases.
+7. **State the loop invariant once the shape is settled, even if you never write it as code.** An invariant is the loop's eventual goal rewritten so that it is already true before the first iteration and stays true after every one — for a maximum-finding loop, *m holds the largest value seen so far in the range already examined*. Its use is that if the invariant holds when the loop ends, the result is correct by construction, so the boundary questions that produce off-by-one and fencepost errors get answered by writing one sentence instead of by tracing cases. `PAT_keep_a_loops_control_outside_its_body` owns what the control may and may not touch.
 
 8. **Add the initializations last.** Accumulators and counters get initialized once the loop's shape is settled, immediately above the loop that uses them. Leaving this to the end is deliberate — you cannot know what needs initializing until you know what varies.
 

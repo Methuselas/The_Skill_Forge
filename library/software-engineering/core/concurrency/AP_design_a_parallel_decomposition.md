@@ -19,17 +19,17 @@ tags:
 - scalability
 - load_balancing
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_decide_if_the_problem_is_worth_parallelizing
-- rel: related_to
+- rel: supports
   target_object_id: PAT_find_the_axis_the_parallelism_lies_along
-- rel: related_to
+- rel: supports
   target_object_id: PAT_derive_the_parallelism_from_work_and_span
-- rel: related_to
+- rel: supports
   target_object_id: PAT_let_idle_workers_take_work_rather_than_busy_ones_hand_it_out
-- rel: related_to
+- rel: supports
   target_object_id: PAT_avoid_sharing_before_you_reach_for_protecting_it
-- rel: related_to
+- rel: supports
   target_object_id: PAT_locate_the_working_set_on_the_memory_hierarchy
 - rel: prerequisite_for
   target_object_id: DRILL_run_the_decomposition_procedure_on_a_problem
