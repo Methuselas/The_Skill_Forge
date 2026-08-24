@@ -44,6 +44,12 @@ COMMON_KEYS = {
 # Optional courtesy attribution. It names a book, never a runtime dependency:
 # nothing is resolved, fetched, or checked for existence from these values.
 REFERENCE_KEYS = {"source_title", "author"}
+# `reference` may be omitted entirely. A finished card must stay valid once the
+# work it was learned from is gone (hard rule 1), so the line naming that work
+# cannot be load-bearing -- requiring the key would make attribution a schema
+# obligation rather than a courtesy. Present or absent, nothing reads it.
+# See PASS_SCHEMA.md section 1.
+OPTIONAL_KEYS = {"reference"}
 VISUAL_REFERENCE_KEYS = {"image_path", "caption", "derived_from", "origin", "review"}
 # Packages every domain may depend on. `metaskills` is a shared foundation rather
 # than a peer domain: it holds craft-neutral process knowledge that every release
@@ -183,7 +189,7 @@ def validate_record(record: ObjectRecord, library_root: Path) -> None:
         return
     object_type = data.get("object_type")
     expected_keys = COMMON_KEYS | ({"target_skill"} if object_type == "drill" else set())
-    missing = sorted(expected_keys - set(data))
+    missing = sorted(expected_keys - OPTIONAL_KEYS - set(data))
     extra = sorted(set(data) - expected_keys)
     if missing:
         record.errors.append(f"rule 2: missing keys: {', '.join(missing)}")
