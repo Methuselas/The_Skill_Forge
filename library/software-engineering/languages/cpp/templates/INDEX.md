@@ -13,9 +13,11 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - [Access Templatized Base Class Members Explicitly](PAT_access_templatized_base_members_explicitly.md) - pattern; 3 rough. Tags: cpp, inheritance, name_lookup, templates.
 - [Choose Compile-Time or Runtime Variation](PAT_choose_compile_time_or_runtime_variation.md) - pattern; 0 design. Tags: abi, class_design, cpp, polymorphism, templates.
+- [Choose Scattered or Chained Generation From a Type List](PAT_choose_scattered_or_chained_generation.md) - pattern; 0 design. Tags: code_generation, cpp, inheritance, object_layout, templates.
 - [Declare Type-Converting Template Operators as Friends Inside the Class](PAT_declare_template_converting_operators_as_friends.md) - pattern; 2 block. Tags: cpp, operators, templates, type_conversion.
 - [Factor Parameter-Independent Code Out of Templates](PAT_factor_parameter_independent_code_from_templates.md) - pattern; 3 rough. Tags: code_bloat, cpp, efficiency, templates.
 - [Fix Access to a Name in a Templatized Base Class](DRILL_fix_templatized_base_class_name_access.md) - drill; 3 rough. Tags: cpp, inheritance, name_lookup, templates.
+- [Keep a Generic Accessor Out of the Type It Accesses](PAT_keep_a_generic_accessor_out_of_the_type.md) - pattern; 2 block. Tags: api_design, code_generation, cpp, name_lookup, templates.
 - [Keep Configuration Parameters Orthogonal](PAT_keep_configuration_parameters_orthogonal.md) - pattern; 0 design. Tags: class_design, coupling, cpp, policy_based_design, templates.
 - [Let a Class Degrade Gracefully on Optional Parameter Features](PAT_let_a_host_degrade_gracefully_on_optional_features.md) - pattern; 2 block. Tags: cpp, instantiation, interface_design, policy_based_design, templates.
 - [Lift Each Varying Design Decision to a Parameter](PAT_lift_each_varying_design_decision_to_a_parameter.md) - pattern; 0 design. Tags: class_design, configurability, cpp, policy_based_design, templates.
