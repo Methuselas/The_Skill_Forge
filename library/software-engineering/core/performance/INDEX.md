@@ -34,7 +34,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - [Ask Whether the Hot Code Can Run Less Often](PAT_ask_whether_the_hot_code_can_run_less_often.md) - pattern; 4 final. Tags: design, optimization, performance, profiling, tuning.
 - [Ask Whether the Problem Grows With the Machine](PAT_ask_whether_the_problem_grows_with_the_machine.md) - pattern; 0 design. Tags: concurrency, estimation, measurement, performance, scalability.
+- [Build a Pool for a Hot Allocation](AP_build_a_pool_for_a_hot_allocation.md) - ap; 4 final. Tags: allocation, performance, pooling, resource_management, tuning.
 - [Check for Memory Saturation Before Adding Threads](PAT_check_for_memory_saturation_before_adding_threads.md) - pattern; 0 design. Tags: concurrency, hardware, memory, performance, scalability.
+- [Check the Last-Used Entry Before Searching](PAT_check_the_last_used_slot_before_searching.md) - pattern; 3 rough. Tags: caching, data_structures, locality, lookup, performance.
 - [Choose Lazy or Eager by How Often the Result Is Actually Needed](PAT_choose_lazy_or_eager_by_how_often_the_result_is_needed.md) - pattern; 0 design. Tags: caching, design, optimization, performance, trade_offs.
 - [Choose the Data Structure for the Dominant Access Pattern](PAT_choose_the_data_structure_for_the_dominant_access_pattern.md) - pattern; 0 design. Tags: caching, data_structures, design, memory, performance.
 - [Choose the Level Before You Touch the Code](PAT_choose_the_level_before_tuning_the_code.md) - pattern; 0 design. Tags: architecture, optimization, performance, requirements.
@@ -43,6 +45,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Establish That the Work Divides Before Dividing It](PAT_decide_if_the_problem_is_worth_parallelizing.md) - pattern; 0 design. Tags: concurrency, parallelism, performance, trade_offs, tuning.
 - [Estimate How the Cost Grows Before You Run It](PAT_estimate_the_order_before_you_run_it.md) - pattern; 2 block. Tags: algorithms, complexity, estimation, performance.
 - [Hoist Allocation Out of the Work](PAT_hoist_allocation_out_of_the_work.md) - pattern; 4 final. Tags: allocation, concurrency, memory, performance, tuning.
+- [Keep a Spare Before Releasing Capacity](PAT_keep_a_spare_before_releasing_capacity.md) - pattern; 3 rough. Tags: hysteresis, performance, pooling, resource_management, thrashing.
 - [Lay Data Out for the Group That Reads It Together](PAT_lay_data_out_for_the_group_that_reads_it_together.md) - pattern; 0 design. Tags: concurrency, data_layout, gpu, memory, performance.
 - [Let Measurement Decide What to Tune, Never Intuition](PAT_let_measurement_decide_what_to_tune.md) - pattern; 4 final. Tags: measurement, optimization, performance, premature_optimization.
 - [Locate a Performance Bottleneck by Measurement](AP_locate_a_performance_bottleneck_by_measurement.md) - ap; 4 final. Tags: benchmarking, diagnosis, measurement, performance, profiling.
@@ -52,6 +55,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Model the Design Before There Is Code to Measure](PAT_model_the_design_before_there_is_code_to_measure.md) - pattern; 0 design. Tags: benchmarking, design, estimation, measurement, performance.
 - [Name the Binding Constraint Before Choosing a Remedy](PAT_name_the_binding_constraint_before_choosing_a_remedy.md) - pattern; 4 final. Tags: diagnosis, hardware, measurement, performance, tuning.
 - [Name the Metric Before You Call It Fast](PAT_name_the_performance_metric_before_you_optimize.md) - pattern; 0 design. Tags: measurement, metrics, performance, requirements, trade_offs.
+- [Name the Reuse Order Before Choosing a Pool Strategy](PAT_name_the_allocation_pattern_before_choosing_a_strategy.md) - pattern; 0 design. Tags: allocation, caching, performance, pooling, workload_characterization.
 - [Optimize for What the Compiler Can Prove](PAT_optimize_for_what_the_compiler_can_prove.md) - pattern; 4 final. Tags: compilers, design, optimization, performance, tuning.
 - [Read a Profile as a Statement About Machine Code](PAT_read_a_profile_as_a_statement_about_machine_code.md) - pattern; 4 final. Tags: compilers, diagnosis, measurement, performance, profiling.
 - [Read Wall, CPU, and Thread Time Together](PAT_read_wall_cpu_and_thread_time_together.md) - pattern; 4 final. Tags: benchmarking, concurrency, diagnosis, measurement, performance.
