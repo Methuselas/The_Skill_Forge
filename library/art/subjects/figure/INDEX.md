@@ -4,8 +4,8 @@
 
 ## Topics
 
-- [Anatomy](anatomy/INDEX.md) - 8 object(s).
+- [Anatomy](anatomy/INDEX.md) - 9 object(s).
 - [Construction](construction/INDEX.md) - 29 object(s).
 - [Gesture](gesture/INDEX.md) - 2 object(s).
 - [Hands](hands/INDEX.md) - 11 object(s).
-- [Heads](heads/INDEX.md) - 17 object(s).
+- [Heads](heads/INDEX.md) - 18 object(s).

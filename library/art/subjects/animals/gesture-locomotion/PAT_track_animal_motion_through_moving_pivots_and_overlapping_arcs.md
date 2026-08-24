@@ -12,7 +12,7 @@ lane_fit: both
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: domain
-foundation_object_id: none
+foundation_object_id: PAT_synthesize_temporal_movement_into_rhythmic_visual_pattern
 tags:
 - animal_drawing
 - animation

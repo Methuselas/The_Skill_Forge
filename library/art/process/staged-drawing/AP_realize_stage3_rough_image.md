@@ -19,16 +19,20 @@ tags:
 - meso_structure
 - continuity
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_develop_scene_through_registered_successors
 - rel: supports
   target_object_id: AP_gate_staged_visual_work_by_approval
 - rel: related_to
   target_object_id: AP_prepare_artifact_only_image_generation_handoff
-- rel: related_to
+- rel: supports
   target_object_id: PAT_commit_stage3_form_realization
 - rel: prerequisite_for
   target_object_id: AP_finish_stage4_as_finished_pencils
+- rel: supports
+  target_object_id: PAT_design_surface_anatomy_as_microgesture_on_parent_forms
+- rel: supports
+  target_object_id: PAT_design_drapery_from_tension_points_and_forces
 reference:
   source_title: Guided Stage Revision Debugging and Stage Mechanics Review
   author: MaDin + GPT
@@ -67,7 +71,7 @@ Turn the approved Stage 2 mass block into a coherent **specific rough / develope
 ## Steps / Flow
 1. **Enter from an approved complete mass block.** Keep Stage 0 as the picture compass and Stage 2 as the immediate geometry authority. If a major visible element has no Stage 2 predecessor, return to Stage 2 rather than inventing it here.
 2. **Register the exact approved mass block as the productive predecessor.** Apply `PAT_develop_scene_through_registered_successors`. Specific anatomy, design, architecture, props, and light must develop from those registered masses rather than replacing them with a fresh interpretation of the original request.
-3. **Realize what the masses already contain.** Use `PAT_commit_stage3_form_realization` to resolve anatomy, architecture, mechanisms, clothing, props, terrain character, contours, internal planes, and other specific identities without migrating the blocks.
+3. **Realize what the masses already contain.** Use `PAT_commit_stage3_form_realization` to resolve anatomy, architecture, mechanisms, clothing, props, terrain character, contours, internal planes, and other specific identities without migrating the blocks. When surface anatomy is the active figure decision, apply `PAT_design_surface_anatomy_as_microgesture_on_parent_forms`; when fabric/folds are the active figure decision, apply `PAT_design_drapery_from_tension_points_and_forces`. Both must inherit the accepted parent forms rather than compensate for unresolved structure.
 4. **Search locally, not compositionally.** Creative invention is welcome inside unresolved form, design, material indication, light direction, and detail hierarchy. Camera, crop, subject scale/placement, dominant action, major silhouette arrangement, negative spaces, inventory, and focal hierarchy are no longer Search territory.
 5. **Compile the productive image through the artifact-only handoff.** Use `AP_prepare_artifact_only_image_generation_handoff` and the Productive Image Contract below. Resolve specific form and working drawing logic without converting the result into finished pencils or a downstream medium.
 6. **Inspect both immediate and root continuity.** Reduced or blurred, the rough must still be the same Stage 0 picture; structurally, every realized form must still sit on the Stage 2 mass solution.

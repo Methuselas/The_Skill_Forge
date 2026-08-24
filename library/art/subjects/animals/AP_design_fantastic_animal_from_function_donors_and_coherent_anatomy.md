@@ -30,6 +30,10 @@ cross_links:
   target_object_id: AP_construct_animal_pose_from_action_type_and_structure
 - rel: related_to
   target_object_id: AP_prepare_construction_for_rendering
+- rel: supports
+  target_object_id: PAT_make_familiar_subject_strange_by_transforming_relationships
+- rel: supports
+  target_object_id: PAT_humanize_animal_character_while_preserving_species_anchors
 reference:
   source_title: PASS Art canonical synthesis
   author: Multiple accepted sources
@@ -48,14 +52,14 @@ Design a fantastic or science-fiction animal whose invented anatomy reads as one
 2. **Set the governing design relationships.** Decide mass distribution, body length/height, support emphasis, center of gravity, head/body balance, appendage roles, silhouette rhythm, and dominant expressive quality before choosing decorative parts.
 3. **Assign donor references by job.** Use `PAT_synthesize_visual_concepts_from_diverse_source_types` so each donor supplies an explicit structural, locomotor, behavioral, or surface principle rather than a vague instruction to combine animals.
 4. **Build a initial body plan.** Establish the central structural route, trunk masses, support/girdle regions, limb attachment zones, head/neck support, major appendage roots, and balance relationship.
-5. **Pass the integration gate.** Every donor-derived structure must reconcile into the same load-bearing, articulating, force-transmitting organism. Extra limbs, wings, tails, armor, or large heads must change the body plan enough to support their stated job.
+5. **Pass the integration gate.** Apply `PAT_track_force_continuity_through_action` at this decision. Every donor-derived structure must reconcile into the same load-bearing, articulating, force-transmitting organism. Extra limbs, wings, tails, armor, or large heads must change the body plan enough to support their stated job.
 6. **Invent explicitly without claiming unsupported biology.** For a designed creature, unsupported anatomy may be constructed from accepted form, comparative anatomy, mechanics, and donor principles, then tested for visual/mechanical coherence. Do not promote that result into unearned claims about scientific physiology or evolution.
 7. **Establish a readable creature type before ornament.** Silhouette, torso organization, limb architecture, gait/support, proportion, and head/body balance should identify the creature even with horns, scales, fur, spines, glowing marks, and extra eyes hidden.
 8. **Delegate a pose test.** Call `AP_construct_animal_pose_from_action_type_and_structure`, passing the invented body plan as the authoritative type. Let that AP test action, support, articulation, depth, and major masses.
 9. **Reclaim parent authority after the pose returns.** Reject a locally coherent pose if articulation exposes collisions, impossible support, unstable load, lost creature identity, or normalization toward a real-animal body plan.
 10. **Iterate architecture and pose together.** Redesign the body plan when motion exposes a structural weakness, then pose again until both identity and function survive.
-11. **Add secondary anatomy and character.** Only after the organism works, add skull specifics, facial structures, muscle, membranes, armor, horns, soft tissue, age/type variation, or anthropomorphic cues as attached consequences of the body plan.
-12. **Pass the novelty-with-coherence gate.** Compare against donors. The creature should no longer read as donor A body plus donor B head or an ordinary animal with props, yet its novel traits should remain explainable through its own proportions, structure, function, or expressive concept.
+11. **Add secondary anatomy and character.** Only after the organism works, add skull specifics, facial structures, muscle, membranes, armor, horns, soft tissue, age/type variation, or anthropomorphic cues as attached consequences of the body plan. When the design deliberately shifts toward a humanized role, apply `PAT_humanize_animal_character_while_preserving_species_anchors` so anthropomorphism does not erase the creature's defining anatomy.
+12. **Pass the novelty-with-coherence gate.** Compare against donors. When familiar donor relationships are making the result conventional, apply `PAT_make_familiar_subject_strange_by_transforming_relationships` while preserving enough identity and function for the organism to remain meaningful. The creature should no longer read as donor A body plus donor B head or an ordinary animal with props, yet its novel traits should remain explainable through its own proportions, structure, function, or expressive concept.
 13. **Hand off to downstream appearance work.** Delegate structurally solved construction to `AP_prepare_construction_for_rendering`. Rendering owns shared appearance reasoning such as light, value, visible color, material response, atmosphere, and edges; the selected downstream medium AP owns medium-specific finish and completion.
 
 ## Notes

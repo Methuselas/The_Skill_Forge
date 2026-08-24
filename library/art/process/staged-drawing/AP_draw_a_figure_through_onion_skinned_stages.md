@@ -18,11 +18,11 @@ tags:
 - construction
 - rendering
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_develop_scene_through_registered_successors
 - rel: related_to
   target_object_id: AP_plan_and_build_work_from_thumbnail_to_final
-- rel: related_to
+- rel: supports
   target_object_id: PAT_build_gesture_into_clear_masses
 - rel: related_to
   target_object_id: AP_notate_a_figure_in_structural_order
@@ -30,20 +30,28 @@ cross_links:
   target_object_id: AP_control_foreshortened_form_size_in_stage_two
 - rel: related_to
   target_object_id: AP_gate_staged_visual_work_by_approval
-- rel: related_to
+- rel: supports
   target_object_id: PAT_calibrate_stage_information_density_against_precedent
-- rel: related_to
+- rel: supports
   target_object_id: PAT_preserve_structure_during_stage4_pencil_finish
-- rel: related_to
+- rel: supports
   target_object_id: PAT_choose_stage1_construction_by_readability
-- rel: related_to
+- rel: supports
   target_object_id: PAT_block_complete_stage2_inventory
-- rel: related_to
+- rel: supports
   target_object_id: PAT_commit_stage3_form_realization
 - rel: related_to
   target_object_id: AP_construct_hand_from_function_contact_and_articulated_form
 - rel: related_to
   target_object_id: AP_unify_a_foreshortened_figure_in_deep_space
+- rel: supports
+  target_object_id: PAT_set_figure_proportions_with_adjustable_head_units
+- rel: related_to
+  target_object_id: AP_resolve_temporal_movement_for_pose_or_sequence
+- rel: related_to
+  target_object_id: AP_construct_figure_head_from_cranial_structure_to_living_character
+- rel: related_to
+  target_object_id: AP_develop_figure_anatomy_from_structural_landmarks_to_living_surface
 reference:
   source_title: Guided Nested Four-Stage Framework and Stage 3 Ceiling
   author: MaDin + GPT
@@ -96,13 +104,13 @@ Carry one intended figure image from an approved Stage 0 picture proposition thr
 
 ## Steps / Flow
 1. **Resolve delivery mode first.** If the user did not request visible drawing stages, internalize Stages 0–3 and surface only the requested Drawing Stage 4 finished pencils; requests for Ink/Color/Paint require the applicable downstream workflow rather than redefining Drawing Stage 4. If visible staged production is requested, use `AP_gate_staged_visual_work_by_approval` and conversational `S#-r#` labels for actual generated artifacts.
-2. **Stage 0 — choose the picture.** Use the single universal low-information Stage 0 ceiling. When composition is open, the controller accumulates four to six **separate rough candidate images total**, but every candidate is produced by its own native image invocation and the image-facing contract describes only that one proposition. Do not use multi-output generation, a contact sheet, production sheet, grid, or multi-panel image. Search camera, crop, major placement/scale, dominant action read, negative space, hierarchy, broad value/light, and story without developed anatomy, materials, color finish, or presentation rendering.
+2. **Stage 0 — choose the picture.** Apply `PAT_calibrate_stage_information_density_against_precedent` at this decision. Use the single universal low-information Stage 0 ceiling. When the figure's dominant action depends on choosing a readable phase from continuous movement, delegate only that phase-selection problem to `AP_resolve_temporal_movement_for_pose_or_sequence` in single-pose mode, then return the selected action logic to Stage 0; Figure Drawing owns the pose while Temporal Movement supplies the bounded time-based decision. When composition is open, the controller accumulates four to six **separate rough candidate images total**, but every candidate is produced by its own native image invocation and the image-facing contract describes only that one proposition. Do not use multi-output generation, a contact sheet, production sheet, grid, or multi-panel image. Search camera, crop, major placement/scale, dominant action read, negative space, hierarchy, broad value/light, and story without developed anatomy, materials, color finish, or presentation rendering.
 3. **Approve Stage 0 and keep it as root.** Normalize the selected candidate to one identifier. Explicit advance freezes the picture proposition. Later construction may improve local anatomy and exact joints but may not silently select a different picture.
-4. **Stage 1 — make the plan readable.** Apply `PAT_choose_stage1_construction_by_readability`. Resolve inventory, attachments, pose mechanics, axes, proportions, contacts, perspective relationships, and hidden paths inside the approved Stage 0 proposition.
+4. **Stage 1 — make the plan readable.** Apply `PAT_choose_stage1_construction_by_readability`. When the figure needs a repeatable proportional scaffold, apply `PAT_set_figure_proportions_with_adjustable_head_units` while preserving the intended body type rather than canonizing one ideal. Resolve inventory, attachments, pose mechanics, axes, proportions, contacts, perspective relationships, and hidden paths inside the approved Stage 0 proposition.
 5. **Inspect and gate Stage 1.** If the problem is local construction, revise the current stage. If the correction requires materially changing camera, crop, major subject scale/placement, dominant action read, hierarchy, or negative spaces, return to Stage 0.
-6. **Stage 2 — build complete minimum mass.** Apply `PAT_block_complete_stage2_inventory`. Carry Stage 0 as root and approved Stage 1 as immediate anchor. Every major element intended for Stage 3 must already exist here at minimum block level. Keep rendering information out.
+6. **Stage 2 — build complete minimum mass.** Apply `PAT_build_gesture_into_clear_masses` at this decision. Apply `PAT_block_complete_stage2_inventory`. Carry Stage 0 as root and approved Stage 1 as immediate anchor. Every major element intended for Stage 3 must already exist here at minimum block level. When a prominent head needs more than the minimum whole-figure head mass, delegate the bounded head-construction problem to `AP_construct_figure_head_from_cranial_structure_to_living_character` at Stage 2 resolution and return without exceeding the Stage 2 ceiling. Keep rendering information out.
 7. **Inspect and gate Stage 2.** Confirm the Stage 1 plan remains recoverable and Stage 3 can begin without inventing, relocating, multiplying, or rescaling a major form.
-8. **Stage 3 — make the image become itself.** Apply `PAT_commit_stage3_form_realization`. Carry Stage 0 as root and approved Stage 2 as immediate anchor. Turn generic masses into specific anatomy, clothing, props, environments, and designed forms without changing the picture or jumping to final polish.
+8. **Stage 3 — make the image become itself.** Apply `PAT_commit_stage3_form_realization`. Carry Stage 0 as root and approved Stage 2 as immediate anchor. Turn generic masses into specific anatomy, clothing, props, environments, and designed forms without changing the picture or jumping to final polish. When body anatomy needs deliberate structural-to-living development beyond the generic mass block, delegate that bounded decision to `AP_develop_figure_anatomy_from_structural_landmarks_to_living_surface` at the current permitted resolution and reintegrate it without moving accepted masses. When a prominent head must resolve likeness, character, features, hair mass, age, or expression beyond its Stage 2 block, return that bounded sub-action to `AP_construct_figure_head_from_cranial_structure_to_living_character` at Stage 3 resolution and reintegrate it without changing the accepted figure pose or composition.
 9. **Delegate high-risk local figure sub-actions only when needed.** Prominent functional hands may invoke `AP_construct_hand_from_function_contact_and_articulated_form`; severe foreshortening may invoke `AP_unify_a_foreshortened_figure_in_deep_space`. Recheck returned local work against the approved whole.
 10. **Inspect and gate Stage 3.** Approve only when the serious drawing works at full size and still reduces to the approved Stage 0 proposition. Rendering quality never excuses scene drift or unauthorized inventory.
 11. **Stage 4 — finish the pencils.** Apply `PAT_preserve_structure_during_stage4_pencil_finish`. Carry Stage 0 as root and approved Stage 3 as immediate anchor. Preserve approved Drawing decisions while resolving exploratory mark expression into an intentional pencil language; close remaining anatomy/contact/edge/hierarchy uncertainty without redesign or entering separately owned Rendering/Ink/Color/Paint work.

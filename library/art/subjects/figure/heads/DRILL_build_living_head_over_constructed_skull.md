@@ -12,13 +12,15 @@ lane_fit: teach
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: method
-foundation_object_id: none
+foundation_object_id: PAT_construct_head_from_cranial_ball_and_facial_wedge
 tags:
 - figure_drawing
 - anatomy
 - head
 - skull
 cross_links:
+- rel: teaches
+  target_object_id: PAT_construct_head_from_cranial_ball_and_facial_wedge
 - rel: related_to
   target_object_id: PAT_design_surface_anatomy_as_microgesture_on_parent_forms
 - rel: related_to

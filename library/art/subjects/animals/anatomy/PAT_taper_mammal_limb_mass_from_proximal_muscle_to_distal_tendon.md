@@ -9,10 +9,10 @@ library_path:
 - anatomy
 stage_binding: 2 block
 lane_fit: both
-foundation_role: foundation
+foundation_role: specialization
 routing_class: specialized
 specialization_axis: domain
-foundation_object_id: none
+foundation_object_id: PAT_read_animal_limb_muscle_groups_from_joint_axes_and_lines_of_pull
 tags:
 - animal_drawing
 - animal_anatomy

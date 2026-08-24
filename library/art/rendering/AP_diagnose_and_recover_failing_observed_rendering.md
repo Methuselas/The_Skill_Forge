@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_calibrate_observed_proportion_with_relational_sighting
 - rel: supports
   target_object_id: PAT_preview_risky_visual_revision_on_disposable_copy
+- rel: supports
+  target_object_id: PAT_refresh_visual_judgment_with_mirror_and_inversion
 reference:
   source_title: 'Alla Prima II: Everything I Know About Painting—and More'
   author: Richard Schmid
@@ -43,7 +45,7 @@ Recover an observed rendering that has begun to fail by identifying the actual s
 2. **Recover the active target.** Restate what the picture is meant to look like now. If the target deliberately changed, re-baseline it before diagnosing the work; do not diagnose against an obsolete intention.
 3. **Triage the failure source.** Separate failures caused by the subject/reference, by working conditions, and by execution. Stabilize or rescope the first two instead of repainting valid image relationships.
 4. **Reduce execution failure to concrete visual classes.** Route vague wrongness through `PAT_use_perceptual_wrongness_as_inspection_trigger`; test unsupported additions versus missing essentials, then drawing, value, edge, color, or combinations of them.
-5. **Localize before correcting.** Use relational checks, progressive masking/occlusion, mirror/inversion, or another accepted inspection method to find the first relationship that actually breaks.
+5. **Localize before correcting.** Apply `PAT_calibrate_observed_proportion_with_relational_sighting` at this decision. When familiarity itself is hiding proportion, symmetry, perspective, or contrast errors, apply `PAT_refresh_visual_judgment_with_mirror_and_inversion`; otherwise use relational checks, progressive masking/occlusion, or another accepted inspection method to find the first relationship that actually breaks.
 6. **Delegate the repair.** Invoke the Pattern or subordinate AP that owns the failed decision. Make the smallest sufficient correction rather than experimenting across unrelated passages.
 7. **Recheck the whole comparison field.** The repair passes only when the corrected passage agrees with the active target and no longer contaminates judgment of neighboring accepted work.
 8. **Resume from the repaired state.** Continue the parent action only after the contaminating error is cleared. If the repair exposes an earlier dependency failure, roll back to that owner instead of painting through it.

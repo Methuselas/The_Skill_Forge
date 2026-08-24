@@ -58,12 +58,12 @@ Develop a poster or other glance-read large-format illustration from communicati
 - Reference serves the selected rough rather than originating the composition accidentally.
 
 **Flow**
-1. **Separate fixed requirements from open design space.** Identify the required message, product/name, copy, subject, dimensions, and genuinely fixed constraints.
-2. **Resolve the viewing condition.** Estimate viewing distance, speed, scale, and attention window; decide how much information can survive that encounter.
+1. **Separate fixed requirements from open design space.** Apply `PAT_treat_brief_as_fixed_requirements_plus_open_design_space` at this decision. Identify the required message, product/name, copy, subject, dimensions, and genuinely fixed constraints.
+2. **Resolve the viewing condition.** Apply `PAT_scale_visual_information_to_viewing_time_and_display_context` at this decision. Estimate viewing distance, speed, scale, and attention window; decide how much information can survive that encounter.
 3. **Reduce to the large read.** Favor a dominant pictorial unit, simple value organization, economical wording, and broad silhouette/contrast relationships when the context demands rapid recognition.
-4. **Map production boundaries.** Add current seams, panel joins, folds, trims, overlaps, or other fabrication limits before critical placement.
-5. **Make several small pencil roughs.** Compose picture, copy, name/product, and negative space together instead of solving them independently.
-6. **Audit directional flow.** Check pose, perspective, edges, lettering, and other directional cues for paths that pull attention away from the intended message or out of the design.
+4. **Map production boundaries.** Apply `PAT_protect_critical_content_from_physical_production_boundaries` at this decision. Add current seams, panel joins, folds, trims, overlaps, or other fabrication limits before critical placement.
+5. **Make several small pencil roughs.** Apply `PAT_integrate_embedded_illustration_with_surrounding_layout` at this decision. Compose picture, copy, name/product, and negative space together instead of solving them independently.
+6. **Audit directional flow.** Apply `PAT_route_viewer_attention_through_planned_visual_paths` at this decision. Check pose, perspective, edges, lettering, and other directional cues for paths that pull attention away from the intended message or out of the design.
 7. **Enlarge promising roughs only enough to expose hidden problems.** Resolve proportion, camera, lettering space, and production conflicts while change is still cheap.
 8. **Audition color and value structure.** Make simple color roughs that preserve the large read; test them at scaled equivalent size or from across the room when possible.
 9. **Acquire model/photo/reference after the design exists.** Match reference to the selected camera, action, lighting, and value plan instead of rebuilding the composition around random reference.

@@ -6,6 +6,9 @@ consumer_instructions:
 - In active staged Drawing, a request for one finished/final image means one eventual terminal image after the approval-gated Drawing thread; it does not suppress Stage 0 Search, intermediate approved artifacts, or approval gates.
 - Any supplied attachment, archive, image set, or file that the user identifies as required character/design/reference authority must be inspected before dependent image generation, whether or not the user says golden truth. Resolve the relevant sheets plus explicit spec/rules first. If the package cannot be inspected or the relevant contents cannot be resolved, fail closed instead of generating.
 - Never merely promise to use required references. Complete the reference inspection before the native image call, then preserve their locked design decisions at the current legal information resolution.
+- When authoritative references disagree about a numeric topology contract such as digit, limb, eye, horn, or appendage count, normalize only wording that is unambiguously equivalent (for example, "5 digits total = 4 long fingers + 1 thumb"). If the sources remain contradictory, fail closed and ask for the conflict to be resolved before dependent generation; never silently choose the more convenient count.
+- For every materially visible hand at a resolution where full digit topology is legal, enumerate that hand as a separate risk instance, inspect the full frame and a local/enlarged view, trace every observed digit branch to a unique palm root, and record expected versus observed topology. A global boolean such as "all hands valid = true" is never sufficient evidence, and one representative hand never clears another visible hand.
+- If any required visible hand is extra-digit, missing-digit, fused, duplicated, detached, ambiguous, untraceable, or insufficiently inspectable, completion is forbidden. Perform a bounded correction/regeneration attempt that preserves accepted decisions as strongly as the host allows, then repeat the complete per-hand inventory and local audit for every materially visible hand; never assume only the edited hand can drift.
 - "Before every productive staged image call, enforce this order: active-mode lock, authoritative-reference preflight, single legal current Drawing operation, current-resolution risk checks, artifact-only handoff, one current-artifact generation call, then stop for the user gate."
 default_lane: skill
 lanes:
@@ -483,3 +486,28 @@ completion_gate:
   - risk_region_inventory_check
   - local_risk_inspection_check
   require_all_risk_checks: true
+  evidence_requirements:
+  - id: visible_hand_topology
+    when_any_risk_checks:
+    - digit count for every visible hand
+    - digit count for every visible weapon hand
+    collection: visible_hands
+    declared_count_field: declared_visible_count
+    instances_field: instances
+    minimum_instances: 1
+    required_string_fields:
+    - id
+    - location
+    - expected_topology_summary
+    - observed_topology_summary
+    required_true_fields:
+    - crop_inspected
+    - root_trace_inspected
+    required_status_fields:
+      evidence_status:
+      - sufficient
+      topology_status:
+      - pass
+    equal_integer_pairs:
+    - - expected_total_digits
+      - observed_total_digits

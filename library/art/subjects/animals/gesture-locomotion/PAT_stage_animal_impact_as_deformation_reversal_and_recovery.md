@@ -12,7 +12,7 @@ lane_fit: both
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: domain
-foundation_object_id: none
+foundation_object_id: PAT_track_animal_motion_through_moving_pivots_and_overlapping_arcs
 tags:
 - animal_drawing
 - animation

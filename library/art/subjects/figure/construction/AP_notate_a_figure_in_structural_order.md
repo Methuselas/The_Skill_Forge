@@ -19,18 +19,34 @@ tags:
 - construction_order
 - action
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_carry_action_line_into_torso_centerline
-- rel: related_to
+- rel: supports
   target_object_id: PAT_attach_legs_through_pelvic_wedge
-- rel: related_to
+- rel: supports
   target_object_id: PAT_carry_leg_force_into_foot_support
-- rel: related_to
+- rel: supports
   target_object_id: PAT_link_arm_pair_through_shoulder_yoke
-- rel: related_to
+- rel: supports
   target_object_id: PAT_resolve_head_and_neck_last_from_context
 - rel: related_to
   target_object_id: AP_control_foreshortened_form_size_in_stage_two
+- rel: supports
+  target_object_id: PAT_join_rib_cage_and_pelvis_through_flexible_waist
+- rel: supports
+  target_object_id: PAT_choose_s_or_b_leg_rhythm_by_view
+- rel: supports
+  target_object_id: PAT_orient_rib_cage_with_curved_openings
+- rel: supports
+  target_object_id: PAT_construct_foot_as_soft_tissue_support_wedge
+- rel: supports
+  target_object_id: PAT_integrate_shoulder_mass_with_rib_cage
+- rel: supports
+  target_object_id: PAT_carry_underarm_curve_through_elbow
+- rel: related_to
+  target_object_id: AP_construct_figure_head_from_cranial_structure_to_living_character
+- rel: supports
+  target_object_id: PAT_seat_neck_inside_upper_chest_opening
 reference:
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
@@ -46,11 +62,11 @@ Convert an accepted Stage 1 action framework into a coherent Stage 2 figure by r
 
 ## Steps / Flow
 1. **Enter from an accepted action framework.** The Stage 1 action, major support/contact idea, and intended spatial direction are the controlling evidence. If those are still undecided, remain upstream.
-2. **Carry the action into the torso.** Preserve the accepted action line as the Stage 2 torso centerline. Build rib-cage and pelvic masses around it so bend, turn, opposition, and spiral answer one governing flow.
-3. **Pass the torso/support gate.** Resolve torso orientation, waist connection, pelvic center division, and the major support relationship before dependent limbs become authoritative. The pose must already indicate where weight, suspension, or propulsion is being organized.
-4. **Attach and bear the legs.** Seat the thighs into the pelvic wedge, carry each leg through its view-appropriate rhythm, and transfer force through ankle/foot into stance, propulsion, or directional response. The visible hip may compress or spread with action, but the underlying attachment remains coherent.
-5. **Link the arms as a pair.** Construct both arms through the collarbone/shoulder-yoke system before treating either as an isolated member. Draw through overlaps where needed and preserve continuous underarm/upper-limb attachment logic.
-6. **Resolve the head and neck after the body action is stable.** Keep the earlier head direction as a guide, then construct cranial/face/neck volume within the range allowed by the actual shoulder-girdle attachment and narrative/gaze requirement.
+2. **Carry the action into the torso.** Apply `PAT_carry_action_line_into_torso_centerline` at this decision. When the rib cage must read as a solid mass from the chosen view, apply `PAT_orient_rib_cage_with_curved_openings`. Preserve the accepted action line as the Stage 2 torso centerline. Build rib-cage and pelvic masses around it so bend, turn, opposition, and spiral answer one governing flow.
+3. **Pass the torso/support gate.** Apply `PAT_join_rib_cage_and_pelvis_through_flexible_waist` at the waist decision. Resolve torso orientation, waist connection, pelvic center division, and the major support relationship before dependent limbs become authoritative. The pose must already indicate where weight, suspension, or propulsion is being organized.
+4. **Attach and bear the legs.** Apply `PAT_attach_legs_through_pelvic_wedge` and `PAT_carry_leg_force_into_foot_support` at this decision. When the view requires an explicit whole-leg rhythm choice, apply `PAT_choose_s_or_b_leg_rhythm_by_view`. When a planted or weight-bearing foot needs enough Stage 2 mass to carry support before toe/tendon detail, apply `PAT_construct_foot_as_soft_tissue_support_wedge`. Seat the thighs into the pelvic wedge, carry each leg through its view-appropriate rhythm, and transfer force through ankle/foot into stance, propulsion, or directional response. The visible hip may compress or spread with action, but the underlying attachment remains coherent.
+5. **Link the arms as a pair.** Apply `PAT_link_arm_pair_through_shoulder_yoke` at this decision. When arm elevation changes the upper-torso mass, apply `PAT_integrate_shoulder_mass_with_rib_cage`; when a bent or extended arm needs one continuous structural rhythm through the elbow, apply `PAT_carry_underarm_curve_through_elbow`. Construct both arms through the collarbone/shoulder-yoke system before treating either as an isolated member. Draw through overlaps where needed and preserve continuous underarm/upper-limb attachment logic.
+6. **Resolve the head and neck after the body action is stable.** Apply `PAT_resolve_head_and_neck_last_from_context` at this decision and `PAT_seat_neck_inside_upper_chest_opening` to keep the head/neck solution attached to the accepted torso. Keep the earlier head direction as a guide. When the Stage 2 head requires structural construction beyond the temporary framework oval/axis, delegate that bounded head decision to `AP_construct_figure_head_from_cranial_structure_to_living_character` at Stage 2 resolution, then reintegrate the returned cranial/facial block without changing the accepted body action or shoulder-girdle attachment.
 7. **Pass the dependency rollback gate.** If a later limb or head solution can work only by silently moving the accepted torso, support, attachment, or major action, return to that earlier dependency and repair it. Do not absorb the contradiction downstream with contour or anatomy.
 8. **Delegate severe Stage-2 foreshortening when necessary.** When apparent size, hidden paths, overlap, or advancing/receding member identity is the unresolved problem, invoke `AP_control_foreshortened_form_size_in_stage_two`, then reintegrate the returned construction into the parent action/support system.
 9. **Pass the notation exit gate on a plain construction.** Read the figure without detail: the torso centerline governs the action; support/suspension/momentum is believable; limbs attach once; hands and feet are structurally placed; and the figure can advance without later stages inventing a missing connection.

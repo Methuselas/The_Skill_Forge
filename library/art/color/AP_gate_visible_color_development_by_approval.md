@@ -29,7 +29,7 @@ cross_links:
   target_object_id: AP_develop_approved_drawing_into_coherent_color_image
 - rel: related_to
   target_object_id: DRILL_audition_one_subject_across_small_color_roughs
-- rel: related_to
+- rel: supports
   target_object_id: PAT_develop_scene_through_registered_successors
 - rel: related_to
   target_object_id: AP_prepare_artifact_only_image_generation_handoff

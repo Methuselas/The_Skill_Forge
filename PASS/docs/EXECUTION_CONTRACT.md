@@ -144,6 +144,20 @@ skill's obligation; `verify` audits the record afterward if someone runs it. Pyt
 never decides whether the pose, anatomy, composition, prose, or code is correct,
 and it cannot tell whether a check was genuinely performed or merely written down.
 
+A profile may therefore require **evidence records** in addition to boolean checks.
+This does not give Python vision. It prevents a lossy aggregate assertion such as
+`all visible hands valid: true` from satisfying a contract that requires each
+visible instance to be enumerated and inspected. For full hand-topology checks,
+Art requires one record per materially visible hand, a declared visible-hand count
+matching the number of records, local/enlarged inspection, root tracing, and an
+expected-versus-observed topology count. `uncertain`, insufficient evidence, a
+missing instance record, or a count mismatch leaves completion unresolved.
+
+Accordingly, `verify` reports `completion_record_complete` separately from
+`artifact_visually_validated`. The latter is always false in this repository-side
+helper because the helper never receives or inspects the artifact. A complete
+evidence record is stronger caller-supplied evidence, not independent visual proof.
+
 ## Resolver CLI
 
 Canonical authoring example:

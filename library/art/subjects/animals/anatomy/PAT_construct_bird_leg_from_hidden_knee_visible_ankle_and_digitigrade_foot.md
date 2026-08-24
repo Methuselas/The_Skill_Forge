@@ -12,7 +12,7 @@ lane_fit: skill
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: domain
-foundation_object_id: none
+foundation_object_id: PAT_map_animal_pose_as_vertebral_and_limb_direction_framework
 tags:
 - birds
 - bird_leg

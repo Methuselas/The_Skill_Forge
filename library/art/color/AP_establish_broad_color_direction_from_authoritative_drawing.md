@@ -21,7 +21,7 @@ tags:
 - value_structure
 - color_rough
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_develop_scene_through_registered_successors
 - rel: supports
   target_object_id: PAT_choose_color_strategy_to_fit_subject_purpose_and_viewing_context

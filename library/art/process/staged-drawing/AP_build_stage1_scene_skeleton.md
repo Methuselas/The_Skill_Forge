@@ -19,18 +19,22 @@ tags:
 - perspective
 - continuity
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_develop_scene_through_registered_successors
 - rel: supports
   target_object_id: AP_gate_staged_visual_work_by_approval
 - rel: related_to
   target_object_id: AP_prepare_artifact_only_image_generation_handoff
-- rel: related_to
+- rel: supports
   target_object_id: PAT_choose_stage1_construction_by_readability
 - rel: related_to
   target_object_id: AP_notate_a_figure_in_structural_order
 - rel: prerequisite_for
   target_object_id: AP_build_stage2_complete_mass_block
+- rel: supports
+  target_object_id: PAT_recover_view_field_from_existing_image
+- rel: supports
+  target_object_id: PAT_preserve_articulated_limb_chain
 reference:
   source_title: Guided Stage Revision Debugging and Stage Mechanics Review
   author: MaDin + GPT
@@ -63,8 +67,8 @@ Translate an approved Stage 0 picture proposition into the simplest scene-wide s
 1. **Enter only from an approved picture proposition.** Use the actual approved Stage 0 image in the conversation as the composition authority. If no Stage 0 root has been approved in interactive staged mode, return to Stage 0 rather than constructing a preferred option.
 2. **Register the exact approved picture as the productive predecessor.** Apply `PAT_develop_scene_through_registered_successors`. When the host exposes image editing/reference continuity, use that actual accepted image as the source rather than independently regenerating the scene from the verbal brief. Register every important figure, weapon, prop, architecture element, and environment anchor that must survive.
 3. **Switch from picture Search to structural Control.** Preserve camera, crop, major subject apparent scale/placement, dominant action, large negative spaces, hierarchy, scene inventory, and story read. Search is allowed only inside unresolved structural questions that do not recompose the picture.
-4. **Lay down the scene framework first.** Establish horizon/eye level and perspective directions where relevant, then place skeletal axes, centerlines, contact points, support lines, object orientation lines, simple enclosing planes/boxes, and other sparse construction needed to locate every important scene object.
-5. **Skeletonize all scene participants, not only the hero.** Figures receive action lines, torso/pelvis orientation, limbs/joints, head placement, and contact chains. Architecture, vehicles, props, pipes, signs, terrain, weapons, and other objects receive their simplest axes, planar frames, boxes, centerlines, or attachment scaffolds sufficient to preserve placement and perspective.
+4. **Lay down the scene framework first.** Apply `PAT_choose_stage1_construction_by_readability` at this decision. Apply `PAT_recover_view_field_from_existing_image` at this decision. Establish horizon/eye level and perspective directions where relevant, then place skeletal axes, centerlines, contact points, support lines, object orientation lines, simple enclosing planes/boxes, and other sparse construction needed to locate every important scene object.
+5. **Skeletonize all scene participants, not only the hero.** For articulated figures, animals, wings, fins, or invented appendages, apply `PAT_preserve_articulated_limb_chain` at the chain decision so each member remains continuous from parent socket through joints to terminal form. Figures receive action lines, torso/pelvis orientation, limbs/joints, head placement, and contact chains. Architecture, vehicles, props, pipes, signs, terrain, weapons, and other objects receive their simplest axes, planar frames, boxes, centerlines, or attachment scaffolds sufficient to preserve placement and perspective.
 6. **Compile the productive image through the artifact-only handoff.** Use `AP_prepare_artifact_only_image_generation_handoff` and the Productive Image Contract below. The primary artwork itself must use the structural vocabulary; do not demonstrate structure in side examples around a more developed central image.
 7. **Check the whole scene against Stage 0.** Compare camera, crop, subject scale/placement, major silhouette trajectory, negative spaces, environment arrangement, and depth path. If the better structural solution would materially recompose the picture, rollback to Stage 0 instead of silently improving it here.
 8. **Revise only structural defects at this step.** Missing joints, bad attachments, inconsistent perspective, weak contacts, or incomplete scene scaffolding remain Stage 1 problems. A user rejection of the composition is a Stage 0 restart, not a Stage 1 refinement.

@@ -21,6 +21,32 @@ cross_links:
   target_object_id: PAT_establish_eye_level_and_vanishing_directions
 - rel: supports
   target_object_id: PAT_choose_convergence_from_view_and_orientation
+- rel: supports
+  target_object_id: PAT_recover_view_field_from_existing_image
+- rel: supports
+  target_object_id: PAT_block_complex_objects_with_perspective_boxes
+- rel: supports
+  target_object_id: PAT_construct_inclined_planes_from_base_vanishing_directions
+- rel: supports
+  target_object_id: PAT_measure_true_lengths_on_oblique_planes
+- rel: supports
+  target_object_id: PAT_control_perspective_distortion_with_viewpoint_and_projection_choice
+- rel: supports
+  target_object_id: PAT_carry_scale_through_depth_with_height_and_width_guides
+- rel: supports
+  target_object_id: PAT_measure_subdivide_and_repeat_on_perspective_planes
+- rel: supports
+  target_object_id: PAT_construct_circles_as_ellipses_on_perspective_planes
+- rel: supports
+  target_object_id: PAT_build_coherent_grid_when_vanishing_points_are_off_page
+- rel: supports
+  target_object_id: PAT_rotate_perspective_grids_without_changing_unit_scale
+- rel: supports
+  target_object_id: PAT_validate_three_point_viewpoint_geometry
+- rel: supports
+  target_object_id: PAT_align_cylinders_and_cones_to_projected_circle_centers
+- rel: supports
+  target_object_id: PAT_construct_reflections_across_arbitrary_planes
 reference:
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
@@ -66,11 +92,11 @@ Build one coherent perspective field that can govern figures, objects, and envir
 - Optional technical geometry is loaded only when it answers a concrete placement problem.
 
 **Flow**
-1. **Set the view.** Decide what the observer sees and establish eye level.
-2. **Solve dominant directions.** Group the scene's main parallel directions and assign their vanishing behavior from orientation.
-3. **Block the scene.** Use box masses, a trusted figure, or both to establish large placements and shared scale.
-4. **Check distortion.** If edge regions become implausibly stretched, correct vanishing spacing or crop before continuing.
-5. **Specialize only as needed.** Load height/width transfer, plane subdivision, inclined planes, or round-solid construction only where the scene asks for them.
+1. **Set the view.** Apply `PAT_establish_eye_level_and_vanishing_directions` and `PAT_recover_view_field_from_existing_image` at this decision. Decide what the observer sees and establish eye level.
+2. **Solve dominant directions.** Apply `PAT_choose_convergence_from_view_and_orientation` at this decision. When vanishing points fall impractically off-page, apply `PAT_build_coherent_grid_when_vanishing_points_are_off_page`; when independent horizontal grids rotate on one ground plane, apply `PAT_rotate_perspective_grids_without_changing_unit_scale`; and when a rectilinear three-point setup needs a formal geometry check, apply `PAT_validate_three_point_viewpoint_geometry`. Group the scene's main parallel directions and assign their vanishing behavior from orientation.
+3. **Block the scene.** Apply `PAT_block_complex_objects_with_perspective_boxes` at this decision. Use box masses, a trusted figure, or both to establish large placements and shared scale.
+4. **Check distortion.** Apply `PAT_control_perspective_distortion_with_viewpoint_and_projection_choice` when edge regions, apparent scale, or field width begin to read implausibly. Correct the viewpoint, projection, vanishing spacing, or crop before continuing rather than patching local objects.
+5. **Specialize only as needed.** Apply `PAT_construct_inclined_planes_from_base_vanishing_directions` and `PAT_measure_true_lengths_on_oblique_planes` when slopes or oblique measurement are the active problem. Use `PAT_carry_scale_through_depth_with_height_and_width_guides` for scale transfer, `PAT_measure_subdivide_and_repeat_on_perspective_planes` for subdivision/repetition, and `PAT_construct_circles_as_ellipses_on_perspective_planes` for circles and round-solid construction. When a cylinder or cone depends on the projected circle center, apply `PAT_align_cylinders_and_cones_to_projected_circle_centers`; when a planar mirror/reflection is an actual scene requirement, apply `PAT_construct_reflections_across_arbitrary_planes`. Load only the technical construction the scene actually asks for.
 6. **Validate the field.** Check that major objects, figures, and planes still agree before detail and rendering obscure construction errors.
 
 **Failure / Rollback Rules**

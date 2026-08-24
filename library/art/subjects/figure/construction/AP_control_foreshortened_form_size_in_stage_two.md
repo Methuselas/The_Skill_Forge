@@ -21,14 +21,20 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: AP_draw_a_figure_through_onion_skinned_stages
-- rel: related_to
+- rel: supports
   target_object_id: PAT_build_gesture_into_clear_masses
-- rel: related_to
+- rel: supports
   target_object_id: PAT_hold_member_identity_with_constant_width
-- rel: related_to
+- rel: supports
   target_object_id: PAT_construct_only_the_hidden_path_visible_forms_require
-- rel: related_to
+- rel: supports
   target_object_id: PAT_attach_joint_overlap_to_advancing_member
+- rel: supports
+  target_object_id: PAT_turn_cylinder_end_curves_with_depth
+- rel: supports
+  target_object_id: PAT_validate_foreshortened_limb_reach_from_joint_pivots
+- rel: supports
+  target_object_id: PAT_transport_proportional_landmarks_across_views
 reference:
   source_title: Dynamic Figure Drawing
   author: Burne Hogarth
@@ -54,12 +60,12 @@ variants:
 Build a foreshortened figure whose advancing, receding, and obscured members retain believable size identity before specific anatomy or rendering is allowed to hide the construction.
 
 ## Steps / Flow
-1. **Establish the figure's own size system.** Read the rib cage, pelvis, thighs, calves, upper arms, forearms, palms, and digits as related but differently tapered masses. Compare corresponding regions within the same figure or within deliberately matched figures; do not import one person's widths into another body type, creature, or species.
-2. **Block the dominant forms as cylinders, barrels, and wedges.** Use the simplest mass that can declare direction, attachment, taper, and facing. For cylindrical members turning toward the eye, let the end curves become fuller as the visible side length compresses. Add centerlines, cross-curves, or width checks when they help prove the volume; omit them when the construction already reads.
-3. **Hold comparable widths while apparent length changes.** Measure at stable regions such as the mid-shank rather than swollen joints. Preserve the designed diameter at corresponding locations while permitting the projected length to shorten, disappear, or become nearly end-on.
-4. **Infer hidden members from visible evidence.** Use a visible counterpart, knee, elbow, hand, foot, heel, ankle, or exposed fragment to establish the missing member's size and direction. Construct the full hidden route only when an endpoint, later attachment, overlap, balance decision, or emerging fragment depends on it; otherwise stop at the minimum sufficient evidence.
+1. **Establish the figure's own size system.** Read the rib cage, pelvis, thighs, calves, upper arms, forearms, palms, and digits as related but differently tapered masses. Compare corresponding regions within the same figure or within deliberately matched figures; when an uncertain view has a trustworthy corresponding orientation, apply `PAT_transport_proportional_landmarks_across_views` and rebuild the destination from those relationships rather than copying contour. Do not import one person's widths into another body type, creature, or species.
+2. **Block the dominant forms as cylinders, barrels, and wedges.** Apply `PAT_build_gesture_into_clear_masses` at this decision. When a cylindrical or barrel-like member turns toward an end-on view, apply `PAT_turn_cylinder_end_curves_with_depth`. Use the simplest mass that can declare direction, attachment, taper, and facing. For cylindrical members turning toward the eye, let the end curves become fuller as the visible side length compresses. Add centerlines, cross-curves, or width checks when they help prove the volume; omit them when the construction already reads.
+3. **Hold comparable widths while apparent length changes.** Apply `PAT_hold_member_identity_with_constant_width` at this decision. Measure at stable regions such as the mid-shank rather than swollen joints. Preserve the designed diameter at corresponding locations while permitting the projected length to shorten, disappear, or become nearly end-on.
+4. **Infer hidden members from visible evidence.** Apply `PAT_construct_only_the_hidden_path_visible_forms_require` at this decision. When a foreshortened arm or leg still looks too long, too short, disconnected, or uncertain in depth, apply `PAT_validate_foreshortened_limb_reach_from_joint_pivots` before anatomy is developed. Use a visible counterpart, knee, elbow, hand, foot, heel, ankle, or exposed fragment to establish the missing member's size and direction. Construct the full hidden route only when an endpoint, later attachment, overlap, balance decision, or emerging fragment depends on it; otherwise stop at the minimum sufficient evidence.
 5. **Keep terminal forms in the same proportional system.** Let palm thickness and finger widths graduate from the thumb/index side toward the little-finger side. Judge blocked fingers by the exposed stable widths and end curves rather than by guessed full lengths.
-6. **Resolve the joint interlock.** When two bent members face the viewer, give the decisive joint overlap to the advancing member. Preserve one continuous limb or digit chain; the contour decision does not transfer anatomical ownership of the joint.
+6. **Resolve the joint interlock.** Apply `PAT_attach_joint_overlap_to_advancing_member` at this decision. When two bent members face the viewer, give the decisive joint overlap to the advancing member. Preserve one continuous limb or digit chain; the contour decision does not transfer anatomical ownership of the joint.
 7. **Pass the Stage 2 lock gate on the plain maquette.** Confirm direction, width, taper, attachment, hidden-path logic, overlap, balance, and joint relation without relying on anatomy, facial identity, costume detail, line polish, modeled tone, or lighting. Strip any such later-stage information before judging the block. If the intended Stage 3 form cannot be built over the masses without relocating them, return upstream and repair Stage 2.
 8. **Promote only the proven construction.** Treat the accepted Stage 2 image as the controlling reference for Stages 3 and 4. A local failure may be erased, briefly restated as Stage 1, and rebuilt in place; if that repair cannot integrate without moving the rest of the composition, restart from Stage 1 rather than disguising the fault with rendering.
 

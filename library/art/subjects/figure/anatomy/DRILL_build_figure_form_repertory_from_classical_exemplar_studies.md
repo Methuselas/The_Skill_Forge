@@ -12,7 +12,7 @@ lane_fit: teach
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: method
-foundation_object_id: none
+foundation_object_id: AP_develop_figure_anatomy_from_structural_landmarks_to_living_surface
 tags:
 - figure_drawing
 - anatomy

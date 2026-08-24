@@ -279,7 +279,7 @@ Generate one finished full-character image."""
         self.assertIn("risk_region_inventory_check", complete_without_local_review["missing_required_checks"])
         self.assertIn("local_risk_inspection_check", complete_without_local_review["missing_required_checks"])
 
-        complete = runtime.verify_completion(
+        boolean_only = runtime.verify_completion(
             resolution,
             {
                 "checks": {
@@ -291,7 +291,126 @@ Generate one finished full-character image."""
                 "risk_checks": {name: True for name in resolution["risk_checks"]},
             },
         )
+        self.assertFalse(boolean_only["passed"])
+        self.assertTrue(boolean_only["evidence_errors"])
+        self.assertIn("visible_hand_topology", boolean_only["active_evidence_requirements"])
+
+        complete = runtime.verify_completion(
+            resolution,
+            {
+                "checks": {
+                    "instruction_fidelity_check": True,
+                    "objective_check": True,
+                    "risk_region_inventory_check": True,
+                    "local_risk_inspection_check": True,
+                },
+                "risk_checks": {name: True for name in resolution["risk_checks"]},
+                "evidence": {
+                    "visible_hands": {
+                        "declared_visible_count": 1,
+                        "instances": [
+                            {
+                                "id": "foreground_hand",
+                                "location": "foreground",
+                                "expected_topology_summary": "5 digits total: 4 long fingers + 1 thumb",
+                                "observed_topology_summary": "5 traceable digit branches: 4 long fingers + 1 thumb",
+                                "expected_total_digits": 5,
+                                "observed_total_digits": 5,
+                                "crop_inspected": True,
+                                "root_trace_inspected": True,
+                                "evidence_status": "sufficient",
+                                "topology_status": "pass",
+                            }
+                        ],
+                    }
+                },
+            },
+        )
         self.assertTrue(complete["passed"])
+        self.assertTrue(complete["completion_record_complete"])
+        self.assertFalse(complete["artifact_visually_validated"])
+        self.assertEqual(complete["validation_basis"], "caller_supplied_visual_evidence_record")
+
+    def test_hand_evidence_is_per_instance_and_count_mismatch_fails_closed(self):
+        resolution = runtime.resolve_task(
+            PROFILE, LIBRARY, "Draw a figure with both hands large and visible."
+        )
+        base = {
+            "checks": {
+                "instruction_fidelity_check": True,
+                "objective_check": True,
+                "risk_region_inventory_check": True,
+                "local_risk_inspection_check": True,
+            },
+            "risk_checks": {name: True for name in resolution["risk_checks"]},
+        }
+        one_of_two = dict(base)
+        one_of_two["evidence"] = {
+            "visible_hands": {
+                "declared_visible_count": 2,
+                "instances": [
+                    {
+                        "id": "left_hand",
+                        "location": "upper-left",
+                        "expected_topology_summary": "5 digits total",
+                        "observed_topology_summary": "5 traceable digit branches",
+                        "expected_total_digits": 5,
+                        "observed_total_digits": 5,
+                        "crop_inspected": True,
+                        "root_trace_inspected": True,
+                        "evidence_status": "sufficient",
+                        "topology_status": "pass",
+                    }
+                ],
+            }
+        }
+        result = runtime.verify_completion(resolution, one_of_two)
+        self.assertFalse(result["passed"])
+        self.assertTrue(any("declares 2 visible instances but records 1" in x for x in result["evidence_errors"]))
+
+        extra_digit = dict(base)
+        extra_digit["evidence"] = {
+            "visible_hands": {
+                "declared_visible_count": 1,
+                "instances": [
+                    {
+                        "id": "left_hand",
+                        "location": "upper-left",
+                        "expected_topology_summary": "5 digits total",
+                        "observed_topology_summary": "6 traceable digit branches",
+                        "expected_total_digits": 5,
+                        "observed_total_digits": 6,
+                        "crop_inspected": True,
+                        "root_trace_inspected": True,
+                        "evidence_status": "sufficient",
+                        "topology_status": "pass",
+                    }
+                ],
+            }
+        }
+        result = runtime.verify_completion(resolution, extra_digit)
+        self.assertFalse(result["passed"])
+        self.assertTrue(any("expected expected_total_digits=5" in x for x in result["evidence_errors"]))
+
+    def test_stage0_hand_checks_do_not_require_digit_evidence(self):
+        resolution = runtime.resolve_task(
+            PROFILE, LIBRARY, "MODE Staged. Draw a figure with both hands visible.", current_stage=0
+        )
+        completion = runtime.verify_completion(
+            resolution,
+            {
+                "checks": {
+                    "instruction_fidelity_check": True,
+                    "objective_check": True,
+                    "risk_region_inventory_check": True,
+                    "local_risk_inspection_check": True,
+                },
+                "risk_checks": {name: True for name in resolution["risk_checks"]},
+            },
+        )
+        self.assertTrue(completion["passed"])
+        self.assertEqual(completion["active_evidence_requirements"], [])
+        self.assertEqual(completion["validation_basis"], "caller_attestation")
 
     def test_weapon_and_reference_language_activate_hand_and_canon_checks(self):
         result = runtime.resolve_task(

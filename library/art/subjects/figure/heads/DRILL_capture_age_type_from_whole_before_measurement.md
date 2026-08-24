@@ -12,13 +12,15 @@ lane_fit: teach
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: method
-foundation_object_id: none
+foundation_object_id: PAT_set_figure_proportions_with_adjustable_head_units
 tags:
 - figure_drawing
 - proportion
 - age
 - sketchbook
 cross_links:
+- rel: teaches
+  target_object_id: PAT_set_figure_proportions_with_adjustable_head_units
 - rel: related_to
   target_object_id: DRILL_capture_gesture_from_short_visual_memory
 reference:

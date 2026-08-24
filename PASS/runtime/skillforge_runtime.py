@@ -13,8 +13,9 @@ What it actually provides:
   declared execution contract, activated metaskills, and required checks. The
   contract block is returned verbatim; Python does not interpret its meaning.
 - ``verify`` audits a completion record that its caller supplies, reporting which
-  required checks are absent. It is a report on a record, not a gate on an
-  action: whoever must satisfy the checks also writes the record.
+  required checks or profile-declared evidence records are absent/inconsistent.
+  It is a report on a record, not a gate on an action: whoever must satisfy the
+  checks also writes the record, and Python never independently sees the artifact.
 - ``doctor`` validates that a profile and the library's activation manifests are
   internally consistent and that every object reference resolves to a real card.
 
@@ -313,6 +314,110 @@ def resolve_task(
     }
 
 
+def _audit_evidence_requirements(
+    gate: dict[str, Any], resolution: dict[str, Any], completion: dict[str, Any]
+) -> tuple[list[str], list[str]]:
+    requirements = gate.get("evidence_requirements") or []
+    if not requirements:
+        return [], []
+    if not isinstance(requirements, list):
+        raise ValueError("completion_gate.evidence_requirements must be a list")
+    evidence = completion.get("evidence") or {}
+    if not isinstance(evidence, dict):
+        raise ValueError("completion.evidence must be a mapping")
+
+    active_risks = {str(x) for x in resolution.get("risk_checks") or []}
+    active_requirements: list[str] = []
+    errors: list[str] = []
+    for index, requirement in enumerate(requirements):
+        if not isinstance(requirement, dict):
+            raise ValueError(f"completion_gate.evidence_requirements[{index}] must be a mapping")
+        requirement_id = str(requirement.get("id") or f"requirement_{index}")
+        triggers = {str(x) for x in requirement.get("when_any_risk_checks") or []}
+        if triggers and not (triggers & active_risks):
+            continue
+        active_requirements.append(requirement_id)
+
+        collection_name = str(requirement.get("collection") or "")
+        if not collection_name:
+            errors.append(f"{requirement_id}: profile requirement has no collection name")
+            continue
+        collection = evidence.get(collection_name)
+        if not isinstance(collection, dict):
+            errors.append(f"{requirement_id}: missing evidence collection {collection_name}")
+            continue
+
+        count_field = str(requirement.get("declared_count_field") or "declared_count")
+        instances_field = str(requirement.get("instances_field") or "instances")
+        declared_count = collection.get(count_field)
+        instances = collection.get(instances_field)
+        if not isinstance(declared_count, int) or isinstance(declared_count, bool) or declared_count < 0:
+            errors.append(f"{requirement_id}: {collection_name}.{count_field} must be a non-negative integer")
+            continue
+        if not isinstance(instances, list):
+            errors.append(f"{requirement_id}: {collection_name}.{instances_field} must be a list")
+            continue
+        if len(instances) != declared_count:
+            errors.append(
+                f"{requirement_id}: {collection_name} declares {declared_count} visible instances but records {len(instances)}"
+            )
+        minimum = int(requirement.get("minimum_instances") or 0)
+        if declared_count < minimum:
+            errors.append(f"{requirement_id}: requires at least {minimum} recorded instance(s)")
+
+        required_strings = [str(x) for x in requirement.get("required_string_fields") or []]
+        required_true = [str(x) for x in requirement.get("required_true_fields") or []]
+        status_fields = requirement.get("required_status_fields") or {}
+        equal_pairs = requirement.get("equal_integer_pairs") or []
+        if not isinstance(status_fields, dict):
+            raise ValueError(f"{requirement_id}: required_status_fields must be a mapping")
+        if not isinstance(equal_pairs, list):
+            raise ValueError(f"{requirement_id}: equal_integer_pairs must be a list")
+
+        seen_ids: set[str] = set()
+        for instance_index, instance in enumerate(instances):
+            label = f"{collection_name}[{instance_index}]"
+            if not isinstance(instance, dict):
+                errors.append(f"{requirement_id}: {label} must be a mapping")
+                continue
+            for field in required_strings:
+                value = instance.get(field)
+                if not isinstance(value, str) or not value.strip():
+                    errors.append(f"{requirement_id}: {label}.{field} must be a non-empty string")
+            instance_id = instance.get("id")
+            if isinstance(instance_id, str) and instance_id.strip():
+                if instance_id in seen_ids:
+                    errors.append(f"{requirement_id}: duplicate instance id {instance_id!r}")
+                seen_ids.add(instance_id)
+            for field in required_true:
+                if instance.get(field) is not True:
+                    errors.append(f"{requirement_id}: {label}.{field} must be true")
+            for field, allowed in status_fields.items():
+                allowed_values = [str(x) for x in (allowed or [])]
+                if str(instance.get(field) or "") not in allowed_values:
+                    errors.append(
+                        f"{requirement_id}: {label}.{field} must be one of {allowed_values!r}"
+                    )
+            for pair in equal_pairs:
+                if not isinstance(pair, list) or len(pair) != 2:
+                    raise ValueError(f"{requirement_id}: each equal_integer_pairs entry must contain two fields")
+                expected_field, observed_field = str(pair[0]), str(pair[1])
+                expected = instance.get(expected_field)
+                observed = instance.get(observed_field)
+                for field, value in ((expected_field, expected), (observed_field, observed)):
+                    if not isinstance(value, int) or isinstance(value, bool) or value < 0:
+                        errors.append(f"{requirement_id}: {label}.{field} must be a non-negative integer")
+                if (
+                    isinstance(expected, int) and not isinstance(expected, bool)
+                    and isinstance(observed, int) and not isinstance(observed, bool)
+                    and expected != observed
+                ):
+                    errors.append(
+                        f"{requirement_id}: {label} expected {expected_field}={expected} but observed {observed_field}={observed}"
+                    )
+    return active_requirements, errors
+
+
 def verify_completion(resolution: dict[str, Any], completion: dict[str, Any]) -> dict[str, Any]:
     gate = resolution.get("completion_gate") or {}
     required = [str(x) for x in gate.get("required_checks") or []]
@@ -329,11 +434,25 @@ def verify_completion(resolution: dict[str, Any], completion: dict[str, Any]) ->
             if risk_checks.get(name) is not True:
                 unresolved_risks.append(str(name))
 
-    passed = not missing and not unresolved_risks
+    active_evidence_requirements, evidence_errors = _audit_evidence_requirements(gate, resolution, completion)
+    passed = not missing and not unresolved_risks and not evidence_errors
     return {
+        # `passed` is retained for CLI/backward compatibility. It means only that
+        # the caller-supplied completion RECORD satisfies this profile contract.
         "passed": passed,
+        "completion_record_complete": passed,
+        # This helper never sees pixels and therefore cannot truthfully make this
+        # claim even when a well-formed visual-evidence record was supplied.
+        "artifact_visually_validated": False,
+        "validation_basis": (
+            "caller_supplied_visual_evidence_record"
+            if active_evidence_requirements
+            else "caller_attestation"
+        ),
         "missing_required_checks": missing,
         "unresolved_risk_checks": unresolved_risks,
+        "active_evidence_requirements": active_evidence_requirements,
+        "evidence_errors": evidence_errors,
         "rollback_enabled": bool((resolution.get("contract") or {}).get("rollback_enabled", False)),
     }
 
@@ -416,6 +535,33 @@ def doctor(profile: dict[str, Any], library: Path) -> list[str]:
         problems.append("profile.default_lane must name a lane")
     for condition, where in _rule_conditions(profile):
         problems.extend(_condition_problems(condition, where))
+
+    completion_gate = profile.get("completion_gate") or {}
+    if not isinstance(completion_gate, dict):
+        problems.append("profile.completion_gate must be a mapping")
+    else:
+        evidence_requirements = completion_gate.get("evidence_requirements") or []
+        if not isinstance(evidence_requirements, list):
+            problems.append("profile.completion_gate.evidence_requirements must be a list")
+        else:
+            for index, requirement in enumerate(evidence_requirements):
+                where = f"profile.completion_gate.evidence_requirements[{index}]"
+                if not isinstance(requirement, dict):
+                    problems.append(f"{where} must be a mapping")
+                    continue
+                if not requirement.get("id"):
+                    problems.append(f"{where}.id is required")
+                if not requirement.get("collection"):
+                    problems.append(f"{where}.collection is required")
+                triggers = requirement.get("when_any_risk_checks") or []
+                if not isinstance(triggers, list) or not all(isinstance(item, str) for item in triggers):
+                    problems.append(f"{where}.when_any_risk_checks must be a string list")
+                pairs = requirement.get("equal_integer_pairs") or []
+                if not isinstance(pairs, list) or any(
+                    not isinstance(pair, list) or len(pair) != 2 or not all(isinstance(field, str) for field in pair)
+                    for pair in pairs
+                ):
+                    problems.append(f"{where}.equal_integer_pairs must contain two-field string lists")
     for index, rule in enumerate(profile.get("risk_rules") or []):
         if not isinstance(rule, dict):
             continue

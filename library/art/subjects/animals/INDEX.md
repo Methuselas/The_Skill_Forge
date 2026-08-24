@@ -56,6 +56,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
+- [Construct an Animal Head From Skull Type to Living Features](AP_construct_animal_head_from_skull_type_to_living_features.md) - ap; 2 block. Tags: animal_head, animals, comparative_anatomy, expression, facial_features, head_construction, skull.
 - [Construct an Animal Pose From Action, Type, and Structure](AP_construct_animal_pose_from_action_type_and_structure.md) - ap; 1 skeleton. Tags: action, anatomy, animals, construction, gesture, locomotion, pose.
 - [Design a Fantastic Animal From Function, Donors, and Coherent Anatomy](AP_design_fantastic_animal_from_function_donors_and_coherent_anatomy.md) - ap; 0 design. Tags: animals, concept_design, creature_design, fantasy_creature, hybrid_anatomy, sci_fi_creature.
 

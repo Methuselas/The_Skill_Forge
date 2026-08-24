@@ -23,13 +23,13 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: AP_plan_and_build_work_from_thumbnail_to_final
-- rel: related_to
+- rel: supports
   target_object_id: PAT_explore_stage0_with_thumbnail_set
-- rel: related_to
+- rel: supports
   target_object_id: PAT_choose_viewpoint_to_strengthen_story_effect
-- rel: related_to
+- rel: supports
   target_object_id: PAT_design_whole_picture_as_interlocking_shape_pattern
-- rel: related_to
+- rel: supports
   target_object_id: PAT_crop_decisively_to_reshape_figure_ground_relationships
 - rel: supports
   target_object_id: PAT_treat_brief_as_fixed_requirements_plus_open_design_space
@@ -52,7 +52,7 @@ Turn an editorial cover brief into cover-ready pencils whose story promise, lead
 1. **Enter only after the editorial job is concrete enough to design.** Identify required subjects, forbidden reveals, the dramatic proposition the cover may promise, and whatever current format or production constraints are actually known. Treat unknown modern production dimensions as unknown rather than inheriting historical measurements.
 2. **Split fixed requirements from open design space.** Invoke `PAT_treat_brief_as_fixed_requirements_plus_open_design_space` so editorial requirements stay fixed while camera, scale, overlap, crop, negative space, and other pictorial variables remain available for exploration.
 3. **Protect production boundaries before irreplaceable content is placed.** Use the actual title/logo, trim, bleed, safe, and likely copy zones when they are known, routing physical boundary decisions through `PAT_protect_critical_content_from_physical_production_boundaries`.
-4. **Stage 0 — generate several cheap cover layouts.** Keep them simple enough to compare. Vary subject scale, facing, overlap, eye level, camera height, crop, negative space, and the relationship between lead and supporting figures while preserving the same brief.
+4. **Stage 0 — generate several cheap cover layouts.** Apply `PAT_explore_stage0_with_thumbnail_set`, `PAT_choose_viewpoint_to_strengthen_story_effect`, `PAT_design_whole_picture_as_interlocking_shape_pattern`, and `PAT_crop_decisively_to_reshape_figure_ground_relationships` at this decision. Keep them simple enough to compare. Vary subject scale, facing, overlap, eye level, camera height, crop, negative space, and the relationship between lead and supporting figures while preserving the same brief.
 5. **Pass the cover-selection gate.** A rough may advance only when it simultaneously satisfies the editorial requirements, communicates the intended story promise without an unintended spoiler, keeps the intended lead dominant, leaves usable production space, and remains safe for the known target format. Visual punch alone does not override a failed requirement.
 6. **Freeze the accepted Stage-0 commitments.** Record the chosen camera, crop, hierarchy, story promise, and production zones as parent invariants. Later construction may clarify them but may not silently redesign them.
 7. **Delegate generic staged construction.** Call `AP_plan_and_build_work_from_thumbnail_to_final` with the accepted cover layout and parent invariants. Let the subordinate AP conduct staged figure/setting construction while this Cover AP retains authority over brief, camera/crop, hierarchy, story promise, and production space.

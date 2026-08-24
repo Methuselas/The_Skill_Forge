@@ -19,16 +19,18 @@ tags:
 - line_hierarchy
 - continuity
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_develop_scene_through_registered_successors
 - rel: supports
   target_object_id: AP_gate_staged_visual_work_by_approval
 - rel: related_to
   target_object_id: AP_prepare_artifact_only_image_generation_handoff
-- rel: related_to
+- rel: supports
   target_object_id: PAT_preserve_structure_during_stage4_pencil_finish
-- rel: related_to
+- rel: supports
   target_object_id: PAT_verify_result_against_objective_after_production
+- rel: supports
+  target_object_id: PAT_use_subtractive_and_manipulative_marks_as_drawing_tools
 reference:
   source_title: Guided Broken Gate Canonical Drawing Precedent Run
   author: MaDin + GPT
@@ -64,11 +66,11 @@ Complete the approved Stage 3 specific rough as a fully resolved, production-rea
 ## Steps / Flow
 1. **Enter only from an approved Stage 3 rough.** Keep the approved Stage 0 picture root and the exact approved Stage 3 artifact as authorities. If anatomy, pose, perspective, inventory, design, or another upstream Drawing decision still needs redesign, return upstream instead of hiding the problem with finish.
 2. **Confirm exact predecessor accessibility before generation.** Apply `PAT_develop_scene_through_registered_successors`. Canonical identity and edit-target availability are separate truths. If the requested operation requires editing/reference continuity and the exact approved Stage 3 artifact is not actually available to the native image tool, fail closed and recover or request a re-upload of that exact artifact. Do not reconstruct it from prose or substitute a near-match.
-3. **Resolve the registered drawing in place.** Use `PAT_preserve_structure_during_stage4_pencil_finish` plus `AP_prepare_artifact_only_image_generation_handoff`. Stage 4 may delete, consolidate, replace, suppress, clarify, add, or re-express marks when doing so resolves the already-approved drawing. It may substantially change exploratory mark expression; it may not materially change the approved solution underneath those marks.
+3. **Resolve the registered drawing in place.** Apply `PAT_use_subtractive_and_manipulative_marks_as_drawing_tools` at this decision. Use `PAT_preserve_structure_during_stage4_pencil_finish` plus `AP_prepare_artifact_only_image_generation_handoff`. Stage 4 may delete, consolidate, replace, suppress, clarify, add, or re-express marks when doing so resolves the already-approved drawing. It may substantially change exploratory mark expression; it may not materially change the approved solution underneath those marks.
 4. **Close remaining Drawing uncertainty.** Resolve ambiguous contours or value boundaries, anatomy already established, clothing/gear construction, folds/overlaps, hands, feet, prop contacts, attachments, silhouette-critical relationships, architecture, and other functional endpoints. Functional contacts require high **certainty**, but not necessarily the darkest marks, hardest edges, or highest visible mark density.
 5. **Establish an intentional pencil language and information hierarchy.** Control contour emphasis, edge behavior, mark density, value, texture, hatching, omission, and local resolution according to the picture's intended hierarchy and pencil language. Hard, soft, broken, lost, implied, value-defined, hatch-defined, or mass-defined edges may all be final when intentional. Subordinate information must not compete accidentally, but it need not be intrinsically less resolved or quieter merely because it is distant or nonfocal.
 6. **Resolve environment and props without redesign.** Finish architecture, wagon/vehicle forms, rubble, terrain, stairs, doors, mechanisms, and other accepted objects to the level of Drawing certainty required by the picture. Use distance, focal role, light, material, and intended treatment to choose how information is expressed; do not apply a universal foreground-dark/background-faint or focal-tightest rule.
-7. **Inspect the finished drawing against both anchors.** Reduced to Stage 3 information, the result must recover the accepted rough; reduced further, it must still recover the Stage 0 picture. Recheck camera, crop, figure poses, spear/prop axes, contacts, major overlaps, negative spaces, perspective, scene inventory, and established design. This reducer is the hard guardrail on any large mark-level change.
+7. **Inspect the finished drawing against both anchors.** Apply `PAT_verify_result_against_objective_after_production` at this decision. Reduced to Stage 3 information, the result must recover the accepted rough; reduced further, it must still recover the Stage 0 picture. Recheck camera, crop, figure poses, spear/prop axes, contacts, major overlaps, negative spaces, perspective, scene inventory, and established design. This reducer is the hard guardrail on any large mark-level change.
 8. **Pass the Drawing-closure gate.** More graphite, more hatch, more micro-detail, darker value, smoother tone, cleaner linework, or generalized surface activity are not evidence of completion by themselves. Ask: **Would the intended next operation have to finish an unresolved Drawing decision before performing its own job?** If yes, Stage 4 is not closed. When no separately owned downstream appearance operation is required, the Finished-Pencils artifact may itself be the delivered final artwork. When additional Rendering decisions such as developed light/value/material/atmosphere/edge treatment are required beyond Drawing closure, route them to the applicable Rendering owner even if the physical medium remains pencil or graphite.
 9. **Stop at Drawing closure.** Do not introduce Ink, Color, Paint, Manga/B&W completion, or another medium's finish merely to make the image look more final. Downstream craft begins only by separate instruction and inherits the completed Drawing lockset.
 

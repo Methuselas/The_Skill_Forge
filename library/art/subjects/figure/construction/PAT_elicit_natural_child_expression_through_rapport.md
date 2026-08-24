@@ -12,7 +12,7 @@ lane_fit: skill
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: method
-foundation_object_id: none
+foundation_object_id: PAT_direct_reference_subject_through_story_state_not_feature_pose
 tags:
 - portrait
 - child_portrait

@@ -19,16 +19,20 @@ tags:
 - volume
 - information_ceiling
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_develop_scene_through_registered_successors
 - rel: supports
   target_object_id: AP_gate_staged_visual_work_by_approval
 - rel: related_to
   target_object_id: AP_prepare_artifact_only_image_generation_handoff
-- rel: related_to
+- rel: supports
   target_object_id: PAT_block_complete_stage2_inventory
 - rel: prerequisite_for
   target_object_id: AP_realize_stage3_rough_image
+- rel: supports
+  target_object_id: PAT_block_complex_objects_with_perspective_boxes
+- rel: supports
+  target_object_id: PAT_construct_inclined_planes_from_base_vanishing_directions
 reference:
   source_title: Guided Stage Revision Debugging and Stage Mechanics Review
   author: MaDin + GPT
@@ -53,7 +57,7 @@ Convert the approved Stage 1 scene skeleton into complete minimum three-dimensio
 ## Steps / Flow
 1. **Enter from an approved Stage 1 skeleton.** Preserve the approved Stage 0 picture proposition and the complete Stage 1 scaffold. If the skeleton is missing an important object, contact, perspective relationship, or pose dependency, return to Stage 1 first.
 2. **Register the exact approved skeleton as the productive predecessor.** Apply `PAT_develop_scene_through_registered_successors`. Develop each registered figure, weapon, prop, and environment scaffold into mass without independently relocating or reinterpreting it from prose.
-3. **Expand anchors into masses.** Use `PAT_block_complete_stage2_inventory` to turn figure skeletons into connected body masses and turn object/environment scaffolds into boxes, cylinders, planes, tubes, terrain masses, and other simple volumes.
+3. **Expand anchors into masses.** Apply `PAT_block_complex_objects_with_perspective_boxes` and `PAT_construct_inclined_planes_from_base_vanishing_directions` at this decision. Use `PAT_block_complete_stage2_inventory` to turn figure skeletons into connected body masses and turn object/environment scaffolds into boxes, cylinders, planes, tubes, terrain masses, and other simple volumes.
 4. **Account for every major intended element.** A figure, building, prop, vehicle, effect, support, attachment, or terrain feature that will matter during rough realization must already exist here in minimum solid form or as an explicit structural placeholder.
 5. **Preserve the earlier picture and skeleton.** Centers, axes, joints, contacts, support, perspective, overlap order, camera, crop, subject scale/placement, negative spaces, and hierarchy remain authoritative. Stage 2 gains volume; it does not redesign placement.
 6. **Compile the productive image through the artifact-only handoff.** Use `AP_prepare_artifact_only_image_generation_handoff` and the Productive Image Contract below. The whole image must remain at simple-volume resolution.

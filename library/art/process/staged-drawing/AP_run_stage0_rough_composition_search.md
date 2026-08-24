@@ -25,15 +25,15 @@ cross_links:
   target_object_id: AP_gate_staged_visual_work_by_approval
 - rel: related_to
   target_object_id: AP_prepare_artifact_only_image_generation_handoff
-- rel: related_to
+- rel: supports
   target_object_id: PAT_explore_stage0_with_thumbnail_set
-- rel: related_to
+- rel: supports
   target_object_id: PAT_backcast_stage0_from_stage4_visual_proposition
-- rel: related_to
+- rel: supports
   target_object_id: PAT_calibrate_stage_information_density_against_precedent
-- rel: related_to
+- rel: supports
   target_object_id: PAT_track_force_continuity_through_action
-- rel: related_to
+- rel: supports
   target_object_id: PAT_design_pose_against_center_of_gravity
 reference:
   source_title: Guided Stage Revision Debugging and Stage Mechanics Review
@@ -59,9 +59,9 @@ Produce a cheap, rough picture proposition that lets the user judge the intended
 
 ## Steps / Flow
 1. **Enter only while the picture proposition is unresolved.** Preserve the user's brief, reference-lock requirements, and any camera/crop constraints already fixed. If the user has already supplied an approved composition, do not reopen Stage 0 unless they ask to redesign it.
-2. **Choose the Stage 0 search form and bind the global candidate budget in controller state.** For an open composition, use `PAT_explore_stage0_with_thumbnail_set`; for a fixed direction, make one rough control thumbnail. Open Search produces **four to six candidate images total for the entire search cycle**, normally four unless the brief benefits from additional camera/action exploration. Every candidate is one independent image artifact created by its own native image invocation. **One native image call = one Stage 0 candidate.** Do not use a host multi-output option for Stage 0 even when one is available. The controller alone tracks the global total, candidate identifiers, diversity bookkeeping, invalid-slot retries, and user-selection gate. **Contact sheets, production sheets, grids, and any image containing multiple composition candidates are forbidden.** Use the single universal Stage 0 low-information ceiling and `PAT_calibrate_stage_information_density_against_precedent` to keep every result cheap enough to reject.
+2. **Choose the Stage 0 search form and bind the global candidate budget in controller state.** Apply `PAT_backcast_stage0_from_stage4_visual_proposition` at this decision. For an open composition, use `PAT_explore_stage0_with_thumbnail_set`; for a fixed direction, make one rough control thumbnail. Open Search produces **four to six candidate images total for the entire search cycle**, normally four unless the brief benefits from additional camera/action exploration. Every candidate is one independent image artifact created by its own native image invocation. **One native image call = one Stage 0 candidate.** Do not use a host multi-output option for Stage 0 even when one is available. The controller alone tracks the global total, candidate identifiers, diversity bookkeeping, invalid-slot retries, and user-selection gate. **Contact sheets, production sheets, grids, and any image containing multiple composition candidates are forbidden.** Use the single universal Stage 0 low-information ceiling and `PAT_calibrate_stage_information_density_against_precedent` to keep every result cheap enough to reject.
 3. **Search the picture, not the rendering.** Explore camera/viewpoint, framing, subject scale/placement, dominant gesture/action, large shape and negative-space arrangement, depth path, hierarchy, and only the broadest value/light idea. Require structural divergence across alternatives: each candidate should materially change several coarse descriptors such as action family, camera height/side/roll/distance, torso orientation, support surface, primary diagonal, subject scale/crop, foreground relation, or depth path. Cosmetic pose edits inside the same underlying shot do not count as Search.
-4. **Gate semantic action requirements at gesture scale.** When the brief says acrobatic, dynamic, weightless, forceful, or another action quality, test that quality before detail: the action line, torso/pelvis relationship, limb asymmetry, center-of-mass/support condition, silhouette, foreshortening, and chosen moment must communicate it even with costume, weapon detail, lighting, and environment finish removed. Use the existing gesture/force patterns where relevant.
+4. **Gate semantic action requirements at gesture scale.** Apply `PAT_track_force_continuity_through_action` and `PAT_design_pose_against_center_of_gravity` at this decision. When the brief says acrobatic, dynamic, weightless, forceful, or another action quality, test that quality before detail: the action line, torso/pelvis relationship, limb asymmetry, center-of-mass/support condition, silhouette, foreshortening, and chosen moment must communicate it even with costume, weapon detail, lighting, and environment finish removed. Use the existing gesture/force patterns where relevant.
 5. **Compile one productive image through the artifact-only handoff per native call.** Use `AP_prepare_artifact_only_image_generation_handoff` and the singular Productive Image Contract below. Keep the global search count, candidate index, Search terminology, approval logic, and future calls on the controller side. Do not narrate the staged workflow immediately before generation, and do not add later-resolution visual requirements merely because the golden-truth pack contains them.
 6. **Keep alternatives neutral.** Identify candidates clearly in conversation or by simple marks only when needed, but do not star, rank, frame as “best,” call one a root, or visually develop one unless the user explicitly asks for a recommendation. Assistant preference never creates approval.
 7. **Classify rejection and retire the correct family.** A bounded correction such as a missing limb or fixed prop may produce another Stage 0 revision while preserving the viable composition. Composition/camera rejection retires that picture family. Pose/action-family rejection retires the coarse action solution. Information-density rejection keeps the picture decision open but lowers the artifact back to the universal Stage 0 ceiling. Broad critiques such as “same image again,” “none of these work,” “too flat,” or “not dynamic enough” reopen Search with the critique carried forward and with matching coarse descriptors treated as dead until the user explicitly resurrects them.

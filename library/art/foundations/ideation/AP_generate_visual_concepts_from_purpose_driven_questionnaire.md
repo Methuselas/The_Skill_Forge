@@ -26,6 +26,10 @@ cross_links:
   target_object_id: PAT_explore_stage0_with_thumbnail_set
 - rel: related_to
   target_object_id: PAT_synthesize_visual_concepts_from_diverse_source_types
+- rel: supports
+  target_object_id: PAT_make_familiar_subject_strange_by_transforming_relationships
+- rel: supports
+  target_object_id: PAT_build_visual_humor_from_expectation_twist_predicament_and_behavior
 reference:
   source_title: Creative Illustration
   author: Andrew Loomis
@@ -56,11 +60,11 @@ Turn an abstract assignment into several drawable concept routes by questioning 
 3. **Separate known from unknown.** Research missing facts that matter to the assignment and discard questions that do not affect the picture.
 4. **Build a fact pool.** Record concise answers without forcing them immediately into one composition.
 5. **Cluster relationships.** Look for repeated benefits, frictions, contrasts, causes, consequences, settings, or human situations that can become themes.
-6. **Promote a promising cluster into a concept premise.** State the relationship the viewer should grasp rather than naming only the subject.
+6. **Promote a promising cluster into a concept premise.** Apply `PAT_build_visual_idea_around_audience_motive_or_friction` at this decision. State the relationship the viewer should grasp rather than naming only the subject.
 7. **Translate the premise into visible form.** Convert abstract claims into actions, before/after contrasts, environments, interactions, props, or concrete situations that can actually be drawn.
-8. **Branch several routes from the same evidence before judging them.** Let different clusters produce genuinely different visual propositions and keep the divergent batch generative long enough to discover alternatives; do not use the first acceptable route as the standard that every later route must immediately beat.
+8. **Branch several routes from the same evidence before judging them.** Let different clusters produce genuinely different visual propositions and keep the divergent batch generative long enough to discover alternatives. When familiarity is collapsing the routes into conventional solutions, apply `PAT_make_familiar_subject_strange_by_transforming_relationships`; when the intended route is specifically comic, apply `PAT_build_visual_humor_from_expectation_twist_predicament_and_behavior` so the humor has a visible expectation and twist rather than mere oddness. Do not use the first acceptable route as the standard that every later route must immediately beat.
 9. **Evaluate after the divergent batch exists.** Compare, reject, combine, or select only after several distinct propositions are visible enough to judge against the assignment purpose.
-10. **Rough cheaply.** Move viable propositions into Stage 0 thumbnail search rather than polishing the questionnaire itself.
+10. **Rough cheaply.** Apply `PAT_explore_stage0_with_thumbnail_set` at this decision. Move viable propositions into Stage 0 thumbnail search rather than polishing the questionnaire itself.
 11. **Reweight instead of restarting blindly.** If feedback changes emphasis, keep facts that still serve the job and reorganize the concept around the newly important relationship.
 
 **Failure / Rollback Rules**

@@ -21,7 +21,7 @@ tags:
 - chroma
 - hierarchy
 cross_links:
-- rel: related_to
+- rel: supports
   target_object_id: PAT_develop_scene_through_registered_successors
 - rel: supports
   target_object_id: PAT_preserve_value_structure_when_translating_tone_into_color

@@ -11,6 +11,7 @@
   - Variants: `Audit the Big Figure Silhouette as a Single Patch` (method_sequence).
 - [Design Drapery From Tension Points and Forces](PAT_design_drapery_from_tension_points_and_forces.md) - pattern; 3 rough. Tags: drapery, figure_drawing, folds, tension.
   - Variants: `Separate Garment Construction From Body-Driven Folds` (method_sequence); `Stage Costume Practice From Isolated Figure to Scene Context` (method_sequence).
+- [Develop Figure Anatomy From Structural Landmarks to Living Surface](AP_develop_figure_anatomy_from_structural_landmarks_to_living_surface.md) - ap; 2 block. Tags: anatomy, body_type, figure_drawing, living_form, structural_landmarks, surface_anatomy.
 - [Map Rear Pelvic Masses Without Breaking the Wedge](PAT_map_rear_pelvic_masses_without_breaking_wedge.md) - pattern; 3 rough. Tags: figure_drawing, pelvis, rear_view, surface_form.
   - Variants: `Anchor Changing Hip Surface to the Iliac Crest` (method_sequence).
 - [Place Chest Landmarks on the Rib-Cage Barrel](PAT_place_chest_landmarks_on_rib_cage_barrel.md) - pattern; 2 block. Tags: chest_anatomy, figure_drawing, landmark_placement, surface_form.
