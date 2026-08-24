@@ -7,6 +7,6 @@
 - [Character](character/INDEX.md) - 12 object(s).
 - [Dialogue](dialogue/INDEX.md) - 7 object(s).
 - [Foundations](foundations/INDEX.md) - 4 object(s).
-- [Setting](setting/INDEX.md) - 7 object(s).
-- [Structure](structure/INDEX.md) - 7 object(s).
+- [Setting](setting/INDEX.md) - 12 object(s).
+- [Structure](structure/INDEX.md) - 8 object(s).
 - [Viewpoint](viewpoint/INDEX.md) - 7 object(s).

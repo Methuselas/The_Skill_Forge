@@ -29,7 +29,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_rewrite_same_place_under_contrasting_emotional_pressure
+    variant_name: Rewrite the Same Place under Contrasting Emotional Pressure
+    variant_basis: method_sequence
+    difference_from_foundation: Hold the place's physical facts constant while redrafting it under opposed immediate pressures, then compare changes in selection, naming, sequence, and interpretation.
+    when_to_use: A setting feels emotionally generic or the draft names a mood without making it alter attention.
+    when_not_to_use: The exercise would require falsifying established geography, or the scene needs neutral orientation before subjective pressure enters.
+    absorbed_from_object_id: none
 ---
 
 # Filter Setting through Character Consciousness
@@ -59,3 +66,5 @@ variants: []
 
 ## Notes
 Place enters fiction through a consciousness, even when the narrator sounds casual. A room summarized as merely nice can expose neglect more strongly than a precise catalog would; intimate knowledge of a creek can show belonging without announcing it. The degree of attention is itself characterization.
+
+The variant `writing_fiction_variant_rewrite_same_place_under_contrasting_emotional_pressure` holds geography constant across two opposed states and compares what becomes salient, how it is named, and what it appears to promise or threaten. Use the method to expose generic mood painting; retain mixed responses when the place resists rather than simply mirrors the character.

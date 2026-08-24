@@ -10,4 +10,5 @@
 - [Escalate Central Conflict Through the Middle](PAT_escalate_central_conflict_through_the_middle.md) - pattern; 2 block. Tags: conflict, fiction, middles, rising_action, transitions.
 - [Generate and Cull Multiple Story Openings](DRILL_generate_and_cull_multiple_story_openings.md) - drill; 1 skeleton. Tags: fiction, invention, openings, practice, selection.
 - [Map Chronology Before Compressing Story Time](PAT_map_chronology_before_compressing_story_time.md) - pattern; 0 design. Tags: chronology, compression, exposition, fiction, flashback.
+- [Omit Eventless Travel between Consequential Scenes](PAT_omit_eventless_travel_between_consequential_scenes.md) - pattern; 2 block. Tags: compression, fiction, pacing, scene_transition, travel.
 - [Reduce a Story to a Logline](DRILL_reduce_story_to_a_logline.md) - drill; 0 design. Tags: conflict, diagnosis, fiction, logline, story_core.

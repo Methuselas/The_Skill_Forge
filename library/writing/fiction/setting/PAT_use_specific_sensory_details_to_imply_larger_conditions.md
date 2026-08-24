@@ -37,6 +37,13 @@ variants:
     when_to_use: The setting must carry divided emotional or thematic conditions that a single atmospheric register would flatten.
     when_not_to_use: The contrast would manufacture melodrama, or one clear sensory register better serves the scene.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_build_place_through_dominant_sense_cascade
+    variant_name: Build Place through a Dominant-Sense Cascade
+    variant_basis: method_sequence
+    difference_from_foundation: Begin with the sense that returns most forcefully to the observer, then let sound, sight, or other senses enter through a voice-shaped accumulation whose order conveys the observer's relation to the place.
+    when_to_use: Intense immersion, memory, or oral narration can justify a dense sensory passage and its sequence carries emotion.
+    when_not_to_use: The scene needs rapid orientation, the accumulation outruns the observer's voice, or a few decisive details already perform the work.
+    absorbed_from_object_id: none
 ---
 
 # Use Specific Sensory Details to Imply Larger Conditions
@@ -68,3 +75,5 @@ variants:
 Exact details make a small fictional world feel larger because each object can carry evidence about lives beyond the sentence. A torn luxury item in a ruined room may imply both former wealth and present violence; ordinary packaging can locate economic circumstance more precisely than a label.
 
 The variant `writing_fiction_variant_build_setting_through_tonal_opposition` composes the place through counter-images. Establish beauty, safety, familiarity, or another dominant impression, then introduce a precise detail that breaks its simplicity. Use the method when the setting must remain lovely and awful at once; avoid it when opposition would be imposed rather than discovered.
+
+The variant `writing_fiction_variant_build_place_through_dominant_sense_cascade` starts with the sense that most powerfully returns the place to the observer, then widens through sound, sight, or other channels in an order shaped by voice. Lists, rhythm, and figurative links may make the accumulation enact excitement, disgust, longing, or ambivalence. Use it when density itself carries the relationship; avoid it when the passage becomes an interchangeable sensory inventory.

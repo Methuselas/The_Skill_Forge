@@ -41,6 +41,7 @@ variants: []
 
 ## Do
 - Begin with the characters' shared history and present trouble, then test locations that make avoidance harder or old tensions physically present.
+- Name whether the character-place relation is supportive, antagonistic, or unexpectedly harmonious, then use that relation to generate a test, disruption, refuge, or reversal rather than a static mood.
 - Treat time as part of setting by naming the hour, season, year, and historical conditions that materially affect action or expectation.
 - Identify how enclosure, distance, weather, terrain, or social use of the place changes what characters can do.
 - Establish enough private geography that travel time, entrances, sightlines, and repeated movements remain consistent.
@@ -53,6 +54,7 @@ variants: []
 
 ## Checklist
 - The chosen time and place sharpen a specific relation, obstacle, memory, or decision.
+- Harmony or antagonism between character and place produces an available story consequence rather than merely illustrating temperament.
 - Moving the story elsewhere would require changes beyond replacing place names.
 - Physical conditions constrain or enable action consistently.
 - The setting supports the intended atmosphere without displacing the people.

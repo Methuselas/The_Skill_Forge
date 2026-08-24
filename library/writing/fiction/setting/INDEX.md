@@ -4,11 +4,18 @@
 
 ## Objects
 
+- [Build Institutional Settings as Rule-Bound Social Worlds](PAT_build_institutional_settings_as_rule_bound_social_worlds.md) - pattern; 0 design. Tags: fiction, hierarchy, institutions, setting, workplaces.
 - [Choose Setting to Intensify Character and Conflict](PAT_choose_setting_to_intensify_character_and_conflict.md) - pattern; 0 design. Tags: character, conflict, fiction, place, setting, time.
 - [Control Setting Detail Density by Story Need](PAT_control_setting_detail_density_by_story_need.md) - pattern; 3 rough. Tags: compression, description, fiction, pacing, revision, setting.
 - [Design and Render a Story Setting](AP_design_and_render_a_story_setting.md) - ap; 0 design. Tags: continuity, description, fiction, place, setting.
 - [Filter Setting through Character Consciousness](PAT_filter_setting_through_character_consciousness.md) - pattern; 2 block. Tags: character, description, fiction, perception, setting, viewpoint.
+  - Variants: `Rewrite the Same Place under Contrasting Emotional Pressure` (method_sequence).
 - [Ground Real and Imagined Settings in Accurate Detail](PAT_ground_real_and_imagined_settings_in_accurate_detail.md) - pattern; 0 design. Tags: accuracy, credibility, fiction, research, setting, worldbuilding.
+  - Variants: `Saturate Historical Imagination with Period Writing` (method_sequence).
+- [Infer an Absent Character from a Domestic Space](DRILL_infer_an_absent_character_from_a_domestic_space.md) - drill; 1 skeleton. Tags: character, deliberate_practice, fiction, possessions, setting.
 - [Map Setting for Spatial Continuity](DRILL_map_setting_for_spatial_continuity.md) - drill; 0 design. Tags: continuity, fiction, floor-plan, map, practice, setting.
+- [Research a Workplace and Draft Its Social Rules](DRILL_research_a_workplace_and_draft_its_social_rules.md) - drill; 0 design. Tags: deliberate_practice, fiction, interview, setting, workplace.
+- [Reveal Character through Possessions and Inhabited Space](PAT_reveal_character_through_possessions_and_inhabited_space.md) - pattern; 1 skeleton. Tags: character, fiction, implication, possessions, setting.
+- [Rewrite One Setting through Contrasting Emotional States](DRILL_rewrite_one_setting_through_contrasting_emotional_states.md) - drill; 2 block. Tags: deliberate_practice, emotion, fiction, setting, viewpoint.
 - [Use Specific Sensory Details to Imply Larger Conditions](PAT_use_specific_sensory_details_to_imply_larger_conditions.md) - pattern; 2 block. Tags: atmosphere, fiction, imagery, implication, sensory-detail, setting.
-  - Variants: `Build Setting through Tonal Opposition` (method_sequence).
+  - Variants: `Build Setting through Tonal Opposition` (method_sequence); `Build Place through a Dominant-Sense Cascade` (method_sequence).
