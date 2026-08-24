@@ -23,6 +23,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Keep Classes Immutable With Builder or Copy-on-Write](PAT_keep_immutable_with_builder_or_copy_on_write.md) - pattern; 2 block. Tags: builder_pattern, copy_on_write, design_patterns, immutability.
 - [Make a Class Deeply Immutable While Keeping It Usable](AP_make_a_class_immutable.md) - ap; 3 rough. Tags: builder_pattern, hard_to_misuse, immutability, refactoring.
 - [Make Immutability Deep, Not Just Shallow](PAT_make_immutability_deep.md) - pattern; 2 block. Tags: defensive_copying, hard_to_misuse, immutability, references.
+- [Make the Caller Write the Ambiguous Choice](PAT_make_the_caller_state_the_ambiguous_choice.md) - pattern; 0 design. Tags: api_design, call_site, explicitness, hard_to_misuse, ownership.
 - [Make Wrong Usage Hard or Impossible](PAT_make_code_hard_to_misuse.md) - pattern; 2 block. Tags: api_design, error_prevention, hard_to_misuse, interfaces.
 - [Prefer Immutable Objects Set Only at Construction](PAT_prefer_immutable_objects.md) - pattern; 2 block. Tags: class_design, concurrency, hard_to_misuse, immutability.
 - [Remove a Redundant Second Source of Truth From a Data Model](DRILL_remove_redundant_derived_data.md) - drill; 3 rough. Tags: derived_data, hard_to_misuse, refactoring, single_source_of_truth.

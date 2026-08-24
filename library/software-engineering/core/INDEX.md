@@ -228,9 +228,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Data Types](data-types/INDEX.md) - 4 object(s).
 - [Deliberate Practice](deliberate-practice/INDEX.md) - 14 object(s).
 - [Dependencies](dependencies/INDEX.md) - 3 object(s).
-- [Design](design/INDEX.md) - 15 object(s).
+- [Design](design/INDEX.md) - 17 object(s).
 - [Error Handling](error-handling/INDEX.md) - 20 object(s).
-- [Hard To Misuse](hard-to-misuse/INDEX.md) - 12 object(s).
+- [Hard To Misuse](hard-to-misuse/INDEX.md) - 13 object(s).
 - [Modularity](modularity/INDEX.md) - 15 object(s).
 - [Performance](performance/INDEX.md) - 32 object(s).
 - [Problem Solving](problem-solving/INDEX.md) - 13 object(s).
