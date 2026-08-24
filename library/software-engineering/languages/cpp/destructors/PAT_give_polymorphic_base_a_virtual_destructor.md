@@ -38,6 +38,7 @@ variants: []
 ## Do
 - Add a virtual destructor to any class that has at least one virtual function.
 - To make an abstract base that has no other pure virtual function, declare a pure virtual destructor and still provide its definition, since derived destructors call it.
+- For a base that is inherited but never deleted through — a mixin, a template parameter a class inherits, a stateless helper — give it a **protected non-virtual** destructor. Protected stops an outsider deleting through a pointer to it; non-virtual keeps the object free of a vptr. This is the answer for the case the rule of thumb excludes, and leaving the destructor public and non-virtual leaves a legal-looking call with undefined behavior.
 
 ## Don't
 - Don't give a virtual destructor to a class that is not meant to be a polymorphic base; the added vptr enlarges every object and breaks layout compatibility with C.
@@ -46,7 +47,8 @@ variants: []
 ## Checklist
 - Does this class have any virtual function, and if so is its destructor virtual?
 - Is this class genuinely a polymorphic base, or am I adding a vptr for nothing?
+- If it is a base but not a polymorphic one, is its destructor protected so nobody can delete through it?
 - Am I deriving from a type (string, a container) whose destructor is non-virtual?
 
 ## Notes
-Deleting a derived object through a base pointer with a non-virtual destructor is undefined — typically the derived part is never destroyed, leaving a partially destroyed object that leaks. The rule of thumb is a virtual destructor if and only if the class has at least one virtual function; a gratuitous virtual destructor is as wrong as a missing one, because the vptr costs size and portability (the `TimeKeeper`/`Point` contrast). This applies only to *polymorphic* bases: non-polymorphic bases like `Uncopyable` need no virtual destructor.
+Deleting a derived object through a base pointer with a non-virtual destructor is undefined — typically the derived part is never destroyed, leaving a partially destroyed object that leaks. The rule of thumb is a virtual destructor if and only if the class has at least one virtual function; a gratuitous virtual destructor is as wrong as a missing one, because the vptr costs size and portability (the `TimeKeeper`/`Point` contrast). This applies only to *polymorphic* bases: non-polymorphic bases like `Uncopyable` need no virtual destructor. They do need a decision, though, and "leave it public and non-virtual" is the wrong one — a class that inherits such a base converts to it implicitly, so `delete` on that pointer compiles and is undefined. Protecting the destructor removes the call without adding the vptr, which matters most where a class inherits its configuration from template parameters: those bases are inherited constantly, deleted through never, and are often small enough that one vptr would dominate their size.

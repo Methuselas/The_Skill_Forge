@@ -9,6 +9,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - **Check an Atomic Is Lock-Free Before Relying on It** — read first
   - then: Choose the Compare-Exchange Form by Whether You Loop
   - then: Make Shared-Pointer Atomicity a Property of the Type
+- **Choose Compile-Time or Runtime Variation** — read first
+  - then: Lift Each Varying Design Decision to a Parameter
 - **Don't Call Unknown Code While Holding a Lock** — read first
   - then: Restructure a Class That Locks Every Member Function
 - **Know When Two Accesses Are a Data Race** — read first
@@ -39,4 +41,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Cpp](cpp/INDEX.md) - 176 object(s).
+- [Cpp](cpp/INDEX.md) - 180 object(s).

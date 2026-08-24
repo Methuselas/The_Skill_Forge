@@ -2,12 +2,23 @@
 
 # Software Engineering / Languages / Cpp / Templates
 
+## Reading order
+
+_Read a foundation before the skills that build on it (`prerequisite_for`)._
+
+- **Choose Compile-Time or Runtime Variation** — read first
+  - then: Lift Each Varying Design Decision to a Parameter
+
 ## Objects
 
 - [Access Templatized Base Class Members Explicitly](PAT_access_templatized_base_members_explicitly.md) - pattern; 3 rough. Tags: cpp, inheritance, name_lookup, templates.
+- [Choose Compile-Time or Runtime Variation](PAT_choose_compile_time_or_runtime_variation.md) - pattern; 0 design. Tags: abi, class_design, cpp, polymorphism, templates.
 - [Declare Type-Converting Template Operators as Friends Inside the Class](PAT_declare_template_converting_operators_as_friends.md) - pattern; 2 block. Tags: cpp, operators, templates, type_conversion.
 - [Factor Parameter-Independent Code Out of Templates](PAT_factor_parameter_independent_code_from_templates.md) - pattern; 3 rough. Tags: code_bloat, cpp, efficiency, templates.
 - [Fix Access to a Name in a Templatized Base Class](DRILL_fix_templatized_base_class_name_access.md) - drill; 3 rough. Tags: cpp, inheritance, name_lookup, templates.
+- [Keep Configuration Parameters Orthogonal](PAT_keep_configuration_parameters_orthogonal.md) - pattern; 0 design. Tags: class_design, coupling, cpp, policy_based_design, templates.
+- [Let a Class Degrade Gracefully on Optional Parameter Features](PAT_let_a_host_degrade_gracefully_on_optional_features.md) - pattern; 2 block. Tags: cpp, instantiation, interface_design, policy_based_design, templates.
+- [Lift Each Varying Design Decision to a Parameter](PAT_lift_each_varying_design_decision_to_a_parameter.md) - pattern; 0 design. Tags: class_design, configurability, cpp, policy_based_design, templates.
 - [Precede Nested Dependent Type Names with typename](PAT_precede_nested_dependent_types_with_typename.md) - pattern; 3 rough. Tags: cpp, dependent_names, templates, typename.
 - [Program to a Template's Implicit Interface](PAT_program_to_a_templates_implicit_interface.md) - pattern; 0 design. Tags: compile_time_polymorphism, cpp, generic_programming, templates.
 - [Use Member Templates to Accept All Compatible Types](PAT_use_member_templates_for_compatible_types.md) - pattern; 2 block. Tags: cpp, member_templates, smart_pointers, templates.

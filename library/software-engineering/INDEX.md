@@ -28,6 +28,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - **Check an Atomic Is Lock-Free Before Relying on It** — read first
   - then: Choose the Compare-Exchange Form by Whether You Loop
   - then: Make Shared-Pointer Atomicity a Property of the Type
+- **Choose Compile-Time or Runtime Variation** — read first
+  - then: Lift Each Varying Design Decision to a Parameter
 - **Choose the Level Before You Touch the Code** — read first
   - then: Tune a Measured Bottleneck
 - **Choose the Problem's Representation Before Solving It** — read first
@@ -249,4 +251,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 ## Topics
 
 - [Foundations](core/INDEX.md) - 383 object(s).
-- [Languages](languages/INDEX.md) - 176 object(s).
+- [Languages](languages/INDEX.md) - 180 object(s).
