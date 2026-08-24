@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Choose the Relationship Between Two Types](AP_choose_the_relationship_between_two_types.md) - ap; 0 design. Tags: class_design, composition, cpp, inheritance, is_a.
 - [Make Non-Leaf Classes Abstract](PAT_make_non_leaf_classes_abstract.md) - pattern; 0 design. Tags: abstraction, assignment, class_design, cpp, inheritance.
 - [Model Has-A and Is-Implemented-In-Terms-Of with Composition](PAT_model_has_a_with_composition.md) - pattern; 0 design. Tags: class_design, composition, cpp, inheritance.
 - [Refactor a Broken Is-A Hierarchy to Composition](DRILL_refactor_broken_is_a_to_composition.md) - drill; 2 block. Tags: composition, cpp, inheritance, refactoring.

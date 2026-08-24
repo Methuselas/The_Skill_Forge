@@ -5,6 +5,7 @@
 ## Objects
 
 - [Apply the Non-Virtual Interface Idiom](DRILL_apply_the_nvi_idiom.md) - drill; 2 block. Tags: cpp, nvi, template_method, virtual_functions.
+- [Design a Customization Point](AP_design_a_customization_point.md) - ap; 0 design. Tags: cpp, nvi, polymorphism, strategy, virtual_functions.
 - [Externalize Varying Behavior with the Strategy Pattern](PAT_externalize_varying_behavior_with_strategy.md) - pattern; 2 block. Tags: callable, cpp, strategy, virtual_functions.
 - [Give a Polymorphic Class a Virtual Clone](PAT_give_a_polymorphic_class_a_virtual_clone.md) - pattern; 2 block. Tags: class_design, copying, cpp, polymorphism, virtual_functions.
 - [Match a Function's Virtual-ness to What Derived Classes Must Inherit](PAT_match_virtualness_to_inherited_interface.md) - pattern; 2 block. Tags: cpp, inheritance, interface_design, virtual_functions.

@@ -15,3 +15,4 @@
 - [Make Copy Assignment Safe Under Self-Assignment](PAT_handle_self_assignment_in_copy_assignment.md) - pattern; 3 rough. Tags: copy_control, cpp, exception_safety, self_assignment.
 - [Return a Reference to *this from Assignment Operators](PAT_return_reference_to_this_from_assignment.md) - pattern; 3 rough. Tags: convention, copy_control, cpp, operators.
 - [Share a Representation Until a Write Forces a Private Copy](PAT_share_a_representation_until_a_write_forces_a_copy.md) - pattern; 2 block. Tags: copy_control, copy_on_write, cpp, performance, reference_counting.
+- [Write the Copy Control for a Resource-Owning Class](AP_write_copy_control_for_a_resource_owning_class.md) - ap; 2 block. Tags: copy_control, cpp, exception_safety, rule_of_five, special_members.
