@@ -32,7 +32,14 @@ reference:
 confidence: high
 references: []
 target_skill: Giving characters distinguishable voices grounded in attention, motive, relation, and spoken rhythm
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_alternate_accounts_of_a_disputed_event
+    variant_name: Alternate Accounts of a Disputed Event
+    variant_basis: context
+    difference_from_foundation: Turn the parallel monologues into first-person narrative accounts of the same conflict, requiring each speaker to contribute distinct evidence and a persuasive interpretation that can shift reader allegiance.
+    when_to_use: A story may use competing narrators or needs to test whether more than one character can plausibly own the conflict.
+    when_not_to_use: One account supplies all meaningful access or the second voice only repeats facts without changing their meaning.
+    absorbed_from_object_id: none
 ---
 
 # Differentiate Character Voices through Parallel Monologues
@@ -72,3 +79,5 @@ Choose two characters with different desires, knowledge, and relationships to on
 
 ## Notes
 Parallel conditions expose voice more clearly than unrelated speeches. A character's voice is not a bag of verbal ornaments; it is the audible result of what that person notices, knows, wants, withholds, and believes can be said to this listener. Reading aloud tests whether the designed differences survive as speech.
+
+`writing_fiction_variant_alternate_accounts_of_a_disputed_event` changes the comparison from spoken performance to narrative ownership. Draft each character's version of one conflict, retain only overlap whose meaning changes between tellers, and compare what each account makes readers believe or feel. Use the variant when both voices complicate the story; reject the second narrator when it adds sound but no necessary interpretation.

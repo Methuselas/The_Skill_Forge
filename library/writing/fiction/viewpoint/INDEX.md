@@ -9,7 +9,11 @@
   - Variants: `Use First Person for an Urgent Subjective Witness` (emphasis); `Use First Person Plural for a Community Voice` (emphasis); `Use Second Person for Implication and Distance` (emphasis); `Use Third Person Limited for Close Flexible Access` (emphasis); `Use Omniscient for Controlled Multi-Character Scope` (emphasis).
 - [Choose Tense by Visibility and Temporal Effect](PAT_choose_tense_by_visibility_and_temporal_effect.md) - pattern; 0 design. Tags: fiction, immediacy, narration, tense, time.
   - Variants: `Use Past Tense as Unmarked Narration` (emphasis); `Use Present Tense for Conspicuous Immediacy` (emphasis); `Use Future Tense for Experimental Projection` (emphasis).
+- [Design the First-Person Telling Situation](PAT_design_the_first_person_telling_situation.md) - pattern; 0 design. Tags: address, fiction, first_person, narrator, retrospective_narration.
+  - Variants: `Use Private Self-Communion` (context); `Use Directed First-Person Address` (context); `Use a Detached Retrospective Account` (emphasis); `Admit Fallible Recollection` (emphasis).
 - [Design Unreliable Narration with Readable Evidence](PAT_design_unreliable_narration_with_readable_evidence.md) - pattern; 2 block. Tags: fiction, inference, narrator, reader_trust, unreliability.
+  - Variants: `Use Character Resistance as Counter-Narrative` (method_sequence).
 - [Keep Point-of-View Knowledge and Access Consistent](PAT_keep_point_of_view_knowledge_and_access_consistent.md) - pattern; 2 block. Tags: continuity, fiction, head_hopping, knowledge, point_of_view.
 - [Redraft a Passage across Point of View and Tense](DRILL_redraft_passage_across_point_of_view_and_tense.md) - drill; 1 skeleton. Tags: fiction, point_of_view, practice, redrafting, tense.
 - [Shape Style as a Response to Story Situation](PAT_shape_style_as_response_to_story_situation.md) - pattern; 2 block. Tags: diction, fiction, style, syntax, tone.
+- [Use Alternating First-Person Narrators to Complicate Interpretation](PAT_use_alternating_first_person_narrators_to_complicate_interpretation.md) - pattern; 0 design. Tags: fiction, first_person, multiple_narrators, reader_allegiance, voice.

@@ -10,6 +10,7 @@
 - [Compress Cast without Flattening Main Characters](PAT_compress_cast_without_flattening_main_characters.md) - pattern; 1 skeleton. Tags: cast, character, compression, fiction, flash-fiction, naming.
 - [Develop and Reveal a Short-Story Character](AP_develop_and_reveal_a_short_story_character.md) - ap; 0 design. Tags: character, development, fiction, revelation, short_story.
 - [Differentiate Character Voices through Parallel Monologues](DRILL_differentiate_character_voices_through_parallel_monologues.md) - drill; 1 skeleton. Tags: character, deliberate_practice, diction, fiction, monologue, voice.
+  - Variants: `Alternate Accounts of a Disputed Event` (context).
 - [Inhabit Unsympathetic Characters from Inside](PAT_inhabit_unsympathetic_characters_from_inside.md) - pattern; 0 design. Tags: character, fiction, motivation, point-of-view, sympathy.
 - [Portray Characters Beyond Direct Experience with Accountable Imagination](PAT_portray_characters_beyond_direct_experience_with_accountable_imagination.md) - pattern; 0 design. Tags: character, fiction, identity, imagination, research, stereotype.
 - [Propagate One Counterfactual Change through a Fictional Life](DRILL_propagate_one_counterfactual_change_through_a_fictional_life.md) - drill; 0 design. Tags: character, counterfactual, deliberate_practice, fiction, invention, transformation.
