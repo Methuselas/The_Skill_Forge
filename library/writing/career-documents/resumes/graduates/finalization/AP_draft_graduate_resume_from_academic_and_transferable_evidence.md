@@ -21,27 +21,27 @@ tags:
   - competency_statements
   - drafting
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_target_application_materials_to_employer_criteria
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_make_resume_contact_details_professionally_reachable
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_open_resume_with_employer_relevant_evidence
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_present_education_and_training_by_hiring_relevance
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_choose_resume_format_by_evidence_visibility
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_build_resume_competency_statements_from_fit_and_verifiable_evidence
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_write_specific_responsibility_statements
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_turn_added_value_into_resume_achievements
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_include_optional_resume_sections_only_as_evidence
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_prepare_referees_before_submission
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_submit_credential_evidence_without_risking_originals_or_sensitive_data
   - rel: related_to
     target_object_id: writing_ap_finalize_and_submit_resume

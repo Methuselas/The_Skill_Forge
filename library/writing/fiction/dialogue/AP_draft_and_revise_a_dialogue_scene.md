@@ -19,17 +19,17 @@ tags:
   - drafting
   - revision
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_compress_real_speech_into_purposeful_dialogue
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_let_relationship_and_setting_shape_dialogue
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_combine_dialogue_with_action_thought_and_silence
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_choose_direct_or_reported_dialogue_by_effect
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_orient_speakers_with_unobtrusive_formatting_and_tags
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_read_draft_aloud_to_defamiliarize_it
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

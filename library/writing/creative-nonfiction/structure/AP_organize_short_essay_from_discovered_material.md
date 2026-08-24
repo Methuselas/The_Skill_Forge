@@ -19,19 +19,19 @@ tags:
   - structure
   - revision
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_choose_subject_for_open_ended_exploration
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_preserve_factual_accountability_while_using_literary_craft
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_choose_structure_from_discovered_connections
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_compress_short_essay_around_active_inquiry
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_open_with_specific_question_or_pressure
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_end_at_resonant_turn_or_deepening
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_revise_whole_draft_toward_intended_form
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

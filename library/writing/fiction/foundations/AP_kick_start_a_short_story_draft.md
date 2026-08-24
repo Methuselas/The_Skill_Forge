@@ -19,25 +19,25 @@ tags:
   - drafting
   - writing_block
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_recover_block_by_lowering_hurdle
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_collect_fragments_before_demanding_complete_draft
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_generate_relevant_options_with_goal_directed_brainstorming
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_turn_concrete_stimuli_into_story_pressure
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_build_round_characters_from_contradiction_and_desire
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_match_story_scope_to_required_accumulation
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_begin_at_point_of_attack
   - rel: related_to
     target_object_id: writing_fiction_drill_generate_and_cull_multiple_story_openings
   - rel: related_to
     target_object_id: writing_fiction_ap_choose_and_stabilize_narrative_perspective
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_flash_fiction_compress_complete_story_without_dead_space
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

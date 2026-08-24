@@ -19,19 +19,19 @@ tags:
   - chronology
   - revision
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_build_plot_from_causal_consequences
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_map_chronology_before_compressing_story_time
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_begin_at_point_of_attack
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_escalate_central_conflict_through_middle
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_match_story_scope_to_required_accumulation
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_flash_fiction_compress_complete_story_without_dead_space
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_revise_whole_draft_toward_intended_form
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

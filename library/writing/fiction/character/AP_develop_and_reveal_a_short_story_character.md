@@ -19,13 +19,13 @@ tags:
   - development
   - revelation
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_build_round_characters_from_contradiction_and_desire
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_transform_real_people_into_composite_characters
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_inhabit_unsympathetic_characters_from_inside
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_portray_characters_beyond_direct_experience_with_accountable_imagination
   - rel: related_to
     target_object_id: writing_fiction_drill_build_hidden_character_profile
@@ -33,17 +33,17 @@ cross_links:
     target_object_id: writing_fiction_drill_differentiate_character_voices_through_parallel_monologues
   - rel: related_to
     target_object_id: writing_fiction_drill_render_one_character_through_five_portrayal_channels
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_choose_point_of_view_by_access_distance_and_effect
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_reveal_character_incrementally_through_behavior
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_filter_setting_through_character_consciousness
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_combine_dialogue_with_action_thought_and_silence
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_flash_fiction_compress_cast_without_flattening_main_characters
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_scale_character_change_to_story_length
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

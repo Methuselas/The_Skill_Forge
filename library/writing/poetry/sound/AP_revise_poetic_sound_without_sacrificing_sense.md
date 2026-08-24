@@ -19,15 +19,15 @@ tags:
   - musicality
   - revision
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_poetry_make_rhyme_serve_sense_and_effect
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_shape_sound_to_reinforce_meaning
   - rel: related_to
     target_object_id: writing_poetry_ap_revise_rhythm_across_metered_and_free_verse
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_read_draft_aloud_to_defamiliarize_it
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_revise_whole_draft_toward_intended_form
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

@@ -20,21 +20,21 @@ tags:
   - editing
   - proofreading
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_calibrate_context_to_audience_and_venue
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_reassess_inspired_drafts_after_distance
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_revise_whole_draft_toward_intended_form
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_read_draft_aloud_to_defamiliarize_it
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_receive_workshop_feedback_without_defending_draft
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_weight_feedback_by_criteria_and_experience
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_separate_revision_from_editing_and_proofreading
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_make_nonstandard_language_deliberate
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

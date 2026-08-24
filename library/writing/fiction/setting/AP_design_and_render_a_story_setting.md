@@ -19,19 +19,19 @@ tags:
   - continuity
   - description
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_choose_setting_to_intensify_character_and_conflict
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_ground_real_and_imagined_settings_in_accurate_detail
   - rel: related_to
     target_object_id: writing_fiction_drill_map_setting_for_spatial_continuity
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_choose_point_of_view_by_access_distance_and_effect
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_filter_setting_through_character_consciousness
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_use_specific_sensory_details_to_imply_larger_conditions
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_control_setting_detail_density_by_story_need
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

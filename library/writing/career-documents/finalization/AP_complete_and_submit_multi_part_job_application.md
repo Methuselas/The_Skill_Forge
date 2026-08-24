@@ -19,27 +19,27 @@ tags:
   - credentials
   - submission
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_target_application_materials_to_employer_criteria
   - rel: related_to
     target_object_id: writing_ap_finalize_and_submit_resume
   - rel: related_to
     target_object_id: writing_ap_draft_targeted_cover_letter
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_curate_portfolio_around_strong_relevant_and_varied_evidence
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_match_portfolio_delivery_to_review_context_and_technical_constraints
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_answer_application_forms_as_complete_standalone_evidence
   - rel: related_to
     target_object_id: writing_ap_draft_and_finalize_selection_criteria_responses
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_preserve_online_application_work_across_form_constraints
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_submit_credential_evidence_without_risking_originals_or_sensitive_data
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_proofread_application_materials_with_independent_passes
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_package_emailed_application_documents_for_reliable_routing
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"

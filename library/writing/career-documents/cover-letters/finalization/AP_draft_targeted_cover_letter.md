@@ -20,21 +20,21 @@ tags:
   - revision
   - submission
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_target_application_materials_to_employer_criteria
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_route_cover_letter_to_correct_reader_and_opportunity
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_choose_cover_letter_frame_by_contact_context
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_structure_cover_letter_around_contact_purpose_evidence_and_next_step
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_keep_cover_letter_confidence_specific_and_employer_focused
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_present_cover_letter_as_concise_companion_document
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_proofread_application_materials_with_independent_passes
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_package_emailed_application_documents_for_reliable_routing
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"

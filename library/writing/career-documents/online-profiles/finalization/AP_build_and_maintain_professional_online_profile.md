@@ -20,19 +20,19 @@ tags:
   - job_search
   - maintenance
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_ground_professional_reputation_in_role_relevant_evidence
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_choose_career_network_platforms_by_audience_and_maintenance_cost
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_audit_discoverable_career_footprint_before_promotion
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_control_public_career_profile_visibility_and_disclosure
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_build_discoverable_career_profile_as_broad_professional_overview
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_maintain_career_profile_through_current_evidence_and_useful_participation
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_build_career_evidence_inventory_before_drafting
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"

@@ -19,11 +19,11 @@ tags:
   - invention
   - development
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_collect_fragments_before_demanding_complete_draft
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_freewrite_to_discover_what_draft_is_about
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_trace_reader_effects_to_craft_choices
 reference:
   source_title: "Creative Writing: A Workbook with Readings"

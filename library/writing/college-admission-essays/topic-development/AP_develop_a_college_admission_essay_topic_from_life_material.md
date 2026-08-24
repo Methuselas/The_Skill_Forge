@@ -19,19 +19,19 @@ tags:
   - autobiography
   - brainstorming
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_generate_relevant_options_with_goal_directed_brainstorming
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_collect_fragments_before_demanding_complete_draft
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_freewrite_to_discover_what_draft_is_about
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_derive_personal_essay_theme_from_recurring_life_evidence
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_build_brief_scene_from_place_people_and_stakes
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_college_admission_essays_choose_material_that_adds_applicant_meaning
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_select_a_candid_essay_self_for_the_inquiry
 reference:
   source_title: College Admission Essays For Dummies

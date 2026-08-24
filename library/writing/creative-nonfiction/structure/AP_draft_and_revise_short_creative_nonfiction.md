@@ -20,23 +20,23 @@ tags:
   - fact_checking
   - ethics
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_choose_subject_for_open_ended_exploration
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_preserve_factual_accountability_while_using_literary_craft
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_verify_checkable_facts_and_research_necessary_context
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_interrogate_memory_before_claiming_precision
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_conduct_prepared_and_responsive_interviews
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_select_a_candid_essay_self_for_the_inquiry
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_collect_fragments_before_demanding_complete_draft
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_separate_generative_and_evaluative_writing_modes
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_creative_nonfiction_audit_harm_and_privacy_when_portraying_real_people
   - rel: related_to
     target_object_id: writing_creative_nonfiction_ap_organize_short_essay_from_discovered_material

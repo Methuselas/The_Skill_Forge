@@ -19,17 +19,17 @@ tags:
   - free_verse
   - revision
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_poetry_scan_and_vary_meter_deliberately
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_poetry_keep_free_verse_rhythmically_accountable
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_poetry_break_lines_to_control_pace_and_expectation
   - rel: related_to
     target_object_id: writing_poetry_sustain_intensity_beyond_meter_and_lineation
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_read_draft_aloud_to_defamiliarize_it
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_revise_whole_draft_toward_intended_form
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

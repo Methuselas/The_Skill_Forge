@@ -19,16 +19,18 @@ tags:
   - narrator
   - style
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_choose_point_of_view_by_access_distance_and_effect
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_keep_point_of_view_knowledge_and_access_consistent
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_design_unreliable_narration_with_readable_evidence
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_choose_tense_by_visibility_and_temporal_effect
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_fiction_shape_style_as_response_to_story_situation
+  - rel: supports
+    target_object_id: writing_fiction_filter_setting_through_character_consciousness
   - rel: related_to
     target_object_id: writing_fiction_drill_redraft_passage_across_point_of_view_and_tense
 reference:

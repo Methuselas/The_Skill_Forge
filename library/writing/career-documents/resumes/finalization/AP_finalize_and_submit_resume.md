@@ -20,16 +20,18 @@ tags:
   - submission
   - quality_gate
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_target_application_materials_to_employer_criteria
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_design_resume_for_on_screen_scanning
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_proofread_application_materials_with_independent_passes
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_package_emailed_application_documents_for_reliable_routing
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_prepare_referees_before_submission
+  - rel: supports
+    target_object_id: writing_translate_insider_experience_into_recruiter_language
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"
   author: Amanda McCarthy and Kate Southam
