@@ -23,6 +23,8 @@ cross_links:
     target_object_id: writing_fiction_match_story_scope_to_required_accumulation
   - rel: related_to
     target_object_id: writing_flash_fiction_compress_complete_story_without_dead_space
+  - rel: related_to
+    target_object_id: writing_fiction_allocate_scene_and_summary_by_narrative_pressure
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -42,6 +44,7 @@ variants: []
 - Place every consequential event on a before-during-after timeline even when most of that line will remain outside the draft.
 - Mark what each flashback or forward changes in the reader's understanding of the present scene.
 - Signal elapsed time and the relation between selected scenes when compressing weeks or years into a few transitions.
+- After mapping the full sequence, allocate scene and summary by narrative pressure rather than assuming every consequential event needs equal duration on the page.
 - Know the omitted history well enough that present actions, memories, objects, and relationships remain consistent with it.
 - In very short fiction, prefer a concentrated present action and admit temporal departures only when their yield exceeds their orientation cost.
 
@@ -59,4 +62,4 @@ variants: []
 - No continuity error depends on the order in which the draft happened to be written.
 
 ## Notes
-Narrative time is selected time, not a transcript of duration. A lifetime can pass in one sentence while a remembered second occupies pages. That freedom works only when the writer remains oriented beneath the arrangement. Knowledgeable omission strengthens a story because the visible portion rests on a coherent whole; omission from ignorance leaves a hole that readers feel even when they cannot name it.
+Narrative time is selected time, not a transcript of duration. A lifetime can pass in one sentence while a remembered second occupies pages. Mapping establishes what happened and when; `writing_fiction_allocate_scene_and_summary_by_narrative_pressure` decides how much narrative space each selected event receives. That freedom works only when the writer remains oriented beneath the arrangement. Knowledgeable omission strengthens a story because the visible portion rests on a coherent whole; omission from ignorance leaves a hole that readers feel even when they cannot name it.

@@ -4,6 +4,8 @@
 
 ## Objects
 
+- [Allocate Scene and Summary by Narrative Pressure](PAT_allocate_scene_and_summary_by_narrative_pressure.md) - pattern; 2 block. Tags: exposition, fiction, pacing, reader_inference, scene, summary.
+  - Variants: `Sustain Summary for Tale or Parable Logic` (context).
 - [Begin Fiction at the Point of Attack](PAT_begin_at_the_point_of_attack.md) - pattern; 1 skeleton. Tags: conflict, exposition, fiction, in_medias_res, openings.
 - [Build Plot from Causal Consequences](PAT_build_plot_from_causal_consequences.md) - pattern; 0 design. Tags: causality, consequences, fiction, plot, structure.
 - [Design and Revise Short Story Structure](AP_design_and_revise_short_story_structure.md) - ap; 0 design. Tags: chronology, fiction, plot, revision, structure.
@@ -12,3 +14,4 @@
 - [Map Chronology Before Compressing Story Time](PAT_map_chronology_before_compressing_story_time.md) - pattern; 0 design. Tags: chronology, compression, exposition, fiction, flashback.
 - [Omit Eventless Travel between Consequential Scenes](PAT_omit_eventless_travel_between_consequential_scenes.md) - pattern; 2 block. Tags: compression, fiction, pacing, scene_transition, travel.
 - [Reduce a Story to a Logline](DRILL_reduce_story_to_a_logline.md) - drill; 0 design. Tags: conflict, diagnosis, fiction, logline, story_core.
+- [Revise One Event through Summary Scene and Blend](DRILL_revise_one_event_through_summary_scene_and_blend.md) - drill; 2 block. Tags: deliberate_practice, fiction, pacing, revision, scene, summary.
