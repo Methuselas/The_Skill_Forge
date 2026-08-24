@@ -25,12 +25,21 @@ cross_links:
     target_object_id: writing_replace_received_language_with_precise_distinctive_phrasing
   - rel: related_to
     target_object_id: writing_revise_whole_draft_toward_intended_form
+  - rel: related_to
+    target_object_id: writing_fiction_render_stream_of_consciousness_in_controlled_bursts
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_blend_narrator_and_character_through_free_indirect_style
+    variant_name: Blend Narrator and Character through Free Indirect Style
+    variant_basis: style
+    difference_from_foundation: Render a focal character's thought and idiom inside third-person narration without quotation marks or repeated thought tags, preserving both the narrator's organizing reach and the character's subjective pressure.
+    when_to_use: Third-person limited needs intimate consciousness, tonal double vision, or tension between external report and the character's way of naming experience.
+    when_not_to_use: Readers cannot tell whose judgment colors the sentence or the prose repeatedly leaks knowledge beyond the focal character.
+    absorbed_from_object_id: none
 ---
 
 # Shape Style as a Response to Story Situation
@@ -61,3 +70,5 @@ variants: []
 
 ## Notes
 Style is not an ornamental layer added after content. Placement at the word, sentence, and paragraph levels determines tone and controls how the story reaches the reader. Economy therefore means removing language without function, not enforcing uniform minimalism. Strong verbs and precise words often concentrate a passage, but a modifier, repetition, or elaborate sentence remains justified when it carries voice, rhythm, relation, or perception.
+
+`writing_fiction_variant_blend_narrator_and_character_through_free_indirect_style` brings a focal character's evaluative words, rhythms, questions, and sensory associations into third-person prose without announcing each thought. The narrator can still organize time and observe the character from outside, creating a useful double vision. Keep access limited to what the focal character can perceive or infer, and maintain enough tonal continuity that subjective coloring does not look like an unexplained new speaker.

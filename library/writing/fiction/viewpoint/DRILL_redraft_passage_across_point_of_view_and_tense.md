@@ -31,7 +31,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_compare_three_third_person_access_levels
+    variant_name: Compare Three Third-Person Access Levels
+    variant_basis: method_sequence
+    difference_from_foundation: Hold the event and tense constant while drafting it through one limited consciousness, a governing omniscient intelligence, and exterior-only objective narration.
+    when_to_use: The unresolved choice is how much interior knowledge and authorial interpretation a story should permit rather than grammatical person or tense.
+    when_not_to_use: The passage lacks a meaningful private pressure, multiple-character contrast, or exterior evidence with which the three versions could produce different effects.
+    absorbed_from_object_id: none
 ---
 
 # Redraft a Passage across Point of View and Tense
@@ -71,3 +78,5 @@ Choose a passage of 250 to 500 words containing an event, at least two character
 
 ## Notes
 Sustained redrafting exposes costs that a pronoun substitution cannot. A viewpoint may produce an arresting first line but fail when the passage needs inaccessible knowledge; an unusual tense may energize one moment while making summary or hindsight cumbersome. The exercise makes those tradeoffs visible before they govern an entire draft.
+
+`writing_fiction_variant_compare_three_third_person_access_levels` isolates degree of knowing. In the limited version, filter every detail and inference through one character; in the omniscient version, use broader access only where comparison, context, or judgment earns it; in the objective version, remove private thought and make the central pressure inferable through exterior evidence. Choose by the effect and information route the story needs, not by which version contains the most facts.

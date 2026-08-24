@@ -50,9 +50,9 @@ variants:
   - variant_id: writing_fiction_variant_use_second_person_for_implication_and_distance
     variant_name: Use Second Person for Implication and Distance
     variant_basis: emphasis
-    difference_from_foundation: Address the central figure as you to implicate the reader, reproduce an imperative or spoken-story rhythm, or let a narrator displace shame and responsibility onto a grammatical double.
-    when_to_use: Direct address creates a necessary pressure, ritual, accusation, instruction, or defensive distance.
-    when_not_to_use: The address feels bossy or intrusive without producing an effect the story needs.
+    difference_from_foundation: Address the central figure as you to implicate the reader, universalize an individual pressure, reproduce internalized instruction, or let an isolated narrator address a divided grammatical self.
+    when_to_use: Direct address creates a necessary pressure, ritual, accusation, instruction, universality, or defensive distance that the story can sustain.
+    when_not_to_use: The address feels bossy or falsely assigns experience to the reader, or a long narrative becomes airless without a controlled change of viewpoint.
     absorbed_from_object_id: none
   - variant_id: writing_fiction_variant_use_third_person_limited_for_close_flexible_access
     variant_name: Use Third Person Limited for Close Flexible Access
@@ -65,8 +65,15 @@ variants:
     variant_name: Use Omniscient for Controlled Multi-Character Scope
     variant_basis: emphasis
     difference_from_foundation: Establish an encompassing narrative intelligence that can move across minds, places, and times while maintaining a stable governing voice.
-    when_to_use: The story's essential design depends on comparisons or information no single character can supply and has enough space to establish the transitions.
+    when_to_use: The story's essential design depends on comparisons, thematic judgment, social scope, or information no single character can supply and has enough space to establish the transitions.
     when_not_to_use: A short form would spend more attention managing access shifts than developing the event, or omniscience merely excuses accidental head-hopping.
+    absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_use_objective_third_person_for_exterior_inference
+    variant_name: Use Objective Third Person for Exterior Inference
+    variant_basis: constraint
+    difference_from_foundation: Withhold private thought and authorial interpretation so readers infer interior pressure from selected actions, gestures, expressions, dialogue, silences, objects, and consequences.
+    when_to_use: Restraint, ambiguity, social observation, or an antidote to over-explanation matters more than direct access to a character's mind.
+    when_not_to_use: The story's essential change cannot be made inferable from exterior evidence or the resulting distance becomes merely spare and clinical.
     absorbed_from_object_id: none
 ---
 
@@ -100,8 +107,10 @@ variants:
 
 `writing_fiction_variant_use_first_person_plural_for_community_voice` moves the center of narration into a group's shared identity. It suits stories about consensus, exclusion, or collective fascination, but every claim must remain plausible for the narrating we.
 
-`writing_fiction_variant_use_second_person_for_implication_and_distance` uses you as an active device: invitation, accusation, instruction, oral address, or self-division. Its intensity is useful only when the effect outweighs the risk of making the reader resist being assigned a role.
+`writing_fiction_variant_use_second_person_for_implication_and_distance` uses you as an active device: invitation, accusation, internalized instruction, universality, or self-division. It can make an isolated character into a private confidant or turn repeated commands into social pressure. Its intensity is useful only when the effect outweighs reader resistance and the enclosed feeling can be sustained; longer narratives may need a deliberate alternation with another position.
 
 `writing_fiction_variant_use_third_person_limited_for_close_flexible_access` stays inside one focal consciousness while allowing an over-the-shoulder view and controlled authorial phrasing. Its flexibility increases the writer's obligation to distinguish legitimate outside observation from a leak into another mind.
 
 `writing_fiction_variant_use_omniscient_for_controlled_multi_character_scope` permits deliberate movement across characters and time under one stable narrative intelligence. It carries the greatest access and the greatest management cost, especially in flash fiction, where a limited position often delivers more pressure per sentence.
+
+`writing_fiction_variant_use_objective_third_person_for_exterior_inference` removes direct interior access and overt interpretation. Select behavior, repetition, silence, objects, and social responses that let readers construct motive and relation without being told what each sign means. The distance is productive when inference creates pressure or ambiguity; it fails when neutral reporting becomes indiscriminate surveillance or leaves the central change unreadable.

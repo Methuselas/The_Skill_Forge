@@ -30,7 +30,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_signal_alternating_third_person_focalization
+    variant_name: Signal Alternating Third-Person Focalization
+    variant_basis: method_sequence
+    difference_from_foundation: Establish a controlled set of focal characters, relocate at visible section or paragraph boundaries, and change tonal attention before revealing the new character's private knowledge.
+    when_to_use: Several characters need intimate but separate access without a strongly intrusive omniscient storyteller.
+    when_not_to_use: One focal character supplies the necessary story or frequent relocation makes readers repeatedly rebuild orientation.
+    absorbed_from_object_id: none
 ---
 
 # Keep Point-of-View Knowledge and Access Consistent
@@ -47,6 +54,7 @@ variants: []
 
 ## Don't
 - Enter another character's thoughts to solve a local exposition problem.
+- Shift into another mind midway through a sentence or descriptive beat before readers receive a relocation signal.
 - Report an unseen event as fact when the narrator could only guess or learn it later.
 - Alternate pronouns while leaving the narrative source of knowledge unchanged and call that a viewpoint shift.
 - Preserve a dramatic irony that depends on readers knowing information the chosen narrator has accidentally disclosed.
@@ -60,3 +68,5 @@ variants: []
 
 ## Notes
 Consistency does not require a story to use only one viewpoint. It requires every change in access to be governed. Longer works can establish several focal positions; short and flash fiction pay a steeper cost because relocation competes directly with development. An apparent break may instead be an inference or a narrator's false belief, but the prose must let readers distinguish that condition from authorial confusion.
+
+`writing_fiction_variant_signal_alternating_third_person_focalization` treats each limited viewpoint as a distinct access zone inside a larger narrative design. Establish the alternation early, keep the active set small enough to develop, and use a chapter, section, or paragraph boundary plus changed attention or tone to relocate readers before private knowledge appears. Brief movement among minds can work when a governing omniscient voice has already made that freedom legible; otherwise mid-sentence relocation reads as loss of control.
