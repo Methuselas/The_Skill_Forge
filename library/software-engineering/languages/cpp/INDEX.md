@@ -71,7 +71,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Resource Management](resource-management/INDEX.md) - 8 object(s).
 - [Swap](swap/INDEX.md) - 2 object(s).
 - [Templates](templates/INDEX.md) - 11 object(s).
-- [Traits](traits/INDEX.md) - 2 object(s).
+- [Traits](traits/INDEX.md) - 3 object(s).
 - [Type Deduction](type-deduction/INDEX.md) - 3 object(s).
 - [Undefined Behavior](undefined-behavior/INDEX.md) - 2 object(s).
 - [Variable Definitions](variable-definitions/INDEX.md) - 1 object(s).

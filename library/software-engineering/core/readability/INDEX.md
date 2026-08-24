@@ -46,6 +46,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Minimize Nesting With Early Returns and Function Extraction](PAT_minimize_nesting_with_early_returns.md) - pattern; 3 rough. Tags: control_flow, nesting, readability, refactoring.
   - Variants: `Run the Nominal Path Down the If Branches and Stack the Errors` (method_sequence); `Flatten by Restructuring the Tests Themselves` (method_sequence).
 - [Name a Boolean for the Condition It Asserts](PAT_name_a_boolean_for_the_condition_it_asserts.md) - pattern; 3 rough. Tags: booleans, naming, readability, status_variables.
+- [Name a Two-Argument Predicate So Its Order Reads](PAT_name_a_two_argument_predicate_by_role.md) - pattern; 3 rough. Tags: api_design, argument_order, naming, predicates, readability.
 - [Name the Problem, Not the Computation](PAT_name_the_problem_not_the_computation.md) - pattern; 3 rough. Tags: constants, naming, problem_domain, readability.
 - [Rename Nondescriptive Code and Drop the Redundant Comments](DRILL_rename_nondescriptive_code.md) - drill; 3 rough. Tags: comments, naming, readability, refactoring.
 - [Replace Magic Coefficients With Named Constants or Functions](DRILL_replace_magic_coefficients_with_named_values.md) - drill; 3 rough. Tags: constants, magic_numbers, readability, refactoring.

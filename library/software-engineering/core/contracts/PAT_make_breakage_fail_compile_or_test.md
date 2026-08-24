@@ -37,6 +37,7 @@ variants: []
 ## Do
 - Design assuming the reliable gate: engineers submit from a local copy, and a change that does not compile or that fails tests is stopped at submit time, so aim every safety mechanism at triggering one of those two.
 - Prefer moving guarantees into the type system where a violation cannot compile, and back that with tests for the guarantees types cannot express.
+- Make a compile-time failure name the requirement that was violated, not the trick that detected it. A check that reports a broken internal construct leaves the reader debugging your mechanism; one carrying the requirement's own words tells them what to change. Where the diagnostic is not yours to write, choose the names appearing in it so that the message reads as an explanation.
 - Audit an interface by splitting it in two before you decide what to strengthen: the programmatic part the compiler enforces, and the semantic part it cannot — call this before that, initialize this or the call crashes, this parameter is read only when that flag is set. Write the semantic terms down as a list, then convert what can be converted, reaching for types first and assertions only where the type system cannot follow.
 
 ## Don't
