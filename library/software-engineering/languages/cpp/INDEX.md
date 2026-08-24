@@ -64,7 +64,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Memory Management](memory-management/INDEX.md) - 13 object(s).
 - [Metaprogramming](metaprogramming/INDEX.md) - 1 object(s).
 - [Move Semantics](move-semantics/INDEX.md) - 3 object(s).
-- [Operators](operators/INDEX.md) - 6 object(s).
+- [Operators](operators/INDEX.md) - 7 object(s).
 - [Optimization](optimization/INDEX.md) - 2 object(s).
 - [Parameter Passing](parameter-passing/INDEX.md) - 5 object(s).
 - [Preprocessor](preprocessor/INDEX.md) - 2 object(s).

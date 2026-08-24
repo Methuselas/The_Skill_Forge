@@ -47,6 +47,7 @@ variants: []
 - Where the accessor needs something private, expose that through one deliberately obscure member rather than through the natural name a user would want.
 
 ## Don't
+- Don't give a wrapper member functions where the thing it wraps has members of its own. A wrapper reached through arrow dereference puts two unrelated interfaces one character apart — an arrow call goes to the wrapped object and a dot call goes to the wrapper — and readers have no habit to catch the difference, because the raw thing being imitated has no members at all. Where both interfaces contain a similarly named operation, the two calls read almost identically and do entirely different things.
 - Don't add a member accessor with the obvious name. The obvious name is exactly the one a user's own piece is likely to have used, and the member you add hides theirs — from calls that were written before your generator existed and never mentioned it.
 - Don't judge safety by inspecting the pieces in front of you today. The point of taking the template as a parameter is that you do not know what will be passed tomorrow.
 - Don't rely on a using declaration to unhide what you masked. That repairs the symptom for one name in one hierarchy and leaves the mechanism to collide again on the next.
