@@ -490,9 +490,49 @@ Synthesize in this order:
    downstream.
 7. **Define completion.** Name the stopping condition or verification state that
    makes the action complete.
-8. **Link only real dependencies.** Use existing object relationships; do not add a
-   second dependency system for APs.
+8. **Declare the Patterns the AP claims.** Every step that reaches a decision a
+   Pattern owns names that Pattern in the step prose *and* carries it in the AP's
+   `cross_links` as `rel: supports`. Steps the AP owns itself — ordering, gates,
+   invariants, recovery, stopping — delegate nothing and produce no link. Use
+   existing object relationships; do not add a second dependency system for APs.
 9. **Present the AP delta for approval** just like any other canonical mutation.
+
+### The AP ownership edge
+
+Step 8 is what makes AP-first consumption (`PASS_CONSUMPTION.md`) executable
+rather than aspirational, and an AP that skips it is not finished. Two carriers,
+because they serve different readers:
+
+- the step **names** the Pattern, so a person can see which decision was delegated
+  and audit whether the delegation is right;
+- the AP **carries** `supports` to it, so a consumer can resolve the claimed set
+  without parsing prose.
+
+`supports` from an AP to a Pattern is an **ownership** edge: this action protocol
+claims that decision. It is not `related_to`. `related_to` is adjacency between
+siblings — it widens what retrieval can reach and says nothing about authority.
+Closing a reachability gap with `related_to` makes the graph denser without making
+any workflow's claim clearer, and a dense undirected graph is the opposite of an
+activation boundary. **Do not use graph degree as a health metric.** An orphan
+with the right owner is healthier than a well-connected card no protocol claims.
+
+A Pattern that no AP claims is not automatically a defect. It is one of two
+things, and recording which is the point:
+
+- a **local decision** that genuinely needs no orchestration — it fires on its own
+  IF clause and nothing has to sequence it;
+- an **AP coverage gap** — the action exists, practitioners perform it, and the
+  protocol has not been authored.
+
+Both are legitimate outcomes. Do not manufacture an AP to give a Pattern a parent,
+and do not link a Pattern into an unrelated AP to raise its degree.
+
+An AP written before this convention is repaired the same way it would be
+authored: read its `Steps / Flow`, and for every step that delegates a decision,
+add the edge. The repair is additive — no card body is rewritten, no schema
+changes, and the validator places no cap on `cross_links`, no direction constraint
+on `supports`, and no reciprocity requirement. Repair one lane per run
+(`CLAUDE.md` rule 2); the convention is shared, the work is not.
 
 The synthesis must be supportable from accepted canon. Practice history can reveal
 that orchestration is missing, but the resulting AP must be general and reusable;
