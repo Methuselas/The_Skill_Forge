@@ -4,8 +4,12 @@
 
 ## Objects
 
+- [Build and Chain Expanding Rhymewells](DRILL_build_and_chain_expanding_rhymewells.md) - drill; 0 design. Tags: deliberate_practice, diction, discovery, poetry, rhyme.
 - [Build and Rescan an Alliterative Address](DRILL_build_and_rescan_an_alliterative_address.md) - drill; 2 block. Tags: accentual_verse, alliteration, deliberate_practice, poetry, scansion.
+- [Build Comic Verse from Incongruous Rhyme Sets](DRILL_build_comic_verse_from_incongruous_rhyme_sets.md) - drill; 1 skeleton. Tags: comedy, deliberate_practice, play, poetry, rhyme.
+- [Compare Full and Slant Rhyme Across Parallel Drafts](DRILL_compare_full_and_slant_rhyme_across_parallel_drafts.md) - drill; 2 block. Tags: comparison, deliberate_practice, poetry, rhyme, slant_rhyme.
+- [Diagnose Comic Couplet Timing by Scansion](DRILL_diagnose_comic_couplet_timing_by_scansion.md) - drill; 3 rough. Tags: comedy, couplet, deliberate_practice, poetry, scansion.
 - [Make Rhyme Serve Sense and Effect](PAT_make_rhyme_serve_sense_and_effect.md) - pattern; 3 rough. Tags: diction, poetry, revision, rhyme, sound.
-  - Variants: `Use Perfect End Rhyme for Closure` (emphasis); `Use Slant Rhyme for Flexibility` (constraint); `Use Internal Rhyme Without End-Word Pressure` (method_sequence); `Use Sight Rhyme for Visual Correspondence` (medium).
+  - Variants: `Use Perfect End Rhyme for Closure` (emphasis); `Use Slant Rhyme for Flexibility` (constraint); `Use Internal Rhyme Without End-Word Pressure` (method_sequence); `Use Sight Rhyme for Visual Correspondence` (medium); `Vary Rhyme Distance to Enact Semantic Movement` (method_sequence); `Use Conspicuous Rhyme for Comic Anticipation` (emphasis).
 - [Revise Poetic Sound Without Sacrificing Sense](AP_revise_poetic_sound_without_sacrificing_sense.md) - ap; 3 rough. Tags: musicality, poetry, revision, rhyme, sound.
 - [Structure Accentual Lines with Stressed Alliteration](PAT_structure_accentual_lines_with_stressed_alliteration.md) - pattern; 3 rough. Tags: accentual_verse, alliteration, poetry, rhythm, stress.

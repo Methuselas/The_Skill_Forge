@@ -59,6 +59,20 @@ variants:
     when_to_use: The visual expectation and audible difference contribute a useful tension or permit a meaningful word pair that exact sound would exclude.
     when_not_to_use: The poem is primarily encountered in performance or readers are unlikely to notice the written correspondence.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_vary_rhyme_distance_to_enact_semantic_movement
+    variant_name: Vary Rhyme Distance to Enact Semantic Movement
+    variant_basis: method_sequence
+    difference_from_foundation: Establish one degree of correspondence, then move toward closer, looser, or disrupted rhyme so sound enacts a change in the poem's conditions.
+    when_to_use: Departure, instability, distance, estrangement, or return can become audible through changing degrees of rhyme.
+    when_not_to_use: Readers cannot hear the baseline, the variation has no semantic relation, or precision is sacrificed to complete the trajectory.
+    absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_use_conspicuous_rhyme_for_comic_anticipation
+    variant_name: Use Conspicuous Rhyme for Comic Anticipation
+    variant_basis: emphasis
+    difference_from_foundation: Make exact, repeated, split-word, or polysyllabic correspondence deliberately obvious so the audience anticipates an implausible completion before delivery.
+    when_to_use: Comic verse needs audible construction, delayed payoff, and a rhyme whose predictability intensifies the joke.
+    when_not_to_use: Rhythm cannot carry the setup, the paired meanings create no surprise, or conspicuousness is accidental sing-song.
+    absorbed_from_object_id: none
 ---
 
 # Make Rhyme Serve Sense and Effect
@@ -90,3 +104,7 @@ variants:
 
 ## Notes
 Exact correspondence can make a thought feel decisively complete, but that same force magnifies cliche and filler. `writing_poetry_variant_use_perfect_end_rhyme_for_closure` accepts that pressure when conspicuous finality and order are useful. `writing_poetry_variant_use_slant_rhyme_for_flexibility` loosens the match so diction has more room while a relationship remains audible. `writing_poetry_variant_use_internal_rhyme_without_end_word_pressure` moves the echo inside the line when terminal words need other jobs. `writing_poetry_variant_use_sight_rhyme_for_visual_correspondence` makes the page promise a sound that speech withholds, a poor fit when performance removes the spelling from view.
+
+`writing_poetry_variant_vary_rhyme_distance_to_enact_semantic_movement` treats full and slant rhyme as positions on a changing audible field rather than fixed moods. Establish a perceptible relation, then let its approach, recession, or rupture coincide with a meaningful change.
+
+`writing_poetry_variant_use_conspicuous_rhyme_for_comic_anticipation` exposes construction on purpose. Place an almost unavoidable rhyme after a rhythmically fluent setup, delay it until expectation becomes pressure, and make the semantic completion surprising enough that predictability becomes comic rather than facile.

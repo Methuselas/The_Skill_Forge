@@ -33,6 +33,13 @@ variants:
     when_to_use: The open page feels too vague, the poem lacks forward pressure, or a formal constraint is likely to provoke useful choices.
     when_not_to_use: Managing the form overwhelms the intended exploration or the work requires a different mode.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_enter_discovery_through_expanding_rhyme_families
+    variant_name: Enter Discovery Through Expanding Rhyme Families
+    variant_basis: method_sequence
+    difference_from_foundation: Begin from one charged word, search outward through progressively looser audible correspondences, restart from a productive distant word, and compose through associations from both fields.
+    when_to_use: Familiar diction or a predetermined subject is restricting discovery and sound can open unexpected verbal relations.
+    when_not_to_use: The search forces inferior words, suppresses the poem's live pressure, or turns exploration into a requirement to preserve every rhyme.
+    absorbed_from_object_id: none
 ---
 
 # Draft Poems Through Discovery
@@ -66,3 +73,5 @@ variants:
 
 ## Notes
 Discovery does not require an unstructured process. `writing_poetry_variant_enter_discovery_through_traditional_form` uses inherited form as a generative constraint: the rules narrow the field while the writer remains alert to unforeseen language and meaning. Use `writing_collect_fragments_before_demanding_complete_draft` when charged pieces need to accumulate before any one of them can sustain a poem.
+
+`writing_poetry_variant_enter_discovery_through_expanding_rhyme_families` lets sound precede subject. Move from exact matches toward consonantal, assonantal, rhythmic, phrase-level, and more distant echoes, then begin another field from an outer discovery. Compose from the associations but restore ordinary selection afterward: a rhyme can earn attention without earning a place in the finished poem.

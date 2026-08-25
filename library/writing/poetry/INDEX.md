@@ -10,5 +10,5 @@
 - [Lineation](lineation/INDEX.md) - 4 object(s).
 - [Practice](practice/INDEX.md) - 4 object(s).
 - [Rhythm](rhythm/INDEX.md) - 4 object(s).
-- [Sound](sound/INDEX.md) - 4 object(s).
+- [Sound](sound/INDEX.md) - 8 object(s).
 - [Voice](voice/INDEX.md) - 9 object(s).
