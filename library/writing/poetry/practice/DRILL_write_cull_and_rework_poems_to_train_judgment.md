@@ -36,6 +36,13 @@ variants:
     when_to_use: A familiar starting method repeatedly yields flat material or the writer needs greater flexibility in getting poems underway.
     when_not_to_use: The current practice goal is sustained completion within one specific form or invention method.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_rotate_several_poems_through_revision
+    variant_name: Rotate Several Poems Through Drafting and Revision
+    variant_basis: method_sequence
+    difference_from_foundation: Keep several viable poems at different stages, move to another when one needs distance, and return after incubation to make the next evidence-based change.
+    when_to_use: Continuous work on one poem has become repetitive, protective, or too familiar for consequential revision decisions.
+    when_not_to_use: A deadline requires one near-finished poem to close, or switching projects repeatedly is serving avoidance rather than useful distance.
+    absorbed_from_object_id: none
 ---
 
 # Write, Cull, and Rework Poems to Train Judgment
@@ -70,3 +77,5 @@ Choose a repeatable span such as several sessions or one week. Prepare a differe
 
 ## Notes
 Sustained production trains two linked abilities: making poems and recognizing which ones merit more work. Discarding weak drafts is not a verdict on the practice; it protects revision time for the poems most capable of becoming stronger. `writing_poetry_variant_sample_invention_families_before_selection` precedes the ordinary cycle with brief starts drawn from unlike sources of pressure—language, form, source response, role, setting, or tonal opposition—because no single prompt works reliably for every writer or every session. Use the variant to locate live material, then return to complete drafting and delayed selection rather than treating prompt sampling as the finished practice.
+
+`writing_poetry_variant_rotate_several_poems_through_revision` turns distance into an active working sequence. Keep a small set of viable drafts available, leave a poem when attention has narrowed to reversible fiddling, and advance another before returning to the first with a named structural or language question. Rotation is useful only when each return produces a decision; cap the set or close the nearest-finished poem when switching becomes a way to avoid completion.

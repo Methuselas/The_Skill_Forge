@@ -60,7 +60,8 @@ variants:
 - Handle deadlines, audience requirements, publication aims, grades, and other external outcomes during planning or evaluation, then bracket them while generating language.
 - During an evaluative pass, compare the available material with the piece's purpose, select what serves it, and name any missing function that requires another bounded generation pass.
 - Choose a plan-first sequence when the governing route is already understood and a discovery-first sequence when writing must reveal the route.
-- Preserve earlier versions until structural choices are stable enough to know that discarded language or material no longer performs needed work.
+- Save a recoverable state before a consequential cut, reorder, formal recast, or change of governing idea.
+- Compare separated states for what each one makes possible, then restore an earlier word, image, relation, or sequence only when it performs a needed job better.
 
 ## Don't
 - Revise the opening sentences repeatedly while the rest of the draft has not yet been allowed to exist.
@@ -75,7 +76,8 @@ variants:
 - External requirements remain available for the next planning or evaluative pass without interrupting the production of each sentence.
 - Evaluation occurs against the piece's purpose rather than against moment-to-moment discomfort with rough prose.
 - A failed evaluation routes to a specific missing-material or structural question before generation resumes.
-- Superseded versions remain recoverable until their useful material has been deliberately retained or rejected.
+- Superseded states remain recoverable until their useful material has been deliberately retained or rejected.
+- Every restored choice has a named function in the current work rather than surviving merely because it appeared earlier.
 
 ## Notes
 Mode separation is functional, not neurological: invention and judgment are both necessary, but asking them to control the same sentence at the same instant commonly turns drafting into premature polishing. The handoff may be small—a paragraph generated before it is assessed—or span a complete exploratory draft before structural diagnosis.

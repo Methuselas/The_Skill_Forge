@@ -16,4 +16,4 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Creative Nonfiction](creative-nonfiction/INDEX.md) - 20 object(s).
 - [Fiction](fiction/INDEX.md) - 65 object(s).
 - [Foundations](foundations/INDEX.md) - 34 object(s).
-- [Poetry](poetry/INDEX.md) - 24 object(s).
+- [Poetry](poetry/INDEX.md) - 28 object(s).

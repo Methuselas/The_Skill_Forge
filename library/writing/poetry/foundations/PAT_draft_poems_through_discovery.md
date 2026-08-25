@@ -44,18 +44,23 @@ variants:
 
 ## Do
 - Start with the smallest element that has energy rather than waiting for a complete plan.
+- Enter through a bounded writing interval and a concrete stimulus such as an image, object, phrase, memory, or sensory action when no opening presents itself.
 - Follow unexpected associations, turns of thought, images, and sounds when they deepen the emerging poem.
+- Let a live discovery bend or replace the prompt; use the starting condition to generate pressure, not to police relevance.
 - Use a prompt, strategy, or constraint when inspiration does not supply a productive opening.
+- Reread the language actually produced, mark words, rhythms, tensions, and images with continuing energy, and name one next move from that evidence.
 - Judge the destination after the draft has generated material, not before every line is written.
 
 ## Don't
 - Require the poem to execute a fixed beginning-middle-end outline that leaves no room for discovery.
+- Mistake compliance with a prompt for evidence that the resulting material has become a poem.
 - Substitute a familiar phrase or stock emotion for a particular observation.
 - Wait indefinitely for inspiration when a deliberate starting condition can create motion.
 
 ## Checklist
 - The draft began from material with genuine verbal, sensory, or intellectual charge.
 - At least one important choice was discovered during composition rather than dictated in advance.
+- The first pass was reread for a specific hook and a concrete next action rather than accepted or discarded as a whole.
 - Familiar language was questioned or replaced with more particular language.
 - The ending feels earned by the draft's movement rather than attached to a preset lesson.
 

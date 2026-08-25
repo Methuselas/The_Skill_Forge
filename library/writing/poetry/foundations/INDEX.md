@@ -4,9 +4,12 @@
 
 ## Objects
 
+- [Add Paratext Only When a Poem Needs External Framing](PAT_add_paratext_only_when_a_poem_needs_external_framing.md) - pattern; 4 final. Tags: attribution, epigraphs, notes, paratext, poetry.
+- [Draft and Redraft a Poem Through Discovery](AP_draft_and_redraft_a_poem_through_discovery.md) - ap; 0 design. Tags: discovery, drafting, incubation, poetry, revision.
 - [Draft Poems Through Discovery](PAT_draft_poems_through_discovery.md) - pattern; 0 design. Tags: discovery, drafting, generative_constraints, poetry.
   - Variants: `Enter Discovery Through Traditional Form` (constraint).
 - [Make Performance Poetry Stand on Its Language](PAT_make_performance_poetry_stand_on_its_language.md) - pattern; 3 rough. Tags: performance, poetry, revision, spoken_word.
 - [Sustain Poetic Intensity Beyond Meter and Lineation](PAT_sustain_poetic_intensity_beyond_meter_and_lineation.md) - pattern; 0 design. Tags: free_verse, poetic_language, poetry, prose_poetry.
   - Variants: `Build a Prose Poem Through Sentence Music` (medium).
 - [Transform Source Material into a Standalone Poem](PAT_transform_source_material_into_a_standalone_poem.md) - pattern; 0 design. Tags: drafting, perspective, poetry, source_response, transformation.
+- [Use a Poem Title as an Active Frame](PAT_use_a_poem_title_as_an_active_frame.md) - pattern; 3 rough. Tags: framing, poetry, reader_expectation, revision, titles.

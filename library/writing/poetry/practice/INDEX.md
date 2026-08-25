@@ -5,6 +5,7 @@
 ## Objects
 
 - [Draft from Random Concrete Words](DRILL_draft_from_random_concrete_words.md) - drill; 1 skeleton. Tags: constraint, diction, imagery, invention, poetry.
+- [Redraft One Poem Under Competing Titles](DRILL_redraft_one_poem_under_competing_titles.md) - drill; 3 rough. Tags: deliberate_practice, poetry, reader_expectation, revision, titles.
 - [Reverse a Deliberately Bad Poem](DRILL_reverse_a_deliberately_bad_poem.md) - drill; 3 rough. Tags: cliche, diagnosis, poetry, revision, specificity.
 - [Write, Cull, and Rework Poems to Train Judgment](DRILL_write_cull_and_rework_poems_to_train_judgment.md) - drill; 3 rough. Tags: deliberate_practice, poetry, revision, selection.
-  - Variants: `Sample Invention Families Before Selection` (method_sequence).
+  - Variants: `Sample Invention Families Before Selection` (method_sequence); `Rotate Several Poems Through Drafting and Revision` (method_sequence).

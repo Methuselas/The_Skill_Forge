@@ -5,9 +5,9 @@
 ## Topics
 
 - [Forms](forms/INDEX.md) - 7 object(s).
-- [Foundations](foundations/INDEX.md) - 4 object(s).
+- [Foundations](foundations/INDEX.md) - 7 object(s).
 - [Imagery](imagery/INDEX.md) - 1 object(s).
 - [Lineation](lineation/INDEX.md) - 3 object(s).
-- [Practice](practice/INDEX.md) - 3 object(s).
+- [Practice](practice/INDEX.md) - 4 object(s).
 - [Rhythm](rhythm/INDEX.md) - 4 object(s).
 - [Sound](sound/INDEX.md) - 2 object(s).
