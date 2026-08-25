@@ -6,3 +6,4 @@
 
 - [Avoid dynamic_cast with Virtuals or Type-Safe Containers](PAT_avoid_dynamic_cast_with_alternatives.md) - pattern; 2 block. Tags: casting, cpp, performance, polymorphism.
 - [Minimize Casting and Prefer C++-Style Casts](PAT_minimize_and_prefer_cpp_style_casts.md) - pattern; 3 rough. Tags: casting, cpp, maintainability, type_safety.
+- [Use a Dynamic Downcast Where a Base Appears More Than Once](PAT_use_a_dynamic_downcast_where_a_base_repeats.md) - pattern; 2 block. Tags: casting, correctness, cpp, inheritance, object_layout.
