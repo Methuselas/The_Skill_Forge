@@ -8,6 +8,7 @@
 - [Assume Calls Can Overlap and Arrive in Any Order](PAT_assume_calls_can_overlap_and_arrive_in_any_order.md) - pattern; 0 design. Tags: api_design, concurrency, coupling, temporal_coupling.
 - [Check You Are Not Writing Your Previous Language in New Syntax](PAT_write_the_language_you_are_in_not_the_one_you_know.md) - pattern; 3 rough. Tags: code_review, design, idiom, language_choice, transfer.
 - [Choose Among Good Designs by What They Foreclose](PAT_choose_among_good_designs_by_what_they_foreclose.md) - pattern; 0 design. Tags: architecture, design, performance, premature_optimization, trade_offs.
+- [Choose Which Axis Stays Easy to Extend](PAT_choose_which_axis_stays_easy_to_extend.md) - pattern; 0 design. Tags: coupling, dependencies, design, extensibility, visitor.
 - [Decide What to Express First, Then Find How the Language Can Carry It](PAT_program_into_the_language_not_in_it.md) - pattern; 0 design. Tags: abstraction, construction, conventions, design, language_choice.
 - [Design Deepest Where the Work Looks Easiest](PAT_choose_design_depth_by_risk_not_habit.md) - pattern; 0 design. Tags: design, documentation, planning, risk.
 - [Design Shutdown for Process-Lifetime Objects](PAT_design_shutdown_for_process_lifetime_objects.md) - pattern; 0 design. Tags: design, global_state, lifetime, resource_management, shutdown.
