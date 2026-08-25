@@ -45,20 +45,23 @@ Choose four to eight lines of clearly metered poetry and four to eight lines of 
 
 ## Instructions
 1. Read both passages aloud twice before marking anything, tapping or moving only if that helps reveal the pulse.
-2. Mark natural syllabic stresses in the metered passage, divide plausible feet, and name the prevailing foot and line length.
-3. Circle substitutions or extra syllables and write the audible effect of at least two deviations.
-4. Mark the free-verse passage without forcing it into a recurring meter; note repeated stresses, syllable counts, breath units, and changes in line length.
-5. Rescan one ambiguous line using a second plausible hearing, then explain which reading better fits the surrounding movement.
-6. Read both passages again and compare what the visual marks predicted with what the voice actually produced.
+2. Mark the ordinary lexical stress inside each polysyllabic word, then mark any additional word the surrounding phrase promotes through contrast, syntax, repetition, or meaning.
+3. In the metered passage, divide plausible feet and name the prevailing foot and line length.
+4. Circle substitutions or extra syllables and write the audible effect of at least two deviations.
+5. Mark the free-verse passage without forcing it into a recurring meter; note repeated main stresses, count the lighter syllables between them, and record changes in syllable density, breath, and line length.
+6. Rescan one ambiguous line using a second plausible hearing, then explain which reading better fits the surrounding movement.
+7. Read both passages again and compare what spelling and the visual marks predicted with what the voice actually produced.
 
 ## Success Check
 - Stress marks follow syllables rather than whole-word labels.
+- Lexical stress and emphasis supplied by the surrounding phrase are distinguished where they differ.
 - The metered passage has a defensible prevailing pattern with purposeful local variation.
-- The free-verse passage has an explained rhythm even without a recurring metrical scheme.
+- The free-verse passage has an explained rhythm, including the spacing between its major beats, even without a recurring metrical scheme.
 - An alternate scan is evaluated by context and sound rather than dismissed as automatically wrong.
 
 ## Common Failures
 - Marking from terminology before listening to the lines.
+- Inferring stress from initial letters or spelling without testing the pronounced phrase.
 - Forcing every metered foot into perfect regularity.
 - Declaring free verse unscannable because it lacks a fixed pattern.
 - Treating the exercise as a single correct-answer puzzle instead of trained rhythmic hearing.

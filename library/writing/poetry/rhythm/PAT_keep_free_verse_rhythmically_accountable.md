@@ -38,6 +38,13 @@ variants:
     when_to_use: The poem needs a clearer pulse but a named meter would be too restrictive or technically distracting.
     when_not_to_use: Elastic line lengths, changing breath, or deliberate rhythmic disruption are essential to the poem's movement.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_test_lineation_with_exact_syllable_containers
+    variant_name: Test Lineation with Exact Syllable Containers
+    variant_basis: constraint
+    difference_from_foundation: Redraft one version under an exact syllable count and regular stanza count, then compare how the imposed containers alter syntax, enjambment, duration, and rhythmic discovery before deciding what to retain.
+    when_to_use: Current lineation feels intuitive but unjustified, or an external shaping pressure may expose stronger phrasing and movement.
+    when_not_to_use: An inherited form already governs the counts, or preserving the quota requires distortions that the comparison has already shown to be unproductive.
+    absorbed_from_object_id: none
 ---
 
 # Keep Free Verse Rhythmically Accountable
@@ -66,3 +73,5 @@ variants:
 
 ## Notes
 Free verse exchanges a predetermined metrical spine for active listening and control. `writing_poetry_variant_stabilize_free_verse_with_shared_syllable_counts` introduces roughly equal syllable counts when an emerging poem needs more pulse but not a traditional meter; abandon that constraint when changing breath or line elasticity carries the stronger effect.
+
+`writing_poetry_variant_test_lineation_with_exact_syllable_containers` uses a stricter count as a diagnostic version rather than a permanent definition of form. Choose one count for every line and one count for every group, preserve the unconstrained draft, and notice where sentence flow meets, strains against, or runs across the imposed boundaries. Keep discoveries that sharpen the poem, alter the count when another duration fits better, and release the constraint when compliance remains its only achievement.

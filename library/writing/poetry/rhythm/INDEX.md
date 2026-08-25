@@ -5,7 +5,7 @@
 ## Objects
 
 - [Keep Free Verse Rhythmically Accountable](PAT_keep_free_verse_rhythmically_accountable.md) - pattern; 3 rough. Tags: breath, free_verse, poetry, rhythm, syllables.
-  - Variants: `Stabilize Free Verse with Shared Syllable Counts` (constraint).
+  - Variants: `Stabilize Free Verse with Shared Syllable Counts` (constraint); `Test Lineation with Exact Syllable Containers` (constraint).
 - [Revise Poetic Rhythm Across Metered and Free Verse](AP_revise_poetic_rhythm_across_metered_and_free_verse.md) - ap; 3 rough. Tags: free_verse, meter, poetry, revision, rhythm.
 - [Scan and Vary Meter Deliberately](PAT_scan_and_vary_meter_deliberately.md) - pattern; 3 rough. Tags: meter, poetry, revision, scansion, stress.
 - [Scan Contrasting Lines to Train Rhythmic Hearing](DRILL_scan_contrasting_lines_to_train_rhythmic_hearing.md) - drill; 2 block. Tags: deliberate_practice, free_verse, meter, poetry, scansion.

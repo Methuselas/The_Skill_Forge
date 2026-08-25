@@ -53,20 +53,26 @@ variants:
 **ELSE** preserve the pattern while verifying that its most exposed words and pauses serve the poem's movement
 
 ## Do
+- Name what each line asks the reader to hold under attention: an image, assertion, tonal turn, sound pattern, breath unit, exposed rhyme, or purposeful fragment.
+- Compare the boundary with the sentence beneath it: alignment reinforces grammatical closure, while a break inside the phrase can pull forward or create a temporary second meaning.
 - Let short and long lines reflect the scale, reach, or motion of what they carry rather than defaulting to an arbitrary page width.
 - Place a word worth emphasizing immediately before the surrounding white space; use articles, prepositions, and conjunctions there only when their exposure performs a clear job.
 - Combine closed and run-on endings when variation helps the poem move between pause and propulsion.
+- Use indentation or a group boundary after an incomplete phrase when a larger silence should suspend the syntax rather than merely accelerate it.
 - When a single long line must wrap at the margin, indent the continuation so readers do not mistake it for a new poetic line.
 
 ## Don't
 - Turn ordinary prose into verse by wrapping it wherever the available width happens to end.
 - Close every line at punctuation merely because that feels safer than deciding how syntax and lineation should interact.
 - Replace predictable endings with breaks that are surprising only because they are baffling.
+- Isolate a fragment for a fleeting implication that later syntax neither completes nor productively revises.
 
 ## Checklist
 - Every boundary has a defensible relationship to syntax, sound, content, or intended rhythm.
+- Each line contains enough verbal, rhythmic, imagistic, or conceptual pressure to reward its separate attention.
 - The final word of each line receives an appropriate amount of emphasis.
 - Pauses and forward pulls occur where the poem needs them.
+- Any temporary assertion or ambiguity is legible on first encounter and gains a useful second relation when the sentence continues.
 - A reader can distinguish an intentional new line from the visual continuation of an overlong one.
 
 ## Notes
