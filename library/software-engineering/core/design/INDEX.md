@@ -13,6 +13,7 @@
 - [Design Shutdown for Process-Lifetime Objects](PAT_design_shutdown_for_process_lifetime_objects.md) - pattern; 0 design. Tags: design, global_state, lifetime, resource_management, shutdown.
 - [Do Not Stop at the First Design That Would Work](PAT_produce_a_second_design_before_committing.md) - pattern; 0 design. Tags: alternatives, design, heuristics, iteration.
 - [Have the Operation Record Its Own Reversal](PAT_have_the_doer_record_the_undo.md) - pattern; 2 block. Tags: command, design, reversibility, state_management, undo.
+- [Let Each Type Register Itself With the Factory](PAT_let_each_type_register_itself_with_the_factory.md) - pattern; 0 design. Tags: coupling, deserialization, design, extensibility, factories.
 - [Let the Caller State Intent Without Learning the Implementation](PAT_let_the_caller_state_intent_without_learning_the_implementation.md) - pattern; 0 design. Tags: abstraction, api_design, design, interfaces, performance.
 - [Pop the Teardown Entry Before Running It](PAT_pop_the_teardown_entry_before_running_it.md) - pattern; 2 block. Tags: design, lifetime, reentrancy, registries, shutdown.
 - [Prototype the Minimum That Answers One Named Question](PAT_prototype_to_answer_one_specific_design_question.md) - pattern; 1 skeleton. Tags: design, experiment, prototyping, risk_reduction.
