@@ -23,6 +23,8 @@ cross_links:
     target_object_id: writing_fiction_match_story_scope_to_required_accumulation
   - rel: related_to
     target_object_id: writing_revise_whole_draft_toward_intended_form
+  - rel: related_to
+    target_object_id: writing_fiction_end_selected_story_without_exhausting_larger_life
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -51,6 +53,7 @@ variants:
 - Condense transitions and background more aggressively than the moments in which perception, choice, or consequence changes.
 - Build the ending as a turn, break, repair, recognition, or sharp change of texture that relocates the reader's understanding.
 - Choose between stopping at maximum impact and adding only the brief resolution needed to complete the story's remaining complication.
+- Complete the selected action, relation, or pattern without reporting every later consequence in the characters' continuing lives.
 - Test each paragraph against the whole; a merely competent passage is costly when the form has no room to absorb dead space.
 
 ## Don't
@@ -66,10 +69,11 @@ variants:
 - Each retained element contributes to more than isolated atmosphere or information.
 - No paragraph creates a measurable drop in pressure or attention.
 - The ending changes how the preceding material is felt without merely concealing a fact.
+- Any unresolved material belongs to the larger life or deepens the completed movement rather than exposing a missing story step.
 - Removing the final paragraph would either cut the climax short or improve the ending; no trailing explanation survives by default.
 - The finished work has a discernible beginning, development, and consequence even when one or more are drastically condensed.
 
 ## Notes
-Flash fiction intensifies ordinary story requirements rather than suspending them. Its small canvas exposes weak paragraphs, detachable details, and borrowed formulas that a longer story might temporarily hide. Compression succeeds when omission increases density while the reader still experiences a complete human movement and a finish with enough snap to change the meaning or texture of what came before. Some stories end at the instant of greatest force and let the reader supply the stunned response; others need a sentence or two of falling action. The useful distinction is not twist versus closure but whether anything after the climax still changes the work.
+Flash fiction intensifies ordinary story requirements rather than suspending them. Its small canvas exposes weak paragraphs, detachable details, and borrowed formulas that a longer story might temporarily hide. Compression succeeds when omission increases density while the reader still experiences a complete human movement and a finish with enough snap to change the meaning or texture of what came before. Completeness applies to the selected story, not to every later fact about the represented life. Some stories end at the instant of greatest force and let the reader supply the stunned response; others need a sentence or two of falling action. The useful distinction is not twist versus closure but whether anything after the climax still changes the work.
 
 `writing_flash_fiction_variant_reduce_location_changes_for_unified_action` applies compression to scene geography. When one action is dispersed across many lightly established places, combine or remove locations so orientation does not consume the space needed for pressure and change. Do not use the method when travel across distinct places is the story's essential movement and each transition alters its meaning.
