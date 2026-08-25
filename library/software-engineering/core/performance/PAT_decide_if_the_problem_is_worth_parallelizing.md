@@ -19,6 +19,10 @@ tags:
 - tuning
 - trade_offs
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_find_the_axis_the_parallelism_lies_along
+- rel: prerequisite_for
+  target_object_id: PAT_derive_the_parallelism_from_work_and_span
 - rel: related_to
   target_object_id: PAT_choose_the_level_before_tuning_the_code
 - rel: related_to

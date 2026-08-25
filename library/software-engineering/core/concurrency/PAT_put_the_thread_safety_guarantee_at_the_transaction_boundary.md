@@ -19,6 +19,8 @@ tags:
 - threading
 - invariants
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_lock_at_the_public_boundary_and_nowhere_inside
 - rel: related_to
   target_object_id: PAT_atomic_steps_do_not_compose_into_a_safe_whole
 - rel: related_to

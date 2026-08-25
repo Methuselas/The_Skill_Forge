@@ -19,6 +19,14 @@ tags:
 - lock_free
 - design
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_check_a_primitives_coordination_power_before_designing_on_it
+- rel: prerequisite_for
+  target_object_id: PAT_keep_memory_alive_until_the_compare_and_swap_completes
+- rel: prerequisite_for
+  target_object_id: PAT_check_an_atomic_is_lock_free_before_relying_on_it
+- rel: prerequisite_for
+  target_object_id: PAT_buy_concurrent_performance_with_restrictions
 - rel: related_to
   target_object_id: PAT_break_one_of_deadlocks_four_conditions
 - rel: related_to

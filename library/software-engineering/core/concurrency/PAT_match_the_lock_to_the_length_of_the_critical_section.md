@@ -25,7 +25,7 @@ cross_links:
   target_object_id: PAT_classify_synchronization_by_progress_guarantee
 - rel: related_to
   target_object_id: PAT_separate_per_thread_data_by_a_cache_line
-- rel: related_to
+- rel: prerequisite_for
   target_object_id: PAT_give_each_waiter_its_own_location_to_spin_on
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'

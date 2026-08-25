@@ -19,6 +19,12 @@ tags:
 - encapsulation
 - design
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_separate_per_thread_data_by_a_cache_line
+- rel: prerequisite_for
+  target_object_id: PAT_separate_buffer_ownership_from_message_delivery
+- rel: prerequisite_for
+  target_object_id: PAT_match_the_problem_to_a_known_coordination_shape
 - rel: related_to
   target_object_id: PAT_keep_thread_aware_code_away_from_thread_ignorant_code
 - rel: related_to

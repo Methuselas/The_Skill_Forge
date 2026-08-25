@@ -19,6 +19,8 @@ tags:
 - performance
 - contention
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_take_the_simplest_lock_type_that_does_the_job
 - rel: related_to
   target_object_id: PAT_atomic_steps_do_not_compose_into_a_safe_whole
 - rel: related_to

@@ -6,19 +6,33 @@
 
 _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
+- **Ask Both What Must Never Happen and What Must Eventually Happen** — read first
+  - then: Break One of Deadlock's Four Conditions
+  - then: Classify Synchronization by the Progress It Guarantees
+  - then: Work Out How It Stops Before You Build How It Runs
 - **Avoid Sharing Before You Reach for Protecting It** — read first
   - then: Classify the Dependencies in a Loop Before Parallelizing It
   - then: Design a Parallel Decomposition
   - then: Give a Shared Object Its Own Thread Instead of a Lock
   - then: Immutability Is a Guarantee You Have to Actually Check
   - then: Keep Thread-Aware Code Away From Thread-Ignorant Code
+  - then: Match the Problem to a Known Coordination Shape
+  - then: Separate Buffer Ownership From Message Delivery
+  - then: Separate Per-Thread Data by a Full Cache Line
+- **Buy Concurrent Performance With Restrictions, Not Cleverness** — read first
+  - then: Merge Concurrent Operations Into One Before Applying Them
+  - then: Trade Exact Ordering for Independent Sub-Structures
 - **Check a Primitive's Coordination Power Before Designing on It** — read first
   - then: Decide Whether a Primitive Can Coordinate the Design
 - **Classify a Dependency Before Trying to Remove It** — read first
   - then: Classify the Dependencies in a Loop Before Parallelizing It
 - **Classify Synchronization by the Progress It Guarantees** — read first
   - then: Announce the Operation So Another Thread Can Finish It
+  - then: Buy Concurrent Performance With Restrictions, Not Cleverness
+  - then: Check a Primitive's Coordination Power Before Designing on It
+  - then: Check an Atomic Is Lock-Free Before Relying on It
   - then: Decide Whether a Primitive Can Coordinate the Design
+  - then: Keep the Memory Alive Until the Compare-and-Swap Completes
   - then: Split Acquisition Into a Bounded Doorway and a Wait
 - **Derive the Parallelism From Work and Span** — read first
   - then: Design a Parallel Decomposition
@@ -27,6 +41,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Run the Decomposition Procedure on a Concrete Problem
 - **Find the Axis the Parallelism Lies Along** — read first
   - then: Choose Between a Parallel Program and Parallel Regions
+  - then: Classify a Dependency Before Trying to Remove It
   - then: Design a Parallel Decomposition
   - then: Run the Decomposition Procedure on a Concrete Problem
 - **Get the Single-Threaded Version Working First** — read first
@@ -35,6 +50,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - **Give Every Operation One Instant Where It Takes Effect** — read first
   - then: Name the Committing Step on Every Path
 - **Keep a Lockstep Group on One Path** — read first
+  - then: Budget Per-Thread Resources Against Residency
+  - then: Place Cooperating Work at the Narrowest Scope That Holds It
   - then: Trace Divergence and Coalescing From One Index Mapping
 - **Keep the Memory Alive Until the Compare-and-Swap Completes** — read first
   - then: Mark a Node Removed Before Unlinking It
@@ -46,10 +63,19 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Match the Lock to the Length of the Critical Section
   - then: Search Without Locks, Then Lock and Validate
   - then: Split a Lock Only Where the Structure Makes the Regions Disjoint
+  - then: Take the Simplest Lock Type That Does the Job
 - **Make Every Concurrent Operation a Complete Transaction** — read first
   - then: Fold an Interface Whose Operations Do Not Compose
+- **Match the Lock to the Length of the Critical Section** — read first
+  - then: Give Each Waiter Its Own Location to Spin On
+- **Match the Problem to a Known Coordination Shape** — read first
+  - then: Block With a Deadline Before Polling on an Interval
+  - then: Dispatch on Readiness or on Completion
+- **Merge Concurrent Operations Into One Before Applying Them** — read first
+  - then: Cancel Complementary Operations Instead of Applying Them
 - **Put the Thread-Safety Guarantee at the Transaction Boundary** — read first
   - then: Fold an Interface Whose Operations Do Not Compose
+  - then: Lock at the Public Boundary and Nowhere Inside
 - **Size the Thread Count to the Hardware, Not to the Work** — read first
   - then: Let Idle Workers Take Work Rather Than Busy Ones Hand It Out
 - **Specify a Concurrent Object as a Sequential Object Plus a Correctness Condition** — read first
@@ -60,7 +86,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Replace Value Comparison With a Version Stamp
 - **Two Atomic Operations Are Not One Atomic Operation** — read first
   - then: Make Every Concurrent Operation a Complete Transaction
+  - then: Publish Shared Data Through One Atomic Handle
   - then: Put the Thread-Safety Guarantee at the Transaction Boundary
+  - then: Take a Consistent View by Collecting Twice
 
 ## Objects
 

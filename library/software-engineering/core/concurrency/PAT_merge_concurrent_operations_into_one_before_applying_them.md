@@ -19,7 +19,7 @@ tags:
 - design
 foundation_object_id: none
 cross_links:
-- rel: related_to
+- rel: prerequisite_for
   target_object_id: PAT_cancel_complementary_operations_instead_of_applying_them
 - rel: related_to
   target_object_id: PAT_announce_the_operation_so_another_thread_can_finish_it

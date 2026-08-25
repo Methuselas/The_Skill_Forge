@@ -12,8 +12,12 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Tune a Measured Bottleneck
 - **Confirm a Branch Is Mispredicted Before Optimizing It** — read first
   - then: Trade a Branch for Unconditional Work
+- **Establish That the Work Divides Before Dividing It** — read first
+  - then: Derive the Parallelism From Work and Span
+  - then: Find the Axis the Parallelism Lies Along
 - **Let Measurement Decide What to Tune, Never Intuition** — read first
   - then: Tune a Measured Bottleneck
+  - then: Weaken a Memory Order Only Against a Measurement
 - **Locate the Working Set on the Memory Hierarchy** — read first
   - then: Choose the Data Structure for the Dominant Access Pattern
   - then: Spend Computation to Buy Sequential Access

@@ -19,6 +19,10 @@ tags:
 - design
 foundation_object_id: none
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_place_cooperating_work_at_the_narrowest_scope_that_holds_it
+- rel: prerequisite_for
+  target_object_id: PAT_budget_per_thread_resources_against_residency
 - rel: related_to
   target_object_id: PAT_do_not_create_a_thread_for_every_task
 - rel: related_to

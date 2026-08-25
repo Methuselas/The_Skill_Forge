@@ -19,6 +19,12 @@ tags:
 - threading
 - review
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_classify_synchronization_by_progress_guarantee
+- rel: prerequisite_for
+  target_object_id: PAT_plan_the_shutdown_early
+- rel: prerequisite_for
+  target_object_id: PAT_break_one_of_deadlocks_four_conditions
 - rel: related_to
   target_object_id: PAT_assume_calls_can_overlap_and_arrive_in_any_order
 - rel: related_to

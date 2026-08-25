@@ -19,6 +19,8 @@ tags:
 - scalability
 foundation_object_id: none
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_classify_a_dependency_before_trying_to_remove_it
 - rel: related_to
   target_object_id: PAT_decide_if_the_problem_is_worth_parallelizing
 - rel: related_to

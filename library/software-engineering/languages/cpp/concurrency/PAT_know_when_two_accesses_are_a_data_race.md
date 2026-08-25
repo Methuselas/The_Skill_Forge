@@ -20,6 +20,12 @@ tags:
 - undefined_behavior
 - threading
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_specify_a_memory_order_the_operation_can_actually_carry
+- rel: prerequisite_for
+  target_object_id: PAT_choose_the_execution_policy_the_loop_body_can_survive
+- rel: prerequisite_for
+  target_object_id: PAT_choose_a_thread_safe_initialization_mechanism
 - rel: related_to
   target_object_id: PAT_avoid_sharing_before_you_reach_for_protecting_it
 - rel: related_to

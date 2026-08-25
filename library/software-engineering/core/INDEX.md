@@ -8,6 +8,10 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - **Arrange the Conditions That Make Prior Knowledge Transfer** — read first
   - then: Expect Prior Knowledge to Mislead You Most Where Languages Are Similar
+- **Ask Both What Must Never Happen and What Must Eventually Happen** — read first
+  - then: Break One of Deadlock's Four Conditions
+  - then: Classify Synchronization by the Progress It Guarantees
+  - then: Work Out How It Stops Before You Build How It Runs
 - **Ask Whether the Hot Code Can Run Less Often** — read first
   - then: Locate a Performance Bottleneck by Measurement
 - **Assess the Groundwork You Inherited Before Writing Code** — read first
@@ -21,6 +25,12 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Give a Shared Object Its Own Thread Instead of a Lock
   - then: Immutability Is a Guarantee You Have to Actually Check
   - then: Keep Thread-Aware Code Away From Thread-Ignorant Code
+  - then: Match the Problem to a Known Coordination Shape
+  - then: Separate Buffer Ownership From Message Delivery
+  - then: Separate Per-Thread Data by a Full Cache Line
+- **Buy Concurrent Performance With Restrictions, Not Cleverness** — read first
+  - then: Merge Concurrent Operations Into One Before Applying Them
+  - then: Trade Exact Ordering for Independent Sub-Structures
 - **Change Structure or Change Behaviour, Never Both in One Pass** — read first
   - then: Refactor Working Code Without Breaking It
 - **Check a Primitive's Coordination Power Before Designing on It** — read first
@@ -45,7 +55,11 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Treat Compiler Warnings as Potential Bugs
 - **Classify Synchronization by the Progress It Guarantees** — read first
   - then: Announce the Operation So Another Thread Can Finish It
+  - then: Buy Concurrent Performance With Restrictions, Not Cleverness
+  - then: Check a Primitive's Coordination Power Before Designing on It
+  - then: Check an Atomic Is Lock-Free Before Relying on It
   - then: Decide Whether a Primitive Can Coordinate the Design
+  - then: Keep the Memory Alive Until the Compare-and-Swap Completes
   - then: Split Acquisition Into a Bounded Doorway and a Wait
 - **Compose Modules With Few Well-Defined Interfaces** — read first
   - then: Depend on Interfaces, Not Concrete Classes
@@ -93,8 +107,12 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Test Through the Public API, Not Implementation Details
   - then: Use a Test Double Only When a Real Dependency Won't Do
   - then: Use an Assertion Matcher That Fits the Behavior
+- **Establish That the Work Divides Before Dividing It** — read first
+  - then: Derive the Parallelism From Work and Span
+  - then: Find the Axis the Parallelism Lies Along
 - **Find the Axis the Parallelism Lies Along** — read first
   - then: Choose Between a Parallel Program and Parallel Regions
+  - then: Classify a Dependency Before Trying to Remove It
   - then: Design a Parallel Decomposition
   - then: Run the Decomposition Procedure on a Concrete Problem
 - **Get the Single-Threaded Version Working First** — read first
@@ -124,6 +142,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Reuse Existing Solutions Instead of Reinventing
   - then: Write Code That Reads Like a Well-Structured Recipe
 - **Keep a Lockstep Group on One Path** — read first
+  - then: Budget Per-Thread Resources Against Residency
+  - then: Place Cooperating Work at the Narrowest Scope That Holds It
   - then: Trace Divergence and Coalescing From One Index Mapping
 - **Keep the Memory Alive Until the Compare-and-Swap Completes** — read first
   - then: Mark a Node Removed Before Unlinking It
@@ -132,6 +152,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Design a Parallel Decomposition
 - **Let Measurement Decide What to Tune, Never Intuition** — read first
   - then: Tune a Measured Bottleneck
+  - then: Weaken a Memory Order Only Against a Measurement
 - **Locate the Working Set on the Memory Hierarchy** — read first
   - then: Choose the Data Structure for the Dominant Access Pattern
   - then: Spend Computation to Buy Sequential Access
@@ -140,6 +161,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Match the Lock to the Length of the Critical Section
   - then: Search Without Locks, Then Lock and Validate
   - then: Split a Lock Only Where the Structure Makes the Regions Disjoint
+  - then: Take the Simplest Lock Type That Does the Job
 - **Make Every Concurrent Operation a Complete Transaction** — read first
   - then: Fold an Interface Whose Operations Do Not Compose
 - **Make the Benchmarked Work Observable** — read first
@@ -160,6 +182,13 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Handle Enums Exhaustively So New Values Fail Loudly
   - then: Make Critical Inputs Required Rather Than Silently No-Op
   - then: Use the Null Object Pattern Only When the Empty Value Can't Surprise
+- **Match the Lock to the Length of the Critical Section** — read first
+  - then: Give Each Waiter Its Own Location to Spin On
+- **Match the Problem to a Known Coordination Shape** — read first
+  - then: Block With a Deadline Before Polling on an Interval
+  - then: Dispatch on Readiness or on Completion
+- **Merge Concurrent Operations Into One Before Applying Them** — read first
+  - then: Cancel Complementary Operations Instead of Applying Them
 - **Name the Binding Constraint Before Choosing a Remedy** — read first
   - then: Tune a Measured Bottleneck
 - **Name the Metric Before You Call It Fast** — read first
@@ -168,6 +197,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Ask Whether a New Method Belongs Before You Add It
 - **Put the Thread-Safety Guarantee at the Transaction Boundary** — read first
   - then: Fold an Interface Whose Operations Do Not Compose
+  - then: Lock at the Public Boundary and Nowhere Inside
 - **Read a Profile as a Statement About Machine Code** — read first
   - then: Locate a Performance Bottleneck by Measurement
 - **Read Coverage as a Floor, Never as a Score** — read first
@@ -199,7 +229,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Choose Test Cases Systematically
 - **Two Atomic Operations Are Not One Atomic Operation** — read first
   - then: Make Every Concurrent Operation a Complete Transaction
+  - then: Publish Shared Data Through One Atomic Handle
   - then: Put the Thread-Safety Guarantee at the Transaction Boundary
+  - then: Take a Consistent View by Collecting Twice
 - **Work Out How the Code Got This Way Before You Improve It** — read first
   - then: Divide a Long Change Into Places You Could Walk Away From
 - **Work the Input Classes From a Fixed List, Not From Imagination** — read first

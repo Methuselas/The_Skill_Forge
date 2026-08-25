@@ -19,6 +19,10 @@ tags:
 - threading
 - simplicity
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_trade_exact_ordering_for_independent_substructures
+- rel: prerequisite_for
+  target_object_id: PAT_merge_concurrent_operations_into_one_before_applying_them
 - rel: related_to
   target_object_id: PAT_make_every_concurrent_operation_a_complete_transaction
 - rel: related_to

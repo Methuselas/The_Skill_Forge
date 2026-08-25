@@ -19,6 +19,10 @@ tags:
 - patterns
 - starvation
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_dispatch_on_readiness_or_on_completion
+- rel: prerequisite_for
+  target_object_id: PAT_block_with_a_deadline_before_polling_on_an_interval
 - rel: related_to
   target_object_id: PAT_break_one_of_deadlocks_four_conditions
 - rel: related_to

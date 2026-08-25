@@ -19,6 +19,10 @@ tags:
 - threading
 - correctness
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_take_a_consistent_view_by_collecting_twice
+- rel: prerequisite_for
+  target_object_id: PAT_publish_shared_data_through_one_atomic_handle
 - rel: related_to
   target_object_id: PAT_check_concurrent_code_for_safety_and_liveness
 - rel: related_to

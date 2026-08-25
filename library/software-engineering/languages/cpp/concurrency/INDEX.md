@@ -12,9 +12,12 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - **Don't Call Unknown Code While Holding a Lock** — read first
   - then: Restructure a Class That Locks Every Member Function
 - **Know When Two Accesses Are a Data Race** — read first
+  - then: Choose a Thread-Safe Initialization Mechanism
+  - then: Choose the Execution Policy the Loop Body Can Survive
   - then: Keep volatile and atomic Apart
   - then: Make Shared-Pointer Atomicity a Property of the Type
   - then: Make the Acquire Actually Observe the Release
+  - then: Specify a Memory Order the Operation Can Actually Carry
   - then: Wrap a Thread Argument That Must Arrive by Reference
   - then: Write to a Shared Stream Through a Synchronized Wrapper
 - **Lock at the Public Boundary and Nowhere Inside** — read first

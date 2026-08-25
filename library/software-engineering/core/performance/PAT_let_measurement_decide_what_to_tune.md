@@ -18,6 +18,8 @@ tags:
 - measurement
 - premature_optimization
 cross_links:
+- rel: prerequisite_for
+  target_object_id: PAT_weaken_a_memory_order_only_against_a_measurement
 - rel: related_to
   target_object_id: PAT_choose_the_level_before_tuning_the_code
 - rel: related_to
