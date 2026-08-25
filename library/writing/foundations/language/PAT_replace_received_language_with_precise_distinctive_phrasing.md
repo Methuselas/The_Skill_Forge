@@ -30,7 +30,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_variant_rehabilitate_received_language
+    variant_name: Rehabilitate Received Language
+    variant_basis: method_sequence
+    difference_from_foundation: Expose a familiar phrase's dormant image by taking it literally or construct a situation in which the phrase becomes exact and inevitable.
+    when_to_use: The expression carries vernacular, familial, ironic, or thematic pressure that entirely new wording would lose.
+    when_not_to_use: Recognition supplies the whole effect, the phrase remains generic, or literalization produces only a joke.
+    absorbed_from_object_id: none
 ---
 
 # Replace Received Language with Precise Distinctive Phrasing
@@ -61,3 +68,5 @@ variants: []
 
 ## Notes
 Received language is tempting precisely because repetition makes it arrive quickly and sound finished. That fluency conceals the absence of a fresh encounter. Precision and individuality solve the same problem from two sides: close attention supplies exact differences, and the writer's habits of perception determine how those differences enter phrases and lines. Distinctiveness is therefore earned through attention and revision, not by decorating a general statement with eccentric words.
+
+`writing_variant_rehabilitate_received_language` keeps inherited wording but changes its work. Trace the concealed comparison literally until it generates concrete action and objects, or build a speaker and situation in which no fresher wording carries the same history, irony, or final pressure. Keep the phrase only when the new context reactivates it.

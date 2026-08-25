@@ -5,3 +5,10 @@
 ## Objects
 
 - [Build a Poem Around a Productive Comparison](DRILL_build_poem_around_productive_comparison.md) - drill; 1 skeleton. Tags: deliberate_practice, figurative_language, metaphor, poetry, simile.
+- [Build and Revise a Poem Through an Image System](AP_build_and_revise_a_poem_through_an_image_system.md) - ap; 0 design. Tags: imagery, metaphor, poetry, revision, sequence.
+- [Capture Images for Twenty-Four Hours](DRILL_capture_images_for_twenty_four_hours.md) - drill; 0 design. Tags: deliberate_practice, imagery, notebook, observation, poetry.
+- [Embody an Abstraction Through Every Sense](DRILL_embody_an_abstraction_through_every_sense.md) - drill; 1 skeleton. Tags: abstraction, deliberate_practice, personification, poetry, senses.
+- [Generate and Order a Multisensory Image Field](DRILL_generate_and_order_a_multisensory_image_field.md) - drill; 1 skeleton. Tags: deliberate_practice, imagery, poetry, senses, sequence.
+- [Order Image Sequences to Carry Poetic Thought](PAT_order_image_sequences_to_carry_poetic_thought.md) - pattern; 2 block. Tags: association, imagery, poetry, rhetoric, sequence.
+- [Rehabilitate a Received Phrase Through Literalization or Context](DRILL_rehabilitate_a_received_phrase_through_literalization_or_context.md) - drill; 1 skeleton. Tags: cliche, deliberate_practice, imagery, poetry, vernacular.
+- [Transfer a Comparison Across Unrelated Subjects](DRILL_transfer_a_comparison_across_unrelated_subjects.md) - drill; 1 skeleton. Tags: comparison, deliberate_practice, metaphor, poetry, transfer.

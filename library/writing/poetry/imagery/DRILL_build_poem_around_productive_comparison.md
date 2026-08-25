@@ -23,6 +23,8 @@ cross_links:
     target_object_id: writing_make_figurative_language_unexpected_and_fitting
   - rel: related_to
     target_object_id: writing_replace_abstractions_with_specific_sensory_images
+  - rel: related_to
+    target_object_id: writing_poetry_drill_transfer_comparison_across_unrelated_subjects
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey

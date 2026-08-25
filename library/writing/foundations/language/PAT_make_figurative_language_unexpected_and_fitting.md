@@ -20,7 +20,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_poetry_variant_trust_locally_mysterious_image
+    variant_name: Trust a Locally Mysterious Image
+    variant_basis: context
+    difference_from_foundation: Permit a comparison whose bridge cannot be fully paraphrased when sensory force, emotional charge, recurrence, tone, or position makes it necessary to the poem.
+    when_to_use: A poem gains productive ambiguity or destabilizing pressure from an image that remains partly unexplained but participates in the whole movement.
+    when_not_to_use: The image is random, culturally careless, tonally detached, or unsupported by the surrounding poem.
+    absorbed_from_object_id: none
 ---
 
 # Make Figurative Language Unexpected and Fitting
@@ -55,3 +62,5 @@ variants: []
 
 ## Notes
 A metaphor applies one term to another; a simile signals the likeness explicitly. Both succeed through the bridge between the things, not through the labels used to classify them. Their strongest use often extends into grammar: the chosen verb, motion, or texture activates the same relation and lets the comparison carry situation as well as appearance. Other figures shift the mechanism - association in metonymy, part for whole in synecdoche, human qualities in personification, multiple meanings in a pun - but they share the same burden: the departure from ordinary language must produce a controlled effect worth the risk of familiarity, excess, or tonal drift.
+
+`writing_poetry_variant_trust_locally_mysterious_image` broadens fitness beyond a bridge that can be completely explained. Preserve a partly inexplicable image when physical vividness, emotional voltage, recurrence, sound, or placement makes the poem more exact to an experience that literal paraphrase would flatten. Remove it when mystery is the only effect or the association depends on stereotype rather than discovered relation.

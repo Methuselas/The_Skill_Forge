@@ -10,9 +10,11 @@
   - Variants: `Draft by Speaking to Recover a Natural Register` (method_sequence).
 - [Control Irony to Preserve Reader Trust](PAT_control_irony_to_preserve_reader_trust.md) - pattern; 3 rough. Tags: creative_writing, irony, reader_response, revision, tone.
 - [Make Figurative Language Unexpected and Fitting](PAT_make_figurative_language_unexpected_and_fitting.md) - pattern; 3 rough. Tags: creative_writing, figurative_language, metaphor, revision, simile.
+  - Variants: `Trust a Locally Mysterious Image` (context).
 - [Make Nonstandard Language a Deliberate Craft Choice](PAT_make_nonstandard_language_a_deliberate_craft_choice.md) - pattern; 3 rough. Tags: dialect, grammar, language, multilingual_writing, voice.
 - [Replace Abstractions with Specific Sensory Images](PAT_replace_abstractions_with_specific_sensory_images.md) - pattern; 3 rough. Tags: creative_writing, imagery, revision, sensory_detail, specificity.
 - [Replace Received Language with Precise Distinctive Phrasing](PAT_replace_received_language_with_precise_distinctive_phrasing.md) - pattern; 3 rough. Tags: cliche, creative_writing, precision, revision, voice.
+  - Variants: `Rehabilitate Received Language` (method_sequence).
 - [Shape Sentence Rhythm Through Length Structure and Punctuation](PAT_shape_sentence_rhythm_through_length_structure_and_punctuation.md) - pattern; 3 rough. Tags: creative_writing, punctuation, revision, sentence_rhythm, syntax.
 - [Shape Sound to Reinforce Meaning](PAT_shape_sound_to_reinforce_meaning.md) - pattern; 3 rough. Tags: creative_writing, musicality, onomatopoeia, revision, sound.
   - Variants: `Link Ideas with Repeated Consonants or Vowels` (method_sequence); `Use Onomatopoeia to Echo the Subject` (method_sequence).
