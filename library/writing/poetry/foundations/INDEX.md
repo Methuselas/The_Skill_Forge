@@ -5,6 +5,7 @@
 ## Objects
 
 - [Add Paratext Only When a Poem Needs External Framing](PAT_add_paratext_only_when_a_poem_needs_external_framing.md) - pattern; 4 final. Tags: attribution, epigraphs, notes, paratext, poetry.
+  - Variants: `Delay a Multilingual Gloss to Coordinate Revelation` (method_sequence).
 - [Draft and Redraft a Poem Through Discovery](AP_draft_and_redraft_a_poem_through_discovery.md) - ap; 0 design. Tags: discovery, drafting, incubation, poetry, revision.
 - [Draft Poems Through Discovery](PAT_draft_poems_through_discovery.md) - pattern; 0 design. Tags: discovery, drafting, generative_constraints, poetry.
   - Variants: `Enter Discovery Through Traditional Form` (constraint).

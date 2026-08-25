@@ -26,7 +26,14 @@ reference:
   author: Linda Anderson
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_poetry_variant_delay_multilingual_gloss_to_coordinate_revelation
+    variant_name: Delay a Multilingual Gloss to Coordinate Revelation
+    variant_basis: method_sequence
+    difference_from_foundation: Test contextual inference, selective inline glossing, and a post-poem gloss, then place each explanation where its timing best coordinates linguistic comprehension with the poem's thematic or tonal disclosure.
+    when_to_use: A multilingual term should remain sensorially or emotionally active before dominant-language readers receive its full denotation.
+    when_not_to_use: Delay would make the poem needlessly opaque, misrepresent the language as exotic decoration, or withhold information readers need to understand the immediate action.
+    absorbed_from_object_id: none
 ---
 
 # Add Paratext Only When a Poem Needs External Framing
@@ -58,3 +65,5 @@ variants: []
 
 ## Notes
 External framing changes the order in which a reader receives information. An epigraph enters the poem before its first line and therefore exerts early pressure; a gloss or note can preserve the initial encounter while supplying context at the edge or afterward. Material that generated the draft does not automatically deserve this authority in the finished work. The lightest successful frame is usually the one that supplies what readers genuinely need while leaving the poem to create its own meaning.
+
+`writing_poetry_variant_delay_multilingual_gloss_to_coordinate_revelation` treats explanation as a timing decision. Let context carry terms that remain intelligible through action, gloss another term inside the line when its meaning contributes to rhythm or unfolding sense, and place a title or key term after the poem when delayed recognition materially answers the poem's own disclosure. Use accurate language from genuine access; delay must serve the poem rather than stage the non-dominant language as a puzzle.

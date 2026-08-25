@@ -37,16 +37,21 @@ variants: []
 ## Do
 - Identify the precise expressive job performed by each departure from standard written convention.
 - Let community language and mixed languages carry identity when standardization would erase meaningful social or cultural information.
+- Use dialect, community language, and multilingual wording that the writer or represented speaker genuinely knows; when access is partial, research spelling, meaning, context, and present use before relying on it.
+- Preserve scripts, diacritics, pronunciation cues, and translations accurately enough that the language remains itself rather than decorative texture.
+- Decide whether meaning should be inferable from context, supplied nearby, or deliberately disclosed later, and test the timing against the intended reader experience.
 - Polish syntax, diction, punctuation, and rhythm around the deviation so readers encounter a controlled choice rather than general carelessness.
 
 ## Don't
 - Normalize identity-bearing language solely because it differs from standardized English.
+- Put on an accent, borrow an unfamiliar community marker, or scatter untranslated words to manufacture authenticity or exotic atmosphere.
 - Use creativity as an excuse to submit an unrevised draft full of unintended spelling, grammar, or punctuation mistakes.
 
 ## Checklist
 - Each unconventional construction has a defensible purpose in the work.
 - Similar choices are controlled well enough to read as intentional rather than random.
 - The intended audience can follow the passage, unless temporary difficulty is itself part of the designed effect.
+- The writer can account for the language's meaning and use without treating surface difference as proof of authority.
 - The rest of the prose has received careful editing and proofreading.
 
 ## Notes
