@@ -42,10 +42,13 @@ variants: []
 - Speak the line before marking it, then work syllable by syllable rather than assigning stress to whole words at once.
 - Group the stresses into plausible feet and name the pattern that predominates even when individual feet differ.
 - Examine substituted feet and extra unstressed syllables for the liveliness, emphasis, or speech-like movement they create.
+- In iambic pentameter, test an opening inversion, elided adjacent vowels, or an extra unstressed ending as conditional licenses; retain one only when the five-beat baseline remains audible in ordinary speech.
+- Recast wording and syntax before promoting an implausible stress solely to complete the diagram.
 - Scan repeatedly when rhyme makes accented positions more conspicuous.
 
 ## Don't
 - Force every foot into the base pattern until the poem sounds like a metronome.
+- Apply a positional ban on substitution as though every line, voice, and speaking context produces the same hearing.
 - Treat one plausible hearing as the only defensible analysis of a line.
 - Choose a technically extreme meter whose management consumes the attention needed for imagery, thought, and voice.
 
@@ -57,3 +60,5 @@ variants: []
 
 ## Notes
 Meter is the abstract pattern behind an actual line's rhythm. Scansion makes that relationship visible, but it remains an educated hearing rather than a mathematical proof. Skilled formal verse establishes enough regularity to be felt and enough variation to avoid wearisome mechanical repetition.
+
+Metrical licenses are listening tests, not permissions detached from sound. An opening reversal may establish an emphatic entrance, adjacent unstressed vowels may compress in fluent speech, and an extra light ending may preserve natural phrasing. A substitution elsewhere can also work when surrounding feet re-establish the governing pulse. The deciding evidence is whether an uncoached reading still hears the base measure and the deviation improves voice or emphasis without distorting syntax.

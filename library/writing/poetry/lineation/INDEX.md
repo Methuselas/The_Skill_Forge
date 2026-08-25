@@ -7,6 +7,7 @@
 - [Break Poetic Lines to Control Pace and Expectation](PAT_break_poetic_lines_to_control_pace_and_expectation.md) - pattern; 3 rough. Tags: emphasis, enjambment, line_breaks, pacing, poetry.
   - Variants: `Slow and Settle with End-Stopping` (emphasis); `Accelerate and Suspend with Enjambment` (emphasis).
 - [Compare Competing Lineations of One Passage](DRILL_compare_competing_lineations_of_one_passage.md) - drill; 3 rough. Tags: deliberate_practice, enjambment, lineation, poetry, revision.
+- [Compose Thought in Couplet, Tercet, and Quatrain](DRILL_compose_thought_in_couplet_tercet_and_quatrain.md) - drill; 2 block. Tags: couplet, deliberate_practice, poetry, quatrain, stanza, tercet.
 - [Shape Stanzas Around Movement and Pause](PAT_shape_stanzas_around_movement_and_pause.md) - pattern; 3 rough. Tags: pacing, poetry, stanzas, structure, white_space.
-  - Variants: `Build Symmetrical Stanzas` (constraint); `Let Stanzas Follow Content` (context); `Fit Stanzas to a Predetermined Form` (constraint).
+  - Variants: `Build Symmetrical Stanzas` (constraint); `Let Stanzas Follow Content` (context); `Fit Stanzas to a Predetermined Form` (constraint); `Build Stanza Architecture from Small Verse Units` (method_sequence).
 - [Use White Space to Weight Poetic Language](PAT_use_white_space_to_weight_poetic_language.md) - pattern; 3 rough. Tags: compression, emphasis, pacing, poetry, white_space.

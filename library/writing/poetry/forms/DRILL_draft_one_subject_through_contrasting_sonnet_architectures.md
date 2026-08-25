@@ -1,0 +1,60 @@
+---
+object_id: writing_poetry_drill_draft_subject_through_contrasting_sonnet_architectures
+object_type: drill
+name: Draft One Subject Through Contrasting Sonnet Architectures
+library_path: [writing, poetry, forms]
+stage_binding: 2 block
+lane_fit: skill
+foundation_role: specialization
+routing_class: specialized
+specialization_axis: genre
+foundation_object_id: none
+tags: [poetry, sonnet, volta, structure, deliberate_practice]
+cross_links:
+  - rel: supports
+    target_object_id: writing_poetry_learn_form_before_varying_its_rules
+  - rel: teaches
+    target_object_id: writing_poetry_turn_sonnet_before_closure
+  - rel: related_to
+    target_object_id: writing_poetry_draft_through_discovery
+reference: {source_title: "Creative Writing: A Workbook with Readings", author: W. N. Herbert}
+confidence: high
+references: []
+target_skill: Using octave-sestet and quatrain-couplet architectures to generate different developments and turns from the same material
+variants: []
+---
+
+# Draft One Subject Through Contrasting Sonnet Architectures
+
+## Practice Task
+Generate one field of material, shape it once through an octave-sestet architecture and once through a three-quatrain-and-couplet architecture, then choose by what each structure makes the thought do.
+
+## Target Skill
+Using octave-sestet and quatrain-couplet architectures to generate different developments and turns from the same material.
+
+## Setup
+Choose a bounded place, object, relation, or remembered situation with enough tension for reconsideration. Generate images, actions, comparisons, contrasts, and questions freely before planning either version.
+
+## Instructions
+1. Make a working specification for both architectures, separating fourteen-line structure, stanza movement, turn placement, meter, and rhyme so optional conventions do not masquerade as the whole form.
+2. For the octave-sestet version, let the opening eight lines establish and complicate one pressure; use the remaining six to answer, reverse, widen, or reframe it.
+3. For the quatrain-couplet version, give each four-line unit a distinct stage of development and make the final pair spend a prepared consequence rather than attach a surprise.
+4. Test a workable pentameter and rhyme scheme, but loosen a non-governing convention when it distorts syntax or consumes the attention needed for imagery and thought.
+5. Mark the actual turn in each version by meaning, then check whether stanza and sound make it more legible.
+6. Compare what each architecture discovered, compressed, delayed, or forced. Select one, hybridize deliberately while naming the retained governing action, or reject both when the material requires another form.
+
+## Success Check
+- Both drafts use the same generative field, making architectural effects comparable.
+- Each version has a consequential turn rather than a change in rhyme alone.
+- Units develop thought instead of serving as empty line-count containers.
+- Any loosened convention is identified and justified by a stronger result.
+- Selection follows what the form generates, not which version was easier to complete.
+
+## Common Failures
+- Drafting two unrelated poems and attributing their differences to architecture.
+- Treating fourteen lines as sufficient evidence of a sonnet.
+- Forcing rhyme or meter until normal syntax and precise diction collapse.
+- Letting the closing couplet introduce an unsupported new poem.
+
+## Notes
+Contrasting architectures convert formal history into a practical choice. One arrangement foregrounds a broad octave-to-sestet reconsideration; the other makes staged quatrain development and terminal pressure especially available. Neither guarantees a particular argument, and hybridization remains deliberate only when the writer can name what structural expectation survives.

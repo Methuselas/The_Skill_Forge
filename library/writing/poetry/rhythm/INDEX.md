@@ -4,8 +4,10 @@
 
 ## Objects
 
+- [Cast and Recast Natural Syntax into Iambic Pentameter](DRILL_cast_and_recast_natural_syntax_into_iambic_pentameter.md) - drill; 2 block. Tags: deliberate_practice, iambic_pentameter, meter, poetry, syntax.
+- [Discover and Test a Free-Verse Rhythmic Norm](DRILL_discover_and_test_a_free_verse_rhythmic_norm.md) - drill; 3 rough. Tags: deliberate_practice, free_verse, poetry, rhythm, scansion.
 - [Keep Free Verse Rhythmically Accountable](PAT_keep_free_verse_rhythmically_accountable.md) - pattern; 3 rough. Tags: breath, free_verse, poetry, rhythm, syllables.
-  - Variants: `Stabilize Free Verse with Shared Syllable Counts` (constraint); `Test Lineation with Exact Syllable Containers` (constraint).
+  - Variants: `Stabilize Free Verse with Shared Syllable Counts` (constraint); `Test Lineation with Exact Syllable Containers` (constraint); `Discover a Local Rhythmic Norm` (method_sequence).
 - [Revise Poetic Rhythm Across Metered and Free Verse](AP_revise_poetic_rhythm_across_metered_and_free_verse.md) - ap; 3 rough. Tags: free_verse, meter, poetry, revision, rhythm.
 - [Scan and Vary Meter Deliberately](PAT_scan_and_vary_meter_deliberately.md) - pattern; 3 rough. Tags: meter, poetry, revision, scansion, stress.
 - [Scan Contrasting Lines to Train Rhythmic Hearing](DRILL_scan_contrasting_lines_to_train_rhythmic_hearing.md) - drill; 2 block. Tags: deliberate_practice, free_verse, meter, poetry, scansion.

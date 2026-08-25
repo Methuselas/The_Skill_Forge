@@ -40,6 +40,13 @@ variants:
     when_to_use: Familiar diction or a predetermined subject is restricting discovery and sound can open unexpected verbal relations.
     when_not_to_use: The search forces inferior words, suppresses the poem's live pressure, or turns exploration into a requirement to preserve every rhyme.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_extend_emerging_local_form
+    variant_name: Extend an Emerging Local Form
+    variant_basis: method_sequence
+    difference_from_foundation: Find a locally successful pattern of rhythm, line length, rhyme position, repetition, or stanza size in the generated material, then repeat or vary it elsewhere so the draft teaches its own governing expectations.
+    when_to_use: A draft contains one charged passage whose shape could organize further discovery without requiring an inherited form.
+    when_not_to_use: The apparent recurrence is accidental, repeating it weakens later material, or the poem benefits from discontinuity more than formal recognition.
+    absorbed_from_object_id: none
 ---
 
 # Draft Poems Through Discovery
@@ -75,3 +82,5 @@ variants:
 Discovery does not require an unstructured process. `writing_poetry_variant_enter_discovery_through_traditional_form` uses inherited form as a generative constraint: the rules narrow the field while the writer remains alert to unforeseen language and meaning. Use `writing_collect_fragments_before_demanding_complete_draft` when charged pieces need to accumulate before any one of them can sustain a poem.
 
 `writing_poetry_variant_enter_discovery_through_expanding_rhyme_families` lets sound precede subject. Move from exact matches toward consonantal, assonantal, rhythmic, phrase-level, and more distant echoes, then begin another field from an outer discovery. Compose from the associations but restore ordinary selection afterward: a rhyme can earn attention without earning a place in the finished poem.
+
+`writing_poetry_variant_extend_emerging_local_form` begins after language has produced a shape worth keeping. Describe that passage's repeatable behavior without naming a traditional form prematurely, reproduce it once, and compare the two occurrences for recognition and strain. Preserve exact repetition where expectation matters, vary one dimension where development demands it, and stop extending the pattern when later material must be padded, distorted, or delayed merely to comply.

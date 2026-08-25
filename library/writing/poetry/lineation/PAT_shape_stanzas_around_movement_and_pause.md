@@ -50,6 +50,13 @@ variants:
     when_to_use: The governing form specifies stanza size as part of its expressive constraint.
     when_not_to_use: No chosen form requires the count and imposing one would distort the poem's emerging movement.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_build_stanza_architecture_from_small_verse_units
+    variant_name: Build Stanza Architecture from Small Verse Units
+    variant_basis: method_sequence
+    difference_from_foundation: Draft bounded two-, three-, and four-line units, observe which can close, turn, or develop the material, then combine or repeat the useful units into a larger stanza architecture.
+    when_to_use: A poem needs a manageable structural vocabulary before a longer discovered or selected form can be designed.
+    when_not_to_use: The material already has a compelling continuous movement, or treating line counts as packages produces arbitrary pauses and filler.
+    absorbed_from_object_id: none
 ---
 
 # Shape Stanzas Around Movement and Pause
@@ -78,3 +85,5 @@ variants:
 
 ## Notes
 Three grounded methods share this decision. `writing_poetry_variant_build_symmetrical_stanzas` repeats an opening line count when balance supports the design. `writing_poetry_variant_let_stanzas_follow_content` permits unequal groups when images, thoughts, or turns need different amounts of space. `writing_poetry_variant_fit_stanzas_to_predetermined_form` accepts the packages required by an inherited form and is useful only when that constraint genuinely governs the poem.
+
+`writing_poetry_variant_build_stanza_architecture_from_small_verse_units` treats couplets, tercets, and quatrains as test containers rather than fixed meanings. Two lines often intensify relation or closure, a third can complicate or turn, and four can sustain development and balance, but the drafted language must demonstrate those functions. Combine the units gradually, preserve syntactic flow across a boundary when momentum requires it, and reject any package whose count is its only rationale.

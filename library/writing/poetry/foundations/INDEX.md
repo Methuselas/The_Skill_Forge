@@ -8,7 +8,7 @@
   - Variants: `Delay a Multilingual Gloss to Coordinate Revelation` (method_sequence).
 - [Draft and Redraft a Poem Through Discovery](AP_draft_and_redraft_a_poem_through_discovery.md) - ap; 0 design. Tags: discovery, drafting, incubation, poetry, revision.
 - [Draft Poems Through Discovery](PAT_draft_poems_through_discovery.md) - pattern; 0 design. Tags: discovery, drafting, generative_constraints, poetry.
-  - Variants: `Enter Discovery Through Traditional Form` (constraint); `Enter Discovery Through Expanding Rhyme Families` (method_sequence).
+  - Variants: `Enter Discovery Through Traditional Form` (constraint); `Enter Discovery Through Expanding Rhyme Families` (method_sequence); `Extend an Emerging Local Form` (method_sequence).
 - [Make Performance Poetry Stand on Its Language](PAT_make_performance_poetry_stand_on_its_language.md) - pattern; 3 rough. Tags: performance, poetry, revision, spoken_word.
 - [Sustain Poetic Intensity Beyond Meter and Lineation](PAT_sustain_poetic_intensity_beyond_meter_and_lineation.md) - pattern; 0 design. Tags: free_verse, poetic_language, poetry, prose_poetry.
   - Variants: `Build a Prose Poem Through Sentence Music` (medium).

@@ -45,6 +45,13 @@ variants:
     when_to_use: Current lineation feels intuitive but unjustified, or an external shaping pressure may expose stronger phrasing and movement.
     when_not_to_use: An inherited form already governs the counts, or preserving the quota requires distortions that the comparison has already shown to be unproductive.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_discover_local_rhythmic_norm
+    variant_name: Discover a Local Rhythmic Norm
+    variant_basis: method_sequence
+    difference_from_foundation: Scan the existing draft for a recurring beat count, breath duration, syntactic span, or line-length family, then strengthen that local expectation and make consequential departures answer it.
+    when_to_use: A free-verse draft has an emerging pulse that is perceptible but inconsistent enough to lose force or make emphatic expansions and contractions unreadable.
+    when_not_to_use: No recurring rhythmic behavior survives an uncoached reading, or another organizing system intentionally carries the poem without a dominant rhythmic norm.
+    absorbed_from_object_id: none
 ---
 
 # Keep Free Verse Rhythmically Accountable
@@ -75,3 +82,5 @@ variants:
 Free verse exchanges a predetermined metrical spine for active listening and control. `writing_poetry_variant_stabilize_free_verse_with_shared_syllable_counts` introduces roughly equal syllable counts when an emerging poem needs more pulse but not a traditional meter; abandon that constraint when changing breath or line elasticity carries the stronger effect.
 
 `writing_poetry_variant_test_lineation_with_exact_syllable_containers` uses a stricter count as a diagnostic version rather than a permanent definition of form. Choose one count for every line and one count for every group, preserve the unconstrained draft, and notice where sentence flow meets, strains against, or runs across the imposed boundaries. Keep discoveries that sharpen the poem, alter the count when another duration fits better, and release the constraint when compliance remains its only achievement.
+
+`writing_poetry_variant_discover_local_rhythmic_norm` begins with behavior already present. Mark several representative lines, identify the beat count, breath span, or length family that recurs strongly enough to create expectation, and compare expansions or contractions against it. Regularize only where the expectation needs reinforcement; preserve a departure when its extra duration, compression, or silence performs a change in thought or feeling. Not every free-verse poem needs one dominant norm, so release this route when the evidence remains scattered.

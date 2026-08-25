@@ -5,6 +5,8 @@
 ## Objects
 
 - [Build a Cento from Strategic Quotation](DRILL_build_cento_from_strategic_quotation.md) - drill; 1 skeleton. Tags: cento, close_reading, collage, juxtaposition, poetry.
+- [Design and Revise a Poem's Governing Form](AP_design_and_revise_a_poems_governing_form.md) - ap; 0 design. Tags: discovery, poetic_forms, poetry, revision, structure.
+- [Draft One Subject Through Contrasting Sonnet Architectures](DRILL_draft_one_subject_through_contrasting_sonnet_architectures.md) - drill; 2 block. Tags: deliberate_practice, poetry, sonnet, structure, volta.
 - [Ground Haiku in Present Sensory Perception](PAT_ground_haiku_in_present_sensory_perception.md) - pattern; 1 skeleton. Tags: concision, haiku, perception, poetry, sensory_detail.
 - [Learn a Poetic Form Before Varying Its Rules](PAT_learn_poetic_form_before_varying_its_rules.md) - pattern; 0 design. Tags: constraints, poetic_forms, poetry, revision, tradition.
 - [Make Refrains and Repeated Words Accumulate Meaning](PAT_make_refrains_and_repeated_words_accumulate_meaning.md) - pattern; 2 block. Tags: poetic_forms, poetry, refrain, repetition, revision.
