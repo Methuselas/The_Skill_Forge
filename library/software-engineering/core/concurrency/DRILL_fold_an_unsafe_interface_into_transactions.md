@@ -40,20 +40,22 @@ Take a shared collection offering separate emptiness, inspection, and removal op
 Redesigning an operation set so no caller must hold a result across two calls.
 
 ## Setup
-No special setup required.
+Start from a stated operation set, since every count the drill produces is otherwise an artifact of the interface the runner invented. Work on a **bounded** blocking queue offering `empty()`, `full()`, `size()`, `front()`, `pop()`, and `push(v)`, together with its copy constructor, move constructor, and assignment operators.
+
+Bounded is deliberate: on an unbounded collection `push` is total, there is no `full()`, and the entire producer side of the exercise disappears. The special member functions are in scope — copy construction reads the whole collection and is a transaction like any other.
 
 ## Instructions
-1. Write out a caller that uses the operations in the natural sequence: check whether anything is there, look at it, take it.
-2. Describe an interleaving in which every individual operation succeeds and the sequence is still wrong. Name the exact moment the caller's assumption stopped holding.
+1. Write out a caller that uses those operations in the natural sequence: check whether anything is there, look at it, take it.
+2. Describe an interleaving in which every individual operation succeeds and the sequence is still wrong. Name the exact moment the caller's assumption stopped holding. The interleaving must contain at least one call whose *result* the caller carries across another thread's committed change, and it must name the damage: duplicate execution, precondition violation, lost item, or escaped reference. Two threads both calling `pop` on a one-element queue is below that floor and makes the last bullet of the Success Check free.
 3. Identify which contiguous group of calls the caller intended as one unit. That group, not its parts, is the operation to provide.
 4. Replace the group with a single operation, and choose how it reports the case that used to be a precondition — an optional result, a value-and-flag pair, or a boolean with an out-parameter.
 5. Check every remaining operation against the same test: does its validity depend on something the caller established earlier? Fold any that do.
 6. State what a caller can now observe mid-change, and confirm no intermediate arrangement is reachable through the interface.
 
 ## Success Check
-- No operation's contract requires a fact the caller obtained from a previous call.
-- No surviving operation reports a fact about the collection's contents without also acting on them. Any query kept is documented as advisory and unusable as a precondition, and the reason it survived is stated.
-- The case that was formerly a precondition is now an ordinary return value.
+- No operation's contract requires a fact the caller obtained from a previous call, and no precondition was retired by redefining it as defined behaviour. The test is that the step-2 interleaving becomes inexpressible, not that it becomes legal.
+- No surviving operation reports a value that another operation's correctness could depend on without also acting on the collection. A `snapshot()` returning an owned copy of the contents under one lock is not such an operation and needs no excuse; a `size()` a caller could branch on is, and any such query kept is documented as advisory and unusable as a precondition, with the reason it survived stated.
+- The case that was formerly a precondition is now an ordinary return value that reaches the caller and distinguishes the kinds of absence it can mean — or the operation blocks instead, and the wait has an exit other than the arrival it waits for. Either way, what happens if handing the value back fails is answered.
 - The failing interleaving from step 2 can no longer be constructed against the new interface.
 
 ## Common Failures

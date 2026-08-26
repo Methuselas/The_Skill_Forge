@@ -40,7 +40,7 @@ Take a shared structure whose operations are not each wrapped in a single critic
 Locating the instant an operation takes effect, separately for each outcome, and recognizing an operation that has none.
 
 ## Setup
-No special setup required.
+Fix the subject before counting anything, because the size of the answer is a property of the interface you chose rather than of the work you did. Work on a two-lock queue offering `push`, `pop`, `size`, `empty`, and `peek`. The read-only and incidental operations are in scope and are where the interesting findings are; a lean interface makes the drill smaller without making it easier. Count one path per distinct outcome, not one per operation.
 
 ## Instructions
 1. List every operation the structure offers, including the ones that only read.
@@ -51,14 +51,16 @@ No special setup required.
 6. For each read-only operation, say at which step the value it reports was true.
 
 ## Success Check
-- Every operation has at least one committing step written down, and operations with several outcomes have one per outcome.
-- Each step is named as a specific line or operation, and no step named is the operation's return.
-- For at least one mutating path, a candidate step is written down and rejected, along with the observation that disqualified it — what an observer sees between that step and the real commit.
+- Every path is accounted for, with a committing step or a defect. An operation whose every path is defective is a result rather than an omission. Where one step is given for more than one path, the observation showing that it commits each of them is written down.
+- Each step is named as a specific line or operation, and no step named is the moment the caller receives the value. A commit whose source line happens to read `return count_.load();` is correct; a step chosen because it is where the returned value came from is not.
+- For at least one mutating path, a candidate step is written down and rejected, along with the observation that disqualified it — what an observer sees between that step and the real commit. The rejected candidate must be one a reviewer would actually propose; rejecting the allocation or the argument check satisfies the letter and demonstrates nothing.
 - Any path lacking a single step is identified as a design defect rather than left blank.
+- The run ends in a verdict: whether the structure is linearizable, and for at least one path, the observer call and the window that prove it — or the demonstration that no such window exists.
 
 ## Common Failures
 - Giving one answer per operation and missing the empty or not-found path, which is where the interesting defects live.
 - Naming the operation's return rather than its commit, when the effect was already visible several steps earlier.
+- Naming the step the reported value was read at rather than the step at which that value was true, which is the read-only twin of the same error.
 - Skipping the read-only operations on the grounds that they change nothing, which is exactly where a missing instant hides.
 - Accepting a region — "somewhere inside the lock" — when the lock no longer covers the whole operation.
 

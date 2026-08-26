@@ -40,22 +40,24 @@ Take a routine that reads several locations, reads them again, and accepts the r
 Distinguishing unchanged from changed-back when validating an optimistic read.
 
 ## Setup
-No special setup required.
+Work on a stated artifact: a state object holding several separately-written locations — a bank of per-worker counters and a summary record — read by a collector that sweeps all of them twice; and, elsewhere in the same design, one conditional update that compares a value to decide whether to commit. Steps 1 through 5 work on the collector, step 6 on the conditional update.
+
+Three quantities decide every number below, and none of them is craft — they are measurements about a target machine. Declare each before step 3 and say where it came from: the write rate per location, because wrap is a function of writes elapsed rather than time elapsed; the bound on how long a participant may be delayed between its two passes, which differs by two orders of magnitude between a scheduling quantum and a page-fault storm; and whether one value fits in a single atomic word.
 
 ## Instructions
-1. Construct a schedule in which the values match across both passes and the collected view never existed. A location written and written back between the passes is the shortest one; a location written twice to the same value is another.
-2. Add a counter to each location that advances on every write, and change the validation to compare counters rather than values.
-3. Decide how wide that counter must be, in terms of the longest interval any participant could be delayed between its two passes. State the assumption rather than picking a size.
-4. Handle a write that takes several steps: advance the counter before starting and again after finishing, and treat a pass that observes the in-progress state as a failed pass.
-5. Decide what a collector does when it keeps failing — a bounded number of attempts, then a fallback or a report that no consistent view was available.
-6. Apply the same reasoning to a conditional update elsewhere in the design, where a recycled address makes an unchanged comparison a lie.
+1. Construct a schedule in which the values match across both passes and the collected view never existed. The writes must be interleaved into the collector's reads: change a location the collector has already read in pass 1 and restore it before pass 2 reaches it, while changing a second location pass 1 has not yet reached. A schedule whose writes all land in the gap between the two passes falsifies nothing — pass 1 collected during a quiet interval, so its view did hold and is merely stale, which is exactly what a double collect promises.
+2. Add a counter to each location that advances when the location is written, and change the validation to compare counters rather than values. How far it advances per write is settled in step 4; carry that number back into step 3 rather than assuming one.
+3. Decide how wide that counter must be. The width follows from the three declared numbers — write rate per location, the delay bound between a participant's two passes, and the per-write increment from step 4 — and the derivation is writes-elapsed arithmetic, not a judgement about size.
+4. Decide first whether one value exceeds a single atomic word. If it does, a write takes several steps: advance the counter before starting and again after finishing, and treat a pass that observes the in-progress state as a failed pass. If every location is one naturally-atomic word, say so and say why a partly-completed write cannot be observed here.
+5. Decide what a collector does when it keeps failing — a bounded number of attempts, then a fallback or a report that no consistent view was available. Returning the unvalidated view after the last attempt is not a defined outcome; it is the original bug with a retry count in front of it.
+6. Apply the same reasoning to the conditional update, where a recycled address makes an unchanged comparison a lie.
 
 ## Success Check
-- The schedule from step 1 is now rejected by the validation.
-- The counter's width is derived from a stated bound on how long a participant may be delayed between its two passes, and the derivation is shown. A width that would wrap inside that bound is named and rejected.
-- What happens when no such bound exists — a paused process, a stopped debugger — is stated, and the answer is not a wider counter.
-- A partly-completed write is detectable rather than collectable.
-- Repeated failure has a defined outcome that is not an unbounded retry.
+- The schedule from step 1 is rejected by the validation, and a schedule whose writes all fall in the gap between the passes is accepted — a validator that reports no consistent view every time has not been distinguished from one that works. If the remedy taken was instead to restructure the several locations into one immutable object behind a single atomic handle, this bullet is met by showing that the step-1 schedule cannot be expressed against that design at all; that is the stronger answer, not an omission.
+- The counter's width is derived from the declared delay bound and write rate, and the derivation is shown. A width that would wrap inside that bound is named and rejected — or, where the correct width is a single alternating bit and no smaller width exists to reject, that impossibility is argued.
+- What happens when no such bound exists — a paused process, a stopped debugger — is stated, and the answer is a named mechanism rather than a wider counter. Observing that no fixed width is safe restates the premise and does not satisfy this.
+- A partly-completed write is detectable rather than collectable — or every location is a single atomic word and the case is shown not to arise.
+- Repeated failure has a defined outcome that is neither an unbounded retry nor a return of the unvalidated view — or the collector cannot fail repeatedly by construction, and that is argued.
 
 ## Common Failures
 - Comparing values because it needs no extra storage and passes every test where values happen not to repeat.

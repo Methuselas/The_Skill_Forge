@@ -50,7 +50,7 @@ Take a computation that currently runs as one sequential algorithm and produce a
 
 **Entry state.** You have a working sequential algorithm, or a specification precise enough to derive one, and you have already decided the computation is worth parallelizing at all — that decision belongs to `PAT_decide_if_the_problem_is_worth_parallelizing` and is not repeated here. You also need to know, at least roughly, how many execution units the result will run on, because three of the four steps below are stated relative to that number.
 
-**1. Split as finely as the algorithm allows.** Choose the axis first — `PAT_find_the_axis_the_parallelism_lies_along` owns that choice — then cut along it as far as it will go, without regard for how many processors exist. Aim for one to two orders of magnitude more pieces than execution units.
+**1. Split as finely as the algorithm allows.** Choose the axis first — `PAT_find_the_axis_the_parallelism_lies_along` owns that choice — then cut along it as far as it will go, without regard for how many processors exist. The piece count is a floor, not a target: it must exceed the execution units by at least an order of magnitude, and on a large problem a maximal split will exceed them by far more than that. A count that lands close to the unit count means the split was made to the machine.
 
 *This is the step most often done wrongly, and the error is always the same: partitioning into as many pieces as there are processors.* Doing that fixes the granularity before you know what the pieces need from each other, and every later decision then has to live with it. Over-splitting costs nothing at this stage because nothing has been committed to yet — the pieces are a description, not a design.
 
@@ -62,7 +62,7 @@ Derive it from data dependencies rather than from the order the sequential code 
 
 *Gate.* If nothing crosses between any pieces, the remaining steps are trivial and you should say so — this is the case where the work divides cleanly and never communicates, and it deserves the simplest possible treatment rather than this procedure.
 
-**3. Merge pieces back together against that graph.** Group pieces so that expensive dependencies fall *inside* a group and disappear. Aim for about one order of magnitude more groups than execution units — still more than you need, so the mapping step retains freedom.
+**3. Merge pieces back together against that graph.** Group pieces so that expensive dependencies fall *inside* a group and disappear. Aim for one to two orders of magnitude more groups than execution units — still more than you need, so the mapping step retains freedom.
 
 Two properties are in tension here and both matter. Groups should be equal in the *work* they represent, because the slowest group sets the finish time — `PAT_decide_if_the_problem_is_worth_parallelizing` carries why imbalance behaves like a serial fraction. And groups should be drawn so the boundaries cut the cheapest dependencies. When those conflict, measure rather than argue: which one binds depends on the ratio of communication cost to computation cost, and that ratio is a property of the platform.
 
