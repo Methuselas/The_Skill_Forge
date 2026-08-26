@@ -43,6 +43,13 @@ variants:
     when_to_use: Continuous work on one poem has become repetitive, protective, or too familiar for consequential revision decisions.
     when_not_to_use: A deadline requires one near-finished poem to close, or switching projects repeatedly is serving avoidance rather than useful distance.
     absorbed_from_object_id: none
+  - variant_id: writing_poetry_variant_cull_by_quality_and_manuscript_fit_separately
+    variant_name: Cull by Standalone Quality and Manuscript Fit Separately
+    variant_basis: method_sequence
+    difference_from_foundation: Judge each poem first for its own achieved language and movement, then make a separate keep-or-release decision based on the needs, repetitions, contrasts, and governing pressure of one proposed manuscript.
+    when_to_use: A group is being shaped for a sequence, reading set, pamphlet, or collection and strong individual poems may compete with or distract from the whole.
+    when_not_to_use: The practice goal is only to identify promising individual drafts, or no bounded manuscript is yet being assembled.
+    absorbed_from_object_id: none
 ---
 
 # Write, Cull, and Rework Poems to Train Judgment
@@ -79,3 +86,5 @@ Choose a repeatable span such as several sessions or one week. Prepare a differe
 Sustained production trains two linked abilities: making poems and recognizing which ones merit more work. Discarding weak drafts is not a verdict on the practice; it protects revision time for the poems most capable of becoming stronger. `writing_poetry_variant_sample_invention_families_before_selection` precedes the ordinary cycle with brief starts drawn from unlike sources of pressure—language, form, source response, role, setting, or tonal opposition—because no single prompt works reliably for every writer or every session. Use the variant to locate live material, then return to complete drafting and delayed selection rather than treating prompt sampling as the finished practice.
 
 `writing_poetry_variant_rotate_several_poems_through_revision` turns distance into an active working sequence. Keep a small set of viable drafts available, leave a poem when attention has narrowed to reversible fiddling, and advance another before returning to the first with a named structural or language question. Rotation is useful only when each return produces a decision; cap the set or close the nearest-finished poem when switching becomes a way to avoid completion.
+
+`writing_poetry_variant_cull_by_quality_and_manuscript_fit_separately` prevents two different judgments from collapsing into one. Mark standalone quality before considering the proposed group, then ask what each viable poem contributes that its neighbours do not: a necessary theme recurrence, a tonal counterweight, a transition, a scale change, or a structural peak. A strong poem can be withheld without being downgraded, and a merely adequate poem does not earn inclusion just because its subject matches.

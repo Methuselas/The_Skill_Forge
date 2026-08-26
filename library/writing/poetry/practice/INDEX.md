@@ -4,8 +4,13 @@
 
 ## Objects
 
+- [Audit a Poetry Corpus for Recurring Subjects and Concerns](DRILL_audit_a_poetry_corpus_for_recurring_subjects_and_concerns.md) - drill; 0 design. Tags: close_reading, corpus, deliberate_practice, poetry, theme.
+- [Audition Competing Orders for a Small Poetry Manuscript](DRILL_audition_competing_orders_for_a_small_poetry_manuscript.md) - drill; 4 final. Tags: deliberate_practice, manuscript, ordering, poetry, selection.
 - [Draft from Random Concrete Words](DRILL_draft_from_random_concrete_words.md) - drill; 1 skeleton. Tags: constraint, diction, imagery, invention, poetry.
+- [Make Poems Interdependent in a Sequence](PAT_make_poems_interdependent_in_a_sequence.md) - pattern; 3 rough. Tags: ordering, poetry, sequence, thematic_structure, transition.
 - [Redraft One Poem Under Competing Titles](DRILL_redraft_one_poem_under_competing_titles.md) - drill; 3 rough. Tags: deliberate_practice, poetry, reader_expectation, revision, titles.
 - [Reverse a Deliberately Bad Poem](DRILL_reverse_a_deliberately_bad_poem.md) - drill; 3 rough. Tags: cliche, diagnosis, poetry, revision, specificity.
+- [Select and Order a Coherent Poetry Manuscript](AP_select_and_order_a_coherent_poetry_manuscript.md) - ap; 4 final. Tags: collection, manuscript, ordering, poetry, selection.
+- [Split an Overfilled Subject into an Interdependent Sequence](DRILL_split_an_overfilled_subject_into_an_interdependent_sequence.md) - drill; 2 block. Tags: deliberate_practice, poetry, sequence, structure, subject.
 - [Write, Cull, and Rework Poems to Train Judgment](DRILL_write_cull_and_rework_poems_to_train_judgment.md) - drill; 3 rough. Tags: deliberate_practice, poetry, revision, selection.
-  - Variants: `Sample Invention Families Before Selection` (method_sequence); `Rotate Several Poems Through Drafting and Revision` (method_sequence).
+  - Variants: `Sample Invention Families Before Selection` (method_sequence); `Rotate Several Poems Through Drafting and Revision` (method_sequence); `Cull by Standalone Quality and Manuscript Fit Separately` (method_sequence).

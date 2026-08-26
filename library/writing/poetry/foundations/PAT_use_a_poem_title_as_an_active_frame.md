@@ -26,7 +26,14 @@ reference:
   author: Linda Anderson
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_poetry_variant_title_sequence_or_collection_as_active_frame
+    variant_name: Title a Sequence or Collection as an Active Frame
+    variant_basis: context
+    difference_from_foundation: Audition one frame across a group of poems, testing what it makes the reader expect from the opening, notice in recurrences and gaps, and reconsider after the closing piece.
+    when_to_use: A bounded poetry group needs a title that concentrates its governing relation without reducing every poem to the same stated theme.
+    when_not_to_use: The poems do not yet form a defensible group, or the candidate title promises a unity that selection and order do not deliver.
+    absorbed_from_object_id: none
 ---
 
 # Use a Poem Title as an Active Frame
@@ -58,3 +65,5 @@ variants: []
 
 ## Notes
 A title operates twice: first as an instruction for entering the poem, then as language the reader mentally revisits after the poem has changed its context. That double action makes titling part of composition. A direct label can concentrate attention, while an image, phrase, relation, or oblique frame can generate productive uncertainty; none is inherently superior. The test is whether the frame changes how the poem can be written and read without promising a different work.
+
+`writing_poetry_variant_title_sequence_or_collection_as_active_frame` applies that double action across several poems. Test each candidate against the first and last pieces, the intervals between thematic recurrences, and any poem that productively resists the dominant pressure. Keep the frame only when it helps readers perceive relations while leaving individual poems room to complicate it. Verify attribution and reuse conditions before retaining borrowed language as a group title or epigraph.
