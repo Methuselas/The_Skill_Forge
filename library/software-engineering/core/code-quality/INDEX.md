@@ -25,6 +25,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 ## Objects
 
 - [Apply a New Standard Forward, Not Retroactively](PAT_enforce_a_new_rule_only_on_new_code.md) - pattern; 4 final. Tags: automation, code_quality, deprecation, maintenance, migration.
+- [Choose a Complexity Metric by What It Cannot See](PAT_choose_a_complexity_metric_by_what_it_cannot_see.md) - pattern; 0 design. Tags: code_quality, complexity, measurement, metrics.
 - [Choose the Proper Build Over the Hacky Shortcut](PAT_invest_in_quality_over_hacky_shortcut.md) - pattern; 0 design. Tags: code_quality, engineering_judgment, maintainability, technical_debt.
 - [Concentrate Effort Where Defects Concentrate](PAT_concentrate_effort_where_defects_concentrate.md) - pattern; 4 final. Tags: defects, maintenance, quality, rework.
   - Variants: `Rank by How Often a File Changes` (method_sequence).

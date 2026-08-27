@@ -59,6 +59,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Model the Design Before There Is Code to Measure](PAT_model_the_design_before_there_is_code_to_measure.md) - pattern; 0 design. Tags: benchmarking, design, estimation, measurement, performance.
 - [Name the Binding Constraint Before Choosing a Remedy](PAT_name_the_binding_constraint_before_choosing_a_remedy.md) - pattern; 4 final. Tags: diagnosis, hardware, measurement, performance, tuning.
 - [Name the Metric Before You Call It Fast](PAT_name_the_performance_metric_before_you_optimize.md) - pattern; 0 design. Tags: measurement, metrics, performance, requirements, trade_offs.
+  - Variants: `Baseline a Metric a Successful Change Will Not Make Visible` (context).
 - [Name the Reuse Order Before Choosing a Pool Strategy](PAT_name_the_allocation_pattern_before_choosing_a_strategy.md) - pattern; 0 design. Tags: allocation, caching, performance, pooling, workload_characterization.
 - [Optimize for What the Compiler Can Prove](PAT_optimize_for_what_the_compiler_can_prove.md) - pattern; 4 final. Tags: compilers, design, optimization, performance, tuning.
 - [Read a Profile as a Statement About Machine Code](PAT_read_a_profile_as_a_statement_about_machine_code.md) - pattern; 4 final. Tags: compilers, diagnosis, measurement, performance, profiling.
