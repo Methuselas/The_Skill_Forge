@@ -44,7 +44,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Algorithms](algorithms/INDEX.md) - 9 object(s).
+- [Algorithms](algorithms/INDEX.md) - 10 object(s).
 - [Casting](casting/INDEX.md) - 3 object(s).
 - [Compilation Dependencies](compilation-dependencies/INDEX.md) - 2 object(s).
 - [Concurrency](concurrency/INDEX.md) - 22 object(s).
