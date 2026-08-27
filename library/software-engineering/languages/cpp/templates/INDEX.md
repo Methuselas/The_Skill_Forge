@@ -14,6 +14,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Access Templatized Base Class Members Explicitly](PAT_access_templatized_base_members_explicitly.md) - pattern; 3 rough. Tags: cpp, inheritance, name_lookup, templates.
 - [Choose Compile-Time or Runtime Variation](PAT_choose_compile_time_or_runtime_variation.md) - pattern; 0 design. Tags: abi, class_design, cpp, polymorphism, templates.
 - [Choose Scattered or Chained Generation From a Type List](PAT_choose_scattered_or_chained_generation.md) - pattern; 0 design. Tags: code_generation, cpp, inheritance, object_layout, templates.
+- [Constrain a Template So the Error Lands at the Call](PAT_constrain_a_template_so_the_error_lands_at_the_call.md) - pattern; 0 design. Tags: concepts, cpp, interface_design, templates.
 - [Declare Type-Converting Template Operators as Friends Inside the Class](PAT_declare_template_converting_operators_as_friends.md) - pattern; 2 block. Tags: cpp, operators, templates, type_conversion.
 - [Factor Parameter-Independent Code Out of Templates](PAT_factor_parameter_independent_code_from_templates.md) - pattern; 3 rough. Tags: code_bloat, cpp, efficiency, templates.
 - [Fix Access to a Name in a Templatized Base Class](DRILL_fix_templatized_base_class_name_access.md) - drill; 3 rough. Tags: cpp, inheritance, name_lookup, templates.

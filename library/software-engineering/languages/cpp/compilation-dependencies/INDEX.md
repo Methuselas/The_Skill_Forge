@@ -6,3 +6,4 @@
 
 - [Convert a Class to the Pimpl Idiom](DRILL_convert_a_class_to_the_pimpl_idiom.md) - drill; 2 block. Tags: compilation_dependencies, cpp, pimpl, refactoring.
 - [Minimize Compilation Dependencies with Handle or Interface Classes](PAT_minimize_compilation_dependencies.md) - pattern; 2 block. Tags: compilation_dependencies, cpp, encapsulation, pimpl.
+  - Variants: `Publish a Module Interface Instead of a Header` (method_sequence).

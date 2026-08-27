@@ -39,6 +39,7 @@ variants: []
 - Identify the valid expressions a template requires of a parameter — a size() call, an operator!= comparison, copy construction — and treat that expression set as the interface the type must satisfy.
 - Rely on compile-time polymorphism: which functions run is settled during instantiation and overload resolution, not at runtime.
 - Allow for operator overloading and implicit conversions when judging validity; a return value need only support the expression it appears in, possibly after a conversion.
+- Write the expression set down as a constraint once you have identified it, rather than leaving it implicit. Reasoning about the interface is the skill; leaving it unstated is a separate choice with a cost, because an unstated interface is checked only by instantiation and only when instantiation fails — which it does not do for an argument that satisfies every expression while meaning something entirely different. See `PAT_constrain_a_template_so_the_error_lands_at_the_call`.
 
 ## Don't
 - Don't assume a parameter needs an exact signature, such as an integral-returning size() or a specific operator>; it only needs expressions that compile, which is looser than an explicit interface.

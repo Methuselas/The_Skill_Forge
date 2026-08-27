@@ -33,7 +33,8 @@ variants: []
 
 ## Pattern Rule
 **IF** an operator or function must allow implicit type conversion on every argument, including the left operand — as in mixed-mode arithmetic like `2 * oneHalf`
-**THEN** make it a non-member function, because the implicit receiver argument of a member function is never eligible for implicit conversion.
+**THEN** make it a non-member function, because the implicit receiver argument of a member function is never eligible for implicit conversion
+**ELSE** for the relational comparisons, a member three-way comparison operator is sufficient: the compiler synthesizes the reversed form, which moves the convertible operand out of the receiver position where it could not be converted.
 
 ## Do
 - Implement the operator as a non-member taking all operands as parameters, so the compiler may convert any of them (turning the int 2 into a Rational).
@@ -41,6 +42,7 @@ variants: []
 
 ## Don't
 - Don't leave such an operator a member: `oneHalf * 2` compiles but `2 * oneHalf` does not, because the receiver — the int 2 — cannot be converted to the class type.
+- Don't extend the rule to the comparison operators without checking. It was written when nothing related the comparison spellings to each other, so each one needed the non-member treatment on its own. A member three-way comparison operator now covers mixed-mode comparison by itself, and writing non-member comparisons to obtain an effect the language already provides adds a maintenance surface for nothing. The arithmetic case is unaffected — no rewriting exists for it, and the rule above stands unchanged. See `PAT_define_one_three_way_comparison_and_let_the_language_derive_the_rest`.
 
 ## Checklist
 - Does this operator need conversions on the left operand as well as the right?

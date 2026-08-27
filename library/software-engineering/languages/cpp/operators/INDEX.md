@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Define One Three-Way Comparison and Let the Language Derive the Rest](PAT_define_one_three_way_comparison_and_let_the_language_derive_the_rest.md) - pattern; 2 block. Tags: class_design, comparison, cpp, operators.
 - [Don't Redefine a Standard Comparison to Mean Something Else](PAT_dont_redefine_a_standard_comparison_to_mean_something_else.md) - pattern; 2 block. Tags: api_design, avoiding_surprises, comparison, cpp, operators.
 - [Implement Postfix Increment in Terms of Prefix](PAT_implement_postfix_increment_in_terms_of_prefix.md) - pattern; 2 block. Tags: class_design, consistency, cpp, operators.
 - [Implement the Standalone Operator From Its Compound Assignment](PAT_implement_the_standalone_operator_from_the_compound.md) - pattern; 2 block. Tags: class_design, consistency, cpp, efficiency, operators.
