@@ -30,7 +30,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_open_through_an_acknowledged_memory_gap
+    variant_name: Open through an Acknowledged Memory Gap
+    variant_basis: constraint
+    difference_from_foundation: Begin from an exact event, circumstance, or fact the narrator cannot directly remember or establish, state what is known and how, and make the bounded absence part of the work's live inquiry and reader promise.
+    when_to_use: A life-writing project begins near birth, childhood, family history, or another consequential interval available only through reports, records, inference, or irrecoverable absence.
+    when_not_to_use: The missing information is readily checkable but has not been researched, does not affect the inquiry, or is withheld merely to manufacture mystery.
+    absorbed_from_object_id: none
 ---
 
 # Open with a Specific Question or Pressure
@@ -63,3 +70,5 @@ variants: []
 
 ## Notes
 Immediate interest does not require spectacle. An ordinary detail becomes compelling when its exactness exposes an unresolved relation or contradiction. The useful opening is therefore both invitation and structural promise: it creates forward pressure that the rest of the work actually develops.
+
+`writing_creative_nonfiction_variant_open_through_an_acknowledged_memory_gap` makes an evidentiary limit into an honest entrance. Identify the missing fact or inaccessible experience precisely, distinguish what records or other people report from what the narrator knows directly, and let the consequences of not knowing activate the larger inquiry. Acknowledgment is not a refusal to research or an ornamental confession: the gap earns the opening only when the work continues to examine what that absence changes.

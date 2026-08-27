@@ -55,6 +55,7 @@ variants:
 ## Do
 - Ask what the remembering self would prefer to have happened and whether that preference has cleaned up motive, conduct, dialogue, or consequence.
 - Compare the account with diaries, messages, photographs, records, physical facts, or other participants' memories when those are available and consequential.
+- Classify consequential material as direct memory, another person's report, inference, unconscious impression, reconstruction, or invention; preserve that status when turning notes into fluent prose.
 - Separate a distinctly remembered remark from dialogue rebuilt only to convey the substance of an exchange.
 - Use direct quotation selectively when wording is supportable; otherwise shift to paraphrase or summary before invented precision becomes part of the scene.
 - Identify whether a scene happened once, recurred in similar forms, or combines material from several occasions, then make that status legible where it affects trust.
@@ -65,6 +66,7 @@ variants:
 - Assume every remembered detail is equally dependable because the central event certainly occurred.
 - Convert emotional truth into exact invented actions or quotations and present them without qualification.
 - Dismiss another participant's conflicting memory merely because the essay centers the writer's viewpoint.
+- Treat a family story, repeated account, dream, bodily impression, or image arising from the unconscious as recovered factual memory without independent support.
 - Hedge so broadly that readers cannot tell what the writer believes occurred.
 
 ## Checklist
@@ -73,6 +75,7 @@ variants:
 - Repeated, composite, and reconstructed material is not presented as one verbatim occasion without a responsible signal.
 - Readers can distinguish exact remembered or recorded words from the narrator's rendering of their substance.
 - Conflicting accounts are acknowledged when they materially change interpretation.
+- Report, inference, reconstruction, and unconscious impression remain distinguishable from direct recollection and verified fact.
 - The narrator's subjectivity remains visible without becoming a license to fabricate.
 
 ## Notes

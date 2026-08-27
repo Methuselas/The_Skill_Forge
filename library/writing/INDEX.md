@@ -13,7 +13,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - [Career Documents](career-documents/INDEX.md) - 51 object(s).
 - [College Admission Essays](college-admission-essays/INDEX.md) - 6 object(s).
-- [Creative Nonfiction](creative-nonfiction/INDEX.md) - 20 object(s).
+- [Creative Nonfiction](creative-nonfiction/INDEX.md) - 23 object(s).
 - [Fiction](fiction/INDEX.md) - 65 object(s).
 - [Foundations](foundations/INDEX.md) - 34 object(s).
 - [Poetry](poetry/INDEX.md) - 62 object(s).

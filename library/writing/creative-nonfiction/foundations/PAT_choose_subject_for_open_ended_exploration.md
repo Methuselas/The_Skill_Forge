@@ -36,6 +36,13 @@ variants:
     when_to_use: A consequential subject has been flattened by attention to major players and enough evidence exists to recover a more complete perspective.
     when_not_to_use: The angle depends on inventing missing evidence, treats marginality as novelty, or cannot connect the smaller account to a genuine inquiry.
     absorbed_from_object_id: none
+  - variant_id: writing_creative_nonfiction_variant_revisit_multiple_motives_during_life_writing
+    variant_name: Revisit Multiple Motives During Life Writing
+    variant_basis: context
+    difference_from_foundation: Name the personal, investigative, corrective, memorial, expressive, commercial, and reader-facing motives currently acting on a life-writing project, then revisit them as drafting reveals conflicts or a more accurate purpose.
+    when_to_use: Autobiographical or biographical material offers many possible events and forms, and the writer needs a revisable basis for deciding what to investigate, include, emphasize, or withhold.
+    when_not_to_use: The named motive would be used as a fixed thesis that prevents discovery, a moral purity test, or a substitute for evidentiary and ethical review.
+    absorbed_from_object_id: none
 ---
 
 # Choose a Subject for Open-Ended Exploration
@@ -68,3 +75,5 @@ variants:
 An essay is an attempt: it can test, speculate, backtrack, and revise its thinking in public. That flexibility does not remove design; it changes design from proof of a fixed thesis into a shaped record of inquiry. A modest subject may support substantial discovery when examined closely, while a grand assigned topic can remain inert when the writer has no live question inside it.
 
 `writing_creative_nonfiction_variant_investigate_overlooked_event_or_life` directs that curiosity toward the portion omitted by an official or dominant account. Research the neglected event or participant rather than inventing the missing life, and use the recovered evidence to test what the larger story hid or simplified. The route is useful when marginal detail changes understanding, not when obscurity alone is treated as importance.
+
+`writing_creative_nonfiction_variant_revisit_multiple_motives_during_life_writing` treats purpose as a working source of selection rather than a declaration that must remain pure or singular. A project may preserve a life, question an inherited account, explore the writer's state of mind, answer another narrative, or seek readers and income at the same time. State the current motives, identify where they compete, and test whether the draft's actual choices and reader promise still agree with them. Revise the account of purpose when composition discovers a more accurate reason for continuing.

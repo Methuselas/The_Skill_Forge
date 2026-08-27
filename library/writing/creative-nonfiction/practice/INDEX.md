@@ -4,4 +4,7 @@
 
 ## Objects
 
+- [Audit Life-Writing Motives and Reader Promises](DRILL_audit_life_writing_motives_and_reader_promises.md) - drill; 0 design. Tags: creative_nonfiction, life_writing, motive, reader_promise, selection.
+- [Contrast Informative and Consequence-Driven Life Portraits](DRILL_contrast_informative_and_consequence_driven_life_portraits.md) - drill; 2 block. Tags: biography, consequence, creative_nonfiction, information, portrait.
+- [Draft a Life-Writing Opening from an Unremembered Event](DRILL_draft_a_life_writing_opening_from_an_unremembered_event.md) - drill; 2 block. Tags: creative_nonfiction, life_writing, memory_gap, opening, reconstruction.
 - [Translate a Graphic Sequence into Lean Prose](DRILL_translate_graphic_sequence_into_lean_prose.md) - drill; 1 skeleton. Tags: compression, creative_nonfiction, graphic_essay, imagery, practice.

@@ -14,4 +14,5 @@
 - [End at a Resonant Turn or Deepening](PAT_end_at_resonant_turn_or_deepening.md) - pattern; 3 rough. Tags: creative_nonfiction, ending, resonance, revision, turn.
 - [Move across Time with Concrete Summary and Brief Scenes](PAT_move_across_time_with_concrete_summary_and_brief_scenes.md) - pattern; 2 block. Tags: compression, creative_nonfiction, pacing, scene_summary, time.
 - [Open with a Specific Question or Pressure](PAT_open_with_specific_question_or_pressure.md) - pattern; 2 block. Tags: creative_nonfiction, curiosity, opening, reader_orientation, specificity.
+  - Variants: `Open through an Acknowledged Memory Gap` (constraint).
 - [Organize a Short Essay from Discovered Material](AP_organize_short_essay_from_discovered_material.md) - ap; 2 block. Tags: creative_nonfiction, organization, revision, short_essay, structure.
