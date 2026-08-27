@@ -62,7 +62,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Inlining](inlining/INDEX.md) - 1 object(s).
 - [Interface Design](interface-design/INDEX.md) - 4 object(s).
 - [Iterators](iterators/INDEX.md) - 4 object(s).
-- [Lambdas](lambdas/INDEX.md) - 2 object(s).
+- [Lambdas](lambdas/INDEX.md) - 3 object(s).
 - [Language Interop](language-interop/INDEX.md) - 1 object(s).
 - [Memory Management](memory-management/INDEX.md) - 13 object(s).
 - [Metaprogramming](metaprogramming/INDEX.md) - 1 object(s).

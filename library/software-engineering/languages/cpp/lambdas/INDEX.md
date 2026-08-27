@@ -4,5 +4,6 @@
 
 ## Objects
 
+- [Choose a Callable's Storage by Whether It Must Carry Context](PAT_choose_a_callables_storage_by_whether_it_must_carry_context.md) - pattern; 0 design. Tags: callables, cpp, interface_design, lambdas.
 - [Name Every Lambda Capture](PAT_name_every_lambda_capture.md) - pattern; 2 block. Tags: avoiding_surprises, cpp, lambdas, lifetime, move_semantics.
 - [Prefer a Lambda to a Bound Call](PAT_prefer_a_lambda_to_a_bound_call.md) - pattern; 3 rough. Tags: cpp, lambdas, overloading, performance, readability.
