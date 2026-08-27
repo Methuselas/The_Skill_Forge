@@ -39,6 +39,20 @@ variants:
   when_not_to_use: Do not rotate products away from the viewpoint that best communicates the design merely to satisfy decorative
     page symmetry.
   absorbed_from_object_id: none
+- variant_id: VAR_mattesi_mass_crowd_as_one_directional_entity_before_individuals
+  variant_name: Mass a Crowd as One Directional Entity Before Individuals
+  variant_basis: method_sequence
+  difference_from_foundation: Starts a crowd by reading and designing the group as one large directional mass with an overall shape, dominant bias, and focal story point before subdividing that mass into individual people whose varied poses, spacing, and actions remain subordinate to the larger route.
+  when_to_use: Use when a crowd or busy group scene contains many figures and solving each person separately risks producing visual noise, equal emphasis, or no picture-wide directional flow.
+  when_not_to_use: Do not erase individual differences that matter to the scene, force every member into the same pose or speed, or preserve a crowd-level flow when the story intentionally requires several independent competing groups.
+  absorbed_from_object_id: none
+- variant_id: VAR_whitaker_prioritize_animated_group_motion_by_story_focus_and_depth
+  variant_name: Prioritize Animated Group Motion By Story Focus And Depth
+  variant_basis: context
+  difference_from_foundation: Extends picture-level group hierarchy into time by assigning the strongest and most customized motion to the story focus while reducing, offsetting, or simplifying supporting and distant motion so the group stays alive without competing for attention.
+  when_to_use: Use when multiple animated characters or a crowd share one shot and simultaneous movement risks splitting attention, exposing synchronized cycles, or making background action as important as the focal performance.
+  when_not_to_use: Do not suppress motion that carries an essential secondary story beat, and do not break exact unison when disciplined synchronized movement is the intended effect.
+  absorbed_from_object_id: none
 ---
 
 # Route Group Composition Through Directional Paths and Accents
@@ -71,3 +85,9 @@ variants:
 Hultgren's final chapter moves line-of-action thinking from the individual animal to the entire picture. His horse layouts use a foreground foreleg as a vertical that both stabilizes the group and leads into three heads, then use another foreleg as a diagonal toward a rear head accent. His deer layout carries action across separate animals, turns the mother's head toward the fawn, and gives the fawn a secondary motion path. In the draft-horse scene, even the grooves of the earth participate by running downhill against the up-angle of the foreground horse. The portable lesson is not that every image must contain a fixed inventory of vertical, horizontal, and diagonal lines; it is that direction, repetition, opposition, and accent should be coordinated at picture scale so separate subjects behave as one composition.
 
 `VAR_olofsson_balance_product_sheet_with_active_face_directions` treats each product's active face as an arrow in the page composition. Avoid accidental exits at the edge and avoid making every object aim at one rigid center; vary facing, size, and perspective so the group circulates attention while each view still serves its information job.
+
+`VAR_mattesi_mass_crowd_as_one_directional_entity_before_individuals` makes crowd staging explicitly whole-to-part. First establish the crowd's overall mass, directional bias, and focal event, then use heads, backs, props, tables, spacing, and other broad vectors to carry attention through that mass. Only after the crowd reads as one organized entity should it be broken into individuals; vary their posture, pace, spacing, and actions enough to keep the group alive without losing the larger directional hierarchy.
+
+- When several independent directional cues can support one focal point, align them deliberately so group orientation, gaze, body direction, and environmental vectors reinforce rather than compete.
+
+`VAR_whitaker_prioritize_animated_group_motion_by_story_focus_and_depth` adds temporal hierarchy to group design. Let the focal performer carry the clearest motion; keep supporting figures responsive but quieter, reduce distant/background movement, and vary crowd phase, speed, cycle, or selected actions enough to avoid accidental synchronized motion. Foreground figures that are easy to inspect deserve more individualized performance than distant crowd members.

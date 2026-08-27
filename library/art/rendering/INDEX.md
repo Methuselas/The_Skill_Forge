@@ -13,8 +13,10 @@
 - [Choose Rendering Technique From Visual Intent, Subject, and Constraints](PAT_choose_rendering_technique_from_visual_intent_subject_and_constraints.md) - pattern; 0 design. Tags: constraints, medium, rendering, technique, visual_intent, workflow.
   - Variants: `Impose Live-Equivalent Constraints When Rendering From Static Reference` (constraint).
 - [Choose Texture Process by Control and Spread](PAT_choose_texture_process_by_control_and_spread.md) - pattern; 4 final. Tags: brushwork, mark_control, surface, texture, wet_on_wet.
+  - Variants: `Tilt Support to Control Gravity-Driven Wash Flow` (medium).
 - [Combine Multiple Colored Lights Additively](PAT_combine_multiple_colored_lights_additively.md) - pattern; 4 final. Tags: additive_color, cast_shadow, colored_light, lighting, rendering.
 - [Compare a Fixed Subject Across Changing Light and Atmosphere](DRILL_compare_fixed_subject_across_changing_light_and_atmosphere.md) - drill; 3 rough. Tags: atmosphere, color, lighting, observation, rendering, serial_study.
+- [Compare Matched Forms Across Material Responses](DRILL_compare_matched_forms_across_material_responses.md) - drill; 4 final. Tags: comparison, diagnostic, material, optical_response, rendering.
 - [Compare the Same Subject Across Medium Behaviors](DRILL_compare_same_subject_across_medium_behaviors.md) - drill; 4 final. Tags: comparison, drawing, mark_making, medium_experiment, rendering.
   - Variants: `Remove the Familiar Tool to Force an Alternate Handling Language` (constraint).
 - [Compare the Same Subject Across Tonal Treatments](DRILL_compare_same_subject_across_tonal_treatments.md) - drill; 4 final. Tags: comparison, edges, interpretation, rendering, tone, treatment.
@@ -24,7 +26,7 @@
 - [Construct a Rainbow From Antisolar Geometry and Additive Light](PAT_construct_rainbow_from_antisolar_geometry_and_additive_light.md) - pattern; 4 final. Tags: additive_light, antisolar, atmosphere, optics, rainbow, rendering.
 - [Construct Foliage From Characteristic Mass, Skeleton, and Value](PAT_construct_foliage_from_characteristic_mass_skeleton_and_value.md) - pattern; 3 rough. Tags: branches, foliage, silhouette, trees, value, vegetation.
 - [Control Color Layering With Transparency, Opacity, and Ground](PAT_control_color_layering_with_transparency_opacity_and_ground.md) - pattern; 4 final. Tags: color, glazing, ground, opacity, rendering, transparency.
-  - Variants: `Resolve Background Gradient Before Intricate Overpainting` (method_sequence); `Preserve Transparent Darks With Selective Opaque Lights` (medium); `Carve Light Forms by Subtracting a Tacky Transparent Wash` (medium).
+  - Variants: `Resolve Background Gradient Before Intricate Overpainting` (method_sequence); `Use Toned Ground as an Active Middle Value for Pastel` (medium); `Reserve Paper White as Light in Transparent Watercolor` (medium); `Preserve Transparent Darks With Selective Opaque Lights` (medium); `Carve Light Forms by Subtracting a Tacky Transparent Wash` (medium); `Define Light Positive Shapes by Darkening Surrounding Negative Washes` (medium).
 - [Control Edge Hardness From Form, Light, and Focus](PAT_control_edge_hardness_from_form_light_and_focus.md) - pattern; 4 final. Tags: edges, focus, form_turn, light_quality, rendering.
   - Variants: `Build Soft First, Then Recover Selected Edges` (method_sequence); `Separate Core and Cast Shadow by Cause` (method_sequence); `Overstate Plane Edges Early, Then Soften to Final Truth` (method_sequence); `Sequence Broad Fields Before Complex Forms for Edge Integration` (method_sequence); `Bracket Edge Hardness With Extreme Reference Boundaries` (method_sequence).
 - [Diagnose and Recover a Failing Observed Rendering](AP_diagnose_and_recover_failing_observed_rendering.md) - ap; 3 rough. Tags: comparison, correction, diagnosis, observation, recovery, rendering.

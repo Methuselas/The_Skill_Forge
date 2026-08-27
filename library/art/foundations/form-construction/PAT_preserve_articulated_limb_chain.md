@@ -80,26 +80,33 @@ variants:
 
 ## Pattern Rule
 **IF** an arm, leg, wing, fin, or invented appendage is being laid onto the framework
-**THEN** establish one uninterrupted chain from its parent socket through every joint to its terminal form, preserving segment identity and mechanically continuous rotation
-**ELSE** redraw the chain before adding volume where overlap makes its path uncertain
+**THEN** establish one uninterrupted typed chain from its declared parent origin through every ordered joint to its declared terminal form, preserving chain identity, endpoint type, and mechanically continuous rotation
+**ELSE** return to the body-plan or structural route and redraw the chain before adding volume where its identity or path is uncertain
 
 ## Do
-- Mark the high rotational attachment, the main bending joint, the tapered wrist or ankle, and the terminal form before contouring the member.
-- Trace each chain through hidden overlaps so a crossing never becomes a new joint or a limb exchange.
-- Carry inward or outward terminal rotation through the forearm or lower leg rather than swiveling only the hand or foot.
+- Resolve the expected chain from explicit design information, authoritative reference, accepted construction, or stable body-plan continuity before judging the rendered limb. A chain's identity comes from the body plan, not from which side of the image it currently occupies.
+- Give every chain one declared parent origin, ordered segment/joint sequence, and endpoint type. Record anatomical or body-plan identity separately from screen location so crossed, inverted, or foreshortened poses cannot exchange labels.
+- Mark the high rotational attachment, the main bending joint, the tapered wrist or ankle where applicable, and the terminal form before contouring the member.
+- Trace each chain through hidden overlaps so a crossing never becomes a new joint, limb exchange, or endpoint substitution. Each endpoint belongs to one chain only.
+- Carry inward or outward terminal rotation through the carrying segment rather than swiveling only the hand, foot, wing tip, or other terminal form.
 
 ## Don't
-- Duplicate a member because an exploratory line was mistaken for a second limb.
-- Let two chains share an elbow or knee at an overlap.
-- Rotate the hand or foot in a direction the carrying segment does not support.
+- Hardcode a human limb count when the established subject has a different number or arrangement of appendages.
+- Infer anatomical side or body-plan identity from screen-left/screen-right position.
+- Duplicate a member because an exploratory line was mistaken for a second limb, or let one chain silently change from arm-like to leg-like identity through an overlap.
+- Let two chains share a joint or terminal member at an overlap.
+- Accept a hand where the established chain requires a foot, a foot where it requires a hand, or any other terminal form whose observed endpoint type disagrees with the declared body plan.
+- Rotate a terminal form in a direction the carrying segment does not support.
 
 ## Checklist
-- Every visible segment can be traced back to exactly one parent socket.
-- The number and order of joints are unchanged through overlap and foreshortening.
-- Terminal direction agrees with the rotation of the preceding segment.
+- Every materially represented chain can be traced back to exactly one declared parent origin.
+- Anatomical/body-plan identity is recorded independently of current screen location.
+- The number, order, and ownership of segments and joints are unchanged through overlap and foreshortening.
+- Observed parent-origin type and terminal-form type match the established chain contract.
+- No joint or endpoint is shared by two chains, and terminal direction agrees with the rotation of the preceding segment.
 
 ## Notes
-Hogarth begins arms and legs as corresponding two-part column systems with high swivel joints, middle bends, and terminal members. The construction generalizes to wings, fins, tails, tentacles, and mechanical appendages as long as their actual joint sequence is preserved.
+Hogarth begins arms and legs as corresponding two-part column systems with high swivel joints, middle bends, and terminal members. The construction generalizes to wings, fins, tails, tentacles, multi-limbed creatures, and mechanical appendages as long as their actual body-plan identity, joint sequence, and endpoint type are preserved. The rule is count-neutral: topology comes from the established subject rather than from a default two-arm/two-leg template.
 
 `VAR_bridgman_forearm_rotation_radius_around_ulna` retains **Carry Hand Rotation Through Radius Crossing Around the Ulna** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

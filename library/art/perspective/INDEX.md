@@ -7,7 +7,7 @@
 - [Aim Clean Perspective Construction Lines](DRILL_aim_clean_perspective_construction_lines.md) - drill; 2 block. Tags: construction, line_control, perspective, warmup.
 - [Align Cylinders and Cones to Projected Circle Centers](PAT_align_cylinders_and_cones_to_projected_circle_centers.md) - pattern; 2 block. Tags: cone, cylinder, ellipse, perspective.
 - [Block Complex Objects With Perspective Boxes](PAT_block_complex_objects_with_perspective_boxes.md) - pattern; 2 block. Tags: box, construction, object_drawing, perspective.
-  - Variants: `Loose Pose Box for Animal Angle Shots` (context).
+  - Variants: `Loose Pose Box for Animal Angle Shots` (context); `Enclose Figure in Viewpoint Box to Check Spatial Placement` (context).
 - [Build a Coherent Grid When Vanishing Points Are Off the Page](PAT_build_coherent_grid_when_vanishing_points_are_off_page.md) - pattern; 1 skeleton. Tags: brewer_method, grid, offpage_vp, perspective.
 - [Build Complex Volumes With X-Y-Z Sections](AP_build_complex_volumes_with_xyz_sections.md) - ap; 2 block. Tags: perspective, sections, volume, workflow.
   - Variants: `Slice the Torso at Anatomical Landmark Levels` (method_sequence); `Connect Leg Sections With Anatomical Rails` (method_sequence); `Solve Cylindrical Junctions With Projected Cross-Sections` (method_sequence); `Construct Curved Tubes With Sections and Longitudinal Rails` (method_sequence); `Control Changing Product Rounding With Sparse Sections and Seams` (method_sequence); `Curve a Surface by Offsetting Sections From a Flat Datum` (method_sequence).
@@ -32,7 +32,7 @@
   - Variants: `Use a High-Water Eye-Level Diagnostic` (method_sequence); `Use Exact Camera/Viewfield Geometry` (method_sequence); `Estimate Off-Page Vanishing Pull for Freehand Sketching` (method_sequence); `Derive an Eye-Level Product View From a Higher-View Layout` (method_sequence).
 - [Measure True Lengths on Oblique Perspective Planes](PAT_measure_true_lengths_on_oblique_planes.md) - pattern; 2 block. Tags: inclined_plane, measuring_point, oblique, perspective.
 - [Measure, Subdivide, and Repeat on Perspective Planes](PAT_measure_subdivide_and_repeat_on_perspective_planes.md) - pattern; 2 block. Tags: diagonal, grid, measurement, perspective.
-  - Variants: `Derive an Arbitrary Measuring Point` (method_sequence).
+  - Variants: `Derive an Arbitrary Measuring Point` (method_sequence); `Project Locomotion Contact Intervals Through Depth` (context).
 - [Place Freehand Ellipses on Minor Axes](DRILL_place_freehand_ellipses_on_minor_axes.md) - drill; 2 block. Tags: ellipse, line_control, perspective, warmup.
 - [Project Circles and Cylinders on Tilted Planes](DRILL_project_circles_and_cylinders_on_tilted_planes.md) - drill; 2 block. Tags: cylinder, drill, ellipse, perspective.
 - [Project Curves Onto Sectioned Surfaces](PAT_project_curves_onto_sectioned_surfaces.md) - pattern; 2 block. Tags: curve, perspective, projection, sections.

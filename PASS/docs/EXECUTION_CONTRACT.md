@@ -153,6 +153,17 @@ matching the number of records, local/enlarged inspection, root tracing, and an
 expected-versus-observed topology count. `uncertain`, insufficient evidence, a
 missing instance record, or a count mismatch leaves completion unresolved.
 
+For articulated-limb identity/mechanics checks, Art likewise requires one record
+per materially represented audited limb chain at terminal resolution. The record
+keeps anatomical/body-plan identity separate from screen location, traces the
+chain from declared parent origin through ordered joints to its endpoint, records
+expected and observed origin/endpoint types, and records the mechanics/range
+judgment. The evidence auditor may compare declared string fields such as expected
+versus observed endpoint type, so a caller-supplied `pass` status cannot erase an
+explicit arm/foot or leg/hand mismatch. The collection is count-neutral: the
+expected body plan comes from the subject contract, not from a hardcoded human
+four-limb assumption.
+
 Accordingly, `verify` reports `completion_record_complete` separately from
 `artifact_visually_validated`. The latter is always false in this repository-side
 helper because the helper never receives or inspects the artifact. A complete

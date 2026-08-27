@@ -1,0 +1,4 @@
+name: art/subjects/animation
+requires:
+- art/foundations/temporal-movement
+- art/foundations/form-construction

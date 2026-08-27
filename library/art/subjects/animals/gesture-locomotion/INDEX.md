@@ -13,7 +13,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
+- [Animate Flapping Bird Flight From Power Recovery And Body Response](PAT_animate_flapping_bird_flight_from_power_recovery_and_body_response.md) - pattern; 2 block. Tags: animal_drawing, animation, bird, feathers, flight, locomotion, overlap, wingbeat.
 - [Capture Animal Motion With One Continuous Brush Pass](DRILL_capture_animal_motion_with_one_continuous_brush_pass.md) - drill; 1 skeleton. Tags: animal_drawing, brushwork, deliberate_practice, gesture, movement, shorthand, visual_memory, watercolor.
+- [Construct Quadruped Walk From Staggered Fore And Hind Support Cycles](AP_construct_quadruped_walk_from_staggered_fore_and_hind_support_cycles.md) - ap; 1 skeleton. Tags: animal_locomotion, animation, quadruped, walk.
 - [Improvise Small Animal Sketches From Internalized Structure](DRILL_improvise_small_animal_sketches_from_internalized_structure.md) - drill; 1 skeleton. Tags: animal_drawing, chance, deliberate_practice, free_play, improvisation, invention, movement, random_marks, shorthand, sketching, visual_memory, watercolor.
   - Variants: `Seed Animal Invention From Random Marks` (method_sequence).
 - [Iterate Imagined Animal Action Until Function and Expression Agree](PAT_iterate_imagined_animal_action_until_function_and_expression_agree.md) - pattern; 2 block. Tags: animal_drawing, animal_gesture, blocking, diagnosis, exaggeration, expression, functional_action, imagination, invention, iteration, working_study.
@@ -26,4 +28,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Stage Animal Impact as Deformation, Reversal, and Recovery](PAT_stage_animal_impact_as_deformation_reversal_and_recovery.md) - pattern; 2 block. Tags: animal_drawing, animation, compression, impact, weight.
 - [Stage Animal Mood Through Whole-Body Pose and Behavioral Cues](PAT_stage_animal_mood_through_whole_body_pose_and_behavioral_cues.md) - pattern; 0 design. Tags: animal_drawing, animal_gesture, body_language, expression, silhouette, staging.
 - [Stage Quadruped Springing Action Through Gather, Push, Suspension, and Reception](PAT_stage_quadruped_springing_action_through_gather_push_suspension_and_reception.md) - pattern; 1 skeleton. Tags: animal_drawing, compression, extension, jump, landing, leap, locomotion, push_off, quadruped, spring, sprint, suspension.
+  - Variants: `Build Gallop From Phase-Lagged Limb Pairs And Spinal Gather Extension` (method_sequence).
 - [Track Animal Motion Through Moving Pivots and Overlapping Arcs](PAT_track_animal_motion_through_moving_pivots_and_overlapping_arcs.md) - pattern; 1 skeleton. Tags: action_analysis, animal_drawing, animation, arcs, overlapping_action.

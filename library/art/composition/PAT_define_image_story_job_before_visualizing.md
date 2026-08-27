@@ -112,3 +112,6 @@ Loomis distinguishes illustrations that largely carry their own message, illustr
 `VAR_dahlig_scale_emotional_cue_redundancy_to_desired_explicitness` adds an explicitness control to story planning. Reinforce the emotion through multiple channels for a forceful read, or deliberately reduce that redundancy when the image should leave more inference to the viewer.
 
 `VAR_eissen_explain_novel_product_with_user_scenario_context` makes use the subject of the image when the object alone cannot explain the concept. Show the relevant person, behavior, environment, interaction, and consequence; keep unresolved product detail only as specific as the scenario needs.
+
+- Define the larger emotional contract as well as the immediate event. Ask what this moment contributes to the sequence, where it is taking the audience, and what can be removed without changing the intended statement.
+- The image is a vehicle for story communication rather than an end in itself; visual treatment is selected after the narrative purpose is clear.

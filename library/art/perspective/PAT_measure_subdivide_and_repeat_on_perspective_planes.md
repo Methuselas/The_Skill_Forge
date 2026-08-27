@@ -31,6 +31,13 @@ variants:
   when_to_use: Use when diagonal-center subdivision and simpler proportion transfer are not exact enough.
   when_not_to_use: Do not load the full measuring-point derivation for ordinary subdivision tasks.
   absorbed_from_object_id: none
+- variant_id: VAR_whitaker_project_locomotion_contact_intervals_through_depth
+  variant_name: Project Locomotion Contact Intervals Through Depth
+  variant_basis: context
+  difference_from_foundation: Applies perspective-plane interval transfer to successive walk, run, or gallop contacts so equal real-space strides compress or expand correctly in image space as the subject recedes or approaches.
+  when_to_use: Use when locomotion travels materially toward or away from the camera and equal screen-space contact gaps would flatten the depth or distort stride length.
+  when_not_to_use: Do not add a perspective grid to side-on or shallow-depth locomotion when ordinary contact placement already preserves the intended travel.
+  absorbed_from_object_id: none
 ---
 
 # Measure, Subdivide, and Repeat on Perspective Planes
@@ -62,4 +69,6 @@ This Pattern intentionally consolidates several chapter techniques to keep the o
 **Boundaries**
 Use the simplest construction that proves the relationship. D'Amelio presents measuring lines as a precision aid, not as a reason to turn every sketch into a geometry exercise.
 
-Variants retained in this canonical object: `VAR_derive_arbitrary_measuring_point`.
+Variants retained in this canonical object: `VAR_derive_arbitrary_measuring_point`, `VAR_whitaker_project_locomotion_contact_intervals_through_depth`.
+
+`VAR_whitaker_project_locomotion_contact_intervals_through_depth` specializes the same measurement logic for locomotion moving through depth. Treat successive ground contacts as equal real-space stride intervals on the solved perspective plane, then let their visible spacing compress or expand with recession/approach. Pair those contact anchors with the existing scale-through-depth construction so the whole figure changes apparent size coherently instead of merely shrinking the gaps between its feet.

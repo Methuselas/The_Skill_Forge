@@ -73,3 +73,5 @@ variants: []
 Bammes's figs. 38-40 reduce horse walking, trotting, and galloping to a contact diagram beneath each pose. Solid contacts, swinging feet, the standing surface, and the gravity-line relationship make the phase logic readable even before surface anatomy is considered. The transferable decision is to diagnose locomotion from **support sequence plus swing/recovery and suspension**, not to memorize Bammes's horse phase silhouettes or his broader species claims.
 
 This Pattern generalizes the support-role reading already present in Hultgren's horse-specific gait Pattern. The Hultgren object remains useful for horse study, but it now specializes this broader quadruped locomotion foundation.
+
+- Read a quadruped walk as related forequarter and hindquarter support systems. Chest and pelvis can rise and fall on different phases while weight migrates between front and rear support; head and tail may lag those primary masses.

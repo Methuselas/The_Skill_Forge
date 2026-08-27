@@ -137,6 +137,7 @@ variants:
 - Use counter-balancing among head, rib cage, pelvis, and limbs rather than stacking all major masses on one vertical.
 - For a mid-step or impending-action pose, let the mass arrangement approach or cross a stable relationship while another contact is positioned to catch, redirect, or complete the action.
 - Check the pose at gesture level before anatomy hides the support logic.
+- Mentally remove an external support such as a rope, wall, pole, hand brace, or suspension point and predict the direction the body would fall or rotate; verify that the real support plausibly resists, redirects, or arrests that tendency.
 
 ## Don't
 - Do not center every major mass over one vertical merely because the figure must ultimately be supportable.
@@ -150,9 +151,11 @@ variants:
 - A stable pose reads as supported; an unstable pose reads as intentionally moving toward another support condition.
 - Removing anatomy and contour does not destroy the sense of weight.
 - Weight-bearing contacts produce believable structural consequences in the masses and joints they support.
+- If an external support is removed mentally, the predicted fall or rotation agrees with the load that support is actually carrying.
 
 ## Notes
 Hampton frames human movement as repeated controlled loss and recovery of balance. The useful runtime decision is not “make every pose unstable,” but to know whether the current arrangement is stable, tensioned, or transitioning and to design the support accordingly.
+Mattesi adds a useful counterfactual support test: temporarily remove an external brace or suspension in the analysis, predict the body’s fall or rotation, and use that result to verify that the stated support is mechanically doing the job the pose claims.
 
 `VAR_hampton_restate_gesture_as_skeletal_weight_mechanics` retains **Restate Gesture as Skeletal Weight Mechanics** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

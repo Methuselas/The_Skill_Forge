@@ -42,6 +42,28 @@ variants:
   when_not_to_use: Do not use late finish auditions to avoid fixing unresolved geometry, and do not alter the product design
     between copies if the goal is a controlled finish comparison.
   absorbed_from_object_id: none
+- variant_id: VAR_barber_recolor_fixed_subject_to_test_semantic_shift
+  variant_name: Recolor a Fixed Subject to Test Semantic Shift
+  variant_basis: emphasis
+  difference_from_foundation: Holds drawing, composition, identifying forms, and normally the major value organization stable while
+    deliberately replacing the subject's expected color language with an incongruent palette so the semantic effect of color can
+    be isolated and compared against a control version.
+  when_to_use: Use when diagnosing how strongly a subject's reading depends on expected or culturally learned color conventions,
+    or when considering an intentional semantic inversion through color.
+  when_not_to_use: Do not use when physical illumination or local-color fidelity is the primary assignment, and do not generalize
+    the result into a universal hue-meaning rule without support from the intended audience and context.
+  absorbed_from_object_id: none
+- variant_id: VAR_hammond_hold_subject_color_fixed_while_auditioning_background_context
+  variant_name: Hold Subject Color Fixed While Auditioning Background Context
+  variant_basis: emphasis
+  difference_from_foundation: Narrows the color audition to one controlled variable by keeping the subject drawing, major value organization,
+    and subject color treatment substantially fixed while changing only the surrounding or background color field, so context-driven shifts
+    in separation, prominence, harmony, and focal strength can be compared directly.
+  when_to_use: Use when the subject palette is already acceptable but the surrounding color field is unresolved and you need to test how
+    background context changes the subject's apparent strength or color relationships.
+  when_not_to_use: Do not use when the background must represent a specific physical illumination or environment, and do not treat a
+    textbook complementary pairing as automatically superior to other contextually appropriate surrounds.
+  absorbed_from_object_id: none
 ---
 
 # Audition One Subject Across Small Color Roughs
@@ -82,3 +104,7 @@ Choose one subject with a stable crop and readable value structure. Prepare four
 Small color roughs make palette decisions cheap enough to compare before they become entangled with finish. The exercise complements tonal thumbnail drills: those vary value organization, while this drill keeps the subject and basic structure relatively stable and varies the color conception itself. Including the anticipated surround is useful whenever page, cover, display, or reproduction context will materially change the apparent strength of the palette. Loomis's poster workflow adds a distance test: for large-format work, the color rough should be judged as a carrier of the final big decisions and tested from far enough away that small finish cannot disguise weak mass relationships.
 
 `VAR_olofsson_duplicate_near_final_render_for_global_finish_auditions` freezes the design and moves the experiment to picture-level finish. Duplicate one stable base, change only the global value/color/background/highlight treatment, and compare the copies side by side so one version cannot win merely because its geometry also changed.
+
+`VAR_barber_recolor_fixed_subject_to_test_semantic_shift` turns the same controlled comparison into a semantic stress test. Keep the subject structure and major value organization stable, compare an expected color treatment against one or more deliberately incongruent conceptions, then identify whether changes in reading come from hue family, chroma, value relationship, temperature, palette convention, or learned color-to-subject association. Treat the result as context-dependent evidence rather than a universal color dictionary.
+
+`VAR_hammond_hold_subject_color_fixed_while_auditioning_background_context` isolates the surrounding field as the variable. Keep the subject drawing, major values, and subject colors stable across copies, change only the background or surround, then compare subject/background separation, focal strength, harmony, and which subject colors appear more or less prominent. Choose the surround for the picture's actual purpose rather than for maximum contrast alone.

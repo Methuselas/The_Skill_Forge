@@ -5,3 +5,8 @@
 ## Objects
 
 - [Build a Comic Page From Assigned Beats to Pencils](AP_build_comic_page_from_assigned_beats_to_pencils.md) - ap; 1 skeleton. Tags: action_flow, comics, page_layout, penciling, sequential_art, staging.
+- [Choose Panel Shape To Serve Narrative Function](PAT_choose_panel_shape_to_serve_narrative_function.md) - pattern; 0 design. Tags: comics, layout, panel_shape, storytelling.
+- [Choreograph Sequential Page From Story Beats](AP_choreograph_sequential_page_from_story_beats.md) - ap; 0 design. Tags: comics, page_layout, sequential_art, story_beats.
+- [Fragment Scene To Control Sequential Pacing](PAT_fragment_scene_to_control_sequential_pacing.md) - pattern; 0 design. Tags: comics, fragmentation, pacing, sequence.
+- [Plan Dialogue Balloon Flow With Page Composition](PAT_plan_dialogue_balloon_flow_with_page_composition.md) - pattern; 0 design. Tags: balloons, comics, dialogue, page_layout.
+- [Treat Sound Effect Text As Visual Form](PAT_treat_sound_effect_text_as_visual_form.md) - pattern; 0 design. Tags: comics, lettering, sound_effects, visual_form.

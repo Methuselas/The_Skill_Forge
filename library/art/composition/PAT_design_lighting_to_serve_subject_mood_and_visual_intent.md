@@ -143,3 +143,6 @@ Dodson demonstrates that changing light quality and cast-shadow design can trans
 `VAR_eissen_use_elevated_oblique_light_for_descriptive_product_sketch` adds a bounded neutral product-sketch preset. A fairly steep, elevated oblique light can make neighboring planes and the cast shadow separate quickly enough for form description. Judge the shadow as part of the setup: it should help explain the object's rotation, elevation, or footprint without growing so long or large that it competes with the product. Keep the setup as a convenience rather than a universal top-left-light rule, and replace it whenever the product or assignment needs another lighting logic.
 
 `VAR_gurney_conceal_motivated_light_source_to_create_mystery_and_silhouette` Keeps a source inside the depicted scene but hides it behind geometry while preserving enough illumination, edge light, color, or shadow evidence for the source to remain believable and compositionally useful.
+
+- The same unchanged scene can become a different story through lighting alone. Use illumination to decide what effectively exists for the viewer: reveal, obscure, isolate, reassure, threaten, or make ambiguous.
+- Across a moving or sequential scene, lighting emphasis may migrate with the emotional center as long as spatial and world continuity remain coherent.

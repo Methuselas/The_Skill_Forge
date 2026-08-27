@@ -34,6 +34,17 @@ variants:
   when_not_to_use: Avoid when the pose already reads spatially or when forcing the cage would straighten and stiffen the animal's
     dominant action.
   absorbed_from_object_id: none
+- variant_id: VAR_stanchfield_enclose_figure_in_viewpoint_box_to_check_spatial_placement
+  variant_name: Enclose Figure in Viewpoint Box to Check Spatial Placement
+  variant_basis: context
+  difference_from_foundation: Uses a temporary imagined or lightly constructed box around an organic human figure to test the pose
+    against the scene's eye level, perspective field, ground contact, and gross height-width-depth orientation before returning to
+    the body's gesture and anatomy rather than fitting the figure into a literal cuboid.
+  when_to_use: Use when a figure has recognizable parts but still reads flat, or when its whole-body advance, recession, turn, tilt,
+    or placement in the scene is difficult to judge from the organic silhouette alone.
+  when_not_to_use: Avoid when the figure already occupies space convincingly, or when the box begins to straighten the gesture,
+    replace anatomy, or force the body into a rectilinear shape.
+  absorbed_from_object_id: none
 ---
 
 # Block Complex Objects With Perspective Boxes
@@ -64,6 +75,8 @@ D'Amelio makes the cube a prerequisite because it exposes the perspective relati
 
 
 **Hultgren animal-angle variant — `VAR_hultgren_loose_pose_box_for_animal_angle_shots`.** For difficult animal angle shots, a coarse box or cage can be used briefly as a perspective check around the pose. Use it to verify gross orientation and recession, then return to the animal's organic construction; it is a poor fit when the cage begins to stiffen the action or turns the body into a literal cuboid.
+
+**Stanchfield figure-space variant — `VAR_stanchfield_enclose_figure_in_viewpoint_box_to_check_spatial_placement`.** When a human figure reads like a flat screen shape rather than a body occupying the scene, briefly surround the whole pose with an imagined perspective box. Use that cage to check eye-level relation, ground contact, gross orientation, recession, turn, and tilt; then discard it and return to organic gesture and anatomy. The box is a spatial diagnostic, not a literal body shape.
 
 **Boundaries**
 Curved objects may require the circle/cylinder Patterns after their containing box is established.

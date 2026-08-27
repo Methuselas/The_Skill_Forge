@@ -5,6 +5,7 @@
 ## Objects
 
 - [Attach Joint Overlap to the Advancing Member](PAT_attach_joint_overlap_to_advancing_member.md) - pattern; 2 block. Tags: figure_drawing, foreshortening, joints, overlap.
+- [Audit Articulated Limb Identity and Joint Mechanics](AP_audit_articulated_limb_identity_and_joint_mechanics.md) - ap; 1 skeleton. Tags: creature_drawing, error_prevention, figure_drawing, joint_mechanics, limb_chain, topology.
 - [Build Gesture Into Clear Masses](PAT_build_gesture_into_clear_masses.md) - pattern; 2 block. Tags: blocking, figure_construction, figure_drawing, spatial_orientation.
   - Variants: `Ovoid, Column, and Spatulate Figure Mass Selection` (method_sequence); `Mass First, Plane Second, Line Last With Wedged Interlocks` (method_sequence); `Square Rounded Form Into Editable Planes` (method_sequence); `Inflate Gesture With Overlapping Spherical Masses` (method_sequence); `Animate Box Logic Without Losing Its Corners` (method_sequence); `Reduce Anatomy to a Landmark-Anchored Planar Blockout` (method_sequence); `Enclose Animal Masses With Viewing Planes and Sections` (method_sequence); `Reduce Complex Form to a Familiar Solid Analogue` (method_sequence); `Analyze a Product as Connected Primary Solids` (method_sequence).
 - [Carry Form Flow Through Joint Transitions](PAT_carry_form_flow_through_joint_transitions.md) - pattern; 3 rough. Tags: anatomy, figure_drawing, form_flow, joint_connection.
@@ -23,11 +24,11 @@
 - [Preserve One Continuous Joint Chain per Limb](PAT_preserve_articulated_limb_chain.md) - pattern; 1 skeleton. Tags: error_prevention, figure_drawing, joint_chain, limb_construction.
   - Variants: `Carry Hand Rotation Through Radius Crossing Around the Ulna` (method_sequence); `Layer Arm Gesture, Bone Direction, Volume, Then Anatomy` (method_sequence); `Twist the Forearm as a Quadrangular Prism` (method_sequence); `Track Pronation by Section Change and the Ulnar Rail` (method_sequence).
 - [Project Form Curves From the Camera View](PAT_project_form_curves_from_camera_view.md) - pattern; 3 rough. Tags: figure_drawing, foreshortening, form_flow, viewpoint.
-  - Variants: `Square Organic Masses, Solve the View, Then Round Them Back` (method_sequence).
+  - Variants: `Square Organic Masses, Solve the View, Then Round Them Back` (method_sequence); `Sculpt Forceful Form With Surface Lines` (method_sequence).
 - [Reverse-Engineer a Finished Drawing Into Primitive Construction](DRILL_reverse_engineer_finished_drawing_into_primitive_construction.md) - drill; 2 block. Tags: construction, diagnosis, draw_through, primitives, reverse_engineering.
   - Variants: `Reconstruct Product Then Redraw From a New Viewpoint` (method_sequence).
 - [Trace Surface Paths Over Wrapped Forms](DRILL_trace_surface_paths_over_wrapped_forms.md) - drill; 2 block. Tags: cross_contour, figure_drawing, observation, surface_form.
-  - Variants: `Use Natural Stripes as Surface-Wrap Guides` (context).
+  - Variants: `Use Natural Stripes as Surface-Wrap Guides` (context); `Trace Forceful Surface Paths Without a Contour Scaffold` (method_sequence).
 - [Transport Proportional Landmarks Across Views](PAT_transport_proportional_landmarks_across_views.md) - pattern; 2 block. Tags: figure_drawing, foreshortening, projection, proportion.
 - [Turn Cylinder End Curves With Depth](PAT_turn_cylinder_end_curves_with_depth.md) - pattern; 2 block. Tags: cross_contour, cylinder, figure_drawing, foreshortening.
 - [Validate Foreshortened Limb Reach From Joint Pivots](PAT_validate_foreshortened_limb_reach_from_joint_pivots.md) - pattern; 2 block. Tags: figure_drawing, foreshortening, joint_reach, proportion.

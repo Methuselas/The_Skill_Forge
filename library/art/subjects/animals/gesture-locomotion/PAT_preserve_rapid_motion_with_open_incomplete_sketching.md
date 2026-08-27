@@ -49,19 +49,22 @@ variants: []
 - Use a light, nimble handling of the chosen medium so the marks can follow the actual or imagined experience of the action instead of forcing every part into equal finish.
 - Repeat a line when searching for the right direction is still alive in the drawing; a second or third searching pass is preferable to polishing the wrong path into certainty.
 - Stop when the essential movement is complete in itself, even if anatomy, contour, and surface description remain visibly abbreviated.
+- When fast action is dominant, treat coat pattern, markings, and small surface texture as movement-subordinate information: preserve only the broad placement, directional flow, or identity-bearing clusters needed to keep the animal recognizable, and suggest repeated spots, stripes, feathers, scales, or fur pattern rather than describing every unit when that detail begins to freeze the action.
 
 ## Don't
 - Do not equate completeness of detail with truthfulness of movement; exhaustive description can make a fast event feel posed or frozen.
 - Do not close every contour merely to make the drawing look finished.
 - Do not use random missing information as a substitute for understanding. The omissions must leave the governing action and enough structure readable.
 - Do not let a heavy or laborious medium treatment contradict the speed or lightness the movement is meant to communicate.
+- Do not restore exact surface pattern merely because it is present in the reference; add more only when identity or structural reading fails without it.
 
 ## Checklist
 - The main action reads before local detail is inspected.
 - At least some edges or passages remain intentionally open without making the animal structurally unintelligible.
 - Added detail clarifies the action rather than merely increasing finish.
+- Surface pattern remains broad or selective enough that it does not overpower the governing action.
 - The eye moves through the sketch instead of stopping at equally resolved contours around the whole figure.
 - The drawing can stop while still feeling complete as a movement statement.
 
 ## Notes
-Bammes calls the extra quality needed for convincing movement its "sharpness" and argues that a fully comprehensive account can weaken it. His examples use nonfinito, lacunae, open possibilities, and freely handled media to keep rapid action fresh. The useful decision is not to imitate a particular historical sketch style, but to recognize when further completion would destroy the temporal impression the study is trying to preserve. Section 9.2 later clarifies that this selective incompleteness can still be a complete sketch: completion belongs to the objective and impression, not to exhaustive description or speed.
+Bammes calls the extra quality needed for convincing movement its "sharpness" and argues that a fully comprehensive account can weaken it. His examples use nonfinito, lacunae, open possibilities, and freely handled media to keep rapid action fresh. The useful decision is not to imitate a particular historical sketch style, but to recognize when further completion would destroy the temporal impression the study is trying to preserve. Section 9.2 later clarifies that this selective incompleteness can still be a complete sketch: completion belongs to the objective and impression, not to exhaustive description or speed. Barber's animal examples add a compatible surface consequence: when motion is the main statement, repeated coat markings and local texture can be compressed to broad directional or identity-bearing cues so surface description does not freeze the action.

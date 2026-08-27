@@ -101,6 +101,17 @@ variants:
   when_not_to_use: Do not distribute enough accents to create several equal focal points, and do not bridge a deliberately
     isolated accent with intermediates when its separation is the point.
   absorbed_from_object_id: none
+- variant_id: VAR_barber_use_flat_color_relationships_as_spatial_structure
+  variant_name: Use Flat Color Relationships as Spatial Structure
+  variant_basis: emphasis
+  difference_from_foundation: Lets broad, relatively flat color fields carry much of the front/back separation in a deliberately
+    graphic or stylized image, with local modeling kept secondary so spatial order is read from the combined hue, value, and
+    chroma relationships between major regions.
+  when_to_use: Use when a graphic, stylized, poster-like, or decorative image should let broad color masses act as the primary
+    spatial organizer while contour, overlap, or other simple structure remains sufficient to keep the subject legible.
+  when_not_to_use: Do not use color separation to conceal faulty geometry, and do not reduce a physically descriptive image to
+    a memorized warm-advances/cool-recedes formula when perspective, form turning, atmosphere, or illumination should carry depth.
+  absorbed_from_object_id: none
 ---
 # Choose Color Strategy to Fit Subject, Purpose, and Viewing Context
 
@@ -162,5 +173,7 @@ A coherent palette can be defined as much by exclusion as by inclusion. Delibera
 `VAR_gurney_constrain_scheme_to_one_hue_family_across_value_and_chroma` Builds a final-picture monochromatic strategy from one hue family while allowing substantial value and chroma variation for unity, understatement, sequence distinction, or historical/archival effect.
 
 `VAR_gurney_season_restrained_field_with_sparse_opposing_color_accents` Keeps the dominant field narrow or subdued while using a very small quantity of noticeably different, often opposing, color as focal punctuation or distributed seasoning; the strongest option may deliberately omit intermediate bridge colors so the accent stays stark.
+
+`VAR_barber_use_flat_color_relationships_as_spatial_structure` lets a deliberately graphic or stylized picture use broad color fields as a principal depth cue. Judge the front/back relationship from hue, value, and chroma together at reduced size, keep modeling subordinate enough that the color structure still carries the read, and retain enough contour, overlap, scale, or other structural evidence to prevent the palette from becoming a substitute for correct geometry.
 
 Deliberate exaggeration changes the standard of evaluation. Once color or value is intentionally pushed beyond observation, maintain control through the picture's internal structure and declared intent rather than continuing to judge every altered note only by literal reference matching.

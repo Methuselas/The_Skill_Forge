@@ -57,17 +57,18 @@ variants:
 # Translate Value Into Mark Density and Open Ground
 
 ## Pattern Rule
-**IF** a line-led rendering needs tonal hierarchy without continuous-tone fill
-**THEN** translate each intended value into a controlled relationship between marks and exposed ground, calibrating spacing, weight, density, and crossings before committing to the final passage while keeping mark direction subordinate to form and material
+**IF** a line-led rendering needs tonal or color-force hierarchy without continuous-tone fill
+**THEN** translate each intended value or color strength into a controlled relationship between marks and exposed ground, calibrating spacing, weight, density, and crossings before committing to the final passage while keeping mark direction subordinate to form and material
 **ELSE** use a continuous-tone or mass-based method when discrete marks would fight the intended finish.
 
 ## Do
 - Decide the large light/halftone/shadow or black/gray/white organization before worrying about attractive stroke handling.
 - Make a small value ladder or test patch when the tool/support combination is unfamiliar, so you know how much exposed ground produces each practical value.
 - Darken primarily by changing the ratio of mark to open ground: closer spacing, heavier marks, additional crossings, or broader mark families can lower the apparent value.
+- In colored line media, use the same mark-to-ground ratio to control apparent color force as well as value; sparse broken marks can keep an intrinsically strong ink or pencil passage delicate without changing hue.
 - Preserve untouched or lightly marked ground deliberately in lighter passages instead of filling everything and trying to recover light later.
 - Let stroke direction reinforce turning planes, surface flow, or the material logic already solved by the drawing.
-- Build crosshatching one line family at a time and judge the aggregate after each layer; each additional family should lower the value, extend or soften a transition, redirect marks with form, or deliberately alter surface character.
+- Build crosshatching one line family at a time and judge the aggregate after each layer; in colored hatching, also recheck the combined hue and chroma after every family because each overlay changes the optical mixture as well as the darkness. Each additional family should lower the value, extend or soften a transition, redirect marks with form, deliberately alter color, or change surface character.
 - For a graded black-to-light passage, stagger where successive hatch families begin and end. Equal-length families can create an unintended hard outer ledge and a second hard seam where the hatch meets the black.
 - Control intersection angles deliberately. A rigid right-angle grid can look mechanical when the intended passage is organic, while families that approach parallel can create moiré interference; use either only when that optical character is wanted.
 - Stop adding hatch layers once the required value, edge, and form read. More crosshatching is not more resolved when it only adds noise or hides weak construction.
@@ -91,11 +92,12 @@ variants:
 - Mark direction supports the depicted form or material.
 - A small-scale check preserves the intended light/dark grouping.
 - The method has been recalibrated when the tool or support materially changes the mark behavior.
+- In colored line passages, the chosen density produces the intended color force and aggregate hue without unnecessary overmarking.
 - Repeated detail is sampled at a frequency the image scale can support, and the simplified pattern still preserves the intended value and material read.
 - Successive hatch families change the aggregate value or edge intentionally, and no unintended hard ledge or moiré interference takes over the passage.
 
 ## Notes
-Loomis describes pen value as the amount of light paper showing through a network of dark lines and recommends making a scale of pen values for reference. The adjacent procedure pages reinforce planning the black/gray/white mass arrangement and important passages before final execution. PASS abstracts that medium-specific demonstration into a general line-rendering capability: value is controlled through the designed ratio of marks to exposed ground, while the exact behavior of pen, brush, paper, scratchboard, Craftint, and other physical media remains deferred to the future Materials / Media curriculum.
+Loomis describes pen value as the amount of light paper showing through a network of dark lines and recommends making a scale of pen values for reference. The adjacent procedure pages reinforce planning the black/gray/white mass arrangement and important passages before final execution. PASS abstracts that medium-specific demonstration into a general line-rendering capability: value is controlled through the designed ratio of marks to exposed ground. In colored line media, that same ratio also controls how forcefully the hue reads, and layered line families can change aggregate color as well as value. Exact tool behavior remains medium-dependent and should be calibrated rather than assumed.
 
 `VAR_guptill_outline_then_add_selective_tone_for_economy` keeps a line-led sketch open by preserving light ground and adding only the decisive darker tone needed for form and hierarchy.
 

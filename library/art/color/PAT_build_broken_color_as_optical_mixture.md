@@ -40,6 +40,13 @@ variants:
   when_not_to_use: Do not preserve broken texture when the passage needs a truly smooth continuous transition or when the
     marks become noisy at the target scale.
   absorbed_from_object_id: none
+- variant_id: VAR_barber_crosslayer_directional_colored_marks_to_build_optical_mixture
+  variant_name: Cross-Layer Directional Colored Marks to Build Optical Mixture
+  variant_basis: method_sequence
+  difference_from_foundation: Builds the optical mixture by laying one visible family of colored pencil or ink marks, then crossing it with a second directional family so the aggregate hue and value shift while the line structure remains legible instead of being blended into a homogeneous field.
+  when_to_use: Use when a line-led color medium needs greater chromatic depth, darker value, or a composite hue without surrendering its granular mark character.
+  when_not_to_use: Do not use when the target passage requires a genuinely flat fill, a smooth continuous transition, or when crossing families create distracting mechanical texture at the final viewing scale.
+  absorbed_from_object_id: none
 - variant_id: VAR_schmid_preserve_intra_stroke_color_variation_with_partial_wet_mixing
   variant_name: Preserve Intra-Stroke Color Variation With Partial Wet Mixing
   variant_basis: medium
@@ -80,6 +87,6 @@ references: []
 ## Notes
 Broken color is a controlled optical mixture: separate marks retain local vibration while the eye integrates them into a larger color statement. Its success depends as much on mark scale and aggregate value as on hue choice.
 
-`VAR_schmid_preserve_dry_medium_crispness_with_broken_color_before_overblending` protects the granular/broken surface of dry media when smoothing would destroy useful color vibration. `VAR_schmid_preserve_intra_stroke_color_variation_with_partial_wet_mixing` applies the same optical principle inside a wet mark by leaving controlled pigment variation rather than homogenizing every stroke.
+`VAR_schmid_preserve_dry_medium_crispness_with_broken_color_before_overblending` protects the granular/broken surface of dry media when smoothing would destroy useful color vibration. `VAR_barber_crosslayer_directional_colored_marks_to_build_optical_mixture` constructs that vibration in line-led media by crossing visible directional color families and judging the aggregate hue/value after each layer rather than rubbing them into one field. `VAR_schmid_preserve_intra_stroke_color_variation_with_partial_wet_mixing` applies the same optical principle inside a wet mark by leaving controlled pigment variation rather than homogenizing every stroke.
 
 `VAR_schmid_preserve_intra_stroke_color_variation_with_partial_wet_mixing` may preserve partial separation on the palette, inside the loaded brush/knife, or through controlled surface mixing. The success test is not visible variety by itself; the passage must still resolve into the intended parent color/value family.

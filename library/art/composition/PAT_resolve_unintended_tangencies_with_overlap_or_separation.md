@@ -58,3 +58,5 @@ variants: []
 
 ## Notes
 Dodson's examples show elbows, heads, windows, mountains, vehicles, and page edges creating accidental shared boundaries. The durable decision is not "avoid all tangents" but "notice the coincidence and decide whether it should read as connection, overlap, separation, or intentional ambiguity."
+
+- Audit near-touches, accidental alignments, mergers, and contour coincidences for false relationships or unwanted focal pull. Repair by separating, overlapping decisively, repositioning, cropping, or redesigning unless the coincidence is intentional.

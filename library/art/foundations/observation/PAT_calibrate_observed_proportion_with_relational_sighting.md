@@ -110,6 +110,17 @@ variants:
   when_not_to_use: Do not use registration as a substitute for observation or as a license to trace every contour; it is a
     diagnostic for locating large relational drift.
   absorbed_from_object_id: none
+- variant_id: VAR_hammond_transfer_reference_through_corresponding_grid_cells
+  variant_name: Transfer a Reference Through Corresponding Grid Cells
+  variant_basis: method_sequence
+  difference_from_foundation: Uses a matched source-and-target grid as an up-front coordinate scaffold, solving local crossings,
+    angles, and shape fragments cell by cell while preserving correspondence across neighboring cells; uniform target-cell scaling
+    permits proportional enlargement or reduction before the scaffold is removed and the whole is re-evaluated.
+  when_to_use: Use when a fixed flat reference must be transferred at high positional fidelity and complex contour or dense small
+    relationships are causing accumulated placement drift.
+  when_not_to_use: Do not use the grid when invention, expressive recomposition, or free construction is the goal, and do not let
+    individually correct cells accumulate into a globally stiff or structurally incoherent drawing.
+  absorbed_from_object_id: none
 ---
 # Calibrate Observed Proportion With Relational Sighting
 
@@ -158,5 +169,7 @@ variants:
 `VAR_mogilevtsev_run_pre_detail_figure_axis_and_support_audit` remains a bounded variant under the conditions recorded in its variant metadata.
 
 `VAR_guptill_register_drawing_against_observed_source` adds a registered comparison pass for locating large proportional drift before local contour is refined.
+
+`VAR_hammond_transfer_reference_through_corresponding_grid_cells` adds an up-front coordinate-transfer route for fixed-reference fidelity: solve corresponding local relationships inside matched cells, maintain continuity across neighboring cells, then remove the scaffold and recheck the whole drawing.
 
 Before allowing a measurement to become a dependency anchor, prefer a short, clearly bounded, high-confidence shape or interval and recheck the first anchor. Build later placements against the accumulating trusted field, using more than one prior relation when possible; a good anchor should make later errors easier to expose rather than merely establish scale.

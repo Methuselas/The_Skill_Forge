@@ -93,7 +93,8 @@ variants:
 - Use the effect as a depth layer after the perspective field and major lighting relationships are already coherent.
 - Preserve important light-versus-shade relationships while reducing their contrast as they recede; atmosphere should soften a solved form, not erase its structure arbitrarily.
 - Let distant darks lighten and take on atmospheric/sky influence early, while illuminated surfaces lose chroma and approach the prevailing atmospheric color.
-- Compress light-shadow contrast with distance until very distant forms can merge toward a common silhouette without erasing the larger structure.
+- Compress light-shadow contrast with distance until very distant forms can merge toward a common quiet silhouette without erasing the larger structure.
+- Distinguish a quiet atmospheric silhouette from a hard backlit cutout: if backlighting turns a distant form into a crisp, high-contrast shape that visually advances, restore enough atmospheric influence, internal shadow variation, edge softness, or surrounding value integration to preserve the intended distance read.
 - Treat the atmosphere itself as illuminated volume: a shaded parcel of air can appear darker or differently colored than adjacent sunlit haze even at similar geometric distance.
 - Allow bright white objects to behave differently from dark objects instead of forcing every material through one identical cool-and-lighten recipe.
 - Increase the effect for haze, moisture, dust, smoke, smog, or other particles that shorten the distance over which full contrast and chroma survive.
@@ -104,12 +105,13 @@ variants:
 - Use contrast loss to repair wrong scale, convergence, overlap, or object placement.
 - Import Gill's simplified particle explanation as a complete physical theory of atmospheric scattering; keep the card at the observable rendering level.
 - Do not preserve the old blanket rule that every receding color must become cooler; near-sun glare, warm haze, smoke, and other illumination states can reverse the hue shift.
+- Do not assume every distant silhouette automatically reads as distant; a hard, high-contrast backlit cutout can visually advance and fight the atmospheric hierarchy.
 
 ## Checklist
 - Near forms have more value separation and edge/detail clarity than equivalent far forms.
 - Ground, shadows, and objects agree about which zones are near and far.
 - The scene still reads structurally if the atmospheric grade is mentally removed.
-- Distant forms are quieter without becoming unrelated flat cutouts.
+- Distant forms are quieter without becoming unrelated flat cutouts or unintended high-contrast backlit cutouts that jump forward.
 
 ## Notes
 Gill calls this “atmospheric effect” and repeatedly treats it as part of the same spatial evidence system as convergence, diminution, foreshortening, light, shadow, and overlap. The durable extraction is the near-to-far loss of contrast and clarity, not the book's period-specific account of why the air produces it.
@@ -118,7 +120,7 @@ Gill calls this “atmospheric effect” and repeatedly treats it as part of the
 
 `VAR_vilppu_use_atmospheric_contrast_as_local_depth_design` retains **Use Atmospheric Contrast as Local Depth Design** as a bounded emphasis route: deliberately use atmospheric contrast, edge, and detail reduction even across relatively small figurative depth when it clarifies overlap and spatial separation.
 
-Gurney strengthens this owner from a simple near-to-far contrast fade into a model of **illuminated intervening air**. Distance still matters, but so do atmospheric content and whether the air itself is in sun, shade, warm glare, or another light field.
+Gurney strengthens this owner from a simple near-to-far contrast fade into a model of **illuminated intervening air**. Distance still matters, but so do atmospheric content and whether the air itself is in sun, shade, warm glare, or another light field. Barber adds a useful failure condition: a distant form may simplify toward silhouette through atmosphere, but hard backlighting can turn that silhouette into a high-contrast cutout that appears to advance. Preserve enough atmospheric integration for the intended depth read.
 
 `VAR_gurney_reverse_atmospheric_perspective_in_warm_near_sun_glare` Handles the uncommon case where low-sun light scattered through mist, dust, or moist air overwhelms the usual blue veil so distant forms grow warmer rather than cooler with recession.
 

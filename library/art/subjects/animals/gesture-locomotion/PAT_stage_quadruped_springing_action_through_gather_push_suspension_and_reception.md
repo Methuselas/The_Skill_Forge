@@ -38,7 +38,15 @@ reference:
   author: Gottfried Bammes
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_whitaker_build_gallop_from_phase_lagged_limb_pairs_and_spinal_gather_extension
+  variant_name: Build Gallop From Phase-Lagged Limb Pairs And Spinal Gather Extension
+  variant_basis: method_sequence
+  difference_from_foundation: >-
+    Treats a fast gallop as coordinated whole-body phasing rather than a fixed hoof-order chart: fore and hind limb pairs can land or recover with slight internal phase offsets, the trunk gathers and lengthens through spinal flexion and extension, and loaded distal joints change visibly between support and suspension without changing anatomical segment lengths.
+  when_to_use: Use when a horse or other quadruped gallop needs convincing high-speed spring, suspension, trunk compression-extension, and non-mechanical pairing of the limbs.
+  when_not_to_use: Do not transplant one species' contact order, exact gallop duration, propulsive emphasis, or distal-joint behavior to another animal; verify the species and gait reference first.
+  absorbed_from_object_id: none
 ---
 
 # Stage Quadruped Springing Action Through Gather, Push, Suspension, and Reception
@@ -75,3 +83,5 @@ variants: []
 On printed pp. 39-40 Bammes compares three springing actions: a dog moving full tilt, a horse jumping, and a cat springing from a crouch. Their exact mechanics differ, but all three are presented as **phase changes of the whole articulated animal** rather than as decorative leg positions. The reusable art decision is therefore to stage gather, propulsion, airborne travel, and reception as connected structural states, while refusing to turn any one species' sequence into a universal jump formula.
 
 This Pattern begins before the impact-focused Hultgren Pattern and overlaps it at reception. Use `PAT_stage_animal_impact_as_deformation_reversal_and_recovery` when the drawing problem is specifically shock, rebound, or post-contact recovery.
+
+`VAR_whitaker_build_gallop_from_phase_lagged_limb_pairs_and_spinal_gather_extension` specializes the springing framework for fast gallop: it keeps the paired limbs slightly phase-lagged where reference supports it, coordinates support and suspension with trunk gather/extension, and requires species-specific verification rather than treating one horse sequence as a universal gait chart.

@@ -113,3 +113,6 @@ Marvel demonstrates the same doorway entrance, telephone confrontation, and vill
 The Eissen product-information route is diagnostic rather than dramatic: identify the face that carries the current design question, keep that face readable, expose only enough secondary surface to explain volume, and watch for self-overlap that hides important parts. A user-like viewpoint is one useful criterion, not an automatic default.
 
 `VAR_schmid_select_observed_viewpoint_and_arrangement_for_pictorial_intent` applies viewpoint choice to observational design. Move the observer, crop, wait, select another visible section, or rearrange a controllable subject so the large pictorial relationships support the active target; the best view need not be the most dramatic one.
+
+- Looking down can diminish, expose, isolate, or subordinate; looking up can empower, monumentalize, or make the environment oppressive. Apply this to locations and structures as well as people.
+- Viewpoint can also progress during a moving shot so the power relationship changes as information is revealed.

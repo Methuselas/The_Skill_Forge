@@ -86,3 +86,6 @@ Hultgren's original foundation moved line-of-action thinking from individual ani
 `VAR_jedruszek_sequence_narrative_stops_with_selective_focus` adds selective focus as a supporting hierarchy control for multi-stop storytelling. Establish the path compositionally first, then use sharpness or blur to reinforce the intended reading order.
 
 For an observed directional feature that remains compositionally damaging and cannot be altered locally without conspicuous falsification, change viewpoint or crop before committing the picture. A subject does not need a strong directional line at all; movement may come from repeated or connected shapes, so do not invent a line simply because a composition formula expects one.
+
+- Route attention with both visible and implied vectors: architecture, perspective convergence, limbs, weapons, gaze, cloud/branch directions, panel borders, and repeated focal positions can cooperate toward the same destination.
+- Across cuts or panels, plan where the eye should land next rather than treating each frame as an isolated routing problem.

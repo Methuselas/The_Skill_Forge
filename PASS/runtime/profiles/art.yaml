@@ -9,6 +9,8 @@ consumer_instructions:
 - When authoritative references disagree about a numeric topology contract such as digit, limb, eye, horn, or appendage count, normalize only wording that is unambiguously equivalent (for example, "5 digits total = 4 long fingers + 1 thumb"). If the sources remain contradictory, fail closed and ask for the conflict to be resolved before dependent generation; never silently choose the more convenient count.
 - For every materially visible hand at a resolution where full digit topology is legal, enumerate that hand as a separate risk instance, inspect the full frame and a local/enlarged view, trace every observed digit branch to a unique palm root, and record expected versus observed topology. A global boolean such as "all hands valid = true" is never sufficient evidence, and one representative hand never clears another visible hand.
 - If any required visible hand is extra-digit, missing-digit, fused, duplicated, detached, ambiguous, untraceable, or insufficiently inspectable, completion is forbidden. Perform a bounded correction/regeneration attempt that preserves accepted decisions as strongly as the host allows, then repeat the complete per-hand inventory and local audit for every materially visible hand; never assume only the edited hand can drift.
+- For every materially represented articulated limb at Stage 3, Stage 4, or Direct Render resolution, inventory the limb as a typed root-to-endpoint chain using its anatomical/body-plan identity separately from screen location. Record expected versus observed origin and endpoint type, trace the ordered joints, inspect joint mechanics locally, and classify the range as ordinary, extreme_but_plausible, or impossible. The expected chain count and topology come from the established body plan; never hardcode four limbs.
+- If a limb changes identity through overlap, terminates in the wrong endpoint type, shares a joint/endpoint with another chain, or contains a reversed/impossible visible joint relationship, completion is forbidden. Rebuild the entire affected chain from parent origin through each joint to the endpoint, then re-inventory all materially represented limb chains because regeneration may disturb an untouched limb.
 - "Before every productive staged image call, enforce this order: active-mode lock, authoritative-reference preflight, single legal current Drawing operation, current-resolution risk checks, artifact-only handoff, one current-artifact generation call, then stop for the user gate."
 default_lane: skill
 lanes:
@@ -433,6 +435,55 @@ risk_rules:
     - foot-ankle-leg endpoint continuity
     - head-neck attachment continuity
     - prop-contact endpoint continuity
+- id: articulated_limb_mechanics
+  when:
+    any_phrases:
+    - pose
+    - action pose
+    - combat pose
+    - acrobatic
+    - acrobatics
+    - full body
+    - full-body
+    - leap
+    - leaping
+    - jump
+    - jumping
+    - lunge
+    - lunging
+    - running
+    - sprinting
+    - kicking
+    - reaching
+    - twisting
+    - foreshorten
+    - foreshortening
+  checks:
+  - typed root-to-endpoint trace for every materially represented articulated limb
+  - anatomical identity separated from screen location for every audited limb
+  - joint mechanics for every materially visible human or humanlike limb
+  - plausible joint range classification for every audited limb
+  checks_by_stage:
+    0:
+    - gross limb-role and endpoint intent
+    - no visible chain exchange in the action read
+    1:
+    - typed parent-joint-endpoint scaffold
+    - unique limb-chain identity independent of screen position
+    2:
+    - typed limb mass-chain continuity
+    - major elbow and knee facing coherence
+    - endpoint-type continuity
+    3:
+    - typed root-to-endpoint trace for every materially represented articulated limb
+    - anatomical identity separated from screen location for every audited limb
+    - joint mechanics for every materially visible human or humanlike limb
+    - plausible joint range classification for every audited limb
+    4:
+    - typed root-to-endpoint trace for every materially represented articulated limb
+    - anatomical identity separated from screen location for every audited limb
+    - joint mechanics for every materially visible human or humanlike limb
+    - plausible joint range classification for every audited limb
 - id: character_reference_lock
   when:
     any_phrases:
@@ -511,3 +562,42 @@ completion_gate:
     equal_integer_pairs:
     - - expected_total_digits
       - observed_total_digits
+  - id: visible_limb_chain_mechanics
+    when_any_risk_checks:
+    - typed root-to-endpoint trace for every materially represented articulated limb
+    - joint mechanics for every materially visible human or humanlike limb
+    collection: visible_limb_chains
+    declared_count_field: declared_visible_count
+    instances_field: instances
+    minimum_instances: 1
+    required_string_fields:
+    - id
+    - anatomical_role
+    - anatomical_side_or_body_position
+    - screen_location
+    - expected_origin_type
+    - observed_origin_type
+    - expected_endpoint_type
+    - observed_endpoint_type
+    - ordered_chain_summary
+    - mechanics_basis
+    - range_class
+    required_true_fields:
+    - root_trace_inspected
+    - chain_order_inspected
+    - joint_mechanics_inspected
+    required_status_fields:
+      evidence_status:
+      - sufficient
+      endpoint_identity_status:
+      - pass
+      mechanics_status:
+      - pass
+      range_class:
+      - ordinary
+      - extreme_but_plausible
+    equal_string_pairs:
+    - - expected_origin_type
+      - observed_origin_type
+    - - expected_endpoint_type
+      - observed_endpoint_type

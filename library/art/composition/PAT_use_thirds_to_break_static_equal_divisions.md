@@ -71,3 +71,6 @@ Mattesi calls this a law of thirds, but the transferable learner decision is a d
 `VAR_dumitrescu_use_thirds_intersections_as_temporary_focal_scaffold` treats the thirds intersections as disposable focal-placement prompts. Start with them when useful, but let contrast and the actual picture establish the final hierarchy instead of preserving the grid mechanically.
 
 `VAR_dow_choose_symmetry_deliberately_for_repose_and_formality` bounds the anti-equality rule. Symmetry can be the right solution when repose or formality is the goal, but it still requires deliberate spacing and shape relationships rather than relying on mirroring alone.
+
+- Use the thirds grid as an optional off-center composition scaffold: audition focal subjects, major divisions, and horizon placement against thirds axes/intersections, then keep, shift, or break the grid according to narrative hierarchy and balance.
+- Treat the grid as disposable support, never a mandate.

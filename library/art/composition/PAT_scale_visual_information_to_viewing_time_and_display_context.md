@@ -40,6 +40,17 @@ variants:
   when_not_to_use: Do not apply a fixed historical word count or viewing-time formula, and do not strip information that the
     real audience can comfortably inspect at close range or over sustained viewing.
   absorbed_from_object_id: none
+- variant_id: VAR_stanchfield_scale_animation_acting_to_final_viewing_distance
+  variant_name: Scale Animation Acting to Final Viewing Distance
+  variant_basis: context
+  difference_from_foundation: Specializes the viewing-context rule for animated acting by judging whether the pose, silhouette,
+    directional relationships, weight shift, and primary action still communicate at the character's actual shot size, then
+    amplifying or reducing gesture information only as much as that viewing condition requires.
+  when_to_use: Use when an acting choice reads at drawing-board or zoomed-in scale but may disappear in a long shot, small
+    reproduction, distant presentation, or other reduced viewing condition.
+  when_not_to_use: Do not turn this into a universal command to overact. Preserve subtle acting when the shot scale and story
+    support it, and do not exaggerate beyond character, mechanics, or emotional intent merely to make motion larger.
+  absorbed_from_object_id: none
 ---
 
 # Scale Visual Information to Viewing Time and Display Context
@@ -73,4 +84,4 @@ variants:
 - When competition matters, the primary identifier or image hierarchy survives among representative neighboring designs.
 
 ## Notes
-Loomis contrasts image types that receive prolonged attention with formats that must communicate quickly at a distance, then asks whether an idea reads in the available time, survives its medium, and can lose anything else without damage. His calendar discussion adds a persistence test: an effect that is effective once may become stale or irritating when seen every day. The durable rule is to design for the actual viewing condition rather than for the drawing board alone. Cover and jacket work adds a competitive-context check: a design that succeeds against a neutral workspace can disappear once surrounded by equally assertive neighbors. Loomis's poster material supplies the extreme short-read case retained in `VAR_loomis_reduce_glance_read_display_to_one_dominant_unit_and_minimal_message`; his calendar discussion reinforces the opposite persistence test, where an effect that succeeds for one glance may become tiring under months of repeated exposure.
+Loomis contrasts image types that receive prolonged attention with formats that must communicate quickly at a distance, then asks whether an idea reads in the available time, survives its medium, and can lose anything else without damage. His calendar discussion adds a persistence test: an effect that is effective once may become stale or irritating when seen every day. The durable rule is to design for the actual viewing condition rather than for the drawing board alone. Cover and jacket work adds a competitive-context check: a design that succeeds against a neutral workspace can disappear once surrounded by equally assertive neighbors. Loomis's poster material supplies the extreme short-read case retained in `VAR_loomis_reduce_glance_read_display_to_one_dominant_unit_and_minimal_message`; his calendar discussion reinforces the opposite persistence test, where an effect that succeeds for one glance may become tiring under months of repeated exposure. Stanchfield's “playing to the balcony” application extends the same rule to animated acting: test the performance at the actual character size and viewing distance, strengthen broad pose and action information when subtle acting would disappear, and retain small acting when the shot can support it. `VAR_stanchfield_scale_animation_acting_to_final_viewing_distance` captures that calibration without treating larger acting as automatically better.

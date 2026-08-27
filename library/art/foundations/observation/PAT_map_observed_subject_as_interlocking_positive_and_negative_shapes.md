@@ -36,6 +36,17 @@ variants:
   when_not_to_use: Do not discard structural knowledge permanently; return to form, anatomy, perspective, or material understanding
     when it helps interpret ambiguous evidence without overruling clear observation.
   absorbed_from_object_id: none
+- variant_id: VAR_hammond_crop_to_local_segment_to_suppress_semantic_bias
+  variant_name: Crop to a Local Segment to Suppress Semantic Bias
+  variant_basis: method_sequence
+  difference_from_foundation: Isolates a tightly cropped reference segment so object identity becomes less salient, then uses the
+    crop frame as a placement boundary for comparing local lines, shapes, directions, and distances before restoring structural
+    interpretation to verify that the copied segment still belongs to the larger form.
+  when_to_use: Use when knowing what the subject is causes symbolic substitution for the actual observed shape and a bounded local
+    shape problem can be judged more objectively in isolation.
+  when_not_to_use: Do not crop away structural context that is necessary to understand anatomy, perspective, attachment, material
+    behavior, or another dependency that cannot be recovered from the local segment alone.
+  absorbed_from_object_id: none
 ---
 # Map an Observed Subject as Interlocking Positive and Negative Shapes
 
@@ -62,3 +73,5 @@ variants:
 Because a positive member and the space beside it share the same boundary, Dodson uses negative shapes as an alternate description of the subject. The method is portable across figures, animals, objects, vehicles, architecture, and creatures.
 
 `VAR_schmid_reduce_observed_scene_to_flat_color_value_edge_shapes` broadens the flat-shape read to the whole visual field: temporarily suppress object names and compare adjoining shapes by placement, size, color/value, and edge before restoring structural interpretation where it helps.
+
+`VAR_hammond_crop_to_local_segment_to_suppress_semantic_bias` uses tight spatial isolation as a perceptual reset: read the framed segment first as local shape-and-line relationships, then restore semantic and structural context to verify the result.

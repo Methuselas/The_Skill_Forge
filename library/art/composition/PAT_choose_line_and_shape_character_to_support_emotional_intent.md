@@ -42,6 +42,20 @@ variants:
   when_not_to_use: Do not treat triangle, point, or base shapes as fixed emotional symbols; judge the effect in the actual
     composition.
   absorbed_from_object_id: none
+- variant_id: VAR_stanchfield_stage_mood_with_figure_ground_dominance_and_silhouette
+  variant_name: Stage Mood With Figure-Ground Dominance and Silhouette
+  variant_basis: emphasis
+  difference_from_foundation: Adds a staging test that carries emotional intent into the balance between positive figure mass and surrounding negative space, then checks whether the mood and attitude still read when the figure is reduced to silhouette.
+  when_to_use: Use when pose, framing, and background shape can strengthen whether a character feels threatened, dominant, confined, triumphant, withdrawn, or otherwise emotionally situated in the frame.
+  when_not_to_use: Do not treat positive or negative dominance, diagonals, spirals, verticals, or other shape families as fixed emotional symbols; verify the effect in the actual scene.
+  absorbed_from_object_id: none
+- variant_id: VAR_whitaker_modulate_character_shape_language_with_acting_mood
+  variant_name: Modulate Character Shape Language With Acting Mood
+  variant_basis: context
+  difference_from_foundation: Applies emotional shape language temporarily inside an animated performance so the same character can become softer, sharper, more compressed, expanded, spiky, or otherwise shape-biased as the acting mood changes without losing identity or construction.
+  when_to_use: Use when a character's current emotional state benefits from stronger shape caricature than pose and facial expression alone provide.
+  when_not_to_use: Do not turn curved, angular, compressed, expanded, or spiky shapes into a fixed emotion dictionary, and do not deform the character so far that identity or structural coherence is lost.
+  absorbed_from_object_id: none
 ---
 # Choose Line and Shape Character to Support Emotional Intent
 
@@ -73,3 +87,7 @@ variants:
 Loomis's “relationship of line to emotional response” plate groups circles, ovals, spirals, radiating structures, triangles, formal divisions, irregular subdivisions, curves, and angular arrangements with differing emotional associations. The transferable capability is not the plate's period-specific one-to-one labels; it is the design decision to make the dominant line-and-shape character participate in the intended emotional read, then test that association in context.
 
 `VAR_guptill_orient_group_mass_for_repose_or_instability` auditions the support and balance of the grouped silhouette as one lever for calm, motion, or precariousness without turning shape types into fixed emotional symbols.
+
+`VAR_stanchfield_stage_mood_with_figure_ground_dominance_and_silhouette` adds figure-ground staging to the same principle. Use positive/negative dominance and silhouette readability to reinforce the intended mood while continuing to judge every shape association in context rather than as a universal symbol dictionary.
+
+`VAR_whitaker_modulate_character_shape_language_with_acting_mood` carries the same principle into a changing animated performance. The character may temporarily bias toward softer curves, sharper straights, compression, expansion, spikes, or another useful shape tendency to amplify the current acting state, then return toward the baseline design as the mood changes. Preserve identity and judge the association in context rather than treating any shape as a universal emotional code.

@@ -94,3 +94,6 @@ This Pattern supersedes the earlier D'Amelio VP-spacing-only card. *Viewpoints* 
 `VAR_extreme_field_projection_swap` remains a bounded variant under the conditions recorded in its variant metadata.
 
 `VAR_one_look_edge_distortion_diagnostic` remains a bounded variant under the conditions recorded in its variant metadata.
+
+- Use camera distance and lens/projection behavior narratively: a close wide setup exaggerates near/far size differences and depth, while a distant long setup compresses apparent depth and relative scale.
+- At very low viewpoints, treat ground contacts and actual ground-plane spacing as critical depth evidence; apparent gaps higher in the frame can be misleading.

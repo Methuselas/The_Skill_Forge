@@ -94,6 +94,13 @@ variants:
   when_not_to_use: Do not reduce all observation to immediate production utility; broader study is still appropriate when
     exploration itself is the chosen learning goal.
   absorbed_from_object_id: none
+- variant_id: VAR_garcia_rehearse_watercolor_with_monochrome_wash_value_study
+  variant_name: Rehearse Watercolor With a Monochrome Wash Value Study
+  variant_basis: method_sequence
+  difference_from_foundation: Uses a small monochrome wash as a rehearsal for a planned watercolor so broad light, middle, and dark territories can be solved with line kept subordinate before color complexity is introduced.
+  when_to_use: Use when color and full subject complexity are hiding uncertainty in the large value and shape organization of a planned watercolor.
+  when_not_to_use: Do not use when the value organization is already trustworthy or when the actual study target is specifically hue, chroma, or another variable that monochrome deliberately removes.
+  absorbed_from_object_id: none
 ---
 # Define Study Target Before Choosing Scope, Medium, and Detail
 
@@ -146,3 +153,5 @@ A study is a designed diagnostic environment, not simply an unfinished artwork. 
 `VAR_dow_compare_diverse_exemplars_through_one_structural_question` adds cross-example structural comparison to study design. Hold the question steady while the surface form changes, then transfer the relation rather than copying a period style or decorative motif.
 
 `VAR_dow_anchor_observational_study_to_live_design_question` begins from a current design need rather than an arbitrary study subject. Observe the specific evidence the work is missing, then return it to the image and test whether it solves the live problem.
+
+`VAR_garcia_rehearse_watercolor_with_monochrome_wash_value_study` turns value planning into a miniature wash rehearsal: simplify the intended watercolor into broad light, middle, and dark territories, keep line secondary, build the wash from lighter toward darker values, then carry the accepted value/shape organization into color without assuming value alone guarantees the final painting.

@@ -1,0 +1,14 @@
+{
+  "origin": "first_party_source",
+  "generator_model": null,
+  "generated_at": "2026-08-24",
+  "prompt": "Live Work render used as negative anatomy/mechanics evidence; exact generation prompt is not required for the reusable failure claim.",
+  "source_renders": [],
+  "review": {
+    "verdict": "passed",
+    "reviewer": "MaDin expert review + GPT visual inspection",
+    "reviewed_at": "2026-08-24",
+    "method": "direct visual inspection of the supplied render",
+    "note": "The left leg remains connected and terminates in a foot, but the knee/lower-leg relationship is reversed relative to ordinary human mechanics. This is suitable negative evidence that endpoint continuity alone is insufficient."
+  }
+}

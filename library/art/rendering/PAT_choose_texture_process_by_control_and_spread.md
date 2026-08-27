@@ -27,7 +27,14 @@ reference:
   author: Gottfried Bammes
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_barber_tilt_support_to_control_gravity_driven_wash_flow
+  variant_name: Tilt Support to Control Gravity-Driven Wash Flow
+  variant_basis: medium
+  difference_from_foundation: Makes support angle an intentional control variable for fluid watercolor passages, using back-and-forth redistribution to even a field, one-way tilt to create visible directional flow, and counter-tilt to oppose a run that exceeds the target.
+  when_to_use: Use when a broad or graded wash benefits from gravity-driven redistribution or when a directional run should remain visible as part of the passage.
+  when_not_to_use: Do not tilt by default when the passage needs locally stationary pooling, crisp dry-ground control, or a flow direction that gravity would fight; return the support to a stable position once the intended movement has been reached.
+  absorbed_from_object_id: none
 ---
 
 # Choose Texture Process by Control and Spread
@@ -63,3 +70,5 @@ variants: []
 
 ## Notes
 The useful decision is not that one named medium belongs to one named texture. The source demonstrates a continuum: dry-ground pen gives definition; sprayed or damp grounds make ink spread from fuzzy to velvety; half-dry opaque paint gives rapid roughness with more control; wet-on-wet watercolor gives softness at the cost of predictability; a loaded brush on dry paper can move from broad shape to fine line through pressure, trailing, and lift. This Pattern keeps that control-versus-spread tradeoff portable instead of turning the examples into fixed animal-texture recipes. Section 9.3 reinforces the same principle from the opposite direction: chance effects from running ink can be welcomed as texture, but they remain useful only while the form stays articulated enough to read. Later inking examples extend that logic to deliberately stochastic marks: vary placement and orientation when reusing a stamp-like source so the process does not expose itself as a repeating tile, and consider carving light texture from a dark field when a subtractive route produces the target transition more directly.
+
+`VAR_barber_tilt_support_to_control_gravity_driven_wash_flow` adds support orientation to that control system for fluid watercolor. Tilt can work in an evening mode, redistributing a flat or gradated field; in a directional mode, letting gravity remain visible as a run; or in a recovery mode, counter-tilting when the flow exceeds the target. Return the support to a stable position once the desired movement is reached rather than making tilt a universal watercolor setup.

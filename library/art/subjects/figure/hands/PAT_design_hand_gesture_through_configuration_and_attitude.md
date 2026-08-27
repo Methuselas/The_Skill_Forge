@@ -37,12 +37,14 @@ variants: []
 
 ## Pattern Rule
 **IF** a hand must communicate meaning rather than merely perform a physical task
-**THEN** design the message through the combined configuration of the digits, palm facing, projection, and degree of tension; treat small positional changes as potentially meaningful changes in the gesture
+**THEN** design the message through the combined configuration of the wrist, digits, palm facing, projection, and degree of tension; treat small positional changes as potentially meaningful changes in the gesture
 **ELSE** use ordinary functional or structural hand construction without forcing symbolic emphasis
 
 ## Do
+- Establish the wrist attitude early when its angle or continuity with the forearm materially changes the hand's expression.
 - Identify the dominant communicative digit or digit group before refining contour.
 - Use palm orientation and projection to strengthen or soften the gesture's attitude.
+- Let wrist, palm, and major digit group form one expressive phrase rather than designing the fingers independently of the forearm-hand transition.
 - Let tension, extension, curl, or hesitation change the emotional quality of the same basic configuration.
 - Keep the hand readable as a whole silhouette and internal rhythm rather than relying on tiny anatomical detail.
 - Use culturally specific signs only when their intended meaning is actually known in the context of the work.
@@ -52,9 +54,10 @@ variants: []
 - Copy a symbolic hand sign from the source as though it were a timeless anatomy rule.
 - Separate gesture from arm direction and hand attitude when those elements materially change the reading.
 - Add expressive finger variation that contradicts the intended message.
+- Try to rescue an emotionally neutral or contradictory wrist by decorating the fingers.
 
 ## Checklist
-If the intended meaning disappears when the hand is reduced to its major digit grouping, palm attitude, and directional thrust, the gesture is probably depending too heavily on detail instead of design.
+If the intended meaning disappears when the hand is reduced to wrist attitude, palm attitude, major digit grouping, and directional thrust, the gesture is probably depending too heavily on detail instead of design.
 
 ## Notes
-Hand expression comes from the coordinated attitude of palm, thumb, and digit group rather than from isolated finger flourishes.
+Hand expression comes from the coordinated attitude of wrist, palm, thumb, and digit group rather than from isolated finger flourishes. Stanchfield's hand examples make the wrist a first-order expressive control: raising, dropping, flexing, or relaxing it can change the emotional attitude before finger detail changes much at all.

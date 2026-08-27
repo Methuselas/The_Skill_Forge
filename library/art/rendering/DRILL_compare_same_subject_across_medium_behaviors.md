@@ -53,16 +53,19 @@ Learn to select a medium by its native edge, spread, broken-mark, pressure, and 
 Choose one compact subject and hold its construction, viewpoint, and lighting constant. Use three media or materially different tool behaviors that make distinct kinds of marks.
 
 ## Instructions
-1. Make three equal-size copies of the same simple mass so construction and scale stay constant while only the texture process changes.
-2. On the first copy, work on a dry ground with a stable point or brush. Keep the edges comparatively controlled and test how little information is needed to imply the surface.
-3. On the second copy, reduce the load or use half-dry opaque paint so broken paper and interrupted marks create a rougher texture. Keep the broken marks subordinate to the large form.
-4. On the third copy, damp or mist the ground before applying a fluid medium. Let part of the edge spread naturally instead of trying to steer every branch or bloom.
-5. If using a brush, make one broad stroke, one full-length stroke, and one fine stroke with the same brush by changing pressure, trailing, and lift. Note whether the brush is too large or too small for the scale of the study.
-6. When line behavior is the variable, make a matched ink-line comparison on the same compact passage: one version with a variable-width brush-like behavior and one with a harder pen-like behavior. Compare usable width range, taper, edge character, consistency, and how readily each route moves between delicate and bold statements.
-7. Compare the results at thumbnail size. Write one sentence for each: what texture or line character it implies, what control it gives up, and what it does more efficiently than the alternatives.
-8. Choose the strongest route and make one fresh final patch or small study without first drawing a detailed preliminary version in a different medium.
+1. Before drawing the subject, calibrate each unfamiliar medium/tool/support combination with a compact behavior strip: test practical maximum intensity or coverage, a light-to-strong range using the medium's native control, one layered or interleaved color interaction, and any ground response that will remain visible in the final work.
+   - When watercolor or another fluid wash medium is being calibrated, repeat a small matched passage on saturated/shiny, damp, and dry support states while holding the pigment family broadly stable; compare spread, dilution, edge containment, blending, gravity response, and the useful timing window.
+2. Make three equal-size copies of the same simple mass so construction and scale stay constant while only the texture process changes.
+3. On the first copy, work on a dry ground with a stable point or brush. Keep the edges comparatively controlled and test how little information is needed to imply the surface.
+4. On the second copy, reduce the load or use half-dry opaque paint so broken paper and interrupted marks create a rougher texture. Keep the broken marks subordinate to the large form.
+5. On the third copy, damp or mist the ground before applying a fluid medium. Let part of the edge spread naturally instead of trying to steer every branch or bloom.
+6. If using a brush, make one broad stroke, one full-length stroke, and one fine stroke with the same brush by changing pressure, trailing, and lift. Note whether the brush is too large or too small for the scale of the study.
+7. When line behavior is the variable, make a matched ink-line comparison on the same compact passage: one version with a variable-width brush-like behavior and one with a harder pen-like behavior. Compare usable width range, taper, edge character, consistency, and how readily each route moves between delicate and bold statements.
+8. Compare the results at thumbnail size. Write one sentence for each: what texture or line character it implies, what control it gives up, and what it does more efficiently than the alternatives.
+9. Choose the strongest route and make one fresh final patch or small study without first drawing a detailed preliminary version in a different medium.
 
 ## Success Check
+- The calibration strip reveals each candidate route's usable intensity, controllable range, layering behavior, and ground interaction before the subject comparison begins.
 - The three studies differ because of medium behavior, not because the underlying animal mass changed.
 - At least one soft or irregular treatment uses controlled surrender of edge precision rather than accidental mess.
 - The chosen final route implies the target coat or skin quality with fewer literal marks than a hair-by-hair or crack-by-crack copy.
@@ -77,5 +80,6 @@ Choose one compact subject and hold its construction, viewpoint, and lighting co
 
 ## Notes
 
+A short calibration pass prevents the comparison from confusing unfamiliarity with incapability. Measure what each candidate route can actually do before asking it to solve the subject, especially when pressure, mark density, dilution, load, layering, or visible ground materially changes the result.
 
 `VAR_schmid_remove_familiar_tool_to_force_alternate_handling_language` turns tool restriction into a discovery exercise: hold the subject and visual goal stable, remove the habitual primary route, and compare the new edge, mass, stroke, thickness, and simplification strategies that the alternate handling forces.

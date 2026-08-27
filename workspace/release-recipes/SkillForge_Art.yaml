@@ -25,6 +25,7 @@ modules:
 - art/rendering
 - art/subjects/animals
 - art/subjects/animals/gesture-locomotion
+- art/subjects/animation
 - art/subjects/figure
 - art/subjects/figure/anatomy
 - art/subjects/figure/construction

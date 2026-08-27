@@ -85,3 +85,5 @@ Produce a cheap, rough picture proposition that lets the user judge the intended
 Stage 0 is a rough idea, not a miniature final. It should show enough of the basic composition to let the viewer imagine how the finished image could work while leaving construction, mass, detailed form, materials, texture, and polish unresolved.
 
 When the host always surfaces generated images immediately, an invalid over-rendered or multi-step artifact cannot be hidden after the fact. Mark it invalid, do not treat it as a legitimate Stage 0 revision or anchor, and retry the same step.
+
+- Add a narrative-purpose gate before accepting a Stage 0 candidate: a rough must not survive merely because it is visually different or attractive; it must serve the shot brief, mood, information priority, and audience direction.

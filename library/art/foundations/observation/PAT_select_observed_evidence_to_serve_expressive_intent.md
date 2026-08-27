@@ -74,6 +74,17 @@ variants:
   when_not_to_use: Do not weaken a supporting element below the level required for convincing structure, likeness, or the
     assignment.
   absorbed_from_object_id: none
+- variant_id: VAR_mattesi_commit_to_one_observational_reaction_and_push_it
+  variant_name: Commit to One Observational Reaction and Push It
+  variant_basis: method_sequence
+  difference_from_foundation: Derives the expressive purpose from a specific immediate reaction to the observed subject, then
+    commits selection, proportion, shape, force, line, simplification, and optional exaggeration to that one pictorial opinion
+    while preserving enough structure and identity for the interpretation to remain grounded in the subject.
+  when_to_use: Use when observation is accurate but neutral, when later correction keeps flattening the initial idea, or when
+    several legitimate readings of the same subject need to be explored as distinct studies rather than averaged together.
+  when_not_to_use: Do not invent a reaction unsupported by the subject, and do not push an interpretation past the point where
+    required likeness, structure, weight, attachment, or assignment-critical facts cease to read.
+  absorbed_from_object_id: none
 ---
 # Select Observed Evidence to Serve Expressive Intent
 
@@ -114,3 +125,5 @@ Observation supplies more information than most images need at equal strength. T
 `VAR_schmid_previsualize_result_as_painted_relationships` establishes a rough pictorial target before execution, while `VAR_schmid_choose_dominant_visual_element_and_subordinate_the_rest` decides which visual element carries the main attraction. For selective recomposition, difficulty alone is not a design reason: `VAR_guptill_recompose_secondary_reference_elements_with_plausible_changes` remains bounded by the picture's declared purpose and by the plausibility of the altered result.
 
 `VAR_schmid_previsualize_result_as_painted_relationships` treats the target as a continuity reference rather than a rigid contract. If the target intentionally changes, re-baseline it consciously; otherwise compare ongoing work against the active target so completion and correction are not judged against unnoticed drift.
+`VAR_mattesi_commit_to_one_observational_reaction_and_push_it` begins one decision earlier than ordinary expressive selection: identify the particular observed fact or relationship that creates the strongest immediate reaction, declare that as the study's pictorial opinion, and keep later marks accountable to it. The reaction can be pushed through proportion, shape, force, line, simplification, or selective omission; exaggeration is optional, not the definition of the method. A different study of the same subject may legitimately begin from a different source-grounded reaction. The failure to avoid is either arbitrary invention unsupported by observation or academic correction that silently neutralizes the chosen opinion.
+

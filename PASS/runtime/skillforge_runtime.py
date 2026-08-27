@@ -369,10 +369,13 @@ def _audit_evidence_requirements(
         required_true = [str(x) for x in requirement.get("required_true_fields") or []]
         status_fields = requirement.get("required_status_fields") or {}
         equal_pairs = requirement.get("equal_integer_pairs") or []
+        equal_string_pairs = requirement.get("equal_string_pairs") or []
         if not isinstance(status_fields, dict):
             raise ValueError(f"{requirement_id}: required_status_fields must be a mapping")
         if not isinstance(equal_pairs, list):
             raise ValueError(f"{requirement_id}: equal_integer_pairs must be a list")
+        if not isinstance(equal_string_pairs, list):
+            raise ValueError(f"{requirement_id}: equal_string_pairs must be a list")
 
         seen_ids: set[str] = set()
         for instance_index, instance in enumerate(instances):
@@ -414,6 +417,23 @@ def _audit_evidence_requirements(
                 ):
                     errors.append(
                         f"{requirement_id}: {label} expected {expected_field}={expected} but observed {observed_field}={observed}"
+                    )
+            for pair in equal_string_pairs:
+                if not isinstance(pair, list) or len(pair) != 2:
+                    raise ValueError(f"{requirement_id}: each equal_string_pairs entry must contain two fields")
+                expected_field, observed_field = str(pair[0]), str(pair[1])
+                expected = instance.get(expected_field)
+                observed = instance.get(observed_field)
+                for field, value in ((expected_field, expected), (observed_field, observed)):
+                    if not isinstance(value, str) or not value.strip():
+                        errors.append(f"{requirement_id}: {label}.{field} must be a non-empty string")
+                if (
+                    isinstance(expected, str) and expected.strip()
+                    and isinstance(observed, str) and observed.strip()
+                    and expected.strip() != observed.strip()
+                ):
+                    errors.append(
+                        f"{requirement_id}: {label} expected {expected_field}={expected!r} but observed {observed_field}={observed!r}"
                     )
     return active_requirements, errors
 
@@ -562,6 +582,12 @@ def doctor(profile: dict[str, Any], library: Path) -> list[str]:
                     for pair in pairs
                 ):
                     problems.append(f"{where}.equal_integer_pairs must contain two-field string lists")
+                string_pairs = requirement.get("equal_string_pairs") or []
+                if not isinstance(string_pairs, list) or any(
+                    not isinstance(pair, list) or len(pair) != 2 or not all(isinstance(field, str) for field in pair)
+                    for pair in string_pairs
+                ):
+                    problems.append(f"{where}.equal_string_pairs must contain two-field string lists")
     for index, rule in enumerate(profile.get("risk_rules") or []):
         if not isinstance(rule, dict):
             continue

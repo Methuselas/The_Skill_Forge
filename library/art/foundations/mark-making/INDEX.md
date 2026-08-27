@@ -10,3 +10,4 @@
   - Variants: `Audition Multiple Inking Systems on One Fixed Drawing` (method_sequence); `Compare Multiple Finishers on Identical Pencils` (method_sequence).
 - [Practice Deliberate Brush-Line Control](DRILL_practice_deliberate_brush_line_control.md) - drill; 1 skeleton. Tags: brushwork, deliberate_practice, line_control, mark_making, whole_arm.
 - [Use Subtractive and Manipulative Marks as Drawing Tools](PAT_use_subtractive_and_manipulative_marks_as_drawing_tools.md) - pattern; 3 rough. Tags: erasing, mark_making, smudging, subtractive_drawing, value.
+  - Variants: `Scratch Fine Lights From a Dense Colored-Pencil Layer` (medium); `Lift Watercolor by Matching Tool Moisture to Wash State` (medium).

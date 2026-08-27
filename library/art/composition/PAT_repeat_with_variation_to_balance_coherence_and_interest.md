@@ -57,6 +57,13 @@ variants:
   when_not_to_use: Do not make the zones so different in motif language that the design loses family resemblance, or reverse
     polarity where readability or material constraints make the change counterproductive.
   absorbed_from_object_id: none
+- variant_id: VAR_whitaker_desynchronize_temporal_repeats_by_cycle_length_phase_and_shape
+  variant_name: Desynchronize Temporal Repeats By Cycle Length Phase And Shape
+  variant_basis: context
+  difference_from_foundation: Applies repetition-with-variation to animated cycles by varying loop duration, phase alignment, and selected shapes so repeated motion remains coherent without exposing a short mechanical repeat.
+  when_to_use: Use when naturally or economically repeated motion must run long enough that identical cycles, synchronized layers, or recurring shapes would become obvious to the viewer.
+  when_not_to_use: Do not hide repetition when exact unison or overt mechanical periodicity is the intended effect, and do not add random variation that destroys the phenomenon's recognizable motion logic.
+  absorbed_from_object_id: none
 ---
 
 # Repeat With Variation to Balance Coherence and Interest
@@ -93,3 +100,5 @@ Dodson first develops repetition with variation through texture, then later trea
 `VAR_marvel_vary_panel_scale_and_viewpoint_across_sequence` applies the same recurrence-with-variation logic across sequential panels by varying shot scale and camera while preserving story continuity.
 
 `VAR_dow_differentiate_repeated_zones_through_value_polarity_or_motif_scale` keeps repeated regions related while giving them different hierarchy. A border and field, for example, can share motif logic yet separate through value reversal, scale change, or both instead of adding unrelated ornament.
+
+`VAR_whitaker_desynchronize_temporal_repeats_by_cycle_length_phase_and_shape` extends the same recurrence/variation decision into time. Keep compact loops when the motion is expected to be strictly periodic, but for smoke, fire, snow, crowds, or other long-running effects, vary cycle length, phase, or selected shapes so multiple layers do not realign on the same beat and expose the repeat.

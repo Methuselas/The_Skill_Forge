@@ -104,3 +104,7 @@ Turn story or brief material into a staged, drawable scene by solving the commun
 
 ## Notes
 Loomis's staging sequence moves from story understanding and plausible narrative inference to rough action, ground-plan arrangement, camera/eye-level testing, and small perspective studies before model photography or finish. His examples show that the first layout is temporary: figures are turned, regrouped, resized, and recomposed until the scene concentrates both story and design. The reusable procedure is to solve narrative, action, space, and camera in inexpensive representations before committing expensive reference and rendering work.
+
+- Before composing, narrow from whole-story tone to the specific job of this shot, then decide what the audience should feel or understand next before choosing treatment.
+- Treat every visible element as competing for a limited information budget: keep indispensable story evidence, subordinate or crop what does not serve the beat, and do not let attractive detail outrank the scene purpose.
+- When the same underlying scene supports multiple messages, reframe by changing crop, scale, viewpoint, emphasis, or omission rather than assuming one camera solution is inherently correct.

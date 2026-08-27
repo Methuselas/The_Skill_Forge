@@ -256,6 +256,99 @@ Generate one finished full-character image."""
         self.assertIn("gross hand/contact intent", result["risk_checks"])
         self.assertNotIn("digit count for every visible hand", result["risk_checks"])
 
+    def test_action_pose_activates_typed_limb_chain_and_joint_mechanics_checks(self):
+        direct = runtime.resolve_task(
+            PROFILE, LIBRARY, "Draw a full-body human in an acrobatic action pose."
+        )
+        checks = set(direct["risk_checks"])
+        self.assertIn("typed root-to-endpoint trace for every materially represented articulated limb", checks)
+        self.assertIn("anatomical identity separated from screen location for every audited limb", checks)
+        self.assertIn("joint mechanics for every materially visible human or humanlike limb", checks)
+        self.assertIn("plausible joint range classification for every audited limb", checks)
+
+        staged0 = runtime.resolve_task(
+            PROFILE,
+            LIBRARY,
+            "MODE Staged. Draw a full-body human in an acrobatic action pose.",
+            current_stage=0,
+        )
+        stage0_checks = set(staged0["risk_checks"])
+        self.assertIn("gross limb-role and endpoint intent", stage0_checks)
+        self.assertNotIn(
+            "typed root-to-endpoint trace for every materially represented articulated limb",
+            stage0_checks,
+        )
+
+    def test_limb_chain_evidence_rejects_endpoint_swap_and_impossible_range(self):
+        resolution = runtime.resolve_task(
+            PROFILE, LIBRARY, "Draw a full-body human in an acrobatic action pose."
+        )
+        base = {
+            "checks": {
+                "instruction_fidelity_check": True,
+                "objective_check": True,
+                "risk_region_inventory_check": True,
+                "local_risk_inspection_check": True,
+            },
+            "risk_checks": {name: True for name in resolution["risk_checks"]},
+        }
+
+        def limb_instance(**overrides):
+            item = {
+                "id": "left_leg",
+                "anatomical_role": "leg",
+                "anatomical_side_or_body_position": "left",
+                "screen_location": "lower-right",
+                "expected_origin_type": "hip",
+                "observed_origin_type": "hip",
+                "expected_endpoint_type": "foot",
+                "observed_endpoint_type": "foot",
+                "ordered_chain_summary": "hip -> thigh -> knee -> lower_leg -> ankle -> foot",
+                "mechanics_basis": "patellar/anterior plane and posterior knee closing relationship inspected",
+                "range_class": "extreme_but_plausible",
+                "root_trace_inspected": True,
+                "chain_order_inspected": True,
+                "joint_mechanics_inspected": True,
+                "evidence_status": "sufficient",
+                "endpoint_identity_status": "pass",
+                "mechanics_status": "pass",
+            }
+            item.update(overrides)
+            return item
+
+        complete = dict(base)
+        complete["evidence"] = {
+            "visible_limb_chains": {
+                "declared_visible_count": 1,
+                "instances": [limb_instance()],
+            }
+        }
+        result = runtime.verify_completion(resolution, complete)
+        self.assertTrue(result["passed"])
+        self.assertIn("visible_limb_chain_mechanics", result["active_evidence_requirements"])
+
+        swapped = dict(base)
+        swapped["evidence"] = {
+            "visible_limb_chains": {
+                "declared_visible_count": 1,
+                "instances": [limb_instance(observed_endpoint_type="hand")],
+            }
+        }
+        result = runtime.verify_completion(resolution, swapped)
+        self.assertFalse(result["passed"])
+        self.assertTrue(any("expected expected_endpoint_type='foot'" in x for x in result["evidence_errors"]))
+
+        impossible = dict(base)
+        impossible["evidence"] = {
+            "visible_limb_chains": {
+                "declared_visible_count": 1,
+                "instances": [limb_instance(range_class="impossible")],
+            }
+        }
+        result = runtime.verify_completion(resolution, impossible)
+        self.assertFalse(result["passed"])
+        self.assertTrue(any("range_class must be one of" in x for x in result["evidence_errors"]))
+
     def test_completion_audit_reports_missing_required_or_risk_checks(self):
         resolution = runtime.resolve_task(
             PROFILE, LIBRARY, "Draw her pointing a gun toward the camera with one hand visible."

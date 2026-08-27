@@ -32,7 +32,14 @@ reference:
   author: Gottfried Bammes
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_barber_flatten_animal_to_silhouette_and_color_pattern_when_volume_is_secondary
+  variant_name: Flatten Animal to Silhouette and Color Pattern When Volume Is Secondary
+  variant_basis: emphasis
+  difference_from_foundation: Treats a strongly patterned animal as a clear silhouette containing a few broad, accurately placed color regions when silhouette and local-color design already carry identity, deliberately reducing internal modeling so the color-pattern arrangement becomes the dominant study target.
+  when_to_use: Use when the viewpoint presents the animal clearly, silhouette and broad local-color pattern already carry identity, and the study is meant to emphasize decorative or color-pattern organization rather than anatomical volume.
+  when_not_to_use: Do not use when bulk, foreshortening, articulation, three-dimensional turn, support mechanics, or rapid action is the important read; preserve enough structure that the simplified pattern still belongs to the intended animal.
+  absorbed_from_object_id: none
 ---
 
 # Select One Dominant Quality for an Animal Study
@@ -70,3 +77,5 @@ Bammes calls the qualities that first seize the artist's attention **impressiona
 Section 1.2 immediately places a structural limit on this freedom. A selective study still benefits from enough anatomy to perceive the animal as one articulated entity. Choosing a dominant quality changes emphasis, not the requirement that the parts belong to the same constructed body.
 
 This animal-specific selection rule now sits under `PAT_select_observed_evidence_to_serve_expressive_intent`: the portable foundation governs choosing observed evidence by expressive purpose, while this specialization keeps Bammes's animal-specific decision about selecting one impressional quality from a living subject.
+
+`VAR_barber_flatten_animal_to_silhouette_and_color_pattern_when_volume_is_secondary` adds a bounded color-pattern route for subjects whose identity can be carried by silhouette plus a few broad local-color regions. It is not a general instruction to flatten animal form: the variant is only appropriate when volume, articulation, support mechanics, or action are secondary to the chosen pattern statement.

@@ -146,3 +146,5 @@ The existing Repeat With Variation Pattern is already one strong example of this
 `VAR_loomis_straddle_warm_and_cool_color` applies the same logic to temperature: keep both warm and cool tendencies perceptible, allow one to dominate, and use the other as active relational contrast rather than flattening both into a midpoint.
 
 `VAR_dow_bridge_abrupt_directional_opposition_with_transition` adds a middle relation between opposing directions. Curves, obliques, or implied links can soften an unwanted collision while keeping both principal directions legible.
+
+- When the story contains a meaningful opposition, let formal structure reinforce it through order/chaos, simple/complex, big/small, angular/curved, or another relevant pair. The contrast should serve the narrative conflict rather than function as generic decoration.

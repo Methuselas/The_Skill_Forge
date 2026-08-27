@@ -6,4 +6,4 @@
 
 - [Covers](covers/INDEX.md) - 1 object(s).
 - [Inking](inking/INDEX.md) - 1 object(s).
-- [Page Construction](page-construction/INDEX.md) - 1 object(s).
+- [Page Construction](page-construction/INDEX.md) - 6 object(s).

@@ -36,6 +36,13 @@ variants:
   when_not_to_use: Do not impose one heroic proportion formula on every character; preserve the role-defining exception when
     a shorter, larger-headed, narrower, or otherwise different build carries the design.
   absorbed_from_object_id: none
+- variant_id: VAR_stanchfield_caricature_behavior_and_relationships_not_just_features
+  variant_name: Caricature Behavior and Relationships, Not Just Features
+  variant_basis: emphasis
+  difference_from_foundation: Extends selective intensification beyond isolated facial or proportional traits to the characteristic behavior and relationships that make the subject specific, allowing posture, lean, reach, spacing, opposition, prop use, interaction, and other story-bearing relations to carry the caricature while preserving identity and coherent mechanics.
+  when_to_use: Use when recognizable features are present but the performance still feels generic, or when the most distinctive quality of the subject is behavioral, relational, or action-based rather than a single anatomical feature.
+  when_not_to_use: Do not exaggerate every element at once, distort relationships until identity or mechanics collapse, or turn a restrained story beat into broad comedy merely because caricature is available.
+  absorbed_from_object_id: none
 ---
 
 # Intensify Distinguishing Characteristics Without Losing Structure
@@ -50,18 +57,23 @@ variants:
 - Push a small set of related traits rather than scaling every part equally.
 - Compare the intensified version with the subject's underlying attachments, balance, and large-form relationships so identity grows without structural collapse.
 - Use the method playfully in studies before committing it to a finished design.
+- When the subject's most distinctive quality is behavioral or relational, selectively intensify the characteristic posture, lean, reach, spacing, opposition, prop use, or interaction instead of assuming caricature must live in facial features alone.
 
 ## Don't
 - Do not distort indiscriminately when you cannot say what makes the subject distinctive.
 - Do not confuse exaggeration with abandoning likeness; selective emphasis should preserve recognition or designed identity.
 - Do not force intensification when the task requires strict observational accuracy.
+- Do not exaggerate every behavioral, structural, and environmental cue simultaneously; choose the few relations that make the subject or moment more specifically itself.
 
 ## Checklist
 - The exaggeration is traceable to an observed or intentionally designed characteristic.
 - Unchanged structures still support the altered proportions.
 - The result reads as more specifically this subject rather than generically distorted.
+- If behavior or interaction is being caricatured, the pushed relationship still preserves the intended identity, action, and mechanics.
 
 ## Notes
 Dodson describes intensifying as drawing what is seen "more so": round forms rounder, bony angles bonier, and characteristic proportions more pronounced. This general foundation sits above subject-specific caricature methods for heads, animals, characters, creatures, and other designed forms.
 
 Marvel variant note: `VAR_marvel_exaggerate_role_defining_character_structure` applies the same foundation to superhero/comics role design while explicitly preserving exceptions to any single heroic proportion chart.
+
+Stanchfield variant note: `VAR_stanchfield_caricature_behavior_and_relationships_not_just_features` broadens the target of caricature from features alone to characteristic behavior and relationships. A lean, reach, spacing choice, prop relationship, or interaction can be the thing selectively intensified when that is what most strongly identifies the character or story moment.

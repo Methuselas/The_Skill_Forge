@@ -4,22 +4,28 @@
 
 ## Objects
 
+- [Bridge Spatial Transitions With Shared Geographic Anchor](PAT_bridge_spatial_transitions_with_shared_geographic_anchor.md) - pattern; 0 design. Tags: continuity, geography, storyboarding, transition.
+- [Build Character Personality From Coherent Shape Language](PAT_build_character_personality_from_coherent_shape_language.md) - pattern; 0 design. Tags: character_design, personality, shape_language, silhouette.
 - [Build Creative Tension by Straddling Opposites](PAT_build_creative_tension_by_straddling_opposites.md) - pattern; 0 design. Tags: ambiguity, balance, composition, contrast, tension.
   - Variants: `Straddle Simplicity and Complexity` (emphasis); `Straddle Clarity and Ambiguity` (emphasis); `Straddle Balance and Imbalance` (emphasis); `Straddle Active and Passive Shape Behavior` (emphasis); `Balance Unequal Masses by Visual Weight and Distance` (emphasis); `Straddle Warm and Cool Color` (emphasis); `Bridge Abrupt Directional Opposition With a Transitional Relation` (method_sequence).
+- [Build Tension With Audience Character Knowledge Gap](PAT_build_tension_with_audience_character_knowledge_gap.md) - pattern; 0 design. Tags: dramatic_irony, intercutting, suspense, visual_storytelling.
 - [Characterize Story Figures Through Specific Behavior and Evidence](PAT_characterize_story_figures_through_specific_behavior_and_evidence.md) - pattern; 0 design. Tags: behavior, characterization, costume, figure, props, reference, storytelling.
-  - Variants: `Choose Costume for Character and Value-Mass Role` (constraint); `Carry Emotion Through the Whole Pose and Hands` (emphasis); `Change Emotional Intensity Through Muscular Tension Without Changing the Basic Pose` (emphasis).
+  - Variants: `Choose Costume for Character and Value-Mass Role` (constraint); `Carry Emotion Through the Whole Pose and Hands` (emphasis); `Change Emotional Intensity Through Muscular Tension Without Changing the Basic Pose` (emphasis); `Preserve Character Mood Through Pose-to-Pose Motion` (context); `Derive Physical Action From Mood, Personality, and Attitude` (context); `Define Character Action With Verb and Adverb` (method_sequence); `Infer Character From Multiple Observed Moments` (method_sequence).
 - [Choose Line and Shape Character to Support Emotional Intent](PAT_choose_line_and_shape_character_to_support_emotional_intent.md) - pattern; 0 design. Tags: composition, design, emotional_intent, line, mood, rhythm, shape_language.
-  - Variants: `Orient Group Mass for Repose or Instability` (emphasis).
+  - Variants: `Orient Group Mass for Repose or Instability` (emphasis); `Stage Mood With Figure-Ground Dominance and Silhouette` (emphasis); `Modulate Character Shape Language With Acting Mood` (context).
+- [Choose Shot Scale For Context Reaction Or Intimacy](PAT_choose_shot_scale_for_context_reaction_or_intimacy.md) - pattern; 0 design. Tags: camera, framing, shot_scale, storytelling.
 - [Choose Viewer Participation Through Character Address](PAT_choose_viewer_participation_through_character_address.md) - pattern; 0 design. Tags: fourth_wall, gaze, gesture, staging, storytelling, viewer_relationship.
 - [Choose Viewpoint to Strengthen the Story Effect](PAT_choose_viewpoint_to_strengthen_story_effect.md) - pattern; 0 design. Tags: camera, composition, staging, storytelling, viewpoint.
   - Variants: `Set Eye Level from Character or Power Relationship` (context); `Cant the Horizon to Increase Instability and Action` (emphasis); `Choose the View That Reveals the Product's Most Useful Information` (context); `Select Observed Viewpoint and Arrangement for Pictorial Intent` (context).
 - [Concentrate Contrast and Accents at the Focal Area](PAT_concentrate_contrast_and_accents_at_focal_area.md) - pattern; 3 rough. Tags: accents, composition, contrast, focal_point, hierarchy.
   - Variants: `Spend Observation and Detail by Focal Priority` (emphasis); `Reserve Peak Chroma Against Greyed Support Colors` (emphasis); `Build Focal Contrast With a Graded Surround` (method_sequence).
+- [Control Story Information With Conceal And Reveal](PAT_control_story_information_with_conceal_and_reveal.md) - pattern; 0 design. Tags: concealment, reveal, suspense, visual_storytelling.
 - [Crop Decisively to Reshape Figure-Ground Relationships](PAT_crop_decisively_to_reshape_figure_ground_relationships.md) - pattern; 0 design. Tags: composition, cropping, figure_ground, framing, intimacy.
   - Variants: `Keep a Revisable Frame With Outer Margin` (method_sequence); `Leave Sacrificial Crop Margin for Downstream Formatting` (constraint); `Treat Frame Proportion as a Compositional Variable, Not a Formula` (constraint).
 - [Define the Image's Story Job Before Visualizing](PAT_define_image_story_job_before_visualizing.md) - pattern; 0 design. Tags: communication, illustration, image_text, narrative, storytelling, suspense.
   - Variants: `Use the Illustration as an Entry Point to the Surrounding Message` (context); `Use the Cover as an Experience Promise Rather Than a Contents Inventory` (context); `Scale Emotional Cue Redundancy to the Desired Explicitness` (emphasis); `Explain a Novel Product With User-Scenario Context` (context).
 - [Design a Distance-Read Poster from Brief to Production-Ready Art](AP_design_distance_read_poster_from_brief_to_production_ready_art.md) - ap; 0 design. Tags: color_rough, large_format, layout, poster, production, readability.
+- [Design Character For Instant Silhouette Recognition](PAT_design_character_for_instant_silhouette_recognition.md) - pattern; 0 design. Tags: character_design, recognition, sequential_art, silhouette.
 - [Design Depth by Coordinating Spatial Cues](PAT_design_depth_by_coordinating_spatial_cues.md) - pattern; 0 design. Tags: atmosphere, composition, depth, perspective, spatial_hierarchy.
   - Variants: `Use Repeated Known-Size Anchors Across Depth` (method_sequence); `Separate Depth Planes With Simplification, Not Automatic Blur` (style).
 - [Design Lighting to Serve Subject, Mood, and Visual Intent](PAT_design_lighting_to_serve_subject_mood_and_visual_intent.md) - pattern; 0 design. Tags: cast_shadow, composition, lighting_design, mood, narrative_emphasis.
@@ -30,31 +36,49 @@
   - Variants: `Choose Background by Value Range and Depth Need` (constraint); `Anchor a Product Sketch With a Partial Background Field` (context).
 - [Enrich a Story Moment with Plausible Unstated Specifics](PAT_enrich_story_moment_with_plausible_unstated_specifics.md) - pattern; 0 design. Tags: illustration, inference, narrative, scene_design, specificity, storytelling.
   - Variants: `Imply the Off-Frame World Through Cast Evidence` (method_sequence); `Use Environmental Conditions as Sensory Narrative Evidence` (context).
+- [Escalate Sequence Intensity Through Progressive Compositional Contrast](PAT_escalate_sequence_intensity_through_progressive_compositional_contrast.md) - pattern; 0 design. Tags: contrast, escalation, sequence, storytelling.
+- [Establish World Tone And Story Conditions With Opening Shot](PAT_establish_world_tone_and_story_conditions_with_opening_shot.md) - pattern; 0 design. Tags: establishing_shot, storytelling, tone, worldbuilding.
 - [Extract and Transfer a Compositional Solution From Masterwork](DRILL_extract_and_transfer_compositional_solution_from_masterwork.md) - drill; 0 design. Tags: abstraction, analysis, composition, design_practice, master_study, transfer.
 - [Generate Composition Variations Inside a Fixed Frame](DRILL_generate_composition_variations_inside_fixed_frame.md) - drill; 0 design. Tags: composition, deliberate_practice, frame, shape_design, spacing, variation.
   - Variants: `Carry One Theme Across Changing Aspect Ratios` (constraint); `Recompose an Observed Scene From Its Essential Line Skeleton` (method_sequence); `Hold the Line Skeleton, Vary Which Lines Become Masses` (constraint); `Hold the Line Scheme, Remap Whole Areas Between Two Values` (constraint).
+- [Handoff Focus And Visual Weight Between Shots](PAT_handoff_focus_and_visual_weight_between_shots.md) - pattern; 0 design. Tags: continuity, editing, focal_point, storyboarding.
 - [Hunt Linear Compositions with Viewfinder Thumbnails](DRILL_hunt_linear_compositions_with_viewfinder_thumbnails.md) - drill; 0 design. Tags: composition, negative_space, observation, shape_design, thumbnails, viewfinder.
   - Variants: `Compare Multiple Crops of One Reference With Quick Value Trials` (method_sequence).
+- [Imply Large Numbers With Representative Visual Samples](PAT_imply_large_numbers_with_representative_visual_samples.md) - pattern; 0 design. Tags: composition, crowds, economy, repetition.
 - [Integrate Embedded Illustration with the Surrounding Layout](PAT_integrate_embedded_illustration_with_surrounding_layout.md) - pattern; 0 design. Tags: composition, hierarchy, illustration, layout, negative_space, page_design.
   - Variants: `Make the Title Primary on a Title-Led Cover or Jacket` (context); `Judge Lettering as a Tonal Mass Before Reading It as Text` (emphasis); `Group Explanatory Segments With Local Backplates` (context).
 - [Isolate and Recombine Depth Cues on One Scene](DRILL_isolate_and_recombine_depth_cues_on_one_scene.md) - drill; 0 design. Tags: atmosphere, composition, deliberate_practice, depth, spatial_cues.
+- [Motivate Camera Movement From Story Action Or Information](PAT_motivate_camera_movement_from_story_action_or_information.md) - pattern; 0 design. Tags: animation, camera_move, staging, storytelling.
+- [Precompose Locked Camera For All Required Action States](PAT_precompose_locked_camera_for_all_required_action_states.md) - pattern; 0 design. Tags: blocking, composition, locked_camera, storyboarding.
+- [Preserve Character Identity With Stable Visual Anchors](PAT_preserve_character_identity_with_stable_visual_anchors.md) - pattern; 0 design. Tags: character_design, continuity, identity, sequential_art.
+- [Preserve Readable Composition Through Camera Motion](PAT_preserve_readable_composition_through_camera_motion.md) - pattern; 0 design. Tags: camera_move, composition, continuity, storyboarding.
+- [Preserve Screen Geography With Axis Of Action](PAT_preserve_screen_geography_with_axis_of_action.md) - pattern; 0 design. Tags: 180_rule, continuity, screen_direction, storyboarding.
+- [Preserve Visual Tone And World Consistency Across Sequence](PAT_preserve_visual_tone_and_world_consistency_across_sequence.md) - pattern; 0 design. Tags: continuity, sequence, tone, visual_storytelling.
 - [Protect Critical Content from Physical Production Boundaries](PAT_protect_critical_content_from_physical_production_boundaries.md) - pattern; 0 design. Tags: composition, fabrication, large_format, production, seams, trim.
   - Variants: `Simplify Display Contours for Cutting, Support, and Stability` (constraint); `Adapt Applied Design to the Host Material and Surface` (medium).
 - [Recompose an Existing Layout as Value and Space Blocks](DRILL_recompose_existing_layout_as_value_and_space_blocks.md) - drill; 0 design. Tags: composition, design_practice, layout, negative_space, value_pattern.
+- [Reduce Composition To Abstract Value Shape Statement](PAT_reduce_composition_to_abstract_value_shape_statement.md) - pattern; 0 design. Tags: composition, shape, thumbnail, value.
 - [Reduce Master Compositions to Two-Value Mass Maps](DRILL_reduce_master_compositions_to_two_value_mass_maps.md) - drill; 0 design. Tags: composition, deliberate_practice, master_study, notan, simplification, value_pattern.
   - Variants: `Map Relief Through Two-Value Shadow Shapes` (medium).
+- [Reframe Same Scene To Change Narrative Message](PAT_reframe_same_scene_to_change_narrative_message.md) - pattern; 0 design. Tags: camera, composition, reframing, storytelling.
 - [Repeat With Variation to Balance Coherence and Interest](PAT_repeat_with_variation_to_balance_coherence_and_interest.md) - pattern; 0 design. Tags: composition, pattern, repetition, rhythm, variation.
-  - Variants: `Unify Disparate Elements With a Shared Texture Stroke` (emphasis); `Vary Panel Scale and Viewpoint Across a Sequence` (emphasis); `Differentiate Repeated Zones Through Value Polarity or Motif Scale` (method_sequence).
+  - Variants: `Unify Disparate Elements With a Shared Texture Stroke` (emphasis); `Vary Panel Scale and Viewpoint Across a Sequence` (emphasis); `Differentiate Repeated Zones Through Value Polarity or Motif Scale` (method_sequence); `Desynchronize Temporal Repeats By Cycle Length Phase And Shape` (context).
 - [Resolve Unintended Tangencies With Overlap or Separation](PAT_resolve_unintended_tangencies_with_overlap_or_separation.md) - pattern; 0 design. Tags: composition, framing, overlap, silhouette, tangency.
 - [Route Group Composition Through Directional Paths and Accents](PAT_route_group_composition_through_directional_paths_and_accents.md) - pattern; 0 design. Tags: accent, animal_drawing, composition, directional_flow, focal_hierarchy, group_composition, line_of_action, opposition, repetition.
-  - Variants: `Balance a Product Sheet With Active-Face Directions` (context).
+  - Variants: `Balance a Product Sheet With Active-Face Directions` (context); `Mass a Crowd as One Directional Entity Before Individuals` (method_sequence); `Prioritize Animated Group Motion By Story Focus And Depth` (context).
 - [Route Viewer Attention Through Planned Visual Paths](PAT_route_viewer_attention_through_planned_visual_paths.md) - pattern; 0 design. Tags: accent, animal_drawing, composition, directional_flow, focal_hierarchy, line_of_action, opposition, repetition.
   - Variants: `Frame the View With a Dominant Foreground Mass` (method_sequence); `Sequence Narrative Stops With Selective Focus` (method_sequence).
 - [Scale Visual Information to Viewing Time and Display Context](PAT_scale_visual_information_to_viewing_time_and_display_context.md) - pattern; 0 design. Tags: composition, display, illustration, readability, simplification, viewing_distance.
-  - Variants: `Reduce a Glance-Read Display to One Dominant Unit and Minimal Message` (constraint).
+  - Variants: `Reduce a Glance-Read Display to One Dominant Unit and Minimal Message` (constraint); `Scale Animation Acting to Final Viewing Distance` (context).
 - [Stage a Story Scene from Big Idea to Camera Rough](AP_stage_story_scene_from_big_idea_to_camera_rough.md) - ap; 0 design. Tags: action, camera, environment, illustration, staging, storytelling, thumbnailing.
+- [Stage Environmental Changes Along Camera Path To Track Mood](PAT_stage_environmental_changes_along_camera_path_to_track_mood.md) - pattern; 0 design. Tags: camera_move, continuity, environment, mood.
+- [Stage Interacting Characters as One Action-Reaction System](PAT_stage_interacting_characters_as_one_action_reaction_system.md) - pattern; 0 design. Tags: action_reaction, character_relationship, composition, group_composition, interaction, staging, storytelling.
 - [Test a Cover Rough in Competitive Display Context](DRILL_test_cover_rough_in_competitive_display_context.md) - drill; 0 design. Tags: composition, context_test, cover_design, hierarchy, iteration, thumbnail_read.
 - [Thumbnail the Same Scene Across Camera Angles](DRILL_thumbnail_same_scene_across_camera_angles.md) - drill; 0 design. Tags: camera, composition, storytelling, thumbnails, viewpoint.
+- [Treat Environment As Narrative Character](PAT_treat_environment_as_narrative_character.md) - pattern; 0 design. Tags: composition, environment, storytelling, worldbuilding.
+- [Use Big Medium Small For Hierarchy Rhythm And Depth](PAT_use_big_medium_small_for_hierarchy_rhythm_and_depth.md) - pattern; 0 design. Tags: big_medium_small, depth, hierarchy, rhythm.
+- [Use Negative Space As Active Story Shape](PAT_use_negative_space_as_active_story_shape.md) - pattern; 0 design. Tags: composition, negative_space, shape, storytelling.
+- [Use Subjective Pov To Control Viewer Knowledge](PAT_use_subjective_pov_to_control_viewer_knowledge.md) - pattern; 0 design. Tags: camera, pov, storytelling, viewer_knowledge.
 - [Use Thirds to Break Static Equal Divisions](PAT_use_thirds_to_break_static_equal_divisions.md) - pattern; 0 design. Tags: composition, design, proportion, thirds.
   - Variants: `Use Thirds Intersections as a Temporary Focal Scaffold` (emphasis); `Choose Symmetry Deliberately for Repose and Formal Completeness` (context).
 - [Visualize Unillustrated Story Passages as Small Scene Roughs](DRILL_visualize_unillustrated_story_passages_as_small_scene_roughs.md) - drill; 0 design. Tags: illustration, interpretation, narrative, prose_to_image, storytelling, thumbnails.

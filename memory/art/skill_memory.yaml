@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: art
-memory_version: 11
+memory_version: 12
 entries:
 - id: ART_MEM_001
   scope_type: topic
@@ -313,3 +313,54 @@ entries:
   evidence_events:
   - ART_EV_0018
   evidence_count: 1
+- id: ART_MEM_006
+  scope_type: topic
+  scope_id: limb_chain_mechanics
+  type: known_boundary
+  evidence_class: deterministic_contract
+  observation: >
+    A high-load acrobatic Work render preserved a visually connected left leg and a foot endpoint,
+    yet the knee/lower-leg relationship was reversed relative to ordinary human mechanics. The
+    artifact therefore demonstrated that attachment or endpoint continuity by itself does not
+    prove that a limb kept the correct anatomical chain identity or that its visible joints bend
+    legally.
+  diagnosis:
+    failure_layer: orchestration
+    hypothesis: >
+      The Art verification path checked limb continuity without requiring a typed root-to-endpoint
+      chain audit plus a separate view-independent joint-mechanics check, allowing a connected but
+      mechanically inverted limb to pass through a highly resolved render.
+  boundary: >
+    Verified on one extreme full-body human action render in Work. The canonical repair now adds
+    typed limb-chain identity, per-limb evidence, string equality for expected versus observed
+    origin/endpoint types, and human joint-mechanics auditing, but no post-repair retention or
+    transfer render has been completed yet. Nonhuman altered-joint architectures remain outside
+    this evidence claim.
+  confidence: provisional
+  status: monitoring
+  evidence_count: 1
+  evidence_events:
+  - ART_EV_0019
+  evidence_origin:
+  - user_feedback
+  - human_teaching
+  likely_owners:
+  - AP_audit_articulated_limb_identity_and_joint_mechanics
+  - PAT_preserve_articulated_limb_chain
+  - PAT_validate_human_limb_joint_mechanics_from_anatomical_surfaces
+  retrieval_cues:
+  - limb chain
+  - limb identity
+  - endpoint swap
+  - hand foot swap
+  - reversed knee
+  - reversed elbow
+  - joint mechanics
+  - action pose
+  - acrobatic
+  - foreshortening
+  - full body
+  - screen location
+  runtime_scope: Work full-production figure render
+  last_verified: '2026-08-24'
+

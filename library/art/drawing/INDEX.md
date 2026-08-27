@@ -4,5 +4,5 @@
 
 ## Topics
 
-- [Rendering](rendering/INDEX.md) - 6 object(s).
+- [Rendering](rendering/INDEX.md) - 7 object(s).
 - [Sketching](sketching/INDEX.md) - 17 object(s).

@@ -83,3 +83,5 @@ Hultgren first supplied the animal-motion owner through slow-motion deer sequenc
 `VAR_hultgren_find_extreme_animal_action_phases_in_slow_motion` preserves the animal-specific slow-motion route while keeping exact species and gait timing bounded to source evidence.
 
 `VAR_dodson_use_freeze_frame_sequence_to_study_fleeting_human_action` supplies the human-action route and requires neighboring-frame comparison plus anatomical reconstruction rather than literal worship of a single frozen instant.
+
+- Before stylizing reference, extract the motion invariants that repeat beneath surface variation: contact order, support, high/low phases, weight transfer, stride timing, characteristic delays, and changing masses. Adapt those invariants to the design rather than copying every frame literally.

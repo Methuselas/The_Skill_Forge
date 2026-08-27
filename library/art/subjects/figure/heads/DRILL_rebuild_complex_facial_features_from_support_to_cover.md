@@ -47,14 +47,16 @@ Prepare four rows labeled eye, nose, mouth, and ear. Give each row three small b
 1. In every box, draw only the **support form** first. Use socket plus globe for the eye, a broad triangular wedge/underplane for the nose, the dental/mouth barrel for the mouth, and a shell-and-bowl mass for the ear.
 2. Add the secondary forms without erasing the support: wrap unequal lids around the eyeball; subdivide the nose into upper mass, tip, wings, septum, and underplane; place lips over the dental barrel; place the ear rims, concha, tragus, and lobe around the bowl.
 3. Check that the visible overlaps and underplanes change with the view. A three-quarter or up/down version must not be the same front symbol merely skewed on the page.
-4. Suppress most construction lines and compare the feature silhouettes. If a feature only works after the support is hidden, reopen the construction and find the mismatch.
-5. Place one finished feature from each row back onto a simple turned head block. Confirm that its axis, depth, and exposed planes agree with the head rather than existing as an independent study.
-6. Hide the source. Redraw the weakest feature once from memory in the same difficult view, then compare and correct the **first structural error**, not the last contour difference.
+4. For a near-front nose, where silhouette carries little depth information, use the **observed light-and-shadow pattern as secondary evidence of projection**. Read how the shadow cast by the bridge, tip, wings, or underplane supports the already-constructed nasal wedge; do not copy a dark patch as a symbolic nose. When multiple views are available, verify that the inferred projection agrees with the three-quarter or profile view.
+5. Suppress most construction lines and compare the feature silhouettes. If a feature only works after the support is hidden, reopen the construction and find the mismatch.
+6. Place one finished feature from each row back onto a simple turned head block. Confirm that its axis, depth, and exposed planes agree with the head rather than existing as an independent study.
+7. Hide the source. Redraw the weakest feature once from memory in the same difficult view, then compare and correct the **first structural error**, not the last contour difference.
 
 ## Success Check
 - Each feature reads as a solid before shading or texture is added.
 - The difficult views show believable changes in overlap, underplane exposure, and wrapping.
 - Eye lids wrap a globe; nose parts belong to one wedge; lips ride a mouth/dental mass; the ear has a shell/bowl depth rather than a flat C symbol.
+- A near-front nose can recover projection from light/shadow evidence without turning the shadow itself into a symbolic contour, and the inferred depth remains consistent with other available views.
 - When transferred back to a head, the feature agrees with the head's turn and tilt.
 - The memory redraw preserves the support relationship even if local contour details differ from the source.
 
@@ -63,6 +65,7 @@ Prepare four rows labeled eye, nose, mouth, and ear. Give each row three small b
 - Keeping the same visible feature shape in front, three-quarter, and up/down views.
 - Using Hogarth's average proportions or stylized forms as exact anatomy for every subject.
 - Adding eyelashes, nostril darkness, lip creases, or ear ridges before the support form is coherent.
+- Copying a front-view nose shadow as a dark graphic shape without checking whether it is caused by the constructed bridge, tip, wings, and lighting direction.
 - Correcting only surface contour while leaving the underlying globe, wedge, barrel, or bowl misoriented.
 
 ## Notes

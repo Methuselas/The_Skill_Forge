@@ -44,7 +44,10 @@ variants:
   difference_from_foundation: 'Adds Bammes''s body-cover route: treat coat or bare skin as an impressional quality, avoid
     literal imitation, choose a graphic process whose native edge and mark behavior suggests the surface, and spend detail
     only on distinctive evidence such as sheen, broken roughness, fluff, markings, cracks, fissures, armor-like divisions,
-    or wrinkle clusters.'
+    or wrinkle clusters. When coat markings are present, place their broad pattern on the solved volume first, then let stripe,
+    patch, or spot boundaries inherit the same fur-flow and surface-turn direction as the surrounding coat. Avoid mechanically
+    outlining soft hair-borne boundaries; break or soften selected edges with strand-scale transitions, and preserve a crisp
+    boundary only when the observed cover actually supports one.'
   when_to_use: Use when an animal's coat, skin, or markings are important to species or character recognition and the surface
     would become dead or overworked if rendered hair-by-hair or wrinkle-by-wrinkle.
   when_not_to_use: Do not let surface treatment replace unresolved anatomy, lighting, or volume, and do not force a fashionable
@@ -110,13 +113,16 @@ variants:
   variant_name: Group Hair Into Ribbon Masses With Cross-Form Highlights
   variant_basis: context
   difference_from_foundation: Builds hair from large connected masses and major locks first, treating locks as ribbon-like
-    forms whose highlights cross the curving mass before adding a limited number of individual strand cues. In black-ink treatment
+    forms whose highlights cross the curving mass before adding a limited number of individual strand cues. Establish the scalp,
+    skin, or underlying head surface before resolving the hairline, then let thinning, gaps, and broken edge transitions reveal
+    that underlying surface where appropriate instead of sealing the hair to the face with one opaque contour. In black-ink treatment
     of dark hair, maps and protects the retained white highlight or negative-space shapes as structural evidence because those
     light shapes help define the hair mass and its direction.
   when_to_use: Use when hair is becoming a string-mop texture or a rigid cap and needs form, grouping, soft hairline variation,
     and selective strand evidence.
   when_not_to_use: Do not paint every strand independently, run highlights uniformly along strand direction when the larger
-    lock turns through light, or fill dark hair so completely that the light shapes carrying its volume and flow disappear.
+    lock turns through light, seal the hairline to the face with one opaque boundary when the underlying skin or scalp should show
+    through, or fill dark hair so completely that the light shapes carrying its volume and flow disappear.
   absorbed_from_object_id: none
 - variant_id: VAR_schmid_coordinate_edge_opacity_and_paint_thickness_for_material_texture
   variant_name: Coordinate Edge, Opacity, and Paint Thickness for Material Texture
@@ -143,11 +149,13 @@ variants:
 - For smooth water, decide whether the current view favors transparency or mirror-like reflection from the combined effects of water depth and clarity, viewing angle, light angle, and what lies above and below the surface.
 - As water becomes disturbed, progressively break, stretch, and interrupt reflected forms according to the surface movement; when visible surface marks are needed, keep ripple-direction cues distinct from the directional structure inside the reflected image.
 - Use only enough texture to identify the material at the intended scale; keep high-frequency marks subordinate to the large form and light pattern.
+- For furred animal markings, solve the broad stripe, patch, or spot placement on the volume before adding strand evidence; let the marking ride the coat flow, soften or break hair-borne boundaries where appropriate, and use only enough tapered directional hairs to clarify the transition.
 - Treat gloss and matte as a reflection-roughness continuum: increase reflection clarity and contrast for glossy surfaces, and let diffuse form shading carry more of the read as the surface becomes rougher.
-- For transparent material, combine transmitted background information with reflection; allow thicker edges, grazing views, or refraction to modify what is seen through the form.
+- For transparent material, combine transmitted background information with reflection; allow thicker edges, grazing views, or refraction to modify what is seen through the form. Treat rim and silhouette visibility as conditional evidence rather than a mandatory continuous contour: strengthen sections where thickness, grazing angle, refraction, or reflected contrast makes the boundary visible, and break or lose sections where transmitted background information dominates.
+- Before labeling a color change on translucent, cloudy, colored, or partly opaque glass as a reflection, diagnose whether the change comes mainly from intrinsic material color, opacity/cloudiness, thickness-dependent transmission, reflected surroundings, or a mixture.
 - Judge reflection visibility on transparent surfaces partly from the value behind them: a dark transmitted or interior field can make reflected surroundings read strongly, while a bright field behind the surface can make those reflections comparatively weak.
 - On a nominally flat reflective surface, keep reflection gradients consistent with the plane instead of bending them along the outer contour and accidentally implying curvature.
-- When a reflective surface also has its own directional structure—such as boards or grain on polished wood—preserve enough host-surface direction to identify the material while layering reflected-object information over it; reflection should modify the plane, not erase its material identity.
+- When a material has intrinsic directional organization—wood grain is the source case—preserve enough of that direction through value, color, texture, and later optical effects to identify the material. Let perspective and host-form orientation transform the pattern across differently oriented surfaces; finish, reflection, or burnishing may modify the cue but should not erase it when material identity depends on it.
 - Treat raking light angle as a control on texture visibility: relief can become strongest in lit halftones near the terminator and nearly disappear in shadow, so do not map one bump pattern uniformly and merely darken it.
 - Diagnose the dominant optical mechanism before rendering: diffuse/matte response, specular environment reflection, transparent transmission, subsurface scattering, and surface texture are different causes and should hand off to the stronger dedicated model when one dominates.
 - For water, hand off to the dedicated view-angle/reflection/transmission/wave model instead of relying on generic gloss/transparency bullets when the surface behavior matters.
@@ -165,10 +173,14 @@ variants:
 - The object remains legible as a volume when texture marks are removed.
 - The material response is consistent with the light, viewer, and nearby environment.
 - Transparent or reflective surfaces include believable information from what lies behind or around them.
+- Transparent edges strengthen, break, or disappear in ways consistent with thickness, view angle, refraction, reflection, and the transmitted background rather than forming one uniform outline.
+- Color shifts in translucent or glass-like material are classified by their dominant cause instead of being called reflections by default.
 - Water reflection versus transmission changes plausibly with depth/clarity, viewing and light angle, and surface disturbance instead of staying fixed across the scene.
 - The balance between transmitted and reflected information responds plausibly to the value behind the transparent surface instead of staying fixed across all backgrounds.
 - Surface detail supports rather than competes with the main tonal and spatial hierarchy.
+- Animal coat markings read as color carried by the fur field rather than flat graphic stickers unless the observed material genuinely has a hard boundary.
 - A reflective structured surface reads simultaneously as its own material and as a carrier of reflected information; neither cue wipes out the other.
+- Intrinsic directional material structure follows the host surface and viewpoint rather than being pasted in one arbitrary direction across differently oriented planes.
 - Applied surface treatments preserve or suppress underlying material evidence to a degree consistent with their transparency, opacity, and optical response.
 
 ## Notes
@@ -176,7 +188,7 @@ Gill's glass and water chapters are kept as variants of one broader decision rat
 
 `VAR_hultgren_match_brush_stroke_to_animal_coat_finish` retains **Match Brush Stroke to Animal Coat Finish** as a brush-and-ink alternative: use thin close even strokes plus open paper when a sleek coat needs sheen, and a drier broken stroke when shagginess is the material cue. Use the variant only after the animal's large form and lighting already read; it is a mark-making route, not a species texture formula.
 
-`VAR_bammes_imply_animal_body_cover_with_medium_native_marks` broadens the animal route beyond brush-and-ink: decide which visible quality actually identifies the coat or skin, then let the chosen medium imply it through sheen, broken roughness, soft spread, resist, or selected bare-skin landmarks instead of copying every surface event. The texture remains subordinate to solved form and light.
+`VAR_bammes_imply_animal_body_cover_with_medium_native_marks` broadens the animal route beyond brush-and-ink: decide which visible quality actually identifies the coat or skin, then let the chosen medium imply it through sheen, broken roughness, soft spread, resist, or selected bare-skin landmarks instead of copying every surface event. When the coat carries stripes, patches, or spots, establish the broad marking on the volume first and let its boundary participate in the same fur flow as the surrounding coat; do not ring soft hair-borne markings with a separate outline. The texture remains subordinate to solved form and light.
 
 `VAR_dodson_articulate_sample_then_suggest_texture` adds Dodson's articulate-then-suggest route: solve a small texture sample closely, then let a simplified mark language carry the rest of the surface. `VAR_dodson_strengthen_material_read_through_neighboring_texture_contrast` adds the relational check that a material may read more clearly by adjusting its neighboring texture context rather than adding local detail.
 
@@ -187,13 +199,15 @@ Material identity depends on how the surface handles light, not on a texture lab
 
 For glass and similar transparent materials, the same surface can swing between reflection-dominant and transmission-dominant reads as the value behind it changes. Dark interiors often make bright exterior reflections conspicuous; bright transmitted fields can wash those reflections back. Treat that background value as part of the optical system rather than as unrelated scenery.
 
-On polished wood and other reflective materials with strong directional structure, retain both information systems: the host material's board, grain, or directional cues and the reflected shapes that communicate gloss. Their coexistence is often the material read.
+Hammond's transparent-object studies add two diagnostics to that general model: glass boundaries can fragment where transmission overrides contour contrast, and color changes in semitransparent or cloudy glass may come from intrinsic coloration, opacity, or thickness rather than reflected surroundings. Preserve those distinctions before deciding which optical cue to strengthen.
+
+On wood and other materials with strong intrinsic directional structure, preserve the host material's board, grain, or directional cues through the rendering process. Perspective and surface orientation should transform that direction from plane to plane. If the surface is also reflective, retain both information systems: the host material structure and the reflected shapes that communicate gloss. Their coexistence is often the material read.
 
 For water, reflection and transmission are not fixed material labels. Their balance changes with depth and clarity, viewer and light angle, and surface disturbance. A calm plane can carry a relatively coherent mirror image or reveal what lies beneath; increasing disturbance fragments and redirects the reflected pattern while the surface's own ripple structure remains a separate cue.
 
 `VAR_martin_subdue_transmitted_marks_to_signal_glass_in_black_ink` adds a graphic inking shortcut for transparent panes: keep enough pane/reflection evidence to establish the surface, then selectively weaken some transmitted marks so the layer is perceptible without deleting the scene behind it. This is a stylized line-art convention, not a replacement for the stronger optical model when physical fidelity matters.
 
-`VAR_gurney_group_hair_into_ribbon_masses_with_cross_form_highlights` Builds hair from large connected masses and major locks first, treating locks as ribbon-like forms whose highlights cross the curving mass before adding a limited number of individual strand cues.
+`VAR_gurney_group_hair_into_ribbon_masses_with_cross_form_highlights` Builds hair from large connected masses and major locks first, treating locks as ribbon-like forms whose highlights cross the curving mass before adding a limited number of individual strand cues. Establish the scalp, skin, or underlying head surface before resolving the hairline; let thinning, gaps, and broken edge transitions reveal that surface where appropriate so the hair reads as emerging from and wrapping the head rather than as a pasted-on cap.
 
 `VAR_gurney_group_hair_into_ribbon_masses_with_cross_form_highlights` also treats retained white highlight and negative-space shapes as structural evidence when dark hair is massed in black ink; protect those light shapes so they continue to describe volume and flow.
 

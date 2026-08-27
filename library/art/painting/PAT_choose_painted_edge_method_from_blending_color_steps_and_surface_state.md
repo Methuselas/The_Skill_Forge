@@ -62,12 +62,9 @@ variants:
 - variant_id: VAR_schmid_control_watercolor_edge_with_moisture_flow_and_drying_window
   variant_name: Control Watercolor Edge With Moisture, Flow, and Drying Window
   variant_basis: medium
-  difference_from_foundation: Treats surface wetness, flow direction, absorption, and the remaining drying window as edge
-    variables, allowing spread while it serves softness and anticipating where the edge will stop as the surface loses mobility.
-  when_to_use: Use in watercolor or analogous fluid media where moisture state directly governs whether neighboring color
-    diffuses, blooms, stops, or remains crisp.
-  when_not_to_use: Do not assume a water-controlled edge can be revised independently after the surface has dried or that
-    every soft edge benefits from uncontrolled spread.
+  difference_from_foundation: Treats surface wetness, flow direction, absorption, and the remaining drying window as edge variables, keeping a continuous wash's active edge moving coherently, avoiding unnecessary back-working while the passage settles, and treating later correction after drying as a new layer rather than endless disturbance of the first wash.
+  when_to_use: Use in watercolor or analogous fluid media where moisture state directly governs whether neighboring color diffuses, blooms, stops, or remains crisp and where a settling wash should retain an even or deliberately controlled surface.
+  when_not_to_use: Do not avoid back-working when blooms, patchiness, lifting, or disturbed edges are the intended effect, and do not assume a water-controlled edge can be revised independently after the surface has dried.
   absorbed_from_object_id: none
 - variant_id: VAR_schmid_shear_or_scrape_wet_paint_with_palette_knife_for_edge_control
   variant_name: Shear or Scrape Wet Paint With a Palette Knife for Edge Control
@@ -131,6 +128,6 @@ variants:
 ## Notes
 The general edge owner decides what the boundary should look like and why. This specialization owns a different question: how a wet, fluid, dry-particulate, or scrapeable medium should physically or simulatively build that already-chosen edge. Blending, stepped notes, partial merging, moisture flow, and knife manipulation are alternate constructions, not competing theories of edge perception.
 
-`VAR_schmid_blend_fresh_adjacent_passages_for_fluid_edge`, `VAR_schmid_build_edge_from_intermediate_color_and_value_steps`, `VAR_schmid_step_then_merge_edge_once_to_preserve_color_and_softness`, `VAR_schmid_control_watercolor_edge_with_moisture_flow_and_drying_window`, and `VAR_schmid_shear_or_scrape_wet_paint_with_palette_knife_for_edge_control` preserve distinct medium-dependent routes under one edge-construction decision.
+`VAR_schmid_blend_fresh_adjacent_passages_for_fluid_edge`, `VAR_schmid_build_edge_from_intermediate_color_and_value_steps`, `VAR_schmid_step_then_merge_edge_once_to_preserve_color_and_softness`, `VAR_schmid_control_watercolor_edge_with_moisture_flow_and_drying_window`, and `VAR_schmid_shear_or_scrape_wet_paint_with_palette_knife_for_edge_control` preserve distinct medium-dependent routes under one edge-construction decision. The watercolor route keeps a continuous wash's active edge moving while the passage is settling, monitors the active boundary for a bead or pool, and wicks excess moisture with a less-loaded damp brush when it threatens to flow back into the settling field. It avoids casual re-entry that would create unwanted blooms or patchiness and treats a later dry correction as a new layer unless disturbed texture is itself the goal.
 
 `VAR_schmid_recover_fresh_edge_on_dry_surface_with_broken_deposition` uses selective deposition over a dry, textured passage so surface relief helps create a fresh irregular edge. `VAR_schmid_keep_multisession_edge_seam_thin_for_wet_continuation` prepares a low-body continuation seam before stopping so the next session can overlap it without inheriting a hardened ridge.
