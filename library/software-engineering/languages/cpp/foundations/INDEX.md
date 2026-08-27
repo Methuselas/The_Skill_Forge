@@ -5,6 +5,7 @@
 ## Objects
 
 - [Adapt Your Rules to the Active C++ Sublanguage](PAT_adapt_rules_to_active_cpp_sublanguage.md) - pattern; 0 design. Tags: cpp, idioms, parameter_passing, sublanguages.
+- [Choose Among the Sum Types by What You Know About the Alternatives](PAT_choose_among_the_sum_types_by_what_you_know_about_the_alternatives.md) - pattern; 0 design. Tags: cpp, data_types, interface_design, variant.
 - [Choose Between Pointer and Reference by Nullability and Rebinding](PAT_choose_pointer_or_reference_by_nullability_and_rebinding.md) - pattern; 2 block. Tags: cpp, foundations, interface_design, pointers, references.
 - [Do Not Compare Integers Across Signedness](PAT_do_not_compare_integers_across_signedness.md) - pattern; 3 rough. Tags: conversions, correctness, cpp, integers.
 - [Don't Use the Runtime Type Name as a Persistent Identifier](PAT_dont_use_the_runtime_type_name_as_a_persistent_id.md) - pattern; 2 block. Tags: cpp, identifiers, portability, rtti, serialization.

@@ -56,7 +56,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Destructors](destructors/INDEX.md) - 2 object(s).
 - [Encapsulation](encapsulation/INDEX.md) - 3 object(s).
 - [Exception Safety](exception-safety/INDEX.md) - 6 object(s).
-- [Foundations](foundations/INDEX.md) - 7 object(s).
+- [Foundations](foundations/INDEX.md) - 8 object(s).
 - [Inheritance](inheritance/INDEX.md) - 9 object(s).
 - [Initialization](initialization/INDEX.md) - 5 object(s).
 - [Inlining](inlining/INDEX.md) - 1 object(s).
@@ -71,7 +71,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Optimization](optimization/INDEX.md) - 2 object(s).
 - [Parameter Passing](parameter-passing/INDEX.md) - 5 object(s).
 - [Preprocessor](preprocessor/INDEX.md) - 2 object(s).
-- [Resource Management](resource-management/INDEX.md) - 8 object(s).
+- [Resource Management](resource-management/INDEX.md) - 9 object(s).
 - [Swap](swap/INDEX.md) - 2 object(s).
 - [Templates](templates/INDEX.md) - 14 object(s).
 - [Traits](traits/INDEX.md) - 3 object(s).

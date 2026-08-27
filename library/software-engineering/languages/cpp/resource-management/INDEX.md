@@ -12,3 +12,4 @@
 - [Provide Access to the Raw Resource in an RAII Class](PAT_provide_access_to_raw_resource_in_raii_class.md) - pattern; 2 block. Tags: conversions, cpp, raii, resource_management.
 - [Reach for Exclusive Ownership First](PAT_use_unique_ptr_for_exclusive_ownership.md) - pattern; 2 block. Tags: cpp, ownership, performance, resource_management, smart_pointers.
 - [Refactor Manual Resource Cleanup into an RAII Object](DRILL_refactor_manual_cleanup_to_raii.md) - drill; 3 rough. Tags: cpp, raii, refactoring, resource_management.
+- [Share a Member by Attaching It to the Parent's Lifetime](PAT_share_a_member_by_attaching_it_to_the_parents_lifetime.md) - pattern; 2 block. Tags: cpp, lifetime, ownership, shared_ownership.
