@@ -54,6 +54,7 @@ variants: []
 - Don't ship a named class per combination. Three independent binary choices is eight classes, the fourth doubles it, and the first customization nobody predicted makes all of them useless.
 - Don't reach for multiple inheritance alone to combine the pieces. Base classes are superposed with no orchestration between them, they cannot see the type they are configuring, and any shared state forces virtual inheritance into a design that was supposed to be simple.
 - Don't push past roughly four to six parameters. Past that the instantiation is harder to read than the code it replaced, and that is a signal the class is doing too much rather than a limit to work around.
+- Don't overlook that a different answer produces a different type, and budget for it. Everything written against the default instantiation — the overloads that print it, the functions that take it, the containers declared to hold it — was written against that type and not against the template, so an instantiation differing in one parameter interoperates with none of it until each piece is provided again. Changing how a string's characters compare is one parameter and a handful of overridden operations, and the result cannot be streamed to output or passed to anything expecting the ordinary string until it is given its own machinery. That is the price of the lift and it is worth naming, because it is invisible while the default is the only instantiation anyone has made.
 
 ## Checklist
 - Can I name every question this class answers, and is each one reachable from outside it?

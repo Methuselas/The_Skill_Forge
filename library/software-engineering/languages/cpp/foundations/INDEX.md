@@ -8,5 +8,6 @@
 - [Choose Between Pointer and Reference by Nullability and Rebinding](PAT_choose_pointer_or_reference_by_nullability_and_rebinding.md) - pattern; 2 block. Tags: cpp, foundations, interface_design, pointers, references.
 - [Do Not Compare Integers Across Signedness](PAT_do_not_compare_integers_across_signedness.md) - pattern; 3 rough. Tags: conversions, correctness, cpp, integers.
 - [Don't Use the Runtime Type Name as a Persistent Identifier](PAT_dont_use_the_runtime_type_name_as_a_persistent_id.md) - pattern; 2 block. Tags: cpp, identifiers, portability, rtti, serialization.
+- [Keep a Non-Owning View Within the Lifetime of What It Views](PAT_keep_a_non_owning_view_within_the_lifetime_of_what_it_views.md) - pattern; 2 block. Tags: cpp, lifetime, ownership, views.
 - [Prefer the Form That Refuses What You Did Not Mean](PAT_prefer_the_form_that_refuses_what_you_did_not_mean.md) - pattern; 3 rough. Tags: avoiding_surprises, cpp, modernization, overloading, type_safety.
 - [State the Guarantees a Function Can Honor](PAT_state_the_guarantees_a_function_can_honor.md) - pattern; 0 design. Tags: compile_time, cpp, exception_safety, interface_design, performance.
