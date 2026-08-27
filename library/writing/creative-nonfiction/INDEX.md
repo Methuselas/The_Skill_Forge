@@ -5,5 +5,5 @@
 ## Topics
 
 - [Foundations](foundations/INDEX.md) - 10 object(s).
-- [Practice](practice/INDEX.md) - 4 object(s).
-- [Structure](structure/INDEX.md) - 9 object(s).
+- [Practice](practice/INDEX.md) - 5 object(s).
+- [Structure](structure/INDEX.md) - 10 object(s).

@@ -42,6 +42,8 @@ cross_links:
     target_object_id: writing_creative_nonfiction_ap_organize_short_essay_from_discovered_material
   - rel: related_to
     target_object_id: writing_ap_revise_creative_draft_from_diagnosis_to_final_proof
+  - rel: related_to
+    target_object_id: writing_creative_nonfiction_ap_design_and_stress_test_life_writing_project_contract
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -68,3 +70,5 @@ Develop a live inquiry into a finished short creative nonfiction essay whose dis
 
 ## Notes
 This protocol owns the complete genre-specific action, not the full craft rules it coordinates. It begins before a substantial draft exists, calls the established organization protocol only after discovery has produced trustworthy material, and calls the general revision protocol only after the essay has a viable governing structure. The order protects against three common continuity failures: arranging an account before its evidence is trustworthy, compressing away qualifications that preserve the nonfiction contract, and polishing a portrayal before deciding whether it should circulate. Research, interviewing, subject review, and outside feedback are conditional branches; their use depends on the material's uncertainties and stakes rather than on ceremony.
+
+For a book-length, sequential, documentary, biographical, or autobiographical project whose basic scope and method are not yet stable, begin with `writing_creative_nonfiction_ap_design_and_stress_test_life_writing_project_contract`. Return here once a bounded short essay or excerpt has enough trustworthy material to draft and revise. The project contract coordinates intentions and constraints; it does not replace the discoveries, evidence checks, ethical review, and structural decisions required by an actual manuscript.

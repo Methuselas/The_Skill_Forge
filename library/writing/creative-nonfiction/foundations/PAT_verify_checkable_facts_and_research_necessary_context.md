@@ -42,6 +42,7 @@ variants: []
 - Mark names, dates, quotations, definitions, causal claims, technical details, and other statements that an outside reader could test.
 - Turn gaps in understanding into specific research questions before choosing databases, books, archives, interviews, observation, or field inquiry.
 - Ask informed people focused questions and listen for answers that complicate the writer's initial understanding.
+- Audit the surviving record for missing voices, selective preservation, interested testimony, inaccessible material, and disputes that make an apparently rich archive structurally incomplete.
 - Prefer a few exact details that support authority and thematic pressure over a catalog of everything learned.
 - Recheck the prose after shaping notes so compression and paraphrase have not introduced a new factual error.
 
@@ -50,6 +51,7 @@ variants: []
 - Use a vivid but uncertain fact because it fits the essay's metaphor or emotional direction.
 - Turn accumulated notes into exposition that overwhelms the personal, reflective, or narrative inquiry they were meant to serve.
 - Continue gathering material to postpone the harder decision about what the essay is actually examining.
+- Treat privileged access, a large source count, subject cooperation, or physical contact with an artifact as proof that the resulting interpretation is complete or impartial.
 - Remove essential factual context solely because research has become laborious or less entertaining than drafting.
 
 ## Checklist
@@ -57,6 +59,7 @@ variants: []
 - Research questions follow from the essay's inquiry rather than from indiscriminate curiosity.
 - Included facts establish needed context, authority, complication, or thematic connection.
 - Paraphrases and compressed explanations preserve the meaning of the information gathered.
+- The draft identifies consequential archive gaps and does not make an absent or underrepresented party carry claims the surviving record cannot support.
 - Additional research has a named purpose, or the collection phase has stopped.
 
 ## Notes

@@ -29,7 +29,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_declare_biographer_relationship_and_distance
+    variant_name: Declare the Biographer's Relationship and Distance
+    variant_basis: context
+    difference_from_foundation: Identify the biographer's personal relationship, documentary access, emotional stake, prior beliefs, and intended degree of narrative presence, then show how each condition changes inquiry and portrayal.
+    when_to_use: A biography concerns someone the writer knows, admires, opposes, grieves, studies professionally, or encounters through unusually privileged or restricted access.
+    when_not_to_use: Personal disclosure would create danger or needless exposure, or the relationship does not materially affect evidence, selection, interpretation, or reader trust.
+    absorbed_from_object_id: none
 ---
 
 # Make Personal Presence Part of the Inquiry
@@ -64,3 +71,5 @@ variants: []
 
 ## Notes
 Presence varies by form and by the job of a particular passage. Memoir may place the writer's life at the center; an essay about a relationship may divide attention; nature writing or literary journalism may keep the writer at the edge while still revealing attention, access, judgment, and response. Offstage does not mean absent: voice survives in sentence construction, word choice, emphasis, and the route through the material. The important distinction is not I versus no I, but a position fitted to the inquiry versus either false neutrality or needless domination.
+
+`writing_creative_nonfiction_variant_declare_biographer_relationship_and_distance` makes the conditions of a biographical account available for scrutiny. Name what contact, affection, conflict, expertise, invitation, archive access, or distance permits the writer to know, then name the blind spots or pressures it creates. Emotional closeness can provide intimate evidence while intensifying partiality; professional or historical distance can widen context while limiting embodied knowledge. Neither position certifies accuracy, and the number of first-person statements is less useful than whether consequential selection and interpretation remain legible.

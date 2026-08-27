@@ -53,6 +53,7 @@ variants:
 - List each real person in the draft and ask who could identify them from relationships, occupation, setting, chronology, physical traits, or a distinctive incident even when the name is absent.
 - Separate what the inquiry must reveal from details that merely intensify embarrassment, ridicule, or curiosity; cut or generalize the latter first.
 - Recheck negative claims and the evidence around them, including behavior that complicates the narrator's preferred interpretation.
+- Distinguish permission to interview, access records, or portray one subject from consent to publish, corroboration of disputed claims, and responsibility toward every other identifiable person in the account.
 - Read the portrayal from the subject's position and forecast effects on privacy, reputation, safety, livelihood, and important relationships as well as the writer's own readiness for the response.
 - Map plausible circulation beyond the planned venue, since a classroom, workshop, or private electronic draft can be copied or forwarded.
 - Use bounded identity changes only when they preserve responsibility, outcome, and meaning, and disclose the class of alteration when readers could mistake it for an unaltered record.
@@ -62,6 +63,7 @@ variants:
 - Assume that removing a name makes a person unrecognizable to family, colleagues, neighbors, or the people involved in the event.
 - Treat freedom from likely legal action as proof that the portrayal is ethically sound.
 - Give a subject automatic authority to erase a supported fact merely because it is painful or disputed.
+- Treat a subject's invitation, cooperation, approval, death, fame, or inability to respond as blanket ethical clearance for the project or its treatment of third parties.
 - Preserve an injurious detail that changes nothing essential simply because it is accurate.
 - Rely on a disclaimer as permission to fabricate, invade privacy, or convey an unsupported damaging impression.
 
@@ -71,6 +73,7 @@ variants:
 - Each private or potentially harmful detail performs a necessary factual, relational, or thematic function.
 - Less harmful wording, omission, or identity protection has been considered without shifting blame or changing what happened.
 - The audit accounts for likely secondary circulation, not only the named first audience.
+- Access and consent claims are bounded to what was actually granted and do not substitute for evidence or third-party review.
 - Unresolved legal or safety concerns have been routed to someone qualified to assess them.
 
 ## Notes

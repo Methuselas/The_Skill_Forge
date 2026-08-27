@@ -32,7 +32,14 @@ reference:
   author: Jessica Brenner and Geraldine Woods
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_widen_personal_experience_without_claiming_universality
+    variant_name: Widen Personal Experience without Claiming Universality
+    variant_basis: emphasis
+    difference_from_foundation: Connect a specific life experience to supported social, historical, cultural, relational, or embodied stakes while preserving differences that prevent the writer's experience from standing in for everyone else's.
+    when_to_use: A personal narrative remains sealed inside private meaning or reaches for a broad theme that could help unfamiliar readers locate its larger significance.
+    when_not_to_use: The wider claim depends on stereotype, unsupported equivalence, borrowed suffering, or generalization that erases the experience's necessary particularity.
+    absorbed_from_object_id: none
 ---
 
 # Derive a Personal Essay Theme from Recurring Life Evidence
@@ -68,3 +75,5 @@ variants: []
 
 ## Notes
 A life inventory does not arrive with its meaning attached. Themes emerge when repeated memories expose a relation among conduct, pressure, value, and change. The same event can support several interpretations, so the writer tests the theme against particulars instead of treating an attractive label as proof. A setback becomes useful material through the response it reveals, not through the prestige of having suffered it.
+
+`writing_creative_nonfiction_variant_widen_personal_experience_without_claiming_universality` replaces a demand for universal sameness with an evidence-bound movement between scales. Begin with the exact life, place, body, relationship, or historical position available to the writer; research the larger conditions that bear on it; and name both the connection and its limit. Readers may recognize a pressure without sharing an identical experience. The wider frame earns its place when it changes the meaning of the particulars and the particulars keep the larger claim from becoming an empty theme.
