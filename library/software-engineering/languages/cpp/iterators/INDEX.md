@@ -5,4 +5,6 @@
 ## Objects
 
 - [Convert a Reverse Iterator With Base and Mind the Offset](PAT_convert_a_reverse_iterator_with_base_and_mind_the_offset.md) - pattern; 2 block. Tags: avoiding_surprises, containers, cpp, iterators, off_by_one.
+- [Model an Unknown End as a Sentinel Rather Than a Position](PAT_model_an_unknown_end_as_a_sentinel_rather_than_a_position.md) - pattern; 0 design. Tags: cpp, iterators, sentinel, streams.
+- [Publish the Traits an Iterator Claims, Not Just Its Operators](PAT_publish_the_traits_an_iterator_claims_not_just_its_operators.md) - pattern; 2 block. Tags: cpp, interface_design, iterators, traits.
 - [Read Characters With a Streambuf Iterator, Not a Formatted One](PAT_read_characters_with_a_streambuf_iterator_not_a_formatted_one.md) - pattern; 2 block. Tags: correctness, cpp, iterators, performance, streams.
