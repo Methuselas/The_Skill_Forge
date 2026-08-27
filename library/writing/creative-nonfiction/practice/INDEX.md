@@ -5,7 +5,9 @@
 ## Objects
 
 - [Audit Life-Writing Motives and Reader Promises](DRILL_audit_life_writing_motives_and_reader_promises.md) - drill; 0 design. Tags: creative_nonfiction, life_writing, motive, reader_promise, selection.
+- [Audition Fragmented, Connected, and Through-Line Orders](DRILL_audition_fragmented_connected_and_through_line_orders.md) - drill; 1 skeleton. Tags: chronology, creative_nonfiction, fragmentation, life_writing, structure, through_line.
 - [Compare Access and Distance across Two Biographical Subjects](DRILL_compare_access_and_distance_across_two_biographical_subjects.md) - drill; 1 skeleton. Tags: access, biography, creative_nonfiction, distance, research.
 - [Contrast Informative and Consequence-Driven Life Portraits](DRILL_contrast_informative_and_consequence_driven_life_portraits.md) - drill; 2 block. Tags: biography, consequence, creative_nonfiction, information, portrait.
 - [Draft a Life-Writing Opening from an Unremembered Event](DRILL_draft_a_life_writing_opening_from_an_unremembered_event.md) - drill; 2 block. Tags: creative_nonfiction, life_writing, memory_gap, opening, reconstruction.
+- [Recast a Life-Writing Event across Tense and Narrator Distance](DRILL_recast_a_life_writing_event_across_tense_and_narrator_distance.md) - drill; 2 block. Tags: creative_nonfiction, hindsight, life_writing, memory, narrator, tense.
 - [Translate a Graphic Sequence into Lean Prose](DRILL_translate_graphic_sequence_into_lean_prose.md) - drill; 1 skeleton. Tags: compression, creative_nonfiction, graphic_essay, imagery, practice.

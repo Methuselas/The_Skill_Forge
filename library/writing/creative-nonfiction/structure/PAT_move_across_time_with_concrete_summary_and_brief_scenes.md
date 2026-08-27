@@ -30,7 +30,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_counterpoint_matched_moments_across_time
+    variant_name: Counterpoint Matched Moments across Time
+    variant_basis: method_sequence
+    difference_from_foundation: Place two or more separated moments beside one another through a stable place, action, object, relationship, or condition so changed details register what elapsed time has altered.
+    when_to_use: A repeated situation supplies a reliable baseline for comparing changes that gradual chronological coverage would diffuse.
+    when_not_to_use: The moments share only a decorative motif, the comparison conceals necessary intervening causes, or the later scene is being forced to resolve the earlier one.
+    absorbed_from_object_id: none
 ---
 
 # Move across Time with Concrete Summary and Brief Scenes
@@ -63,3 +70,5 @@ variants: []
 
 ## Notes
 Narrative compression fails at two extremes: generalized life history erases experience, while exhaustive recollection gives equal weight to everything. Concrete summary preserves texture while crossing distance; short scenes briefly restore full presence where the essay's meaning turns. Their interaction creates pace without confusing speed with haste.
+
+`writing_creative_nonfiction_variant_counterpoint_matched_moments_across_time` reduces the connective overview and makes a stable element carry comparison. Repeat enough of the place, action, object, relationship, or condition for readers to recognize the baseline, then select changed physical, emotional, social, or interpretive details that make elapsed time perceptible. Supply intervening context when the juxtaposition would otherwise imply a false cause or an unsupported transformation.

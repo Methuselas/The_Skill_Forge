@@ -54,6 +54,13 @@ variants:
     when_to_use: A lyric essay or segmented inquiry depends on readers making an active leap between self-contained moments, voices, facts, or images.
     when_not_to_use: The sequence becomes arbitrary, readers cannot relocate after a break, or essential causal information is being withheld.
     absorbed_from_object_id: none
+  - variant_id: writing_creative_nonfiction_variant_shape_accountable_developmental_arc
+    variant_name: Shape an Accountable Developmental Arc
+    variant_basis: method_sequence
+    difference_from_foundation: Select turning points and consequences that make a demonstrated change legible while retaining reversals, damage, ambiguity, and unfinished development that complicate a simple progress story.
+    when_to_use: A life-writing project contains supportable changes in conduct, understanding, relation, condition, or circumstance whose sequence creates the governing pressure.
+    when_not_to_use: The available material does not demonstrate development, or arranging it as maturation would impose redemption, inevitability, or closure that the life does not support.
+    absorbed_from_object_id: none
 ---
 
 # Choose Structure from Discovered Connections
@@ -92,3 +99,5 @@ Exploratory drafting can discover an essay's connections before it discovers its
 `writing_creative_nonfiction_variant_braid_themes_around_recurring_anchor` rotates among distinct strands held together by a recurring post. Use it when each return alters the reader's understanding of the other strands; avoid it when repetition supplies only a decorative motif.
 
 `writing_creative_nonfiction_variant_segment_by_juxtaposition_and_jump_cut` makes adjacency, imagery, silence, and white space exert structural pressure. It suits a lyric essay or other inquiry whose force depends on contrast, omission, or collision, provided each segment is locally coherent and readers receive enough orientation to make the jump.
+
+`writing_creative_nonfiction_variant_shape_accountable_developmental_arc` organizes selected turning points around demonstrated change without treating a life as a guaranteed ascent. Track what the person could do, know, endure, or choose at each stage; retain relapses, costs, unresolved conditions, and contrary evidence when they qualify the movement. Use the arc when sequence reveals change, not to make suffering produce a lesson or to convert later outcomes into destiny.

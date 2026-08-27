@@ -25,6 +25,8 @@ cross_links:
     target_object_id: writing_creative_nonfiction_interrogate_memory_before_claiming_precision
   - rel: related_to
     target_object_id: writing_creative_nonfiction_portray_real_people_through_selective_behavioral_detail
+  - rel: related_to
+    target_object_id: writing_creative_nonfiction_drill_recast_life_writing_event_across_tense_and_narrator_distance
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -46,6 +48,7 @@ variants: []
 - Use shifts in time frame, angle, voice, rhythm, or juxtaposition to make the distance between experience and narration perceptible.
 - Give the onstage self observable choices and limitations rather than making that figure a mouthpiece for the essay's finished wisdom.
 - Track where hindsight changes sympathy, irony, or interpretation and decide which temporal position should control each passage.
+- When testing past and present tense, hold the event, evidence status, and uncertainty constant so changes in access or distance are not mistaken for new knowledge.
 
 ## Don't
 - Give the earlier self polished conclusions that only years of reflection made possible.
@@ -53,6 +56,7 @@ variants: []
 - Flatten the lived self into an example whose only purpose is to prove the present narrator correct.
 - Switch between then and now so quietly that readers cannot tell who knows what.
 - Confuse honest temporal framing with permission to redesign conduct or motive.
+- Treat present tense, child diction, or sensory immediacy as proof that a recollection is more accurate or less mediated.
 
 ## Checklist
 - The person inside the event acts from information available at that time.
@@ -60,6 +64,7 @@ variants: []
 - Voice or framing makes consequential shifts between experience and reflection legible.
 - The earlier self remains a credible person rather than a prop for hindsight.
 - Irony, judgment, and sympathy can be traced to the temporal vantage producing them.
+- Every tense preserves the same boundary between remembered, reported, inferred, reconstructed, and unknown material.
 
 ## Notes
-In first-person nonfiction, author, narrator, and character may refer to one life without functioning as one consciousness. The lived self moves through incomplete information; the narrating self knows what followed and has language for patterns that were invisible then. Preserving that distance creates both honesty and dramatic tension because readers can inhabit the event while also hearing the later mind test its meaning.
+In first-person nonfiction, author, narrator, and character may refer to one life without functioning as one consciousness. The lived self moves through incomplete information; the narrating self knows what followed and has language for patterns that were invisible then. Preserving that distance creates both honesty and dramatic tension because readers can inhabit the event while also hearing the later mind test its meaning. Tense changes the reader's temporal relation to the account, not the factual basis of the account; an immediate voice remains a present construction made from whatever evidence and memory the writer actually has.
