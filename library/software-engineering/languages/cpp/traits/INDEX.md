@@ -7,3 +7,4 @@
 - [Implement Traits-Based Compile-Time Dispatch](DRILL_implement_traits_based_dispatch.md) - drill; 2 block. Tags: compile_time, cpp, templates, traits.
 - [Publish a Trait for the Property You Cannot Detect](PAT_publish_a_trait_for_what_you_cannot_detect.md) - pattern; 2 block. Tags: cpp, customization_point, generic_programming, optimization, traits.
 - [Use Traits Classes for Compile-Time Type Information](PAT_use_traits_classes_for_type_info.md) - pattern; 2 block. Tags: compile_time, cpp, templates, traits.
+  - Variants: `Branch Inside One Function With a Compile-Time If` (method_sequence).
