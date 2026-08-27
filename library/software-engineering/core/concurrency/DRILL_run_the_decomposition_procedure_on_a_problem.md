@@ -23,6 +23,8 @@ cross_links:
   target_object_id: AP_design_a_parallel_decomposition
 - rel: related_to
   target_object_id: PAT_find_the_axis_the_parallelism_lies_along
+- rel: related_to
+  target_object_id: PAT_price_communication_by_transfer_count_and_volume_separately
 reference:
   source_title: 'Multicore and GPU Programming: An Integrated Approach'
   author: Gerassimos Barlas

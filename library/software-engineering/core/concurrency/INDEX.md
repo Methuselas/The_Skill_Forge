@@ -73,6 +73,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Dispatch on Readiness or on Completion
 - **Merge Concurrent Operations Into One Before Applying Them** — read first
   - then: Cancel Complementary Operations Instead of Applying Them
+- **Price Communication by Transfer Count and Volume Separately** — read first
+  - then: Design a Parallel Decomposition
+  - then: Run the Decomposition Procedure on a Concrete Problem
 - **Put the Thread-Safety Guarantee at the Transaction Boundary** — read first
   - then: Fold an Interface Whose Operations Do Not Compose
   - then: Lock at the Public Boundary and Nowhere Inside
@@ -130,6 +133,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Merge Concurrent Operations Into One Before Applying Them](PAT_merge_concurrent_operations_into_one_before_applying_them.md) - pattern; 0 design. Tags: concurrency, contention, design, latency, scalability.
 - [Name the Committing Step on Every Path](DRILL_name_the_committing_step_on_every_path.md) - drill; 3 rough. Tags: concurrency, correctness, lock_free, review.
 - [Place Cooperating Work at the Narrowest Scope That Holds It](PAT_place_cooperating_work_at_the_narrowest_scope_that_holds_it.md) - pattern; 0 design. Tags: concurrency, decomposition, design, gpu, locality.
+- [Price Communication by Transfer Count and Volume Separately](PAT_price_communication_by_transfer_count_and_volume_separately.md) - pattern; 0 design. Tags: communication, concurrency, decomposition, granularity, performance.
 - [Publish Shared Data Through One Atomic Handle](PAT_publish_shared_data_through_one_atomic_handle.md) - pattern; 4 final. Tags: concurrency, data_structures, lock_free, memory_order, threading.
 - [Put the Thread-Safety Guarantee at the Transaction Boundary](PAT_put_the_thread_safety_guarantee_at_the_transaction_boundary.md) - pattern; 0 design. Tags: api_design, concurrency, design, invariants, threading.
 - [Replace Value Comparison With a Version Stamp](DRILL_replace_value_validation_with_a_version_stamp.md) - drill; 3 rough. Tags: concurrency, consistency, correctness, lock_free.

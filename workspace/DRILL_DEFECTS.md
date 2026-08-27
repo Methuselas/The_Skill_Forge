@@ -7,10 +7,21 @@
 > the three unlisted Common Failures from Part 6. Seven drills and one AP changed;
 > `validate.py`, `verify_references.py`, and `build_index.py` all clean.
 >
-> **Not done, deliberately.** Item 8 — CPP has still never been run and needs a
-> cold session. Item 9 — G1 and G2 are held for a confirming run. All of Part 5
-> is untouched, including the 5c routing notes, per its own not-actionable
-> marking.
+> **Status 2026-08-26 (final) — every item in this file is now applied.**
+> G1 and G2 were confirmed real and authored as a single card; see Part 5a. Parts
+> 5b–5d remain deliberately untouched per their own not-actionable marking. The
+> earlier status line follows.
+>
+> **Status 2026-08-26 (earlier) — everything in this file is applied except G1 and G2.**
+> CPP was run, produced a valid clean pass, and then failed its own audit; its
+> findings are Part 4A and are now repaired in full — C1, C2, and all five Success
+> Check bullets. G7 (Part 5e) is repaired across three files. Eight drills and one
+> AP have been changed in total. `validate.py` 1201 objects clean,
+> `verify_references.py` clean, `build_index.py` 0 indices, test suite green.
+>
+> **Open, deliberately.** G1 and G2 only — held for a confirming run before any
+> card is authored. Parts 5a–5d remain untouched per their own not-actionable
+> marking. See the standing note at the end of this file before acting on them.
 
 Source: eight cold sessions run 2026-08-25 against the concurrency drills, one
 drill per session, no shared context. Seven produced valid runs. One failed on a
@@ -46,7 +57,8 @@ Drill short names used in the tables:
 | INDEX | `core/concurrency/DRILL_trace_divergence_and_coalescing_from_an_index_mapping.md` |
 | CPP | `languages/cpp/concurrency/DRILL_restructure_a_class_that_locks_every_member.md` |
 
-CPP was never run. It has no findings below and still needs a session.
+CPP was run 2026-08-26, in a cold session, after repairs 1–7 had been applied to
+the other seven. Its findings are in **Part 4A** and are not yet repaired.
 
 ---
 
@@ -472,7 +484,133 @@ closes S-FOLD-1, S-FOLD-2, S-DECOMP-4, and S-INDEX-2 at no cost.
 
 ---
 
-# Part 5 — Library observations. Not actionable yet.
+# Part 4A — CPP defects (run 2026-08-26; NOT yet repaired)
+
+Kept as its own part because Parts 1–4 record defects that have since been fixed
+and this one has not. Everything below is unrepaired.
+
+**The run itself was clean and the answer was correct.** The restructured class
+compiled at `/W4 /permissive-` and ran correctly under four threads, and all five
+Success Check bullets were met. Two caveats were recorded, and both are the
+checks' problems rather than the work's: bullet 1 is not literally met by the
+constructor and destructor, and bullet 5 is met for caller-supplied and
+cross-component code but not for allocation. Under the triage rule that means
+**no craft evidence** — see Part 6.
+
+**The drill failed its audit.** All three defect families are present, and unlike
+the other seven this drill also *introduces a hazard it never asks about*.
+
+## 4A.1 — The five bullets, both directions — APPLIED 2026-08-26
+
+> **Repaired.** All five bullets rewritten, plus C1's remaining half folded in.
+> Three Common Failures added, and instruction 4 amended to stop conflicting with
+> the repaired bullet 3. The table below is the diagnosis, kept as the record; the
+> repairs are summarised beneath it.
+
+| Bullet | Satisfiable without doing the work | Rejects correct work |
+|---|---|---|
+| 1 — every public locks, no non-public does | **Yes** — move the locking helper to a free function | **Yes** — the constructor and destructor; accessors that are const after construction; and "the lock" is singular after step 5 has created a second mutex |
+| 2 — no public calls public | Only via indirection (a stored `std::function`, a base pointer) | **No** — soundest of the five |
+| 3 — both virtuals justified from dispatch | **Yes** — it checks that a dispatch-flavoured *reason was stated*, not that the answer is right. The drill's own Common Failure #3 passes it | **Yes** — a run that correctly refuses the anti-pattern and uses NVI has no public virtual left to answer for |
+| 4 — static state, static mutex | **Yes** — making the single existing mutex static passes verbatim | **Yes** — an atomic, or a concurrent container, are correct and are rejected |
+| 5 — no unknown code under the lock | **Yes** — relocate the three things instruction 6 lists and leave `std::cout` / logging in place | **Yes** — on a strict reading nothing can pass |
+
+Bullet 3's PASS case is the notable one: a Success Check that is passed by the
+drill's own listed Common Failure is not merely gameable, it is inverted.
+
+### What was changed
+
+| Bullet | Repair |
+|---|---|
+| 1 | Now scoped to public members *that touch guarded state*, and the prohibition moved from *where a helper is declared* to *what is held when it runs* — closing the free-function and lambda dodge. Constructors, destructors, and members touching only immutable-after-construction state are exempt, and **each exemption must be named with its reason**, so the escape is not silent. "The lock" replaced by "the mutex that guards it", now that step 5 yields two. |
+| 2 | Extended to reaching another public function *through* a stored callable, a base-class pointer, or a virtual dispatch that lands back on this object. |
+| 3 | **The inversion is removed by demanding a trace instead of a reason.** The decision must now come with the call path that reaches the virtual and what is held at each point on it. Common Failure #3 cannot pass that — following the path shows the caller arrives unlocked. The NVI refusal is admitted explicitly: a run that wraps a non-public virtual instead answers for the virtual it has and says why the public one was refused. |
+| 4 | Admits an atomic or a self-synchronising container alongside a static mutex — anything whose lifetime matches the state. **Requires the per-object state to still be on the per-object mutex**, which is C1's remaining half, and requires *both* failures to be stated: guarding static state per-object, and collapsing everything onto one static mutex. |
+| 5 | Split into the two cases the strict reading conflated. Caller-supplied and cross-component code must not run under a mutex, full stop. Everything else in a guarded region that reaches code the class does not own — allocation, formatting, logging, a standard-library entry point — must be **listed**, and each either relocated or kept deliberately with the reason it cannot participate in a cycle. This is what makes the bullet passable at all; the previous reading excluded allocation and therefore excluded everything. |
+
+Three Common Failures added: the free-function dodge, leaving a logging or
+formatting call behind after relocating the callback and comparator, and
+answering the virtual question with a reason that has the shape of dispatch but
+was never traced.
+
+**Instruction 4 was amended** because the repaired bullet 3 otherwise contradicts
+it. The instruction forces the public-virtual anti-pattern, which a correct run
+may refuse — and after the G7 repair the library refuses it elsewhere. It now
+says: if you would refuse it in real code, say why, then build it anyway, because
+the two dispatch routes cannot be compared with only one present. The pedagogy is
+preserved and the conflict is gone.
+
+## 4A.2 — C1: instruction 5 does not say how many mutexes end up existing — PARTLY APPLIED 2026-08-26
+
+> **The instruction half is done**, as a prerequisite of C2. Instruction 5 now says
+> to make one piece of state static and *leave the rest per-object*, to name what
+> breaks if static state stays on the per-object mutex, to name what it *costs* to
+> go the other way — with the explicit steer that the answer is not that it becomes
+> unsafe — and to keep both mutexes for the remainder. A Common Failure was added
+> for collapsing onto the static mutex. Two mutexes are now guaranteed to exist,
+> which is what instruction 6 needs.
+>
+> **Bullet 4 closed 2026-08-26** with the rest of the CPP bullet table. It now
+> requires the per-object state to still be on the per-object mutex, and requires
+> both failures to be stated — guarding static state per-object, and collapsing
+> everything onto one static mutex. The collapsed answer no longer passes. C1 is
+> fully applied.
+
+**SCALE, verdict-changing.** The instruction is ambiguous about whether step 5
+adds a mutex or repartitions the existing one. The reading that makes the single
+existing mutex `static` **passes bullet 4 verbatim** while serializing every
+instance against every other — destroying all inter-object concurrency in a class
+whose whole point was per-object locking.
+
+A runner can therefore satisfy the check by making the design categorically
+worse, and nothing in the drill notices.
+
+**Repair.** State the mutex count that step 5 is expected to produce, and make
+bullet 4 require that per-instance state stay on per-instance locks.
+
+## 4A.3 — C2: the drill creates a second mutex and never asks about acquisition order — APPLIED 2026-08-26
+
+> **Repaired**, in `DRILL_restructure_a_class_that_locks_every_member`: a new
+> instruction 6 requiring every both-mutex path to be named and shown to take one
+> stated order (old 6 renumbered to 7); a matching Success Check bullet; two new
+> Common Failures; a `related_to` edge to
+> `PAT_break_one_of_deadlocks_four_conditions`; and a Notes paragraph stating
+> plainly that step 5 creates the hazard, which is why the ordering question
+> belongs to this drill rather than a later one.
+>
+> **C2's repair required part of C1 first** — see 4A.2. An acquisition-order
+> instruction has no referent unless two mutexes actually exist, so instruction 5
+> was made explicit about producing both. As predicted in the remaining-work note,
+> no new content was needed: `PAT_break_one_of_deadlocks_four_conditions` already
+> covered the hazard and was simply unreachable from here.
+
+**BLOCK, and the most expensive hole in the entire eight-drill set.**
+
+Step 5 introduces a second mutex. No instruction and no bullet ever asks in what
+order the two are taken. A class that acquires them in opposite orders in two
+different functions **passes every one of the five bullets and contains a live
+two-mutex deadlock.**
+
+This is worse than any defect in Parts 1–4 for one reason: the other drills fail
+to *catch* pre-existing hazards. This one **manufactures the hazard itself**, in
+step 5, and then certifies the result.
+
+**The canon covers this — the drill simply does not route to it.**
+`core/concurrency/PAT_break_one_of_deadlocks_four_conditions` exists and is
+directly on point. So this is a drill and routing defect, not a library gap, and
+the repair is correspondingly cheap.
+
+**Repair.** Add an instruction after step 5 requiring a stated acquisition order
+for the two mutexes (or a demonstration that no path takes both), add a matching
+bullet, and cross-link `PAT_break_one_of_deadlocks_four_conditions` as a
+prerequisite.
+
+---
+
+# Part 5 — Library observations. Mostly not actionable.
+
+**Amended 2026-08-26.** Sections 5a–5d remain not-actionable as originally
+written. Section **5e** is new, is actionable, and is the exception.
 
 These are **not** drill defects and none of them is a demonstrated capability
 failure. Every valid run reached correct work. Recorded here so they are not lost,
@@ -484,7 +622,49 @@ Retrieval, application, continuity, reference, tool, and interface failures
 justify nothing. Everything below was found by *drill critique*, not by a
 capability failing in application, which is weaker evidence than it looks.
 
-## 5a. Two candidates that would be Patterns if confirmed
+## 5a. G1 and G2 — CONFIRMED AND AUTHORED AS ONE CARD, 2026-08-26
+
+> **Both gaps were real**, and the standing note's warning did not apply this time:
+> the content genuinely was absent rather than unreachable. Verified by reading the
+> two nearest cards in full rather than by grepping.
+>
+> - `PAT_decide_if_the_problem_is_worth_parallelizing` prices coordination by
+>   *category* — preparation, data movement, idle waiting, framework overhead — and
+>   says to choose piece size deliberately. It never separates transfer **count**
+>   from transfer **volume** as independently priced quantities, which is the whole
+>   content of G1. Its treatment of communication is single-number throughout
+>   ("moving data is usually the expensive part").
+> - `PAT_place_cooperating_work_at_the_narrowest_scope_that_holds_it` is about the
+>   *hierarchy of coordination scopes* and where cooperating participants land. It
+>   is not GPU-scoped as recorded below — it spans lockstep exchange through to
+>   messages — but it is about placement across levels, not about grouping geometry
+>   determining how much crosses. Surface-to-volume is not in it.
+>
+> **Authored as one card, not two:**
+> `core/concurrency/PAT_price_communication_by_transfer_count_and_volume_separately`.
+>
+> **Why one.** Surface-to-volume on its own gives wrong advice. "Prefer compact
+> groupings" is false whenever the fixed per-transfer cost dominates — the case
+> where slabs beat tiles — so a standalone G2 card would recommend the wrong shape
+> on high-latency fabrics. The geometric fact only becomes a decision once paired
+> with the pricing that breaks the tie, so they cannot be separated. G2 is the
+> mechanism for the volume term of G1.
+>
+> Edges: `prerequisite_for` the decomposition AP and its drill, matching the
+> reciprocal convention the AP's other supported patterns already use;
+> `related_to` the two nearest cards plus the layout and weak-scaling cards. The
+> AP and drill carry the reciprocal `supports` / `related_to` edges.
+>
+> **One correction to the record below:** G2 was recorded as central to both DECOMP
+> and INDEX. That overreached. INDEX turns on coalescing — how many memory units a
+> group touches across a fixed layout — which is a different mechanism from group
+> shape determining crossing volume. The card is linked from DECOMP only.
+>
+> **No `reference` block.** The content was derived rather than read out of a
+> source, and the schema states that omitting `reference` entirely is valid.
+> Inventing an attribution would have been worse than having none.
+
+### The original diagnosis, kept as the record
 
 **G1 — the two-term communication cost model.** DECOMP step 5 turns entirely on
 separating fixed per-transfer cost from per-value cost, and **no card states it**.
@@ -542,6 +722,86 @@ Not gaps. Recorded so they are not mistaken for gaps later.
   explicitly calls these "a value to derive rather than embed," and INDEX step 3
   correctly makes declaring the unit the run's job.
 
+## 5e. G7 — two cards contradict each other on locking across a virtual call. APPLIED 2026-08-26.
+
+> **Repaired.** Three files changed:
+> `PAT_wrap_virtuals_with_nvi_idiom`, `PAT_dont_call_unknown_code_while_holding_a_lock`,
+> and `DRILL_apply_the_nvi_idiom` (a third site, found during the repair, which
+> repeated the unqualified guidance and would have kept teaching the contradiction).
+> `validate.py` 1201 objects clean, `verify_references.py` clean, `build_index.py`
+> wrote 0 indices — cross-link edges do not affect navigation.
+>
+> **The repair was smaller than proposed, because the adjudication was already in
+> the library.** `PAT_dont_call_unknown_code_while_holding_a_lock` carries an ELSE
+> clause — *"where the called code is yours, in the same component, and its locking
+> is something you can see and keep seeing, the call is as safe as the rest of the
+> section"* — which is exactly the needed scope condition. The card's own Do bullet
+> then overrode it by counting virtual functions as unknown code flatly, with no
+> reference back. So no new doctrine was written: both cards were pointed at a
+> boundary the library already had. The proposed wording below is superseded by
+> that, and is kept only as the record of what was diagnosed before the cards were
+> read closely.
+
+**This is the only finding in the file that is about the canon rather than an
+instrument, and the only one not gated behind a confirming run.** It was surfaced
+by the CPP run and then verified directly against the cards.
+
+**The contradiction.**
+
+- `languages/cpp/virtual-functions/PAT_wrap_virtuals_with_nvi_idiom` instructs the
+  wrapper to bracket the virtual call with a mutex lock — "so every derived
+  implementation runs in the right context," and again in its Why, where the
+  ability to "bracket the call with mutex locks" that "direct virtual calls cannot
+  guarantee" is given as *the justification for the idiom itself*. This is not an
+  incidental example; the locking is load-bearing to the card's argument.
+- `languages/cpp/concurrency/PAT_dont_call_unknown_code_while_holding_a_lock`
+  instructs the reader to "count callbacks, comparators, and **virtual functions**
+  as unknown code," and to restructure so the unknown call happens outside the
+  guarded region.
+
+One card's central recommendation is the other card's named prohibition.
+`DRILL_apply_the_nvi_idiom` repeats the locking guidance, so the conflict reaches
+a runner through the drill as well as the card.
+
+**Neither card acknowledges the other, and the link graph is asymmetric.**
+`PAT_lock_at_the_public_boundary_and_nowhere_inside` cross-links *both* — so a
+reader arriving from the concurrency side may see the collision and be left to
+resolve it. But `PAT_wrap_virtuals_with_nvi_idiom`'s own `cross_links` reach only
+`PAT_externalize_varying_behavior_with_strategy` and
+`PAT_never_redefine_inherited_default_parameter`. **There is no edge from NVI to
+the constraint that limits it.** A reader arriving from the virtual-functions
+topic never learns the constraint exists.
+
+**Why it matters here.** The CPP run had to adjudicate this to finish instruction
+6. The adjudication is not in the library, so the run supplied it — which means
+instruction 6 currently cannot be completed from the cards alone without the
+runner inventing the reconciliation.
+
+**Recommended resolution — repair both cards in place; do not author a third.**
+
+The missing content is a scope condition, not a new decision procedure:
+
+> The NVI wrapper may hold the lock across the dispatch only when the set of
+> overrides is closed and in-tree — a sealed customization point the component
+> controls and reviews. Where an override may be supplied by a caller the
+> component does not control, the virtual is unknown code: release before dispatch,
+> or hoist the call out of the guarded region. Bracketing invariant checks and
+> pre/postcondition verification in the wrapper is unaffected either way, and
+> remains the idiom's primary justification.
+
+**Why in place rather than a new Pattern.** A third card stating the
+reconciliation leaves both existing cards wrong where a reader actually finds
+them, and creates a second write site that lets the real owners decay — the same
+failure mode hard rule 16 describes for memory. The two cards are where the
+contradiction lives and where the fix belongs. This is a wording repair to
+existing cards plus one missing `cross_links` edge, so it does not reach hard rule
+15's authoring bar at all and needs no confirming run.
+
+**Also add** the `related_to` edge from `PAT_wrap_virtuals_with_nvi_idiom` to
+`PAT_dont_call_unknown_code_while_holding_a_lock`. The asymmetry is arguably the
+whole defect: the constraint is discoverable from concurrency and invisible from
+virtual-functions.
+
 ---
 
 # Part 6 — What this evidence does not support
@@ -581,16 +841,31 @@ produced drill defects and library-routing observations, not admissible events
 about a capability. Nothing here is a real result about a real capability, which
 is the bar for creating the store.
 
-## The invalid run
+## The invalid run, and its replacement
 
-**CPP (`DRILL_restructure_a_class_that_locks_every_member`) was never run.** The
-session was terminated by an account-level usage limit partway through
-constructing the restructured version. Under hard rule 17 this is an invalid run:
-it failed before the capability was exercised, it is attributable to the tool, and
-it counts toward nothing about the C++ lane. It needs a fresh cold session.
+**The first CPP attempt (2026-08-25) was invalid.** The session was terminated by
+an account-level usage limit partway through constructing the restructured
+version. Under hard rule 17 it failed before the capability was exercised, it is
+attributable to the tool, and it counts toward nothing about the C++ lane. It
+stays in the record as an invalid run and is not evidence about anything.
 
-The limit is account-level, so a re-run must wait for the reset rather than be
-retried immediately.
+**The replacement run (2026-08-26) was valid and clean**, and adds an eighth row
+to the table above rather than an exception to it:
+
+| Drill | Failure that occurred | What caught it |
+|---|---|---|
+| CPP | None reported. The work compiled at `/W4 /permissive-` and ran correctly under four threads | — |
+
+So the tally across all eight drills is **eight valid-or-replaced runs, zero wrong
+answers**, and the conclusion of this Part is unchanged: no craft weakness has
+been demonstrated, and `memory/software-engineering/` should still not exist.
+
+**One clarification the CPP run forces, because it is the closest thing to an
+exception.** G7 (Part 5e) is a genuine canon defect — but it is a *consistency*
+defect between two cards that both already exist, surfaced by auditing them, not
+a capability that failed in application. The run reached the correct answer; it
+simply had to adjudicate the contradiction to get there. That makes G7 a card
+repair, not craft evidence, and not an admissible memory event.
 
 ---
 
@@ -608,5 +883,60 @@ retried immediately.
    F-STAMP-2 need real restructuring, not a clause.
 6. **N1** — the AP band contradiction. The only card edit in the list.
 7. **The PASS family in 2b, and the remaining SCALE items.**
-8. **Re-run CPP** in a cold session after the limit resets.
+8. ~~**Re-run CPP** in a cold session after the limit resets.~~ **Done 2026-08-26.**
 9. **G1 and G2** — hold for a second confirming run before authoring anything.
+
+## Remaining work, in order (as of 2026-08-26)
+
+Items 1–7 are applied; item 8 is done. What is left:
+
+1. ~~**C2** (Part 4A.3) — the two-mutex deadlock hole.~~ **Done 2026-08-26.** The
+   estimate held: one instruction, one bullet, two Common Failures, one edge, no
+   new content. It also required C1's instruction half, now also done.
+2. ~~**G7** (Part 5e) — the NVI / unknown-code contradiction.~~ **Done 2026-08-26.**
+   Three files changed; see the note in Part 5e. CPP instruction 6 can now be
+   completed from the cards alone.
+3. ~~**C1** (Part 4A.2)~~ **Done 2026-08-26.** Instruction half with C2; bullet 4
+   with the bullet table.
+4. ~~**The CPP bullet table** (Part 4A.1)~~ **Done 2026-08-26.** All five bullets
+   rewritten, three Common Failures added, instruction 4 amended.
+5. ~~**G1 and G2** — still held.~~ **Done 2026-08-26.** Confirmed real, authored as
+   one card. See Part 5a.
+
+**CPP has now had the same treatment the other seven received in repairs 1–7, and
+the eight drills are consistent with each other for the first time.** Everything
+in Parts 1–4A is applied. Parts 5a–5d remain not-actionable by their own marking,
+and 5e is applied.
+
+## Standing note for the next run
+
+Of the four repairs done on 2026-08-26, **two needed no new content and one did**,
+and the check that separated them was the same in every case: read the adjacent
+cards in full before deciding.
+
+- **G7** — the adjudication was sitting in an ELSE clause that the same card's own
+  Do bullet overrode. Repair was to route to it, not to write it.
+- **C2** — the hazard was fully covered by a core card the drill never linked.
+  Same shape.
+- **G1 and G2** — genuinely absent. The nearest card prices communication by
+  category and never separates count from volume; the other is about placement
+  across a hierarchy, not grouping geometry. One card authored.
+
+So the rule is not "the answer is usually already there." It is that the question
+is settled by reading the neighbours rather than by grepping for keywords — the
+greps for this were uninformative in both directions, hitting two dozen files on
+incidental words while missing the actual distinction, which is conceptual and not
+lexical.
+
+**One further check worth keeping.** Every quantitative claim in an authored card
+should be re-derived before the card is trusted, independently of wherever it came
+from. The 2-D worked instance in the new card was checked term by term, and the
+threshold collapsing to a property of the domain rather than of the group count is
+a real result rather than an artifact of the numbers it was first noticed in.
+
+**A note for whoever does C2.** G7's repair suggests checking the library before
+writing new wording. The adjudication G7 needed was already present and merely
+unreachable, and C2 looks like the same shape:
+`PAT_break_one_of_deadlocks_four_conditions` already exists and covers the
+acquisition-order hazard, so C2 is likely a routing and instruction repair rather
+than any new content.

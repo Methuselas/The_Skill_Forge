@@ -195,6 +195,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Tune a Measured Bottleneck
 - **Name the Operations the Thing Supports Before Choosing How to Store It** — read first
   - then: Ask Whether a New Method Belongs Before You Add It
+- **Price Communication by Transfer Count and Volume Separately** — read first
+  - then: Design a Parallel Decomposition
+  - then: Run the Decomposition Procedure on a Concrete Problem
 - **Put the Thread-Safety Guarantee at the Transaction Boundary** — read first
   - then: Fold an Interface Whose Operations Do Not Compose
   - then: Lock at the Public Boundary and Nowhere Inside
@@ -254,7 +257,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Avoiding Surprises](avoiding-surprises/INDEX.md) - 11 object(s).
 - [Code Comprehension](code-comprehension/INDEX.md) - 23 object(s).
 - [Code Quality](code-quality/INDEX.md) - 15 object(s).
-- [Concurrency](concurrency/INDEX.md) - 57 object(s).
+- [Concurrency](concurrency/INDEX.md) - 58 object(s).
 - [Contracts](contracts/INDEX.md) - 9 object(s).
 - [Control Flow](control-flow/INDEX.md) - 13 object(s).
 - [Data Types](data-types/INDEX.md) - 4 object(s).

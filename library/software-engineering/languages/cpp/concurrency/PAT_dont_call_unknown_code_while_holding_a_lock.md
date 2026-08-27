@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_take_the_simplest_lock_type_that_does_the_job
 - rel: related_to
   target_object_id: PAT_lock_the_smallest_region_that_must_be_atomic
+- rel: related_to
+  target_object_id: PAT_wrap_virtuals_with_nvi_idiom
 - rel: prerequisite_for
   target_object_id: DRILL_restructure_a_class_that_locks_every_member
 reference:
@@ -47,7 +49,7 @@ variants: []
 - Restructure so the unknown call happens outside the guarded region. Fetching the value first and then locking only to store it turns an unbounded dependency into a bounded one, and usually shortens the critical section as a side effect.
 - Treat the danger as growing over time rather than as a property of today's code. The library you call may be fine now; the next version may not be, and nothing about your code will change when it stops being fine.
 - Remember that ordinary mutexes are not re-entrant. If the called code reaches back into the same object and takes the same mutex, the behaviour is undefined and what you will usually see is the thread waiting for a lock it is itself holding.
-- Count callbacks, comparators, and virtual functions as unknown code. They are supplied by the caller by design, which means their contents are exactly what the component cannot know.
+- Count callbacks, comparators, and virtual functions as unknown code wherever the implementation may be supplied from outside the component — the default for anything published as a customization point, and the reason their contents are exactly what the component cannot know. A virtual whose overrides all live in this component and are reviewed with it falls under the ELSE above. Wrapping the call in the non-virtual interface idiom does not move it out of that clause in either direction: the wrapper decides who calls the virtual, which is a different question from who wrote it.
 - Watch what the called code is given as well as what it does, where it is invoked on your internals. Anything handed a reference to guarded state can return it, store it, or capture it, and the caller then holds a way into the protected data that outlives the lock. This defeats a self-guarding type completely, and unlike the liveness failures it announces nothing — the interface still looks closed, because the escape route is supplied by the caller and appears nowhere in the type.
 
 ## Don't

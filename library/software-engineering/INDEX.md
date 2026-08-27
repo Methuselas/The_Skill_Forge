@@ -221,6 +221,9 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Ask Whether a New Method Belongs Before You Add It
 - **Prefer a Task to a Thread When Work Returns Something** — read first
   - then: Specify the Launch Policy When Asynchrony Is Required
+- **Price Communication by Transfer Count and Volume Separately** — read first
+  - then: Design a Parallel Decomposition
+  - then: Run the Decomposition Procedure on a Concrete Problem
 - **Put the Thread-Safety Guarantee at the Transaction Boundary** — read first
   - then: Fold an Interface Whose Operations Do Not Compose
   - then: Lock at the Public Boundary and Nowhere Inside
@@ -285,5 +288,5 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Topics
 
-- [Foundations](core/INDEX.md) - 396 object(s).
+- [Foundations](core/INDEX.md) - 397 object(s).
 - [Languages](languages/INDEX.md) - 188 object(s).

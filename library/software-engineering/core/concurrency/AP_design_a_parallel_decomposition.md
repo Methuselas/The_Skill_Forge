@@ -31,6 +31,8 @@ cross_links:
   target_object_id: PAT_avoid_sharing_before_you_reach_for_protecting_it
 - rel: supports
   target_object_id: PAT_locate_the_working_set_on_the_memory_hierarchy
+- rel: supports
+  target_object_id: PAT_price_communication_by_transfer_count_and_volume_separately
 - rel: prerequisite_for
   target_object_id: DRILL_run_the_decomposition_procedure_on_a_problem
 reference:
