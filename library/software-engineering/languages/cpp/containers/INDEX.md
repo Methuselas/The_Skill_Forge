@@ -10,9 +10,12 @@
 - [Choose the Map Update Call That Does Not Construct Twice](PAT_choose_the_map_update_call_that_does_not_construct_twice.md) - pattern; 2 block. Tags: api_design, containers, cpp, efficiency, lookup.
 - [Decide What a Container Holds](PAT_decide_what_a_container_holds.md) - pattern; 0 design. Tags: containers, copy_control, cpp, resource_management, slicing.
 - [Encapsulate the Container Choice Instead of Abstracting Over It](PAT_encapsulate_the_container_choice_instead_of_abstracting_over_it.md) - pattern; 0 design. Tags: abstraction, containers, cpp, design, encapsulation.
+- [Erase in Constant Time by Moving the Last Element Into the Hole](PAT_erase_in_constant_time_by_moving_the_last_element_into_the_hole.md) - pattern; 3 rough. Tags: containers, cpp, erasure, performance.
 - [Give an Ordered Container a Comparison Type That Is a Strict Weak Ordering](PAT_give_an_ordered_container_a_comparison_type_that_is_a_strict_weak_ordering.md) - pattern; 2 block. Tags: comparison, containers, cpp, invariants, undefined_behavior.
+  - Variants: `Supply a Hash and an Equality for an Unordered Container` (context).
 - [Hand Container Data to a C API as a Pointer and a Count](PAT_hand_container_data_to_a_c_api_as_a_pointer_and_a_count.md) - pattern; 2 block. Tags: containers, cpp, language_interop, legacy_code, undefined_behavior.
 - [Prefer Range Member Functions to Repeated Single-Element Calls](PAT_prefer_range_member_functions_to_repeated_single_element_calls.md) - pattern; 2 block. Tags: algorithms, containers, cpp, efficiency, readability.
+- [Prefer the Checked Element Accessor by Default](PAT_prefer_the_checked_element_accessor_by_default.md) - pattern; 3 rough. Tags: bounds, containers, correctness, cpp.
 - [Recover the Iterator From Erase Rather Than Advancing It](PAT_recover_the_iterator_from_erase_rather_than_advancing_it.md) - pattern; 2 block. Tags: containers, cpp, idioms, iterator_invalidation, undefined_behavior.
 - [Reserve Capacity Up Front and Release It Deliberately](PAT_reserve_capacity_up_front_and_release_it_deliberately.md) - pattern; 2 block. Tags: containers, cpp, iterator_invalidation, memory_management, performance.
 - [Tell Equality From Equivalence When Looking Up](PAT_tell_equality_from_equivalence_when_looking_up.md) - pattern; 2 block. Tags: avoiding_surprises, comparison, containers, cpp, lookup.

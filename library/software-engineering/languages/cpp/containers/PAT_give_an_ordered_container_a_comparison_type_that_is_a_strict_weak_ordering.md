@@ -31,7 +31,14 @@ reference:
   author: Scott Meyers
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_supply_a_hash_and_an_equality_for_an_unordered_container
+  variant_name: Supply a Hash and an Equality for an Unordered Container
+  variant_basis: context
+  difference_from_foundation: The foundation covers what an ordered container asks of a key type, which is a single comparison meaning "precedes," and it is the whole requirement because the container's invariant is that its elements are sorted. An unordered container has a different invariant and therefore asks for different machinery — two pieces rather than one. It needs a hash to decide where a key belongs, and it needs an equality to distinguish keys that landed in the same place. Neither is a comparison, and a type that has no meaningful order can still supply both, which is what makes this the available route for a key that genuinely does not sort. A coordinate pair is the standard case, since one direction is not smaller or larger than another, merely different. The mechanism also differs. The foundation's comparison is most naturally supplied as a type passed to the container, whereas the two pieces here can be supplied either as template arguments or by specializing the library's default hash for your key type, and the specialization is the more general of the two because it then serves every container and algorithm that reaches for the default rather than only the one you are declaring.
+  when_to_use: Use when the key type has no meaningful order to give — a direction, a coordinate, an identifier whose bits carry no ranking — or when lookup dominates and the ordered traversal an ordered container provides is not wanted. It is also the route when a sensible order exists but writing one would be inventing a ranking nobody needs, which is a signal the ordering was never part of the type's meaning.
+  when_not_to_use: Do not take it where iteration in key order is part of what the container is for, since an unordered container gives no order at all and adding a sort afterwards discards the advantage. Prefer the foundation where the key already orders naturally, because supplying nothing is better than supplying two pieces that must agree with each other.
+  absorbed_from_object_id: none
 ---
 
 # Give an Ordered Container a Comparison Type That Is a Strict Weak Ordering
@@ -60,6 +67,8 @@ variants: []
 
 ## Notes
 The single rule underneath all of this is that the comparison answers "does the first argument come before the second in the order you want." Once it is read that way rather than as a general-purpose "is this smaller," the constraint stops needing to be memorized: equal values do not come before one another, so the answer for them is no.
+
+`VAR_supply_a_hash_and_an_equality_for_an_unordered_container` covers the same question — what does this container require of my key type — asked of the other container family. An ordered container wants one comparison because its invariant is that it stays sorted. An unordered container has no such invariant and wants two pieces instead: a hash to decide where the key belongs, and an equality to separate keys that land together. The practical consequence is that a type with no meaningful order is not shut out of associative lookup, which is the situation that sends people looking — a coordinate is not smaller or larger than another coordinate, only different, and inventing a ranking to satisfy an ordered container would be fabricating meaning the type does not have. Either piece may be passed to the container as a template argument, or the library's default hash may be specialized for the key type; the specialization is the broader move, since it serves everything that reaches for the default rather than the one container you are declaring. Stay with the foundation wherever iteration in key order is part of the point, because an unordered container gives no order to iterate in.
 
 The formal name for what the standard requires is a strict weak ordering, and the full definition is not especially illuminating to work through. The clause that catches real code is the one above, and it catches it most often through the negate-the-existing-comparison shortcut when someone needs a descending order — which is a plausible-looking edit to working code that quietly makes it invalid.
 

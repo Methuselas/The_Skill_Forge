@@ -50,7 +50,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Concurrency](concurrency/INDEX.md) - 22 object(s).
 - [Const Correctness](const-correctness/INDEX.md) - 7 object(s).
 - [Construction](construction/INDEX.md) - 3 object(s).
-- [Containers](containers/INDEX.md) - 13 object(s).
+- [Containers](containers/INDEX.md) - 15 object(s).
 - [Copy Control](copy-control/INDEX.md) - 11 object(s).
 - [Coroutines](coroutines/INDEX.md) - 3 object(s).
 - [Destructors](destructors/INDEX.md) - 2 object(s).
