@@ -1,0 +1,37 @@
+schema_version: 1
+phase: preflight_complete_waiting_for_batch_approval
+canon_mutation_authorized: false
+baseline:
+  commit: 8c3fa30fae6f41100f2268a72dbf0614ca35fd36
+  date: '2026-08-28'
+  art_validation: pass
+  reference_validation: pass
+  memory_validation: pass
+  generated_index_check: pass
+  unrelated_worktree_changes_present: true
+inventory:
+  patterns: 370
+  drills: 119
+  aps: 58
+  variants: 535
+  total_records: 1082
+external_evidence:
+  root: E:/Books/!Comics
+  access: read_only
+  archives: 952
+  archive_formats_verified:
+    cbz: true
+    cbr: true
+next_batch:
+  id: ART_PRESSURE_BATCH_001
+  status: proposed
+  subject: foundational action readability in sequential superhero art
+  object_owners:
+    - PAT_build_gesture_into_clear_masses
+    - PAT_preserve_articulated_limb_chain
+    - PAT_track_force_continuity_through_action
+    - PAT_design_pose_against_center_of_gravity
+    - PAT_design_whole_picture_as_interlocking_shape_pattern
+    - PAT_choose_viewpoint_to_strengthen_story_effect
+  fixture_strategy: select a small cross-artist set from at least four distinct collections
+  mutation_gate: explicit_user_approval_required

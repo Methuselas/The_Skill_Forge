@@ -1,0 +1,32 @@
+schema_version: 1
+evidence_pool:
+  kind: local_user_supplied_comics_collection
+  access: read_only
+  configured_root: E:/Books/!Comics
+  total_archives: 952
+  archive_formats:
+    cbr: 820
+    cbz: 132
+  non_evidence_content:
+    - MComix-1.2.1
+    - CBR2CBZ.bat
+  collections:
+    - id: batman_dark_knight_returns_10th_anniversary
+      relative_path: Batman - The Dark Knight Returns 10th Anniversary Edition (Bchry).cbr
+      archives: 1
+    - id: cyber_force_v2
+      relative_path: Cyber Force v2
+      archives: 35
+    - id: savage_dragon
+      relative_path: Savage Dragon (000 - 198 + Extras) (1993 - Ongoing)
+      archives: 227
+    - id: uncanny_x_men
+      relative_path: Uncanny X-Men (001 - 544 & Annuals)
+      archives: 570
+    - id: wetworks
+      relative_path: Wetworks (v1-v2+Extras) (1994-2010) GetComics.INFO
+      archives: 66
+    - id: wildcats_v1
+      relative_path: WildC.A.T.s v1 (000-050+Annual)(1992-1998)(1)
+      archives: 53
+selected_fixtures: []

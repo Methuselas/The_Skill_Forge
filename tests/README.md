@@ -25,6 +25,12 @@ request string resolves to a given mode and lane; declared risk checks are
 reported; every card reference in every profile resolves to a real `object_id`;
 the completion audit reports what a record omits.
 
+**`test_art_pressure.py` — empirical Art coverage accounting.** Every live Art
+Pattern, Drill, AP, and embedded Variant has exactly one pressure-test record;
+generated card metadata stays synchronized with the library; paths remain
+repository-relative; coverage totals match the manifest. It does not judge the
+truth of a finding or turn human artwork into a repository dependency.
+
 ## What no suite here can prove
 
 Nothing in this directory touches a live host. These behaviors depend on the
