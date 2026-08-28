@@ -28,7 +28,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_weight_competing_accounts_by_position_evidence_and_consequence
+    variant_name: Weight Competing Accounts by Position, Evidence, and Consequence
+    variant_basis: method_sequence
+    difference_from_foundation: Compare accounts by access, temporal distance, purpose, stake, power, editorial mediation, corroboration, and exposure to consequences before deciding what each can support.
+    when_to_use: Two or more accounts of the same event differ materially and simple source count, vividness, or apparent neutrality would hide an important asymmetry.
+    when_not_to_use: The accounts address different claims, one account is already disproved on the consequential point, or ranking them would replace a necessary statement that the record remains unresolved.
+    absorbed_from_object_id: none
 ---
 
 # Verify Checkable Facts and Research Necessary Context
@@ -67,3 +74,5 @@ variants: []
 
 ## Notes
 Fact-checking and research solve related but different problems. Checking tests whether an existing assertion is accurate; research also discovers the information the essay does not yet know it needs. Curiosity can make that discovery generative, but the finished work must sculpt its findings. A small number of reliable, well-placed particulars can strengthen authority, while an undigested mass of facts can bury the inquiry that gave the research purpose.
+
+`writing_creative_nonfiction_variant_weight_competing_accounts_by_position_evidence_and_consequence` prevents plurality from masquerading as balance or objectivity. Build a comparison matrix for what each person could perceive, when the account was produced, why it was produced, who shaped or transmitted it, which interests or pressures bear on it, what corroborates it, and how directly the speaker lived with the event's consequences. Use those distinctions to bound claims rather than to award one total credibility score. A distant contemporaneous observer may establish one visible fact while a later harmed witness establishes consequences the observer could not see; neither account automatically cancels the other, and equal space does not make their positions equivalent.

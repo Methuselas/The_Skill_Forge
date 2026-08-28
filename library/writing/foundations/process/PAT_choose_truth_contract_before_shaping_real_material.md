@@ -26,7 +26,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_variant_signal_counterfactual_or_hybrid_fiction_before_borrowing_factual_authority
+    variant_name: Signal Counterfactual or Hybrid Fiction Before Borrowing Factual Authority
+    variant_basis: constraint
+    difference_from_foundation: When real people, events, or records enter an invented counterfactual or hybrid, establish a visible fiction signal and track which elements remain factual, transformed, or wholly invented.
+    when_to_use: A work combines recognizable history or autobiography with invented meetings, survival, dialogue, interior access, chronology, or outcomes that readers might otherwise accept as documentary claims.
+    when_not_to_use: Every consequential claim remains evidence-bound nonfiction, or the material is wholly invented and creates no plausible documentary inference.
+    absorbed_from_object_id: none
 ---
 
 # Choose a Truth Contract Before Shaping Real Material
@@ -57,3 +64,5 @@ variants: []
 
 ## Notes
 All narration selects and arranges details, but selection and fabrication are not the same permission. Fiction can adhere closely to real history while inventing access to characters' minds; nonfiction can use literary shaping while remaining accountable to what evidence supports. The decisive boundary is the promise made to readers, not how vivid, researched, or plausible the prose appears.
+
+`writing_variant_signal_counterfactual_or_hybrid_fiction_before_borrowing_factual_authority` governs work whose documented frame can make invention look evidentiary. Use a title, subtitle, section label, framing statement, venue category, or immediately legible impossible premise to establish the fiction contract before invented access does consequential work. Maintain a private fact-and-invention map through revision, and recheck transitions where factual dates, quotations, or names meet created scenes. Subtlety may shape the artistic effect after the contract is legible; ambiguity must not recruit readers' trust in nonfiction to authenticate events the writer invented.

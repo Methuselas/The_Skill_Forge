@@ -37,6 +37,13 @@ variants:
     when_to_use: A biography concerns someone the writer knows, admires, opposes, grieves, studies professionally, or encounters through unusually privileged or restricted access.
     when_not_to_use: Personal disclosure would create danger or needless exposure, or the relationship does not materially affect evidence, selection, interpretation, or reader trust.
     absorbed_from_object_id: none
+  - variant_id: writing_creative_nonfiction_variant_declare_traveler_position_and_limits
+    variant_name: Declare the Traveler's Position and Limits
+    variant_basis: context
+    difference_from_foundation: Make route, bodily condition, duration, access, cultural position, prior assumptions, local testimony, and later research visible where they govern what the traveler can observe and responsibly conclude.
+    when_to_use: A journey or encounter with an unfamiliar place supplies both the subject matter and the writer's apparent authority.
+    when_not_to_use: Place functions only as a minor setting, or disclosing a route or encounter would create a concrete safety risk without changing the work's responsible claims.
+    absorbed_from_object_id: none
 ---
 
 # Make Personal Presence Part of the Inquiry
@@ -73,3 +80,5 @@ variants:
 Presence varies by form and by the job of a particular passage. Memoir may place the writer's life at the center; an essay about a relationship may divide attention; nature writing or literary journalism may keep the writer at the edge while still revealing attention, access, judgment, and response. Offstage does not mean absent: voice survives in sentence construction, word choice, emphasis, and the route through the material. The important distinction is not I versus no I, but a position fitted to the inquiry versus either false neutrality or needless domination.
 
 `writing_creative_nonfiction_variant_declare_biographer_relationship_and_distance` makes the conditions of a biographical account available for scrutiny. Name what contact, affection, conflict, expertise, invitation, archive access, or distance permits the writer to know, then name the blind spots or pressures it creates. Emotional closeness can provide intimate evidence while intensifying partiality; professional or historical distance can widen context while limiting embodied knowledge. Neither position certifies accuracy, and the number of first-person statements is less useful than whether consequential selection and interpretation remain legible.
+
+`writing_creative_nonfiction_variant_declare_traveler_position_and_limits` treats movement through a place as situated access rather than automatic authority. Keep itinerary, time, weather, bodily condition, transport, language ability, hospitality, restriction, dependence, and prior expectation available when they shape what the traveler notices or misses. Distinguish direct observation from another person's explanation, later research, and the writer's interpretation. A journey can expose the observer's changing assumptions and relationship to place, but brief contact, hardship, or sensory intensity does not authorize a culture-wide conclusion.
