@@ -1,0 +1,132 @@
+memory_schema_version: 1
+skillset: software-engineering
+memory_version: 2
+entries:
+- id: SE_MEM_001
+  scope_type: topic
+  scope_id: applying_a_card_condition
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: >
+    Reviewing found C++ code against the library, the runtime read a Pattern's ELSE
+    clause as permission to stop rather than as a claim to verify, and came within one
+    checklist question of clearing an out-of-bounds loop the same card exists to catch.
+    The clause excused an index "derived from the container's own size"; the loop's bound
+    was a named constant that equalled the container's size, which satisfied the clause as
+    written. The same run met a second card whose option list omitted the option the code
+    had actually taken, with the same effect - the rule appeared not to apply. In both
+    cases the IF and the THEN were correct and the narrowing sat in the clause that says
+    when the rule does not apply.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      Escape clauses and option lists are read as closed and authoritative because the
+      rule above them is. They are the part of a card most likely to have been written
+      against the author's examples rather than against unfamiliar code, so they are where
+      a correct rule silently narrows - and the reader has no signal that a clause is
+      approximate rather than exhaustive.
+  boundary: >
+    Observed once, on one codebase, against two C++ Patterns. Both instances were repaired
+    in canon afterwards, so this entry is about the reading habit that nearly missed them,
+    not about those two cards. Untested on core Patterns, on APs, and on Drills.
+  confidence: provisional
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - SE_EV_0001
+  evidence_origin:
+  - runtime_self_audit
+  retrieval_cues:
+  - else clause
+  - escape clause
+  - rule does not apply
+  - exception to the rule
+  - card condition
+  - option list
+  - reviewing code against a card
+  last_verified: '2026-08-27'
+- id: SE_MEM_002
+  scope_type: topic
+  scope_id: reading_inconsistency_in_unfamiliar_code
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: >
+    On finding one class that signalled errors two different ways - a modern result type
+    on its internal methods and a bare boolean with out-parameters on its public surface -
+    the runtime moved to report the inconsistency as a defect to be unified. The split
+    followed a layer boundary exactly, the outer surface reproduced a fixed external ABI
+    that the project exists to reproduce faithfully, and the finding would have been wrong.
+    What separated the two readings was whether the inconsistency fell along a line or
+    scattered; nothing else in the code distinguished them.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      Consistency rules are easy to apply from a diff-sized view, so an inconsistency
+      registers as a finding before the question of what the boundary is has been asked.
+      The check that separates the two cases - does the variation follow a line, and is
+      that line a layer, a platform, or an external contract - is cheap and was not part
+      of the reviewer's default sequence.
+  boundary: >
+    Observed once, on error-signalling style in a codebase reimplementing a documented
+    external API. Untested on naming, formatting, and structural inconsistency, and
+    untested where no external contract is present to explain the split.
+  confidence: provisional
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - SE_EV_0001
+  evidence_origin:
+  - runtime_self_audit
+  likely_owners:
+  - PAT_settle_one_error_handling_strategy_systemwide
+  retrieval_cues:
+  - inconsistent style
+  - two error mechanisms
+  - unify the inconsistency
+  - legacy interface
+  - external ABI
+  - reviewing unfamiliar code
+  last_verified: '2026-08-27'
+- id: SE_MEM_003
+  scope_type: ap
+  scope_id: AP_review_code_you_did_not_write
+  type: known_boundary
+  evidence_class: deterministic_contract
+  observation: >
+    Executed end to end against a working multi-author codebase, the protocol produced a
+    ranked defect list and a list of families examined and cleared, and nothing about
+    technique worth carrying into the reviewer's own work. Its Objective asks for what is
+    wrong and whether the code is sound enough for its purpose; step 7 asks what was
+    examined and found acceptable, which records coverage rather than anything to adopt.
+    The reviewer went looking for adoptable technique only after being asked, on a second
+    pass over the same code, and roughly four fifths of what that pass produced turned out
+    to be owned by cards already read during the review itself.
+  diagnosis:
+    failure_layer: orchestration
+    hypothesis: >
+      The protocol was authored for the case where the reviewed code is worse than the
+      library, which is the usual case and the one its steps are shaped around. Code that
+      is better than the reviewer in some region produces nothing under it, and the second
+      pass suggests the yield is mostly recognition of canon already held rather than new
+      canon - which is worth knowing before adding a step that costs a pass.
+  boundary: >
+    Verified once, on one large well-maintained codebase. Not verified on code of poorer
+    quality, where the boundary may not matter, and not verified on whether a second pass
+    for adoptable technique yields anything a first pass would not.
+  confidence: provisional
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - SE_EV_0001
+  evidence_origin:
+  - runtime_self_audit
+  - user_feedback
+  likely_owners:
+  - AP_review_code_you_did_not_write
+  retrieval_cues:
+  - reviewing code you did not write
+  - what does this code do well
+  - learn from a codebase
+  - adopt a technique
+  - review protocol
+  last_verified: '2026-08-27'
