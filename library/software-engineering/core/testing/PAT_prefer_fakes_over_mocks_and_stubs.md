@@ -37,15 +37,18 @@ variants: []
 ## Do
 - Understand the three doubles: a mock records and verifies the calls made to a dependency (good for checking a side effect happened), a stub returns predefined values (good for feeding inputs), and a fake is a working alternative implementation that stores state internally.
 - Choose a fake because it enforces the real contract: a fake bank account that throws on a negative debit, and rounds a returned balance the way the real one does, catches bugs a mock or stub silently passes.
-- Have the dependency's owning team maintain the fake, so its contract stays identical to the real implementation as that changes.
+- Read "the real contract" as everything the real implementation does that the rest of the system can observe, not only what its own signature exposes. A dependency returning `void` and throwing nothing still has a contract if it advances a shared counter, consumes an entry from a pool, or draws from a global random source — and a double that drops that effect satisfies every interface-shaped check while changing what the program does. Enumerate what the real one touches on its way through before deciding what the double may leave out.
+- Have the dependency's owning team maintain the fake, so its contract stays identical to the real implementation as that changes. Note what that does and does not buy: shared ownership keeps the two in the same head, but where the fake replaces the real file wholesale it is a copy, and nothing but memory links them. If the effect being reproduced is load-bearing, move the code that decides it somewhere both implementations call, so the compiler holds the pair together instead of a reviewer.
 
 ## Don't
 - Don't rely on mocks or stubs where realism matters; you re-encode your own possibly-wrong assumptions into them, so a mock verifying a negative debit "works" makes a passing test a tautology while the real code is broken.
+- Don't infer from a narrow signature that there is little to be faithful to. A `void` function taking one argument looks like the safest thing in the world to stub empty, and is the most dangerous, because nothing in its interface records what it does on the way through. The failure surfaces far away and much later — a replay that diverges, a seeded run that stops reproducing — with nothing pointing back at the double.
 - Don't verify interactions that are implementation details; a mock asserting `debit` or `credit` was called breaks when the code is refactored to a single `transfer`, whereas a fake checking the final balance survives.
 
 ## Checklist
 - If you need a double, does a fake exist or could you write one for a dependency you own?
 - Does the double enforce the real contract, or could it pass while the real code fails?
+- What shared state does the real implementation touch that its signature does not mention, and does the double touch it the same way?
 - Are you asserting on end state (fake) rather than on which internal calls were made (mock)?
 
 ## Notes

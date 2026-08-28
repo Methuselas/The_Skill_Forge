@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: software-engineering
-memory_version: 2
+memory_version: 3
 entries:
 - id: SE_MEM_001
   scope_type: topic
@@ -16,7 +16,15 @@ entries:
     written. The same run met a second card whose option list omitted the option the code
     had actually taken, with the same effect - the rule appeared not to apply. In both
     cases the IF and the THEN were correct and the narrowing sat in the clause that says
-    when the rule does not apply.
+    when the rule does not apply. Seen again on a second codebase region, against two
+    different cards and in both of the same two forms. A variant permitting a check that
+    compiles out was read as permitting a weaker contract, and the runtime came within one
+    step of clearing a documented precondition that admitted the single value which writes
+    out of bounds - the obligation that variant attaches, that the contract be written
+    precisely enough for a caller to tell whether they satisfy it, was the part the code
+    failed and the part not read. Separately an option list of three enforcement mechanisms
+    was run to completion and one was selected, when the correct answer was that none
+    applied: the list presupposes a validation boundary and the code had none.
   diagnosis:
     failure_layer: application
     hypothesis: >
@@ -26,14 +34,19 @@ entries:
       a correct rule silently narrows - and the reader has no signal that a clause is
       approximate rather than exhaustive.
   boundary: >
-    Observed once, on one codebase, against two C++ Patterns. Both instances were repaired
-    in canon afterwards, so this entry is about the reading habit that nearly missed them,
-    not about those two cards. Untested on core Patterns, on APs, and on Drills.
-  confidence: provisional
+    Observed twice, in two runs over the same large codebase, against four Patterns in
+    total - two in the C++ package and two in core. The offending clauses were repaired in
+    canon after each run, so this entry is about the reading habit that nearly missed them
+    rather than about those cards. Both sightings came from the same reviewer reading the
+    same library, so this is repeated behaviour and not yet a cross-reader result. Still
+    untested on APs and on Drills, and untested on whether reading the card body in full
+    prevents it or merely caught it these two times.
+  confidence: repeated
   status: active
-  evidence_count: 1
+  evidence_count: 2
   evidence_events:
   - SE_EV_0001
+  - SE_EV_0002
   evidence_origin:
   - runtime_self_audit
   retrieval_cues:
@@ -44,7 +57,11 @@ entries:
   - card condition
   - option list
   - reviewing code against a card
-  last_verified: '2026-08-27'
+  - variant
+  - when not to use
+  - assertion that compiles out
+  - the rule does not apply here
+  last_verified: '2026-08-28'
 - id: SE_MEM_002
   scope_type: topic
   scope_id: reading_inconsistency_in_unfamiliar_code
@@ -100,7 +117,14 @@ entries:
     examined and found acceptable, which records coverage rather than anything to adopt.
     The reviewer went looking for adoptable technique only after being asked, on a second
     pass over the same code, and roughly four fifths of what that pass produced turned out
-    to be owned by cards already read during the review itself.
+    to be owned by cards already read during the review itself. A second run made the
+    adoption pass an explicit instruction and required every named technique to arrive with
+    the object id that owns it, or with a statement of what was searched and not found.
+    That run reported eleven techniques owned against six with no owner, on a slice
+    deliberately aimed at regions the first run had left untouched. So the pass does return
+    material the protocol does not, the yield improves when the slice is aimed at thin
+    regions rather than chosen freely, and the majority of what it returns is still
+    recognition of canon already held.
   diagnosis:
     failure_layer: orchestration
     hypothesis: >
@@ -110,14 +134,18 @@ entries:
       pass suggests the yield is mostly recognition of canon already held rather than new
       canon - which is worth knowing before adding a step that costs a pass.
   boundary: >
-    Verified once, on one large well-maintained codebase. Not verified on code of poorer
-    quality, where the boundary may not matter, and not verified on whether a second pass
-    for adoptable technique yields anything a first pass would not.
-  confidence: provisional
+    Verified twice, both times on the same large well-maintained codebase, in two disjoint
+    subsystems. Not verified on code of poorer quality, where the boundary may not matter.
+    Whether a second pass yields anything a first pass would not is now answered yes and
+    quantified twice. What remains unverified is whether the same yield could be had inside
+    one pass, and whether the owned-to-unowned ratio holds on a codebase whose house style
+    differs from this one.
+  confidence: repeated
   status: active
-  evidence_count: 1
+  evidence_count: 2
   evidence_events:
   - SE_EV_0001
+  - SE_EV_0002
   evidence_origin:
   - runtime_self_audit
   - user_feedback
@@ -129,4 +157,99 @@ entries:
   - learn from a codebase
   - adopt a technique
   - review protocol
-  last_verified: '2026-08-27'
+  - what is this code better at
+  last_verified: '2026-08-28'
+- id: SE_MEM_004
+  scope_type: topic
+  scope_id: establishing_a_rules_precondition_before_judging_compliance
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: >
+    Judging a benchmark against a card that prescribes how the code under test must be
+    compiled, the runtime read the benchmark file, saw the prescribed precaution absent,
+    and was ready to report a violation. The fact that decided the question was in another
+    file: the code under test is a forced-inline template in a header, so the shipping
+    build specializes it exactly as the fixture does, and applying the precaution would
+    have measured a binary nobody ships. The card named a mechanism rather than the goal
+    the mechanism serves, which is a separate defect and was repaired; what this entry
+    records is that the compliance judgement was made before the fact that decides it had
+    been located, and that nothing in the reviewed file signalled the fact was elsewhere.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      A rule about how code is built, deployed, or called has a precondition that lives
+      where the code is defined or invoked, not where the rule is being applied. The
+      reviewed file is the salient one and reads as complete, so the precondition gets
+      assumed rather than checked. The cost of checking is one file open, and the failure
+      is silent in both directions - the rule can appear violated when it is satisfied, or
+      satisfied when it is violated.
+  boundary: >
+    Observed once, on a compilation-context rule applied to a benchmark. SE_MEM_002 in
+    this file records the same shape a run earlier, on an error-signalling inconsistency
+    whose deciding fact was a layer boundary; the two share a hypothesis and not an
+    observation. Untested on rules about lifetime, ownership, and thread confinement,
+    where the deciding fact is also routinely outside the reviewed file.
+  confidence: provisional
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - SE_EV_0002
+  evidence_origin:
+  - runtime_self_audit
+  retrieval_cues:
+  - how is this compiled
+  - inline
+  - benchmark fixture
+  - where is this called from
+  - the rule applies here
+  - judging compliance
+  - reviewing one file
+  last_verified: '2026-08-28'
+- id: SE_MEM_005
+  scope_type: topic
+  scope_id: reporting_a_guidance_defect
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: >
+    Across two review runs the runtime reported eight defects in cards. Five survived
+    verification against the owning card and three did not. One card's IF already covered
+    the case and what had failed was routing; a second card's Do already described the
+    failure mode and again only routing had failed; a third card's rule already admitted
+    the form being asked for, so the report was a preference rather than a defect. Every
+    one of the three was caught by reading the owning card in full before editing, and
+    none was caught by the reasoning that produced the report. In the second run the two
+    unverified reports were the two cards the report itself had flagged as consulted by
+    index entry rather than read.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      A card that did not fire during a review is indistinguishable at the time from a
+      card that could not have fired, because both present as silence. The reviewer
+      attributes the silence to the card's wording, which is the visible candidate, when
+      the more common cause is that the card was never reached. Reading the owning card in
+      full separates them, and the correlation between not reading a card and misreporting
+      it held on every instance so far.
+  boundary: >
+    Eight reports across two runs on one codebase, by one reviewer against one library.
+    The survival rate is not a stable figure and should not be treated as one. What is
+    verified is the direction - reported defects over-count - and that full reading of the
+    owning card is what separated the two kinds. Untested on reports of missing cards
+    rather than defective ones, and untested on whether a reviewer who reads every
+    candidate owner in full still over-reports.
+  confidence: repeated
+  status: active
+  evidence_count: 2
+  evidence_events:
+  - SE_EV_0001
+  - SE_EV_0002
+  evidence_origin:
+  - runtime_self_audit
+  - user_feedback
+  retrieval_cues:
+  - this card is wrong
+  - the card should have said
+  - guidance defect
+  - before editing a card
+  - the rule is too narrow
+  - report a card defect
+  last_verified: '2026-08-28'

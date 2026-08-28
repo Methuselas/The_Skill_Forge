@@ -48,7 +48,8 @@ variants: []
 - Take that third point as the reason "we control both ends" is a weaker argument than it sounds. Same architecture does not mean same layout, so a scheme that copies a structure's raw bytes is depending on build flags matching — a coupling nobody records, nothing checks, and a compiler upgrade can break.
 - Write it in the portable form even where no translation will occur. Where both ends genuinely match, describing fields by type costs nothing at run time and the code never has to change when a new platform, a new compiler, or a new consumer appears. The alternative is correct today and is a rewrite the first time either end moves.
 - Keep the description in one place and derive both directions from it. A writer and a reader that each independently know the format are two sources of truth that drift, and the failure is a corrupted round trip rather than a compile error.
-- Send a structure as one described unit rather than field by field. Decomposing it into a series of primitive transfers breaks the encapsulation for no gain and pays the per-transfer cost repeatedly; describing the whole aggregate once keeps both the structure and the efficiency.
+- Send a structure as one described unit rather than field by field, wherever each transfer carries a cost of its own. Decomposing a message into a series of primitive transfers breaks the encapsulation for no gain and pays that cost repeatedly; describing the whole aggregate once keeps both the structure and the efficiency.
+- Separate a message from a record in a stream before applying that, because the economics invert. A message is sent occasionally and the per-transfer cost dominates, so the aggregate wins. A record in a high-volume stream — an append-only log, a recording, a trace — is one of millions, the writes are buffered so there is no per-field cost to repeat, and per-record size *is* the artifact's size. There, encoding field by field is what buys a compact variable-length form, and it stays safe for exactly as long as every field still states its own width and byte order.
 - Decide what happens when the two ends disagree about the shape itself, not just its layout. Fields get added; readers meet data written by newer or older writers. A format with no version and no rule for unknown fields will eventually be read by something that does not share its assumptions, and the failure will be silent.
 
 ## Don't
@@ -56,13 +57,14 @@ variants: []
 - Don't treat a matching total size as evidence the layouts agree. Two structures can occupy the same number of bytes with fields at different offsets, so the check that seems like it would catch this does not.
 - Don't rely on a comment to carry the format. The description has to be something both ends execute, not something both ends were told; a note beside the writer does not constrain the reader and stops being true silently.
 - Don't defer the versioning question to the first incompatibility. By then there is data in flight, data at rest, and readers you do not control, and the change that was a design decision has become a migration.
+- Don't read the aggregate rule as forbidding a compact per-field encoding in a stream format. What the rule protects is the reader's ability to reconstruct meaning, and a hand-written encoder that states each field's width and order preserves that completely; what it forbids is shipping a structure's raw bytes, which states nothing. The question that separates them is not how many write calls appear but whether each one costs a transfer, and whether the format holds one record or millions.
 - Don't confuse this with efficiency. Describing data by meaning is not about making it smaller — a self-describing format is usually larger — it is about the reader being able to read it at all.
 
 ## Checklist
 - Does anything outside this build ever read this data?
 - Is each field described by what it is, or by how many bytes it takes?
 - Could padding or alignment differ between the writer and any reader, including a future build of this program?
-- Do the writing and reading sides derive their format from one definition?
+- Do the writing and reading sides derive their format from one definition — and is there a third list somewhere, in a logger, a settings applier, or a migration, that has to agree with them and does not?
 - What happens when a reader meets data written by a different version?
 - Does the data outlive the process that wrote it?
 
