@@ -1,0 +1,5 @@
+schema_version: 1
+batch_id: ART_PRESSURE_BATCH_001
+canon_mutations: []
+regressions_required: false
+reason: No canonical defect was confirmed; the boundary cases are retained in the structured findings.

@@ -1,6 +1,6 @@
 schema_version: 1
-phase: preflight_complete_waiting_for_batch_approval
-canon_mutation_authorized: false
+phase: batch_001_complete_checkpoint
+canon_mutation_authorized: true
 baseline:
   commit: 8c3fa30fae6f41100f2268a72dbf0614ca35fd36
   date: '2026-08-28'
@@ -25,7 +25,7 @@ external_evidence:
 next_batch:
   id: ART_PRESSURE_BATCH_001
   batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_001.yaml
-  status: proposed
+  status: complete
   subject: foundational action readability in sequential superhero art
   object_owners:
     - PAT_build_gesture_into_clear_masses
@@ -35,4 +35,11 @@ next_batch:
     - PAT_design_whole_picture_as_interlocking_shape_pattern
     - PAT_choose_viewpoint_to_strengthen_story_effect
   fixture_strategy: select a small cross-artist set from at least four distinct collections
-  mutation_gate: explicit_user_approval_required
+  mutation_gate: approved_2026-08-28
+completed_batches:
+  - id: ART_PRESSURE_BATCH_001
+    batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_001.yaml
+    findings_file: tests/art_pressure/findings/ART_PRESSURE_BATCH_001.yaml
+    report_file: tests/art_pressure/reports/ART_PRESSURE_BATCH_001.md
+    disposition: PASS_WITH_BOUNDARIES_CONFIRMED
+    completed_on: '2026-08-28'

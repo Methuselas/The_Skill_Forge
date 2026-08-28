@@ -1,6 +1,6 @@
 schema_version: 1
 batch_id: ART_PRESSURE_BATCH_001
-status: proposed_waiting_for_approval
+status: complete
 domain: art
 canon_baseline_commit: 8c3fa30fae6f41100f2268a72dbf0614ca35fd36
 preflight_checkpoint_commit: d8bee57
@@ -30,7 +30,12 @@ fixture_selection:
     Select a small cross-artist set containing clear positive evidence,
     successful stylization near a rule boundary, and superficially similar
     cases that belong to competing owners.
-  selected_fixtures: []
+  selected_fixtures:
+    - APB001_DKR
+    - APB001_UXM141
+    - APB001_SAVAGE001
+    - APB001_WETWORKS001
+    - APB001_CYBERFORCE001
 required_cases_per_owner:
   - positive
   - negative
@@ -64,4 +69,11 @@ completion_gate:
 approval:
   required_before_evidence_execution: true
   required_before_canon_mutation: true
-  canon_mutation_authorized: false
+  approved_on: '2026-08-28'
+  approval_basis: User confirmed the batch looked good and authorized continuation.
+  canon_mutation_authorized: true
+result:
+  completed_on: '2026-08-28'
+  disposition: PASS_WITH_BOUNDARIES_CONFIRMED
+  canon_mutations: 0
+  object_records_completed: 6

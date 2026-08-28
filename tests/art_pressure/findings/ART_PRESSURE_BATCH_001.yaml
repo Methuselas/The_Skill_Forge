@@ -1,0 +1,119 @@
+schema_version: 1
+batch_id: ART_PRESSURE_BATCH_001
+completed_on: '2026-08-28'
+method:
+  human_fixture_passes: [diagnostic, learning]
+  fixture_count: 5
+  distinct_collections: 5
+  copyrighted_pages_stored_in_repository: false
+  process_inference_from_finished_pages: false
+overall_result: PASS_WITH_BOUNDARIES_CONFIRMED
+canon_mutations: []
+findings:
+  - finding_id: APB001_F01
+    object_id: PAT_build_gesture_into_clear_masses
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB001_F01_POS connected torso, pelvis, and limb volumes preserve the dominant action
+      negative: APB001_F01_NEG a deliberately flat emblematic silhouette does not require volumetric mass construction
+      boundary: APB001_F01_BND extreme foreshortening may compress or merge visible masses while orientation and attachment stay inferable
+      adversarial: APB001_F01_ADV costume detail and rendering must not be mistaken for proof that underlying masses are coherent
+      human_evidence: [APB001_DKR, APB001_CYBERFORCE001]
+      competing_owner: APB001_F01_OWN isolated limb ownership errors route to PAT_preserve_articulated_limb_chain
+    diagnostic_pass: >-
+      DKR btdk-052 and Cyber Force 003 preserve connected, oriented body masses under severe overlap and foreshortening.
+      The finished pages support the outcome test but cannot establish which blocking procedure produced it.
+    learning_pass: >-
+      The card already permits subject-suited primitives and requires preserved attachments rather than literal visible construction.
+      Its boundary correctly protects successful graphic compression from a realism repair.
+    canon_action: none
+
+  - finding_id: APB001_F02
+    object_id: PAT_preserve_articulated_limb_chain
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB001_F02_POS each visible limb can be traced from one parent through ordered joints to the expected endpoint
+      negative: APB001_F02_NEG capes, speed lines, weapons, and clothing folds are not limb chains unless the body plan declares them as appendages
+      boundary: APB001_F02_BND cropped or occluded segments may be hidden without becoming structurally optional
+      adversarial: APB001_F02_ADV extreme stylization may distort segment length and contour while preserving chain identity
+      human_evidence: [APB001_DKR, APB001_SAVAGE001, APB001_WETWORKS001]
+      competing_owner: APB001_F02_OWN unclear mass facing without chain exchange routes to PAT_build_gesture_into_clear_masses
+    diagnostic_pass: >-
+      DKR btdk-052 and Savage Dragon pages 15-17 use overlap and foreshortening aggressively, but the important limbs retain
+      parent, ordered-joint, and endpoint identity. Wetworks 11 shows that crowding alone is not proof of a broken chain.
+    learning_pass: >-
+      The card's count-neutral, body-plan-first wording survives. It correctly rejects endpoint substitution while allowing
+      crop, overlap, and exaggerated proportions when identity and mechanics remain traceable.
+    canon_action: none
+
+  - finding_id: APB001_F03
+    object_id: PAT_track_force_continuity_through_action
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB001_F03_POS a body-wide action has an origin, redirection or resistance, and continuation
+      negative: APB001_F03_NEG a neutral portrait or stable lineup has no need for an invented momentum path
+      boundary: APB001_F03_BND a held or near-static effort can carry force without visible travel
+      adversarial: APB001_F03_ADV speed lines and diagonals cannot substitute for support, contact, or causal redirection
+      human_evidence: [APB001_UXM141, APB001_SAVAGE001, APB001_CYBERFORCE001]
+      competing_owner: APB001_F03_OWN support failure without a broken action route belongs to PAT_design_pose_against_center_of_gravity
+    diagnostic_pass: >-
+      Uncanny X-Men 141 page 8, Savage Dragon 15-17, and Cyber Force 003 make action legible through connected mass and joint
+      responses; graphic motion cues reinforce but do not independently prove the force path.
+    learning_pass: >-
+      The card already distinguishes causal force from decorative flow and static structure. Successful exaggeration strengthens
+      the need to judge continuity of the event, not anatomical naturalism or the quantity of motion marks.
+    canon_action: none
+
+  - finding_id: APB001_F04
+    object_id: PAT_design_pose_against_center_of_gravity
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB001_F04_POS the mass arrangement visibly agrees with the active support, next contact, or momentum state
+      negative: APB001_F04_NEG an airborne figure must not be forced into a standing-leg support model
+      boundary: APB001_F04_BND flight, falling, grappling, and vehicle-supported action use momentum or external contact as the real system
+      adversarial: APB001_F04_ADV a dramatic diagonal is not evidence of believable imbalance by itself
+      human_evidence: [APB001_DKR, APB001_UXM141, APB001_CYBERFORCE001]
+      competing_owner: APB001_F04_OWN readable momentum with unclear transmission belongs to PAT_track_force_continuity_through_action
+    diagnostic_pass: >-
+      DKR btdk-052 is vehicle-supported and airborne; btdk-112 is airborne with forward travel; Cyber Force 003 is mid-stride;
+      Uncanny X-Men 141 page 8 includes flight. None benefits from an invented standing plumb.
+    learning_pass: >-
+      The ELSE clause and support/contact language correctly generalize beyond standing. The decisive test is the actual support,
+      suspension, momentum, or next-contact condition, so successful airborne stylization is not condemned.
+    canon_action: none
+
+  - finding_id: APB001_F05
+    object_id: PAT_design_whole_picture_as_interlocking_shape_pattern
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB001_F05_POS subject, ground, and value masses form a readable whole at thumbnail scale
+      negative: APB001_F05_NEG a technical diagram may prioritize explicit separation over pictorial integration
+      boundary: APB001_F05_BND crowded action can remain coherent without clean isolated silhouettes when value and overlap group the page
+      adversarial: APB001_F05_ADV local anatomy or rendering quality cannot rescue a fragmented whole-picture pattern
+      human_evidence: [APB001_DKR, APB001_WETWORKS001, APB001_SAVAGE001]
+      competing_owner: APB001_F05_OWN a weak emotional camera choice with otherwise coherent shapes belongs to PAT_choose_viewpoint_to_strengthen_story_effect
+    diagnostic_pass: >-
+      DKR btdk-052 and btdk-112 use large graphic masses; Wetworks 11 and 14 retain hierarchy through crowded overlaps and
+      value/color grouping; Savage Dragon 15 organizes collision shapes across panels.
+    learning_pass: >-
+      The card correctly treats outline separation as optional and preserves essential identity boundaries. Interlocking does
+      not mean every silhouette must be isolated or every same-value region merged.
+    canon_action: none
+
+  - finding_id: APB001_F06
+    object_id: PAT_choose_viewpoint_to_strengthen_story_effect
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB001_F06_POS elevation, scale, angle, and crop strengthen a named story effect while action stays legible
+      negative: APB001_F06_NEG repeated comparison or continuity may require the straightforward view
+      boundary: APB001_F06_BND severe foreshortening or camera roll is valid only while the story action remains understandable
+      adversarial: APB001_F06_ADV an unusual angle is not automatically more dramatic or more effective
+      human_evidence: [APB001_DKR, APB001_UXM141, APB001_SAVAGE001, APB001_WETWORKS001]
+      competing_owner: APB001_F06_OWN incoherent geometry after a sound camera choice belongs to perspective, while fragmented massing belongs to whole-picture shape design
+    diagnostic_pass: >-
+      DKR btdk-052 and btdk-112, Uncanny X-Men 141 page 8, Savage Dragon 15, and Wetworks 11 use markedly different camera
+      strategies that intensify speed, threat, collision, or scale without sacrificing the key beat.
+    learning_pass: >-
+      The card already makes effect and legibility co-equal gates and explicitly protects neutral views. It therefore survives
+      both dramatic professional examples and the adversarial temptation to reward novelty for its own sake.
+    canon_action: none
