@@ -7,7 +7,7 @@ method:
   distinct_collections: 5
   copyrighted_pages_stored_in_repository: false
   reproduction_limit_recorded: true
-overall_result: MIXED_PASS_AND_NEEDS_MORE_EVIDENCE
+overall_result: PASS_WITH_BOUNDARIES_CONFIRMED
 canon_mutations: []
 findings:
   - finding_id: APB003_F01
@@ -30,20 +30,27 @@ findings:
 
   - finding_id: APB003_F02
     object_id: PAT_preserve_value_structure_when_translating_tone_into_color
-    status: NEEDS_MORE_EVIDENCE
+    status: PASS_WITH_BOUNDARY_CONFIRMED
     cases:
       positive: APB003_F02_POS a documented tonal design retains its major separations after color is introduced
       negative: APB003_F02_NEG a work conceived directly in color does not manufacture a nonexistent grayscale predecessor
       boundary: APB003_F02_BND intentional value redesign during color is legal when explicitly re-evaluated
       adversarial: APB003_F02_ADV a readable final page cannot prove that an earlier tonal hierarchy was preserved rather than rebuilt
-      human_evidence: [APB002_DKR, APB002_SAVAGE001, APB002_CYBERFORCE001]
+      human_evidence:
+        - APB003_USER_TONAL_FILTER
+        - APB003_WEB_GIANCOLA_MORDENKAINEN
+        - APB003_WEB_GERARD_END_OF_LINE
+        - APB003_WEB_PALUMBO_SIMPLIFIED_PROCESS
       competing_owner: APB003_F02_OWN a final colored surface that fails under its light may belong to PAT_resolve_visible_color_from_local_color_light_and_reflection
     diagnostic_pass: >-
-      The selected pages have readable final value hierarchies, but none of the local fixtures supplies a verified tonal predecessor
-      and subsequent color state.
+      The user screenshot confirms that a finished color portrait retains a legible large value organization when reduced,
+      but it is not chronological process evidence. Giancola documents value rough, color study, staged acrylic/oil development,
+      and final. Gerard explicitly establishes a value arrangement and monochrome underpainting before transparent color and
+      final rendering. Palumbo independently documents a dark-region block-in remaining visible through the first color wash.
     learning_pass: >-
-      Finished art cannot adjudicate the Pattern's translation claim. Retain the card unchanged and seek attributable rough-to-color,
-      value-study-to-final, or colorist process evidence in a later process batch.
+      The artist-authored sequences confirm the bounded claim: when a tonal design is intentionally used as the foundation,
+      carrying its major relationships into color supports controlled development. They also confirm the card's ELSE boundary—
+      this is one valid workflow, not a requirement that every color work manufacture a grayscale predecessor.
     canon_action: none
 
   - finding_id: APB003_F03

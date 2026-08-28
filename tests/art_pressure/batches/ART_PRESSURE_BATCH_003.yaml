@@ -36,6 +36,6 @@ approval:
   canon_mutation_authorized: true
 result:
   completed_on: '2026-08-28'
-  disposition: MIXED_PASS_AND_NEEDS_MORE_EVIDENCE
+  disposition: PASS_WITH_BOUNDARIES_CONFIRMED
   canon_mutations: 0
   object_records_completed: 5

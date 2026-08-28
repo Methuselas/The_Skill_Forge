@@ -150,3 +150,59 @@ selected_fixtures:
     page_locators: [006.jpg, 013.jpg]
     evidence_roles: [positive, boundary, adversarial, competing_owner]
     review_passes: [diagnostic, learning]
+supplementary_process_fixtures:
+  - fixture_id: APB003_USER_TONAL_FILTER
+    source_type: user_supplied_screenshot
+    source: ArtistAssistApp tonal-values comparison beside a finished color portrait
+    accessed_on: '2026-08-28'
+    evidence_role: supporting_outcome_only
+    authorship: HUMAN_AUTHORSHIP_UNCERTAIN
+    limitation: >-
+      The tonal panel appears to be derived from the finished painting, so it demonstrates retained value readability
+      but does not establish an earlier tonal state or a tone-to-color chronology.
+    cards_tested: [PAT_preserve_value_structure_when_translating_tone_into_color]
+  - fixture_id: APB003_WEB_GIANCOLA_MORDENKAINEN
+    artist: Donato Giancola
+    work: Mordenkainen the Wizard
+    source_type: artist_authored_process_article
+    source_page: https://www.muddycolors.com/2023/02/mordenkainen-process/
+    accessed_on: '2026-08-28'
+    provenance_confidence: high
+    evidence_role: process_evidence
+    process_states:
+      - value study/rough
+      - preliminary drawing
+      - color study
+      - first and second acrylic passes
+      - oil development
+      - final
+    cards_tested: [PAT_preserve_value_structure_when_translating_tone_into_color]
+  - fixture_id: APB003_WEB_GERARD_END_OF_LINE
+    artist: Justin Gerard
+    work: The End of the Line
+    source_type: artist_authored_process_article
+    source_page: https://www.muddycolors.com/2022/02/the-end-of-the-line-final-color/
+    accessed_on: '2026-08-28'
+    provenance_confidence: high
+    evidence_role: decisive_process_evidence
+    process_states:
+      - value-and-temperature comp
+      - monochrome underpainting
+      - transparent color layers
+      - semi-opaque rendering
+      - final
+    cards_tested: [PAT_preserve_value_structure_when_translating_tone_into_color]
+  - fixture_id: APB003_WEB_PALUMBO_SIMPLIFIED_PROCESS
+    artist: David Palumbo
+    source_type: artist_authored_process_article
+    source_page: https://www.muddycolors.com/2022/07/my-painting-process-simplified/
+    accessed_on: '2026-08-28'
+    provenance_confidence: high
+    evidence_role: corroborating_process_evidence
+    process_states:
+      - pencil or direct structural lay-in
+      - dark-region block-in
+      - thin simple-color wash retaining the block-in
+      - value/color development
+      - final
+    cards_tested: [PAT_preserve_value_structure_when_translating_tone_into_color]

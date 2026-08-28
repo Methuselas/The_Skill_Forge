@@ -52,5 +52,5 @@ completed_batches:
     batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_003.yaml
     findings_file: tests/art_pressure/findings/ART_PRESSURE_BATCH_003.yaml
     report_file: tests/art_pressure/reports/ART_PRESSURE_BATCH_003.md
-    disposition: MIXED_PASS_AND_NEEDS_MORE_EVIDENCE
+    disposition: PASS_WITH_BOUNDARIES_CONFIRMED
     completed_on: '2026-08-28'

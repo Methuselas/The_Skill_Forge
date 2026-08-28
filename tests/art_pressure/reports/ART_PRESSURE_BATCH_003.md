@@ -1,8 +1,8 @@
 # Art Pressure Batch 003 Report
 
-Status: complete — **mixed pass and needs more evidence**
+Status: complete — **PASS WITH BOUNDARIES CONFIRMED**
 
-Batch 003 tested five color/composition owners against five credited local comic fixtures. Four Patterns passed with boundaries confirmed. One remains `NEEDS_MORE_EVIDENCE`; no canon mutation was justified.
+Batch 003 tested five color/composition owners against five credited local comic fixtures, then resolved its one process-evidence gap with three attributable artist-authored workflows. All five Patterns passed with boundaries confirmed; no canon mutation was justified.
 
 ## Confirmed
 
@@ -11,10 +11,10 @@ Batch 003 tested five color/composition owners against five credited local comic
 - Comic color may simplify secondary illumination while preserving causal large-form color changes.
 - Focal dominance may be carried by only one or two visual axes; the brightest spot is not automatically the focal point.
 
-## Needs more evidence
+## Resolved process question
 
-`PAT_preserve_value_structure_when_translating_tone_into_color` makes a process claim about a tonal predecessor and its colored successor. The finished pages provide only the successor. A later process-evidence batch should use attributable value-study-to-color or colorist progression material.
+The user-provided tonal comparison demonstrates that the final portrait survives value reduction, but it appears derived from the finished painting and therefore does not prove chronology. Donato Giancola's *Mordenkainen* sequence, Justin Gerard's *The End of the Line* process, and David Palumbo's documented workflow supply the missing predecessor-to-color evidence. Together they support the card's bounded claim while preserving its direct-color ELSE route.
 
 ## Canon action
 
-None. The unresolved process question was recorded rather than guessed from finished artwork.
+None. The existing card already states the empirically supported boundary: preserve an established tonal design when one exists, or resolve/redesign value consciously when it does not.
