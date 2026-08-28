@@ -1,0 +1,41 @@
+schema_version: 1
+batch_id: ART_PRESSURE_BATCH_003
+status: complete
+domain: art
+checkpoint_before_batch: 6743e91
+subject: color structure, palette unity, visible illumination, and focal hierarchy in printed comics
+objective: >-
+  Pressure-test five high-centrality color and composition Patterns against stylistically distinct professional pages,
+  separating visible outcome evidence from claims that require documented process.
+object_owners:
+  - {object_id: PAT_decompose_color_relationships_into_hue_value_and_chroma, name: Decompose Color Relationships Into Hue, Value, and Chroma}
+  - {object_id: PAT_preserve_value_structure_when_translating_tone_into_color, name: Preserve Value Structure When Translating Tone Into Color}
+  - {object_id: PAT_unify_palette_with_shared_color_influence, name: Unify a Palette With Shared Color Influence}
+  - {object_id: PAT_resolve_visible_color_from_local_color_light_and_reflection, name: Resolve Visible Color From Local Color, Light, and Reflection}
+  - {object_id: PAT_concentrate_contrast_and_accents_at_focal_area, name: Concentrate Contrast and Accents at the Focal Area}
+fixture_selection:
+  pool: E:/Books/!Comics
+  access: read_only
+  minimum_distinct_collections: 4
+  selected_fixtures: [APB002_DKR, APB002_UXM141, APB002_SAVAGE001, APB002_WETWORKS001, APB002_CYBERFORCE001]
+required_cases_per_owner: [positive, negative, boundary, adversarial, human_evidence, competing_owner]
+human_review_passes: [diagnostic, learning]
+evidence_limits:
+  - Scan, paper, separation, and reproduction shifts prevent exact original-color measurement.
+  - A finished colored page cannot prove that a prior tonal design existed or was translated.
+  - Copyrighted comic pages remain outside the repository.
+out_of_scope:
+  - Attached Variants unless explicitly exercised.
+  - Color-production procedure without process evidence.
+deliverables:
+  findings: tests/art_pressure/findings/ART_PRESSURE_BATCH_003.yaml
+  report: tests/art_pressure/reports/ART_PRESSURE_BATCH_003.md
+  regressions: tests/art_pressure/regressions/ART_PRESSURE_BATCH_003.yaml
+approval:
+  basis: Batch work proceeds under the user-approved commit-and-continue cadence.
+  canon_mutation_authorized: true
+result:
+  completed_on: '2026-08-28'
+  disposition: MIXED_PASS_AND_NEEDS_MORE_EVIDENCE
+  canon_mutations: 0
+  object_records_completed: 5

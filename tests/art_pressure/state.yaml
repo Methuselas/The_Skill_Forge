@@ -1,5 +1,5 @@
 schema_version: 1
-phase: batch_002_complete_checkpoint
+phase: batch_003_complete_checkpoint
 canon_mutation_authorized: true
 baseline:
   commit: 8c3fa30fae6f41100f2268a72dbf0614ca35fd36
@@ -23,17 +23,17 @@ external_evidence:
     cbz: true
     cbr: true
 next_batch:
-  id: ART_PRESSURE_BATCH_002
-  batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_002.yaml
+  id: ART_PRESSURE_BATCH_003
+  batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_003.yaml
   status: complete
-  subject: structural specificity and rendering readability under comic stylization
+  subject: color structure, palette unity, visible illumination, and focal hierarchy in printed comics
   object_owners:
-    - PAT_construct_head_from_cranial_ball_and_facial_wedge
-    - PAT_construct_hand_from_palm_wedge_and_digit_chain
-    - PAT_design_surface_anatomy_as_microgesture_on_parent_forms
-    - PAT_consolidate_resolved_form_with_tone
-    - PAT_render_material_from_optical_response
-  fixture_strategy: credited close, medium, and crowded pages from at least four collections
+    - PAT_decompose_color_relationships_into_hue_value_and_chroma
+    - PAT_preserve_value_structure_when_translating_tone_into_color
+    - PAT_unify_palette_with_shared_color_influence
+    - PAT_resolve_visible_color_from_local_color_light_and_reflection
+    - PAT_concentrate_contrast_and_accents_at_focal_area
+  fixture_strategy: credited color pages from five distinct collections
   mutation_gate: authorized_by_commit_and_continue_cadence
 completed_batches:
   - id: ART_PRESSURE_BATCH_001
@@ -47,4 +47,10 @@ completed_batches:
     findings_file: tests/art_pressure/findings/ART_PRESSURE_BATCH_002.yaml
     report_file: tests/art_pressure/reports/ART_PRESSURE_BATCH_002.md
     disposition: PASS_WITH_BOUNDARIES_CONFIRMED
+    completed_on: '2026-08-28'
+  - id: ART_PRESSURE_BATCH_003
+    batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_003.yaml
+    findings_file: tests/art_pressure/findings/ART_PRESSURE_BATCH_003.yaml
+    report_file: tests/art_pressure/reports/ART_PRESSURE_BATCH_003.md
+    disposition: MIXED_PASS_AND_NEEDS_MORE_EVIDENCE
     completed_on: '2026-08-28'

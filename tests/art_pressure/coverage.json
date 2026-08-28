@@ -159,8 +159,9 @@
   },
   "records": 1082,
   "records_by_status": {
-    "NOT_TESTED": 1071,
-    "PASS_WITH_BOUNDARY_CONFIRMED": 11
+    "NEEDS_MORE_EVIDENCE": 1,
+    "NOT_TESTED": 1066,
+    "PASS_WITH_BOUNDARY_CONFIRMED": 15
   },
   "schema_version": 1,
   "variants": 535

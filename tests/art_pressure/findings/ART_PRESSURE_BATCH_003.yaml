@@ -1,0 +1,101 @@
+schema_version: 1
+batch_id: ART_PRESSURE_BATCH_003
+completed_on: '2026-08-28'
+method:
+  human_fixture_passes: [diagnostic, learning]
+  fixture_count: 5
+  distinct_collections: 5
+  copyrighted_pages_stored_in_repository: false
+  reproduction_limit_recorded: true
+overall_result: MIXED_PASS_AND_NEEDS_MORE_EVIDENCE
+canon_mutations: []
+findings:
+  - finding_id: APB003_F01
+    object_id: PAT_decompose_color_relationships_into_hue_value_and_chroma
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB003_F01_POS a confused color relation becomes diagnosable by separating hue family, relative value, and chroma
+      negative: APB003_F01_NEG an already clear full-color relation does not require ritual decomposition
+      boundary: APB003_F01_BND printed or scanned color supports relative comparison but not exact original-coordinate claims
+      adversarial: APB003_F01_ADV grayscale agreement alone cannot prove a successful hue or chroma relationship
+      human_evidence: [APB002_DKR, APB002_UXM141, APB002_WETWORKS001]
+      competing_owner: APB003_F01_OWN a palette-family problem routes to PAT_unify_palette_with_shared_color_influence after the failing dimension is located
+    diagnostic_pass: >-
+      DKR 112, Uncanny X-Men 141 page 8, and Wetworks 08 remain meaningfully distinguishable by relative hue, value, and chroma
+      despite radically different reproduction and palette strategies.
+    learning_pass: >-
+      The card already returns the isolated dimensions to whole-picture context and treats models as diagnostics. Relative
+      analysis survives reproduction limits; exact sampled values would not.
+    canon_action: none
+
+  - finding_id: APB003_F02
+    object_id: PAT_preserve_value_structure_when_translating_tone_into_color
+    status: NEEDS_MORE_EVIDENCE
+    cases:
+      positive: APB003_F02_POS a documented tonal design retains its major separations after color is introduced
+      negative: APB003_F02_NEG a work conceived directly in color does not manufacture a nonexistent grayscale predecessor
+      boundary: APB003_F02_BND intentional value redesign during color is legal when explicitly re-evaluated
+      adversarial: APB003_F02_ADV a readable final page cannot prove that an earlier tonal hierarchy was preserved rather than rebuilt
+      human_evidence: [APB002_DKR, APB002_SAVAGE001, APB002_CYBERFORCE001]
+      competing_owner: APB003_F02_OWN a final colored surface that fails under its light may belong to PAT_resolve_visible_color_from_local_color_light_and_reflection
+    diagnostic_pass: >-
+      The selected pages have readable final value hierarchies, but none of the local fixtures supplies a verified tonal predecessor
+      and subsequent color state.
+    learning_pass: >-
+      Finished art cannot adjudicate the Pattern's translation claim. Retain the card unchanged and seek attributable rough-to-color,
+      value-study-to-final, or colorist process evidence in a later process batch.
+    canon_action: none
+
+  - finding_id: APB003_F03
+    object_id: PAT_unify_palette_with_shared_color_influence
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB003_F03_POS supporting colors share a perceptible family while local identities and focal accents survive
+      negative: APB003_F03_NEG deliberate complementary or primary opposition may carry the design without a visible common tint
+      boundary: APB003_F03_BND shared influence may come from designed ancestry or causal illumination and need not affect every surface equally
+      adversarial: APB003_F03_ADV a global overlay that muddies all colors is not palette unity
+      human_evidence: [APB002_DKR, APB002_UXM141, APB002_WETWORKS001, APB002_CYBERFORCE001]
+      competing_owner: APB003_F03_OWN collapsed large values route to PAT_preserve_value_structure_when_translating_tone_into_color rather than global muting
+    diagnostic_pass: >-
+      Muted Uncanny X-Men pages, cool-field DKR pages, and saturated Image-era pages achieve family resemblance by different
+      combinations of dominant fields, repeated accents, and environmental or designed color influence.
+    learning_pass: >-
+      The ELSE clause protects deliberate opposition, and the rule distinguishes designed unity from literal illumination.
+      It does not require one mechanical tint across every material.
+    canon_action: none
+
+  - finding_id: APB003_F04
+    object_id: PAT_resolve_visible_color_from_local_color_light_and_reflection
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB003_F04_POS local color changes across lit, turning, shadowed, and reflected passages while remaining one material family
+      negative: APB003_F04_NEG intentionally flat local-color design may suppress lighting variation
+      boundary: APB003_F04_BND comic lighting may simplify secondary sources while keeping major changes causally tied to form and scene
+      adversarial: APB003_F04_ADV arbitrary warm shadow and cool light formulas do not substitute for an actual lighting relationship
+      human_evidence: [APB002_SAVAGE001, APB002_WETWORKS001, APB002_CYBERFORCE001]
+      competing_owner: APB003_F04_OWN gloss and transmission cues specific to material route to PAT_render_material_from_optical_response
+    diagnostic_pass: >-
+      Cyber Force 006, Savage Dragon 23, and Wetworks 08 retain local color identity while light-facing and turning passages
+      shift in value, chroma, and sometimes hue; their conventions are simplified but not random color replacement.
+    learning_pass: >-
+      The parent Pattern's intentional-flat-color ELSE boundary is essential. Successful comic shorthand supports causal large
+      relationships without requiring physically exhaustive bounce or spectrum modeling.
+    canon_action: none
+
+  - finding_id: APB003_F05
+    object_id: PAT_concentrate_contrast_and_accents_at_focal_area
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB003_F05_POS the intended first read wins through concentrated contrast, edge, color, detail, or directional support
+      negative: APB003_F05_NEG an intentionally even field or sequence of equal beats need not manufacture one dominant focal point
+      boundary: APB003_F05_BND focal dominance may use only one or two axes and need not maximize every contrast simultaneously
+      adversarial: APB003_F05_ADV the brightest or most saturated spot is not automatically the story focal area
+      human_evidence: [APB002_DKR, APB002_UXM141, APB002_SAVAGE001, APB002_WETWORKS001, APB002_CYBERFORCE001]
+      competing_owner: APB003_F05_OWN a coherent focal passage inside a fragmented overall page routes to whole-picture shape or page-layout owners
+    diagnostic_pass: >-
+      Across DKR 112, Uncanny X-Men 141 page 8, Savage Dragon 23, Wetworks 08 and 12, and Cyber Force 006 and 013, first attention
+      is established by different combinations of scale, value, chroma, edge, face specificity, and directional framing.
+    learning_pass: >-
+      The card correctly permits multi-axis tradeoffs and an even-field ELSE. It judges intended priority rather than rewarding
+      the numerically strongest accent in isolation.
+    canon_action: none
