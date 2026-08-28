@@ -42,5 +42,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Reuse Existing Solutions Instead of Reinventing](PAT_reuse_before_reinventing.md) - pattern; 0 design. Tags: code_quality, decomposition, libraries, reuse.
   - Variants: `Know the C++ Standard Library and TR1 So You Reuse Them` (emphasis).
 - [Review a Codebase Against the Cognitive Dimensions](DRILL_run_a_cdcb_review_of_a_codebase.md) - drill; 0 design. Tags: api_design, code_quality, cognitive_load, review.
+- [Review Code You Did Not Write](AP_review_code_you_did_not_write.md) - ap; 3 rough. Tags: code_quality, defects, judgment, review.
 - [Tune a Codebase for the Activities It Will Actually See](PAT_optimize_a_codebase_for_its_likely_activities.md) - pattern; 0 design. Tags: api_design, code_quality, tradeoffs, working_practice.
 - [Work Out How the Code Got This Way Before You Improve It](PAT_diagnose_why_the_code_degraded_before_changing_it.md) - pattern; 0 design. Tags: code_quality, diagnosis, legacy_code, maintenance, technical_debt.

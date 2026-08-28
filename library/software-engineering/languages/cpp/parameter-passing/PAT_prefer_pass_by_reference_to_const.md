@@ -36,8 +36,9 @@ variants: []
 # Prefer Pass-by-Reference-to-const to Pass-by-Value
 
 ## Pattern Rule
-**IF** a function parameter is of a user-defined type
-**THEN** pass it by reference-to-const, which skips the copy-constructor and destructor calls that pass-by-value incurs and avoids slicing a derived argument down to its base.
+**IF** you are deciding how a function that only reads its argument should take a parameter
+**THEN** pass a user-defined type by reference-to-const, which skips the copy-constructor and destructor calls that pass-by-value incurs and avoids slicing a derived argument down to its base — and pass a built-in, an STL iterator, or a function object by value, because those are cheap to copy and designed for it
+**ELSE** where the function's job is to keep a copy of what it is given, passing by value can be right for reasons this rule does not cover; `PAT_pass_by_value_only_when_all_four_conditions_hold` owns that decision.
 
 ## Do
 - Declare the parameter as a reference to const, so no new object is constructed and the caller is still protected from modification.
@@ -46,9 +47,11 @@ variants: []
 ## Don't
 - Don't assume a small user-defined type is cheap by value; a small object can hold a pointer to a lot of data, its copy constructor can be costly, and its size can grow in a later release.
 - Don't pass a derived object by value through a base-type parameter — the base copy constructor slices off the derived part and later virtual calls resolve to the base.
+- Don't take a built-in by reference-to-const on the reasoning that a reference is always the cheaper way to pass something. A reference is the size of a pointer or larger, so nothing is saved on a type that fits in a register; the callee must load through it at each use rather than keeping the value in one; and because the reference is to const it binds to a temporary whenever the argument's type does not match exactly, so an index arriving as a different integer type materialises one on every call. This is the mirror image of the mistake the rule above prevents, and it is easy to reach by applying that rule past the types it was written for.
 
 ## Checklist
 - Is this a user-defined-type parameter passed by reference-to-const rather than by value?
+- Is this a built-in taken by reference-to-const, which is the rule applied past the types it covers?
 - Could passing by value slice a derived argument here?
 - Is this one of the exceptions — built-in, iterator, function object — where by-value is right?
 
