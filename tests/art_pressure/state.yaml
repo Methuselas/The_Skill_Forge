@@ -24,6 +24,7 @@ external_evidence:
     cbr: true
 next_batch:
   id: ART_PRESSURE_BATCH_001
+  batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_001.yaml
   status: proposed
   subject: foundational action readability in sequential superhero art
   object_owners:

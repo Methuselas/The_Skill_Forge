@@ -27,8 +27,8 @@ and not release content.
   selected fixtures only when they enter a bounded batch.
 - `state.yaml` records the pressure-test phase and next authorized action. It is
   project test state, not PASS authoring state, and never ships.
-- `findings/`, `regressions/`, `rubrics/`, `host_tests/`, and `reports/` hold
-  bounded artifacts as they are created.
+- `batches/` contains one explicit plan per bounded batch. `findings/`,
+  `regressions/`, `rubrics/`, `host_tests/`, and `reports/` hold its results.
 
 ## Commands
 

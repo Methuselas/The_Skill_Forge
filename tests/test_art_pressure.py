@@ -16,6 +16,7 @@ PRESSURE = ROOT / "tests" / "art_pressure"
 TOOL = PRESSURE / "tools" / "build_inventory.py"
 MANIFEST = PRESSURE / "manifest.jsonl"
 COVERAGE = PRESSURE / "coverage.json"
+STATE = PRESSURE / "state.yaml"
 
 
 def records() -> list[dict]:
@@ -79,6 +80,14 @@ class ArtPressureInventory(unittest.TestCase):
             coverage["variants"],
             sum(record["record_kind"] == "variant" for record in manifest_records),
         )
+
+    def test_current_batch_pointer_resolves_and_matches_id(self) -> None:
+        state = yaml.safe_load(STATE.read_text(encoding="utf-8"))
+        current = state["next_batch"]
+        batch_path = ROOT / current["batch_file"]
+        self.assertTrue(batch_path.is_file(), current["batch_file"])
+        batch = yaml.safe_load(batch_path.read_text(encoding="utf-8"))
+        self.assertEqual(batch["batch_id"], current["id"])
 
 
 if __name__ == "__main__":

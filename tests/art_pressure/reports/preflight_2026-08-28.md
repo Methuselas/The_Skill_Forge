@@ -55,6 +55,9 @@ Patterns: gesture-to-mass construction, articulated-limb continuity, force
 continuity, center-of-gravity pose design, whole-picture shape organization, and
 story-serving viewpoint.
 
+The complete batch contract is
+`tests/art_pressure/batches/ART_PRESSURE_BATCH_001.yaml`.
+
 Select a small fixture set from at least four unrelated collections. Each owner
 gets positive, negative, boundary, adversarial, human-evidence, and
 competing-owner cases. Each human fixture receives both diagnostic and learning

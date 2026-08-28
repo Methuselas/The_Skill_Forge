@@ -1,0 +1,67 @@
+schema_version: 1
+batch_id: ART_PRESSURE_BATCH_001
+status: proposed_waiting_for_approval
+domain: art
+canon_baseline_commit: 8c3fa30fae6f41100f2268a72dbf0614ca35fd36
+preflight_checkpoint_commit: d8bee57
+subject: foundational action readability in sequential superhero art
+objective: >-
+  Determine whether six high-centrality Art Patterns correctly explain,
+  permit, distinguish, and bound successful action readability in professional
+  sequential superhero artwork, including intentional stylization.
+object_owners:
+  - object_id: PAT_build_gesture_into_clear_masses
+    name: Build Gesture Into Clear Masses
+  - object_id: PAT_preserve_articulated_limb_chain
+    name: Preserve One Continuous Joint Chain per Limb
+  - object_id: PAT_track_force_continuity_through_action
+    name: Track Force Continuity Through Action
+  - object_id: PAT_design_pose_against_center_of_gravity
+    name: Design the Pose Against Its Center of Gravity
+  - object_id: PAT_design_whole_picture_as_interlocking_shape_pattern
+    name: Design the Whole Picture as an Interlocking Shape Pattern
+  - object_id: PAT_choose_viewpoint_to_strengthen_story_effect
+    name: Choose Viewpoint to Strengthen the Story Effect
+fixture_selection:
+  pool: E:/Books/!Comics
+  access: read_only
+  minimum_distinct_collections: 4
+  selection_rule: >-
+    Select a small cross-artist set containing clear positive evidence,
+    successful stylization near a rule boundary, and superficially similar
+    cases that belong to competing owners.
+  selected_fixtures: []
+required_cases_per_owner:
+  - positive
+  - negative
+  - boundary
+  - adversarial
+  - human_evidence
+  - competing_owner
+human_review_passes:
+  - diagnostic
+  - learning
+evidence_limits:
+  - Finished pages support outcome claims but do not prove production procedure.
+  - Artist and issue attribution must be verified before it is recorded as evidence.
+  - Interpretive or strongly style-dependent conflicts remain NEEDS_MORE_EVIDENCE.
+  - Copyrighted comic pages remain outside the repository.
+out_of_scope:
+  - Art canon outside the six named owners unless a dependency conflict requires explicit rescoping.
+  - Drawing Stage architecture changes.
+  - AP or Drill process adjudication from finished pages alone.
+  - Installed-host or image-generator behavior without a designated host test.
+deliverables:
+  findings: tests/art_pressure/findings/ART_PRESSURE_BATCH_001.yaml
+  report: tests/art_pressure/reports/ART_PRESSURE_BATCH_001.md
+  regressions: tests/art_pressure/regressions/
+  host_tests: tests/art_pressure/host_tests/
+completion_gate:
+  - Every named owner has all required cases accounted for.
+  - Every human fixture has both review passes.
+  - Every mutation is evidence-supported and has a generalized regression.
+  - Art validation, references, indexes, inventory synchronization, and repository tests pass.
+approval:
+  required_before_evidence_execution: true
+  required_before_canon_mutation: true
+  canon_mutation_authorized: false
