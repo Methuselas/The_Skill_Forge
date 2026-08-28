@@ -9,7 +9,7 @@
 - [Choose a Subject for Open-Ended Exploration](PAT_choose_subject_for_open_ended_exploration.md) - pattern; 0 design. Tags: creative_nonfiction, exploration, inquiry, self_discovery, subject.
   - Variants: `Investigate an Overlooked Event or Life` (context); `Revisit Multiple Motives During Life Writing` (context).
 - [Interrogate Memory Before Claiming Precision](PAT_interrogate_memory_before_claiming_precision.md) - pattern; 3 rough. Tags: accuracy, creative_nonfiction, memory, reconstruction, self_scrutiny.
-  - Variants: `Paraphrase or Summarize Uncertain Speech` (method_sequence); `Research Your Own Life as an External Subject` (method_sequence).
+  - Variants: `Paraphrase or Summarize Uncertain Speech` (method_sequence); `Research Your Own Life as an External Subject` (method_sequence); `Trace Later Inputs That Construct a Memory` (method_sequence).
 - [Make Personal Presence Part of the Inquiry](PAT_make_personal_presence_part_of_inquiry.md) - pattern; 1 skeleton. Tags: authorial_position, creative_nonfiction, literary_journalism, personal_presence, perspective, reflection.
   - Variants: `Declare the Biographer's Relationship and Distance` (context).
 - [Move Between Conversational Exploration and Formal Argument](PAT_move_between_conversational_exploration_and_formal_argument.md) - pattern; 1 skeleton. Tags: argument, creative_nonfiction, personal_essay, structure, voice.
@@ -20,4 +20,5 @@
 - [Select a Candid Essay Self for the Inquiry](PAT_select_a_candid_essay_self_for_the_inquiry.md) - pattern; 2 block. Tags: candor, contradiction, creative_nonfiction, personal_essay, self_portrayal.
   - Variants: `Present Candid Growth Under Admission Evaluation` (context).
 - [Separate the Experiencing Self from the Reflective Narrator](PAT_separate_experiencing_self_from_reflective_narrator.md) - pattern; 2 block. Tags: characterization, creative_nonfiction, experiencing_self, hindsight, narrator.
+  - Variants: `Test Third-Person Self-Distance without Claiming Objectivity` (method_sequence).
 - [Verify Checkable Facts and Research Necessary Context](PAT_verify_checkable_facts_and_research_necessary_context.md) - pattern; 3 rough. Tags: authority, context, creative_nonfiction, fact_checking, research.

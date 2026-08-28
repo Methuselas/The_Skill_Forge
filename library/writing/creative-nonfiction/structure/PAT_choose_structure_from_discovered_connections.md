@@ -61,6 +61,13 @@ variants:
     when_to_use: A life-writing project contains supportable changes in conduct, understanding, relation, condition, or circumstance whose sequence creates the governing pressure.
     when_not_to_use: The available material does not demonstrate development, or arranging it as maturation would impose redemption, inevitability, or closure that the life does not support.
     absorbed_from_object_id: none
+  - variant_id: writing_creative_nonfiction_variant_build_evidence_chain_through_artifacts_and_testimony
+    variant_name: Build an Evidence Chain through Artifacts and Testimony
+    variant_basis: method_sequence
+    difference_from_foundation: Move through photographs, objects, documents, testimony, and related memories so each evidentiary fragment opens the next bounded question and the sequence makes both historical connection and limits of knowledge visible.
+    when_to_use: A family, biographical, or historical inquiry is carried by multiple surviving traces whose relations reveal more than either strict chronology or one recurring anchor.
+    when_not_to_use: The artifacts form only a decorative tour, their custody or relevance cannot be established, or the chain would imply that physical survival proves a complete or impartial history.
+    absorbed_from_object_id: none
 ---
 
 # Choose Structure from Discovered Connections
@@ -101,3 +108,5 @@ Exploratory drafting can discover an essay's connections before it discovers its
 `writing_creative_nonfiction_variant_segment_by_juxtaposition_and_jump_cut` makes adjacency, imagery, silence, and white space exert structural pressure. It suits a lyric essay or other inquiry whose force depends on contrast, omission, or collision, provided each segment is locally coherent and readers receive enough orientation to make the jump.
 
 `writing_creative_nonfiction_variant_shape_accountable_developmental_arc` organizes selected turning points around demonstrated change without treating a life as a guaranteed ascent. Track what the person could do, know, endure, or choose at each stage; retain relapses, costs, unresolved conditions, and contrary evidence when they qualify the movement. Use the arc when sequence reveals change, not to make suffering produce a lesson or to convert later outcomes into destiny.
+
+`writing_creative_nonfiction_variant_build_evidence_chain_through_artifacts_and_testimony` lets the surviving record supply a route through separated lives and periods. Begin with one trace, identify what it establishes and what it leaves open, then move to the next artifact, account, place, or memory because it answers, complicates, or reframes that question. Preserve attribution and uncertainty at every handoff. The chain creates movement through inquiry, not proof that the archive is continuous, representative, or complete.

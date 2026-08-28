@@ -32,7 +32,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_test_third_person_self_distance_without_claiming_objectivity
+    variant_name: Test Third-Person Self-Distance without Claiming Objectivity
+    variant_basis: method_sequence
+    difference_from_foundation: Recast a bounded autobiographical passage in the third person to expose habitual self-explanation, alter sympathy, and make the earlier person available for observation while preserving the narrator's authorship, evidence limits, and later knowledge.
+    when_to_use: First-person proximity makes the writer defend, idealize, or collapse into the earlier self, and a pronoun shift may reveal a more useful relation between experience and reflection.
+    when_not_to_use: Third person would conceal responsibility, pretend to neutral access, confuse identity, or create emotional distance that the inquiry should confront directly.
+    absorbed_from_object_id: none
 ---
 
 # Separate the Experiencing Self from the Reflective Narrator
@@ -68,3 +75,5 @@ variants: []
 
 ## Notes
 In first-person nonfiction, author, narrator, and character may refer to one life without functioning as one consciousness. The lived self moves through incomplete information; the narrating self knows what followed and has language for patterns that were invisible then. Preserving that distance creates both honesty and dramatic tension because readers can inhabit the event while also hearing the later mind test its meaning. Tense changes the reader's temporal relation to the account, not the factual basis of the account; an immediate voice remains a present construction made from whatever evidence and memory the writer actually has.
+
+`writing_creative_nonfiction_variant_test_third_person_self_distance_without_claiming_objectivity` uses pronoun and naming distance as a diagnostic rather than an authority claim. Draft the same bounded material in first and third person while holding event, evidence, and uncertainty constant. Compare where the third-person version permits observation or compassion and where it merely disguises judgment, shame, or hindsight. Keep it only when readers can still locate who is telling, what that narrator knows, and why the distance serves the inquiry.

@@ -43,6 +43,8 @@ variants: []
 - Turn gaps in understanding into specific research questions before choosing databases, books, archives, interviews, observation, or field inquiry.
 - Ask informed people focused questions and listen for answers that complicate the writer's initial understanding.
 - Audit the surviving record for missing voices, selective preservation, interested testimony, inaccessible material, and disputes that make an apparently rich archive structurally incomplete.
+- For a photograph, heirloom, document, or other artifact, investigate its maker, purpose, date, custody, selection, alteration, and survival when those conditions affect what it can responsibly support.
+- Treat objects and images as leads that can prompt questions, corroborate bounded particulars, or expose absences; do not transfer their material authority to out-of-frame events, motives, relationships, or interpretations they cannot establish.
 - Prefer a few exact details that support authority and thematic pressure over a catalog of everything learned.
 - Recheck the prose after shaping notes so compression and paraphrase have not introduced a new factual error.
 
@@ -60,6 +62,7 @@ variants: []
 - Included facts establish needed context, authority, complication, or thematic connection.
 - Paraphrases and compressed explanations preserve the meaning of the information gathered.
 - The draft identifies consequential archive gaps and does not make an absent or underrepresented party carry claims the surviving record cannot support.
+- Material objects and images support only claims warranted by their content, production, custody, and corroborating context.
 - Additional research has a named purpose, or the collection phase has stopped.
 
 ## Notes

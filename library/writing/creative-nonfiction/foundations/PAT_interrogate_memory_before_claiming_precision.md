@@ -43,6 +43,13 @@ variants:
     when_to_use: Familiarity, self-protection, or one dominant recollection prevents the writer from seeing competing accounts and concrete evidence.
     when_not_to_use: The material is too private or unsafe to investigate through other people, or the inquiry depends only on a clearly framed present response rather than historical precision.
     absorbed_from_object_id: none
+  - variant_id: writing_creative_nonfiction_variant_trace_later_inputs_that_construct_memory
+    variant_name: Trace Later Inputs That Construct a Memory
+    variant_basis: method_sequence
+    difference_from_foundation: Reconstruct the memory's history by separating the earliest available recollection from photographs, family stories, repeated retellings, later knowledge, present sensory triggers, and imaginative rehearsal that may have supplied or altered its detail.
+    when_to_use: A vivid or frequently retold memory may owe part of its imagery, sequence, or certainty to material encountered after the event.
+    when_not_to_use: The claim is already bounded and well supported, or tracing the memory's development would expose another person unnecessarily without affecting the work's responsible precision.
+    absorbed_from_object_id: none
 ---
 
 # Interrogate Memory Before Claiming Precision
@@ -55,6 +62,7 @@ variants:
 ## Do
 - Ask what the remembering self would prefer to have happened and whether that preference has cleaned up motive, conduct, dialogue, or consequence.
 - Compare the account with diaries, messages, photographs, records, physical facts, or other participants' memories when those are available and consequential.
+- Build a chronology of later influences when photographs, repeated stories, rehearsal, cultural knowledge, or subsequent experiences may have entered the recollection; vividness can increase through repetition without increasing accuracy.
 - Classify consequential material as direct memory, another person's report, inference, unconscious impression, reconstruction, or invention; preserve that status when turning notes into fluent prose.
 - Separate a distinctly remembered remark from dialogue rebuilt only to convey the substance of an exchange.
 - Use direct quotation selectively when wording is supportable; otherwise shift to paraphrase or summary before invented precision becomes part of the scene.
@@ -76,6 +84,7 @@ variants:
 - Readers can distinguish exact remembered or recorded words from the narrator's rendering of their substance.
 - Conflicting accounts are acknowledged when they materially change interpretation.
 - Report, inference, reconstruction, and unconscious impression remain distinguishable from direct recollection and verified fact.
+- Consequential details imported or reinforced by later photographs, stories, rehearsal, or knowledge remain distinguishable from the earliest available recollection.
 - The narrator's subjectivity remains visible without becoming a license to fabricate.
 
 ## Notes
@@ -84,3 +93,5 @@ Memory supplies a personal perspective rather than a neutral recording. Its sele
 `writing_creative_nonfiction_variant_paraphrase_or_summarize_uncertain_speech` preserves a consequential conversation without pretending to recover a transcript. Use paraphrase when the substance and character of a shorter utterance matter, and summary when the outcome of a longer exchange matters more than its verbal texture. Recorded or distinctly remembered phrases may remain direct quotations, but long dialogue from the distant past should not gain false authority merely because quotation marks make a scene more immediate.
 
 `writing_creative_nonfiction_variant_research_own_life_as_external_subject` interrupts the authority granted automatically to familiar autobiography. Interview family, friends, or other participants; examine photographs, messages, journals, and records; then write a bounded slice as though the subject were another person whose account must be investigated. Use the distance to expose competing memories and overlooked facts, not to deny that the writer still selects and interprets the evidence.
+
+`writing_creative_nonfiction_variant_trace_later_inputs_that_construct_memory` treats a recollection as something with a history rather than as one unchanged recording. Establish the earliest version still available, then mark details that first appear after a photograph, family account, repeated performance, later explanation, similar event, or present sensory trigger. A later element may carry genuine emotional or interpretive importance, but its intensity does not convert it into direct perception from the original event.
