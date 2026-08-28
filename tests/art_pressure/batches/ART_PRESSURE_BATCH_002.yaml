@@ -1,0 +1,55 @@
+schema_version: 1
+batch_id: ART_PRESSURE_BATCH_002
+status: complete
+domain: art
+checkpoint_before_batch: 9309874
+subject: structural specificity and rendering readability under comic stylization
+objective: >-
+  Determine whether five high-centrality Art Patterns correctly preserve head and hand structure,
+  surface-anatomy flow, resolved form in tone, and material identity across strongly stylized professional comics.
+object_owners:
+  - object_id: PAT_construct_head_from_cranial_ball_and_facial_wedge
+    name: Construct the Head From a Cranial Ball and Facial Wedge
+  - object_id: PAT_construct_hand_from_palm_wedge_and_digit_chain
+    name: Construct the Hand From a Palm Wedge and Digit Chains
+  - object_id: PAT_design_surface_anatomy_as_microgesture_on_parent_forms
+    name: Design Surface Anatomy as Micro-Gesture on Parent Forms
+  - object_id: PAT_consolidate_resolved_form_with_tone
+    name: Consolidate Resolved Form With Tone
+  - object_id: PAT_render_material_from_optical_response
+    name: Render Material From Optical Response
+fixture_selection:
+  pool: E:/Books/!Comics
+  access: read_only
+  minimum_distinct_collections: 4
+  selection_rule: >-
+    Reuse credited Batch 001 issues only where a page clearly exercises the current owner;
+    select close, medium, and crowded views that include intentional simplification and strong surface stylization.
+  selected_fixtures: [APB002_DKR, APB002_UXM141, APB002_SAVAGE001, APB002_WETWORKS001, APB002_CYBERFORCE001]
+required_cases_per_owner: [positive, negative, boundary, adversarial, human_evidence, competing_owner]
+human_review_passes: [diagnostic, learning]
+evidence_limits:
+  - Finished pages support visible outcome claims but do not prove a construction or rendering sequence.
+  - Printed color and scan characteristics are not treated as the artist's original optical evidence.
+  - Copyrighted comic pages remain outside the repository.
+out_of_scope:
+  - Attached Variants unless a finding explicitly exercises the Variant's condition.
+  - Drawing Stage architecture changes.
+  - Drill or AP process adjudication from finished pages alone.
+deliverables:
+  findings: tests/art_pressure/findings/ART_PRESSURE_BATCH_002.yaml
+  report: tests/art_pressure/reports/ART_PRESSURE_BATCH_002.md
+  regressions: tests/art_pressure/regressions/ART_PRESSURE_BATCH_002.yaml
+completion_gate:
+  - Every named owner has all required cases accounted for.
+  - Every selected human fixture has both review passes.
+  - Every mutation is evidence-supported and has a generalized regression.
+  - Art validation, references, indexes, inventory synchronization, and repository tests pass.
+approval:
+  basis: Batch work proceeds under the user-approved commit-and-continue cadence.
+  canon_mutation_authorized: true
+result:
+  completed_on: '2026-08-28'
+  disposition: PASS_WITH_BOUNDARIES_CONFIRMED
+  canon_mutations: 0
+  object_records_completed: 5

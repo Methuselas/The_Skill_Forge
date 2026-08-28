@@ -1,0 +1,101 @@
+schema_version: 1
+batch_id: ART_PRESSURE_BATCH_002
+completed_on: '2026-08-28'
+method:
+  human_fixture_passes: [diagnostic, learning]
+  fixture_count: 5
+  distinct_collections: 5
+  copyrighted_pages_stored_in_repository: false
+  visible_outcomes_only: true
+overall_result: PASS_WITH_BOUNDARIES_CONFIRMED
+canon_mutations: []
+findings:
+  - finding_id: APB002_F01
+    object_id: PAT_construct_head_from_cranial_ball_and_facial_wedge
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB002_F01_POS head turn and tilt remain identifiable from cranial and facial mass relations before local features
+      negative: APB002_F01_NEG a tiny background head that functions as a symbol does not require fully exposed construction evidence
+      boundary: APB002_F01_BND extreme expression and caricature may reshape the facial wedge while it remains attached to one oriented cranium
+      adversarial: APB002_F01_ADV a detailed face with paired features in conflicting perspective still fails despite attractive rendering
+      human_evidence: [APB002_DKR, APB002_WETWORKS001, APB002_CYBERFORCE001]
+      competing_owner: APB002_F01_OWN local expression deformation on a sound head routes to PAT_design_surface_anatomy_as_microgesture_on_parent_forms
+    diagnostic_pass: >-
+      DKR 077, Wetworks 12 and 17, and Cyber Force 013 range from blunt caricature to highly polished close-up.
+      Their head turns remain coherent because facial features inherit the same large orientation despite very different surface languages.
+    learning_pass: >-
+      The card already requires view-dependent mass dominance rather than a fixed head formula. Finished pages support that
+      visible outcome but do not reveal whether the artists literally began from a ball and wedge.
+    canon_action: none
+
+  - finding_id: APB002_F02
+    object_id: PAT_construct_hand_from_palm_wedge_and_digit_chain
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB002_F02_POS an open or partly closed hand presents one oriented palm and the expected uniquely rooted digit set
+      negative: APB002_F02_NEG a mitten-like distant hand below the resolution threshold does not license invented visible digit detail
+      boundary: APB002_F02_BND a fist may hide most chains while the thumb, knuckle group, and palm orientation preserve the topology
+      adversarial: APB002_F02_ADV a five-tip silhouette can still fail when a branch has the wrong root or the thumb behaves as a parallel finger
+      human_evidence: [APB002_DKR, APB002_WETWORKS001, APB002_CYBERFORCE001]
+      competing_owner: APB002_F02_OWN a correct hand graph pasted onto a broken forearm chain routes to PAT_preserve_articulated_limb_chain
+    diagnostic_pass: >-
+      Wetworks 08 supplies an open gloved hand and a weapon grip, Cyber Force 006 supplies open clawed hands, and DKR 077 supplies
+      compact fists. Visible topology and palm direction remain legible at the detail each panel permits.
+    learning_pass: >-
+      The main rule survives because it conditions full topology on an established design and dimensional hand problem. Hidden
+      root construction cannot be proven from a finished fist, so the evidence supports the visible result rather than the procedure.
+    canon_action: none
+
+  - finding_id: APB002_F03
+    object_id: PAT_design_surface_anatomy_as_microgesture_on_parent_forms
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB002_F03_POS anatomical groups wrap and deform with the action of their parent masses
+      negative: APB002_F03_NEG a clothed or graphically simplified figure need not expose muscle groups that do not affect the visible surface
+      boundary: APB002_F03_BND symmetrical anatomy is valid when loading and pose are actually symmetrical rather than copied by habit
+      adversarial: APB002_F03_ADV dense hatching and named muscle bumps cannot repair anatomy that contradicts the underlying gesture or volume
+      human_evidence: [APB002_CYBERFORCE001, APB002_SAVAGE001, APB002_WETWORKS001]
+      competing_owner: APB002_F03_OWN unresolved parent volume routes to PAT_build_gesture_into_clear_masses before local anatomy
+    diagnostic_pass: >-
+      Cyber Force 006, Savage Dragon 23, and Wetworks 12 use exaggerated anatomy, but the major groups remain attached to and
+      turn with the torso and limbs. Surface marks amplify rather than replace the parent forms.
+    learning_pass: >-
+      The rule correctly permits exaggeration after the structural job is understood and does not make asymmetry a universal
+      virtue. The decisive boundary is causal deformation on a parent form, not realism or muscle count.
+    canon_action: none
+
+  - finding_id: APB002_F04
+    object_id: PAT_consolidate_resolved_form_with_tone
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB002_F04_POS large value masses unify already solved construction and preserve the important attachments
+      negative: APB002_F04_NEG a clear line-led page may omit modeling tone when line and flat color already perform the task
+      boundary: APB002_F04_BND flat graphic darks can consolidate form without continuous realistic modeling
+      adversarial: APB002_F04_ADV heavy shadow that invents a joint or erases a required boundary is not successful simplification
+      human_evidence: [APB002_DKR, APB002_UXM141, APB002_WETWORKS001]
+      competing_owner: APB002_F04_OWN material-specific highlights on an already coherent value mass route to PAT_render_material_from_optical_response
+    diagnostic_pass: >-
+      DKR 077 and 112 use broad flat darks; Uncanny X-Men 141 page 3 remains substantially line-led; Wetworks 12 uses grouped
+      blacks and restrained local modeling. Each approach preserves the already readable structures.
+    learning_pass: >-
+      The ELSE clause protects line-led solutions, while the rule's large-mass requirement accepts graphic tone rather than
+      requiring continuous academic modeling. The pages confirm that value organization and material description are separate owners.
+    canon_action: none
+
+  - finding_id: APB002_F05
+    object_id: PAT_render_material_from_optical_response
+    status: PASS_WITH_BOUNDARY_CONFIRMED
+    cases:
+      positive: APB002_F05_POS a small coherent cue set differentiates flesh, cloth, metal, hair, glassy or liquid surfaces
+      negative: APB002_F05_NEG local color alone does not prove a different material when optical behavior remains identical
+      boundary: APB002_F05_BND comics may compress or invent secondary reflections while the chosen cues still follow form and material class
+      adversarial: APB002_F05_ADV a canned white streak cannot prove metal or glass when form, light, and surrounding evidence disagree
+      human_evidence: [APB002_CYBERFORCE001, APB002_SAVAGE001, APB002_WETWORKS001]
+      competing_owner: APB002_F05_OWN broad light-dark fragmentation routes to PAT_consolidate_resolved_form_with_tone before material polish
+    diagnostic_pass: >-
+      Cyber Force 006 separates flesh, fabric, metal bracers, hair, and claws; Savage Dragon 23 separates skin, hair, cloth,
+      cardboard, and straps; Wetworks 08 distinguishes glossy gold bio-material, metal, glass, skin, and cloth with economical cues.
+    learning_pass: >-
+      The card's cue-economy and form-first rules survive strong comic shorthand. Optical consistency is judged at the intended
+      illustrative fidelity; secondary reflections may be simplified, but highlights still need to describe the host form and material class.
+    canon_action: none

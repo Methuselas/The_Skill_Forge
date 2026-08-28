@@ -1,5 +1,5 @@
 schema_version: 1
-phase: batch_001_complete_checkpoint
+phase: batch_002_complete_checkpoint
 canon_mutation_authorized: true
 baseline:
   commit: 8c3fa30fae6f41100f2268a72dbf0614ca35fd36
@@ -23,23 +23,28 @@ external_evidence:
     cbz: true
     cbr: true
 next_batch:
-  id: ART_PRESSURE_BATCH_001
-  batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_001.yaml
+  id: ART_PRESSURE_BATCH_002
+  batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_002.yaml
   status: complete
-  subject: foundational action readability in sequential superhero art
+  subject: structural specificity and rendering readability under comic stylization
   object_owners:
-    - PAT_build_gesture_into_clear_masses
-    - PAT_preserve_articulated_limb_chain
-    - PAT_track_force_continuity_through_action
-    - PAT_design_pose_against_center_of_gravity
-    - PAT_design_whole_picture_as_interlocking_shape_pattern
-    - PAT_choose_viewpoint_to_strengthen_story_effect
-  fixture_strategy: select a small cross-artist set from at least four distinct collections
-  mutation_gate: approved_2026-08-28
+    - PAT_construct_head_from_cranial_ball_and_facial_wedge
+    - PAT_construct_hand_from_palm_wedge_and_digit_chain
+    - PAT_design_surface_anatomy_as_microgesture_on_parent_forms
+    - PAT_consolidate_resolved_form_with_tone
+    - PAT_render_material_from_optical_response
+  fixture_strategy: credited close, medium, and crowded pages from at least four collections
+  mutation_gate: authorized_by_commit_and_continue_cadence
 completed_batches:
   - id: ART_PRESSURE_BATCH_001
     batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_001.yaml
     findings_file: tests/art_pressure/findings/ART_PRESSURE_BATCH_001.yaml
     report_file: tests/art_pressure/reports/ART_PRESSURE_BATCH_001.md
+    disposition: PASS_WITH_BOUNDARIES_CONFIRMED
+    completed_on: '2026-08-28'
+  - id: ART_PRESSURE_BATCH_002
+    batch_file: tests/art_pressure/batches/ART_PRESSURE_BATCH_002.yaml
+    findings_file: tests/art_pressure/findings/ART_PRESSURE_BATCH_002.yaml
+    report_file: tests/art_pressure/reports/ART_PRESSURE_BATCH_002.md
     disposition: PASS_WITH_BOUNDARIES_CONFIRMED
     completed_on: '2026-08-28'
