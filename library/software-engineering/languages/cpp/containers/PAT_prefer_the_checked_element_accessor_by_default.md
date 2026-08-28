@@ -38,11 +38,12 @@ variants: []
 ## Pattern Rule
 **IF** a container offers both an unchecked subscript and a checked accessor for the same indexed element
 **THEN** reach for the checked one unless a measurement says otherwise, because the unchecked form's out-of-range behaviour is undefined in both directions and the read is the less dangerous half
-**ELSE** where the index is provably in range at that point — a loop bound derived from the container's own size, an index just validated — the check is redundant and the subscript is the clearer spelling.
+**ELSE** where the index is provably in range at that point — a loop bound taken from the container's own `size()`, an index just validated — the check is redundant and the subscript is the clearer spelling.
 
 ## Do
 - Notice that the dangerous case is the write, not the read. An out-of-range read returns whatever is at that address and looks merely wrong; an out-of-range write through the same operator modifies memory the container does not own, compiles without complaint, and produces no diagnostic at the moment it happens. The program continues, and the damage surfaces somewhere with no connection to the line that caused it.
 - Treat the checked accessor's cost as insurance priced in cycles. It compares an index against a size, which is a predictable branch next to memory that is already being touched; the class of defect it removes is one of the most common routes to memory corruption.
+- Take the bound from the container, not from a constant that agrees with it. A named length the container was declared with is a second copy of the size, and the two are equal only until somebody edits one of them — so a loop written against the constant is not a loop derived from the container, however identical the numbers are today. It also removes the reader's last defence against the wrong comparison, because `<=` against a separate constant looks no different from `<` against one.
 - Reserve the unchecked form for a path that was measured and found to matter, and say so where you use it. "The subscript is faster" is a claim about a loop nobody profiled until it is a claim about one somebody did.
 - Remember that the two spellings are not unique to one container. Every indexable container in the library offers both, with the same split in behaviour, so the decision recurs and should be made once as a habit rather than freshly each time.
 - Catch the exception rather than letting it terminate where the caller can do something better with an out-of-range index than stop. The point of the checked form is that it reports; leaving the report unhandled uses only half of what it bought you.
@@ -53,7 +54,7 @@ variants: []
 - Don't assume an out-of-range subscript will crash. It usually will not, and the outcome that hurts is the one where it quietly succeeds.
 
 ## Checklist
-- Is this index derived from the container's own size, or from somewhere else?
+- Is this index derived from the container's own `size()`, or from somewhere else — including a separate constant that merely agrees with it?
 - If from somewhere else, is anything checking it before it reaches the subscript?
 - Is this a write? If so, is there any reason not to use the checked accessor?
 - If the unchecked form is here for speed, what measurement put it here?
