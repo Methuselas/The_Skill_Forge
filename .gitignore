@@ -15,3 +15,10 @@ workspace/authoring/*
 
 # Agent scratch space
 tmp/
+
+# Source archives for pressure-testing the library against real code.
+# Read-only inputs, never runtime dependencies of a release, and large enough
+# that committing them by accident is expensive to undo. Hard rule 1 and the
+# 2026-08-15 removal of source staging both point the same way: the code under
+# test lives on disk, not in the repo.
+workspace/sources/
