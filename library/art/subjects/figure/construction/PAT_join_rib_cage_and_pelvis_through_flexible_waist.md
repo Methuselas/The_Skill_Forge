@@ -62,6 +62,18 @@ variants:
     very lean anatomy, clothing, and different seat geometry can reduce or redirect the visible compression even though the
     underlying articulated mass sequence remains.
   absorbed_from_object_id: none
+- variant_id: VAR_stanchfield_merge_torso_into_one_shorthand_shape_when_opposition_is_absent
+  variant_name: Merge the Torso Into One Shorthand Shape When Opposition Is Absent
+  variant_basis: method_sequence
+  difference_from_foundation: Stanchfield adds an economy branch to the two-mass torso model. When chest and pelvis show
+    meaningful twist, tilt, bend, or directional opposition, keep them as separately oriented masses. When they are acting
+    as one uncomplicated unit, temporarily summarize the torso as one larger shorthand shape instead of solving articulation
+    that the pose does not require.
+  when_to_use: Use for rapid gesture, blocking, or animation sketching when the chest-pelvis relationship is simple enough
+    that separating the masses would add construction without adding information.
+  when_not_to_use: Do not keep the torso merged when viewpoint, support, deformation, twist, bend, or opposing directions
+    require the rib cage and pelvis to be solved independently. The merged form is shorthand, not anatomical structure.
+  absorbed_from_object_id: none
 ---
 
 # Join Rib Cage and Pelvis Through a Flexible Waist
@@ -93,3 +105,4 @@ The chapter presents the waist as the flexible axial region that locks the body'
 `VAR_bridgman_split_torso_wedge_through_mobile_waist` retains **Split the Torso Wedge Through a Mobile Waist** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 
 `VAR_bammes_articulate_seated_torso_as_fold_chain` retains **Articulate the Seated Torso as a Fold Chain** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
+`VAR_stanchfield_merge_torso_into_one_shorthand_shape_when_opposition_is_absent` retains **Merge the Torso Into One Shorthand Shape When Opposition Is Absent** as a bounded economy branch; use it only while the chest-pelvis relationship carries no meaningful opposition that must be constructed separately.

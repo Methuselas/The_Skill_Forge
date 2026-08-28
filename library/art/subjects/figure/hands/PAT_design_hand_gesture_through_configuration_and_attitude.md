@@ -30,7 +30,14 @@ reference:
   author: Burne Hogarth
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_blair_break_cartoon_hand_monotony_with_uneven_digit_grouping
+  variant_name: Break Cartoon Hand Monotony With Uneven Digit Grouping
+  variant_basis: style
+  difference_from_foundation: After the hand topology, function, and whole-hand gesture are established, varies finger grouping, projection, bend, and separation so the simplified cartoon hand reads as one designed rhythmic silhouette instead of a row of evenly spaced cloned digits; the thumb-base mass may be emphasized when that strengthens opposition and the graphic read.
+  when_to_use: Use for simplified or highly stylized cartoon hands when the digits need a clearer graphic rhythm or one digit group should dominate the gesture without losing the hand's structural logic.
+  when_not_to_use: Do not randomize digits merely for variety, alter established digit topology, contradict palm orientation or function, or treat an enlarged thumb-base mass as an anatomical rule.
+  absorbed_from_object_id: none
 ---
 
 # Design Hand Gesture Through Configuration and Attitude
@@ -61,3 +68,5 @@ If the intended meaning disappears when the hand is reduced to wrist attitude, p
 
 ## Notes
 Hand expression comes from the coordinated attitude of wrist, palm, thumb, and digit group rather than from isolated finger flourishes. Stanchfield's hand examples make the wrist a first-order expressive control: raising, dropping, flexing, or relaxing it can change the emotional attitude before finger detail changes much at all.
+
+**Blair uneven-digit-grouping variant — `VAR_blair_break_cartoon_hand_monotony_with_uneven_digit_grouping`.** Once the hand's structure, function, and major gesture are secure, avoid a monotonous row of cloned fingers. Group digits into an intentional rhythm by varying projection, separation, bend, and grouping; let one digit or small group lead when it strengthens the action. A somewhat emphasized thumb-base mass can support thumb opposition and the silhouette in stylized cartoon work, but topology, palm attitude, contact, and joint logic still control the hand.

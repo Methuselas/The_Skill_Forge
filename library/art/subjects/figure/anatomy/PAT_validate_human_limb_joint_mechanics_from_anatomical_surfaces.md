@@ -49,6 +49,8 @@ variants: []
 **ELSE** keep the mechanics check lightweight when the joint is near-straight, clearly oriented, and structurally unambiguous
 
 ## Do
+- Before judging range, identify the joint architecture and the job it serves: primarily sliding, hinge-like flexion/extension, axial rotation, biaxial movement, or multi-axis ball-and-socket movement. Use that structure to decide which kinds of motion are plausible instead of treating every joint as a universal swivel.
+- For joints with similar broad architecture, compare stability and mobility rather than assuming equivalent freedom. The human shoulder and hip are both ball-and-socket systems, but the shoulder trades stability for greater movement while the load-bearing hip trades some freedom for greater stability.
 - At the knee, identify the femur/thigh direction, patellar or anterior plane, posterior knee hollow, tibial/lower-leg axis, ankle, and foot as one relationship. Flexion brings the posterior calf toward the posterior thigh; the lower leg must not emerge through the patellar/anterior face as though the hinge were reversed.
 - Allow near-straight extension and limited rotation around a bent knee, but require the patella, tibial axis, ankle, and foot to remain one coherent leg rather than using twist to conceal a reversal.
 - At the elbow, use the olecranon/posterior relationship and the opposing anterior closing side to keep the hinge readable. Flexion closes the forearm toward the upper arm on the anterior side even when pronation or supination changes the hand orientation.
@@ -68,6 +70,7 @@ variants: []
 - Wrist/hand and ankle/foot direction remain attainable from the carrying forearm or lower leg without a hidden identity swap.
 - The joint can be classified as ordinary or extreme-but-plausible; an impossible or visually indeterminate terminal-resolution relationship fails.
 - Camera angle, overlap, costume, and rendering do not replace the anatomical evidence used to determine the joint's actual mechanics.
+- The claimed motion matches the joint architecture and its stability/mobility role; a shoulder-like freedom is not silently assigned to a hip, hinge, or other more constrained joint.
 
 ## Notes
-The useful test is relational rather than degree-based. Human joints have individual variation and action poses can push toward the edge of ordinary range, but the underlying front/back surfaces, segment order, and hinge relationships remain coherent. This rule does not define nonhuman or deliberately altered joint architectures; those require their own established body-plan mechanics rather than an automatic human correction.
+The useful test is relational rather than degree-based. Begin with the joint architecture and its functional tradeoff between mobility and stability, then read the local anatomical surfaces and segment relationships. Human joints have individual variation and action poses can push toward the edge of ordinary range, but the underlying front/back surfaces, segment order, and hinge relationships remain coherent. This rule does not define nonhuman or deliberately altered joint architectures; those require their own established body-plan mechanics rather than an automatic human correction.

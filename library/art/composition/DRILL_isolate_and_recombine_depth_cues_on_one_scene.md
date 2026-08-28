@@ -28,7 +28,14 @@ reference:
 confidence: high
 target_skill: coordinate multiple depth cues while understanding the contribution and tradeoff of each cue
 references: []
-variants: []
+variants:
+- variant_id: VAR_stanchfield_reawaken_depth_sensation_by_alternating_monocular_and_binocular_view
+  variant_name: Reawaken Depth Sensation by Alternating Monocular and Binocular View
+  variant_basis: method_sequence
+  difference_from_foundation: Before isolating pictorial depth cues on the page, compare a simple near/far arrangement with one eye and then both eyes so the stronger felt separation of bodies in space becomes an explicit perceptual target for the drawing.
+  when_to_use: Use when perspective construction is technically correct but the drawing still feels flat, or when repeated schematic practice has dulled sensitivity to the actual spatial interval between near and far forms.
+  when_not_to_use: Do not treat binocular vision as a pictorial technique that can be copied directly onto a flat page; after the perceptual warm-up, construct depth with the existing overlap, scale, projection, ground, negative-space, and atmospheric cues.
+  absorbed_from_object_id: none
 ---
 
 # Isolate and Recombine Depth Cues on One Scene
@@ -61,3 +68,5 @@ The near-to-far order stays coherent in every pass, and the final image uses a s
 
 ## Notes
 The exercise separates the illusion of depth into observable contributors before recombining them. Its purpose is diagnostic: a practitioner should leave knowing which cues carry the spatial read and how far each can be pushed before style, clarity, or atmosphere begins to suffer.
+
+`VAR_stanchfield_reawaken_depth_sensation_by_alternating_monocular_and_binocular_view` adds a perceptual warm-up for artists who understand perspective rules but no longer strongly feel near-to-far separation. Place one hand or simple form near and another materially farther away; compare the arrangement with one eye and then both eyes, attend to the spatial interval rather than object identity, then make a quick drawing that rebuilds that felt separation with ordinary pictorial cues. The binocular comparison supplies a sensation to aim for, not a stereoscopic method the flat drawing can literally reproduce.

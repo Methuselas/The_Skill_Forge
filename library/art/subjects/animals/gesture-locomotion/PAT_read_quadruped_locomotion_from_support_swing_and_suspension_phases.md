@@ -49,6 +49,7 @@ variants: []
 ## Do
 - Mark which feet are actually touching the ground before judging the pose from limb spread or silhouette.
 - Separate supporting or bracing limbs from swinging/recovering limbs; a foot approaching the ground is not yet a support simply because it is low.
+- For each limb, distinguish the swing/recovery interval from its duty or ground-contact interval; during contact, track how the limb progressively accepts, carries, redirects, or contributes force rather than treating the planted phase as one unchanging state.
 - Draw the support relationship under each phase—single contact, diagonal pair, same-side pair, three contacts, or no contact—so the body's placement can be checked against what is carrying it.
 - Treat suspension as a phase with no ground contact, not as a generic symbol for speed; compare the phases immediately before and after it.
 - Read a gait as a **sequence of changing support relationships** rather than a memorized row of leg shapes.
@@ -63,6 +64,7 @@ variants: []
 
 ## Checklist
 - Every phase identifies the current ground contacts.
+- Each planted limb has a readable changing role across its contact interval rather than a binary on/off support state.
 - Swinging/recovering limbs are distinguishable from weight-bearing contacts.
 - The support line or area changes coherently with the feet on the ground.
 - Suspension, when present, sits between plausible departure and reception phases.

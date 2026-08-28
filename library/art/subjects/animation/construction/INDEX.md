@@ -4,4 +4,5 @@
 
 ## Objects
 
+- [Design Character Construction for the Required Performance Range](PAT_design_character_construction_for_required_performance_range.md) - pattern; 1 skeleton. Tags: animation, articulation, character_design, construction, performance, solid_drawing, solid_modeling.
 - [Preserve Solid-Flexible Zone Hierarchy Through Character Motion](PAT_preserve_solid_flexible_zone_hierarchy_through_character_motion.md) - pattern; 2 block. Tags: animation, character_construction, deformation, flexibility, rigidity, structural_hierarchy.

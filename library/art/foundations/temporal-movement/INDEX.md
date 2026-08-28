@@ -6,8 +6,9 @@
 
 - [Edit an Action Phase Sequence for Energy](DRILL_edit_action_phase_sequence_for_energy.md) - drill; 2 block. Tags: action_sequence, animation, figure_drawing, visual_rhythm.
   - Variants: `Choose the Action Phase From the Whole Sweep` (method_sequence); `Search Neighboring Keyframes From the Pelvis Anchor` (method_sequence).
+- [Physically Rehearse Action to Feel Weight Balance and Effort](PAT_physically_rehearse_action_to_feel_weight_balance_and_effort.md) - pattern; 1 skeleton. Tags: action_analysis, animation, balance, center_of_gravity, effort, embodied_reference, weight.
 - [Resolve Temporal Movement for a Pose or Sequence](AP_resolve_temporal_movement_for_pose_or_sequence.md) - ap; 1 skeleton. Tags: action_analysis, animation, key_pose, movement, pose, sequential_art, storyboards.
 - [Synthesize Temporal Movement Into Rhythmic Visual Pattern](PAT_synthesize_temporal_movement_into_rhythmic_visual_pattern.md) - pattern; 1 skeleton. Tags: action, animation, movement, rhythm, static_image.
   - Variants: `Allow Motion-Conditioned Apparent Deformation` (emphasis).
 - [Use Frame-Sequence Reference to Study Fast Action](PAT_use_frame_sequence_reference_to_study_fast_action.md) - pattern; 1 skeleton. Tags: action_analysis, animation, frame_sequence, motion_reference, slow_motion.
-  - Variants: `Find Extreme Animal Action Phases in Slow Motion` (context); `Use Freeze-Frame Sequence to Study Fleeting Human Action` (context).
+  - Variants: `Find Extreme Animal Action Phases in Slow Motion` (context); `Use Freeze-Frame Sequence to Study Fleeting Human Action` (context); `Match Recording Rate to Action Speed and the Analysis Question` (method_sequence); `Register Successive States in a Shared Frame to Expose Displacement` (method_sequence); `Analyze Recorded Action From Whole to Parts to Whole` (method_sequence).

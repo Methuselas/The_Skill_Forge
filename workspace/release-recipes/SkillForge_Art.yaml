@@ -9,6 +9,8 @@ modules:
 - art/comics/inking
 - art/comics/page-construction
 - art/composition
+- art/layout
+- art/storyboarding
 - art/drawing/rendering
 - art/drawing/sketching
 - art/foundations/form-construction

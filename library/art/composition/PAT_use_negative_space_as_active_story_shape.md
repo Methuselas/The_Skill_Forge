@@ -24,7 +24,17 @@ reference:
   author: Marcos Mateu-Mestre
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_byrne_create_visual_rest_area_after_sustained_density
+  variant_name: Create a Visual Rest Area After Sustained Density
+  variant_basis: context
+  difference_from_foundation: Extends deliberate negative-space design across a long shot, page, or sequence by using a predominantly
+    clear region or quieter neighboring image as visual breathing room after sustained density.
+  when_to_use: Use when prolonged visual density or intensity leaves the viewer no quiet area in which attention can recover
+    before the next dense passage.
+  when_not_to_use: Do not add empty space mechanically; the clear area must have a compositional or pacing job rather than
+    becoming accidental dead space.
+  absorbed_from_object_id: none
 ---
 
 # Use Negative Space As Active Story Shape
@@ -46,3 +56,5 @@ variants: []
 - Removing or filling it would measurably change the story read.
 
 ## Notes
+
+`VAR_byrne_create_visual_rest_area_after_sustained_density` extends the same negative-space decision across sustained visual density. Use a predominantly clear region or quieter neighboring image as visual breathing room when the viewer needs somewhere to recover; the open area still needs a compositional job rather than becoming accidental dead space.

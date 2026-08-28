@@ -45,6 +45,8 @@ variants: []
 
 ## Do
 - Start from the actual speech timing and emphasis rather than from a generic phoneme inventory. Analyze the recording frame-by-frame where necessary, because nominally identical words can have materially different timing in different performances. Identify the words, syllables, or sounds that carry the line's strongest accents.
+- Treat lip-sync charts as a vocabulary of possible articulations, not as a template that the face must copy literally. The character's facial construction constrains which shapes are available and how far they can be pushed.
+- Scale articulation to the actual delivery and context. Quiet or naturalistic speech may need subtler mouth movement than a generic chart suggests, while louder or more forceful delivery can justify broader jaw, lip, and connected facial action.
 - Use pitch, volume, rhythm, and vocal emphasis to decide which mouth events deserve the strongest visual articulation.
 - Use opening on many vowel sounds and closing or compressing around many consonants only as a broad construction heuristic, never as a universal phoneme equation.
 - Group nearby sounds with similar mouth requirements into a phrase so the jaw and lips can travel through a coherent action instead of snapping to a separate pose for every phoneme.
@@ -61,6 +63,7 @@ variants: []
 - Do not make every sound equally broad; uniform articulation erases the hierarchy of the spoken performance.
 - Do not let the mouth animate independently of the rest of the face when the line contains a strong emotional or physical accent.
 - Do not create a one-frame closure or compression that flashes visibly between surrounding open-mouth drawings when the sound needs a readable formation and release.
+- Do not copy a standard lip-sync guide at full exaggeration when the character design or recorded delivery calls for a smaller range.
 
 ## Checklist
 - The mouth action follows the recorded line's real accents rather than an evenly distributed phoneme schedule.
@@ -70,9 +73,10 @@ variants: []
 - Strong mouth accents are supported by appropriate connected facial or head action when the performance calls for it.
 - Transitions do not contain accidental one-frame flashes, mushy interpolations, or needless mouth-shape churn.
 - The lip sync still reads as character acting rather than as a mouth mechanism operating on top of a separate pose.
+- The mouth shapes remain compatible with the character's facial construction and the scale of the actual spoken delivery rather than with a one-size-fits-all chart.
 
 ## Notes
-Dialogue animation is phrased performance, not a sequence of isolated phoneme icons. Stanchfield emphasizes that similarly shaped sounds can share a broader mouth action, while important accents deserve clearer formation and release. A compressed consonant that appears for only an instant can flash instead of reading, and mechanically inbetweening mouth extremes can turn the line into mush. The durable decision is to let speech hierarchy control articulation: keep quiet passages economical, give important sounds enough temporal support, and let stronger accents recruit the connected face. This Pattern specializes `PAT_phrase_animation_timing_around_story_accents_and_action_beats` at the mouth-and-face level; it does not replace scene-level timing or character acting.
+Dialogue animation is phrased performance, not a sequence of isolated phoneme icons. Stanchfield emphasizes that similarly shaped sounds can share a broader mouth action, while important accents deserve clearer formation and release. A compressed consonant that appears for only an instant can flash instead of reading, and mechanically inbetweening mouth extremes can turn the line into mush. The durable decision is to let speech hierarchy control articulation: keep quiet passages economical, give important sounds enough temporal support, and let stronger accents recruit the connected face. Webster adds an important constraint on reference charts: they are guides, not foolproof templates. The same words can produce different facial movement because physiognomy, context, volume, and delivery differ, and generic guide drawings may be far too broad for naturalistic speech. The source therefore strengthens the existing recording-first rule rather than adding a second lip-sync system. This Pattern specializes `PAT_phrase_animation_timing_around_story_accents_and_action_beats` at the mouth-and-face level; it does not replace scene-level timing or character acting.
 
 - Phrase dialogue rather than spelling it one phoneme at a time. Identify the few mouth changes and speech accents that must read, hold especially readable closures long enough to register, and hit important vowels crisply instead of cushioning every sound equally.
 - Preserve cranial/upper-tooth structure while jaw, lips, tongue, cheeks, and surrounding tissue deform. Simplify when literal phonetic detail makes the mouth busy in motion.

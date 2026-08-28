@@ -85,6 +85,14 @@ variants:
   when_not_to_use: Do not invent a reaction unsupported by the subject, and do not push an interpretation past the point where
     required likeness, structure, weight, attachment, or assignment-critical facts cease to read.
   absorbed_from_object_id: none
+- variant_id: VAR_stanchfield_prioritize_story_bearing_extremities_in_figure_study
+  variant_name: Prioritize Story-Bearing Extremities in Figure Study
+  variant_basis: emphasis
+  difference_from_foundation: Gives hands, feet, and other endpoints extra observational priority when they carry the pose's action, support, attitude, or pantomime meaning, instead of defaulting study time to the head and torso simply because those regions are familiar or prestigious.
+  when_to_use: Use when an observed figure's action is explained materially by a planted foot, reaching or gripping hand, pointed extremity, or another endpoint whose relationship to the whole body carries the story of the pose.
+  when_not_to_use: Do not make hands and feet universally dominant; when the assignment targets torso anatomy, portrait likeness, or another purpose, follow the actual study objective and preserve only the extremity information needed for the whole-body relationship.
+  absorbed_from_object_id: none
+
 ---
 # Select Observed Evidence to Serve Expressive Intent
 
@@ -127,3 +135,4 @@ Observation supplies more information than most images need at equal strength. T
 `VAR_schmid_previsualize_result_as_painted_relationships` treats the target as a continuity reference rather than a rigid contract. If the target intentionally changes, re-baseline it consciously; otherwise compare ongoing work against the active target so completion and correction are not judged against unnoticed drift.
 `VAR_mattesi_commit_to_one_observational_reaction_and_push_it` begins one decision earlier than ordinary expressive selection: identify the particular observed fact or relationship that creates the strongest immediate reaction, declare that as the study's pictorial opinion, and keep later marks accountable to it. The reaction can be pushed through proportion, shape, force, line, simplification, or selective omission; exaggeration is optional, not the definition of the method. A different study of the same subject may legitimately begin from a different source-grounded reaction. The failure to avoid is either arbitrary invention unsupported by observation or academic correction that silently neutralizes the chosen opinion.
 
+`VAR_stanchfield_prioritize_story_bearing_extremities_in_figure_study` applies the same selective principle to figure study: hands, feet, and other endpoints deserve extra attention only when they materially explain the action, support, attitude, or pantomime. Their importance is story-dependent, not anatomical rank.

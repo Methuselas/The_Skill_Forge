@@ -26,6 +26,17 @@ reference:
 confidence: high
 references: []
 variants:
+- variant_id: VAR_stanchfield_embody_pose_to_internalize_support_action_and_attitude
+  variant_name: Embody Pose to Internalize Support, Action, and Attitude
+  variant_basis: method_sequence
+  difference_from_foundation: When a viewed pose is difficult to understand from sight alone, briefly assume or simulate its
+    main lean, support, bend, reach, twist, or compression so kinesthetic feedback clarifies balance, stretch/squash, force,
+    and attitude before reconstructing the whole gesture from memory.
+  when_to_use: Use for awkward observed views, hidden-limb relationships, or poses whose support and action remain unclear
+    after visual inspection and can be simulated safely with the artist's own body.
+  when_not_to_use: Do not use embodiment to replace needed reference, guess anatomy that differs materially from your own,
+    or physically reproduce an unsafe or inaccessible action; use it only for broad support, force, and attitude relationships.
+  absorbed_from_object_id: none
 - variant_id: VAR_bammes_test_animal_motion_with_visual_memory_and_imagination
   variant_name: Test Animal Motion With Visual Memory and Imagination
   variant_basis: method_sequence
@@ -76,5 +87,7 @@ No special setup required.
 
 ## Notes
 This differs from reference-free invention practice. Vilppu uses memory to train **seeing and analysis of observed action** in situations where a model may not hold still. The production lesson is not to avoid reference; it is to make observation active enough that the action can survive after the subject moves.
+`VAR_stanchfield_embody_pose_to_internalize_support_action_and_attitude` adds a kinesthetic diagnostic pass when sight alone leaves the pose unclear. Briefly assume or safely simulate the main support, lean, twist, reach, or compression; notice where weight settles, which side stretches or squashes, and what attitude the action produces; then return to the page and reconstruct the whole gesture from that felt model. It is an aid to understanding an observed action, not permission to substitute one's own anatomy for missing reference.
+
 `VAR_bammes_test_animal_motion_with_visual_memory_and_imagination` extends the same memory test to studied animal motion: after observing and understanding a movement process, remove direct support and reconstruct the action from visual memory or imagination. Use the uncertainty that appears as evidence for what has not yet been internalized; do not skip the observation/study phase that makes the reconstruction meaningful.
 

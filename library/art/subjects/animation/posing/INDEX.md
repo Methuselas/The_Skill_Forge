@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Analyze Performance as an Emotional Dynamic Across a Sequence](DRILL_analyze_performance_as_emotional_dynamic_across_sequence.md) - drill; 0 design. Tags: acting, action_analysis, animation, character_relationship, deliberate_practice, emotional_arc, performance, sequence_analysis.
 - [Animate Face As Elastic Tissue Over Rigid Cranial Anchors](PAT_animate_face_as_elastic_tissue_over_rigid_cranial_anchors.md) - pattern; 1 skeleton. Tags: animation, elasticity, expression, face.
 - [Design Animation Extreme as Storytelling Pose](PAT_design_animation_extreme_as_storytelling_pose.md) - pattern; 1 skeleton. Tags: animation, extremes, posing, primary_action, staging, storytelling.
   - Variants: `Cheat Pose for Silhouette and Story Clarity` (constraint); `Audition Could-Be Pose Interpretations` (method_sequence).
@@ -16,6 +17,7 @@
 - [Show Change Of Thought At A Readable Moment Before Or After Broad Motion](PAT_show_change_of_thought_at_a_readable_moment_before_or_after_broad_motion.md) - pattern; 1 skeleton. Tags: acting, animation, expression, thought.
 - [Test Animation Acting as Pantomime Without Supporting Channels](DRILL_test_animation_acting_as_pantomime_without_supporting_channels.md) - drill; 1 skeleton. Tags: acting, animation, body_language, deliberate_practice, evaluation, pantomime, posing, staging.
   - Variants: `Blind-Read Character and Moment From Pose Before Reveal` (method_sequence).
+- [Transfer Observed Gesture Onto a Target Character Design](DRILL_transfer_observed_gesture_onto_target_character_design.md) - drill; 1 skeleton. Tags: animation, character_design, deliberate_practice, gesture, live_action_reference, posing, proportion, translation.
 - [Translate Live-Action Reference Into Story-Readable Animation Extremes](PAT_translate_live_action_reference_into_story_readable_animation_extremes.md) - pattern; 1 skeleton. Tags: animation, extremes, gesture, live_action_reference, posing, storytelling.
 - [Use Eye Direction And Blinks To Externalize Thought](PAT_use_eye_direction_and_blinks_to_externalize_thought.md) - pattern; 1 skeleton. Tags: acting, animation, blinks, eyes, gaze.
 - [Use Symmetry Or Asymmetry Intentionally In Body Language](PAT_use_symmetry_or_asymmetry_intentionally_in_body_language.md) - pattern; 1 skeleton. Tags: acting, animation, body_language, symmetry.

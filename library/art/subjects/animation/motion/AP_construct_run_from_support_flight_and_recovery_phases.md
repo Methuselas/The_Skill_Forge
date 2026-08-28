@@ -33,14 +33,23 @@ variants: []
 Construct a run around support/contact, compression and push-off, a true airborne phase, recovery, and the next contact.
 
 ## Steps / Flow
-1. Establish the support/contact.
-2. Compress and redirect the mass into push-off.
-3. Create a flight phase with both feet off the ground.
-4. Recover the limbs for the next landing.
-5. Land and repeat at the chosen cadence.
+1. Establish successive contact positions early enough to define stride length, travel, and the intended speed class; treat stride length and stride frequency as separate speed controls rather than shortening the whole cycle indiscriminately.
+2. At a true run contact, confirm that the previous support has already released; if both feet remain grounded through the transition, the action is drifting toward a walk.
+3. Separate first contact from the following load-absorption phase: let the landing foot arrive, then let the support leg and body compress as impact is accepted.
+4. Let the support leg redirect the mass into push-off and extension.
+5. Create a flight phase with both feet off the ground; allow the body to reach a higher or more extended portion of its path during unsupported flight when that fits the run.
+6. Use push -> suspension -> first contact -> squash -> passing -> extension as a diagnostic sequence when the cycle's mechanics are unclear, without treating those labels as a fixed timing formula.
+7. Coordinate body lean, reach of the incoming foot, and recovery of the trailing leg with speed rather than merely shortening the duration of a generic run.
+8. For faster runs and sprinting, increase whole-body drive and opposing arm action as needed; for sustained running or jogging, reduce stride, vertical excursion, limb lift, and arm amplitude when the observed gait supports it.
+9. For very young or uncertain runners, allow balance needs to override efficient adult coordination: shorter steps, very brief suspension, higher step frequency, and arms held outward may be more convincing than a clean adult sprint pattern.
+10. Recover the limbs for the next landing and repeat at the chosen cadence.
 
 **Completion check**
 - The flight phase is unmistakable.
-- The mass trajectory and foot recovery agree with the run’s speed and character.
+- Successive contacts establish a coherent stride and travel rate.
+- Contact does not retain a second planted foot long enough to read as a walk.
+- The mass trajectory, body lean, contact geometry, vertical excursion, arm drive, and foot recovery agree with the run’s speed and character.
+- Landing contact and subsequent compression read as related but distinct events rather than one undifferentiated pose.
 
 ## Notes
+Blair's walk/run comparison is most useful as a structural check rather than a fixed pose recipe: a run is distinguished by true release into unsupported flight, and the contact relationship between landing foot, trailing leg, and advancing mass changes with speed. Webster's phase breakdown is likewise a diagnostic scaffold, not a universal frame chart. Character proportions, terrain, acceleration, age, balance demands, and style can change the exact geometry.

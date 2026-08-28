@@ -24,7 +24,7 @@
 - [Direct a Reference Subject Through Story State, Not Feature Posing](PAT_direct_reference_subject_through_story_state_not_feature_pose.md) - pattern; 0 design. Tags: acting, expression, figure, model_direction, reference, storytelling.
 - [Elicit Natural Child Expression Through Rapport](PAT_elicit_natural_child_expression_through_rapport.md) - pattern; 0 design. Tags: child_portrait, expression, portrait, reference.
 - [Join Rib Cage and Pelvis Through a Flexible Waist](PAT_join_rib_cage_and_pelvis_through_flexible_waist.md) - pattern; 2 block. Tags: centerline, figure_drawing, pelvis, torso_construction.
-  - Variants: `Oppose Major Body Blocks Through Bend, Twist, and Tilt` (method_sequence); `Split the Torso Wedge Through a Mobile Waist` (method_sequence); `Articulate the Seated Torso as a Fold Chain` (method_sequence).
+  - Variants: `Oppose Major Body Blocks Through Bend, Twist, and Tilt` (method_sequence); `Split the Torso Wedge Through a Mobile Waist` (method_sequence); `Articulate the Seated Torso as a Fold Chain` (method_sequence); `Merge the Torso Into One Shorthand Shape When Opposition Is Absent` (method_sequence).
 - [Lace Separated Forms With Valid Interconnections](PAT_lace_separated_forms_with_valid_interconnections.md) - pattern; 3 rough. Tags: anatomy, figure_drawing, form_flow, interconnection.
   - Variants: `Connect Forms by Overlap, Conformity, or Transition` (method_sequence); `Bridge Dissimilar Masses With a Continuous Surface` (method_sequence).
 - [Link the Arm Pair Through the Shoulder Yoke](PAT_link_arm_pair_through_shoulder_yoke.md) - pattern; 2 block. Tags: arm_attachment, arm_yoke, figure_drawing, shoulder_girdle.

@@ -27,6 +27,17 @@ reference:
 confidence: high
 references: []
 variants:
+- variant_id: VAR_stanchfield_match_search_marks_to_pose_knownness
+  variant_name: Match Search Marks to Pose Knownness
+  variant_basis: context
+  difference_from_foundation: Chooses the amount of visible searching from how well the action is already understood; commit
+    more directly when an observed pose is clear, but allow broader exploratory lines when an invented, remembered, or partly
+    visualized action is still being discovered, then select the found solution instead of preserving search indefinitely.
+  when_to_use: Use when deciding whether a drawing problem needs exploratory mark accumulation or a more direct statement of
+    an already understood action.
+  when_not_to_use: Do not turn directness into a pen-only or no-correction rule, and do not suppress necessary search when the
+    action, proportion, viewpoint, or construction is genuinely unresolved.
+  absorbed_from_object_id: none
 - variant_id: VAR_loomis_solve_uncertainty_on_disposable_study_then_reexecute_cleanly
   variant_name: Solve Uncertainty on a Disposable Study, Then Reexecute Cleanly
   variant_basis: method_sequence
@@ -97,6 +108,8 @@ variants:
 
 ## Notes
 Dodson's two handwritings are complementary working modes. The general search/control cycle lives in metaskills; this specialization records how the distinction appears physically in drawing behavior.
+
+`VAR_stanchfield_match_search_marks_to_pose_knownness` makes uncertainty itself the trigger for changing modes. If an observed action is already clear, do more of the search mentally and state the gesture with fewer exploratory marks; if the action is invented or still vague, search freely until a viable relationship appears, then select it instead of letting exploratory accumulation become the finished drawing.
 
 `VAR_loomis_solve_uncertainty_on_disposable_study_then_reexecute_cleanly` separates discovery from clean execution when the surface itself is paying for every correction. Resolve the uncertain passage on a rough or spare support, then carry the chosen answer into the final with fewer hesitant repairs.
 

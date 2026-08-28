@@ -79,7 +79,8 @@ variants:
 - Allow head, torso, hands, eyes, and mouth to carry related but not necessarily identical phrasing when staggered emphasis makes the acting clearer.
 - Match temporal density to the scene: sustained frantic activity, clipped accents, long quiet holds, and sparse movement should feel intentionally different.
 - Calibrate preparation, action, and reaction time to the intended audience and context: give an unfamiliar or easily missed idea enough time to register, but compress any phase that lingers after the audience has understood it.
-- When a beat is unclear in playback, diagnose which phase needs adjustment—preparation, the action itself, or the reaction—rather than slowing the whole passage indiscriminately.
+- When a beat is unclear in playback, diagnose which phase needs adjustment—preparation, execution, immediate physical consequence, or later recovery—rather than slowing the whole passage indiscriminately.
+- Separate the result of released force from recovery when that distinction matters: follow-through, recoil, travel, landing, or another immediate consequence can finish before the body reorganizes into rest or the next usable state.
 - Use anticipatory movement to steer attention toward the place where a fast event will occur; a clearly prepared action can be much shorter without becoming unreadable.
 - When surprise depends on withholding anticipation, preserve the abrupt accent and return readability after it with a freeze, overshoot, recoil, or settle long enough for the audience to catch up.
 
@@ -99,6 +100,7 @@ variants:
 - Different body regions remain coordinated even when their phrase boundaries or accents are offset.
 - The sequence has an intentional rhythmic texture instead of uniform spacing and emphasis.
 - A fresh viewer can understand each important beat on one pass without missing the action or waiting after its meaning is already clear.
+- Immediate physical consequence and later recovery are not collapsed into one undifferentiated settle when the action needs both phases.
 - Fast anticipated actions remain readable because attention is prepared before the accent, while intentionally unanticipated accents remain readable through their aftermath.
 
 ## Notes
@@ -107,7 +109,7 @@ Phrasing treats animation as authored rhythm. A sequence can move-pose, anticipa
 
 - Map important action beats onto the timeline before filling every frame: contacts, changes of attention, prop contacts, dialogue accents, and other story events become temporal targets.
 - For readable action, allocate enough time for the audience to perceive the event; do not cram more physical action into fewer frames merely because the poses can technically be drawn.
-- Use anticipation → action → reaction/settle as a general causal phrase when the event benefits from preparation and consequence. The preparation may be a visible opposite/compressing move or, for sudden action, a micro-anticipation too brief to telegraph consciously.
+- Use anticipation → action → consequence → recovery as a diagnostic expansion when the event benefits from distinguishing the immediate result of released force from the later return to rest or readiness. Preparation may be a visible opposite/compressing move or, for sudden action, a micro-anticipation too brief to telegraph consciously; simple actions can still collapse phases when no useful distinction exists.
 - Use temporal contrast rather than one uniform “normal” speed: slightly faster and slower passages can make each other feel more expressive.
 - Budget readable time around accents; the exact frame count is contextual rather than a universal recipe.
 - Readability is an audience-time problem as well as a pose problem. Preparation directs attention, the action delivers the event, and the reaction confirms its consequence; each phase should last only as long as the intended audience needs to assimilate it.

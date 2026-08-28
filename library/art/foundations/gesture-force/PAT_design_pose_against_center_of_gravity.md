@@ -121,6 +121,15 @@ variants:
   when_not_to_use: Do not impose one fixed center-of-gravity location, one exact limb slant, or identical scapular/pelvic
     compensation on every species or pose; verify the actual contacts, anatomy, and degree of load transfer.
   absorbed_from_object_id: none
+- variant_id: VAR_webster_rebalance_around_carried_external_mass
+  variant_name: Rebalance Around a Carried External Mass
+  variant_basis: context
+  difference_from_foundation: >-
+    Adds Webster's carrying case to the center-of-gravity Pattern: once an external object is carried, treat body and load as one temporary mass system, then shift torso, pelvis, limbs, and free counterbalances so the combined center remains compatible with the active support base.
+  when_to_use: Use when a front, rear, shoulder, one-hand, or otherwise displaced carried load visibly changes the figure's balance strategy.
+  when_not_to_use: Do not force a compensating lean when the object is light, centered, externally supported, or otherwise too mechanically insignificant to alter the body's balance.
+  absorbed_from_object_id: none
+
 ---
 
 # Design the Pose Against Its Center of Gravity
@@ -138,6 +147,7 @@ variants:
 - For a mid-step or impending-action pose, let the mass arrangement approach or cross a stable relationship while another contact is positioned to catch, redirect, or complete the action.
 - Check the pose at gesture level before anatomy hides the support logic.
 - Mentally remove an external support such as a rope, wall, pole, hand brace, or suspension point and predict the direction the body would fall or rotate; verify that the real support plausibly resists, redirects, or arrests that tendency.
+- When the figure carries a significant external mass, evaluate the combined body-plus-load center rather than the unloaded body's ordinary plumb; a rear load may require forward compensation, an asymmetric side load may require lateral compensation or a free-arm counterbalance, and a centered front load may permit a more symmetrical response.
 
 ## Don't
 - Do not center every major mass over one vertical merely because the figure must ultimately be supportable.
@@ -152,6 +162,7 @@ variants:
 - Removing anatomy and contour does not destroy the sense of weight.
 - Weight-bearing contacts produce believable structural consequences in the masses and joints they support.
 - If an external support is removed mentally, the predicted fall or rotation agrees with the load that support is actually carrying.
+- When a carried load is significant, the combined figure-and-load mass remains believable over or against the current supports.
 
 ## Notes
 Hampton frames human movement as repeated controlled loss and recovery of balance. The useful runtime decision is not “make every pose unstable,” but to know whether the current arrangement is stable, tensioned, or transitioning and to design the support accordingly.
@@ -172,3 +183,5 @@ Mattesi adds a useful counterfactual support test: temporarily remove an externa
 `VAR_bammes_test_committed_locomotion_against_current_support` retains **Test Committed Locomotion Against the Current Support** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 
 `VAR_bammes_shift_quadruped_axes_when_support_base_reduces` retains **Shift Quadruped Body Axes as the Support Base Shrinks** as a bounded quadruped-support alternative; use it only under the conditions recorded in the variant metadata.
+
+`VAR_webster_rebalance_around_carried_external_mass` retains **Rebalance Around a Carried External Mass** as the carried-load specialization; use it when the load materially changes the combined center of mass and support strategy.

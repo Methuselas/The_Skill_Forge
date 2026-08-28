@@ -31,7 +31,17 @@ reference:
   author: Harold Whitaker and John Halas
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_byrne_hold_subject_while_environment_moves_in_perspective
+  variant_name: Hold the Subject While the Environment Moves in Perspective
+  variant_basis: method_sequence
+  difference_from_foundation: Adds a hand-drawn animation-layout implementation in which a character or vehicle animates essentially
+    in place while simplified environment elements move back toward the horizon in coherent perspective to create travel.
+  when_to_use: Use for relatively short travel shots where moving the perspective environment is cheaper or clearer than translating
+    the subject through a large world.
+  when_not_to_use: Do not use when the resulting environment motion, duration, or complexity makes the cheat more visible
+    than direct subject travel would be.
+  absorbed_from_object_id: none
 ---
 
 # Preserve World Contact Under Relative Camera Subject And Background Motion
@@ -63,3 +73,5 @@ variants: []
 
 ## Notes
 Whitaker and Halas show that a character cycle, background translation, and camera move cannot be timed as unrelated screen-space motions when the feet are meant to remain planted. The durable operation is to preserve the world relationship and derive the relative image motion from it. Their peg-bar arithmetic is one historical implementation of that relationship, not the rule itself.
+
+`VAR_byrne_hold_subject_while_environment_moves_in_perspective` is a hand-drawn production implementation for short travel shots: keep the subject essentially in place while simple environmental elements move back toward the horizon in perspective. Use it only when the cheat remains clearer and cheaper than translating the subject through a larger world.

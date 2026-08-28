@@ -33,14 +33,17 @@ variants: []
 Combine pose-to-pose control with straight-ahead vitality by planning the important structure first and then animating selected motion systems more freely between guides.
 
 ## Steps / Flow
-1. Plan keys, extremes, and crucial breakdowns.
-2. Animate the primary action between those anchors.
-3. Add secondary action in a separate pass.
-4. Add tertiary or loose appendage motion after the main action works.
-5. Test after each pass and repair drift before continuing.
+1. **Choose the control problem before choosing the method.** Favor pose-to-pose when crucial story poses, exact timing, coordinated staging, or scale consistency must stay locked. Favor straight-ahead treatment when the motion is fast, chaotic, or contains many independently timed elements that would become cumbersome or lifeless if every part were predetermined.
+2. **Lock the primary anchors that truly need control.** Establish keys, extremes, and crucial breakdowns for the main action without over-keying subordinate motion.
+3. **Animate the primary action between the anchors.** Preserve the planned timing and construction while allowing enough path and spacing adjustment to avoid mechanical interpolation.
+4. **Use straighter-ahead passes where vitality matters.** Add secondary, tertiary, loose, or complex motion progressively when those systems benefit from freer timing and overlap rather than rigid key-by-key matching.
+5. **Check cumulative structural drift.** In drawn straight-ahead work, compare periodically against established construction and scale so tiny successive errors do not accumulate into visible shrinkage or growth.
+6. **Test after each pass.** Repair pose-to-pose woodenness, straight-ahead structural drift, timing conflicts, or subordinate motion that redesigns the primary action before continuing.
 
 **Completion check**
 - The action keeps story clarity without becoming mechanically interpolated.
-- Secondary motion does not redesign the primary action.
+- Fast or complex subordinate motion retains vitality without losing structural control.
+- Character scale and construction remain stable across long straight-ahead passages.
+- Secondary and tertiary motion support rather than redesign the primary action.
 
 ## Notes

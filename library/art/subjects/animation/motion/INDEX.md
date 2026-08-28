@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Adapt Human Walking Mechanics to Surface Slope and Footwear Constraints](PAT_adapt_human_walking_mechanics_to_surface_slope_and_footwear_constraints.md) - pattern; 2 block. Tags: animation, balance, contact, footwear, locomotion, slope, terrain, walk.
 - [Anchor Stylized Motion In Observed Mass Mechanics](PAT_anchor_stylized_motion_in_observed_mass_mechanics.md) - pattern; 2 block. Tags: animation, believability, mass, stylization.
 - [Animate Fire And Smoke From Rising Flow Breakup And Dissipation](PAT_animate_fire_and_smoke_from_rising_flow_breakup_and_dissipation.md) - pattern; 2 block. Tags: animation, breakup, effects, fire, flow, smoke.
 - [Animate Liquid Splash From Mass To Sheets Droplets And Secondary Response](PAT_animate_liquid_splash_from_mass_to_sheets_droplets_and_secondary_response.md) - pattern; 2 block. Tags: animation, breakup, droplets, effects, splash, water.
@@ -12,26 +13,40 @@
 - [Break Joint Reversals Successively To Create Flexible Flow](PAT_break_joint_reversals_successively_to_create_flexible_flow.md) - pattern; 2 block. Tags: animation, flexibility, joints, overlap.
 - [Build Flexible Action With Successive Joint And Phase Offsets](DRILL_build_flexible_action_with_successive_joint_and_phase_offsets.md) - drill; 2 block. Tags: animation, drill, flexibility, overlap.
 - [Carry Secondary Parts Through Overlap, Follow-Through, and Drag](PAT_carry_secondary_parts_through_overlap_follow_through_and_drag.md) - pattern; 2 block. Tags: animation, drag, follow_through, overlapping_action, secondary_action.
+- [Classify Articulated Motion by Driver Assistance and Passive Response](PAT_classify_articulated_motion_by_driver_assistance_and_passive_response.md) - pattern; 2 block. Tags: animation, articulation, causality, follow_through, primary_action, secondary_action, tertiary_action.
 - [Combine Pose To Pose Planning With Straight Ahead Motion Passes](AP_combine_pose_to_pose_planning_with_straight_ahead_motion_passes.md) - ap; 2 block. Tags: animation, pose_to_pose, straight_ahead, workflow.
 - [Construct Jump From Compression Launch Flight Contact And Recovery](AP_construct_jump_from_compression_launch_flight_contact_and_recovery.md) - ap; 2 block. Tags: animation, flight, jump, landing.
 - [Construct Run From Support Flight And Recovery Phases](AP_construct_run_from_support_flight_and_recovery_phases.md) - ap; 2 block. Tags: animation, flight, locomotion, run.
 - [Construct Skip From Step Hop Alternation](AP_construct_skip_from_step_hop_alternation.md) - ap; 2 block. Tags: animation, locomotion, rhythm, skip.
 - [Construct Sneak From Delayed Weight Transfer And Cautious Support](AP_construct_sneak_from_delayed_weight_transfer_and_cautious_support.md) - ap; 2 block. Tags: animation, locomotion, sneak, weight_transfer.
 - [Construct Walk From Contact Down Passing Up Phases](AP_construct_walk_from_contact_down_passing_up_phases.md) - ap; 2 block. Tags: animation, locomotion, support, walk.
+- [Control a Struck Object's Path Through Contact Direction, Offset, and Spin](PAT_control_struck_object_path_through_contact_direction_offset_and_spin.md) - pattern; 2 block. Tags: action_analysis, animation, contact, impact, spin, striking, trajectory.
 - [Decouple Secondary Cycle Frequency From Primary Locomotion](PAT_decouple_secondary_cycle_frequency_from_primary_locomotion.md) - pattern; 2 block. Tags: animation, cycle, frequency, locomotion.
   - Variants: `Layer Secondary Bounce Frequency Over the Step Cycle` (context).
+- [Define Task Objective Before Judging Human Action Mechanics](PAT_define_task_objective_before_judging_human_action_mechanics.md) - pattern; 1 skeleton. Tags: action_analysis, animation, balance, effort, human_motion, locomotion, manipulation, objective, projection.
 - [Deform Animated Form With Squash and Stretch While Preserving Volume](PAT_deform_animated_form_with_squash_and_stretch_while_preserving_volume.md) - pattern; 2 block. Tags: animation, anticipation, deformation, squash_and_stretch, volume.
 - [Design Walk From Character State And Attitude](PAT_design_walk_from_character_state_and_attitude.md) - pattern; 2 block. Tags: acting, animation, character, walk.
+  - Variants: `Invert Walk High Low Phase To Create Strut` (method_sequence).
 - [Encode Locomotion Weight Through Vertical Mass Shift And Support](PAT_encode_locomotion_weight_through_vertical_mass_shift_and_support.md) - pattern; 2 block. Tags: animation, locomotion, support, weight.
 - [Generate Walk Variants From Fixed Contact Positions](DRILL_generate_walk_variants_from_fixed_contact_positions.md) - drill; 2 block. Tags: animation, drill, variation, walk.
+- [Identify the Causal Level of Animated Movement Before Adding Performance](PAT_identify_causal_level_of_animated_movement_before_adding_performance.md) - pattern; 1 skeleton. Tags: acting, action, activity, animation, causality, intention, performance.
+- [Intercept a Moving Object by Converging the Body and Contact Path](PAT_intercept_moving_object_by_converging_body_and_contact_path.md) - pattern; 2 block. Tags: action_analysis, animation, balance, catch, contact, gaze, interception, trajectory.
 - [Layer Precipitation By Depth Speed Track And Cycle Variation](PAT_layer_precipitation_by_depth_speed_track_and_cycle_variation.md) - pattern; 2 block. Tags: animation, depth, effects, precipitation, rain, snow.
 - [Phase Offset Body Parts To Break Mechanical Locomotion](PAT_phase_offset_body_parts_to_break_mechanical_locomotion.md) - pattern; 2 block. Tags: animation, locomotion, overlap, phase_offset.
 - [Preserve Support Logic While Distorting Locomotion Design](PAT_preserve_support_logic_while_distorting_locomotion_design.md) - pattern; 2 block. Tags: animation, locomotion, stylization, support.
 - [Preserve World Contact Under Relative Camera Subject And Background Motion](PAT_preserve_world_contact_under_relative_camera_subject_and_background_motion.md) - pattern; 2 block. Tags: animation, background_motion, camera_motion, locomotion, planted_feet, relative_motion, world_contact.
+  - Variants: `Hold the Subject While the Environment Moves in Perspective` (method_sequence).
 - [Propagate Wave Or Whip Action Through Articulated Chain](PAT_propagate_wave_or_whip_action_through_articulated_chain.md) - pattern; 2 block. Tags: animation, overlap, wave, whip.
+  - Variants: `Fish Swimming Head-to-Tail Undulation` (context).
+- [Rebuild Walking Gait Around Changed Support and Limb Clearance Constraints](PAT_rebuild_walking_gait_around_changed_support_and_limb_clearance_constraints.md) - pattern; 2 block. Tags: animation, asymmetry, cane, crutch, limb_clearance, locomotion, support, walk, walker.
 - [Scale Whole Body Effort To Apparent Load](PAT_scale_whole_body_effort_to_apparent_load.md) - pattern; 2 block. Tags: acting, animation, effort, weight.
+  - Variants: `Distinguish Carrying From Sustained Quadruped Haul` (context).
 - [Separate Ballistic Center Of Mass Path From Body Rotation And Deformation](PAT_separate_ballistic_center_of_mass_path_from_body_rotation_and_deformation.md) - pattern; 2 block. Tags: animation, ballistic_motion, center_of_mass, rotation, trajectory.
+- [Separate Gravity From Drag When Timing a Fall](PAT_separate_gravity_from_drag_when_timing_a_fall.md) - pattern; 2 block. Tags: air_resistance, animation, drag, falling, gravity, physics, weight.
+- [Separate Object Handling Difficulty From Weight Alone](PAT_separate_object_handling_difficulty_from_weight_alone.md) - pattern; 2 block. Tags: action_analysis, animation, balance, grip, manipulation, object_handling, precision, weight.
+- [Set Motion Fidelity by Simulation Representation or Interpretation](PAT_set_motion_fidelity_by_simulation_representation_or_interpretation.md) - pattern; 1 skeleton. Tags: animation, interpretation, motion_fidelity, reference, representation, simulation, stylization.
 - [Show Mass Through Resistance To Acceleration And Direction Change](PAT_show_mass_through_resistance_to_acceleration_and_direction_change.md) - pattern; 2 block. Tags: animation, inertia, mass, weight.
   - Variants: `Signal Apparent Scale Through Inertial Timing` (emphasis).
 - [Stage Contact Before Deformation To Strengthen Impact](PAT_stage_contact_before_deformation_to_strengthen_impact.md) - pattern; 2 block. Tags: animation, contact, impact, squash_stretch.
 - [Track Weight Support And Transfer Through Every Pose](PAT_track_weight_support_and_transfer_through_every_pose.md) - pattern; 2 block. Tags: animation, balance, support, weight.
+- [Transition Sprint Startup From Forward Drive Into Steady Running Posture](PAT_transition_sprint_startup_from_forward_drive_into_steady_running_posture.md) - pattern; 2 block. Tags: acceleration, animation, locomotion, run, sprint, transition.

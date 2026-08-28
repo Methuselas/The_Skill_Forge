@@ -29,7 +29,14 @@ reference:
   author: Harold Whitaker and John Halas
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: VAR_blair_break_fast_cycle_aliasing_with_distinct_successive_action_silhouettes
+  variant_name: Break Fast Cycle Aliasing With Distinct Successive Action Silhouettes
+  variant_basis: context
+  difference_from_foundation: Extends periodic-aliasing control from repeated graphic motifs to fast character cycles, where neighboring locomotion or action states can become perceptually interchangeable if whole-body silhouettes or limb correspondences repeat too closely in time.
+  when_to_use: Use in very fast locomotion or repeated character action when playback creates strobe, false reversal, or ambiguous limb correspondence even though each drawing is individually valid.
+  when_not_to_use: Do not randomize limbs, violate support/contact order, or change a mechanically clear repeated silhouette merely for variety; preserve the actual gait and intervene only when temporal sampling creates perceptual ambiguity.
+  absorbed_from_object_id: none
 ---
 
 # Break Periodic Motion Aliasing Before Repeated Elements Strobe
@@ -61,3 +68,5 @@ variants: []
 
 ## Notes
 Whitaker and Halas show the familiar backward-wheel problem as a temporal sampling failure: when similar repeated elements advance by an unfortunate fraction of their spacing, the eye can match each new sample to the wrong neighbor. The same ambiguity can make ladder rungs, fence posts, or regularly spaced background marks flicker or appear stationary during motion. The durable decision is therefore relational: compare displacement to repetition spacing, inspect the actual playback, and break the ambiguous correspondence before finalizing. Their numerical examples illustrate the phenomenon but are not universal production constants.
+
+**Blair fast-cycle silhouette variant — `VAR_blair_break_fast_cycle_aliasing_with_distinct_successive_action_silhouettes`.** In fast locomotion or repeated action, inspect neighboring unique drawings for near-identical whole-body silhouettes or limb correspondences that let the eye match the wrong state across frames. Where the mechanics allow it, vary legitimate limb extension, recovery, grouping, or phase presentation enough to keep successive samples distinct while preserving the real support sequence. Judge the fix in playback; do not introduce arbitrary variation when the cycle already reads clearly.

@@ -34,12 +34,15 @@ Construct a sneak by delaying commitment to new support: reach, test contact, re
 
 ## Steps / Flow
 1. Choose a guarded or low body attitude.
-2. Extend the new foot without immediately committing weight.
-3. Keep the body supported by the rear leg while the contact is tested.
-4. Transfer the mass only after the new support is established.
-5. Compress or recover into the next cautious reach; vary tempo and height for different sneak characters.
+2. Extend the new foot without immediately committing weight, then **slow it as it approaches the ground** so the placement reads as deliberate and quiet.
+3. Keep the body supported by the rear leg while the new contact is tested.
+4. After contact, allow an exaggerated recoil or compression when it serves the sneak, but retain rear support until the new foothold is trusted.
+5. Transfer the mass only after the new support is established.
+6. Recover into the next cautious reach; a faster or more violent sneak may compress the timing, but should keep the delayed-commitment logic rather than turning into an ordinary run.
 
 **Completion check**
-- The gait reads as hesitant acquisition of support rather than an ordinary walk.
+- The incoming foot decelerates into contact rather than striking with an ordinary walking cadence.
+- Rear support remains available until the new contact is trusted.
+- The gait reads as cautious acquisition of support rather than an ordinary walk or run.
 
 ## Notes

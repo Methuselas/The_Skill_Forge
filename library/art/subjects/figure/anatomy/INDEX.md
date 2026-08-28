@@ -10,7 +10,7 @@
 - [Construct the Whole Figure From Mass Relations Before Contour](DRILL_construct_whole_figure_from_mass_relations_before_contour.md) - drill; 1 skeleton. Tags: figure_drawing, mass, observation, proportion.
   - Variants: `Audit the Big Figure Silhouette as a Single Patch` (method_sequence).
 - [Design Drapery From Tension Points and Forces](PAT_design_drapery_from_tension_points_and_forces.md) - pattern; 3 rough. Tags: drapery, figure_drawing, folds, tension.
-  - Variants: `Separate Garment Construction From Body-Driven Folds` (method_sequence); `Read Clothing as Evidence of Body Action and Form` (method_sequence); `Stage Costume Practice From Isolated Figure to Scene Context` (method_sequence).
+  - Variants: `Separate Garment Construction From Body-Driven Folds` (method_sequence); `Read Clothing as Evidence of Body Action and Form` (method_sequence); `Classify Drapery Fold Families by Support Geometry` (method_sequence); `Stage Costume Practice From Isolated Figure to Scene Context` (method_sequence).
 - [Develop Figure Anatomy From Structural Landmarks to Living Surface](AP_develop_figure_anatomy_from_structural_landmarks_to_living_surface.md) - ap; 2 block. Tags: anatomy, body_type, figure_drawing, living_form, structural_landmarks, surface_anatomy.
 - [Map Rear Pelvic Masses Without Breaking the Wedge](PAT_map_rear_pelvic_masses_without_breaking_wedge.md) - pattern; 3 rough. Tags: figure_drawing, pelvis, rear_view, surface_form.
   - Variants: `Anchor Changing Hip Surface to the Iliac Crest` (method_sequence).

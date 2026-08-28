@@ -25,6 +25,7 @@
 - [Construct Inclined Planes From Base Vanishing Directions](PAT_construct_inclined_planes_from_base_vanishing_directions.md) - pattern; 2 block. Tags: inclined_plane, perspective, slope, vanishing_line.
   - Variants: `Use a Slope Auxiliary Vanishing Direction` (method_sequence).
 - [Construct Reflections Across Arbitrary Planar Mirrors](PAT_construct_reflections_across_arbitrary_planes.md) - pattern; 3 rough. Tags: mirror, oblique, perspective, reflection.
+- [Construct Stairs In Perspective From Repeatable Step Scaffold](PAT_construct_stairs_in_perspective_from_repeatable_step_scaffold.md) - pattern; 2 block. Tags: construction, environment, perspective, repeated_spacing, stairs.
 - [Control Perspective Distortion With Viewpoint and Projection Choice](PAT_control_perspective_distortion_with_viewpoint_and_projection_choice.md) - pattern; 0 design. Tags: distortion, perspective, projection, viewpoint.
   - Variants: `Rectilinear Viewpoint Match` (method_sequence); `Extreme-Field Projection Swap` (method_sequence); `Use the One-Look Edge Diagnostic` (method_sequence).
 - [Diagnose and Correct Perspective Distortion](DRILL_diagnose_and_correct_perspective_distortion.md) - drill; 2 block. Tags: correction, distortion, drill, perspective.

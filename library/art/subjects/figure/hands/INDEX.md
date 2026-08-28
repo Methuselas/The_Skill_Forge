@@ -13,6 +13,7 @@
 - [Design Hand Age by Structural and Surface Cues](PAT_design_hand_age_by_structural_and_surface_cues.md) - pattern; 3 rough. Tags: aging, hand, proportion, surface.
   - Variants: `Age a Young Hand by Palm-to-Finger Mass Ratio` (emphasis).
 - [Design Hand Gesture Through Configuration and Attitude](PAT_design_hand_gesture_through_configuration_and_attitude.md) - pattern; 3 rough. Tags: communication, expression, gesture, hand.
+  - Variants: `Break Cartoon Hand Monotony With Uneven Digit Grouping` (style).
 - [Invent Hand Views by Projection and Reversal](DRILL_invent_hand_views_by_projection_and_reversal.md) - drill; 2 block. Tags: foreshortening, hand, invention, projection.
 - [Make Many Observational Studies of Your Own Hand](DRILL_make_many_observational_studies_of_your_own_hand.md) - drill; 2 block. Tags: deliberate_practice, foreshortening, hand_construction, observation.
 - [Reveal Hand Structure Through Surface Stress](PAT_reveal_hand_structure_through_surface_stress.md) - pattern; 3 rough. Tags: hand, landmarks, surface_stress, tendon.

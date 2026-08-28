@@ -52,6 +52,13 @@ variants:
   when_to_use: Use when clothing is obscuring the figure, when hidden body direction must be inferred from garment behavior, or when a clothed pose needs clearer evidence of underlying action and volume.
   when_not_to_use: Do not treat every seam, pocket, cuff, or wrinkle as equally important; retain only garment evidence that materially clarifies action, form, material, fit, or silhouette.
   absorbed_from_object_id: none
+- variant_id: VAR_stanchfield_classify_drapery_fold_families_by_support_geometry
+  variant_name: Classify Drapery Fold Families by Support Geometry
+  variant_basis: method_sequence
+  difference_from_foundation: 'Adds a compact diagnostic vocabulary for reverse-engineering apparently irregular cloth from its support geometry: pipe folds from one principal support, diaper folds between two supports, zigzag folds from progressive collapse against a surface, spiral folds around elongated forms, half-lock or complete-lock folds at increasingly compressed bent joints, falling folds where hanging cloth collects on another surface, and inert folds where slack cloth lies with little active tension. Treat complex natural drapery as hybrids of several causes rather than forcing every fold into one label.'
+  when_to_use: Use when observed drapery looks chaotic and a small causal classification can reveal which supports, compressions, wraps, or resting conditions are generating the visible fold structure before simplification.
+  when_not_to_use: Do not memorize the named families as mandatory wrinkle shapes or let the taxonomy override garment construction, material behavior, gravity, body action, or external force; use the labels only as diagnostic shorthand, then simplify to the folds the pose and costume actually need.
+  absorbed_from_object_id: none
 - variant_id: VAR_loomis_stage_costume_practice_from_isolated_figure_to_scene_context
   variant_name: Stage Costume Practice From Isolated Figure to Scene Context
   variant_basis: method_sequence
@@ -102,3 +109,5 @@ Drapery becomes intelligible when folds are traced back to support, pull, compre
 `VAR_mattesi_read_clothing_as_evidence_of_body_action_and_form` reverses the usual reading direction once the garment is understood: use stretch/compression, hang points, openings, cuffs, waistbands, seams, pockets, straps, and other constructed landmarks as evidence of the body's hidden action and volume, then delete wrinkle information that does not help the pose, material, or form read.
 
 `VAR_loomis_stage_costume_practice_from_isolated_figure_to_scene_context` adds a training progression: isolate the clothed figure long enough to diagnose body/garment relationships, then restore rooms, furniture, accessories, and environmental lighting so costume skill is tested inside real scene constraints rather than remaining an isolated-study trick.
+
+`VAR_stanchfield_classify_drapery_fold_families_by_support_geometry` adds a bounded diagnostic vocabulary for reading cloth from support conditions. Use the fold-family labels to infer causes in confusing drapery, allow hybrids when several causes combine, and return immediately to the parent Pattern's force-, material-, and garment-driven logic rather than treating the taxonomy as a shape library.

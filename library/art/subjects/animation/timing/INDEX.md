@@ -5,6 +5,8 @@
 ## Objects
 
 - [Break Periodic Motion Aliasing Before Repeated Elements Strobe](PAT_break_periodic_motion_aliasing_before_repeated_elements_strobe.md) - pattern; 2 block. Tags: aliasing, animation, repeated_elements, rotation, sampling, strobing, timing.
+  - Variants: `Break Fast Cycle Aliasing With Distinct Successive Action Silhouettes` (context).
+- [Calibrate Gravity Impact And Deformation With Bouncing Ball](DRILL_calibrate_gravity_impact_and_deformation_with_bouncing_ball.md) - drill; 2 block. Tags: animation, ballistics, bouncing-ball, drill, gravity, impact, spacing, squash-and-stretch.
 - [Choose Ones Twos Or Mixed Exposure By Motion Need](PAT_choose_ones_twos_or_mixed_exposure_by_motion_need.md) - pattern; 2 block. Tags: animation, exposure, ones, timing, twos.
   - Variants: `Correct Ping Pong Cycle Endpoint Exposure Bias` (method_sequence).
 - [Control Animation Speed With Slow-Out and Slow-In Spacing](PAT_control_animation_speed_with_slow_out_and_slow_in_spacing.md) - pattern; 2 block. Tags: acceleration, animation, deceleration, slow_in, slow_out, spacing, timing.
@@ -12,11 +14,13 @@
 - [Create Vibration With Staggered Exposure](PAT_create_vibration_with_staggered_exposure.md) - pattern; 2 block. Tags: animation, stagger, timing, vibration.
 - [Damp Oscillation By Contracting Extremes Toward Rest](PAT_damp_oscillation_by_contracting_extremes_toward_rest.md) - pattern; 2 block. Tags: animation, damping, oscillation, settle, timing, vibration.
 - [Design Animation Hold From Stability Readability And Style](PAT_design_animation_hold_from_stability_readability_and_style.md) - pattern; 2 block. Tags: animation, holds, moving_hold, readability, stability, timing.
+- [Diagnose Timing at Pacing Phrasing or Single Action Scale](PAT_diagnose_timing_at_pacing_phrasing_or_single_action_scale.md) - pattern; 2 block. Tags: animation, diagnosis, pacing, performance, phrasing, sequence, timing.
 - [Distinguish Hard And Soft Accents By Post Accent Motion](PAT_distinguish_hard_and_soft_accents_by_post_accent_motion.md) - pattern; 2 block. Tags: accent, animation, recoil, timing.
 - [Hold Timing Constant And Compare Spacing Profiles](DRILL_hold_timing_constant_and_compare_spacing_profiles.md) - drill; 2 block. Tags: animation, drill, spacing, timing.
 - [Interleave Offset Motion Series For Organic Wobble](PAT_interleave_offset_motion_series_for_organic_wobble.md) - pattern; 2 block. Tags: animation, interference, stagger, wobble.
 - [Phrase Animation Timing Around Story Accents and Action Beats](PAT_phrase_animation_timing_around_story_accents_and_action_beats.md) - pattern; 1 skeleton. Tags: accents, animation, extremes, holds, phrasing, rhythm, timing.
   - Variants: `Stage Action Through Preparation, Anticipation, Action, and Residuals` (method_sequence); `Phrase Explosion As Fast Burst And Slow Dispersal` (context); `Modulate Acting Tempo Hold Density And Energy By Mood` (emphasis); `Map Animation Accents To Musical Beats Bars And Mood` (context).
+- [Review Completed Animation From Intent to Evidence and Revision](AP_review_completed_animation_from_intent_to_evidence_and_revision.md) - ap; 4 final. Tags: animation, critique, diagnosis, playback, review, revision, workflow.
 - [Separate Timing From Spacing When Designing Motion](PAT_separate_timing_from_spacing_when_designing_motion.md) - pattern; 2 block. Tags: animation, motion, spacing, timing.
 - [Set Walk Tempo From Step Duration Before Detailing Motion](PAT_set_walk_tempo_from_step_duration_before_detailing_motion.md) - pattern; 2 block. Tags: animation, tempo, timing, walk.
 - [Test Animation Incrementally Before Polish](AP_test_animation_incrementally_before_polish.md) - ap; 2 block. Tags: animation, roughs, testing, workflow.

@@ -1,0 +1,4 @@
+name: art/storyboarding
+requires:
+- art/composition
+- art/foundations/temporal-movement

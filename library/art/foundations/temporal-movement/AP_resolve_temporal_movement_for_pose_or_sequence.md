@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_track_force_continuity_through_action
 - rel: supports
   target_object_id: PAT_synthesize_temporal_movement_into_rhythmic_visual_pattern
+- rel: supports
+  target_object_id: PAT_physically_rehearse_action_to_feel_weight_balance_and_effort
 reference:
   source_title: PASS Art canonical synthesis
   author: Multiple accepted sources
@@ -44,6 +46,7 @@ Understand an action as an event unfolding through time, then resolve only the t
 1. **Enter only when time changes the drawing problem.** Use this AP when the action cannot be solved honestly as one static structural state because phase, anticipation, support transfer, reversal, impact, recovery, or overlapping motion matters. If the task is genuinely static, return to the caller without adding temporal machinery.
 2. **Choose the required temporal resolution.** Decide whether the caller needs one pose/key instant, several ordered poses or panels, or only enough action analysis to support another workflow. Do not expand a single-image task into a sequence, and do not collapse a sequence into one attractive pose when the changing states are the point.
 3. **Recover the event when ordinary observation is insufficient.** Apply `PAT_use_frame_sequence_reference_to_study_fast_action` when fast or fleeting action cannot be understood reliably from one observation, one frozen image, or memory. Compare adjacent states and reconstruct what materially changes before choosing the useful phase or phases.
+   If recorded or visual analysis still leaves weight, support, balance, center-of-gravity shift, or effort unclear, apply `PAT_physically_rehearse_action_to_feel_weight_balance_and_effort` when the action can be rehearsed safely and meaningfully.
 4. **Establish physical continuity through the event.** Apply `PAT_track_force_continuity_through_action` at this decision. Identify what action is coming from, what support/contact/resistance redirects it, and where the event continues next. When an applicable subject-specific temporal specialization exists, follow that specialization only after this general event is understood.
 5. **Branch by deliverable.** For a single still or key pose, apply `PAT_synthesize_temporal_movement_into_rhythmic_visual_pattern` so the chosen instant carries evidence of the action before and after it without becoming a collage of contradictory phases. For an ordered sequence, preserve distinct phase states and their causal order; do not average them into similar poses merely for visual smoothness.
 6. **Keep connected parts temporally coherent.** Different body parts or attached structures may lead, lag, reverse, overlap, or recover at different times, but each state must remain traceable to the same articulated event rather than behaving as an unrelated decorative arc.

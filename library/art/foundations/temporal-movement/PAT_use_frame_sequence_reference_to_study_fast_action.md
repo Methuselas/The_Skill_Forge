@@ -48,6 +48,33 @@ variants:
   when_not_to_use: Do not copy one accidental frozen frame without checking the neighboring phases or rebuilding the pose
     through coherent anatomy and perspective.
   absorbed_from_object_id: none
+- variant_id: VAR_webster_match_recording_rate_to_action_speed_and_analysis_question
+  variant_name: Match Recording Rate to Action Speed and the Analysis Question
+  variant_basis: method_sequence
+  difference_from_foundation: Extends frame-sequence analysis upstream into capture by choosing temporal sampling dense enough
+    to reveal the event being studied while preserving real-time playback as the authority for the action's actual timing and dynamic.
+  when_to_use: Use when you control the recording and a fast, brief, or complex event would lose critical phases at an ordinary
+    sampling rate.
+  when_not_to_use: Do not assume a higher recording rate is automatically better; oversampled slow playback can obscure the
+    overall dynamic, and real-time viewing remains necessary to judge the action's true speed.
+  absorbed_from_object_id: none
+- variant_id: VAR_webster_register_successive_states_in_shared_frame_to_expose_displacement
+  variant_name: Register Successive States in a Shared Frame to Expose Displacement
+  variant_basis: method_sequence
+  difference_from_foundation: Places successive captured states into one stable coordinate frame so spacing, direction, path,
+    and landmark displacement can be compared directly instead of mentally registered across separate images.
+  when_to_use: Use when trajectories, spacing, or relative landmark displacement remain difficult to compare across separate
+    frames and a registered composite or chronophotographic view would make the motion clearer.
+  when_not_to_use: Do not treat the composite as a final animation drawing or allow overlapping states to replace anatomical,
+    timing, or perspective analysis of the individual phases.
+  absorbed_from_object_id: none
+- variant_id: VAR_webster_analyze_recorded_action_from_whole_to_parts_to_whole
+  variant_name: Analyze Recorded Action From Whole to Parts to Whole
+  variant_basis: method_sequence
+  difference_from_foundation: "Extends frame-sequence study into a full analysis cycle: define the action span, establish the real-time whole, isolate timing and causal layers frame by frame, then return to normal-speed playback to judge how the parts recombine."
+  when_to_use: Use when recorded action is complex enough that isolated frames or one analytical pass do not reveal how timing, primary action, subordinate motion, and phase changes work together.
+  when_not_to_use: Do not stay trapped in frame-by-frame dissection; the analysis is incomplete until the reconstructed understanding survives a return to the whole action at real speed.
+  absorbed_from_object_id: none
 ---
 
 # Use Frame-Sequence Reference to Study Fast Action
@@ -59,6 +86,7 @@ variants:
 
 ## Do
 - Inspect adjacent frames rather than choosing one attractive silhouette in isolation.
+- Begin with the action at normal speed to understand the whole event, then slow or single-frame it and isolate individual components while continually relating them back to the complete movement.
 - Compare what changes: support, balance, compression, extension, joint position, body trajectory, head direction, limb reach, and overlap.
 - Identify phases where a transition, extreme, reversal, impact, or support handoff becomes especially legible.
 - Reconstruct the chosen phase through the relevant anatomy, construction, perspective, and FORCE foundations.
@@ -85,3 +113,8 @@ Hultgren first supplied the animal-motion owner through slow-motion deer sequenc
 `VAR_dodson_use_freeze_frame_sequence_to_study_fleeting_human_action` supplies the human-action route and requires neighboring-frame comparison plus anatomical reconstruction rather than literal worship of a single frozen instant.
 
 - Before stylizing reference, extract the motion invariants that repeat beneath surface variation: contact order, support, high/low phases, weight transfer, stride timing, characteristic delays, and changing masses. Adapt those invariants to the design rather than copying every frame literally.
+`VAR_webster_match_recording_rate_to_action_speed_and_analysis_question` adds the capture-side sampling decision. Record densely enough to expose fleeting phases when needed, but return to real-time playback to preserve the action's actual rhythm and timing authority.
+
+`VAR_webster_register_successive_states_in_shared_frame_to_expose_displacement` adds a registered-comparison route: successive states can be overlaid or captured into a shared frame to make spacing, trajectory, and landmark displacement directly visible.
+
+`VAR_webster_analyze_recorded_action_from_whole_to_parts_to_whole` adds Webster's complete deconstruction/reassembly pass: start from the whole event at normal speed, isolate timing, phases, and causal motion hierarchies only as needed, then return to real-time playback so local findings are judged inside the original dynamic.

@@ -31,17 +31,21 @@ variants: []
 
 ## Pattern Rule
 **IF** a walk cycle needs a clear cadence before intermediate poses and secondary detail are designed
-**THEN** Choose locomotion cadence by setting the duration of a step before solving every intermediate pose
+**THEN** Choose locomotion cadence by setting the duration of a step before solving every intermediate pose, then pair that cadence with stride length to establish actual travel speed
 
 ## Do
 - Decide the basic beat in frames or relative duration per step.
+- Treat stride length and step frequency as separate controls: speed can change because steps travel farther, happen more often, or both.
+- If the required speed pushes stride length or frequency beyond a believable walking solution, reconsider the gait instead of stretching the same cycle indefinitely.
 - Build contacts and major phases to that beat.
 - Then use spacing and secondary rhythms to modify character without losing the cadence.
 
 ## Don't
 - Do not discover the tempo accidentally after all poses are drawn.
+- Do not assume a single frame count defines a correct walk for every figure or circumstance.
 
 ## Checklist
 - The locomotion has a deliberate repeatable beat.
+- Step frequency and stride length together produce the intended travel rate.
 
 ## Notes

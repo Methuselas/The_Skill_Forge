@@ -5,9 +5,9 @@
 ## Topics
 
 - [Cleanup](cleanup/INDEX.md) - 1 object(s).
-- [Construction](construction/INDEX.md) - 1 object(s).
+- [Construction](construction/INDEX.md) - 2 object(s).
 - [Dialogue](dialogue/INDEX.md) - 5 object(s).
 - [Inbetweening](inbetweening/INDEX.md) - 5 object(s).
-- [Motion](motion/INDEX.md) - 29 object(s).
-- [Posing](posing/INDEX.md) - 13 object(s).
-- [Timing](timing/INDEX.md) - 14 object(s).
+- [Motion](motion/INDEX.md) - 40 object(s).
+- [Posing](posing/INDEX.md) - 15 object(s).
+- [Timing](timing/INDEX.md) - 17 object(s).

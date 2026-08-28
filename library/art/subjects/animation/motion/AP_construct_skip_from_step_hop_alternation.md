@@ -33,14 +33,16 @@ variants: []
 Construct a skip as alternating step–hop support groups, then shape the relative step/hop timing and secondary action for character.
 
 ## Steps / Flow
-1. Create a step on one foot.
-2. Add a hop on that same support.
-3. Switch to the other foot for the next step–hop group.
-4. Set the relative duration of step and hop.
-5. Layer arms, head, and body rhythms without losing the alternating support pattern.
+1. Create a step onto one foot and establish it as the current support.
+2. Push from that support into the hop; let the body travel through a readable airborne arc.
+3. Return that **same foot** to contact to complete the hop before changing support.
+4. Switch to the other foot for the next step–hop group.
+5. Shape the relative duration and spacing of launch, apex, and return instead of mechanically dividing every interval equally; use that asymmetry to control the skip rhythm.
+6. Layer arms, head, and body rhythms without losing the alternating step–hop support pattern.
 
 **Completion check**
-- The step–hop alternation is readable.
+- Each hop launches from and returns to the same support foot before the next step changes sides.
+- The airborne phase forms a readable arc rather than a flat or walk-like transfer.
 - Timing variation changes character without collapsing into a run or walk.
 
 ## Notes

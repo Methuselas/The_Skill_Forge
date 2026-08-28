@@ -101,6 +101,13 @@ variants:
   when_to_use: Use when color and full subject complexity are hiding uncertainty in the large value and shape organization of a planned watercolor.
   when_not_to_use: Do not use when the value organization is already trustworthy or when the actual study target is specifically hue, chroma, or another variable that monochrome deliberately removes.
   absorbed_from_object_id: none
+- variant_id: VAR_webster_match_evidence_type_to_research_question
+  variant_name: Match Evidence Type to the Research Question
+  variant_basis: method_sequence
+  difference_from_foundation: Chooses quantitative evidence when the study question genuinely depends on measurable duration, rate, distance, frequency, efficiency, or another numerical relationship; chooses qualitative evidence when the question concerns the nature of behavior, perceptible differences, motives, responses, or contextual qualities; and combines both when one kind of evidence can clarify the other.
+  when_to_use: Use when a research-driven study could be answered by measurement, comparative observation, or both and the evidence type needs to be chosen before the study is designed.
+  when_not_to_use: Do not force numerical measurement onto a qualitative question merely to make it seem more rigorous, and do not avoid measurement when the claimed difference actually depends on quantity.
+  absorbed_from_object_id: none
 ---
 # Define Study Target Before Choosing Scope, Medium, and Detail
 
@@ -155,3 +162,6 @@ A study is a designed diagnostic environment, not simply an unfinished artwork. 
 `VAR_dow_anchor_observational_study_to_live_design_question` begins from a current design need rather than an arbitrary study subject. Observe the specific evidence the work is missing, then return it to the image and test whether it solves the live problem.
 
 `VAR_garcia_rehearse_watercolor_with_monochrome_wash_value_study` turns value planning into a miniature wash rehearsal: simplify the intended watercolor into broad light, middle, and dark territories, keep line secondary, build the wash from lighter toward darker values, then carry the accepted value/shape organization into color without assuming value alone guarantees the final painting.
+
+
+`VAR_webster_match_evidence_type_to_research_question` adds Webster's evidence-routing distinction to study design. Let the question decide whether useful evidence must be measured, comparatively described, or approached with both methods; the method is subordinate to the information needed.

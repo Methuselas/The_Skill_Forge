@@ -1,0 +1,5 @@
+name: art/layout
+requires:
+- art/composition
+- art/perspective
+- art/foundations/temporal-movement
