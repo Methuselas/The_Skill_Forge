@@ -62,9 +62,9 @@ the report.
 <<< paste ONE path from the list below >>>
 ```
 
-Extract to your scratchpad, not into the repository. **Wesnoth in particular is
-large — browse with `unzip -l` and extract only the subtree you intend to read**
-rather than unpacking the whole archive.
+It is already extracted and ready to read. Nothing needs unpacking, and nothing
+under `workspace/sources/` is tracked by git, so you cannot disturb the repository
+by reading there.
 
 ### What to do
 
@@ -127,11 +127,14 @@ Write the report out in full — only what you report is seen.
 ## The four archives — one per session
 
 ```
-workspace/sources/Cpp/DevilutionX-master.zip      (12 MB)
-workspace/sources/Cpp/warzone2100-master.zip      (25 MB)
-workspace/sources/Cpp/freeorion-master.zip        (161 MB)
-workspace/sources/Cpp/wesnoth-master.zip          (730 MB — extract selectively)
+workspace/sources/Cpp/extracted/DevilutionX-master     ( 31 MB)
+workspace/sources/Cpp/extracted/warzone2100-master     ( 75 MB)
+workspace/sources/Cpp/extracted/freeorion-master       (202 MB)
+workspace/sources/Cpp/extracted/wesnoth-master         (1.2 GB)
 ```
+
+These are working trees, not archives. Explore with the ordinary tools —
+`find`, `grep`, directory listings — and read whatever you decide to read.
 
 **One archive per fresh session.** They are different enough in age, style and
 subject matter to be genuinely independent samples, and a session that has read
