@@ -33,7 +33,7 @@ variants: []
 # Make Misuse Impossible by Removing Invalid States
 
 ## Pattern Rule
-**IF** a class's contract relies on callers performing a specific setup sequence or avoiding an invalid state
+**IF** a type's or module's contract relies on callers performing a specific setup sequence or avoiding an invalid state
 **THEN** redesign it so the invalid state cannot exist — return a fully-initialized instance from a static factory function, make the constructor and any state-mutating functions private, and stop exposing mutable state.
 
 ## Do

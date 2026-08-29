@@ -31,7 +31,7 @@ variants: []
 # Don't Leak Implementation Details in Return Types
 
 ## Pattern Rule
-**IF** a class returns a value to its callers
+**IF** a function, class, or module returns a value to its callers
 **THEN** return a type appropriate to its own layer of abstraction, exposing only the concepts callers need, rather than a type coupled to how the class is implemented internally.
 
 ## Do

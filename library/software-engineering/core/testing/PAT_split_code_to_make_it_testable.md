@@ -31,8 +31,8 @@ variants: []
 # Split Code Into Smaller Units to Make It Testable
 
 ## Pattern Rule
-**IF** testing all of a class's behaviors through its public API feels daunting because the class does too much
-**THEN** split the complicated subproblem into its own class, so it can be tested directly through its own public API, rather than exposing a private function to reach it.
+**IF** testing all of a unit's behaviors through its public API feels daunting because that unit does too much
+**THEN** split the complicated subproblem into its own unit — a class, or a separate translation unit with its own header — so it can be tested directly through its own public API, rather than exposing a private function to reach it.
 
 ## Do
 - Read the urge to make a private function visible as a signal the class is doing too much: when a credit-rating check grows complex with error cases, that complexity belongs in its own unit.

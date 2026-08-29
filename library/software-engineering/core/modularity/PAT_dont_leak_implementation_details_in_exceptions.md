@@ -33,8 +33,8 @@ variants: []
 # Don't Leak Implementation Details in Exceptions
 
 ## Pattern Rule
-**IF** a layer can propagate an error thrown by a lower layer that a caller might want to recover from
-**THEN** wrap it in an exception type appropriate to this layer — preserving the original as the cause — rather than letting an implementation-specific exception escape through your interface.
+**IF** a layer can propagate an error raised by a lower layer — thrown or returned — that a caller might want to recover from
+**THEN** translate it into a failure appropriate to this layer — an exception type where the language has them, this layer's own error value where it does not — preserving the original as the cause either way, rather than letting an implementation-specific failure escape through your interface.
 
 ## Do
 - Define an error type for your layer and wrap lower-layer errors in it: a text summarizer should throw a `TextSummarizerException` that wraps whatever a scorer threw, so callers handle one predictable error type.

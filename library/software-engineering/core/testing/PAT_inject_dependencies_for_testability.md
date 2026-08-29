@@ -33,8 +33,8 @@ variants: []
 # Inject Dependencies to Make Code Testable
 
 ## Pattern Rule
-**IF** a class constructs its own dependencies internally, making it impossible for a test to substitute test doubles
-**THEN** inject those dependencies through the constructor, so tests can supply fakes while real callers still get real dependencies via a factory.
+**IF** a unit of code constructs its own dependencies internally, making it impossible for a test to substitute test doubles
+**THEN** hand those dependencies in from outside — through the constructor where there is one, otherwise as a parameter or a table of function pointers — so tests can supply fakes while real callers still get real dependencies from a factory.
 
 ## Do
 - Take dependencies as constructor parameters: an invoice reminder that receives its address book and email sender can be tested, where one that builds them itself cannot.

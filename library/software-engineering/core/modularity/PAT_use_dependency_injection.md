@@ -33,8 +33,8 @@ variants: []
 # Inject Dependencies Instead of Hard-Coding Them
 
 ## Pattern Rule
-**IF** a class depends on something that could have alternative implementations
-**THEN** inject that dependency through the constructor instead of constructing a specific implementation inside the class, so the class can be reconfigured with any implementation.
+**IF** a class, module, or function depends on something that could have alternative implementations
+**THEN** hand that dependency in from outside instead of constructing a specific implementation inside — through the constructor where there is one, otherwise as a parameter or as a table of function pointers supplied at creation — so it can be reconfigured with any implementation.
 
 ## Do
 - Take the dependency as a constructor parameter: a `RoutePlanner` given a `RoadMap` can plan routes anywhere, where one that builds a `NorthAmericaRoadMap` internally is useless outside North America.

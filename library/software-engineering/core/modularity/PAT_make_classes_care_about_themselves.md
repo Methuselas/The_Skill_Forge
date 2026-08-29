@@ -31,8 +31,8 @@ variants: []
 # Make Each Class Care About Itself
 
 ## Pattern Rule
-**IF** logic in one class operates only on the internals of another class
-**THEN** move that logic into the class it concerns, as a member function, so a change to that concept touches only one class.
+**IF** logic in one class or module operates only on the internals of another
+**THEN** move that logic into the class or module it concerns — a member function where there are classes, a function belonging to the unit that owns the data where there are not — so a change to that concept touches only one place.
 
 ## Do
 - Relocate the reaching-in logic: a word-count that sums a chapter's prelude and sections belongs on `Chapter` as `wordCount()`, not on `Book` as a helper that knows a chapter's parts.
