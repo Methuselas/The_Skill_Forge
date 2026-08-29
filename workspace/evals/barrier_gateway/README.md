@@ -128,3 +128,34 @@ tree-wide search. A run that reports such a leak should be marked
 `contaminated: true` in its grade rather than silently kept or silently dropped —
 its own claim that the leaked lines "only confirmed" existing conclusions is the
 run assessing its own contamination, which is not evidence.
+
+## Iteration 1 outcome: material good, instrument not
+
+All six runs completed and their outputs are committed. **No result should be
+quoted from them yet — the grader is not trustworthy.**
+
+Three regex defects were found by spot-checking, exactly as the limits section
+above said to do:
+
+* `A1` looked for `delete` and missed `free()`, failing a run that released
+  correctly.
+* `A3` missed `std::max<int>(...)` because the pattern assumed no explicit
+  template argument — a false negative.
+* `A3` also matched a validating `ASSERT_OR_RETURN(..., x1 < width ...)` as if it
+  were a clamp — a false positive. Validation rejects bad input; a clamp assigns.
+  The first version of this eval therefore reported a 67-point separation on its
+  headline assertion that was an artifact in both directions.
+
+After repairing those, `A3` reported failure for every run while the same pattern
+matches the text when tested directly against the file. So at least one further
+defect remains in `grade.py` and it has not been found.
+
+Four of six assertions sat at 100% in both arms, including the one meant to be
+direct evidence the mechanism ran. An assertion that never discriminates measures
+nothing, which is a design fault in the assertion rather than a finding about the
+arms.
+
+**Before iteration 2:** fix and unit-test `grade.py` against known-good and
+known-bad fixtures before grading anything, and replace the four ceiling
+assertions. The six implementations already on disk are a free fixture set for
+that work — no agents needed.

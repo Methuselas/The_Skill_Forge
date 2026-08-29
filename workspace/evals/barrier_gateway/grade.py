@@ -42,8 +42,8 @@ def assess(code: str, notes: str) -> dict[str, dict]:
     # must release them. Look for a delete reached from the shutdown path.
     m = re.search(r"gwShutDown[^{]*\{(.{0,1200}?)\n\}", code, re.S)
     shutdown_body = m.group(1) if m else ""
-    a1 = bool(re.search(r"\bdelete\b|\.reset\(|unique_ptr|shared_ptr", shutdown_body)) or bool(
-        re.search(r"\bdelete\b", code)
+    a1 = bool(re.search(r"\bdelete\b|\bfree\s*\(|\.reset\(|unique_ptr|shared_ptr", shutdown_body)) or bool(
+        re.search(r"\bdelete\b|\bfree\s*\(", code)
     )
     record("A1_ownership", a1, (shutdown_body[:120] or "no gwShutDown body matched"))
 
@@ -59,9 +59,14 @@ def assess(code: str, notes: str) -> dict[str, dict]:
     record("A2_reorder", bool(m2), m2.group(0) if m2 else "no smallest-first normalisation")
 
     # A3 — clamp to map bounds.
+    # A clamp ASSIGNS a coordinate from a bounding expression. A validating
+    # assert also mentions width and height and is not a clamp, so the
+    # assignment is the thing to match. Template arguments are optional:
+    # std::max<int>(...) is as common as std::max(...).
     a3_pat = (
-        r"std::clamp|MAX\s*\(\s*0|MIN\s*\(|std::min\s*\([^)]*(width|height)"
-        r"|std::max\s*\(\s*0|>=\s*\w*\.?(width|height)|<\s*0\s*\)"
+        r"(x1|x2|y1|y2)\s*=\s*(std::)?(max|min|clamp)"
+        r"|(x1|x2|y1|y2)\s*=\s*(MAX|MIN)"
+        r"|(x1|x2|y1|y2)\s*=\s*\w*[Cc]lamp"
     )
     m3 = re.search(a3_pat, code)
     record("A3_clamp", bool(m3), m3.group(0) if m3 else "no clamp against map bounds")
