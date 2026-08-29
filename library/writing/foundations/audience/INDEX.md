@@ -12,4 +12,5 @@
 - [Prepare and Send a Creative-Writing Submission Package](AP_prepare_and_send_creative_writing_submission_package.md) - ap; 4 final. Tags: manuscript, proposal, publication, query_letter, submissions.
 - [Research and Shortlist Publication Outlets](AP_research_and_shortlist_publication_outlets.md) - ap; 4 final. Tags: audience, market_research, outlet_selection, publication, submissions.
 - [Track Each Writing Submission as a Distinct Transaction](PAT_track_each_submission_as_distinct_transaction.md) - pattern; 4 final. Tags: follow_up, publication, records, submissions, version_control.
+- [Use a Working Title as a Temporary Attention Cue](PAT_use_working_title_as_temporary_attention_cue.md) - pattern; 0 design. Tags: drafting, framing, project_identity, reader_expectation, title.
 - [Write a Factual Outlet-Specific Query](PAT_write_factual_outlet_specific_query.md) - pattern; 4 final. Tags: outlet_fit, professional_communication, proposal, query_letter, submissions.

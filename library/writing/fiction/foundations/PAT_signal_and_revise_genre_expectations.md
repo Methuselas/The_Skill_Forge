@@ -47,6 +47,7 @@ variants:
 
 ## Do
 - Name the experience the primary genre leads readers to anticipate, not merely its marketplace label.
+- Compare several successful works in the intended genre for scale, viewpoint pattern, plot-versus-character emphasis, structural divisions, sentence texture, descriptive density, and the way their central promises are fulfilled.
 - Audit the opening for cues carried by setting, diction, narrator stance, character roles, information gaps, imagery, pace, and likely conflict.
 - Fulfill the genre's central promise through particular people and pressures rather than copying its most visible stock events.
 - Combine genres by deciding which contract governs and what distinct job each secondary convention performs.
@@ -57,11 +58,13 @@ variants:
 - Define genre by the writer's identity instead of the work's conventions and reader-facing effects.
 - Treat literary fiction as an absence of conventions or other genres as lesser forms.
 - Announce a genre label and assume the prose no longer needs to establish its contract.
+- Treat one bestseller, one current trend, or a broad plot-versus-character tendency as a compulsory formula for the whole genre.
 - Copy characteristic plots, character types, settings, or phrases without transforming them through the story's specific situation.
 - Break a central promise merely to prove the story is unpredictable.
 
 ## Checklist
 - The primary genre promise can be stated as an anticipated experience.
+- Claims about customary scale, viewpoint, structure, and prose are supported by comparison across multiple works rather than one model.
 - Opening cues support that promise across more than one craft channel.
 - Each familiar convention is made particular through character, situation, voice, or consequence.
 - Mixed signals create purposeful tension rather than accidental confusion.

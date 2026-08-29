@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Map Favorite Books to Project Affinities](DRILL_map_favorite_books_to_project_affinities.md) - drill; 0 design. Tags: craft_analysis, influence, project_selection, reading, voice.
 - [Map Repetition by Scale Placement and Effect](DRILL_map_repetition_by_scale_placement_and_effect.md) - drill; 3 rough. Tags: close_reading, repetition, revision, rhythm, syntax.
 - [Synthesize Literary Influences into Original Voice](PAT_synthesize_literary_influences_into_original_voice.md) - pattern; 0 design. Tags: creative_writing, influence, reading, style, voice.
 - [Trace Reader Effects to Craft Choices](PAT_trace_reader_effects_to_craft_choices.md) - pattern; 0 design. Tags: apprenticeship, close_reading, craft_analysis, imitation, reader_effect.

@@ -44,6 +44,7 @@ variants: []
 - Reserve a recurring writing time that coincides with the part of the day when focused work comes most readily.
 - When self-consciousness freezes the first meaningful sentence, begin with deliberately disposable language, copied words, or another consequence-free verbal warm-up, then move into the actual material as soon as attention settles.
 - Keep reading and talking about the work while drafting; either activity can expose the problem that silent effort has concealed.
+- Before ending a productive session, leave a low-friction re-entry cue such as an unfinished sentence, the next concrete action, or a short list of live possibilities.
 - Postpone grammar, punctuation, polish, and public evaluation while generating the first usable body of material.
 - When actual words feel clumsy beside a vivid mental version, name one mismatch the next pass can narrow instead of asking the draft to realize the whole vision at once.
 - Separate the importance of the finished work from the job of the current pass; a consequential final result does not make each private sentence a verdict on that result.
@@ -60,6 +61,7 @@ variants: []
 - The reduced task has an observable finish line and fewer demands than the stalled version.
 - The session produced new words rather than only plans for future writing.
 - Any disposable warm-up yielded to the intended material instead of becoming a new avoidance ritual.
+- The next session has a visible entry cue when repeated cold starts are part of the blockage.
 - Early correction did not repeatedly interrupt the generation of sentences, images, scenes, or options.
 - The gap between the imagined work and the existing text can be named without turning into a verdict about ability.
 - The current pass has a bounded job even when the finished work carries serious consequences.

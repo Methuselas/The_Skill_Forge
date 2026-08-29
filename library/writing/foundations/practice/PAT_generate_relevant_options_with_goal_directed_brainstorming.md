@@ -60,6 +60,13 @@ variants:
     when_to_use: The writer prefers orderly lists and can name a broad life category but cannot yet choose or develop a specific episode within it.
     when_not_to_use: Continuous associative prose or spatial relations are producing stronger discoveries, or the chosen event already has enough concrete material to draft.
     absorbed_from_object_id: none
+  - variant_id: writing_variant_introduce_random_environmental_constraint
+    variant_name: Introduce a Random Environmental Constraint
+    variant_basis: method_sequence
+    difference_from_foundation: Add one unchosen but concrete element from the immediate environment or a bounded random draw, then generate consequences that connect it to the named writing problem.
+    when_to_use: Deliberate invention keeps producing predictable options, or a scene needs an external pressure, object, encounter, or condition the writer would not have selected unaided.
+    when_not_to_use: The draft already has a stable causal design, or the random element can only be pasted on as decoration without changing action, relation, or meaning.
+    absorbed_from_object_id: none
 ---
 
 # Generate Relevant Options with Goal-Directed Brainstorming
@@ -98,3 +105,5 @@ Brainstorming and freewriting suspend early judgment for different purposes. Fre
 `writing_variant_branch_associations_during_generation_then_freewrite` uses visible links as part of generation rather than adding them afterward. Put one cue at the center, attach each new word or phrase to the node that elicited it, follow that branch until it stalls, and then return to the center or another live node. When one association carries concrete detail, tension, surprise, or verbal energy, stop mapping and write continuously about that node. The branch records a route into material; it does not prove a psychological or symbolic interpretation.
 
 `writing_variant_cascade_story_titles_into_concrete_detail_lists` moves from breadth to depth through successive lists. Generate brief titles for several possible personal episodes under a broad cue, choose one that carries live action or meaning, then list remembered setting, sensation, conduct, emotion, objects, and speech without deciding which details will survive. If one submoment remains thin, make it the heading of another detail list. Stop when the selected episode has both enactable particulars and a question or pressure worth developing; list length is not the completion test.
+
+`writing_variant_introduce_random_environmental_constraint` interrupts an option set that has become too self-confirming. Draw one concrete element the writer did not choose—a change of weather, nearby object, unexpected visitor, overheard phrase, delay, sound, or location condition—and ask what it makes a character notice, want, avoid, do, or revise. Keep it only when its consequences become native to the scene; reject it when novelty remains detachable.

@@ -43,6 +43,8 @@ variants: []
 ## Do
 - Inventory immovable obligations and realistic attention windows before choosing a cadence.
 - Set a minimum session small enough to repeat and concrete enough to verify by an action such as generating new language, extending a scene, or testing an image.
+- Pair one distant project milestone with a near-term target measured by the work that currently matters: completion of a task, a number of sessions, or an amount of new material.
+- Revise a repeatedly missed target downward until it supports continuity; increase it only after actual sessions show spare capacity, and review both levels as the project changes.
 - Test times, locations, tools, sounds, and entry cues to discover which combination reduces friction for this writer.
 - Use unavoidable travel, queues, chores, or other off-desk intervals for safe mental incubation or brief capture, then return that material to a writing session.
 - Evaluate the routine after several attempts by what it produced, where it failed, and which conditions were actually repeatable.
@@ -58,6 +60,7 @@ variants: []
 ## Checklist
 - The practice contract names a repeatable cue or time, a workable place or tool, and an observable session action.
 - The minimum session fits around current obligations rather than an imagined future life.
+- Near-term targets identify an observable task, session cadence, or amount of material and connect to a revisable project milestone.
 - At least several trials have produced evidence about which conditions help entry and continuation.
 - Off-desk incubation feeds later writing without requiring unsafe or intrusive capture.
 - The routine produces language or usable material often enough to justify keeping it.
