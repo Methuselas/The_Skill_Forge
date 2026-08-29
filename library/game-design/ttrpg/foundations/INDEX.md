@@ -5,6 +5,8 @@
 ## Objects
 
 - [Choose Between an Original TTRPG and an Existing System](PAT_choose_between_an_original_ttrpg_and_an_existing_system.md) - pattern; 0 design. Tags: audience, licensing, project-scoping, rules-systems, ttrpg.
+- [Design a Solo TTRPG as a Guided Decision Loop](PAT_design_a_solo_ttrpg_as_a_guided_decision_loop.md) - pattern; 1 skeleton. Tags: decision-loop, onboarding, solo-play, ttrpg.
 - [Identify the TTRPG Experience and Design Focus](PAT_identify_the_ttrpg_experience_and_design_focus.md) - pattern; 0 design. Tags: design-focus, player-experience, project-scoping, ttrpg.
+- [Match TTRPG Use to the Required Kind of Practice](PAT_match_ttrpg_use_to_the_required_kind_of_practice.md) - pattern; 0 design. Tags: applied-games, learning, simulation, training, ttrpg.
 - [Scale TTRPG Delivery Commitments to Audience and Exposure](PAT_scale_ttrpg_delivery_commitments_to_audience_and_exposure.md) - pattern; 0 design. Tags: accessibility, audience, project-scoping, publication, ttrpg.
 - [Scope a TTRPG Design Project](AP_scope_a_ttrpg_design_project.md) - ap; 0 design. Tags: audience, design-brief, project-scoping, ttrpg.

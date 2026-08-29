@@ -34,6 +34,7 @@ variants: []
 - State whether the first audience is a known group, a broader community, or paying strangers.
 - Give unfamiliar players enough information to decide whether the game's tone, content, and play expectations suit them.
 - Make rules and instructions stand on their own when the designer will not be available to explain them at the table.
+- Test the intended delivery format early: physical table, online table, or solo play may expose different material and facilitation needs.
 - Set a spending and production boundary that remains acceptable if the project does not recover its costs or receives difficult feedback.
 
 ## Don't
@@ -43,7 +44,8 @@ variants: []
 ## Checklist
 - The intended audience and the designer's support role are explicit.
 - A stranger can tell what the game asks players to do and whether its content is suitable for them.
+- The central rules and materials still work in every format the project promises to support.
 - The delivery plan names the maximum commitment of time, money, and external production the project can safely absorb.
 
 ## Notes
-A home-table game can rely on shared context and direct explanation. A game distributed to people the designer has never met cannot. It needs clearer expectations and usable rules, while a commercial path also exposes the creator to costs, rejection, and obligations that a hobby prototype can defer.
+A home-table game can rely on shared context and direct explanation. A game distributed to people the designer has never met cannot. It needs clearer expectations and usable rules, while a commercial path also exposes the creator to costs, rejection, and obligations that a hobby prototype can defer. A format is part of that delivery promise: a mechanism that is satisfying with physical props may become friction when players must reproduce it through an online tool or alone.
