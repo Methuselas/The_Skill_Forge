@@ -30,7 +30,21 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_creative_nonfiction_variant_render_fleeting_person_through_bounded_partiality
+    variant_name: Render a Fleeting Person through Bounded Partiality
+    variant_basis: constraint
+    difference_from_foundation: Build a deliberately incomplete portrait from a bounded habitual impression, one active incident, the narrator's relation to the person, and an honest exit rather than implying a complete judgment.
+    when_to_use: A real person appears briefly but must register as more than a label, function, or picturesque detail.
+    when_not_to_use: The person is central enough to require evidence across several contexts, or the available material cannot support even the limited impression.
+    absorbed_from_object_id: none
+  - variant_id: writing_creative_nonfiction_variant_situate_person_through_culture_and_milieu
+    variant_name: Situate a Person through Culture and Milieu
+    variant_basis: context
+    difference_from_foundation: Connect language, work, domestic practice, media, class, place, and historical pressure to observable conduct while keeping context distinct from unsupported causal explanation.
+    when_to_use: Social and cultural conditions materially shape how readers understand the person's choices, constraints, relationships, or self-presentation.
+    when_not_to_use: Context is being used to make the person representative of a group, to excuse unsupported motive claims, or to replace individualizing conduct.
+    absorbed_from_object_id: none
 ---
 
 # Portray Real People through Selective Behavioral Detail
@@ -63,3 +77,7 @@ variants: []
 
 ## Notes
 Actual people cannot be redesigned to satisfy a cleaner character arc. The writer's craft lies in selecting behavior that makes a person legible while respecting the limits of observation and memory. Specificity increases vividness and ethical risk at the same time: the more memorable an idiosyncrasy becomes, the more carefully the writer must ask whether it reveals a human being or merely fixes them in the narrator's most convenient interpretation.
+
+`writing_creative_nonfiction_variant_render_fleeting_person_through_bounded_partiality` gives a minor real person enough dimensionality to matter without pretending to know a whole life. Establish the narrator's angle of access, pair a bounded habitual impression with one active incident, and let the person leave the frame before the partial evidence hardens into a total judgment.
+
+`writing_creative_nonfiction_variant_situate_person_through_culture_and_milieu` places conduct inside the social conditions that make it intelligible. Use specific language, labor, household practice, media, class, place, or historical pressure when it changes the available choices or relations, but distinguish what the context demonstrates from what the narrator merely infers about cause or identity.

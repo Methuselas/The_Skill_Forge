@@ -7,6 +7,7 @@
 - [Audit a Diary across Entry, Revision, and Publication Layers](DRILL_audit_a_diary_across_entry_revision_and_publication_layers.md) - drill; 3 rough. Tags: audience, creative_nonfiction, diary, editorial_layers, revision.
 - [Audit Life-Writing Motives and Reader Promises](DRILL_audit_life_writing_motives_and_reader_promises.md) - drill; 0 design. Tags: creative_nonfiction, life_writing, motive, reader_promise, selection.
 - [Audition Fragmented, Connected, and Through-Line Orders](DRILL_audition_fragmented_connected_and_through_line_orders.md) - drill; 1 skeleton. Tags: chronology, creative_nonfiction, fragmentation, life_writing, structure, through_line.
+- [Balance Emotional Regard with Particular Character Evidence](DRILL_balance_emotional_regard_with_particular_character_evidence.md) - drill; 3 rough. Tags: character, creative_nonfiction, emotion, evidence, revision.
 - [Build an Attributed Documentary Montage without Faking Voices](DRILL_build_an_attributed_documentary_montage_without_faking_voices.md) - drill; 2 block. Tags: attribution, creative_nonfiction, documentary, montage, testimony.
 - [Compare Access and Distance across Two Biographical Subjects](DRILL_compare_access_and_distance_across_two_biographical_subjects.md) - drill; 1 skeleton. Tags: access, biography, creative_nonfiction, distance, research.
 - [Compare Associative and Narrative Recall of One Event](DRILL_compare_associative_and_narrative_recall_of_one_event.md) - drill; 1 skeleton. Tags: association, causality, creative_nonfiction, life_writing, memory, narrative.

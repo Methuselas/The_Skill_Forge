@@ -25,6 +25,8 @@ cross_links:
     target_object_id: writing_calibrate_context_to_audience_and_venue
   - rel: related_to
     target_object_id: writing_creative_nonfiction_interrogate_memory_before_claiming_precision
+  - rel: related_to
+    target_object_id: writing_creative_nonfiction_choose_structure_from_discovered_connections
 reference:
   source_title: "Creative Writing: A Workbook with Readings"
   author: Linda Anderson
@@ -73,3 +75,5 @@ Choose one entry you are entitled to use. Preserve an untouched copy and record 
 
 ## Notes
 Diary form creates a powerful present-tense relationship among event, writer, and recipient, but a surviving diary may contain several acts of composition. The first entry selects experience; a later self may revise that selection; editors, translators, and publishers may alter what reaches readers. Separating those layers does not weaken the form. It lets intimacy, continuity, and retrospective meaning work without borrowing authority from a false appearance of untouched immediacy.
+
+Complete this evidence audit before assembling diary material into a narrative or self-portrait. Once the layers and limits are legible, route a deliberately selected entry set through `writing_creative_nonfiction_variant_build_self_portrait_from_selected_diary_entries`; structural arrangement may create meaning, but it must not erase the distinctions established here.

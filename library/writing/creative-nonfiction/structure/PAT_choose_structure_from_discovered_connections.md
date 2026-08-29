@@ -68,6 +68,13 @@ variants:
     when_to_use: A family, biographical, or historical inquiry is carried by multiple surviving traces whose relations reveal more than either strict chronology or one recurring anchor.
     when_not_to_use: The artifacts form only a decorative tour, their custody or relevance cannot be established, or the chain would imply that physical survival proves a complete or impartial history.
     absorbed_from_object_id: none
+  - variant_id: writing_creative_nonfiction_variant_build_self_portrait_from_selected_diary_entries
+    variant_name: Build a Self-Portrait from Selected Diary Entries
+    variant_basis: method_sequence
+    difference_from_foundation: Select a small set of audited entries and arrange them through chronology, recurrence, or juxtaposition so the sequence reveals a bounded self-portrait without implying that the diary is complete or untouched.
+    when_to_use: Entry-time language, recurring concerns, and changes across dated moments can reveal a situated self more precisely than continuous retrospective summary.
+    when_not_to_use: The entries have not been separated from later revision and editorial layers, or selection would falsely imply a representative record, stable identity, or inevitable development.
+    absorbed_from_object_id: none
 ---
 
 # Choose Structure from Discovered Connections
@@ -110,3 +117,5 @@ Exploratory drafting can discover an essay's connections before it discovers its
 `writing_creative_nonfiction_variant_shape_accountable_developmental_arc` organizes selected turning points around demonstrated change without treating a life as a guaranteed ascent. Track what the person could do, know, endure, or choose at each stage; retain relapses, costs, unresolved conditions, and contrary evidence when they qualify the movement. Use the arc when sequence reveals change, not to make suffering produce a lesson or to convert later outcomes into destiny.
 
 `writing_creative_nonfiction_variant_build_evidence_chain_through_artifacts_and_testimony` lets the surviving record supply a route through separated lives and periods. Begin with one trace, identify what it establishes and what it leaves open, then move to the next artifact, account, place, or memory because it answers, complicates, or reframes that question. Preserve attribution and uncertainty at every handoff. The chain creates movement through inquiry, not proof that the archive is continuous, representative, or complete.
+
+`writing_creative_nonfiction_variant_build_self_portrait_from_selected_diary_entries` begins only after the candidate entries have been audited for entry-time knowledge, later revision, editorial intervention, and audience. Choose a small set because their recurrence, contrast, or temporal movement creates an inquiry; retain dates and layer distinctions; then order them chronologically, around a changing concern, or by purposeful juxtaposition. State or imply the selection boundary honestly: an arranged sequence can reveal one situated self without standing for the whole diary or the whole person.

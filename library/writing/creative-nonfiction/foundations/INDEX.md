@@ -15,6 +15,7 @@
 - [Move Between Conversational Exploration and Formal Argument](PAT_move_between_conversational_exploration_and_formal_argument.md) - pattern; 1 skeleton. Tags: argument, creative_nonfiction, personal_essay, structure, voice.
   - Variants: `Use Conversational Exploration to Discover` (emphasis); `Use Formal Argument to Compress a Claim` (emphasis).
 - [Portray Real People through Selective Behavioral Detail](PAT_portray_real_people_through_selective_behavioral_detail.md) - pattern; 2 block. Tags: behavioral_detail, caricature, character, creative_nonfiction, real_people.
+  - Variants: `Render a Fleeting Person through Bounded Partiality` (constraint); `Situate a Person through Culture and Milieu` (context).
 - [Preserve Factual Accountability While Using Literary Craft](PAT_preserve_factual_accountability_while_using_literary_craft.md) - pattern; 0 design. Tags: creative_nonfiction, genre_contract, interpretation, literary_craft, truth.
   - Variants: `Disclose Privacy-Protecting Alterations` (constraint).
 - [Select a Candid Essay Self for the Inquiry](PAT_select_a_candid_essay_self_for_the_inquiry.md) - pattern; 2 block. Tags: candor, contradiction, creative_nonfiction, personal_essay, self_portrayal.
