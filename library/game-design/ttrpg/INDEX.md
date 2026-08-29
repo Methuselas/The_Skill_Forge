@@ -5,3 +5,4 @@
 ## Topics
 
 - [Foundations](foundations/INDEX.md) - 10 object(s).
+- [Genres](genres/INDEX.md) - 3 object(s).

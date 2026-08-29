@@ -30,6 +30,7 @@ variants: []
 - Describe the table experience in player-facing terms, such as collaborative mystery-solving, high-risk tactical combat, or character-driven drama.
 - Notice which work repeatedly draws your attention when you play or read games: rule interactions, character options, world lore, or adventure situations.
 - Let a rules-light route reduce mechanical authoring when the desired experience does not depend on detailed rules.
+- Choose a genre whose emotional range, research burden, and recurring situations you can sustain through the project.
 
 ## Don't
 - Treat a complete game as a requirement to master every design discipline at the same depth.
