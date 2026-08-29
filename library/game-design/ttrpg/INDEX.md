@@ -4,4 +4,4 @@
 
 ## Topics
 
-- [Foundations](foundations/INDEX.md) - 6 object(s).
+- [Foundations](foundations/INDEX.md) - 10 object(s).

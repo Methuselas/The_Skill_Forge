@@ -4,4 +4,4 @@
 
 ## Topics
 
-- [Ttrpg](ttrpg/INDEX.md) - 6 object(s).
+- [Ttrpg](ttrpg/INDEX.md) - 10 object(s).
