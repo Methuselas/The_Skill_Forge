@@ -6,3 +6,6 @@
 
 - [Calibrate Context to Intended Audience and Venue](PAT_calibrate_context_to_intended_audience_and_venue.md) - pattern; 0 design. Tags: accessibility, audience, circulation, context, genre, publication.
   - Variants: `Write for a High-Volume Evaluative Reader` (context).
+- [Compare Publication Outlets by Work-Specific Tradeoffs](PAT_compare_publication_outlets_by_work_specific_tradeoffs.md) - pattern; 4 final. Tags: competitions, digital_publishing, outlet_selection, print, publication.
+- [Match Finished Work to an Outlet's Actual List](PAT_match_finished_work_to_an_outlets_actual_list.md) - pattern; 4 final. Tags: audience, genre, market_research, publication, submissions.
+- [Research and Shortlist Publication Outlets](AP_research_and_shortlist_publication_outlets.md) - ap; 4 final. Tags: audience, market_research, outlet_selection, publication, submissions.
