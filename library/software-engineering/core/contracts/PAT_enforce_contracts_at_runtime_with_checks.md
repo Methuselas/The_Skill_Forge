@@ -54,7 +54,7 @@ variants:
 
 ## Pattern Rule
 **IF** a contract term cannot be enforced by the compiler yet still must hold
-**THEN** add a runtime check that tests the condition and, if it is violated, throws an error that causes an obvious, unmissable failure rather than letting the program limp on in a bad state.
+**THEN** add a runtime check that tests the condition and, if it is violated, raises a failure the program cannot continue past — a thrown error where the language has them, an assertion or an abort where it does not — rather than letting the program limp on in a bad state.
 
 ## Do
 - Place the check where the condition matters: a precondition check on inputs or required setup at the top of a function, a postcondition check on the result or resulting state before returning.
@@ -64,11 +64,14 @@ variants:
 
 ## Don't
 - Don't treat a runtime check as equal to compile-time impossibility; it only fires if a test or a user actually exercises the broken path, and an obscure untested scenario can still slip to production.
-- Don't let a thrown exception get swallowed and merely logged at a higher level where no one reads the logs — a loud failure no one notices is no protection.
+- Don't let the raised failure get swallowed and merely logged at a higher level where no one reads the logs — a loud failure no one notices is no protection.
 - Don't paper over a design smell: if you are adding lots of checks, that is a sign to eliminate the small print instead.
 
 ## Checklist
-- Does each check throw a failure loud enough that it cannot be silently ignored?
+- Does each check raise a failure loud enough that it cannot be silently ignored, by whatever
+  means the language actually provides?
+- If the check is an assertion that the shipped build compiles out, is that the intended
+  behaviour for this condition, or has the protection quietly been removed from production?
 - Is the check a precondition (before) or postcondition (after), and placed accordingly?
 - Are you adding so many checks that the real fix is removing the invalid states?
 

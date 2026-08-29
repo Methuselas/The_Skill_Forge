@@ -41,12 +41,13 @@ variants:
 
 ## Pattern Rule
 **IF** several parts of a program need to share some state
-**THEN** hold that state in instances of a class and dependency-inject the instance where needed, rather than storing it in global (static) state that every part of the program shares.
+**THEN** hold that state in a value created once per use and handed to the code that shares it — an instance of a class injected where needed, or, where the language has no classes, a structure allocated per use and passed explicitly as a parameter — rather than storing it in global (static) state that every part of the program shares.
 
 ## Do
 - Make the state instance-scoped: change a `ShoppingBasket` from static variables and functions to an instantiable class where each instance has its own distinct contents.
 - Inject the instance into exactly the classes meant to share it, so you control which code shares one basket and which uses a separate one.
 - Use separate instances to make reuse safe: one basket for normal products and one for fresh products never interfere, and each view widget shows only its own basket.
+- In a language without classes, the same shape is a structure created per use and passed as a parameter to everything that touches it — the context-parameter form that a file handle, a database connection, or a library base already takes. What matters is not the construct but that the state is created per use and reaches the code by being handed to it. A global reachable by name fails that test whatever the language, and passing a pointer to a single global one passes the syntax and fails the intent.
 
 ## Don't
 - Don't put shared state in a global variable to make it convenient to reach; two features using the same global basket silently pollute each other's contents.
