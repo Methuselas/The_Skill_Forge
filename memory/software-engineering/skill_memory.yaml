@@ -531,3 +531,76 @@ entries:
   - agent code style
   - does the library change the code
   last_verified: '2026-08-28'
+- id: SE_MEM_009
+  scope_type: topic
+  scope_id: assuming_code_is_written_the_way_you_would_write_it
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: >
+    Four times across two days the runtime searched a codebase for a construct, received a
+    confident count, and reported it, when the search had been written against the form the
+    runtime would have used rather than the form the corpus uses. A pattern requiring a
+    closing brace and the keyword on one line returned four instances where the correct
+    pattern returns one thousand three hundred and seventy four. A pattern for a loop exit
+    returned two thousand seven hundred and nineteen, nearly all of them belonging to switch
+    statements rather than loops. A pattern for a bounding call missed every instance because
+    the corpus spells it with an explicit template argument. A count restricted to
+    implementation files sampled under a tenth of a corpus that keeps its logic in headers,
+    and produced the opposite conclusion to the truth. In every case the wrong search returned
+    a plausible number rather than an error, and in every case the error surfaced only because
+    something unrelated contradicted it.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      The default assumption is convergence - that unfamiliar code is written the way this
+      runtime would write it - and that assumption is close to always wrong for human code.
+      A long-lived multi-author codebase is a sediment of conventions from different people
+      across decades, so its brace style, its macro names, its ownership idioms and its
+      spelling of standard calls are all things to be discovered rather than predicted.
+      The operational consequence is an ordering error: the runtime guesses the convention,
+      writes a precise search, and trusts the count. The correct order is to search loosely
+      for something that must be present, read what comes back to learn the house style, and
+      only then write the precise pattern. A useful tell runs the other way - code that looks
+      uniformly like what this runtime would produce is evidence of agent authorship rather
+      than evidence of a good guess, because uniformity is what a single voice with no history
+      produces.
+  boundary: >
+    Four sightings in two days, all by one runtime, across three codebases - two long-lived
+    multi-author C++ game projects and one agent-written project. All four were search or
+    counting errors rather than errors in produced code, so the entry is evidenced for
+    measurement and only argued for authoring. Three of the four sightings are carried by the
+    cited events; the fourth, a bounding call missed for its template argument, occurred inside
+    an evaluation harness that was removed the same day, so it has no event and should be
+    treated as unrecorded rather than as evidence. Untested on languages with enforced formatting,
+    where the convention space is far narrower and the assumption may be safe. Untested on
+    whether the loose-then-precise ordering actually prevents it, which is the obvious next
+    probe and has not been run.
+  confidence: repeated
+  status: active
+  evidence_count: 3
+  evidence_events:
+  - SE_EV_0005
+  - SE_EV_0008
+  - SE_EV_0010
+  evidence_origin:
+  - runtime_self_audit
+  - user_feedback
+  retrieval_cues:
+  - grep
+  - search the codebase
+  - how many instances
+  - count
+  - regex
+  - pattern
+  - does this codebase use
+  - find all
+  - house style
+  - convention
+  - brace style
+  - naming convention
+  - it looks like
+  - I assume
+  - no results
+  - zero instances
+  - searching for
+  last_verified: '2026-08-29'

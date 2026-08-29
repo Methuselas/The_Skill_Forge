@@ -55,7 +55,16 @@ code asks nothing, so it does not. This barrier is the missing prompt. It govern
    signature of anything you are calling; a doc comment above a member is not the
    member. For a change to existing code, find who calls it before deciding what
    it may assume — the fact that decides whether a change is safe is routinely in
-   a different file from the one being edited.
+   a different file from the one being edited. **Assume nothing here is written
+   the way you would write it.** A long-lived codebase is sediment from many
+   people over many years: its brace style, its macro names, its ownership idioms
+   and its spelling of standard calls are all to be discovered, not predicted.
+   When searching it, go loose first and read what comes back to learn the
+   conventions, then write the precise pattern — a search written against the form
+   you expected returns a confident number rather than an error, and a wrong count
+   is indistinguishable from a right one. Code that *does* look uniformly like
+   your own output is evidence it was written by an agent, not evidence that you
+   guessed correctly.
 2. **Name what must never be false here, and how anyone would find out if it
    were.** If nothing would report it, that is the finding. A guard answers *what
    do I do when this is false*; an assertion answers *this should never be false*.
