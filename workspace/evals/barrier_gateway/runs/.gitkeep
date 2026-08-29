@@ -1,0 +1,7 @@
+Iteration 1 outputs were removed after the run. Six implementations were
+produced and graded; the grader was found unreliable and the numbers were
+never usable, so the outputs were not worth their space. What the run taught
+is in ../README.md.
+
+If iteration 2 is ever run, unit-test grade.py against hand-written fixtures
+before grading anything. There is no fixture set on disk any more.
