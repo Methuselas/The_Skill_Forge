@@ -114,3 +114,17 @@ To pick this up cold:
 The two arms must stay identical apart from their final paragraph. If a prompt is
 edited, the previous iteration's numbers are no longer comparable and the
 iteration directory should be abandoned rather than mixed.
+
+## Harness defect found on iteration 1
+
+The "you may not open `src/gateway.cpp`" rule is not sufficient. A repo-wide grep
+for a symbol echoed three lines of that file into one run's context before it
+thought to exclude the path. The run disclosed this itself, unprompted, and
+recorded it in its notes.
+
+Fix the prompt before iteration 2: ban reading the reference file **and** any
+search whose output can quote it, and require the exclusion flag on every
+tree-wide search. A run that reports such a leak should be marked
+`contaminated: true` in its grade rather than silently kept or silently dropped —
+its own claim that the leaked lines "only confirmed" existing conclusions is the
+run assessing its own contamination, which is not evidence.
