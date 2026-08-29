@@ -15,5 +15,6 @@
 - [Keep a Loop's Control Outside Its Body](PAT_keep_a_loops_control_outside_its_body.md) - pattern; 3 rough. Tags: control_flow, loops, readability, termination.
 - [Order Branches So the Common Case Is Found First](PAT_order_branches_so_the_common_case_is_found_first.md) - pattern; 3 rough. Tags: case_statements, conditionals, control_flow, readability.
 - [Put the Variation in Data Rather Than Logic](PAT_put_the_variation_in_data_rather_than_logic.md) - pattern; 2 block. Tags: control_flow, data_driven, maintainability, table_driven.
+- [Shape a Multi-Way Decision](AP_shape_a_multi_way_decision.md) - ap; 2 block. Tags: branching, complexity, control_flow, readability, table_driven.
 - [Write Boolean Expressions to Be Read, Not Decoded](PAT_write_boolean_expressions_to_be_read_not_decoded.md) - pattern; 3 rough. Tags: boolean_expressions, control_flow, evaluation_order, readability.
 - [Write the Recursive Call as a Call to Something Else](PAT_write_a_recursive_routine_by_delegation.md) - pattern; 2 block. Tags: control_flow, decomposition, recursion, working_memory.
