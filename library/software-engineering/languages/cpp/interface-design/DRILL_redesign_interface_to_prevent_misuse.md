@@ -44,7 +44,10 @@ No special setup required.
 ## Instructions
 - List the client mistakes the current signature allows: swapped month/day, and out-of-range values.
 - Introduce distinct Day, Month, and Year types so the compiler rejects wrong-kind or wrong-order arguments.
-- Constrain Month to its valid values, using predefined Month objects rather than a raw int or an enum.
+- Constrain Month to its valid values, using predefined Month objects rather than a raw int or an
+  enumeration of either kind. Try the scoped-enumeration version first and find where it stops:
+  it fixes the ordering and refuses implicit conversion to int, and an explicit cast to Month
+  still yields a Month value nobody declared.
 - Consider whether an associated factory should return a smart pointer to remove a release obligation.
 
 ## Success Check
@@ -52,7 +55,14 @@ No special setup required.
 - An invalid month value cannot be constructed.
 
 ## Common Failures
-- Using an enum for the month, which is still usable as an int, instead of a constrained type.
+- Using an unscoped enum for the month, whose enumerators leak into the surrounding scope and
+  convert implicitly to int, instead of a constrained type.
+- Stopping at a scoped enumeration and reporting the interface closed. It is a real improvement and
+  the implicit-conversion objection does not apply to it — see
+  `PAT_prefer_the_form_that_refuses_what_you_did_not_mean`, which asks for exactly this form
+  elsewhere. What it does not do is make an invalid value unconstructible, because a cast still
+  reaches one. Only a type whose constructor is private and whose valid values are the only ones
+  handed out closes that.
 - Leaving the argument order unenforced so a swap still compiles.
 
 ## Notes

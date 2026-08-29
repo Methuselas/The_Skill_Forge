@@ -67,12 +67,14 @@ variants:
 - Don't let the smallness itself be the objection. Reluctance to write a simple routine for a simple purpose is a mental block rather than a judgment, and it is the specific block that keeps this technique unused.
 - Don't extract to satisfy a size target. Some jobs really are done better in one larger routine, and shrinking routines is not a goal in itself.
 - Don't extract when the name would restate the code. A routine whose name is no more informative than the two lines inside it has added a hop and hidden nothing.
+- Don't cut where mutable state crosses the cut. Where the run of code and the run beside it both read and update the same working state — a parse mode, a nesting depth, a running position, a flag saying which branch you are inside — the split does not divide the problem, it distributes one state machine across two scopes. Each half then reads correctly on its own while the pair is wrong, which is the hardest kind of defect to see in review because there is nothing wrong with either routine. This is a different objection from the two above: the name can be excellent and the extraction still wrong.
 
 ## Checklist
 - What does this extraction hide — an order, a formula, a condition, a representation?
 - Could the name be more informative than the code it replaces?
 - Is this run of code nested deep enough that pulling it out would flatten its container?
 - Does anything else in the system depend on these operations happening in this order?
+- Do the runs of code on either side of the proposed cut read or write the same working state? The practical tell is a helper whose parameter list has to carry three or more values the caller still needs afterwards.
 - If this appears once today, would a reader still be helped by the name?
 
 ## Notes

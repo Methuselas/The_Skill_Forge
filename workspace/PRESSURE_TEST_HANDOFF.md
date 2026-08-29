@@ -40,10 +40,17 @@ makes this case an exception; or the rule is wrong. Do not assume the first.
 
 ---
 
-## The two jobs
+## The three jobs
 
-This run has two purposes and they are not the same shape. Do them in order, as
-two passes over the same code, and keep their results apart.
+This run has three purposes and they are not the same shape. Do them in order, as
+three passes over the same code, and keep their results apart.
+
+**Pass zero — review the slice with the library closed.** Before you load the
+skill, before you open `library/` or `memory/` at all. Choose your slice, read it,
+and write down every judgment you would make about it from your own knowledge:
+what is wrong, what is risky, what you would change, what you would want to know
+before changing it, and what you are uncertain about. Save that to a file. Do not
+edit it again afterwards.
 
 **Pass one — hammer the cards against the code.** Review the slice using the
 library. What fired, what should have fired and did not, what nothing names,
@@ -60,6 +67,42 @@ Pass two has to be separate and second, because a review protocol produces a
 defect list by construction. Nothing in the ordinary flow of reviewing asks what
 the code is better at than you are, so if you do not make it a deliberate second
 pass over the same material, it does not happen.
+
+### Why pass zero exists, and why it has to be written down first
+
+Every run before this one had the library open from the first step. That makes the
+whole *fired and helped* category unfalsifiable: there is no way to tell whether a
+card produced an observation or merely agreed with one you would have made anyway.
+Measured that way, the exercise reports the library's coverage and says nothing
+about its contribution.
+
+The diff between pass zero and pass one gives three things, and the third is the
+one nothing else in this protocol can produce:
+
+- **What you had without it.** The baseline. It is also the only honest input to
+  the `baseline` field in the training record.
+- **What the library added.** Observations you did not have and would not have
+  reached. This is its actual contribution, as opposed to its coverage.
+- **What you got right blind and the library then talked you out of.** A judgment
+  you made correctly from your own knowledge, which reading a card caused you to
+  drop, soften, or re-file under something that did not fit. This is the most
+  valuable finding available here and it is invisible to every other pass.
+
+That third one is why the blind file must be saved and frozen before you open
+anything. Recollection of what you thought before reading the card is not
+evidence; the file is. A session that writes pass zero from memory afterwards has
+produced nothing.
+
+Three rules for it:
+
+- **Do not go looking things up to make the baseline look better.** A thin honest
+  baseline is a better result than a padded one, because it makes the library's
+  contribution visible. Nobody is grading you; the number is the instrument.
+- **Record your uncertainties explicitly.** An uncertainty the library resolves is
+  a contribution. One it leaves standing is a gap, and it is a much sharper gap
+  report than noticing an absence in the abstract.
+- **Do not revise it.** Not to correct an error, not to add something you thought
+  of later. An error in pass zero that pass one catches *is a result*.
 
 ### The check that makes pass two worth anything
 
@@ -86,10 +129,14 @@ larger one; report both counts, because the ratio is itself a result.
 You are checking a skill library against a real codebase, and learning from that
 codebase. Work in `D:\Repos\SkillForge`.
 
-**Load the skill first.** Invoke the `software-engineering` skill and follow its
-load order. Work out from the library itself how a review of this kind should be
-conducted — that routing is part of what is being examined, so do not shortcut it
-with your own general knowledge of code review.
+**Do pass zero before you load anything.** Choose your slice, read the code, and
+write your blind judgments to a file. Only then continue.
+
+**Then load the skill.** Invoke the `software-engineering` skill and follow its
+load order, including its Skillset Memory step. Work out from the library itself
+how a review of this kind should be conducted — that routing is part of what is
+being examined, so do not shortcut it with your own general knowledge of code
+review.
 
 **Read nothing else in `workspace/`.**
 
@@ -183,6 +230,30 @@ the same material answers a different question.
    separates a defect in the guidance from a defect in reading the guidance. The
    two get fixed in completely different places.
 
+### The pass-zero diff
+
+10. **Compare your frozen blind file against what pass one produced**, and report
+    four counts with the items behind them:
+
+    - **Blind and confirmed.** You had it without the library and a card agreed.
+      Report the count. A high number here is not the library failing — it is the
+      library agreeing with competent practice, which is what you want it to do.
+      It does mean those observations are not evidence of contribution.
+    - **Library added.** You did not have it blind and a card produced it. Name
+      the object. This is the contribution number, and it is the one the exercise
+      has never measured.
+    - **Blind and lost.** You had it blind, correctly, and after reading the
+      library you dropped it, softened it, or filed it under an object that did
+      not fit. For each, name the card involved and say what pulled you off it.
+      Treat a zero here with suspicion — it more often means the diff was done
+      from memory than that it never happened.
+    - **Blind and wrong.** You asserted it blind and the library corrected you.
+      Say what the misconception was, not just that it was corrected.
+
+    Quote the blind file rather than paraphrasing it. If you find yourself wanting
+    to explain what you *meant* in pass zero, that is the finding — write down that
+    the blind statement was ambiguous and move on.
+
 ### Then, on the experience of using the library
 
 - Where did you fall back on your own knowledge because the library offered
@@ -200,7 +271,7 @@ Write the report out in full — only what you report is seen.
 
 ```
 workspace/sources/Cpp/extracted/DevilutionX-master     ( 31 MB)   DONE — do not re-run
-workspace/sources/Cpp/extracted/warzone2100-master     ( 75 MB)
+workspace/sources/Cpp/extracted/warzone2100-master     ( 75 MB)   DONE — do not re-run
 workspace/sources/Cpp/extracted/freeorion-master       (202 MB)
 workspace/sources/Cpp/extracted/endless-sky-master     (408 MB)
 workspace/sources/Cpp/extracted/wesnoth-master         (1.2 GB)
@@ -214,8 +285,14 @@ These are working trees, not archives. Explore with the ordinary tools —
 subject matter to be genuinely independent samples, and a session that has read
 one is no longer cold for another.
 
-Order does not matter among the remaining five. Note in each report which
-codebase it was.
+Order does not matter much among the remaining four, with two exceptions worth
+respecting. Leave GemRB until last: like DevilutionX it is a reimplementation
+constrained by a predecessor's observable behaviour, so the two are the weakest
+pair in the set for independence and agreement between them alone proves less than
+it looks. And let at least the next two sessions choose their own slice freely
+rather than being aimed at a named region — free choice is what tests routing, and
+it is the only configuration in which a candidate can be independently
+rediscovered. Note in each report which codebase it was.
 
 ---
 

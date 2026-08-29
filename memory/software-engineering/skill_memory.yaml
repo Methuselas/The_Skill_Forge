@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: software-engineering
-memory_version: 3
+memory_version: 4
 entries:
 - id: SE_MEM_001
   scope_type: topic
@@ -24,7 +24,14 @@ entries:
     precisely enough for a caller to tell whether they satisfy it, was the part the code
     failed and the part not read. Separately an option list of three enforcement mechanisms
     was run to completion and one was selected, when the correct answer was that none
-    applied: the list presupposes a validation boundary and the code had none.
+    applied: the list presupposes a validation boundary and the code had none. Seen a third
+    time on a different codebase, and in the opposite direction: a Pattern opening with a
+    flat prohibition on a language facility was read as prohibiting a deliberate and correct
+    use of it, and the ELSE clause exempting precisely that use - by naming the conditions
+    under which the packed representation is the right choice - was reached only on a second
+    reading. The near-miss was a false positive rather than a false clear. So the clause
+    that says when a rule does not apply is misread in both directions: skipped, it invents
+    defects; over-trusted, it excuses them.
   diagnosis:
     failure_layer: application
     hypothesis: >
@@ -34,19 +41,23 @@ entries:
       a correct rule silently narrows - and the reader has no signal that a clause is
       approximate rather than exhaustive.
   boundary: >
-    Observed twice, in two runs over the same large codebase, against four Patterns in
-    total - two in the C++ package and two in core. The offending clauses were repaired in
-    canon after each run, so this entry is about the reading habit that nearly missed them
-    rather than about those cards. Both sightings came from the same reviewer reading the
-    same library, so this is repeated behaviour and not yet a cross-reader result. Still
-    untested on APs and on Drills, and untested on whether reading the card body in full
-    prevents it or merely caught it these two times.
+    Observed three times, in three runs across two unrelated codebases, against five
+    Patterns in total - two in the C++ package and three in core. The offending clauses were
+    repaired in canon after the first two runs; the third sighting was a clause that turned
+    out to be correct as written, so this entry is about the reading habit rather than about
+    any of those cards. All three sightings came from the same reviewer reading the same
+    library, so this is repeated behaviour and not yet a cross-reader result. The failure is
+    now confirmed in both directions - a skipped clause over-reports, an over-trusted clause
+    under-reports - which the first two sightings did not establish. Still untested on APs
+    and on Drills, and untested on whether reading the card body in full prevents it or
+    merely caught it these three times.
   confidence: repeated
   status: active
-  evidence_count: 2
+  evidence_count: 3
   evidence_events:
   - SE_EV_0001
   - SE_EV_0002
+  - SE_EV_0003
   evidence_origin:
   - runtime_self_audit
   retrieval_cues:
@@ -61,6 +72,18 @@ entries:
   - when not to use
   - assertion that compiles out
   - the rule does not apply here
+  - the card says do not use this
+  - prohibition with an exemption
+  - reading only the pattern rule
+  - applying a pattern
+  - does this rule apply
+  - does this apply here
+  - this case is different
+  - special case
+  - edge case
+  - guideline
+  - best practice
+  - is this an exception
   last_verified: '2026-08-28'
 - id: SE_MEM_002
   scope_type: topic
@@ -98,10 +121,22 @@ entries:
   - PAT_settle_one_error_handling_strategy_systemwide
   retrieval_cues:
   - inconsistent style
+  - inconsistent
+  - inconsistency
   - two error mechanisms
+  - two different ways
   - unify the inconsistency
+  - unify
+  - make it consistent
+  - mixed conventions
+  - cleanup
+  - tidy up
+  - this looks wrong
   - legacy interface
   - external ABI
+  - wire protocol
+  - file format
+  - layer boundary
   - reviewing unfamiliar code
   last_verified: '2026-08-27'
 - id: SE_MEM_003
@@ -121,10 +156,14 @@ entries:
     adoption pass an explicit instruction and required every named technique to arrive with
     the object id that owns it, or with a statement of what was searched and not found.
     That run reported eleven techniques owned against six with no owner, on a slice
-    deliberately aimed at regions the first run had left untouched. So the pass does return
-    material the protocol does not, the yield improves when the slice is aimed at thin
-    regions rather than chosen freely, and the majority of what it returns is still
-    recognition of canon already held.
+    deliberately aimed at regions the first run had left untouched. A third run, the first
+    on an unrelated codebase and on a freely chosen slice, reported eleven owned against two
+    with no owner, and separately three cards judged right in direction but coarser than the
+    practice - a category the first two runs did not produce at all. So the pass does return
+    material the protocol does not; the unowned yield rises when the slice is aimed at thin
+    regions and falls when it is chosen freely; the majority of what it returns is still
+    recognition of canon already held; and a second kind of return exists beyond owned and
+    unowned, being cards the code shows to be stated too coarsely.
   diagnosis:
     failure_layer: orchestration
     hypothesis: >
@@ -134,18 +173,21 @@ entries:
       pass suggests the yield is mostly recognition of canon already held rather than new
       canon - which is worth knowing before adding a step that costs a pass.
   boundary: >
-    Verified twice, both times on the same large well-maintained codebase, in two disjoint
-    subsystems. Not verified on code of poorer quality, where the boundary may not matter.
-    Whether a second pass yields anything a first pass would not is now answered yes and
-    quantified twice. What remains unverified is whether the same yield could be had inside
-    one pass, and whether the owned-to-unowned ratio holds on a codebase whose house style
-    differs from this one.
+    Verified three times: twice on one large well-maintained codebase in two disjoint
+    subsystems, once on an unrelated one of similar quality and different house style. Not
+    verified on code of poorer quality, where the boundary may not matter. Whether a second
+    pass yields anything a first pass would not is answered yes and quantified three times.
+    The owned-to-unowned ratio does not hold steady across those runs and should not be
+    treated as a constant - it appears to track how the slice was chosen more than how the
+    codebase is written, which is the opposite of what the second run's boundary anticipated.
+    What remains unverified is whether the same yield could be had inside one pass.
   confidence: repeated
   status: active
-  evidence_count: 2
+  evidence_count: 3
   evidence_events:
   - SE_EV_0001
   - SE_EV_0002
+  - SE_EV_0003
   evidence_origin:
   - runtime_self_audit
   - user_feedback
@@ -153,6 +195,8 @@ entries:
   - AP_review_code_you_did_not_write
   retrieval_cues:
   - reviewing code you did not write
+  - code review
+  - review this code
   - what does this code do well
   - learn from a codebase
   - adopt a technique
@@ -184,18 +228,24 @@ entries:
       is silent in both directions - the rule can appear violated when it is satisfied, or
       satisfied when it is violated.
   boundary: >
-    Observed once, on a compilation-context rule applied to a benchmark. SE_MEM_002 in
+    Observed twice, on two codebases: once on a compilation-context rule applied to a
+    benchmark, once on an AP branch asking whether a component should exist. SE_MEM_002 in
     this file records the same shape a run earlier, on an error-signalling inconsistency
-    whose deciding fact was a layer boundary; the two share a hypothesis and not an
-    observation. Untested on rules about lifetime, ownership, and thread confinement,
-    where the deciding fact is also routinely outside the reviewed file.
-  confidence: provisional
+    whose deciding fact was a layer boundary; the three share a hypothesis and not an
+    observation. The second sighting widens the entry from rules about how code is built to
+    any judgement whose deciding fact lives at the call sites, which is the larger class.
+    Untested on rules about lifetime, ownership, and thread confinement, where the deciding
+    fact is also routinely outside the reviewed file.
+  confidence: repeated
   status: active
-  evidence_count: 1
+  evidence_count: 2
   evidence_events:
   - SE_EV_0002
+  - SE_EV_0003
   evidence_origin:
   - runtime_self_audit
+  likely_owners:
+  - AP_review_code_you_did_not_write
   retrieval_cues:
   - how is this compiled
   - inline
@@ -204,6 +254,19 @@ entries:
   - the rule applies here
   - judging compliance
   - reviewing one file
+  - should this exist at all
+  - hand-rolled version of a standard component
+  - reinventing the standard library
+  - stop reviewing the internals
+  - is this correct
+  - this looks wrong
+  - why is this here
+  - who calls this
+  - call site
+  - callers
+  - looking at one file
+  - delete this
+  - replace this with
   last_verified: '2026-08-28'
 - id: SE_MEM_005
   scope_type: topic
@@ -219,7 +282,13 @@ entries:
     one of the three was caught by reading the owning card in full before editing, and
     none was caught by the reasoning that produced the report. In the second run the two
     unverified reports were the two cards the report itself had flagged as consulted by
-    index entry rather than read.
+    index entry rather than read. A third run, on an unrelated codebase, reported four and
+    three survived. The one that failed was again the single card in the set that had been
+    consulted by its Pattern Rule alone rather than read in full, so the association held on
+    every instance across three runs. Its failure mode was new: the report claimed the card
+    offered no option for a case, when the card's Do and Don't together already described
+    that option - the missing piece was in the body the reviewer had not opened, which is
+    the same place the previous misreports came from.
   diagnosis:
     failure_layer: application
     hypothesis: >
@@ -230,18 +299,22 @@ entries:
       full separates them, and the correlation between not reading a card and misreporting
       it held on every instance so far.
   boundary: >
-    Eight reports across two runs on one codebase, by one reviewer against one library.
+    Twelve reports across three runs on two codebases, by one reviewer against one library.
     The survival rate is not a stable figure and should not be treated as one. What is
     verified is the direction - reported defects over-count - and that full reading of the
-    owning card is what separated the two kinds. Untested on reports of missing cards
-    rather than defective ones, and untested on whether a reviewer who reads every
-    candidate owner in full still over-reports.
+    owning card is what separated the two kinds on all twelve. The correlation between
+    having read a card only in summary and misreporting it has now held on four of four
+    failures, which is strong enough to act on as a rule: do not report a card defective
+    without reading its body. Untested on reports of missing cards rather than defective
+    ones, and untested on whether a reviewer who reads every candidate owner in full still
+    over-reports.
   confidence: repeated
   status: active
-  evidence_count: 2
+  evidence_count: 3
   evidence_events:
   - SE_EV_0001
   - SE_EV_0002
+  - SE_EV_0003
   evidence_origin:
   - runtime_self_audit
   - user_feedback
@@ -252,4 +325,201 @@ entries:
   - before editing a card
   - the rule is too narrow
   - report a card defect
+  - the card offers no option for
+  - fixing a card
+  - the guideline is wrong
+  - editing guidance
+  last_verified: '2026-08-28'
+- id: SE_MEM_006
+  scope_type: topic
+  scope_id: reporting_that_no_card_owns_a_situation
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: >
+    Reviewing a codebase against the library and asked to report both what fired and what
+    nothing owned, the runtime twice moved to file an unowned observation under a card whose
+    subject was adjacent but different, and in each case the attribution would have been
+    accepted by a later reader. A control construct that claimed more control flow than the
+    code performed was about to be filed under a card on nesting depth, which its one level
+    of nesting did not engage. A design choice a card could neither condemn nor certify was
+    about to be filed as that card disapproving of it, on the strength of the card's silence.
+    Both were caught only by asking what the candidate card's subject actually was, rather
+    than whether the observation could be made to sit under it. An observation with a card
+    attached reads as a stronger finding than one without, so the pull is toward attributing;
+    every forced attribution converts a gap report into a finding and leaves the gap
+    unrecorded, which is the more expensive of the two errors because a missing card leaves
+    no trace anywhere else.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      Reporting that nothing owns a situation feels like a weaker claim than naming an
+      owner, and it is also more work, because it has to be backed by saying what was
+      searched. The library is large enough that some card is nearly always close enough to
+      cite, and closeness is judged by whether the observation can be phrased in the card's
+      vocabulary rather than by whether the card's subject is the thing observed. The check
+      that separates them - state the candidate's subject in one sentence without mentioning
+      this code, then ask whether the observation is an instance of that - is cheap and was
+      not part of the reviewer's default sequence.
+  boundary: >
+    Observed twice within one run on one codebase, on a readability observation and a design
+    observation, both against core Patterns. Caught before reporting on both occasions, so
+    what is recorded is the pull rather than a delivered error. The inverse of SE_MEM_005,
+    which records the same reviewer over-reporting defects in cards that were reached; this
+    entry records under-reporting gaps in regions no card covers, and the two have not been
+    seen in the same region. Untested against APs and Drills, untested on whether a reviewer
+    not explicitly asked for unowned situations reports them at all, and untested on whether
+    the one-sentence subject check actually prevents it.
+  confidence: provisional
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - SE_EV_0003
+  evidence_origin:
+  - runtime_self_audit
+  retrieval_cues:
+  - nothing names it
+  - no card owns this
+  - closest card
+  - this is covered by
+  - adjacent card
+  - the library is silent
+  - reporting a gap
+  - what did you search for
+  last_verified: '2026-08-28'
+- id: SE_MEM_007
+  scope_type: topic
+  scope_id: bounding_a_guarantee_by_what_the_inputs_do
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: >
+    Asked to make a function exception-safe and offer the strongest practical guarantee, the
+    runtime produced every structural remedy correctly - an RAII lock guard with copying
+    suppressed, a smart-pointer member reset after the new resource is built, the counter
+    incremented only after the operation that can throw, and a pimpl copy-and-swap for the
+    strong guarantee. It also stated the correct general principle unprompted: a side effect
+    that cannot be undone caps the guarantee at basic, and a function is only as exception-safe
+    as the least safe function it calls. It then illustrated that principle with invented
+    examples - a file written, another system notified - while the actual uncancellable side
+    effect sat in the parameter list of the function under analysis, an input stream whose read
+    position advances as the constructor consumes it and cannot be rewound after a throw. The
+    function signature had been written out three times. What was scanned for rollback-ability
+    was the object's own member state; the parameters were not scanned at all.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      Exception-safety work presents as a question about the object being modified, because the
+      remedies all operate on member state - reorder the members, wrap them, copy and swap them.
+      That framing makes the members the search space and quietly excludes everything the
+      function merely touches. An argument arriving by reference is state the function mutates
+      just as surely as a member, and it is the one kind of state none of the structural
+      remedies can restore. Knowing the principle is evidently not sufficient to run the search:
+      the principle was stated correctly in the same answer that missed its instance.
+  boundary: >
+    Observed once, on a drill administered blind - the task was read, the answer written to a
+    file, and only then the success criteria opened. Untested on real code rather than a drill,
+    where a signature is longer and the offending parameter is less prominent, and untested on
+    the other direction of the same search, where a function returns or stores a reference whose
+    validity the guarantee depends on. Whether stating the principle first and then enumerating
+    parameters against it prevents the miss is the obvious next probe and has not been run.
+  confidence: provisional
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - SE_EV_0004
+  evidence_origin:
+  - runtime_self_audit
+  likely_owners:
+  - AP_make_a_function_exception_safe
+  - DRILL_make_a_function_exception_safe
+  retrieval_cues:
+  - exception safe
+  - exception safety
+  - strong guarantee
+  - basic guarantee
+  - nothrow
+  - rollback
+  - roll back
+  - can this be undone
+  - side effect
+  - what if this throws
+  - copy and swap
+  - RAII
+  - stream
+  - istream
+  - file handle
+  - parameters
+  - arguments
+  - by reference
+  - transaction
+  - partial failure
+  last_verified: '2026-08-28'
+- id: SE_MEM_008
+  scope_type: topic
+  scope_id: checking_invariants_at_runtime
+  type: known_boundary
+  evidence_class: stochastic_performance
+  observation: >
+    Five C++ corpora were measured for assertion density, comment density and
+    discard-warning usage: two human-written from a 2001 commercial game, one agent-written
+    layer inside that same repository, and two agent-written subsystems from a separate
+    project. The human corpora carry 5.0 and 6.0 assertions per thousand code lines. The
+    agent layer beside them carries 9.8 - roughly twice the human rate. The two subsystems
+    in the other project carry zero, across sixty-five thousand lines, with no assertion
+    macro defined or used anywhere and the standard assert header never included. Comment
+    density spans 0.033 to 0.596 across the five, and the two agent projects sit at opposite
+    ends of that range. On every metric measured, the gap between the two agent-written
+    projects is larger than the gap between agent and human code. There is no single agent
+    signature in this data.
+  diagnosis:
+    failure_layer: knowledge
+    hypothesis: >
+      What varies is not the writer but the guidance the project was written against. The
+      project with zero assertions was built against an earlier library generation whose
+      invariant object stated a correct rule above a body shared verbatim with 189 other
+      objects and naming no mechanism at all - no runtime check, no debug-build loudness.
+      That library held 261 distinct guidance bullets across 325 objects; the current one
+      holds 6,192 across 500 with no prose bullet repeated in ten or more files. If the
+      hypothesis holds, guidance density is not a quality-of-writing matter but the thing
+      that decides whether a mechanism appears in produced code at all, and that is a claim
+      about the library rather than about the runtime.
+  boundary: >
+    Two agent projects and one human project, so two samples of the thing that matters and
+    no control over domain, agent mix, calendar time, UI framework, or which guidance each
+    project used - the last of which is the proposed cause and is confounded with everything
+    else. The zero-assertion project is simultaneously the highest scorer on compile-time
+    discard warnings of any corpus measured, so it is not uniformly weaker; it pushed
+    enforcement to compile time and has none at run time. Counts come from regular
+    expressions, not a parser. An earlier pass of this same measurement reached the opposite
+    conclusion by counting implementation files only, which sampled under a tenth of the
+    agent renderer, so any re-measurement must include headers. Untested outside C++, and
+    untested against a corpus written under the current library, which is the sample that
+    would actually test the hypothesis.
+  confidence: provisional
+  status: monitoring
+  evidence_count: 1
+  evidence_events:
+  - SE_EV_0005
+  evidence_origin:
+  - runtime_self_audit
+  likely_owners:
+  - PAT_enforce_contracts_at_runtime_with_loud_checks
+  - PAT_make_the_development_build_fail_louder_than_production
+  - PAT_fail_fast_near_error_source
+  retrieval_cues:
+  - assert
+  - assertion
+  - invariant
+  - precondition
+  - this should never happen
+  - cannot happen
+  - assumption
+  - sanity check
+  - guard clause
+  - defensive
+  - debug build
+  - writing a class
+  - constructor
+  - how would I know if
+  - agent code style
+  - does the library change the code
   last_verified: '2026-08-28'
