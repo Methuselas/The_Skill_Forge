@@ -21,7 +21,7 @@ tags:
 cross_links:
   - rel: related_to
     target_object_id: writing_generate_relevant_options_with_goal_directed_brainstorming
-  - rel: related_to
+  - rel: foundation_of
     target_object_id: writing_poetry_use_title_as_active_frame
 reference:
   source_title: Creative Writing Exercises For Dummies

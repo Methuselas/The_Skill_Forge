@@ -8,6 +8,7 @@
   - Variants: `Write for a High-Volume Evaluative Reader` (context).
 - [Compare Publication Outlets by Work-Specific Tradeoffs](PAT_compare_publication_outlets_by_work_specific_tradeoffs.md) - pattern; 4 final. Tags: competitions, digital_publishing, outlet_selection, print, publication.
 - [Conform a Manuscript to the Receiver's Current Requirements](PAT_conform_manuscript_to_receiver_current_requirements.md) - pattern; 4 final. Tags: formatting, manuscript, presentation, readability, submissions.
+- [Decide Whether and How to Seek Literary Representation](PAT_decide_whether_and_how_to_seek_literary_representation.md) - pattern; 4 final. Tags: literary_agents, publication, representation, rights, submissions.
 - [Match Finished Work to an Outlet's Actual List](PAT_match_finished_work_to_an_outlets_actual_list.md) - pattern; 4 final. Tags: audience, genre, market_research, publication, submissions.
 - [Prepare and Send a Creative-Writing Submission Package](AP_prepare_and_send_creative_writing_submission_package.md) - ap; 4 final. Tags: manuscript, proposal, publication, query_letter, submissions.
 - [Research and Shortlist Publication Outlets](AP_research_and_shortlist_publication_outlets.md) - ap; 4 final. Tags: audience, market_research, outlet_selection, publication, submissions.
