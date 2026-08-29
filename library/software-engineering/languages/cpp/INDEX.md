@@ -47,7 +47,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Algorithms](algorithms/INDEX.md) - 10 object(s).
 - [Casting](casting/INDEX.md) - 3 object(s).
 - [Compilation Dependencies](compilation-dependencies/INDEX.md) - 2 object(s).
-- [Concurrency](concurrency/INDEX.md) - 22 object(s).
+- [Concurrency](concurrency/INDEX.md) - 23 object(s).
 - [Const Correctness](const-correctness/INDEX.md) - 7 object(s).
 - [Construction](construction/INDEX.md) - 3 object(s).
 - [Containers](containers/INDEX.md) - 16 object(s).
