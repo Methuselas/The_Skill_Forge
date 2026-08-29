@@ -55,6 +55,13 @@ variants:
     when_to_use: Drafting reveals a more consequential event, relation, or turn than the outline anticipated, or the planned sequence blocks movement toward the emerging story.
     when_not_to_use: The structure already carries the discovered material and the difficulty is local execution rather than global design.
     absorbed_from_object_id: none
+  - variant_id: writing_variant_use_late_draft_meaning_sentence_as_revision_filter
+    variant_name: Use a Late-Draft Meaning Sentence as a Revision Filter
+    variant_basis: method_sequence
+    difference_from_foundation: After several drafts have exposed the work's underlying movement, state that current meaning in one working sentence and use it to test selection, omission, sequence, and proportion without requiring every passage to state the sentence directly.
+    when_to_use: A substantial late draft feels nearly complete but its governing subject or pressure remains difficult to name, making consequential revision choices inconsistent.
+    when_not_to_use: The work is still discovering what it means, its productive ambiguity cannot be reduced honestly to one sentence, or the sentence would become a thesis imposed on every image and turn.
+    absorbed_from_object_id: none
 ---
 
 # Revise the Whole Draft Toward Its Intended Form
@@ -90,3 +97,5 @@ Experienced writers approach redrafting holistically and recursively. Discovery 
 `writing_poetry_variant_audition_alternate_form_for_same_material` diagnoses a form-content mismatch by giving the same material a different inherited pressure. Compare what each version discovers, distorts, or leaves inert; keep the form that propels the poem rather than the one that merely preserves prior effort. Use the existing free-verse recast when the evidence points away from prescribed structure altogether.
 
 `writing_fiction_variant_redesign_structure_after_draft_discovery` treats an outline as a working route rather than a contract. Use the completed first draft to locate the story's true center, then knock down structural walls by changing where the narrative begins, which events cause later ones, how time is arranged, or where the ending falls. Do not invoke a global redesign when the sequence remains sound and only a scene, transition, or sentence needs repair.
+
+`writing_variant_use_late_draft_meaning_sentence_as_revision_filter` turns a mature but still diffuse draft's current underlying movement into a working window for revision. Write the sentence only after repeated drafting has produced enough evidence, then ask which sections sharpen, complicate, or distract from that movement and whether their proportions agree with their importance. Revise the sentence when the work disproves it; release the method when one statement would flatten deliberate multiplicity or close discovery that is still active.

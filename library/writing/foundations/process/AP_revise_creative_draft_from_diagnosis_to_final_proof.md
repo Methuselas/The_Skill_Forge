@@ -36,6 +36,10 @@ cross_links:
     target_object_id: writing_separate_revision_from_editing_and_proofreading
   - rel: supports
     target_object_id: writing_make_nonstandard_language_deliberate
+  - rel: related_to
+    target_object_id: writing_drill_cut_a_narrative_by_half_without_flattening_it
+  - rel: related_to
+    target_object_id: writing_drill_map_repetition_by_scale_placement_and_effect
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -58,6 +62,8 @@ Take an existing creative draft through recursive reconsideration, evidence gath
    - If reader experience is uncertain and the piece is suitable for circulation, activate `writing_receive_workshop_feedback_without_defending_draft`, preserve the unprompted responses, and return with the marked evidence.
    - If comments conflict or their standards are unclear, activate `writing_weight_feedback_by_criteria_and_experience`; accept, adapt, or decline advice according to the work's goal rather than the force of the speaker.
    - If the piece is deliberately private, do not force it into workshop. Use distance or read-aloud evidence and preserve the private audience decision.
+   - If excess makes the narrative's indispensable material difficult to identify, preserve the current version and run `writing_drill_cut_a_narrative_by_half_without_flattening_it`; use the comparison as evidence, then return to whole-draft diagnosis rather than accepting the shorter version automatically.
+   - If repetition is being retained or removed by frequency alone, run `writing_drill_map_repetition_by_scale_placement_and_effect`; return with a scale-and-placement account of what each recurrence contributes.
 5. **Make high-consequence changes first.** Reconceive, cut, expand, reorder, or rebuild the global elements identified in diagnosis before polishing passages that those changes may remove. Preserve the intended effect, audience decision, and strongest serving material as invariants. After each substantial change, reread enough of the whole to test its consequences.
 6. **Recover recursively.** If a change introduces a new structural mismatch, destroys a required effect, or reveals that the target itself was wrong, return to step 1 or 3 as appropriate. If no available perspective exposes the problem clearly, return to step 4 rather than making arbitrary local changes. Continue until the global checklist of `writing_revise_whole_draft_toward_intended_form` passes.
 7. **Cross the editing gate deliberately.** Activate `writing_separate_revision_from_editing_and_proofreading`. Advance only when conception, content, and form are stable enough that sentence-level corrections are unlikely to be discarded by another large change. If editing exposes a global defect, reopen step 3 instead of hiding it with polish.

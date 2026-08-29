@@ -8,6 +8,7 @@
 - [Collect Fragments Before Demanding a Complete Draft](PAT_collect_fragments_before_demanding_complete_draft.md) - pattern; 0 design. Tags: creative_writing, fragments, invention, journal, memory, observation.
   - Variants: `Reconstruct Autobiographical Moments Across Time and Witnesses` (method_sequence).
 - [Conduct Prepared and Responsive Interviews](PAT_conduct_prepared_and_responsive_interviews.md) - pattern; 0 design. Tags: interview, profile, reporting, research, writing.
+- [Cut a Narrative by Half without Flattening It](DRILL_cut_a_narrative_by_half_without_flattening_it.md) - drill; 3 rough. Tags: compression, creative_writing, deliberate_practice, narrative, revision.
 - [Defamiliarize a Familiar Place through Recall and Reobservation](DRILL_defamiliarize_a_familiar_place_through_recall_and_reobservation.md) - drill; 0 design. Tags: creative_writing, defamiliarization, deliberate_practice, observation, sensory_detail.
 - [Dramatize a Bounded Memory without Faking Certainty](DRILL_dramatize_a_bounded_memory_without_faking_certainty.md) - drill; 1 skeleton. Tags: creative_writing, memory, scene, truth_contract, uncertainty.
 - [Freewrite to Discover What the Draft Is About](PAT_freewrite_to_discover_what_the_draft_is_about.md) - pattern; 0 design. Tags: association, creative_writing, discovery, drafting, freewriting.

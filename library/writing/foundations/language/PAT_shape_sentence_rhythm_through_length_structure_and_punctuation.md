@@ -17,6 +17,8 @@ cross_links:
     target_object_id: writing_read_draft_aloud_to_defamiliarize_it
   - rel: related_to
     target_object_id: writing_choose_diction_to_serve_purpose_and_tone
+  - rel: related_to
+    target_object_id: writing_drill_map_repetition_by_scale_placement_and_effect
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -38,6 +40,7 @@ variants: []
 - Treat commas, dashes, semicolons, colons, and stops as timing decisions as well as grammatical marks; compare how each changes suspension and release.
 - Use a fragment when its incompleteness creates a controlled break, echo, or pressure that a complete sentence would smooth away.
 - Repeat a construction deliberately when recurrence should accumulate force, establish a refrain, or make variation against the pattern meaningful.
+- Before deleting repetition, distinguish ordinary grammatical recurrence from chosen words and constructions, then inspect clustering, interruption, and terminal placement for effects a frequency count would miss.
 
 ## Don't
 - Alternate long and short sentences mechanically without regard to what each sentence is doing.
@@ -54,3 +57,5 @@ variants: []
 
 ## Notes
 Rhythm arises from the time a sentence asks the reader to inhabit: how long it postpones completion, how clauses balance or resist one another, where breath and emphasis fall, and whether a pattern repeats or breaks. Oral reading is the diagnostic route owned by `writing_read_draft_aloud_to_defamiliarize_it`; the decisions here interpret what that test reveals and change the sentence-level movement rather than merely flagging awkwardness.
+
+When recurrence is difficult to judge, `writing_drill_map_repetition_by_scale_placement_and_effect` separates grammatical, lexical, syntactic, and thematic patterns and compares them against a variation-heavy rewrite. Retain exactness when accumulated context or placement performs the intended pressure; vary it when recurrence only makes the prose mannered or indistinct.
