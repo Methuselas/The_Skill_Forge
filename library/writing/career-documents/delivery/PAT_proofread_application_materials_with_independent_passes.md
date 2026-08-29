@@ -11,7 +11,7 @@ lane_fit: skill
 foundation_role: specialization
 routing_class: specialized
 specialization_axis: genre
-foundation_object_id: none
+foundation_object_id: writing_proofread_stable_draft_through_independent_passes
 tags:
   - job_applications
   - proofreading

@@ -36,6 +36,10 @@ cross_links:
     target_object_id: writing_separate_revision_from_editing_and_proofreading
   - rel: supports
     target_object_id: writing_make_nonstandard_language_deliberate
+  - rel: supports
+    target_object_id: writing_proofread_stable_draft_through_independent_passes
+  - rel: supports
+    target_object_id: writing_make_proof_corrections_unambiguous
   - rel: related_to
     target_object_id: writing_drill_cut_a_narrative_by_half_without_flattening_it
   - rel: related_to
@@ -68,7 +72,9 @@ Take an existing creative draft through recursive reconsideration, evidence gath
 6. **Recover recursively.** If a change introduces a new structural mismatch, destroys a required effect, or reveals that the target itself was wrong, return to step 1 or 3 as appropriate. If no available perspective exposes the problem clearly, return to step 4 rather than making arbitrary local changes. Continue until the global checklist of `writing_revise_whole_draft_toward_intended_form` passes.
 7. **Cross the editing gate deliberately.** Activate `writing_separate_revision_from_editing_and_proofreading`. Advance only when conception, content, and form are stable enough that sentence-level corrections are unlikely to be discarded by another large change. If editing exposes a global defect, reopen step 3 instead of hiding it with polish.
 8. **Edit without erasing intentional language.** Correct unintended sentence-level faults while activating `writing_make_nonstandard_language_deliberate` wherever dialect, fragments, multilingual wording, or unconventional grammar perform a chosen expressive job. The invariant is control: purposeful departures remain, accidental errors do not.
-9. **Proofread and complete.** Make a separate final pass for residual mistakes after revision and editing are complete. Stop only when the intended audience and effect are still clear, no consequential global mismatch remains, feedback decisions have been resolved rather than merely collected, intentional language is distinguishable from error, and the final mistake check is clean.
+9. **Proofread the stable form.** Activate `writing_proofread_stable_draft_through_independent_passes` only after revision and editing are complete. Review automated suggestions in context, change the reading mode, and inspect the final rendering after the last correction. If a correction exposes a global defect, return to step 3; if it changes surrounding wording or layout, reopen the affected editing and proofing passes rather than assuming the earlier inspection still holds.
+10. **Communicate corrections when another person will implement them.** For a formatted proof or shared production file, activate `writing_make_proof_corrections_unambiguous`. Anchor each instruction to the exact matter, supply the intended replacement or measurement, and request another proof when the changes can reflow or reposition content. Otherwise keep this branch inactive.
+11. **Complete.** Stop only when the intended audience and effect are still clear, no consequential global mismatch remains, feedback decisions have been resolved rather than merely collected, intentional language is distinguishable from error, the rendered form is clean, and every communicated correction has been verified or explicitly routed to another proof.
 
 ## Notes
-The flow is recursive without being orderless. A writer may revisit earlier decisions many times, but global instability blocks final editing and editing blocks final proofreading. The perspective branches are diagnostic options, not mandatory ceremonies; purpose, genre, medium, familiarity, length, formality, available time, and privacy determine which route is proportionate. Feedback supplies evidence rather than authority, and completion means the important mismatches are resolved, not that every reader preference has been satisfied.
+The flow is recursive without being orderless. A writer may revisit earlier decisions many times, but global instability blocks final editing and editing blocks final proofreading. A proof is a specific state of the work: substantial late changes invalidate the inspected wording and may disturb layout, so they route backward before release. The perspective branches are diagnostic options, not mandatory ceremonies; purpose, genre, medium, familiarity, length, formality, available time, and privacy determine which route is proportionate. Feedback supplies evidence rather than authority, and completion means the important mismatches are resolved, not that every reader preference has been satisfied.

@@ -6,6 +6,8 @@
 
 - [Choose a Truth Contract Before Shaping Real Material](PAT_choose_truth_contract_before_shaping_real_material.md) - pattern; 0 design. Tags: creative_writing, evidence, fiction, genre, nonfiction.
   - Variants: `Signal Counterfactual or Hybrid Fiction Before Borrowing Factual Authority` (constraint).
+- [Make Proof Corrections Unambiguous](PAT_make_proof_corrections_unambiguous.md) - pattern; 4 final. Tags: collaboration, copyediting, corrections, proofreading, publication.
+- [Proofread a Stable Draft Through Independent Passes](PAT_proofread_a_stable_draft_through_independent_passes.md) - pattern; 4 final. Tags: editing, finalization, grammar_check, proofreading, spellcheck.
 - [Read a Draft Aloud to Defamiliarize It](PAT_read_draft_aloud_to_defamiliarize_it.md) - pattern; 3 rough. Tags: creative_writing, defamiliarization, reader_response, reading_aloud, revision.
   - Variants: `Reflow Poetic Lines as Prose to Test Syntax` (method_sequence); `Read Dialogue Aloud for Spoken Authenticity` (context).
 - [Reassess Inspired Drafts After Distance](PAT_reassess_inspired_drafts_after_distance.md) - pattern; 3 rough. Tags: creative_writing, drafting, recursive_process, revision.

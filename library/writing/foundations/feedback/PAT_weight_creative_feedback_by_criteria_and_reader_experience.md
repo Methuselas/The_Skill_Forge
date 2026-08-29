@@ -24,7 +24,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_variant_adjudicate_editorial_feedback_under_publication_constraints
+    variant_name: Adjudicate Editorial Feedback Under Publication Constraints
+    variant_basis: constraint
+    difference_from_foundation: Separate an editor's diagnosis from the proposed remedy, determine whether a request is advice or a binding venue requirement, and implement accepted changes while preserving authorial responsibility for the result.
+    when_to_use: A magazine, publisher, producer, or commissioning editor requests changes before acceptance, resubmission, or publication.
+    when_not_to_use: Feedback comes from an informal peer with no publication role, or the requested change is already known to be a non-negotiable legal or contractual condition outside ordinary craft adjudication.
+    absorbed_from_object_id: none
 ---
 
 # Weight Creative Feedback by Criteria and Reader Experience
@@ -51,3 +58,5 @@ variants: []
 
 ## Notes
 Creative writing is assessed through informed human judgment, so disagreement is expected. Experience can reveal stale premises, genre mismatches, and technical weaknesses that beginning readers overlook; taste can also shape what any evaluator notices or values. Useful revision begins by understanding which kind of judgment a comment represents.
+
+`writing_variant_adjudicate_editorial_feedback_under_publication_constraints` adds a publication constraint to the same weighting decision. First ask what problem the editor observed and what reader or venue consequence it creates; then distinguish that diagnosis from the suggested fix. Clarify whether the request is optional, a condition of acceptance, or a house requirement. Take experienced impact judgments seriously without assuming the proposed remedy is the only repair, and make the accepted change yourself so the resulting work remains coherent rather than becoming a stack of instructions.

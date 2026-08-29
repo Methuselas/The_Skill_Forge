@@ -40,18 +40,21 @@ variants: []
 ## Do
 - Circulate work to supportive readers before grading or publication makes experimentation more costly.
 - Listen for where readers agree that the manuscript succeeds or goes wrong without correcting their interpretation in the moment.
+- Identify the exact passage, choice, or reader effect under discussion so criticism of one feature does not expand into a verdict on the writer or all of the writer's work.
 - Review oral responses and annotations afterward against the work's goals, then ask follow-up questions when clarification is still needed.
 
 ## Don't
 - Turn the session into an extended defense that replaces reader response with the explanation of what the draft was supposed to do.
 - Submit deeply private writing for critique when the actual need is protection or personal expression rather than public craft development.
 - Treat willingness to share as a request for unqualified praise.
+- Count a dominant voice, faction, or repeated assertion as independent agreement when the group has not supplied separate evidence.
 
 ## Checklist
 - Readers could discuss the manuscript without the writer steering their conclusions.
 - Marked copies or equivalent written observations remain available after the conversation.
 - The writer can distinguish what readers experienced from what the writer intended.
+- Consequential criticism remains scoped to the text and effect actually discussed.
 - Revision choices are made after the feedback has been weighed, not as reflexive compliance or rejection.
 
 ## Notes
-A workshop makes the submitted manuscript public to a bounded community. Silence during discussion preserves evidence about how the draft communicates without supplementary explanation. Supportive groups can make that exposure tolerable and, over repeated meetings, build the trust needed for increasingly demanding criticism.
+A workshop makes the submitted manuscript public to a bounded community. Silence during discussion preserves evidence about how the draft communicates without supplementary explanation. The group itself also affects the evidence: personality-driven or factional discussion can amplify one preference without adding another reading. Supportive groups can make exposure tolerable and, over repeated meetings, build the trust needed for increasingly demanding criticism. A comment addresses the submitted words and their effect; it is not a judgment of the writer's worth.

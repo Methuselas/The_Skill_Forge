@@ -38,23 +38,26 @@ variants: []
 
 ## Do
 - Start a new indented paragraph whenever the speaker changes, even during rapid back-and-forth.
+- When a speaker acts before speaking, begin that speaker's paragraph with the action so movement and speech share one clear turn.
 - Identify both participants early in a two-person exchange, then omit repeated tags while alternating turns remain unmistakable.
 - Reintroduce names or tags when three or more people speak, a long action interrupts the sequence, or the turn order changes.
 - Prefer `said` for neutral attribution; use a more marked speaking verb only when volume or delivery cannot be carried by the words and action.
-- Put commas and periods inside closing quotation marks and set off a directly addressed name with commas.
+- Distinguish a speech tag that belongs grammatically to the quoted sentence from an independent action sentence, then punctuate each accordingly.
+- Follow the destination's quotation-mark and punctuation convention consistently rather than treating one regional house style as universal.
 
 ## Don't
 - Place two speakers in one paragraph.
 - Cycle through conspicuous synonyms for `said` to avoid repetition readers would not otherwise notice.
 - Use a verb such as `quoted` that does not describe the act of speaking the line.
 - Depend on distinct voice alone when the cast or interruption makes the speaker genuinely ambiguous.
+- Attach an unrelated action to a line merely to avoid a plain tag; the beat must belong to that speaker and moment.
 
 ## Checklist
 - Every change of speaker begins a new paragraph.
 - A cold reader can assign each line without backtracking.
 - Tags disappear into the exchange unless delivery itself is consequential.
 - Untagged turns remain safe after action beats and additional speakers are considered.
-- Quotation punctuation and direct address follow one consistent convention.
+- Quotation marks, punctuation placement, and direct address follow the intended venue's convention consistently.
 
 ## Notes
-Page conventions are cognitive routing. Separate paragraphs let the reader toggle between known speakers, which can make repeated names unnecessary. Plain attribution protects the remark from competition; elaborate tags redirect attention from what was said to the writer's labeling of how it was said.
+Page conventions are cognitive routing. Separate paragraphs let the reader toggle between known speakers, which can make repeated names unnecessary, and a speaker's preceding action can perform the same orientation without becoming a tag. Plain attribution protects the remark from competition; elaborate tags redirect attention from what was said to the writer's labeling of how it was said. Single versus double quotation marks and some punctuation placement vary by editorial system, so consistency must be calibrated to the destination rather than universalized.

@@ -7,3 +7,4 @@
 - [Develop an Aesthetic by Discussing Another Writer's Work](DRILL_develop_an_aesthetic_by_discussing_another_writers_work.md) - drill; 3 rough. Tags: aesthetics, close_reading, critique, discussion, workshop.
 - [Receive Workshop Feedback Without Defending the Draft](PAT_receive_workshop_feedback_without_defending_the_draft.md) - pattern; 3 rough. Tags: creative_writing, critique, feedback, listening, workshop.
 - [Weight Creative Feedback by Criteria and Reader Experience](PAT_weight_creative_feedback_by_criteria_and_reader_experience.md) - pattern; 3 rough. Tags: aesthetics, critique, evaluation, feedback, revision.
+  - Variants: `Adjudicate Editorial Feedback Under Publication Constraints` (constraint).
