@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_keep_memory_alive_until_the_compare_and_swap_completes
 - rel: related_to
   target_object_id: PAT_classify_synchronization_by_progress_guarantee
+- rel: related_to
+  target_object_id: AP_make_shared_state_safe_in_cpp
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_manage_resources_with_raii_objects
 - rel: related_to
   target_object_id: PAT_write_a_well_behaved_new_handler
+- rel: related_to
+  target_object_id: AP_replace_new_and_delete_for_a_named_reason
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

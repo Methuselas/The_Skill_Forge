@@ -22,6 +22,8 @@ cross_links:
   target_object_id: PAT_fail_fast_near_error_source
 - rel: related_to
   target_object_id: PAT_classify_error_recoverability_by_caller
+- rel: related_to
+  target_object_id: AP_decide_how_to_signal_and_handle_an_error
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

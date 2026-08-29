@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_copy_all_members_and_base_parts
 - rel: related_to
   target_object_id: PAT_give_polymorphic_base_a_virtual_destructor
+- rel: related_to
+  target_object_id: AP_choose_the_relationship_between_two_types
 reference:
   source_title: 'More Effective C++: 35 New Ways to Improve Your Programs and Designs'
   author: Scott Meyers

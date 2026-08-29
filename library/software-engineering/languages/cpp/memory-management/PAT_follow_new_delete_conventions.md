@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_give_polymorphic_base_a_virtual_destructor
 - rel: related_to
   target_object_id: PAT_match_new_and_delete_forms
+- rel: related_to
+  target_object_id: AP_replace_new_and_delete_for_a_named_reason
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

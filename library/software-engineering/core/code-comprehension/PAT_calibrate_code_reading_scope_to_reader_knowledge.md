@@ -22,6 +22,8 @@ cross_links:
   target_object_id: DRILL_reproduce_code_to_diagnose_knowledge
 - rel: related_to
   target_object_id: PAT_space_practice_across_widening_intervals
+- rel: related_to
+  target_object_id: AP_prepare_an_onboarding_for_all_three_memory_systems
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

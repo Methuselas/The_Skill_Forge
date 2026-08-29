@@ -27,6 +27,8 @@ cross_links:
   target_object_id: AP_refactor_working_code_safely
 - rel: related_to
   target_object_id: PAT_remove_the_scaffolding_a_migration_leaves
+- rel: related_to
+  target_object_id: AP_replace_a_system_that_is_still_in_use
 reference:
   source_title: 'Refactoring at Scale: Regaining Control of Your Codebase'
   author: Maude Lemaire

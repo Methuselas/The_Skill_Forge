@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_make_interfaces_hard_to_misuse
 - rel: related_to
   target_object_id: PAT_convey_usage_through_names_and_types
+- rel: related_to
+  target_object_id: AP_choose_a_name_with_feitelsons_three_steps
 reference:
   source_title: 'Modern C++ Design: Generic Programming and Design Patterns Applied'
   author: Andrei Alexandrescu

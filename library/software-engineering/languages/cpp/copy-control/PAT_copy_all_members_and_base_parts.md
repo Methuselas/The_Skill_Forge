@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_know_compiler_generated_special_members
 - rel: related_to
   target_object_id: PAT_dont_implement_one_copying_function_via_the_other
+- rel: related_to
+  target_object_id: AP_write_copy_control_for_a_resource_owning_class
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

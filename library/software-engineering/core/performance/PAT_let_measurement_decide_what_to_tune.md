@@ -26,6 +26,10 @@ cross_links:
   target_object_id: PAT_make_code_readable
 - rel: prerequisite_for
   target_object_id: AP_tune_a_measured_bottleneck
+- rel: related_to
+  target_object_id: AP_build_a_pool_for_a_hot_allocation
+- rel: related_to
+  target_object_id: AP_locate_a_performance_bottleneck_by_measurement
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

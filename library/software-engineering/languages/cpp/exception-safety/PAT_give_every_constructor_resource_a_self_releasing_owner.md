@@ -26,6 +26,10 @@ cross_links:
   target_object_id: PAT_use_unique_ptr_for_exclusive_ownership
 - rel: related_to
   target_object_id: PAT_offer_an_exception_safety_guarantee
+- rel: related_to
+  target_object_id: AP_give_an_acquired_resource_an_owner
+- rel: related_to
+  target_object_id: AP_make_a_function_exception_safe
 reference:
   source_title: 'More Effective C++: 35 New Ways to Improve Your Programs and Designs'
   author: Scott Meyers

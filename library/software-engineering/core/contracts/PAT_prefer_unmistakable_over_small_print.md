@@ -22,6 +22,8 @@ cross_links:
   target_object_id: PAT_make_code_hard_to_misuse
 - rel: related_to
   target_object_id: PAT_match_caller_mental_model
+- rel: related_to
+  target_object_id: AP_harden_a_code_contract
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

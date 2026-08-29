@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_choose_lazy_or_eager_by_how_often_the_result_is_needed
 - rel: related_to
   target_object_id: PAT_dont_return_handles_to_internals
+- rel: related_to
+  target_object_id: AP_write_copy_control_for_a_resource_owning_class
 reference:
   source_title: 'More Effective C++: 35 New Ways to Improve Your Programs and Designs'
   author: Scott Meyers

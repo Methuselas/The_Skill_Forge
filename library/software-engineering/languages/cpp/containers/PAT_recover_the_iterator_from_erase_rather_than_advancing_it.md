@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_treat_undefined_behavior_as_a_whole_program_assumption
 - rel: related_to
   target_object_id: PAT_prefer_range_member_functions_to_repeated_single_element_calls
+- rel: related_to
+  target_object_id: AP_settle_a_containers_contract_before_filling_it
 reference:
   source_title: 'Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library'
   author: Scott Meyers

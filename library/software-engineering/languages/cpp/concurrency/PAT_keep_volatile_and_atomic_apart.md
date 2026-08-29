@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_make_benchmarked_work_observable
 - rel: related_to
   target_object_id: PAT_classify_synchronization_by_progress_guarantee
+- rel: related_to
+  target_object_id: AP_make_shared_state_safe_in_cpp
 reference:
   source_title: 'Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14'
   author: Scott Meyers

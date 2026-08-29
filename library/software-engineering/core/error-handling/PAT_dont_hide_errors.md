@@ -20,6 +20,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_match_caller_mental_model
+- rel: related_to
+  target_object_id: AP_decide_how_to_signal_and_handle_an_error
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

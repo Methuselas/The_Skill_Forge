@@ -30,6 +30,8 @@ cross_links:
   target_object_id: PAT_dont_call_unknown_code_while_holding_a_lock
 - rel: prerequisite_for
   target_object_id: PAT_wait_on_a_predicate_not_on_a_notification
+- rel: related_to
+  target_object_id: AP_make_shared_state_safe_in_cpp
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

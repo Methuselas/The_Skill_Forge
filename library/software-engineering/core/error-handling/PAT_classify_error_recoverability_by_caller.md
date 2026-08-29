@@ -42,6 +42,8 @@ cross_links:
   target_object_id: PAT_prefer_null_safety_or_optionals
 - rel: prerequisite_for
   target_object_id: PAT_treat_compiler_warnings_as_potential_bugs
+- rel: related_to
+  target_object_id: AP_decide_how_to_signal_and_handle_an_error
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

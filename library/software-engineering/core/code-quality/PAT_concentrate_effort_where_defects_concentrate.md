@@ -26,6 +26,12 @@ cross_links:
   target_object_id: PAT_combine_detection_techniques_rather_than_perfecting_one
 - rel: related_to
   target_object_id: PAT_look_for_the_evidence_outside_the_code
+- rel: related_to
+  target_object_id: AP_choose_test_cases_systematically
+- rel: related_to
+  target_object_id: AP_replace_a_system_that_is_still_in_use
+- rel: related_to
+  target_object_id: AP_review_code_you_did_not_write
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

@@ -24,6 +24,10 @@ cross_links:
   target_object_id: PAT_minimize_nesting_with_early_returns
 - rel: related_to
   target_object_id: PAT_separate_essential_from_accidental_complexity
+- rel: related_to
+  target_object_id: AP_choose_test_cases_systematically
+- rel: related_to
+  target_object_id: AP_shape_a_multi_way_decision
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

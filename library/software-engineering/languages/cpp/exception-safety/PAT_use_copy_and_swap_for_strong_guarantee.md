@@ -23,6 +23,10 @@ cross_links:
   target_object_id: PAT_support_nonthrowing_swap
 - rel: related_to
   target_object_id: PAT_offer_an_exception_safety_guarantee
+- rel: related_to
+  target_object_id: AP_make_a_function_exception_safe
+- rel: related_to
+  target_object_id: AP_write_copy_control_for_a_resource_owning_class
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

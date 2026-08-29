@@ -23,6 +23,10 @@ cross_links:
   target_object_id: PAT_delete_the_functions_you_want_to_forbid
 - rel: related_to
   target_object_id: PAT_manage_resources_with_raii_objects
+- rel: related_to
+  target_object_id: AP_give_an_acquired_resource_an_owner
+- rel: related_to
+  target_object_id: AP_write_copy_control_for_a_resource_owning_class
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

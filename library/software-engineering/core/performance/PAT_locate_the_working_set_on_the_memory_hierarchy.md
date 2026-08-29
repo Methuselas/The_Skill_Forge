@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_spend_computation_to_buy_sequential_access
 - rel: related_to
   target_object_id: PAT_reproduce_the_real_context_before_believing_a_microbenchmark
+- rel: related_to
+  target_object_id: AP_design_a_parallel_decomposition
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus

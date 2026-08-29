@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_read_a_profile_as_a_statement_about_machine_code
 - rel: prerequisite_for
   target_object_id: AP_locate_a_performance_bottleneck_by_measurement
+- rel: related_to
+  target_object_id: AP_build_a_pool_for_a_hot_allocation
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus

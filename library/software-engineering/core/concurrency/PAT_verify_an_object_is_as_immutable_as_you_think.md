@@ -29,6 +29,8 @@ cross_links:
   target_object_id: PAT_prefer_immutable_objects
 - rel: related_to
   target_object_id: PAT_avoid_global_state_inject_shared_state
+- rel: related_to
+  target_object_id: AP_make_a_class_immutable
 reference:
   source_title: 'Implementing Effective Code Reviews: How to Build and Maintain Clean Code'
   author: Giuliana Carullo

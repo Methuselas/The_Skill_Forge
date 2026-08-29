@@ -42,6 +42,8 @@ cross_links:
   target_object_id: PAT_wrap_a_thread_argument_that_must_arrive_by_reference
 - rel: prerequisite_for
   target_object_id: PAT_write_to_a_shared_stream_through_a_synchronized_wrapper
+- rel: related_to
+  target_object_id: AP_make_shared_state_safe_in_cpp
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

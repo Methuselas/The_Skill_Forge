@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_comment_why_not_what
 - rel: related_to
   target_object_id: PAT_choose_design_depth_by_risk_not_habit
+- rel: related_to
+  target_object_id: AP_build_a_loop_from_the_inside_out
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

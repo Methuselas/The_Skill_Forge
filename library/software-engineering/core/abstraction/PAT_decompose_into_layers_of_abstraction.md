@@ -34,6 +34,8 @@ cross_links:
   target_object_id: PAT_tune_layer_thickness_err_thin
 - rel: prerequisite_for
   target_object_id: PAT_keep_clean_layers_inside_microservices
+- rel: related_to
+  target_object_id: AP_refactor_monolithic_class_into_layers
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_make_every_milestone_a_place_you_could_stop
 - rel: related_to
   target_object_id: PAT_fix_or_board_up_a_broken_window
+- rel: related_to
+  target_object_id: AP_replace_a_system_that_is_still_in_use
 reference:
   source_title: 'Refactoring at Scale: Regaining Control of Your Codebase'
   author: Maude Lemaire

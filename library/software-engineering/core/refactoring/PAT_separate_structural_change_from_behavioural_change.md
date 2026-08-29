@@ -24,6 +24,10 @@ cross_links:
   target_object_id: PAT_concentrate_effort_where_defects_concentrate
 - rel: prerequisite_for
   target_object_id: AP_refactor_working_code_safely
+- rel: related_to
+  target_object_id: AP_replace_a_system_that_is_still_in_use
+- rel: related_to
+  target_object_id: AP_tune_a_measured_bottleneck
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

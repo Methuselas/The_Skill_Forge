@@ -24,6 +24,8 @@ cross_links:
   target_object_id: PAT_choose_the_data_structure_for_the_dominant_access_pattern
 - rel: related_to
   target_object_id: PAT_cross_a_c_boundary_with_only_what_c_can_express
+- rel: related_to
+  target_object_id: AP_settle_a_containers_contract_before_filling_it
 reference:
   source_title: 'Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library'
   author: Scott Meyers

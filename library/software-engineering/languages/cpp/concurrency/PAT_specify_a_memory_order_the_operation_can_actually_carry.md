@@ -30,6 +30,8 @@ cross_links:
   target_object_id: PAT_make_the_acquire_actually_observe_the_release
 - rel: prerequisite_for
   target_object_id: PAT_reach_for_a_fence_only_when_no_atomic_carries_the_order
+- rel: related_to
+  target_object_id: AP_make_shared_state_safe_in_cpp
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

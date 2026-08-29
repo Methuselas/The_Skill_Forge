@@ -20,6 +20,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_make_code_readable
+- rel: related_to
+  target_object_id: AP_choose_a_name_with_feitelsons_three_steps
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

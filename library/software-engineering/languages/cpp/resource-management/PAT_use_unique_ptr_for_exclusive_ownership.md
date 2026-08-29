@@ -28,6 +28,8 @@ cross_links:
   target_object_id: PAT_prefer_make_functions_to_direct_new
 - rel: related_to
   target_object_id: PAT_pass_a_smart_pointer_only_to_transfer_ownership
+- rel: related_to
+  target_object_id: AP_give_an_acquired_resource_an_owner
 reference:
   source_title: 'Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14'
   author: Scott Meyers

@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_locate_the_working_set_on_the_memory_hierarchy
 - rel: related_to
   target_object_id: PAT_choose_the_data_structure_for_the_dominant_access_pattern
+- rel: related_to
+  target_object_id: AP_build_a_pool_for_a_hot_allocation
 reference:
   source_title: 'Modern C++ Design: Generic Programming and Design Patterns Applied'
   author: Andrei Alexandrescu

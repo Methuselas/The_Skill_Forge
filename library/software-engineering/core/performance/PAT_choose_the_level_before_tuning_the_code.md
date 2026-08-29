@@ -24,6 +24,8 @@ cross_links:
   target_object_id: PAT_evaluate_code_against_quality_goals
 - rel: prerequisite_for
   target_object_id: AP_tune_a_measured_bottleneck
+- rel: related_to
+  target_object_id: AP_locate_a_performance_bottleneck_by_measurement
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

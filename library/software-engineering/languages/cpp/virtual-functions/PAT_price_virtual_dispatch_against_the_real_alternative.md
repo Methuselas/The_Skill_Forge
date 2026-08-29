@@ -28,6 +28,8 @@ cross_links:
   target_object_id: PAT_optimize_for_what_the_compiler_can_prove
 - rel: related_to
   target_object_id: PAT_limit_inlining_to_small_hot_functions
+- rel: related_to
+  target_object_id: AP_design_a_customization_point
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus

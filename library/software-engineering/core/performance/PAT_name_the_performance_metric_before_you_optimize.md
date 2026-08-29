@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_name_the_quality_characteristics_you_trade_away
 - rel: prerequisite_for
   target_object_id: AP_tune_a_measured_bottleneck
+- rel: related_to
+  target_object_id: AP_locate_a_performance_bottleneck_by_measurement
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus

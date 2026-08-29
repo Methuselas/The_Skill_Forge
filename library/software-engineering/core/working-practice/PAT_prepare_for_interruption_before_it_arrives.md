@@ -24,6 +24,8 @@ cross_links:
   target_object_id: PAT_comment_why_not_what
 - rel: related_to
   target_object_id: PAT_interrupt_at_task_boundaries
+- rel: related_to
+  target_object_id: AP_refactor_working_code_safely
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

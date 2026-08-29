@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_never_redefine_inherited_default_parameter
 - rel: related_to
   target_object_id: PAT_dont_call_unknown_code_while_holding_a_lock
+- rel: related_to
+  target_object_id: AP_design_a_customization_point
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

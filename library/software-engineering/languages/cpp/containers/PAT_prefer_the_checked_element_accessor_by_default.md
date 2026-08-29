@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_make_interfaces_hard_to_misuse
 - rel: related_to
   target_object_id: PAT_treat_undefined_behavior_as_a_whole_program_assumption
+- rel: related_to
+  target_object_id: AP_settle_a_containers_contract_before_filling_it
 reference:
   source_title: 'C++20 STL Cookbook: Leverage the latest features of the STL to solve real-world problems'
   author: Bill Weinman

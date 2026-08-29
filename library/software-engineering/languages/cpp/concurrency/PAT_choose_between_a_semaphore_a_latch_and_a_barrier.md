@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_wait_on_a_predicate_not_on_a_notification
 - rel: related_to
   target_object_id: PAT_take_the_simplest_lock_type_that_does_the_job
+- rel: related_to
+  target_object_id: AP_make_shared_state_safe_in_cpp
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

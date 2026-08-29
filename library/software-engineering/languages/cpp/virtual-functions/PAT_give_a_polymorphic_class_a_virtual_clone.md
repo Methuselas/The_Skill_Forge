@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_give_polymorphic_base_a_virtual_destructor
 - rel: related_to
   target_object_id: PAT_use_unique_ptr_for_exclusive_ownership
+- rel: related_to
+  target_object_id: AP_design_a_customization_point
 reference:
   source_title: 'More Effective C++: 35 New Ways to Improve Your Programs and Designs'
   author: Scott Meyers

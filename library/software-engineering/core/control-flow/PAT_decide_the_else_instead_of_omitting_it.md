@@ -24,6 +24,8 @@ cross_links:
   target_object_id: PAT_order_branches_so_the_common_case_is_found_first
 - rel: related_to
   target_object_id: PAT_understand_the_routine_before_the_compiler_sees_it
+- rel: related_to
+  target_object_id: AP_shape_a_multi_way_decision
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

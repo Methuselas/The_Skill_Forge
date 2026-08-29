@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_keep_a_spare_before_releasing_capacity
 - rel: related_to
   target_object_id: PAT_check_the_last_used_slot_before_searching
+- rel: related_to
+  target_object_id: AP_build_a_pool_for_a_hot_allocation
 reference:
   source_title: 'Modern C++ Design: Generic Programming and Design Patterns Applied'
   author: Andrei Alexandrescu

@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_make_interfaces_hard_to_misuse
 - rel: related_to
   target_object_id: PAT_define_your_code_contract_explicitly
+- rel: related_to
+  target_object_id: AP_choose_the_relationship_between_two_types
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

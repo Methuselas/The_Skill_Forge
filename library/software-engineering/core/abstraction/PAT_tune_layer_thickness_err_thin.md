@@ -24,6 +24,8 @@ cross_links:
   target_object_id: PAT_use_interfaces_for_swappable_layers
 - rel: related_to
   target_object_id: PAT_dont_widen_api_for_reuse_or_testing
+- rel: related_to
+  target_object_id: AP_refactor_monolithic_class_into_layers
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

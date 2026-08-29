@@ -24,6 +24,10 @@ cross_links:
   target_object_id: PAT_design_for_testability
 - rel: related_to
   target_object_id: PAT_name_the_quality_characteristics_you_trade_away
+- rel: related_to
+  target_object_id: AP_choose_test_cases_systematically
+- rel: related_to
+  target_object_id: AP_review_code_you_did_not_write
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

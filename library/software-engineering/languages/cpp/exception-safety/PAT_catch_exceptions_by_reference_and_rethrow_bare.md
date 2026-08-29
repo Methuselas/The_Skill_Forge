@@ -24,6 +24,8 @@ cross_links:
   target_object_id: PAT_offer_an_exception_safety_guarantee
 - rel: related_to
   target_object_id: PAT_never_let_exceptions_leave_a_destructor
+- rel: related_to
+  target_object_id: AP_make_a_function_exception_safe
 reference:
   source_title: 'More Effective C++: 35 New Ways to Improve Your Programs and Designs'
   author: Scott Meyers

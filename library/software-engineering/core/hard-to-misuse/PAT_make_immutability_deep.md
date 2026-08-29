@@ -20,6 +20,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_prefer_immutable_objects
+- rel: related_to
+  target_object_id: AP_make_a_class_immutable
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

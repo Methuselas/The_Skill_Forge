@@ -24,6 +24,8 @@ cross_links:
   target_object_id: DRILL_elaborate_a_new_concept_against_known_ones
 - rel: related_to
   target_object_id: PAT_choose_explanatory_metaphors_by_audience_schemata
+- rel: related_to
+  target_object_id: AP_prepare_an_onboarding_for_all_three_memory_systems
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

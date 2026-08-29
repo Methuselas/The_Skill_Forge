@@ -25,6 +25,10 @@ cross_links:
   target_object_id: PAT_concentrate_effort_where_defects_concentrate
 - rel: related_to
   target_object_id: PAT_watch_for_semantic_coupling
+- rel: related_to
+  target_object_id: AP_replace_a_system_that_is_still_in_use
+- rel: related_to
+  target_object_id: AP_review_code_you_did_not_write
 reference:
   source_title: 'Refactoring at Scale: Regaining Control of Your Codebase'
   author: Maude Lemaire

@@ -21,6 +21,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_wrap_virtuals_with_nvi_idiom
+- rel: related_to
+  target_object_id: AP_design_a_customization_point
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

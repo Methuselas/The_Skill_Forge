@@ -24,6 +24,8 @@ cross_links:
   target_object_id: PAT_minimize_variable_span_and_live_time
 - rel: related_to
   target_object_id: PAT_use_descriptive_names
+- rel: related_to
+  target_object_id: AP_choose_a_name_with_feitelsons_three_steps
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

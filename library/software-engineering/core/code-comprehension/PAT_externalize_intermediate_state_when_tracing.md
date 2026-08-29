@@ -20,6 +20,10 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_diagnose_source_of_code_confusion
+- rel: related_to
+  target_object_id: AP_build_a_mental_model_of_unfamiliar_code
+- rel: related_to
+  target_object_id: AP_find_a_defect_by_hypothesis_not_by_guessing
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

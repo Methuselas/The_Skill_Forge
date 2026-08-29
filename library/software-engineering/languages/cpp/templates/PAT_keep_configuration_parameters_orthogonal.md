@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_watch_for_semantic_coupling
 - rel: related_to
   target_object_id: PAT_match_new_and_delete_forms
+- rel: related_to
+  target_object_id: AP_design_a_customization_point
 reference:
   source_title: 'Modern C++ Design: Generic Programming and Design Patterns Applied'
   author: Andrei Alexandrescu

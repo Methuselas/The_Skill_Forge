@@ -22,6 +22,8 @@ cross_links:
   target_object_id: PAT_use_descriptive_names
 - rel: related_to
   target_object_id: PAT_write_functions_as_single_sentences
+- rel: related_to
+  target_object_id: AP_build_a_routine_from_intent_level_pseudocode
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

@@ -20,6 +20,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_prefer_unmistakable_over_small_print
+- rel: related_to
+  target_object_id: AP_harden_a_code_contract
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

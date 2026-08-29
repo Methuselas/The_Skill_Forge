@@ -28,6 +28,8 @@ cross_links:
   target_object_id: PAT_manage_resources_with_raii_objects
 - rel: related_to
   target_object_id: PAT_choose_braces_or_parentheses_deliberately
+- rel: related_to
+  target_object_id: AP_give_an_acquired_resource_an_owner
 reference:
   source_title: 'Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14'
   author: Scott Meyers

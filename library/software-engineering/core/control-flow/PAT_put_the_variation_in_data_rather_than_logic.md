@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_balance_adaptability_without_predicting_future
 - rel: related_to
   target_object_id: PAT_prefer_composition_over_inheritance
+- rel: related_to
+  target_object_id: AP_shape_a_multi_way_decision
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

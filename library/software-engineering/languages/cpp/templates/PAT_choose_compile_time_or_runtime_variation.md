@@ -28,6 +28,8 @@ cross_links:
   target_object_id: PAT_price_virtual_dispatch_against_the_real_alternative
 - rel: related_to
   target_object_id: PAT_match_virtualness_to_inherited_interface
+- rel: related_to
+  target_object_id: AP_design_a_customization_point
 reference:
   source_title: 'Modern C++ Design: Generic Programming and Design Patterns Applied'
   author: Andrei Alexandrescu

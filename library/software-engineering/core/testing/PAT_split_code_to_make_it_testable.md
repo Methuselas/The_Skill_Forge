@@ -20,6 +20,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_size_classes_by_pillars_not_lines
+- rel: related_to
+  target_object_id: AP_write_a_unit_test_suite
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_hoist_allocation_out_of_the_work
 - rel: related_to
   target_object_id: PAT_recover_the_iterator_from_erase_rather_than_advancing_it
+- rel: related_to
+  target_object_id: AP_settle_a_containers_contract_before_filling_it
 reference:
   source_title: 'Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library'
   author: Scott Meyers

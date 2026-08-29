@@ -22,6 +22,8 @@ cross_links:
   target_object_id: PAT_make_breakage_fail_compile_or_test
 - rel: related_to
   target_object_id: PAT_match_caller_mental_model
+- rel: related_to
+  target_object_id: AP_shape_a_multi_way_decision
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

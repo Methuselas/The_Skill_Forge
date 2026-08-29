@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_convey_usage_through_names_and_types
 - rel: related_to
   target_object_id: PAT_match_caller_mental_model
+- rel: related_to
+  target_object_id: AP_harden_a_code_contract
 reference:
   source_title: 'Modern C++ Design: Generic Programming and Design Patterns Applied'
   author: Andrei Alexandrescu

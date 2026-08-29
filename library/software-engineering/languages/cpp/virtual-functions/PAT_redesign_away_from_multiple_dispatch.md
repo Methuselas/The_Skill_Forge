@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_give_a_polymorphic_class_a_virtual_clone
 - rel: related_to
   target_object_id: PAT_externalize_varying_behavior_with_strategy
+- rel: related_to
+  target_object_id: AP_design_a_customization_point
 reference:
   source_title: 'More Effective C++: 35 New Ways to Improve Your Programs and Designs'
   author: Scott Meyers

@@ -21,6 +21,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_apply_const_to_lock_invariants
+- rel: related_to
+  target_object_id: AP_make_a_class_const_correct
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

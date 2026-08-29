@@ -33,6 +33,8 @@ cross_links:
   target_object_id: PAT_check_concurrent_code_for_safety_and_liveness
 - rel: related_to
   target_object_id: PAT_ask_whether_the_problem_grows_with_the_machine
+- rel: related_to
+  target_object_id: AP_design_a_parallel_decomposition
 reference:
   source_title: 'Implementing Effective Code Reviews: How to Build and Maintain Clean Code'
   author: Giuliana Carullo

@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_know_compiler_generated_special_members
 - rel: related_to
   target_object_id: PAT_understand_special_member_generation
+- rel: related_to
+  target_object_id: AP_write_copy_control_for_a_resource_owning_class
 reference:
   source_title: 'Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14'
   author: Scott Meyers

@@ -20,6 +20,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_decompose_into_layers_of_abstraction
+- rel: related_to
+  target_object_id: AP_refactor_monolithic_class_into_layers
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

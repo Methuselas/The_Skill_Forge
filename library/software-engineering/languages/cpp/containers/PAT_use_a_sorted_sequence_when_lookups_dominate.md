@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_locate_the_working_set_on_the_memory_hierarchy
 - rel: related_to
   target_object_id: PAT_give_an_ordered_container_a_comparison_type_that_is_a_strict_weak_ordering
+- rel: related_to
+  target_object_id: AP_settle_a_containers_contract_before_filling_it
 reference:
   source_title: 'Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library'
   author: Scott Meyers

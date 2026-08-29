@@ -28,6 +28,8 @@ cross_links:
   target_object_id: PAT_match_the_lock_to_the_length_of_the_critical_section
 - rel: related_to
   target_object_id: PAT_verify_an_object_is_as_immutable_as_you_think
+- rel: related_to
+  target_object_id: AP_make_a_class_const_correct
 reference:
   source_title: 'Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14'
   author: Scott Meyers

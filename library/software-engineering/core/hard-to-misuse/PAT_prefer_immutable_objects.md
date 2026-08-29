@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_make_misuse_impossible_by_removing_invalid_states
 - rel: related_to
   target_object_id: PAT_verify_an_object_is_as_immutable_as_you_think
+- rel: related_to
+  target_object_id: AP_make_a_class_immutable
 reference:
   source_title: 'Good Code, Bad Code: Think Like a Software Engineer'
   author: Tom Long

@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_choose_a_container_on_more_than_algorithmic_complexity
 - rel: related_to
   target_object_id: PAT_let_measurement_decide_what_to_tune
+- rel: related_to
+  target_object_id: AP_replace_new_and_delete_for_a_named_reason
 reference:
   source_title: 'Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library'
   author: Scott Meyers

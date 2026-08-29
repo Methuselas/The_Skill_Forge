@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_convey_usage_through_names_and_types
 - rel: related_to
   target_object_id: PAT_design_a_class_as_type
+- rel: related_to
+  target_object_id: AP_make_a_class_const_correct
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

@@ -26,6 +26,8 @@ cross_links:
   target_object_id: PAT_reserve_capacity_up_front_and_release_it_deliberately
 - rel: related_to
   target_object_id: PAT_choose_a_container_on_more_than_algorithmic_complexity
+- rel: related_to
+  target_object_id: AP_settle_a_containers_contract_before_filling_it
 reference:
   source_title: 'Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library'
   author: Scott Meyers

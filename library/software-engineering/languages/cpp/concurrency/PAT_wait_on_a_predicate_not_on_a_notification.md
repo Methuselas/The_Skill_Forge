@@ -30,6 +30,8 @@ cross_links:
   target_object_id: PAT_stop_a_thread_by_asking_it_rather_than_killing_it
 - rel: prerequisite_for
   target_object_id: PAT_choose_between_a_semaphore_a_latch_and_a_barrier
+- rel: related_to
+  target_object_id: AP_make_shared_state_safe_in_cpp
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

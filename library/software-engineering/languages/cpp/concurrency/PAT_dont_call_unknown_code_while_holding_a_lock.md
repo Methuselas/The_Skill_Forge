@@ -30,6 +30,8 @@ cross_links:
   target_object_id: PAT_wrap_virtuals_with_nvi_idiom
 - rel: prerequisite_for
   target_object_id: DRILL_restructure_a_class_that_locks_every_member
+- rel: related_to
+  target_object_id: AP_make_shared_state_safe_in_cpp
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

@@ -22,6 +22,8 @@ cross_links:
   target_object_id: PAT_choose_the_control_construct_that_fits_the_data
 - rel: related_to
   target_object_id: PAT_minimize_nesting_with_early_returns
+- rel: related_to
+  target_object_id: AP_shape_a_multi_way_decision
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

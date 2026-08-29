@@ -28,6 +28,8 @@ cross_links:
   target_object_id: PAT_program_to_a_templates_implicit_interface
 - rel: related_to
   target_object_id: PAT_use_dependency_injection
+- rel: related_to
+  target_object_id: AP_design_a_customization_point
 reference:
   source_title: 'Modern C++ Design: Generic Programming and Design Patterns Applied'
   author: Andrei Alexandrescu

@@ -30,6 +30,8 @@ cross_links:
   target_object_id: PAT_choose_the_compare_exchange_form_by_whether_you_loop
 - rel: prerequisite_for
   target_object_id: PAT_make_shared_pointer_atomicity_a_property_of_the_type
+- rel: related_to
+  target_object_id: AP_make_shared_state_safe_in_cpp
 reference:
   source_title: 'Concurrency with Modern C++: What every professional C++ programmer should know about concurrency'
   author: Rainer Grimm

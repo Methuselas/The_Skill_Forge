@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_enforce_a_new_rule_only_on_new_code
 - rel: related_to
   target_object_id: PAT_remove_the_scaffolding_a_migration_leaves
+- rel: related_to
+  target_object_id: AP_replace_a_system_that_is_still_in_use
 reference:
   source_title: 'Software Engineering at Google: Lessons Learned from Programming Over Time'
   author: Titus Winters, Tom Manshreck, and Hyrum Wright

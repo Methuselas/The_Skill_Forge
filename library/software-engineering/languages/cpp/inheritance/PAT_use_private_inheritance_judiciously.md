@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_model_has_a_with_composition
 - rel: related_to
   target_object_id: PAT_use_multiple_inheritance_judiciously
+- rel: related_to
+  target_object_id: AP_choose_the_relationship_between_two_types
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_match_virtualness_to_inherited_interface
 - rel: related_to
   target_object_id: PAT_give_polymorphic_base_a_virtual_destructor
+- rel: related_to
+  target_object_id: AP_design_a_customization_point
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

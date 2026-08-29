@@ -23,6 +23,10 @@ cross_links:
   target_object_id: PAT_support_the_memory_system_the_activity_taxes
 - rel: related_to
   target_object_id: PAT_design_for_testability
+- rel: related_to
+  target_object_id: AP_assess_construction_prerequisites_before_building
+- rel: related_to
+  target_object_id: AP_grow_a_system_from_a_running_skeleton
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell

@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_state_your_compatibility_promise_and_its_span
 - rel: related_to
   target_object_id: PAT_make_every_milestone_a_place_you_could_stop
+- rel: related_to
+  target_object_id: AP_replace_a_system_that_is_still_in_use
 reference:
   source_title: 'Software Engineering at Google: Lessons Learned from Programming Over Time'
   author: Titus Winters, Tom Manshreck, and Hyrum Wright

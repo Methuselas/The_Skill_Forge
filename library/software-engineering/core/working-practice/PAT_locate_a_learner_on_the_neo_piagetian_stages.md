@@ -24,6 +24,8 @@ cross_links:
   target_object_id: PAT_teach_along_a_semantic_wave
 - rel: related_to
   target_object_id: DRILL_trace_a_state_table_for_calculation_heavy_code
+- rel: related_to
+  target_object_id: AP_prepare_an_onboarding_for_all_three_memory_systems
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_manage_resources_with_raii_objects
 - rel: related_to
   target_object_id: PAT_use_copy_and_swap_for_strong_guarantee
+- rel: related_to
+  target_object_id: AP_make_a_function_exception_safe
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers

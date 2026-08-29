@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_hoist_allocation_out_of_the_work
 - rel: related_to
   target_object_id: PAT_choose_lazy_or_eager_by_how_often_the_result_is_needed
+- rel: related_to
+  target_object_id: AP_build_a_pool_for_a_hot_allocation
 reference:
   source_title: 'Modern C++ Design: Generic Programming and Design Patterns Applied'
   author: Andrei Alexandrescu

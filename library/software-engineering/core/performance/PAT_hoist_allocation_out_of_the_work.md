@@ -27,6 +27,8 @@ cross_links:
   target_object_id: PAT_locate_the_working_set_on_the_memory_hierarchy
 - rel: related_to
   target_object_id: PAT_check_for_memory_saturation_before_adding_threads
+- rel: related_to
+  target_object_id: AP_build_a_pool_for_a_hot_allocation
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'
   author: Fedor G. Pikus

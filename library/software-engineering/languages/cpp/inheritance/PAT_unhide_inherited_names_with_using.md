@@ -21,6 +21,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_use_public_inheritance_only_for_is_a
+- rel: related_to
+  target_object_id: AP_choose_the_relationship_between_two_types
 reference:
   source_title: 'Effective C++, Third Edition: 55 Specific Ways to Improve Your Programs and Designs'
   author: Scott Meyers
