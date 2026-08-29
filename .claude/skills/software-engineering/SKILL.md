@@ -69,18 +69,25 @@ code asks nothing, so it does not. This barrier is the missing prompt. It govern
    depth — the split distributes one state machine across two scopes, and each
    half then reads correctly while the pair is wrong. The tell is a helper whose
    parameters carry three or more values the caller still needs afterwards.
-5. **Cut what does not earn its place.** Every variable you added is read
+5. **Write it the way the surrounding code is written.** You have just read the
+   file; use what you saw. Match its idiom for the things it has already decided
+   — how it passes and returns, how it reports failure, how it allocates, what it
+   names things. Code that is cleaner in isolation and different from everything
+   around it is worse in place, because the difference reads as significant and
+   is not. Your default idiom is not neutral; it is one house style meeting
+   another, and the file was here first.
+6. **Cut what does not earn its place.** Every variable you added is read
    somewhere. Every comment records a decision somebody actually made, rather
    than narrating the line beneath it or justifying a choice you invented. Every
    check can actually fire — one the boundary already made is cost without cover.
-6. **Then write it, and say which steps you skipped and why.**
+7. **Then write it, and say which steps you skipped and why.**
 
 **Fail closed.** If step 1 cannot be answered, do not proceed on a guess about
 what the code may assume — go and read it. An unresolved prerequisite is a stop,
 not a reason to write carefully and hope.
 
-These six come from recorded failures in `memory/software-engineering/`, not from
-first principles. When a new one is recorded, this list is where it lands; when an
+These seven come from recorded failures in `memory/software-engineering/`, not
+from first principles. When a new one is recorded, this list is where it lands; when an
 item stops catching anything, it should be removed rather than kept for
 completeness. A barrier long enough to skip is a barrier that gets skipped.
 
