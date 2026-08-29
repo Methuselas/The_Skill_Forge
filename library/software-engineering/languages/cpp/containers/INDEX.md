@@ -18,5 +18,6 @@
 - [Prefer the Checked Element Accessor by Default](PAT_prefer_the_checked_element_accessor_by_default.md) - pattern; 3 rough. Tags: bounds, containers, correctness, cpp.
 - [Recover the Iterator From Erase Rather Than Advancing It](PAT_recover_the_iterator_from_erase_rather_than_advancing_it.md) - pattern; 2 block. Tags: containers, cpp, idioms, iterator_invalidation, undefined_behavior.
 - [Reserve Capacity Up Front and Release It Deliberately](PAT_reserve_capacity_up_front_and_release_it_deliberately.md) - pattern; 2 block. Tags: containers, cpp, iterator_invalidation, memory_management, performance.
+- [Settle a Container's Contract Before Filling It](AP_settle_a_containers_contract_before_filling_it.md) - ap; 2 block. Tags: api_design, containers, cpp, data_structures, ownership.
 - [Tell Equality From Equivalence When Looking Up](PAT_tell_equality_from_equivalence_when_looking_up.md) - pattern; 2 block. Tags: avoiding_surprises, comparison, containers, cpp, lookup.
 - [Use a Sorted Sequence When Lookups Dominate](PAT_use_a_sorted_sequence_when_lookups_dominate.md) - pattern; 0 design. Tags: containers, cpp, data_structures, memory, performance.
