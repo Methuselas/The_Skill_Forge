@@ -13,6 +13,7 @@
 - [Design and Revise Short Story Structure](AP_design_and_revise_short_story_structure.md) - ap; 0 design. Tags: chronology, fiction, plot, revision, structure.
 - [End the Selected Story Without Exhausting the Larger Life](PAT_end_the_selected_story_without_exhausting_the_larger_life.md) - pattern; 3 rough. Tags: closure, endings, fiction, mystery, reader_inference.
 - [Escalate Central Conflict Through the Middle](PAT_escalate_central_conflict_through_the_middle.md) - pattern; 2 block. Tags: conflict, fiction, middles, rising_action, transitions.
+- [Expand a Story Core into a Full-Disclosure Synopsis](DRILL_expand_story_core_into_full_disclosure_synopsis.md) - drill; 4 final. Tags: compression, feedback, fiction, plot, synopsis.
 - [Foreshadow a Consequence While Withholding Its Route](PAT_foreshadow_a_consequence_while_withholding_its_route.md) - pattern; 1 skeleton. Tags: anticipation, fiction, foreshadowing, openings, titles.
 - [Generate and Cull Multiple Story Openings](DRILL_generate_and_cull_multiple_story_openings.md) - drill; 1 skeleton. Tags: fiction, invention, openings, practice, selection.
 - [Map Chronology Before Compressing Story Time](PAT_map_chronology_before_compressing_story_time.md) - pattern; 0 design. Tags: chronology, compression, exposition, fiction, flashback.
@@ -22,3 +23,4 @@
 - [Revise One Event through Summary Scene and Blend](DRILL_revise_one_event_through_summary_scene_and_blend.md) - drill; 2 block. Tags: deliberate_practice, fiction, pacing, revision, scene, summary.
 - [Stage Disclosure to Sustain Reader Inference](PAT_stage_disclosure_to_sustain_reader_inference.md) - pattern; 1 skeleton. Tags: disclosure, exposition, fiction, mystery, reader_inference.
 - [Test Structural Recurrence with Exact Repetition and Varied Echo](DRILL_test_structural_recurrence_with_exact_repetition_and_varied_echo.md) - drill; 2 block. Tags: deliberate_practice, fiction, repetition, structure, variation.
+- [Write a Full-Disclosure Fiction Synopsis](PAT_write_full_disclosure_fiction_synopsis.md) - pattern; 4 final. Tags: conflict, fiction, plot, submissions, synopsis.

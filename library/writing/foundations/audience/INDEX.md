@@ -7,5 +7,9 @@
 - [Calibrate Context to Intended Audience and Venue](PAT_calibrate_context_to_intended_audience_and_venue.md) - pattern; 0 design. Tags: accessibility, audience, circulation, context, genre, publication.
   - Variants: `Write for a High-Volume Evaluative Reader` (context).
 - [Compare Publication Outlets by Work-Specific Tradeoffs](PAT_compare_publication_outlets_by_work_specific_tradeoffs.md) - pattern; 4 final. Tags: competitions, digital_publishing, outlet_selection, print, publication.
+- [Conform a Manuscript to the Receiver's Current Requirements](PAT_conform_manuscript_to_receiver_current_requirements.md) - pattern; 4 final. Tags: formatting, manuscript, presentation, readability, submissions.
 - [Match Finished Work to an Outlet's Actual List](PAT_match_finished_work_to_an_outlets_actual_list.md) - pattern; 4 final. Tags: audience, genre, market_research, publication, submissions.
+- [Prepare and Send a Creative-Writing Submission Package](AP_prepare_and_send_creative_writing_submission_package.md) - ap; 4 final. Tags: manuscript, proposal, publication, query_letter, submissions.
 - [Research and Shortlist Publication Outlets](AP_research_and_shortlist_publication_outlets.md) - ap; 4 final. Tags: audience, market_research, outlet_selection, publication, submissions.
+- [Track Each Writing Submission as a Distinct Transaction](PAT_track_each_submission_as_distinct_transaction.md) - pattern; 4 final. Tags: follow_up, publication, records, submissions, version_control.
+- [Write a Factual Outlet-Specific Query](PAT_write_factual_outlet_specific_query.md) - pattern; 4 final. Tags: outlet_fit, professional_communication, proposal, query_letter, submissions.
