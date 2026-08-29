@@ -288,7 +288,13 @@ entries:
     every instance across three runs. Its failure mode was new: the report claimed the card
     offered no option for a case, when the card's Do and Don't together already described
     that option - the missing piece was in the body the reviewer had not opened, which is
-    the same place the previous misreports came from.
+    the same place the previous misreports came from. A fourth occasion, and the first
+    prevented rather than caught late: the runtime was about to report that a card names a
+    hazard and stops short of the structural fix, opened the card body first because this
+    entry's own rule says to, and found the fix prescribed in the Do list, the workaround
+    rejected in the Don't, the question asked in the checklist, the reasoning given in the
+    notes, and a cross-link to the card that owns it. Nothing was reported. That is the first
+    evidence that the remedy this entry recommends actually works when applied.
   diagnosis:
     failure_layer: application
     hypothesis: >
@@ -299,7 +305,8 @@ entries:
       full separates them, and the correlation between not reading a card and misreporting
       it held on every instance so far.
   boundary: >
-    Twelve reports across three runs on two codebases, by one reviewer against one library.
+    Twelve reports across three runs on two codebases, plus one prevented report on a fourth
+    run, by one reviewer against one library.
     The survival rate is not a stable figure and should not be treated as one. What is
     verified is the direction - reported defects over-count - and that full reading of the
     owning card is what separated the two kinds on all twelve. The correlation between
@@ -310,11 +317,12 @@ entries:
     over-reports.
   confidence: repeated
   status: active
-  evidence_count: 3
+  evidence_count: 4
   evidence_events:
   - SE_EV_0001
   - SE_EV_0002
   - SE_EV_0003
+  - SE_EV_0009
   evidence_origin:
   - runtime_self_audit
   - user_feedback
