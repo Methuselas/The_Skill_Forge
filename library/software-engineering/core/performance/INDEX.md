@@ -48,6 +48,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Count the Dependency Chain, Not the Operations](PAT_count_the_dependency_chain_not_the_operations.md) - pattern; 4 final. Tags: hardware, loops, optimization, performance, tuning.
 - [Establish That the Work Divides Before Dividing It](PAT_decide_if_the_problem_is_worth_parallelizing.md) - pattern; 0 design. Tags: concurrency, parallelism, performance, trade_offs, tuning.
 - [Estimate How the Cost Grows Before You Run It](PAT_estimate_the_order_before_you_run_it.md) - pattern; 2 block. Tags: algorithms, complexity, estimation, performance.
+- [Every Fast Path Must Be Deletable Without Changing the Answer](PAT_make_every_fast_path_redundant_with_the_general_one.md) - pattern; 3 rough. Tags: correctness, fallback, optimization, performance, testing.
 - [Hoist Allocation Out of the Work](PAT_hoist_allocation_out_of_the_work.md) - pattern; 4 final. Tags: allocation, concurrency, memory, performance, tuning.
 - [Keep a Spare Before Releasing Capacity](PAT_keep_a_spare_before_releasing_capacity.md) - pattern; 3 rough. Tags: hysteresis, performance, pooling, resource_management, thrashing.
 - [Lay Data Out for the Group That Reads It Together](PAT_lay_data_out_for_the_group_that_reads_it_together.md) - pattern; 0 design. Tags: concurrency, data_layout, gpu, memory, performance.
