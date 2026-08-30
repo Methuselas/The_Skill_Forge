@@ -186,13 +186,14 @@ entries:
     The owned-to-unowned ratio does not hold steady across those runs and should not be treated
     as a constant - it appears to track how the slice was chosen more than how the codebase
     is written, which is the opposite of what the second run''s boundary anticipated. What
-    remains unverified is whether the same yield could be had inside one pass. The missing pass has since been added to the protocol as step 8, requiring every technique collected to arrive with the object id that owns it or with a statement of what was searched for and not found, and sorting each into owned, unowned, or owned but coarser than the practice. That fix has not been exercised: no review has been run through the amended protocol, so the entry moves to monitoring rather than resolved and closes when a run produces the second output without being asked for it separately.
+    remains unverified is whether the same yield could be had inside one pass. The missing pass has since been added to the protocol as step 8, requiring every technique collected to arrive with the object id that owns it or with a statement of what was searched for and not found, and sorting each into owned, unowned, or owned but coarser than the practice. That fix has not been exercised: no review has been run through the amended protocol, so the entry moves to monitoring rather than resolved and closes when a run produces the second output without being asked for it separately. One run has since gone through the amended protocol and step 8 produced all three categories, including two cards judged right in direction and coarser than the code. The entry stays at monitoring because that run was made by the author of the fix in the same session, which is the weakest form the evidence could take.
 
     '
   confidence: repeated
   status: monitoring
-  evidence_count: 3
+  evidence_count: 4
   evidence_events:
+  - SE_EV_0029
   - SE_EV_0001
   - SE_EV_0002
   - SE_EV_0003

@@ -38,25 +38,32 @@ variants:
 # Give Unexplained Values a Name
 
 ## Pattern Rule
-**IF** the code contains a hard-coded value — a conversion coefficient, a tunable parameter, a template — whose meaning is not obvious
-**THEN** give it a name, by placing it in a well-named constant or returning it from a well-named function, so a reader learns both what the value is and what it means.
+**IF** the code contains a hard-coded value — a conversion coefficient, a tunable parameter, a template — whose meaning is not obvious, or which more than one expression has to agree about
+**THEN** give it a name, by placing it in a well-named constant or returning it from a well-named function, so a reader learns both what the value is and what it means, and so every place that depends on it moves when it moves.
 
 ## Do
 - Name the constant for its meaning: replace the bare `907.1847` and `0.44704` in a kinetic-energy calculation with `KILOGRAMS_PER_US_TON` and `METERS_PER_SECOND_PER_MPH`.
 - Or name it through a function — a provider function returning the coefficient, or better a helper that performs the conversion (`usTonsToKilograms(mass)`) so callers never see the value at all.
 - If other code might reuse the value or conversion, put it in a shared public utility rather than hiding it in one class.
+- Name a value that two expressions must agree about even where its meaning is plain. Obviousness decides whether a reader understands the value and decides nothing about whether an edit to one site will be matched at the other. A window length that both trims a stored series and divides a total taken across that window explains itself perfectly well and still has to be named, because the alternative is two literals that a later change separates without any sign that it has. This reason is the stronger of the two: the readability one costs a reader time, and this one produces a wrong answer.
+- Say which sites depend on it where the dependency is not visible from the name alone. A constant used twice in the same function needs nothing further; one whose second use is a divisor in a different function is exactly the pair a maintainer will break, and a line saying so at the definition is the cheapest guard available.
 
 ## Don't
 - Don't inline an unexplained literal; an engineer swapping `getMassUsTon()` for `getMassKg()` will not know the stray `907.1847` must also go, and silently returns wrong energy.
+- Don't conclude a value needs no name because its meaning is clear. That answers the readability question and no other, and a value whose meaning is obvious while two expressions quietly depend on it is precisely the one that survives review unnamed.
 - Don't assume the reader shares your domain knowledge — the kinetic-energy coefficients are meaningless to anyone who does not already know the formula.
 
 ## Checklist
 - Does every hard-coded value convey its meaning through a name?
 - Would someone modifying nearby code see that a related constant must change too?
 - Could this value or conversion be reused, and if so is it placed where others can find it?
+- Does more than one expression have to agree about this value, and would changing one of them look
+  like a complete edit while leaving the other behind?
 
 ## Notes
 The kinetic-energy example shows the failure mode precisely: because `907.1847` is an unnamed tons-to-kilograms factor, an engineer switching the mass unit leaves it in and breaks the calculation without realizing. Naming the value — as a constant, a provider function, or a conversion helper — costs almost nothing and makes both the value's identity and the consequences of changing surrounding code visible. This is a readability concern about legitimate constants, distinct from using an in-band magic value to signal an error.
+
+The two reasons to name a value are worth holding apart, because they qualify different values and only one of them is about reading. A value is named when a reader cannot tell what it means, and it is named when more than one expression has to agree about it — and the second applies to values that are entirely self-explanatory, which is why a rule gated on obviousness alone lets them through. A window length, a retry count, a buffer size: each is plain on sight and each may be depended on twice, once where it is applied and once where something is computed against it. The card's checklist has always half-asked this, in the question about whether a nearby edit would reveal that a related constant must change too; the rule now asks it directly, because the reader who needs the prompt is the one who has already decided the meaning is obvious and stopped.
 
 `VAR_draw_the_line_at_zero_and_one` disagrees with the foundation about who decides. Long names a value when its meaning is not obvious; McConnell answers that the author is the worst-placed person to rule on obviousness and draws a line instead — only 0 and 1 belong in the body of a program, and everything else gets a name whether or not it seems to need one. His demonstration is a loop from 1 to 12 over monthly figures, which is *probably* iterating months, and the word probably is the argument. He escalates it through a named constant, then a named loop index, then an enumerated type running January to December, and only the last removes the doubt entirely. Two additions travel with the stance and are worth taking even if the bright line is not: sweep the source for the digits 2 through 9 rather than waiting for a reviewer to notice, and never let one value appear as a named constant in one place and a literal in another — that mixture is worse than consistent literals, because changing the constant then looks like a complete edit and is not.
 

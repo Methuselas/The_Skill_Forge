@@ -36,11 +36,13 @@ variants: []
 
 ## Pattern Rule
 **IF** you are writing an expression that divides, multiplies, accumulates, or mixes numeric types
-**THEN** work out the largest and smallest value each term can take — including the values that only exist part-way through — and confirm the chosen types hold all of them.
+**THEN** work out the largest and smallest value each term can take — including the values that only exist part-way through — and confirm the types the arithmetic actually runs in hold all of them, which means finding those types rather than reading the ones on the page.
 **ELSE** when a term's range genuinely cannot be bounded, add a runtime check at that point rather than assuming the type is wide enough.
 
 ## Do
 - Estimate each term's maximum before choosing the type. If one factor tops out at 200 and the other at 25, the product reaches 5,000 and a 32-bit integer is ample; at 200,000 and 100,000 the product reaches 20,000,000,000 and it is not, so the type has to change before the code is written rather than after it misbehaves.
+- Find the type the arithmetic is performed in before trusting any of the above, because it is not always one you wrote. A width can be inferred instead of declared — from a starting value handed to a helper, from a declaration that takes its type from its initializer, from a template parameter settled by an argument. Where that happens the type governing the result never appears in the expression, and a check that reads the declared types reports everything in order.
+- Treat a running total as the case most exposed to that. A standard accumulation helper commonly takes its result type from the seed value it is given, so a bare untyped zero makes the total the default integer width while the elements, the combining step and the destination are all wider. Nothing in the surrounding code is wrong, every type visible at the call site is the intended one, and the sum silently runs in the narrow type. Give the seed the width you want the total to have.
 - Bound the intermediates separately, because they are where this actually bites. A product-then-divide such as one million times one million divided by one million needs to hold a million million part-way through, and in 32-bit integers it does not — the expression returns −727 rather than 1,000,000, and every value in it looks reasonable.
 - Watch for truncation the moment integers meet division. Seven divided by ten is zero in integer arithmetic, and that zero propagates: ten times the quantity seven-over-ten is zero, where multiplying first and dividing last gives seven. Reordering so divisions happen last is usually the whole fix.
 - Ask at every division symbol whether the denominator can reach zero, and write the guard where it can.
@@ -59,10 +61,14 @@ variants: []
 - Is any division here integer division, and is that what you meant?
 - Can any denominator be zero?
 - Are all the operands the same type, and if not, where exactly does the conversion happen and who chose it?
+- Which type is this arithmetic actually carried out in, and did you write that type or was it inferred from a
+  seed value, an initializer, or an argument?
 
 ## Notes
 What makes this class of defect distinctive is that nothing reports it. An overflow does not raise, a truncating division does not warn, and an implicit conversion is by definition the compiler doing what it was designed to do. The wrong answer arrives in the same shape as the right one, and it is often plausible — that is why the discipline has to run before execution rather than after, and why it belongs with reading code rather than with testing it.
 
 The intermediate-result case is the one worth memorising, because it defeats the obvious defence. Someone who has been bitten by overflow checks the result against the type's range, finds it comfortable, and moves on. The expression still fails, because the evaluation passed through a value the type could not hold and the damage was done before the final division brought the magnitude back down. The general form is that a type has to accommodate the whole evaluation, not the answer.
+
+An inferred type defeats the check in a way worth separating from the rest, because the reasoning that fails is the reasoning this card asks for. Bounding the terms and confirming the types is exactly right and reports success, since every type written down is wide enough; the arithmetic runs in one that was never written down. The tell is any construct that takes a type from a value rather than from a declaration, and the repair is to supply that value already carrying the width you intend rather than letting a literal decide it. This is also the case where the toolchain is most likely to be the only thing that notices, which is the specific reason the warning entry in the Don't list is not a formality.
 
 None of this argues for defensive arithmetic everywhere. The ranges of the common integer types are small in number and easy to keep at hand, most expressions are obviously safe once the terms are bounded, and the check takes seconds. The cost is only paid where it is needed, which is what makes it worth doing every time rather than after something has already gone wrong.
