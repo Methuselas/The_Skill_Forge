@@ -22,3 +22,7 @@ tmp/
 # 2026-08-15 removal of source staging both point the same way: the code under
 # test lives on disk, not in the repo.
 workspace/sources/
+# Drops that land at the workspace root rather than under sources/ - the art
+# project's periodic zip is one - are the same kind of thing and escape the
+# rule above only by where they happen to sit.
+workspace/*.zip
