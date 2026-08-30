@@ -433,7 +433,16 @@ def query_store(domain_dir: Path, scope_id: str | None, cues: list[str], limit: 
 
 
 def next_event_id(events: list[dict[str, Any]], domain: str) -> str:
+    # The prefix belongs to the store, not to how the caller spelled the domain.
+    # Deriving it from the argument lets "se" and "software-engineering" open two
+    # id series in one file, and the second one restarts at 0001 because the scan
+    # below only sees ids carrying its own prefix.
     prefix = f"{domain[:3].upper()}_EV_"
+    for event in events:
+        match = re.match(r"([A-Z]+_EV_)\d+$", str(event.get("event_id", "")))
+        if match:
+            prefix = match.group(1)
+            break
     highest = 0
     for event in events:
         event_id = str(event.get("event_id", ""))

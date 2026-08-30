@@ -62,6 +62,8 @@ variants: []
 - Distinguish the two classes: errors from something external (invalid user input, network down, corrupt file) are usually recoverable by the system as a whole; errors from a programming mistake (missing bundled resource, invalid hard-coded argument, missing initialization) usually are not.
 - Read recoverability off the call site: `PhoneNumber.parse("01234typo56789")` with a hard-coded literal is an unrecoverable programming error, while `PhoneNumber.parse(userInput)` is recoverable and deserves a friendly UI message.
 - Default to "caller might want to recover" whenever you lack complete knowledge of every call site, or there is any chance the code will be reused later.
+- Notice when the component has two separate surfaces, because then you do know and the default above is the wrong one. A library that takes declarations from a developer through one entry point and runtime data through another has already sorted its errors before any call happens: a malformed declaration is a mistake in code somebody wrote and can fix, and no amount of not knowing the callers changes that, while a value arriving through the data entry point may have come from anywhere. Classify by which surface was touched rather than by which call site touched it, and give the two classes distinct failure types so a caller cannot catch one while meaning the other.
+- Fire the declaration-surface checks at the earliest moment the declaration exists, not at first use. A misconfigured component that raises while it is being defined stops the program from starting, which is the outcome you want for a mistake in code; the same check deferred to first use turns a startup failure into an intermittent one that depends on which path ran.
 
 ## Don't
 - Don't assume an input error is a fatal programming error just because it is obvious to you; the invalidity may be buried in small print the caller never read.
@@ -71,6 +73,26 @@ variants: []
 - Could this error arise from external input rather than a programming mistake?
 - Do you actually know every caller and the origin of every value they pass?
 - If reused tomorrow, would your recoverable/unrecoverable assumption still hold?
+- Does this component take developer-authored declarations and runtime data through
+  different entry points? If so, which surface does this error belong to?
+- Can a caller catch the data failure without also catching the declaration failure?
 
 ## Notes
+The card's default is a response to not knowing, so it is worth being precise about the
+case where the knowledge is available. It arrives whenever a component is configured by
+one audience and fed by another: the configuration is authored in code by the developer
+integrating the component, and the data is whatever the running system hands over. Those
+two are not two call sites of one function, they are two interfaces, and the author of
+the component knows which is which even though they know nothing about who calls either.
+A mature library of this shape ends up with far more declaration-error sites than data-error
+ones, which looks backwards until you notice that the data path has a single funnel while
+every declaration option is its own way to get it wrong.
+
+Separating them into distinct failure types is what makes the classification usable rather
+than merely correct. A caller wrapping the data path in a handler is expressing that bad
+input is expected and survivable; if the declaration failure shares that type, the handler
+swallows a bug in the caller's own code and reports it as a rejected record. The two need
+different types precisely because the correct response to one is to continue and the
+correct response to the other is to stop.
+
 Long's phone-number example makes recoverability a property of context rather than of the error itself: the same `parse` failure is fatal from a hard-coded typo and recoverable from user input. Because a function author rarely controls all callers, the safe default is to treat input-caused errors as potentially recoverable and signal them, reserving "unrecoverable" for cases where the contract makes the invalidity obvious and the caller can cheaply check it first — a negative list index being the archetype.

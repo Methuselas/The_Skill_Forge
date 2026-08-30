@@ -20,6 +20,8 @@ tags:
 - design
 cross_links:
 - rel: related_to
+  target_object_id: PAT_pass_the_cancellation_signal_through_the_call_graph
+- rel: related_to
   target_object_id: PAT_break_one_of_deadlocks_four_conditions
 - rel: related_to
   target_object_id: PAT_match_the_problem_to_a_known_coordination_shape

@@ -120,6 +120,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Give a Shared Object Its Own Thread Instead of a Lock](PAT_give_a_shared_object_its_own_thread_instead_of_a_lock.md) - pattern; 0 design. Tags: concurrency, design, latency, patterns, threading.
 - [Give Each Waiter Its Own Location to Spin On](PAT_give_each_waiter_its_own_location_to_spin_on.md) - pattern; 0 design. Tags: cache, concurrency, contention, fairness, locking.
 - [Give Every Operation One Instant Where It Takes Effect](PAT_give_every_operation_one_instant_where_it_takes_effect.md) - pattern; 0 design. Tags: concurrency, correctness, data_structures, design, review.
+- [Hand Every Wait the Signal That Cancels It](PAT_pass_the_cancellation_signal_through_the_call_graph.md) - pattern; 0 design. Tags: cancellation, concurrency, interfaces, lifecycle, timeouts.
 - [Immutability Is a Guarantee You Have to Actually Check](PAT_verify_an_object_is_as_immutable_as_you_think.md) - pattern; 0 design. Tags: concurrency, immutability, invariants, state, threading.
 - [Keep a Lockstep Group on One Path](PAT_keep_a_lockstep_group_on_one_path.md) - pattern; 0 design. Tags: concurrency, control_flow, design, gpu, performance.
 - [Keep the Memory Alive Until the Compare-and-Swap Completes](PAT_keep_memory_alive_until_the_compare_and_swap_completes.md) - pattern; 4 final. Tags: concurrency, correctness, lock_free, memory_management, threading.
