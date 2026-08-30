@@ -1,0 +1,148 @@
+memory_schema_version: 1
+skillset: game-design
+memory_version: 1
+entries:
+- id: GAMEDESIGN_MEM_001
+  scope_type: topic
+  scope_id: mechanical_architecture
+  type: successful_tendency
+  evidence_class: stochastic_performance
+  observation: >-
+    Across multiple system teardowns, designs that reused a small mechanical vocabulary across many situations were easier to explain, compare, and extend than designs that required unrelated resolution families or conversion rules between subsystems.
+  confidence: repeated
+  status: active
+  diagnosis:
+    failure_layer: training
+    hypothesis: Reusable primitives reduce interface cost between subsystems while still allowing local specialization.
+  boundary: >-
+    Verified while analyzing Palladium Fantasy, Rifts Ultimate, Star Frontiers, and FrontierSpace; not yet tested through original system construction.
+  evidence_count: 3
+  evidence_events:
+  - GAMEDESIGN_EV_0001
+  - GAMEDESIGN_EV_0002
+  - GAMEDESIGN_EV_0003
+  evidence_origin:
+  - training_benchmark
+  - user_feedback
+  likely_owners:
+  - future mechanics architecture owner
+  - DRILL_reverse_engineer_a_game_through_play
+  interventions:
+  - training: Reverse-engineer contrasting rulesets by mapping resolution families and subsystem interfaces.
+    isolation_result: improved
+    retention_result: partial
+    transfer_result: improved
+  retrieval_cues:
+  - mechanical architecture
+  - resolution families
+  - shared primitives
+  - subsystem integration
+  runtime_scope: generic
+  last_verified: '2026-08-30'
+- id: GAMEDESIGN_MEM_002
+  scope_type: topic
+  scope_id: complexity_value
+  type: successful_tendency
+  evidence_class: stochastic_performance
+  observation: >-
+    Complexity was most defensible in the analyzed systems when an added rule created a meaningful decision, useful consequence, or reusable capability; procedural detail that only increased lookup, conversion, or bookkeeping was easier to identify as design debt.
+  confidence: repeated
+  status: active
+  diagnosis:
+    failure_layer: training
+    hypothesis: Asking what each layer of complexity buys in play is a productive diagnostic for healthy versus unhealthy crunch.
+  boundary: >-
+    Verified in comparative analysis of active defense, vehicle rules, FrontierSpace action economy, and legacy subsystem accretion; not yet calibrated against a new game designed from scratch.
+  evidence_count: 3
+  evidence_events:
+  - GAMEDESIGN_EV_0001
+  - GAMEDESIGN_EV_0002
+  - GAMEDESIGN_EV_0003
+  evidence_origin:
+  - training_benchmark
+  - user_feedback
+  likely_owners:
+  - PAT_evaluate_mechanics_by_the_decisions_and_agency_they_create
+  - future mechanics complexity owner
+  interventions:
+  - training: For each analyzed rule, name the player decision or consequence purchased by its execution cost.
+    isolation_result: improved
+    retention_result: partial
+    transfer_result: improved
+  retrieval_cues:
+  - crunch
+  - complexity
+  - bookkeeping
+  - meaningful decisions
+  runtime_scope: generic
+  last_verified: '2026-08-30'
+- id: GAMEDESIGN_MEM_003
+  scope_type: topic
+  scope_id: construction_system_breadth
+  type: known_boundary
+  evidence_class: stochastic_performance
+  observation: >-
+    A construction system can present many legal configuration choices while producing little meaningful build differentiation when a small set of parent variables determines most downstream capabilities and optimal choices converge.
+  confidence: provisional
+  status: active
+  diagnosis:
+    failure_layer: training
+    hypothesis: Configuration count is a poor proxy for conceptual breadth; same-class role-divergence tests expose false breadth more directly.
+  boundary: >-
+    Verified in the Knight Hawks versus FrontierSpace starship-design comparison; needs testing on additional construction-heavy games before broad promotion.
+  evidence_count: 1
+  evidence_events:
+  - GAMEDESIGN_EV_0004
+  evidence_origin:
+  - training_benchmark
+  - user_feedback
+  likely_owners:
+  - future construction-system owner
+  - DRILL_reverse_engineer_a_game_through_play
+  interventions:
+  - drill: Build the same broad object class for three distinct intended roles and compare whether the resulting play identities meaningfully diverge.
+    isolation_result: improved
+    retention_result: untested
+    transfer_result: untested
+  retrieval_cues:
+  - construction system
+  - build variety
+  - false choice
+  - configuration breadth
+  runtime_scope: generic
+  last_verified: '2026-08-30'
+- id: GAMEDESIGN_MEM_004
+  scope_type: topic
+  scope_id: extension_and_refactoring
+  type: successful_tendency
+  evidence_class: stochastic_performance
+  observation: >-
+    When a new requirement could be expressed through an existing mechanical vocabulary, extension stayed more coherent; repeated need for adapters, bespoke resolution rules, or exception chains correlated with designs that had grown beyond their original architecture.
+  confidence: repeated
+  status: active
+  diagnosis:
+    failure_layer: training
+    hypothesis: Testing existing primitives before adding a new mechanic is a practical refactoring trigger rather than a demand for one universal mechanic.
+  boundary: >-
+    Verified while contrasting Rifts subsystem accretion with FrontierSpace skill and action-check reuse; not yet tested during live refactoring of an original game.
+  evidence_count: 2
+  evidence_events:
+  - GAMEDESIGN_EV_0002
+  - GAMEDESIGN_EV_0003
+  evidence_origin:
+  - training_benchmark
+  - human_teaching
+  likely_owners:
+  - future mechanics architecture owner
+  interventions:
+  - training: Before accepting a new subsystem, attempt to express the requirement through current primitives and document where that attempt fails.
+    isolation_result: improved
+    retention_result: partial
+    transfer_result: improved
+  retrieval_cues:
+  - refactor
+  - add a new rule
+  - adapter rule
+  - exception chain
+  runtime_scope: generic
+  last_verified: '2026-08-30'
