@@ -48,9 +48,11 @@ No special setup required.
 5. Re-read your version and confirm the three questions are now answerable on a skim.
 
 ## Success Check
-- A skim-reader can state the subject, the result, and the required inputs without decoding.
-- Every vague label has been replaced by a name describing the thing's role.
-- Each precondition and quantity sits where it is needed, not stranded elsewhere.
+- The three questions are attempted against the original and the struggles recorded as they happen. Noted afterwards they become a tidy list of defects rather than a record of reading.
+- Each defect is named specifically and located, so the rewrite can be checked against it rather than against a general impression of improvement.
+- The rewrite is tested by a skim rather than a read, and what that skim produced for each of the three questions is written down.
+- Every quantity and precondition sits at its point of use, verified by walking the rewritten steps in order and confirming nothing is required before it appears.
+- The rewrite is checked for the opposite failure: steps split so finely the shape is lost, or names so long the sequence is harder to scan than the paragraph was.
 
 ## Common Failures
 - Renaming the labels but leaving the wall-of-text structure, so the steps still are not separable.

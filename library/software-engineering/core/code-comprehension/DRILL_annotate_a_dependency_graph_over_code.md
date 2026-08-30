@@ -58,9 +58,11 @@ The code printed on paper, or as a PDF on a tablet you can annotate. Three pen c
 7. Read the code from an entry point such as `main()`, following your own lines whenever you hit a call or an instantiation.
 
 ## Success Check
-- You can start at an entry point and reach any referenced definition by following a line, without searching.
-- The pattern of lines shows you where data flows before you have understood what the code computes.
-- You can name at least one method whose single invocation makes it an inlining candidate.
+- Variables, calls, and class instances are each circled in their own distinguishable colour before any line is drawn, and anything deliberately skipped is recorded. A gap left silently reads afterwards as an absence of dependency.
+- The entry-point read is performed by following drawn lines only, and every moment of searching the file instead is noted. Searching means a dependency was never drawn, and those omissions are the finding rather than untidiness.
+- The data flow is named from the shape of the lines and written down before the computation is understood. Written afterwards it is a summary of what was read, and the claim being tested is that the picture arrives first.
+- At least one single-invocation method is named, and the run says whether inlining it is right here. A method called once for the sake of a name is not a candidate, so the count alone does not decide it.
+- The densest region of lines is identified and compared against where reading was actually hardest, so the annotation is checked against experience rather than treated as self-evidently correct.
 
 ## Common Failures
 - Circling only the variables that look important. The value comes from completeness — a variable you skipped is the one you will hunt for later.

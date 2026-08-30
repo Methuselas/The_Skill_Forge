@@ -48,9 +48,11 @@ No special setup required.
 5. State what the function's author should therefore assume, given they cannot see all call sites — and note the rare exception where the contract makes the input obviously invalid and cheaply checkable.
 
 ## Success Check
-- Each call site is labeled recoverable or unrecoverable with the origin of its value named.
-- The hard-coded-literal case is identified as a programming error and the user-input case as recoverable.
-- You conclude the author should default to "caller might recover" absent complete call-site knowledge.
+- Each call site is written as code and labelled, with the origin of its value named. A verdict without the origin cannot be checked by anyone else.
+- At least three origins are covered, including one that looks internal and is not — a value from this system's own storage, which may have been written by an earlier version, a migration, or another process. The literal and the user input are the easy pair, and the drill turns on the third.
+- The author's default is stated as a consequence of not knowing the call sites rather than as a preference, and the signalling technique that expresses it is named.
+- The exception is bounded rather than merely acknowledged: a condition is given under which failing loudly is fair, together with a case that resembles it and is not.
+- The run states what changes when this function ships as a library, since its author has strictly less call-site knowledge and the same default therefore binds harder.
 
 ## Common Failures
 - Judging recoverability from the error type instead of the calling context.

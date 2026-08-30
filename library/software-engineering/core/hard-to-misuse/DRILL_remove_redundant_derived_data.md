@@ -48,9 +48,11 @@ No special setup required.
 5. Confirm an inconsistent instance can no longer be constructed, and, if you want to practice the expensive case, replace the primary values with a transaction list and add lazy caching under immutability.
 
 ## Success Check
-- The class no longer accepts the derived value as a parameter.
-- Building an inconsistent instance is impossible, not merely discouraged.
-- Any cached derived value is guarded by immutability so it cannot disagree with the primary data.
+- The inconsistent instance is actually constructed and its contradictory state recorded before any change. That it compiles is the defect; describing it is what the class's comment was already doing.
+- Primary and derived fields are separated with the derivation written as an expression, so the claim that one follows from the others is checkable rather than asserted.
+- Constructing an inconsistent instance is attempted afterwards and shown impossible, with the compiler's rejection recorded.
+- The cost is stated — recomputation on every read — and where that is unacceptable the cache is guarded by immutability so it cannot disagree with the primary data. A cache added without that guard reintroduces precisely the defect just removed.
+- Any other place in the class holding a second representation of the same fact is named, since one derived field is rarely the only one.
 
 ## Common Failures
 - Keeping the derived field but "validating" it in the constructor, which is weaker than making the bad state unrepresentable.

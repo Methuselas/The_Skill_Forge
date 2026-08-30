@@ -48,9 +48,11 @@ No special setup required.
 - Verify the new type enforces its own contract (no duplicates) rather than inheriting the base's.
 
 ## Success Check
-- The false is-a is identified by a concrete broken operation or invariant.
-- The remodeled type holds the other as a member and exposes only its own interface.
-- The contract that inheritance violated now holds.
+- The broken operation is written as code that compiles against the inheritance version and produces a wrong result when run. A stated invariant violation is the argument; the failing call is the evidence.
+- Substitutability is failed in practice, by passing the derived object where the base is expected and observing the breakage rather than reasoning about the relationship.
+- After remodelling, the base's interface is confirmed absent from the new type's public surface by listing that surface. A composition forwarding everything has reproduced the inheritance with more typing.
+- The forwarded members are enumerated with a reason each, and any member deliberately not forwarded is named. That omission is what composition bought.
+- The new type's own contract is exercised against the case that broke before and shown to hold.
 
 ## Common Failures
 - Keeping public inheritance because the base has convenient functions to reuse.

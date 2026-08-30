@@ -49,9 +49,11 @@ No special setup required. Paper or a scratch file. If you have already drawn a 
 5. On a second read of the program, use the completed table as a reference so you can attend to what the code means rather than to what the numbers are.
 
 ## Success Check
-- Every cell is filled. A table with gaps cannot be trusted as a reference, which was the whole reason to build it.
-- You can state which variables are actually driving the computation and which are carried along unchanged.
-- The second read is about the program's purpose rather than its arithmetic.
+- Every cell is filled, unchanged values included, and the table is checked for gaps before it is used. A table with holes cannot serve as the reference it was built to be.
+- The rule for what a row represents is fixed in advance and applied throughout, because a table whose rows mean different things in different places cannot be read across.
+- Variables driving the computation are separated from those carried along unchanged, and that separation is read off the table rather than recalled from the code.
+- The second read produces a statement of purpose rather than a restatement of the arithmetic the table already holds. If the output is more numbers, the table was not used as a reference.
+- Any value that came out surprising is marked. Nothing surprising means either the code was already understood, or the table was filled from what the code intends rather than by executing it.
 
 ## Common Failures
 - Filling in only the variables that look interesting. Hermans names this as the temptation to resist: the meticulous pass is where the understanding comes from.

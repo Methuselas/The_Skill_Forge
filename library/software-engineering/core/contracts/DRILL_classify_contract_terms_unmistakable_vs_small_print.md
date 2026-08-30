@@ -48,9 +48,11 @@ No special setup required.
 5. Note which small-print terms could be promoted to an unmistakable channel or removed by redesign.
 
 ## Success Check
-- Every contract term is written down and labeled by channel.
-- Each small-print term has a named consequence if it is ignored.
-- At least one overloaded or hidden term is identified as a candidate to promote or eliminate.
+- Every term is listed — preconditions, postconditions, invariants — and the list is built by using the class rather than by reading its declaration, since the declaration is where the unmistakable terms already live and the others are what is being hunted.
+- Each term names its channel specifically: which parameter, which return type, which comment. A label that does not say where the term is carried cannot be checked.
+- Each small-print term has a consequence written for a caller who never reads it, and at least one of those consequences is silent rather than a crash. The silent ones are what this exercise exists to surface.
+- A term whose channel carries two meanings at once is flagged separately from one that is merely undocumented, because the remedies are different.
+- Each promotable term names the channel it would move to and what that move costs, and anything not promotable says why. A list of candidates with no costs attached is a wish rather than a plan.
 
 ## Common Failures
 - Listing only the obvious terms (names, types) and missing the buried ones (setup order, overloaded null).

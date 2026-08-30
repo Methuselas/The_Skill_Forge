@@ -54,9 +54,11 @@ Cards or a spaced-repetition app, and a piece of code you are currently finding 
 7. Build the deck with your team where you can, so the vocabulary is shared.
 
 ## Success Check
-- You can produce a model's explanation and its application questions from the prompt alone.
-- A sweep of the deck against stuck code produces at least one candidate framing you would not have reached unprompted.
-- The deck grows from encounters with unfamiliar patterns rather than from copying a list.
+- Every card carries application questions and not only an explanation, and each question is answerable about a piece of code rather than about the model in the abstract.
+- The seed categories are covered, and any deliberately omitted are named with a reason, so the deck's shape is a decision rather than an artifact of what came to mind.
+- The stuck-code sweep is run against real stuck code and the candidate framing recorded, including when the sweep yields nothing — which is information about the deck rather than about the code.
+- At least one card came from meeting an unrecognised pattern rather than from copying a list, and its origin is noted on the card.
+- Producing a model from its prompt alone is tested by writing the explanation before turning the card, not by recognising the back as familiar once seen.
 
 ## Common Failures
 - Filling the deck with definitions you can recite but cannot apply — the appended questions are what make a card usable, and a card without them is trivia.

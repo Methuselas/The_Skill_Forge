@@ -53,9 +53,11 @@ A piece of code you have not read before, and the nine-point scale with a second
 6. Where a reason names a specific smell or a name-behaviour contradiction, route it to the matching diagnosis rather than leaving it as a feeling.
 
 ## Success Check
-- Every rating has a stated reason that names something about the code, not just about your state.
-- Across several entries you can identify at least one recurring driver specific to you.
-- You can distinguish load that came from the problem itself from load that came from how the code was written.
+- The code was genuinely unfamiliar and this is stated. A rating on code already read measures recall, and the scale cannot tell the two apart.
+- The rating is recorded before the reason is written, so the reason explains the number rather than the number drifting to fit a tidy explanation.
+- Every reason names something about the code — a construct, a distance, a name that misled — and any reason naming only a state of the reader is marked as such rather than counted.
+- Across entries at least one recurring driver is named and is specific enough to act on. "Complexity" recurring is the absence of a finding rather than a finding.
+- Load from the problem is separated from load from the writing, with one case of each identified. A run attributing everything to how the code was written has not made the distinction the scale exists to support.
 
 ## Common Failures
 - Rating without the reason column, which produces a number that cannot be acted on.

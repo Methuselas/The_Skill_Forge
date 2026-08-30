@@ -48,9 +48,11 @@ No special setup required.
 5. Try to reproduce the earlier misuses and confirm they now fail to compile or are impossible, and that the documentation explaining the shape is no longer needed.
 
 ## Success Check
-- The signature names the concept, so no documentation is needed to interpret it.
-- Swapping the two fields or supplying the wrong number of values no longer compiles.
-- Callers read self-explanatorily, using named accessors rather than positional indices.
+- Each misuse the general type permits is written as code that compiles today, before the dedicated type exists.
+- Each is retried afterwards and shown failing to compile, with the rejections recorded. A misuse that became merely unlikely is a different outcome, and the run says which of the two it achieved.
+- Callers read through named accessors, checked by searching for any surviving positional access and reporting the result of that search.
+- The documentation that existed only to explain the shape is deleted, and its deletion is the evidence that the type now carries what the prose was carrying.
+- The cost is named: a type to define and maintain, and conversions at every boundary where these values arrive as raw numbers anyway.
 
 ## Common Failures
 - Reaching for a pair type as the fix, which enforces the count but still does not name or order the fields.

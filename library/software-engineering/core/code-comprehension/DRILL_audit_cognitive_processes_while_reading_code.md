@@ -49,9 +49,11 @@ Choose three short snippets in languages or notations with different familiarity
 6. For one difficulty in each class, name the next action that would remove it.
 
 ## Success Check
-- Every snippet has a behavior explanation supported by specific code evidence.
-- The audit separates remembered knowledge, temporarily held facts, and mentally processed steps.
-- Each identified difficulty has a matching response rather than a generic instruction to reread harder.
+- Each snippet's behaviour explanation is written before the audit and quotes the code supporting it. An explanation produced after the analysis has been contaminated by it.
+- The three lists are kept disjoint, each item appearing in exactly one — retrieved from memory, held temporarily, or executed mentally. An item in two places means the distinction was not made, and that distinction is the drill.
+- The text ignored as irrelevant is written down. What was skipped is the part of reading nobody records, and it is where a wrong explanation usually begins.
+- Each difficulty is classified as missing knowledge, missing information, or overload, and the classification is justified by what would remove it rather than by how it felt.
+- The next action named for each class differs by class. If all three resolve to reading it again, the classification changed nothing and was not applied.
 
 ## Common Failures
 - Choosing snippets that all share one algorithm, which lets knowledge from the first hide the differences in later readings.

@@ -49,9 +49,11 @@ Select one method or function in an unfamiliar codebase written in a language yo
 6. Optionally improve a missing or misleading signal while preserving the codebase's conventions.
 
 ## Success Check
-- The final explanation is confirmed by evidence outside the initial guess.
-- Every recorded item names the hypothesis it supported or refuted.
-- The inventory distinguishes natural language, simple code elements, and compound structures.
+- Items are recorded verbatim as they land rather than reconstructed at the end. A list assembled afterwards keeps what turned out to matter and drops the signals that misled, which are the ones worth having.
+- Every item names the hypothesis it supported or refuted, and at least one refutation appears. An inventory containing only confirmations describes the conclusion rather than the reading.
+- The final summary is checked against something outside the reading — a test, a caller, documentation, a reviewer — and what that check changed is recorded, including when it changed nothing.
+- Simple and compound signals are distinguished, and one compound is decomposed into the simple items it was built from.
+- Any signal improved is checked against the codebase's existing conventions rather than personal preference, since a locally clearer name that disagrees with its neighbours costs more than it returns.
 
 ## Common Failures
 - Listing every identifier instead of only the elements that changed understanding.

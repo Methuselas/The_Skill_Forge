@@ -48,9 +48,11 @@ No special setup required.
 5. Remove any overloaded return meanings that only existed to signal an invalid state, and re-read the contract to confirm the small print is gone.
 
 ## Success Check
-- No external code path can produce an instance that is not fully initialized.
-- The constructor and all setup/mutator functions are private.
-- No return value carries a second meaning that only existed because of a possible invalid state.
+- Constructing an invalid instance from outside the class is attempted and fails to compile, with the rejection recorded. Privacy read off the declaration is not the same as having tried it.
+- The factory signals setup failure through its return, and the run states what a caller ignoring that signal receives. If ignoring it still yields a usable-looking object, the small print has moved rather than gone.
+- Every state-changing setup function is private, established by listing the public surface after the change and checking each member against whether it can produce a half-built state.
+- Return values overloaded only to express an invalid state are removed, each named along with what now carries that information instead.
+- The contract is re-read and whatever small print remains is stated. Something usually does, and a run reporting none has stopped looking rather than finished.
 
 ## Common Failures
 - Adding the factory but leaving the constructor public, so the invalid path still exists.

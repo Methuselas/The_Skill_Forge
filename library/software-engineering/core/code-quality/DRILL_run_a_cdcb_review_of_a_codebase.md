@@ -66,9 +66,11 @@ A codebase you maintain, ideally a library, framework or module that others call
 6. Re-run the review periodically. The recommendation is roughly annual; the dimensions that matter shift as a codebase ages.
 
 ## Success Check
-- Every dimension has a sentence, including the ones you marked irrelevant.
-- At least one dimension you had never considered turns out to matter here.
-- Each proposed maneuver has its negative side effect written down next to it.
+- Every dimension has a sentence, the irrelevant ones included, and irrelevance is argued rather than assumed. A dimension skipped in silence is indistinguishable from one never considered.
+- At least one dimension not previously considered turns out to matter, or the run states plainly that none did — which is itself a finding about the reviewer's habitual coverage.
+- Each judgement cites something in the codebase, so a later reader can disagree with the evidence rather than only with the verdict.
+- Every maneuver has its negative side effect written beside it, and at least one maneuver is rejected on that basis. A list of improvements with no rejections has not used the trade-off structure this framework exists for.
+- At least one pair of dimensions is named where improving one degrades the other in this codebase specifically, rather than in general.
 
 ## Common Failures
 - Reviewing the technical properties instead. Language, paradigm and runtime are not what this measures; the question is what the codebase does to a reader's brain.

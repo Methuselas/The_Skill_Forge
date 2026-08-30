@@ -48,9 +48,11 @@ No special setup required.
 5. Check that no refactored function can still return a value indistinguishable from a genuine result, and that no catch block silently swallows or merely logs.
 
 ## Success Check
-- Each function now signals failure rather than returning a plausible-looking success.
-- At least one caller per case handles the error visibly to the user or system.
-- No remaining return value conflates an error with a legitimate normal result.
+- Each disguise is run before the change with the wrong behaviour recorded — what was returned, and what the caller then did with it. Naming the bug is what the hidden error already allowed.
+- Each refactored function is checked against the substitution this exercise invites: the failure must not be re-encoded as another plausible value, and the run states what each now returns for the failing case.
+- At least one caller per case handles the failure visibly outside the program, and what a user or an operator would see is written down.
+- A catch that only logs counts as unfixed, and any surviving catch is named along with what it does besides logging.
+- Where a discard is genuinely correct — a failure the contract says cannot occur, or one raised while unwinding an already-failed operation — it is identified as such and the original failure is shown surviving. A run that signals everything has replaced one error with a noisier one.
 
 ## Common Failures
 - "Fixing" a swallowed exception by only logging it, which still hides the failure from the caller.

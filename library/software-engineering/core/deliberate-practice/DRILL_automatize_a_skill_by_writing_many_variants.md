@@ -53,9 +53,11 @@ One construct, chosen from whatever your phase diagnosis left in the cognitive o
 6. Stop when the construct passes the autonomous test — you can produce it while thinking about something else, and feel no need to check it.
 
 ## Success Check
-- You can write the construct in several shapes without pausing to recall the syntax.
-- Converting between the two equivalent forms is mechanical in both directions.
-- The construct no longer appears in the cognitive or associative column when you re-run the phase diagnosis.
+- The construct is small enough that one repetition takes seconds, established by timing one rather than by judging its shape.
+- The variants differ along stated axes — direction, step, bound, nesting — rather than being restatements. Many near-identical copies practise transcription instead of the construct.
+- The conversion is performed in both directions, and the reverse is where the comparison is recorded. Converting only forwards trains one mapping and leaves the equivalence unbuilt.
+- Sessions are short and spaced with dates recorded. One long burst is the condition this technique is defined against, and only the record distinguishes them afterwards.
+- The stopping test is the autonomous one — producing the construct while attending to something else — rather than the absence of a felt need to check, which arrives well before fluency does.
 
 ## Common Failures
 - Practising several constructs at once, which turns the drill back into ordinary programming and dilutes the repetition that does the work.

@@ -48,9 +48,11 @@ No special setup required.
 5. Pick which you would ship for a recoverable error and justify it against forced awareness and error detail.
 
 ## Success Check
-- Each version compiles in your head as a coherent function-plus-caller pair.
-- Checked exception, nullable, and result are labeled explicit; unchecked exception and magic value are labeled implicit.
-- Your final choice is justified by forced caller awareness and by whether error detail is needed.
+- All five versions are written as compiling function-and-caller pairs. Reasoning through them reproduces the table already in the reader's head and tests nothing.
+- Each caller is checked by attempting to ignore the failure, with the result recorded as compiling or not. That attempt is what assigns the labels.
+- Explicit and implicit are assigned from those results rather than from category, so an unchecked exception is implicit because the ignoring caller compiled, and the run says it in those terms.
+- What each technique carries is stated separately from whether it compels attention, so the nullable's silence about the reason and the result type's answer to it are visible as an independent axis.
+- The final choice names both axes and the case that would reverse it. A choice defended as best practice has not used the comparison it just built.
 
 ## Common Failures
 - Treating an unchecked exception as explicit because it can be caught — the caller is not forced to know it exists.

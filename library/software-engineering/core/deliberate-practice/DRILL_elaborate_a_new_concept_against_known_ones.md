@@ -51,9 +51,11 @@ No special setup required. A notebook or scratch file, used at the moment the co
 6. Name the paradigm, domain, library, or framework the concept belongs to.
 
 ## Success Check
-- The new concept has at least a few written connections to things you already knew, not just a definition.
-- You can state what the concept is an alternative *to*, which is usually what makes it retrievable later.
-- Coming back a week on, the related concepts you wrote down are enough to reconstruct the new one.
+- The related concepts are collected without filtering, and the ones later judged irrelevant stay on the page. Pruning during collection removes exactly the associations that were doing the elaborating.
+- Each connection is written as a reason, and the reasons are of more than one kind — shared syntax, similar context, an alternative to something already in use. Connections all of one kind mean one dimension was explored.
+- What the concept is an alternative to is stated explicitly, since that is what makes it retrievable later, when the alternative rather than the concept is the thing in hand.
+- Alternative ways to reach the same result are written as code, the longhand version included, rather than named.
+- The week-later check is performed and its outcome recorded. Whether the written connections reconstruct the concept is the claim being made, and it cannot be evaluated on the day it is written.
 
 ## Common Failures
 - Writing a definition instead of connections. A definition stored in isolation has nothing to be reached through.
