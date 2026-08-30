@@ -186,13 +186,15 @@ entries:
     The owned-to-unowned ratio does not hold steady across those runs and should not be treated
     as a constant - it appears to track how the slice was chosen more than how the codebase
     is written, which is the opposite of what the second run''s boundary anticipated. What
-    remains unverified is whether the same yield could be had inside one pass. The missing pass has since been added to the protocol as step 8, requiring every technique collected to arrive with the object id that owns it or with a statement of what was searched for and not found, and sorting each into owned, unowned, or owned but coarser than the practice. That fix has not been exercised: no review has been run through the amended protocol, so the entry moves to monitoring rather than resolved and closes when a run produces the second output without being asked for it separately. One run has since gone through the amended protocol and step 8 produced all three categories, including two cards judged right in direction and coarser than the code. The entry stays at monitoring because that run was made by the author of the fix in the same session, which is the weakest form the evidence could take.
+    remains unverified is whether the same yield could be had inside one pass. The missing pass has since been added to the protocol as step 8, requiring every technique collected to arrive with the object id that owns it or with a statement of what was searched for and not found, and sorting each into owned, unowned, or owned but coarser than the practice. That fix has not been exercised: no review has been run through the amended protocol, so the entry moves to monitoring rather than resolved and closes when a run produces the second output without being asked for it separately. One run has since gone through the amended protocol and step 8 produced all three categories, including two cards judged right in direction and coarser than the code. The entry stays at monitoring because that run was made by the author of the fix in the same session, which is the weakest form the evidence could take. Two further runs have since gone the same way, each on an unread slice in a different language, and each returned material the protocol would not have asked for before the amendment. All three share the same weakness, so the entry closes on a run by somebody who did not write step 8.
 
     '
   confidence: repeated
   status: monitoring
-  evidence_count: 4
+  evidence_count: 6
   evidence_events:
+  - SE_EV_0033
+  - SE_EV_0034
   - SE_EV_0029
   - SE_EV_0001
   - SE_EV_0002
@@ -735,14 +737,16 @@ entries:
     the core package, and confirmed by a full reading sweep of the three hundred and twenty four
     core patterns carrying an IF and THEN rule. The reading sweeps are evidenced for shapes
     checkable from card text and say nothing about defects that need a corpus to reveal, which
-    is a category this entry cannot see. Untested on the art and writing lanes, whose cards are
+    is a category this entry cannot see. A sharper limit has since been found: a reading sweep over every core pattern carrying a rule missed a card whose condition was gated on a class, because that card is correct for the case it describes and only its scope is narrow. Reading can separate a condition that is wrong from one that is right; it cannot separate a narrow condition from a correctly scoped one, because the two are identical on the page and differ only in whether a case exists outside the stated scope. That case has to come from code, which makes the cheap sweep and the expensive corpus read complements rather than substitutes. Untested on the art and writing lanes, whose cards are
     not language-bound and where the shapes may have no analogue. The claim that a flag overstates
     severity rests on every occasion so far and has no counterexample yet, which is weaker evidence
     than it sounds because the same runtime both raised and cleared the flags.
   confidence: repeated
   status: active
-  evidence_count: 9
+  evidence_count: 11
   evidence_events:
+  - SE_EV_0030
+  - SE_EV_0034
   - SE_EV_0012
   - SE_EV_0013
   - SE_EV_0014
@@ -963,9 +967,9 @@ entries:
     location, while the compiler inside the toolchain directory runs with no environment at
     all and is the one to reach for. Nothing here says the toolchains are correctly configured for
     building the corpora themselves, only for compiling small programs that isolate a
-    finding, which is the use that matters for review.
+    finding, which is the use that matters for review. Marked resolved because the contract this entry records is settled rather than pending: each toolchain was verified by compiling and running a program, and a toolchain that later stops working will announce itself the next time one is invoked rather than needing to be watched for.
   confidence: strong
-  status: active
+  status: resolved
   evidence_count: 3
   evidence_events:
   - SE_EV_0029
