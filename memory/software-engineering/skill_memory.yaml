@@ -186,11 +186,11 @@ entries:
     The owned-to-unowned ratio does not hold steady across those runs and should not be treated
     as a constant - it appears to track how the slice was chosen more than how the codebase
     is written, which is the opposite of what the second run''s boundary anticipated. What
-    remains unverified is whether the same yield could be had inside one pass.
+    remains unverified is whether the same yield could be had inside one pass. The missing pass has since been added to the protocol as step 8, requiring every technique collected to arrive with the object id that owns it or with a statement of what was searched for and not found, and sorting each into owned, unowned, or owned but coarser than the practice. That fix has not been exercised: no review has been run through the amended protocol, so the entry moves to monitoring rather than resolved and closes when a run produces the second output without being asked for it separately.
 
     '
   confidence: repeated
-  status: active
+  status: monitoring
   evidence_count: 3
   evidence_events:
   - SE_EV_0001
@@ -533,7 +533,7 @@ entries:
   evidence_origin:
   - runtime_self_audit
   likely_owners:
-  - PAT_enforce_contracts_at_runtime_with_loud_checks
+  - PAT_enforce_contracts_at_runtime_with_checks
   - PAT_make_the_development_build_fail_louder_than_production
   - PAT_fail_fast_near_error_source
   retrieval_cues:
@@ -697,4 +697,230 @@ entries:
   - blind
   - audit the names
   - review and report
+  last_verified: '2026-08-30'
+- id: SE_MEM_011
+  scope_type: topic
+  scope_id: how_a_card_fails_and_how_to_find_it_cheaply
+  type: successful_tendency
+  evidence_class: stochastic_performance
+  observation: >
+    Reading the library's cards against languages they were not written from produced four
+    recurring defect shapes, and three of the four are visible in the card text alone. A
+    universal IF paired with a THEN naming a mechanism only some languages have. An IF gated
+    behind a construct the problem does not need, where stripping the construct word leaves
+    the situation intact. Correct scoping, where the construct genuinely belongs in the IF and
+    nothing needs changing. And a rule stating one way of satisfying a requirement as though it
+    were the requirement, which reads as correct everywhere the named way happens to be
+    available. Sweeps conducted by reading card text found defects at a small fraction of the
+    cost of reading a corpus, and reached cards no corpus batch had covered because no corpus
+    exercised that topic in a language lacking the mechanism. A flag raised by a sweep reliably
+    identified where to look and was never once right about how much was wrong; every card read
+    in full before editing turned out to need less than the flag implied.
+  diagnosis:
+    failure_layer: knowledge
+    hypothesis: >
+      A card is written from one source in one language, so whatever that language supplies is
+      invisible to the author as an assumption. The dependence becomes findable because it has
+      to surface somewhere in the rule, and where it surfaces decides whether the card is wrong:
+      a mechanism named in the THEN is a defect, because the situation is universal and the
+      remedy is not, while the same construct named in the IF may be correct scoping. The fourth
+      shape is the same error one level up, a method standing in for a condition, and it is the
+      hardest to see because the method works everywhere the author has been. The operational
+      consequence is that a language the lane has never met is worth more per hour than another
+      corpus in a language it knows, and that a defect shape once named converts into a reading
+      sweep that costs almost nothing.
+  boundary: >
+    Four shapes drawn from repairs across C, C plus plus, Rust, Python and Go, most of them in
+    the core package, and confirmed by a full reading sweep of the three hundred and twenty four
+    core patterns carrying an IF and THEN rule. The reading sweeps are evidenced for shapes
+    checkable from card text and say nothing about defects that need a corpus to reveal, which
+    is a category this entry cannot see. Untested on the art and writing lanes, whose cards are
+    not language-bound and where the shapes may have no analogue. The claim that a flag overstates
+    severity rests on every occasion so far and has no counterexample yet, which is weaker evidence
+    than it sounds because the same runtime both raised and cleared the flags.
+  confidence: repeated
+  status: active
+  evidence_count: 9
+  evidence_events:
+  - SE_EV_0012
+  - SE_EV_0013
+  - SE_EV_0014
+  - SE_EV_0015
+  - SE_EV_0016
+  - SE_EV_0021
+  - SE_EV_0022
+  - SE_EV_0023
+  - SE_EV_0027
+  evidence_origin:
+  - runtime_self_audit
+  - user_feedback
+  retrieval_cues:
+  - test the cards
+  - card defect
+  - does this card apply
+  - another language
+  - language independent
+  - sweep the core
+  - repair a card
+  - escape clause
+  - the rule assumes
+  last_verified: '2026-08-30'
+- id: SE_MEM_012
+  scope_type: topic
+  scope_id: a_count_is_not_a_finding
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: >
+    Three separate times a measurement was correct and the conclusion drawn from it was not,
+    each by a different mechanism. A pattern that was right returned a real total from the wrong
+    region, so unwrapped calls came to one thousand one hundred and fifty six of which one
+    thousand and eighty three sat in files containing tests, and an assertion count was inflated
+    by examples living inside docstrings. A ratio arrived with an explanation already attached,
+    and the explanation about deliberate encapsulation survived until call sites were sampled
+    and showed the discriminator was simply whether an underlying failure existed. A keyword
+    sweep across three lanes matched forty three bullets of which six were genuine, the rest
+    being ordinary uses of the matched words. In every case the number itself was sound and
+    would have survived any review of the pattern that produced it.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      A total reads as a result because it was expensive to obtain and is hard to dispute, and
+      the three failures are what fills the gap between having a number and having a claim.
+      Region contamination is invisible because the pattern is correct. An invented cause is
+      persuasive because a clean ratio looks as though it contains its own explanation. A keyword
+      match is treated as a finding because scanning felt like the work. The operational form is
+      to state which region a number covers whenever it is reported, to sample instances before
+      naming a cause, and to treat any scan as a way of producing candidates for reading rather
+      than results. The ratio here was six real findings to thirty seven false, so reporting the
+      raw match count would have been wrong by a factor of seven.
+  boundary: >
+    Three sightings in one session by one runtime, across two source corpora and one sweep of
+    this repository, all caught before anything was published and therefore recorded as near
+    misses rather than as delivered errors. Distinct from the earlier entry on writing a search
+    against the wrong idiom, where the pattern itself was faulty; here every pattern was right.
+    Untested on whether stating the region up front prevents the contamination case, and untested
+    on measurements this runtime did not itself construct.
+  confidence: repeated
+  status: active
+  evidence_count: 3
+  evidence_events:
+  - SE_EV_0018
+  - SE_EV_0019
+  - SE_EV_0028
+  evidence_origin:
+  - runtime_self_audit
+  retrieval_cues:
+  - how many
+  - count
+  - measure
+  - density
+  - ratio
+  - sweep
+  - grep
+  - the numbers show
+  - percentage
+  last_verified: '2026-08-30'
+- id: SE_MEM_013
+  scope_type: topic
+  scope_id: density_baselines_from_production_code
+  type: known_boundary
+  evidence_class: stochastic_performance
+  observation: >
+    Two properties were measured across unrelated production codebases to give code under
+    review or under construction something to be compared against. Runtime checks outside test
+    files landed at five point zero per thousand lines in a long-lived C plus plus game, six
+    point zero in a C operating system, and six point one zero in a Rust command line tool, so
+    three teams in three languages with no shared convention agree to within a fifth. Concurrency
+    awareness in a monitoring server whose entire job is concurrent collection reached fifty six
+    of four hundred and fifty three production files, about twelve percent, with forty four
+    percent of all lock acquisitions sitting in eight files. Release form in that same codebase
+    split roughly evenly between scope-bound and released by hand, one hundred and eighty eight
+    against one hundred and fifty nine.
+  diagnosis:
+    failure_layer: knowledge
+    hypothesis: >
+      These are floors for noticing absence rather than targets to hit. Code carrying no runtime
+      checks at all is the outlier that wants explaining, and concurrency reaching far past a
+      handful of components is a sign it has leaked rather than been contained, because the
+      monitoring server is close to a worst case and still keeps eighty eight percent of its
+      files free of it. The even split on release form reads as defaulting to the form that
+      cannot be forgotten and narrowing where a hot path justified it, rather than as
+      inconsistency. Every one of these numbers is meaningless without its region stated, since
+      test files run far denser on checks and would roughly triple the first figure.
+  boundary: >
+    One codebase per language for the check density and a single codebase for the concurrency
+    figures, so these are reference points rather than distributions, and nothing here controls
+    for domain, age, team size, or house style. The Python corpus was deliberately excluded from
+    the check density because its count was contaminated by docstring examples and a fourth
+    figure would have weakened the three clean ones. All figures are counts over production files
+    with test files excluded. Untested against agent-written code, where an earlier entry records
+    a rate roughly twice the human one, so these baselines describe what humans wrote rather than
+    what is correct.
+  confidence: provisional
+  status: active
+  evidence_count: 2
+  evidence_events:
+  - SE_EV_0017
+  - SE_EV_0020
+  evidence_origin:
+  - runtime_self_audit
+  retrieval_cues:
+  - how many assertions
+  - assert density
+  - runtime checks
+  - is this enough
+  - too many locks
+  - concurrency spread
+  - review this code
+  - baseline
+  last_verified: '2026-08-30'
+- id: SE_MEM_014
+  scope_type: runtime
+  scope_id: what_changed_produced_output
+  type: successful_tendency
+  evidence_class: stochastic_performance
+  observation: >
+    Three method changes were tried and each was followed by a change in what a run produced
+    rather than only in what it claimed. A barrier attached to a named moment in the skill
+    entrypoint, with a fail-closed rule, changed produced code on its first test; the same
+    mechanism had been in the visual art entrypoint for image generation all along and the code
+    lane had none until it was added. Testing cards against a corpus rather than letting a corpus
+    decide which cards were tested made absence reportable, because a situation not found is data
+    about the card's relevance instead of a gap in the run. Searching loosely first to learn a
+    codebase's conventions before writing a precise pattern altered what a batch found, and later
+    caught two bad patterns whose totals would otherwise have been reported.
+  diagnosis:
+    failure_layer: orchestration
+    hypothesis: >
+      What these three share is that each attaches a requirement to a moment the runtime cannot
+      pass without meeting it, rather than adding advice it may or may not recall. The barrier
+      fires at a named point and fails closed. The card-driven order fixes coverage before the
+      corpus is opened, so the corpus cannot quietly choose the subject. The loose-then-precise
+      ordering puts a cheap observation before an expensive commitment. Guidance that does not
+      attach to a moment has repeatedly been present and unused, which is the failure the barrier
+      was written against.
+  boundary: >
+    Three changes, one runtime, all within a fortnight, and each evidenced by a single run or a
+    small number of them, so this is a direction rather than a measured effect. The barrier's
+    first test is one implementation and no control was run. The card-driven method was proposed
+    by the user rather than derived. None of the three has been tested against a runtime other
+    than this one, and none has been shown to survive a session where the entrypoint is not read.
+  confidence: provisional
+  status: active
+  evidence_count: 3
+  evidence_events:
+  - SE_EV_0006
+  - SE_EV_0007
+  - SE_EV_0011
+  evidence_origin:
+  - runtime_self_audit
+  - user_feedback
+  retrieval_cues:
+  - write the code
+  - before writing
+  - barrier
+  - skill entrypoint
+  - method change
+  - how should I run this
+  - coverage
   last_verified: '2026-08-30'
