@@ -51,11 +51,12 @@ Choose a rough poem with live material but an uncertain center or merely descrip
 7. If any candidate uses borrowed language, verify attribution and reuse requirements before treating it as selectable.
 
 ## Success Check
-- At least four candidates establish genuinely different entry conditions.
-- Each revision changes the poem in response to its frame rather than only changing the heading.
-- The selected candidate accurately prepares the opening without summarizing away the poem's discovery.
-- Its words gain, change, or deepen meaning after the ending.
-- The final choice can be defended by an effect the competing pairings do not produce as well.
+- The candidates have unlike functions — direct subject, charged phrase, defining relation, and a frame whose meaning shifts after the ending — rather than being variations on one idea.
+- The expectation each creates is written before revision, so the frame acts as a hypothesis rather than a description of what happened.
+- Each pass changes images, order, emphasis, voice, or ending where its frame demands it, and a pass that only replaced the heading is redone.
+- Headings are removed for the comparison, so drafts are judged on what they discovered.
+- The selected pairing is defended by both expectation and retrospective meaning, not by which title sounds best alone.
+- At least one pass produced something worth keeping in a draft that was not selected.
 
 ## Common Failures
 - Generating synonyms that all perform the same labeling function.

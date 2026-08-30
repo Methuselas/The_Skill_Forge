@@ -41,11 +41,12 @@ Choose six to twelve complete poems by one writer, including at least one appare
 7. Name one new subject that could test or expand the working theme instead of merely repeating its existing imagery.
 
 ## Success Check
-- Subject inventory precedes abstract interpretation.
-- The chosen account explains treatment and pressure, not only shared nouns.
-- An alternative and an outlier materially test the result.
-- Artistic quality and evidence of recurring concern remain separate judgments.
-- The final statement remains revisable enough to admit growth and precise enough to guide selection or inquiry.
+- Each poem's record covers subject, recurring objects, speaker position, action, attitude, question, turn, and ending pressure, so clustering rests on more than topic.
+- Clusters are built from repeated features with no abstract theme named, and differences of treatment inside each cluster are preserved.
+- Two competing accounts are written, and the second is a real alternative rather than a restatement of the first.
+- Both are tested against every poem, with support, contradiction, irrelevance, and forced interpretation marked separately.
+- The selected account explains the most consequential evidence while leaving meaningful differences and outliers intact rather than absorbing them.
+- At least one poem resists the chosen account and is recorded as resisting it.
 
 ## Common Failures
 - Reading only celebrated poems and mistaking editorial selection for the writer's complete pattern.

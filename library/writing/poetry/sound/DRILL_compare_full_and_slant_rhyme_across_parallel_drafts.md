@@ -39,10 +39,12 @@ Choose two journeys, memories, or events with a meaningful parallel. Draft each 
 5. Keep, loosen, redistribute, or remove sound according to the better fit for each incident.
 
 ## Success Check
-- Both drafts preserve precise event details.
-- Rhyme distance creates an audible difference without imposing a fixed mood.
-- Distribution supports rather than dominates movement.
-- Rejected matches are documented by their craft failure.
+- Both drafts retain the precise details of their incidents, so what is being compared is sound rather than content.
+- Neither draft places correspondence at every line ending, and neither uses every candidate its field offered.
+- The mapped distribution shows clustering, spread, approach, or recession rather than an even scatter.
+- The audible difference is described as a difference in movement, not assigned a mood the rhyme is assumed to carry.
+- Rejected matches are documented by the craft failure that rejected them — distorted syntax, filler, false closure.
+- Each draft's final treatment of sound is chosen for its own incident, rather than one approach preferred across both.
 
 ## Common Failures
 - Making the subjects so different that sound cannot be isolated.

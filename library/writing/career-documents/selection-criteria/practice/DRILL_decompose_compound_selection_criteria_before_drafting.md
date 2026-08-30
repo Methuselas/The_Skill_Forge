@@ -54,12 +54,12 @@ Choose three real or representative criteria: one knowledge or understanding cri
 7. Draft one direct opening claim for each criterion and read it against the mapped evidence. Reduce any level word the evidence cannot sustain.
 
 ## Success Check
-- Strength signals and subject requirements occupy different columns.
-- Every compound clause and capability descriptor is visible in the map.
-- Knowledge, understanding, ability, and demonstrated experience lead to meaningfully different proof plans.
-- Each retained example records candidate action and an outcome or consequence.
-- No mandatory condition is hidden inside persuasive prose.
-- Each opening claim is no stronger than its supporting evidence.
+- Each criterion is copied exactly, with the words setting response strength underlined before any example is chosen.
+- Every separately assessable element is circled, including those joined into a single clause. A compound criterion treated as one obligation loses marks silently.
+- Each strength signal is translated into a named evidence burden rather than a general intention to address it.
+- Every circled obligation has a specific qualification or example assigned, and obligations with no available evidence are recorded as gaps rather than left blank.
+- The map is complete before any response paragraph is drafted, which is the discipline this exercise exists to install.
+- At least one obligation surfaces that a straight reading of the criterion would have missed.
 
 ## Common Failures
 - Underlining occupational keywords while overlooking words that set the proof threshold.

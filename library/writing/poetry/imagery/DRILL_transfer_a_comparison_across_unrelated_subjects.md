@@ -43,10 +43,12 @@ Choose two unrelated concrete subjects and one comparison previously made for ea
 5. Cut forced correspondences and develop the stronger chain.
 
 ## Success Check
-- The original bridge is concrete enough to test elsewhere.
-- At least one transfer produces an unforeseen but intelligible relation.
-- The writing extends consequences rather than collecting synonyms.
-- Retained language serves the new subject independently of the exercise.
+- The original bridge is named as a specific property — material, action, shape, scale, function, relation — concrete enough to test elsewhere.
+- The transfer is attempted in both directions, and the weaker direction is recorded rather than quietly dropped.
+- At least one transfer produces a relation that was not foreseen and remains intelligible.
+- The writing follows the consequences of the likeness instead of accumulating restatements of it.
+- Forced correspondences are cut, including ones that were the reason for choosing the second subject.
+- Retained language works for the new subject on its own, without the exercise present to explain it.
 
 ## Common Failures
 - Choosing subjects already linked by an obvious category.

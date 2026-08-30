@@ -41,10 +41,12 @@ Select unlike words from several rhyme fields and add one full match for each. C
 5. Read aloud without explanatory performance and retain only independently audible humor.
 
 ## Success Check
-- Incongruity develops into a narrative or argumentative movement.
-- At least one conspicuous rhyme creates anticipation.
-- Rhythm delivers rather than obstructs the payoff.
-- The piece offers more than odd words that happen to rhyme.
+- The incongruous words produce a narrative or argumentative movement, not a sequence held together only by rhyme.
+- One match is identified as the most predictable and withheld to a delayed position.
+- The delay creates anticipation a reader feels before the payoff arrives, rather than merely postponing a word.
+- Rhythm delivers the completion, and lines that obstruct it are repaired rather than excused as deliberate.
+- Oddity producing no expectation or reversal is cut, including oddity the writer found funny.
+- The humour survives a reading without performance; a version that needs delivery to land is rejected on that ground.
 
 ## Common Failures
 - Assuming bizarre vocabulary guarantees laughter.

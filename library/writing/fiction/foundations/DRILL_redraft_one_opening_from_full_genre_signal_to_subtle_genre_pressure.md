@@ -51,12 +51,12 @@ Choose a story situation and a genre whose central reader promise you can state.
 7. Write the next three sentences and confirm that the selected signals create paths the story can actually continue.
 
 ## Success Check
-- Both openings create a recognizable anticipated experience without an explanatory genre label.
-- The subtle version uses fewer cues while preserving a legible contract.
-- At least one convention has been transformed by the story's particular circumstances.
-- The resisting detail complicates expectation without making the opening incoherent.
-- The continuation can fulfill, combine, or redirect the promise without arbitrary reversal.
-- Removed cues were redundant or clichéd rather than necessary orientation.
+- The anticipated reader experience is stated without leaning on the genre label, since the label is the thing under test.
+- The first opening uses at least four cues strongly enough that the genre is unmistakable rather than gestured at.
+- Each cue is marked with the expectation it creates, and cues repeating a promise another already makes are crossed out.
+- The redraft covers the same event at similar length using two cues, so what is compared is signalling rather than material.
+- At least one surviving cue is transformed through this story's particular character, location, relation, or social world.
+- The reduced version keeps useful expectation without becoming imitation, and what a reader would still anticipate is stated.
 
 ## Common Failures
 - Changing the event between versions so cue density cannot be compared.

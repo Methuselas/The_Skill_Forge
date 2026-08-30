@@ -52,11 +52,12 @@ Choose a completed short story or novel whose plot can be checked against the dr
 6. Revise only from those marks, restoring missing causal links before adding color. Compare the result with the manuscript and the chosen length limit.
 
 ## Success Check
-- An unfamiliar reader can identify the protagonist, governing problem, major turns, conflict, and ending.
-- Each retained turn has a visible cause or consequential relation to the next.
-- The synopsis discloses rather than advertises the story.
-- Removing scene texture has not made essential character choices or stakes unintelligible.
-- The finished account fits the practice or receiver-defined limit.
+- Every major turn appears in causal order with the choice, pressure, discovery, or consequence that produces the next one written beside it.
+- The prose is continuous and present-tense, with scenes, subplots, description, and backstory removed unless they alter the central causal line.
+- The climax, resolution, and ending are disclosed rather than withheld. This is a synopsis and not a pitch.
+- An unfamiliar reader's causal questions are actually collected, and each is either answered in the revision or recorded as deliberately unanswered.
+- Any turn that cannot be given a cause is marked as a gap in the story rather than smoothed over in the summary.
+- A reader who has not read the story can state why the ending follows.
 
 ## Common Failures
 - Ending on a hook because withholding feels more dramatic than disclosure.

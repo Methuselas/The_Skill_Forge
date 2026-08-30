@@ -53,10 +53,12 @@ Choose a subject simple enough that attachment to the first draft will not inhib
 5. Compare the poems only after the replacement is complete, checking whether each improvement changes the reader's experience rather than merely sounding more ornate.
 
 ## Success Check
-- Each diagnosed weakness produces a concrete instruction that can guide a new choice.
-- The replacement is newly composed rather than a decorated version of the failed draft.
-- Specific images, active language, and meaningful movement replace vagueness, cliché, and inertia.
-- The second poem works without the joke or explanation of the first poem beside it.
+- The bad draft fails by mechanism, exhibiting general emotion, received phrasing, slack verbs, predictable movement, and unnecessary explanation.
+- Each failure is labelled by its mechanism rather than by the judgment that the poem is bad, and the labels differ from one another.
+- Every label converts into an opposing instruction that could be followed by someone who never saw the draft.
+- The first draft is out of sight while the second is written, and no wording or sequence survives from it.
+- The new poem satisfies the instructions rather than merely reading better, and any instruction it failed is named.
+- What the exercise keeps is the set of instructions, not the bad poem that produced them.
 
 ## Common Failures
 - Making the first poem merely silly instead of exposing genuine bad habits.

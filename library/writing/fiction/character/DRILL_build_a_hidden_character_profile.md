@@ -63,11 +63,12 @@ Choose a central character from a planned or incomplete fiction draft. Have the 
 5. Cut any background sentence the scene does not need for orientation, causality, or emotional force.
 
 ## Success Check
-- The private notes make the character's likely actions and motives easier to predict.
-- The scene contains only a small fraction of the profile.
-- At least two withheld facts influence behavior even though they are not explained.
-- A reader can infer something accurate about desire or history from observable evidence.
-- The scene remains clear after unnecessary biography is removed.
+- The profile is written quickly and privately, covering the listed ground including the contradiction.
+- The three facts most likely to alter a decision under present pressure are marked before the scene is drafted.
+- The scene reveals at least two marked facts through action, speech, or attention, with the profile never stated.
+- Background sentences the scene does not need for orientation, causality, or emotion are cut, including ones the writer enjoyed producing.
+- What goes unused stays in the profile rather than being worked into the scene to justify the time spent on it.
+- The scene is legible to a reader who has not seen the profile, which is the only test of whether the pressure transferred.
 
 ## Common Failures
 - Treating the prompts as a questionnaire whose every answer must enter the draft.

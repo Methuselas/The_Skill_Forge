@@ -57,11 +57,12 @@ Choose a scene in which one character wants something, encounters resistance, an
 8. Remove, compress, or relocate any channel that performs no unique job. The final scene may use fewer than five when its effect is stronger without the quota.
 
 ## Success Check
-- Every retained channel reveals information suited to its particular access and efficiency.
-- Appearance participates in action, attention, or relation rather than remaining inventory.
-- Thought does not repeat speech, and interpretation does not explain an already legible gesture.
-- Speech changes a relation or available action instead of serving as voiced exposition.
-- The final scene is selected rather than obligated to display all five methods.
+- All five channels deliver evidence the scene could credibly carry, drafted before any is cut.
+- Interpretation compresses history, motive, or judgment that enactment would handle inefficiently, and the interpreting authority stays legible along with its possible bias.
+- Appearance arrives through movement, attention, or social response rather than completing a static portrait.
+- The action changes the situation or reveals a habitual response under pressure, rather than illustrating a trait already given.
+- Channels delivering the same evidence twice are cut or redistributed, and at least one is actually cut. A scene that keeps all five has not been tested.
+- Each retained channel does a job the others cannot, stated for each rather than assumed from its presence.
 
 ## Common Failures
 - Treating the five labels as a permanent formula for every scene.

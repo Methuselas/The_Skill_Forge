@@ -41,10 +41,12 @@ Choose one exact word from a live draft and prepare two sets of concentric rings
 5. Mark discoveries that strengthen sense and cut words retained only to prove the search occurred.
 
 ## Success Check
-- Degrees of relation are judged by sound rather than spelling.
-- The second field opens diction unavailable from the first center.
-- At least one association develops beyond a rhyme list.
-- Final selection rejects forced discoveries.
+- Degrees of relation are judged by sound as pronounced, and spelling matches that do not sound are rejected.
+- The search stops where the relation stops being audible rather than at a chosen number of rings.
+- The second field is centred on an edge word from the first and opens diction the first could not reach.
+- At least one association develops into writing rather than remaining an entry in a list.
+- Words kept only to show the search happened are cut, and their removal is part of the result.
+- Final selection rejects discoveries that force the sense, however far the search travelled to reach them.
 
 ## Common Failures
 - Treating every suffix match as equally strong.

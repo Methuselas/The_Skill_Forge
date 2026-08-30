@@ -51,11 +51,12 @@ Choose 60–120 words of your own rough poetic prose or a poem draft whose line 
 7. Choose the strongest governing arrangement. Only now alter wording, length, indentation, or group boundaries so the language and selected lineation support one another.
 
 ## Success Check
-- All initial versions use identical language, so lineation is the variable being tested.
-- Every retained boundary performs a named syntactic, rhythmic, sonic, imagistic, or attentional job.
-- Any temporary meaning is intelligible before continuation and becomes richer rather than merely corrected afterward.
-- The final arrangement creates useful variation between closure, propulsion, and suspension.
-- Oral and visual readings support the same governing movement or differ for a deliberate reason.
+- The unlineated copy is marked for clauses, stresses, charged words, images, sound recurrence, and breath units before any version is cut into lines.
+- The syntax-aligned and enjambed versions both exist in full, and the enjambment does real work: propulsion, exposure of an ending word, or a temporary assertion the next line revises.
+- The third version is built by asking what each line should hold under attention rather than by splitting the difference between the first two.
+- Versions are compared for what a reader is made to hold and anticipate at the boundaries, not for how they look on the page.
+- The revision moves toward one complete movement rather than assembling the best individual lines from different versions.
+- A boundary kept against the syntax is defended by what it gains, and one that gains nothing is undone.
 
 ## Common Failures
 - Wrapping at the available width and treating the resulting rows as choices.

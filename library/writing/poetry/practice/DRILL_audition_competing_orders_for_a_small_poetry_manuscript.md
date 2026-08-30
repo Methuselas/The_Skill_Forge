@@ -43,11 +43,12 @@ Choose six to twelve complete poems with at least two recurring concerns and mea
 7. Remove one poem and repeat the closing read to determine whether the manuscript becomes tighter or loses a necessary pressure.
 
 ## Success Check
-- Every version contains the same poems until the explicit removal test.
-- Each order follows a distinguishable logic rather than random shuffling.
-- Selection cites transitions, recurrence, energy, and closure instead of preference alone.
-- Strong individual poems are not automatically assigned fixed positions.
-- The final arrangement gives every inclusion and boundary a defensible job.
+- Membership is held constant across all three orders, so what is compared is arrangement.
+- All three are read continuously rather than inspected as lists.
+- Adjacency effects, repetition fatigue, and abrupt transitions are recorded during reading, not deduced afterwards from the profiles.
+- The strong poem is actually moved off its obvious peak and the result recorded, including where the move fails.
+- The selection or hybrid is defended by the experience the sequence produces rather than by the quality of individual poems.
+- The work performed by the ending is named, since a manuscript that stops is distinguishable from one that closes.
 
 ## Common Failures
 - Changing membership and order simultaneously so their effects cannot be distinguished.

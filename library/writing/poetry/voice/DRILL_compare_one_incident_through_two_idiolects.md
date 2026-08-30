@@ -45,11 +45,12 @@ Choose a remembered or invented incident that can be described in 150–250 word
 7. Place the versions side by side and annotate the exact choices that make each speaker legible.
 
 ## Success Check
-- Both accounts describe the same essential event without collapsing into identical summaries.
-- Each speaker notices, evaluates, and omits different material for intelligible reasons.
-- Syntax and figurative habits support the difference without relying on decorative accent.
-- The exchanged sentence exposes either a deliberate common ground or a place requiring revision.
-- Invented access remains identifiable as constructed perspective rather than factual testimony.
+- The constant facts are listed first, and for a real incident what is known is separated from what is inferred.
+- Each speaker's access, priorities, available vocabulary, unknowables, and risk in telling are stated before drafting.
+- The participant's account is drafted without consulting the witness list, so the difference is produced rather than arranged.
+- The stable facts survive both versions, checked against the list rather than against memory.
+- Selection, sentence movement, comparison, omission, and evaluation differ between the accounts. A difference carried only by pronouns has not tested idiolect.
+- What each speaker cannot know is visible in the telling itself rather than only in the planning notes.
 
 ## Common Failures
 - Changing the event so radically that the drafts no longer test voice against a stable incident.

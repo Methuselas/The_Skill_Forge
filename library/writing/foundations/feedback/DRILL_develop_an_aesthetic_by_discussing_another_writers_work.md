@@ -46,10 +46,12 @@ Choose one piece that every participant can read closely. Bring brief notes and 
 4. Finish by writing two concise statements of aesthetic preference and naming one craft move you want to test in your own work.
 
 ## Success Check
-- Every important claim points to a specific feature of the writing.
-- You can explain why you value a choice rather than stopping at praise or dislike.
-- The discussion includes more than one participant's reading without one voice controlling it.
-- You leave with at least one transferable craft observation.
+- Three specific choices are described from the piece, each locatable by another reader.
+- Each effect is stated before any judgment of it, and observation, inference, and taste remain separately labelled.
+- A different reading is invited and connected to evidence in the piece, not merely acknowledged as possible.
+- The participation adjustment runs in the direction this speaker actually needs, and room left for a quieter participant is real rather than offered.
+- The two preference statements name qualities rather than approving of the piece.
+- One craft move is named for testing in the writer's own work, which is what separates this from a review.
 
 ## Common Failures
 - Waiting only for your own work to be critiqued instead of studying what another writer's choices reveal.

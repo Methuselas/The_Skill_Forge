@@ -44,11 +44,12 @@ Choose an invented, transformed, or personally known incident with an action and
 8. For nonfictional material, verify that the final truth contract distinguishes report, transformation, and speculation.
 
 ## Success Check
-- The essential event and its governing change remain reconstructable.
-- Omitted motive produces supported openness rather than missing information.
-- Retained objects, actions, sequence, and consequences perform explanatory work without stating a single required interpretation.
-- Compression intensifies the incident without falsifying physical or causal relations.
-- Real and invented elements remain consistent with the work's truth contract.
+- The full account includes before, event, after, and at least three candidate motives, so the compression has something to remove.
+- Facts required for physical and causal possibility are marked differently from details carrying character, relation, setting, or consequence.
+- The compressed version removes explicit motive and explanatory transition while keeping enough sequence for a reader to orient.
+- At least one explanation is replaced by an action, object, command, question, or sensory consequence rather than simply deleted.
+- A reader without the full account can follow the event and infer a motive, and which motive they infer is checked rather than assumed.
+- The compression is defended by what became inferable, not by the reduction in length.
 
 ## Common Failures
 - Withholding motive before the writer has imagined enough context to select meaningful traces.

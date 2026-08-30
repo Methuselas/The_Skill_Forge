@@ -53,11 +53,12 @@ Choose a bounded body of writing whose reuse is permitted in the exercise contex
 7. Preserve the required attribution outside the poem and verify that the finished use fits the exercise, classroom, or venue expectations established in setup.
 
 ## Success Check
-- Every word in the poem comes from the selected source material.
-- Adjacent quotations generate discernible new relationships rather than a random scrapbook.
-- The sequence develops an effect across the whole poem.
-- Removing a selected line would subtract a specific transition, contrast, or accumulation.
-- Source tracking and reuse expectations remain clear even though the poem itself is a transformed arrangement.
+- Every line is intact and copied exactly, with its source retained in the working notes.
+- Sorting is by image, tone, syntax, sound, subject, and contrast rather than by original order, so the sources are broken up as material.
+- A desired movement is chosen before sequencing, so adjacency is made to serve something.
+- Each adjacency creates a relation absent from either line alone, and lines working only through fame or isolated beauty are removed.
+- The finished poem produces an effect none of the source passages produces, which is the entire claim of the form.
+- Any frame or constraint imposed to tighten a loose collage is recorded as a decision rather than absorbed silently.
 
 ## Common Failures
 - Depending on a recognizable quotation to supply importance without changing its context.

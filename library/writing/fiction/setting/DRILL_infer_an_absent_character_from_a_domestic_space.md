@@ -43,11 +43,12 @@ Invent one occupant with a public role, private pressure, and reason to be absen
 7. Reread the original description and retain only details that support the inferred person or the selected pressure.
 
 ## Success Check
-- A reader can infer a specific occupant without being told the person's traits.
-- The space distinguishes choice from inheritance, constraint, neglect, and concealment.
-- At least one possession carries meaning unique to its owner.
-- The story premise grows causally from the object rather than attaching an unrelated event to it.
-- The final description contains no decorative inventory whose removal changes nothing.
+- The passage stays within its limit and the occupant remains absent throughout.
+- Objects arise from at least three different relations — chosen, imposed or inherited, concealed or neglected — and a reader can tell them apart.
+- Direct trait labels and explanations of what the details prove are absent.
+- The five protected items include at least one another observer would find worthless or embarrassing. A list of dignified possessions has not done the work.
+- One possession becomes pressure through a claim, a memory, a contradiction, or a loss, rather than remaining an evocative object.
+- A reader's inference about the occupant is checked against what was intended rather than assumed to match it.
 
 ## Common Failures
 - Using wealth, tidiness, or taste as a complete personality diagnosis.

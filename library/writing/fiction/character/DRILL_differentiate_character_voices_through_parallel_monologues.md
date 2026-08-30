@@ -64,11 +64,12 @@ Choose two characters with different desires, knowledge, and relationships to on
 8. Compare what each voice conceals, assumes, and tries to make the listener do. Revise until those differences affect more than sound.
 
 ## Success Check
-- The monologues address comparable pressure but select and organize different evidence.
-- Each voice has a speakable rhythm rather than merely different vocabulary.
-- Differences arise from motive, knowledge, relationship, and habit rather than stereotype.
-- At least one sentence had to change substantially when transferred between speakers.
-- The reader can infer distinct attitudes and strategies without introductory character labels.
+- Each speaker's want from the listener and each speaker's unsayable are stated before drafting.
+- The second monologue is drafted without consulting the first's planned phrasing, so difference is produced rather than negotiated.
+- The voices differ in sentence movement, pace, directness, figurative habit, and selection of detail, not in dialect markers or verbal tics alone.
+- Shared phrasing is marked on reading aloud and revised, including where the shared phrasing is good.
+- Neither voice leans on a stock label; profession, class, or region does not perform the work the language should.
+- A reader can attribute an unlabelled line to its speaker, and any line failing that is named.
 
 ## Common Failures
 - Giving one character long sentences and the other short ones while their attention and motives remain identical.

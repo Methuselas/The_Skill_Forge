@@ -53,11 +53,12 @@ Choose a safe, readily accessible subject encountered often enough to feel visua
 7. Repeat later with a familiar subject from a different category and compare which kinds of assumption most often displaced observation.
 
 ## Success Check
-- The recall and observation records contain specific, checkable differences.
-- A changed vantage reveals at least one detail habit had suppressed.
-- The draft selects rather than inventories the newly gathered material.
-- Sensory evidence belongs to an observer and consequential moment.
-- Removing a retained detail would weaken the passage's changed understanding.
+- The remembered list is written before any observation and is not corrected afterwards.
+- The vantage is genuinely changed — crossing, reversing, pausing — rather than the usual pass performed more slowly.
+- What memory omitted, simplified, misplaced, or preserved and then altered is recorded in those categories, since each licenses a different move.
+- Senses are included as the subject supplies them, without filling a quota.
+- Three discrepancies are marked for what they alter — scale, atmosphere, character, function, history, meaning — not merely for having been wrong.
+- The passage discriminates more finely than the remembered version, and the improvement traces to a recorded discrepancy.
 
 ## Common Failures
 - Looking at the subject before completing the recall pass.

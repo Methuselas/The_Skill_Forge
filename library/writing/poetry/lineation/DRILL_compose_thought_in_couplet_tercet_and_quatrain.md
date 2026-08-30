@@ -40,10 +40,12 @@ Choose one concrete image or incident that contains a relation, change, or conse
 6. Select the strongest unit or combine two units into a larger stanza. Revise any boundary that pauses merely because the count has been reached.
 
 ## Success Check
-- Every version is complete enough to reveal the pressure created by its line count.
-- Closure, turn, and development arise from the language rather than from labels assigned in advance.
-- Syntax can cross a boundary when momentum requires it.
-- The selected unit gives the material neither too little nor merely decorative space.
+- All three versions carry the same material, so what differs is the container rather than the content.
+- The couplet is tested against enjambment where two end-stopped lines halt it, and the resulting choice is stated.
+- The tercet's third line turns, clinches, or refuses completion, and which of the three it does is named.
+- The quatrain develops rather than padding the tercet to length; its added room carries sequence, contrast, balance, or delay.
+- Sound is retained only where it strengthens the unit's movement, and rhyme kept for its own sake is removed.
+- Reading the versions in a changed order yields a statement of what each container did, rather than a preference for one.
 
 ## Common Failures
 - Padding the quatrain or amputating the couplet to satisfy arithmetic.

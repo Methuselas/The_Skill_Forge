@@ -55,10 +55,12 @@ Choose a subject currently expressed in flat, abstract, or uninspiring language.
 7. Read the draft once for literal coherence and once for figurative force, then remove any line that explains the comparison more fully than the poem needs.
 
 ## Success Check
-- The central relation remains understandable without relying on a familiar phrase.
-- Several parts of the poem grow from different implications of the same comparison.
-- The subject becomes more particular or complex rather than merely more ornate.
-- Surprise and fit survive together from the opening use through the final turn.
+- The literal description exists first, so the poem begins from what must be revealed rather than from an image already liked.
+- The first stock likenesses are written down and rejected, rather than avoided by never recording them.
+- Each candidate lists both credible similarities and productive differences. A candidate with only similarities has not been examined.
+- The selected comparison is the least predictable that remains fitting, and novelty that cannot stay fitting is discarded by that test.
+- Images, turns, and sequence come from implications of the relation rather than from restatements of it.
+- The poem holds for a reader who never sees the literal description.
 
 ## Common Failures
 - Choosing the first available vehicle because it already carries a conventional meaning.

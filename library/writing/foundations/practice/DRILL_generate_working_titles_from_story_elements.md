@@ -53,11 +53,12 @@ Choose a story, poem, essay, script, or other creative project with at least a p
 7. At the review point, repeat the attention sentence for the work as it now exists and keep, revise, or replace the title accordingly.
 
 ## Success Check
-- Candidates arise from at least four different elements rather than variations on one phrase.
-- The comparison identifies the emphasis and expectation created by each finalist.
-- Misleading, overnarrow, derivative, or prematurely revealing options are visible.
-- The selected title helps identify the project without pretending to be final.
-- A concrete review point prevents familiarity from deciding the final choice automatically.
+- At least four source categories produced candidates, and weak or obvious ones remain on the list rather than being edited away during generation.
+- Six meaningfully different candidates are selected, each with its sentence completing what the work seems chiefly about.
+- Candidates promising the wrong genre, revealing an unintended secret, overweighting a minor element, or depending on another work are marked as such.
+- The comparison concerns the attention each title directs rather than which sounds best.
+- The selection is temporary with a review point scheduled, so the title is held as a working decision.
+- At least one candidate survives as a live alternative rather than the list collapsing to a single answer.
 
 ## Common Failures
 - Polishing the first attractive phrase instead of generating a contrasting pool.

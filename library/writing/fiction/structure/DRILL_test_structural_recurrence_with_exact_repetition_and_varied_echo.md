@@ -51,12 +51,12 @@ Choose a planned or drafted story with a legible change in character, relation, 
 7. Read the story once with the recurring language highlighted and once without highlighting. Keep the pattern only if it remains perceptible in ordinary reading but does not dominate every transition.
 
 ## Success Check
-- The exact repetition establishes a useful continuity or expectation.
-- The varied echo is recognizable and records a consequential difference.
-- Both recurrences connect to the governing movement rather than merely decorating the prose.
-- Placement gives readers enough distance to remember and reinterpret each element.
-- The final recurrence produces inference without an explanatory gloss.
-- Removing either pattern creates a named structural loss.
+- The governing movement is stated in one sentence before drafting, with what each recurrence should let a reader remember, compare, or infer written beside it.
+- The exact element appears unchanged at least twice, and the echoed element returns in a recognizably altered form.
+- Each appearance has its context marked: who notices it, what it means at that moment, and what has changed since the last one.
+- Recurrences duplicating meaning without adding pressure, contrast, or unity are removed, including ones the writer finds satisfying.
+- Placement is tested by moving a recurrence, so position is chosen rather than inherited from the order of drafting.
+- The design stays unschematic: a reader feels the return without being able to predict the next one.
 
 ## Common Failures
 - Repeating conspicuous wording so often that the story announces its design.

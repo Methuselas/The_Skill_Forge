@@ -51,11 +51,12 @@ Choose one target role or role family. Prepare three headings for personal attri
 6. Convert one important unsupported quality into a concrete development action instead of publishing it as a present strength.
 
 ## Success Check
-- Each retained statement matters to the chosen role and has specific support.
-- The outside list was produced independently rather than prompted to confirm the self-description.
-- Agreement and disagreement are both represented in the reconciliation.
-- At least one overlooked strength or development gap is handled explicitly.
-- Final wording describes demonstrable contribution rather than a stack of flattering adjectives.
+- Each self-described quality carries an observed behaviour, result, qualification, or incident capable of substantiating it, rather than a restatement of the quality.
+- The observer works from the same headings and role without seeing the candidate's words, so agreement counts as evidence rather than as an echo.
+- The comparison keeps four categories distinct: agreement, different wording for the same behaviour, unsupported self-claim, and quality named only by the observer.
+- At least one unsupported self-claim is found, or its absence is examined rather than accepted as flattering.
+- Less flattering patterns are recorded as given rather than softened into development areas while being written down.
+- Reputation claims are separated from development gaps, and each claim can be delivered with its example attached.
 
 ## Common Failures
 - Selecting generic traits before naming the target work.

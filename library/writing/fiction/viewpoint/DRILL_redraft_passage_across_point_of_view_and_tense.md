@@ -62,12 +62,12 @@ Choose a passage of 250 to 500 words containing an event, at least two character
 7. Choose the version whose gains serve the story's central pressure, then revise it for consistent knowledge, tense, and voice.
 
 ## Success Check
-- Each version changes more than pronouns and verb endings.
-- Private knowledge remains within its established access boundary.
-- The conspicuous version has a credible narrative reason and a named payoff.
-- The selected tense governs hindsight, anticipation, and scene time consistently.
-- The selected speaker, addressee, and temporal distance remain credible beyond the opening.
-- The final choice can be defended by an effect another version cannot deliver as well.
+- The current position is fully marked — teller, participation, knowledge, timing, addressee, motive for telling now, and what readers cannot reach — before any redraft.
+- The first-person past version imports no knowledge the speaker lacks, checked line by line rather than assumed.
+- The third-person limited present version changes noticed details and interpretations, not only pronouns and verb endings.
+- The conspicuous third option is genuinely attempted rather than described as unsuitable.
+- Selection rests on an effect demonstrated for each version, not on which felt most natural to write.
+- What the chosen position cannot deliver is stated, since every position closes something.
 
 ## Common Failures
 - Keeping identical details even though a different observer would notice or name the scene differently.

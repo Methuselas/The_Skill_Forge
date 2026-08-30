@@ -54,11 +54,12 @@ Choose one real or representative entry-level advertisement. Prepare three colum
 6. Turn the strongest pairings into brief skill claims and assign each one a later proof location such as education, work history, achievements, training, or extracurricular activity.
 
 ## Success Check
-- Every retained capability comes from the target vacancy rather than a universal list.
-- Each claim names a concrete activity or responsibility that can survive interview questioning.
-- The matrix uses more than one credible setting instead of treating paid work as the only source.
-- Observer input adds independent incidents rather than unsupported praise.
-- Every opening claim has a defined section where the underlying evidence will appear.
+- The four to six capabilities come from what this employer actually requests, not from a generic employability list.
+- The inventory reaches past conventional employment into coursework, clubs, caregiving, volunteering, casual work, and self-directed ventures.
+- Each requirement pairs with a genuine moment recording the action performed, the setting or responsibility, and an observable result, recognition, or sign of trust.
+- A requirement with no supportable moment is recorded as a gap rather than filled with a plausible-sounding claim.
+- The observer check is actually sought, so at least one claim is tested against somebody who saw it.
+- Every claim would survive a question about what specifically was done, which is exactly where unsupported wording fails.
 
 ## Common Failures
 - Claiming teamwork merely because a team or group existed.

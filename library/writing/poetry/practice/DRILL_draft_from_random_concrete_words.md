@@ -52,10 +52,12 @@ Prepare a book, dictionary, or other varied body of prose and a timer set for fi
 6. Remove or replace forced words while preserving any image, action, or turn the constraint made possible.
 
 ## Success Check
-- The draft contains a discernible situation, movement, or field of tension rather than a list of unrelated curiosities.
-- Concrete nouns and active verbs carry more of the poem than modifiers or abstract explanation.
-- At least one unplanned relationship between words produces a usable image or turn.
-- Words retained after review serve the poem independently of the exercise rule.
+- The collected set favours specific things and clear actions, with abstractions rejected during collection rather than filtered out afterwards.
+- Nouns and verbs are balanced, and the list is not carried by adjectives and adverbs.
+- Relationships between the words are discovered in the drafting rather than settled in advance.
+- The stakes stay serious enough that incongruity has to make meaning; a draft resolving into an automatic joke is recorded as having taken the easier route.
+- The time limit is kept, since the pressure is part of the method rather than a convenience.
+- Earned surprises are separated from insertions that remain merely random, and the latter are removed rather than defended by where they came from.
 
 ## Common Failures
 - Selecting words that already imply one planned subject and thereby neutralizing the constraint.

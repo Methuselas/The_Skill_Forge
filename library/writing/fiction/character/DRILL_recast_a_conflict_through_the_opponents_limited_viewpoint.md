@@ -53,11 +53,12 @@ Choose a conflict with two legible positions and a consequential point of disagr
 7. Revise any sentence that sounds like a prosecutor mocking the character or an advocate excusing the result. Keep the person intelligible and the consequences intact.
 
 ## Success Check
-- The opponent's account uses knowledge and language available from that position.
-- At least one motive or pressure becomes more understandable without making the disputed conduct harmless.
-- Description and remembered facts change with the active viewpoint rather than only changing pronouns.
-- The character's self-justification is plausible but not automatically endorsed by the story.
-- Readers can identify both a defensible perception and a meaningful blind spot.
+- The default account is written first, including what the opposing character is thought to have wanted and got wrong, so the starting bias is on the page.
+- The opponent's stakes, noticed evidence, hidden pressure, and sincere self-description are listed before drafting.
+- The draft holds third-person limited, with no other character's private thoughts entering.
+- Setting, gesture, and dialogue are filtered through what this character notices rather than narrated alongside them.
+- The opponent's case becomes credible without the harm being erased or the disagreement dissolved. A version where the conflict evaporates has replaced the exercise with a reconciliation.
+- What the original account got wrong about this person is nameable afterwards, or the run states that nothing changed and why.
 
 ## Common Failures
 - Writing the opponent as secretly agreeing with the preferred side.

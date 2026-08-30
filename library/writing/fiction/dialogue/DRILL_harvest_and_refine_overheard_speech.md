@@ -51,11 +51,12 @@ Choose a busy public place where ordinary conversation is audible. Omit names an
 6. Read the result aloud and revise any line that sounds written rather than spoken or natural but purposeless.
 
 ## Success Check
-- The transcription contains features that polished prose normally removes.
-- The fictional version is substantially shorter while retaining audible spontaneity.
-- Each selected line reveals character, relation, information, or movement.
-- Invented context has replaced the identities and circumstances of the observed speakers.
-- The exchange survives an oral reading without phony formality or transcript clutter.
+- The transcription preserves fragments, interruptions, repetitions, and abandoned sentences rather than tidying them as it records.
+- Phrases are marked for revealing relation, attitude, desire, or rhythm, not for being quotable.
+- Greetings, filler, and repeated information are cut, including lines the writer enjoyed.
+- The invented exchange has a situation, so recombined moments carry pressure instead of sitting as a collage.
+- Added action or silence is the minimum needed to expose what the speakers do not state.
+- The reading aloud rejects lines that sound written, and equally lines that sound natural while doing nothing.
 
 ## Common Failures
 - Correcting the initial transcription into grammatical sentences before studying it.

@@ -44,10 +44,12 @@ Choose a value, emotion, condition, or recurring concern. Imagine it inside an o
 6. Restore the label only if it frames rather than explains the images.
 
 ## Success Check
-- Several senses generate distinct information.
-- The abstraction acquires behavior, limits, and relation.
-- An unexpected image retains emotional force after its origin is concealed.
-- The sequence develops through contact and consequence.
+- Each sense contributes information the others do not, rather than restating one impression in four registers.
+- The physical equivalents are exact enough to stand without the abstraction named beside them.
+- The presence acquires behaviour, limits, and a relation to the speaker, not a list of attributes.
+- The sequence develops through contact and consequence rather than accumulating description.
+- At least one image retains its force for a reader who cannot see its origin.
+- Any restored label frames the images; a label that explains them is rejected rather than tolerated.
 
 ## Common Failures
 - Naming the intended meaning after every image.

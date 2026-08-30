@@ -56,12 +56,12 @@ Choose a short prose passage with noticeable recurrence and make a working copy.
 8. Draft a new passage on unrelated subject matter using one verified mechanism. Revise until the repetition remains perceptible in ordinary reading without copying the source's distinctive language.
 
 ## Success Check
-- Grammatical, lexical, syntactic, and larger thematic recurrences are not collapsed into one count.
-- Placement and interruption are considered alongside frequency.
-- Every retained repetition performs a named effect beyond avoiding synonyms.
-- The elegant-variation comparison reveals what exact recurrence contributes or costs.
-- Interpretation remains distinguishable from observable verbal pattern.
-- Original material transfers a function rather than a recognizable verbal mannerism.
+- Reader effects are named before any device is marked, so the analysis explains an experience rather than manufacturing one.
+- Recurrence required by ordinary English is kept separate from chosen keywords, and conflating the two is treated as a measurement error rather than a shortcut.
+- Syntactic patterns are marked alongside lexical ones, including where a repeated construction is interrupted or varied.
+- Placement is plotted as immediate pair, dispersal, or return, since the same word at different distances does different work.
+- The elegant-variation rewrite is actually written, and what it loses is stated against the effects named at the start.
+- One verified mechanism transfers into original material and survives there, rather than being described as transferable.
 
 ## Common Failures
 - Treating every repeated article or conjunction as equally meaningful.

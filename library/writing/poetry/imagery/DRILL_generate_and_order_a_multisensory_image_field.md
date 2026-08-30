@@ -43,10 +43,12 @@ Place a safe ordinary object or substance within reach. Prepare separate spaces 
 5. Draft from the stronger order, then remove isolated dazzlers and strengthen transitions through recurrence, syntax, or lineation.
 
 ## Success Check
-- The field reaches beyond sight without unsafe tasting or mechanical sensory quotas.
-- Every retained comparison has an intelligible bridge.
-- The order changes perception rather than merely sorting similar items.
-- At least one image gains force from its position.
+- The field reaches beyond sight without filling a quota per sense and without tasting what should not be tasted.
+- Every retained comparison names the feature licensing it, and candidates resting on familiar phrasing are discarded.
+- Both orders are drafted, so the coherent progression and the disrupted one are compared rather than one being imagined.
+- The chosen order changes perception across the sequence instead of grouping similar images together.
+- At least one image gains force from its position, and the gain is attributable to placement rather than to the image.
+- Isolated dazzlers are removed even when they are the best single lines, and the transitions carry what they were doing.
 
 ## Common Failures
 - Stopping after the first obvious visual likeness.

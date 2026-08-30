@@ -50,10 +50,12 @@ Choose one named form, a reliable concise description of it, and at least three 
 6. Draft a short plan for a new poem that names the rules it will keep and one optional departure with its intended effect.
 
 ## Success Check
-- The map distinguishes different kinds of constraint instead of reducing the form to a line count.
-- Every claimed variation points to a concrete feature in an example.
-- The working specification explains how strict and altered executions remain related.
-- The new-poem plan can distinguish deliberate adaptation from an accidental miss.
+- Each applicable row states a rule checkable against a poem, and rows without evidence are marked not applicable rather than filled with an invented requirement.
+- Every example is annotated against every row, including rows it satisfies unremarkably.
+- Classification as governing, commonly variable, or uncertain rests on the pattern across examples rather than on the most admired one.
+- Each varied example has its surviving recognizable action stated, so variation is distinguished from abandonment.
+- At least one asserted rule is found not to govern, or its survival across every example is recorded as evidence rather than assumed.
+- The specification is usable by someone who has not read these particular poems.
 
 ## Common Failures
 - Treating the description as sufficient without checking how poems execute it.

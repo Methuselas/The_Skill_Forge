@@ -43,10 +43,12 @@ Choose a capture method usable across ordinary settings. Set a clear start and f
 5. Move the strongest entry into active composition and close the capture cycle.
 
 ## Success Check
-- Notes span several ordinary settings or moments.
-- Entries preserve perceptual particulars rather than broad topics.
-- Review distinguishes isolated novelty from expandable pressure.
-- At least one captured image moves into a draft.
+- Entries span several ordinary settings, including at least one the writer would not have chosen as material.
+- Each preserves a perceptual particular in its exact noun or verb, not a topic that would have to be reconstructed later.
+- Comparisons record the feature that prompted them, so the likeness can be tested rather than recalled.
+- The review separates isolated novelty from pressure that expands, and the distinction changes what is carried forward.
+- Three entries are extended under the clock, including one that fails to develop. A set in which everything develops was marked after the fact.
+- One entry enters active composition, so the cycle closes rather than leaving the notebook as its own product.
 
 ## Common Failures
 - Writing general reflections and labeling them images.

@@ -42,10 +42,12 @@ Choose a free-verse draft of at least twelve lines whose rhythm has not been del
 6. Read the baseline and revised versions unmarked. Keep the new structure only if listeners can hear the expectation and the departure without being told where they occur.
 
 ## Success Check
-- The proposed norm is supported by several lines rather than one attractive example.
-- Regularization removes slackness without turning the poem accidentally metrical.
-- A departure becomes more legible because the baseline is audible.
-- The writer can reject the norm when another organizing principle better explains the poem.
+- The scansion records stress, breath units, syntactic spans, density, and line length, so the norm rests on several channels rather than on line length alone.
+- The candidate norm is stated as a behaviour another reader could check, not as an impression of the draft's music.
+- Lines belonging to no group are marked rather than forced into one, and their number counts as evidence for or against the norm.
+- Three weak lines move toward the norm without acquiring a recurring foot or damaged syntax.
+- The consequential departure is placed where the poem needed one, and what it makes a reader notice is stated.
+- A norm requiring most of the draft to be rewritten is rejected as the wrong norm rather than pursued.
 
 ## Common Failures
 - Forcing every line into the most common count.

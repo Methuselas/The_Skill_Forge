@@ -56,12 +56,12 @@ Choose a bounded biographical, autobiographical, or historical question supporte
 8. Run an authority audit. Confirm that sound cues, dramatic pacing, source quantity, archival survival, and the writer's confident narration have not made one fragment prove more than its basis permits.
 
 ## Success Check
-- Every borrowed voice and document has a visible attribution route.
-- Exact words, paraphrase, reconstruction, and authorial interpretation remain distinguishable.
-- Arrangement creates development without inventing an exchange that never occurred.
-- Competing accounts retain differences relevant to access, position, and consequence.
-- Authorial bridges orient and interpret without impersonating neutrality.
-- Removing any fragment either damages the inquiry or reveals that the fragment was unnecessary.
+- Every fragment carries its classification, and none is promoted from paraphrase or reconstruction to quotation at any stage.
+- Each contributor's access, stake, audience, elapsed time, mediation, and exposure is mapped without being reduced to a credibility score.
+- Fragments are selected for establishing, answering, contradicting, or complicating the active question, and a vivid voice offering only atmosphere is excluded.
+- Disagreement between sources survives into the finished montage rather than being resolved by arrangement.
+- Authorial bridges are visibly the author's, so no bridge can be read as testimony.
+- What remains unresolved stays unresolved and is marked as such, rather than being closed by the shape of the ending.
 
 ## Common Failures
 - Writing plausible dialogue for a real person and presenting it as recovered testimony.

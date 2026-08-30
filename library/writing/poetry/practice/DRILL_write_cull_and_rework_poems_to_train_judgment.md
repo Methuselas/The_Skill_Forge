@@ -71,10 +71,12 @@ Choose a repeatable span such as several sessions or one week. Prepare a differe
 5. Compare the revised poems with the original set and record which qualities predicted worthwhile revision.
 
 ## Success Check
-- The cycle produced enough distinct drafts to require real selection.
-- Every draft received a reasoned disposition rather than automatic preservation.
-- Revision effort went to work with identifiable strengths or recoverable potential.
-- The final comparison sharpened at least one criterion for judging future poems.
+- The cycle produced several complete drafts, none held back for polishing while the rest waited.
+- Sorting happened after real distance rather than a nominal pause.
+- Every placement carries a concrete reason drawn from language, discovery, structure, or unrealized potential, and effort spent appears in none of them.
+- At least one draft the writer liked sits in the discard group. A sort that confirms every first impression has measured nothing.
+- The discard group is left alone for the cycle rather than quietly revised.
+- The comparison names which qualities predicted worthwhile revision, so the next sort has evidence behind it instead of the same instinct.
 
 ## Common Failures
 - Polishing the first draft indefinitely and never producing a field of alternatives.

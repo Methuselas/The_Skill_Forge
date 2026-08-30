@@ -40,10 +40,12 @@ Choose one awkwardly phrased factual sentence and five plain statements about fa
 6. Compare the final lines with their original meanings and restore any precision lost during metrical recasting.
 
 ## Success Check
-- Each line carries approximately five audible beats with a defensible iambic baseline.
-- Syntax and pronunciation remain natural without coaching.
-- A tested variation produces emphasis or fluency instead of hiding a failed pattern.
-- The recast statements preserve their essential meaning and voice.
+- Each line carries five audible beats over a defensible iambic baseline, judged by ear rather than from a diagram.
+- Syntax and pronunciation stay natural, and versions needing abnormal order, padding, or implausible stress are rejected even where they scan.
+- The essential meaning and voice of each original sentence survive the recasting, with any loss named where it occurs.
+- One licensed variation is tested per line, so its effect can be attributed to it.
+- Each licensed line sits between steadier pentameters and is read without stress marks before being kept.
+- A variation is retained only where it produces emphasis or fluency, never where it conceals a pattern that failed.
 
 ## Common Failures
 - Counting ten syllables without hearing alternating stress.

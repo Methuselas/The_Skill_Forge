@@ -55,11 +55,12 @@ Choose one page or brief section from a creative nonfiction draft that contains 
 7. Compare the original and rewritten passages, restoring only context whose absence creates a factual gap or breaks the intended turn.
 
 ## Success Check
-- The panel sequence makes the passage's essential action, observation, or change legible without extensive explanation.
-- The prose version remains a complete movement rather than a caption list or disconnected excerpt.
-- Five to ten short sentences carry more specific imagery and less abstract summary than the starting passage.
-- Every restored detail repairs a named loss of fact, orientation, or inquiry.
-- The final prose stands independently of the temporary drawings.
+- The active question or change is stated in one working sentence before any panel is drawn.
+- Each panel carries one visible action, object, spatial relation, or shift in attention, and an inert panel is removed rather than rescued by explanation.
+- The prose holds to five to ten short, uncomplicated sentences across the sequence.
+- Selected details carry factual orientation and implication together; a detail doing only one of the two is a candidate for cutting.
+- Every panel and sentence is tested by removal, not only the ones that look expendable.
+- The finished passage works as prose for a reader who never sees the panels.
 
 ## Common Failures
 - Spending practice time polishing drawings instead of testing selection and sequence.

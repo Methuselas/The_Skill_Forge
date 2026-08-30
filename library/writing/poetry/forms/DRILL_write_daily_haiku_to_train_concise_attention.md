@@ -53,11 +53,12 @@ Choose a repeatable span such as one week. Keep a quick capture method available
 7. Select one strong poem for further revision and write one observation target for the next cycle, such as movement, urban sound, seasonal change, or human gesture.
 
 ## Success Check
-- Every draft begins from a particular perceived moment rather than a prefabricated message.
-- Concrete sensory evidence carries the poem without a concluding explanation.
-- Compression removes slack language without making the situation unintelligible.
-- At least one detail or juxtaposition changes the reader's approach to the initial image.
-- Comparison across the cycle produces a specific attention or selection target for further practice.
+- Each poem begins from something actually perceived, with its particulars recorded before interpretation.
+- A detail, placement, or turn changes how the opening image is approached, so the poem moves rather than only observing.
+- Syllabic structure is used where it sharpens selection and departed from where an added word would damage sound, sense, or immediacy, and the departure is deliberate rather than accidental.
+- Explanation, generic emotion, decorative comparison, and unnecessary modifiers are removed.
+- The set is compared across the cycle so recurring habits surface, rather than each poem being judged alone.
+- At least one day is recorded as a failure of attention rather than reworked into an acceptable poem.
 
 ## Common Failures
 - Treating three lines or a correct syllable total as sufficient evidence of haiku.

@@ -43,11 +43,12 @@ Choose a place with a recognizable atmosphere and list six fixed facts that must
 7. Draft a third paragraph that shifts from one pressure toward the other while the character remains in place.
 
 ## Success Check
-- Both versions describe recognizably the same physical location.
-- The character's pressure changes attention and interpretation rather than merely adding emotion words.
-- At least one detail resists the character's mood and creates a mixed response.
-- The transition paragraph changes the place's felt meaning without replacing the setting.
-- The strongest differences can be traced to deliberate craft choices.
+- The six fixed physical facts survive both passages unchanged, checked against the list rather than against memory.
+- The versions differ in which details recur, which become newly visible, and which receive a different interpretation, and all three kinds are present.
+- The relation between the place's conventional atmosphere and the character's state is decided rather than defaulted, with support, resistance, guilt, relief, or alienation named.
+- Direct emotion labels are absent from both passages.
+- Any fact altered only to make the second version easier is restored, since that alteration is the failure this exercise is arranged around.
+- The three underlined details carry the difference on their own, without the governing pressure stated beside them.
 
 ## Common Failures
 - Replacing the place with different weather, furniture, or geography in each version.

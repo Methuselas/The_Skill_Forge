@@ -58,12 +58,12 @@ Choose a birth, early childhood episode, family event, historical interval, or o
 8. Recheck the chosen opening after drafting the larger work. Replace it if the gap was merely decorative or if the project discovered a different governing pressure.
 
 ## Success Check
-- The opening distinguishes direct knowledge, report, inference, impression, reconstruction, and irrecoverable absence.
-- Researchable facts have been checked rather than theatrically withheld.
-- Qualification is exact enough to preserve trust without smothering the prose in generalized doubt.
-- The missing information changes the inquiry, relationship, or stakes.
-- Reader curiosity arises from a consequential limit rather than fabricated mystery.
-- The opening's promise remains active in the work that follows.
+- The nonfiction truth contract and current motive are stated before drafting, since together they set what reconstruction is permitted.
+- The evidence table separates directly known, documented, reported, inferred, felt or imagined, and unknown, and disagreements remain unresolved rather than settled by preference.
+- Checkable facts are checked proportionately, and where a report is the only basis, who reported it and with what confidence is preserved.
+- Both openings are written, so qualified reconstruction and explicit acknowledgment are compared rather than one chosen in advance.
+- Neither version lets an inference migrate into the documented category, verified against the table rather than against memory of it.
+- The choice is defended by what each opening does for the larger project's question, not by which reads more smoothly.
 
 ## Common Failures
 - Narrating an inaccessible event with cinematic certainty because the scene is plausible.

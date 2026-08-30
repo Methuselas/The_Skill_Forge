@@ -51,11 +51,12 @@ Choose a fiction draft that uses one or two recurring locations. Prepare a blank
 6. Mark which few spatial facts readers require for orientation and leave the rest as private continuity knowledge.
 
 ## Success Check
-- Every consequential movement fits the established geography and elapsed time.
-- Repeated locations preserve entrances, distances, and sightlines unless the story explains a change.
-- The place creates at least one useful constraint or opportunity for action.
-- Readers receive enough information to follow movement without being shown the complete map.
-- A removed descriptive detail remains available in the writer's design without becoming a continuity hole.
+- Boundaries, entrances, exits, fixed features, and sightlines are drawn before any route is traced.
+- Distances and ordinary travel times are recorded, since contradictions surface in duration more often than in geography.
+- Every scene's route is traced with entries, stops, observations, and exits marked, including scenes assumed to be simple.
+- Contradictions are circled rather than resolved in passing, and at least one is found. A map producing none was drawn from the draft rather than tested against it.
+- Each contradiction is repaired in whichever of map or draft better serves character and event, with the choice recorded.
+- How much a reader needs is decided last, so the full map exists to be withheld rather than never built.
 
 ## Common Failures
 - Drawing attractive scenery without mapping character routes.

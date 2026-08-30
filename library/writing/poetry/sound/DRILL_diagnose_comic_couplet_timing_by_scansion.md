@@ -41,10 +41,12 @@ Choose a comic couplet or short rhyming unit whose final match is predictable bu
 5. Keep the version whose rhythm makes prediction pleasurable without damaging clarity.
 
 ## Success Check
-- Stress is marked by hearing rather than spelling.
-- The point of rhyme recognition and the point of delivery are distinguishable.
-- Revision changes timing while preserving the semantic joke.
-- The chosen version works without performance rescue.
+- Stress is marked from speech rather than spelling, with promoted and demoted syllables distinguished.
+- The point where the rhyme becomes predictable and the point where it is delivered are marked separately.
+- Each version alters timing while leaving the semantic joke intact; a version that changes the joke is set aside as a different poem.
+- The comparison names the interval between recognition and release, not merely which version reads better.
+- Every reading is done without exaggerated performance, and a version rescued by delivery is rejected for that reason.
+- The kept version makes prediction pleasurable without costing clarity, and any trade made is stated.
 
 ## Common Failures
 - Assuming rhyme alone supplies timing.

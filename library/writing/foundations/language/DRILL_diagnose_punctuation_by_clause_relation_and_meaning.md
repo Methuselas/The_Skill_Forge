@@ -52,11 +52,12 @@ Choose or prepare a passage of eight to twelve sentences with punctuation remove
 8. Record the two punctuation situations that required the most reasoning, then repeat the exercise later with new material containing those relationships.
 
 ## Success Check
-- Every major mark can be justified by a grammatical or logical relationship.
-- Independent clauses are separated or linked by a structure capable of carrying their relationship.
-- Alternative versions remain grammatical and produce named changes in force or pace.
-- Ambiguity is repaired through wording when punctuation alone is insufficient.
-- House style is distinguished from correctness and deliberate craft variation.
+- Independent clauses are identified before any mark is placed, along with subordinate clauses, parentheticals, coordinated items, questions, quotations, and fragments.
+- Each boundary carries a stated relation, so the mark follows the relation rather than the ear alone.
+- No words are changed, and independent sentences are never joined by a comma alone.
+- Three boundaries carry a second grammatically defensible version, so the comparison runs between real alternatives rather than between correct and incorrect.
+- The versions are compared for meaning, emphasis, suspense, and pace, and at least one comparison changes the meaning rather than only the rhythm.
+- The retained choice is defended by the relation it marks, not by a preference for a particular mark.
 
 ## Common Failures
 - Inserting marks wherever the reader might breathe without identifying sentence structure.

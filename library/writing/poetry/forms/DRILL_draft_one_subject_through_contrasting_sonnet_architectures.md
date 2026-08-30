@@ -44,11 +44,12 @@ Choose a bounded place, object, relation, or remembered situation with enough te
 6. Compare what each architecture discovered, compressed, delayed, or forced. Select one, hybridize deliberately while naming the retained governing action, or reject both when the material requires another form.
 
 ## Success Check
-- Both drafts use the same generative field, making architectural effects comparable.
-- Each version has a consequential turn rather than a change in rhyme alone.
-- Units develop thought instead of serving as empty line-count containers.
-- Any loosened convention is identified and justified by a stronger result.
-- Selection follows what the form generates, not which version was easier to complete.
+- Both specifications separate fourteen-line structure, stanza movement, turn placement, meter, and rhyme, so optional conventions do not masquerade as the form.
+- The same field of material feeds both versions, which makes architecture the variable under test.
+- The octave establishes and complicates one pressure, and the sestet answers, reverses, widens, or reframes it rather than continuing it.
+- Each quatrain occupies a distinct stage, and the closing pair spends a prepared consequence rather than attaching a surprise.
+- Rhyme and meter are tested without being allowed to determine the thought, and lines shaped only to complete a scheme are marked.
+- The choice is defended by what each structure made the thought do, not by which version reads more smoothly.
 
 ## Common Failures
 - Drafting two unrelated poems and attributing their differences to architecture.

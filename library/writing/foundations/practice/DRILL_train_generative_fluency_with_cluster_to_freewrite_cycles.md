@@ -55,11 +55,12 @@ Prepare separate blank pages and a timer. Choose several cues across unlike cate
 7. Repeat with unlike cues in later sessions. Increase difficulty by starting from broader abstractions and requiring the selected freewrite to reach concrete people, objects, actions, or sensory particulars.
 
 ## Success Check
-- Every cluster contains more than one branch rather than a disguised linear list.
-- At least one association was not predictable from the starting cue alone.
-- Each cycle crossed from visual association into continuous exploratory prose.
-- The review identified material usable for a draft or a more focused inquiry.
-- Later cycles show quicker entry or stronger movement from abstraction toward concrete material.
+- Entries are written without correction or explanation, and each branch connects to the node that produced it.
+- Stalled branches restart from the nucleus or another node rather than being forced onward.
+- The cluster stops at its fixed interval rather than when it feels finished.
+- The selected node is chosen for specificity, tension, surprise, embodiment, or verbal energy, and explicitly not for appearing most often.
+- The freewrite runs from that node under its own bounded interval and produces material rather than commentary on the cluster.
+- The cycle repeats, since a single pass measures a mood rather than training fluency.
 
 ## Common Failures
 - Judging, spelling, or arranging nodes while the cluster is still forming.

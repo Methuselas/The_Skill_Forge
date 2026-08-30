@@ -44,11 +44,12 @@ Choose an animal or object available for direct observation or accurate referenc
 8. Add a brief private note stating what is observed, what is invented, and which interpretations the poem deliberately leaves open.
 
 ## Success Check
-- Observable properties and affordances materially shape the speaker's noticed world.
-- Desire and limitation create development beyond the opening conceit.
-- Syntax and sound support the persona without becoming a single repeated trick.
-- The poem permits construction and metaphor without presenting invention as the subject's actual consciousness.
-- Removing the nonhuman speaker would erase a necessary way of interpreting the material.
+- Ten concrete properties or actions are recorded separately from the five human meanings, and the two remain distinguishable in the draft.
+- One desire, one limitation, and one addressee are chosen and generate pressure across the poem's length rather than being announced at the opening.
+- What the speaker can perceive from its position is decided, and the draft holds to that range even where a wider view would be convenient.
+- Detail, syntax, pacing, and sound take shape from the subject's form or action, and the governing device is never named.
+- The neutral four-sentence description is written and compared, with the differences in nouns, verbs, and order identified.
+- The persona claims no access to an actual consciousness, and any line asserting interior knowledge is revised into evidence.
 
 ## Common Failures
 - Beginning from a species stereotype or object pun and never moving beyond it.

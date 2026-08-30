@@ -56,11 +56,12 @@ Choose a character seed under a fiction truth contract. Record five plain facts 
 7. Compare the scene with the original seed. Mark the decisions, details, and relationships that now arise from the changed life rather than from cosmetic concealment.
 
 ## Success Check
-- The selected change affects more than appearance, label, or demographic substitution.
-- Consequences extend through material conditions, relationships, and behavior.
-- The transformed biography remains internally consistent after the change.
-- The draft does not rely on stereotype to supply the missing causal steps.
-- At least one scene-level choice would be unavailable or implausible under the original facts.
+- Each counterfactual alters a meaningful condition rather than a name or a surface trait.
+- The selected change names what becomes newly possible, newly difficult, or newly expected, so the pressure is stated before it is traced.
+- Three consequences follow in order, and each is caused by the one before it rather than merely listed after it.
+- The chain is audited for unsupported stereotype, and at least one assumed behaviour is replaced by a consequence grounded in this character's circumstances, desires, and available options.
+- The drafted scene could not occur under the original conditions, and what makes it impossible is identifiable.
+- The change earns its place by what it opened, not by being the most dramatic candidate available.
 
 ## Common Failures
 - Changing several facts at once so no consequence can be traced clearly.

@@ -56,11 +56,12 @@ Choose a bounded passage about a real person that you are entitled to portray. C
 8. Finish with a sentence or action that leaves the person specific and the narrator's regard legible without converting either into a universal lesson or complete life judgment.
 
 ## Success Check
-- The governing emotion remains perceptible even if most emotion labels are removed.
-- Particular evidence does more than decorate an already fixed verdict; it develops or complicates the regard.
-- At least one retained detail prevents idealization, demonization, or generic memorial language.
-- Observable conduct, reported material, inference, and narrator judgment remain distinguishable.
-- The ending closes the bounded movement without claiming to explain the whole person.
+- The governing regard is stated in one precise phrase rather than as general warmth or hostility.
+- Generic declarations are circled and removed, with any survivor kept for a placement or phrasing that creates a necessary turn.
+- Three to five particulars come from different channels, so the evidence is not all speech or all action.
+- At least one particular complicates the dominant regard rather than confirming it.
+- The emotion remains strong once the declarations are gone; where it weakens, the missing work is identified rather than a declaration restored.
+- A reader who does not share the writer's relation to the subject arrives at the regard from the evidence alone.
 
 ## Common Failures
 - Replacing generic praise or blame with picturesque details that reveal no conduct, relation, or consequence.

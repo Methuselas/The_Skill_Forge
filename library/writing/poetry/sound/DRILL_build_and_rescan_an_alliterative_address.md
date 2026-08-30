@@ -51,11 +51,12 @@ Choose a concrete nonhuman addressee—a food, tool, appliance, vehicle, place, 
 7. Read the unmarked revision aloud once more and verify that the pattern remains audible without exaggerated performance.
 
 ## Success Check
-- Recurrences are verified by pronounced sound and stress rather than initial letters alone.
-- Several consecutive lines establish a perceptible accentual relation.
-- The spacing of major beats varies within a controlled audible range.
-- The subject remains concrete and the address develops rather than becoming a list of sound matches.
-- No conspicuous recurrence survives at the cost of exact diction or intelligible syntax.
+- The address stays directed at the subject throughout rather than sliding into description of it.
+- Related stressed sounds sit close enough to remain audible without every line taking the same syntactic shape.
+- Scansion marks the ordinary stressed syllable inside each multisyllabic alliterating word, so recurrence is judged where the stress actually falls rather than at the start of the word.
+- Words drawing comparable emphasis from the phrase are marked too, and major beats are counted with the lighter syllables between them.
+- Any line where the pattern distorted diction, word order, or sense is revised, and the lost sound is accepted rather than argued for.
+- The lines read aloud as speech to something, with the pattern supporting the address rather than announcing itself.
 
 ## Common Failures
 - Counting an unstressed initial syllable as a strong recurrence.

@@ -54,10 +54,12 @@ Prepare a short fiction premise or draft and a blank page separate from any syno
 6. Compare the strongest sentence with the draft and mark scenes that neither advance nor complicate that core.
 
 ## Success Check
-- The sentence identifies an active situation rather than only a topic or character type.
-- A reader can infer why the event or pattern contains pressure or change.
-- The wording distinguishes this story from other stories with the same broad subject.
-- The exercise exposes at least one inclusion, omission, or structural uncertainty worth testing in the draft.
+- The sentence reaches roughly twenty-five words with atmosphere, subplot, explanation, and outcome cut rather than folded into subordinate clauses.
+- Character or relation appears without biography.
+- The trouble, obstacle, surprise, accumulating pressure, or consequential variation is present, so the sentence describes a story rather than a situation.
+- The governing verb and pressure are underlined; where causality is deliberately slight, the relation, recurrence, or transition carrying development is underlined instead.
+- The omissions are read as diagnosis: what would not fit is named, along with whether its absence indicates a missing structural core or only a crowded draft.
+- A sentence that could describe several different stories is treated as a finding about the material rather than a failure of compression.
 
 ## Common Failures
 - Writing jacket copy that withholds the very conflict the exercise is meant to reveal.

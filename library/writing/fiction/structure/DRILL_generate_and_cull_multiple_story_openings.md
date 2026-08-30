@@ -51,11 +51,12 @@ Prepare three to five story kernels or fragments and enough uninterrupted time t
 7. Retain any strong fragment from a rejected opening only if it belongs causally in the selected story.
 
 ## Success Check
-- Every sample contains active story pressure rather than only atmosphere or biography.
-- The delayed reading changes the basis of selection from composing excitement to reader experience.
-- The chosen opening supplies enough orientation without explaining everything first.
-- A later starting point would remove necessary footing, while an earlier one would add preamble.
-- Selection produces one draft to continue instead of an expanding set of polished beginnings.
+- Every opening is drafted in one sitting, with no previous attempt polished before the next begins.
+- Each has a character, a present situation, and a pressure or question that cannot stay static.
+- Every sample stops before explaining its background or its planned ending.
+- Real distance passes before rereading, and the rereading happens in a changed order so position does not decide the winner.
+- The first point at which each creates curiosity, orientation, and consequential movement is marked, so selection rests on where an opening starts working rather than on overall impression.
+- The choice is defended by live pressure, and at least one discarded opening is recorded as better written but less alive.
 
 ## Common Failures
 - Writing several versions of the same first sentence rather than several sustained entries.

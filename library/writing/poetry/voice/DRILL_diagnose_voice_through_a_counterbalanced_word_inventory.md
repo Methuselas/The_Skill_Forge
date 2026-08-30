@@ -43,11 +43,12 @@ Use the alphabet or another fixed set of 20–30 prompts. Keep a dictionary avai
 7. State two testable tendencies from this sample and one reason each might fail to recur in another poem.
 
 ## Success Check
-- Every initial choice has a meaningful counterbalance rather than a random antonym.
-- Favored words enter relations and sentences instead of remaining an inert list.
-- The constrained piece reveals at least two interacting tendencies in sound, syntax, subject, or association.
-- Revision distinguishes productive surprise from arbitrary strangeness.
-- Conclusions remain hypotheses about this sample, not declarations of a fixed authorial voice.
+- Favoured words are recorded without any attempt to make the list coherent, since coherence imposed during collection destroys the evidence.
+- Each choice is marked for what drove it: sound, meaning, association, visual shape, or several at once.
+- Every favourite has a genuine counterbalance, and pairs whose counterweight is a near-synonym are redone.
+- The constrained writing draws from both sides, so the inventory is exercised rather than admired.
+- Tendencies are stated as tendencies of this sample, with its size named. One inventory is not a permanent identity, and the write-up says so.
+- At least one unexpected combination survives into the finished lines rather than being smoothed away.
 
 ## Common Failures
 - Treating the inventory as an identity statement or a vocabulary that future poems must repeat.
