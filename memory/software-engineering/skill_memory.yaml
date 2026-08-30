@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: software-engineering
-memory_version: 5
+memory_version: 6
 entries:
 - id: SE_MEM_001
   scope_type: topic
@@ -186,7 +186,23 @@ entries:
     The owned-to-unowned ratio does not hold steady across those runs and should not be treated
     as a constant - it appears to track how the slice was chosen more than how the codebase
     is written, which is the opposite of what the second run''s boundary anticipated. What
-    remains unverified is whether the same yield could be had inside one pass. The missing pass has since been added to the protocol as step 8, requiring every technique collected to arrive with the object id that owns it or with a statement of what was searched for and not found, and sorting each into owned, unowned, or owned but coarser than the practice. That fix has not been exercised: no review has been run through the amended protocol, so the entry moves to monitoring rather than resolved and closes when a run produces the second output without being asked for it separately. One run has since gone through the amended protocol and step 8 produced all three categories, including two cards judged right in direction and coarser than the code. The entry stays at monitoring because that run was made by the author of the fix in the same session, which is the weakest form the evidence could take. Two further runs have since gone the same way, each on an unread slice in a different language, and each returned material the protocol would not have asked for before the amendment. All three share the same weakness, so the entry closed on a run by somebody who did not write step 8. That run produced one unowned situation and one card judged too coarse against nine already owned, without being asked for anything beyond the protocol, and it applied the correctness gate before classifying, moving two candidates into the defect list. Resolved.
+    remains unverified is whether the same yield could be had inside one pass. The missing
+    pass has since been added to the protocol as step 8, requiring every technique collected
+    to arrive with the object id that owns it or with a statement of what was searched for
+    and not found, and sorting each into owned, unowned, or owned but coarser than the practice.
+    That fix has not been exercised: no review has been run through the amended protocol,
+    so the entry moves to monitoring rather than resolved and closes when a run produces the
+    second output without being asked for it separately. One run has since gone through the
+    amended protocol and step 8 produced all three categories, including two cards judged
+    right in direction and coarser than the code. The entry stays at monitoring because that
+    run was made by the author of the fix in the same session, which is the weakest form the
+    evidence could take. Two further runs have since gone the same way, each on an unread
+    slice in a different language, and each returned material the protocol would not have
+    asked for before the amendment. All three share the same weakness, so the entry closed
+    on a run by somebody who did not write step 8. That run produced one unowned situation
+    and one card judged too coarse against nine already owned, without being asked for anything
+    beyond the protocol, and it applied the correctness gate before classifying, moving two
+    candidates into the defect list. Resolved.
 
     '
   confidence: repeated
@@ -666,17 +682,18 @@ entries:
       '
   boundary: 'Seven sightings within one session, all by one runtime, all against drills in
     the software engineering lane, and all self-graded against the drills'' own success checks
-    rather than by an independent reader. The four later sightings came from drills whose checks
-    this runtime did not write, which removes the obvious objection to the first three, that the
-    checks were failed because their author had made them demanding. Two of the three were checks asking for self-observation
-    and one asked for a verdict about an artifact, so whether these are one tendency or two
-    is not settled by what has been seen. A third form has since appeared and behaves like the
-    same thing: offering a prediction where the check asked for a performance, a repetition
-    described rather than run, a distinction asserted rather than drawn. Not observed outside drills: no instance has been
-    identified in produced code, in card authoring, or in corpus review, and the eight clean
-    runs all had checks that asked only for the analysis, so the entry currently distinguishes
-    what is asked for rather than what the runtime can do. Untested on whether naming the
-    requirement in advance prevents it, which is the obvious next probe and has not been run.
+    rather than by an independent reader. The four later sightings came from drills whose
+    checks this runtime did not write, which removes the obvious objection to the first three,
+    that the checks were failed because their author had made them demanding. Two of the three
+    were checks asking for self-observation and one asked for a verdict about an artifact,
+    so whether these are one tendency or two is not settled by what has been seen. A third
+    form has since appeared and behaves like the same thing: offering a prediction where the
+    check asked for a performance, a repetition described rather than run, a distinction asserted
+    rather than drawn. Not observed outside drills: no instance has been identified in produced
+    code, in card authoring, or in corpus review, and the eight clean runs all had checks
+    that asked only for the analysis, so the entry currently distinguishes what is asked for
+    rather than what the runtime can do. Untested on whether naming the requirement in advance
+    prevents it, which is the obvious next probe and has not been run.
 
     '
   confidence: repeated
@@ -706,41 +723,52 @@ entries:
   scope_id: how_a_card_fails_and_how_to_find_it_cheaply
   type: successful_tendency
   evidence_class: stochastic_performance
-  observation: >
-    Reading the library's cards against languages they were not written from produced four
-    recurring defect shapes, and three of the four are visible in the card text alone. A
-    universal IF paired with a THEN naming a mechanism only some languages have. An IF gated
-    behind a construct the problem does not need, where stripping the construct word leaves
-    the situation intact. Correct scoping, where the construct genuinely belongs in the IF and
-    nothing needs changing. And a rule stating one way of satisfying a requirement as though it
-    were the requirement, which reads as correct everywhere the named way happens to be
-    available. Sweeps conducted by reading card text found defects at a small fraction of the
-    cost of reading a corpus, and reached cards no corpus batch had covered because no corpus
-    exercised that topic in a language lacking the mechanism. A flag raised by a sweep reliably
-    identified where to look and was never once right about how much was wrong; every card read
-    in full before editing turned out to need less than the flag implied.
+  observation: 'Reading the library''s cards against languages they were not written from
+    produced four recurring defect shapes, and three of the four are visible in the card text
+    alone. A universal IF paired with a THEN naming a mechanism only some languages have.
+    An IF gated behind a construct the problem does not need, where stripping the construct
+    word leaves the situation intact. Correct scoping, where the construct genuinely belongs
+    in the IF and nothing needs changing. And a rule stating one way of satisfying a requirement
+    as though it were the requirement, which reads as correct everywhere the named way happens
+    to be available. Sweeps conducted by reading card text found defects at a small fraction
+    of the cost of reading a corpus, and reached cards no corpus batch had covered because
+    no corpus exercised that topic in a language lacking the mechanism. A flag raised by a
+    sweep reliably identified where to look and was never once right about how much was wrong;
+    every card read in full before editing turned out to need less than the flag implied.
+
+    '
   diagnosis:
     failure_layer: knowledge
-    hypothesis: >
-      A card is written from one source in one language, so whatever that language supplies is
-      invisible to the author as an assumption. The dependence becomes findable because it has
-      to surface somewhere in the rule, and where it surfaces decides whether the card is wrong:
-      a mechanism named in the THEN is a defect, because the situation is universal and the
-      remedy is not, while the same construct named in the IF may be correct scoping. The fourth
-      shape is the same error one level up, a method standing in for a condition, and it is the
-      hardest to see because the method works everywhere the author has been. The operational
-      consequence is that a language the lane has never met is worth more per hour than another
-      corpus in a language it knows, and that a defect shape once named converts into a reading
-      sweep that costs almost nothing.
-  boundary: >
-    Four shapes drawn from repairs across C, C plus plus, Rust, Python and Go, most of them in
-    the core package, and confirmed by a full reading sweep of the three hundred and twenty four
-    core patterns carrying an IF and THEN rule. The reading sweeps are evidenced for shapes
-    checkable from card text and say nothing about defects that need a corpus to reveal, which
-    is a category this entry cannot see. A sharper limit has since been found: a reading sweep over every core pattern carrying a rule missed a card whose condition was gated on a class, because that card is correct for the case it describes and only its scope is narrow. Reading can separate a condition that is wrong from one that is right; it cannot separate a narrow condition from a correctly scoped one, because the two read identically in the card text and differ only in whether a case exists outside the stated scope. That case has to come from code, which makes the cheap sweep and the expensive corpus read complements rather than substitutes. Untested on the art and writing lanes, whose cards are
-    not language-bound and where the shapes may have no analogue. The claim that a flag overstates
-    severity rests on every occasion so far and has no counterexample yet, which is weaker evidence
-    than it sounds because the same runtime both raised and cleared the flags.
+    hypothesis: 'A card is written from one source in one language, so whatever that language
+      supplies is invisible to the author as an assumption. The dependence becomes findable
+      because it has to surface somewhere in the rule, and where it surfaces decides whether
+      the card is wrong: a mechanism named in the THEN is a defect, because the situation
+      is universal and the remedy is not, while the same construct named in the IF may be
+      correct scoping. The fourth shape is the same error one level up, a method standing
+      in for a condition, and it is the hardest to see because the method works everywhere
+      the author has been. The operational consequence is that a language the lane has never
+      met is worth more per hour than another corpus in a language it knows, and that a defect
+      shape once named converts into a reading sweep that costs almost nothing.
+
+      '
+  boundary: 'Four shapes drawn from repairs across C, C plus plus, Rust, Python and Go, most
+    of them in the core package, and confirmed by a full reading sweep of the three hundred
+    and twenty four core patterns carrying an IF and THEN rule. The reading sweeps are evidenced
+    for shapes checkable from card text and say nothing about defects that need a corpus to
+    reveal, which is a category this entry cannot see. A sharper limit has since been found:
+    a reading sweep over every core pattern carrying a rule missed a card whose condition
+    was gated on a class, because that card is correct for the case it describes and only
+    its scope is narrow. Reading can separate a condition that is wrong from one that is right;
+    it cannot separate a narrow condition from a correctly scoped one, because the two read
+    identically in the card text and differ only in whether a case exists outside the stated
+    scope. That case has to come from code, which makes the cheap sweep and the expensive
+    corpus read complements rather than substitutes. Untested on the art and writing lanes,
+    whose cards are not language-bound and where the shapes may have no analogue. The claim
+    that a flag overstates severity rests on every occasion so far and has no counterexample
+    yet, which is weaker evidence than it sounds because the same runtime both raised and
+    cleared the flags.
+
+    '
   confidence: repeated
   status: active
   evidence_count: 11
@@ -775,36 +803,40 @@ entries:
   scope_id: a_count_is_not_a_finding
   type: recurring_failure
   evidence_class: stochastic_performance
-  observation: >
-    Three separate times a measurement was correct and the conclusion drawn from it was not,
-    each by a different mechanism. A pattern that was right returned a real total from the wrong
-    region, so unwrapped calls came to one thousand one hundred and fifty six of which one
-    thousand and eighty three sat in files containing tests, and an assertion count was inflated
-    by examples living inside docstrings. A ratio arrived with an explanation already attached,
-    and the explanation about deliberate encapsulation survived until call sites were sampled
-    and showed the discriminator was simply whether an underlying failure existed. A keyword
-    sweep across three lanes matched forty three bullets of which six were genuine, the rest
-    being ordinary uses of the matched words. In every case the number itself was sound and
-    would have survived any review of the pattern that produced it.
+  observation: 'Three separate times a measurement was correct and the conclusion drawn from
+    it was not, each by a different mechanism. A pattern that was right returned a real total
+    from the wrong region, so unwrapped calls came to one thousand one hundred and fifty six
+    of which one thousand and eighty three sat in files containing tests, and an assertion
+    count was inflated by examples living inside docstrings. A ratio arrived with an explanation
+    already attached, and the explanation about deliberate encapsulation survived until call
+    sites were sampled and showed the discriminator was simply whether an underlying failure
+    existed. A keyword sweep across three lanes matched forty three bullets of which six were
+    genuine, the rest being ordinary uses of the matched words. In every case the number itself
+    was sound and would have survived any review of the pattern that produced it.
+
+    '
   diagnosis:
     failure_layer: application
-    hypothesis: >
-      A total reads as a result because it was expensive to obtain and is hard to dispute, and
-      the three failures are what fills the gap between having a number and having a claim.
-      Region contamination is invisible because the pattern is correct. An invented cause is
-      persuasive because a clean ratio looks as though it contains its own explanation. A keyword
-      match is treated as a finding because scanning felt like the work. The operational form is
-      to state which region a number covers whenever it is reported, to sample instances before
-      naming a cause, and to treat any scan as a way of producing candidates for reading rather
-      than results. The ratio here was six real findings to thirty seven false, so reporting the
-      raw match count would have been wrong by a factor of seven.
-  boundary: >
-    Three sightings in one session by one runtime, across two source corpora and one sweep of
-    this repository, all caught before anything was published and therefore recorded as near
-    misses rather than as delivered errors. Distinct from the earlier entry on writing a search
-    against the wrong idiom, where the pattern itself was faulty; here every pattern was right.
-    Untested on whether stating the region up front prevents the contamination case, and untested
-    on measurements this runtime did not itself construct.
+    hypothesis: 'A total reads as a result because it was expensive to obtain and is hard
+      to dispute, and the three failures are what fills the gap between having a number and
+      having a claim. Region contamination is invisible because the pattern is correct. An
+      invented cause is persuasive because a clean ratio looks as though it contains its own
+      explanation. A keyword match is treated as a finding because scanning felt like the
+      work. The operational form is to state which region a number covers whenever it is reported,
+      to sample instances before naming a cause, and to treat any scan as a way of producing
+      candidates for reading rather than results. The ratio here was six real findings to
+      thirty seven false, so reporting the raw match count would have been wrong by a factor
+      of seven.
+
+      '
+  boundary: 'Three sightings in one session by one runtime, across two source corpora and
+    one sweep of this repository, all caught before anything was published and therefore recorded
+    as near misses rather than as delivered errors. Distinct from the earlier entry on writing
+    a search against the wrong idiom, where the pattern itself was faulty; here every pattern
+    was right. Untested on whether stating the region up front prevents the contamination
+    case, and untested on measurements this runtime did not itself construct.
+
+    '
   confidence: repeated
   status: active
   evidence_count: 3
@@ -830,37 +862,41 @@ entries:
   scope_id: density_baselines_from_production_code
   type: known_boundary
   evidence_class: stochastic_performance
-  observation: >
-    Two properties were measured across unrelated production codebases to give code under
-    review or under construction something to be compared against. Runtime checks outside test
-    files landed at five point zero per thousand lines in a long-lived C plus plus game, six
-    point zero in a C operating system, and six point one zero in a Rust command line tool, so
-    three teams in three languages with no shared convention agree to within a fifth. Concurrency
-    awareness in a monitoring server whose entire job is concurrent collection reached fifty six
-    of four hundred and fifty three production files, about twelve percent, with forty four
-    percent of all lock acquisitions sitting in eight files. Release form in that same codebase
-    split roughly evenly between scope-bound and released by hand, one hundred and eighty eight
-    against one hundred and fifty nine.
+  observation: 'Two properties were measured across unrelated production codebases to give
+    code under review or under construction something to be compared against. Runtime checks
+    outside test files landed at five point zero per thousand lines in a long-lived C plus
+    plus game, six point zero in a C operating system, and six point one zero in a Rust command
+    line tool, so three teams in three languages with no shared convention agree to within
+    a fifth. Concurrency awareness in a monitoring server whose entire job is concurrent collection
+    reached fifty six of four hundred and fifty three production files, about twelve percent,
+    with forty four percent of all lock acquisitions sitting in eight files. Release form
+    in that same codebase split roughly evenly between scope-bound and released by hand, one
+    hundred and eighty eight against one hundred and fifty nine.
+
+    '
   diagnosis:
     failure_layer: knowledge
-    hypothesis: >
-      These are floors for noticing absence rather than targets to hit. Code carrying no runtime
-      checks at all is the outlier that wants explaining, and concurrency reaching far past a
-      handful of components is a sign it has leaked rather than been contained, because the
-      monitoring server is close to a worst case and still keeps eighty eight percent of its
-      files free of it. The even split on release form reads as defaulting to the form that
-      cannot be forgotten and narrowing where a hot path justified it, rather than as
-      inconsistency. Every one of these numbers is meaningless without its region stated, since
-      test files run far denser on checks and would roughly triple the first figure.
-  boundary: >
-    One codebase per language for the check density and a single codebase for the concurrency
-    figures, so these are reference points rather than distributions, and nothing here controls
-    for domain, age, team size, or house style. The Python corpus was deliberately excluded from
-    the check density because its count was contaminated by docstring examples and a fourth
-    figure would have weakened the three clean ones. All figures are counts over production files
-    with test files excluded. Untested against agent-written code, where an earlier entry records
-    a rate roughly twice the human one, so these baselines describe what humans wrote rather than
-    what is correct.
+    hypothesis: 'These are floors for noticing absence rather than targets to hit. Code carrying
+      no runtime checks at all is the outlier that wants explaining, and concurrency reaching
+      far past a handful of components is a sign it has leaked rather than been contained,
+      because the monitoring server is close to a worst case and still keeps eighty eight
+      percent of its files free of it. The even split on release form reads as defaulting
+      to the form that cannot be forgotten and narrowing where a hot path justified it, rather
+      than as inconsistency. Every one of these numbers is meaningless without its region
+      stated, since test files run far denser on checks and would roughly triple the first
+      figure.
+
+      '
+  boundary: 'One codebase per language for the check density and a single codebase for the
+    concurrency figures, so these are reference points rather than distributions, and nothing
+    here controls for domain, age, team size, or house style. The Python corpus was deliberately
+    excluded from the check density because its count was contaminated by docstring examples
+    and a fourth figure would have weakened the three clean ones. All figures are counts over
+    production files with test files excluded. Untested against agent-written code, where
+    an earlier entry records a rate roughly twice the human one, so these baselines describe
+    what humans wrote rather than what is correct.
+
+    '
   confidence: provisional
   status: active
   evidence_count: 2
@@ -884,32 +920,37 @@ entries:
   scope_id: what_changed_produced_output
   type: successful_tendency
   evidence_class: stochastic_performance
-  observation: >
-    Three method changes were tried and each was followed by a change in what a run produced
-    rather than only in what it claimed. A barrier attached to a named moment in the skill
-    entrypoint, with a fail-closed rule, changed produced code on its first test; the same
-    mechanism had been in the visual art entrypoint for image generation all along and the code
-    lane had none until it was added. Testing cards against a corpus rather than letting a corpus
-    decide which cards were tested made absence reportable, because a situation not found is data
-    about the card's relevance instead of a gap in the run. Searching loosely first to learn a
-    codebase's conventions before writing a precise pattern altered what a batch found, and later
-    caught two bad patterns whose totals would otherwise have been reported.
+  observation: 'Three method changes were tried and each was followed by a change in what
+    a run produced rather than only in what it claimed. A barrier attached to a named moment
+    in the skill entrypoint, with a fail-closed rule, changed produced code on its first test;
+    the same mechanism had been in the visual art entrypoint for image generation all along
+    and the code lane had none until it was added. Testing cards against a corpus rather than
+    letting a corpus decide which cards were tested made absence reportable, because a situation
+    not found is data about the card''s relevance instead of a gap in the run. Searching loosely
+    first to learn a codebase''s conventions before writing a precise pattern altered what
+    a batch found, and later caught two bad patterns whose totals would otherwise have been
+    reported.
+
+    '
   diagnosis:
     failure_layer: orchestration
-    hypothesis: >
-      What these three share is that each attaches a requirement to a moment the runtime cannot
-      pass without meeting it, rather than adding advice it may or may not recall. The barrier
-      fires at a named point and fails closed. The card-driven order fixes coverage before the
-      corpus is opened, so the corpus cannot quietly choose the subject. The loose-then-precise
-      ordering puts a cheap observation before an expensive commitment. Guidance that does not
-      attach to a moment has repeatedly been present and unused, which is the failure the barrier
-      was written against.
-  boundary: >
-    Three changes, one runtime, all within a fortnight, and each evidenced by a single run or a
-    small number of them, so this is a direction rather than a measured effect. The barrier's
-    first test is one implementation and no control was run. The card-driven method was proposed
-    by the user rather than derived. None of the three has been tested against a runtime other
-    than this one, and none has been shown to survive a session where the entrypoint is not read.
+    hypothesis: 'What these three share is that each attaches a requirement to a moment the
+      runtime cannot pass without meeting it, rather than adding advice it may or may not
+      recall. The barrier fires at a named point and fails closed. The card-driven order fixes
+      coverage before the corpus is opened, so the corpus cannot quietly choose the subject.
+      The loose-then-precise ordering puts a cheap observation before an expensive commitment.
+      Guidance that does not attach to a moment has repeatedly been present and unused, which
+      is the failure the barrier was written against.
+
+      '
+  boundary: 'Three changes, one runtime, all within a fortnight, and each evidenced by a single
+    run or a small number of them, so this is a direction rather than a measured effect. The
+    barrier''s first test is one implementation and no control was run. The card-driven method
+    was proposed by the user rather than derived. None of the three has been tested against
+    a runtime other than this one, and none has been shown to survive a session where the
+    entrypoint is not read.
+
+    '
   confidence: provisional
   status: active
   evidence_count: 3
@@ -934,40 +975,46 @@ entries:
   scope_id: findings_can_be_executed_not_only_argued
   type: successful_tendency
   evidence_class: deterministic_contract
-  observation: >
-    Four language toolchains are available on this machine and each has been verified by
-    compiling and running a program, not by finding the binary. C and C plus plus through
-    the MSVC compiler in the Build Tools install, invoked directly with explicit include
-    and library paths because the environment batch file on the neighbouring Visual Studio
-    install fails. Python through the interpreter already used for every tool in this
-    repository. Go and Rust downloaded from their official distributions, checksums checked
-    against the published values before anything was extracted or executed, and installed
-    under one directory with no change to the system path. Three review findings moved from
-    argued to reproduced once a compiler was in hand: a monetary total that prints negative
-    for a sum of positive inputs, an emptiness accessor whose guard dereferences an empty
-    container in one direction and returns a sentinel forever in the other, and a compiler
-    diagnostic naming the narrowing that caused the first.
+  observation: 'Four language toolchains are available on this machine and each has been verified
+    by compiling and running a program, not by finding the binary. C and C plus plus through
+    the MSVC compiler in the Build Tools install, invoked directly with explicit include and
+    library paths because the environment batch file on the neighbouring Visual Studio install
+    fails. Python through the interpreter already used for every tool in this repository.
+    Go and Rust downloaded from their official distributions, checksums checked against the
+    published values before anything was extracted or executed, and installed under one directory
+    with no change to the system path. Three review findings moved from argued to reproduced
+    once a compiler was in hand: a monetary total that prints negative for a sum of positive
+    inputs, an emptiness accessor whose guard dereferences an empty container in one direction
+    and returns a sentinel forever in the other, and a compiler diagnostic naming the narrowing
+    that caused the first.
+
+    '
   diagnosis:
     failure_layer: tool
-    hypothesis: >
-      A review that cannot execute is limited to claims a careful reader can be talked out
-      of, and the strongest findings are exactly the ones that sound implausible until they
-      run. Reproduction also changes what the reviewer will commit to: a defect described
-      as likely gets softened, and the same defect with an observed output attached does not.
-      The cost is small once the invocation is known, which is why the invocations belong in
-      this entry rather than being rediscovered.
-  boundary: >
-    Verified on this machine only, and the invocation paths are specific to it. The MSVC
-    route needs its include and library paths supplied by hand because the usual environment
+    hypothesis: 'A review that cannot execute is limited to claims a careful reader can be
+      talked out of, and the strongest findings are exactly the ones that sound implausible
+      until they run. Reproduction also changes what the reviewer will commit to: a defect
+      described as likely gets softened, and the same defect with an observed output attached
+      does not. The cost is small once the invocation is known, which is why the invocations
+      belong in this entry rather than being rediscovered.
+
+      '
+  boundary: 'Verified on this machine only, and the invocation paths are specific to it. The
+    MSVC route needs its include and library paths supplied by hand because the usual environment
     script is broken on the Visual Studio install present here, so a different machine will
-    need that part re-established rather than copied. Go and Rust were installed without
-    modifying the system path, so both must be called by full path or have their directories added deliberately. The
-    Rust entry point matters: the launcher in the cargo bin directory refuses to run unless
+    need that part re-established rather than copied. Go and Rust were installed without modifying
+    the system path, so both must be called by full path or have their directories added deliberately.
+    The Rust entry point matters: the launcher in the cargo bin directory refuses to run unless
     the rustup and cargo home variables are set, because the install is not in the default
     location, while the compiler inside the toolchain directory runs with no environment at
-    all and is the one to reach for. Nothing here says the toolchains are correctly configured for
-    building the corpora themselves, only for compiling small programs that isolate a
-    finding, which is the use that matters for review. Marked resolved because the contract this entry records is settled rather than pending: each toolchain was verified by compiling and running a program, and a toolchain that later stops working will announce itself the next time one is invoked rather than needing to be watched for.
+    all and is the one to reach for. Nothing here says the toolchains are correctly configured
+    for building the corpora themselves, only for compiling small programs that isolate a
+    finding, which is the use that matters for review. Marked resolved because the contract
+    this entry records is settled rather than pending: each toolchain was verified by compiling
+    and running a program, and a toolchain that later stops working will announce itself the
+    next time one is invoked rather than needing to be watched for.
+
+    '
   confidence: strong
   status: resolved
   evidence_count: 3
@@ -990,4 +1037,86 @@ entries:
   - review this code
   - prove it
   runtime_scope: this workstation, tool paths under D drive tools
+  last_verified: '2026-08-30'
+- id: SE_MEM_016
+  scope_type: ap
+  scope_id: AP_review_code_you_did_not_write
+  type: recurring_failure
+  evidence_class: stochastic_performance
+  observation: 'Two runs of the review protocol covered the same five hundred and fifty line
+    slice independently, and the second found three defects the first had missed. All three
+    sat in lines the first run had read. A reset path clears five of six fields and lets one
+    survive; a load path omits a range check the same class enforces on every daily advance;
+    a guard set of three conditions admits a negative amount and creates money and debt together.
+    What none of the three could be settled by was the file itself. The first needed the data
+    files that feed the load, to show that a plain node means replace and that two of them
+    reach the omission. The second needed the collaborating class that consumes the value,
+    to show that an unchecked score yields a negative interest rate, a payment of one credit
+    on a debt of a million, and a principal that halves when a payment is missed. The third
+    needed the callee''s discarded return value and the single caller that happens to compensate.
+    The first run stopped at the file boundary and carried out the protocol''s ranking step
+    anyway, which asks what each defect can break - a question not answerable without knowing
+    who calls the code - so the ranking rested on argument, and nothing in the report it produced
+    distinguished that from a ranking established from call sites. The same runtime traced
+    callers on a later slice.
+
+    '
+  diagnosis:
+    failure_layer: application
+    hypothesis: 'Staying inside the file does not hide the anomalies; it removes the only
+      thing that separates an anomaly from a decision somebody made on purpose. An omitted
+      field in a reset block, a range enforced in one place and not another, a gap in a guard
+      set - each reads equally well as an oversight or as an intention, and the evidence that
+      settles it is always outside: who calls this, what feeds it, what consumes what it returns.
+      A reviewer without that evidence is choosing between reporting every anomaly and reporting
+      none, and the disciplined-looking choice is to report none. The ranking step is where
+      the cost is hidden rather than visible, because severity is the one output that can
+      be argued plausibly from the code alone, so an under-scoped review still emits a ranked
+      list and reads as complete. The protocol routes that question to a card written for
+      judging the reach of a change, where reach is read off a diff; a reviewer holding a
+      defect rather than a diff has to translate the question before it asks anything.
+
+      '
+  boundary: 'One controlled comparison - two independent runs of one protocol over the same
+    unchanged code, which is what separates this from two differing opinions. Evidenced on
+    a single class in a long-lived multi-author C plus plus project whose callers, data files
+    and build settings all sit in the same tree, where tracing outward is cheap and terminates.
+    Untested where the slice is a library entry point or a published interface whose consumers
+    are outside the tree, and there the same instruction could licence an unbounded trace
+    rather than a short one. Untested on whether requiring reachability before the ranking
+    step actually prevents the miss. Distinct from the entry on a count not being a finding,
+    where the measurement was sound and only the inference failed; here the reading was under-scoped
+    and three defects went unreported. One caveat on provenance: the event this rests on was
+    recorded by the run that missed the three, and the entry was consolidated by the run that
+    found them, so the diagnosis carries that interest even though the observation does not
+    depend on it.
+
+    '
+  confidence: provisional
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - SE_EV_0035
+  evidence_origin:
+  - runtime_self_audit
+  likely_owners:
+  - AP_review_code_you_did_not_write
+  - PAT_judge_change_risk_by_what_it_can_break
+  retrieval_cues:
+  - review this code
+  - unfamiliar
+  - what can this break
+  - rank the findings
+  - severity
+  - how bad is it
+  - who calls this
+  - callers
+  - call sites
+  - is this reachable
+  - reachability
+  - one file
+  - this slice
+  - defect list
+  - is this deliberate
+  - intentional or a bug
   last_verified: '2026-08-30'
