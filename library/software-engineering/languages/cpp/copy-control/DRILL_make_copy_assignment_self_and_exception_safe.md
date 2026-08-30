@@ -47,9 +47,11 @@ No special setup required.
 - Rewrite it a second time using copy-and-swap, and compare readability and efficiency.
 
 ## Success Check
-- Assigning the object to itself leaves it holding a valid resource.
-- If the allocation throws, the original object is unchanged.
-- The operator returns *this and chaining works.
+- Self-assignment is executed against the naive version and the resulting state recorded, with the resource released and then read. Reasoning about this correctly is common; producing it is what dislodges the belief that an identity check is the fix.
+- The copy-first version is checked for the property making an identity test unnecessary, and the run says it explicitly: the ordering rather than the guard is what makes it safe.
+- An allocation failure is simulated and the original object shown unchanged. A version that merely looks exception-safe satisfies every other bullet here.
+- The copy-and-swap version is written out and compared on both axes named, readability and efficiency, with the extra copy priced rather than waved past.
+- The operator returns a reference to the object and chaining is exercised. Returning void passes every other bullet and breaks the convention every caller was written against.
 
 ## Common Failures
 - Deleting the current resource before copying the new one.

@@ -48,9 +48,11 @@ No special setup required.
 - Compare the two versions and note where the body-assignment form did redundant work.
 
 ## Success Check
-- Class-type members are copy-constructed once rather than default-constructed and then assigned.
-- The list order matches the declaration order.
-- The `const`/reference member compiles only via the list, not by body assignment.
+- The redundant work is named concretely for at least one member — default-constructed and then assigned, so two operations run where one would serve. Asserting that the list is more efficient, without saying what is avoided, restates what everyone already believes.
+- The list order is checked against the class declaration rather than against itself. Members initialize in declaration order whatever the list says, so a reordered list is a statement that is not true and may draw no warning.
+- A const or reference member is actually added and the body-assignment form shown failing to compile, with the error recorded. This is the case that turns a preference into a rule.
+- The members that gain nothing are identified as well, so the run separates what this fixes from what it merely tidies.
+- Any member whose initializer reads another member is checked against the declaration order, because that is where a correct-looking list quietly produces a garbage value.
 
 ## Common Failures
 - Leaving a built-in member such as `numTimesConsulted` off the list and then reading it while uninitialized.

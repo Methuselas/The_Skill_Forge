@@ -48,9 +48,11 @@ No special setup required.
 5. Confirm the behavior test passes, would fail if the entry function stopped calling the helper, and survives renaming the helper.
 
 ## Success Check
-- The behavior is verified through the public API, with no private function exposed.
-- The test would catch the entry function failing to use the helper correctly.
-- Any over-complex class has been split so each unit is testable through its own surface.
+- The behaviour that matters is written as a sentence about the caller's outcome, before any rewrite, and it does not mention the helper.
+- The added visibility is removed and the code still compiles, which is what establishes that the test no longer depends on it. A test rewritten while the escape hatch stays open has not been tested.
+- The test is shown to fail when the entry function stops using the helper correctly, by actually breaking that link. This is the bullet separating a real behaviour test from one that passes for unrelated reasons.
+- The helper is renamed and the test still passes untouched, demonstrating coupling to behaviour rather than to structure.
+- Where a class had to be split instead, the new class's public surface is written out and the same checks are run against it. The split is the setup for this drill, not its conclusion.
 
 ## Common Failures
 - Rewriting the assertion but leaving the private function public "just in case."

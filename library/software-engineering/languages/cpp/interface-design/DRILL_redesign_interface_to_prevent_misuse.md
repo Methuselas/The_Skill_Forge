@@ -51,8 +51,11 @@ No special setup required.
 - Consider whether an associated factory should return a smart pointer to remove a release obligation.
 
 ## Success Check
-- `Date(30, 3, 1995)` no longer compiles, while `Date(Month(3), Day(30), Year(1995))` does.
-- An invalid month value cannot be constructed.
+- The mistakes the original signature permits are listed before the redesign, each written as a call that compiles today.
+- The scoped-enumeration attempt is made first and the point where it stops is recorded: it fixes the ordering and refuses implicit conversion, and an explicit cast still yields a value nobody declared. Skipping to the answer removes the reason the answer is what it is.
+- The final design is exercised both ways — the wrong call fails to compile, the right call succeeds — with the compiler's rejection recorded rather than predicted.
+- Constructing an invalid month is attempted and shown impossible rather than merely made inconvenient. A constructor validating at run time is a different technique, and the run says which of the two was built.
+- The cost is stated: more types to declare, longer call sites, and conversions at every boundary where these values arrive as plain integers anyway.
 
 ## Common Failures
 - Using an unscoped enum for the month, whose enumerators leak into the surrounding scope and

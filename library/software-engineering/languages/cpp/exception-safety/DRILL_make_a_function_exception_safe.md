@@ -48,8 +48,11 @@ No special setup required.
 - For the strong guarantee, restructure with copy-and-swap over a pimpl, and note what still prevents it (the input-stream parameter's side effect).
 
 ## Success Check
-- If constructing the new image throws, no resource leaks and the object stays in a valid state.
-- The change counter reflects only changes that actually happened.
+- Both defects are demonstrated separately before any fix — the lock still held after a throw, and the counter recording a change that did not happen. Naming them from the source is the setup rather than the result.
+- The guard replaces the manual pair, and the run confirms no path leaves the function without releasing, early returns included and not only the throw.
+- The ordering is stated as the mechanism: the old image is released only once the new one exists, and the counter advances only after the change, so a throw at any point leaves the earlier state intact.
+- The guarantee actually reached is named — basic or strong — rather than assumed to be strong because the code improved. This is the bullet that separates the two halves of this exercise.
+- What blocks the strong guarantee is identified concretely: the stream parameter's side effect cannot be undone, so the run states the guarantee this interface can support rather than the one the implementation would prefer to claim.
 
 ## Common Failures
 - Incrementing the counter before the change has succeeded.

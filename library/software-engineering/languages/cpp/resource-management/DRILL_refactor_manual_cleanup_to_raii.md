@@ -48,8 +48,11 @@ No special setup required.
 - Note why an array allocation would need a different manager than a single-object smart pointer.
 
 ## Success Check
-- No manual delete remains, and the resource is freed on every exit, including when an exception is thrown.
-- The resource is handed to its manager in the same statement that acquires it.
+- Every exit is enumerated before the change — each early return, each break, each call that can throw — and the count is stated. Those are the paths the manual release had to be right on, and the count is reliably larger than the function appears to have.
+- Acquisition and handover occur in one statement, checked by confirming there is no statement between them where a throw would strand the resource. A pointer assigned on one line and wrapped on the next is the original defect with a smart pointer added to it.
+- The manual release is gone, established by searching rather than by recollection.
+- Release on the throwing path is demonstrated rather than inferred. That is the path the original got wrong and the one no ordinary test exercises.
+- The array case is named with the reason a single-object manager is wrong for it, and the run says what it would use instead rather than noting only that a difference exists.
 
 ## Common Failures
 - Storing the raw pointer in a variable and forgetting to wrap it before the risky code.

@@ -48,9 +48,11 @@ No special setup required.
 5. Confirm the rewritten test still passes untouched, while the original would have failed and needed edits.
 
 ## Success Check
-- The test sets up and verifies solely through the public API.
-- A behavior-preserving refactoring leaves the test green with no edits.
-- The test would still fail if an actual behavior changed.
+- The implementation details the original test depends on are listed before the rewrite, so what is being given up is visible rather than implied.
+- The rewritten test arranges and asserts only through the public surface, checked by searching the test for any reference to a non-public member and stating the result of that search.
+- A behaviour-preserving refactoring is actually applied and the suite run untouched. That it would pass is precisely the claim under test.
+- A behaviour is then actually changed and the test shown to fail. A test surviving every refactoring may simply have stopped asserting anything, and only this check tells the two apart.
+- The run names what coverage was lost in moving to the public surface, if any, so the trade is recorded rather than assumed to be free.
 
 ## Common Failures
 - Moving assertions to the public API but keeping one that peeks at internal state.

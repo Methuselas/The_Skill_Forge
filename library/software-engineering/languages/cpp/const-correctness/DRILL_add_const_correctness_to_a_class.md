@@ -48,9 +48,11 @@ No special setup required.
 - Mark every parameter and local that never changes `const`.
 
 ## Success Check
-- A `const TextBlock` can call the read-only members, while writing through it fails to compile.
-- No bounds-check or return logic is duplicated between the two `operator[]` overloads.
-- `length()` compiles as `const` while updating its cache.
+- A const object is constructed and both outcomes are compiled: the read-only members succeed and a write through it is rejected, with the compiler's message recorded.
+- The non-const overload is implemented through the const one, and the run states the count: exactly one copy of the bounds check and the return logic exists. Two overloads that each read as short and correct is the duplication this technique removes.
+- The direction of the cast pair is checked, and the run says why the reverse is unsafe. A const member calling the non-const version is the mistake this invites, and the two directions are not symmetric.
+- The caching members are marked so the const member compiles, and the run states what that concedes: the object now changes while logically constant, which is a claim about thread safety and has to be made deliberately rather than to satisfy the compiler.
+- Parameters and locals that never change are marked, and the run separates the ones where this changes the interface from the ones where it is only a note to the reader.
 
 ## Common Failures
 - Casting in the wrong direction — the const overload calling the non-const one.

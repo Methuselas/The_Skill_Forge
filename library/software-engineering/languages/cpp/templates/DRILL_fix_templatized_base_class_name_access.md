@@ -48,8 +48,11 @@ No special setup required.
 - Fix it a third time with explicit base-class qualification, and note why that is worst when the function is virtual.
 
 ## Success Check
-- Each of the three forms compiles for a base specialization that provides the name.
-- A base specialization that omits the name still fails to compile, at instantiation, as expected.
+- The failure is reproduced first and the compiler's message recorded, because that message is what a reader actually meets and it does not plainly describe the cause.
+- All three fixes are compiled rather than one compiled and two described.
+- A base specialization omitting the name is compiled too, and the error is shown arriving at instantiation rather than at definition. That timing is the substance of the exercise.
+- The run states why explicit qualification is the worst of the three for a virtual function, since it turns off the dispatch, rather than listing it as a third option of equal standing.
+- The three are ranked with the condition that selects each, so the run ends in a choice rather than an inventory.
 
 ## Common Failures
 - Leaving the call unqualified and expecting inheritance to just work across the template boundary.

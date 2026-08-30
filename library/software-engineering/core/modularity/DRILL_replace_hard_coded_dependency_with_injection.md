@@ -48,9 +48,11 @@ No special setup required.
 5. Confirm you can now construct the class with a different implementation, and that a test could pass a fake.
 
 ## Success Check
-- The class no longer names any concrete implementation internally.
-- The dependency is typed as an interface and supplied from outside.
-- A factory still offers easy default construction, and an alternative implementation can be injected.
+- The class is searched for any surviving mention of a concrete implementation and the search is stated. A constructor cleaned while a method still builds one directly passes a reading of the constructor.
+- The parameter is typed as the interface, and a second implementation is named concretely even if it is not written. An interface with exactly one implementation forever is a rename, and saying so is part of passing rather than an admission of failure.
+- The class is actually constructed with a different implementation and exercised. That it could be is the claim under test.
+- The factory is checked against the defect it invites: it must not become the only route to construction, or the concrete dependency has moved out one level while every caller still receives it with no way to say otherwise.
+- A test supplies a fake and asserts on something the fake makes observable, so injectability is demonstrated by use rather than by shape.
 
 ## Common Failures
 - Injecting the concrete class instead of its interface, which restores construction flexibility but not reconfiguration.

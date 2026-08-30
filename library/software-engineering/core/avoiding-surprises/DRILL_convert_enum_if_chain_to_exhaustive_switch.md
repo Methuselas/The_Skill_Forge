@@ -48,9 +48,11 @@ No special setup required.
 5. Handle the new value explicitly and confirm the test passes again, adding a case that asserts its intended result.
 
 ## Success Check
-- Every existing enum value has an explicit branch.
-- Adding a value triggers a failing test or a compiler warning, never silent behavior.
-- The catch-all is a throw after the switch, preserving the exhaustiveness warning.
+- Every current value has its own branch, and the list of values came from the enum's declaration rather than from the branches already written. Enumerating from what the code handles today reproduces the original omission exactly.
+- The new value is actually added and the test actually run, with the failure recorded. That the test would fail is the property under examination and cannot also be the evidence for it.
+- The catch-all is a throw after the switch and not a default case, and the reason is stated: a default case satisfies the compiler, which switches off the exhaustiveness warning this whole exercise was arranging to receive.
+- The test iterates the enum's value list rather than naming values individually. A test with one case per value passes today and quietly stops covering the enum the moment somebody extends it, which is the failure being drilled.
+- The new value's intended result is stated with its reason. A branch added to turn the test green, returning whatever the neighbouring case returned, satisfies every bullet above and has handled nothing.
 
 ## Common Failures
 - Using a value-returning default case, which silently absorbs new values.

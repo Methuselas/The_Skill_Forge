@@ -48,9 +48,11 @@ No special setup required.
 5. Confirm each case now sets up its own outcome-affecting values and that editing one case cannot alter another.
 
 ## Success Check
-- Every value that affects a case's outcome is set up within that case.
-- A change made for one case cannot silently weaken another.
-- Only outcome-irrelevant, required data remains shared, and it is immutable.
+- The hazard is reproduced by actually adding the fourth item and running the suite, with the now-silently-passing case named. An account of how the shared object could drift describes the condition being removed, not evidence that it was present.
+- Every value affecting an outcome is set inside the case depending on it, checked by reading each case alone and asking whether its expected result follows from what that case sets up.
+- The shared remainder is justified item by item as irrelevant to every outcome, and its immutability is carried by the type rather than by an agreement not to touch it.
+- One case is edited in a way that would previously have weakened another, and the other is shown still passing. This is the property the drill exists for and the one most easily assumed.
+- The cost is stated — a builder called per case, more lines in each test — because a run concluding only that sharing is bad has not weighed what the sharing was buying.
 
 ## Common Failures
 - Replacing a shared before-each with a shared constant that still holds outcome-affecting values.

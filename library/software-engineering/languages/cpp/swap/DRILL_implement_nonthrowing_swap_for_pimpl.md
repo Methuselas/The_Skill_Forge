@@ -48,8 +48,11 @@ No special setup required.
 - Write a client that does `using std::swap;` then calls swap unqualified, and confirm the Widget-specific version is chosen.
 
 ## Success Check
-- Swapping two Widgets exchanges only the internal pointers, not the underlying data.
-- Both an unqualified swap and a qualified std::swap call reach the fast version.
+- The member swap is confirmed to exchange only the pointers, checked by observing that the pointed-to data was never touched.
+- The no-throw property is argued from what the member actually does, and the run states what would break it. A swap of anything that allocates is not this technique and will not hold the guarantee callers depend on.
+- Both call forms are exercised and each shown to reach the fast version, with the unqualified call written exactly as clients write it. The whole technique turns on the lookup, so a qualified-only test skips the case being taught.
+- The run says why the non-member in the class's own namespace is what makes the unqualified call work, rather than treating the several overloads as ceremony to be copied.
+- The total specialization of the standard template is checked as legal here because this is a non-template class, and the run states what the answer would be for a class template instead, since that is exactly where the technique changes.
 
 ## Common Failures
 - Adding an overload or a partial specialization of swap inside namespace std.

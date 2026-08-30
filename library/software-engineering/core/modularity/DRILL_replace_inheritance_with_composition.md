@@ -48,9 +48,11 @@ No special setup required.
 5. Support a sibling requirement — a semicolon-separated format — by injecting a different implementation, and confirm no duplicate class was needed.
 
 ## Success Check
-- The class's public API exposes only its own functions, not the whole superclass.
-- The reused functionality is held as an injected interface and forwarded selectively.
-- A new file format is supported by a different injected implementation, with no duplicated subclass.
+- The subclass's effective public surface is written out in full, inherited members included, before the change. That list is the finding — the strange functions do not appear in the subclass's own source, which is exactly why the problem survives review.
+- The extracted interface names only what this class actually uses, verified by finding a call site for every member on it. An interface that mirrors the superclass has renamed the coupling rather than removed it.
+- The forwarded functions are enumerated with a reason for each, so forwarding is a decision rather than whatever was needed to make existing callers compile.
+- The sibling format is supported by injecting a different implementation and running it, with no subclass added. That it could be done is what was already believed before the exercise.
+- The new surface is compared against the old and the removed members are listed. If nothing was removed, composition bought nothing here, and saying so is the result rather than a failure.
 
 ## Common Failures
 - Composing the concrete class instead of its interface, losing the reconfiguration benefit.

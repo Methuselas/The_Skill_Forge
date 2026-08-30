@@ -48,9 +48,11 @@ No special setup required.
 5. Confirm both scenarios are now blocked, and note that only the immutable-structure version also stops code inside the class from mutating the member.
 
 ## Success Check
-- Both the after-construction and via-getter mutations no longer affect the object.
-- The defensive-copy version copies at both the constructor and the getter.
-- The immutable-structure version needs no copies and blocks in-class mutation too.
+- Both scenarios are executed and the object's altered state recorded before any fix. A class described as vulnerable has not shown the vulnerability, and this is a case people reason about wrongly with confidence.
+- Both fixes are written out, and the defensive-copy version is verified at both sites. Copying only in the constructor leaves the getter route open and survives any inspection that looks where the bug was introduced.
+- Both scenarios are re-run against each fix and shown blocked rather than declared blocked.
+- The difference is stated as the thing only one fix does: the immutable structure also stops code inside the class from mutating the member, which no amount of copying at the boundary achieves.
+- The cost of each is named — a copy per construction and per read, against a structure the rest of the codebase may not use — so the choice is made rather than inherited from whichever was written second.
 
 ## Common Failures
 - Copying in the constructor but not the getter (or vice versa), leaving one hole open.

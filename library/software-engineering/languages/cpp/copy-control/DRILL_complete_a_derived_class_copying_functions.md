@@ -48,8 +48,11 @@ No special setup required.
 - Add a new member to the base class and list which copying functions must now change.
 
 ## Success Check
-- A copied `PriorityCustomer` has its inherited name and date copied, not default-initialized.
-- Adding a base member surfaces every copying function that needs updating.
+- The members and base parts the original copying functions miss are listed before the fix, produced by reading the class declaration rather than by reading the copying functions, which is what omitted them in the first place.
+- The failure is demonstrated: an object is copied and the inherited parts are shown default-initialized rather than copied. The compiler produces this silently, which is why an inspection is not enough.
+- The base copy constructor is invoked in the member initialization list and the base assignment operator is called explicitly, and the run states what happens instead when each is omitted. The two omissions have different symptoms and only one of them is easy to see.
+- A base member is actually added; every copying function needing a change is named before the compiler is consulted, and then the compiler is consulted. The gap between those two lists is the finding, because the compiler reports none of them.
+- The run states the relationship between the two copying functions — why neither should be implemented by calling the other — rather than leaving them as parallel hand-written bodies whose agreement is a coincidence.
 
 ## Common Failures
 - Omitting the base call, so base parts are default-initialized (copy constructor) or left unchanged (assignment).

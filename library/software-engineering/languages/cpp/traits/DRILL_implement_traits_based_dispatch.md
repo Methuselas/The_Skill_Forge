@@ -48,8 +48,11 @@ No special setup required.
 - Confirm a bidirectional iterator compiles because its worker never uses +=.
 
 ## Success Check
-- The random-access path uses += and the others step, with the choice made during compilation.
-- Calling advance on a bidirectional iterator compiles, unlike a runtime typeid version.
+- The category is read during compilation and the run says where that is established, since the entire benefit rests on the selection happening before the program runs.
+- Each worker is checked for using only the operations its category provides, by reading the worker rather than trusting the tag in its signature.
+- The bidirectional case is compiled and shown to compile. This is the deliverable: the run-time alternative fails here and this one does not, and only compiling it demonstrates that.
+- The run-time version is written, or its failure is named precisely — a branch that never executes must still compile — so the comparison the drill is built on actually takes place.
+- Selection is confirmed to happen by overload resolution on the tag type, tested with an iterator whose category derives from a more refined one. That is the case where comparing categories for equality by hand would silently pick the wrong worker.
 
 ## Common Failures
 - Branching at runtime with typeid, which both wastes runtime and forces the invalid += branch to compile.

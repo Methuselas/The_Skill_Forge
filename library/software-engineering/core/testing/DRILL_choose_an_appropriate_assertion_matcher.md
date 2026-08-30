@@ -48,9 +48,11 @@ No special setup required.
 5. Force a failure by removing one required item and confirm the message names the missing entry.
 
 ## Success Check
-- The assertion checks only the behavior under test, not incidental content or order.
-- A change to unguaranteed order does not fail the test.
-- A failure message identifies what actually differs (the missing entry).
+- All three assertion forms are written and run rather than one written and two described. The comparison is the drill, and it does not survive being imagined.
+- Both problems with full equality are demonstrated separately: one by content the case does not care about, one by reordering the unguaranteed sequence and watching the test fail.
+- The bare boolean's failure message is recorded verbatim. Its uselessness is the evidence, and paraphrasing it into "unhelpful" discards exactly what was being shown.
+- The final matcher is failed deliberately and its message recorded, naming the missing entry. A matcher chosen because it sounds right, and never failed, has not been evaluated.
+- The run states what the assertion no longer checks, so narrowing is visible as a deliberate loss of coverage rather than as an unqualified improvement.
 
 ## Common Failures
 - Keeping a full-equality assertion out of habit, so the test breaks on order or unrelated changes.

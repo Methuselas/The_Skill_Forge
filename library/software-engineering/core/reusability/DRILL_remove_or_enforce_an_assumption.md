@@ -48,9 +48,11 @@ No special setup required.
 5. Decide the enforcement by data source: assertion for internally generated data, an explicit error signal for user- or externally supplied data.
 
 ## Success Check
-- The unnecessary version handles the general case rather than assuming.
-- The necessary version fails fast on a violated assumption and names the assumption.
-- The enforcement mechanism matches whether the error is recoverable.
+- Both versions exist as written code rather than one version and a description of the other, and the general one is demonstrated on an input the assumption excluded.
+- The cost of dropping the assumption is stated as a quantity — extra iterations, an added allocation, one more parameter — and not as small or negligible. The trade this drill teaches cannot be made with one side unpriced.
+- The enforcing version carries the assumption in its own identifier, tested by reading a call site cold: someone who has not seen the body can say what the function refuses to accept.
+- The enforcement is chosen from where this function's data actually comes from, and that origin is stated for the case in hand. Reciting the rule about internal versus external data without applying it here satisfies the letter and demonstrates nothing.
+- One case is written down where the choice would flip — the same function fed from the other kind of source — along with the enforcement it would take instead.
 
 ## Common Failures
 - Leaving the assumption in a comment where reusing callers never see it.

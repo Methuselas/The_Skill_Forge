@@ -48,9 +48,11 @@ No special setup required.
 5. Run it and confirm the previously hidden bug now fails the test; then refactor the code (switch to a single transfer call) and confirm the fake-based test still passes.
 
 ## Success Check
-- The fake enforces the same contract as the real dependency.
-- The test now fails on the bug the mock concealed.
-- After a behavior-preserving refactoring, the fake-based test still passes.
+- The real dependency's contract is written down before the fake is built, with the rule the mock ignored quoted from it. A fake written from memory of the interface reproduces the mock's assumptions and then passes every bullet below.
+- The fake is tested directly against that rule, so it rejects what the real dependency rejects. An untested fake is a second implementation with no evidence it matches the first.
+- The test fails on the concealed bug and the failure message is recorded. A failure for some other reason — a missing method, a type error — is not the demonstration and is easy to mistake for it.
+- The rewritten assertions name resulting state rather than calls, and any surviving assertion about which methods were invoked is identified with the reason it was kept.
+- The behaviour-preserving refactoring is applied and the test still passes. This is the bullet that separates a fake from a stricter mock, so the run ends by saying which of the two it demonstrated.
 
 ## Common Failures
 - Writing a fake that is as lenient as the mock, so it re-hides the bug.

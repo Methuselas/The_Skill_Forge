@@ -48,9 +48,11 @@ No special setup required.
 5. Re-read a call site in isolation and confirm it is clear without opening the class.
 
 ## Success Check
-- Every name states what the thing is or does without a comment.
-- A call like `team.containsPlayer(playerName)` reads clearly on its own.
-- Only comments carrying real information (not name-restatements) remain.
+- The places where a comment or the class body had to be consulted are written down before renaming, and each is matched afterwards to the name that removed the need. A rename with no recorded confusion behind it is a preference rather than a finding.
+- At least one name is judged with the code out of sight and accepted, or the absence of such a name is stated. Names read in place are judged with context the next reader will not have, which is the failure this step exists to catch.
+- The call site is re-read cold and what it now says is written out. If understanding it still requires knowing the class's contents, the naming is unfinished regardless of how the names look in isolation.
+- Every deleted comment is accounted for as a restatement of a name, and every surviving comment has the information it carries named. A comment kept in case it is useful is what this bullet catches.
+- The result is checked for the opposite error — a name long enough that callers will abbreviate it, or specific enough that the next requirement makes it wrong.
 
 ## Common Failures
 - Renaming but leaving the now-redundant comments, keeping the clutter and the sync burden.

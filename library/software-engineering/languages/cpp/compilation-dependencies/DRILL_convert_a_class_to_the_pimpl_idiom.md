@@ -48,8 +48,11 @@ No special setup required.
 - Confirm that changing `PersonImpl` no longer forces clients of `Person` to recompile.
 
 ## Success Check
-- `Person`'s header depends on declarations, not definitions, of its implementation types.
-- A change to the implementation requires clients only to relink, not recompile.
+- Every include remaining in the header is justified as declaration-only, or as a type the interface uses by value. An include kept because removing it broke the build is the coupling this drill removes, and it is recorded rather than tolerated.
+- The recompilation claim is tested rather than asserted: the implementation is changed, the build is run, and what actually rebuilt is recorded. Build systems differ enough that this has to be observed on the one in use.
+- The destructor is accounted for. A class holding a smart pointer to an incomplete type will not compile with an implicitly generated destructor, so the run says where the destructor is defined and why it must live in the implementation file.
+- The costs are named — one indirection per call, one allocation per object, and a forwarding function per member to keep in step. A run concluding only that compilation coupling fell has priced one side of the trade.
+- What the forwarding silently removed is stated: inlining across the boundary, and any member that used to be usable in a constant expression.
 
 ## Common Failures
 - Leaving definition includes in the header that reintroduce the dependency.

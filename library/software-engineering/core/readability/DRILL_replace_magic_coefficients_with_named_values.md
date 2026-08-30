@@ -48,9 +48,11 @@ No special setup required.
 5. Simulate a related change (switch the mass input from tons to kilograms) and check that the named version makes the now-wrong conversion obvious.
 
 ## Success Check
-- No unexplained numeric literal remains in the calculation.
-- Each named value states its meaning at the point of use.
-- The simulated unit change makes the obsolete conversion visibly wrong.
+- No unexplained literal remains, and each name states a unit relationship — what it converts from and to — rather than restating the number.
+- The named values sit beside the code using them, and the run states where else the same assumption is encoded, found by searching for the literal rather than by recall.
+- All three forms are written out — bare constant, provider function, conversion helper — because writing one and describing the others removes the comparison this drill exists to produce.
+- The unit change is applied to each form and the moment it becomes visible is recorded for each. The forms differ precisely here, and that ranking is the result.
+- The run ends by naming which form it would ship and what that costs — a helper per conversion, an extra call, another name to maintain — rather than concluding that naming things is better.
 
 ## Common Failures
 - Naming the constant but placing it far from where it is used, so the change-impact is still hidden.

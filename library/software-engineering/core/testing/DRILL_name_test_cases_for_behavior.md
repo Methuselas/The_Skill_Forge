@@ -48,9 +48,11 @@ No special setup required.
 5. Deliberately break one behavior and confirm exactly one well-named case fails with a clear message.
 
 ## Success Check
-- Each behavior has its own case named for that behavior.
-- Breaking one behavior fails one case, and its name identifies what broke.
-- Failure messages describe the problem, not just that something differs.
+- The behaviours are listed before the split, each phrased as a claim that could be false. A list of the things the old case happens to touch reproduces the old case under new headings.
+- There is one case per behaviour, and each name states the behaviour rather than the function under test — checked by reading the names alone and predicting what each one locks in.
+- One behaviour is actually broken and the suite run, with exactly one case failing and its name recorded. Two failures means a behaviour is still spread across cases and the split is unfinished.
+- The failure message is recorded and describes what differs — contents matching but order differing, rather than two dumped values. The message is the deliverable here, not the split.
+- The opposite failure is checked: names long enough to restate the assertion. A name that repeats the body of its case helps nobody reading a list of failures.
 
 ## Common Failures
 - Splitting the cases but leaving generic names that do not identify the behavior.

@@ -49,9 +49,11 @@ Choose about half a printed page of code in a familiar language. A paper copy or
 6. Repeat with a second snippet, keeping the glance equally brief.
 
 ## Success Check
-- The sketch captures the major nesting and block boundaries without adding behavior not observed.
-- At least one whitespace or density observation is checked against the original.
-- Accuracy improves on the second snippet without increasing viewing time.
+- The sketch is made with the code hidden and is not revised after revealing it. A sketch corrected against the original measures nothing, and correcting it is the easiest way to spend this exercise without running it.
+- Observations are sorted into accurate, missing, and invented, and the invented ones are written out. Those are the finding — they are what was supplied from expectation rather than seen — so a run reporting only its hits has thrown away its result.
+- Both snippets are glanced at for the same stated duration. Improvement bought with a longer second look is not the effect being measured.
+- The second run's comparison names what changed about where attention went, not only how much was captured. Capturing more by looking harder is not what this trains.
+- A whitespace or density observation is checked against the original in both runs, so the structural channel is measured separately from the content one.
 
 ## Common Failures
 - Reading one expression in detail and missing the page-wide structure.

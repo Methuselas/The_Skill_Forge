@@ -48,9 +48,11 @@ No special setup required.
 5. Create two independent instances (say, a normal-products basket and a fresh-products basket) and confirm each consumer sees only its own.
 
 ## Success Check
-- No static state remains; each instance holds its own copy.
-- Consumers receive the instance by injection rather than reaching a global.
-- Two independent instances operate without interfering.
+- The interference is demonstrated before the change, with both features exercised and the wrong result recorded. An account of how the interference would arise is the thing being fixed, not evidence that it was there.
+- No static state remains, and the search establishing that is stated — a search for the old accessor across the codebase rather than a reading of the one class.
+- Every consumer receives the instance through its constructor or parameters, and any consumer still reaching a shared accessor is named. Making the class instantiable while leaving one global getter satisfies the conversion and preserves the defect intact.
+- The sharing decision is recorded per consumer with the reason it shares or does not. A run where every consumer got its own, or all got the same, skipped the decision the drill is about.
+- The two independent instances are exercised together and each consumer's view is written down. What passes is the recorded contents, not the absence of a crash.
 
 ## Common Failures
 - Making the class instantiable but still reaching a single shared instance through a global accessor.

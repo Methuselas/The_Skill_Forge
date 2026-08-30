@@ -48,9 +48,11 @@ No special setup required.
 5. Check the nullable edge: if the container returns null to signal empty, decide whether storing nullable elements needs a separate has-next check.
 
 ## Success Check
-- No concrete element type remains hard-coded in the class.
-- The same class stores two different types at two call sites.
-- The empty-versus-null-element ambiguity is considered and handled if relevant.
+- The limitation is demonstrated first: the second need is written as code and shown not to compile against the original. That it could not be reused is the premise of the exercise rather than a result of it.
+- No concrete element type remains, verified by searching the class for the original type's name and reporting the count. A field converted while a parameter or a return type was missed still compiles for the original type and fails only for the second one.
+- Both instantiations are compiled and their members exercised. Instantiating and never calling leaves most of the class uninstantiated, so the check passes without having checked anything.
+- The empty-versus-null case is decided explicitly and the decision recorded: either the element type is constrained so the sentinel cannot collide, or a separate emptiness query exists. Considering it and moving on satisfies the older wording and leaves the ambiguity exactly where it was.
+- The cost of parameterizing is named — the definition must now be visible to every user, and errors arrive at instantiation rather than at the definition, reported against code the user did not write.
 
 ## Common Failures
 - Replacing the type in some places but leaving a hard-coded occurrence that defeats the generalization.

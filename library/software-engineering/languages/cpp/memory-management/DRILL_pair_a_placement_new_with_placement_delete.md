@@ -48,8 +48,11 @@ No special setup required.
 - Re-expose the standard new forms hidden by the class new, using a base class of standard forms and using declarations.
 
 ## Success Check
-- A throwing constructor after the placement new invokes the matching placement delete, so no memory leaks.
-- Plain new and nothrow new still compile for the class.
+- The leak is reproduced by making the constructor throw, with the absent release observed rather than reasoned about.
+- The placement delete's parameters are checked to match the placement new's beyond the first. A near-match is silently never called and reproduces the original leak exactly, with code that reads as correct.
+- The exception path is run again after the addition and the matching delete is shown to execute.
+- Ordinary deletion is exercised separately, because the placement pair and the normal path are different routes and repairing one routinely conceals the other.
+- The standard forms hidden by the class's own declaration are re-exposed and each is compiled, plain and nothrow both. The check is a call that compiles, not the presence of a using declaration.
 
 ## Common Failures
 - Declaring a placement new without its matching placement delete.

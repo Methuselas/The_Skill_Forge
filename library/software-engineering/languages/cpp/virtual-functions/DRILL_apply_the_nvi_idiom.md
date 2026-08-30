@@ -51,9 +51,11 @@ No special setup required.
 - Note when the virtual must be protected instead of private (when overrides call the base version).
 
 ## Success Check
-- Clients call only the non-virtual wrapper; derived classes customize only the private virtual.
-- The setup/teardown context runs on every call regardless of the override.
-- If the wrapper holds a lock across the dispatch, every override that can run under it is enumerated and each one is inside this component; if any could come from a caller, the lock is outside the dispatch instead.
+- Clients can call only the wrapper and derived classes can override only the virtual, checked by attempting both wrong forms and recording the compiler's rejections.
+- The wrapper's before-work and after-work are observed running around an override supplied by a derived class, rather than concluded from how the code is arranged.
+- If the wrapper holds a lock across the dispatch, every override that can run under it is enumerated and each one is inside this component; if any could come from a caller, the lock is outside the dispatch instead. An unanswered question here is a deadlock that appears only once somebody else supplies an override.
+- The virtual's access level is decided against whether overrides call the base version, with the reason stated rather than the default taken.
+- The run names what the idiom costs — an extra function per customization point and a pair of names to keep aligned — so it is priced rather than adopted wholesale.
 
 ## Common Failures
 - Leaving the virtual public, so clients bypass the wrapper's context.

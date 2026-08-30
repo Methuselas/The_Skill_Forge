@@ -48,9 +48,11 @@ No special setup required.
 5. Re-check the pillars: confirm the top class now reads as a few steps, each subproblem class is independently testable, and a subproblem is now reusable elsewhere.
 
 ## Success Check
-- The original class's top method reads as a short sequence of high-level steps.
-- Each extracted class has a single cohesive concern and its own tests.
-- At least one extracted class is reusable by unrelated code without dragging the rest along.
+- The subproblems are listed before any extraction, each stated as something with its own inputs and outputs rather than as a region of the file. A list produced by reading the method top to bottom reproduces the structure that is already there and finds nothing.
+- Each of the four pillars has a concrete failure written against the original — a particular thing that cannot be swapped, reused, read, or tested — rather than the pillar's name with a mark against it.
+- After extraction the four are re-checked, and each earlier failure is answered by naming the capability that now exists. A pillar improved in principle, with no changed capability behind it, is where this stops being a refactoring.
+- At least one extracted class is used by code unrelated to the original, or the specific reason none can be is stated. Reusability asserted about a class with one caller is the cheapest bullet here to satisfy.
+- The top class is checked for the opposite failure: it should now hold sequencing only, and any real work still inside it is named along with why it stayed.
 
 ## Common Failures
 - "Refactoring" by making internal helpers public instead of extracting real classes, which just pollutes the API.

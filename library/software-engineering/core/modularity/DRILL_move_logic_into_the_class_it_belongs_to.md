@@ -48,9 +48,11 @@ No special setup required.
 5. Simulate a requirement change (chapters gain a summary) and confirm only the chapter class needs editing.
 
 ## Success Check
-- The relocated logic lives on the class whose internals it uses.
-- The former caller no longer references the other class's parts, only its high-level method.
-- The simulated requirement change is confined to a single class.
+- The chained access is quoted verbatim before the move, and each part of the other object it reaches into is named separately. A general observation that the method knows too much cannot be compared against the after-state.
+- The relocated method's parameter list is written out and contains nothing belonging to the class it left. Moving the body while passing the same internals in as arguments satisfies every other bullet here and keeps the whole of the coupling; that is what this bullet is for.
+- The number of distinct members the former caller touches on the other class is counted before and after, and the after count is one high-level call.
+- The requirement change is applied rather than imagined, and the classes actually edited are listed. A prediction that only one class would need editing is the claim under test and cannot also be the evidence for it.
+- The original class is searched for a surviving copy of the moved logic and the result of that search is stated, since a duplicate left behind passes every bullet above.
 
 ## Common Failures
 - Moving the method but still passing the other object's parts into it, keeping the coupling.

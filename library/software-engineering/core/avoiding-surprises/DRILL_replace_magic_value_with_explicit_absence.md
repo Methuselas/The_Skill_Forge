@@ -48,9 +48,11 @@ No special setup required.
 5. Fix the now-failing caller so it compiles, handling the absent case explicitly.
 
 ## Success Check
-- The function's return type reveals that no value may be available.
-- The original caller no longer compiles until it handles absence.
-- The corrected caller produces the right answer for the empty or absent case.
+- The bug is produced by running the caller, with the wrong output recorded — the actual mean, the level actually chosen. Naming the bug in the abstract is exactly what the sentinel already permitted.
+- The original caller fails to compile after the change and the compiler's message is recorded. If it still compiles, absence went into a comment or into a construct the language does not enforce, and the exercise has not happened.
+- The corrected caller is run against the absent case and its output checked against a result worked out by hand. Handling absence and producing a different wrong answer passes every other bullet here.
+- The fix is checked against the disguise it most readily becomes: absence must not be re-encoded as another in-band value, and the run states which representation was chosen and why it is out of band.
+- Whether the caller needs the reason for the absence is decided and stated, rather than settled by whichever return type was easier to write.
 
 ## Common Failures
 - Swapping one magic value for another (returning `0` or an empty list) instead of making absence explicit.

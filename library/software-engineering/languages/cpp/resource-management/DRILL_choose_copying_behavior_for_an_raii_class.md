@@ -47,8 +47,11 @@ No special setup required.
 - Show what the compiler-generated copy would have done and why it is wrong here.
 
 ## Success Check
-- Copying the class behaves as chosen, not as the compiler default.
-- The mutex is unlocked exactly once, no matter how many copies existed.
+- All four options are stated with a reason for and against each in this specific case, rather than the chosen one accompanied by three names.
+- What the compiler-generated copy would do is written out concretely — the same handle released twice — and the run says whether that would be caught at compile time, at run time, or not at all.
+- The chosen behaviour is implemented and exercised by actually copying the object, not established by declaring the intent.
+- The release is observed to happen exactly once across every copy made. This is the property the whole exercise exists to establish, and it is the one most often argued rather than watched.
+- The rejected option closest to the choice is named, along with the condition that would flip the decision, so the choice is bounded rather than absolute.
 
 ## Common Failures
 - Leaving the compiler-generated copy in place, so the mutex is released more than once.
