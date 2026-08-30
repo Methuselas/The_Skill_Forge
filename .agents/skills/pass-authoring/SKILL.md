@@ -42,6 +42,31 @@ Engineering may be authored autonomously when the source and task support it.
 Never invent questions as ceremony, but stop for real ambiguity, contradiction,
 or teacher-dependent interpretation.
 
+## Skillset Memory
+
+`memory/<domain>/` is a separate store with its own contract in
+`PASS/docs/MEMORY_SCHEMA.md`. Read that before touching it.
+
+Memory records what happened when canon was used. It is never canon, never
+overrides a card, and is never copied into one — an entry that seems important
+enough to apply on every turn has earned promotion review, not a paste, because
+pasting creates a second write site and lets the real owner decay unobserved.
+`tests/test_memory.py` enforces this.
+
+An observation is evidence about a capability only if the run that produced it
+was a valid test of that capability. A run that failed before the capability was
+exercised stays in `training_history.jsonl` and never counts toward a craft
+weakness; attribute it to the tool, controller, or package that actually failed.
+
+```bash
+python PASS/tools/memory.py validate
+python PASS/tools/memory.py review --domain <domain>
+python PASS/tools/memory.py compact --domain <domain>
+```
+
+The card tools read `library/` and the memory tool reads `memory/`. Keep them
+apart; neither store is an input to the other.
+
 Before publishing changed knowledge, run the tools under `PASS/tools/`:
 
 ```bash

@@ -46,7 +46,10 @@ variants: []
 2. <concrete step>
 
 ## Success Check
-- <specific observable outcome>
+- <condition a reader other than the runner can check after the fact>
+- <the observation actually performed, where this drill would otherwise accept a prediction>
+- <a named near-miss this excludes, with what it demonstrates>
+- <where the drill ends in a choice: the reason required, not the selection>
 
 ## Common Failures
 - <specific mistake learners make on THIS drill>

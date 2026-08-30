@@ -39,6 +39,28 @@ edit an image unless the user actually asks for production. During PASS training
 work one source chapter at a time, discuss after the read, and ask questions only
 when genuine uncertainty remains.
 
+## Skillset Memory
+
+`memory/art/` is the empirical record of what happened when this canon was
+actually used — known weak areas, recurring failures, and the boundary of what
+has been verified. It is not canon and never overrides a card.
+
+Canon resolves first; memory is retrieved second and bounded. Query it before
+productive work, with short cues drawn from the subject and the operation:
+
+```bash
+python PASS/tools/memory.py query --domain art --cues "hand,contact,foreshortening"
+```
+
+Cues match as substrings of an entry's recorded cues, so prefer several short
+terms over one long phrase. Read what comes back as an observation carrying a
+stated confidence, not as an instruction. A recorded weak area is a reason to
+inspect that region of the artifact more carefully after rendering; it is never
+a reason to skip a risk check the routing contract already requires.
+
+Never copy an entry's content into a card, an index, or this file. An entry that
+seems to apply on every turn has earned promotion review, not a paste.
+
 ## Art production routing contract
 
 Resolve the latest explicit Art mode directive **before any productive image call**. `Mode: staged` and `Mode: direct` are preferred control language; also recognize equivalent clear intent such as “in stages,” “staged composition,” “start with thumbnails,” “thumbnail-first,” “direct render,” “single final,” or “one-shot final.” The latest explicit mode directive is sticky across later Art turns until the user changes it, explicitly exits the staged thread, or that thread completes.

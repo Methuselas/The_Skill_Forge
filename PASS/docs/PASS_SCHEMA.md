@@ -164,6 +164,35 @@ references:
 
 `Setup` may be exactly `No special setup required.`
 
+`Success Check` is a closed list of conditions a reader other than the runner can
+check after the fact. The section as a whole has to be able to fail; one that any
+completed attempt satisfies is the bug rather than the drill. Three requirements
+make it able to fail:
+
+- **The property under test may not serve as its own evidence.** Where a drill
+  turns on a test that would fail, an interference that would occur, or a change
+  that would leave something intact, the check requires that it was run, produced,
+  or applied. A prediction recorded in place of an observation reads as complete
+  and establishes nothing.
+- **At least one bullet excludes a named plausible near-miss** that would otherwise
+  satisfy the section. The working form is to state the cheap answer and say what
+  it demonstrates, rather than to describe the correct answer more emphatically.
+- **Where the drill ends in a choice, the check asks for the reason rather than
+  the selection**, so the run produces a defensible decision instead of a
+  preference.
+
+A bullet requiring an output the work alone does not produce satisfies the second
+requirement by a different mechanism — a name that would have been accepted had it
+been read in place, a model not previously made explicit, a rejected candidate with
+the observation that disqualified it. These resist fabrication because performing
+the exercise does not hand them over.
+
+Length is not the contract and is a poor proxy for it. A compressed check can
+discriminate better than a long one, and padding a section that already
+discriminates dilutes the bullets doing the work. Register belongs to the package:
+a procedural lane and a critical lane phrase the same requirement differently and
+both are correct.
+
 ### AP
 
 ```markdown
