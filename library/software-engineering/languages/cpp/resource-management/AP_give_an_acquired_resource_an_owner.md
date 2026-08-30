@@ -20,6 +20,8 @@ tags:
 - ownership
 - smart_pointers
 cross_links:
+- rel: related_to
+  target_object_id: PAT_give_every_acquired_resource_one_named_owner
 - rel: supports
   target_object_id: PAT_use_unique_ptr_for_exclusive_ownership
 - rel: supports
