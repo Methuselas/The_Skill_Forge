@@ -272,6 +272,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Readability](readability/INDEX.md) - 32 object(s).
 - [Refactoring](refactoring/INDEX.md) - 11 object(s).
 - [Reusability](reusability/INDEX.md) - 9 object(s).
-- [Testing](testing/INDEX.md) - 34 object(s).
+- [Testing](testing/INDEX.md) - 35 object(s).
 - [Variables](variables/INDEX.md) - 4 object(s).
 - [Working Practice](working-practice/INDEX.md) - 25 object(s).

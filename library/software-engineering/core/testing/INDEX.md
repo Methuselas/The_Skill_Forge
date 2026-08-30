@@ -36,6 +36,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
+- [A Branch Your Build Does Not Select Is Untested by Construction](PAT_treat_conditionally_compiled_code_as_untested.md) - pattern; 2 block. Tags: build, contracts, maintenance, portability, testing.
 - [Build a Way to See Inside the Running System](PAT_build_a_way_to_see_inside_the_running_system.md) - pattern; 2 block. Tags: diagnostics, logging, observability, testability.
 - [Choose an Assertion Matcher for a Correct, Clear Failure](DRILL_choose_an_appropriate_assertion_matcher.md) - drill; 4 final. Tags: assertions, failure_messages, matchers, unit_testing.
 - [Choose Test Cases Systematically](AP_choose_test_cases_systematically.md) - ap; 3 rough. Tags: boundary_analysis, coverage, defect_detection, test_design.
