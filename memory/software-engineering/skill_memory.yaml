@@ -925,3 +925,65 @@ entries:
   - how should I run this
   - coverage
   last_verified: '2026-08-30'
+- id: SE_MEM_015
+  scope_type: runtime
+  scope_id: findings_can_be_executed_not_only_argued
+  type: successful_tendency
+  evidence_class: deterministic_contract
+  observation: >
+    Four language toolchains are available on this machine and each has been verified by
+    compiling and running a program, not by finding the binary. C and C plus plus through
+    the MSVC compiler in the Build Tools install, invoked directly with explicit include
+    and library paths because the environment batch file on the neighbouring Visual Studio
+    install fails. Python through the interpreter already used for every tool in this
+    repository. Go and Rust downloaded from their official distributions, checksums checked
+    against the published values before anything was extracted or executed, and installed
+    under one directory with no change to the system path. Three review findings moved from
+    argued to reproduced once a compiler was in hand: a monetary total that prints negative
+    for a sum of positive inputs, an emptiness accessor whose guard dereferences an empty
+    container in one direction and returns a sentinel forever in the other, and a compiler
+    diagnostic naming the narrowing that caused the first.
+  diagnosis:
+    failure_layer: tool
+    hypothesis: >
+      A review that cannot execute is limited to claims a careful reader can be talked out
+      of, and the strongest findings are exactly the ones that sound implausible until they
+      run. Reproduction also changes what the reviewer will commit to: a defect described
+      as likely gets softened, and the same defect with an observed output attached does not.
+      The cost is small once the invocation is known, which is why the invocations belong in
+      this entry rather than being rediscovered.
+  boundary: >
+    Verified on this machine only, and the invocation paths are specific to it. The MSVC
+    route needs its include and library paths supplied by hand because the usual environment
+    script is broken on the Visual Studio install present here, so a different machine will
+    need that part re-established rather than copied. Go and Rust were installed without
+    modifying the system path, so both must be called by full path or have their directories added deliberately. The
+    Rust entry point matters: the launcher in the cargo bin directory refuses to run unless
+    the rustup and cargo home variables are set, because the install is not in the default
+    location, while the compiler inside the toolchain directory runs with no environment at
+    all and is the one to reach for. Nothing here says the toolchains are correctly configured for
+    building the corpora themselves, only for compiling small programs that isolate a
+    finding, which is the use that matters for review.
+  confidence: strong
+  status: active
+  evidence_count: 3
+  evidence_events:
+  - SE_EV_0029
+  - SE_EV_0031
+  - SE_EV_0032
+  evidence_origin:
+  - runtime_self_audit
+  - user_feedback
+  likely_owners:
+  - AP_review_code_you_did_not_write
+  retrieval_cues:
+  - compile
+  - run it
+  - reproduce
+  - verify the claim
+  - does this actually
+  - test the finding
+  - review this code
+  - prove it
+  runtime_scope: this workstation, tool paths under D drive tools
+  last_verified: '2026-08-30'
