@@ -51,7 +51,7 @@ No special setup required.
 - The nested original is written out before the rewrite so the levels removed can be counted rather than asserted.
 - Every branch of the first function is confirmed to end in a return before the guard-clause rewrite, because that is the rewrite's precondition and the rewrite is wrong without it.
 - The second function is shown breaking under a naive early return, with the skipped action named, before any extraction is made. This is the step the drill exists for, and a run that goes straight to extracting has demonstrated nothing about why extraction was needed.
-- After extraction the outer function holds no guard of its own that could skip the action, and every early return in the inner function returns a value rather than abandoning work.
+- After extraction the only guard left in the outer function is the one handling the computed result's absent case. A guard that re-tests a condition the inner function has already decided has duplicated the logic rather than moved it. Every early return in the inner function returns a value rather than abandoning work.
 - Each function is given a one-line statement of its single job. A line needing "and" describes a function still doing two, whatever the indentation now looks like.
 
 ## Common Failures

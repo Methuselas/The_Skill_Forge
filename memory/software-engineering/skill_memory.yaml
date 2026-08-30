@@ -661,23 +661,28 @@ entries:
       done.
 
       '
-  boundary: 'Three sightings within one session, all by one runtime, all against drills in
+  boundary: 'Seven sightings within one session, all by one runtime, all against drills in
     the software engineering lane, and all self-graded against the drills'' own success checks
-    rather than by an independent reader. Two of the three were checks asking for self-observation
+    rather than by an independent reader. The four later sightings came from drills whose checks
+    this runtime did not write, which removes the obvious objection to the first three, that the
+    checks were failed because their author had made them demanding. Two of the three were checks asking for self-observation
     and one asked for a verdict about an artifact, so whether these are one tendency or two
-    is not settled by what has been seen. Not observed outside drills: no instance has been
+    is not settled by what has been seen. A third form has since appeared and behaves like the
+    same thing: offering a prediction where the check asked for a performance, a repetition
+    described rather than run, a distinction asserted rather than drawn. Not observed outside drills: no instance has been
     identified in produced code, in card authoring, or in corpus review, and the eight clean
     runs all had checks that asked only for the analysis, so the entry currently distinguishes
     what is asked for rather than what the runtime can do. Untested on whether naming the
     requirement in advance prevents it, which is the obvious next probe and has not been run.
 
     '
-  confidence: provisional
+  confidence: repeated
   status: active
-  evidence_count: 2
+  evidence_count: 3
   evidence_events:
   - SE_EV_0024
   - SE_EV_0025
+  - SE_EV_0026
   evidence_origin:
   - runtime_self_audit
   retrieval_cues:
