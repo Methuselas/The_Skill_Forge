@@ -19,18 +19,20 @@ tags:
   - revision
   - incubation
 cross_links:
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_poetry_draft_through_discovery
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_separate_generative_and_evaluative_writing_modes
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_revise_whole_draft_toward_intended_form
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_reassess_inspired_drafts_after_distance
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_poetry_use_title_as_active_frame
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_poetry_add_paratext_for_external_framing
+  - rel: supports
+    target_object_id: writing_poetry_transform_source_material_into_standalone_poem
 reference:
   source_title: "Creative Writing: A Workbook with Readings"
   author: Linda Anderson

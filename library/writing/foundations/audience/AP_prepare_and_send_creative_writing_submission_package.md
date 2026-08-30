@@ -21,7 +21,7 @@ tags:
 cross_links:
   - rel: related_to
     target_object_id: writing_ap_research_and_shortlist_publication_outlets
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_proofread_stable_draft_through_independent_passes
   - rel: supports
     target_object_id: writing_conform_manuscript_to_receiver_current_requirements

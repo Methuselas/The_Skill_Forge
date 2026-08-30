@@ -21,7 +21,7 @@ cross_links:
     target_object_id: writing_poetry_ap_revise_rhythm_across_metered_and_free_verse
   - rel: supports
     target_object_id: writing_poetry_make_rhyme_serve_sense_and_effect
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_revise_whole_draft_toward_intended_form
 reference: {source_title: "Creative Writing: A Workbook with Readings", author: W. N. Herbert}
 confidence: high

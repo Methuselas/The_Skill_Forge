@@ -23,8 +23,10 @@ cross_links:
     target_object_id: writing_choose_diction_to_serve_purpose_and_tone
   - rel: supports
     target_object_id: writing_make_nonstandard_language_deliberate
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_poetry_break_lines_to_control_pace_and_expectation
+  - rel: supports
+    target_object_id: writing_poetry_add_paratext_for_external_framing
 reference:
   source_title: "Creative Writing: A Workbook with Readings"
   author: Linda Anderson

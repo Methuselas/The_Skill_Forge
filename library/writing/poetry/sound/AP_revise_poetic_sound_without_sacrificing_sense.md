@@ -31,7 +31,7 @@ cross_links:
     target_object_id: writing_read_draft_aloud_to_defamiliarize_it
   - rel: supports
     target_object_id: writing_revise_whole_draft_toward_intended_form
-  - rel: related_to
+  - rel: supports
     target_object_id: writing_poetry_draft_through_discovery
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
