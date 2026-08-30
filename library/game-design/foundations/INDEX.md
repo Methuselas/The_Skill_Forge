@@ -11,6 +11,7 @@
 - [Evaluate Mechanics by the Decisions and Agency They Create](PAT_evaluate_mechanics_by_the_decisions_and_agency_they_create.md) - pattern; 0 design. Tags: agency, decisions, mechanics, resolution.
 - [Integrate Genre Blends Instead of Merely Stacking Them](PAT_integrate_genre_blends_instead_of_merely_stacking_them.md) - pattern; 0 design. Tags: coherence, genre, integration, worldbuilding.
 - [Make the Game Operable Without Hidden Designer Knowledge](PAT_make_the_game_operable_without_hidden_designer_knowledge.md) - pattern; 0 design. Tags: assumptions, onboarding, rules, usability.
+- [Match Practiced Behavior to the Intended Outcome](PAT_match_practiced_behavior_to_the_intended_outcome.md) - pattern; 0 design. Tags: learning, outcomes, player-behavior, training.
 - [Match the Cost of Failure to the Player's Prior Investment](PAT_match_the_cost_of_failure_to_the_players_prior_investment.md) - pattern; 0 design. Tags: failure, investment, recovery, stakes.
 - [Reverse-Engineer a Game Through Play](DRILL_reverse_engineer_a_game_through_play.md) - drill; 0 design. Tags: analysis, mechanics, play, reverse-engineering.
 - [Translate Genre into Play Requirements](PAT_translate_genre_into_play_requirements.md) - pattern; 0 design. Tags: coherence, expectations, experience, genre.

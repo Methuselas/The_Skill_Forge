@@ -1,5 +1,5 @@
 ---
-object_id: PAT_match_practiced_behavior_to_the_intended_outcome
+object_id: PAT_align_repeated_and_rewarded_behavior_with_intended_outcomes
 object_type: pattern
 name: Align Repeated and Rewarded Behavior with Intended Outcomes
 library_path:
