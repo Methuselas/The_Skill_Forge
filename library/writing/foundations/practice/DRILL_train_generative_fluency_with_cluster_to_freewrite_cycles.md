@@ -60,7 +60,7 @@ Prepare separate blank pages and a timer. Choose several cues across unlike cate
 - The cluster stops at its fixed interval rather than when it feels finished.
 - The selected node is chosen for specificity, tension, surprise, embodiment, or verbal energy, and explicitly not for appearing most often.
 - The freewrite runs from that node under its own bounded interval and produces material rather than commentary on the cluster.
-- The cycle repeats, since a single pass measures a mood rather than training fluency.
+- The cycle repeats, since a single pass measures a mood rather than training fluency. The repetition falls outside this sitting, so a first pass reports one completed cycle and not the property the drill is after.
 
 ## Common Failures
 - Judging, spelling, or arranging nodes while the cluster is still forming.

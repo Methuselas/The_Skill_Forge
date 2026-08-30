@@ -57,7 +57,7 @@ Choose a repeatable span such as one week. Keep a quick capture method available
 - A detail, placement, or turn changes how the opening image is approached, so the poem moves rather than only observing.
 - Syllabic structure is used where it sharpens selection and departed from where an added word would damage sound, sense, or immediacy, and the departure is deliberate rather than accidental.
 - Explanation, generic emotion, decorative comparison, and unnecessary modifiers are removed.
-- The set is compared across the cycle so recurring habits surface, rather than each poem being judged alone.
+- The set is compared across the cycle so recurring habits surface, rather than each poem being judged alone. The comparison waits on the cycle finishing, so a single day closes the day and not this condition.
 - At least one day is recorded as a failure of attention rather than reworked into an acceptable poem.
 
 ## Common Failures

@@ -56,7 +56,7 @@ A piece of code you have not read before, and the nine-point scale with a second
 - The code was genuinely unfamiliar and this is stated. A rating on code already read measures recall, and the scale cannot tell the two apart.
 - The rating is recorded before the reason is written, so the reason explains the number rather than the number drifting to fit a tidy explanation.
 - Every reason names something about the code — a construct, a distance, a name that misled — and any reason naming only a state of the reader is marked as such rather than counted.
-- Across entries at least one recurring driver is named and is specific enough to act on. "Complexity" recurring is the absence of a finding rather than a finding.
+- Across entries at least one recurring driver is named and is specific enough to act on. "Complexity" recurring is the absence of a finding rather than a finding. A recurrence needs several entries and therefore several sittings, so a first run records its entry and leaves this open; a driver called recurring on the strength of one reading is a preference reported as a pattern.
 - Load from the problem is separated from load from the writing, with one case of each identified. A run attributing everything to how the code was written has not made the distinction the scale exists to support.
 
 ## Common Failures

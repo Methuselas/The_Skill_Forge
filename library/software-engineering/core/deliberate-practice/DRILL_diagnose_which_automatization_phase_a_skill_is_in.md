@@ -55,7 +55,7 @@ An ordinary working session in a language you use, and a three-column table. Thi
 ## Success Check
 - At least one skill you assumed was automatic turns out to be associative once you notice the rule you are applying.
 - Each entry is placed by a stated test, not by how confident you feel.
-- Repeating the exercise in a less familiar language shifts the distribution, confirming the phases track the skill-in-context rather than you.
+- Repeating the exercise in a less familiar language shifts the distribution, confirming the phases track the skill-in-context rather than you. This is the condition a single session cannot close. Predicting the shift is not observing it, and a run reporting that the distribution moved without having worked in the second context has put the prediction where the evidence goes.
 
 ## Common Failures
 - Doing it from memory rather than during work. The distinction between associative and autonomous is invisible in retrospect, because the trick is fast enough to feel like fluency.

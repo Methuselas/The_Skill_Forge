@@ -56,7 +56,7 @@ One construct, chosen from whatever your phase diagnosis left in the cognitive o
 - The construct is small enough that one repetition takes seconds, established by timing one rather than by judging its shape.
 - The variants differ along stated axes — direction, step, bound, nesting — rather than being restatements. Many near-identical copies practise transcription instead of the construct.
 - The conversion is performed in both directions, and the reverse is where the comparison is recorded. Converting only forwards trains one mapping and leaves the equivalence unbuilt.
-- Sessions are short and spaced with dates recorded. One long burst is the condition this technique is defined against, and only the record distinguishes them afterwards.
+- Sessions are short and spaced with dates recorded. One long burst is the condition this technique is defined against, and only the record distinguishes them afterwards. Spacing cannot be shown within the first sitting, which can do no more than open the record.
 - The stopping test is the autonomous one — producing the construct while attending to something else — rather than the absence of a felt need to check, which arrives well before fluency does.
 
 ## Common Failures

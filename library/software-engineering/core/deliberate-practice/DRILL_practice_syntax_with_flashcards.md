@@ -61,7 +61,7 @@ Paper cards, sticky notes, or a spaced-repetition app such as Anki, Quizlet, or 
 ## Success Check
 - You can produce the code for a card on a blank page, not merely recognise it as correct when shown.
 - The tally on each card reflects real attempts, so the set can be pruned on evidence rather than on a feeling of familiarity.
-- Cards you have retired stay retired for weeks; ones that keep returning to the set indicate a concept that needs a different explanation, not more repetitions.
+- Cards you have retired stay retired for weeks; ones that keep returning to the set indicate a concept that needs a different explanation, not more repetitions. That is settled weeks after the sitting which retired them, so a run records the retirement and not its outcome, and a same-day claim that a card stayed retired has measured nothing.
 
 ## Common Failures
 - Reading both sides of the card. This turns retrieval practice into re-reading, which builds the strength that was not lacking.
