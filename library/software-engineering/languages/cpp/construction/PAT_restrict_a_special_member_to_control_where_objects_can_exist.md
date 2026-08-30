@@ -21,6 +21,8 @@ tags:
 - invariants
 cross_links:
 - rel: related_to
+  target_object_id: PAT_design_shutdown_for_process_lifetime_objects
+- rel: related_to
   target_object_id: PAT_replace_nonlocal_statics_with_local_statics
 - rel: related_to
   target_object_id: PAT_make_interfaces_hard_to_misuse
@@ -39,7 +41,7 @@ variants: []
 ## Pattern Rule
 **IF** a class carries a constraint on its own instantiation — a ceiling on how many objects may exist, a requirement that they live on the heap or a prohibition on it, or a rule that nobody derives from it
 **THEN** implement the constraint by making the relevant special member non-public and exposing a static function that constructs, because a rule expressed in access control is enforced and the same rule expressed in documentation is a hope
-**ELSE** where you want exactly one object for the lifetime of the program, a function returning a reference to a local static is simpler, and it builds the object on first use rather than at an unpredictable moment during startup.
+**ELSE** where you want exactly one object for the lifetime of the program and this code is what owns that program, a function returning a reference to a local static is simpler, and it builds the object on first use rather than at an unpredictable moment during startup — but it hands out a reference whose end it does not control, so settle what happens to holders of that reference during teardown before choosing it.
 
 ## Do
 - Pick the member by what you are actually forbidding. Non-public constructors stop construction outright, and — as a side effect — stop derivation and containment too, since a class whose constructors are unreachable can be neither a base nor a member. A non-public destructor stops objects with automatic or static storage, because those require an implicit destruction the caller cannot perform, while leaving heap creation open; make it protected rather than private when derived classes must still exist. A non-public allocation function stops heap objects while leaving stack and static ones available.
@@ -51,6 +53,8 @@ variants: []
 - Don't count instances while leaving the constructors public. Objects come into being in three contexts — standalone, as a base subobject, and as a member of something larger — and the count sees all three, so a class with a limit of one starts throwing the moment somebody derives from it or embeds it, at a point in the program nobody will connect to the limit.
 - Don't try to determine whether an object is on the heap by comparing its address against a local variable's. The reasoning ignores that static objects live in a third region belonging to neither stack nor heap, so they are misclassified; and the memory layout it depends on is not universal. There is no portable way to answer the question at all, which makes redesigning so you never ask it the only reliable move.
 - Don't set a flag in the allocation function and test it in the constructor. Allocating an array calls the allocation function once and the constructor once per element, so every element after the first sees a cleared flag; and where one construction is nested inside another, implementations are free to perform both allocations before either construction, which hands the flag to the wrong object.
+- Don't take the initialization property as covering the other end. Building on first use fixes the order objects are created in and fixes nothing about the order they are destroyed in, and the idiom's whole interface is a reference the caller may keep. Anything still running during teardown — a logger, a diagnostic path, another object's destructor — can reach that reference after the object behind it is gone, and the read succeeds on whatever is left. `PAT_design_shutdown_for_process_lifetime_objects` owns deciding that, and it has to be decided here rather than discovered there.
+- Don't reach for it from code that does not own the program it runs in. The lifetime in the phrase belongs to the host, so a library or plugin choosing this has tied an object to a program it does not control and cannot end: the object outlives every unload, or is destroyed at one while a host that still holds the reference keeps running. Where the single instance is wanted by a component rather than by a program, its lifetime has to be attached to something the component owns.
 - Don't put the single shared object in a class static rather than a function static. A class static is constructed whether or not the program ever uses it, and its construction order relative to statics in other translation units is undefined.
 
 ## Checklist
@@ -64,6 +68,8 @@ variants: []
 The reason to prefer access control over a runtime check is that the two fail differently. An access violation is a compile-time diagnostic at the offending line; a count that throws reports the problem at run time, at whatever unrelated location happened to trip it, with no indication of which of the three construction contexts was responsible.
 
 Function-local statics carry an initialization property that is the point rather than a detail. They are constructed the first time control reaches them, so an unused one is never built, and their construction order relative to each other follows the order of use rather than the undefined cross-translation-unit ordering that afflicts statics at namespace scope. The cost is a check on each call to see whether construction has happened yet.
+
+The property it does not carry is worth stating beside the one it does, because they look like halves of the same guarantee and only one of them was ever provided. Ordering by first use answers the question of what exists when something is built. Nothing in the technique answers the question of what still exists when something is being torn down, and that is the question the idiom's own callers create, since every one of them holds a reference it may use later. In a program the boundary is at least visible and can be designed against; in a library there is no boundary of yours at all, and the phrase about the lifetime of the program is describing somebody else's.
 
 One caution attached to this technique has since expired. Meyers warned against inline non-member functions containing local statics, because internal linkage could leave a program holding several copies of an object there was meant to be one of. The default linkage of inline functions was changed to external shortly after, and the hazard went with it.
 
