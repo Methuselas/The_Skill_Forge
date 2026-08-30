@@ -40,7 +40,7 @@ variants: []
 ## Pattern Rule
 **IF** you are building something with several threads that will at some point need to stop cleanly rather than be killed
 **THEN** design the stopping sequence at the same time as the running one and get it working early, because it fails in ways steady operation never exhibits and it will take longer than you expect
-**ELSE** where the process can simply be terminated and everything it held is discarded safely, say so deliberately — that is a legitimate choice, and it is only legitimate when someone has checked it.
+**ELSE** where the process can simply be terminated and everything it held is discarded safely, say so deliberately — that is a legitimate choice, it depends on there being a process boundary that does the discarding and on this code being what exits, and it is only legitimate when someone has checked both.
 
 ## Do
 - Work out, for every thread, what wakes it up to be told to finish. A thread parked waiting on something that will never arrive cannot notice that it has been asked to stop, and that is the ordinary way an orderly stop hangs.
@@ -48,6 +48,7 @@ variants: []
 - Give anything that waits a way out other than the arrival it is waiting for. A wait with no alternative exit is fine while the system runs forever and is exactly the thing that strands it on the way down.
 - Decide what happens to work that is in flight. Finishing it, abandoning it, and persisting it for later are all defensible, and the failure is discovering at the last minute that nobody chose.
 - Build and exercise it early rather than after the running path works. Retrofitting an exit into threads already written means revisiting every wait in the system, at the point where it is most expensive to change them.
+- Treat being unloaded as an ending, wherever this ships inside something else. A library or plugin that started threads is not present at process exit to be tidied by it; it is removed while the program continues, and a thread still running in code that has just been unmapped is a crash with no useful diagnosis. That ending arrives at a moment the host chooses, so it has to be designed for on the same terms as the one you control, and it is the ending most likely to have gone unconsidered.
 - Set a bound on how long you are prepared to wait for a clean stop, and decide what you do when it expires. Waiting forever for a thread that will never finish is a hang, however orderly the intent.
 
 ## Don't
