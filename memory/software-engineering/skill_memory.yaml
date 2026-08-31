@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: software-engineering
-memory_version: 6
+memory_version: 9
 entries:
 - id: SE_MEM_001
   scope_type: topic
@@ -1089,14 +1089,23 @@ entries:
     and three defects went unreported. One caveat on provenance: the event this rests on was
     recorded by the run that missed the three, and the entry was consolidated by the run that
     found them, so the diagnosis carries that interest even though the observation does not
-    depend on it.
+    depend on it. Two events are cited and they are not two sightings. The first is the comparison
+    the entry describes. The second is a later run in which this entry was retrieved and the
+    failure did not occur - that run reports tracing outward before ranking because of it,
+    and that trace both produced its highest-ranked finding and killed a candidate. Read the
+    count as one sighting plus one non-recurrence, which is why the confidence stays provisional:
+    a recurring-failure entry is not strengthened by an occasion when nothing recurred. What
+    that second event would support is a retention claim, and it does not support one yet
+    either, because nobody re-ran the same slice with the entry withheld and there is no controlled
+    comparison behind the attribution.
 
     '
   confidence: provisional
   status: active
-  evidence_count: 1
+  evidence_count: 2
   evidence_events:
   - SE_EV_0035
+  - SE_EV_0037
   evidence_origin:
   - runtime_self_audit
   likely_owners:
@@ -1119,4 +1128,74 @@ entries:
   - defect list
   - is this deliberate
   - intentional or a bug
+  last_verified: '2026-08-31'
+- id: SE_MEM_017
+  scope_type: topic
+  scope_id: drill_instructions_against_their_own_success_check
+  type: known_boundary
+  evidence_class: deterministic_contract
+  observation: 'Three drills were taken with only their front matter, task, setup and instructions
+    visible, answered to a file, and then graded against the success check. Nine of fifteen
+    bullets passed. The bullet that failed in all three was the last one, and in each case
+    what it required was either absent from the instructions or present only as a subordinate
+    clause: exercising chaining where an instruction had asked only that a reference be returned,
+    the case of the function shipping as a library where no instruction mentioned it, and
+    whether the caller needs the reason for an absence where that appeared as a parenthesis
+    inside a step about return types. Reading the closing bullet of twenty-nine rewritten
+    checks in the same lane shows the position is a convention rather than a coincidence:
+    it is where the fabrication-resistant requirement is placed, recurring in three phrasings
+    - the opposite failure is checked, the cost is named, a stated near-miss passes every
+    bullet above.
+
+    '
+  diagnosis:
+    failure_layer: training
+    hypothesis: 'The check and the instructions were written to different audiences. The check
+      is built so a completed attempt cannot satisfy it by being completed, which is what
+      the closing bullet is for and why it asks for something the exercise does not hand over.
+      The instructions are built to be followed. Nothing reconciles the two, so a runner working
+      from the instructions alone systematically fails the one bullet that was designed to
+      be hard to fake, and fails it for the wrong reason - not because they could not do it,
+      but because they were never told it was part of the work. The repair is on the instruction
+      side: the check is doing its job.
+
+      '
+  boundary: 'Three drills, one sitting, one runtime, spanning two authoring batches and three
+    shapes - a C++ resource-ownership rewrite, a language-agnostic classification ending in
+    a choice, and a refactoring whose middle stage must fail to compile. The convention claim
+    behind it is stronger than the scoring claim: the placement of the fabrication-resistant
+    bullet was read directly off twenty-nine checks and is verifiable without running anything,
+    whereas nine of fifteen is one sitting graded by the runtime that produced the answers
+    and should not be treated as a rate. The measurement also hid the success check deliberately,
+    to score production rather than recognition; in ordinary use a runner opens one file and
+    sees the whole drill, so a runner who reads the check first simply does the extra thing
+    and the gap never appears. What is evidenced is that the instructions alone do not carry
+    a runner to the closing bullet - not that the drills are unpassable. Untested on the art
+    and writing lanes, whose checks were rewritten in the same pass and have not been taken.
+
+    '
+  confidence: provisional
+  status: active
+  evidence_count: 1
+  evidence_events:
+  - SE_EV_0036
+  evidence_origin:
+  - runtime_self_audit
+  likely_owners:
+  - PASS/docs/PASS_SCHEMA.md - the Drill section specifies what a Success Check must contain
+    and says nothing about the Instructions asking for it
+  retrieval_cues:
+  - take a drill
+  - run a drill
+  - grade a drill
+  - success check
+  - drill instructions
+  - did I pass
+  - score the attempt
+  - what does this drill want
+  - practice task
+  - am I done
+  - completion
+  - write the drill
+  - author a drill
   last_verified: '2026-08-30'

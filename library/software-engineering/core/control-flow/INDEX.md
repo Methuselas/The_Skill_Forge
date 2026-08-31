@@ -13,6 +13,7 @@
 - [Decide the Else Instead of Omitting It by Default](PAT_decide_the_else_instead_of_omitting_it.md) - pattern; 3 rough. Tags: completeness, conditionals, control_flow, testing.
 - [Give Each Loop One Job, Even When Two Would Fit in One Pass](PAT_keep_one_job_per_loop.md) - pattern; 3 rough. Tags: control_flow, loops, maintainability, premature_optimization.
 - [Keep a Loop's Control Outside Its Body](PAT_keep_a_loops_control_outside_its_body.md) - pattern; 3 rough. Tags: control_flow, loops, readability, termination.
+- [Keep a Structure Non-Empty So the Empty Case Disappears](PAT_keep_a_structure_non_empty_so_the_empty_case_disappears.md) - pattern; 3 rough. Tags: control_flow, data_structures, invariants, special_cases.
 - [Order Branches So the Common Case Is Found First](PAT_order_branches_so_the_common_case_is_found_first.md) - pattern; 3 rough. Tags: case_statements, conditionals, control_flow, readability.
 - [Put the Variation in Data Rather Than Logic](PAT_put_the_variation_in_data_rather_than_logic.md) - pattern; 2 block. Tags: control_flow, data_driven, maintainability, table_driven.
 - [Shape a Multi-Way Decision](AP_shape_a_multi_way_decision.md) - ap; 2 block. Tags: branching, complexity, control_flow, readability, table_driven.

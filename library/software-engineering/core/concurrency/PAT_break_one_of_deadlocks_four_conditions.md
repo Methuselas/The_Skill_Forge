@@ -46,6 +46,7 @@ variants: []
 - Know what refusing to wait costs you. One thread needing an unusual combination may never find all of it free, and several threads can fall into lockstep — each taking one and releasing one, repeatedly. The first wastes the thread and leaves the processor idle; the second consumes the processor entirely while accomplishing nothing.
 - Attack the no-reclaiming condition with a request mechanism: a thread finding a resource busy asks its holder to give it up, and a holder that is itself waiting releases everything and restarts. It permits waiting, so it restarts less often than the previous strategy, at the cost of tracking all those requests.
 - Attack the cycle by agreeing an order. If every thread acquires resources in one globally agreed sequence, a cycle cannot form. This is the usual answer and it is usually just a convention rather than a mechanism.
+- Put that convention where an acquisition site will hit it, since it is a convention and nothing enforces it. A rule in a design note constrains whoever reads the design note; the same rule written on the declaration of the lock that must be taken *second* is met by every future caller inside the definition they already have to read to use it. It costs one comment, it survives the departure of everyone who agreed to it, and it is the difference between an ordering that holds and one that held when it was written.
 - Weigh what ordering costs before adopting it. The acquisition order rarely matches the order of use, so something taken early may sit held until the end; and where the identity of the second resource depends on what you did with the first, no ordering is possible at all.
 - Isolate the coordinating part of the design so you can change strategy and measure the result. Which of these is right is not decidable on paper, and the ability to swap one for another is what lets you find out.
 
@@ -60,6 +61,7 @@ variants: []
 - Is every contended resource here genuinely exclusive and genuinely limited?
 - If threads release and retry, what stops one of them from never succeeding?
 - Is there a global acquisition order, and does every path obey it?
+- Where is that order written down, and would someone adding an acquisition site read it there?
 - Does any resource's identity depend on the result of using another one?
 - What is the chosen strategy costing, and where would you observe that cost?
 
