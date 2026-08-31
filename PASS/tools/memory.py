@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Skillset Memory tooling — validate, query, append, compact, review.
+"""Skillset Memory tooling: validate, query, append, compact, review.
 
 Memory is the portable empirical record of what happens when the canon is used.
 This tool is mechanical: it validates shape, retrieves a bounded set, appends an
@@ -544,7 +544,7 @@ def compact_link(
     dropped = [e for e in already_cited if e not in event_ids]
     if dropped and not allow_drop:
         return False, [
-            f"'{entry_id}' already cites {', '.join(dropped)}, which this call would remove — "
+            f"'{entry_id}' already cites {', '.join(dropped)}, which this call would remove: "
             f"pass every event the entry should end up citing, or --replace if the loss is intended"
         ]
 
@@ -613,7 +613,7 @@ def review_store(domain_dir: Path, library_root: Path | None) -> list[str]:
             notes.append(f"{label}: confidence strong on {entry.get('evidence_count', 0)} event(s)")
         if entry.get("evidence_class") == "deterministic_contract" and status == "active":
             notes.append(
-                f"{label}: deterministic_contract still active — if the fix landed, "
+                f"{label}: deterministic_contract still active: if the fix landed, "
                 "move it to resolved and let the test hold it"
             )
         if known:
