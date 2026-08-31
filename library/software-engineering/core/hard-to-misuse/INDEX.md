@@ -17,7 +17,7 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 ## Objects
 
-- [A Default Stated Three Times Will Drift](PAT_state_a_types_default_in_one_place.md) - pattern; 2 block. Tags: consistency, initialization, maintenance, serialization, state.
+- [A Default Stated More Than Once Will Disagree](PAT_state_a_types_default_in_one_place.md) - pattern; 2 block. Tags: consistency, initialization, maintenance, serialization, state.
 - [Close the Deep-Mutability Holes in a Class](DRILL_fix_deep_mutability_in_a_class.md) - drill; 3 rough. Tags: defensive_copying, immutability, refactoring, references.
 - [Keep a Single Source of Truth for Data](PAT_single_source_of_truth_for_data.md) - pattern; 2 block. Tags: caching, derived_data, hard_to_misuse, single_source_of_truth.
 - [Keep a Single Source of Truth for Logic](PAT_single_source_of_truth_for_logic.md) - pattern; 2 block. Tags: decomposition, duplication, hard_to_misuse, single_source_of_truth.
