@@ -141,6 +141,51 @@ class AdmissibilityContract(MemoryStoreFixture):
         self.assertEqual(stored["entries"][0]["evidence_events"], ["TST_EV_0001"])
         self.assertEqual(stored["entries"][0]["evidence_count"], 1)
 
+    def test_compact_refuses_to_drop_evidence_the_entry_already_cites(self) -> None:
+        """--events is the final list, which reads like "add these". It must not lose one silently."""
+        second = dict(VALID_EVENT, event_id="TST_EV_0003")
+        cited = dict(VALID_ENTRY, evidence_events=["TST_EV_0001"], evidence_count=1)
+        self.write([cited], [VALID_EVENT, second])
+
+        result = run_tool(
+            "compact", "--domain", "art", "--entry", "TST_MEM_001",
+            "--events", "TST_EV_0003", memory=self.tmp,
+        )
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("TST_EV_0001", result.stderr)
+        stored = yaml.safe_load((self.domain / "skill_memory.yaml").read_text(encoding="utf-8"))
+        self.assertEqual(stored["entries"][0]["evidence_events"], ["TST_EV_0001"])
+
+    def test_compact_drops_evidence_when_the_loss_is_confirmed(self) -> None:
+        """Dropping a citation is sometimes right, so the refusal is a confirmation, not a wall."""
+        second = dict(VALID_EVENT, event_id="TST_EV_0003")
+        cited = dict(VALID_ENTRY, evidence_events=["TST_EV_0001"], evidence_count=1)
+        self.write([cited], [VALID_EVENT, second])
+
+        result = run_tool(
+            "compact", "--domain", "art", "--entry", "TST_MEM_001",
+            "--events", "TST_EV_0003", "--replace", memory=self.tmp,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        stored = yaml.safe_load((self.domain / "skill_memory.yaml").read_text(encoding="utf-8"))
+        self.assertEqual(stored["entries"][0]["evidence_events"], ["TST_EV_0003"])
+        self.assertEqual(stored["entries"][0]["evidence_count"], 1)
+
+    def test_compact_adds_alongside_existing_evidence_when_all_are_named(self) -> None:
+        """The safe path stays unchanged: name everything and nothing is refused."""
+        second = dict(VALID_EVENT, event_id="TST_EV_0003")
+        cited = dict(VALID_ENTRY, evidence_events=["TST_EV_0001"], evidence_count=1)
+        self.write([cited], [VALID_EVENT, second])
+
+        result = run_tool(
+            "compact", "--domain", "art", "--entry", "TST_MEM_001",
+            "--events", "TST_EV_0001,TST_EV_0003", memory=self.tmp,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        stored = yaml.safe_load((self.domain / "skill_memory.yaml").read_text(encoding="utf-8"))
+        self.assertEqual(stored["entries"][0]["evidence_events"], ["TST_EV_0001", "TST_EV_0003"])
+        self.assertEqual(stored["entries"][0]["evidence_count"], 2)
+
 
 class PersistenceContract(MemoryStoreFixture):
     """Reported written is not verified written."""

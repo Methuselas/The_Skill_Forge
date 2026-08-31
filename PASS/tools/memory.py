@@ -494,12 +494,27 @@ def write_memory(domain_dir: Path, memory: dict[str, Any]) -> None:
     )
 
 
-def compact_link(domain_dir: Path, entry_id: str, event_ids: list[str]) -> tuple[bool, list[str]]:
+def compact_link(
+    domain_dir: Path,
+    entry_id: str,
+    event_ids: list[str],
+    allow_drop: bool = False,
+) -> tuple[bool, list[str]]:
     """Link an entry to the valid events that support it, then read it back.
 
     This is deliberately mechanical. It does not write the observation prose —
     consolidating five events into one honest sentence is a judgment, and a
     script that guessed at it would be inventing empirical claims.
+
+    `event_ids` is the entry's complete evidence after the call, not an
+    addition to it. That is a reasonable contract and an easy one to misread as
+    "add these", so a call that would drop an event already cited is refused
+    unless `allow_drop` says the loss is intended. The readback below cannot
+    catch this on its own: it compares the stored list against what was passed,
+    so it confirms the overwrite rather than noticing what the overwrite
+    removed. Dropping a citation is sometimes right — an event later found
+    invalid, or attributed to the wrong entry — which is why this is a
+    confirmation rather than a prohibition.
     """
     memory = load_memory(domain_dir)
     entries = [e for e in memory.get("entries") or [] if isinstance(e, dict)]
@@ -524,6 +539,14 @@ def compact_link(domain_dir: Path, entry_id: str, event_ids: list[str]) -> tuple
             )
     if problems:
         return False, problems
+
+    already_cited = [str(e) for e in entry.get("evidence_events") or []]
+    dropped = [e for e in already_cited if e not in event_ids]
+    if dropped and not allow_drop:
+        return False, [
+            f"'{entry_id}' already cites {', '.join(dropped)}, which this call would remove — "
+            f"pass every event the entry should end up citing, or --replace if the loss is intended"
+        ]
 
     entry["evidence_events"] = list(event_ids)
     entry["evidence_count"] = len(event_ids)
@@ -688,13 +711,16 @@ def cmd_compact(args: argparse.Namespace) -> int:
         if not event_ids:
             print("FAIL: --events is required with --entry", file=sys.stderr)
             return 1
-        ok, problems = compact_link(dirs[0], args.entry, event_ids)
+        ok, problems = compact_link(dirs[0], args.entry, event_ids, allow_drop=args.replace)
         if not ok:
             for problem in problems:
                 print(f"{dirs[0].name}: {problem}", file=sys.stderr)
             print("FAIL: evidence not linked", file=sys.stderr)
             return 1
-        print(f"PASS: linked {len(event_ids)} event(s) to {args.entry} and confirmed on readback")
+        print(
+            f"PASS: {args.entry} now cites {', '.join(event_ids)} "
+            f"({len(event_ids)} event(s)), confirmed on readback"
+        )
         return 0
     for domain_dir in dirs:
         uncited = uncited_valid_events(domain_dir)
@@ -751,6 +777,11 @@ def main() -> int:
     compact = sub.add_parser("compact", parents=[common], help="Report or link the evidence behind an entry.")
     compact.add_argument("--entry", default=None)
     compact.add_argument("--events", default=None, help="Comma-separated event ids.")
+    compact.add_argument(
+        "--replace",
+        action="store_true",
+        help="Confirm that events the entry already cites and --events omits should be dropped.",
+    )
 
     review = sub.add_parser("review", parents=[common], help="List entries that need revalidation.")
     review.add_argument("--library", type=Path, default=default_library_root())
