@@ -39,6 +39,13 @@ variants:
     when_to_use: The unresolved choice is how much interior knowledge and authorial interpretation a story should permit rather than grammatical person or tense.
     when_not_to_use: The passage lacks a meaningful private pressure, multiple-character contrast, or exterior evidence with which the three versions could produce different effects.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_compare_one_interior_passage_across_thought_presentation_modes
+    variant_name: Compare One Interior Passage across Thought-Presentation Modes
+    variant_basis: method_sequence
+    difference_from_foundation: Hold event, facts, viewpoint, and tense constant while rendering the same interior movement as tagged direct thought, typographically marked direct thought, unmarked direct thought, reported thought, and free indirect style, then select by demonstrated distance, voice, emphasis, attribution, visual load, and transition clarity.
+    when_to_use: A passage has necessary interior access but its current thought convention feels intrusive, flat, confusing, overmarked, or mismatched to the surrounding narrative distance.
+    when_not_to_use: The unresolved problem is which consciousness owns the passage, whether private access belongs in the story at all, or which viewpoint and tense should govern the larger event.
+    absorbed_from_object_id: none
 ---
 
 # Redraft a Passage across Point of View and Tense
@@ -80,3 +87,5 @@ Choose a passage of 250 to 500 words containing an event, at least two character
 Sustained redrafting exposes costs that a pronoun substitution cannot. A viewpoint may produce an arresting first line but fail when the passage needs inaccessible knowledge; an unusual tense may energize one moment while making summary or hindsight cumbersome. The exercise makes those tradeoffs visible before they govern an entire draft.
 
 `writing_fiction_variant_compare_three_third_person_access_levels` isolates degree of knowing. In the limited version, filter every detail and inference through one character; in the omniscient version, use broader access only where comparison, context, or judgment earns it; in the objective version, remove private thought and make the central pressure inferable through exterior evidence. Choose by the effect and information route the story needs, not by which version contains the most facts.
+
+`writing_fiction_variant_compare_one_interior_passage_across_thought_presentation_modes` isolates the sentence-level presentation of thought after viewpoint and tense are stable. Use one passage with a clear owner and a consequential inward turn. Preserve its information and sequence while testing: direct thought with a restrained attribution tag; brief direct thought marked by the destination's supported convention; direct thought in ordinary type with contextual orientation; reported thought recast through narrative syntax; and free indirect style that lets the character's idiom color third-person narration. Annotate where each version places the reader, what it emphasizes, how quickly ownership becomes clear, how much visual or tagging machinery it requires, and how smoothly it enters and leaves surrounding action. A story may combine modes when pressure or distance changes, but every transition must remain legible.

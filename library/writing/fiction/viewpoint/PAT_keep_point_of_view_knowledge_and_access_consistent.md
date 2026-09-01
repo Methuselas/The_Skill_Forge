@@ -49,6 +49,7 @@ variants:
 ## Do
 - Track whether each claim comes from direct perception, memory, inference, report, or an established omniscient intelligence.
 - Keep diction and noticing consistent with the focal character's experience even when third-person prose can exceed that character's spoken vocabulary.
+- Distinguish a change in how one character's thought is presented from a move into another consciousness; direct, reported, and free-indirect modes can vary without changing the viewpoint contract.
 - Give a viewpoint transition enough formal evidence for readers to relocate before new private knowledge appears.
 - Prefer fewer access changes as the form becomes shorter and each transition consumes a larger share of the story.
 
@@ -61,12 +62,13 @@ variants:
 
 ## Checklist
 - Every private thought belongs to the current focal consciousness or an established omniscient voice.
+- A change in thought presentation preserves legible ownership and does not masquerade as spoken dialogue, narrator judgment, or access to another mind.
 - Reported facts have a plausible route into the narrator's knowledge.
 - A transition is recognizable before, not after, the first inaccessible detail.
 - Description reflects the active observer's attention and blind spots.
 - Removing an access shift would not improve clarity without sacrificing a necessary effect.
 
 ## Notes
-Consistency does not require a story to use only one viewpoint. It requires every change in access to be governed. Longer works can establish several focal positions; short and flash fiction pay a steeper cost because relocation competes directly with development. An apparent break may instead be an inference or a narrator's false belief, but the prose must let readers distinguish that condition from authorial confusion.
+Consistency does not require a story to use only one viewpoint or one thought-presentation mode. It requires every change in access to be governed and every private thought to retain a legible owner. A passage may move among tagged direct thought, unmarked direct thought, reported thought, and narrator-character blending as distance or pressure changes; that surface variation is not head-hopping unless the source of private knowledge also changes. Longer works can establish several focal positions; short and flash fiction pay a steeper cost because relocation competes directly with development. An apparent break may instead be an inference or a narrator's false belief, but the prose must let readers distinguish that condition from authorial confusion.
 
 `writing_fiction_variant_signal_alternating_third_person_focalization` treats each limited viewpoint as a distinct access zone inside a larger narrative design. Establish the alternation early, keep the active set small enough to develop, and use a chapter, section, or paragraph boundary plus changed attention or tone to relocate readers before private knowledge appears. Brief movement among minds can work when a governing omniscient voice has already made that freedom legible; otherwise mid-sentence relocation reads as loss of control.
