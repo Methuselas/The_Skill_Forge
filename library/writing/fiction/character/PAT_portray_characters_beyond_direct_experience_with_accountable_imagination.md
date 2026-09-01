@@ -28,6 +28,8 @@ cross_links:
     target_object_id: writing_fiction_let_relationship_and_setting_shape_dialogue
   - rel: related_to
     target_object_id: writing_fiction_transform_real_people_into_composite_characters
+  - rel: related_to
+    target_object_id: writing_fiction_treat_character_bodies_as_lived_conditions
 reference:
   source_title: "Creative Writing: A Workbook with Readings"
   author: Linda Anderson

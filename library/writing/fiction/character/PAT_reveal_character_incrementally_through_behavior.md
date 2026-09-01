@@ -21,6 +21,8 @@ tags:
 cross_links:
   - rel: related_to
     target_object_id: writing_fiction_build_round_characters_from_contradiction_and_desire
+  - rel: related_to
+    target_object_id: writing_fiction_treat_character_bodies_as_lived_conditions
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -48,12 +50,15 @@ variants:
 - Choose gestures and speech habits that change the reader's inference about motive or relation rather than merely adding color.
 - Plant subtle hints before a surprising choice so recognition can follow surprise.
 - Let different situations disclose different pressures on the same underlying person.
+- Separate observable appearance from the viewpoint character's interpretation, then let conduct and consequence confirm, complicate, or overturn that judgment.
+- Let bodily change over time enter through altered movement, presentation, access, sensation, or social response when it affects the story.
 
 ## Don't
 - Open with a dossier of appearance, history, temperament, tastes, and motives.
 - Explain the meaning of an action immediately after the action has made it legible.
 - Withhold basic orientation solely to manufacture a false mystery.
 - Spend a scene proving a trait that never affects a choice, relation, or consequence.
+- Treat facial structure, eye color, teeth, posture, body size, disability, or clothing as self-evident proof of personality or moral worth.
 
 ## Checklist
 - The reader learns something consequential from what the character does, says, or attends to.
@@ -61,6 +66,7 @@ variants:
 - Direct exposition is limited to facts the scene cannot carry efficiently.
 - A surprise feels prepared rather than arbitrary.
 - Removing a descriptive passage does not erase information that behavior already supplies.
+- Appearance-based inference remains attributable to an observer and is tested by later evidence rather than installed as objective truth.
 
 ## Notes
 The writer may know the whole private history while the reader receives only the active edge of it. Discovery ends when everything important arrives as introductory explanation.

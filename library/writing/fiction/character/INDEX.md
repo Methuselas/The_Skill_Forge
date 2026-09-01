@@ -22,4 +22,6 @@
   - Variants: `Characterize through Selective Observation` (emphasis).
 - [Scale Character Change to Story Length](PAT_scale_character_change_to_story_length.md) - pattern; 3 rough. Tags: change, character, fiction, flash-fiction, realization.
 - [Trace Character Continuity across a Whole-Life Timeline](DRILL_trace_character_continuity_across_a_whole_life_timeline.md) - drill; 0 design. Tags: character, chronology, deliberate_practice, fiction, interactive_narrative, life_history.
+- [Trace One Embodied Condition through a Character's Life](DRILL_trace_one_embodied_condition_through_a_characters_life.md) - drill; 0 design. Tags: adaptation, causality, character, deliberate_practice, embodiment, fiction, stereotype.
 - [Transform Real People into Composite Characters](PAT_transform_real_people_into_composite_characters.md) - pattern; 0 design. Tags: character, composite-character, fiction, invention, observation.
+- [Treat Character Bodies as Lived Conditions](PAT_treat_character_bodies_as_lived_conditions.md) - pattern; 0 design. Tags: character, embodiment, fiction, interactive_narrative, physicality, stereotype.

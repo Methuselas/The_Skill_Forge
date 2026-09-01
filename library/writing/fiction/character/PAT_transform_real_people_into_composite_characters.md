@@ -40,6 +40,7 @@ variants: []
 
 ## Do
 - Collect portable particulars such as a verbal tic, habitual gesture, sensory association, posture, or way of handling an object.
+- Observe only what is reasonably public, omit sensitive and identifying material, and abstract or combine visual particulars before they enter the fictional design.
 - Combine features from several people so no single model dictates the resulting personality or course of action.
 - Change circumstances and motives freely when the story needs a more consequential choice than life supplied.
 - Trace how a changed circumstance affects access, expectations, relationships, and later choices; revise inherited biography when its original causes no longer apply.
@@ -51,6 +52,7 @@ variants: []
 - Swap an identity marker cosmetically while leaving the person's pressures and relationships unchanged or filling the gap with stereotype.
 - Preserve an actual sequence merely because it happened when invention would create a clearer causal design.
 - Replace lived specificity with a generic type in the attempt to disguise the model.
+- Copy a recognizable stranger, portrait, or photograph feature for feature and assume a new name creates sufficient distance.
 
 ## Checklist
 - The character contains concrete observed behavior rather than only labels.
@@ -59,6 +61,7 @@ variants: []
 - The story can send the character somewhere the original person never went.
 - Removing knowledge of the real model would not make the characterization unintelligible.
 - Any remaining factual or ethical obligations match the chosen truth contract.
+- Observed particulars have been transformed enough that privacy, likeness, and story design do not depend on an unconsenting recognizable model.
 
 ## Notes
 Real people are rich raw material because they supply irregular details imagination may smooth away. They are poor masters of fiction when fidelity prevents selection, recombination, or change. A composite creates useful distance while preserving the grain of observation. Transformation becomes structurally meaningful when one altered condition changes what the character can do, what others expect, and which later choices become plausible; otherwise the alteration may remain only concealment.
