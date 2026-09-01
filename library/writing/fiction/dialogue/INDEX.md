@@ -6,10 +6,13 @@
 
 - [Choose Direct or Reported Dialogue by Effect](PAT_choose_direct_or_reported_dialogue_by_effect.md) - pattern; 1 skeleton. Tags: dialogue, direct-dialogue, distance, fiction, reported-dialogue, viewpoint.
 - [Combine Dialogue with Action Thought and Silence](PAT_combine_dialogue_with_action_thought_and_silence.md) - pattern; 2 block. Tags: action, dialogue, fiction, interiority, silence, subtext.
+  - Variants: `Make an Unmentionable Subject Legible through Displaced Talk` (method_sequence).
 - [Compress Real Speech into Purposeful Dialogue](PAT_compress_real_speech_into_purposeful_dialogue.md) - pattern; 2 block. Tags: compression, dialogue, fiction, rhythm, speech.
 - [Draft and Revise a Dialogue Scene](AP_draft_and_revise_a_dialogue_scene.md) - ap; 1 skeleton. Tags: dialogue, drafting, fiction, revision, scene.
 - [Harvest and Refine Overheard Speech](DRILL_harvest_and_refine_overheard_speech.md) - drill; 1 skeleton. Tags: dialogue, fiction, listening, practice, rhythm, speech.
 - [Let Relationship and Setting Shape Dialogue](PAT_let_relationship_and_setting_shape_dialogue.md) - pattern; 0 design. Tags: dialogue, fiction, power, register, relationship, setting.
-  - Variants: `Let Communication Channel Shape Dialogue` (medium).
+  - Variants: `Let Communication Channel Shape Dialogue` (medium); `Constrain Dialogue with a Consequential Deadline` (constraint).
+- [Make an Unmentionable Subject Legible through Subtext](DRILL_make_an_unmentionable_subject_legible_through_subtext.md) - drill; 1 skeleton. Tags: conflict, deliberate_practice, dialogue, fiction, omission, reader_inference, subtext.
 - [Orient Speakers with Unobtrusive Formatting and Tags](PAT_orient_speakers_with_unobtrusive_formatting_and_tags.md) - pattern; 3 rough. Tags: clarity, dialogue, dialogue-tags, fiction, formatting, punctuation.
 - [Redraft One Conversation across Communication Channels](DRILL_redraft_one_conversation_across_communication_channels.md) - drill; 1 skeleton. Tags: communication_channel, deliberate_practice, dialogue, fiction, interactive_narrative, revision, scene.
+- [Redraft One Conversation across Scene Constraints](DRILL_redraft_one_conversation_across_scene_constraints.md) - drill; 1 skeleton. Tags: character_state, deadline, deliberate_practice, dialogue, fiction, interactive_narrative, revision, setting.

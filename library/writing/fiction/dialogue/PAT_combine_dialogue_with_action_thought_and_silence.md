@@ -29,7 +29,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_make_unmentionable_subject_legible_through_displaced_talk
+    variant_name: Make an Unmentionable Subject Legible through Displaced Talk
+    variant_basis: method_sequence
+    difference_from_foundation: Define a consequential subject the speakers cannot yet name, give them different motives around it, and let a credible surface conversation accumulate enough verbal and nonverbal evidence for readers to infer the displaced pressure.
+    when_to_use: Risk, taboo, denial, unequal knowledge, or social permission prevents direct speech while the hidden matter still shapes what the characters do and say.
+    when_not_to_use: No credible motive prevents direct speech, the surface topic has no natural place in the scene, or withholding every clue would create confusion rather than inference.
+    absorbed_from_object_id: none
 ---
 
 # Combine Dialogue with Action Thought and Silence
@@ -43,6 +50,9 @@ variants: []
 - Treat body language as contextual behavior filtered through viewpoint; use changes, clusters, and contradictions within this person and situation rather than assigning one fixed meaning to a gesture.
 - Use a brief interior response when the contrast between spoken words and private thought changes the reader's understanding.
 - Let silence function as an answer when refusal, fear, calculation, or disbelief makes speech less revealing.
+- Identify what each speaker wants, what cannot yet be said, and why; let those differences shape selection, evasion, interruption, and response.
+- Use a surface topic the characters have a credible reason to discuss, and distribute converging evidence so readers can infer the underlying pressure.
+- Permit explicit disclosure when a change in risk, permission, knowledge, or urgency makes saying it the consequential turn.
 - Resume direct speech only after the intervening beat has changed its force or clarified who controls the moment.
 
 ## Don't
@@ -51,6 +61,9 @@ variants: []
 - Use internal monologue to repeat the dialogue in different words.
 - Break a rapid exchange when uninterrupted verbal momentum is the scene's intended pressure.
 - Decode eye contact, posture, mirroring, or another gesture as universal proof of an emotion, motive, or lie.
+- Treat obscurity as subtext while giving readers no stable subject, motive, or evidence to infer.
+- Keep a matter unspoken after the motive for concealment has disappeared merely because omission seems more literary.
+- Make every object or incidental action a one-to-one symbol for the hidden subject.
 
 ## Checklist
 - Nonverbal beats occur where the relation or subtext changes.
@@ -59,6 +72,10 @@ variants: []
 - The exchange has enough breathing room for bodies and surroundings to remain present.
 - Removing a beat would alter emphasis, interpretation, or pacing rather than merely shorten the page.
 - Any inference from body language is grounded in character, relation, situation, and available viewpoint evidence while preserving ambiguity the scene needs.
+- The unsaid has a credible social or psychological cause and enough converging evidence to become inferable.
+- Continued concealment or explicit disclosure is chosen by consequence, not by a rule that one is always stronger.
 
 ## Notes
 What people do not say, and how they avoid saying it, can carry as much weight as their sentences. Conversation, thought, and action work best as a coordinated scene texture. The balance is selective: some exchanges need breathers, while others depend on sustained verbal velocity.
+
+`writing_fiction_variant_make_unmentionable_subject_legible_through_displaced_talk` designs subtext before decorating dialogue with pauses. Establish the hidden subject, each speaker's motive, and a plausible surface task or topic; then place verbal and behavioral clues whose convergence supports reader inference. A witness can change permission and expose the design. Retain omission while it drives action, or let the subject become explicit when changed conditions make disclosure the earned turn.
