@@ -11,6 +11,7 @@
 - [Begin Fiction at the Point of Attack](PAT_begin_at_the_point_of_attack.md) - pattern; 1 skeleton. Tags: conflict, exposition, fiction, in_medias_res, openings.
 - [Build Plot from Causal Consequences](PAT_build_plot_from_causal_consequences.md) - pattern; 0 design. Tags: causality, consequences, fiction, plot, structure.
 - [Design and Revise Short Story Structure](AP_design_and_revise_short_story_structure.md) - ap; 0 design. Tags: chronology, fiction, plot, revision, structure.
+  - Variants: `Generate Structure Backward from a Desired Culmination` (method_sequence).
 - [End the Selected Story Without Exhausting the Larger Life](PAT_end_the_selected_story_without_exhausting_the_larger_life.md) - pattern; 3 rough. Tags: closure, endings, fiction, mystery, reader_inference.
 - [Escalate Central Conflict Through the Middle](PAT_escalate_central_conflict_through_the_middle.md) - pattern; 2 block. Tags: conflict, fiction, middles, rising_action, transitions.
 - [Expand a Story Core into a Full-Disclosure Synopsis](DRILL_expand_story_core_into_full_disclosure_synopsis.md) - drill; 4 final. Tags: compression, feedback, fiction, plot, synopsis.

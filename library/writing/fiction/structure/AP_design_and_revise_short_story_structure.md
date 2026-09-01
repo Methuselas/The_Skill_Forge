@@ -56,7 +56,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_generate_structure_backward_from_desired_culmination
+    variant_name: Generate Structure Backward from a Desired Culmination
+    variant_basis: method_sequence
+    difference_from_foundation: Begin with a vivid culmination, confrontation, revelation, or final location and work backward to derive the characters, motives, conditions, causes, and escalating turns that must exist for that ending to become plausible and earned; then run the resulting structure forward through the main protocol to verify causality and character logic.
+    when_to_use: A desired ending or climax is vivid but the premise, route, or earlier structure is not yet generating momentum, or forward brainstorming keeps producing interchangeable middle events.
+    when_not_to_use: The desired ending is only spectacle without a governing story, or preserving it would require implausible character choices, unsupported causes, or downstream patching after the developing story points somewhere stronger.
+    absorbed_from_object_id: none
 ---
 
 # Design and Revise Short Story Structure
@@ -77,3 +84,5 @@ Shape a short fiction premise or draft into a temporally coherent, consequential
 
 ## Notes
 The protocol orders decisions because later structure depends on earlier clarity. A live entry cannot be chosen reliably before the central story and temporal design are known; a culmination cannot be earned before the middle creates development through consequence, accumulation, or variation; an ending cannot be judged before that development is legible. The flow remains recursive: drafting may discover a better center, but recovery returns to the decision that changed rather than patching downstream scenes around an obsolete plan.
+
+`writing_fiction_variant_generate_structure_backward_from_desired_culmination` provides an alternate invention entry point rather than a different theory of structure. Start from a desired culmination and derive its prerequisites backward, then reverse direction and test the resulting story forward so every necessary condition is actually caused, motivated, and earned. The ending remains a design hypothesis rather than a commitment: if forward validation requires implausible character behavior or reveals a stronger governing story, revise or discard the planned culmination instead of forcing the draft to reach it.
