@@ -34,24 +34,27 @@ Select spatial and material evidence that characterizes an absent person and gen
 Invent one occupant with a public role, private pressure, and reason to be absent. Prepare a blank page without writing a character biography.
 
 ## Instructions
-1. Draft no more than 150 words describing the space while the occupant is absent.
-2. Include objects or arrangements produced by at least three different relations: chosen, imposed or inherited, and concealed or neglected.
+1. Select one bounded functional zone, such as a desk, refrigerator, wardrobe, workbench, bathroom shelf, or entryway, and draft no more than 150 words describing it while the occupant is absent.
+2. Include objects, contents, or arrangements produced by at least three different relations: chosen, imposed or inherited, and concealed or neglected. Include traces of actual use rather than relying only on purchases or display.
 3. Remove direct trait labels and explanations of what the details prove.
 4. List five items the occupant would protect, even if another observer would consider them worthless or embarrassing.
 5. For each item, ask who else may claim it, what memory or secret it carries, what contradiction it exposes, and what would happen if it disappeared or were discovered.
 6. Choose the item with the strongest consequence and write a three-sentence story premise in which its ownership, meaning, or condition forces action.
-7. Reread the original description and retain only details that support the inferred person or the selected pressure.
+7. Name the observer, if the passage has one, and mark every inference produced by that observer's experience, prejudice, desire, or missing context rather than by the space alone.
+8. Reread the original description and retain only details that support the inferred person or the selected pressure.
 
 ## Success Check
 - The passage stays within its limit and the occupant remains absent throughout.
 - Objects arise from at least three different relations — chosen, imposed or inherited, concealed or neglected — and a reader can tell them apart.
 - Direct trait labels and explanations of what the details prove are absent.
+- Food, clothing, brands, cost, cleanliness, and disorder remain material evidence whose interpretation requires context rather than moral diagnosis.
 - The five protected items include at least one another observer would find worthless or embarrassing. A list of dignified possessions has not done the work.
 - One possession becomes pressure through a claim, a memory, a contradiction, or a loss, rather than remaining an evocative object.
 - A reader's inference about the occupant is checked against what was intended rather than assumed to match it.
 
 ## Common Failures
 - Using wealth, tidiness, or taste as a complete personality diagnosis.
+- Treating a full refrigerator, sparse wardrobe, named brand, or disordered desk as self-explanatory evidence without considering access, routine, other users, obligation, or observer bias.
 - Explaining every inference immediately after presenting its evidence.
 - Selecting five interchangeable sentimental objects with no conflicting claims or consequences.
 - Letting the occupant enter and perform the characterization the room was meant to carry.
