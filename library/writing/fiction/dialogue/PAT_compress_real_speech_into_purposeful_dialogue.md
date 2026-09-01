@@ -25,6 +25,8 @@ cross_links:
     target_object_id: writing_fiction_reveal_character_incrementally_through_behavior
   - rel: related_to
     target_object_id: writing_flash_fiction_compress_complete_story_without_dead_space
+  - rel: related_to
+    target_object_id: writing_fiction_drill_stage_and_audit_multi_speaker_dialogue_scene
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -45,6 +47,7 @@ variants: []
 - When speech carries background, give the speaker a present reason to disclose it and the listener a credible need, knowledge gap, resistance, or changed readiness to hear it.
 - Shape sentence rhythms deliberately because dialogue exposes cadence more starkly than surrounding narration.
 - Let one line perform several jobs when space is tight, such as revealing contempt while provoking the next decision.
+- In a group scene, retain turns that change alliance, floor control, knowledge, status, pressure, or available action; summarize or omit ambient chatter and merge participants who perform the same function.
 
 ## Don't
 - Preserve every greeting, filler sound, repeated fact, or weather exchange merely because people really speak that way.
@@ -52,6 +55,7 @@ variants: []
 - Insert information both speakers already know in language designed only for the reader.
 - Let a character deliver an expository account merely because the author needs it; the disclosure must also perform present verbal action between speaker and listener.
 - Make efficiency so visible that every line sounds like a plot instruction.
+- Preserve a speaker or bantering turn merely to simulate the noise of a real gathering when its removal changes nothing.
 
 ## Checklist
 - The exchange sounds speakable without preserving the clutter of a recording.
@@ -60,6 +64,7 @@ variants: []
 - Repetition and interruption create pressure, rhythm, or characterization rather than dead space.
 - Cutting any remaining routine exchange would damage orientation, relation, or movement.
 - Explicit disclosure is credible in the immediate relationship and changes what the listener or reader can understand, feel, or do.
+- Every individually rendered group participant contributes distinct pressure, access, interpretation, or consequence.
 
 ## Notes
 Fictional conversation offers the greatest hits of speech, not its complete outtakes. It creates spontaneity through selection and timing. Brief forms intensify the requirement, but even a story composed mostly of conversation needs every exchange to contribute beyond the fact that people are talking. Dialogue may move from implication into explicit disclosure when a present conflict, a credible knowledge gap, or a changed willingness to speak makes the information newly active; plausibility comes from what the telling does between the characters, not only from whether the facts are true.

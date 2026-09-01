@@ -18,3 +18,4 @@
 - [Orient Speakers with Unobtrusive Formatting and Tags](PAT_orient_speakers_with_unobtrusive_formatting_and_tags.md) - pattern; 3 rough. Tags: clarity, dialogue, dialogue-tags, fiction, formatting, punctuation.
 - [Redraft One Conversation across Communication Channels](DRILL_redraft_one_conversation_across_communication_channels.md) - drill; 1 skeleton. Tags: communication_channel, deliberate_practice, dialogue, fiction, interactive_narrative, revision, scene.
 - [Redraft One Conversation across Scene Constraints](DRILL_redraft_one_conversation_across_scene_constraints.md) - drill; 1 skeleton. Tags: character_state, deadline, deliberate_practice, dialogue, fiction, interactive_narrative, revision, setting.
+- [Stage and Audit a Multi-Speaker Dialogue Scene](DRILL_stage_and_audit_a_multi_speaker_dialogue_scene.md) - drill; 1 skeleton. Tags: deliberate_practice, dialogue, ensemble, fiction, interactive_narrative, scene, speaker_orientation.

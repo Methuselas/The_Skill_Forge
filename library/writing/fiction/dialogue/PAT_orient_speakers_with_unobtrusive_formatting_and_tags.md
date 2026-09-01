@@ -22,6 +22,8 @@ tags:
 cross_links:
   - rel: related_to
     target_object_id: writing_fiction_compress_real_speech_into_purposeful_dialogue
+  - rel: related_to
+    target_object_id: writing_fiction_drill_stage_and_audit_multi_speaker_dialogue_scene
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -41,6 +43,8 @@ variants: []
 - When a speaker acts before speaking, begin that speaker's paragraph with the action so movement and speech share one clear turn.
 - Identify both participants early in a two-person exchange, then omit repeated tags while alternating turns remain unmistakable.
 - Reintroduce names or tags when three or more people speak, a long action interrupts the sequence, or the turn order changes.
+- Distinguish active speakers from ambient people: name and repeatedly orient participants whose turns matter, while rendering background presence collectively until an individual affects action or interpretation.
+- Use an action beat to restore both speaker identity and spatial relation after movement, interruption, entry, exit, or changed floor control.
 - Prefer `said` for neutral attribution; use a more marked speaking verb only when volume or delivery cannot be carried by the words and action.
 - Distinguish a speech tag that belongs grammatically to the quoted sentence from an independent action sentence, then punctuate each accordingly.
 - Follow the destination's quotation-mark and punctuation convention consistently rather than treating one regional house style as universal.
@@ -50,6 +54,7 @@ variants: []
 - Cycle through conspicuous synonyms for `said` to avoid repetition readers would not otherwise notice.
 - Use a verb such as `quoted` that does not describe the act of speaking the line.
 - Depend on distinct voice alone when the cast or interruption makes the speaker genuinely ambiguous.
+- Give every person present an individual name, tag, or descriptive label when the reader needs to track only the active participants.
 - Attach an unrelated action to a line merely to avoid a plain tag; the beat must belong to that speaker and moment.
 
 ## Checklist
@@ -57,6 +62,7 @@ variants: []
 - A cold reader can assign each line without backtracking.
 - Tags disappear into the exchange unless delivery itself is consequential.
 - Untagged turns remain safe after action beats and additional speakers are considered.
+- Added speakers, exits, movement, interruptions, and ambient crowd presence do not break the reader's model of who is active and where the turn originates.
 - Quotation marks, punctuation placement, and direct address follow the intended venue's convention consistently.
 
 ## Notes
