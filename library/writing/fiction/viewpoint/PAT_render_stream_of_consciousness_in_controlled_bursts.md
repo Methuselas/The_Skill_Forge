@@ -28,7 +28,14 @@ reference:
   author: Linda Anderson
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_sustain_extended_interior_monologue_through_governing_mental_movement
+    variant_name: Sustain Extended Interior Monologue through Governing Mental Movement
+    variant_basis: context
+    difference_from_foundation: Extend interiority beyond an acute burst by organizing thought around a governing question, desire, decision, contradiction, or recurring association whose returns produce development, while using external sensation or action only when it materially redirects the mental movement.
+    when_to_use: Sustained access to one consciousness is itself the scene's central experience and the sequence of thought changes interpretation, commitment, or available action.
+    when_not_to_use: The passage only repeats a known feeling, external events carry the turn more efficiently, or unselected accumulation erases pressure and reader orientation.
+    absorbed_from_object_id: none
 ---
 
 # Render Stream of Consciousness in Controlled Bursts
@@ -63,3 +70,5 @@ variants: []
 Consciousness rarely arrives as a tidy report, but complete randomness is no more psychologically convincing than complete order. A useful burst preserves the character's private logic: one detail catches on another, a phrase returns with a changed charge, or present sensation opens a remembered scene.
 
 The method is especially effective when ordinary narrative syntax would falsely calm an experience. Its cost is pace and orientation. Short deployment can intensify a rant, intoxicated interval, traumatic flash, obsessive ritual, or moment of panic; longer deployment needs an unusually strong recurring structure to keep the story from dissolving into undifferentiated mental flow.
+
+The variant `writing_fiction_variant_sustain_extended_interior_monologue_through_governing_mental_movement` permits a longer passage when thought itself develops. State the governing question or pressure, track returns that alter its meaning, and require the ending to produce a changed interpretation, commitment, decision, or available action. External action can provide resistance or orientation, but it is not a quota; retain it only when the character's encounter with the world redirects the interior sequence.

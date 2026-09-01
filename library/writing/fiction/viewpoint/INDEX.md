@@ -18,6 +18,7 @@
 - [Redraft a Passage across Point of View and Tense](DRILL_redraft_passage_across_point_of_view_and_tense.md) - drill; 1 skeleton. Tags: fiction, point_of_view, practice, redrafting, tense.
   - Variants: `Compare Three Third-Person Access Levels` (method_sequence).
 - [Render Stream of Consciousness in Controlled Bursts](PAT_render_stream_of_consciousness_in_controlled_bursts.md) - pattern; 2 block. Tags: consciousness, fiction, interiority, mental_state, syntax.
+  - Variants: `Sustain Extended Interior Monologue through Governing Mental Movement` (context).
 - [Shape Style as a Response to Story Situation](PAT_shape_style_as_response_to_story_situation.md) - pattern; 2 block. Tags: diction, fiction, style, syntax, tone.
   - Variants: `Blend Narrator and Character through Free Indirect Style` (style).
 - [Use Alternating First-Person Narrators to Complicate Interpretation](PAT_use_alternating_first_person_narrators_to_complicate_interpretation.md) - pattern; 0 design. Tags: fiction, first_person, multiple_narrators, reader_allegiance, voice.

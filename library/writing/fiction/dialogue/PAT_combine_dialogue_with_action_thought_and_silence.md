@@ -24,6 +24,8 @@ cross_links:
     target_object_id: writing_fiction_reveal_character_incrementally_through_behavior
   - rel: related_to
     target_object_id: writing_fiction_compress_real_speech_into_purposeful_dialogue
+  - rel: related_to
+    target_object_id: writing_fiction_drill_compress_long_speech_through_listener_filtered_selection
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -56,6 +58,7 @@ variants:
 - Interrupt talk at pressure points with an averted gaze, changed posture, delayed answer, or action aimed at something other than the conversation.
 - Treat body language as contextual behavior filtered through viewpoint; use changes, clusters, and contradictions within this person and situation rather than assigning one fixed meaning to a gesture.
 - Use a brief interior response when the contrast between spoken words and private thought changes the reader's understanding.
+- During extended speech, make listener questions, selective attention, emotion, observation, misunderstanding, memory, or action change what is received, how it is interpreted, or what happens next.
 - Let silence function as an answer when refusal, fear, calculation, or disbelief makes speech less revealing.
 - Identify what each speaker wants, what cannot yet be said, and why; let those differences shape selection, evasion, interruption, and response.
 - Use a surface topic the characters have a credible reason to discuss, and distribute converging evidence so readers can infer the underlying pressure.
@@ -67,6 +70,7 @@ variants:
 - Attach a gesture to every line until physical business becomes another repetitive tag system.
 - Translate each pause or expression into an explanatory statement.
 - Use internal monologue to repeat the dialogue in different words.
+- Break up a long speech with decorative listener emotion, room description, or prop handling that changes neither reception nor consequence.
 - Break a rapid exchange when uninterrupted verbal momentum is the scene's intended pressure.
 - Decode eye contact, posture, mirroring, or another gesture as universal proof of an emotion, motive, or lie.
 - Treat a wrong word, name, spoonerism, malapropism, or other slip as reliable access to a speaker's unconscious intent.
@@ -77,6 +81,7 @@ variants:
 ## Checklist
 - Nonverbal beats occur where the relation or subtext changes.
 - Thought and action add information the spoken sentences do not already contain.
+- Listener activity alters access, interpretation, relation, decision, or consequence rather than merely spacing the speaker's paragraphs.
 - At least one omission or pause carries a readable implication.
 - The exchange has enough breathing room for bodies and surroundings to remain present.
 - Removing a beat would alter emphasis, interpretation, or pacing rather than merely shorten the page.

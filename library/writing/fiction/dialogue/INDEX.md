@@ -9,6 +9,8 @@
 - [Choose Direct or Reported Dialogue by Effect](PAT_choose_direct_or_reported_dialogue_by_effect.md) - pattern; 1 skeleton. Tags: dialogue, direct-dialogue, distance, fiction, reported-dialogue, viewpoint.
 - [Combine Dialogue with Action Thought and Silence](PAT_combine_dialogue_with_action_thought_and_silence.md) - pattern; 2 block. Tags: action, dialogue, fiction, interiority, silence, subtext.
   - Variants: `Make an Unmentionable Subject Legible through Displaced Talk` (method_sequence); `Let a Verbal Slip Trigger Contested Interpretation` (context).
+- [Compress a Long Speech through Listener-Filtered Selection](DRILL_compress_a_long_speech_through_listener_filtered_selection.md) - drill; 2 block. Tags: compression, deliberate_practice, dialogue, fiction, information, interactive_narrative, listener, monologue, reported_speech.
+  - Variants: `Stage a Briefing Interview or Presentation as an Active Exchange` (context).
 - [Compress Real Speech into Purposeful Dialogue](PAT_compress_real_speech_into_purposeful_dialogue.md) - pattern; 2 block. Tags: compression, dialogue, fiction, rhythm, speech.
 - [Draft and Revise a Dialogue Scene](AP_draft_and_revise_a_dialogue_scene.md) - ap; 1 skeleton. Tags: dialogue, drafting, fiction, revision, scene.
 - [Harvest and Refine Overheard Speech](DRILL_harvest_and_refine_overheard_speech.md) - drill; 1 skeleton. Tags: dialogue, fiction, listening, practice, rhythm, speech.
