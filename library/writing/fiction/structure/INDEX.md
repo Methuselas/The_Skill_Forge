@@ -23,5 +23,6 @@
 - [Reinforce Story Structure Through Repetition and Variation](PAT_reinforce_story_structure_through_repetition_and_variation.md) - pattern; 2 block. Tags: fiction, motifs, repetition, structure, variation.
 - [Revise One Event through Summary Scene and Blend](DRILL_revise_one_event_through_summary_scene_and_blend.md) - drill; 2 block. Tags: deliberate_practice, fiction, pacing, revision, scene, summary.
 - [Stage Disclosure to Sustain Reader Inference](PAT_stage_disclosure_to_sustain_reader_inference.md) - pattern; 1 skeleton. Tags: disclosure, exposition, fiction, mystery, reader_inference.
+  - Variants: `Correct False Memory through Consequential Evidence` (method_sequence).
 - [Test Structural Recurrence with Exact Repetition and Varied Echo](DRILL_test_structural_recurrence_with_exact_repetition_and_varied_echo.md) - drill; 2 block. Tags: deliberate_practice, fiction, repetition, structure, variation.
 - [Write a Full-Disclosure Fiction Synopsis](PAT_write_full_disclosure_fiction_synopsis.md) - pattern; 4 final. Tags: conflict, fiction, plot, submissions, synopsis.

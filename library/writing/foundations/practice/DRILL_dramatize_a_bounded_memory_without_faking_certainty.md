@@ -31,7 +31,14 @@ reference:
 confidence: high
 target_skill: Shaping remembered experience into a bounded scene while keeping invention consistent with the work's truth contract
 references: []
-variants: []
+variants:
+  - variant_id: writing_variant_trigger_bounded_memory_from_present_action_and_return
+    variant_name: Trigger a Bounded Memory from Present Action and Return
+    variant_basis: method_sequence
+    difference_from_foundation: Begin with a character performing a present action, let one sight, smell, sound, taste, repeated action, or object trigger a short specific memory, then return to the present with perception, emotion, interpretation, or conduct altered by the recollection.
+    when_to_use: A past event needs to enter a live scene through motivated association without surrendering the present action or narrative momentum.
+    when_not_to_use: The memory changes nothing in the present, the full past sequence belongs in the main chronology, or a truth-bound account cannot support the recalled precision.
+    absorbed_from_object_id: none
 ---
 
 # Dramatize a Bounded Memory without Faking Certainty
@@ -73,3 +80,5 @@ Choose one remembered place, person, or event containing a perceptual or emotion
 
 ## Notes
 Memory arrives as a selective present construction, but fiction and nonfiction grant different permissions for shaping it. A bounded scene makes those decisions visible because precise dialogue, sequence, sensation, and interior access must each be supported, qualified, or invented under a declared contract. Present tense is a diagnostic pressure rather than a guarantee of immediacy; comparing it with a retrospective stance exposes where later knowledge has entered and whether that distance helps the work.
+
+`writing_variant_trigger_bounded_memory_from_present_action_and_return` makes the present scene the memory's frame. Establish an ordinary action before the trigger, repeat one sensory or physical element across the temporal transition, and stop the remembered passage after the specific perception or event that changes the live moment. Return through action rather than a mechanical time label when orientation remains clear. The memory earns interruption by altering what the character notices, understands, avoids, says, or does next; association alone is not enough.

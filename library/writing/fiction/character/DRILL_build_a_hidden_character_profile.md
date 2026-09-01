@@ -42,6 +42,13 @@ variants:
     when_to_use: A static profile supplies facts but the character's voice, self-justification, relationships, or response under pressure remains generic.
     when_not_to_use: The character already acts and speaks distinctly in consequential scenes, or improvised answers are being treated as binding facts despite contradicting the story's established conditions.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_reconstruct_education_and_work_through_private_resume
+    variant_name: Reconstruct Education and Work through a Private Resume
+    variant_basis: method_sequence
+    difference_from_foundation: Build the private profile as a resume containing education, qualifications, temporary and permanent work, acquired skills, interests, and a self-promotional summary; then mark gaps, exaggerations, contradictions, and capabilities that can affect present conduct before drafting a scene.
+    when_to_use: A character's competence, class position, institutional access, work habits, aspirations, or self-presentation remains generic or inconsistent.
+    when_not_to_use: Education and work cannot affect the current story, or the document would be copied into exposition instead of tested through behavior.
+    absorbed_from_object_id: none
 ---
 
 # Build a Hidden Character Profile
@@ -83,3 +90,5 @@ The exercise separates design knowledge from disclosure. A submerged biography g
 `writing_fiction_variant_pressure_hidden_profile_through_unsent_document` inserts a private voice experiment between profile and scene. Give the character a specific addressee, situation, and emotional pressure; let selection, accusation, evasion, formality, and omission reveal the relationship. Mark the few discoveries capable of changing action or speech, then draft the ordinary scene without requiring the document to appear. The variant succeeds when it activates the profile, not when it creates a more elegant block of exposition.
 
 `writing_fiction_variant_hot_seat_character_with_responsive_questions` makes character design conversational and adaptive. Begin with a specific interviewer relationship or neutral rehearsal frame, ask about a live desire or problem, and follow language that evades, contradicts, boasts, minimizes, or unexpectedly specifies. Answer in the character's available diction without forcing immediate consistency. Afterward, separate useful discoveries from improvisational noise and retain only answers that can alter motive, relation, speech, or choice in the story. The interview generates hypotheses; the drafted behavior decides which become character facts.
+
+`writing_fiction_variant_reconstruct_education_and_work_through_private_resume` uses a familiar document to expose both capability and self-presentation. List schooling, qualifications, every consequential job including temporary work, skills acquired, interests, and the qualities the character would advertise. Then ask what is omitted, inflated, regretted, obsolete, or contradicted by conduct. Transfer only consequences into the story: what the character notices, can perform, resents, conceals, expects from institutions, or believes work has proved about the self.

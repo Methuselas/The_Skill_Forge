@@ -32,7 +32,14 @@ reference:
 confidence: high
 references: []
 target_skill: Designing character networks whose loyalties, rivalries, dependencies, and uneven knowledge generate consequential scenes
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_expand_kinship_across_generations
+    variant_name: Expand Kinship across Generations
+    variant_basis: method_sequence
+    difference_from_foundation: Build backward through parents, siblings, marriages, step-relations, earlier generations, names and aliases, dates, places, absences, and historically consequential conditions before converting only relevant lineage into present loyalty, conflict, inheritance, obligation, secrecy, or leverage.
+    when_to_use: Family continuity, estrangement, succession, inherited status, intergenerational conflict, or a concealed kinship materially shapes the focal character's available choices.
+    when_not_to_use: Genealogical completeness would not change present action or interpretation, or family category is being used as an automatic explanation of personality.
+    absorbed_from_object_id: none
 ---
 
 # Map Character Relationships by Knowledge and Pressure
@@ -73,3 +80,5 @@ Choose a premise with one focal character and at least three other people who co
 
 ## Notes
 The map is a private causal model, not exposition to copy into the story. Its value lies in revealing indirect pressure: one person can alter a relationship without the focal character knowing that person exists, and two secondary characters can create consequences that a center-and-spokes cast list conceals. Unequal knowledge becomes useful only when it changes what someone attempts, withholds, risks, or understands.
+
+`writing_fiction_variant_expand_kinship_across_generations` gives a relationship map vertical depth. Record family structure, names used by different people, approximate dates, places, unions, separations, absences, and historical conditions only far enough back to expose a present pressure. Then label what the lineage transmits materially or relationally: property, status, debt, expectation, taboo, affection, grievance, secrecy, or access. Kinship supplies conditions and interpretations, not predetermined behavior; retain a branch only when a particular person acts through it or must respond to its consequence.
