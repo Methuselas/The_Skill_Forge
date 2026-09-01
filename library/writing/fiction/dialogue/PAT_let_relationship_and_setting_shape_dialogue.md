@@ -31,7 +31,14 @@ reference:
   author: David Starkey
 confidence: high
 references: []
-variants: []
+variants:
+  - variant_id: writing_fiction_variant_let_communication_channel_shape_dialogue
+    variant_name: Let Communication Channel Shape Dialogue
+    variant_basis: medium
+    difference_from_foundation: Treat co-presence, audio, video, text, recording, relay, or another communication channel as a designed social condition by mapping what each participant can perceive, conceal, delay, preserve, interrupt, or misunderstand.
+    when_to_use: The exchange's medium changes available cues, privacy, latency, persistence, interruption, secondary activity, or the participants' ability to respond.
+    when_not_to_use: The channel has no consequence for wording, inference, conduct, timing, or story outcome and would function only as decorative technology.
+    absorbed_from_object_id: none
 ---
 
 # Let Relationship and Setting Shape Dialogue
@@ -61,3 +68,5 @@ variants: []
 
 ## Notes
 Context dictates dialogue because speech is social action. A line addresses a particular person under particular permissions and pressures. Truthful representation can include offensive language without making the writer's approval the default reading, but the surrounding characterization and consequences must establish that distinction.
+
+`writing_fiction_variant_let_communication_channel_shape_dialogue` extends the context test from physical setting to mediated access. Inventory what each participant can see, hear, touch, edit, preserve, replay, conceal, and interrupt, then make at least one difference change interpretation or action. Use the variant when the channel alters the exchange; omit channel business when the same dialogue and consequence would survive unchanged.

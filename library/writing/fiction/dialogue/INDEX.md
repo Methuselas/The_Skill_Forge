@@ -10,4 +10,6 @@
 - [Draft and Revise a Dialogue Scene](AP_draft_and_revise_a_dialogue_scene.md) - ap; 1 skeleton. Tags: dialogue, drafting, fiction, revision, scene.
 - [Harvest and Refine Overheard Speech](DRILL_harvest_and_refine_overheard_speech.md) - drill; 1 skeleton. Tags: dialogue, fiction, listening, practice, rhythm, speech.
 - [Let Relationship and Setting Shape Dialogue](PAT_let_relationship_and_setting_shape_dialogue.md) - pattern; 0 design. Tags: dialogue, fiction, power, register, relationship, setting.
+  - Variants: `Let Communication Channel Shape Dialogue` (medium).
 - [Orient Speakers with Unobtrusive Formatting and Tags](PAT_orient_speakers_with_unobtrusive_formatting_and_tags.md) - pattern; 3 rough. Tags: clarity, dialogue, dialogue-tags, fiction, formatting, punctuation.
+- [Redraft One Conversation across Communication Channels](DRILL_redraft_one_conversation_across_communication_channels.md) - drill; 1 skeleton. Tags: communication_channel, deliberate_practice, dialogue, fiction, interactive_narrative, revision, scene.

@@ -40,6 +40,7 @@ variants: []
 
 ## Do
 - Interrupt talk at pressure points with an averted gaze, changed posture, delayed answer, or action aimed at something other than the conversation.
+- Treat body language as contextual behavior filtered through viewpoint; use changes, clusters, and contradictions within this person and situation rather than assigning one fixed meaning to a gesture.
 - Use a brief interior response when the contrast between spoken words and private thought changes the reader's understanding.
 - Let silence function as an answer when refusal, fear, calculation, or disbelief makes speech less revealing.
 - Resume direct speech only after the intervening beat has changed its force or clarified who controls the moment.
@@ -49,6 +50,7 @@ variants: []
 - Translate each pause or expression into an explanatory statement.
 - Use internal monologue to repeat the dialogue in different words.
 - Break a rapid exchange when uninterrupted verbal momentum is the scene's intended pressure.
+- Decode eye contact, posture, mirroring, or another gesture as universal proof of an emotion, motive, or lie.
 
 ## Checklist
 - Nonverbal beats occur where the relation or subtext changes.
@@ -56,6 +58,7 @@ variants: []
 - At least one omission or pause carries a readable implication.
 - The exchange has enough breathing room for bodies and surroundings to remain present.
 - Removing a beat would alter emphasis, interpretation, or pacing rather than merely shorten the page.
+- Any inference from body language is grounded in character, relation, situation, and available viewpoint evidence while preserving ambiguity the scene needs.
 
 ## Notes
 What people do not say, and how they avoid saying it, can carry as much weight as their sentences. Conversation, thought, and action work best as a coordinated scene texture. The balance is selective: some exchanges need breathers, while others depend on sustained verbal velocity.
