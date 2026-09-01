@@ -25,4 +25,6 @@
 - [Stage Disclosure to Sustain Reader Inference](PAT_stage_disclosure_to_sustain_reader_inference.md) - pattern; 1 skeleton. Tags: disclosure, exposition, fiction, mystery, reader_inference.
   - Variants: `Correct False Memory through Consequential Evidence` (method_sequence).
 - [Test Structural Recurrence with Exact Repetition and Varied Echo](DRILL_test_structural_recurrence_with_exact_repetition_and_varied_echo.md) - drill; 2 block. Tags: deliberate_practice, fiction, repetition, structure, variation.
+- [Use Diaries and Letters as Active Story Documents](PAT_use_diaries_and_letters_as_active_story_documents.md) - pattern; 1 skeleton. Tags: diary, embedded_documents, epistolary, fiction, interactive_narrative, letters.
+  - Variants: `Use One Discovered Document as a Present-Tense Turn` (context); `Interleave a Documentary Past with Present Action` (method_sequence).
 - [Write a Full-Disclosure Fiction Synopsis](PAT_write_full_disclosure_fiction_synopsis.md) - pattern; 4 final. Tags: conflict, fiction, plot, submissions, synopsis.

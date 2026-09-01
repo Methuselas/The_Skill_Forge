@@ -12,5 +12,6 @@
 - [Redraft One Opening from Full Genre Signal to Subtle Genre Pressure](DRILL_redraft_one_opening_from_full_genre_signal_to_subtle_genre_pressure.md) - drill; 1 skeleton. Tags: deliberate_practice, fiction, genre, openings, reader_expectation.
 - [Signal and Revise Genre Expectations](PAT_signal_and_revise_genre_expectations.md) - pattern; 0 design. Tags: conventions, fiction, genre, reader_expectation, revision.
   - Variants: `Seed a Secondary Genre Expectation Without Converting the Whole Story` (context).
+- [Transform Documentary Material into a Fictional Artifact](DRILL_transform_documentary_material_into_a_fictional_artifact.md) - drill; 0 design. Tags: adaptation, deliberate_practice, documentary_material, fiction, interactive_narrative, truth_contract, voice.
 - [Turn a Theme Map into Dramatic Choices and Consequences](DRILL_turn_a_theme_map_into_dramatic_choices_and_consequences.md) - drill; 0 design. Tags: brainstorming, causality, deliberate_practice, dramatic_action, fiction, theme.
 - [Turn Concrete Stimuli into Story Pressure](PAT_turn_concrete_stimuli_into_story_pressure.md) - pattern; 0 design. Tags: conflict, fiction, invention, objects, story_ideas.
