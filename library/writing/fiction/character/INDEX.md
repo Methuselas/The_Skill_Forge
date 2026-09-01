@@ -12,6 +12,7 @@
 - [Differentiate Character Voices through Parallel Monologues](DRILL_differentiate_character_voices_through_parallel_monologues.md) - drill; 1 skeleton. Tags: character, deliberate_practice, diction, fiction, monologue, voice.
   - Variants: `Alternate Accounts of a Disputed Event` (context).
 - [Inhabit Unsympathetic Characters from Inside](PAT_inhabit_unsympathetic_characters_from_inside.md) - pattern; 0 design. Tags: character, fiction, motivation, point-of-view, sympathy.
+- [Map Character Relationships by Knowledge and Pressure](DRILL_map_character_relationships_by_knowledge_and_pressure.md) - drill; 0 design. Tags: character, deliberate_practice, disclosure, ensemble, fiction, relationships.
 - [Portray Characters Beyond Direct Experience with Accountable Imagination](PAT_portray_characters_beyond_direct_experience_with_accountable_imagination.md) - pattern; 0 design. Tags: character, fiction, identity, imagination, research, stereotype.
 - [Propagate One Counterfactual Change through a Fictional Life](DRILL_propagate_one_counterfactual_change_through_a_fictional_life.md) - drill; 0 design. Tags: character, counterfactual, deliberate_practice, fiction, invention, transformation.
 - [Recast a Conflict through the Opponent's Limited Viewpoint](DRILL_recast_a_conflict_through_the_opponents_limited_viewpoint.md) - drill; 1 skeleton. Tags: character, conflict, empathy, fiction, point_of_view.

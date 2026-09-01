@@ -32,7 +32,14 @@ reference:
 confidence: high
 references: []
 target_skill: Converting bounded, reliable research into consequential draft decisions without displaying the whole research process
-variants: []
+variants:
+  - variant_id: writing_variant_sequence_research_by_truth_contract_and_draft_need
+    variant_name: Sequence Research by Truth Contract and Draft Need
+    variant_basis: method_sequence
+    difference_from_foundation: Establish indispensable facts, access, permissions, and evidentiary limits before drafting truth-bound work; for fiction, draft through nonblocking uncertainties while marking precise gaps; then research each gap when its answer can change possibility, causality, language, setting, characterization, or responsible claims.
+    when_to_use: Uncertainty about whether to research before drafting is causing either unsupported truth claims, premature interruption of generative writing, indiscriminate collection, or research used to avoid the next bounded draft.
+    when_not_to_use: The next draft decision is already supported, the missing fact cannot affect the work, or immediate research is required for safety, legality, consent, access, or another non-negotiable condition.
+    absorbed_from_object_id: none
 ---
 
 # Research until Findings Change the Draft
@@ -74,3 +81,5 @@ Choose a short premise or passage containing one important unknown about a place
 
 ## Notes
 Research expands direct experience by supplying material conditions and possibilities the writer could not responsibly invent from intuition alone. Its value appears in the changed work: a route becomes impossible, an ordinary tool suggests an action, a social practice alters a relationship, or a fact complicates the original premise. Most notes may remain off the page because their job was to improve the writer's available decisions, not to become exposition.
+
+`writing_variant_sequence_research_by_truth_contract_and_draft_need` separates prerequisite research from just-in-time research. Before truth-bound drafting, establish the facts, access, permissions, and limits without which the work would make unsupported claims or proceed irresponsibly. In fiction, mark specific nonblocking gaps and continue drafting until an answer can alter what is possible or credible. In either case, reopen research when discovery exposes a consequential uncertainty and stop again when the current decision is supported; neither research-first nor draft-first is a universal rule.

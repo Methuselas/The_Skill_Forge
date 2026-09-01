@@ -19,6 +19,7 @@
 - [Preserve Exploratory Draft Variants with Lightweight Labels](PAT_preserve_exploratory_draft_variants_with_lightweight_labels.md) - pattern; 1 skeleton. Tags: discovery, drafting, exploration, organization, versioning.
 - [Recover from Writing Block by Lowering the Hurdle](PAT_recover_from_writing_block_by_lowering_the_hurdle.md) - pattern; 0 design. Tags: creative_writing, task_scoping, writers_block, writing_process.
 - [Research until Findings Change the Draft](DRILL_research_until_findings_change_the_draft.md) - drill; 1 skeleton. Tags: creative_writing, deliberate_practice, drafting, fact_checking, research, selection.
+  - Variants: `Sequence Research by Truth Contract and Draft Need` (method_sequence).
 - [Train Generative Fluency with Cluster-to-Freewrite Cycles](DRILL_train_generative_fluency_with_cluster_to_freewrite_cycles.md) - drill; 0 design. Tags: association, clustering, creative_writing, deliberate_practice, freewriting.
 - [Use a Writer's Notebook from Capture to Draft](AP_use_a_writers_notebook_from_capture_to_draft.md) - ap; 0 design. Tags: creative_writing, development, invention, notebook, observation.
 - [Use Cultural Memory to Complicate Personal Recollection](PAT_use_cultural_memory_to_complicate_personal_recollection.md) - pattern; 0 design. Tags: creative_writing, cultural_memory, memory, nostalgia, selection, voice.

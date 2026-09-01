@@ -80,12 +80,14 @@ variants:
 - State the immediate target narrowly enough to guide association: a story conflict, possible setting, opening action, image field, title, or structural turn.
 - Keep imperfect phrases and unlikely options moving onto the page instead of restarting whenever one fails.
 - Work at the level of possibilities rather than spelling, grammar, polish, or final sequence.
+- When other people are contributing, frame one immediate scene, decision, character problem, or structural issue and ask for possibilities at that level.
 - After the generation interval ends, group related options and mark the few that create consequence, surprise, or further questions.
 
 ## Don't
 - Confuse relevance with predictability; an odd option belongs when it can answer the stated problem.
 - Evaluate each entry before the list has enough range to compare.
 - Let free association drift so far that the result cannot be brought back to the target.
+- Explain the entire project to collaborators when a bounded problem would give them enough context to generate useful options.
 - Treat the longest list as success when none of its entries changes the draft's available choices.
 
 ## Checklist
@@ -97,6 +99,8 @@ variants:
 
 ## Notes
 Brainstorming and freewriting suspend early judgment for different purposes. Freewriting can discover what the writer is thinking about; goal-directed generation assumes a problem is already known and searches broadly inside it. The boundary keeps freedom from becoming drift while protecting unusual answers from premature dismissal.
+
+Collaborative brainstorming works best when the group can respond to a tractable problem rather than absorb and redesign the whole work. The writer retains responsibility for selection and integration: another person's suggestion enters the option pool, not the draft by authority.
 
 `writing_variant_interrogate_life_domains_with_layered_self_questions` uses a selective self-interview when a broad personal-writing problem is known but ordinary recall is thin. Scan several relevant domains, answer appealing questions with short retrieval phrases, and expand only answers that produce a concrete situation, unexpected relation, tension, change, or further question. The writer may ask the questions privately or invite a trusted helper to ask them, but exploratory disclosure remains under the writer's control. Route a live answer into freewriting; do not mistake completion of the questionnaire for discovery.
 
