@@ -4,9 +4,11 @@
 
 ## Objects
 
+- [Audit Marked Character Speech for Individuality Accuracy and Legibility](DRILL_audit_marked_character_speech_for_individuality_accuracy_and_legibility.md) - drill; 3 rough. Tags: accountability, deliberate_practice, dialect, dialogue, fiction, interactive_narrative, multilingual_writing, research, speech_difference, voice.
+  - Variants: `Signal a Shared Story Language through Selective Cues` (method_sequence); `Represent a Speech Difference without Verbal Costume` (context).
 - [Choose Direct or Reported Dialogue by Effect](PAT_choose_direct_or_reported_dialogue_by_effect.md) - pattern; 1 skeleton. Tags: dialogue, direct-dialogue, distance, fiction, reported-dialogue, viewpoint.
 - [Combine Dialogue with Action Thought and Silence](PAT_combine_dialogue_with_action_thought_and_silence.md) - pattern; 2 block. Tags: action, dialogue, fiction, interiority, silence, subtext.
-  - Variants: `Make an Unmentionable Subject Legible through Displaced Talk` (method_sequence).
+  - Variants: `Make an Unmentionable Subject Legible through Displaced Talk` (method_sequence); `Let a Verbal Slip Trigger Contested Interpretation` (context).
 - [Compress Real Speech into Purposeful Dialogue](PAT_compress_real_speech_into_purposeful_dialogue.md) - pattern; 2 block. Tags: compression, dialogue, fiction, rhythm, speech.
 - [Draft and Revise a Dialogue Scene](AP_draft_and_revise_a_dialogue_scene.md) - ap; 1 skeleton. Tags: dialogue, drafting, fiction, revision, scene.
 - [Harvest and Refine Overheard Speech](DRILL_harvest_and_refine_overheard_speech.md) - drill; 1 skeleton. Tags: dialogue, fiction, listening, practice, rhythm, speech.

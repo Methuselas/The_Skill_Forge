@@ -5,7 +5,7 @@
 ## Topics
 
 - [Character](character/INDEX.md) - 19 object(s).
-- [Dialogue](dialogue/INDEX.md) - 10 object(s).
+- [Dialogue](dialogue/INDEX.md) - 11 object(s).
 - [Foundations](foundations/INDEX.md) - 9 object(s).
 - [Setting](setting/INDEX.md) - 12 object(s).
 - [Structure](structure/INDEX.md) - 19 object(s).

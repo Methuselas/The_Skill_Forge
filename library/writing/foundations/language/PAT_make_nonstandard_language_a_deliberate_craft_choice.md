@@ -18,7 +18,9 @@ tags:
   - multilingual_writing
   - grammar
   - voice
-cross_links: []
+cross_links:
+  - rel: related_to
+    target_object_id: writing_fiction_drill_audit_marked_character_speech_for_individuality_accuracy_and_legibility
 reference:
   source_title: "Creative Writing: Four Genres in Brief"
   author: David Starkey
@@ -36,8 +38,10 @@ variants: []
 
 ## Do
 - Identify the precise expressive job performed by each departure from standard written convention.
+- Distinguish standardized written convention from speech itself: every speaker has an accent, dialect, register, and language history, even when the page does not mark them conspicuously.
 - Let community language and mixed languages carry identity when standardization would erase meaningful social or cultural information.
-- Use dialect, community language, and multilingual wording that the writer or represented speaker genuinely knows; when access is partial, research spelling, meaning, context, and present use before relying on it.
+- Use dialect, community language, and multilingual wording that the writer or represented speaker genuinely knows; when access is partial, research spelling, meaning, context, present use, internal variation, and listener-dependent register through more than one credible perspective before relying on it.
+- Audit which speakers receive ordinary spelling and which receive respelling, glosses, grammar labels, translation, or comic framing; revise asymmetry that exists only because one voice is treated as the neutral baseline.
 - Preserve scripts, diacritics, pronunciation cues, and translations accurately enough that the language remains itself rather than decorative texture.
 - Decide whether meaning should be inferable from context, supplied nearby, or deliberately disclosed later, and test the timing against the intended reader experience.
 - Polish syntax, diction, punctuation, and rhythm around the deviation so readers encounter a controlled choice rather than general carelessness.
@@ -45,6 +49,7 @@ variants: []
 ## Don't
 - Normalize identity-bearing language solely because it differs from standardized English.
 - Put on an accent, borrow an unfamiliar community marker, or scatter untranslated words to manufacture authenticity or exotic atmosphere.
+- Treat a community's systematic grammar as failed standardized English, or turn code-switching and imperfect fluency into automatic evidence of intelligence, honesty, innocence, or social worth.
 - Use creativity as an excuse to submit an unrevised draft full of unintended spelling, grammar, or punctuation mistakes.
 
 ## Checklist
@@ -52,6 +57,7 @@ variants: []
 - Similar choices are controlled well enough to read as intentional rather than random.
 - The intended audience can follow the passage, unless temporary difficulty is itself part of the designed effect.
 - The writer can account for the language's meaning and use without treating surface difference as proof of authority.
+- Conspicuous marking is distributed by craft purpose rather than by an unexamined standard-versus-deviant hierarchy.
 - The rest of the prose has received careful editing and proofreading.
 
 ## Notes

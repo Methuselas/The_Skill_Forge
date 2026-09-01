@@ -37,6 +37,13 @@ variants:
     when_to_use: Risk, taboo, denial, unequal knowledge, or social permission prevents direct speech while the hidden matter still shapes what the characters do and say.
     when_not_to_use: No credible motive prevents direct speech, the surface topic has no natural place in the scene, or withholding every clue would create confusion rather than inference.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_let_verbal_slip_trigger_contested_interpretation
+    variant_name: Let a Verbal Slip Trigger Contested Interpretation
+    variant_basis: context
+    difference_from_foundation: Introduce one plausible wrong word, name, phrase, or unintended substitution, then make the speaker's repair and the listener's interpretation alter pressure while preserving more than one possible cause for the slip.
+    when_to_use: A small speech error can expose suspicion, embarrassment, divided attention, unequal knowledge, or a relationship fault line through what the participants do next.
+    when_not_to_use: The slip would serve as omniscient proof of hidden truth, depends on an implausible mistake, or produces no response or consequence beyond a joke.
+    absorbed_from_object_id: none
 ---
 
 # Combine Dialogue with Action Thought and Silence
@@ -54,6 +61,7 @@ variants:
 - Use a surface topic the characters have a credible reason to discuss, and distribute converging evidence so readers can infer the underlying pressure.
 - Permit explicit disclosure when a change in risk, permission, knowledge, or urgency makes saying it the consequential turn.
 - Resume direct speech only after the intervening beat has changed its force or clarified who controls the moment.
+- When a verbal slip matters, show the attempted repair, refusal to repair, or listener response and let the participants contest its meaning rather than granting the narration diagnostic certainty.
 
 ## Don't
 - Attach a gesture to every line until physical business becomes another repetitive tag system.
@@ -61,6 +69,7 @@ variants:
 - Use internal monologue to repeat the dialogue in different words.
 - Break a rapid exchange when uninterrupted verbal momentum is the scene's intended pressure.
 - Decode eye contact, posture, mirroring, or another gesture as universal proof of an emotion, motive, or lie.
+- Treat a wrong word, name, spoonerism, malapropism, or other slip as reliable access to a speaker's unconscious intent.
 - Treat obscurity as subtext while giving readers no stable subject, motive, or evidence to infer.
 - Keep a matter unspoken after the motive for concealment has disappeared merely because omission seems more literary.
 - Make every object or incidental action a one-to-one symbol for the hidden subject.
@@ -74,8 +83,11 @@ variants:
 - Any inference from body language is grounded in character, relation, situation, and available viewpoint evidence while preserving ambiguity the scene needs.
 - The unsaid has a credible social or psychological cause and enough converging evidence to become inferable.
 - Continued concealment or explicit disclosure is chosen by consequence, not by a rule that one is always stronger.
+- A consequential verbal slip has a plausible immediate cause, produces a response, and leaves only the degree of ambiguity the scene can use.
 
 ## Notes
 What people do not say, and how they avoid saying it, can carry as much weight as their sentences. Conversation, thought, and action work best as a coordinated scene texture. The balance is selective: some exchanges need breathers, while others depend on sustained verbal velocity.
 
 `writing_fiction_variant_make_unmentionable_subject_legible_through_displaced_talk` designs subtext before decorating dialogue with pauses. Establish the hidden subject, each speaker's motive, and a plausible surface task or topic; then place verbal and behavioral clues whose convergence supports reader inference. A witness can change permission and expose the design. Retain omission while it drives action, or let the subject become explicit when changed conditions make disclosure the earned turn.
+
+`writing_fiction_variant_let_verbal_slip_trigger_contested_interpretation` makes the participants' response—not a theory of involuntary confession—the dramatic event. Give the substitution a plausible route through sound, fatigue, divided attention, unfamiliar vocabulary, memory, expectation, or concealed concern. Then let repair, denial, teasing, suspicion, or strategic exploitation change the relation while the narration preserves uncertainty the evidence cannot settle.

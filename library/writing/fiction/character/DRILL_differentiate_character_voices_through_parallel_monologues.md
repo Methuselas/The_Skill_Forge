@@ -26,6 +26,8 @@ cross_links:
     target_object_id: writing_choose_diction_to_serve_purpose_and_tone
   - rel: related_to
     target_object_id: writing_read_draft_aloud_to_defamiliarize_it
+  - rel: related_to
+    target_object_id: writing_fiction_drill_audit_marked_character_speech_for_individuality_accuracy_and_legibility
 reference:
   source_title: "Creative Writing: A Workbook with Readings"
   author: Linda Anderson
@@ -55,12 +57,12 @@ Choose two characters with different desires, knowledge, and relationships to on
 
 ## Instructions
 1. State what each speaker wants from the listener and what each is unwilling or unable to say directly.
-2. List the categories of detail each character would notice, the words each knows or avoids, and the degree of authority each believes they possess.
+2. List the categories of detail each character would notice, the words each knows or avoids, the degree of authority each believes they possess, and the languages, dialects, occupational vocabularies, or registers each would use with this addressee.
 3. Draft a short monologue for the first character without consulting the second character's planned phrasing.
 4. Draft the second monologue at a similar length, changing sentence movement, pace, directness, figurative habits, and selection of detail as the person and relation require.
 5. Read both aloud. Mark places where the characters share the same polished syntax, explanation habits, jokes, or emotional vocabulary without a credible reason.
 6. Exchange one sentence between the monologues. If it survives unchanged, revise it around the receiving speaker's attention, knowledge, motive, and social permission.
-7. Remove phonetic spelling, catchphrases, profanity, or verbal tics that serve only as identity labels. Retain marked language only when it belongs to the represented person and situation.
+7. Remove phonetic spelling, catchphrases, profanity, or verbal tics that serve only as identity labels. When a retained voice depends on unfamiliar dialect, multilingual wording, accent marking, or a speech difference, run `writing_fiction_drill_audit_marked_character_speech_for_individuality_accuracy_and_legibility` before treating the distinction as credible.
 8. Compare what each voice conceals, assumes, and tries to make the listener do. Revise until those differences affect more than sound.
 
 ## Success Check
@@ -69,6 +71,7 @@ Choose two characters with different desires, knowledge, and relationships to on
 - The voices differ in sentence movement, pace, directness, figurative habit, and selection of detail, not in dialect markers or verbal tics alone.
 - Shared phrasing is marked on reading aloud and revised, including where the shared phrasing is good.
 - Neither voice leans on a stock label; profession, class, or region does not perform the work the language should.
+- Any marked language is grounded in the speaker's repertoire and present addressee, and the comparison does not make one speaker conspicuous against an unnamed neutral voice by default.
 - A reader can attribute an unlabelled line to its speaker, and any line failing that is named.
 
 ## Common Failures
