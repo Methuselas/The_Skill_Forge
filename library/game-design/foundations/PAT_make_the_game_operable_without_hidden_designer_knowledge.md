@@ -21,12 +21,27 @@ cross_links:
   target_object_id: PAT_define_the_intended_player_before_designing_for_them
 - rel: related_to
   target_object_id: PAT_spend_worldbuilding_detail_where_it_changes_play
+- rel: related_to
+  target_object_id: PAT_scale_npc_and_adversary_detail_to_their_role_in_play
+- rel: related_to
+  target_object_id: PAT_build_complete_resolution_procedures_incrementally
+- rel: related_to
+  target_object_id: PAT_structure_adventure_narratives_with_milestones_plot_beats_and_player_agency
+- rel: related_to
+  target_object_id: PAT_layer_adventure_information_by_how_players_can_access_it
 reference:
   source_title: Designing TTRPGs For Dummies
   author: Martin Buinicki
 confidence: high
 references: []
-variants: []
+variants:
+- variant_id: game_design_variant_use_a_sample_adventure_as_an_executable_reference_implementation
+  variant_name: Use a Sample Adventure as an Executable Reference Implementation
+  variant_basis: context
+  difference_from_foundation: When a game expects new referees to run play or create their own adventures, pair the construction grammar with at least one representative adventure that can be run directly and that demonstrates how rules, setting assumptions, encounter structures, information, and referee procedures compose in practice.
+  when_to_use: The game expects inexperienced or downstream referees to learn how its abstract rules and authoring guidance become actual playable material.
+  when_not_to_use: The sample would substitute for explicit construction guidance, teach an atypical edge case as though it were the normal form, or require users to reverse-engineer hidden assumptions from the example.
+  absorbed_from_object_id: none
 ---
 
 # Make the Game Operable Without Hidden Designer Knowledge
@@ -39,21 +54,39 @@ variants: []
 ## Do
 - Watch for moments where the designer answers a question from memory instead of from the game’s written or implemented interface.
 - Test with people who were not present during design so missing assumptions become visible.
+- During at least one handoff playtest, remain silent when players or another facilitator encounter a rules question long enough to see whether the written game lets them recover; record any designer explanation required to continue as missing or unclear design information.
 - Distinguish an intentionally adjudicated open space from a rule whose missing logic is being supplied unconsciously by the creator.
 - Rewrite rules around the decision the user must make, including inputs, outputs, and exceptional states that matter to play.
+- For multi-step resolution, state the trigger, sequence, branch conditions, state changes, resource-spend timing, precedence, return points, and termination conditions needed to execute the procedure without the designer supplying missing order from memory.
 - When a setting is meant to support referee, modder, or downstream expansion, communicate the underlying setting grammar firmly enough that new material can be extended coherently without requiring hidden designer intent.
+- For every content type the game expects downstream creators to author, expose the construction grammar — required fields, constraints, scaling guidance, templates, and examples — rather than providing only finished examples or modification rules.
+- When adventure creation is an expected downstream task, pair that grammar with a representative runnable adventure so intended rules, information, encounter structure, and referee procedures can be seen operating together rather than only described in isolation.
+- When an adventure contains required milestones, supported scope boundaries, triggered plot beats, or forced transitions, expose those structures to the referee and state the tools available for moving play toward them rather than requiring the referee to guess which parts of the plot are mandatory.
+- In prepared adventures, clearly distinguish player-facing description from referee-only truth, and state the perception, question, action, trigger, or resolution condition under which concealed information becomes available.
 
 ## Don't
 - Treat “it is obvious” as evidence that another player will infer the same rule.
 - Use designer availability as a permanent support mechanism for unclear procedures.
 - Hide required knowledge in scattered examples when the user needs it to execute a core interaction.
+- Treat a catalog of stock examples as a substitute for creation rules when users are expected to make new instances of that content.
+- Leave interactions such as “before armor,” “after damage,” “when hit,” or “when injured” to table intuition when different ordering would change the result.
+- Hide a required adventure milestone behind prose, imply that every route is supported when the scenario has a real boundary, or expect the referee to invent coercion on the fly because the intended transition was never documented.
+- Mix player-safe description and hidden referee information so closely that a downstream referee must infer what can be revealed or when a secret becomes accessible.
 
 ## Checklist
 - A new user can begin and resolve core play without asking what the designer meant.
 - Rules that rely on judgment say who exercises that judgment and what boundaries apply.
 - Playtests record repeated clarification questions as design defects to investigate.
+- A handoff or designer-silence test has shown that intended users can recover from ordinary rules questions without the designer supplying unwritten intent.
 - Internal prototypes clearly mark unresolved or temporarily explained behavior.
 - Open setting space has stable anchors and boundaries from which a downstream creator can infer what belongs and what consequences a new addition should have.
+- For each content category users are expected to extend, a new user can construct a novel instance without reverse-engineering unstated assumptions from published examples.
+- If the game expects referees to create adventures, at least one representative sample can be run directly and visibly demonstrates how the documented construction grammar composes into play.
+- For a prepared adventure, the referee can identify required milestones, optional or conditional beats, supported scope boundaries, and any transition tools the design expects them to use.
+- Player-facing description, referee-only truth, and concealed-information access conditions are separated clearly enough that a referee can reveal information without reverse-engineering author intent.
+- A new user can execute each core multi-step resolution from trigger to termination and determine when resources are spent, branches are entered, and conflicting effects take precedence.
 
 ## Notes
-A private game can survive because its creator silently supplies missing intent. A transferable game cannot depend on that invisible subsystem. Independent use is therefore a test of whether the design actually contains the rules the designer believes it contains. The same test applies to extensible settings: define the grammar more firmly than every possible instance so that deliberate negative space becomes bounded possibility rather than missing content.
+A private game can survive because its creator silently supplies missing intent. A transferable game cannot depend on that invisible subsystem. Independent use is therefore a test of whether the design actually contains the rules the designer believes it contains. The same test applies to extensible settings: define the grammar more firmly than every possible instance so that deliberate negative space becomes bounded possibility rather than missing content. A game can be playable from stock content yet still be incomplete for downstream authorship if it shows finished examples without teaching how to build a new one; examples demonstrate a grammar, but they do not replace it. The same is true of resolution procedures: a designer may understand the intended order of Dodge, damage, armor, resistance, interruption, or resource spending while the written rules expose only the component mechanics. Hidden sequencing is still hidden designer knowledge. A useful handoff test is to watch another group encounter uncertainty without immediately rescuing them: if the designer must provide the missing rule, precedence, interpretation, or recovery path for play to continue, that information is not yet actually carried by the game.
+
+`game_design_variant_use_a_sample_adventure_as_an_executable_reference_implementation` applies this principle specifically to adventure onboarding. A sample adventure can function as an executable reference implementation: it shows how abstract rules, setting assumptions, encounter structures, information, and referee procedures compose into actual play while also reducing the cost of a first session. The example remains evidence of the grammar rather than a substitute for it. If users are expected to author new adventures, they should be able to do so from explicit guidance instead of reverse-engineering unstated design intent from the sample. This variant is supported by Martin Buinicki's *Designing TTRPGs For Dummies*, Chapter 14, which treats an included adventure as both an onboarding tool and a model for later adventure creation. Chapter 15 extends the same operability requirement into narrative execution: if a scenario depends on specific milestones, scope limits, beat triggers, or transition pressures, the referee needs those requirements exposed explicitly. Otherwise the adventure may be fully understandable to its author while forcing a downstream referee to reconstruct the intended plot from hidden assumptions. Chapter 16 extends this operability test to information presentation: a referee must be able to tell what is safe to present immediately, what remains hidden, and what condition grants access to it.

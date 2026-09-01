@@ -25,7 +25,7 @@ entries:
   - training_benchmark
   - user_feedback
   likely_owners:
-  - future mechanics architecture owner
+  - PAT_reuse_core_resolution_grammar_before_adding_new_mechanics
   - DRILL_reverse_engineer_a_game_through_play
   interventions:
   - training: Reverse-engineer contrasting rulesets by mapping resolution families and subsystem interfaces.
@@ -63,7 +63,6 @@ entries:
   - user_feedback
   likely_owners:
   - PAT_evaluate_mechanics_by_the_decisions_and_agency_they_create
-  - future mechanics complexity owner
   interventions:
   - training: For each analyzed rule, name the player decision or consequence purchased by its execution cost.
     isolation_result: improved
@@ -133,7 +132,7 @@ entries:
   - training_benchmark
   - human_teaching
   likely_owners:
-  - future mechanics architecture owner
+  - PAT_reuse_core_resolution_grammar_before_adding_new_mechanics
   interventions:
   - training: Before accepting a new subsystem, attempt to express the requirement through current primitives and document where that attempt fails.
     isolation_result: improved

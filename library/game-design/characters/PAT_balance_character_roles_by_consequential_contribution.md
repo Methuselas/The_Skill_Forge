@@ -22,7 +22,9 @@ cross_links:
 - rel: related_to
   target_object_id: PAT_evaluate_mechanics_by_the_decisions_and_agency_they_create
 - rel: related_to
-  target_object_id: PAT_match_practiced_behavior_to_the_intended_outcome
+  target_object_id: PAT_align_repeated_and_rewarded_behavior_with_intended_outcomes
+- rel: related_to
+  target_object_id: PAT_calibrate_encounters_to_their_purpose_challenge_and_response_space
 reference:
   source_title: Designing TTRPGs For Dummies
   author: Martin Buinicki

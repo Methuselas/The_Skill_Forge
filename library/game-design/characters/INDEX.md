@@ -4,6 +4,6 @@
 
 ## Objects
 
-- [Balance Character Roles by Consequential Contribution](PAT_balance_character_roles_by_consequential_contribution.md) - pattern; 0 design. Tags: agency, balance, characters, specialization.
-- [Derive Character Capabilities from Expected Play](PAT_derive_character_capabilities_from_expected_play.md) - pattern; 0 design. Tags: abilities, characters, gameplay, roles.
-- [Trace a Character Option Into Play](DRILL_trace_a_character_option_into_play.md) - drill; 0 design. Tags: balance, characters, playtesting, specialization.
+- [Trace a Character Option Into Play](DRILL_trace_a_character_option_into_play.md) - drill; 0 design. Tags: characters, specialization, balance, playtesting.
+- [Balance Character Roles by Consequential Contribution](PAT_balance_character_roles_by_consequential_contribution.md) - pattern; 0 design. Tags: characters, balance, specialization, agency.
+- [Derive Character Capabilities from Expected Play](PAT_derive_character_capabilities_from_expected_play.md) - pattern; 0 design. Tags: characters, abilities, roles, gameplay.
