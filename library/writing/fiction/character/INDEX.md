@@ -11,6 +11,7 @@
 - [Develop and Reveal a Short-Story Character](AP_develop_and_reveal_a_short_story_character.md) - ap; 0 design. Tags: character, development, fiction, revelation, short_story.
 - [Differentiate Character Voices through Parallel Monologues](DRILL_differentiate_character_voices_through_parallel_monologues.md) - drill; 1 skeleton. Tags: character, deliberate_practice, diction, fiction, monologue, voice.
   - Variants: `Alternate Accounts of a Disputed Event` (context).
+- [Draft Illness as a Situated Character Pressure](DRILL_draft_illness_as_a_situated_character_pressure.md) - drill; 0 design. Tags: character, deliberate_practice, embodiment, fiction, illness, injury, interactive_narrative, research.
 - [Inhabit Unsympathetic Characters from Inside](PAT_inhabit_unsympathetic_characters_from_inside.md) - pattern; 0 design. Tags: character, fiction, motivation, point-of-view, sympathy.
 - [Map Character Relationships by Knowledge and Pressure](DRILL_map_character_relationships_by_knowledge_and_pressure.md) - drill; 0 design. Tags: character, deliberate_practice, disclosure, ensemble, fiction, relationships.
   - Variants: `Expand Kinship across Generations` (method_sequence).
@@ -25,3 +26,4 @@
 - [Trace One Embodied Condition through a Character's Life](DRILL_trace_one_embodied_condition_through_a_characters_life.md) - drill; 0 design. Tags: adaptation, causality, character, deliberate_practice, embodiment, fiction, stereotype.
 - [Transform Real People into Composite Characters](PAT_transform_real_people_into_composite_characters.md) - pattern; 0 design. Tags: character, composite-character, fiction, invention, observation.
 - [Treat Character Bodies as Lived Conditions](PAT_treat_character_bodies_as_lived_conditions.md) - pattern; 0 design. Tags: character, embodiment, fiction, interactive_narrative, physicality, stereotype.
+  - Variants: `Test Character under Acute Bodily Stress without Treating Response as Essence` (context).

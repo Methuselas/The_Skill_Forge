@@ -52,6 +52,7 @@ variants:
 - Let different situations disclose different pressures on the same underlying person.
 - Separate observable appearance from the viewpoint character's interpretation, then let conduct and consequence confirm, complicate, or overturn that judgment.
 - Let bodily change over time enter through altered movement, presentation, access, sensation, or social response when it affects the story.
+- When pain, illness, fear, exhaustion, medication, or acute stress constrains conduct, establish those conditions before asking the behavior to support a stable personality inference.
 
 ## Don't
 - Open with a dossier of appearance, history, temperament, tastes, and motives.
@@ -59,6 +60,7 @@ variants:
 - Withhold basic orientation solely to manufacture a false mystery.
 - Spend a scene proving a trait that never affects a choice, relation, or consequence.
 - Treat facial structure, eye color, teeth, posture, body size, disability, or clothing as self-evident proof of personality or moral worth.
+- Treat one response under sickness, injury, diagnosis, or bodily crisis as the character's unmasked essence.
 
 ## Checklist
 - The reader learns something consequential from what the character does, says, or attends to.
@@ -67,6 +69,7 @@ variants:
 - A surprise feels prepared rather than arbitrary.
 - Removing a descriptive passage does not erase information that behavior already supplies.
 - Appearance-based inference remains attributable to an observer and is tested by later evidence rather than installed as objective truth.
+- Stable-trait conclusions rest on behavior across sufficient conditions; when acute pressure limits the evidence, label the inference as a hypothesis and test it in another condition before treating it as established.
 
 ## Notes
 The writer may know the whole private history while the reader receives only the active edge of it. Discovery ends when everything important arrives as introductory explanation.
