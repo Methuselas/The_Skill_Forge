@@ -139,3 +139,75 @@ prompt so the comparison is between two runs that differ only in the manipulatio
 
 A scoring *yes* falsifies the causal reading and is the outcome three self-reports argue
 against. It remains the more informative result.
+
+---
+
+# Appendix — 2026-08-30, run 5
+
+Written before any file was edited for this attempt. Nothing above altered.
+
+## The question
+
+Run 4b showed consulting the memory store is not necessary for the outward trace. The leading
+alternative it promoted is that the protocol itself instructs the behaviour. This tests that.
+
+> **Does the protocol's ranking-by-reach instruction produce the outward trace to callers?**
+
+## Design
+
+Two agents, one slice, simultaneous, prompts identical.
+
+**Both arms are memory-free.** `rr4-b`'s entrypoint is stripped to match `rr4-a`'s, so the
+`## Skillset Memory` section is absent from both. Memory is already known not to be necessary;
+removing it from both removes it as a variable, so the only difference is the protocol.
+
+- **Arm A (withheld).** In `rr4-a` only, the protocol's ranking-by-reach instruction is removed
+  from all four places it appears: the `PAT_judge_change_risk_by_what_it_can_break` cross-link
+  in the front matter, the Objective's "a ranked set of findings, each naming the defect and
+  what it can break", step 5 itself, and the completion check's "Every finding names the
+  defect, the code it is in, and what it can break".
+- **Arm B (control).** Protocol untouched.
+
+Step 5 is **substituted, not deleted.** It is replaced by a neutral instruction to put the
+findings in a definite order and state the principle used, without naming reach, consequence,
+or callers. Deleting it would renumber every later step and force edits to the Objective and
+Notes, changing document structure alongside the instruction. Substitution holds length,
+numbering and internal references constant so the instruction is the only variable.
+
+**The prompt is neutralised in both arms.** The previous prompt asked for findings "each naming
+the defect, the code it is in, and what it can break" — the completion check's own wording,
+which would reinstate the manipulated instruction from outside the protocol. Both prompts now
+ask only for the defect and the code it is in.
+
+## Slice
+
+`ignore/src/overrides.rs` again, deliberately. Comparability outweighs generality here: run 4b
+arm A was memory-free with the full protocol on exactly this code and scored *yes*, so arm B is
+a replication of a known baseline as well as this run's control.
+
+## Primary outcome
+
+Unchanged and still checkable without asking either agent: does the report establish
+reachability outside the slice file — naming at least one caller, consumer or configuration
+site by file — as part of, or before, ordering the findings?
+
+## Predictions
+
+- If the ranking instruction is causal: A scores *no*, B scores *yes*.
+- If it is not: both score *yes*, or both score *no*.
+
+A scoring *yes* would mean neither memory nor the ranking step is necessary, and the trace is
+something this runtime does from the reviewing task alone. That would make `SE_MEM_016`
+obsolete rather than merely unproven, and would say the protocol's step 5 documents a habit
+rather than creating one.
+
+B scoring *no* would break the replication and invalidate the comparison rather than support
+it — the same agent configuration scored *yes* on this slice one run ago.
+
+## Limits
+
+n = 1 per arm, as before. The manipulation is coarse: four edits, not one, so a difference
+attributes to the ranking instruction as a whole and not to step 5's wording specifically. The
+protocol retains steps 1, 2 and 3, which ask what the code promises callers and run owning
+protocols' completion checks backwards — either could produce an outward trace on its own, and
+this design cannot separate them.

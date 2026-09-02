@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: software-engineering
-memory_version: 11
+memory_version: 12
 entries:
 - id: SE_MEM_001
   scope_type: topic
@@ -1041,104 +1041,82 @@ entries:
 - id: SE_MEM_016
   scope_type: ap
   scope_id: AP_review_code_you_did_not_write
-  type: recurring_failure
+  type: known_boundary
   evidence_class: stochastic_performance
   observation: 'Two runs of the review protocol covered the same five hundred and fifty line
     slice independently, and the second found three defects the first had missed. All three
-    sat in lines the first run had read. A reset path clears five of six fields and lets one
-    survive; a load path omits a range check the same class enforces on every daily advance;
-    a guard set of three conditions admits a negative amount and creates money and debt together.
-    What none of the three could be settled by was the file itself. The first needed the data
-    files that feed the load, to show that a plain node means replace and that two of them
-    reach the omission. The second needed the collaborating class that consumes the value,
-    to show that an unchecked score yields a negative interest rate, a payment of one credit
-    on a debt of a million, and a principal that halves when a payment is missed. The third
-    needed the callee''s discarded return value and the single caller that happens to compensate.
-    The first run stopped at the file boundary and carried out the protocol''s ranking step
-    anyway, which asks what each defect can break - a question not answerable without knowing
-    who calls the code - so the ranking rested on argument, and nothing in the report it produced
-    distinguished that from a ranking established from call sites. The same runtime traced
-    callers on a later slice.
+    sat in lines the first run had read: a reset path clearing five of six fields, a load
+    path omitting a range check the same class enforces on every daily advance, and a guard
+    set of three conditions admitting a negative amount and creating money and debt together.
+    What none of the three could be settled by was the file itself - each needed the data
+    files that feed the load, the collaborating class that consumes the value, or the callee''s
+    discarded return value and the single caller that compensates for it. The first run stopped
+    at the file boundary and carried out the protocol''s ranking step anyway, which asks what
+    each defect can break, so the ranking rested on argument and nothing in the report it
+    produced distinguished that from a ranking established from call sites. Two controlled
+    experiments have since failed to identify what produces the outward trace when it does
+    happen. Removing the memory store from a reviewer''s entrypoint did not stop it. Removing
+    the protocol''s ranking-by-reach instruction from all four places it appears did not stop
+    it either, and in that comparison the withheld arm, asked only to state whatever ordering
+    principle it had used, chose the gap between what a caller asked for and what they got.
 
     '
   diagnosis:
     failure_layer: application
-    hypothesis: 'Staying inside the file does not hide the anomalies; it removes the only
-      thing that separates an anomaly from a decision somebody made on purpose. An omitted
-      field in a reset block, a range enforced in one place and not another, a gap in a guard
-      set - each reads equally well as an oversight or as an intention, and the evidence that
-      settles it is always outside: who calls this, what feeds it, what consumes what it returns.
-      A reviewer without that evidence is choosing between reporting every anomaly and reporting
-      none, and the disciplined-looking choice is to report none. The ranking step is where
-      the cost is hidden rather than visible, because severity is the one output that can
-      be argued plausibly from the code alone, so an under-scoped review still emits a ranked
-      list and reads as complete. The protocol routes that question to a card written for
-      judging the reach of a change, where reach is read off a diff; a reviewer holding a
-      defect rather than a diff has to translate the question before it asks anything. A competing
-      explanation now has direct evidence and this one does not: the protocol read by every
-      run already tells a reviewer to rank by what a defect can break and already routes to
-      the pattern owning the scope question, so the trace may be ordinary protocol compliance
-      rather than anything this entry supplies. If that is right, the failure this entry describes
-      is a failure to follow the protocol, and the repair belongs in the protocol rather than
-      in a memory entry that has to be retrieved to help.
+    hypothesis: 'The sighting is not in doubt and the mechanism offered for it still fits.
+      Staying inside the file does not hide the anomalies; it removes the only thing that
+      separates an anomaly from a decision somebody made on purpose, and the ranking step
+      is where that costs something, because severity is the one output that can be argued
+      plausibly from the code alone, so an under-scoped review still emits a ranked list and
+      reads as complete. What has failed is every attempt to name a cause that can be acted
+      on. Retrieval was credited on the strength of four self-reports by the runtime whose
+      behaviour was in question, and twice failed to reproduce under manipulation. Two candidates
+      remain unexcluded: the protocol''s first step, which asks what the code owns, what it
+      promises callers and what it assumes of them, and which was left standing in both experiments;
+      and a clause in every prompt describing the reviewed code as a published unit with consumers
+      outside the tree, which was never controlled. Until one of those is tested, the position
+      this entry supports is that a review sometimes stops at the file boundary, that this
+      is worth knowing because the resulting report looks finished, and that nothing here
+      is known to prevent it.
 
       '
-  boundary: 'One controlled comparison - two independent runs of one protocol over the same
-    unchanged code, which is what separates this from two differing opinions. Evidenced on
-    a single class in a long-lived multi-author C plus plus project whose callers, data files
-    and build settings all sit in the same tree, where tracing outward is cheap and terminates.
-    Probed once where the slice is a published library crate whose consumers sit outside the
-    tree, which is the case this boundary previously called untested and warned could licence
-    an unbounded trace. It did not: that run''s trace terminated in one search and four call
+  boundary: 'Evidenced by one comparison: two independent runs of one protocol over the same
+    unchanged code, which is what separates it from two differing opinions. The under-scoped
+    run was on a single class in a long-lived multi-author C plus plus project whose callers,
+    data files and build settings all sit in the same tree, where tracing outward is cheap
+    and terminates. Five events are cited and only one is a sighting. Two are ordinary runs
+    in which this entry was retrieved and the failure did not occur, and two are controlled
+    comparisons in which it was withheld by construction and the failure still did not occur.
+    Read the count as one sighting and four non-recurrences, which is why this is recorded
+    as a boundary rather than as a recurring failure; four citations otherwise invite the
+    opposite reading. Probed once where the slice is a published library crate whose consumers
+    sit outside the tree, which this boundary previously called untested and warned could
+    licence an unbounded trace. It did not: that trace terminated in one search and four call
     sites, because establishing reachability needed only the in-tree consumers while the out-of-tree
-    ones mattered for their existence rather than their contents. One observation, pointing
-    the opposite way from the anticipated risk, and not enough to call the edge settled. Untested
-    on whether requiring reachability before the ranking step actually prevents the miss.
-    Distinct from the entry on a count not being a finding, where the measurement was sound
-    and only the inference failed; here the reading was under-scoped and three defects went
-    unreported. One caveat on provenance: the event this rests on was recorded by the run
-    that missed the three, and the entry was consolidated by the run that found them, so the
-    diagnosis carries that interest even though the observation does not depend on it. Three
-    events are cited and only one of them is a sighting. The first is the comparison the entry
-    describes. The second is a later run in which this entry was retrieved and the failure
-    did not occur - that run reports tracing outward before ranking because of it, and that
-    trace both produced its highest-ranked finding and killed a candidate. The third is a
-    run on an unrelated language and failure domain that used this entry the same way and
-    also did not recur, and it is the one that probed the boundary above. Read the count as
-    one sighting plus two non-recurrences, which is why the confidence stays provisional:
-    a recurring-failure entry is not strengthened by occasions when nothing recurred, however
-    many of them accumulate. What those two events would support is a retention claim, and
-    it does not support one yet either, because nobody re-ran the same slice with the entry
-    withheld and there is no controlled comparison behind the attribution. A controlled comparison
-    has since run against the causal reading and did not support it. Two agents reviewed one
-    slice simultaneously under prompts identical but for the manipulation, one with the memory
-    section removed from its skill entrypoint. The prediction was recorded first: if retrieval
-    causes the outward trace, the withheld arm does not establish reachability outside its
-    slice. Both arms did. The withheld arm ran no query and consulted no store, and still
-    built the binary, ran it against its highest finding, and named four consumers by file
-    as the basis for its ranking. It also returned more of the guidance pass than the control,
-    and it stopped the inconsistency false positive unaided that a sibling entry exists to
-    prevent. Status moved to monitoring on the strength of that. The observation above is
-    not withdrawn - it came from a run that had the protocol and did not trace outward, so
-    the protocol alone was insufficient there and sufficient here, one instance each way.
-    What is withdrawn is the claim that this is established, and what should be tested next
-    is whether the protocol''s own ranking step is doing the work the entry has been credited
-    with.
+    ones mattered for their existence rather than their contents. Untested, and these are
+    the tests worth running: whether the protocol''s first step produces the outward orientation
+    on its own, and whether a prompt that does not describe the reviewed code as published
+    with outside consumers changes anything. Both were present in every run so far. Also untested
+    is whether requiring reachability before the ranking step prevents the original miss,
+    which is the one intervention nobody has tried. One caveat on provenance: the founding
+    event was recorded by the run that missed the three defects and the entry was first written
+    by the run that found them, so the diagnosis carries that interest even though the observation
+    does not depend on it.
 
     '
   confidence: provisional
-  status: monitoring
-  evidence_count: 4
+  status: active
+  evidence_count: 5
   evidence_events:
   - SE_EV_0035
   - SE_EV_0037
   - SE_EV_0038
   - SE_EV_0039
+  - SE_EV_0040
   evidence_origin:
   - runtime_self_audit
   likely_owners:
   - AP_review_code_you_did_not_write
-  - PAT_judge_change_risk_by_what_it_can_break
   retrieval_cues:
   - review this code
   - unfamiliar

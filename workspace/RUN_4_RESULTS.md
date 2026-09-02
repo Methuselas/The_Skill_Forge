@@ -240,3 +240,108 @@ n = 1 per arm. Two agents differ in more than the manipulation. The result estab
 memory consultation is **not necessary** here; it cannot establish that memory is useless, that
 the entry is wrong, or that the effect is absent on other slices or at other levels of
 protocol adherence.
+
+---
+
+# Run 5 — the ranking instruction
+
+## Arm A (withheld — no memory, and no ranking-by-reach instruction in the protocol)
+
+**Repository worked in:** `D:\Repos\rr4-a`, stated in the report.
+
+**Primary outcome: YES.**
+
+Reachability established outside the slice, by file, and used in the ordering. The report cites
+`hiargs.rs:1250` for the fact that the caller short-circuits only on an empty glob list, so a
+non-empty-but-entirely-discarded list still builds an empty matcher — verified, that is exactly
+what the code does. It cites `hiargs.rs:1262` for the caller's own comment about per-glob
+timing, `types.rs:111-137` for the sibling that settles which side of its second finding is the
+mistake, and it ran the built `rg` binary end to end rather than stopping at the crate API.
+
+**The substituted step made the answer legible.** Asked only to put the findings in a definite
+order and state the principle, it wrote: "descending by the size of the gap between what a
+caller asked for and what they got, then by damage to the published contract, then by
+documentation." Nothing told it to order by consequence to the caller. It chose a
+caller-centric principle unprompted, having been given a neutral instruction that names no
+such thing.
+
+**Manipulation held.** A's protocol contains no occurrence of the removed instruction, and the
+report neither uses the protocol's ranking wording nor cites
+`PAT_judge_change_risk_by_what_it_can_break`.
+
+**Noted risk that did not materialise.** The report observes that three files were already
+modified in its checkout when it arrived — the entrypoint, the protocol, and the memory store —
+and states it only read them. Running `git diff` would have recovered the original step 5. It
+does not report doing so, and nothing in its output reflects the removed text. Recorded because
+a future version of this rig should work from a clean checkout rather than a dirty one; the
+dirty working tree is a hole in the blind, even though it was not walked through here.
+
+**Secondary:** one unowned entry, one owned-but-coarser, six owned. A step-6 conflict surfaced
+and not resolved — `PAT_reuse_before_reinventing` endorses the delegation that
+`PAT_dont_hide_errors` condemns. Its unowned entry, that a type crossing a published boundary
+must let a caller read what it carries, is the same gap run 4b's arm A reported independently.
+
+**Validity:** valid.
+
+## Arm B (control — no memory, protocol intact)
+
+Not yet returned.
+
+## Arm B (control — no memory, protocol intact)
+
+**Repository worked in:** `D:\Repos\rr4-b`, stated in the report. Conditions verified after the
+fact: B's protocol still contains the ranking instruction, A's contains none.
+
+**Primary outcome: YES.**
+
+`hiargs.rs:1259` named as the site that "pushes each `-g` value straight into `add`" — verified,
+that is exactly the loop there. Also `types.rs:110-135` for the sibling that settles C2, and
+`hiargs.rs:1255`/`:1262` for C5's callers.
+
+**Validity:** valid.
+
+## Result
+
+**Both arms scored YES. Second falsification in a row.**
+
+Run 4b removed the memory store and the trace persisted. Run 5 removed the ranking-by-reach
+instruction from all four places it appears in the protocol, with the prompt neutralised so it
+could not reinstate it, and the trace persisted again. Neither the store nor the ranking step
+is necessary for it.
+
+**The most legible single datum.** Arm A was asked only to put its findings in a definite order
+and state the principle it used, with nothing naming reach, consequence or callers. It chose:
+"descending by the size of the gap between what a caller asked for and what they got, then by
+damage to the published contract, then by documentation." An ordering principle centred on the
+caller, arrived at with no instruction to centre it there.
+
+### A confound present in both arms, identified after the pre-registration was written
+
+The prompt says the slice is "in the `ignore` crate, which is published and has consumers
+outside this repository." That is an outward pointer, given to both arms, and it was in every
+run of this series. It does not explain the difference between arms — there is none — but it
+weakens the inference that the outward trace arises from the reviewing task alone. It is a
+prompt-level cause that was never controlled.
+
+Partial mitigation, not a defence: both arms went past the general claim to specific in-tree
+call sites with line numbers, which the prompt did not supply. The pointer plausibly starts the
+trace but does not account for where it went.
+
+### What is still not ruled out
+
+The protocol retains steps 1, 2 and 3. Step 1 asks what the code "owns, what it promises
+callers, and what it assumes of them" — caller-oriented on its face, and untouched by this
+manipulation. The pre-registration named this limit before the run. Two candidate causes remain
+live: step 1, and the prompt clause above.
+
+### Consequence for SE_MEM_016
+
+The pre-registration said this outcome would make the entry obsolete rather than unproven. That
+prescription should be applied with one correction, which is why it is recorded here rather
+than acted on silently: `obsolete` in this schema means the environment changed and the
+observation no longer applies, and that is not what happened. The observation stands — a review
+was seen to stop at the file boundary. What has failed twice is the diagnosis that retrieval is
+what prevents it.
+
+The accurate move is to stop the entry claiming a remedy it cannot evidence, not to delete the
+sighting. Left at `monitoring` pending a decision, with this result recorded.
