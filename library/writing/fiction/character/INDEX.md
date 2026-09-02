@@ -19,6 +19,7 @@
 - [Propagate One Counterfactual Change through a Fictional Life](DRILL_propagate_one_counterfactual_change_through_a_fictional_life.md) - drill; 0 design. Tags: character, counterfactual, deliberate_practice, fiction, invention, transformation.
 - [Recast a Conflict through the Opponent's Limited Viewpoint](DRILL_recast_a_conflict_through_the_opponents_limited_viewpoint.md) - drill; 1 skeleton. Tags: character, conflict, empathy, fiction, point_of_view.
 - [Render One Character through Five Portrayal Channels](DRILL_render_one_character_through_five_portrayal_channels.md) - drill; 2 block. Tags: character, characterization, deliberate_practice, fiction, revision, scene.
+  - Variants: `Interleave Deliberation with Consequential Action and Perception` (method_sequence).
 - [Reveal Character Incrementally through Behavior](PAT_reveal_character_incrementally_through_behavior.md) - pattern; 2 block. Tags: behavior, character, fiction, observation, scene.
   - Variants: `Characterize through Selective Observation` (emphasis).
 - [Reveal Character through Contrasting Everyday Conduct](DRILL_reveal_character_through_contrasting_everyday_conduct.md) - drill; 2 block. Tags: activity, behavior, character, deliberate_practice, fiction, interactive_narrative, relationship, research.

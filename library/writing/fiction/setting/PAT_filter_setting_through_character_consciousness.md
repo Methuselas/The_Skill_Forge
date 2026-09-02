@@ -49,6 +49,7 @@ variants:
 - Let familiarity determine which landmarks go unnamed, which routes feel obvious, and which small changes become conspicuous.
 - Use the precision or vagueness of an observation to disclose attention, knowledge, class, fear, desire, or indifference.
 - Show a person's relation to the place through use: what they repair, avoid, save, discard, remember, or know how long it takes to reach.
+- During deliberation, select the sights, sounds, smells, obstacles, and usable objects that the active concern makes salient, then let at least one perception resist or redirect the next thought or action.
 - Allow incidental details to establish setting when direct scenic exposition would contradict the narrator's habits or the story's pace.
 
 ## Don't
@@ -62,9 +63,12 @@ variants:
 - Description reveals at least one attitude, history, capability, or blind spot.
 - Familiarity or estrangement changes how the place is named.
 - Incidental information supplies enough orientation for the scene.
+- Perception and interiority affect one another; removing a selected detail would alter the character's reasoning, conduct, or available choice rather than merely shorten an inventory.
 - Reassigning the passage to another character would require perceptual revision.
 
 ## Notes
 Place enters fiction through a consciousness, even when the narrator sounds casual. A room summarized as merely nice can expose neglect more strongly than a precise catalog would; intimate knowledge of a creek can show belonging without announcing it. The degree of attention is itself characterization.
+
+External description does not become dramatic merely by alternating with thought. The setting must exert pressure: a missed bus removes an option, an unfinished task demands a decision, a smell recalls evidence, or an object permits an attempted action whose result changes the character's reasoning. When thought develops consequentially without such contact, sustained interiority may be the stronger form; physical activity is not a quota.
 
 The variant `writing_fiction_variant_rewrite_same_place_under_contrasting_emotional_pressure` holds geography constant across two opposed states and compares what becomes salient, how it is named, and what it appears to promise or threaten. Use the method to expose generic mood painting; retain mixed responses when the place resists rather than simply mirrors the character.
