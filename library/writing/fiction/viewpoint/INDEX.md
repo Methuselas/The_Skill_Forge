@@ -16,7 +16,7 @@
 - [Keep Point-of-View Knowledge and Access Consistent](PAT_keep_point_of_view_knowledge_and_access_consistent.md) - pattern; 2 block. Tags: continuity, fiction, head_hopping, knowledge, point_of_view.
   - Variants: `Signal Alternating Third-Person Focalization` (method_sequence).
 - [Redraft a Passage across Point of View and Tense](DRILL_redraft_passage_across_point_of_view_and_tense.md) - drill; 1 skeleton. Tags: fiction, point_of_view, practice, redrafting, tense.
-  - Variants: `Compare First-Person Telling Situations` (method_sequence); `Compare Plausible Focal Owners of One Event` (method_sequence); `Compare Three Third-Person Access Levels` (method_sequence); `Compare One Interior Passage across Thought-Presentation Modes` (method_sequence).
+  - Variants: `Compare First Person and Third-Person Limited around One Focal Character` (method_sequence); `Compare First-Person Telling Situations` (method_sequence); `Compare Plausible Focal Owners of One Event` (method_sequence); `Compare Three Third-Person Access Levels` (method_sequence); `Compare One Interior Passage across Thought-Presentation Modes` (method_sequence).
 - [Render Stream of Consciousness in Controlled Bursts](PAT_render_stream_of_consciousness_in_controlled_bursts.md) - pattern; 2 block. Tags: consciousness, fiction, interiority, mental_state, syntax.
   - Variants: `Sustain Extended Interior Monologue through Governing Mental Movement` (context).
 - [Shape Style as a Response to Story Situation](PAT_shape_style_as_response_to_story_situation.md) - pattern; 2 block. Tags: diction, fiction, style, syntax, tone.

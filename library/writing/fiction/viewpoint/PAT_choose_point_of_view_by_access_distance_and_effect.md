@@ -57,7 +57,7 @@ variants:
   - variant_id: writing_fiction_variant_use_third_person_limited_for_close_flexible_access
     variant_name: Use Third Person Limited for Close Flexible Access
     variant_basis: emphasis
-    difference_from_foundation: Filter the story through one character while retaining room to observe that character from outside and to use language more sophisticated than the character would speak.
+    difference_from_foundation: Filter the story through one focal consciousness while retaining room to observe that character from outside and to use a controlled narrative register that need not match the character's spoken diction.
     when_to_use: The story needs intimate consciousness plus controlled visual or ironic distance around one focal character.
     when_not_to_use: The narration repeatedly requires knowledge outside that focal access or the external distance weakens a voice whose confinement is the point.
     absorbed_from_object_id: none
@@ -111,7 +111,7 @@ variants:
 
 `writing_fiction_variant_use_second_person_for_implication_and_distance` uses you as an active device: invitation, accusation, internalized instruction, universality, or self-division. It can make an isolated character into a private confidant or turn repeated commands into social pressure. Its intensity is useful only when the effect outweighs reader resistance and the enclosed feeling can be sustained; longer narratives may need a deliberate alternation with another position.
 
-`writing_fiction_variant_use_third_person_limited_for_close_flexible_access` stays inside one focal consciousness while allowing an over-the-shoulder view and controlled authorial phrasing. Its flexibility increases the writer's obligation to distinguish legitimate outside observation from a leak into another mind.
+`writing_fiction_variant_use_third_person_limited_for_close_flexible_access` stays inside one focal consciousness while allowing an over-the-shoulder view and controlled narrative phrasing. The narrator and focal character remain distinct even when the prose borrows the character's evaluations or idiom; limitation permits private access but does not require reporting every thought or feeling. Its flexibility increases the writer's obligation to distinguish legitimate outside observation from a leak into another mind.
 
 `writing_fiction_variant_use_omniscient_for_controlled_multi_character_scope` permits deliberate movement across characters and time under one stable narrative intelligence. It carries the greatest access and the greatest management cost, especially in flash fiction, where a limited position often delivers more pressure per sentence.
 

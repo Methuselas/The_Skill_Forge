@@ -32,6 +32,13 @@ reference:
 confidence: high
 references: []
 variants:
+  - variant_id: writing_fiction_variant_compare_first_person_and_third_person_limited_around_one_focal_character
+    variant_name: Compare First Person and Third-Person Limited around One Focal Character
+    variant_basis: method_sequence
+    difference_from_foundation: Hold the event, focal character, facts, sequence, tense, and access boundary constant while drafting complete first-person and third-person-limited versions, then compare distance, self-description, external observation, narrative diction, thought presentation, irony, and revelation control.
+    when_to_use: The focal owner and access boundary are established but the unresolved choice is whether first person or close third person should carry the event.
+    when_not_to_use: The actual uncertainty concerns focal owner, tense, omniscient or exterior access, first-person telling conditions, or whether another consciousness must enter.
+    absorbed_from_object_id: none
   - variant_id: writing_fiction_variant_compare_first_person_telling_situations
     variant_name: Compare First-Person Telling Situations
     variant_basis: method_sequence
@@ -99,6 +106,8 @@ Choose a passage of 250 to 500 words containing an event, at least two character
 
 ## Notes
 Sustained redrafting exposes costs that a pronoun substitution cannot. A viewpoint may produce an arresting first line but fail when the passage needs inaccessible knowledge; an unusual tense may energize one moment while making summary or hindsight cumbersome. The exercise makes those tradeoffs visible before they govern an entire draft.
+
+`writing_fiction_variant_compare_first_person_and_third_person_limited_around_one_focal_character` isolates grammatical person and the narrative relation to one consciousness. Preserve the focal character, external event, factual access, sequence, tense, withheld information, and central pressure while drafting the complete passage twice. In first person, mark how the speaking self names experience, describes the self, and addresses or assumes a listener. In third-person limited, mark what the narrative voice can observe around the focal character, how closely its diction blends with that consciousness, and whether ironic or visual distance becomes useful. Any changed fact or imported private knowledge invalidates the comparison. Choose by the version's demonstrated control of distance, voice, revelation, and necessary self-observation rather than by comfort or a pronoun substitution alone.
 
 `writing_fiction_variant_compare_first_person_telling_situations` tests the communicative frame after the speaker and first-person form are fixed. Preserve the event, factual basis, sequence, central pressure, and narrator while drafting three complete versions: a private record or inward account with no outside listener to orient; an account aimed at one consequential person whose response matters; and a later account told with enough elapsed time for hindsight to alter selection and judgment. Mark what each version explains, assumes, withholds, admits, tries to make its listener do, and knows only because time has passed. Choose the frame whose gains continue beyond its opening. Do not add deception merely to make the versions different; unreliability is a separate design decision that requires counterevidence.
 

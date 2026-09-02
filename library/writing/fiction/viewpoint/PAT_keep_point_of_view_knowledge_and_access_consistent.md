@@ -48,6 +48,7 @@ variants:
 
 ## Do
 - Track whether each claim comes from direct perception, memory, inference, report, or an established omniscient intelligence.
+- Keep interpretations of a nonfocal character visibly grounded in behavior, speech, report, and the focal character's situated inference; preserve competing readings when the available evidence cannot settle an interior state.
 - Keep diction and noticing consistent with the focal character's experience even when third-person prose can exceed that character's spoken vocabulary.
 - Distinguish a change in how one character's thought is presented from a move into another consciousness; direct, reported, and free-indirect modes can vary without changing the viewpoint contract.
 - Give a viewpoint transition enough formal evidence for readers to relocate before new private knowledge appears.
@@ -55,6 +56,7 @@ variants:
 
 ## Don't
 - Enter another character's thoughts to solve a local exposition problem.
+- Enter another consciousness merely to describe the focal character's appearance or disclose information unavailable through the active access route.
 - Shift into another mind midway through a sentence or descriptive beat before readers receive a relocation signal.
 - Report an unseen event as fact when the narrator could only guess or learn it later.
 - Alternate pronouns while leaving the narrative source of knowledge unchanged and call that a viewpoint shift.
@@ -64,6 +66,7 @@ variants:
 - Every private thought belongs to the current focal consciousness or an established omniscient voice.
 - A change in thought presentation preserves legible ownership and does not masquerade as spoken dialogue, narrator judgment, or access to another mind.
 - Reported facts have a plausible route into the narrator's knowledge.
+- Claims about a nonfocal character remain proportional to observable evidence and retain uncertainty where behavior supports more than one interpretation.
 - A transition is recognizable before, not after, the first inaccessible detail.
 - Description reflects the active observer's attention and blind spots.
 - Removing an access shift would not improve clarity without sacrificing a necessary effect.
