@@ -48,19 +48,21 @@ variants: []
 - Recognise what an omit-when-default writer buys, so the coupling is taken deliberately. Absent-means-default is what lets a format stay readable by older and newer code without a version number, and it is exactly the coupling that fails silently — change the reader's default and every previously written record now means something else, with nothing to report.
 - Check a reset path against the type's declaration rather than by reading the reset. Reading tells you the listed fields are handled; only the declaration tells you which fields were never listed.
 - Test the round trip instead of the sites. Write a default-constructed instance, read it back, and compare against a fresh one. That single test covers the writer's condition, the reader's default and the initializer together, and it fails when any of the three moves.
+- Put the pinning test where the unit ships. A test that lives in something which merely consumes the unit does not travel with it: vendor the unit, extract it, publish it, or simply run its own suite, and the guarantee is gone with nothing failing to say so. The suite that ships alongside the thing is the only one a downstream runner can execute, so it is the only one that pins anything a downstream reader can rely on.
 - Make adding a field visit the other sites. Where the language offers no help, the cheapest mechanism is a comment at the declaration naming where else the default lives, because the person adding a field is reading the declaration and nothing else.
 
 ## Don't
 - Don't assume a reset covers a field because the type does. The two lists are maintained separately and only one of them is checked by the compiler.
 - Don't read a single code site as settling it. The cheapest disagreement to create is one authored statement against one the compiler wrote: where the intended default lives only in a doc comment, there is exactly one line of code stating a default, it was synthesized rather than chosen, and it is still wrong. Counting sites in the code and finding one is not the same as finding agreement.
 - Don't treat absent-means-default as a detail of the format. It is a contract between the writer's condition and the reader's initializer, and it is the only code site that binds two separate pieces of code together — the documentation site binds code to what a caller believes, which is worse, because only one end of it can be compiled.
+- Don't accept a green suite as coverage without asking which suite was green. A documented default guarded only from a level above reports success to everyone except the two people who need it: the maintainer changing the unit on its own, and the consumer who took the unit without the thing that tested it.
 - Don't rely on a test that constructs, mutates, then resets and checks the mutated fields. It passes while a field nobody thought to mutate stays dirty, which is the case the reset was missing in the first place.
 - Don't let a partial reset be defended by its callers. That the surviving field happens to be harmless for today's callers is a fact about today's callers, and the reset is where the next one will look for its guarantee.
 
 ## Checklist
 - How many places state this type's default state, counting the writer's omit condition, any documentation that names it, and a default the language supplied?
 - Was this default chosen by someone, or synthesized because the language was asked for one?
-- If documentation states the default, what would fail if the code stopped matching it?
+- If documentation states the default, what would fail if the code stopped matching it — and does that failure ship with the unit, or only with something that consumes it?
 - Does the reset cover every field the declaration does, checked against the declaration rather than by reading the reset?
 - If the writer omits fields at their default, is its condition using the same value the reader initializes to?
 - Would a round trip of a default-constructed instance produce something identical to a fresh one?

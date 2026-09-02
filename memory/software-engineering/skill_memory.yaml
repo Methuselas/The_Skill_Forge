@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: software-engineering
-memory_version: 10
+memory_version: 11
 entries:
 - id: SE_MEM_001
   scope_type: topic
@@ -1074,7 +1074,13 @@ entries:
       be argued plausibly from the code alone, so an under-scoped review still emits a ranked
       list and reads as complete. The protocol routes that question to a card written for
       judging the reach of a change, where reach is read off a diff; a reviewer holding a
-      defect rather than a diff has to translate the question before it asks anything.
+      defect rather than a diff has to translate the question before it asks anything. A competing
+      explanation now has direct evidence and this one does not: the protocol read by every
+      run already tells a reviewer to rank by what a defect can break and already routes to
+      the pattern owning the scope question, so the trace may be ordinary protocol compliance
+      rather than anything this entry supplies. If that is right, the failure this entry describes
+      is a failure to follow the protocol, and the repair belongs in the protocol rather than
+      in a memory entry that has to be retrieved to help.
 
       '
   boundary: 'One controlled comparison - two independent runs of one protocol over the same
@@ -1103,16 +1109,31 @@ entries:
     a recurring-failure entry is not strengthened by occasions when nothing recurred, however
     many of them accumulate. What those two events would support is a retention claim, and
     it does not support one yet either, because nobody re-ran the same slice with the entry
-    withheld and there is no controlled comparison behind the attribution.
+    withheld and there is no controlled comparison behind the attribution. A controlled comparison
+    has since run against the causal reading and did not support it. Two agents reviewed one
+    slice simultaneously under prompts identical but for the manipulation, one with the memory
+    section removed from its skill entrypoint. The prediction was recorded first: if retrieval
+    causes the outward trace, the withheld arm does not establish reachability outside its
+    slice. Both arms did. The withheld arm ran no query and consulted no store, and still
+    built the binary, ran it against its highest finding, and named four consumers by file
+    as the basis for its ranking. It also returned more of the guidance pass than the control,
+    and it stopped the inconsistency false positive unaided that a sibling entry exists to
+    prevent. Status moved to monitoring on the strength of that. The observation above is
+    not withdrawn - it came from a run that had the protocol and did not trace outward, so
+    the protocol alone was insufficient there and sufficient here, one instance each way.
+    What is withdrawn is the claim that this is established, and what should be tested next
+    is whether the protocol''s own ranking step is doing the work the entry has been credited
+    with.
 
     '
   confidence: provisional
-  status: active
-  evidence_count: 3
+  status: monitoring
+  evidence_count: 4
   evidence_events:
   - SE_EV_0035
   - SE_EV_0037
   - SE_EV_0038
+  - SE_EV_0039
   evidence_origin:
   - runtime_self_audit
   likely_owners:
@@ -1135,7 +1156,7 @@ entries:
   - defect list
   - is this deliberate
   - intentional or a bug
-  last_verified: '2026-08-30'
+  last_verified: '2026-09-02'
 - id: SE_MEM_017
   scope_type: topic
   scope_id: drill_instructions_against_their_own_success_check
