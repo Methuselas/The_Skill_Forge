@@ -46,6 +46,7 @@ variants:
 
 ## Do
 - Establish what the narrator wants readers or the self to believe before introducing contradictions.
+- Distinguish ordinary partial access from designed unreliability by naming the consequential claim readers should revise and the stronger evidence that places it under pressure.
 - Use mismatches among claims, behavior, remembered details, other voices, and material consequences as evidence.
 - Calibrate the gap so readers can suspect a distortion without needing an external correction for every fact.
 - Allow uncertainty to remain where deciding exactly what happened is less important than understanding the teller's need to shape it.
@@ -54,6 +55,7 @@ variants:
 - Withhold all counterevidence and expect the label unreliable to make confusion meaningful.
 - Make every statement false; a narrator needs enough ordinary credibility for deviations to register.
 - Explain the deception immediately after dramatizing evidence that already makes it inferable.
+- Treat age, disability, language background, unfamiliarity, memory limits, or incomplete understanding as sufficient proof that an account is unreliable.
 - Treat a continuity mistake, impossible access, or unstable tense as intentional unreliability after the fact.
 
 ## Checklist
@@ -61,6 +63,7 @@ variants:
 - At least two independent signals invite readers to reassess a consequential claim.
 - The degree of uncertainty serves character, tension, or theme rather than hiding missing causality.
 - Readers can distinguish the narrator's mistake from the story's own loss of control.
+- The uncertainty attaches to a consequential mismatch in the account rather than to a demographic trait or the ordinary limits of situated knowledge.
 - The account remains compelling even if some facts cannot be finally settled.
 
 ## Notes

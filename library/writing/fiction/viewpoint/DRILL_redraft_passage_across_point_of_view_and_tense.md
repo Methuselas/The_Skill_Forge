@@ -32,6 +32,13 @@ reference:
 confidence: high
 references: []
 variants:
+  - variant_id: writing_fiction_variant_compare_first_person_telling_situations
+    variant_name: Compare First-Person Telling Situations
+    variant_basis: method_sequence
+    difference_from_foundation: Hold narrator, event, facts, sequence, and grammatical person constant while redrafting the account as private self-communion, directed address, and detached retrospective narration, then compare candor, explanation, omission, persuasive purpose, hindsight, revelation control, and sustainability.
+    when_to_use: First person is established but the imagined listener, telling occasion, or distance between event and narration remains unresolved.
+    when_not_to_use: The narrator's speaking conditions are already stable or the actual uncertainty concerns focal owner, grammatical person, access level, tense alone, or designed unreliability.
+    absorbed_from_object_id: none
   - variant_id: writing_fiction_variant_compare_plausible_focal_owners_of_one_event
     variant_name: Compare Plausible Focal Owners of One Event
     variant_basis: method_sequence
@@ -92,6 +99,8 @@ Choose a passage of 250 to 500 words containing an event, at least two character
 
 ## Notes
 Sustained redrafting exposes costs that a pronoun substitution cannot. A viewpoint may produce an arresting first line but fail when the passage needs inaccessible knowledge; an unusual tense may energize one moment while making summary or hindsight cumbersome. The exercise makes those tradeoffs visible before they govern an entire draft.
+
+`writing_fiction_variant_compare_first_person_telling_situations` tests the communicative frame after the speaker and first-person form are fixed. Preserve the event, factual basis, sequence, central pressure, and narrator while drafting three complete versions: a private record or inward account with no outside listener to orient; an account aimed at one consequential person whose response matters; and a later account told with enough elapsed time for hindsight to alter selection and judgment. Mark what each version explains, assumes, withholds, admits, tries to make its listener do, and knows only because time has passed. Choose the frame whose gains continue beyond its opening. Do not add deception merely to make the versions different; unreliability is a separate design decision that requires counterevidence.
 
 `writing_fiction_variant_compare_plausible_focal_owners_of_one_event` isolates ownership of the narrative lens. Choose a consequential event that at least two existing characters could plausibly perceive or reconstruct. Preserve its external facts, sequence, grammatical person, and tense while writing a complete version through each candidate; then add one outsider who was not previously part of the cast and write a final probe without promising to retain that person. For every version, mark what the focal character can access, what stake directs attention, what is missed or misread, which details and words change, how the central revelation arrives, and what additional scenes or information routes the choice would require. Select the owner whose demonstrated gains justify those costs. Ease, affection, novelty, and a striking opening are observations to record, not sufficient reasons to choose.
 
