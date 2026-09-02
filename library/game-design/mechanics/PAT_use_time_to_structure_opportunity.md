@@ -64,12 +64,12 @@ variants: []
 - At least one interval that carries no meaningful competition or consequence can be safely abstracted.
 - Any scheduled world event changes access, value, risk, or state in a way the players can plan around rather than existing only as decorative calendar detail.
 
-## Common Variants
+## Notes
+Time is both a familiar fictional measure and a flexible game resource. Its smallest formal expression is often the combat round: participants have a bounded window and must decide what can fit inside it. The same structure scales upward. "What can I do this round?" and "What can I do in the next four hours?" ask the same underlying question at different resolutions. Time becomes especially useful as a pressure test because reducing the available window can expose whether repair, healing, crafting, movement, training, assistance, difficulty, and other mechanics integrate cleanly. The design goal is not to maximize timekeeping; it is to make opportunity legible when elapsed time changes what players can do.
+
 **Temporal priority / initiative.** Inside a small decision window, initiative determines the temporal priority of competing intentions. Different games may use random rolls, fixed attributes, weapon or action speed, side order, declared actions, simultaneous resolution, delays, interrupts, or multiple passes. The universal design question is not "who rolls initiative?" but what priority grants: earlier resolution, later choice, information advantage, reaction rights, extra actions, or another timing benefit.
 
 **Task duration.** An action may consume minutes, hours, days, or longer without requiring a separate time subsystem. Duration becomes mechanical when it competes with another activity, deadline, resource, recovery window, or opportunity.
 
 **Training and advancement.** Learning or improving a capability can consume campaign time as well as experience, money, instructors, or facilities. This converts advancement from an instantaneous purchase into an opportunity-cost decision when other activities compete for the same interval.
 
-## Notes
-Time is both a familiar fictional measure and a flexible game resource. Its smallest formal expression is often the combat round: participants have a bounded window and must decide what can fit inside it. The same structure scales upward. "What can I do this round?" and "What can I do in the next four hours?" ask the same underlying question at different resolutions. Time becomes especially useful as a pressure test because reducing the available window can expose whether repair, healing, crafting, movement, training, assistance, difficulty, and other mechanics integrate cleanly. The design goal is not to maximize timekeeping; it is to make opportunity legible when elapsed time changes what players can do.

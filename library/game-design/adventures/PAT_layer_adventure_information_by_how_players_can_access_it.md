@@ -52,6 +52,7 @@ variants: []
 - When information is mechanically or tactically important, verify that the characters can obtain it early enough to make the decision it is supposed to inform.
 - For severe risks, verify that players have a meaningful basis for informed caution. That basis can be distributed across premise-level warning, a learned challenge grammar, recurring patterns, environmental evidence, prior consequences, or immediate local clues; it does not have to be repeated as an isolated warning at every danger.
 - Keep hidden information hidden because the fiction has not yet granted access, not because the adventure needs the players to make an uninformed choice.
+- Match information precision to decision precision. Approximate language is sufficient when exact values do not change play; when movement, range, timing, capacity, cover, visibility, positioning, or another rule depends on a value, provide enough usable specificity for the player and referee to evaluate the choice.
 
 ## Don't
 - Read referee-only truth aloud merely because it appears near descriptive text in the manuscript.
@@ -62,6 +63,7 @@ variants: []
 - Put all available information in the opening description and monopolize synchronous table attention before players can act.
 - Reveal secrets early merely because the referee knows them.
 - Use a failed information check as a dead end when the adventure still requires that information to reach a mandatory milestone unless another access route or consequence is deliberately provided.
+- Use vague descriptive terms such as “nearby,” “large,” or “far away” when the game asks players to make a mechanically consequential decision that depends on a more precise distance, size, duration, or quantity.
 
 ## Checklist
 - Referee-only truth is visibly distinguishable from text or facts safe to present to players.
@@ -74,6 +76,7 @@ variants: []
 - High-consequence risks have a meaningful informational basis somewhere in the adventure's premise, learned patterns, environment, prior play, or local presentation; the referee can identify where that basis comes from.
 - Triggered and deferred information is recorded well enough that the referee knows when it becomes available.
 - Concealed information needed for progress has either multiple access routes, a meaningful failure consequence that still moves play, or an explicit recovery path.
+- Mechanically consequential dimensions, distances, durations, capacities, or similar facts are stated at enough precision for the decisions they are meant to support.
 
 ## Notes
 Adventure description is an information interface as well as prose. The designer knows more than the characters, and the referee must be able to distinguish underlying truth from what the characters automatically perceive, what players can learn by asking, what requires deliberate discovery, and what becomes available only after a trigger. This preserves both fairness and mystery while keeping the table interactive.
@@ -81,3 +84,5 @@ Adventure description is an information interface as well as prose. The designer
 Martin Buinicki's *Designing TTRPGs For Dummies*, Chapter 16, emphasizes concise read-aloud text, sensory orientation, and leaving room for the GM and players to contribute rather than scripting every reaction. Practitioner comparison with *The Keep on the Borderlands* and *Star Frontiers: Crash on Volturnus* sharpens the game-design owner. *Keep on the Borderlands* tells the referee to provide accurate information the characters can perceive while withholding secrets they have not discovered. *Crash on Volturnus* repeatedly separates brief player-facing descriptions from referee background, special rules, discoverable information, and planned-event logic. Together they establish a reusable information-access grammar: description establishes the decision surface, questions refine it, actions expose more, and mechanics resolve genuinely uncertain access.
 
 Chapter 17 and the practitioner comparison with *Tomb of Horrors* refine the fairness boundary. High consequence increases the need for a meaningful basis for caution, but that basis can be distributed across the whole challenge grammar. *Tomb of Horrors* globally warns that the expedition is exceptionally lethal, teaches probing and careful examination early, repeats deceptive architectural patterns, and then relies on players learning from those patterns. Local telegraphing is one information channel among several, not a universal requirement.
+
+Chapter 19 adds a precision boundary to the same information-interface model. Description does not need numerical specificity merely for realism, but it must become specific enough when the rules make the value decision-relevant. A “large hangar” can be perfectly adequate orientation until a player must decide whether a movement rate, weapon range, spell, flight distance, or line of sight reaches across it; at that point, missing scale becomes missing play information.

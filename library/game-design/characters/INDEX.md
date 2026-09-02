@@ -4,6 +4,8 @@
 
 ## Objects
 
-- [Trace a Character Option Into Play](DRILL_trace_a_character_option_into_play.md) - drill; 0 design. Tags: characters, specialization, balance, playtesting.
-- [Balance Character Roles by Consequential Contribution](PAT_balance_character_roles_by_consequential_contribution.md) - pattern; 0 design. Tags: characters, balance, specialization, agency.
-- [Derive Character Capabilities from Expected Play](PAT_derive_character_capabilities_from_expected_play.md) - pattern; 0 design. Tags: characters, abilities, roles, gameplay.
+- [Balance Character Roles by Consequential Contribution](PAT_balance_character_roles_by_consequential_contribution.md) - pattern; 0 design. Tags: agency, balance, characters, specialization.
+- [Derive Character Capabilities from Expected Play](PAT_derive_character_capabilities_from_expected_play.md) - pattern; 0 design. Tags: abilities, characters, gameplay, roles.
+- [Keep Persistent Capability Dependencies Local and Explicit](PAT_keep_persistent_capability_dependencies_local_and_explicit.md) - pattern; 0 design. Tags: advancement, bookkeeping, characters, dependencies.
+- [Price Character Options by Mechanical Leverage and Effective Constraint](PAT_price_character_options_by_mechanical_leverage_and_constraint.md) - pattern; 0 design. Tags: balance, characters, costs, point-economy.
+- [Trace a Character Option Into Play](DRILL_trace_a_character_option_into_play.md) - drill; 0 design. Tags: balance, characters, playtesting, specialization.

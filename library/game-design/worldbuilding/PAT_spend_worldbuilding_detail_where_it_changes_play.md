@@ -47,12 +47,14 @@ variants: []
 - Revisit the setting as character creation, abilities, and adventure structure reveal which parts of the world need more support.
 - When building encounters, give inhabitants, hazards, traps, secret routes, resources, and rewards enough in-world reason for their presence that those relationships can affect behavior, discovery, tactics, or consequences during play.
 - Keep rich lore when it buys recognition, atmosphere, adventure material, or usable referee context; economy of detail is not a demand for a sparse setting.
+- In an established setting, treat deliberate negative space as an affordance. Add canon where new relationships, pressures, or playable context create more value than the referee or downstream ownership the added detail consumes.
 
 ## Don't
 - Exhaustively describe ordinary infrastructure merely because it exists in a real society when the game gives players no meaningful reason to interact with it.
 - Treat page count or encyclopedic coverage as proof that a world will feel immersive in play.
 - Spend the same design effort on every culture, institution, region, and daily-life detail regardless of its effect on the intended experience.
 - Place encounter elements only because a room or scene needs a challenge, treasure parcel, or obstacle when a modest amount of fictional grounding would produce more coherent referee decisions.
+- Fill every undefined region, institution, history, or cultural blank in an established setting merely because an expansion has room to do so.
 
 ## Checklist
 - Each heavily developed setting element has a visible route into player understanding, choice, atmosphere, adventure, or referee use.
@@ -60,8 +62,9 @@ variants: []
 - At least some memorable details can be encountered or used rather than only read about.
 - Rich lore earns its space through recognition, atmosphere, adventure utility, or referee usability rather than volume alone.
 - Encounter inhabitants, hazards, secrets, and rewards have enough fictional grounding to explain behavior or access that matters at the table.
+- New setting canon increases usable relationships or adventure pressure without unnecessarily eliminating open space that referees or downstream creators were expected to own.
 
 ## Notes
-Worldbuilding becomes useful when players can inhabit it rather than merely read it. A richly documented setting and a compact scaffold can both work when their detail changes what characters understand, experience, or do. The appropriate information budget depends on how often a setting element reaches play and how much value that contact creates.
+Worldbuilding becomes useful when players can inhabit it rather than merely read it. A richly documented setting and a compact scaffold can both work when their detail changes what characters understand, experience, or do. The appropriate information budget depends on how often a setting element reaches play and how much value that contact creates. In an established world, absence can also be designed space: an undefined system, institution, history, or boundary may exist so referees can extend the setting. Expansion is strongest when it makes the world denser and more causally useful without automatically closing every blank that previously enabled authorship.
 
 Chapter 17 applies worldbuilding economy directly to encounter construction. The point is not to write biographies for every guard or engineering histories for every trap; it is to know enough about why an element is present, who uses it, what it protects, or how it fits the location that the answer can change what happens when players interact with it.
