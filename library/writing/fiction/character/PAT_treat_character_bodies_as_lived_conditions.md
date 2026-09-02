@@ -52,6 +52,7 @@ variants:
 - Establish only the physical facts the work needs, including natural variation, current condition, capability, pain, energy, sensory access, presentation, and change over time.
 - Test how the body interacts with actual environments, objects, clothing, tools, distances, tasks, and institutional arrangements.
 - Separate what other people perceive or assume from what the character experiences and from what the narrative can establish as fact.
+- Distinguish internally accessible sensation from externally visible conduct, and distinguish both from an observer's inference about emotion, control, intention, or cause.
 - Give the character an individual relation to the body that may include comfort, indifference, pride, pleasure, frustration, adaptation, ambivalence, or changing interpretation.
 - Distinguish direct control from partial influence, constrained choice, adaptation, and outcomes governed by health, resources, work, care access, environment, and time.
 - Let prior social treatment shape expectations or self-narratives without making the earlier response determine present conduct.
@@ -69,6 +70,7 @@ variants:
 - Make one response to embodiment representative of everyone with a similar body.
 - Treat conduct under pain, fear, exhaustion, medication, illness, or injury as revelation of an essential true self.
 - Infer one psychological cause for eating, confidence, anger, coping, or body image without character-specific evidence.
+- Treat a bodily response as universally involuntary, transparent, or gendered when culture, disability, neurotype, training, masking, relationship, environment, and acute pressure can change its form or visibility.
 
 ## Checklist
 - Physical fact, environmental interaction, social interpretation, and self-interpretation remain distinguishable.
@@ -78,9 +80,12 @@ variants:
 - Consequential unfamiliar experience has been researched through varied credible perspectives.
 - Every retained bodily detail performs orientation, characterization, pressure, continuity, or causal work.
 - Observer judgment, internalized belief, current bodily fact, and chosen conduct remain distinguishable.
+- Claims about whether a response is involuntary, strategic, habitual, masked, or incidental stay within the viewpoint's actual access and the evidence the scene provides.
 - Acute constraints are accounted for before behavior is generalized into a stable character trait.
 
 ## Notes
 Embodiment is a continuing relation among a body, a person, other people, and a material world. The same physical fact can create different consequences under different architecture, work, resources, relationships, histories, and self-understandings. Character emerges from how a particular person perceives, adapts, chooses, and is treated—not from a body functioning as a moral diagram.
+
+Emotional embodiment follows the same boundary. A viewpoint character may feel trembling, heat, constriction, nausea, numbness, pain, or altered balance without knowing its cause immediately. An outside observer sees only conduct and context, not the sensation or whether it was chosen. Calibrate interpretation to that access, preserve mixed causes, and research consequential forms of expression outside the writer's experience rather than relying on a gesture dictionary.
 
 `writing_fiction_variant_test_character_under_acute_bodily_stress_without_treating_response_as_essence` narrows attention to a temporary or changing constraint. Establish baseline conduct, then account for symptoms, pain, fatigue, fear, medication, information, resources, care access, privacy, and stakes before interpreting the response. Use the scene to create a situated choice or consequence, not to prove who the character has secretly been all along.

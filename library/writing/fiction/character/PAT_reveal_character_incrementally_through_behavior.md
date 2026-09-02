@@ -50,6 +50,7 @@ variants:
 ## Do
 - Introduce only the detail needed to understand the immediate action, then let later scenes qualify the first impression.
 - Choose gestures and speech habits that change the reader's inference about motive or relation rather than merely adding color.
+- When a small gesture, disrupted routine, or unusual use of an object matters, establish the local baseline, the pressure that makes the deviation salient, and what the behavior changes before inviting an interpretation.
 - Plant subtle hints before a surprising choice so recognition can follow surprise.
 - Let different situations disclose different pressures on the same underlying person.
 - Use ordinary tasks, work, meals, routines, and play as behavioral evidence only when material choices and consequences are specific enough to support an inference.
@@ -64,6 +65,7 @@ variants:
 - Spend a scene proving a trait that never affects a choice, relation, or consequence.
 - Treat facial structure, eye color, teeth, posture, body size, disability, or clothing as self-evident proof of personality or moral worth.
 - Treat one response under sickness, injury, diagnosis, or bodily crisis as the character's unmasked essence.
+- Treat gaze, posture, fidgeting, grooming, object handling, or another isolated behavior as automatic proof of emotion, intimacy, deception, desire, or unconscious motive.
 - Treat one meal, morning, work task, housekeeping practice, leisure activity, victory, or loss as a complete personality test.
 
 ## Checklist
@@ -73,9 +75,12 @@ variants:
 - A surprise feels prepared rather than arbitrary.
 - Removing a descriptive passage does not erase information that behavior already supplies.
 - Appearance-based inference remains attributable to an observer and is tested by later evidence rather than installed as objective truth.
+- Behavioral inference remains proportional to its context: baseline, deviation, relation, pressure, consequence, and at least one competing explanation are available where certainty would otherwise be false.
 - Stable-trait conclusions rest on behavior across sufficient conditions; when acute pressure or a single ordinary task limits the evidence, label the inference as a hypothesis and test it in another condition before treating it as established.
 
 ## Notes
 The writer may know the whole private history while the reader receives only the active edge of it. Discovery ends when everything important arrives as introductory explanation.
+
+Exact behavior can create strong inference without carrying one fixed meaning. A person who damages an object while speaking, mishandles a familiar tool, repeatedly starts and stops, or adopts an awkward physical distance may expose pressure because the action departs from an established pattern and affects the scene. The same movement outside that sequence may indicate habit, pain, sensory regulation, etiquette, strategy, divided attention, environmental constraint, or nothing consequential. Let readers and characters interpret evidence, but keep the narration from upgrading a plausible reading into diagnostic fact unless the viewpoint can actually know it.
 
 The variant `writing_fiction_variant_characterize_through_selective_observation` makes attention the main evidence. What a viewpoint character notices, overlooks, or names precisely can disclose profession, desire, fear, and bias. Use that precision only when experience or context makes it plausible; an unsupported technical observation characterizes the author instead of the character.

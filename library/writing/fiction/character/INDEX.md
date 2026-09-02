@@ -23,7 +23,7 @@
 - [Reveal Character Incrementally through Behavior](PAT_reveal_character_incrementally_through_behavior.md) - pattern; 2 block. Tags: behavior, character, fiction, observation, scene.
   - Variants: `Characterize through Selective Observation` (emphasis).
 - [Reveal Character through Contrasting Everyday Conduct](DRILL_reveal_character_through_contrasting_everyday_conduct.md) - drill; 2 block. Tags: activity, behavior, character, deliberate_practice, fiction, interactive_narrative, relationship, research.
-  - Variants: `Stage a Relationship through Competitive or Cooperative Play` (context).
+  - Variants: `Stage a Relationship through Competitive or Cooperative Play` (context); `Compare Embodied Responses to Contrasting News` (context).
 - [Scale Character Change to Story Length](PAT_scale_character_change_to_story_length.md) - pattern; 3 rough. Tags: change, character, fiction, flash-fiction, realization.
 - [Trace Character Continuity across a Whole-Life Timeline](DRILL_trace_character_continuity_across_a_whole_life_timeline.md) - drill; 0 design. Tags: character, chronology, deliberate_practice, fiction, interactive_narrative, life_history.
 - [Trace One Embodied Condition through a Character's Life](DRILL_trace_one_embodied_condition_through_a_characters_life.md) - drill; 0 design. Tags: adaptation, causality, character, deliberate_practice, embodiment, fiction, stereotype.

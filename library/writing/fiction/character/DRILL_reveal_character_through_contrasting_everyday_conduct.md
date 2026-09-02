@@ -42,6 +42,13 @@ variants:
     when_to_use: A relationship needs active evidence of trust, rivalry, generosity, control, resentment, or incompatible expectations.
     when_not_to_use: Designing or explaining the game's mechanics would displace the relationship, or the outcome cannot change either character's conduct, knowledge, leverage, or next choice.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_compare_embodied_responses_to_contrasting_news
+    variant_name: Compare Embodied Responses to Contrasting News
+    variant_basis: context
+    difference_from_foundation: Hold character, bodily baseline, setting, and relationship constant while drafting receipt of favorable and unfavorable news, separating immediate sensation, observable behavior, chosen response, and observer interpretation before comparing what remains characteristic and what changes with the situation.
+    when_to_use: Emotional response relies on stock gestures, abstract labels, or a single bodily reaction treated as automatic proof of motive or stable character.
+    when_not_to_use: The scene's effect depends on withholding the news itself, the relevant bodily response is outside the chosen viewpoint's access, or the comparison would flatten mixed or culturally situated reactions into simple opposites.
+    absorbed_from_object_id: none
 ---
 
 # Reveal Character through Contrasting Everyday Conduct
@@ -83,3 +90,5 @@ Choose a character with a current desire, one relevant capability or knowledge g
 
 ## Notes
 Ordinary conduct becomes characterization when a task exposes choices under particular conditions. Comparison protects the draft from mistaking one hurried breakfast, failed attempt, polished performance, or competitive response for the whole person. The variant `writing_fiction_variant_stage_relationship_through_competitive_or_cooperative_play` uses a shared rule-bound activity as relational pressure; its subject is how people act toward one another, not how to design the game.
+
+`writing_fiction_variant_compare_embodied_responses_to_contrasting_news` tests emotional embodiment without turning the body into a codebook. Establish the character's ordinary movement, sensory access, current bodily condition, relation to the messenger, and public constraints. Draft the first moments after favorable news and after unfavorable news in the same setting. In each version, mark separately what the character feels internally, what an observer could see, what the character chooses to do, and what either party infers. Give every intended inference at least one competing explanation, then retain the details whose timing, deviation from baseline, and consequences make them useful. The two responses may overlap, reverse expectation, or remain mixed; a clean opposition is not a success requirement.
