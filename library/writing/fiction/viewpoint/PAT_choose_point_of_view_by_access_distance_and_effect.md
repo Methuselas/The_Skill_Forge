@@ -85,6 +85,7 @@ variants:
 
 ## Do
 - Ask who has a reason to tell this event now and what that teller can perceive, remember, infer, conceal, or misunderstand.
+- Separate focal owner, grammatical person, teller role, access range, narrative distance, temporal position, address, and reliability before changing them; a weak candidate test changes one unresolved control at a time.
 - Treat grammatical person as a bundle of permissions and costs rather than as a label chosen for familiarity.
 - Account for form length: a conspicuous collective or roaming voice needs enough space or control to establish how it works.
 - Separate the fictional speaking self from the author so invention can enter even when the narrator says I.
@@ -100,6 +101,7 @@ variants:
 - The chosen position grants every essential piece of access and withholds something usefully.
 - Reader proximity, implication, or distance supports the intended tone.
 - The voice's conspicuousness is worth the attention it demands.
+- The selected focal owner earns the role through access, stake, blind spots, selective attention, revelation control, or voice across a consequential event rather than merely feeling easiest to draft.
 - A simpler position would lose a named effect rather than merely change pronouns.
 
 ## Notes

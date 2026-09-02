@@ -32,6 +32,13 @@ reference:
 confidence: high
 references: []
 variants:
+  - variant_id: writing_fiction_variant_compare_plausible_focal_owners_of_one_event
+    variant_name: Compare Plausible Focal Owners of One Event
+    variant_basis: method_sequence
+    difference_from_foundation: Hold the event, facts, sequence, grammatical person, and tense constant while redrafting through each plausible focal character plus one invented outsider probe, then compare access, stake, blind spots, selective attention, diction, revelation control, and maintenance cost.
+    when_to_use: The unresolved choice is which character's consciousness should organize the story rather than which grammatical person, tense, or access level should govern it.
+    when_not_to_use: The focal owner is already settled or the story's real uncertainty concerns teller timing, direct address, omniscient scope, exterior-only narration, or tense.
+    absorbed_from_object_id: none
   - variant_id: writing_fiction_variant_compare_three_third_person_access_levels
     variant_name: Compare Three Third-Person Access Levels
     variant_basis: method_sequence
@@ -85,6 +92,8 @@ Choose a passage of 250 to 500 words containing an event, at least two character
 
 ## Notes
 Sustained redrafting exposes costs that a pronoun substitution cannot. A viewpoint may produce an arresting first line but fail when the passage needs inaccessible knowledge; an unusual tense may energize one moment while making summary or hindsight cumbersome. The exercise makes those tradeoffs visible before they govern an entire draft.
+
+`writing_fiction_variant_compare_plausible_focal_owners_of_one_event` isolates ownership of the narrative lens. Choose a consequential event that at least two existing characters could plausibly perceive or reconstruct. Preserve its external facts, sequence, grammatical person, and tense while writing a complete version through each candidate; then add one outsider who was not previously part of the cast and write a final probe without promising to retain that person. For every version, mark what the focal character can access, what stake directs attention, what is missed or misread, which details and words change, how the central revelation arrives, and what additional scenes or information routes the choice would require. Select the owner whose demonstrated gains justify those costs. Ease, affection, novelty, and a striking opening are observations to record, not sufficient reasons to choose.
 
 `writing_fiction_variant_compare_three_third_person_access_levels` isolates degree of knowing. In the limited version, filter every detail and inference through one character; in the omniscient version, use broader access only where comparison, context, or judgment earns it; in the objective version, remove private thought and make the central pressure inferable through exterior evidence. Choose by the effect and information route the story needs, not by which version contains the most facts.
 
