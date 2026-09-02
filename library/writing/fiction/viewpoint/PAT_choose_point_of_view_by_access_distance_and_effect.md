@@ -100,6 +100,7 @@ variants:
 ## Do
 - Ask who has a reason to tell this event now and what that teller can perceive, remember, infer, conceal, or misunderstand.
 - Separate focal owner, grammatical person, teller role, access range, narrative distance, temporal position, address, and reliability before changing them; a weak candidate test changes one unresolved control at a time.
+- Set access before tuning distance: exterior-only, limited, and omniscient positions change what knowledge the narration may possess, while selection, summary, thought presentation, and narrator-character blending can alter proximity inside a fixed access contract.
 - Treat grammatical person as a bundle of permissions and costs rather than as a label chosen for familiarity.
 - Account for form length: a conspicuous collective or roaming voice needs enough space or control to establish how it works.
 - Separate the fictional speaking self from the author so invention can enter even when the narrator says I.
@@ -134,3 +135,5 @@ variants:
 `writing_fiction_variant_use_omniscient_reader_address_as_governing_commentary` makes the narratee part of the design without converting every sentence into second person. Establish what the narrator believes about the reader and what each address tries to do: recruit judgment, delay action, expose artifice, create intimacy, warn, provoke, or frame a social claim. Place commentary where its interruption changes interpretation or pressure, and return to the scene before explanation replaces dramatization. Reader address is neither automatically obsolete nor automatically daring; it earns its conspicuousness through a sustained relation and a repeatable effect.
 
 `writing_fiction_variant_use_objective_third_person_for_exterior_inference` removes direct interior access and overt interpretation. Select behavior, repetition, silence, objects, and social responses that let readers construct motive and relation without being told what each sign means. The distance is productive when inference creates pressure or ambiguity; it fails when neutral reporting becomes indiscriminate surveillance or leaves the central change unreadable.
+
+Access and distance are related but not interchangeable. Moving among exterior-only, limited, and omniscient narration changes the permission to possess private knowledge; moving among reported thought, direct thought, narrator-character blending, summary, and close sensory selection can change proximity without opening another mind. A useful comparison names which control is unresolved and holds the others stable instead of arranging every third-person technique on one ladder.
