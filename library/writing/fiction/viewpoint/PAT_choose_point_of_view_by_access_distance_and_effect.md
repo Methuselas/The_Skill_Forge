@@ -64,9 +64,23 @@ variants:
   - variant_id: writing_fiction_variant_use_omniscient_for_controlled_multi_character_scope
     variant_name: Use Omniscient for Controlled Multi-Character Scope
     variant_basis: emphasis
-    difference_from_foundation: Establish an encompassing narrative intelligence that can move across minds, places, and times while maintaining a stable governing voice.
+    difference_from_foundation: Establish a narrative intelligence with declared permissions to move across selected minds, places, and times while maintaining a stable governing voice and transition logic.
     when_to_use: The story's essential design depends on comparisons, thematic judgment, social scope, or information no single character can supply and has enough space to establish the transitions.
     when_not_to_use: A short form would spend more attention managing access shifts than developing the event, or omniscience merely excuses accidental head-hopping.
+    absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_personify_omniscience_through_bounded_impossible_access
+    variant_name: Personify Omniscience through Bounded Impossible Access
+    variant_basis: context
+    difference_from_foundation: Embody the governing narrative intelligence as an object, place, nonhuman being, supernatural presence, or deliberately mysterious entity whose position, movement, memory, and powers define a stable but impossible range of access.
+    when_to_use: The narrator's embodiment materially shapes voice, scale, theme, attention, or the mechanism by which the story crosses ordinary limits of perception.
+    when_not_to_use: The identity supplies novelty alone, its permissions expand whenever exposition is needed, or personification makes a simpler governing voice harder to understand.
+    absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_use_omniscient_reader_address_as_governing_commentary
+    variant_name: Use Omniscient Reader Address as Governing Commentary
+    variant_basis: emphasis
+    difference_from_foundation: Let the governing narrator invite, warn, accuse, persuade, evaluate, or interrupt for a named reader effect while preserving the established access system and making the narrator-reader relation part of the story's form.
+    when_to_use: Direct commentary creates complicity, irony, pressure, thematic framing, or visible control that the story cannot gain as effectively through scene action alone.
+    when_not_to_use: The address merely explains the theme, pauses consequential action without changing reader relation, or appears once as decorative archaism.
     absorbed_from_object_id: none
   - variant_id: writing_fiction_variant_use_objective_third_person_for_exterior_inference
     variant_name: Use Objective Third Person for Exterior Inference
@@ -113,6 +127,10 @@ variants:
 
 `writing_fiction_variant_use_third_person_limited_for_close_flexible_access` stays inside one focal consciousness while allowing an over-the-shoulder view and controlled narrative phrasing. The narrator and focal character remain distinct even when the prose borrows the character's evaluations or idiom; limitation permits private access but does not require reporting every thought or feeling. Its flexibility increases the writer's obligation to distinguish legitimate outside observation from a leak into another mind.
 
-`writing_fiction_variant_use_omniscient_for_controlled_multi_character_scope` permits deliberate movement across characters and time under one stable narrative intelligence. It carries the greatest access and the greatest management cost, especially in flash fiction, where a limited position often delivers more pressure per sentence.
+`writing_fiction_variant_use_omniscient_for_controlled_multi_character_scope` permits deliberate movement across selected characters, places, and times under one stable narrative intelligence. The author and narrator remain distinct even when the governing voice comments confidently. Define which minds and times are available, how transitions occur, how much the narrator interprets, and which focal characters receive sustained development. The narrator may be identified, personified, or intentionally unnamed; what readers need is a legible voice, reach, and transition system rather than a compulsory biography. Broad permission carries broad management cost, especially in flash fiction, where a limited position often delivers more pressure per sentence.
+
+`writing_fiction_variant_personify_omniscience_through_bounded_impossible_access` gives impossible reach a perceiving form. Decide what the entity is, where it can exist or move, which senses or memories it possesses, whether it can enter minds or only observe conduct, what it cannot know, and how its embodiment colors diction and judgment. An object, place, animal, dead speaker, alien, deity, or unexplained presence is not omniscient by label; its stated permissions must account for every transition and remain bounded when the plot would benefit from more.
+
+`writing_fiction_variant_use_omniscient_reader_address_as_governing_commentary` makes the narratee part of the design without converting every sentence into second person. Establish what the narrator believes about the reader and what each address tries to do: recruit judgment, delay action, expose artifice, create intimacy, warn, provoke, or frame a social claim. Place commentary where its interruption changes interpretation or pressure, and return to the scene before explanation replaces dramatization. Reader address is neither automatically obsolete nor automatically daring; it earns its conspicuousness through a sustained relation and a repeatable effect.
 
 `writing_fiction_variant_use_objective_third_person_for_exterior_inference` removes direct interior access and overt interpretation. Select behavior, repetition, silence, objects, and social responses that let readers construct motive and relation without being told what each sign means. The distance is productive when inference creates pressure or ambiguity; it fails when neutral reporting becomes indiscriminate surveillance or leaves the central change unreadable.
