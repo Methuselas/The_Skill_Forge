@@ -69,6 +69,7 @@ variants:
 
 ## Do
 - Decide whether the narrator drives the central action or witnesses another person's story, then give every indispensable event a plausible route into that role.
+- For a peripheral witness, route offstage events through named testimony, records, situated inference, or openly signaled reconstruction, and preserve what remains unknown rather than letting hindsight masquerade as access.
 - Name the listener the narrator imagines and let that relationship determine what needs explanation, what can remain implicit, and what the narrator wants the telling to accomplish.
 - Separate event time from telling time; state how much has changed, what hindsight now permits, and how the later narrator regards the earlier self.
 - Use remembered uncertainty selectively when the struggle to recover an event reveals the narrator's present need or strengthens rather than dissolves reader trust.
@@ -76,6 +77,7 @@ variants:
 
 ## Don't
 - Treat every fictional I as the protagonist when a witness has better access to the central person's impact or mystery.
+- Call a peripheral participant an objective outsider or treat a later report as direct knowledge of what really happened.
 - Call a journal private while filling it with background the writer supplies only for strangers.
 - Address a named listener in the opening and then let that relationship disappear from diction, candor, and selection.
 - Give a distant narrator exact conversations and sensations by default while ignoring the passage of time.
@@ -83,6 +85,7 @@ variants:
 
 ## Checklist
 - The narrator's participant or witness role accounts for every significant event being told.
+- Every consequential offstage claim is attributable to testimony, a record, inference, or acknowledged reconstruction, and unsupported detail remains absent.
 - The addressee changes at least two of explanation, tone, withheld material, directness, or persuasive strategy.
 - The elapsed time establishes a legible amount of hindsight and emotional distance.
 - Memory gaps are purposeful and do not obscure facts the story promises to settle.

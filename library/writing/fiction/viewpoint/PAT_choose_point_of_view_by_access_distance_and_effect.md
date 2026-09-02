@@ -36,7 +36,7 @@ variants:
   - variant_id: writing_fiction_variant_use_first_person_for_urgent_subjective_witness
     variant_name: Use First Person for an Urgent Subjective Witness
     variant_basis: emphasis
-    difference_from_foundation: Place a protagonist who drives the action or a peripheral witness who reveals another person's story inside the event so immediacy, partial knowledge, personal language, and possible unreliability become structural features.
+    difference_from_foundation: Place a protagonist who drives the action or a peripheral witness whose relationship, partial access, later information routes, and interpretation reveal another person's story while preserving useful opacity around that central figure.
     when_to_use: The story gains from one person's authority, urgency, bias, complicity, or exposure to the central character and can tolerate being locked within that account.
     when_not_to_use: Essential effects require independent access to several minds or facts the narrator cannot plausibly know.
     absorbed_from_object_id: none
@@ -105,7 +105,7 @@ variants:
 - A simpler position would lose a named effect rather than merely change pronouns.
 
 ## Notes
-`writing_fiction_variant_use_first_person_for_urgent_subjective_witness` makes a protagonist's participation or a peripheral witness's exposure inseparable from the story. Use the protagonist when that person's desires and decisions drive the central action; use the witness when another character's impact, mystery, or downfall is best revealed through someone close enough to observe it. In either case, do not confuse the fictional I with the author or grant it impossible knowledge.
+`writing_fiction_variant_use_first_person_for_urgent_subjective_witness` makes a protagonist's participation or a peripheral witness's exposure inseparable from the story. Use the protagonist when that person's desires and decisions drive the central action; use the witness when another character's impact, mystery, or downfall is best revealed through someone close enough to observe it but unable to possess it completely. The witness remains a situated participant whose stake, bias, selective attention, later testimony, records, and acknowledged reconstructions govern the account. In either case, do not confuse the fictional I with the author, grant hindsight automatic knowledge, or let indirect access pass as neutral fact.
 
 `writing_fiction_variant_use_first_person_plural_for_community_voice` moves the center of narration into a group's shared identity. It suits stories about consensus, exclusion, or collective fascination, but every claim must remain plausible for the narrating we.
 

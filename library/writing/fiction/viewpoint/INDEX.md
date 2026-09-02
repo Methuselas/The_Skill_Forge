@@ -4,6 +4,7 @@
 
 ## Objects
 
+- [Build a Peripheral Witness Account from Mixed Knowledge Routes](DRILL_build_a_peripheral_witness_account_from_mixed_knowledge_routes.md) - drill; 1 skeleton. Tags: fiction, first_person, knowledge, point_of_view, practice, reconstruction, witness_narrator.
 - [Choose and Stabilize Narrative Perspective](AP_choose_and_stabilize_narrative_perspective.md) - ap; 0 design. Tags: fiction, narrator, point_of_view, style, tense.
 - [Choose Point of View by Access Distance and Effect](PAT_choose_point_of_view_by_access_distance_and_effect.md) - pattern; 0 design. Tags: access, distance, fiction, narrator, point_of_view.
   - Variants: `Use First Person for an Urgent Subjective Witness` (emphasis); `Use First Person Plural for a Community Voice` (emphasis); `Use Second Person for Implication and Distance` (emphasis); `Use Third Person Limited for Close Flexible Access` (emphasis); `Use Omniscient for Controlled Multi-Character Scope` (emphasis); `Use Objective Third Person for Exterior Inference` (constraint).
