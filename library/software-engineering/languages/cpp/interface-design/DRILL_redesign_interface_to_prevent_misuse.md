@@ -42,13 +42,16 @@ Preventing client mistakes with distinct types, constrained values, and removed 
 No special setup required.
 
 ## Instructions
-- List the client mistakes the current signature allows: swapped month/day, and out-of-range values.
+- List the client mistakes the current signature allows — swapped month/day, and out-of-range values — writing each as a call that compiles today.
 - Introduce distinct Day, Month, and Year types so the compiler rejects wrong-kind or wrong-order arguments.
 - Constrain Month to its valid values, using predefined Month objects rather than a raw int or an
-  enumeration of either kind. Try the scoped-enumeration version first and find where it stops:
+  enumeration of either kind. Try the scoped-enumeration version first and record the point where it stops:
   it fixes the ordering and refuses implicit conversion to int, and an explicit cast to Month
   still yields a Month value nobody declared.
+- Exercise the final design both ways — the wrong call failing to compile with the rejection recorded, the right call succeeding.
+- Attempt to construct an invalid month and show it impossible rather than merely inconvenient, saying whether what you built rejects at compile time or validates at run time.
 - Consider whether an associated factory should return a smart pointer to remove a release obligation.
+- State the cost: more types to declare, longer call sites, and conversions at every boundary where these values arrive as plain integers anyway.
 
 ## Success Check
 - The mistakes the original signature permits are listed before the redesign, each written as a call that compiles today.

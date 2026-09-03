@@ -59,11 +59,12 @@ A codebase you maintain, ideally a library, framework or module that others call
    - **Secondary notation** — can users add meaning outside the formal language? Comments, and named arguments at a call site.
    - **Abstraction** — can users build abstractions as powerful as the built-in ones? A library allowing subclassing offers more than one allowing only API calls.
    - **Visibility** — how easy is it to see the parts? An API returning an object exposes more shape than one returning a string.
-2. Mark each dimension relevant or not. Not all matter for every codebase, and saying so is part of the result.
-3. For the relevant ones, note whether the codebase is doing well or badly.
-4. For each dimension worth improving, name the design maneuver that would improve it — adding types improves error proneness, renaming toward the domain improves closeness of mapping.
-5. For each maneuver, write down which other dimensions it would help and which it would hurt, before deciding to do it.
-6. Re-run the review periodically. The recommendation is roughly annual; the dimensions that matter shift as a codebase ages.
+2. Mark each dimension relevant or not, writing the argument for the ones you rule irrelevant. Not all matter for every codebase, and saying why is part of the result.
+3. For the relevant ones, note whether the codebase is doing well or badly, citing something in the codebase for each judgement.
+4. Name any dimension that mattered here which you had not considered before, or state plainly that none did.
+5. For each dimension worth improving, name the design maneuver that would improve it — adding types improves error proneness, renaming toward the domain improves closeness of mapping.
+6. For each maneuver, write down which other dimensions it would help and which it would hurt, before deciding to do it. Reject at least one maneuver on that basis, and name one pair of dimensions where improving one degrades the other in this codebase specifically.
+7. Re-run the review periodically. The recommendation is roughly annual; the dimensions that matter shift as a codebase ages.
 
 ## Success Check
 - Every dimension has a sentence, the irrelevant ones included, and irrelevance is argued rather than assumed. A dimension skipped in silence is indistinguishable from one never considered.

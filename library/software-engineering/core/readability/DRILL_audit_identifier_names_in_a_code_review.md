@@ -48,11 +48,11 @@ A change under review, and a whiteboard or separate document. The separation is 
 1. List every identifier name in the changed code: variables, methods, classes, parameters. Do this mechanically, before forming any opinion about the change.
 2. Move the list off the code. From here on you are answering questions about names, not about logic.
 3. For each name, ask whether its meaning is clear knowing nothing about the code — in particular, whether you know what the words it is built from mean.
-4. Mark any name that is ambiguous or unclear, and any that uses an abbreviation which could be read more than one way.
+4. Mark any name that is ambiguous or unclear, and any that uses an abbreviation which could be read more than one way. Give each flagged name a stated reason drawn from one of these checks.
 5. Find the names that resemble each other. For each such group, check whether the similar names actually refer to similar things — similar names for unrelated objects is the expensive case.
 6. Run the two cognitive checks separately: does the formatting let you see the parts, and do the words connect to the domain, to a programming concept, or to a convention?
 7. Take the syntactic pass last, using Butler's rules as the checklist — capitalization consistency, no doubled or external underscores, words rather than truncations, roughly two to four words, no type information encoded in the name.
-8. Bring the flagged names back to the change and only then decide which are worth raising.
+8. Bring the flagged names back to the change and only then decide which are worth raising. Mark any you would have accepted had you read it in place.
 
 ## Success Check
 - You raised at least one name you would have accepted had you read it in place.

@@ -43,9 +43,10 @@ No special setup required.
 
 ## Instructions
 - Move each member from a body assignment into the member initialization list.
-- Order the list to match the order the members are declared in the class.
-- Add a `const` or reference member to the class and confirm it now compiles only when initialized through the list.
-- Compare the two versions and note where the body-assignment form did redundant work.
+- Order the list to match the order the members are declared in the class, checking it against the class declaration rather than against itself.
+- Name concretely, for at least one member, the redundant work the body-assignment form did — default-constructed and then assigned, so two operations run where one would serve — and identify the members that gain nothing.
+- Check any member whose initializer reads another member against the declaration order.
+- Add a `const` or reference member to the class, compile the body-assignment form, and record the error; then confirm it compiles when initialized through the list.
 
 ## Success Check
 - The redundant work is named concretely for at least one member — default-constructed and then assigned, so two operations run where one would serve. Asserting that the list is more efficient, without saying what is avoided, restates what everyone already believes.

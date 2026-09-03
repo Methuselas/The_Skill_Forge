@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Start from a read-style function that also mutates state — a `getPixel` that calls `canvas.redraw()` before returning a color.
-2. List the ways the hidden effect can bite: an expensive loop (a screenshot calling it per pixel), a broken assumption (a redaction that assumes no redraw), and a concurrency hazard across threads.
-3. Ask whether the side effect is actually necessary; if not, remove it and confirm the problems disappear.
-4. If it is necessary, rename the function to name the effect (`redrawAndGetPixel`) and propagate honest names to callers that inherit it (`redrawAndCaptureScreenshot`).
-5. Re-examine each caller and confirm the new name would make them reconsider the expensive loop, the broken assumption, and the threading risk.
+2. Trace each of the three ways the hidden effect can bite through to a concrete consequence here: how many redraws an image-sized loop causes, the specific assumption the second caller makes, and the interleaving that breaks across threads.
+3. Answer whether the side effect is actually necessary and write down the reason; if it is not, remove it and confirm the three problems disappear.
+4. If it is necessary, rename the function to name the effect (`redrawAndGetPixel`). Find the callers that inherit it by searching, state the search you ran, and propagate honest names to them (`redrawAndCaptureScreenshot`).
+5. Re-read at least one caller under the new name and write down the decision the name would now prompt.
+6. Check the opposite failure: whether callers who do not want the effect have an effect-free variant to move to. Where none exists, record that as an outstanding cost.
 
 ## Success Check
 - Each of the three failure modes is traced to a concrete consequence in the example — how many redraws an image-sized loop causes, the specific assumption the second caller makes, the interleaving that breaks across threads. Naming the three is the setup rather than the finding.

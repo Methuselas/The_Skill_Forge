@@ -46,11 +46,12 @@ The new language's documentation or a primer, and a language you genuinely know 
 
 ## Instructions
 1. Take the six rows Hermans uses: syntax, type system, programming concepts, runtime, programming environment or IDE, and testing environment or practices.
-2. For each row, write what is similar and what is different. Do the similarities column first — naming the commonalities is what makes prior knowledge reachable, and it is the step people skip.
-3. In the remarks column, mark each row as expected help or expected trap. A row where the two languages are *almost* the same is a trap row, not a help row.
-4. Classify anything you have already transferred, using the two axes from exercise 7.2: high-road versus low-road, and near versus far. Reusing an editor shortcut without thinking is low-road; assuming a variable must be declared because most languages require it is high-road.
-5. Look specifically for constructs sharing a name across the two languages and behaving differently. Put those at the top of the trap list.
-6. Keep the table while you learn and correct it as you are proved wrong; the corrections are your personal misconception list for this language pair.
+2. For each row, write what is similar and what is different, filling both columns including the rows where you had to go and look something up. Do the similarities column first — naming the commonalities is what makes prior knowledge reachable, and it is the step people skip.
+3. Mark each entry as verified or assumed, so the two are distinguishable later.
+4. In the remarks column, mark each row as expected help or expected trap. A row where the two languages are *almost* the same is a trap row, not a help row.
+5. Classify anything you have already transferred, using the two axes from exercise 7.2: high-road versus low-road, and near versus far. Reusing an editor shortcut without thinking is low-road; assuming a variable must be declared because most languages require it is high-road.
+6. Look specifically for constructs sharing a name across the two languages and behaving differently, and name at least one before you meet it in anger. Put those at the top of the trap list.
+7. Keep the table while you learn and correct it as you are proved wrong; the corrections are your personal misconception list for this language pair.
 
 ## Success Check
 - Every row is filled in both columns, including the rows where you had to go and look something up.

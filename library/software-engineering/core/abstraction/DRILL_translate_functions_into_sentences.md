@@ -42,10 +42,13 @@ No special setup required.
 
 ## Instructions
 1. Find or write a function that both computes something and acts on the result — for example, one that finds an entity's address through several branches and then sends it a letter.
-2. Read the whole function aloud as one English sentence, spelling out every branch inline (scrapyard address if scrapped, showroom if unsold, buyer's address otherwise, then send the letter).
-3. Judge the sentence: if it stuffs in several concepts or needs re-reading to follow, mark the function as doing too much.
+2. Write down the whole function as one English sentence, spelling out every branch inline (scrapyard address if scrapped, showroom if unsold, buyer's address otherwise, then send the letter).
+3. Judge the written sentence, pointing at the words in it that mark a second job — a new verb taking a new object, a clause starting with "and then" — and mark the function as doing too much where they appear.
 4. Extract the nuts-and-bolts of each subproblem into a well-named helper (an address-finder), leaving the original function to compose the steps.
-5. Re-read the refactored function as a sentence and confirm it now states just its steps: get the address; if found, send the letter.
+5. Write down the sentence each helper reads as, and say whether that sentence has one verb.
+6. Write down the sentence for the refactored function, naming what each step is for rather than how it works.
+7. Name a concrete second caller for at least one helper — an existing one, or a specific plausible one.
+8. Check the refactored outer function for the opposite error, and where a piece of work was left inline, state it along with why.
 
 ## Success Check
 - The sentence for the original function is written down before any extraction, and the words in it that mark a second job are pointed at — a new verb taking a new object, a clause starting with "and then". A verdict that the function does too much, without the sentence it came from, cannot be checked and does not count.

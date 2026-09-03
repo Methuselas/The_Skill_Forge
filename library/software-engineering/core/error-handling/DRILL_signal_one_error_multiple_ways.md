@@ -42,10 +42,10 @@ No special setup required.
 
 ## Instructions
 1. Start from a function with one clear error case — the classic is a square-root function that errors on a negative input.
-2. Write a version for each technique: a checked exception, an unchecked exception, a nullable return under null safety, a result type carrying an error object, and a magic value such as returning minus one.
-3. For each version, also write the caller, and mark whether the caller is forced to acknowledge the error or is free to ignore it.
-4. Label each technique explicit or implicit, and note what information it conveys — in particular which ones carry a reason for the failure and which do not.
-5. Pick which you would ship for a recoverable error and justify it against forced awareness and error detail.
+2. Write a compiling version for each technique: a checked exception, an unchecked exception, a nullable return under null safety, a result type carrying an error object, and a magic value such as returning minus one.
+3. For each version, also write the caller. Attempt to ignore the failure in each caller and record whether that attempt compiles.
+4. Label each technique explicit or implicit from those compile results rather than from category, and note what information it conveys — in particular which ones carry a reason for the failure and which do not.
+5. Pick which you would ship for a recoverable error, justify it against both axes — forced awareness and error detail — and name the case that would reverse the choice.
 
 ## Success Check
 - All five versions are written as compiling function-and-caller pairs. Reasoning through them reproduces the table already in the reader's head and tests nothing.

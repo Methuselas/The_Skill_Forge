@@ -52,10 +52,10 @@ Paper cards, sticky notes, or a spaced-repetition app such as Anki, Quizlet, or 
 ## Instructions
 1. List the ten concepts whose syntax you most often have to look up.
 2. Make one card per concept: the prompt on the front, the code on the back. Keep each card to a single concept — for list comprehensions that means separate cards for the plain form, the filtered form, the calculated form, and filter-plus-calculation, not one card covering all four.
-3. Practise by reading the prompt side only, writing the code out in full, then flipping the card to compare.
+3. Practise by reading the prompt side only, writing the code out in full on a blank page, then flipping the card to compare.
 4. Mark each attempt right or wrong with a running tally on the card itself.
 5. Add a card whenever you meet a new concept in a language, framework, or library you are learning — and, more importantly, whenever you catch yourself about to search for something. That impulse is the signal that the concept is not yet yours.
-6. Retire a card once it has been right several times running. Put it back the moment it fails again.
+6. Retire a card once it has been right several times running, recording the date it was retired. Put it back the moment it fails again, and record that too.
 7. Leave fringe syntax out of the set entirely. Modern languages and APIs are far too large to hold, and looking up rarely used corners is a reasonable use of a search.
 
 ## Success Check

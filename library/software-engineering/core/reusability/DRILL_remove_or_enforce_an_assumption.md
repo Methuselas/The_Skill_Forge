@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from code with an assumption mentioned only in a comment — an image lookup that assumes an article has at most one image section.
-2. Write the general version that drops the assumption (return images from all sections) and note the cost (a few extra iterations) versus the reuse benefit.
-3. Now suppose a specific caller genuinely needs the single-section assumption; enforce it with an assertion or check so a violation fails fast.
-4. Rename the function to advertise the assumption (getOnlyImageSection) so callers who do not want it steer clear.
-5. Decide the enforcement by data source: assertion for internally generated data, an explicit error signal for user- or externally supplied data.
+2. Write the general version that drops the assumption (return images from all sections) and demonstrate it on an input the assumption excluded.
+3. State the cost of dropping the assumption as a quantity — extra iterations, an added allocation, one more parameter — rather than as small or negligible, and weigh it against the reuse benefit.
+4. Now suppose a specific caller genuinely needs the single-section assumption; enforce it with an assertion or check so a violation fails fast.
+5. Rename the function to advertise the assumption (getOnlyImageSection), then read a call site cold and confirm someone who has not seen the body can say what the function refuses to accept.
+6. State where this function's data actually comes from, and choose the enforcement from that origin: assertion for internally generated data, an explicit error signal for user- or externally supplied data.
+7. Write down one case where the choice would flip — the same function fed from the other kind of source — along with the enforcement it would take instead.
 
 ## Success Check
 - Both versions exist as written code rather than one version and a description of the other, and the general one is demonstrated on an input the assumption excluded.

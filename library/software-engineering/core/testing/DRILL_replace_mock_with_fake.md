@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from a test that mocks a dependency and verifies a specific call was made — for example checking that debit was called with a negative amount to "handle" a refund.
-2. Read the real dependency's contract and find the assumption the mock silently repeats (the real debit rejects negative amounts).
+2. Write down the real dependency's contract before building anything, quoting from it the rule the mock silently repeats away (the real debit rejects negative amounts).
 3. Write or obtain a fake that implements the contract faithfully — storing state internally and throwing on a negative debit, matching the real behavior.
-4. Rewrite the test to use the fake and assert on the resulting state (the final balance) rather than on which calls were made.
-5. Run it and confirm the previously hidden bug now fails the test; then refactor the code (switch to a single transfer call) and confirm the fake-based test still passes.
+4. Test the fake directly against that quoted rule, confirming it rejects what the real dependency rejects.
+5. Rewrite the test to use the fake and assert on the resulting state (the final balance) rather than on which calls were made. Name any assertion about invoked methods you keep, with the reason it was kept.
+6. Run it, confirm the previously hidden bug now fails the test, and record the failure message.
+7. Refactor the code (switch to a single transfer call), confirm the fake-based test still passes, and state whether what you built is a fake or a stricter mock.
 
 ## Success Check
 - The real dependency's contract is written down before the fake is built, with the rule the mock ignored quoted from it. A fake written from memory of the interface reproduces the mock's assumptions and then passes every bullet below.

@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from code with opaque names — a `class T` holding `pns` and `s`, with a function `f(n)` and a free function `s(ts, n)` — and comments explaining each.
-2. Read it cold and note every place you had to consult a comment or the class body to understand a name.
-3. Rename each class, function, variable, and parameter for the concept it represents (team, player names, score, contains-player, team-score-for-player).
-4. Remove each comment that now merely restates a name, keeping only any that document genuine usage.
-5. Re-read a call site in isolation and confirm it is clear without opening the class.
+2. Read it cold and write down every place you had to consult a comment or the class body to understand a name.
+3. Rename each class, function, variable, and parameter for the concept it represents (team, player names, score, contains-player, team-score-for-player). Match each rename to the recorded confusion it removes.
+4. Judge at least one name with the code out of sight and say whether you accept it, or state that no name could be judged that way.
+5. Remove each comment that now merely restates a name, accounting for every deletion as a restatement, and for every comment you keep, name the information it carries.
+6. Re-read a call site cold and write out what it now says.
+7. Check the result for the opposite error — a name long enough that callers will abbreviate it, or specific enough that the next requirement makes it wrong.
 
 ## Success Check
 - The places where a comment or the class body had to be consulted are written down before renaming, and each is matched afterwards to the name that removed the need. A rename with no recorded confusion behind it is a preference rather than a finding.

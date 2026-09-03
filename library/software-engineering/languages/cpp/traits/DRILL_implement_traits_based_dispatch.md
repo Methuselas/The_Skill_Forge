@@ -42,10 +42,12 @@ Dispatching on a type's traits via overloaded worker functions instead of a runt
 No special setup required.
 
 ## Instructions
-- Read the iterator's category from iterator_traits (its iterator_category), which is available during compilation.
-- Write overloaded doAdvance workers, one per iterator category tag, each using only the operations valid for that category (+= for random access, stepping for bidirectional and input).
+- Read the iterator's category from iterator_traits (its iterator_category), which is available during compilation, and say where the selection is established to happen before the program runs.
+- Write overloaded doAdvance workers, one per iterator category tag, each using only the operations valid for that category (+= for random access, stepping for bidirectional and input). Read each worker and check its operations against its category rather than trusting the tag in its signature.
 - Write the master advance that constructs the category tag from the traits and passes it, letting overload resolution pick the worker.
-- Confirm a bidirectional iterator compiles because its worker never uses +=.
+- Compile the bidirectional case and show that it compiles.
+- Write the run-time version, or name its failure precisely — a branch that never executes must still compile — so the comparison the drill is built on actually takes place.
+- Confirm selection happens by overload resolution on the tag type, tested with an iterator whose category derives from a more refined one.
 
 ## Success Check
 - The category is read during compilation and the run says where that is established, since the entire benefit rests on the selection happening before the program runs.

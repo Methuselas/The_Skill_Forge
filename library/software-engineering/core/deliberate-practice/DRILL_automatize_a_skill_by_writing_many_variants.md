@@ -45,11 +45,11 @@ Moving a programming construct from conscious effort to no effort, so it stops c
 One construct, chosen from whatever your phase diagnosis left in the cognitive or associative column. A scratch file. A short slot each day rather than one long session.
 
 ## Instructions
-1. Pick exactly one construct. Loops, list comprehensions, a destructuring form, an async idiom — small enough that a single repetition takes seconds.
-2. Write many similar-but-different instances of it. For loops that means forward, backward, with a stepper variable, with different step sizes, until the shape comes without deliberation.
+1. Pick exactly one construct. Loops, list comprehensions, a destructuring form, an async idiom — small enough that a single repetition takes seconds. Time one repetition to establish that rather than judging it by shape.
+2. State the axes the variants will differ along — direction, step, bound, nesting — then write many similar-but-different instances of it. For loops that means forward, backward, with a stepper variable, with different step sizes, until the shape comes without deliberation.
 3. When the construct is more complex, adapt existing programs instead of writing from scratch. Write several programs using the form you already know — plain loops — then convert each one into the form you are learning, such as a list comprehension.
-4. Convert back. Manually reverting each change makes you see the difference from the other direction, and it is the comparison that strengthens the equivalence between the two forms in memory.
-5. Keep sessions short and spaced. Set aside some time every day rather than doing one long burst, and continue until you can perform the task with no effort at all.
+4. Convert back. Manually reverting each change makes you see the difference from the other direction, and it is the comparison that strengthens the equivalence between the two forms in memory. Record the comparison as you make the reverse conversion.
+5. Keep sessions short and spaced, recording the date of each. Set aside some time every day rather than doing one long burst, and continue until you can perform the task with no effort at all.
 6. Stop when the construct passes the autonomous test — you can produce it while thinking about something else, and feel no need to check it.
 
 ## Success Check

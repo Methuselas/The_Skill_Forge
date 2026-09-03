@@ -43,10 +43,10 @@ Select one method or function in an unfamiliar codebase written in a language yo
 ## Instructions
 1. Study the function and begin a one-sentence behavior summary.
 2. Whenever an identifier, comment, operator, literal, intermediate value, or structure produces an "aha" moment, stop and record it verbatim.
-3. For each item, state the hypothesis it supports and whether it represents domain or program-function knowledge.
-4. Combine related simple items into any compound signals you used.
-5. Finish the behavior summary and verify it with tests, callers, documentation, or a knowledgeable reviewer.
-6. Optionally improve a missing or misleading signal while preserving the codebase's conventions.
+3. For each item, state the hypothesis it supported or refuted and whether it represents domain or program-function knowledge. Keep the refutations on the list rather than dropping them.
+4. Combine related simple items into any compound signals you used, and decompose one compound back into the simple items it was built from.
+5. Finish the behavior summary and verify it with tests, callers, documentation, or a knowledgeable reviewer. Record what that check changed, including when it changed nothing.
+6. Optionally improve a missing or misleading signal, checking the improvement against the codebase's existing conventions.
 
 ## Success Check
 - Items are recorded verbatim as they land rather than reconstructed at the end. A list assembled afterwards keeps what turned out to matter and drops the signals that misled, which are the ones worth having.

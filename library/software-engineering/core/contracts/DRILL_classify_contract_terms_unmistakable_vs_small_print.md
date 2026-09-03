@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Pick a class with some setup requirements — for example a settings loader that must be constructed, then loaded, then initialized before use.
-2. List every term of its contract: the preconditions (setup order, valid inputs), the postconditions (return values, resulting state), and any invariants.
-3. Label each term unmistakable (carried by a name, parameter type, return type, or checked exception) or small print (carried by a comment, external doc, or unchecked exception).
-4. For each small-print term, ask what goes wrong if a caller never reads it — and flag any that would cause a silent bug, such as a return value overloaded to mean two things.
-5. Note which small-print terms could be promoted to an unmistakable channel or removed by redesign.
+2. Build the list of contract terms by using the class rather than by reading its declaration: the preconditions (setup order, valid inputs), the postconditions (return values, resulting state), and any invariants.
+3. Label each term unmistakable (carried by a name, parameter type, return type, or checked exception) or small print (carried by a comment, external doc, or unchecked exception), naming specifically which parameter, which return type, or which comment carries it.
+4. For each small-print term, write the consequence for a caller who never reads it, and mark which of those consequences are silent rather than crashes.
+5. Flag separately any term whose channel carries two meanings at once — a return value overloaded to mean two things — from one that is merely undocumented, since the remedies differ.
+6. For each term that could be promoted to an unmistakable channel, name the channel it would move to and what that move costs. For anything not promotable, say why.
 
 ## Success Check
 - Every term is listed — preconditions, postconditions, invariants — and the list is built by using the class rather than by reading its declaration, since the declaration is where the unmistakable terms already live and the others are what is being hunted.

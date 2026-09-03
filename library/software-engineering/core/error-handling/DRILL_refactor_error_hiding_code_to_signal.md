@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Collect examples of each disguise: a balance lookup returning `0.0` on failure, an invoice query returning an empty list on failure, an `addItem()` that silently returns on a currency mismatch, and a send function that catches and drops an exception.
-2. For each, name the concrete bug it causes — a real zero balance is indistinguishable from an error, an audit sees no unpaid invoices, a caller believes an item was added, a caller believes an email was sent.
-3. Refactor each to signal the error explicitly, choosing a technique that puts the failure in the unmistakable contract (a result type, a nullable return, or an enforced outcome).
-4. Update one caller of each to handle the signaled error — for instance, showing "we can't access this right now" instead of a wrong value.
-5. Check that no refactored function can still return a value indistinguishable from a genuine result, and that no catch block silently swallows or merely logs.
+2. Run each disguise before changing anything and record the wrong behaviour — what was returned, and what the caller then did with it.
+3. Refactor each to signal the error explicitly, choosing a technique that puts the failure in the unmistakable contract (a result type, a nullable return, or an enforced outcome), and state what each now returns for the failing case.
+4. Update one caller of each to handle the signaled error, and write down what a user or an operator would see — for instance, "we can't access this right now" instead of a wrong value.
+5. Check that no refactored function can still return a value indistinguishable from a genuine result. Name any surviving catch block along with what it does besides logging.
+6. Where a discard is genuinely correct — a failure the contract says cannot occur, or one raised while unwinding an already-failed operation — identify it as such and show the original failure surviving.
 
 ## Success Check
 - Each disguise is run before the change with the wrong behaviour recorded — what was returned, and what the caller then did with it. Naming the bug is what the hidden error already allowed.

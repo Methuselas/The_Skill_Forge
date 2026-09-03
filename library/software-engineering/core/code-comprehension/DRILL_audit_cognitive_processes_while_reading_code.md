@@ -41,12 +41,13 @@ Recognizing the cognitive source of difficulty while reading unfamiliar code ins
 Choose three short snippets in languages or notations with different familiarity levels. Do not choose three implementations of the same operation, because the first solution would supply knowledge for the later ones.
 
 ## Instructions
-1. Read the first snippet and write a one-sentence behavior explanation without executing it.
+1. Read the first snippet and write a one-sentence behavior explanation without executing it, quoting the code that supports it.
 2. List the syntax, algorithms, domain facts, and prior examples you retrieved from long-term memory.
 3. List the names, types, and local facts you had to hold temporarily, plus any text you ignored as irrelevant.
 4. Mark the expressions or state changes you mentally executed and note where processing became effortful.
-5. Repeat for the other two snippets, then classify each difficulty as missing knowledge, missing information, or processing overload.
-6. For one difficulty in each class, name the next action that would remove it.
+5. Check the three lists against each other and place each item in exactly one of them.
+6. Repeat for the other two snippets, then classify each difficulty as missing knowledge, missing information, or processing overload, justifying each classification by what would remove it.
+7. For one difficulty in each class, name the next action that would remove it.
 
 ## Success Check
 - Each snippet's behaviour explanation is written before the audit and quotes the code supporting it. An explanation produced after the analysis has been contaminated by it.

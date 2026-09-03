@@ -42,9 +42,11 @@ Picking among prohibit, reference-count, deep-copy, and transfer, then implement
 No special setup required.
 
 ## Instructions
-- List the four copying options and argue which fits a mutex lock.
+- List the four copying options, give a reason for and against each in this specific case, and argue which fits a mutex lock.
+- Write out concretely what the compiler-generated copy would do — the same handle released twice — and say whether that would be caught at compile time, at run time, or not at all.
 - Implement the chosen behavior: prohibit copying via Uncopyable, or reference-count via a shared pointer holding the mutex with an unlock function as its deleter.
-- Show what the compiler-generated copy would have done and why it is wrong here.
+- Exercise it by actually copying the object, and observe the release happening exactly once across every copy made.
+- Name the rejected option closest to the choice, along with the condition that would flip the decision.
 
 ## Success Check
 - All four options are stated with a reason for and against each in this specific case, rather than the chosen one accompanied by three names.

@@ -45,10 +45,11 @@ Fix the subject before counting anything, because the size of the answer is a pr
 ## Instructions
 1. List every operation the structure offers, including the ones that only read.
 2. For each operation, list its distinct outcomes — found and not found, removed and empty, added and full. Treat each as its own path.
-3. For each path, name the single step where the effect becomes observable. State it as a specific line or operation, not as a region.
-4. Test each candidate: describe what an observer sees immediately before that step and immediately after. If the operation is partly done in the "before" picture, you have the wrong step.
+3. For each path, name the single step where the effect becomes observable. State it as a specific line or operation, not as a region. Where one step serves more than one path, write down the observation showing that it commits each of them.
+4. Test each candidate: describe what an observer sees immediately before that step and immediately after. If the operation is partly done in the "before" picture, you have the wrong step. For at least one mutating path, write down a candidate you rejected along with the observation that disqualified it.
 5. Mark any path where you cannot name one step, and say why — the effect appears in stages, or the step belongs to a different thread.
 6. For each read-only operation, say at which step the value it reports was true.
+7. End with a verdict on whether the structure is linearizable, and for at least one path give the observer call and the window that prove it — or the demonstration that no such window exists.
 
 ## Success Check
 - Every path is accounted for, with a committing step or a defect. An operation whose every path is defective is a result rather than an omission. Where one step is given for more than one path, the observation showing that it commits each of them is written down.

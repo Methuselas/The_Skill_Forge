@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Start from a class with a static variable and static functions — a shopping basket where all code shares one set of items.
-2. Show the interference: two features both adding to the basket see each other's items, making safe reuse impossible.
+2. Demonstrate the interference: exercise both features that add to the basket and record the wrong result each sees.
 3. Convert the class to be instantiable, giving each instance its own distinct state.
-4. Inject an instance into each class that needs it, choosing deliberately which classes share one instance and which get their own.
-5. Create two independent instances (say, a normal-products basket and a fresh-products basket) and confirm each consumer sees only its own.
+4. Search the codebase for the old static accessor and state the result, naming any consumer still reaching a shared accessor.
+5. Inject an instance into each class that needs it through its constructor or parameters, recording per consumer whether it shares an instance and the reason.
+6. Create two independent instances (say, a normal-products basket and a fresh-products basket), exercise them together, and write down each consumer's view.
 
 ## Success Check
 - The interference is demonstrated before the change, with both features exercised and the wrong result recorded. An account of how the interference would arise is the thing being fixed, not evidence that it was there.

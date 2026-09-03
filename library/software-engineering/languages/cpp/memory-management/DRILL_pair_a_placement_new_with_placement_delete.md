@@ -43,9 +43,10 @@ No special setup required.
 
 ## Instructions
 - Reproduce the leak: construct an object with the placement new and have its constructor throw; observe that no delete runs.
-- Add a placement operator delete taking the same ostream parameter; confirm it now runs on a constructor exception.
-- Keep the normal operator delete for ordinary delete on the pointer.
-- Re-expose the standard new forms hidden by the class new, using a base class of standard forms and using declarations.
+- Add a placement operator delete taking the same ostream parameter, and check that its parameters match the placement new's beyond the first.
+- Run the exception path again and show the matching delete executing.
+- Keep the normal operator delete for ordinary delete on the pointer, and exercise ordinary deletion separately.
+- Re-expose the standard new forms hidden by the class new, using a base class of standard forms and using declarations, then compile a call to each — plain and nothrow both.
 
 ## Success Check
 - The leak is reproduced by making the constructor throw, with the absent release observed rather than reasoned about.

@@ -44,8 +44,8 @@ A recent design discussion, code review thread, or your own codebase's documenta
 
 ## Instructions
 1. Collect ten phrases from real discussion that describe code in physical or agentive terms. The chapter's own examples are the calibration set: a variable "holds" a value, a file is "open" or "closed," a pointer "points" to something, a function "returns" a value, and a function is "called."
-2. For each phrase, write in the second column the model it implies. "Holds" implies a container with an interior. "Open" and "closed" imply a physical state of the file, where the technical meaning is only that you are permitted to read it or forbidden to.
-3. Mark which of your phrases have hardened past metaphor into the language or tooling itself — pointers exist as a language construct, and IDEs will show you where a function is "called."
+2. For each phrase, write in the second column the model it implies. "Holds" implies a container with an interior. "Open" and "closed" imply a physical state of the file, where the technical meaning is only that you are permitted to read it or forbidden to. Mark any model you had never made explicit before writing it here.
+3. Mark which of your phrases have hardened past metaphor into the language or tooling itself — pointers exist as a language construct, and IDEs will show you where a function is "called" — and for one of them, say what the construct still hides.
 4. For each implied model, write one thing that would be true if the metaphor were literal and is not true of the code. A container can hold several items; a variable cannot.
 5. Note any pair of phrases in your list that imply models which cannot both be true at once, and decide which one your team actually reasons with.
 6. Repeat on a piece of documentation written for newcomers, where the metaphors are usually denser and less examined.

@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from a class that takes and stores primary values and a derived one — an account taking credit, debit, and balance.
-2. Construct an instance in an inconsistent state (balance as debit minus credit) and confirm it compiles and stores contradictory data.
-3. Identify which fields are primary (credit, debit) and which are derived (balance).
+2. Construct an instance in an inconsistent state (balance as debit minus credit), confirm it compiles, and record the contradictory data it stores.
+3. Identify which fields are primary (credit, debit) and which are derived (balance), writing the derivation as an expression.
 4. Remove the derived field from the constructor and members, and compute it on demand in the getter (credit minus debit).
-5. Confirm an inconsistent instance can no longer be constructed, and, if you want to practice the expensive case, replace the primary values with a transaction list and add lazy caching under immutability.
+5. Attempt to construct an inconsistent instance again and record the compiler's rejection.
+6. State the cost — recomputation on every read — and where that is unacceptable, replace the primary values with a transaction list and add lazy caching guarded by immutability so the cache cannot disagree with the primary data.
+7. Name any other place in the class holding a second representation of the same fact.
 
 ## Success Check
 - The inconsistent instance is actually constructed and its contradictory state recorded before any change. That it compiles is the defect; describing it is what the class's comment was already doing.

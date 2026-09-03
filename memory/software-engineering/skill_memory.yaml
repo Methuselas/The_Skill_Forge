@@ -1195,10 +1195,11 @@ entries:
     cheap answer publishes the drill''s answer. The rule is prose, like the three Success
     Check requirements beside it; whether an instruction asks for an artifact is not
     mechanically decidable, and a keyword proxy would report noise rather than enforce
-    anything. Monitoring rather than resolved: no drill has been repaired under the rule and
-    the second sitting has not happened, so nothing yet shows that the repair carries a runner
-    to the closing bullet. Closes when a drill repaired under the rule is taken from its
-    instructions alone by a session that did not write them.
+    anything. Monitoring rather than resolved: all seventy-one software-engineering
+    drills have since been repaired under the rule, but the second sitting has not happened,
+    so nothing yet shows that the repair carries a runner to the closing bullet. Closes when
+    one of the repaired drills is taken from its instructions alone by a session that did not
+    write them.
 
     '
   confidence: provisional

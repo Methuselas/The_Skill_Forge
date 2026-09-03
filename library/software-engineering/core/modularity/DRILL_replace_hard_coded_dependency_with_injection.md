@@ -43,9 +43,11 @@ No special setup required.
 ## Instructions
 1. Start from a class that builds a specific implementation in its constructor — a route planner that constructs a North America road map.
 2. Note what the hard-coding prevents: using the class in any other region, and swapping the dependency in a test.
-3. Change the constructor to accept the dependency as a parameter, typed as the interface it implements (a road map), and store that.
-4. Add a factory function that constructs the class with a sensible default implementation, so the common case stays a one-liner.
-5. Confirm you can now construct the class with a different implementation, and that a test could pass a fake.
+3. Change the constructor to accept the dependency as a parameter, typed as the interface it implements (a road map), and store that. Name a second implementation of that interface concretely, even if you do not write it.
+4. Search the class for any surviving mention of a concrete implementation, including inside its methods, and state the search you ran.
+5. Add a factory function that constructs the class with a sensible default implementation, so the common case stays a one-liner. Confirm it is not the only route to construction.
+6. Construct the class with a different implementation and exercise it.
+7. Write a test that supplies a fake and asserts on something the fake makes observable.
 
 ## Success Check
 - The class is searched for any surviving mention of a concrete implementation and the search is stated. A constructor cleaned while a method still builds one directly passes a reading of the constructor.

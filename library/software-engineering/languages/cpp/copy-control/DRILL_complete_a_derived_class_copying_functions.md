@@ -42,10 +42,13 @@ Copying every local member and invoking the base class's copying function from a
 No special setup required.
 
 ## Instructions
-- Identify which members and base parts the current copying functions fail to copy.
+- Read the class declaration and list which members and base parts the current copying functions fail to copy.
+- Copy an object and show the inherited parts default-initialized rather than copied.
 - In the copy constructor, invoke the base copy constructor in the member initialization list.
 - In the copy assignment operator, call the base class operator= before copying the derived members.
-- Add a new member to the base class and list which copying functions must now change.
+- State what happens instead when each of those two is omitted.
+- State the relationship between the two copying functions, and why neither should be implemented by calling the other.
+- Add a new member to the base class, name every copying function that must now change before consulting the compiler, then consult the compiler and compare the two lists.
 
 ## Success Check
 - The members and base parts the original copying functions miss are listed before the fix, produced by reading the class declaration rather than by reading the copying functions, which is what omitted them in the first place.

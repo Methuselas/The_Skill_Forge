@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from tests that share a configured object in a before-each block or constant — an order with exactly three items — where a case relies on that specific value.
-2. Simulate the hazard: add a fourth item to the shared object (as a new case might) and observe that the "three items" case now silently tests four.
+2. Reproduce the hazard: add a fourth item to the shared object (as a new case might), run the suite, and name the case that now silently tests four while still passing.
 3. Write a helper function that builds the object with case-specific values, and have each case call it with the values that case depends on.
-4. Move any genuinely irrelevant-but-required data (metadata the code ignores) into a shared constant of an immutable type.
-5. Confirm each case now sets up its own outcome-affecting values and that editing one case cannot alter another.
+4. Move any genuinely irrelevant-but-required data (metadata the code ignores) into a shared constant of an immutable type, justifying item by item why each is irrelevant to every outcome.
+5. Read each case alone and ask whether its expected result follows from what that case sets up.
+6. Edit one case in a way that would previously have weakened another, and show the other still passing.
+7. State the cost — a builder called per case, more lines in each test.
 
 ## Success Check
 - The hazard is reproduced by actually adding the fourth item and running the suite, with the now-silently-passing case named. An account of how the shared object could drift describes the condition being removed, not evidence that it was present.

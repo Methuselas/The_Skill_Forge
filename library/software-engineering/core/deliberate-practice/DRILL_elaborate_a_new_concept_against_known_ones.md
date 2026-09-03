@@ -44,11 +44,12 @@ No special setup required. A notebook or scratch file, used at the moment the co
 
 ## Instructions
 1. Write down the new concept and a minimal working example of it.
-2. List every concept it makes you think of, without filtering.
-3. For each related concept, answer in writing: why does the new one remind me of this? Does it share syntax? Is it used in a similar context? Is it an alternative to something I already use?
-4. Write as many alternative ways as you can to achieve the same result — other constructs, other idioms, the longhand version.
+2. List every concept it makes you think of, without filtering. Leave on the page the ones you later judge irrelevant.
+3. For each related concept, answer in writing: why does the new one remind me of this? Does it share syntax? Is it used in a similar context? Is it an alternative to something I already use? State explicitly what the concept is an alternative to.
+4. Write out as code as many alternative ways as you can to achieve the same result — other constructs, other idioms, the longhand version.
 5. Ask whether other languages you know have this concept, write an example in each, and note how they differ.
 6. Name the paradigm, domain, library, or framework the concept belongs to.
+7. A week later, reconstruct the concept from the written connections alone and record what that check produced.
 
 ## Success Check
 - The related concepts are collected without filtering, and the ones later judged irrelevant stay on the page. Pruning during collection removes exactly the associations that were doing the elaborating.

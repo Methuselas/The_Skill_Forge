@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Pick a class that nominally does one thing but internally solves several subproblems — for example a text summarizer that splits paragraphs, extracts nouns/verbs/adjectives, and computes an importance score.
-2. List the separable subproblems it contains.
+2. Before changing anything, list the separable subproblems it contains, writing each one as its own inputs and outputs rather than as a region of the file.
 3. For each pillar — readable, modular, reusable, testable — write one concrete way the current class fails it (can't swap the scorer; can't reuse paragraph-splitting; can't test the scoring logic without exposing internals).
 4. Extract each subproblem into its own class (a paragraph finder, an importance scorer) and pass those into the original class through its constructor.
-5. Re-check the pillars: confirm the top class now reads as a few steps, each subproblem class is independently testable, and a subproblem is now reusable elsewhere.
+5. Re-check the four pillars, answering each earlier failure by naming the capability that now exists.
+6. Call one extracted class from code unrelated to the original, or state the specific reason none can be.
+7. Read the top class again and name any real work still inside it, along with why it stayed.
 
 ## Success Check
 - The subproblems are listed before any extraction, each stated as something with its own inputs and outputs rather than as a region of the file. A list produced by reading the method top to bottom reproduces the structure that is already there and finds nothing.

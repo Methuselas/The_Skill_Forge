@@ -42,9 +42,12 @@ Statement ordering and copy-and-swap for a safe resource-owning copy assignment 
 No special setup required.
 
 ## Instructions
-- Reproduce the naive version and trace what happens when the same object is assigned to itself.
+- Reproduce the naive version, execute a self-assignment against it, and record the resulting state — the resource released and then read.
 - Rewrite it to copy first: save the original pointer, allocate the new copy, then delete the original; return a reference to *this.
-- Rewrite it a second time using copy-and-swap, and compare readability and efficiency.
+- State the property that makes an identity test unnecessary in that version: the ordering rather than a guard is what makes it safe.
+- Simulate an allocation failure and show the original object unchanged.
+- Exercise chaining through the returned reference.
+- Rewrite it a second time using copy-and-swap, and compare readability and efficiency, pricing the extra copy rather than waving past it.
 
 ## Success Check
 - Self-assignment is executed against the naive version and the resulting state recorded, with the resource released and then read. Reasoning about this correctly is common; producing it is what dislodges the belief that an identity check is the fix.

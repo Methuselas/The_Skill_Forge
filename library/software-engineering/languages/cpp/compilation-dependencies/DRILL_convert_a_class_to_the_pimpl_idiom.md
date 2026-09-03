@@ -44,8 +44,10 @@ No special setup required.
 ## Instructions
 - Move the data members into a forward-declared `PersonImpl` class defined in a separate file.
 - Give `Person` a single smart pointer to `PersonImpl` and forward each member function to it.
-- Replace definition includes in the header with forward declarations where possible, and include declaration-only headers for the types used in the interface.
-- Confirm that changing `PersonImpl` no longer forces clients of `Person` to recompile.
+- Define `Person`'s destructor in the implementation file, and say why it cannot be implicitly generated in the header when the pointee is incomplete.
+- Replace definition includes in the header with forward declarations where possible, and include declaration-only headers for the types used in the interface. Justify every include that remains as declaration-only or as a type the interface uses by value, and record any you kept only because removing it broke the build.
+- Change `PersonImpl`, run the build, and record what actually rebuilt.
+- Name the costs — one indirection per call, one allocation per object, and a forwarding function per member to keep in step — and state what the forwarding silently removed: inlining across the boundary, and any member that used to be usable in a constant expression.
 
 ## Success Check
 - Every include remaining in the header is justified as declaration-only, or as a type the interface uses by value. An include kept because removing it broke the build is the coupling this drill removes, and it is recorded rather than tolerated.

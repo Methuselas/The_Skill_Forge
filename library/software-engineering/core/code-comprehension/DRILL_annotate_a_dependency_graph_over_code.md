@@ -52,10 +52,14 @@ The code printed on paper, or as a PDF on a tablet you can annotate. Three pen c
 1. Circle every variable.
 2. Draw a line between occurrences of the same variable. Where it helps, link related accesses too, such as `customers[0]` and `customers[i]`.
 3. Circle every method and function call in a second colour.
-4. Draw a line from each definition to each place it is invoked. Pay attention to any method invoked exactly once — that one is a candidate for inlining.
+4. Draw a line from each definition to each place it is invoked.
 5. Circle every instance of a class in a third colour.
 6. Link class instances to their definition, or to each other when the definition is not on the page.
-7. Read the code from an entry point such as `main()`, following your own lines whenever you hit a call or an instantiation.
+7. Record anything you deliberately skipped while circling and linking.
+8. Before working out what the code computes, name the data flow from the shape of the lines alone and write it down.
+9. Read the code from an entry point such as `main()`, following your own drawn lines only, and note every moment you searched the file instead of following a line.
+10. Name at least one method invoked exactly once, and say whether inlining it is right here.
+11. Identify the densest region of lines and compare it against where reading was actually hardest.
 
 ## Success Check
 - Variables, calls, and class instances are each circled in their own distinguishable colour before any line is drawn, and anything deliberately skipped is recorded. A gap left silently reads afterwards as an absence of dependency.

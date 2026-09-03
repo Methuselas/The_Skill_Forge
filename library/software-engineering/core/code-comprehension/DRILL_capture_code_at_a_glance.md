@@ -41,12 +41,14 @@ Using a brief first look to notice nesting, whitespace, standout lines, gaps, an
 Choose about half a printed page of code in a familiar language. A paper copy or a view that can be hidden instantly works best.
 
 ## Instructions
-1. Look at the code for only a few seconds; do not trace expressions or follow calls.
+1. Fix the length of the glance in advance and state it. Look at the code for that long only; do not trace expressions or follow calls.
 2. Hide the code completely.
 3. Sketch the nesting shape and the relative size of its major blocks.
 4. Note whether whitespace separates sections, whether any line stood out, and whether the page contained gaps or dense blobs.
-5. Reveal the code and mark observations that were accurate, missing, or invented.
-6. Repeat with a second snippet, keeping the glance equally brief.
+5. Reveal the code and mark observations that were accurate, missing, or invented, writing the invented ones out in full. Leave the sketch itself unrevised.
+6. Check a whitespace or density observation against the original.
+7. Repeat steps 1 to 6 with a second snippet, glancing for the same stated duration.
+8. Compare the two runs, naming what changed about where your attention went as well as how much you captured.
 
 ## Success Check
 - The sketch is made with the code hidden and is not revised after revealing it. A sketch corrected against the original measures nothing, and correcting it is the easiest way to spend this exercise without running it.

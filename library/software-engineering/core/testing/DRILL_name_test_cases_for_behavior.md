@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from a single catch-all test case that exercises multiple behaviors under one vague name.
-2. List the distinct behaviors it covers.
+2. List the distinct behaviors it covers, phrasing each as a claim that could be false.
 3. Split it into one case per behavior, each named for the specific behavior it locks in (such as a suffix describing the expected property).
-4. Improve each assertion so a failure message states what is wrong — for an ordering behavior, report that contents match but order differs rather than dumping raw values.
-5. Deliberately break one behavior and confirm exactly one well-named case fails with a clear message.
+4. Read the names alone and predict what each one locks in, without opening the bodies.
+5. Improve each assertion so a failure message states what is wrong — for an ordering behavior, report that contents match but order differs rather than dumping raw values.
+6. Deliberately break one behavior, run the suite, and record which case failed and the message it produced.
+7. Check the opposite failure: names long enough to restate the assertion, which help nobody reading a list of failures.
 
 ## Success Check
 - The behaviours are listed before the split, each phrased as a claim that could be false. A list of the things the old case happens to touch reproduces the old case under new headings.

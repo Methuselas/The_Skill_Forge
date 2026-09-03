@@ -43,9 +43,11 @@ No special setup required.
 
 ## Instructions
 - Add a `const` overload of `operator[]` returning `const char&` and a non-const overload returning `char&`.
-- Implement the non-const overload in terms of the const one: `static_cast` `*this` to `const`, call the const overload, then `const_cast` the const off the returned reference.
-- Add a `length() const` that caches its result, and make the cache members `mutable` so it compiles.
-- Mark every parameter and local that never changes `const`.
+- Implement the non-const overload in terms of the const one: `static_cast` `*this` to `const`, call the const overload, then `const_cast` the const off the returned reference. State how many copies of the bounds check and the return logic now exist.
+- Check the direction of the cast pair and say why the reverse — a const member calling the non-const version — is unsafe.
+- Add a `length() const` that caches its result, and make the cache members `mutable` so it compiles. State what that concedes: the object now changes while logically constant, which is a claim about thread safety.
+- Construct a const object and compile both outcomes — a read-only member succeeding, a write through it rejected — recording the compiler's message.
+- Mark every parameter and local that never changes `const`, separating the ones where this changes the interface from the ones that are only a note to the reader.
 
 ## Success Check
 - A const object is constructed and both outcomes are compiled: the read-only members succeed and a write through it is rejected, with the compiler's message recorded.

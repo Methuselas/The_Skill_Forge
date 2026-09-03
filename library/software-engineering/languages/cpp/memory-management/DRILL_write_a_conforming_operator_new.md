@@ -42,10 +42,11 @@ Implementing the new-handler loop, zero-byte handling, and wrong-size forwarding
 No special setup required.
 
 ## Instructions
-- In operator new, loop: attempt allocation, call the current new-handler on failure, and throw bad_alloc only when the handler pointer is null.
-- Handle a zero-byte request, and forward any request whose size is not the class size to the global operator new.
-- In operator delete, return immediately on a null pointer and forward wrong-sized blocks to the global operator delete.
-- Give the class (used as a base) a virtual destructor so operator delete receives the correct size.
+- In operator new, loop: attempt allocation, call the current new-handler on failure, and throw bad_alloc only when the handler pointer is null. Account for each way the loop ends — allocation succeeding, the handler being null, or a throw.
+- Handle a zero-byte request, exercise it, and say what it was turned into.
+- Forward any request whose size is not the class size to the global operator new, and exercise a wrong-sized request showing it reach the global version.
+- In operator delete, return immediately on a null pointer and forward wrong-sized blocks to the global operator delete. Call it with a null pointer and with a wrong-sized block, and show both safe.
+- Give the class (used as a base) a virtual destructor so operator delete receives the correct size, and state the consequence when it is not virtual: the size handed to the delete is wrong, which routes a valid block to the global version and corrupts the accounting without any visible failure.
 
 ## Success Check
 - The loop is checked for what ends it: allocation succeeding, the handler being null, or a throw. Each pass is accounted for, because a loop that spins forever once the handler stops freeing memory is the defect this shape is prone to.

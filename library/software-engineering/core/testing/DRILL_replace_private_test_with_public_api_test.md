@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Start from a class with a private helper made "visible only for testing" and a test that calls the helper directly.
-2. Name the behavior that actually matters (an application is rejected for a bad credit rating), distinct from the helper's return value.
-3. Rewrite the test to trigger and verify that behavior through the public entry function, and remove the helper's added visibility.
-4. If testing through the public API feels infeasible because the class does too much, extract the complex subproblem into its own class with its own public API.
-5. Confirm the behavior test passes, would fail if the entry function stopped calling the helper, and survives renaming the helper.
+2. Write the behavior that actually matters as a sentence about the caller's outcome (an application is rejected for a bad credit rating), without mentioning the helper.
+3. Rewrite the test to trigger and verify that behavior through the public entry function, remove the helper's added visibility, and confirm the code still compiles.
+4. If testing through the public API feels infeasible because the class does too much, extract the complex subproblem into its own class with its own public API, write out that class's public surface, and run the remaining steps against it.
+5. Break the link — make the entry function stop using the helper correctly — and show the test failing.
+6. Restore the link, rename the helper, and confirm the test still passes untouched.
 
 ## Success Check
 - The behaviour that matters is written as a sentence about the caller's outcome, before any rewrite, and it does not mention the helper.

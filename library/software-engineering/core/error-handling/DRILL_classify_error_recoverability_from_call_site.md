@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Pick a function that can fail on bad input — for example one that parses a phone number and errors on an invalid string.
-2. Write two or more call sites: one passing a hard-coded literal, one passing user-supplied input, and if you like one passing a value from another system.
-3. For each call site, decide whether the failure is recoverable (external cause the system should handle gracefully) or unrecoverable (a programming mistake).
+2. Write at least three call sites as code: one passing a hard-coded literal, one passing user-supplied input, and one passing a value from this system's own storage, which may have been written by an earlier version, a migration, or another process.
+3. For each call site, name the origin of its value and decide whether the failure is recoverable (external cause the system should handle gracefully) or unrecoverable (a programming mistake).
 4. Justify each decision by where the value originates and whether any caller could sensibly act on the failure.
-5. State what the function's author should therefore assume, given they cannot see all call sites — and note the rare exception where the contract makes the input obviously invalid and cheaply checkable.
+5. State what the function's author should therefore assume, given they cannot see all call sites, as a consequence of that ignorance rather than as a preference, and name the signalling technique that expresses it.
+6. Bound the rare exception where the contract makes the input obviously invalid and cheaply checkable: give a condition under which failing loudly is fair, together with a case that resembles it and is not.
+7. State what changes when this function ships as a library, since its author has strictly less call-site knowledge and the same default therefore binds harder.
 
 ## Success Check
 - Each call site is written as code and labelled, with the origin of its value named. A verdict without the origin cannot be checked by anyone else.

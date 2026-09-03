@@ -44,9 +44,11 @@ No special setup required. Paper or a scratch file. If you have already drawn a 
 ## Instructions
 1. List every variable in the code.
 2. Give each variable its own column.
-3. Add one row per distinct part of the execution. A row is usually one loop iteration, with an initialisation row before it; it can also be a branch of a large conditional, a coherent group of lines, or — in genuinely terse code — a single line.
-4. Work through the code and write the value of *every* variable in each row, including the ones that did not change.
-5. On a second read of the program, use the completed table as a reference so you can attend to what the code means rather than to what the numbers are.
+3. Fix the rule for what one row represents before filling anything, and apply that rule throughout. A row is usually one loop iteration, with an initialisation row before it; it can also be a branch of a large conditional, a coherent group of lines, or — in genuinely terse code — a single line.
+4. Work through the code and write the value of *every* variable in each row, including the ones that did not change. Mark any value that comes out surprising.
+5. Check the finished table for gaps before using it.
+6. Read off the table which variables drive the computation and which are carried along unchanged.
+7. On a second read of the program, use the completed table as a reference and write down what the code is for, rather than a restatement of the arithmetic the table already holds.
 
 ## Success Check
 - Every cell is filled, unchanged values included, and the table is checked for gaps before it is used. A table with holes cannot serve as the reference it was built to be.

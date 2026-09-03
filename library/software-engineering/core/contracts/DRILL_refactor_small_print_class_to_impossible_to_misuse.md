@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from a class that requires callers to construct it, then call setup functions in a specific order before use, with a comment warning them to do so.
-2. Add a static factory function that performs the setup internally and returns only a fully valid instance, signaling setup failure through its return.
+2. Add a static factory function that performs the setup internally and returns only a fully valid instance, signaling setup failure through its return. State what a caller who ignores that signal receives.
 3. Make the constructor private so callers must go through the factory.
-4. Make every state-changing setup function private so external code cannot reach a half-built state.
-5. Remove any overloaded return meanings that only existed to signal an invalid state, and re-read the contract to confirm the small print is gone.
+4. Attempt to construct an invalid instance from outside the class and record the compiler's rejection.
+5. Make every state-changing setup function private so external code cannot reach a half-built state. List the public surface after the change and check each member against whether it can produce a half-built state.
+6. Remove any overloaded return meanings that only existed to signal an invalid state, naming each one along with what now carries that information instead.
+7. Re-read the contract and state whatever small print remains.
 
 ## Success Check
 - Constructing an invalid instance from outside the class is attempted and fails to compile, with the rejection recorded. Privacy read off the declaration is not the same as having tried it.

@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Start from a function that special-cases one enum value and implicitly treats the rest — for example returning false for `COMPANY_WILL_GO_BUST` and true otherwise.
-2. Rewrite it as a switch with an explicit case for every current value, and a throw of an unchecked exception placed after the switch, not in a default case.
-3. Add a unit test that calls the function once for every value returned by the enum's values list.
-4. Add a new value to the enum and confirm the test fails (and, in a language that warns on non-exhaustive switches, that the compiler warns) rather than the code silently mishandling it.
-5. Handle the new value explicitly and confirm the test passes again, adding a case that asserts its intended result.
+2. Take the list of values from the enum's own declaration, and write down that this is where the list came from.
+3. Rewrite the function as a switch with an explicit case for every value on that list, and a throw of an unchecked exception placed after the switch, not in a default case. State the reason for putting it after the switch.
+4. Add a unit test that calls the function once for every value returned by the enum's values list.
+5. Add a new value to the enum, run the test, and record the failure (and, in a language that warns on non-exhaustive switches, the compiler's warning).
+6. Handle the new value explicitly, adding a case that asserts its intended result, and state that result's reason. Run the test again and confirm it passes.
 
 ## Success Check
 - Every current value has its own branch, and the list of values came from the enum's declaration rather than from the branches already written. Enumerating from what the code handles today reproduces the original omission exactly.

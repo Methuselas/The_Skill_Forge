@@ -47,10 +47,10 @@ Cards or a spaced-repetition app, and a piece of code you are currently finding 
 ## Instructions
 1. Put the name of a mental model on the prompt side and a brief explanation or a visualization on the back.
 2. Append to the back of each card the questions you would have to answer to apply the model. For a tree: what pieces of code are the leaves, what are the nodes, what are the edges? For a state table: what are the variables?
-3. Seed the deck from the categories that are generally worth holding regardless of your stack — data structures such as directed and undirected graphs and the various forms of list; design patterns such as observer; architectural patterns such as Model–View–Controller; diagrams such as entity relationship and sequence diagrams; and modeling tools such as state diagrams and Petri nets.
+3. Seed the deck from the categories that are generally worth holding regardless of your stack — data structures such as directed and undirected graphs and the various forms of list; design patterns such as observer; architectural patterns such as Model–View–Controller; diagrams such as entity relationship and sequence diagrams; and modeling tools such as state diagrams and Petri nets. Name any category you deliberately leave out, with the reason.
 4. Add the models specific to your situation, since which ones matter depends on your domain, language, and architecture.
-5. Practise it the same way as a syntax deck: read the prompt, produce the explanation, then check. Add a card whenever you meet a pattern you did not recognize.
-6. Use the second mode when you are stuck. Go through the deck and ask of each card whether it might apply to the code in front of you — "can I think of this code in the form of a tree?" — and when one plausibly fits, use its appended questions to start building the model.
+5. Practise it the same way as a syntax deck: read the prompt, write the explanation out, then turn the card and check. Add a card whenever you meet a pattern you did not recognize, and note that origin on the card.
+6. Use the second mode when you are stuck. Run the deck against code you are actually stuck on, asking of each card whether it might apply — "can I think of this code in the form of a tree?" — and record the candidate framing the sweep produced, including when it produced none. Where one plausibly fits, use its appended questions to start building the model.
 7. Build the deck with your team where you can, so the vocabulary is shared.
 
 ## Success Check

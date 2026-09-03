@@ -42,10 +42,11 @@ Providing a member swap, a namespace non-member swap, and a std::swap specializa
 No special setup required.
 
 ## Instructions
-- Add a public member swap that exchanges the two internal pointers and cannot throw.
-- Add a non-member swap in Widget's namespace that calls the member.
-- For this non-template class, totally specialize std::swap to call the member.
-- Write a client that does `using std::swap;` then calls swap unqualified, and confirm the Widget-specific version is chosen.
+- Add a public member swap that exchanges the two internal pointers and cannot throw, and confirm the pointed-to data was never touched.
+- Argue the no-throw property from what the member actually does, and state what would break it.
+- Add a non-member swap in Widget's namespace that calls the member, and say why the non-member in the class's own namespace is what makes an unqualified call work.
+- For this non-template class, totally specialize std::swap to call the member. Check that the total specialization is legal here because this is a non-template class, and state what the answer would be for a class template instead.
+- Write a client that does `using std::swap;` then calls swap unqualified, exactly as clients write it. Exercise both call forms and show each reaching the fast version.
 
 ## Success Check
 - The member swap is confirmed to exchange only the pointers, checked by observing that the pointed-to data was never touched.

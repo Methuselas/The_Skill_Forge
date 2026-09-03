@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from a class with a method that operates on another class's parts — a book computing a chapter's word count from the chapter's prelude and sections.
-2. Circle the chained access into the other object's internals (getting a chapter's prelude and calling word count on it) as the Law-of-Demeter smell.
-3. Move the logic onto the class it concerns: give the chapter a `wordCount()` member function that sums its own parts.
-4. Update the original class to call the new high-level method and drop its knowledge of the other class's structure.
-5. Simulate a requirement change (chapters gain a summary) and confirm only the chapter class needs editing.
+2. Quote the chained access verbatim before moving anything, and name separately each part of the other object it reaches into. This is the Law-of-Demeter smell.
+3. Count how many distinct members the method touches on the other class.
+4. Move the logic onto the class it concerns: give the chapter a `wordCount()` member function that sums its own parts. Write out the relocated method's parameter list and confirm nothing in it belongs to the class it left.
+5. Update the original class to call the new high-level method and drop its knowledge of the other class's structure. Count the distinct members the former caller now touches.
+6. Search the original class for a surviving copy of the moved logic and state the result of that search.
+7. Apply a requirement change — chapters gain a summary — and list the classes you actually had to edit.
 
 ## Success Check
 - The chained access is quoted verbatim before the move, and each part of the other object it reaches into is named separately. A general observation that the method knows too much cannot be compared against the after-state.

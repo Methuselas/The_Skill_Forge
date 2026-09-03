@@ -42,10 +42,13 @@ No special setup required.
 
 ## Instructions
 1. Start from a test that locks in implementation details — it exposes private functions, manipulates private member variables, or asserts on internal state.
-2. Identify the actual behavior a caller cares about (the return value or resulting state), separate from how the code achieves it.
-3. Rewrite the test to arrange and assert only through the public API, checking the behavior rather than the mechanism.
-4. Perform a behavior-preserving refactoring of the code under test (rename internals, split a function) and run the tests.
-5. Confirm the rewritten test still passes untouched, while the original would have failed and needed edits.
+2. List the implementation details the original test depends on, before changing it.
+3. Identify the actual behavior a caller cares about (the return value or resulting state), separate from how the code achieves it.
+4. Rewrite the test to arrange and assert only through the public API, checking the behavior rather than the mechanism.
+5. Search the rewritten test for any reference to a non-public member and state the result of that search.
+6. Perform a behavior-preserving refactoring of the code under test (rename internals, split a function) and run the tests untouched.
+7. Then change a behavior and show the test failing.
+8. Name what coverage, if any, was lost in moving to the public surface.
 
 ## Success Check
 - The implementation details the original test depends on are listed before the rewrite, so what is being given up is visible rather than implied.

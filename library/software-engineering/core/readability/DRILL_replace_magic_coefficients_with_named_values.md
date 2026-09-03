@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Start from a calculation with bare coefficients — for example kinetic energy using `907.1847` to convert US tons to kilograms and `0.44704` to convert MPH to meters per second.
-2. Identify what each literal means and where the same assumption might be encoded elsewhere.
-3. Rewrite once using well-named constants (`KILOGRAMS_PER_US_TON`, `METERS_PER_SECOND_PER_MPH`) placed near the code that uses them.
-4. Rewrite again using functions — a provider function returning the coefficient, and a conversion helper (`usTonsToKilograms`) that hides the value entirely — and compare which reads best.
-5. Simulate a related change (switch the mass input from tons to kilograms) and check that the named version makes the now-wrong conversion obvious.
+2. Identify what each literal means, then search the codebase for the literal itself and state where else the same assumption is encoded.
+3. Rewrite once using well-named constants (`KILOGRAMS_PER_US_TON`, `METERS_PER_SECOND_PER_MPH`) placed near the code that uses them, each name stating what it converts from and to.
+4. Rewrite again two more ways — a provider function returning the coefficient, and a conversion helper (`usTonsToKilograms`) that hides the value entirely — so all three forms exist as written code.
+5. Apply a related change (switch the mass input from tons to kilograms) to each of the three forms in turn, and record for each the moment the now-wrong conversion becomes visible.
+6. Name which form you would ship and what it costs — a helper per conversion, an extra call, another name to maintain.
 
 ## Success Check
 - No unexplained literal remains, and each name states a unit relationship — what it converts from and to — rather than restating the number.

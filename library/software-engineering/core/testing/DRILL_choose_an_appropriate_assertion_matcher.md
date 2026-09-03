@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Start from a test verifying that a result contains certain items, where the result's order is documented as not guaranteed.
-2. Try a full-equality assertion and note two problems: it also checks items the case does not care about, and it will fail if the unspecified order changes.
-3. Try a bare boolean contains-check and note the new problem: a failure message says only that something expected to be true was false, explaining nothing.
-4. Rewrite with a contains-at-least matcher that asserts the required items are present regardless of order.
-5. Force a failure by removing one required item and confirm the message names the missing entry.
+2. Write and run a full-equality assertion, then demonstrate its two problems separately: once by adding content the case does not care about, and once by reordering the unguaranteed sequence and watching the test fail.
+3. Write and run a bare boolean contains-check, and record its failure message verbatim.
+4. Rewrite with a contains-at-least matcher that asserts the required items are present regardless of order, and run it.
+5. Force a failure by removing one required item and record the message, confirming it names the missing entry.
+6. State what the final assertion no longer checks, compared with full equality.
 
 ## Success Check
 - All three assertion forms are written and run rather than one written and two described. The comparison is the drill, and it does not survive being imagined.

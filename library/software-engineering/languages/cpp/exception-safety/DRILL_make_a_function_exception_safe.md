@@ -42,10 +42,11 @@ Removing resource leaks and data corruption, then offering the strongest practic
 No special setup required.
 
 ## Instructions
-- Identify the resource leak (the mutex stays held if constructing the new image throws) and the corruption (a dangling image pointer and a counter bumped for a change that did not happen).
-- Replace the manual lock and unlock with a lock-guard RAII object.
-- Hold the image in a smart pointer and reset it so the old image is deleted only after the new one is constructed; increment the counter only after the change.
-- For the strong guarantee, restructure with copy-and-swap over a pimpl, and note what still prevents it (the input-stream parameter's side effect).
+- Demonstrate both defects separately before any fix: make constructing the new image throw and show the mutex still held, and show the counter recording a change that did not happen.
+- Replace the manual lock and unlock with a lock-guard RAII object, and confirm no path leaves the function without releasing — early returns included, not only the throw.
+- Hold the image in a smart pointer and reset it so the old image is deleted only after the new one is constructed; increment the counter only after the change. State the ordering as the mechanism: a throw at any point leaves the earlier state intact.
+- Name the guarantee actually reached, basic or strong.
+- For the strong guarantee, restructure with copy-and-swap over a pimpl, and identify concretely what still prevents it — the input-stream parameter's side effect cannot be undone — then state the guarantee this interface can support.
 
 ## Success Check
 - Both defects are demonstrated separately before any fix — the lock still held after a throw, and the counter recording a change that did not happen. Naming them from the source is the setup rather than the result.

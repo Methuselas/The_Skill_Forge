@@ -42,10 +42,11 @@ Testing an inheritance link for true substitutability and replacing a false is-a
 No special setup required.
 
 ## Instructions
-- State a base operation or invariant that the derived class cannot honor: a list allows duplicates a Set must reject, or `makeBigger` changes a rectangle's width independently of height, which a square cannot allow.
-- Confirm the substitutability test fails: the derived object is not usable everywhere the base is.
-- Remodel with composition: give `Set` a private `list` member and forward member/insert/remove/size to it, exposing only the Set interface.
-- Verify the new type enforces its own contract (no duplicates) rather than inheriting the base's.
+- Write, as code that compiles against the inheritance version, a base operation or invariant the derived class cannot honor: a list allows duplicates a Set must reject, or `makeBigger` changes a rectangle's width independently of height, which a square cannot allow. Run it and record the wrong result.
+- Fail substitutability in practice: pass the derived object where the base is expected and observe the breakage.
+- Remodel with composition: give `Set` a private `list` member and forward member/insert/remove/size to it, exposing only the Set interface. Enumerate the forwarded members with a reason for each, and name any member deliberately not forwarded.
+- List the new type's public surface and confirm the base's interface is absent from it.
+- Exercise the new type's own contract against the case that broke before and show it holds.
 
 ## Success Check
 - The broken operation is written as code that compiles against the inheritance version and produces a wrong result when run. A stated invariant violation is the argument; the failing call is the evidence.

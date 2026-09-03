@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from code that uses a general type for a specific concept — a location as a list of two doubles, and a collection of locations as a list of lists of doubles.
-2. List the misuses it allows: the type explains nothing, latitude and longitude can be swapped, and a list with the wrong number of values still compiles.
+2. Write each misuse it allows as code that compiles today: the type explains nothing, latitude and longitude can be swapped, and a list with the wrong number of values still compiles.
 3. Define a small dedicated type — a class with named latitude and longitude fields.
-4. Change the function signatures to take the dedicated type, and update callers.
-5. Try to reproduce the earlier misuses and confirm they now fail to compile or are impossible, and that the documentation explaining the shape is no longer needed.
+4. Change the function signatures to take the dedicated type, and update callers. Search for any surviving positional access and report the result of that search.
+5. Retry each earlier misuse, record the rejections, and say for each whether it now fails to compile or has merely become unlikely.
+6. Delete the documentation that existed only to explain the shape.
+7. Name the cost: a type to define and maintain, and conversions at every boundary where these values arrive as raw numbers anyway.
 
 ## Success Check
 - Each misuse the general type permits is written as code that compiles today, before the dedicated type exists.

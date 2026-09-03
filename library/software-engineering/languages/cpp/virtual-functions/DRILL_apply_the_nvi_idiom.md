@@ -46,9 +46,11 @@ No special setup required.
 ## Instructions
 - Make `healthValue` a public non-virtual function and add a private virtual `doHealthValue` that does the real work.
 - Have the wrapper call the private virtual, adding before-work (check invariants and preconditions) and after-work (verify postconditions).
-- Decide whether the wrapper may also hold a lock across the dispatch, and write down which case you are in: it may where every override lives in this component and its locking is visible to you, and it may not where an override could be supplied by a caller.
-- Override `doHealthValue` in a derived class and confirm the wrapper's context still runs around it.
-- Note when the virtual must be protected instead of private (when overrides call the base version).
+- Decide whether the wrapper may also hold a lock across the dispatch, and write down which case you are in: it may where every override lives in this component and its locking is visible to you, and it may not where an override could be supplied by a caller. Where it does hold one, enumerate every override that can run under it.
+- Override `doHealthValue` in a derived class and observe the wrapper's before-work and after-work running around it.
+- Attempt both wrong forms — a client calling the virtual, a derived class overriding the wrapper — and record the compiler's rejections.
+- Decide the virtual's access level against whether overrides call the base version, stating the reason rather than taking the default.
+- Name what the idiom costs — an extra function per customization point and a pair of names to keep aligned.
 
 ## Success Check
 - Clients can call only the wrapper and derived classes can override only the virtual, checked by attempting both wrong forms and recording the compiler's rejections.

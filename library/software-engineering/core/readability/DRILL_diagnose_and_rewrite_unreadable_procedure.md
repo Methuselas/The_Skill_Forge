@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Take a procedure written as a single unstructured paragraph with vague labels — for example, a recipe that calls its bowls "A," "B," and "C," gives no title, and mentions a precondition like "preheat the oven" only at the very end.
-2. Read it once and try to answer three questions: what is this about, what do you end up with, and what inputs and quantities are needed. Note exactly where you had to struggle or re-read.
-3. Write down each specific defect: missing title, wall-of-text instead of ordered steps, vague labels, and information placed far from where it is used.
+2. Read it once and try to answer three questions: what is this about, what do you end up with, and what inputs and quantities are needed. Record each struggle or re-reading as it happens rather than afterwards.
+3. Write down each specific defect and where it sits: missing title, wall-of-text instead of ordered steps, vague labels, and information placed far from where it is used.
 4. Rewrite it: add a title, break it into ordered steps, replace each vague label with a role-describing name, and move every quantity and precondition next to where it is used.
-5. Re-read your version and confirm the three questions are now answerable on a skim.
+5. Walk the rewritten steps in order and confirm nothing is required before it appears.
+6. Skim your version rather than reading it, and write down what the skim produced for each of the three questions.
+7. Check the rewrite for the opposite failure: steps split so finely the shape is lost, or names so long the sequence is harder to scan than the paragraph was.
 
 ## Success Check
 - The three questions are attempted against the original and the struggles recorded as they happen. Noted afterwards they become a tidy list of defects rather than a record of reading.

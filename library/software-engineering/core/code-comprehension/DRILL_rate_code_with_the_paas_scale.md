@@ -45,12 +45,13 @@ Noticing which specific properties of code drive your own cognitive load, rather
 A piece of code you have not read before, and the nine-point scale with a second column for reasons. No instruments — the point of this drill is that you do not need any.
 
 ## Instructions
-1. Pick code you have not read before. Familiar code will not produce a useful rating, since most of the load has already been paid.
+1. Pick code you have not read before, and state that it is unfamiliar. Familiar code will not produce a useful rating, since most of the load has already been paid.
 2. Read it until you could explain what it does.
-3. Rate the mental effort on the Paas Scale's nine points, from very, very low mental effort through neither high nor low to very, very high mental effort.
-4. In the second column, write *why* — the part the bare rating cannot carry. Was it a long parameter list, an unfamiliar construct, information spread across files, a name that turned out to mean something else?
-5. Repeat across several pieces of code over time and read your reasons back together. The individual ratings matter less than the pattern in what keeps driving them up.
-6. Where a reason names a specific smell or a name-behaviour contradiction, route it to the matching diagnosis rather than leaving it as a feeling.
+3. Record a rating of the mental effort on the Paas Scale's nine points, from very, very low mental effort through neither high nor low to very, very high mental effort. Write the number down before writing anything else.
+4. In the second column, write *why* — the part the bare rating cannot carry. Was it a long parameter list, an unfamiliar construct, information spread across files, a name that turned out to mean something else? Where a reason names only a state of the reader rather than something about the code, mark it as such.
+5. Separate the load coming from the problem from the load coming from how the code was written, and identify one case of each.
+6. Repeat across several pieces of code over time and read your reasons back together, naming any driver that recurs. The individual ratings matter less than the pattern in what keeps driving them up.
+7. Where a reason names a specific smell or a name-behaviour contradiction, route it to the matching diagnosis rather than leaving it as a feeling.
 
 ## Success Check
 - The code was genuinely unfamiliar and this is stated. A rating on code already read measures recall, and the scale cannot tell the two apart.

@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Start from a subclass that extends a utility class to reuse it — an integer reader extending a comma-separated file handler.
-2. Write out the subclass's effective public API, including everything inherited, and note the strange functions it exposes (reading raw strings, writing values).
-3. Identify the interface that captures only what you need from the superclass (a file value reader).
-4. Refactor: have the class hold an injected instance of that interface instead of extending the class, and forward only the functions callers need (such as close).
-5. Support a sibling requirement — a semicolon-separated format — by injecting a different implementation, and confirm no duplicate class was needed.
+2. Write out the subclass's effective public API in full, including everything inherited, and note the strange functions it exposes (reading raw strings, writing values).
+3. Identify the interface that captures only what you need from the superclass (a file value reader), and find a call site for every member you put on it.
+4. Refactor: have the class hold an injected instance of that interface instead of extending the class, and forward only the functions callers need (such as close). Enumerate the forwarded functions with a reason for each.
+5. Support a sibling requirement — a semicolon-separated format — by injecting a different implementation and running it, with no subclass added.
+6. Write out the new public surface, compare it against the one from step 2, and list the members that were removed.
 
 ## Success Check
 - The subclass's effective public surface is written out in full, inherited members included, before the change. That list is the finding — the strange functions do not appear in the subclass's own source, which is exactly why the problem survives review.

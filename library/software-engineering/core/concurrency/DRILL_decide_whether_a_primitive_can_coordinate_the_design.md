@@ -43,9 +43,9 @@ Ruling a nonblocking design in or out from its primitives, before effort is spen
 Scope all three designs at the same stated thread count: eight threads may be inside the structure at once. The drill compares a required-agreement count against a primitive's ceiling and supplies only the ceiling side otherwise — and the verdict genuinely moves with the count, since a design built on exchange is correctly ruled in at two threads and correctly ruled out at eight. Fixing the number is what makes two runs of this drill comparable.
 
 ## Instructions
-1. For each design, state how many threads must agree on a single outcome. Distinguish that from how many threads merely touch the structure, which is a different and usually larger number. The answer may be none; if you reach none, say which property of the design produced it.
+1. For each design, state how many threads must agree on a single outcome, and name the outcome they contend for. Distinguish that from how many threads merely touch the structure, which is a different and usually larger number. The answer may be none; if you reach none, say which property of the design produced it.
 2. Name the strongest primitive each design relies on, and place it: plain reads and writes, an unconditional read-modify-write, or a conditional update.
-3. Rule each design in or out. Where the primitive is below the required thread count, say so and stop — the design is impossible rather than difficult.
+3. Rule each design in or out. Where the primitive is below the required thread count, name the design, write down the two numbers you compared — required agreement against the primitive's ceiling — and state the verdict as impossibility rather than difficulty.
 4. For any design ruled out, write the two available responses: move to a stronger primitive, or accept a blocking implementation. Choose one and say why.
 5. For any design ruled in, state in your own words what the verdict licenses about the effort still ahead, and what it does not.
 6. Repeat the test on an object rather than an instruction: decide whether a concurrent queue could be built wait-free from plain registers, and give the reason without examining any attempt.

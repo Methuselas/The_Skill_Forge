@@ -42,10 +42,12 @@ Turning on the compiler's search of a templatized base class for an inherited na
 No special setup required.
 
 ## Instructions
-- Reproduce the failure: an unqualified call to the inherited function does not compile, because the compiler won't search the templatized base.
-- Fix it with a this-> prefix on the call.
-- Fix it again with a using declaration bringing the base name into the derived scope.
-- Fix it a third time with explicit base-class qualification, and note why that is worst when the function is virtual.
+- Reproduce the failure: an unqualified call to the inherited function does not compile, because the compiler won't search the templatized base. Record the compiler's message.
+- Fix it with a this-> prefix on the call, and compile it.
+- Fix it again with a using declaration bringing the base name into the derived scope, and compile it.
+- Fix it a third time with explicit base-class qualification, compile it, and state why that is worst when the function is virtual, since it turns off the dispatch.
+- Compile a base specialization that omits the name, and show the error arriving at instantiation rather than at definition.
+- Rank the three fixes with the condition that selects each.
 
 ## Success Check
 - The failure is reproduced first and the compiler's message recorded, because that message is what a reader actually meets and it does not plainly describe the cause.

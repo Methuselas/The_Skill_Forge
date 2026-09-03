@@ -48,10 +48,12 @@ Print the routine, or open it somewhere you can draw rectangles freely. Working 
 1. Pick a routine you wrote in the last week or two. Long enough to have structure, short enough to see whole.
 2. Read it once and identify the groups. Statements belong together when they work on the same data, when they perform similar tasks, or when they must happen in a given order.
 3. Draw a rectangle around each group. Do not adjust the groups to make the drawing come out well — that inverts the exercise.
-4. Look at the resulting picture and classify it. Rectangles sitting one after another are fine. One rectangle wholly inside another is fine, and expected wherever a group has sub-structure.
-5. Find every place where two rectangles cross without one containing the other. Each crossing is a pair of concerns that have been interleaved rather than sequenced.
-6. Reorder the statements to remove one crossing, keeping the behaviour identical, and redraw. Where a crossing will not come out, work out which dependency is holding it in place and whether that dependency is real or accidental.
-7. Where a rectangle now sits alone with no meaningful relationship to what precedes or follows it, consider lifting it into a routine of its own.
+4. Name what each rectangle does in a short phrase.
+5. Look at the resulting picture and classify it. Rectangles sitting one after another are fine. One rectangle wholly inside another is fine, and expected wherever a group has sub-structure.
+6. Find every place where two rectangles cross without one containing the other. Each crossing is a pair of concerns that have been interleaved rather than sequenced.
+7. Reorder the statements to remove one crossing, keeping the behaviour identical, and redraw. Where a crossing will not come out, work out which dependency is holding it in place and whether that dependency is real or accidental.
+8. For every variable in the routine, point to the one rectangle where it lives.
+9. Where a rectangle now sits alone with no meaningful relationship to what precedes or follows it, consider lifting it into a routine of its own.
 
 ## Success Check
 No two rectangles cross. Every rectangle is either separate from its neighbours or fully nested inside one. You can name what each rectangle does in a short phrase, and for any variable in the routine you can point to the one rectangle where it lives.

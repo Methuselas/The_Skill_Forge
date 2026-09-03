@@ -41,11 +41,11 @@ Flattening nested control flow and recognizing when nesting means a function doe
 No special setup required.
 
 ## Instructions
-1. Start from a function with three or more levels of nested if-else — for example one finding a vehicle owner's address through scrapyard, showroom, and buyer branches.
-2. Where every branch ends in a return, rewrite each as an early-return guard clause so the remaining logic is not indented under an else.
-3. Take a second function that both computes a value and acts on it (find the address, then send a letter), and confirm a naive early return would wrongly skip the action.
-4. Extract the computing part into its own function, then flatten that function with early returns while the outer function calls it and handles the action.
-5. Re-read both and confirm the nesting is gone and each function does one clear job.
+1. Start from a function with three or more levels of nested if-else — for example one finding a vehicle owner's address through scrapyard, showroom, and buyer branches. Write the nested original out and count its levels.
+2. Confirm every branch ends in a return, then rewrite each as an early-return guard clause so the remaining logic is not indented under an else.
+3. Take a second function that both computes a value and acts on it (find the address, then send a letter). Apply a naive early return to it, show it breaking, and name the action that gets skipped.
+4. Extract the computing part into its own function, then flatten that function with early returns while the outer function calls it and handles the action. Confirm every early return in the inner function returns a value rather than abandoning work, and that the only guard left in the outer function is the one handling the computed result's absent case.
+5. Count the levels again, and give each function a one-line statement of its single job.
 
 ## Success Check
 - The nested original is written out before the rewrite so the levels removed can be counted rather than asserted.

@@ -42,10 +42,11 @@ No special setup required.
 
 ## Instructions
 1. Start from a class with a final member of a mutable type — a font-family list marked final, with a plain constructor and getter.
-2. Reproduce scenario A: construct the object from a list, then mutate that original list afterward, and observe the object's state change.
-3. Reproduce scenario B: call the getter, mutate the returned list, and observe the object's state change again.
+2. Reproduce scenario A: construct the object from a list, then mutate that original list afterward, and record the object's altered state.
+3. Reproduce scenario B: call the getter, mutate the returned list, and record the object's altered state again.
 4. Fix it two ways and compare: first by defensively copying the list in the constructor and in the getter, then by switching the member to an immutable list.
-5. Confirm both scenarios are now blocked, and note that only the immutable-structure version also stops code inside the class from mutating the member.
+5. Re-run both scenarios against each fix and show them blocked, and note that only the immutable-structure version also stops code inside the class from mutating the member.
+6. Name the cost of each fix — a copy per construction and per read, against a structure the rest of the codebase may not use.
 
 ## Success Check
 - Both scenarios are executed and the object's altered state recorded before any fix. A class described as vulnerable has not shown the vulnerability, and this is a case people reason about wrongly with confidence.

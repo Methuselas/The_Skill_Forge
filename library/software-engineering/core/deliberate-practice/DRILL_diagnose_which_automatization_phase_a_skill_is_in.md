@@ -46,7 +46,7 @@ An ordinary working session in a language you use, and a three-column table. Thi
 
 ## Instructions
 1. Work normally and note the small skills as they come up: writing a loop, indexing a list, a keyboard shortcut, a debugger action, a language construct you reach for.
-2. Apply the three tests. If you must give the task explicit attention in isolation, it is in the **cognitive** phase. If you can do it but are leaning on a trick or rule, it is **associative**. If you can perform it with ease while thinking about something else entirely, it is **autonomous**.
+2. Apply the three tests and record which test placed each entry. If you must give the task explicit attention in isolation, it is in the **cognitive** phase. If you can do it but are leaning on a trick or rule, it is **associative**. If you can perform it with ease while thinking about something else entirely, it is **autonomous**.
 3. Write down the trick where you find one — "just always subtract one" is the signature of the associative phase, and naming it makes the phase unmistakable.
 4. Repeat across different languages and projects. Expect unfamiliar languages and projects to show more semantic and cognitive-phase entries, and familiar ones to show more procedural and episodic.
 5. Take everything left in the cognitive or associative columns as your practice list; these are the skills currently taxing capacity that the real problem needs.

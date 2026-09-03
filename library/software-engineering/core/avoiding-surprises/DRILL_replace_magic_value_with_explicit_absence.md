@@ -43,9 +43,11 @@ No special setup required.
 ## Instructions
 1. Start from a function that returns a sentinel — a `getAge()` returning `-1` for a missing age, or a `minValue()` returning `Int.MAX_VALUE` for an empty list.
 2. Write a caller that assumes a real value always comes back — sum ages into a mean, or pick the level with the highest minimum score.
-3. Trace what the caller does when the magic value flows through, and name the resulting bug (a wrong mean, an unplayed level ranked easiest).
-4. Change the function's return type to nullable or optional (or an error type if the reason matters) so absence is in the contract.
-5. Fix the now-failing caller so it compiles, handling the absent case explicitly.
+3. Run the caller with the magic value flowing through it and record the wrong output it produces — the actual mean, the level actually chosen.
+4. Decide whether the caller needs the reason for the absence, and state the decision before choosing a return type.
+5. Change the function's return type to nullable or optional (or an error type where the reason is needed) so absence is in the contract. State which representation you chose and why it is out of band.
+6. Compile the original caller against the change and record the compiler's message.
+7. Fix the caller to handle the absent case explicitly, run it against that case, and check its output against a result worked out by hand.
 
 ## Success Check
 - The bug is produced by running the caller, with the wrong output recorded — the actual mean, the level actually chosen. Naming the bug in the abstract is exactly what the sentinel already permitted.

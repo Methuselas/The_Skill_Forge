@@ -42,10 +42,11 @@ Handing an acquired resource to a manager whose destructor releases it, on every
 No special setup required.
 
 ## Instructions
-- Mark each path — early return, loop break, thrown exception — where the manual delete would be skipped.
-- Wrap the returned pointer in a smart pointer at the point of acquisition.
-- Delete the manual delete statement and confirm the destructor releases on every path.
-- Note why an array allocation would need a different manager than a single-object smart pointer.
+- Enumerate every exit before changing anything — each early return, each break, each call that can throw — and state the count.
+- Wrap the returned pointer in a smart pointer at the point of acquisition, in one statement, and confirm there is no statement between acquisition and handover where a throw would strand the resource.
+- Delete the manual delete statement and establish it is gone by searching rather than by recollection.
+- Demonstrate release on the throwing path.
+- Name the array case with the reason a single-object manager is wrong for it, and say what it would use instead.
 
 ## Success Check
 - Every exit is enumerated before the change — each early return, each break, each call that can throw — and the count is stated. Those are the paths the manual release had to be right on, and the count is reliably larger than the function appears to have.

@@ -48,9 +48,10 @@ Bounded is deliberate: on an unbounded collection `push` is total, there is no `
 1. Write out a caller that uses those operations in the natural sequence: check whether anything is there, look at it, take it.
 2. Describe an interleaving in which every individual operation succeeds and the sequence is still wrong. Name the exact moment the caller's assumption stopped holding. The interleaving must contain at least one call whose *result* the caller carries across another thread's committed change, and it must name the damage: duplicate execution, precondition violation, lost item, or escaped reference. Two threads both calling `pop` on a one-element queue is below that floor and makes the last bullet of the Success Check free.
 3. Identify which contiguous group of calls the caller intended as one unit. That group, not its parts, is the operation to provide.
-4. Replace the group with a single operation, and choose how it reports the case that used to be a precondition — an optional result, a value-and-flag pair, or a boolean with an out-parameter.
-5. Check every remaining operation against the same test: does its validity depend on something the caller established earlier? Fold any that do.
+4. Replace the group with a single operation, and choose how it reports the case that used to be a precondition — an optional result, a value-and-flag pair, or a boolean with an out-parameter. Say how that result distinguishes the kinds of absence it can mean, and answer what happens if handing the value back fails. Where the operation blocks instead, give the wait an exit other than the arrival it waits for.
+5. Check every remaining operation against the same test: does its validity depend on something the caller established earlier? Fold any that do. Where a query survives, document it as advisory and unusable as a precondition, and state the reason it survived.
 6. State what a caller can now observe mid-change, and confirm no intermediate arrangement is reachable through the interface.
+7. Try to construct the step-2 interleaving against the new interface, and record that it can no longer be expressed.
 
 ## Success Check
 - No operation's contract requires a fact the caller obtained from a previous call, and no precondition was retired by redefining it as defined behaviour. The test is that the step-2 interleaving becomes inexpressible, not that it becomes legal.

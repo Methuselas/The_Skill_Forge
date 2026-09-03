@@ -42,10 +42,12 @@ No special setup required.
 
 ## Instructions
 1. Start from a container hard-coded to one type — a randomized queue that stores only strings.
-2. Confirm the limitation: a near-identical need for a different type (pictures instead of words) cannot reuse it.
+2. Write the second need as code — pictures instead of words — and show it failing to compile against the original.
 3. Introduce a type placeholder on the class and replace every hard-coded occurrence of the element type with that placeholder, in fields, parameters, and return types.
-4. Instantiate the class with two different concrete types and confirm both work from the same code.
-5. Check the nullable edge: if the container returns null to signal empty, decide whether storing nullable elements needs a separate has-next check.
+4. Search the class for the original type's name and report the count that remains.
+5. Instantiate the class with two different concrete types, compile both, and exercise their members.
+6. Decide the nullable edge explicitly and record the decision: either constrain the element type so a null sentinel cannot collide, or provide a separate emptiness query.
+7. Name the cost of parameterizing — the definition must now be visible to every user, and errors arrive at instantiation rather than at the definition, reported against code the user did not write.
 
 ## Success Check
 - The limitation is demonstrated first: the second need is written as code and shown not to compile against the original. That it could not be reused is the premise of the exercise rather than a result of it.
