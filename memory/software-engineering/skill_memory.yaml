@@ -1195,20 +1195,38 @@ entries:
     cheap answer publishes the drill''s answer. The rule is prose, like the three Success
     Check requirements beside it; whether an instruction asks for an artifact is not
     mechanically decidable, and a keyword proxy would report noise rather than enforce
-    anything. Monitoring rather than resolved: all seventy-one software-engineering
-    drills have since been repaired under the rule, but the second sitting has not happened,
-    so nothing yet shows that the repair carries a runner to the closing bullet. Closes when
-    one of the repaired drills is taken from its instructions alone by a session that did not
-    write them.
+    anything. Closed by a controlled second sitting on 2026-09-03. The same three drills were
+    taken blind from their repaired Instructions by a session working outside the repository,
+    and graded by a third session that had neither written them nor produced the answers: the
+    closing bullet passed three of three against a baseline of nought of three. A pre-repair
+    control arm, run on the same machine under a byte-identical runner prompt and a
+    byte-identical grading prompt, scored nought of three on the closing bullet and eleven of
+    fifteen overall, so the difference between the arms is attributable to the Instructions
+    rather than to the runner, the grader or the machine. The Success Check sections are
+    byte-identical either side of the repair, verified by checksum, so the graded standard was
+    held fixed while the thing under test varied. Asked which instruction step requested each
+    graded artifact, the grader found none for ten of the fifteen pre-repair bullets and none
+    unbacked after the repair, and all three failing closing bullets sat in that unbacked
+    group; it reconstructed this mechanism without being told the hypothesis. The control
+    runner was the stronger of the two attempts and still failed all three closing bullets,
+    which is the point: strength of attempt does not substitute for an instruction that asks
+    for the artifact. What remains untested is the art and writing lanes, whose checks were
+    rewritten in the same pass and have never been taken against the rule, so this closes as a
+    software-engineering result and not a library-wide one. Two independent sittings is what
+    repeated means for a deterministic contract, and the rule now lives in
+    PASS/docs/PASS_SCHEMA.md, so the schema holds it from here rather than this entry.
 
     '
-  confidence: provisional
-  status: monitoring
-  evidence_count: 1
+  confidence: repeated
+  status: resolved
+  evidence_count: 3
   evidence_events:
   - SE_EV_0036
+  - SE_EV_0043
+  - SE_EV_0044
   evidence_origin:
   - runtime_self_audit
+  - training_benchmark
   likely_owners:
   - PASS/docs/PASS_SCHEMA.md - the Drill section specifies what a Success Check must contain
     and says nothing about the Instructions asking for it
@@ -1226,4 +1244,4 @@ entries:
   - completion
   - write the drill
   - author a drill
-  last_verified: '2026-09-02'
+  last_verified: '2026-09-03'
