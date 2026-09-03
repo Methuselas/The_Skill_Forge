@@ -17,6 +17,8 @@ tags:
   - error_prevention
   - refinement
 cross_links:
+- rel: supports
+  target_object_id: PAT_verify_result_against_objective_after_production
 - rel: related_to
   target_object_id: AP_progress_artifact_through_ratified_steps
 reference:
@@ -48,7 +50,7 @@ Carry a chosen intention from cheap exploration through four committed states—
 6. **Rough — connect and specify.** Add specific surface form, anatomy, designed structure, contour logic, intended detail hierarchy, and working light direction while preserving earlier commitments. A failure in an earlier property returns to its owning stage.
 7. **Complete — finish the owning thread.** Let the active domain/AP define its terminal operation. For universal Drawing, Stage 4 completes the Drawing thread as **Finished Pencils**: remove obsolete construction, resolve pencil contours and overlaps, establish deliberate line hierarchy, clarify focal drawing ambiguities, and use controlled pencil value where appropriate. Drawing Stage 4 does not add Ink, Color, Paint, or other downstream medium finish. A downstream thread, when formally authored, owns its own completion semantics. Completion introduces no new upstream structural freeze and may not rescue a drifted Stage 3.
 8. **For visible staged work, keep two anchors.** The approved Stage 0 root guards picture identity; the latest approved stage guards current geometry. A compact text carry names load-bearing intent and current-stage permissions. Simple `S#-r#` labels may identify actual images in the conversation but must never be treated as hidden runtime IDs.
-9. **Read backward and inspect drift.** The final result must still reduce to the Stage 0 proposition and preserve the latest approved structural state. Separate global drift that changes the work from local defects that can be repaired without reopening the whole.
+9. **Read backward and inspect drift.** Activate `PAT_verify_result_against_objective_after_production`. The final result must still reduce to the Stage 0 proposition and preserve the latest approved structural state. Separate global drift that changes the work from local defects that can be repaired without reopening the whole.
 
 ## Notes
 Visual production loads `PAT_return_to_art_centerline`. In direct render mode, Stages 0–3 are reasoning responsibilities, not fictional intermediate artifacts. In explicit staged production, `AP_progress_artifact_through_ratified_steps` owns progressive ratification and `AP_gate_staged_visual_work_by_approval` supplies the Art-specific stage AP thread. The current image operation receives only its current stage job rather than the whole workflow as visual content.
