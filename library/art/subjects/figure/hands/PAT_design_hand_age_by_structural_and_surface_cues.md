@@ -63,7 +63,11 @@ variants:
 - Treat age brackets as exact biological deadlines rather than design observations.
 
 ## Checklist
-If the stated age is only readable after adding skin lines, the structural age cues are probably too weak. Remove the wrinkles and check whether proportion, fullness, joint visibility, and tissue character still imply the intended stage.
+- With wrinkles and small skin lines removed, proportion, fullness, and joint prominence still support the intended age range.
+- Surface cues agree with the structural age read instead of supplying a contradictory second signal.
+- Joint, tendon, vein, nail, and skin visibility vary selectively rather than appearing at equal strength everywhere.
+- The hand retains the intended character's capability and individual anatomy instead of collapsing into a generic child or elder symbol.
+- Action and contact remain mechanically coherent after age cues are applied.
 
 ## Notes
 Age cues work best when proportion, tissue behavior, and surface evidence agree; avoid letting one symbolic detail carry the entire read.

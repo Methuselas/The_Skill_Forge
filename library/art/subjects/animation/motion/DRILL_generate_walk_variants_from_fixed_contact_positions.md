@@ -25,8 +25,8 @@ reference:
 confidence: high
 references: []
 variants: []
-target_skill: Hold the main contact positions constant and generate distinct walk characters by systematically changing the
-  passing pose and other structural variables.
+target_skill: Isolating the gait variables that cause a readable walk character under fixed contacts, then recombining only
+  compatible changes into a coherent cycle
 ---
 
 # Generate Walk Variants From Fixed Contact Positions
@@ -35,7 +35,7 @@ target_skill: Hold the main contact positions constant and generate distinct wal
 Hold the main contact positions constant and generate distinct walk characters by systematically changing the passing pose and other structural variables.
 
 ## Target Skill
-Hold the main contact positions constant and generate distinct walk characters by systematically changing the passing pose and other structural variables.
+Using fixed contact poses to isolate how passing height, torso and limb action, head and foot phase, bounce, timing, and spacing cause gait character, then recombining only compatible variables into a coherent walk.
 
 ## Setup
 Use a minimal subject or short sequence so the named variable can be compared without polish hiding the result.

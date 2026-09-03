@@ -25,8 +25,8 @@ reference:
 confidence: high
 references: []
 variants: []
-target_skill: Build a short action from rigid extremes, then progressively add an authored breakdown, counteraction, independent
-  hands, phase offsets, and successive joint reversals.
+target_skill: Preserving a primary action while distributing breakdown shape, counteraction, phase offsets, and joint reversals
+  through a readable causal leader-and-follower sequence
 ---
 
 # Build Flexible Action With Successive Joint And Phase Offsets
@@ -35,7 +35,7 @@ target_skill: Build a short action from rigid extremes, then progressively add a
 Build a short action from rigid extremes, then progressively add an authored breakdown, counteraction, independent hands, phase offsets, and successive joint reversals.
 
 ## Target Skill
-Build a short action from rigid extremes, then progressively add an authored breakdown, counteraction, independent hands, phase offsets, and successive joint reversals.
+Controlling causal overlap and flexibility so breakdown shape, counteraction, phase offsets, and joint reversals reinforce a readable leader-and-follower sequence without weakening the primary action.
 
 ## Setup
 Use a minimal subject or short sequence so the named variable can be compared without polish hiding the result.

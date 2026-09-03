@@ -25,7 +25,8 @@ reference:
 confidence: high
 references: []
 variants: []
-target_skill: Animate one simple move several times with identical start, end, path, and duration but different spacing distributions.
+target_skill: Controlling acceleration, energy, deliberateness, and attitude through spacing distribution while endpoints,
+  path, action, and total duration remain invariant
 ---
 
 # Hold Timing Constant And Compare Spacing Profiles
@@ -34,7 +35,7 @@ target_skill: Animate one simple move several times with identical start, end, p
 Animate one simple move several times with identical start, end, path, and duration but different spacing distributions.
 
 ## Target Skill
-Animate one simple move several times with identical start, end, path, and duration but different spacing distributions.
+Perceiving and deliberately changing acceleration, energy, deliberateness, and attitude through spacing distribution while endpoints, path, action, and total duration remain invariant.
 
 ## Setup
 Use a minimal subject or short sequence so the named variable can be compared without polish hiding the result.

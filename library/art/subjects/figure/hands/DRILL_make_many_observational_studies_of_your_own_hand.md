@@ -54,6 +54,7 @@ Work small enough that several studies fit on one page. Keep each study at block
 5. On the object study, observe the hand just before and during contact; note how the fingers begin adapting to the object's contour.
 6. After each sketch, compare it directly with the live hand and mark only the earliest structural mismatch: palm orientation, thumb placement, finger root, segment length, or depth spacing.
 7. Repeat the weakest view immediately once, correcting that one structural relationship before adding more finish.
+8. Review the full series and record or state one structural error that recurred across studies and what repetition made easier to diagnose.
 
 ## Success Check
 - The studies look like different views of a real hand rather than six copies of one hand symbol.

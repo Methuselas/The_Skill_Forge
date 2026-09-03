@@ -52,7 +52,11 @@ variants: []
 - Do not substitute surface detail for the palm wedge and articulated digit construction underneath.
 
 ## Checklist
-If the surface detail can be removed without changing the perceived action or structure, it is probably descriptive noise. If a landmark clarifies where force passes, where a form compresses, or how a digit connects through the palm/wrist, it is earning its place.
+- Every retained stress mark clarifies force, compression, tension, or a structural connection.
+- Tendon and crease directions agree with the posed palm, digits, and wrist rather than crossing them decoratively.
+- Compressed and stretched regions differ in mark character and placement where the action makes that difference visible.
+- Removing a retained landmark would weaken the perceived action or structure; removable marks are treated as descriptive noise.
+- The palm wedge and articulated digit chains remain readable without depending on surface detail to conceal weak construction.
 
 ## Notes
 Surface creases and bulges are most useful when they reveal underlying load, compression, stretch, or joint action rather than becoming texture for its own sake.

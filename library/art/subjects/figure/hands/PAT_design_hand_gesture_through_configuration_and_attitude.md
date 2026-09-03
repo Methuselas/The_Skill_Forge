@@ -64,7 +64,11 @@ variants:
 - Try to rescue an emotionally neutral or contradictory wrist by decorating the fingers.
 
 ## Checklist
-If the intended meaning disappears when the hand is reduced to wrist attitude, palm attitude, major digit grouping, and directional thrust, the gesture is probably depending too heavily on detail instead of design.
+- Wrist attitude supports the intended expression and continues coherently into the forearm.
+- Palm facing and projection strengthen the message rather than contradicting it.
+- Digit grouping creates a clear hierarchy instead of equal, unrelated finger actions.
+- The hand has one readable directional thrust or controlled counterthrust appropriate to the gesture.
+- The intended meaning survives reduction to wrist, palm, and major digit groups before wrinkles, nails, or other surface detail are added.
 
 ## Notes
 Hand expression comes from the coordinated attitude of wrist, palm, thumb, and digit group rather than from isolated finger flourishes. Stanchfield's hand examples make the wrist a first-order expressive control: raising, dropping, flexing, or relaxing it can change the emotional attitude before finger detail changes much at all.

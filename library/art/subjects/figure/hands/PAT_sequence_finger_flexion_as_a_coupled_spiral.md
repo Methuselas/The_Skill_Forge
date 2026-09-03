@@ -73,7 +73,11 @@ variants:
 - Turn the staged fist example into an unsupported universal ranking for every hand action.
 
 ## Checklist
-If the closing hand looks like cloned finger animations attached to a palm, restore the staggered sequence and spiral. Then trace each required curling digit from its palm root to its tip, verify that hidden portions pass behind rather than through the palm, and confirm that the resulting group, thumb where present, and wrist can coexist as one mechanically coherent hand rather than merely several individually plausible digit chains.
+- Neighboring long fingers show a readable staggered flexion order instead of identical simultaneous closure.
+- The closing or opening group follows a coherent spiral or fan behavior rather than four isolated hinge actions.
+- Every required curling digit traces continuously from one palm root through its joints to its tip.
+- Hidden digit paths pass plausibly behind the palm or neighboring forms rather than through them or detaching from the hand.
+- The long-finger group, thumb where present, palm, and wrist coexist as one mechanically attainable hand configuration.
 
 ## Notes
 Finger closure reads more naturally when the digit group shares a staggered directional relationship while preserving any intentional independent action.

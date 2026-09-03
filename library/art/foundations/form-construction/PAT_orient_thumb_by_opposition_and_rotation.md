@@ -48,7 +48,11 @@ variants: []
 - Treat example degree measurements as rigid runtime laws; use them only to understand limited ranges and changing planes.
 
 ## Checklist
-If the thumb reaches the right location but feels pasted on, duplicated, dislocated, or mechanically impossible, check its single root, rotation, opposition, relationship to the four-finger group, and nail-plane change before changing its length.
+- The thumb emerges from one plausible root or base rather than appearing pasted on, duplicated, or dislocated.
+- The branch changes facing through rotation instead of sliding laterally across a flat palm.
+- When opposition is required, the tip aims toward the closing fingertips along a mechanically plausible route.
+- The remaining digits still read as one long-finger group rather than producing a second thumb-like branch.
+- When a visible nail or distal plane helps establish orientation, its facing agrees with the thumb's rotation; omit that detail when orientation is already clear.
 
 ## Notes
 Thumb placement must be solved as a rotating oppositional member whose base plane and reach differ from the long-finger group.

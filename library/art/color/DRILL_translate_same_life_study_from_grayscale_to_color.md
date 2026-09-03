@@ -61,8 +61,9 @@ Use a stable single-light or naturally coherent lighting setup and a small group
 3. Make a color version from the same viewpoint and lighting without tracing or mechanically copying the first study.
 4. Match the structural value relationships first, then solve hue, chroma, temperature, reflected color, and local variation.
 5. Compare both studies at reduced size. If the color version loses form or hierarchy, identify which relationship changed.
-6. Correct the color study without merely desaturating everything; solve the specific value drift while preserving useful color differences.
-7. Repeat with another setup when the same type of drift recurs.
+6. Record or state where hue, chroma, or remembered local color tempted a value misjudgment, even if the comparison made the final correction straightforward.
+7. Correct the color study without merely desaturating everything; solve the specific value drift while preserving useful color differences.
+8. Repeat with another setup when the same type of drift recurs.
 
 ## Success Check
 - The color study preserves the large form and light/shadow read established in grayscale.

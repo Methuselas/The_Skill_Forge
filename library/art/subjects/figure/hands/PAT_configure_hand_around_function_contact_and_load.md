@@ -92,13 +92,17 @@ variants:
 - Treat a supporting hand and a grasping hand as the same mechanical problem.
 
 ## Checklist
-Ask: What is the hand trying to accomplish? What axis or shape constrains it? Where do palm, thumb, active digits, and support digits touch? Can every visible digit be traced back to its root? Where does the force travel through the wrist and forearm? If the drawing cannot answer those questions coherently, the hand is probably posed around the object rather than mechanically engaged with it.
-
-
-The `VAR_dynamic_hands_ch11_object_constraint_and_reference_fidelity` variant adds an occupation-specific order of operations: establish the constraining instrument or procedure first, then map object axis, palm facing, thumb opposition, active and support digits, palm contact, wrist axis, and forearm before final contour. Increase reference fidelity as the action becomes less familiar or more technically constrained.
+- The task or function is identifiable from the hand configuration without relying on a label.
+- A contacted object's axis, shape, and stiffness visibly constrain palm and digit placement.
+- Active and support digits have distinct contact roles where the task requires them.
+- Every visible digit traces to one plausible root even when several compress around the same object.
+- Contact points create a coherent force path through palm, wrist, and forearm.
+- The hand appears mechanically engaged with the object or support rather than merely posed around it.
 
 ## Notes
 The hand should inherit its pose from what it is doing: contact, load, object shape, and intended action constrain the configuration before decorative gesture does.
+
+The `VAR_dynamic_hands_ch11_object_constraint_and_reference_fidelity` variant adds an occupation-specific order of operations: establish the constraining instrument or procedure first, then map object axis, palm facing, thumb opposition, active and support digits, palm contact, wrist axis, and forearm before final contour. Increase reference fidelity as the action becomes less familiar or more technically constrained.
 
 `VAR_dynamic_hands_ch11_object_constraint_and_reference_fidelity` retains **Let the Instrument Constrain the Hand** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 
