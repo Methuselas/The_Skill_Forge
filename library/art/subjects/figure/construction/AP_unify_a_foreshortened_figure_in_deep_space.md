@@ -65,4 +65,4 @@ Restore whole-body continuity when a structurally correct deeply foreshortened f
 ## Notes
 This AP owns a **continuity** problem, not a Stage 2 reconstruction problem. The primary rollback distinction is therefore structural error versus visual fragmentation: wrong size/attachment/depth returns upstream; correct structure with a segmented read stays here.
 
-Hogarth presents linear interconnection, coordinating contour, and tonal fusion as escalating means of cohesion. PASS treats them as optional controls whose value is measured by the whole-figure read, not as three compulsory finishes.
+Linear interconnection, coordinating contour, and tonal fusion are optional means of cohesion whose value is measured by the whole-figure read, not three compulsory finishes.

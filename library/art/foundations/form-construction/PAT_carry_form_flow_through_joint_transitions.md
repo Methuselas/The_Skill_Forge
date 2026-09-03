@@ -101,7 +101,7 @@ variants:
 - The visible transition changes with pose and camera while the underlying connected system remains intact.
 
 ## Notes
-The chapter's knee, shoulder, elbow, hip, and neck studies are local demonstrations of a larger fact: the human figure is one connected system. A joint is not a punctuation mark between independent pieces. It is a region where the whole system changes direction, tension, visibility, and surface organization.
+Knee, shoulder, elbow, hip, and neck transitions are local expressions of one connected figure system. A joint is not punctuation between independent pieces; it is where the system changes direction, tension, visibility, and surface organization.
 
 `VAR_bridgman_elbow_masses_from_opposed_condyles` retains **Organize Elbow Flow From Opposed Condylar Masses** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

@@ -84,7 +84,7 @@ Use one page divided into eight equal boxes. Keep the intended head size consist
 - Drawing the same front-facing face inside differently tilted circles.
 
 ## Notes
-The source teaches viewpoint by repeatedly presenting the same two dominant masses from above, below, front, three-quarter, and rear. Repetition isolates the projection problem from likeness and expression.
+Repeat the same two dominant masses from above, below, front, three-quarter, and rear to isolate projection from likeness and expression.
 
 `VAR_hogarth_build_measured_rotation_strip_from_front_template` retains **Build a Measured Rotation Strip From a Front Template** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

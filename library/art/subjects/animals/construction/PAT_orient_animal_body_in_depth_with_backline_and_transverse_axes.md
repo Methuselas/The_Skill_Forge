@@ -71,4 +71,4 @@ variants: []
 ## Notes
 Bammes shifts from the profile backline exercise to a more demanding spatial problem. He argues that the back route and a few intersecting cross-axes form a three-dimensional reference system, with the scapular tips and hip tuberosities providing concrete transverse landmarks. A reclining-tiger study makes the method explicit: the longitudinal route is continued through concealment, cross-axes are placed at important turns, basic masses are ordered along that trail, and only afterward are the limbs and more organic intersections developed.
 
-The source also warns against replacing this reasoning with attractive but mindless schematic formulas. That warning is central to the Pattern: a primitive is useful only when its orientation is earned by the animal's specific spatial structure.
+Do not replace spatial reasoning with attractive but mindless schematic formulas. A primitive is useful only when its orientation is earned by the animal's specific spatial structure.

@@ -68,6 +68,6 @@ variants:
 - The inner contour rises without making the midfoot disappear, and the transverse arch prevents the forefoot from reading as a flat slab.
 
 ## Notes
-Hogarth's compound wedge is useful, but one plate overstates the openness of the arch. Guided review corrects the shorthand: skeleton, tendon, muscle, fat, connective tissue, and skin continue across the instep, so the external foot never becomes a hollow bridge.
+The compound wedge is useful, but an overly open arch turns the shorthand into false anatomy. Skeleton, tendon, muscle, fat, connective tissue, and skin continue across the instep, so the external foot never becomes a hollow bridge.
 
 `VAR_zarins_wrap_heel_core_in_weight_bearing_fat_pad` retains **Wrap the Heel Core in Weight-Bearing Fat Pad** as a bounded alternative; use it only under the conditions recorded in the variant metadata.

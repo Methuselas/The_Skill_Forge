@@ -64,7 +64,7 @@ variants:
 - A transferred pattern preserves its structure after the plane is tilted into depth.
 
 ## Notes
-This Pattern intentionally consolidates several chapter techniques to keep the operational library smaller while retaining the exact-use cases that matter.
+The shared operation is to derive additional positions from a solved perspective plane. The method changes with the required result: subdivide for fractional placement, project a diagonal for equal transfer, or use a repeated scaffold for a continuing series.
 
 **Boundaries**
 Use the simplest construction that proves the relationship. D'Amelio presents measuring lines as a precision aid, not as a reason to turn every sketch into a geometry exercise.

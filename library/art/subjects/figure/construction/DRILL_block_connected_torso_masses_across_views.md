@@ -60,4 +60,4 @@ Use no head or limbs except tiny attachment marks. Divide the page into six boxe
 - Leaving so many competing guides that the pelvis or rib cage appears fractured.
 
 ## Notes
-The final chapter page treats planes and directional guides as temporary explanations of mass alignment. The exercise keeps those marks long enough to solve the block, then removes the ones that no longer support one coherent torso.
+Planes and directional guides are temporary explanations of mass alignment. Keep those marks long enough to solve the block, then remove any that no longer support one coherent torso.

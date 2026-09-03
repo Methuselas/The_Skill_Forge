@@ -61,4 +61,4 @@ Use simple wedges and joint chains only; omit nails, wrinkles, veins, and surfac
 - Drawing the arch as empty space rather than a raised, filled span.
 
 ## Notes
-The source places hand and foot together precisely to expose their difference. Repetition should preserve the family resemblance while making function change the construction.
+Placing hand and foot studies side by side exposes their shared wedge logic and functional differences. Repetition should preserve the family resemblance while making function change the construction.

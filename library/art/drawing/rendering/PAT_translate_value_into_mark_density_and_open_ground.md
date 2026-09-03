@@ -97,7 +97,7 @@ variants:
 - Successive hatch families change the aggregate value or edge intentionally, and no unintended hard ledge or moiré interference takes over the passage.
 
 ## Notes
-Loomis describes pen value as the amount of light paper showing through a network of dark lines and recommends making a scale of pen values for reference. The adjacent procedure pages reinforce planning the black/gray/white mass arrangement and important passages before final execution. PASS abstracts that medium-specific demonstration into a general line-rendering capability: value is controlled through the designed ratio of marks to exposed ground. In colored line media, that same ratio also controls how forcefully the hue reads, and layered line families can change aggregate color as well as value. Exact tool behavior remains medium-dependent and should be calibrated rather than assumed.
+In line media, value is the designed ratio of dark marks to exposed ground. Build a value scale for the chosen tool, then plan the black, gray, and white mass arrangement and important passages before final execution. In colored line media, the same ratio also controls how forcefully the hue reads, and layered line families can change aggregate color as well as value. Exact tool behavior remains medium-dependent and should be calibrated rather than assumed.
 
 `VAR_guptill_outline_then_add_selective_tone_for_economy` keeps a line-led sketch open by preserving light ground and adding only the decisive darker tone needed for form and hierarchy.
 

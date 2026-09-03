@@ -60,4 +60,4 @@ variants: []
 - The construction is adapted to the actual feline subject rather than copied as a universal lion template.
 
 ## Notes
-Hultgren's lioness page shows the same head as exposed skull, broad construction, and finished surface, with the caption that sound groundwork makes the drawing solid. His later "Building a Head" page states the procedure directly: work for broad planes first, make the forms relate, divide the head down the middle as a comparison line for perspective, and only then shade along the contours of the forms. PASS keeps that compact feline-head route while refusing to turn the illustrated lion proportions into a universal cat-family anatomy chart.
+Build a feline head from exposed skull to broad construction to finished surface. Work for broad planes first, make the forms relate, divide the head with a midline as a perspective comparison, and only then shade along the forms' contours. Illustrated lion proportions are examples, not a universal cat-family anatomy chart.

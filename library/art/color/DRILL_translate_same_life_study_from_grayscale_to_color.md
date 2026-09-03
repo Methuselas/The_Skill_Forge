@@ -77,7 +77,7 @@ Use a stable single-light or naturally coherent lighting setup and a small group
 - Responding to value errors by reducing all chroma until the picture becomes lifeless.
 
 ## Notes
-Loomis recommends a direct life exercise: make a small black-and-white study, then paint the same setup in color. The point is diagnostic. A learner who believes both color and value are already understood may discover otherwise when the same relationships have to survive the translation. PASS keeps that isolated comparison while leaving medium-specific paint handling to the Materials / Media curriculum.
+Painting the same setup first in grayscale and then in color isolates whether value relationships survive the introduction of hue, chroma, and local-color expectation. The paired studies expose value errors that color can disguise while leaving medium-specific paint handling to the Materials / Media curriculum.
 
 
 `VAR_dow_grow_color_gradually_from_neutral_value_plan` turns the single grayscale-to-color comparison into a matched progression. Start from the same solved neutral value plan, introduce hue lightly, then increase color strength across successive versions while checking that the large light-middle-dark structure survives. The exercise is useful for locating the point where added color stops enriching the design and starts weakening its value organization; once that relationship is understood, the final work can use as much color strength as its purpose supports.

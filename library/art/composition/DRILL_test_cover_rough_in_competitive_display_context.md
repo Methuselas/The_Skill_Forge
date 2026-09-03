@@ -69,4 +69,4 @@ Choose a rough whose main hierarchy is already established. Build a representati
 - Winning the shelf or thumbnail test by misrepresenting the work.
 
 ## Notes
-Loomis recommends putting a jacket rough on a book and placing it among strong competing books before judging it. The portable training value is contextual validation: competitive display can expose hierarchy and recognition failures that remain invisible when the design is evaluated alone.
+Place a cover or jacket rough on its intended object and judge it among strong competing designs. Competitive display can expose hierarchy and recognition failures that remain invisible when the design is evaluated alone.

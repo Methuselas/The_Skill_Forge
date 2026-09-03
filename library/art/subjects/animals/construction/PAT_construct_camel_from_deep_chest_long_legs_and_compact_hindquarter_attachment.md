@@ -64,4 +64,4 @@ variants: []
 - A front or rear check preserves the same leg spacing and body-width logic established in profile.
 
 ## Notes
-Hultgren's camel section concentrates several identifying relationships into only two pages: a very leggy frame, deep chest, unusually small hindquarter attachment area, a head whose eye direction does not simply repeat the mouth direction, and a hump that he explicitly distinguishes from the backbone. The drawings reinforce those notes with skeleton, surface, front, rear, sitting, and multiple hump configurations. PASS retains those relationships as a camel-specific construction route rather than turning any single specimen into a universal anatomical measurement.
+A camel's identifying construction can combine a very leggy frame, deep chest, compact hindquarter attachment, eye direction that does not simply repeat the mouth direction, and a hump distinct from the backbone. Verify those relationships across skeletal and surface views, front and rear views, sitting poses, and the actual hump configuration. No single specimen supplies universal measurements.

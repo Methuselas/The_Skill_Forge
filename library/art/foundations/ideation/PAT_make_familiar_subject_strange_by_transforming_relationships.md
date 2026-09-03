@@ -70,6 +70,6 @@ variants:
 - The resulting drawing still obeys the structural rules that the chosen transformation has not intentionally replaced.
 
 ## Notes
-Dodson's "make the familiar strange" route uses unusual viewpoints, scale changes, absurd combinations, distortion, coincidence, and altered context to force renewed perception of familiar material. PASS owns the reusable decision at the relationship level so it can later serve character, creature, object, environment, and concept design without turning any one source example into doctrine.
+The "make the familiar strange" route uses unusual viewpoints, scale changes, absurd combinations, distortion, coincidence, and altered context to force renewed perception of familiar material. Keep the decision at the relationship level so it can serve character, creature, object, environment, and concept design without turning any one example into doctrine.
 
 `VAR_loomis_distort_character_with_rescaled_grid` adds a controlled caricature route: deform the coordinate grid and transfer corresponding crossings so exaggeration follows chosen proportional changes instead of arbitrary feature inflation. The reusable method is the rescaled grid, not tracing.

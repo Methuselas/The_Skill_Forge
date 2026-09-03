@@ -83,7 +83,7 @@ Project cast shadows so the light direction, receiving plane, object position, a
 - The cast shadow supports, rather than contradicts, the scene's established depth field.
 
 ## Notes
-D'Amelio's chapter is geometric, but the operational question is simple: identify what blocks the light, establish how the rays travel, and solve where those rays meet the receiving surface.
+The geometry serves a simple operational question: identify what blocks the light, establish how the rays travel, and solve where those rays meet the receiving surface.
 
 `VAR_reconstruct_shadows_across_complex_receivers` remains a bounded variant under the conditions recorded in its variant metadata.
 

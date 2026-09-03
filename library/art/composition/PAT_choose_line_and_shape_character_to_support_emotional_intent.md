@@ -84,7 +84,7 @@ variants:
 - Structural clarity and focal hierarchy remain intact after the emotional adjustment.
 
 ## Notes
-Loomis's “relationship of line to emotional response” plate groups circles, ovals, spirals, radiating structures, triangles, formal divisions, irregular subdivisions, curves, and angular arrangements with differing emotional associations. The transferable capability is not the plate's period-specific one-to-one labels; it is the design decision to make the dominant line-and-shape character participate in the intended emotional read, then test that association in context.
+Circles, ovals, spirals, radiating structures, triangles, formal divisions, irregular subdivisions, curves, and angular arrangements can support different emotional associations. Do not preserve period-specific one-to-one labels as laws; make the dominant line-and-shape character participate in the intended emotional read, then test that association in context.
 
 `VAR_guptill_orient_group_mass_for_repose_or_instability` auditions the support and balance of the grouped silhouette as one lever for calm, motion, or precariousness without turning shape types into fixed emotional symbols.
 

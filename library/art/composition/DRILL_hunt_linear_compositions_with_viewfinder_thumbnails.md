@@ -75,6 +75,6 @@ Cut or improvise a small rectangular viewing aperture. Use a pocket sketchbook o
 - Stopping after two or three attempts before comparison begins to expose preferences and habits.
 
 ## Notes
-Loomis asks the artist to cut a small picture finder, walk through ordinary surroundings, and jot down a dozen or two miniature linear arrangements before proceeding. The transferable Art skill is not accurate sketching of the objects; it is learning to discover composition by actively framing the contour-and-space relationships that already exist around you. This differs from the existing same-scene camera-angle drill, which keeps one narrative beat fixed and searches viewpoint for story effect. Here the environment itself is scanned as raw compositional material.
+Use a small viewfinder to scan ordinary surroundings and record a dozen or more miniature linear arrangements. The target is not accurate object drawing but active discovery of contour-and-space relationships through framing. This differs from the same-scene camera-angle drill, which fixes one narrative beat and searches viewpoint for story effect; here the environment itself supplies the raw compositional material.
 
 `VAR_guptill_compare_multiple_crops_of_one_reference_with_quick_value_trials` turns one fixed reference into a controlled crop-and-value comparison instead of scanning many different views.

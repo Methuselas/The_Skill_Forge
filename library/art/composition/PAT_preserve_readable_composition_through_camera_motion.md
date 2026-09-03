@@ -53,4 +53,4 @@ variants: []
 - Sampling is dense enough to avoid visible stepping or strobe.
 
 ## Notes
-Whitaker and Halas treat camera movement as a timed animation problem as well as a composition problem. A track, pan, or virtual-camera path needs readable intermediate framings, but its acceleration and any simultaneous changes in field size or position also need to be coordinated so the move has one coherent temporal shape.
+Camera movement is a timed animation problem as well as a composition problem. A track, pan, or virtual-camera path needs readable intermediate framings, and its acceleration and simultaneous changes in field size or position must combine into one coherent temporal shape.

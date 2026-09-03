@@ -103,7 +103,7 @@ variants:
 - Removing texture and decorative traits does not erase the intended type distinction.
 
 ## Notes
-Hultgren's draft-horse page explicitly uses enclosing boxes to compare size and conformation with a saddle type, then the colt page and zebra page continue the comparison through leg length, body length, rear height, head size, hoof size, and width relationships. PASS retains the comparison method and not the source's broad type claims as universal anatomy.
+Use enclosing boxes to compare related animal types through overall size and conformation, leg and body length, rear height, head and hoof size, and width relationships. The comparison method transfers; broad type claims do not become universal anatomy.
 
 `VAR_hultgren_compare_warthog_to_domestic_pig_from_shared_frame_and_diagnostic_landmarks` adds a shared-frame transfer: when related types share most of the structure, establish that common frame first and spend the comparison on the few landmarks that separate them instead of forcing every distinction through a proportion box.
 

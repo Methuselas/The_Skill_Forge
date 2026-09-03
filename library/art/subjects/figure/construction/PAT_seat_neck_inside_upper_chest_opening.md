@@ -114,7 +114,7 @@ variants:
 - Any overlap hides the root without implying decapitation or a second socket.
 
 ## Notes
-The chapter describes the neck as a short column emerging from within the triangulated hollow of the chest. Guided review made the fixed-root consequence explicit: head freedom occurs above the attachment, not by sliding the base across the shoulder girdle.
+Treat the neck as a short column emerging from within the triangulated hollow of the chest. The root stays fixed: head freedom occurs above the attachment, not by sliding the base across the shoulder girdle.
 
 `VAR_bridgman_separate_neck_turn_from_skull_nod` retains **Separate Cervical Turn From Skull Nod** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 
@@ -124,4 +124,3 @@ The chapter describes the neck as a short column emerging from within the triang
 
 `VAR_mogilevtsev_diagnose_head_shoulder_binding_with_axes_and_sternal_plumb` retains **Diagnose Head-Shoulder Binding With Axes and a Sternal Plumb** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 `VAR_mogilevtsev_read_collar_as_evidence_of_neck_root_insertion` retains **Read the Collar as Evidence of Neck-Root Insertion** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
-

@@ -63,4 +63,4 @@ variants: []
 - The construction remains adjustable to breed, individual, and viewpoint.
 
 ## Notes
-Bammes explicitly treats nose and mouth as mutually dependent in function and form. His horse, cow, dog, and big-cat examples differ in nasal cartilage, nostril direction, lip projection, loose cheek skin, canine support, and the relationship between the nose and mouth fissure. The portable skill is therefore to build one coupled support-and-soft-tissue system and then specialize it, not to memorize the source's listed nostril silhouettes.
+Treat nose and mouth as mutually dependent in function and form. Horses, cows, dogs, and big cats differ in nasal cartilage, nostril direction, lip projection, loose cheek skin, canine support, and the relationship between nose and mouth fissure. Build one coupled support-and-soft-tissue system and then specialize it rather than memorizing a list of nostril silhouettes.

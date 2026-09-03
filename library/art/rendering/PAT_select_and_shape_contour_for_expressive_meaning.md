@@ -98,7 +98,7 @@ variants:
 - A more literal contour remains available when fidelity is the governing requirement.
 
 ## Notes
-In the Opening Chat, Loomis separates mechanically correct contour placement from what he calls real drawing: interpretation, selection, and statement of contour for meaning. He explicitly allows the chosen line to depart from the literal observed boundary when another contour better expresses qualities such as grace, character, or charm. The Pattern preserves that decision while adding a firm PASS boundary: expressive restatement must remain answerable to construction and purpose, and literal fidelity remains valid when it is the task.
+Separate mechanically correct contour placement from interpretation, selection, and the statement of contour for meaning. A chosen line may depart from the literal observed boundary when another contour better expresses grace, character, charm, or another intended quality. Expressive restatement must still answer to construction and purpose, and literal fidelity remains valid when it is the task.
 
 `VAR_guptill_match_final_line_character_to_shape_and_texture` delays final line-character decisions until structure is secure, then varies contour strength with the form and surface being described. On worn constructed surfaces, selective breaks, chips, dents, and edge irregularity can signal age as long as the underlying geometry still reads as intentional construction.
 

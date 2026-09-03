@@ -55,4 +55,4 @@ variants: []
 - Any extreme convergence is understood as a camera/display choice rather than an unexplained local warp.
 
 ## Notes
-This is the main new mathematical validation earned by the Deep PASS. It is intentionally triggered: ordinary perspective drawing does not need an orthocenter construction every time. It becomes valuable for skyscraper shots, steep up/down views, camera reconstruction, and debugging a three-point field that looks "almost right" but has no physically consistent station point.
+This mathematical validation is intentionally triggered: ordinary perspective drawing does not need an orthocenter construction every time. It becomes valuable for skyscraper shots, steep up/down views, camera reconstruction, and debugging a three-point field that looks "almost right" but has no physically consistent station point.

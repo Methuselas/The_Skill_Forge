@@ -58,7 +58,7 @@ variants: []
 ## Don't
 - Do not turn "in front of the axis = extension, behind = flexion" into a universal sign rule for every joint. Bammes's own hindleg examples assign different actions at the hip, knee, tarsus, and digits; the relevant joint and line of pull decide the action.
 - Do not inventory individual muscle names before the large functional groups and skeletal axes are clear.
-- Do not assume a horse grouping can be stamped unchanged onto cows, dogs, cats, or other mammals; the source explicitly notes genus-level differences.
+- Do not assume a horse grouping can be stamped unchanged onto cows, dogs, cats, or other mammals; genus-level differences change the visible organization.
 - Do not infer a precise contraction state or hidden attachment from a static outer contour when the source or reference does not support it.
 - Do not let muscle masses obscure an uncertain joint chain; correct the skeleton before developing the soft forms.
 

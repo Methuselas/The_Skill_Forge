@@ -75,7 +75,7 @@ variants:
 - If the viewpoint changes, the silhouette can change substantially while the constructed volume remains recognizably continuous.
 
 ## Notes
-Hogarth contrasts high- and low-angle torso views to show the same anatomical masses producing different visible curve families. The guided review clarified the governing model: the eye behaves as a camera in three-dimensional space; the body remains the body, while perspective changes what its natural forms reveal.
+The same anatomical masses produce different visible curve families in high- and low-angle torso views. The eye behaves as a camera in three-dimensional space: the body remains the body, while perspective changes what its natural forms reveal.
 
 `VAR_loomis_square_organic_masses_then_round_to_projection` adds a temporary diagnostic squaring pass for difficult figure views: solve the camera-facing planes first, then round the anatomy back out without losing the perspective decision. Visible stripes, seams, bands, and similar graphics should then be projected as surface paths on that same solved form; they can reinforce foreshortening, but they must not be used to fake depth or hide incorrect construction.
 

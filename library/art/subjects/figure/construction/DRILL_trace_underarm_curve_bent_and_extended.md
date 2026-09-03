@@ -59,4 +59,4 @@ Use only a shoulder mark, elbow mark, wrist/palm block, and broad limb envelope.
 - Making both sides of the arm parallel.
 
 ## Notes
-The source repeatedly proves the same rhythm in rear, front, bent, and deep-space examples. Isolating it in a short series turns recognition into a repeatable placement habit.
+Test the same underarm rhythm in rear, front, bent, and deep-space examples. Isolating it in a short series turns recognition into a repeatable placement habit.

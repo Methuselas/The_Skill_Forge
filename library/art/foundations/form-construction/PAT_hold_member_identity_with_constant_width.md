@@ -54,4 +54,4 @@ variants: []
 - The figure still has its own proportions rather than a generic cross-figure template.
 
 ## Notes
-The chapter's constant-width proposition is a rational control for size identity in depth. The guided correction is that the constant belongs to the chosen figure and to comparable regions of a tapered form. It does not erase individual anatomy, body type, or species difference.
+Constant width is a rational control for preserving size identity in depth. Apply the constant only within the chosen figure and between comparable regions of a tapered form; it must not erase individual anatomy, body type, or species difference.

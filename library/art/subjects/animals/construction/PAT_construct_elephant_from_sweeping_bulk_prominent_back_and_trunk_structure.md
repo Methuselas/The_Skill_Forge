@@ -65,4 +65,4 @@ variants: []
 - The elephant remains structurally readable when wrinkles, tusks, and decorative detail are removed.
 
 ## Notes
-Hultgren opens the elephant section by pairing a skeleton with overlaid living construction and telling the artist to work for “big, sweeping forms” while retaining the animal's angular structure and prominent back. The following pages simplify the animal into large rounded masses, call out the flatter divided underside of the trunk and the skeleton's role in explaining the hollow cheek, then show a three-step progression from main forms to lesser forms to finish. PASS keeps those observations as one elephant-specific Stage 2 construction route while refusing to convert the stylized plates into fixed anatomical measurements.
+Build the elephant with “big, sweeping forms” while retaining its angular structure and prominent back. Use the skeleton to explain the hollow cheek, distinguish the flatter divided underside of the trunk, and progress from main forms to lesser forms to finish. Stylized examples do not establish fixed anatomical measurements.

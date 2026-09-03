@@ -59,4 +59,4 @@ variants: []
 - Any substantial tonal change introduced during color is deliberate and re-evaluated as part of the design.
 
 ## Notes
-Loomis bridges his Tone section into Color by insisting that form and pictorial relationship still depend on truthful value structure after hue is introduced. His worked comparison recommends making a small black-and-white life study and then a color version so the artist can see where color knowledge is disguising value errors. PASS preserves the transferable decision without reducing color to grayscale: value remains one structural axis, while hue, chroma, temperature, material, and illumination can add or deliberately reshape the design.
+Form and pictorial relationships still depend on a coherent value structure after hue is introduced. Comparing a small grayscale life study with a color version can reveal where hue, chroma, or local-color expectation disguises a value error. This does not reduce color to grayscale: value remains one structural axis, while hue, chroma, temperature, material, and illumination can add or deliberately reshape the design.

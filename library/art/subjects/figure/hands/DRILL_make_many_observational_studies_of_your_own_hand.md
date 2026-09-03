@@ -70,4 +70,4 @@ Work small enough that several studies fit on one page. Keep each study at block
 - Treating one successful study as completion instead of using repetition to expose recurring errors.
 
 ## Notes
-Loomis treats the artist's own hands as the most convenient continuing source of hand information and pairs that advice with repeated observational studies. The point of the Drill is not to memorize one personal hand as universal anatomy; it is to use an always-available live model to train proportion, spacing, and depth judgment until the palm-and-digit construction survives varied views.
+The artist's own hand is an always-available live reference for repeated study of proportion, spacing, and depth. The exercise does not make one person's anatomy universal; it trains palm-and-digit construction until it survives varied views.

@@ -78,7 +78,7 @@ variants:
 - The construction is simple enough to visualize but specific enough to be corrected by the actual reference.
 
 ## Notes
-Bammes opens the book by rejecting outward appearance as the starting point and instead describes graphic construction “from within.” He later names the thorax, pelvis, and skull as the core masses of the body and places them in dialogue with the remaining framework and soft, fleshy parts. The source's stated purpose is not anatomical analysis for its own sake, but to organize relationships so form can be understood, simplified, visualized, and eventually reconstructed without the model directly present.
+Construct animal form “from within” rather than starting from outward appearance. Treat the thorax, pelvis, and skull as core masses in dialogue with the remaining framework and soft, fleshy parts. The purpose is not anatomical analysis for its own sake, but organization of relationships so form can be understood, simplified, visualized, and eventually reconstructed without the model directly present.
 
 This Pattern is broader than Hultgren's quadruped three-mass block. Hultgren provides a practical quadruped blocking route; Bammes establishes the anatomy-centered foundation that explains how core masses, framework, and surface layers remain structurally connected across animal types.
 

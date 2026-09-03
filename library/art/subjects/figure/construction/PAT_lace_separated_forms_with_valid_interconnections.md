@@ -80,7 +80,7 @@ variants:
 - Removing a retained passage would weaken the intended flow; removing an unnecessary one would improve clarity.
 
 ## Notes
-The chapter moves from knuckle channels and finger insertions to foot wrinkles, Achilles and hamstring tendons, torso routes, limb joints, shoulder passages, and neck complexes. The repeated principle is not one universal line map. It is that a true local connection can restore the continuity that overlapping forms have visually interrupted.
+Knuckle channels, finger insertions, foot wrinkles, Achilles and hamstring tendons, torso routes, limb joints, shoulder passages, and neck complexes do not share one universal line map. Their common principle is that a true local connection can restore continuity where overlapping forms have visually interrupted it.
 
 `VAR_hampton_connect_forms_by_overlap_conformity_or_transition` retains **Connect Forms by Overlap, Conformity, or Transition** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

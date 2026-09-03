@@ -114,7 +114,7 @@ variants:
 - The picture and its surrounding communication divide the work intentionally rather than redundantly.
 
 ## Notes
-Loomis distinguishes illustrations that largely carry their own message, illustrations that support accompanying words, and illustrations that intentionally leave enough unanswered to draw the reader onward. The portable lesson is not tied to magazine publishing: before visualizing, decide how much narrative labor the image should perform and how much should remain outside the frame. A technically excellent image can fail its assignment by telling too much, too little, or the wrong part of the story.
+An illustration may largely carry its own message, support accompanying words, or intentionally leave enough unanswered to draw the reader onward. Before visualizing, decide how much narrative labor the image should perform and how much should remain outside the frame. A technically excellent image can fail its assignment by telling too much, too little, or the wrong part of the story.
 
 `VAR_loomis_use_illustration_as_entry_point_to_surrounding_message` specializes the story-job decision for mixed layouts: the image can attract and clarify enough of the promise to make the viewer continue into adjacent copy, product, or message instead of becoming a self-contained diversion from the rest of the communication.
 

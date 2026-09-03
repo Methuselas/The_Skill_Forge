@@ -65,4 +65,4 @@ Choose one existing layout. Work small enough that words and image details canno
 - Polishing a layout before its large value and spacing relationships have been compared.
 
 ## Notes
-Loomis recommends reducing existing magazine layouts to simple value and space units and rearranging them to develop a coordination sense. The exercise preserves that structural practice without turning historical ads into templates to imitate.
+Reducing existing layouts to simple value and space units, then rearranging them, trains structural coordination without turning the original designs into templates to imitate.

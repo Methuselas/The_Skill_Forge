@@ -79,7 +79,7 @@ variants:
 - Any competing route is intentional and appropriately subordinate, rather than an unresolved fork.
 
 ## Notes
-Hultgren's original foundation moved line-of-action thinking from individual animals to the entire group, coordinating repeated and opposing directions, accents, and setting marks so separate subjects behave as one picture. Loomis broadens the same mechanism beyond group scenes by asking the artist to provide a planned pathway for the eye, catch lines that lead out of the subject, entertain the viewer with points of interest, and allow a pleasing continuation or exit. PASS therefore generalizes the owner from group composition to whole-picture attention routing. Loomis's warning against giving the eye “two ways to go” is retained only as a diagnosis of accidental competition; branching and multiple focal stops remain valid when hierarchy is controlled.
+Line-of-action thinking can expand from individual animals to a group and then to whole-picture attention routing. Coordinate repeated and opposing directions, accents, and setting marks; provide a planned path for the eye; catch lines that lead out unintentionally; and give focal stops a clear continuation or exit. “Two ways to go” diagnoses accidental competition, not every branch: multiple paths and focal stops remain valid when their hierarchy is controlled.
 
 `VAR_dumitrescu_frame_view_with_dominant_foreground_mass` uses a large foreground or edge mass as an attention-routing frame. The mass should establish entry and scale without becoming a competing focal object; no universal left-to-right reading assumption is required.
 

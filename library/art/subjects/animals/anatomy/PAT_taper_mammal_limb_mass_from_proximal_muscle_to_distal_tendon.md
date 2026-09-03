@@ -59,7 +59,7 @@ variants: []
 
 ## Don't
 - Do not draw the limb as a uniformly fleshy cylinder from hip or shoulder to the terminal foot.
-- Do not bury every joint under equal muscle volume; the source explicitly treats unloading of distal joints as a major plastic consequence.
+- Do not bury every joint under equal muscle volume; unloading distal joints is a major visible consequence of proximal muscle concentration.
 - Do not copy the horse's extreme long-tendon lower leg onto every mammal.
 - Do not strip the distal limb down to bare bones or wires; tendon, connective tissue, skin, and species-specific soft forms still belong to the living limb.
 - Do not use taper as a substitute for correct joint placement or foot construction.

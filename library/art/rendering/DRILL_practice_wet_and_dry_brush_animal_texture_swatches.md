@@ -62,4 +62,4 @@ Use a brush, black ink, scratch paper, and drawing paper. Draw two or three simp
 - Making texture swatches that ignore the turn of the form when transferred onto the animal patch.
 
 ## Notes
-The source explicitly presents practice exercises for the two brush styles and fills the facing pages with controlled swatches and small animal-surface applications. The drill keeps that exercise logic but makes the variables explicit so the learner can isolate what brush load, pressure, spacing, and open paper each contribute.
+Controlled swatches followed by small animal-surface applications isolate what wet and dry brush handling each contribute. Keeping brush load, pressure, spacing, and open paper explicit makes the exercise diagnostic rather than a collection of texture tricks.

@@ -52,4 +52,4 @@ variants: []
 - Extreme crossed and compressed legs retain a readable S or B organization.
 
 ## Notes
-Hogarth uses the two patterns as practical view families. Guided review simplifies the choice: S is commonly profile, three-quarter, or seated; B is commonly front, rear, hunched, crossed, or deeply projected while still facing front or back.
+Use the two patterns as practical view families: S is common in profile, three-quarter, or seated views; B is common in front, rear, hunched, crossed, or deeply projected views that still face front or back.

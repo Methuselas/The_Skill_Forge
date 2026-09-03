@@ -111,7 +111,7 @@ Choose a subject with a clear large-value read. Make four to six small thumbnail
 - Rendering one thumbnail so far that the exercise becomes a finish contest instead of a tonal-design comparison.
 
 ## Notes
-Loomis's Tone sequence repeatedly treats value organization as a design decision: he discusses key/value manipulation, broad tonal plans, thumbnail planning, and translating selected thumbnails into larger studies before full development. PASS abstracts those pages into an isolation drill: keep the subject substantially stable, deliberately vary tonal key and plan, compare the resulting pictorial effects, then choose before committing. The source's named tonal plans are practical examples rather than an exhaustive universal taxonomy.
+Value organization is a design decision. Keep the subject substantially stable, deliberately vary tonal key and broad plan in thumbnails, compare the resulting pictorial effects, and enlarge only a selected option before full development. Named tonal plans are practical examples rather than an exhaustive universal taxonomy.
 
 `VAR_dow_calibrate_three_flat_value_families_before_expanding_range` adds a three-family calibration pass before broader tonal development. Holding light, middle, and dark flat long enough to compare their intervals exposes weak grouping early; once the plan works, the study can regain intermediate values and softer transitions as needed.
 

@@ -82,6 +82,6 @@ Use a single reference with readable skull/jaw proportions and a clear enough li
 - Using dark tone to conceal uncertain planes or misplaced features.
 
 ## Notes
-Loomis treats the combined construction/anatomy/plane/render sequence as a diagnostic summary of the preceding head method. The value of the exercise is the **separation of causes**: a finished head can look wrong for many reasons, while the staged set makes the earliest wrong decision visible.
+The combined construction, anatomy, plane, and render sequence is a diagnostic that separates causes. A finished head can look wrong for many reasons; the staged set makes the earliest wrong decision visible.
 
 `VAR_loomis_overlay_head_construction_to_audit_feature_placement` adds a short Control pass before the full four-stage diagnostic: overlay the head scaffold, locate the first placement/orientation mismatch, and rebuild from that cause rather than patching the final feature.

@@ -76,6 +76,6 @@ variants:
 - The block remains gorilla-specific when the face and coat are temporarily hidden.
 
 ## Notes
-Hultgren's gorilla treatment is mostly image-led. A simplified skeleton is labeled with a "massive and barrel-like body," short thumbs, and wide toe separation while showing the same proportion system in front, bent, and three-quarter poses. Additional head, action, and surface studies extend the comparison. PASS therefore keeps a gorilla-specific Stage 2 mass route while deliberately refusing to convert these stylized studies into fixed biological ratios. The later caricature treatment is kept separate so its deliberately reduced legs and embedded head do not leak into naturalistic construction.
+Use a simplified skeleton and a “massive and barrel-like body” to compare the gorilla's proportion system across front, bent, and three-quarter poses, with head, action, and surface studies refining the result. Short thumbs and wide toe separation are visible landmarks to verify, not fixed biological ratios. Keep deliberately reduced legs and an embedded head inside caricature treatment so they do not leak into naturalistic construction.
 
 `VAR_bammes_anchor_gorilla_arm_with_lateral_mobile_scapula_on_square_thorax` adds Bammes's anatomical shoulder calibration when the proportion block needs more specific attachment: the broad scapula sits farther around the side of the nearly square thorax and remains a mobile base for the long arm. Use it to correct a human-like shoulder placement, not as a rigid cross-section formula.

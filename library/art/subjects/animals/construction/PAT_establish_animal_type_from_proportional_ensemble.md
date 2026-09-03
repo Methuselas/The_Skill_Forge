@@ -118,7 +118,7 @@ variants:
 - Local identifiers refine an already readable whole rather than rescuing a generic body.
 
 ## Notes
-Bammes treats proportion as a first-priority description of animal form because the relationships of the parts can make the overall type recognizable before details such as hoof versus paw are inspected. His opening contrast is deliberately large-scale: a horse can read as a comparatively square arrangement while a cow can read as a lower rectangle. The point PASS retains is the hierarchy of evidence, not those examples as fixed species ratios.
+Treat proportion as first-priority evidence of animal form because relationships among the parts can establish the overall type before details such as hoof versus paw are inspected. A horse may read as a comparatively square arrangement while a cow reads as a lower rectangle, but these are broad comparison examples rather than fixed species ratios.
 
 The source also connects proportional builds with different ways of life, contrasting low, elongated stalking hunters with taller pursuit hunters and discussing running herbivores and primates. Those comparisons are useful prompts for structural analysis, but several of the causal statements are broader than this unit can justify as universal biology. Use them to ask which relationships matter in a given animal, then verify the actual subject.
 

@@ -61,4 +61,4 @@ variants: []
 - The audience relationship strengthens rather than contradicts the image's story job.
 
 ## Notes
-Loomis's camera-dramatics discussion distinguishes scenes that play among the depicted characters from images that deliberately address the audience. His categorical warnings against looking at the viewer are too rigid to preserve as law. The durable decision is to choose the audience relationship consciously: inward gaze and gesture maintain a witnessed dramatic world, while direct address intentionally makes the viewer part of the communication.
+Distinguish scenes that play among the depicted characters from images that deliberately address the audience. Categorical prohibitions against looking at the viewer are too rigid: choose the audience relationship consciously. Inward gaze and gesture maintain a witnessed dramatic world, while direct address intentionally makes the viewer part of the communication.

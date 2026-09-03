@@ -98,7 +98,7 @@ variants:
 - The side contours show a believable stretch/compression pair instead of equal empty gaps.
 
 ## Notes
-The chapter presents the waist as the flexible axial region that locks the body's two largest masses together. This is the structural basis for later turns: independent movement is permitted, disconnection is not.
+The waist is the flexible axial region that locks the body's two largest masses together. That connection permits independent movement without allowing the rib cage and pelvis to become disconnected.
 
 `VAR_bridgman_three_plane_block_opposition` retains **Oppose Major Body Blocks Through Bend, Twist, and Tilt** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

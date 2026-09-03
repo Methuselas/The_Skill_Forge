@@ -93,7 +93,7 @@ variants:
 - The recurring negative-space field is intentional and does not accidentally create a competing rhythm or awkward secondary pattern.
 
 ## Notes
-Dodson first develops repetition with variation through texture, then later treats it as a whole-picture design principle. The durable decision is the balance between recurrence and difference: coherence comes from what returns, while interest comes from how each return changes. The chapter's specific texture-unification route is retained as a variant rather than turning material description into a universal composition rule.
+Repetition with variation can operate through local texture or as a whole-picture design principle. Coherence comes from what returns, while interest comes from how each return changes. `VAR_dodson_unify_disparate_elements_with_shared_texture_stroke` keeps texture unification as a bounded method rather than turning material description into a universal composition rule.
 
 `VAR_dodson_unify_disparate_elements_with_shared_texture_stroke` applies the same recurrence/variation logic through mark language: a shared texture-stroke family can bind separate elements when local variation preserves enough material and positional difference to keep the picture from becoming a stamp pattern.
 

@@ -67,4 +67,4 @@ Use one figure with at least three strong overlaps and one major joint directed 
 - Treating the exercise as a contest to imitate Hogarth's finish rather than a test of visual need.
 
 ## Notes
-The chapter presents three means of unity in sequence, but guided review rejected a mechanical reading of that sequence. The final copy tests judgment: the artist learns not only how each control works, but when its contribution is unnecessary. Experience grows through repeated comparison of what the image gains and what it loses.
+The three means of unity are options, not a compulsory sequence. The final copy tests judgment: the artist learns not only how each control works, but when its contribution is unnecessary. Repeated comparison should make both the gain and the cost of each control visible.

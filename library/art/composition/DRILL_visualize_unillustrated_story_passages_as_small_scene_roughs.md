@@ -70,4 +70,4 @@ Choose a short story passage with enough surrounding text to understand the char
 - Looking up an existing illustration before completing the independent interpretation pass.
 
 ## Notes
-Loomis recommends practicing story illustration by visualizing passages that have not already been illustrated, beginning with small pencil conceptions and developing only the promising ones. The value of the exercise is independent interpretation: prose must be transformed into a narrative image through the artist's own selection and staging rather than inherited from an existing visual answer.
+Practice independent story interpretation on passages that do not already carry an established illustration. Begin with small pencil conceptions and develop only the promising ones so the prose is transformed through the artist's own selection and staging rather than inherited from an existing visual answer.

@@ -84,4 +84,4 @@ Develop a poster or other glance-read large-format illustration from communicati
 - Reference conforms to the designed conception rather than replacing it.
 
 ## Notes
-Loomis's poster workflow moves from the communication problem to simplified roughs, physical sheet mapping, enlarged tests, color roughs, model photography, and final execution. His historical word counts, viewing times, and sheet dimensions are not retained as universal rules; the reusable method is to design to the actual attention window, distance, production system, and message hierarchy.
+Move from the communication problem to simplified roughs, physical sheet mapping, enlarged tests, color roughs, model photography when useful, and final execution. Historical word counts, viewing times, and sheet dimensions are context-specific; design to the actual attention window, distance, production system, and message hierarchy.

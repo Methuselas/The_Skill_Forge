@@ -60,4 +60,4 @@ variants: []
 - Any cow-versus-bull difference is tied to the observed subject rather than treated as a universal formula.
 
 ## Notes
-Hultgren's cow pages pair a visible skeleton with the living body, call attention to the spinal column and prominent bone structure, and then use a basket-like caricature sketch to suggest how the deep body mass hangs below the spine. His bull page repeats the inside-out construction while concentrating more visible mass around the neck and shoulders. PASS retains the durable drawing decision - organize the heavy bovine body from an upper dorsal route into a deep hanging trunk with readable structural anchors - while explicitly bounding the source's load-bearing language as an artistic construction metaphor rather than literal veterinary biomechanics.
+Organize the heavy bovine body from an upper dorsal route into a deep hanging trunk with readable skeletal anchors. A basket-like mass can clarify how the body hangs below the spine, while a bull may concentrate more visible mass around the neck and shoulders. Treat this support-and-hanging language as an artistic construction metaphor, not literal veterinary biomechanics.

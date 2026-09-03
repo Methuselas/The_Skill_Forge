@@ -89,7 +89,7 @@ variants:
 - Required story, structural, or technical information survives the framing choice.
 
 ## Notes
-Dodson treats the frame as part of the design. A crop can alter the viewer's distance, break one broad ground into more useful shapes, or turn a familiar subject into a more abstract pattern. His specific "crop and float" advice is retained as a source heuristic rather than a universal rule; the durable decision is intentional frame-edge design.
+Treat the frame as part of the design. A crop can alter the viewer's distance, break one broad ground into more useful shapes, or turn a familiar subject into a more abstract pattern. "Crop and float" is a bounded heuristic rather than a universal rule; the durable decision is intentional frame-edge design.
 
 `VAR_mogilevtsev_keep_revisable_frame_with_outer_margin` adds Mogilevtsev's paper-study method for delaying final frame commitment: draw the intended format inside a larger field, keep usable outer margin, test the figure, and shift or expand the inner frame before the long drawing is locked.
 

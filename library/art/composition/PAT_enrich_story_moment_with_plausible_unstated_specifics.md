@@ -80,7 +80,7 @@ variants:
 - The scene still respects what the image is supposed to reveal or withhold.
 
 ## Notes
-Loomis argues that a story illustration need not be restricted to only the facts explicitly named in the prose. The illustrator can build reasonable secondary incidents from those facts — a "story within the story" — so long as the additions remain plausible and serve the narrative. The portable skill is controlled narrative inference: enrich the pictured moment with specific consequences and behaviors without rewriting the source.
+A story illustration need not be restricted to facts explicitly named in the prose. Build reasonable secondary incidents from those facts—a "story within the story"—when the additions remain plausible and serve the narrative. This is controlled narrative inference: enrich the pictured moment with specific consequences and behaviors without rewriting the source.
 
 `VAR_vandijk_imply_offframe_world_through_cast_evidence` enriches a scene with evidence whose cause lies outside the frame. Cast shadows are a strong example: they imply more world beyond the crop, but they must remain physically compatible with the scene lighting.
 

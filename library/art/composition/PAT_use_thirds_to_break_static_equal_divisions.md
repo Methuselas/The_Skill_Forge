@@ -66,7 +66,7 @@ variants:
 - A deliberate midpoint remains available when symmetry is actually the stronger choice.
 
 ## Notes
-Mattesi calls this a law of thirds, but the transferable learner decision is a design heuristic for escaping automatic equality. It applies beyond animal drawing to characters, creatures, objects, vehicles, and page composition.
+Treat thirds as a design heuristic for escaping automatic equality, not as a law. The heuristic applies beyond animal drawing to characters, creatures, objects, vehicles, and page composition.
 
 `VAR_dumitrescu_use_thirds_intersections_as_temporary_focal_scaffold` treats the thirds intersections as disposable focal-placement prompts. Start with them when useful, but let contrast and the actual picture establish the final hierarchy instead of preserving the grid mechanically.
 

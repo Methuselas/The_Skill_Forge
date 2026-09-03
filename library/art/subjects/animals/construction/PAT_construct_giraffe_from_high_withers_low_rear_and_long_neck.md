@@ -61,4 +61,4 @@ variants: []
 - Removing spots, tail flare, and horn detail does not erase the giraffe's structural identity.
 
 ## Notes
-Hultgren's two-page giraffe section is compact but structurally consistent. The text calls out the animal's angularity, wide jaw, pointed V-shaped nose, and the low hindquarter against the high withers. The drawings reinforce those relationships with a construction giraffe, front and side head studies, limb and split-hoof studies, a front-reaching pose, and a naturalistic side view divided by horizontal proportion guides. PASS retains the height, neck, limb, and head relationships as a giraffe-specific construction route while leaving the source's more categorical or caricatured traits as bounded examples rather than universal anatomy.
+Construct the giraffe around its angularity, wide jaw, pointed V-shaped nose, high withers, lower hindquarter, long neck and limbs, and split-hoof structure. Test those relationships in front and side head studies, limb studies, reaching poses, and proportioned side views. More categorical or caricatured traits remain bounded examples rather than universal anatomy.

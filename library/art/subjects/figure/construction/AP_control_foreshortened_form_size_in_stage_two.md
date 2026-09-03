@@ -70,7 +70,7 @@ Build a foreshortened figure whose advancing, receding, and obscured members ret
 8. **Promote only the proven construction.** Treat the accepted Stage 2 image as the controlling reference for Stages 3 and 4. A local failure may be erased, briefly restated as Stage 1, and rebuilt in place; if that repair cannot integrate without moving the rest of the composition, restart from Stage 1 rather than disguising the fault with rendering.
 
 ## Notes
-Hogarth's chapter uses width as the constant factor for cylindrical forms whose apparent lengths vary in depth. Guided review places that control primarily in Stage 2, where the simple masses first expose major problems. Width is not a command to make a tapered limb uniformly thick or to make different people identical. It is comparative evidence that corresponding regions belong to the same designed figure.
+Use width as a comparative constant for cylindrical forms whose apparent lengths vary in depth. Apply that control primarily in Stage 2, where simple masses first expose major size problems. Constant width does not mean making a tapered limb uniformly thick or different people identical; it tests whether corresponding regions belong to the same designed figure.
 
 The measuring lines, ellipses, arrows, and cylinder proofs are instructional aids. They may remain during construction when they improve judgment, especially for an image system that cannot rely on human depth perception, but Stage 2 should not become a shaded anatomy plate. Prefer line, cross-contour, and overlap; use at most a flat separation value when one form cannot otherwise be read in front of another. Rendering is downstream evidence, never a substitute for a block that does not work.
 

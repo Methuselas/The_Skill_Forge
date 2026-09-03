@@ -77,4 +77,4 @@ variants: []
 ## Notes
 Bammes describes the mammalian trunk with a bridge analogy: the vertebral column spans between front and rear supports, but those supports are not constructed in the same way. The thorax is shown suspended between the forelimbs by flexible muscle straps associated with the scapula, while the hindlimb is linked through the pelvis and uses a more strongly angled chain for push-off. His diagrams make this contrast visually explicit.
 
-The source also assigns a fixed front/rear weight ratio and discusses horse-specific energy-saving joint mechanisms. Those details are retained as source context, not as universal runtime doctrine. The reusable drawing decision is the **difference in attachment and mechanical emphasis** between forequarter and hindquarter.
+Do not turn a fixed front/rear weight ratio or horse-specific energy-saving joint mechanism into universal quadruped doctrine. The reusable drawing decision is the **difference in attachment and mechanical emphasis** between forequarter and hindquarter.

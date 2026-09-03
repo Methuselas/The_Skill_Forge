@@ -95,7 +95,7 @@ variants:
 - The viewer's path through picture and surrounding message is intentional.
 
 ## Notes
-Loomis treats magazine illustration as one unit inside a larger page design and repeatedly asks the artist to coordinate picture, copy, product, white space, and value pattern. The portable principle extends beyond advertising: an embedded image should answer the design conditions around it rather than behaving like an unrelated rectangle pasted into place. `VAR_loomis_make_title_primary_on_title_led_cover_or_jacket` specializes this for title-led covers and jackets by making the required identifier the first layout read and having the illustration support that hierarchy.
+Treat an embedded illustration as one unit inside a larger page design by coordinating picture, copy, product, white space, and value pattern. The image should answer the design conditions around it rather than behave like an unrelated rectangle pasted into place. `VAR_loomis_make_title_primary_on_title_led_cover_or_jacket` specializes this for title-led covers and jackets by making the required identifier the first layout read and having the illustration support that hierarchy.
 
 `VAR_dow_judge_lettering_as_tonal_mass_before_reading_as_text` treats lettering as part of the page value design before fine typographic character is judged. Step back and compare the density created by letter size, stroke thickness, inter-letter spacing, and surrounding space, while preserving the legibility and hierarchy the text still needs.
 

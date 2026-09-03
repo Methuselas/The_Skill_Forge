@@ -70,4 +70,4 @@ variants:
 ## Notes
 `VAR_dodson_use_bounded_formal_premise_to_keep_theme_generative` adds a tighter formal constraint when a broad theme needs more specific pressure to keep producing new questions.
 
-Dodson describes theme work as heuristic: repeated engagement with a bounded idea lets one drawing generate questions for another. PASS rejects the exact six-drawing assignment as a canonical Drill because the reusable decision is the sustained inquiry itself, not the source's arbitrary count.
+Theme work is heuristic: repeated engagement with a bounded idea lets one drawing generate questions for another. The reusable decision is sustained inquiry, not an arbitrary fixed number of drawings.

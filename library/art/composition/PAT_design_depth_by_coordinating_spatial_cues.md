@@ -73,7 +73,7 @@ variants:
 - If a cue has been exaggerated, the exaggeration is intentional and still preserves a coherent spatial read.
 
 ## Notes
-Dodson presents overlap, diminution, convergence, and softening of distant edges/contrast as mutually reinforcing ways to create the illusion of depth, and he explicitly permits intensifying them for effect. This Pattern owns the compositional decision to coordinate and emphasize those cues; Perspective and Rendering retain ownership of accurate convergence and atmospheric/edge behavior.
+Overlap, diminution, convergence, and softening of distant edges or contrast can reinforce one another to create depth and may be intensified for effect. This Pattern owns the compositional decision to coordinate and emphasize those cues; Perspective and Rendering retain ownership of accurate convergence and atmospheric or edge behavior.
 
 `VAR_smit_use_repeated_known_size_anchors_across_depth` turns equivalent real-size elements into depth calibrators. Their apparent-size changes should agree with the spatial field, and familiar human-scale anchors can also communicate the magnitude of surrounding forms.
 

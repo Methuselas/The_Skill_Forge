@@ -58,4 +58,4 @@ Write one simple beat in a single sentence and one intended effect such as urgen
 - Choosing the strangest angle instead of the one that best serves the intended effect.
 
 ## Notes
-The Marvel chapter teaches camera choice by direct comparison: ordinary and stronger views of the same situation are placed side by side so the reader can feel what the angle changes. This drill turns that comparison into a repeatable Stage 0 search.
+Side-by-side views of the same situation isolate what camera position changes. Comparing ordinary and stronger options turns camera choice into a repeatable Stage 0 search rather than an acceptance of the first drawable angle.

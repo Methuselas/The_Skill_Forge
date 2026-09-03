@@ -85,7 +85,7 @@ variants:
 - The vignette would lose something important if arbitrarily boxed into a complete rectangle.
 
 ## Notes
-Loomis's vignette pages show floating arrangements, designs tied to one or more page edges, open spaces that connect through the subject, small spots attached to a main vignette, borders, silhouettes, relief-like treatments, and combinations of sketchy open masses with more solid image blocks. The portable principle is that a vignette is an open page composition whose missing rectangular boundary is itself part of the design, not merely a rendering trick at the edges.
+A vignette may float, tie into one or more page edges, carry open space through the subject, attach small spots to a main mass, use borders or silhouettes, suggest relief, or combine sketchy open masses with solid image blocks. Its missing rectangular boundary is part of the composition, not merely a rendering trick at the edges.
 
 `VAR_loomis_choose_background_by_value_range_and_depth_need` adds a selection test: open ground can isolate and clarify a subject, but it can also flatten value relationships or produce a cut-paper effect. Choose the treatment from the subject's value range and depth requirements, and use selective lost edges or interlacing when open page space needs to penetrate the subject more naturally.
 

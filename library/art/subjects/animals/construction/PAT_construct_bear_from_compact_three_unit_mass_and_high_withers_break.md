@@ -62,4 +62,4 @@ variants: []
 - The block still reads as a bear when reduced to simple outer forms and major breaks.
 
 ## Notes
-Hultgren opens the bear section by calling the forms simple and compact, warning against using too many curves, and reminding the reader of three body breaks. On the following page he makes the standing construction more explicit: think in three units, with the high point of the withers breaking the flow between neck and back. The surrounding studies test those ideas across standing, crouched, rear, and active views. PASS retains this as a bear-specific Stage 2 specialization while treating the source's later type, age, and species captions as bounded observations rather than fixed biological measurements.
+Build the bear from simple compact forms without multiplying curves. Think in three main units, with the high point of the withers breaking the flow between neck and back, and test the structure across standing, crouched, rear, and active views. Type, age, and species captions are bounded observations rather than fixed biological measurements.

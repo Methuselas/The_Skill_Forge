@@ -61,4 +61,4 @@ Divide a page into eight boxes. Use only simple ovoids, cylinders, wedges, cente
 - Creating contradictory contour crossings that reverse the intended order.
 
 ## Notes
-The source begins with abstract arrays before applying the same logic to the figure. That progression isolates the spatial effect first, then tests whether the artist can preserve a believable body when the visible information becomes partial.
+Begin with abstract overlap arrays to isolate the spatial effect, then apply the same logic to the figure and test whether a believable body survives when visible information becomes partial.

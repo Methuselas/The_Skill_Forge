@@ -45,7 +45,7 @@ variants: []
 - Keep the thumbnail facing unchanged while swinging the thumb across the palm.
 - Treat the thumb as a fifth long finger or accept a thumb that reaches the desired screen position from a disconnected or implausible base.
 - Allow a second digit to inherit thumb-like root placement/opposition merely to satisfy the silhouette.
-- Expose the chapter's degree measurements as rigid runtime laws; use them as demonstrations of limited ranges and changing planes.
+- Treat example degree measurements as rigid runtime laws; use them only to understand limited ranges and changing planes.
 
 ## Checklist
 If the thumb reaches the right location but feels pasted on, duplicated, dislocated, or mechanically impossible, check its single root, rotation, opposition, relationship to the four-finger group, and nail-plane change before changing its length.

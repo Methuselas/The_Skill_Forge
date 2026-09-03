@@ -67,4 +67,4 @@ Choose three references with different visible conditions: one active expression
 - Adding wrinkles to compensate for weak head construction or unclear feature deformation.
 
 ## Notes
-Hogarth's chapter is most useful as an **observation organizer**, not a universal wrinkle atlas. His three flow families and four cause labels are scaffolds for asking better questions of a real face. The reference remains the authority on which routes exist, how strong they are, and where they merge or disappear.
+Use the three flow families and four cause labels as an **observation organizer**, not a universal wrinkle atlas. They are scaffolds for asking better questions of a real face. The reference remains the authority on which routes exist, how strong they are, and where they merge or disappear.

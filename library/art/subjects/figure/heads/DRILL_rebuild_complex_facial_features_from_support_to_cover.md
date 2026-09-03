@@ -69,4 +69,4 @@ Prepare four rows labeled eye, nose, mouth, and ear. Give each row three small b
 - Correcting only surface contour while leaving the underlying globe, wedge, barrel, or bowl misoriented.
 
 ## Notes
-Hogarth's chapter repeatedly treats feature drawing as **progressive form refinement**. The drill preserves that hierarchy while turning the source's multiple-view demonstrations into practice: first prove the support, then add the visible cover, then test whether the construction survives viewpoint change and memory.
+Feature drawing is **progressive form refinement**: first prove the support, then add the visible cover, then test whether the construction survives viewpoint change and memory.

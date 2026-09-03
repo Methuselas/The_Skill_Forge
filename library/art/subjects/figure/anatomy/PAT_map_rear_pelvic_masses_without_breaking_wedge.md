@@ -63,6 +63,6 @@ variants:
 - No surface line creates a competing joint boundary.
 
 ## Notes
-The butterfly is a recognition aid for rear pelvic surface masses, not the universal block-in. Guided review narrows its use: it is often subtle, becoming conspicuous mainly in fuller or strongly muscular builds.
+The butterfly is a recognition aid for rear pelvic surface masses, not a universal block-in. It is often subtle and becomes conspicuous mainly in fuller or strongly muscular builds.
 
 `VAR_bridgman_anchor_hip_surface_to_iliac_crest` retains **Anchor Changing Hip Surface to the Iliac Crest** as a bounded alternative; use it only under the conditions recorded in the variant metadata.

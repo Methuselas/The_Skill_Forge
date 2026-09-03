@@ -80,7 +80,7 @@ variants:
 - The composition still reads well after production constraints are applied.
 
 ## Notes
-Loomis's outdoor-poster example maps the physical sheet divisions before final placement and avoids running joins through small facial features, fingers, or lettering that could be visibly damaged by imperfect installation. The durable principle extends beyond historical billboard sheets: whenever artwork is physically divided or assembled, fabrication boundaries belong to the design problem.
+Map physical divisions before final placement and keep joins away from small facial features, fingers, lettering, or other content that imperfect assembly could visibly damage. Whenever artwork is physically divided or assembled, fabrication boundaries belong to the design problem.
 
 `VAR_loomis_simplify_display_contours_for_cutting_support_and_stability` extends the same production-aware thinking from internal seams to the manufactured silhouette itself: cut, folded, mounted, or free-standing forms must remain buildable and stable under the actual fabrication method.
 

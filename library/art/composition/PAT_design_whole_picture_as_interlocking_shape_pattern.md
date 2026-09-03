@@ -159,9 +159,9 @@ variants:
 - Boundaries that must remain readable have enough value and/or chroma separation to survive without unnecessary contour reinforcement.
 
 ## Notes
-Dodson shifts positive/negative shape from an observational checking device into a whole-picture design principle. The existing observation foundation remains the owner of using shared positive/negative boundaries to verify what was seen; this Pattern owns how those same kinds of boundaries are organized deliberately across the final picture.
+Positive and negative shape can serve both as an observational check and as a whole-picture design principle. The existing observation foundation owns using shared boundaries to verify what was seen; this Pattern owns organizing those boundaries deliberately across the final picture.
 
-`VAR_dodson_merge_same_value_shapes_across_object_boundaries` carries forward the same-value merging introduced in the light chapter and gives it its full composition rationale: value groups may cross object and shadow categories when the larger design benefits.
+`VAR_dodson_merge_same_value_shapes_across_object_boundaries` gives same-value merging its composition rationale: value groups may cross object and shadow categories when the larger design benefits.
 
 `VAR_dodson_reduce_scene_to_nonobject_shape_language` is a temporary abstraction route for seeing the pattern without being trapped by object names. It should lead back to the subject, not erase the subject.
 

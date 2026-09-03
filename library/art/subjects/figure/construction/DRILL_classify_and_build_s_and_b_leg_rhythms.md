@@ -59,4 +59,4 @@ Use four rows: standing, seated, crossed or hunched, and deeply foreshortened.
 - Drawing the ankle clue after the rhythm and making it agree retroactively.
 
 ## Notes
-The chapter's progression moves from obvious profile and front views into seated, crossed, rear, and compressed examples. The drill follows the same escalation so the learner must preserve the view rule when the pose becomes difficult.
+Progress from obvious profile and front views into seated, crossed, rear, and compressed examples so the learner must preserve the view rule when the pose becomes difficult.
