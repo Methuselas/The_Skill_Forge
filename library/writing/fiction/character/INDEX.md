@@ -6,7 +6,7 @@
 
 - [Build a Hidden Character Profile](DRILL_build_a_hidden_character_profile.md) - drill; 0 design. Tags: biography, character, fiction, practice, profile.
   - Variants: `Pressure a Hidden Profile Through an Unsent Document` (method_sequence); `Hot-Seat a Character with Responsive Questions` (method_sequence); `Reconstruct Education and Work through a Private Resume` (method_sequence); `Layer a Hidden Profile across Public, Private, Secret, and Past` (method_sequence).
-- [Build Round Characters from Contradiction and Desire](PAT_build_round_characters_from_contradiction_and_desire.md) - pattern; 0 design. Tags: character, contradiction, desire, fiction, protagonist.
+- [Build Round Characters from Contradiction and Desire](PAT_build_round_characters_from_contradiction_and_desire.md) - pattern; 0 design. Tags: character, contradiction, desire, fiction, motivation, protagonist.
 - [Compress Cast without Flattening Main Characters](PAT_compress_cast_without_flattening_main_characters.md) - pattern; 1 skeleton. Tags: cast, character, compression, fiction, flash-fiction, naming.
 - [Develop and Reveal a Short-Story Character](AP_develop_and_reveal_a_short_story_character.md) - ap; 0 design. Tags: character, development, fiction, revelation, short_story.
 - [Differentiate Character Voices through Parallel Monologues](DRILL_differentiate_character_voices_through_parallel_monologues.md) - drill; 1 skeleton. Tags: character, deliberate_practice, diction, fiction, monologue, voice.
@@ -25,6 +25,7 @@
 - [Reveal Character through Contrasting Everyday Conduct](DRILL_reveal_character_through_contrasting_everyday_conduct.md) - drill; 2 block. Tags: activity, behavior, character, deliberate_practice, fiction, interactive_narrative, relationship, research.
   - Variants: `Stage a Relationship through Competitive or Cooperative Play` (context); `Compare Embodied Responses to Contrasting News` (context).
 - [Scale Character Change to Story Length](PAT_scale_character_change_to_story_length.md) - pattern; 3 rough. Tags: change, character, fiction, flash-fiction, realization.
+- [Test Character Motivation from Need to Attainment](DRILL_test_character_motivation_from_need_to_attainment.md) - drill; 0 design. Tags: character, deliberate_practice, desire, fiction, goals, motivation, self-sabotage.
 - [Trace Character Continuity across a Whole-Life Timeline](DRILL_trace_character_continuity_across_a_whole_life_timeline.md) - drill; 0 design. Tags: character, chronology, deliberate_practice, fiction, interactive_narrative, life_history.
 - [Trace One Embodied Condition through a Character's Life](DRILL_trace_one_embodied_condition_through_a_characters_life.md) - drill; 0 design. Tags: adaptation, causality, character, deliberate_practice, embodiment, fiction, stereotype.
 - [Transform Real People into Composite Characters](PAT_transform_real_people_into_composite_characters.md) - pattern; 0 design. Tags: character, composite-character, fiction, invention, observation.
