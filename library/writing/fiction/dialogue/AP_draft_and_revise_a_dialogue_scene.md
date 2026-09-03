@@ -30,6 +30,8 @@ cross_links:
   - rel: supports
     target_object_id: writing_fiction_orient_speakers_with_unobtrusive_formatting_and_tags
   - rel: supports
+    target_object_id: writing_make_nonstandard_language_deliberate
+  - rel: supports
     target_object_id: writing_read_draft_aloud_to_defamiliarize_it
   - rel: related_to
     target_object_id: writing_fiction_drill_audit_marked_character_speech_for_individuality_accuracy_and_legibility
