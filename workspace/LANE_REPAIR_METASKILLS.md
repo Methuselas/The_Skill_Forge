@@ -32,7 +32,7 @@ The pattern-side `related_to` from `PAT_generate_novel_options_by_combining_dist
 to `AP_alternate_search_and_control_cycles` was left in place. It is sibling
 adjacency in the opposite direction and removing it is not part of the repair.
 
-## Open defect found in passing, not fixed
+## Rule 3 violation, fixed 2026-09-03
 
 `AP_plan_and_build_work_from_thumbnail_to_final` Notes names two **`art`** cards in
 runtime prose — `PAT_return_to_art_centerline` and
@@ -41,3 +41,13 @@ the references are in Notes rather than `cross_links`, but it is a rule 3
 violation with a rule 10 consequence: any release that ships `metaskills` without
 `art` carries a metaskill that names two unresolvable identifiers. Fixing it means
 rewriting that Notes paragraph, which is outside an additive ownership repair.
+
+The Notes paragraph now describes the roles instead of naming the cards: the
+domain supplies its own centerline Pattern and its own approval-gated stage AP
+thread, and the metaskill says why it names neither.
+
+A sweep of all 1487 cards found these two and no others. `validate.py` now
+carries the check that would have caught them — `rule 26` is applied to card
+bodies as well as `cross_links`, over object ids and variant ids alike — with a
+regression test beside the existing cross_link case in
+`tests/test_architecture.py`.

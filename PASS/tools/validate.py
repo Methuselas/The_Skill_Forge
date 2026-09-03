@@ -67,6 +67,9 @@ SOURCE_DEPENDENT_PHRASES = (
 PATH_SEGMENT_RE = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 PLACEHOLDER_RE = re.compile(r"<[^>\n]+>")
 SENTENCE_RE = re.compile(r"(?<=[.!?])\s+|\n+(?=- )")
+# An object_id or variant_id is the only token shape that can name another
+# card, so prose is scanned for those rather than for arbitrary words.
+IDENTIFIER_RE = re.compile(r"[A-Za-z][A-Za-z0-9]*(?:_[A-Za-z0-9]+)+")
 SIMILARITY_THRESHOLD = 0.70
 DUPLICATE_THRESHOLD = 3
 VARIANT_KEYS = {
@@ -289,6 +292,13 @@ def validate_cross_object(records: list[ObjectRecord]) -> None:
         for object_id, owners in by_id.items()
         if len(owners) == 1
     }
+    # Prose can name a card as surely as a cross_link can. Variant ids are
+    # included because a variant is only reachable through the card that owns it.
+    prose_package = dict(owner_package)
+    for record in records:
+        for variant in record.data.get("variants", []) or []:
+            if isinstance(variant, dict) and variant.get("variant_id"):
+                prose_package.setdefault(str(variant["variant_id"]), package_of(record))
     for record in records:
         targets: list[tuple[str, str]] = []
         foundation = record.data.get("foundation_object_id")
@@ -309,6 +319,16 @@ def validate_cross_object(records: list[ObjectRecord]) -> None:
             if target_package and target_package not in {source_package} | SHARED_PACKAGES:
                 record.errors.append(
                     f"rule 26: {kind} {target} crosses from '{source_package}' into '{target_package}'"
+                )
+        # Rule 3 is a runtime property, not a frontmatter one: a card whose body
+        # names another package's object is unresolvable in any release that
+        # ships one package without the other, and cross_links cannot see it.
+        source_package = package_of(record)
+        for token in sorted(set(IDENTIFIER_RE.findall(record.body))):
+            target_package = prose_package.get(token)
+            if target_package and target_package not in {source_package} | SHARED_PACKAGES:
+                record.errors.append(
+                    f"rule 26: body names {token} from '{target_package}' outside '{source_package}'"
                 )
     sentence_uses: dict[str, list[ObjectRecord]] = defaultdict(list)
     if_uses: dict[str, list[ObjectRecord]] = defaultdict(list)

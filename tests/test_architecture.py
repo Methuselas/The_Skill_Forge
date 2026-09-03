@@ -331,6 +331,31 @@ class ValidatorScopeTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0)
             self.assertIn("rule 26", result.stdout)
 
+    def test_validator_rejects_a_cross_domain_reference_in_prose(self) -> None:
+        with isolated_library() as tmp:
+            root = Path(tmp)
+            # A body that names another package's card is the same coupling as a
+            # cross_link, and ships as an unresolvable identifier in any release
+            # that carries one package without the other.
+            card = next(
+                path
+                for path in (root / "library").rglob("PAT_*.md")
+                if path.relative_to(root / "library").parts[0]
+                not in ("software-engineering", SHARED_PACKAGE)
+            )
+            card.write_text(
+                card.read_text(encoding="utf-8")
+                + "\nSee `PAT_wrap_virtuals_with_nvi_idiom` for the other case.\n",
+                encoding="utf-8",
+            )
+            result = subprocess.run(
+                [sys.executable, str(root / "PASS/tools/validate.py"), "--library", str(root / "library")],
+                text=True, capture_output=True, cwd=root,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("rule 26", result.stdout)
+            self.assertIn("PAT_wrap_virtuals_with_nvi_idiom", result.stdout)
+
     def test_validator_takes_no_ledger_or_provenance_arguments(self) -> None:
         result = validate("--help")
         self.assertEqual(result.returncode, 0)
