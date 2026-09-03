@@ -61,6 +61,13 @@ variants:
     when_to_use: The story needs intimate consciousness plus controlled visual or ironic distance around one focal character.
     when_not_to_use: The narration repeatedly requires knowledge outside that focal access or the external distance weakens a voice whose confinement is the point.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_build_bounded_multiple_viewpoint_roster
+    variant_name: Build a Bounded Multiple-Viewpoint Roster
+    variant_basis: method_sequence
+    difference_from_foundation: Replace one governing account with the smallest set of first-person, third-person-limited, or document-shaped viewpoints in which every member contributes necessary access, interpretation, voice, form, or consequence.
+    when_to_use: No single account can deliver the story's essential conflict, social field, information, or productive uncertainty without implausible access or a lost contrast.
+    when_not_to_use: Additional viewpoints merely redistribute known information, repeat scenes cosmetically, or impose more orientation and development cost than their distinct contribution earns.
+    absorbed_from_object_id: none
   - variant_id: writing_fiction_variant_use_omniscient_for_controlled_multi_character_scope
     variant_name: Use Omniscient for Controlled Multi-Character Scope
     variant_basis: emphasis
@@ -127,6 +134,8 @@ variants:
 `writing_fiction_variant_use_second_person_for_implication_and_distance` uses you as an active device: invitation, accusation, internalized instruction, universality, or self-division. It can make an isolated character into a private confidant or turn repeated commands into social pressure. Its intensity is useful only when the effect outweighs reader resistance and the enclosed feeling can be sustained; longer narratives may need a deliberate alternation with another position.
 
 `writing_fiction_variant_use_third_person_limited_for_close_flexible_access` stays inside one focal consciousness while allowing an over-the-shoulder view and controlled narrative phrasing. The narrator and focal character remain distinct even when the prose borrows the character's evaluations or idiom; limitation permits private access but does not require reporting every thought or feeling. Its flexibility increases the writer's obligation to distinguish legitimate outside observation from a leak into another mind.
+
+`writing_fiction_variant_build_bounded_multiple_viewpoint_roster` distributes the story across several accounts only when each earns a necessary job. For every proposed viewpoint, name its exclusive or materially stronger access, stake, blind spot, interpretive pressure, voice or form, and effect on what readers know or believe; then remove it provisionally and test what the story actually loses. First person, third-person limited, letters, diaries, interviews, and other bounded forms can coexist, but each retains its own knowledge and telling contract. Viewpoint counts are workload estimates rather than rules: legibility depends on differentiation, transition cost, available development, and what the whole gains from juxtaposition. Revisit a shared event only when another account changes evidence, meaning, allegiance, or consequence; cosmetic replay is not completeness.
 
 `writing_fiction_variant_use_omniscient_for_controlled_multi_character_scope` permits deliberate movement across selected characters, places, and times under one stable narrative intelligence. The author and narrator remain distinct even when the governing voice comments confidently. Define which minds and times are available, how transitions occur, how much the narrator interprets, and which focal characters receive sustained development. The narrator may be identified, personified, or intentionally unnamed; what readers need is a legible voice, reach, and transition system rather than a compulsory biography. Broad permission carries broad management cost, especially in flash fiction, where a limited position often delivers more pressure per sentence.
 
