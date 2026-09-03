@@ -211,3 +211,65 @@ attributes to the ranking instruction as a whole and not to step 5's wording spe
 protocol retains steps 1, 2 and 3, which ask what the code promises callers and run owning
 protocols' completion checks backwards — either could produce an outward trace on its own, and
 this design cannot separate them.
+
+---
+
+# Appendix — 2026-08-30, run 6
+
+Written before any file was edited for this attempt. Nothing above altered.
+
+## The question
+
+Two manipulations have now failed to stop the outward trace. Two candidates were named as
+unexcluded: the protocol's first step, which asks what the code "promises callers", and a
+clause in every prompt so far describing the reviewed code as published with consumers outside
+the repository. This run removes both and varies only the second.
+
+> **Is the prompt's mention of outside consumers what sends the reviewer outward — and if not,
+> does anything left in the protocol do it?**
+
+## Design
+
+Both arms share a protocol stripped of every outward pointer found by search:
+
+- the ranking-by-reach instruction, in the four places run 5 removed it;
+- step 1's "what it promises callers, and what it assumes of them", substituted with an
+  orientation instruction naming no audience;
+- the `PAT_look_for_the_evidence_outside_the_code` cross-link in the front matter, which run 5
+  did not account for.
+
+Both entrypoints stay memory-free. The two protocols are made byte-identical and verified so.
+**The only difference between arms is one clause in the prompt:**
+
+- **Arm A:** the slice is named with no mention of publication or consumers.
+- **Arm B:** the clause is present, exactly as in runs 4b and 5.
+
+## Why this shape
+
+It reads three cells rather than two, because run 5's arm A is the third:
+
+- Both arms score *yes* → nothing identified causes the trace. It survives removal of memory,
+  the ranking instruction, step 1's caller language, the outside-evidence link, and the prompt
+  clause. At that point the behaviour is intrinsic to the reviewing task as this runtime
+  performs it, and the original sighting is the anomaly rather than the trace.
+- A scores *no*, B scores *yes* → the prompt clause is sufficient on its own, and every run in
+  this series was measuring a pointer I wrote rather than anything in the library.
+- Both score *no* → step 1 or the outside-evidence link was doing the work, because those are
+  the only things that changed since run 5's arm A, which scored *yes*.
+
+## Primary outcome
+
+Unchanged: does the report establish reachability outside the slice file — naming at least one
+caller, consumer or configuration site by file — as part of, or before, ordering the findings?
+
+## Slice
+
+`ignore/src/overrides.rs` again, for comparability against four prior reports on the same code.
+
+## Limits
+
+n = 1 per arm. The protocol strip is now cumulative and coarse: four sites plus step 1 plus a
+cross-link, so a *no* attributes to the strip as a whole. Every run in this series has used one
+slice in one language, and nothing here speaks to other code. The reviewing task itself — read
+this file and say what is wrong with it — is not manipulable without ceasing to be a review,
+so it can never be ruled out by this design.

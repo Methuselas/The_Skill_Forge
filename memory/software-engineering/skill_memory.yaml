@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: software-engineering
-memory_version: 12
+memory_version: 13
 entries:
 - id: SE_MEM_001
   scope_type: topic
@@ -1053,12 +1053,17 @@ entries:
     discarded return value and the single caller that compensates for it. The first run stopped
     at the file boundary and carried out the protocol''s ranking step anyway, which asks what
     each defect can break, so the ranking rested on argument and nothing in the report it
-    produced distinguished that from a ranking established from call sites. Two controlled
-    experiments have since failed to identify what produces the outward trace when it does
-    happen. Removing the memory store from a reviewer''s entrypoint did not stop it. Removing
-    the protocol''s ranking-by-reach instruction from all four places it appears did not stop
-    it either, and in that comparison the withheld arm, asked only to state whatever ordering
-    principle it had used, chose the gap between what a caller asked for and what they got.
+    produced distinguished that from a ranking established from call sites. Three controlled
+    comparisons have since failed to identify what produces the outward trace when it does
+    happen. Five candidate supports were removed, one or two at a time, and the behaviour
+    survived all of them: the memory store, the protocol''s ranking-by-reach instruction in
+    the four places it appears, the first step''s language about what the code promises callers,
+    a cross-link to the card on looking for evidence outside the code, and a clause in the
+    task description naming the reviewed code as published with consumers elsewhere. In the
+    final comparison, with none of the five present, the reviewer read four files outside
+    its slice, ran the built binary, and - asked only to state whatever ordering principle
+    it had used - chose the size of the gap between what a caller is led to believe and what
+    actually happens.
 
     '
   diagnosis:
@@ -1068,51 +1073,55 @@ entries:
       separates an anomaly from a decision somebody made on purpose, and the ranking step
       is where that costs something, because severity is the one output that can be argued
       plausibly from the code alone, so an under-scoped review still emits a ranked list and
-      reads as complete. What has failed is every attempt to name a cause that can be acted
-      on. Retrieval was credited on the strength of four self-reports by the runtime whose
-      behaviour was in question, and twice failed to reproduce under manipulation. Two candidates
-      remain unexcluded: the protocol''s first step, which asks what the code owns, what it
-      promises callers and what it assumes of them, and which was left standing in both experiments;
-      and a clause in every prompt describing the reviewed code as a published unit with consumers
-      outside the tree, which was never controlled. Until one of those is tested, the position
-      this entry supports is that a review sometimes stops at the file boundary, that this
-      is worth knowing because the resulting report looks finished, and that nothing here
-      is known to prevent it.
+      reads as complete. What has failed is every attempt to name something in the environment
+      that sustains the opposite behaviour. Retrieval was credited on the strength of four
+      self-reports by the runtime whose behaviour was in question, and did not survive being
+      withheld. The two candidates this entry previously named as unexcluded - the protocol''s
+      first step and the task description''s mention of outside consumers - have both since
+      been removed without effect. The reading the evidence now supports is the reverse of
+      the one this entry was written with: tracing outward is not fragile and needs no support,
+      and the founding sighting is the outlier. What made that one review stop at the file
+      boundary was never investigated on its own terms and remains unexplained. Nothing here
+      should be read as a remedy, because five things believed to be remedies were removed
+      and nothing changed.
 
       '
   boundary: 'Evidenced by one comparison: two independent runs of one protocol over the same
     unchanged code, which is what separates it from two differing opinions. The under-scoped
     run was on a single class in a long-lived multi-author C plus plus project whose callers,
     data files and build settings all sit in the same tree, where tracing outward is cheap
-    and terminates. Five events are cited and only one is a sighting. Two are ordinary runs
-    in which this entry was retrieved and the failure did not occur, and two are controlled
-    comparisons in which it was withheld by construction and the failure still did not occur.
-    Read the count as one sighting and four non-recurrences, which is why this is recorded
-    as a boundary rather than as a recurring failure; four citations otherwise invite the
-    opposite reading. Probed once where the slice is a published library crate whose consumers
-    sit outside the tree, which this boundary previously called untested and warned could
-    licence an unbounded trace. It did not: that trace terminated in one search and four call
-    sites, because establishing reachability needed only the in-tree consumers while the out-of-tree
-    ones mattered for their existence rather than their contents. Untested, and these are
-    the tests worth running: whether the protocol''s first step produces the outward orientation
-    on its own, and whether a prompt that does not describe the reviewed code as published
-    with outside consumers changes anything. Both were present in every run so far. Also untested
-    is whether requiring reachability before the ranking step prevents the original miss,
-    which is the one intervention nobody has tried. One caveat on provenance: the founding
-    event was recorded by the run that missed the three defects and the entry was first written
-    by the run that found them, so the diagnosis carries that interest even though the observation
-    does not depend on it.
+    and terminates. Six events are cited and only one is a sighting. Two are ordinary runs
+    in which this entry was retrieved and the failure did not occur; three are controlled
+    comparisons in which supports for the behaviour were withheld by construction and it still
+    did not occur. Read the count as one sighting and five non-recurrences, which is why this
+    is recorded as a boundary rather than as a recurring failure; four citations otherwise
+    invite the opposite reading. Probed once where the slice is a published library crate
+    whose consumers sit outside the tree, which this boundary previously called untested and
+    warned could licence an unbounded trace. It did not: that trace terminated in one search
+    and four call sites, because establishing reachability needed only the in-tree consumers
+    while the out-of-tree ones mattered for their existence rather than their contents. The
+    two tests this boundary previously listed as worth running have been run and both came
+    back negative, so that list is spent. The series has reached its floor: the only candidate
+    left is the reviewing task itself, which cannot be removed without ceasing to be a review.
+    What remains genuinely untested is the opposite question - whether anything reliably produces
+    the miss - because the founding sighting has never been reproduced under any condition,
+    and one occurrence is the whole of the evidence for it. Also untested is whether any of
+    this holds on other code: every measurement in this series used one file in one language.
+    One caveat on provenance: the founding event was recorded by the run that missed the three
+    defects and the entry was first written by the run that found them, so the diagnosis carries
+    that interest even though the observation does not depend on it.
 
     '
   confidence: provisional
   status: active
-  evidence_count: 5
+  evidence_count: 6
   evidence_events:
   - SE_EV_0035
   - SE_EV_0037
   - SE_EV_0038
   - SE_EV_0039
   - SE_EV_0040
+  - SE_EV_0041
   evidence_origin:
   - runtime_self_audit
   likely_owners:

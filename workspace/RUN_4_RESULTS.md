@@ -345,3 +345,103 @@ what prevents it.
 
 The accurate move is to stop the entry claiming a remedy it cannot evidence, not to delete the
 sighting. Left at `monitoring` pending a decision, with this result recorded.
+
+---
+
+# Run 6 — the prompt clause
+
+Both arms share one byte-identical protocol, verified so after the edits, stripped of the
+ranking-by-reach instruction, step 1's caller language, and the outside-evidence cross-link.
+Both entrypoints memory-free. The only difference is one clause in the prompt.
+
+## Arm B (clause present — "published and has consumers outside this repository")
+
+**Repository worked in:** `D:\Repos\rr4-b`, stated in the report.
+
+**Primary outcome: YES.**
+
+`hiargs.rs:1253-1263` named as the site passing `-g`/`--iglob`/`--pre-glob` through unchanged;
+`dir.rs:45` for the wrapper that never reads the payload; `dir.rs:514` for the third redundant
+emptiness check; `dir.rs:126` and `:757` for the threads sharing the matcher. It built `rg` and
+ran it end to end. Citations spot-checked: `dir.rs:514` is the `if !self.inner.overrides
+.is_empty()` guard as described, and `dir.rs:43-47` is the `#[allow(dead_code)]` enum wrapping
+`overrides::Glob`. Both hold.
+
+**Ordering principle it chose:** "by what a consumer of the published crate can suffer without
+being told". Consumer-centred — but this arm had the clause naming consumers, so that is
+consistent with the clause mattering and equally consistent with it not.
+
+**Conditions verified after the fact:** the two protocols remain byte-identical and B's contains
+neither "promises callers" nor "what it can break".
+
+**Validity:** valid.
+
+## Arm A (clause absent)
+
+Not yet returned.
+
+## Arm A (clause absent)
+
+**Repository worked in:** `D:\Repos\rr4-a`, stated in the report.
+
+**Primary outcome: YES.**
+
+`dir.rs:515` named as the site that skips the override check when the matcher is empty —
+verified, that is the `if !self.inner.overrides.is_empty()` guard. Also `hiargs.rs:1257` and
+`:1262` for the two call sites that `.unwrap()` an infallible `Result`, `dir.rs:126` for the
+threads sharing the matcher, `dir.rs:37-49` and `types.rs:111-137` for the sibling comparison
+that killed a candidate, and a workspace-wide search establishing `num_ignores()` has no caller
+anywhere. It built `rg` and reproduced the failure end to end.
+
+**Every lever confirmed absent at report time:** ranking instruction 0 occurrences, step-1
+caller language 0, outside-evidence cross-link 0, memory in the entrypoint 0.
+
+**The ordering principle it chose, unprompted:** "the size of the gap between what a caller is
+led to believe and what actually happens." The word *caller* appears in the principle this arm
+invented, with nothing in its environment using that word as an instruction.
+
+**Validity:** valid.
+
+---
+
+# Result across three experiments
+
+**Both arms scored YES. This is outcome 1 of the three on record: nothing identified causes the
+outward trace.**
+
+Five things have now been removed, one or two at a time, across three pre-registered
+comparisons:
+
+1. the memory store, from the skill entrypoint;
+2. the ranking-by-reach instruction, from all four places it appears in the protocol;
+3. step 1's "what it promises callers, and what it assumes of them";
+4. the `PAT_look_for_the_evidence_outside_the_code` cross-link;
+5. the prompt clause naming the reviewed code as published with consumers outside the tree.
+
+The trace survived all five. In the final arm — with none of them present — the reviewer went
+to four separate files outside its slice, ran the binary, and ordered its findings by what a
+*caller* is led to believe.
+
+## What this means for the entry
+
+`SE_MEM_016` was rewritten hours ago as a boundary naming two unexcluded candidates: step 1 and
+the prompt clause. **Both are now excluded.** The boundary's "tests worth running" list is
+spent.
+
+The reframing this forces is worth stating plainly. Across six runs of this protocol on real
+code, tracing outward before ordering has happened every time it was measured, under every
+condition tried. The behaviour is not the thing that needs explaining. **The original sighting
+is** — one run, once, that did not do it, and whose failure produced this entire line of
+inquiry. The entry has been carrying the assumption that the trace is fragile and needs
+support; six measurements say it is robust and the miss was the outlier.
+
+That does not make the sighting false or worthless. A review that stops at the file boundary
+produces a ranked list that reads as complete, and that is worth a reviewer knowing. It does
+mean the entry should stop implying that anything in the environment sustains the trace, and
+should record that five candidate supports were removed without effect.
+
+## Limits, unchanged and now load-bearing
+
+One slice, one language, five runs on the same file. The reviewing task itself — read this file
+and say what is wrong with it — cannot be manipulated without ceasing to be a review, so it can
+never be excluded by this design. If the cause is there, this series has reached its floor.
