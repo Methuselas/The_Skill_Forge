@@ -22,6 +22,8 @@ cross_links:
   - rel: supports
     target_object_id: writing_collect_fragments_before_demanding_complete_draft
   - rel: supports
+    target_object_id: writing_preserve_exploratory_draft_variants_with_lightweight_labels
+  - rel: supports
     target_object_id: writing_freewrite_to_discover_what_draft_is_about
   - rel: supports
     target_object_id: writing_trace_reader_effects_to_craft_choices
@@ -46,7 +48,7 @@ Maintain a low-friction private workspace that catches live material, develops s
 5. **Reread with a development question.** At a regular interval or when a project needs material, browse recent and older entries. Mark fragments with specificity, tension, verbal energy, surprising relation, or a question that continues to press. Do not reorganize the whole collection before making a selection.
 6. **Grow one selected fragment.** Give the material a new pressure: combine it with another entry, change its form or addressee, place a person in action, extend an image, or freewrite from its most charged phrase. **Advance gate:** the result develops a relation, movement, voice, or discovery that was not present in the isolated note.
 7. **Hand the live material to a draft.** Move the developed passage into the working environment for its likely form and compose beyond the notebook entry. Transform private lives, overheard speech, and borrowed material as the draft requires. Return to collection only when the draft genuinely needs new material.
-8. **Keep the system subordinate to writing.** Retain only enough separation, labeling, or indexing to retrieve useful entries. Simplify the method when maintenance delays capture, rereading, or drafting. Stop the notebook cycle when a draft has sufficient pressure to continue on its own.
+8. **Keep the system subordinate to writing.** Activate `writing_preserve_exploratory_draft_variants_with_lightweight_labels`; retain only enough separation, labeling, or indexing to retrieve and compare useful entries later. Simplify the method when maintenance delays capture, rereading, or drafting. Stop the notebook cycle when a draft has sufficient pressure to continue on its own.
 
 ## Notes
 A writer's notebook is simultaneously a net, a practice room, and a development bench. Those functions become useful through their handoffs: immediate capture preserves heat, unjudged practice expands possibility, rereading selects rather than merely remembers, and development changes a fragment enough to enter composition. Privacy licenses roughness, but the notebook does not need to be a diary, a beautiful object, or a comprehensive archive. Its success is measured by usable attention and movement into writing.
