@@ -52,15 +52,15 @@ variants:
 ## Do
 - For very young hands, favor fuller compact forms, softer transitions, reduced bony prominence, and less sharply separated joints.
 - As the hand matures, allow longer/leaner proportions, firmer joints, clearer knuckles, and more definite tendon or wrist structure.
-- For older hands, reduce soft-tissue fullness where the source shows contraction and let joints, tendons, veins, furrows, and skeletal structure become more evident.
+- For older hands, reduce soft-tissue fullness where observation supports contraction and let joints, tendons, veins, furrows, and skeletal structure become more evident.
 - Coordinate surface texture with the underlying form rather than adding random line noise.
 - Let age affect behavior and tension only where the intended character/action supports it.
 
 ## Don't
 - Age a hand by wrinkles alone.
 - Keep child proportions while adding adult knuckles and tendons.
-- Make every older hand equally emaciated or inactive; the chapter includes variation in firmness and capability.
-- Treat the chapter's age brackets as exact biological deadlines rather than design observations.
+- Make every older hand equally emaciated or inactive; preserve observed variation in firmness and capability.
+- Treat age brackets as exact biological deadlines rather than design observations.
 
 ## Checklist
 If the stated age is only readable after adding skin lines, the structural age cues are probably too weak. Remove the wrinkles and check whether proportion, fullness, joint visibility, and tissue character still imply the intended stage.

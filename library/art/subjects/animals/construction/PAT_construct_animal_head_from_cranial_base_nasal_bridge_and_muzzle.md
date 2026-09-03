@@ -80,4 +80,4 @@ Hultgren explicitly divides the skull into the muzzle, the long part of the nose
 
 `VAR_hultgren_place_horse_eye_from_skull_sections` retains **Place the Horse Eye From Skull Sections and Bone Flow** as a horse-specific placement check: use skull divisions and the bony route around the eye when the eye drifts forward, but do not promote those study divisions into fixed measurements.
 
-`VAR_hultgren_construct_gorilla_face_from_cheekbone_eye_and_nostril_landmarks` adds the gorilla transfer from u12: after the compact head is turned as one mass, use pronounced cheekbones, deep inset eyes, a low forehead, and a broad nostril region to keep the face species-specific. These are Hultgren's drawing landmarks for the illustrated gorillas, not fixed biometric measurements.
+`VAR_hultgren_construct_gorilla_face_from_cheekbone_eye_and_nostril_landmarks` adds the gorilla transfer: after the compact head is turned as one mass, use pronounced cheekbones, deep inset eyes, a low forehead, and a broad nostril region to keep the face species-specific. These are Hultgren's drawing landmarks for the illustrated gorillas, not fixed biometric measurements.

@@ -67,4 +67,4 @@ Divide one page into eight boxes. In each box, place two or three circles/balls 
 - Producing eight cosmetic variants of the same underlying head.
 
 ## Notes
-Loomis's pp. 28-30 “trick stuff” and “stunt” exercises deliberately let arbitrary overlapping balls suggest a head before the artist knows the final character. The reusable lesson is a bounded Search/Control exercise: chance arrangement can generate possibilities, but the result still has to survive three-dimensional head construction before it is accepted.
+Loomis's “trick stuff” and “stunt” exercises deliberately let arbitrary overlapping balls suggest a head before the artist knows the final character. The reusable lesson is a bounded Search/Control exercise: chance arrangement can generate possibilities, but the result still has to survive three-dimensional head construction before it is accepted.

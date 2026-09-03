@@ -47,7 +47,10 @@ Establish eye level and the rectangle's vanishing directions first.
 5. Compare the visible gaps; they should compress with depth rather than remain equal on the page.
 
 ## Success Check
-The posts read as evenly spaced in the world even though their screen-space gaps diminish.
+- The four depth sections come from diagonal subdivision of the perspective plane rather than four equal image-space gaps along the receding edge.
+- Post bases land on the constructed divisions, and their visible gaps compress with depth instead of remaining evenly spaced on the page.
+- Repeated posts share one height construction; unrelated visible heights do not substitute for equal world-space height.
+- With the diagonals and height guides suppressed, the row still reads as evenly spaced repeated posts in one receding plane rather than a row adjusted by eye after construction.
 
 ## Common Failures
 - Dividing the visible receding edge into four equal image lengths.

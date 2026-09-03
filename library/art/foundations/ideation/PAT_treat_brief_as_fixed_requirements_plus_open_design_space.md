@@ -68,3 +68,5 @@ variants: []
 - Any changed requirement is made explicit before substantial additional work begins.
 
 ## Notes
+
+Maintain the fixed/open distinction as revisions arrive: a formerly open choice may become approved and therefore constrained, while a changed requirement can reopen dependent decisions. If a phrase admits materially different interpretations, resolve it before using it as either a lock or a license.

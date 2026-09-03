@@ -81,6 +81,6 @@ Use a reference in which the region's orientation and main landmarks are readabl
 - Making the second pass faster by omitting structure instead of abbreviating structure.
 
 ## Notes
-Bammes completes the first-phase living-hindleg assignment from §5.2 by turning skeletal reference points into a constructional study of the living form. On printed pp. 57-60 he emphasizes large plane convergence, straight construction, selected cross-sections, and hatching that clarifies spatial gradients while explicitly separating this exercise from painterly light-and-shade rendering. The neighboring zebu and panther studies then show the pedagogical direction of travel: intensive structural observation can be compressed into increasingly fluent brush or line records once the construction has actually been learned.
+Bammes turns skeletal reference points into a constructional study of the living hindleg. He emphasizes large plane convergence, straight construction, selected cross-sections, and hatching that clarifies spatial gradients while explicitly separating this exercise from painterly light-and-shade rendering. Related zebu and panther studies show the pedagogical direction of travel: intensive structural observation can be compressed into increasingly fluent brush or line records once the construction has actually been learned.
 
 The drill therefore has two linked passes: **strict structural proof first, abbreviated fluency second**. The abbreviation is earned by the first pass; it is not permission to skip the framework.

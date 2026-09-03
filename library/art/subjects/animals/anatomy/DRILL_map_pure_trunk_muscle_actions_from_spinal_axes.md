@@ -59,14 +59,14 @@ Make a cross-section plus side-view study of the pure trunk muscles in which eve
 Reducing the pure trunk musculature to a cross-section and broad pull-system map that predicts flexion, extension, lateral bending, and torsion from the muscles' positions around the spinal axes.
 
 ## Setup
-Use Bammes's Figure 110 as the cross-section reference and Figure 111 as the comparative side-view reference. Choose either dog or horse for the first full side-view study. Keep the skeleton schematic enough that the axes and muscle routes remain visible.
+Use a reliable animal-anatomy cross-section that places the main trunk muscle groups around the spinal axes, plus comparative dog and horse side views. Choose either species for the first full side-view study. Keep the skeleton schematic enough that the axes and muscle routes remain visible.
 
 ## Instructions
 1. Draw a simplified trunk cross-section just in front of the pelvis. Mark the vertebral body and the three axis relationships Bammes names: the back-to-stomach through-axis, the transverse axis, and the longitudinal axis through the vertebral bodies.
 2. Place the paired spinal extensor mass dorsally, the rectus abdominis ventrally, and the oblique abdominal wall laterally. Keep the inner abdominal-wall layers subordinate unless they help clarify the section.
 3. Write one action beside each placement rule: side of the through-axis = lateral bend; above the transverse axis = extension; abdominal side of the transverse axis = flexion; diagonal crossing of the longitudinal axis = torsion.
 4. Make a small side-view skeleton from pelvis/sacrum through lumbar spine and thorax. Mark the pelvis/sacrum as the main origin anchor and the spinal processes/ribs as the lever system receiving the major muscle pulls.
-5. Over that side view, add only the three emphasized broad groups: dorsal spinal extensor cord, ventral rectus abdominis, and external oblique. Do not copy every label in Figure 111.
+5. Over that side view, add only the three emphasized broad groups: dorsal spinal extensor cord, ventral rectus abdominis, and external oblique. Do not copy every label in the comparative anatomy reference.
 6. Draw four small action thumbnails beside the study. In each, highlight only the functional group relevant to flexion, extension, lateral bending, or torsion, and indicate the direction of trunk change rather than inventing detailed contraction bulges.
 7. Repeat the side-view map with the second species in Bammes's comparison. Preserve the same axis logic while allowing the visible width, length, fascia, and neighboring forms to differ.
 8. Finish by covering the labels and explaining the map from the axes outward. If an action cannot be predicted without remembering the muscle name, redraw that relationship more simply.
@@ -79,11 +79,11 @@ Use Bammes's Figure 110 as the cross-section reference and Figure 111 as the com
 - Removing the muscle names still leaves a readable functional map.
 
 ## Common Failures
-- Copying Figure 111 as an anatomy chart while omitting the axes that explain the actions.
+- Copying an anatomy chart while omitting the axes that explain the actions.
 - Drawing the spinal extensor and rectus abdominis as equal decorative stripes instead of dorsal and ventral antagonistic masses.
 - Calling every lateral abdominal sheet a torsion muscle without checking whether its route actually crosses the longitudinal axis diagonally.
 - Mixing shoulder-girdle or limb muscles into the pure-trunk exercise and obscuring the limited system being studied.
 - Exaggerating visible swelling in the four action thumbnails even though the source explains function, not a fixed surface-contraction diagram.
 
 ## Notes
-Figure 110 is already a teaching reduction: it places the important trunk groups around the spinal axes in cross-section so their functions can be inferred. Figure 111 then restores enough species-specific anatomy to show how those broad groups occupy a dog and a horse. The exercise preserves that sequence—mechanical map first, comparative form second—rather than asking the learner to memorize the full labeled plate.
+The cross-section is a teaching reduction: it places the important trunk groups around the spinal axes so their functions can be inferred. Comparative side views then restore enough species-specific anatomy to show how those broad groups occupy a dog and a horse. The exercise preserves that sequence—mechanical map first, comparative form second—rather than asking the learner to memorize a full labeled plate.

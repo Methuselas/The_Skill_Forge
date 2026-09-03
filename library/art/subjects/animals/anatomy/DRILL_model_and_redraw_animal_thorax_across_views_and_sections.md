@@ -81,6 +81,6 @@ Use a readable thorax reference, skeleton image, or Bammes-style comparative sec
 - Memorizing one finished outline for the imagination pass rather than reconstructing the mass from its routes and sections.
 
 ## Notes
-Bammes explicitly recommends making differently shaped thorax models when an animal skeleton is unavailable. The point is not model-making for its own sake: printed page 102 asks the student to view the body from every conceivable angle so there are no gaps in three-dimensional imagination, and states that the preparatory work deepens observation and lasting comprehension of form. Figures 106-108 then supply the visual progression from comparative section diagrams to simplified cow and horse thorax studies.
+Bammes explicitly recommends making differently shaped thorax models when an animal skeleton is unavailable. The point is not model-making for its own sake: viewing the body from every conceivable angle prevents gaps in three-dimensional imagination, and the preparatory work deepens observation and lasting comprehension of form. Comparative section diagrams followed by simplified cow and horse thorax studies provide the useful visual progression.
 
-This Drill keeps the source's tactile/multiview method and adds one memory reconstruction as the test that the plastic core has actually been internalized rather than merely copied.
+This Drill keeps the tactile multiview method and adds one memory reconstruction as the test that the plastic core has actually been internalized rather than merely copied.

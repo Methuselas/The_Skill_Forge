@@ -49,9 +49,11 @@ Divide a page into eight boxes. Use only simple ovoids, cylinders, wedges, cente
 5. Remove any label or number and check whether the order still reads from the drawing alone.
 
 ## Success Check
-- Every overlapped chain has one unambiguous nearest mass and a readable progression behind it.
-- Partial members still feel complete beyond the occlusion.
-- The figure passages gain depth without losing their parent attachments.
+- The initial complete-form studies remain comparatively close to the picture plane, while the redrawn chains gain recession from actual interposition rather than from size change alone.
+- Every overlapped chain has one unambiguous nearest mass and a readable order behind it after numbers or labels are removed.
+- Partially hidden forms preserve enough direction and continuation to feel complete beyond the occlusion instead of becoming clipped fragments with no recoverable path.
+- Turning, rising, or descending chains keep the same depth order through contour crossings rather than accidentally reversing which form is in front.
+- In the figure passages, obscured limbs remain attached to their parent masses; overlap strengthens depth without making the anatomy look detached.
 
 ## Common Failures
 - Leaving all forms equally complete and relying on size alone.

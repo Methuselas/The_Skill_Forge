@@ -46,3 +46,5 @@ variants: []
 - The primary value masses support the intended story effect.
 
 ## Notes
+
+Blur, squint, or shrink the study until small subject distinctions disappear. If a detail is essential to the story, absorb it into a dominant mass or protect it as a deliberate accent rather than letting many local contrasts dissolve the large statement.

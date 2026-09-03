@@ -45,3 +45,5 @@ variants: []
 - The audience can infer how the new space relates to the old one.
 
 ## Notes
+
+The anchor must retain a recognizable identity or causal state across the cut; merely repeating a generic doorway or vehicle can create a false connection. When direct visibility is impossible, preserve a traceable action such as entering, passing behind, or emerging from the shared element.

@@ -44,3 +44,5 @@ variants: []
 - The audience can infer both where they are and what kind of situation/world they have entered.
 
 ## Notes
+
+An opening image makes promises that later images will be measured against. Favor conditions that can recur—dominant scale relationship, environmental pressure, social order, or quality of light—rather than packing the frame with facts that never affect the story.

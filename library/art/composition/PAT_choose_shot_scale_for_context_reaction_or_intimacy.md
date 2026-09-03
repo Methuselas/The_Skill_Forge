@@ -47,3 +47,5 @@ variants: []
 - The crop does not destroy required action or geography.
 
 ## Notes
+
+Recheck the same beat at adjacent framing sizes before committing. If a closer crop increases emotion but removes the hand, prop, exit, or other cause of that emotion, the apparent intimacy has broken the information chain.

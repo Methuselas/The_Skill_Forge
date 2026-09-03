@@ -46,3 +46,5 @@ Construct a sneak by delaying commitment to new support: reach, test contact, re
 - The gait reads as cautious acquisition of support rather than an ordinary walk or run.
 
 ## Notes
+
+Contact is not yet commitment. Track when the body mass actually crosses into the new support base; transferring it at first touch removes the test-and-trust interval, while holding it too long without compensating balance makes the reach mechanically impossible.

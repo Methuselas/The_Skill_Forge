@@ -45,3 +45,5 @@ variants: []
 - Timing and spacing can each be changed without accidentally changing the other.
 
 ## Notes
+
+Use an event chart for duration and a path or spacing chart for positional distribution, then alter one while holding the other fixed. This separation is most diagnostic when endpoints, path, and drawing design remain identical across the comparison.

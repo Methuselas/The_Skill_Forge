@@ -54,10 +54,10 @@ Choose a recurring subject class that can support both modes, such as heads, fig
 7. Feed one diagnosed weakness back into the next cycle: give the sustained study a clearer whole-picture priority, or give the quick sketches a specific structural relationship to internalize without turning them into miniature long studies.
 
 ## Success Check
-- Quick sketches increasingly state the whole subject without collapsing into unrelated local details.
-- Structural or tonal knowledge practiced slowly begins to appear in faster drawings without requiring the full analytical sequence to be written out each time.
-- Sustained studies retain more of the immediacy, movement, or integral read visible in the stronger quick sketches.
-- The two lanes expose different weaknesses and produce a concrete target for the next training cycle.
+- Across completed groups in both lanes, later quick sketches state the whole subject with fewer unrelated local fragments than earlier quick sketches. This condition cannot be closed by the first sitting; predicting improvement before a second comparable group exists is not observing it.
+- Structural or tonal knowledge isolated in sustained studies appears in later quick drawings without the full slow analytical sequence being rebuilt each time. This condition cannot be closed in the same session that first identifies the knowledge; a planned transfer is not evidence of transfer.
+- Later sustained studies retain more of a specific whole-picture quality found in the stronger quick sketches, such as action, grouping, or integral read, rather than merely becoming faster long drawings. This condition waits on a subsequent comparable study; claiming the change before that study exists is a prediction.
+- The comparison names a different weakness exposed by each lane and sets one concrete target for the next cycle, with the reason tied to the observed drawings rather than to a fixed schedule or quota.
 
 ## Common Failures
 - Practicing only long studies until observation becomes careful but fragmented or stiff.

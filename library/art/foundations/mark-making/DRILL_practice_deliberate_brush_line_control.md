@@ -52,7 +52,12 @@ Use a brush, pen, or other tool that makes the stroke clearly visible. Work larg
 6. Finish by making a tiny abstract or representational design that uses the same deliberate line control in context.
 
 ## Success Check
-Long strokes maintain their intended direction and character, curves remain continuous, and the final design shows the control transferring beyond isolated warm-up lines.
+- Long straight-direction strokes hold a chosen course as single continuous marks rather than reaching it through many finger-sized corrections or repeated patching.
+- Broad curves and intentional irregular turns remain continuous; wobble caused by hesitant steering does not count as designed irregularity.
+- Changes of pressure or tool angle correspond to a chosen width or character instead of appearing as uncontrolled fluctuations along the stroke.
+- The copied passage is judged by quality of touch and mark behavior rather than by how accurately its subject was reproduced.
+- Failed strokes remain visible as separate attempts or are replaced beside the first mark rather than repaired into fuzzy bands.
+- The final tiny design uses the same control in context, so success is not limited to isolated warm-up lines.
 
 ## Common Failures
 - Steering the mark through many finger-sized corrections that break its continuity.

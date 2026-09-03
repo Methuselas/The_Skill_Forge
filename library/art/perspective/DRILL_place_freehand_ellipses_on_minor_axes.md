@@ -50,7 +50,11 @@ Use a pencil or pen and enough paper to rotate the sheet freely. Draw lightly en
 6. If an ellipse fails, draw a new one beside it rather than repairing the same loop with many passes.
 
 ## Success Check
-The ellipses remain smooth and symmetrical, the minor axis passes through their center, and degree can change without the ellipse drifting off its intended axis.
+- Each ellipse remains readable as a light, smooth loop rather than a dark bundle of repeated passes that hides the quality of the first attempt.
+- The drawn minor axis bisects the ellipse through its narrow direction; a centered-looking oval with a visibly skewed axis does not pass.
+- Ellipse degree changes from narrow to open without the form drifting off its intended axis or acquiring flat ends and pinched corners.
+- Guided examples meet the required width while keeping the same minor-axis logic instead of flattening locally to touch the guides.
+- Failed ellipses are replaced with fresh attempts beside them rather than repaired by circling the same loop until the original error disappears.
 
 ## Common Failures
 - Flat spots or pinched corners caused by steering the loop locally.

@@ -47,7 +47,11 @@ Keep the original beside the two corrections. Do not render.
 5. Compare all three for believable convergence versus excessive flatness.
 
 ## Success Check
-At least one correction makes edge forms more plausible without breaking the shared vanishing structure.
+- The original, wider-vanishing-point, and cropped versions preserve the same scene logic closely enough that field correction rather than redesign is being compared.
+- In the wider-spacing version, repeated edge forms become less distorted while each direction family still shares its vanishing structure; moving only the visibly bad object's edges does not count as a field correction.
+- Vanishing points are not spread so far that the scene becomes implausibly flat merely to remove edge distortion.
+- The cropped version removes the worst peripheral distortion by limiting the field rather than by locally redrawing objects inside the retained region.
+- The preferred correction is justified by the observed tradeoff between believable convergence and excessive flattening, not simply by which version looks cleaner.
 
 ## Common Failures
 - Moving only the bad object's edges while leaving the field unchanged.

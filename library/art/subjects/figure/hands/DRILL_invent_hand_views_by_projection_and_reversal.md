@@ -43,14 +43,16 @@ Start from one simple, clearly constructed hand action. Produce three new versio
 Inventing a new hand view while preserving the palm wedge, digit origins, proportions, and depth logic.
 
 ## Setup
-1. Choose a simple side or three-quarter hand whose palm, thumb, index side, little-finger side, and fingertip extents are easy to identify.
-2. Mark only a few useful tracking landmarks or parallel guides. Do not grid every anatomical point.
-3. Project those landmarks into a new view and rebuild the hand between them.
-4. For the reversal pass, preserve the outer extent but deliberately reinterpret which palm surface, knuckle sequence, wrist insertion, and finger forms face the viewer.
-5. For the variation pass, draw through the existing hand and test alternate finger positions rather than protecting the first drawing.
+Choose one simple side or three-quarter hand whose palm, thumb, index side, little-finger side, and fingertip extents are easy to identify. Leave enough page space for three transformed versions and keep the construction simple enough that guide use remains visible.
 
 ## Instructions
-Repeat with increasingly foreshortened source hands. Later, remove the projection guides and attempt the same transformation from internal visualization.
+1. Identify the palm wedge, thumb origin, finger roots, wrist insertion, and fingertip extents in the source hand.
+2. Mark only a few useful tracking landmarks or parallel guides. Do not grid every anatomical point.
+3. Project those landmarks into a deeper frontal view and rebuild the hand between them rather than copying the old contour.
+4. Make an opposite-side reversal that preserves the action while deliberately reinterpreting which palm surface, knuckle sequence, wrist insertion, and finger forms face the viewer.
+5. Make a variation pass that changes two or more digit positions. Draw through the existing hand and rebuild the digit chains rather than protecting the first drawing.
+6. Compare the three transformed versions for palm orientation, wrist insertion, finger-root placement, and chain length before adding surface detail.
+7. Repeat with increasingly foreshortened source hands. Later, remove the projection guides and attempt the same transformations from internal visualization.
 
 ## Success Check
 - The new view reads as the same hand action transformed in space rather than as a traced outline.

@@ -45,3 +45,5 @@ variants: []
 - Expression and speech reshape the surrounding face while identity remains stable.
 
 ## Notes
+
+Use the upper teeth and cranial proportions as registration points while the jaw and soft masses change. When a broad expression alters the silhouette, recheck eye spacing, muzzle attachment, and skull volume so elasticity does not become identity drift.

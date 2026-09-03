@@ -49,7 +49,11 @@ Use one solved perspective cube, one cut block, and a single clear light directi
 6. Repeat with a cut block so some plane changes must be understood through both positive form and removed space.
 
 ## Success Check
-The block reads as solid with the internal construction edges hidden or minimized, the value changes agree with the chosen light, and the cast shadow sits on the same ground plane rather than looking pasted on.
+- Each block remains solid when internal construction outlines are hidden or minimized; a dark seam tracing every plane boundary does not supply the form read.
+- Major plane values agree with one chosen light direction instead of using texture density or arbitrary darkening to separate faces.
+- In a linear medium, hatch direction supports the plane it sits on rather than contradicting that plane's orientation.
+- The cast shadow belongs to the same ground plane, with its recession handled coherently instead of appearing as a flat black sticker attached to the object.
+- The cut block remains understandable through value and removed space after construction edges are suppressed, so outline is not secretly carrying the difficult plane changes.
 
 ## Common Failures
 - Darkening every plane boundary into an outline.

@@ -70,7 +70,7 @@ Use a clear skeletal plate or museum reference with at least a profile or three-
 - The scapula is mobile and spatial rather than a fixed decorative landmark.
 - The flexed carpal/digital regions visibly change form instead of keeping the extended-state silhouette.
 - Bone shafts keep observed taper and curvature.
-- The study remains skeletal enough that u17 musculature can be added without rebuilding the basic foreleg.
+- The study remains skeletal enough that musculature can be added without rebuilding the basic foreleg.
 
 ## Common Failures
 - Starting from the horse's outer chest/leg silhouette and discovering the scapula only afterward.
@@ -81,6 +81,6 @@ Use a clear skeletal plate or museum reference with at least a profile or three-
 - Using horse-specific fusion or hoof construction as the template for a carnivore or primate comparison.
 
 ## Notes
-Bammes labels Figure 68 a **step-by-step working study**. The first phase establishes the directions and lengths of the limb sections; the next moves into a three-quarter front view with the joint axes and constructional shapes; a local elbow study then clarifies the hinge-dominant runner anatomy. His follow-up instructions explicitly ask the artist to assess lengths and directions, draw the joint and three-dimensional axes, preserve mechanical feasibility, and remember that skeletal forms curve rather than behaving like rigid sticks.
+Bammes presents a **step-by-step working study** whose first phase establishes the directions and lengths of the limb sections; the next moves into a three-quarter front view with the joint axes and constructional shapes; and a local elbow study clarifies the hinge-dominant runner anatomy. The artist assesses lengths and directions, draws the joint and three-dimensional axes, preserves mechanical feasibility, and remembers that skeletal forms curve rather than behaving like rigid sticks.
 
-Figure 69 supplies the transfer check: the mobile scapula can shift while the limb swings, and closed joints produce visibly different local forms. The exercise therefore stops before musculature. Section 6.2 owns the next layer.
+A flexed-state comparison supplies the transfer check: the mobile scapula can shift while the limb swings, and closed joints produce visibly different local forms. The exercise therefore stops before musculature, which owns the next layer.

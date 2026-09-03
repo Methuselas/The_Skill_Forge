@@ -45,3 +45,5 @@ variants: []
 - The aftermath clearly makes the accent feel hard or soft.
 
 ## Notes
+
+Compare versions with the same approach and accent pose so the aftermath is the variable under test. A large impact can still feel soft when motion is absorbed, while a small accent can feel hard when it rebounds abruptly.

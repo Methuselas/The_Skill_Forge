@@ -159,7 +159,7 @@ variants:
 - Boundaries that must remain readable have enough value and/or chroma separation to survive without unnecessary contour reinforcement.
 
 ## Notes
-Dodson's Chapter 7 shifts positive/negative shape from an observational checking device into a whole-picture design principle. The existing observation foundation remains the owner of using shared positive/negative boundaries to verify what was seen; this Pattern owns how those same kinds of boundaries are organized deliberately across the final picture.
+Dodson shifts positive/negative shape from an observational checking device into a whole-picture design principle. The existing observation foundation remains the owner of using shared positive/negative boundaries to verify what was seen; this Pattern owns how those same kinds of boundaries are organized deliberately across the final picture.
 
 `VAR_dodson_merge_same_value_shapes_across_object_boundaries` carries forward the same-value merging introduced in the light chapter and gives it its full composition rationale: value groups may cross object and shadow categories when the larger design benefits.
 

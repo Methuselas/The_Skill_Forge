@@ -82,4 +82,4 @@ Use a simple front or three-quarter arm skeleton with a visible clavicle, scapul
 - Copying one finished ape arm silhouette instead of rebuilding the rotation from the skeletal relationships.
 
 ## Notes
-Figure 99 is already organized like a practice progression: a whole arm with external skeletal angles, a total turning axis beside the individual axes, a left arm labeled from the internal clavicle joint through wrist and hand, and reduced forearm diagrams that isolate the radius's rotation at the proximal and distal radio-ulnar joints. The exercise converts that plate into a repeatable construction test rather than an anatomy-labeling task.
+Bammes's arm study is already organized like a practice progression: a whole arm with external skeletal angles, a total turning axis beside the individual axes, an arm labeled from the internal clavicle joint through wrist and hand, and reduced forearm diagrams that isolate the radius's rotation at the proximal and distal radio-ulnar joints. The exercise converts that material into a repeatable construction test rather than an anatomy-labeling task.

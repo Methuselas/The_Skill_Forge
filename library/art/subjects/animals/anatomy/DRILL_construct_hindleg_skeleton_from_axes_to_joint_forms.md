@@ -78,6 +78,6 @@ Use an actual skeleton, museum reference, or clear multi-view skeletal plate. Be
 - Using a side view only and never checking the depth or vaulting of the distal structures.
 
 ## Notes
-Bammes explicitly says that when the leg's structure is uncertain, the artist should make a graphic study of an actual skeleton in a set sequence. Fig. 57 begins with the basic directions and pivots, then adds subsidiary joint forms and axes, then develops the narrowing bone shafts and gives special attention to the foot and digits. Fig. 58 repeats virtually the same procedure on a wolf, making the exercise comparative rather than horse-only.
+Bammes explicitly says that when the leg's structure is uncertain, the artist should make a graphic study of an actual skeleton in a set sequence. Begin with basic directions and pivots, add subsidiary joint forms and axes, develop the narrowing bone shafts, and give special attention to the foot and digits. Repeating the same procedure on a contrasting mammal makes the exercise comparative rather than horse-only.
 
 This drill is narrower and more anatomical than Hultgren's pivot-skeleton-to-main-form exercise. Its purpose is not to complete a whole animal but to make one limb structurally memorable enough that later movement, muscle, and surface studies have a reliable framework.

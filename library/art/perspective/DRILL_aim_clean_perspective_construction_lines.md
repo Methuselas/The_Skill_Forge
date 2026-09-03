@@ -48,7 +48,11 @@ Use a pen or pencil on plain paper. Rotate the paper so the practiced straight s
 6. On the last box, vary line weight intentionally after the structure is correct rather than redrawing weak lines into fuzz.
 
 ## Success Check
-Most strokes arrive at their target with one readable line, parallel sets keep coherent spacing, and the box construction stays legible without hairy correction marks.
+- Most aimed strokes reach or pass cleanly through their targets as one readable line rather than a fuzzy band built from repeated correction marks.
+- Long strokes keep a coherent direction without the wrist-driven bow, endpoint hook, or late wobble that appears when the hand steers locally.
+- Parallel sets preserve their intended spacing, and common-point sets visibly converge on the same point instead of merely aiming toward the same general area.
+- Perspective boxes remain understandable with hidden edges drawn through, so visible corners are not being guessed independently.
+- Line-weight variation appears only after the box structure is solved and clarifies the result rather than hiding weak construction under darker redraws.
 
 ## Common Failures
 - Repeatedly tracing the same line until it becomes a fuzzy band.

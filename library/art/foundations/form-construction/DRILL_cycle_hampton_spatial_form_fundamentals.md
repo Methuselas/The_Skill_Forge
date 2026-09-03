@@ -28,8 +28,7 @@ reference:
 confidence: high
 references: []
 variants: []
-target_skill: maintaining convincing three-dimensional form while rotating, combining, wrapping, and organically modifying
-  simple primitives
+target_skill: Maintain convincing three-dimensional form while rotating, combining, wrapping, and organically modifying simple primitives
 ---
 
 # Cycle Hampton’s Spatial Form Fundamentals
@@ -38,7 +37,7 @@ target_skill: maintaining convincing three-dimensional form while rotating, comb
 Complete one short cycle of six spatial-form exercises before anatomy work.
 
 ## Target Skill
-Practice the named decision until the structural result can be repeated deliberately without relying on surface copying.
+Maintain convincing three-dimensional form while rotating, combining, wrapping, and organically modifying simple primitives.
 
 ## Setup
 No special setup required.

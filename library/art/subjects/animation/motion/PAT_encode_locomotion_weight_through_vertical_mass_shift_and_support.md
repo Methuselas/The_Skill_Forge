@@ -45,3 +45,5 @@ variants: []
 - Vertical mass travel and support phase agree.
 
 ## Notes
+
+Vertical travel only reads as weight when the mass also organizes over a believable support base. Compare the body center, planted contact, and joint compression together; extra bounce without load acceptance produces buoyancy, not heaviness.

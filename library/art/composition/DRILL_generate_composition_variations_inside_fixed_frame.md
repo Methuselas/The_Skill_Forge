@@ -87,13 +87,17 @@ Draw a repeated square or circle at the same size. Keep line type and thickness 
 
 ## Instructions
 1. Make several distinct internal arrangements rather than small cosmetic variations of one idea.
-2. Compare the trials as abstract shape-and-space systems and select the strongest whole-picture relationship.
+2. Compare the trials as abstract shape-and-space systems, select the strongest whole-picture relationship, and record one sentence explaining why you selected it.
 3. Generate a second set of variations from the selected solution instead of treating the first good answer as final.
 4. Restore one suppressed variable at a time, such as curves, line-weight change, or a recognizable motif, while preserving the spacing problem as the main target.
 5. Transfer the strongest arrangement into a small representational or applied design and check whether the structure survives the added content.
 
 ## Success Check
-The strongest solutions remain coherent as abstract spacing patterns, differ meaningfully from one another, and still hold together after recognizable content is added.
+- The first set contains materially different internal organizations rather than near-duplicates with one line or motif shifted cosmetically.
+- The selected abstract solution is chosen for its whole-frame spacing relationship, and the reason for the choice does not rely on recognizable subject matter or decorative appeal.
+- The second set develops new structural possibilities from the selected solution instead of simply polishing the first good answer.
+- Curves, line-weight changes, or recognizable motifs can be restored without destroying the spacing hierarchy that made the abstract version work.
+- In the applied version, subject content occupies the established organization rather than rescuing a weak subdivision by becoming the only source of interest.
 
 ## Common Failures
 - Producing many near-duplicates instead of exploring different organizations.

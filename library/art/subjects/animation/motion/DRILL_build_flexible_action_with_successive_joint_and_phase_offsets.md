@@ -48,9 +48,15 @@ Use a minimal subject or short sequence so the named variable can be compared wi
 5. Break joint reversals successively and compare the result with the rigid version.
 
 ## Success Check
-- The final motion is more flexible without losing the main action.
+- The rigid and developed versions preserve the same extremes and main action, so added flexibility is not coming from redesigning the move.
+- The authored breakdown creates a readable path between the extremes rather than splitting the interval mechanically in half.
+- Head and hip counteraction remains tied to the primary action instead of becoming independent decorative wobble.
+- Hand or secondary-part offsets produce a clear lead-and-follow relationship when played back rather than random frame displacement.
+- Joint reversals pass through the chain successively; a version in which every joint reverses together does not satisfy the comparison even if the pose drawings are individually smooth.
 
 ## Common Failures
 - Adding overlap randomly rather than as a causal sequence.
 
 ## Notes
+
+Add one offset family per playback pass and retain the rigid comparison. If the developed action becomes soft everywhere or loses the main force, remove the latest offset and restore a clear leader before continuing down the chain.

@@ -45,3 +45,5 @@ variants: []
 - The audience can see when the character’s internal state changes.
 
 ## Notes
+
+Readability may come from a brief hold, a clear silhouette, gaze, or a whole-pose change rather than facial detail alone. Test at final shot scale and speed; if the thought vanishes, move or lengthen the acting beat before adding more expression detail.

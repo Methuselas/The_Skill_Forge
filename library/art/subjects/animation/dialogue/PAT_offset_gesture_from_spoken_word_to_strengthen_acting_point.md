@@ -45,3 +45,5 @@ variants: []
 - Gesture and speech reinforce the acting point without feeling mechanically synchronized.
 
 ## Notes
+
+A leading gesture usually reads as thought forming before speech; a following gesture can read as reaction, insistence, or afterthought. Choose the relationship deliberately and reduce the offset if the two events stop feeling causally connected.

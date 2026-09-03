@@ -47,3 +47,5 @@ variants: []
 - Repeated elements vary enough to avoid mechanical equality.
 
 ## Notes
+
+The relation is comparative rather than a demand for exactly three groups, and it can recur at nested scales. Check that the smallest accent is still subordinate to the largest structure; multiplying tiny high-contrast marks can collectively overturn the intended hierarchy.

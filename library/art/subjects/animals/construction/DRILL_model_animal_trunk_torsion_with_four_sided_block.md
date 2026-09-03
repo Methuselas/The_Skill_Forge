@@ -79,6 +79,6 @@ Use a pose in which the front and rear of the trunk clearly disagree in orientat
 - Treating one front-view solution as sufficient and discovering later that the twist collapses from another angle.
 
 ## Notes
-On printed page 98 Bammes recommends reducing a difficult twisted trunk to a four-sided mass when the front of the body and thighs occupy conflicting directions. He then proposes a direct hands-on test: shape a rounded four-sided piece of Plasticine, twist the ends in opposite directions until the form resembles a propeller, and use that simplified object to understand the organic problem. Figure 105 on printed page 101 explicitly moves from the modeled block through front/side studies into an approximated organic form and finally an imagination study.
+Bammes recommends reducing a difficult twisted trunk to a four-sided mass when the front of the body and thighs occupy conflicting directions. He then proposes a direct hands-on test: shape a rounded four-sided piece of Plasticine, twist the ends in opposite directions until the form resembles a propeller, and use that simplified object to understand the organic problem. The progression moves from the modeled block through front and side studies into an approximated organic form and finally an imagination study.
 
 The drill keeps that pedagogical progression intact: **simple mass -> physical/visual proof -> organic translation -> reconstruction from imagination**.

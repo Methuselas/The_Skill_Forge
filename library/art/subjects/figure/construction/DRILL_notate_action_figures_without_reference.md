@@ -91,7 +91,7 @@ Study the relevant construction notes and examples first, then close all models,
 3. Add the legs through the pelvic wedge and make the support, propulsion, suspension, or momentum believable.
 4. Add the linked arm pair through the appropriate shoulder yoke.
 5. Resolve the head and neck last according to the action's context.
-6. Mark any lumpy or detached recession problem for later Chapter 3 correction instead of hiding it with anatomy or shading.
+6. Mark any lumpy or detached recession problem for a later whole-figure unity correction instead of hiding it with anatomy or shading.
 7. After the page is complete, reopen the notes, diagnose one recurring weakness, study that point, and repeat two figures without looking.
 
 ## Success Check
@@ -106,7 +106,7 @@ Study the relevant construction notes and examples first, then close all models,
 - Reusing one passive stance because it feels safe.
 - Drawing attractive limb contours with no pelvic or shoulder attachment.
 - Opening references during every uncertain mark instead of testing retained understanding.
-- Treating a Chapter 3 unity problem as proof that the Chapter 2 order failed.
+- Treating a whole-figure unity problem as proof that the construction order failed.
 
 ## Notes
 Reference-free work is a Drill condition, not a universal production rule. The point is to test whether the studied construction has become usable internal vision. Production drawing may and should use subject and construction references when they improve accuracy. "Free and open" belongs to this action-invention exercise; restrained or compressed production poses remain valid when the context requires them.

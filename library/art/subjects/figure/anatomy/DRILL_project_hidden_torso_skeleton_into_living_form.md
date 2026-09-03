@@ -41,7 +41,7 @@ variants:
   when_not_to_use: Do not let the later anatomy study overwrite the recorded model with a generic atlas body, and do not invent
     hidden structures unsupported by the observed landmarks; the reconstruction must explain the same pose and surface evidence.
   absorbed_from_object_id: none
-target_skill: Project the Hidden Torso Skeleton Into Living Form
+target_skill: Infer and construct rib-cage and pelvic orientation beneath a living torso so surface compression, stretch, and overlap remain causally tied to the skeleton
 ---
 
 # Project the Hidden Torso Skeleton Into Living Form
@@ -50,7 +50,7 @@ target_skill: Project the Hidden Torso Skeleton Into Living Form
 Train anatomical construction from the inside out so rib-cage and pelvic structure remain available beneath the living surface instead of being recalled as detached atlas facts.
 
 ## Target Skill
-Practice the named decision until the structural result can be repeated deliberately without relying on surface copying.
+Infer and construct rib-cage and pelvic orientation beneath a living torso so surface compression, stretch, and overlap remain causally tied to the skeleton.
 
 ## Setup
 No special setup required.

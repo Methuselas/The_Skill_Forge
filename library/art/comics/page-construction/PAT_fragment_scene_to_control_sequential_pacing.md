@@ -46,3 +46,5 @@ variants: []
 - Panel segmentation produces the intended slow, fast, tense, or released rhythm.
 
 ## Notes
+
+Panel count alone does not determine speed. A narrow panel containing one immediately grasped change can pass quickly, while a repeated series that asks the reader to compare small differences can prolong the moment; test the actual information load and transition between frames.

@@ -74,7 +74,7 @@ variants:
 ## Notes
 Bammes calls the qualities that first seize the artist's attention **impressional qualities**. His opening exercise is selective: survey the animal, decide which impression is strongest, and concentrate on that one instead of trying to develop every appealing aspect in the same drawing. The purpose is not simplification for its own sake; selection creates a stable graphic concept and trains the artist to distinguish essential information from merely available information.
 
-Section 1.2 immediately places a structural limit on this freedom. A selective study still benefits from enough anatomy to perceive the animal as one articulated entity. Choosing a dominant quality changes emphasis, not the requirement that the parts belong to the same constructed body.
+A structural limit remains on this freedom: a selective study still benefits from enough anatomy to perceive the animal as one articulated entity. Choosing a dominant quality changes emphasis, not the requirement that the parts belong to the same constructed body.
 
 This animal-specific selection rule now sits under `PAT_select_observed_evidence_to_serve_expressive_intent`: the portable foundation governs choosing observed evidence by expressive purpose, while this specialization keeps Bammes's animal-specific decision about selecting one impressional quality from a living subject.
 

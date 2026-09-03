@@ -52,10 +52,10 @@ Choose several works for which at least one unfinished or intermediate state is 
 6. Repeat across different artists, media, and starting systems so the exercise trains evidence reading rather than one habitual workflow.
 
 ## Success Check
-- The inferred sequence is tied to visible evidence such as overlap, coverage, edge state, or resolution.
-- Ambiguous passages retain alternate explanations instead of being converted into false certainty.
-- Predictions distinguish preparatory information from passages that were already functioning as finish.
-- Later-state comparison improves future workflow inference rather than merely rewarding guesses.
+- The inferred sequence is tied to visible overlap, coverage, edge state, opacity, or resolution evidence rather than to a preferred personal workflow.
+- Ambiguous passages retain at least one alternate explanation instead of being converted into false certainty because one sequence sounds plausible.
+- The predicted next operation distinguishes preparatory information from passages already functioning as finish and does not assume every unfinished area needs equal completion.
+- When a later state is available, it is actually compared with the prediction and the reliable and misleading clues are recorded. If no later state is available, this condition remains open; the prediction itself does not count as validation.
 
 ## Common Failures
 - Reading a polished final state backward and inventing a precise historical procedure unsupported by intermediate evidence.

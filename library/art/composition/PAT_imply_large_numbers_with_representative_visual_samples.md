@@ -45,3 +45,5 @@ variants: []
 - The viewer reads “many” without needing every unit enumerated.
 
 ## Notes
+
+Representative units need enough variation in scale, overlap, and partial cropping to imply continuation beyond the explicitly drawn set. Repeating one unchanged symbol exposes the shortcut and can make the group read as a pattern or texture instead of a population.

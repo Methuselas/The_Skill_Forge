@@ -91,8 +91,8 @@ variants:
 - The completed foreleg can be simplified back to skeleton, axes, and a few functional muscle bands without losing the pose.
 
 ## Notes
-Section 6.5 deliberately reuses the joint-axis logic already established for other mammal limbs, but its plastic conclusion is different from the runner. The cat family's varied use of the paw requires a much more muscular lower foreleg, and Bammes explicitly states that the flexion group is the heavier of the two major forearm systems. That makes this a carnivore-specific soft-form specialization rather than another generic muscle-reading card.
+The carnivore treatment deliberately reuses the joint-axis logic already established for other mammal limbs, but its plastic conclusion is different from the runner. The cat family's varied use of the paw requires a much more muscular lower foreleg, and Bammes explicitly states that the flexion group is the heavier of the two major forearm systems. That makes this a carnivore-specific soft-form specialization rather than another generic muscle-reading card.
 
-The lion/dog comparison is retained only as a calibration variant. It changes the amount and compactness of the visible mass while keeping the same functional method. Figure 92 then strips the forearm down even further into front/back pull bands and an origin-to-insertion abstraction, which is practiced separately in `DRILL_map_carnivore_forearm_muscle_groups_from_joint_axes_to_pull_bands`.
+The lion/dog comparison is retained only as a calibration variant. It changes the amount and compactness of the visible mass while keeping the same functional method. A further reduction strips the forearm down into front/back pull bands and an origin-to-insertion abstraction, which is practiced separately in `DRILL_map_carnivore_forearm_muscle_groups_from_joint_axes_to_pull_bands`.
 
 `VAR_bammes_contrast_lion_compact_foreleg_with_dog_light_foreleg` preserves that bounded lion/dog mass calibration without turning either example into a universal carnivore template.

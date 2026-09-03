@@ -93,7 +93,7 @@ variants:
 - The carnivore foreleg is visibly more rotationally capable than the specialized runner route without becoming a human arm pasted onto an animal.
 
 ## Notes
-Bammes's comparison is useful because it locates the meaningful specialization rather than asking the artist to memorize a complete new limb. The shoulder girdle remains close to the general mammalian plan down to the elbow, while the independently formed radius and ulna create the lower-foreleg freedom that distinguishes carnivores from the runner model developed in §§6.1-6.3.
+Bammes's comparison is useful because it locates the meaningful specialization rather than asking the artist to memorize a complete new limb. The shoulder girdle remains close to the general mammalian plan down to the elbow, while the independently formed radius and ulna create the lower-foreleg freedom that distinguishes carnivores from the fused or reduced forearm of a specialized runner.
 
 The lion study then turns that anatomy into a drawable spatial device: a pivotal axis runs through the forearm while the radius behaves like a wing swiveling around it. That makes pronation and paw orientation an articulated construction problem, not a surface-contour trick. The cat/dog variant keeps Bammes's own degree differences bounded so the shared mechanism is not mistaken for one fixed carnivore template.
 

@@ -58,10 +58,11 @@ Use works with enough variation that easy stylistic imitation cannot solve the e
 7. If the redraw loses the head when the style changes, return to the earliest structural layer that failed. Do not rescue it by imitating the source's finish.
 
 ## Success Check
-- The same head remains spatially coherent after its original surface manner is removed.
-- You can name structural relationships shared by works with very different appearances.
-- Your transfer redraw changes medium or mark character without changing the head's major mass, turn, support, or identity.
-- Style-specific effects are treated as choices layered over form knowledge, not as substitutes for it.
+- Every source is analyzed through the same great-mass, support, plane/value, and accent questions rather than through a different ad hoc vocabulary for each artist.
+- Three recurring structural relationships and three medium- or temperament-specific choices are written down from the comparison; vague statements that all the heads are "well constructed" do not satisfy the output.
+- The transfer redraw changes surface method or mark character while preserving the chosen head's major mass, turn, feature support, neck attachment, and identity.
+- Accents retained in the transfer correspond to orientation, identity, or form turning rather than being copied simply because they are conspicuous in the source finish.
+- If the head collapses when the original style is removed, the failed structural layer is identified instead of rescuing the redraw by imitating the source marks.
 
 ## Common Failures
 - Copying brushwork, hatching, or line flavor before identifying the head's masses and support structure.

@@ -58,12 +58,12 @@ Use a sketchbook or capture surface inexpensive and convenient enough that prote
 9. Periodically review a group of entries and name one recurring blind spot and one useful observation. Let the blind spot determine a targeted study or the next kind of subject you seek out.
 
 ## Success Check
-- The dominant action, attitude, or situation remains readable even when the sketch is materially incomplete.
-- Figures and objects increasingly retain their relationship to the ground plane, depth, and surrounding scene when those relationships matter.
-- The sketchbook contains materially different subjects, viewpoints, and situations instead of one repeated comfort zone.
-- Written notes add information that would otherwise be lost rather than narrating visible contours.
-- Repeated everyday verbs reveal meaningful variation between performers and circumstances rather than collapsing into one generic action symbol.
-- Review of accumulated entries produces a concrete observational weakness or useful behavior to study next.
+- Each entry preserves the dominant action, attitude, personality cue, spatial relation, or other reason the moment was worth noticing even when the sketch is materially incomplete.
+- When ground plane, depth, or surrounding context matters, enough of it survives to keep the event spatially legible rather than leaving a polished isolated fragment floating without situation.
+- Across an accumulated group, subjects, viewpoints, distances, and situations vary materially instead of remaining inside one repeated comfort zone. A first sitting may leave this condition open; planned variety is not the same as an accumulated record.
+- Written notes preserve behavior, expression, questions, or later-use information the drawing cannot retain rather than narrating contours already visible on the page.
+- A controlled ordinary-verb comparison actually records several performers or circumstances and exposes meaningful variation instead of collapsing the action into one generic symbol from memory.
+- Periodic review of accumulated entries names one recurring blind spot and one useful observation to carry forward. This condition cannot close until a real group exists; intending to review future pages is not evidence from a review.
 
 ## Common Failures
 - Turning every entry into a miniature finished drawing and missing the transient event.

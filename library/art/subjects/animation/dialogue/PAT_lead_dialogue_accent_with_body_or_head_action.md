@@ -45,3 +45,5 @@ variants: []
 - The physical intention appears to cause or support the vocal accent.
 
 ## Notes
+
+The preparatory motion should reveal intention without announcing the accent so early that it steals the spoken beat. Compare playback with and without sound: the body should set up the emphasis, while the mouth and voice still own the precise verbal event.

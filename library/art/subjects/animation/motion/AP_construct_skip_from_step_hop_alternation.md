@@ -46,3 +46,5 @@ Construct a skip as alternating step–hop support groups, then shape the relati
 - Timing variation changes character without collapsing into a run or walk.
 
 ## Notes
+
+Read the locomotion first as paired support events: step onto a foot, then leave and return to that foot. If the return contact or same-foot support is unclear, added arm swing and vertical bounce may suggest buoyancy but will not preserve the skip's characteristic grouping.

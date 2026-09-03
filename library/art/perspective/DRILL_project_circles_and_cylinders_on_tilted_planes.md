@@ -47,7 +47,11 @@ Use line only. Keep each square large enough to see its diagonals.
 5. Add the second circular end and tangent side edges.
 
 ## Success Check
-The ellipses belong to their planes, and the cylinders do not kink or drift away from the square construction.
+- Each ellipse is centered from the perspective square and its diagonals rather than from the visible midpoint of the oval.
+- Ellipse degree and orientation change with the supporting plane; repeating one comfortable canned ellipse at every tilt does not satisfy the set.
+- On the cylinder studies, the axis passes through the projected circle centers in the proper minor-axis direction instead of joining two independently guessed ellipses.
+- The second circular end agrees with the first in one cylinder construction, and the tangent side edges connect them without a kink or unexplained drift.
+- Removing the square guides still leaves each circle or cylinder reading as attached to its intended plane rather than floating in front of it.
 
 ## Common Failures
 - Centering the original circle only by the visible ellipse midpoint.

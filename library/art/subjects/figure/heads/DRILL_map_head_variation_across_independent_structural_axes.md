@@ -66,4 +66,4 @@ Choose at least nine clear head references with varied ages, appearances, and vi
 - Measuring the nose tip as if it defined the facial-projection axis Hogarth is diagramming.
 
 ## Notes
-The durable lesson in Hogarth's Chapter V is not the historical cephalic taxonomy. It is that **large head variation can be compared along more than one structural dimension**, and that those dimensions should be allowed to combine freely. His own example section explicitly warns against assigning one head form to an entire population. PASS therefore keeps the comparison exercise and rejects the racial/ethnic classification framework.
+The durable lesson in Hogarth's head-type comparison is not the historical cephalic taxonomy. It is that **large head variation can be compared along more than one structural dimension**, and that those dimensions should be allowed to combine freely. His examples explicitly warn against assigning one head form to an entire population. PASS therefore keeps the comparison exercise and rejects the racial/ethnic classification framework.

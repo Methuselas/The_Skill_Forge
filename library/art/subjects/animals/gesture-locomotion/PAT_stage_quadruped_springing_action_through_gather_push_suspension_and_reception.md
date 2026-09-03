@@ -80,7 +80,7 @@ variants:
 - Species-specific spine, neck, and limb behavior is checked against reference.
 
 ## Notes
-On printed pp. 39-40 Bammes compares three springing actions: a dog moving full tilt, a horse jumping, and a cat springing from a crouch. Their exact mechanics differ, but all three are presented as **phase changes of the whole articulated animal** rather than as decorative leg positions. The reusable art decision is therefore to stage gather, propulsion, airborne travel, and reception as connected structural states, while refusing to turn any one species' sequence into a universal jump formula.
+Bammes compares three springing actions: a dog moving full tilt, a horse jumping, and a cat springing from a crouch. Their exact mechanics differ, but all three are presented as **phase changes of the whole articulated animal** rather than as decorative leg positions. The reusable art decision is therefore to stage gather, propulsion, airborne travel, and reception as connected structural states, while refusing to turn any one species' sequence into a universal jump formula.
 
 This Pattern begins before the impact-focused Hultgren Pattern and overlaps it at reception. Use `PAT_stage_animal_impact_as_deformation_reversal_and_recovery` when the drawing problem is specifically shock, rebound, or post-contact recovery.
 

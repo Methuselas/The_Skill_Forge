@@ -44,3 +44,5 @@ variants: []
 - Spatial progression and emotional progression reinforce each other.
 
 ## Notes
+
+Mood progression must remain compatible with physical travel. Carry landmark, perspective, and movement continuity through changes in enclosure, light, or activity; otherwise the path will read as disconnected locations instead of one space revealing different emotional conditions.

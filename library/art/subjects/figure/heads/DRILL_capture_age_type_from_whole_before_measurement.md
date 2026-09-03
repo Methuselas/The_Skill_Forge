@@ -29,7 +29,7 @@ reference:
 confidence: high
 references: []
 variants: []
-target_skill: Capture Age Type From the Whole Before Measurement
+target_skill: Recognize and preserve developmental age through coordinated whole-body proportions rather than a single head-size cue or surface detail
 ---
 
 # Capture Age Type From the Whole Before Measurement
@@ -38,7 +38,7 @@ target_skill: Capture Age Type From the Whole Before Measurement
 Train rapid recognition of age-specific figure proportions so a child, adolescent, or young adult does not collapse into a scaled adult mannequin.
 
 ## Target Skill
-Practice the named decision until the structural result can be repeated deliberately without relying on surface copying.
+Recognize and preserve developmental age through coordinated whole-body proportions rather than a single head-size cue or surface detail.
 
 ## Setup
 No special setup required.

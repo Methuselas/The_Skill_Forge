@@ -45,3 +45,5 @@ Build animation hierarchically so storytelling and motion decisions are solved b
 - The hierarchy can be revised at the cheapest responsible level.
 
 ## Notes
+
+Temporarily hide the ordinary inbetweens to diagnose the hierarchy. If the remaining keys, extremes, and breakdowns no longer communicate the action, restore the missing decision at the appropriate structural level instead of adding denser interpolation.

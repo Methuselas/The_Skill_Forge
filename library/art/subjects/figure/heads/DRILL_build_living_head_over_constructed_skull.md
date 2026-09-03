@@ -31,7 +31,7 @@ reference:
 confidence: high
 references: []
 variants: []
-target_skill: Build the Living Head Over a Constructed Skull
+target_skill: Build living facial and soft-tissue forms from a coherent constructed skull so visible features remain supported by underlying structure
 ---
 
 # Build the Living Head Over a Constructed Skull
@@ -40,7 +40,7 @@ target_skill: Build the Living Head Over a Constructed Skull
 Train causal transfer from skull construction to living head form so features and soft tissues are placed **because of** the underlying structure rather than copied as independent symbols.
 
 ## Target Skill
-Practice the named decision until the structural result can be repeated deliberately without relying on surface copying.
+Build living facial and soft-tissue forms from a coherent constructed skull so visible features remain supported by underlying structure.
 
 ## Setup
 No special setup required.
@@ -54,10 +54,11 @@ No special setup required.
 6. Suppress most of the construction. Compare the living result with the skull beneath it. If a feature must be relocated, flattened, or enlarged merely to make the surface look plausible, return to the skull stage and diagnose the structural mismatch.
 
 ## Success Check
-- The living head preserves the same turn, tilt, width/depth relationship, and cranial/facial attachment as the skull study.
-- Major features occupy one common spatial system and do not appear pasted onto a mask.
-- Hidden-side landmarks can be mentally continued through the head without contradiction.
-- Removing the construction leaves a believable living head whose important surface events can still be explained by the skull beneath it.
+- Skull and living-head passes preserve the same turn, tilt, width/depth relationship, and cranial/facial attachment rather than drawing the visible face first and retrofitting a skull beneath it.
+- Hidden edges and opposite-side landmarks establish one three-dimensional skull system; the far side does not drift independently simply because it is less visible.
+- Eyes, nose, mouth/dental mass, cheek, jaw, and neck occupy the supports established by the skull instead of appearing as detailed symbols pasted onto a front-facing mask.
+- With most construction suppressed, the living head remains believable and its important surface events can still be explained by underlying support rather than by finish alone.
+- If a feature needs relocation, flattening, or enlargement to look plausible, the skull-stage mismatch is corrected rather than hiding the disagreement with surface rendering.
 
 ## Common Failures
 - Copying the visible face first and retrofitting a skull afterward.

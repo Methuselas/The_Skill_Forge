@@ -50,3 +50,5 @@ Construct a walk from the repeating support grammar contact → down → passing
 - The cycle reads as a walk before secondary animation is added.
 
 ## Notes
+
+Use the named phases as a diagnostic grammar, not as a demand that every walk receive equal spacing or identical poses. Character, speed, footwear, load, and terrain may compress a phase, but each departure must preserve intelligible support transfer and planted-foot behavior.

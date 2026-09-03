@@ -69,4 +69,4 @@ Use clear skull references for one herbivore, one carnivore, and one anthropoid 
 - Correcting the memory redraw only at the silhouette instead of repairing the structural cause.
 
 ## Notes
-Section 8.1 is comparative by design. Bammes repeatedly sets representative animal types against one another so the artist can recognize a shared mammalian organization and then see each species as a structural variant. This drill preserves that method: compare the same major masses, cavities, and force-bearing routes across types, then use memory reconstruction to test whether the architecture has become an internal image rather than a copied outline.
+Bammes repeatedly sets representative animal types against one another so the artist can recognize a shared mammalian organization and then see each species as a structural variant. This drill preserves that comparative method: compare the same major masses, cavities, and force-bearing routes across types, then use memory reconstruction to test whether the architecture has become an internal image rather than a copied outline.

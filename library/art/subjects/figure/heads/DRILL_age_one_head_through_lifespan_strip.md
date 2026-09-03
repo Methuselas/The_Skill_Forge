@@ -72,4 +72,4 @@ Use one neutral head design or one subject with age-progression reference if ava
 - Letting age changes alter the core head type so strongly that identity disappears.
 
 ## Notes
-Hogarth's Chapter IV is useful less as a calendar than as a **continuity exercise**. The same profile is carried through growth, maturity, and decline while several systems change together. Treat the chronology as an observation scaffold; the actual person or design remains the authority on timing and which cues exist.
+Hogarth's lifespan sequence is useful less as a calendar than as a **continuity exercise**. The same profile is carried through growth, maturity, and decline while several systems change together. Treat the chronology as an observation scaffold; the actual person or design remains the authority on timing and which cues exist.

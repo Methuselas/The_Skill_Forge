@@ -45,3 +45,5 @@ variants: []
 - Counteraction supports balance and energy without cancelling the main action.
 
 ## Notes
+
+Derive the opposing motion from force transfer, balance, or delayed response rather than from graphic symmetry. If removing it leaves the main action clearer and no less stable, the counteraction is probably decoration rather than a necessary response.

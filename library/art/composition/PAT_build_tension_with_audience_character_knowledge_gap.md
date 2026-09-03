@@ -45,3 +45,5 @@ variants: []
 - The knowledge difference has a clear dramatic effect.
 
 ## Notes
+
+Suspense requires the privileged fact to remain active in the audience's mind while the character acts without it. If intervening shots make the threat, opportunity, or consequence hard to remember, re-establish it visually before asking the gap to carry tension.

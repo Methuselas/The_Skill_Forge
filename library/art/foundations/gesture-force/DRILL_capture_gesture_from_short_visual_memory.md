@@ -48,8 +48,7 @@ variants:
   when_not_to_use: Do not use the imagination pass as a substitute for first observing or studying the movement process; Bammes
     ties useful visualizing to prior knowledge and experience of the motion.
   absorbed_from_object_id: none
-target_skill: retaining and reconstructing the total attitude and action of a briefly observed living subject without contour-copy
-  dependence
+target_skill: Retain and reconstruct a briefly observed subject's total attitude, support, and main action from memory without falling back to contour copying
 ---
 
 # Capture Gesture From Short Visual Memory
@@ -58,7 +57,7 @@ target_skill: retaining and reconstructing the total attitude and action of a br
 Observe a person, animal, or other living subject/reference briefly, remove the reference, and reconstruct only the gesture from memory. Repeat with several different actions.
 
 ## Target Skill
-Practice the named decision until the structural result can be repeated deliberately without relying on surface copying.
+Retain and reconstruct a briefly observed subject's total attitude, support, and main action from memory without falling back to contour copying.
 
 ## Setup
 No special setup required.

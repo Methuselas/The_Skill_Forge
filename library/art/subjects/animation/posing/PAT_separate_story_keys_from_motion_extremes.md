@@ -45,3 +45,5 @@ variants: []
 - The sequence remains understandable from story keys alone, while motion extremes clarify how it moves.
 
 ## Notes
+
+Label each planned drawing by the information it contributes. If removing an extreme destroys the audience's understanding of the event, it was also functioning as a story key; if a supposed key adds only range or direction, keep it in the motion hierarchy instead.

@@ -48,9 +48,10 @@ Use only a shoulder mark, elbow mark, wrist/palm block, and broad limb envelope.
 4. Add a second contour only after the underarm path reads.
 
 ## Success Check
-- Every arm remains one continuous member.
-- The curve survives changes of bend, view, and foreshortening.
-- The extended examples do not become ruler-straight tubes.
+- In every arm, the underarm route connects the rear armpit, elbow region, and outer palm base as one member rather than a sequence of unrelated muscle bumps.
+- Bent examples organize the two sections as a readable V around a placed elbow, while extended examples resolve into one controlled curve instead of a ruler-straight tube.
+- Changes of bend, view, and foreshortening alter the route convincingly; repeating one memorized arc at every angle does not satisfy the set.
+- The second contour supports the established underarm rhythm rather than forcing the elbow or changing the member after the primary route has been solved.
 
 ## Common Failures
 - Drawing local muscle bumps without a whole-arm rhythm.

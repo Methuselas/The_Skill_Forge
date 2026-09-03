@@ -45,3 +45,5 @@ variants: []
 - The combined motion is irregular but still causally related to the base movement.
 
 ## Notes
+
+Keep each source series coherent before interleaving; the irregularity should come from their phase relationship rather than damaged drawings. If a new obvious beat appears, change the offset or relative loop length while preserving the underlying motion range.

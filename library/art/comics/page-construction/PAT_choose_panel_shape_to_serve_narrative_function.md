@@ -46,3 +46,5 @@ variants: []
 - The panel format reinforces the action, space, or emphasis it contains.
 
 ## Notes
+
+Evaluate a frame against its neighbors, not in isolation: changing one proportion also changes gutter rhythm, available text space, and the reader's route through the page. If those side effects compete with the beat, return to a quieter rectangle.

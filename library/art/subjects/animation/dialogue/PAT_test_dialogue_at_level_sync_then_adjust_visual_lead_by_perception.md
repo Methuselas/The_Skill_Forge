@@ -46,3 +46,5 @@ variants: []
 - The mouth feels synchronized perceptually, not merely numerically.
 
 ## Notes
+
+Compare the level version against small earlier and later alternatives under the actual playback conditions. Keep the smallest offset that resolves the perceptual lag, and reset the test when shot scale, mouth design, delivery speed, or display timing changes.

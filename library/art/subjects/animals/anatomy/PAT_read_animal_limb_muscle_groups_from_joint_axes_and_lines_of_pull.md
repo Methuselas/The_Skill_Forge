@@ -77,6 +77,6 @@ variants: []
 - The limb can still be simplified back to its joint chain and major functional masses without losing the pose.
 
 ## Notes
-Bammes first establishes this method in the hindleg on printed p. 55, grouping muscle complexes by the joint cross-axes and lines of pull they span. Section 6.2 independently repeats the same learner decision in the runner foreleg: the shoulder, elbow, carpal, and digital groups are read in relation to moving axes, and several groups cross more than one joint.
+Bammes first establishes this method in the hindleg by grouping muscle complexes according to the joint cross-axes and lines of pull they span. He independently repeats the same learner decision in the runner foreleg: the shoulder, elbow, carpal, and digital groups are read in relation to moving axes, and several groups cross more than one joint.
 
 That repetition earns a broader owner. The portable skill is not a horse atlas map; it is a way to **organize limb anatomy from mechanics outward**. `PAT_read_hindleg_muscle_groups_from_joint_axes_and_lines_of_pull` remains as the hindleg specialization because it preserves the specific hip, knee, tarsal, rump, and Achilles examples that this general Pattern should not carry. `PAT_shape_specialized_runner_foreleg_from_functional_muscle_and_skeletal_masses` preserves the runner foreleg's distinctive plastic consequences.

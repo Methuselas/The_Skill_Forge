@@ -27,8 +27,7 @@ reference:
 confidence: high
 references: []
 variants: []
-target_skill: designing a readable mid-action figure by shifting weight away from static symmetry while preserving a credible
-  support transition
+target_skill: Design readable mid-action gestures by shifting the major masses relative to current and next support while preserving plausible balance
 ---
 
 # Design an “About To…” Pose From a Support Shift
@@ -37,7 +36,7 @@ target_skill: designing a readable mid-action figure by shifting weight away fro
 Create six minimal gesture figures that each read as being about to do something: step, turn, throw, rise, catch, or change direction.
 
 ## Target Skill
-Practice the named decision until the structural result can be repeated deliberately without relying on surface copying.
+Design readable mid-action gestures by shifting the major masses relative to current and next support while preserving plausible balance.
 
 ## Setup
 No special setup required.
@@ -51,10 +50,11 @@ No special setup required.
 6. Under each figure, write the implied verb and check whether the pose communicates it without the label.
 
 ## Success Check
-- Each pose has a readable current support and a believable next support or directional outcome.
-- The six poses do not collapse into the same generic lean.
-- At least four imply the intended verb before the label is read.
-- The figures remain structurally plausible despite deliberate imbalance.
+- Every gesture shows a readable current support and a plausible next support, catch, or directional outcome rather than relying on a diagonal silhouette alone to imply motion.
+- Head, rib cage, and pelvis carry tension relative to support; theatrical limb movement over three vertically stacked major masses does not count as an about-to state.
+- The six figures solve different support problems instead of repeating one generic forward lean with different arm positions.
+- At least four communicate the intended verb before the written label is read, so the label is evidence to check rather than the source of the action read.
+- Deliberate imbalance remains structurally plausible enough that the implied next contact could actually receive the body's movement.
 
 ## Common Failures
 - Making every pose merely diagonal without changing support.

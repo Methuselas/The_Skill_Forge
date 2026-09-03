@@ -46,3 +46,5 @@ variants: []
 - The reversal travels through the chain and creates flexible flow.
 
 ## Notes
+
+Let the initiating force determine the propagation order; the delay need not be evenly spaced from joint to joint. Track segment length and attachment through the reversal so flexibility comes from phase difference rather than stretching the chain accidentally.

@@ -70,6 +70,6 @@ Choose a clear animal reference with readable trunk and limb proportions. Use a 
 - Mistaking the broad geometric look for a finished style; it is a temporary proportion study.
 
 ## Notes
-Bammes's §3.3 broad-medium exercise uses red chalk on its side so the trunk can be stated rapidly as a broad mass. He then swivels the chalk to create triangular and trapezoid-like limb shapes and builds the entire animal from overlapping, visibly geometric pieces. The durable lesson is not the color or the specific chalk: a broad medium can force whole-to-part proportional decisions faster than a fine point permits.
+Bammes's broad-medium exercise uses red chalk on its side so the trunk can be stated rapidly as a broad mass. He then swivels the chalk to create triangular and trapezoid-like limb shapes and builds the entire animal from overlapping, visibly geometric pieces. The durable lesson is not the color or the specific chalk: a broad medium can force whole-to-part proportional decisions faster than a fine point permits.
 
 The exercise intentionally remains two-dimensional. It trains proportion and concise shape judgment before later structural and locomotive study; it does not replace three-dimensional anatomy construction when the task requires volume or foreshortening.

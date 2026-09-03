@@ -45,3 +45,5 @@ variants: []
 - The motion feels like tremble, shiver, flutter, or mechanical shake rather than a clean cycle.
 
 ## Notes
+
+Hold one stable parent anchor while the vibrating part changes, or the effect can become general drawing boil or position drift. Use the fewest distinct positions that produce the desired frequency and increase irregularity only until the mechanical repeat stops calling attention to itself.

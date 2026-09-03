@@ -55,10 +55,11 @@ Start with a simple invented head, creature part, prop, or abstract character fo
 6. Revise either the construction or the lighting logic, then repeat the observation pass until the designed exaggeration and the rendered form agree.
 
 ## Success Check
-- The physical model preserves the important exaggerations of the original invention rather than replacing them with a generic realistic form.
-- One coherent light source explains the major light and shadow pattern on the maquette.
-- The redraw uses the observed turning surfaces to clarify the invented volume instead of merely copying the silhouette of the model.
-- Comparing the original and redraw reveals specific construction or lighting assumptions that can be corrected in later imagination drawing.
+- The physical model preserves the important exaggerations of the original invention rather than normalizing them toward a generic realistic or geometrically convenient form.
+- One coherent light source explains the major light, halftone, core/shadow, reflected-light, and cast-shadow relationships on the maquette.
+- The redraw uses observed turning surfaces to clarify the invented volume instead of merely copying the model's outer silhouette.
+- Comparison between invention, maquette, and redraw identifies a specific construction or lighting assumption that failed when present; any identified mismatch is revised and re-observed rather than being deferred as something that might improve a future imagination drawing.
+- The repeated observation pass preserves the designed exaggeration while bringing construction and light logic into agreement, so realism gained by erasing the design does not count as a correction.
 
 ## Common Failures
 - Spending so long polishing the sculpture that the exercise becomes a modeling project instead of a rendering test.

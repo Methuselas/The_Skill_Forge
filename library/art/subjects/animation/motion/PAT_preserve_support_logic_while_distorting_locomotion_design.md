@@ -47,3 +47,5 @@ variants: []
 - The invented gait can be impossible in detail yet convincing as locomotion.
 
 ## Notes
+
+Test the most distorted pose as a simple mass-and-contact diagram before restoring style. The design may bend anatomy or compress timing, but the viewer still needs to identify what is planted, where the load is carried, and how the next transfer can occur.

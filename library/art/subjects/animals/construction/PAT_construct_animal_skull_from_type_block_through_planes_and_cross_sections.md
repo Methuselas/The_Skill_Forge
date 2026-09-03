@@ -64,4 +64,4 @@ variants: []
 - Hatching, if used, clarifies modeling and plane direction rather than hiding errors.
 
 ## Notes
-Bammes's §8.2 turns the skull into an architectural construction problem. The horse is first reduced to a trihedral-prism-like block; the dog is summarized by an ovoid/pentagonal organization; lion studies expose hollows and vaulting by changing view and opening the jaw. His explicit sequence is simplification, spatial-axis control, graduated planes, and then complex components. The source's crystalline and architectural metaphors are construction aids, not mandatory finish styles.
+Bammes turns the skull into an architectural construction problem. The horse is first reduced to a trihedral-prism-like block; the dog is summarized by an ovoid/pentagonal organization; lion studies expose hollows and vaulting by changing view and opening the jaw. His explicit sequence is simplification, spatial-axis control, graduated planes, and then complex components. The crystalline and architectural metaphors are construction aids, not mandatory finish styles.

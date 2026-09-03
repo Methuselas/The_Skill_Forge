@@ -45,3 +45,5 @@ variants: []
 - The degree of symmetry supports the character’s current statement.
 
 ## Notes
+
+Judge symmetry in the character's three-dimensional body rather than only in the screen contour; perspective can make equal limb roles appear unequal. Preserve matched function when formality is intended, and use unequal roles—not arbitrary offsets—when breaking the pose.

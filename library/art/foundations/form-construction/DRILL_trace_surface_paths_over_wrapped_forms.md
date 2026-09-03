@@ -42,7 +42,7 @@ variants:
   when_to_use: Use when a figure's silhouette looks plausible but internal construction is weak, flattened, or dependent on copying the perimeter rather than understanding the volume beneath it.
   when_not_to_use: Do not treat blindness, eyes-closed drawing, or timed look-away intervals as requirements; the durable skill is the internal surface-path test, and the imagined routes must still agree with the actual form and camera.
   absorbed_from_object_id: none
-target_skill: Trace Surface Paths Over Wrapped Forms
+target_skill: Follow and invent cross-contour paths that stay attached to changing three-dimensional surfaces and preserve volume without relying on silhouette
 ---
 
 # Trace Surface Paths Over Wrapped Forms
@@ -51,7 +51,7 @@ target_skill: Trace Surface Paths Over Wrapped Forms
 Train the eye and hand to follow lines as three-dimensional surface paths rather than flat graphic marks.
 
 ## Target Skill
-Practice the named decision until the structural result can be repeated deliberately without relying on surface copying.
+Follow and invent cross-contour paths that stay attached to changing three-dimensional surfaces and preserve volume without relying on silhouette.
 
 ## Setup
 No special setup required.
@@ -67,11 +67,11 @@ No special setup required.
 8. Check the imagined route against the actual camera-facing form and correct any path that cuts into, flattens, or contradicts the volume.
 
 ## Success Check
-- Each path changes curvature according to the form beneath it.
-- Lines wrap continuously through visible plane changes instead of flattening into decorative marks.
-- Imagined cross-contours remain coherent after the literal stripe reference is removed.
-- The drill improves later anatomy/contour placement without requiring the training lines to remain visible.
-- In the no-contour variant, internal surface information alone is sufficient to keep the mass coherent in depth and carry the chosen force route across connected forms.
+- Each traced path changes curvature according to the form beneath it rather than preserving a flat graphic arc through every plane change.
+- Lines wrap continuously toward, away from, over, and around the volume instead of becoming decorative stripes that ignore surface direction.
+- Imagined cross-contours remain coherent after the literal stripe reference is removed, so the source pattern is not doing the spatial work for them.
+- In the no-contour figure variant, internal surface information alone keeps connected masses coherent and carries the chosen force route without an enclosing silhouette rescuing the form.
+- Whether this training improves later anatomy or contour placement cannot be closed in the same sitting; a later drawing must show the transfer, and predicting that improvement is not evidence that it occurred.
 
 ## Common Failures
 - Copying the stripe as a flat 2-D shape without understanding the supporting form.

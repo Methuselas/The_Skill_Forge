@@ -46,3 +46,5 @@ variants: []
 - Each successive beat feels intentionally stronger or more pressured than the previous one.
 
 ## Notes
+
+Leave measurable headroom in the opening arrangement: if proximity, tilt, overlap, and value contrast all begin near their extremes, later shots can only repeat or become illegible. After the peak, a controlled reduction can make the climax register more clearly than continued escalation.

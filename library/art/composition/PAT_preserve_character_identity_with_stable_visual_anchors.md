@@ -44,3 +44,5 @@ variants: []
 - The audience can track the same character through meaningful visual change.
 
 ## Notes
+
+Choose anchors that remain visible at the intended viewing scale and survive the kinds of change the sequence actually uses. When one anchor must disappear, keep another stable through the transition so recognition is handed off rather than abruptly re-established.

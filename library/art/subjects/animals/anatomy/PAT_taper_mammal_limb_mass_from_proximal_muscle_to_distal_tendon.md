@@ -72,6 +72,6 @@ variants: []
 - The taper reinforces the articulated chain rather than hiding a wrong joint sequence.
 
 ## Notes
-On printed p. 55 Bammes states that the bulk of the musculature lies nearer the trunk and upper pivots and describes a progressive decrease in muscle mass toward the periphery. He uses the horse as the extreme case, where long taut tendons control the distal joints. Printed p. 56 then demonstrates a first-pass living hindleg in which skeletal reference points, section directions, and small planes remain conspicuous through the outer form.
+Bammes states that the bulk of the musculature lies nearer the trunk and upper pivots and describes a progressive decrease in muscle mass toward the periphery. He uses the horse as the extreme case, where long taut tendons control the distal joints. A first-pass living hindleg then keeps skeletal reference points, section directions, and small planes conspicuous through the outer form.
 
 The portable drawing decision is a **mass hierarchy**, not a claim that every mammal has the same tendon lengths. Proximal muscle bellies and increasingly distal tendon/skeletal dominance keep animal limbs from becoming equal-width tubes and give later anatomy a mechanical place to sit.

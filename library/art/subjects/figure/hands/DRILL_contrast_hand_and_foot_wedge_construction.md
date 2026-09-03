@@ -50,9 +50,10 @@ Use simple wedges and joint chains only; omit nails, wrinkles, veins, and surfac
 4. Circle any pair in which the hand looks load-bearing or the foot looks finger-like, then rebuild that pair.
 
 ## Success Check
-- The hand reads as a mobile tool and the foot as a stable support before contour detail.
-- The two forms remain recognizably related as wedges without sharing the same internal construction.
-- The foot arch remains fleshed and the thumb remains opposed.
+- Before contour detail, the hand reads through palm wedge, finger base, articulated digits, and opposed thumb, while the foot reads through heel, forefoot, fleshed arch span, compact toes, and ground contact.
+- The matched pair remains recognizably related as tapered terminal wedges without collapsing into one generic block reused for both extremities.
+- The hand reads as a mobile tool and the foot as load-bearing support; finger-like toes or a hand shaped as a planted foot are named failures rather than acceptable stylistic variation.
+- Across front, side, three-quarter, up, and down views, the foot's arch stays filled and structural while the thumb remains opposed instead of being absorbed into the palm edge.
 
 ## Common Failures
 - Using one generic terminal block for both extremities.

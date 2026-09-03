@@ -48,3 +48,5 @@ variants: []
 - The body-level acting follows the recorded performance's attitude, rhythm, and accents before detailed mouth synchronization is added.
 
 ## Notes
+
+Define a readable start and end condition for the character's thought, task, or relationship before subdividing the line. Too many independent changes can compete with the words; preserve the few actions that make the internal progression visible even with the mouth temporarily hidden.

@@ -46,3 +46,5 @@ variants: []
 - Eye behavior makes the character’s changing attention legible.
 
 ## Notes
+
+Keep the gaze target spatially coherent across cuts and head turns. A blink can mask a change of attention or separate two thoughts, but frequent unmotivated blinks erase phrasing and make every mental beat carry the same emphasis.

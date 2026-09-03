@@ -70,6 +70,6 @@ variants: []
 - The drawing can still be simplified to functional masses without needing every muscle name.
 
 ## Notes
-Bammes frames the living hindleg as a structural dialogue between hard skeletal forms and variable muscle forms. On printed p. 55 he reduces the musculature to functional complexes and explains them by their relation to joint cross-axes and lines of pull. He then immediately qualifies the diagrams as **general and simplified**, noting that the actual arrangement differs between animal forms.
+Bammes frames the living hindleg as a structural dialogue between hard skeletal forms and variable muscle forms. He reduces the musculature to functional complexes and explains them by their relation to joint cross-axes and lines of pull. He then immediately qualifies the diagrams as **general and simplified**, noting that the actual arrangement differs between animal forms.
 
-This card now sits beneath `PAT_read_animal_limb_muscle_groups_from_joint_axes_and_lines_of_pull`, the broader owner earned when §6.2 independently repeats the same axis-and-line-of-pull logic in the runner foreleg. The hindleg specialization remains useful because it preserves Bammes's specific hip, knee, tarsal, rump, Achilles, and distal-foot examples while the general owner keeps the method portable across limbs.
+This card now sits beneath `PAT_read_animal_limb_muscle_groups_from_joint_axes_and_lines_of_pull`, the broader owner earned when the runner-foreleg treatment independently repeats the same axis-and-line-of-pull logic. The hindleg specialization remains useful because it preserves Bammes's specific hip, knee, tarsal, rump, Achilles, and distal-foot examples while the general owner keeps the method portable across limbs.

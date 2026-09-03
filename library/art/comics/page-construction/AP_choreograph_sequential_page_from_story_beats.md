@@ -48,3 +48,5 @@ Build a sequential page as one storytelling unit by assigning story beats to pan
 - Text and image were composed together rather than competing after the fact.
 
 ## Notes
+
+Judge the page first at thumbnail size with dialogue and sound represented as plain masses. If the route works only after reading the words or inspecting finished detail, the page-level choreography is not yet carrying the sequence.

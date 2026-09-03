@@ -45,3 +45,5 @@ variants: []
 - The setting contributes story information even without character dialogue.
 
 ## Notes
+
+Give the setting a concrete relationship to the action: it can restrict a route, expose a figure, shelter a choice, or reveal prior events. Expressive shapes without such a relationship remain atmosphere or decoration and should not compete with the active story beat.

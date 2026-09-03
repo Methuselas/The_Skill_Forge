@@ -44,10 +44,14 @@ Use one page. Mark an eye-level line for each pair. Keep the boxes simple and un
 2. Decide which families are parallel to the picture plane and which recede.
 3. Send each receding family to its proper vanishing direction.
 4. For the above/below pairs, allow vertical convergence when the view requires it.
-5. Compare the six boxes before adding any detail.
+5. Compare the six boxes before adding any detail, then write a short explanation of what caused the convergence differences in at least two contrasting boxes.
 
 ## Success Check
-Each box reads as a different view of the same kind of solid, and the convergence changes can be explained from view/orientation rather than from a named recipe.
+- All six boxes remain the same kind of solid while their view, pitch, and horizontal orientation change; altered proportions do not substitute for rotation.
+- Each receding direction family converges consistently within a box instead of sending nominally parallel edges toward unrelated points.
+- Off-center boxes use the second horizontal vanishing direction when required rather than keeping that family parallel as a one-point recipe.
+- Above- and below-eye-level boxes change visible plane exposure coherently, and vertical convergence appears only when the pitched view supports it rather than as dramatic decoration.
+- The convergence differences can be explained from the viewer and box orientation without relying on a memorized named setup.
 
 ## Common Failures
 - Off-center one-point boxes that incorrectly keep the second horizontal family parallel.

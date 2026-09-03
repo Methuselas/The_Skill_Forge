@@ -48,9 +48,11 @@ Use no head or limbs except tiny attachment marks. Divide the page into six boxe
 4. Reduce every torso to its centerline and two masses to confirm that the original view still reads.
 
 ## Success Check
-- Every box has a distinct, unmistakable view.
-- The centerline crosses the waist without a break or unexplained jump.
-- The masses remain load-bearing and connected in the most extreme pose.
+- Front, rear, three-quarter, side, forward-bend, and opposed-turn blocks are distinguished by centerline, cross-contour, and mass orientation rather than by six altered outer silhouettes around the same front-facing construction.
+- The rib-cage barrel and pelvic wedge keep the chosen basic proportions across the set instead of changing size to make difficult views easier.
+- The waist remains a broad load-bearing transition; a narrow mechanical connector between two floating masses does not count as connection.
+- In the most extreme block, centerline and mass overlap still explain how load passes through the torso without an unexplained jump or fracture.
+- After competing guides are suppressed, reducing each study to centerline and two masses preserves its intended view rather than exposing an unresolved second construction.
 
 ## Common Failures
 - Repeating the same front-facing shapes and merely changing their outline.

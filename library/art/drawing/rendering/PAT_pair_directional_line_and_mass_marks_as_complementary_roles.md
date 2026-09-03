@@ -83,7 +83,7 @@ variants:
 - Removing either mark family would reduce a distinct part of the image's structural or expressive information.
 
 ## Notes
-In §9.3 Bammes describes a “dialog” between line and patch. Line progresses toward a goal; a patch spreads and occupies area. Their contrast becomes useful only when they do not duplicate one another. His wet-ink examples also welcome controlled accident, while the final random-mark exercise adds the key limit: if everything runs, articulation disappears, so a few firmer edges or details must confine the flow. The Pattern generalizes that role assignment beyond animal drawing while retaining the source's control-versus-chance tradeoff.
+Bammes describes a “dialog” between line and patch. Line progresses toward a goal; a patch spreads and occupies area. Their contrast becomes useful only when they do not duplicate one another. His wet-ink examples also welcome controlled accident, while the random-mark exercise adds the key limit: if everything runs, articulation disappears, so a few firmer edges or details must confine the flow. The Pattern generalizes that role assignment beyond animal drawing while retaining the control-versus-chance tradeoff.
 
 `VAR_guptill_assign_mixed_media_distinct_line_mass_and_accent_roles` turns the same division of labor into a staged mixed-media sequence: establish structure and selected detail with the primary line system, simplify broad values or restrained color with an area-based pass, then return only a few crisp finishing accents after that broader statement is dry/resolved. The hierarchy can be reversed when color or mass is meant to be primary; the durable rule is role separation, not pencil supremacy.
 

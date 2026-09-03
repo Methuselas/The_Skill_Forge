@@ -47,10 +47,16 @@ Use a minimal subject or short sequence so the named variable can be compared wi
 5. Compare perceived speed, energy, deliberateness, and attitude.
 
 ## Success Check
-- The versions feel meaningfully different even though duration and endpoints are unchanged.
+- All versions use the same start, end, path, and total frame count; a timing change caused by moving an endpoint or adding frames does not count as a spacing result.
+- The even, eased, and asymmetric versions were actually played back at the same duration and remain distinguishable in motion rather than only on a spacing chart.
+- The ease-out/ease-in version changes perceived acceleration without introducing shape changes that disguise the spacing test.
+- The asymmetric version produces a specific shift in energy, deliberateness, or attitude that can be identified from playback.
+- At least one pair can be compared frame for frame to show that the character difference comes from where the drawings fall in time, not from a different action.
 
 ## Common Failures
 - Changing the frame count between versions.
 - Adding shape changes that hide the spacing comparison.
 
 ## Notes
+
+Use identical playback rate, loop range, path, and drawing design for every version, then compare both motion and frame-by-frame positions. If the perceived difference disappears when shape changes are removed, restart with a simpler subject that exposes spacing alone.

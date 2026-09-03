@@ -46,3 +46,5 @@ variants: []
 - Screen direction and character relationships remain legible across cuts.
 
 ## Notes
+
+The axis belongs to the current action relationship, not permanently to the set. When a character changes sides, a new opponent enters, or movement turns, show enough of that event to establish the new relationship before cutting from it.

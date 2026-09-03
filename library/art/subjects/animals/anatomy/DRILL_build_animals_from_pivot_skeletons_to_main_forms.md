@@ -50,10 +50,11 @@ Choose side or three-quarter references in which the spine direction, forequarte
 6. Repeat the sequence on differently proportioned quadrupeds and compare which relationships changed while the construction order stayed the same.
 
 ## Success Check
-- The major joint locations do not migrate when the main forms are added.
-- Each animal remains recognizably different in proportion when reduced to its pivot skeleton and three body regions.
-- Hidden or overlapping limbs still have a plausible continuation back to their parent mass.
-- The final structural study can be read without relying on fur or detailed contour.
+- Shoulder, hip, knee, hock, paw, and other major pivots remain in place when body and limb volumes are added rather than migrating to make a preferred silhouette easier.
+- The three quadrupeds preserve visibly different limb lengths, trunk ratios, and forequarter/hindquarter relationships instead of being one generic animal template with altered contour.
+- Forequarter, middle trunk, hindquarter, and limb volumes wrap the established skeleton without disconnecting joints from the masses they belong to.
+- Hidden or overlapping limbs retain a plausible joint-chain continuation back to the parent mass rather than ending as detached visible fragments.
+- When fur, facial detail, and finish are absent, the reduced pivot skeleton and three main body regions still identify the intended proportional differences.
 
 ## Common Failures
 - Drawing the outer contour first and inventing the skeleton afterward to fit it.

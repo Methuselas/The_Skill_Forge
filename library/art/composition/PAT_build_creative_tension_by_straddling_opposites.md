@@ -129,7 +129,7 @@ variants:
 - The opposition supports the subject, mood, or design goal.
 
 ## Notes
-Dodson's key distinction is that a productive "straddle" is not a compromise. Creative tension often comes from allowing apparently conflicting qualities to remain alive together. Chapter 7 demonstrates the principle through composition; broader metaskill promotion is intentionally deferred until another domain supplies operational evidence.
+Dodson's key distinction is that a productive "straddle" is not a compromise. Creative tension often comes from allowing apparently conflicting qualities to remain alive together. Composition provides a direct application of the principle; broader metaskill promotion is intentionally deferred until another domain supplies operational evidence.
 
 The existing Repeat With Variation Pattern is already one strong example of this structure: recurrence supplies coherence while variation supplies difference. The four variants here retain Dodson's other major composition applications without multiplying independent Patterns for each pair.
 

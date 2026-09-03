@@ -72,4 +72,4 @@ Use reliable reproductions with basic attribution and, when available, a known d
 - Forcing a work into one category when it clearly combines several tendencies.
 
 ## Notes
-Hogarth's Chapter III is most useful as a **comparison method**, not as a set of historical laws. Its durable move is to separate the artist's signature handling from broader conventions, then compare those conventions through recurring figure attributes and known context. His named historical types and modern psychological categories remain source-specific interpretive scaffolds; the Drill keeps the observable comparison and discards the requirement to accept the taxonomy.
+Hogarth's historical comparison is most useful as a **method**, not as a set of laws. Its durable move is to separate the artist's signature handling from broader conventions, then compare those conventions through recurring figure attributes and known context. His named historical types and modern psychological categories remain source-specific interpretive scaffolds; the Drill keeps the observable comparison and discards the requirement to accept the taxonomy.

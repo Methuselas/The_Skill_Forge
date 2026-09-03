@@ -54,9 +54,11 @@ Use one figure with at least three strong overlaps and one major joint directed 
 6. Mark which lines have become confirmed late-Stage-3 decisions and which information should wait for the final pass.
 
 ## Success Check
-- All four versions preserve the same pose, depth order, and attachments.
-- Each single-control study demonstrates a distinct way of restoring cohesion.
-- The combined version is clearer than the others without simply containing more marks.
+- All four copies preserve the same pose, depth order, and attachments; a clearer result obtained by quietly changing the foreshortening does not count as a cohesion solution.
+- The interconnection, selected-contour, and value studies each make their own control visibly responsible for cohesion rather than smuggling in the other two at full strength.
+- The value study uses one lighting-consistent mass pattern instead of tone that merely covers an unresolved overlap or attachment.
+- The combined version uses only the controls the image needs and is clearer without simply containing more marks than every single-control study.
+- At least one control is reduced or rejected in the combined version, with the observed clutter, stiffness, or ambiguity that disqualified it stated rather than the final treatment being justified by preference alone.
 
 ## Common Failures
 - Changing the pose between copies and making the comparison meaningless.

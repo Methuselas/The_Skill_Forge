@@ -45,3 +45,5 @@ variants: []
 - The eye has a clear next destination after the cut.
 
 ## Notes
+
+Check the cut as a two-frame pair with all dialogue and motion removed. A near-identical focal position can create an unintended identity match, while a large jump can force a search; choose the displacement according to whether continuity or reorientation serves the beat.

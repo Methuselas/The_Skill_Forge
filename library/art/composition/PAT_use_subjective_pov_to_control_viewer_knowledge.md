@@ -45,3 +45,5 @@ variants: []
 - The framing changes what the viewer can know or feel, not only where the camera sits.
 
 ## Notes
+
+Anchor the subjective restriction to a specific perceiver and condition—position, obstruction, attention, impairment, or uncertainty. When the viewpoint changes hands or returns to an objective frame, make the transition legible so limited knowledge is not mistaken for missing continuity.

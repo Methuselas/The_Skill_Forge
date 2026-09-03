@@ -202,7 +202,7 @@ variants:
     and the eyes read smaller as the surrounding face grows. The construction changes by maturing the facial mass inside the
     persistent child cranium rather than by scaling the whole head uniformly.'
   when_to_use: Use when a preschool or small-child head still reads like an infant even though the basic cranial ball is correct,
-    or when designing an age step immediately after the baby/preschool proportions retained from u05.
+    or when designing an age step immediately after the baby/preschool adaptation.
   when_not_to_use: Do not treat Loomis's exact quarter marks, ear timing, or period-specific boy/girl feature claims as universal
     development rules. Individual growth, skull type, ancestry, observed proportion, and deliberate character design override
     the mnemonic.
@@ -216,7 +216,7 @@ variants:
     jaw corner. The school-age read comes from a face that is clearly developing toward the adult pattern but has not reached
     it.'
   when_to_use: Use when an approximately eight-to-twelve-year-old head is reading either too infantile or too adult even though
-    the individual features are plausible, or when extending an age progression beyond the small-child construction from u06.
+    the individual features are plausible, or when extending an age progression beyond the small-child construction.
   when_not_to_use: Do not use Loomis's halfway line, quarter divisions, dental timing, or rounded jaw corner as a precise
     biological clock. Individual development, skull shape, ancestry, expression, viewpoint, and the observed or designed subject
     override the average scaffold; period-specific boy/girl appearance claims are not part of this variant.

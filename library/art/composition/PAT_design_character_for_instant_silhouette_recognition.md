@@ -45,3 +45,5 @@ variants: []
 - The character remains recognizable in simplified silhouette.
 
 ## Notes
+
+Test recognition across neutral, compressed, and extended poses; one signature contour may vanish when limbs overlap or the camera turns. Preserve more than one large-scale anchor—such as head-to-torso ratio, shoulder/hip relationship, or a dominant carried mass—so identity does not depend on a single pose.

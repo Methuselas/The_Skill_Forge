@@ -76,6 +76,6 @@ variants: []
 - Species differences can change the visible masses without breaking the functional axis logic.
 
 ## Notes
-Bammes opens §7.4 by explicitly extending the same functional-anatomy reasoning used for the limbs to the trunk. Figure 110 places the muscle groups around three axes of the vertebral column in cross-section, while the prose converts those positions into lateral bending, flexion/extension, and torsion. He then narrows the artist's attention to three especially important pure trunk groups and Figure 111 shows their disposition in dog and horse.
+Bammes explicitly extends the same functional-anatomy reasoning used for the limbs to the trunk. A cross-section places the muscle groups around three axes of the vertebral column, while the explanation converts those positions into lateral bending, flexion/extension, and torsion. He then narrows the artist's attention to three especially important pure trunk groups and shows their disposition in dog and horse.
 
 This Pattern therefore specializes the existing vertebral-and-limb direction framework rather than replacing it. The earlier trunk-deformation Pattern remains the owner of what bending and torsion do to the visible volume; this card explains how Bammes organizes the pure trunk musculature mechanically around that framework.

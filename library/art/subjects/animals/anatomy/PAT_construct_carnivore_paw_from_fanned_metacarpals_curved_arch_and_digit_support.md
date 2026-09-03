@@ -92,7 +92,7 @@ variants:
 ## Notes
 The useful contrast in Bammes is not simply “paw instead of hoof.” He identifies a different load path and a different spatial organization: multiple metacarpal rays spread from the carpus, the metacarpal region curves as a volume, and the animal bears on padded distal contacts. That combination explains why a carnivore paw cannot be convincingly replaced by either a flat hand symbol or a compact ungulate foot block.
 
-Figure 87 is especially important pedagogically because the foot is isolated after the larger foreleg study. The digit directions and a separate claw detail are treated as construction problems of their own, which supports keeping the paw as a distinct subskill while still attaching it to the carnivore forearm pattern.
+The isolated foot study is especially important pedagogically because it follows the larger foreleg construction. The digit directions and a separate claw detail are treated as construction problems of their own, which supports keeping the paw as a distinct subskill while still attaching it to the carnivore forearm pattern.
 
 
 `VAR_bammes_calibrate_lion_and_dog_paw_by_metacarpal_length_and_claw_state` preserves Bammes's bounded lion-versus-dog distal calibration without replacing the shared carnivore paw construction.

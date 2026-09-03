@@ -45,3 +45,5 @@ variants: []
 - The breakdown explains how the action travels, not only where halfway is.
 
 ## Notes
+
+Preserve volume and attachment while departing from the arithmetic midpoint. A useful diagnostic is to trace the intended path and compare silhouettes: if the breakdown adds no change of route, attitude, overlap, or spacing bias, it has not yet made a motion decision.

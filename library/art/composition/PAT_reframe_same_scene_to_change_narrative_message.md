@@ -45,3 +45,5 @@ variants: []
 - Different framings of the same setup produce measurably different story reads.
 
 ## Notes
+
+Keep a short list of invariant scene facts while auditioning crops so the comparison isolates composition rather than quietly rewriting the event. If a candidate needs a new action or prop to produce its message, it is a different beat, not merely a different framing.

@@ -72,9 +72,11 @@ Use one page divided into eight equal boxes. Keep the intended head size consist
 4. Add only a simple jaw plane or ear marker when it is needed to prove orientation.
 
 ## Success Check
-- All eight heads read as the same construction from different viewpoints.
-- The downviews visibly favor the cranial vault and the upviews expose more facial underplane.
-- No facial wedge floats, flattens, or changes identity to compensate for a difficult angle.
+- All eight blocks preserve one head's basic proportions; difficult views are solved by projection rather than by enlarging, shrinking, or reshaping the head.
+- Centerline and brow cross-contour make each turn and tilt legible before features are added, so orientation is not being rescued by eyes, nose, or expression.
+- Downviews favor cranial-vault exposure and upviews reveal more facial underplane in ways consistent with the same construction.
+- The facial wedge stays attached to the cranial mass and changes projection with the view rather than remaining a front-facing face pasted inside differently tilted circles.
+- Any jaw plane or ear marker functions only as orientation evidence and does not compensate for an unresolved relationship between the two main masses.
 
 ## Common Failures
 - Adding features before the two masses agree.

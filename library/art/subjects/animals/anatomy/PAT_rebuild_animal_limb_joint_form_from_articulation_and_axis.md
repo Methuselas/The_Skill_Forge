@@ -69,6 +69,6 @@ variants: []
 - The rebuilt joint still belongs to one continuous limb chain rather than becoming an isolated anatomical knot.
 
 ## Notes
-This Pattern is the generic owner earned by repeated Bammes evidence. In the hindleg unit (u13), the femuro-tibial and tarsal forms visibly change with flexion and with the orientation of their cross-axes. Section 6.1 confirms the same learner decision in a different limb: the runner carpus broadens and blunts as its rows shift in flexion, flexed digital joints resolve into interrupted articulating arcs, and the mobile scapula changes the shoulder region and distal reach.
+This Pattern is the generic owner earned by repeated Bammes evidence. In the hindleg, the femuro-tibial and tarsal forms visibly change with flexion and with the orientation of their cross-axes. A runner-foreleg comparison confirms the same learner decision in a different limb: the carpus broadens and blunts as its rows shift in flexion, flexed digital joints resolve into interrupted articulating arcs, and the mobile scapula changes the shoulder region and distal reach.
 
 The shared decision is therefore broader than a horse hock or carpus: **joint form is a state-dependent construction problem**. The existing hindleg Pattern remains as a specialization because it preserves the specific femuro-tibial, tarsal, and calcaneal cues that this general owner should not carry.

@@ -53,10 +53,11 @@ Choose three references with different visible conditions: one active expression
 6. Finish with one memory rep from the weakest reference: reconstruct the head and redraw only the major flow/cause map, then check it against the source.
 
 ## Success Check
-- Wrinkle marks follow the same head perspective and surface direction as the underlying forms.
-- The drawing distinguishes active pull/stretch from compression and from slower age/material effects where the reference supports that distinction.
-- Multiple causes can coexist without turning the face into separate diagram zones.
-- The simplified version keeps the expression, age, or compression read with fewer lines than the reference contains.
+- Wrinkle routes wrap the constructed head and follow its perspective instead of sitting on the face as stock forehead, crow's-feet, or nasolabial symbols.
+- Each major crease cluster is assigned a supported cause such as tension, compression, sag, material change, or mixed/uncertain; naming a cause that the reference does not show is not a stronger answer.
+- Multiple causes can coexist across one face without being separated into artificial diagram zones or given equal line weight everywhere.
+- The clean redraw keeps the expression, age, or compression read with fewer lines than the reference rather than proving effort by copying every visible crease.
+- The memory rep preserves the major flow/cause map, and comparison with the source identifies where remembered routes drifted instead of accepting familiar wrinkle patterns as correct.
 
 ## Common Failures
 - Copying every visible line at equal strength.

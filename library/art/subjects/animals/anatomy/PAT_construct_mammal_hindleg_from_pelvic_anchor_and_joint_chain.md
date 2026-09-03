@@ -71,6 +71,6 @@ variants: []
 - A second mammal type can be built with the same study logic while visibly retaining its own proportions and foot structure.
 
 ## Notes
-Bammes begins the hindleg chapter by tying external form to articulation, joint sequence, distal-foot specialization, and the pelvis. His fig. 54 compares the animal hindleg with the human leg: the segment count and broad structural correspondence are close, but the profile of the animal limb becomes much more angular while front and rear views emphasize support. He then distinguishes plantigrade, digitigrade, and unguligrade relationships to the ground without needing those categories to become an evolutionary doctrine card.
+Bammes ties external hindleg form to articulation, joint sequence, distal-foot specialization, and the pelvis. His comparison between animal and human legs shows close correspondence in segment count and broad structure, while the animal profile becomes much more angular and front and rear views emphasize support. He then distinguishes plantigrade, digitigrade, and unguligrade relationships to the ground without needing those categories to become an evolutionary doctrine card.
 
 The durable drawing decision is therefore not to memorize a single leg contour. It is to preserve the pelvic anchor and ordered articulated chain, then let proportion, pose, view, and distal stance determine the visible result. This Pattern specializes the earlier Bammes animal-framework card by giving the hindleg a concrete comparative-anatomy route.

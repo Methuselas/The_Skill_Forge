@@ -51,10 +51,10 @@ Make three pairs of simple two-cylinder bends: one leg, one arm, and one finger.
 5. Correct the wrong copy without changing the intended chain or bend angle.
 
 ## Success Check
-- Each correct pair shows a clear reversal of which member advances.
-- The joint changes its visible interlock but remains part of one limb or digit.
-- The intentionally wrong versions produce recognizable diagnostic symptoms.
-- The correction fixes depth without redesigning the whole member.
+- In each correct pair, the advancing member visibly reverses while the overall bend remains comparable, so the depth test is not being disguised by a new pose.
+- The joint contour changes with the advancing member but remains integrated into one limb or digit rather than floating between two shanks as a separate ball.
+- Every intentionally wrong copy actually produces and labels a visible symptom such as swelling, cracking, override, detachment, or ambiguous depth; merely predicting that the wrong overlap would fail does not satisfy the drill.
+- The repaired copy removes the diagnostic symptom by changing the decisive interlock rather than adding extra anatomy or redesigning the whole member.
 
 ## Common Failures
 - Changing the pose so much that the depth reversal cannot be compared.

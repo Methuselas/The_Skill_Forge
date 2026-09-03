@@ -52,6 +52,7 @@ Select one finished work whose composition has a clear effect worth studying. Pr
 4. Rebuild the mechanism with a materially different subject whose objects, setting, and mark language do not permit literal copying.
 5. Make at least two additional transfers so the mechanism has to adapt rather than becoming a disguised tracing of the first result.
 6. Compare the transfers with the donor only at the structural level and note which parts of the mechanism remained stable versus which had to change for the new subject.
+7. Name one situation where the extracted mechanism would stop being useful or would need to be replaced, and record why.
 
 ## Success Check
 - The extracted mechanism can be named and diagrammed without referring to the donor's specific objects.

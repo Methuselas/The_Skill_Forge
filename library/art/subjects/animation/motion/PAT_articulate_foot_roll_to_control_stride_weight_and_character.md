@@ -45,3 +45,5 @@ variants: []
 - Foot articulation supports the intended stride and weight.
 
 ## Notes
+
+Mark which part of the foot owns ground contact on each important drawing and keep that point stable while loaded. Footwear, anatomy, speed, and surface can shorten or redistribute the roll, but an unexplained change of contact usually reads as sliding or weight loss.

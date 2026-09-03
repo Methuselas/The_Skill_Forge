@@ -81,7 +81,7 @@ variants:
 - For a rigid instrument, solve the contact chain before contour: object axis → palm orientation → thumb opposition → active digit or digits → support-digit wrap → palm contact → wrist axis → forearm. Keep every visible digit traceable to one base even when several fingers compress around the same grip.
 - In support actions, spread or brace the digits so the load path reads from contact points through palm and wrist.
 - In precision actions, reduce contact to the digits actually needed and keep unnecessary fingers from competing with the task.
-- Use Chapter 4 surface-stress cues only where the functional load would actually reveal them.
+- Use surface-stress cues only where the functional load would actually reveal them.
 
 ## Don't
 - Pose the fingers first and assign a function afterward.

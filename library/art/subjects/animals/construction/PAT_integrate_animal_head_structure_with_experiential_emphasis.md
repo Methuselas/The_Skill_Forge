@@ -66,4 +66,4 @@ variants: []
 - Removing decorative effects does not reveal a broken head construction.
 
 ## Notes
-Section 8.4 closes Bammes's head sequence by integrating the object and the artist's subjective experience. He insists that building with masses and structures comes first, then shows multiple legitimate finish strategies: Pisanello's coat-following hatching uses texture to model relief; Menzel uses controlled jottings, tonal suggestion, and blank paper; the orangutan study uses selective emphasis to communicate a personal response. The source supports freedom of finish only after the head's practical structure is secure.
+Bammes closes his head sequence by integrating the object and the artist's subjective experience. He insists that building with masses and structures comes first, then shows multiple legitimate finish strategies: Pisanello's coat-following hatching uses texture to model relief; Menzel uses controlled jottings, tonal suggestion, and blank paper; the orangutan study uses selective emphasis to communicate a personal response. These examples support freedom of finish only after the head's practical structure is secure.

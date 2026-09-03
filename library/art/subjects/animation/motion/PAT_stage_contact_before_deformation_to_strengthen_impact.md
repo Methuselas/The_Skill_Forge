@@ -45,3 +45,5 @@ variants: []
 - The compression reads as caused by impact.
 
 ## Notes
+
+The readable contact may be extremely brief at high speed, so judge it in playback rather than by imposing a fixed frame count. If removing that state makes compression appear to begin in empty space, restore clearer collision evidence before increasing the squash.

@@ -48,9 +48,10 @@ Use four rows: standing, seated, crossed or hunched, and deeply foreshortened.
 4. Cover the labels and reclassify the finished constructions from their view clues.
 
 ## Success Check
-- At least six of eight S examples read as profile or three-quarter without a torso.
-- Every B example has a clear inner stem and two outer mass changes even when bent.
-- Reclassification matches the original choice or exposes a specific construction error.
+- S and B classifications are supported by body orientation, joint placement, and anklebone clues rather than by whether the finished leg happens to sweep gracefully across the page.
+- At least six of the eight S examples read as profile or three-quarter legs without a torso or visible label needed to explain the choice.
+- Every B example preserves a clear inner stem and two outer mass changes through the bend instead of becoming a straight tube with a B label beside it.
+- When the labels are covered, reclassification either matches the original choice or names the specific construction clue that failed; relabeling the drawing after the fact does not count as a correction.
 
 ## Common Failures
 - Choosing from page direction rather than body orientation.

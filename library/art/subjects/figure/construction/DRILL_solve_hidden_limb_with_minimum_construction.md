@@ -52,10 +52,11 @@ Prepare nine small torso-and-occluder layouts. In three, show only a visible thi
 6. Redo any case where the endpoint or second fragment forces a different route than the one first constructed.
 
 ## Success Check
-- Simple cases remain simple and do not accumulate invented anatomy behind the occluder.
-- Dependent endpoints and emerging fragments have a believable continuous route.
-- Corresponding widths support the implied size of the hidden member.
-- No two visible fragments demand incompatible hidden joints.
+- Each case is classified as needing no hidden route, a partial route, or a full chain, and the amount drawn matches that need rather than defaulting every occlusion to complete invented anatomy.
+- Visible endpoints and emerging fragments can be connected by the chosen hidden path without impossible bends, unreachable hands or feet, or incompatible joints.
+- Corresponding width evidence supports one member through the occluder instead of allowing hidden scale to change simply because the middle is unseen.
+- After hidden construction is covered or erased, the visible fragments still imply one continuous attached limb rather than unrelated pieces.
+- Any case contradicted by its second fragment is rebuilt from the route decision rather than patched by moving only the visible endpoint.
 
 ## Common Failures
 - Drawing every concealed limb in full regardless of need.

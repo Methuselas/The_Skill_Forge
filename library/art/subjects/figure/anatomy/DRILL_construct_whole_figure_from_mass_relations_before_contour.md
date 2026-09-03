@@ -41,7 +41,7 @@ variants:
     spaces, limb separation, overlap, and anatomical information and should be abandoned as soon as the large envelope is
     corrected.
   absorbed_from_object_id: none
-target_skill: Construct the Whole Figure From Mass Relations Before Contour
+target_skill: Capture a specific figure's body type, proportion, and support from large mass relations before contour or anatomical detail
 ---
 
 # Construct the Whole Figure From Mass Relations Before Contour
@@ -50,7 +50,7 @@ target_skill: Construct the Whole Figure From Mass Relations Before Contour
 Train whole-figure proportion and mass perception so the body is assembled from large relationships rather than copied as an enclosing outline.
 
 ## Target Skill
-Practice the named decision until the structural result can be repeated deliberately without relying on surface copying.
+Capture a specific figure's body type, proportion, and support from large mass relations before contour or anatomical detail.
 
 ## Setup
 No special setup required.

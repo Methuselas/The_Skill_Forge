@@ -47,3 +47,5 @@ variants: []
 - The reveal has a perceptible narrative consequence.
 
 ## Notes
+
+Concealment should create a deliberate question, not a vague picture. Keep enough orientation cues for the audience to know what kind of information is missing, then make the disclosed form alter interpretation rather than merely add detail.

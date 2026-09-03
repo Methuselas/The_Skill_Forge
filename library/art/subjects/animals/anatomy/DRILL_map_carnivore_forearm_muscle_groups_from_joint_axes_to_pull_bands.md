@@ -84,6 +84,6 @@ Use one clear carnivore foreleg skeletal reference plus a reliable muscle refere
 - Turning the runner comparison into a claim that all carnivores and ungulates share identical muscle attachments.
 
 ## Notes
-Bammes's Figure 92 is valuable because it does not stop at a labeled anatomy plate. It moves from front and back skeletal views with functional color bands to a third diagram in which the forearm skeleton is removed and only the essential origin/insertion arrangement remains. That sequence trains a useful compression test: anatomy has been understood when the artist can remove detail without losing the mechanical route.
+Bammes's sequence is valuable because it does not stop at a labeled anatomy plate. It moves from front and back skeletal views with functional color bands to a third diagram in which the forearm skeleton is removed and only the essential origin/insertion arrangement remains. That sequence trains a useful compression test: anatomy has been understood when the artist can remove detail without losing the mechanical route.
 
-The dog and cow plates on printed p. 85 provide the comparative check used near the end of the exercise. The dog retains a more muscular distal forearm, while the cow sends the equivalent control through long tendons so the skeleton dominates. The contrast is used to sharpen the carnivore study, not to create a generic cross-species muscle map.
+Comparative dog and cow studies provide the check used near the end of the exercise. The dog retains a more muscular distal forearm, while the cow sends the equivalent control through long tendons so the skeleton dominates. The contrast is used to sharpen the carnivore study, not to create a generic cross-species muscle map.

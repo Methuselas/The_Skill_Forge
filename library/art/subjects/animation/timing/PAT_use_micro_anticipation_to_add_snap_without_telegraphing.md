@@ -45,3 +45,5 @@ variants: []
 - The action feels sharper while remaining surprising.
 
 ## Notes
+
+The visibility threshold depends on shot scale, contrast, and playback speed, so use the smallest preparation that improves the action. If it reads as a separate idea, creates a position pop, or delays the main event, reduce or remove it rather than hiding it with more frames.

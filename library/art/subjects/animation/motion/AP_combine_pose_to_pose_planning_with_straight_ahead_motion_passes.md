@@ -47,3 +47,5 @@ Combine pose-to-pose control with straight-ahead vitality by planning the import
 - Secondary and tertiary motion support rather than redesign the primary action.
 
 ## Notes
+
+Define which motion systems are locked and which are allowed to develop freely before starting the hybrid pass. Periodic registration drawings are most useful at changes of direction or force, where accumulated scale drift and a mistimed secondary system are easiest to detect before they spread.

@@ -58,7 +58,11 @@ Choose a scene with at least three depth planes and a few repeatable forms. Keep
 6. Build a final version using only the mutually reinforcing cues needed for a convincing spatial read.
 
 ## Success Check
-The near-to-far order stays coherent in every pass, and the final image uses a small coordinated set of cues whose individual jobs can be explained.
+- Every pass preserves the same scene, camera, and basic spatial order; a deeper-looking version caused by changing the layout does not count as evidence for a depth cue.
+- The overlap/scale, detail-grading, value/contrast, and atmospheric-color passes each make their own contribution visible before the cues are recombined.
+- The atmospheric hue or chroma treatment follows the pictured conditions rather than defaulting automatically to a generic blue-distance recipe.
+- The final version uses only mutually reinforcing cues at useful strengths instead of stacking every tested effect at maximum intensity.
+- The comparison names which cue strengthened depth, which duplicated another cue or added little, and which introduced a tradeoff; the final selection is justified by those observations rather than by preference alone.
 
 ## Common Failures
 - Changing the camera or subject so much between passes that the depth cues cannot be compared.

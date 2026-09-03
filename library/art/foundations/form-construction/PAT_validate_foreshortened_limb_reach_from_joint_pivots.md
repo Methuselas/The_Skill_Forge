@@ -57,4 +57,4 @@ variants: []
 - Removing the temporary guide leaves the limb structurally convincing.
 
 ## Notes
-Chapter 5 is retained as a local reach diagnostic rather than a compulsory geometry system. The arc is temporary evidence for legal articulation; the accepted pose, segment identity, and carrying body structure remain authoritative.
+This method is retained as a local reach diagnostic rather than a compulsory geometry system. The arc is temporary evidence for legal articulation; the accepted pose, segment identity, and carrying body structure remain authoritative.

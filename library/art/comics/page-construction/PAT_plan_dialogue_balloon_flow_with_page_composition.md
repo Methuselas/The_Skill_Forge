@@ -47,3 +47,5 @@ variants: []
 - Balloon placement does not break the panel’s focal hierarchy.
 
 ## Notes
+
+Treat rough balloon shapes as occupied picture area, including the tail route and breathing room around type. When space fails, restage the image or revise the wording early instead of shrinking lettering or covering the action at finish.

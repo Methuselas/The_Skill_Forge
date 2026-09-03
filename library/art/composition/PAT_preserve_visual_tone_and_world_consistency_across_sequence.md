@@ -47,3 +47,5 @@ variants: []
 - The sequence still feels like one world and one visual language.
 
 ## Notes
+
+Separate the sequence's invariants from its adjustable intensity controls. Shape language or atmospheric behavior may stay fixed while contrast, proximity, or rhythm rises; if every visual variable changes at once, the audience may read a different world rather than a stronger beat.

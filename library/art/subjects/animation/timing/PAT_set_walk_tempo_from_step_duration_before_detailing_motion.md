@@ -49,3 +49,5 @@ variants: []
 - Step frequency and stride length together produce the intended travel rate.
 
 ## Notes
+
+Test cadence with only contacts and a simple body mass before investing in articulation. When the desired travel speed forces implausible stride or frequency, changing to a run, sneak, shuffle, or other gait is a structural correction rather than a failure to polish the walk.

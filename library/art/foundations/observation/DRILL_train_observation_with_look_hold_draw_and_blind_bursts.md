@@ -58,7 +58,11 @@ Place the subject where you can move your eyes between it and the page without c
 5. End by comparing the whole drawing with the subject rather than judging the fluency of the line alone.
 
 ## Success Check
-The drawing shows repeated accurate local observations without long passages that collapse into generic symbols, and the brief blind bursts do not cause uncontrolled proportional drift.
+- The study contains repeated specific local relationships from the subject rather than long contour passages that collapse into familiar generic symbols.
+- At least three brief blind-drawing bursts are identified after the fact, so the observation test was actually performed rather than merely intended.
+- Those blind passages remain recoverably placed relative to surrounding landmarks; uncontrolled proportional drift does not count as fluent observation.
+- Restated passages correct a specific observed angle, interval, contour change, or shape relationship instead of simply beautifying the line.
+- The final comparison is judged against the subject's whole proportion and placement rather than by the smoothness or continuity of the drawing alone.
 
 ## Common Failures
 - Looking mostly at the page and drawing from memory.

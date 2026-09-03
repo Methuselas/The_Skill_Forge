@@ -48,7 +48,8 @@ Choose one simple form or a small set of forms that are close enough in size and
 4. Keep the surrounding environment stable so reflections and transmitted information can be compared rather than invented differently for each version.
 5. Strip back ornamental microtexture where possible and test whether the material still reads from the larger optical response.
 6. Compare the studies without material labels. For any pair that reads too similarly, diagnose which optical distinction is missing before adding more marks.
-7. Make one corrected pass on the weakest study using the smallest change that resolves the material identity.
+7. For every material, name its nearest confusing neighbor and record the smallest optical distinction you believe separates the pair.
+8. Make one corrected pass on the weakest study using the smallest change that resolves the material identity.
 
 ## Success Check
 - The studies remain recognizably the same form and lighting situation.

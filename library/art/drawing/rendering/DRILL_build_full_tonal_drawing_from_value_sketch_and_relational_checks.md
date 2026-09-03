@@ -72,9 +72,11 @@ Choose a subject with a readable light pattern. Use a viewfinder if helpful. Wor
 6. Finish only after the large pattern still agrees with the value sketch and the finer modeling improves rather than fragments it.
 
 ## Success Check
-- The small value sketch and final drawing share the same dominant light/dark organization.
-- No local passage depends on a value range that contradicts the rest of the image.
-- Subtle modeling can be removed mentally without destroying the large tonal read.
+- The small value sketch and final drawing preserve the same dominant light, middle, and dark organization rather than arriving at two unrelated tonal designs.
+- The full drawing establishes a usable overall lightest light and darkest dark before local finish; one polished passage does not create a private value range that contradicts the rest of the image.
+- Secondary tones are resolved relationally across neighboring areas instead of copied as isolated local values.
+- No single area is substantially more finished while the surrounding value families remain undecided; finish is not being used to distract from an unsolved large pattern.
+- If subtle modeling is mentally removed, the major tonal read still matches the value sketch rather than fragmenting into many small effects.
 
 ## Common Failures
 - Rendering one attractive area to completion before the overall range exists.

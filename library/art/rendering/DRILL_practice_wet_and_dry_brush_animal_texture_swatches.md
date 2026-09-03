@@ -49,7 +49,11 @@ Use a brush, black ink, scratch paper, and drawing paper. Draw two or three simp
 6. Alternate the two treatments several times until you can predict whether the next stroke will read smooth and glossy or shaggy and broken before it touches the final paper.
 
 ## Success Check
-The smooth swatches read as close, controlled strokes with deliberate open-paper lights; the dry swatches read as broken, softer-edged texture; and both treatments wrap the simple form instead of flattening it.
+- Smooth swatches use close controlled strokes while deliberately leaving paper for lights rather than filling every gap until the surface loses its sheen.
+- Dry-brush swatches break at the edge and across the stroke because of controlled moisture and pressure, not because marks were scattered as random noise.
+- Pressure and remaining moisture are changed separately enough that their different effects on value and broken edge can be identified from the swatches.
+- On the curved patches, both treatments turn with the form instead of keeping one flat page-direction that makes texture detach from volume.
+- Before the final applications, the runner can state which prepared stroke should read glossy or shaggy and then check the actual mark against that prediction rather than accepting any texture after it lands.
 
 ## Common Failures
 - Filling every light gap in the glossy treatment until the surface loses its sheen.

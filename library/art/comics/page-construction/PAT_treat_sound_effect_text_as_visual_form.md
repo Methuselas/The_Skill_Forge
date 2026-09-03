@@ -46,3 +46,5 @@ variants: []
 - The lettering contributes to the same depth, rhythm, and hierarchy as the image.
 
 ## Notes
+
+Letterform distortion may carry force, distance, or texture, but the intended sound still needs to decode at the speed of the panel. Use overlap and perspective to place the sound in depth only where they do not hide the event whose impact the lettering is meant to amplify.

@@ -73,7 +73,12 @@ Choose a master drawing with clearly legible marks and use a reasonably similar 
 8. Separate observable surface behavior from speculative hidden procedure: emulate stroke breadth, edge behavior, economy, layering, or other visible logic without claiming the artist's exact tools, speed, materials, or sequence unless independent evidence actually establishes them.
 
 ## Success Check
-The second drawing applies recognizable mark-making behavior to new forms without tracing or repeating the original composition.
+- The copied passage matches observable stroke behavior such as length, direction, taper, connection, pressure change, spacing, edge, or rhythm rather than merely reproducing the subject contour.
+- If registration or an overlay was used, it removes placement error from the comparison instead of turning the exercise into a tracing-accuracy test.
+- The second drawing applies recognizable mark logic to genuinely new forms without tracing, repeating the source composition, or borrowing its subject arrangement.
+- At least one mark behavior that transfers and one that weakens or collapses on the new subject are named from the two drawings.
+- A reduced reproduction is interpreted by structural role rather than copied at its printed line width when that would turn broad marks into finicky micro-marking.
+- Claims stay with visible mark behavior; speculative tool, speed, material, or sequence stories do not count as evidence of emulation.
 
 ## Common Failures
 - Copying subject contours while ignoring the physical character of the strokes.

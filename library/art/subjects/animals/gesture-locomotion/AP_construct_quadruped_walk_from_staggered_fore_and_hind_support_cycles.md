@@ -44,3 +44,5 @@ Construct a quadruped walk as coordinated forequarter and hindquarter support sy
 - Chest, pelvis, head, and tail do not peak mechanically together.
 
 ## Notes
+
+Plot contacts and support intervals before judging surface motion; a convincing torso wave cannot rescue an impossible support sequence. Species, speed, and body plan may change the phase relationship, so preserve the established limb topology and derive chest, pelvis, head, and tail response from that specific gait.

@@ -56,4 +56,4 @@ variants: []
 - Reversing which member advances produces a corresponding and intentional change in the joint contour.
 
 ## Notes
-Hogarth's joint interlock is a visual depth rule. The guided correction protects the Chapter 3 continuity lesson: a joint does not become a detachable connector or the property of one segment. The overlap merely tells the eye which side of the continuous chain is advancing.
+Hogarth's joint interlock is a visual depth rule. The guided correction protects the continuity lesson: a joint does not become a detachable connector or the property of one segment. The overlap merely tells the eye which side of the continuous chain is advancing.

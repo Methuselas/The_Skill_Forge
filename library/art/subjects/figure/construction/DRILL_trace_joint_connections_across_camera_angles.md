@@ -53,9 +53,11 @@ Use twelve small boxes: high, low, front-three-quarter, and rear-three-quarter v
 7. Erase every route that was memorized from another box but is unsupported in the present view.
 
 ## Success Check
-- Each set reads as the same underlying region seen from different camera positions.
-- The joint redirects form without dividing the connected member.
-- No box depends on a page-up or page-down rule to explain its curves.
+- Knee, shoulder, and head-neck sets read as the same underlying regions from different cameras rather than one memorized line map copied into four boxes.
+- Connective routes appear only where the current view supports them; a route remembered from another view is erased instead of being kept because the anatomy name is correct.
+- The knee redirects thigh into shin, the deltoid carries into arm and torso, and the neck routes join head and trunk without a separate hinge, socket symbol, or floating connector.
+- High and low views show the expected overcurve/undercurve reversals where camera position changes what surface is exposed, not because the anatomy itself was redesigned.
+- The final boxes explain their curves through form and depth evidence rather than a page-up or page-down rule.
 
 ## Common Failures
 - Copying one anatomical line map into all four views.
