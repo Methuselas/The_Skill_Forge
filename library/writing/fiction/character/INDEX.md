@@ -5,7 +5,7 @@
 ## Objects
 
 - [Build a Hidden Character Profile](DRILL_build_a_hidden_character_profile.md) - drill; 0 design. Tags: biography, character, fiction, practice, profile.
-  - Variants: `Pressure a Hidden Profile Through an Unsent Document` (method_sequence); `Hot-Seat a Character with Responsive Questions` (method_sequence); `Reconstruct Education and Work through a Private Resume` (method_sequence).
+  - Variants: `Pressure a Hidden Profile Through an Unsent Document` (method_sequence); `Hot-Seat a Character with Responsive Questions` (method_sequence); `Reconstruct Education and Work through a Private Resume` (method_sequence); `Layer a Hidden Profile across Public, Private, Secret, and Past` (method_sequence).
 - [Build Round Characters from Contradiction and Desire](PAT_build_round_characters_from_contradiction_and_desire.md) - pattern; 0 design. Tags: character, contradiction, desire, fiction, protagonist.
 - [Compress Cast without Flattening Main Characters](PAT_compress_cast_without_flattening_main_characters.md) - pattern; 1 skeleton. Tags: cast, character, compression, fiction, flash-fiction, naming.
 - [Develop and Reveal a Short-Story Character](AP_develop_and_reveal_a_short_story_character.md) - ap; 0 design. Tags: character, development, fiction, revelation, short_story.

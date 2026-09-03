@@ -49,6 +49,13 @@ variants:
     when_to_use: A character's competence, class position, institutional access, work habits, aspirations, or self-presentation remains generic or inconsistent.
     when_not_to_use: Education and work cannot affect the current story, or the document would be copied into exposition instead of tested through behavior.
     absorbed_from_object_id: none
+  - variant_id: writing_fiction_variant_layer_hidden_profile_across_public_private_secret_and_past
+    variant_name: Layer a Hidden Profile across Public, Private, Secret, and Past
+    variant_basis: method_sequence
+    difference_from_foundation: Replace the broad profile prompts with four rapid passes through the character's performed self before an important observer, private conduct, secret desire, and the past influence shaping that desire; compare what changes across contexts before testing which discovery can alter a present choice.
+    when_to_use: A profile is internally flat, public and private behavior remain indistinguishable, or a stated desire has no felt history or effect on present conduct.
+    when_not_to_use: The draft already differentiates these layers through consequential scenes, or the sequence would be copied into exposition and treated as a definitive personality diagnosis.
+    absorbed_from_object_id: none
 ---
 
 # Build a Hidden Character Profile
@@ -94,3 +101,5 @@ When private and relational voices blur together, write both a self-directed ent
 `writing_fiction_variant_hot_seat_character_with_responsive_questions` makes character design conversational and adaptive. Begin with a specific interviewer relationship or neutral rehearsal frame, ask about a live desire or problem, and follow language that evades, contradicts, boasts, minimizes, or unexpectedly specifies. Answer in the character's available diction without forcing immediate consistency. Afterward, separate useful discoveries from improvisational noise and retain only answers that can alter motive, relation, speech, or choice in the story. The interview generates hypotheses; the drafted behavior decides which become character facts.
 
 `writing_fiction_variant_reconstruct_education_and_work_through_private_resume` uses a familiar document to expose both capability and self-presentation. List schooling, qualifications, every consequential job including temporary work, skills acquired, interests, and the qualities the character would advertise. Then ask what is omitted, inflated, regretted, obsolete, or contradicted by conduct. Transfer only consequences into the story: what the character notices, can perform, resents, conceals, expects from institutions, or believes work has proved about the self.
+
+`writing_fiction_variant_layer_hidden_profile_across_public_private_secret_and_past` replaces a broad inventory with four quick passes. First write the character performing for someone whose opinion matters, then write the character in privacy, name a secret desire, and trace one past influence on that desire. Compare the public and private conduct without declaring either the authentic essence, and treat the desire-history connection as a hypothesis until it changes a present perception, relation, decision, or action. Keep unused discoveries in the private profile rather than turning the sequence into compulsory backstory.
