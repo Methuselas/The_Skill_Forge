@@ -193,6 +193,18 @@ discriminates dilutes the bullets doing the work. Register belongs to the packag
 a procedural lane and a critical lane phrase the same requirement differently and
 both are correct.
 
+`Instructions` must ask for every artifact the `Success Check` grades. Where a
+bullet requires a recorded output, a stated decision, a named residual, or a
+rejected candidate, an instruction step asks for it in its own right — not as a
+parenthesis inside a step about something else, and not by implication. A runner
+who follows the instructions to the letter produces a complete attempt.
+
+The instructions do not carry the standard. The near-miss a bullet excludes, what
+a cheap answer establishes, the hand-worked result an output is checked against:
+those stay in the check. Naming the artifact says what to hand in; naming the
+standard says which answer is right. A drill that moves the second into its
+instructions has published its own answer.
+
 ### AP
 
 ```markdown
