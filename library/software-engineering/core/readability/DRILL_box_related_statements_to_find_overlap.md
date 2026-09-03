@@ -48,15 +48,19 @@ Print the routine, or open it somewhere you can draw rectangles freely. Working 
 1. Pick a routine you wrote in the last week or two. Long enough to have structure, short enough to see whole.
 2. Read it once and identify the groups. Statements belong together when they work on the same data, when they perform similar tasks, or when they must happen in a given order.
 3. Draw a rectangle around each group. Do not adjust the groups to make the drawing come out well — that inverts the exercise.
-4. Name what each rectangle does in a short phrase.
+4. Name what each rectangle does in a short phrase, and note any phrase that needs an "and" to be complete.
 5. Look at the resulting picture and classify it. Rectangles sitting one after another are fine. One rectangle wholly inside another is fine, and expected wherever a group has sub-structure.
-6. Find every place where two rectangles cross without one containing the other. Each crossing is a pair of concerns that have been interleaved rather than sequenced.
-7. Reorder the statements to remove one crossing, keeping the behaviour identical, and redraw. Where a crossing will not come out, work out which dependency is holding it in place and whether that dependency is real or accidental.
-8. For every variable in the routine, point to the one rectangle where it lives.
+6. Find every place where two rectangles cross without one containing the other, and record the count before changing anything. Each crossing is a pair of concerns that have been interleaved rather than sequenced.
+7. Reorder the statements to remove one crossing, show the behaviour unchanged, and redraw. Where a crossing will not come out, name the dependency holding it in place and judge whether that dependency is real or accidental.
+8. Place every variable in the routine in exactly one rectangle, or identify it as spanning several.
 9. Where a rectangle now sits alone with no meaningful relationship to what precedes or follows it, consider lifting it into a routine of its own.
 
 ## Success Check
-No two rectangles cross. Every rectangle is either separate from its neighbours or fully nested inside one. You can name what each rectangle does in a short phrase, and for any variable in the routine you can point to the one rectangle where it lives.
+- The rectangles are drawn from the grouping decided before the picture was looked at, and are not redrawn to improve it. Adjusting the boxing after seeing the shape moves the measurement instead of the code, and it satisfies every bullet below without reorganizing anything.
+- Every rectangle has a short phrase naming what it does, and any phrase needing an "and" is noted as two groups boxed as one.
+- The crossings on the first drawing are counted and the count recorded before any reordering. That count is the finding; a run showing only the final picture cannot demonstrate it changed.
+- At least one crossing is removed by reordering statements, with the behaviour shown unchanged and the routine redrawn. A crossing that survives passes only with the dependency holding it named and judged real or accidental — left unexamined it does not.
+- Every variable is placed in exactly one rectangle, or is identified as spanning several. A variable living across boxes is the same interleaving seen from the other side, and skipping this reports the picture without the data flow that produced it.
 
 ## Common Failures
 - Redrawing the boxes until the picture looks tidy, instead of reordering the code. The drawing is a measurement, and adjusting the measurement to get a better reading defeats the exercise.

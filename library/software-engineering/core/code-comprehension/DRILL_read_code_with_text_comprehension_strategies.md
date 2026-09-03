@@ -50,18 +50,20 @@ The code printed or open as an annotatable PDF, and a timer. An IDE works if you
 
 ## Instructions
 1. **Activate.** Give yourself a fixed budget — five or ten minutes — to study the code before trying to understand it. Then answer: what caught your eye first, and why? What second? Are they related? Which programming, syntactic, and domain concepts appear, and do you know all of them? Look up any you do not *before* reading further.
-2. **Monitor.** Read through marking each line with a tick where you understand it and a question mark where you do not. Then turn each question mark into a specific question you could put to the author, rather than leaving it as a general sense of confusion.
-3. **Determine importance.** Pick the lines with the most influence on execution — ten in a snippet, twenty-five in a program — and mark them. For each, say why you chose it and how it connects to the program's goal.
-4. **Infer.** List every identifier: variables, classes, methods, functions. Sort them into domain names, programming-concept names, both, and those that mean nothing without context. The last group is where to spend effort. Mark any name that turned out to mean something different from your first assumption.
+2. **Monitor.** Read through marking each line with a tick where you understand it and a question mark where you do not. Then turn each question mark into a question naming what specifically is unknown — which value, which caller, which condition — or carry it forward as still unresolved.
+3. **Determine importance.** Pick the lines with the most influence on execution — ten in a snippet, twenty-five in a program — and mark them. For each, say why you chose it in terms of what it does to execution, and how it connects to the program's goal.
+4. **Infer.** List every identifier: variables, classes, methods, functions. Sort them into domain names, programming-concept names, both, and those that mean nothing without context. The last group is where to spend effort. Mark any name that turned out to mean something different from your first assumption, or state that none did.
 5. **Visualize.** For anything still opaque, build an operation table: each identifier against the operations it takes part in. If `f` is applied to `as[i]` and `bs[i]` then `f` is a function and `as` and `bs` are indexable — types and roles fall out of usage.
 6. **Question.** Ask what the five most central concepts are and how you identified them; what the creator decided; what those decisions assume; what they buy; what they cost; and what alternatives existed.
-7. **Summarize.** Close the code and state the program's goal from memory. Then write the summary in prose, with its most important lines, its domain concepts, its constructs, and the decisions behind it. Keep it — this is often the documentation the code was missing.
+7. **Summarize.** Close the code and write down the program's goal from memory. Then write the summary in prose, with its most important lines, its domain concepts, its constructs, and the decisions behind it. Keep it — this is often the documentation the code was missing.
+8. Check the summary against something outside your own reading — a test, a caller, the author, documentation — and record what that check changed, including when it changed nothing.
 
 ## Success Check
-- You can state the program's goal without re-opening it.
-- Your question marks resolved into specific questions rather than a general sense of confusion.
-- The identifier list changed your reading — at least one name meant something different from your first assumption.
-- The summary would help the next person, not just you.
+- The program's goal is written down with the code closed, before the summary is composed. A goal written with the file open describes what was just read, and the claim under test is that the seven passes left something behind.
+- Every question mark from the monitoring pass becomes a question naming what specifically is unknown, or is carried forward as unresolved. "I don't understand this part" is the state the pass exists to convert, not an outcome it may report.
+- The lines chosen in the importance pass are justified by what they do to execution rather than by their prominence on the page. The longest line, the one carrying a comment, and the import block are what a prominence-based choice returns, and it fills the quota while selecting for nothing.
+- The identifier sort names at least one name that meant something different from the first assumption, or states that none did and shows the sorted list establishing it. A run reporting only the names it classified correctly has kept its hits and discarded the finding.
+- The summary is checked against something outside the reading — a test, a caller, the author, documentation — and what that check changed is recorded, including when it changed nothing.
 
 ## Common Failures
 - Running all seven at once. Each is a separate pass; combined they become ordinary reading with extra steps.

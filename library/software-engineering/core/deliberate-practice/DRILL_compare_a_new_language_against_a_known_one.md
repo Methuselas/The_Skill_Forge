@@ -46,17 +46,19 @@ The new language's documentation or a primer, and a language you genuinely know 
 
 ## Instructions
 1. Take the six rows Hermans uses: syntax, type system, programming concepts, runtime, programming environment or IDE, and testing environment or practices.
-2. For each row, write what is similar and what is different, filling both columns including the rows where you had to go and look something up. Do the similarities column first — naming the commonalities is what makes prior knowledge reachable, and it is the step people skip.
+2. For each row, write the similarities column first, then the differences column, filling both including the rows where you had to go and look something up. Naming the commonalities is what makes prior knowledge reachable, and it is the step people skip.
 3. Mark each entry as verified or assumed, so the two are distinguishable later.
 4. In the remarks column, mark each row as expected help or expected trap. A row where the two languages are *almost* the same is a trap row, not a help row.
-5. Classify anything you have already transferred, using the two axes from exercise 7.2: high-road versus low-road, and near versus far. Reusing an editor shortcut without thinking is low-road; assuming a variable must be declared because most languages require it is high-road.
-6. Look specifically for constructs sharing a name across the two languages and behaving differently, and name at least one before you meet it in anger. Put those at the top of the trap list.
+5. Classify anything you have already transferred, using the two axes from exercise 7.2: high-road versus low-road, and near versus far. Reusing an editor shortcut without thinking is low-road; assuming a variable must be declared because most languages require it is high-road. Say which quadrant holds the most entries and what that predicts about where your errors will come from.
+6. Look for constructs that exist in both languages under the same name and behave differently. Name at least one and state the difference. Put those at the top of the trap list.
 7. Keep the table while you learn and correct it as you are proved wrong; the corrections are your personal misconception list for this language pair.
 
 ## Success Check
-- Every row is filled in both columns, including the rows where you had to go and look something up.
-- You can name at least one construct that exists in both languages and differs, before meeting it in anger.
-- The table distinguishes what you verified from what you assumed.
+- Both columns are filled for all six rows, and every entry is marked verified or assumed. An unmarked table cannot be corrected later, because nothing records which entries were ever checked.
+- The similarities column is written before the differences column for each row. Written second it is filled from whatever the differences left over, and the similarities are the half that produces transfer.
+- At least one construct is named that exists in both languages under the same name and behaves differently, with the difference stated. A construct existing in only one language is the easy answer and identifies nothing that could mislead — the shared name is the trap.
+- At least one row where the two languages are almost the same is marked trap. A row marked help on the strength of that similarity has read it backwards, which is the misreading the table exists to prevent.
+- Every already-transferred item is placed on both axes, and the run names the quadrant holding the most entries and what it predicts about where errors will come from. A classification that ends at the labels has sorted the items without using them.
 
 ## Common Failures
 - Filling only the differences column. The similarities are what produce transfer, and skipping them wastes the exercise's main benefit.
