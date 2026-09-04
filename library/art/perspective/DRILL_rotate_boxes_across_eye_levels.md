@@ -59,7 +59,7 @@ Use one page. Mark an eye-level line for each pair. Keep the boxes simple and un
 - Different edges from one direction family heading toward different vanishing points.
 
 ## Notes
-This drill translates D'Amelio's cube prerequisite into a fast activation exercise.
+This drill turns the cube prerequisite into a fast activation exercise.
 
 **Expected Residue**
 Before drawing detail, identify direction families and solve how each one behaves in the current view.

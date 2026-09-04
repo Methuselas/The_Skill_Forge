@@ -66,4 +66,4 @@ variants: []
 - Visual escalation and story jeopardy are coordinated but not treated as the same thing.
 
 ## Notes
-Bluth's action-board example increases suspense by changing the combatants' situation rather than merely repeating sword clashes: wounds, weapons, apparent defeats, deaths, recoveries, and renewed threats repeatedly alter what the audience believes about the outcome. The durable storyboard operation is progressive jeopardy plus credible reversal. Specific plot devices from the example are not formulas; the board must earn any reversal from the story's own causes and constraints.
+Increase suspense by changing the combatants' situation rather than merely repeating clashes: wounds, weapons, apparent defeats, deaths, recoveries, and renewed threats can repeatedly alter what the audience believes about the outcome. The durable storyboard operation is progressive jeopardy plus credible reversal. Specific plot devices are not formulas; the board must earn any reversal from the story's own causes and constraints.

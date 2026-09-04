@@ -63,4 +63,4 @@ Use a pencil or pen and enough paper to rotate the sheet freely. Draw lightly en
 - Treating this motor-control drill as a substitute for exact projected-circle construction on a difficult plane.
 
 ## Notes
-This drill extracts Robertson's freehand control exercise, not a universal proof about ellipse axes. Exact circle placement remains governed by the stricter perspective-plane construction when accuracy matters; the broader axis theorem stays queued for the later mathematical audit.
+This is a freehand control exercise, not a universal proof about ellipse axes. Exact circle placement remains governed by the stricter perspective-plane construction when accuracy matters; the broader axis theorem stays outside this drill's claim.

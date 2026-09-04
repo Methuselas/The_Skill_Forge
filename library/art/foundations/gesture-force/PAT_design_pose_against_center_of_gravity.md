@@ -165,8 +165,8 @@ variants:
 - When a carried load is significant, the combined figure-and-load mass remains believable over or against the current supports.
 
 ## Notes
-Hampton frames human movement as repeated controlled loss and recovery of balance. The useful runtime decision is not “make every pose unstable,” but to know whether the current arrangement is stable, tensioned, or transitioning and to design the support accordingly.
-Mattesi adds a useful counterfactual support test: temporarily remove an external brace or suspension in the analysis, predict the body’s fall or rotation, and use that result to verify that the stated support is mechanically doing the job the pose claims.
+Human movement can be understood as repeated controlled loss and recovery of balance. The useful runtime decision is not “make every pose unstable,” but to know whether the current arrangement is stable, tensioned, or transitioning and to design the support accordingly.
+Use a counterfactual support test when needed: temporarily remove an external brace or suspension in the analysis, predict the body’s fall or rotation, and verify that the stated support is mechanically doing the job the pose claims.
 
 `VAR_hampton_restate_gesture_as_skeletal_weight_mechanics` retains **Restate Gesture as Skeletal Weight Mechanics** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

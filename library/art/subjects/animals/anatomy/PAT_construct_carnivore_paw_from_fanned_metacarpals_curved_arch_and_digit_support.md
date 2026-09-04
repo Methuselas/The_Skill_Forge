@@ -70,7 +70,7 @@ variants:
 - Establish the metacarpal fan before drawing toe silhouettes. Bammes's forepaw comparison uses five rays and shows the digits diverging from a curved central structure rather than from one straight terminal edge.
 - Give the metacarpus curvature in two directions. Its longitudinal bend and transverse arch create a shallow three-dimensional paw volume even before soft tissue is added.
 - Place the pollex only where the species and view support it. In Bammes's comparison it sits high on the forepaw and has a functional spreading role in cats rather than acting like a human thumb.
-- Articulate each distal digit through its phalanges into the claw. Keep the claw behavior species-specific: the source contrasts retractable feline claws with non-retractable canine ones.
+- Articulate each distal digit through its phalanges into the claw. Keep claw behavior species-specific, including retractable feline claws versus non-retractable canine ones.
 - Put the load-bearing contact beneath the distal metacarpal/digital ends through separate pressure-distributing pads. The paw should therefore show discrete contact architecture rather than one continuous sole.
 - Check the digit directions in three-quarter view after the front-view fan is established. This exposes whether the paw actually occupies a curved volume or only looks plausible from one projection.
 

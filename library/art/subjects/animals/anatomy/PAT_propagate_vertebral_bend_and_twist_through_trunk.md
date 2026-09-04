@@ -59,7 +59,7 @@ variants: []
 
 ## Don't
 - Do not bend or twist only the outer contour while leaving the internal axis and cross-sections unchanged.
-- Do not mirror the two sides of the thorax through a lateral bend; equal fullness destroys the compression-versus-extension logic Bammes demonstrates.
+- Do not mirror the two sides of the thorax through a lateral bend; equal fullness destroys the required compression-versus-extension logic.
 - Do not force the dog diagram onto every mammal as a fixed anatomical template. Use it as a construction model, then check the actual animal.
 - Do not carry the temporary four-sided block literally into the final organic contour. Its job is to make the spatial mechanics transparent.
 - Do not add detailed ribs or vertebral processes merely to prove anatomy when a few section changes already communicate the same deformation.
@@ -72,6 +72,6 @@ variants: []
 - Removing surface detail leaves a coherent three-dimensional bend or torsion rather than a flat contour trick.
 
 ## Notes
-Bammes treats the vertebral column as a form-producing structure rather than a hidden anatomical label. A dog study shows a lateral bend compressing the inward-curving side of the thorax while extending the opposite side; it also spaces the transverse-process relationships more widely on the convex side and more closely on the concave side. He turns the related torsion problem into a simple spatial construction by imagining or physically twisting a rounded four-sided mass.
+Treat the vertebral column as a form-producing structure rather than a hidden anatomical label. In a lateral bend, compress the inward-curving side of the thorax while extending the opposite side; space transverse-process relationships more widely on the convex side and more closely on the concave side. For torsion, imagine or physically twist a rounded four-sided mass as a simple spatial model.
 
 The Pattern therefore belongs after the Stage 1 vertebral framework has been established. It does not replace the species-specific thorax study; it states the deformation logic that a later thorax block must obey when the spine bends or twists.

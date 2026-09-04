@@ -71,7 +71,7 @@ variants:
 - Keep the carnivore skeleton active beneath the muscle map. The independent radius-ulna relation and the actual elbow, carpal, and digital axes determine where the functional groups can travel.
 - Around the shoulder and elbow, continue using functional groups rather than starting over with an inventory of named muscles. Bammes's lion plate still deduces action from each group's position relative to the joint axes.
 - In the forearm, preserve a stronger soft-tissue envelope than in the specialized runner. The cat-family example keeps enough muscle to operate both the carpus and the digits rather than handing nearly all distal control to long tendons.
-- Separate the carpal/digital extensor and flexor masses by the axis they cross. In the source model the extensor group runs on the external/front side of the mechanism while the flexor group occupies the opposing internal/back route and carries greater mass.
+- Separate the carpal and digital extensor and flexor masses by the axis they cross. In this simplified model, the extensor group runs on the external or front side of the mechanism while the flexor group occupies the opposing internal or back route and carries greater mass.
 - Let the flexor-heavy asymmetry affect the section and silhouette of the forearm. Do not neutralize it into an equal tube merely because the bones are centered.
 - Continue the functional groups into their tendon paths and distal attachments so the paw-control mechanism belongs to the same limb construction instead of stopping abruptly at the carpus.
 
@@ -80,7 +80,7 @@ variants:
 - Do not rotate or reposition the radius and ulna for the skeleton, then drape the same fixed muscle sleeve over every orientation; the muscle masses must follow the changed three-dimensional forearm.
 - Do not make flexors and extensors equal in volume when the studied carnivore shows the stronger flexion group emphasized by Bammes.
 - Do not convert the labeled lion or dog plate into a memorization test for individual muscle names. The reusable construction decision is the functional arrangement, mass hierarchy, and route to the paw.
-- Do not infer exact muscle size or action from the source's simplified plates when the intended species or pose differs; use the live/reference anatomy to set the final amount.
+- Do not infer exact muscle size or action from simplified plates when the intended species or pose differs; use live or reference anatomy to set the final amount.
 
 ## Checklist
 - The shoulder and forearm masses can still be traced back to the carnivore skeletal axes and radius-ulna construction.

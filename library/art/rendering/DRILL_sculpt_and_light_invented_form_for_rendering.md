@@ -69,4 +69,4 @@ Start with a simple invented head, creature part, prop, or abstract character fo
 - Treating the maquette as a permanent crutch rather than a temporary external check on invented spatial reasoning.
 
 ## Notes
-Loomis proposes building comic or exaggerated forms in clay or plasticine, lighting them, and drawing the resulting light and shadow so the artist can develop a stronger sense of solidity. The retained drill generalizes that loop beyond comics: **2-D invention -> simple physical maquette -> controlled illumination -> observational redraw -> construction/rendering correction**.
+Build comic or exaggerated forms in clay or plasticine, light them, and draw the resulting light and shadow to develop a stronger sense of solidity. The drill generalizes that loop beyond comics: **2-D invention -> simple physical maquette -> controlled illumination -> observational redraw -> construction/rendering correction**.

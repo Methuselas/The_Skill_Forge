@@ -67,7 +67,7 @@ variants:
 The shared operation is to derive additional positions from a solved perspective plane. The method changes with the required result: subdivide for fractional placement, project a diagonal for equal transfer, or use a repeated scaffold for a continuing series.
 
 **Boundaries**
-Use the simplest construction that proves the relationship. D'Amelio presents measuring lines as a precision aid, not as a reason to turn every sketch into a geometry exercise.
+Use the simplest construction that proves the relationship. Measuring lines are a precision aid, not a reason to turn every sketch into a geometry exercise.
 
 Variants retained in this canonical object: `VAR_derive_arbitrary_measuring_point`, `VAR_whitaker_project_locomotion_contact_intervals_through_depth`.
 

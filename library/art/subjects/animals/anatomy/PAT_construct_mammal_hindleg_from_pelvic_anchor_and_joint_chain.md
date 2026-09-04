@@ -48,19 +48,19 @@ variants: []
 **ELSE** keep the simpler animal framework when the joint sequence, support, and distal contact are already unambiguous.
 
 ## Do
-- Start from the pelvis as the rear structural core and locate the hip joint before committing to the visible thigh direction. Bammes treats the pelvis and hindlegs as one rear support-and-movement system rather than as legs attached to the silhouette.
+- Start from the pelvis as the rear structural core and locate the hip joint before committing to the visible thigh direction. Treat the pelvis and hindlegs as one rear support-and-movement system rather than as legs attached to the silhouette.
 - In profile, read the hindleg as a sequence of connected angular changes rather than one S-curve: pelvis-to-femur, femur-to-tibia, tibia-to-metatarsus, then the digital joints. Preserve their order even though the exact angles and proportions change between animals and poses.
 - Identify the observed distal stance before drawing the foot. A plantigrade, digitigrade, and unguligrade animal present different amounts and orientations of the distal foot/metatarsal chain to the ground; treat that difference as structural, not as a surface-foot decoration.
 - Let front and rear views become comparatively more columnar. When profile angularity disappears, use the shaft alignments, transverse joint axes, and ground-contact relationship to keep the support chain readable.
 - Allow the shafts and terminal structures to narrow and change proportion toward the foot while preserving the chain's pivots. The horse and wolf examples share a study procedure but do not share identical segment lengths, foot construction, or visible angles.
-- Use the pelvis's major projecting points only as surface-modeling anchors after the ring-like pelvic core and hip socket are understood; the source's horse landmarks are a representative study, not a template to stamp onto every mammal.
+- Use the pelvis's major projecting points only as surface-modeling anchors after the ring-like pelvic core and hip socket are understood; horse landmarks are a representative study, not a template to stamp onto every mammal.
 
 ## Don't
 - Do not use one memorized horse-leg zigzag for dogs, cats, hoofed animals, or other mammals whose segment proportions and distal stance differ.
 - Do not convert Bammes's statement that mammalian hindlegs share a common segment sequence into a claim that every species has identical angles, motion range, or external landmarks.
 - Do not treat plantigrade, digitigrade, and unguligrade as a decorative foot-label system; the contact mode changes how much of the distal chain is elevated, elongated, or presented to the ground.
 - Do not preserve strong profile bends in a front or rear view merely because they are memorable in side view.
-- Do not universalize the source's evolutionary sequence or its broad claim that the hindleg is longer than the foreleg; use the observed animal's construction and proportion.
+- Do not universalize a broad evolutionary sequence or assume the hindleg is always longer than the foreleg; use the observed animal's construction and proportion.
 
 ## Checklist
 - The hindleg can be traced from pelvic anchor to terminal contact without skipping or inventing a joint.

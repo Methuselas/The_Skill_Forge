@@ -68,7 +68,7 @@ Project cast shadows so the light direction, receiving plane, object position, a
 4. **Parallel sunlight branch.** Keep the light rays parallel in space. When oblique to the picture plane, use the light-ray vanishing point and the shadow-direction vanishing point in their corresponding perspective relationship.
 5. **Local point-source branch.** Draw rays from the actual light source through the relevant shade-boundary points; use the source's projection onto the plane to establish the shadow direction for upright forms.
 6. **Intersect constructions.** The intersections locate exact cast-shadow points; connect them in the order supplied by the casting boundary.
-7. **Validate.** Confirm that a lower sun gives longer projected shadows and a higher sun shorter ones in the book's construction, and that local-light shadows fan consistently from the source.
+7. **Validate.** Confirm that a lower sun gives longer projected shadows and a higher sun shorter ones under the same scene geometry, and that local-light shadows fan consistently from the source.
 
 **Failure / Rollback Rules**
 - If the shadow direction contradicts the receiving plane, re-solve that plane before moving the shadow.

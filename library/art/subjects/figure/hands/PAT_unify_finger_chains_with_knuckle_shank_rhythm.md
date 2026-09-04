@@ -86,7 +86,7 @@ variants:
 - The fingertip completes the directional rhythm instead of ending as a blunt tube.
 
 ## Notes
-Hogarth presents the rhythm as an integration of the rod-and-ball construction: the mechanical scaffold remains, but the finished finger reads as one continuous energetic form. His top and underside examples show a useful expansion/compression symmetry, while he explicitly notes that this symmetry is not apparent from side views.
+Use the rhythm to integrate rod-and-ball construction: the mechanical scaffold remains, but the finished finger reads as one continuous energetic form. Top and underside views can show a useful expansion/compression symmetry that is not apparent from side views.
 
 `VAR_bridgman_thumb_centered_digit_arcs` retains **Organize Digit Spread and Closure Around the Thumb Base** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

@@ -103,7 +103,7 @@ variants:
 - Fade distant objects while leaving their cast shadows or ground contacts equally black and crisp.
 - Treat atmospheric depth as a background-only fog effect when middle-ground forms should also participate.
 - Use contrast loss to repair wrong scale, convergence, overlap, or object placement.
-- Import Gill's simplified particle explanation as a complete physical theory of atmospheric scattering; keep the card at the observable rendering level.
+- Import a simplified particle explanation as a complete physical theory of atmospheric scattering; keep the card at the observable rendering level.
 - Do not preserve the old blanket rule that every receding color must become cooler; near-sun glare, warm haze, smoke, and other illumination states can reverse the hue shift.
 - Do not assume every distant silhouette automatically reads as distant; a hard, high-contrast backlit cutout can visually advance and fight the atmospheric hierarchy.
 
@@ -114,13 +114,13 @@ variants:
 - Distant forms are quieter without becoming unrelated flat cutouts or unintended high-contrast backlit cutouts that jump forward.
 
 ## Notes
-Gill calls this “atmospheric effect” and repeatedly treats it as part of the same spatial evidence system as convergence, diminution, foreshortening, light, shadow, and overlap. The durable extraction is the near-to-far loss of contrast and clarity, not the book's period-specific account of why the air produces it.
+Atmospheric effect belongs to the same spatial evidence system as convergence, diminution, foreshortening, light, shadow, and overlap. Its durable visual basis is the near-to-far loss of contrast and clarity, not a period-specific physical account of why the air produces it.
 
 `VAR_dodson_shift_texture_mark_vocabulary_with_distance` adds a perceptual-scale rendering route: let foreground articulation collapse into grouped texture, broader pattern, and eventual omission as distance removes resolvable surface events instead of miniaturizing one mark indefinitely. `VAR_loomis_shift_receding_colors_toward_atmospheric_influence` adds the color counterpart: distant hues and chroma increasingly participate in the prevailing atmospheric influence rather than retaining foreground color separation unchanged.
 
 `VAR_vilppu_use_atmospheric_contrast_as_local_depth_design` retains **Use Atmospheric Contrast as Local Depth Design** as a bounded emphasis route: deliberately use atmospheric contrast, edge, and detail reduction even across relatively small figurative depth when it clarifies overlap and spatial separation.
 
-Gurney strengthens this owner from a simple near-to-far contrast fade into a model of **illuminated intervening air**. Distance still matters, but so do atmospheric content and whether the air itself is in sun, shade, warm glare, or another light field. Barber adds a useful failure condition: a distant form may simplify toward silhouette through atmosphere, but hard backlighting can turn that silhouette into a high-contrast cutout that appears to advance. Preserve enough atmospheric integration for the intended depth read.
+This owner extends a simple near-to-far contrast fade into a model of **illuminated intervening air**. Distance still matters, but so do atmospheric content and whether the air itself is in sun, shade, warm glare, or another light field. A distant form may simplify toward silhouette through atmosphere, but hard backlighting can turn that silhouette into a high-contrast cutout that appears to advance. Preserve enough atmospheric integration for the intended depth read.
 
 `VAR_gurney_reverse_atmospheric_perspective_in_warm_near_sun_glare` Handles the uncommon case where low-sun light scattered through mist, dust, or moist air overwhelms the usual blue veil so distant forms grow warmer rather than cooler with recession.
 

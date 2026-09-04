@@ -59,4 +59,4 @@ variants: []
 - Residual momentum is absorbed rather than disappearing on the contact frame.
 
 ## Notes
-Webster treats landing as an accuracy-and-deceleration problem. Different receiving surfaces offer different ways to dispose of momentum, but the invariant is controlled speed shedding before and during contact rather than an abrupt stop.
+Treat landing as an accuracy-and-deceleration problem. Different receiving surfaces offer different ways to dispose of momentum, but the invariant is controlled speed shedding before and during contact rather than an abrupt stop.

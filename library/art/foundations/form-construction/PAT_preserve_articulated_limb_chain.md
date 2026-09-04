@@ -106,7 +106,7 @@ variants:
 - No joint or endpoint is shared by two chains, and terminal direction agrees with the rotation of the preceding segment.
 
 ## Notes
-Hogarth begins arms and legs as corresponding two-part column systems with high swivel joints, middle bends, and terminal members. The construction generalizes to wings, fins, tails, tentacles, multi-limbed creatures, and mechanical appendages as long as their actual body-plan identity, joint sequence, and endpoint type are preserved. The rule is count-neutral: topology comes from the established subject rather than from a default two-arm/two-leg template.
+Begin arms and legs as corresponding two-part column systems with high swivel joints, middle bends, and terminal members. The construction generalizes to wings, fins, tails, tentacles, multi-limbed creatures, and mechanical appendages as long as their actual body-plan identity, joint sequence, and endpoint type are preserved. The rule is count-neutral: topology comes from the established subject rather than from a default two-arm/two-leg template.
 
 `VAR_bridgman_forearm_rotation_radius_around_ulna` retains **Carry Hand Rotation Through Radius Crossing Around the Ulna** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

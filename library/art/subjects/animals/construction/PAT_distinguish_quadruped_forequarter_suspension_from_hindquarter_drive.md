@@ -58,14 +58,14 @@ variants: []
 - Let the forelimb read comparatively as a load-bearing support chain whose major directions carry the suspended trunk toward the ground.
 - Trace the hindlimb through its direct skeletal relationship with the pelvis, then follow the angular joint chain that can straighten as the animal pushes or lifts.
 - Use scapular and pelvic direction as structural clues connecting the limbs back into the trunk instead of treating the legs as appendages pasted onto body masses.
-- Compare the source's support-versus-drive model to the actual animal, pose, and gait phase before deciding how strongly either role should dominate.
+- Compare the support-versus-drive model to the actual animal, pose, and gait phase before deciding how strongly either role should dominate.
 
 ## Don't
 - Do not attach the front of a quadruped to the thorax as though the shoulder girdle were simply a smaller version of the pelvic socket.
 - Do not make the fore- and hindlimb chains mechanically identical merely because both reach the ground.
 - Do not hard-code Bammes's stated two-thirds-front / one-third-rear weight split as a universal ratio for every species, individual, or pose.
 - Do not universalize the horse-specific tendon and elbow-locking examples to all quadrupeds.
-- Do not interpret "support" and "drive" as exclusive functions; Bammes presents them as dominant structural emphases in his representative model.
+- Do not interpret “support” and “drive” as exclusive functions; treat them as dominant structural emphases in a representative model.
 
 ## Checklist
 - The forequarter attachment can be explained through scapular placement and suspension of the thorax rather than a fictional bone-to-bone chest socket.
@@ -75,6 +75,6 @@ variants: []
 - Exact weight ratios or horse-specific locking mechanisms are not required for the Pattern to work.
 
 ## Notes
-Bammes describes the mammalian trunk with a bridge analogy: the vertebral column spans between front and rear supports, but those supports are not constructed in the same way. The thorax is shown suspended between the forelimbs by flexible muscle straps associated with the scapula, while the hindlimb is linked through the pelvis and uses a more strongly angled chain for push-off. His diagrams make this contrast visually explicit.
+Use a bridge analogy for the mammalian trunk: the vertebral column spans between front and rear supports, but those supports are not constructed in the same way. The thorax hangs between the forelimbs through flexible muscle straps associated with the scapula, while the hindlimb links through the pelvis and uses a more strongly angled chain for push-off.
 
 Do not turn a fixed front/rear weight ratio or horse-specific energy-saving joint mechanism into universal quadruped doctrine. The reusable drawing decision is the **difference in attachment and mechanical emphasis** between forequarter and hindquarter.

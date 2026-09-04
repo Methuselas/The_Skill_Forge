@@ -52,7 +52,7 @@ Solve one twisted animal trunk first as a rounded four-sided mass, then as an or
 Converting axial trunk torsion from an abstract spatial block into a believable organic animal form and then reconstructing the same twist from imagination.
 
 ## Setup
-Use a pose in which the front and rear of the trunk clearly disagree in orientation. Keep the first pass free of limbs, coat, and muscle detail. A small piece of Plasticine or modeling clay is useful because the source specifically uses a hand-twisted model to make the torsion visible.
+Use a pose in which the front and rear of the trunk clearly disagree in orientation. Keep the first pass free of limbs, coat, and muscle detail. A small piece of Plasticine or modeling clay is useful because a hand-twisted model makes the torsion visible.
 
 ## Instructions
 1. Draw a simple four-sided trunk block with slightly rounded corners. Mark a center/vertebral route and at least three cross-sections so each end has an unambiguous facing direction.
@@ -79,6 +79,6 @@ Use a pose in which the front and rear of the trunk clearly disagree in orientat
 - Treating one front-view solution as sufficient and discovering later that the twist collapses from another angle.
 
 ## Notes
-Bammes recommends reducing a difficult twisted trunk to a four-sided mass when the front of the body and thighs occupy conflicting directions. He then proposes a direct hands-on test: shape a rounded four-sided piece of Plasticine, twist the ends in opposite directions until the form resembles a propeller, and use that simplified object to understand the organic problem. The progression moves from the modeled block through front and side studies into an approximated organic form and finally an imagination study.
+Reduce a difficult twisted trunk to a four-sided mass when the front of the body and thighs occupy conflicting directions. For a direct hands-on test, shape a rounded four-sided piece of Plasticine, twist the ends in opposite directions until the form resembles a propeller, and use that simplified object to understand the organic problem. Progress from the modeled block through front and side studies into an approximated organic form and finally an imagination study.
 
 The drill keeps that pedagogical progression intact: **simple mass -> physical/visual proof -> organic translation -> reconstruction from imagination**.

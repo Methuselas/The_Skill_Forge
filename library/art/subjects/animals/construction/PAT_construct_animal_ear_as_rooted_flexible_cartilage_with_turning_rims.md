@@ -62,4 +62,4 @@ variants: []
 - Behavioral rotation preserves the same cartilage/root logic.
 
 ## Notes
-Bammes describes the outer ear as highly flexible cartilage shaped like a bag, with a stabilizing muscular/root region near the skull and species-dependent openings. His horse and cow examples emphasize that the inner and outer edges do not simply run parallel: rim paths twist and curve differently as they approach the tip. That three-dimensional rim logic is the transferable construction; the exact pointed, blunt, or rounded species silhouettes remain variants.
+Treat the outer ear as highly flexible cartilage shaped like a bag, with a stabilizing muscular or root region near the skull and species-dependent openings. The inner and outer edges do not simply run parallel; their rim paths twist and curve differently as they approach the tip. That three-dimensional rim logic is the transferable construction, while pointed, blunt, or rounded species silhouettes remain variants.

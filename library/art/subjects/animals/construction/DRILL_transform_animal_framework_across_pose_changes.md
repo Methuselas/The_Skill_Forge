@@ -69,4 +69,4 @@ Choose one well-documented quadruped or closely related set of animals with refe
 - Treating the exercise as gesture-only and losing the articulated sequence of the limbs.
 
 ## Notes
-Bammes describes a **step-by-step approach to drawing the structural design of animals** whose purpose is to establish the directions of the vertebral column and limbs, then adapt that framework for movement. Examples include a large cat upended and sitting or stretching poses that radically alter the studied directions. The drill keeps that exercise distinct from Hultgren's pivot-to-main-form practice by delaying volume until after the framework has survived several pose changes.
+Use a **step-by-step approach to structural animal design**: establish the directions of the vertebral column and limbs, then adapt that framework for movement. Test it with poses that radically alter the studied directions, such as an upended, sitting, or stretching large cat. This differs from pivot-to-main-form practice by delaying volume until after the framework has survived several pose changes.

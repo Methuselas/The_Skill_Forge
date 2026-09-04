@@ -72,7 +72,7 @@ variants:
 - Adding one more detail would strengthen the chosen quality rather than merely increase information density.
 
 ## Notes
-Bammes calls the qualities that first seize the artist's attention **impressional qualities**. His opening exercise is selective: survey the animal, decide which impression is strongest, and concentrate on that one instead of trying to develop every appealing aspect in the same drawing. The purpose is not simplification for its own sake; selection creates a stable graphic concept and trains the artist to distinguish essential information from merely available information.
+Call the qualities that first seize attention **impressional qualities**. Survey the animal, decide which impression is strongest, and concentrate on that one instead of trying to develop every appealing aspect in the same drawing. The purpose is not simplification for its own sake; selection creates a stable graphic concept and trains the artist to distinguish essential information from merely available information.
 
 A structural limit remains on this freedom: a selective study still benefits from enough anatomy to perceive the animal as one articulated entity. Choosing a dominant quality changes emphasis, not the requirement that the parts belong to the same constructed body.
 

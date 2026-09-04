@@ -86,9 +86,9 @@ variants:
 ## Do
 - Use the same measurement questions for every comparison: overall height and length, shoulder and rear height, trunk depth, neck and head proportion, limb length, and front-versus-rear width.
 - Keep the landmarks structural rather than decorative so the comparison survives when coat, mane, feathers, or stripes are removed.
-- Compare related examples side by side; Hultgren contrasts draft and saddle horses, then uses the same boxed thinking for a colt and for zebra-versus-horse proportion.
+- Compare related examples side by side, such as draft versus saddle horses, a colt against an adult, or zebra versus horse proportion.
 - Let age or type change the whole proportional ensemble rather than resizing one isolated feature.
-- Treat the source's named traits as observations to test against the actual subject or reference, not as fixed biological constants.
+- Treat named traits as observations to test against the actual subject or reference, not as fixed biological constants.
 
 ## Don't
 - Use one horse mannequin and identify type only by mane, feathering, stripe pattern, or other surface symbols.

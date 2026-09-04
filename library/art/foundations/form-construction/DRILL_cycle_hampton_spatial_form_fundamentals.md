@@ -64,4 +64,4 @@ No special setup required.
 - Treating the drill’s sphere/box/cylinder vocabulary as the only valid way to construct a figure.
 
 ## Notes
-Hampton frames these as recurring basic exercises rather than finished figure recipes. Their value is fluency in the spatial operations that later anatomy depends on.
+Use these as recurring basic exercises rather than finished figure recipes. Their value is fluency in the spatial operations that later anatomy depends on.

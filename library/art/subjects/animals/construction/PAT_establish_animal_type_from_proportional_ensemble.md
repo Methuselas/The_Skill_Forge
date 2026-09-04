@@ -106,7 +106,7 @@ variants:
 
 ## Don't
 - Do not force different animals into one standardized basic formula and then try to recover their identity with surface traits.
-- Do not memorize a few fixed ratios and apply them before looking at the subject; Bammes explicitly rejects rigid a priori proportion rules in favor of investigation.
+- Do not memorize a few fixed ratios and apply them before looking at the subject; investigate the actual proportional ensemble first.
 - Do not enlarge or shorten one feature in isolation while leaving the rest of the proportional ensemble unchanged when the intended type depends on several linked relationships.
 - Do not treat functional explanations attached to one representative animal type as exhaustive biological laws for every member of a category.
 
@@ -120,12 +120,12 @@ variants:
 ## Notes
 Treat proportion as first-priority evidence of animal form because relationships among the parts can establish the overall type before details such as hoof versus paw are inspected. A horse may read as a comparatively square arrangement while a cow reads as a lower rectangle, but these are broad comparison examples rather than fixed species ratios.
 
-The source also connects proportional builds with different ways of life, contrasting low, elongated stalking hunters with taller pursuit hunters and discussing running herbivores and primates. Those comparisons are useful prompts for structural analysis, but several of the causal statements are broader than this unit can justify as universal biology. Use them to ask which relationships matter in a given animal, then verify the actual subject.
+Proportional builds can suggest different ways of life: low, elongated stalking hunters contrast with taller pursuit hunters, while running herbivores and primates organize mass differently again. Use those comparisons as prompts for structural analysis, not as universal biology; identify which relationships matter in the given animal, then verify the actual subject.
 
-`VAR_bammes_measure_animal_type_with_head_module_and_trunk_rectangle` adds the measured profile route: use head length as a temporary module, establish front height, trunk length, rear height, the enclosing rectangle, belly level, neck length, and head direction in that order. Use it when a side-view build is difficult to compare or the eye needs calibration. Bammes then explicitly releases the scaffold: estimate the same large relationships and return to exact measurement only when uncertainty remains. Drop the method when the view is strongly foreshortened or the module starts dictating the animal instead of measuring it.
+`VAR_bammes_measure_animal_type_with_head_module_and_trunk_rectangle` adds the measured profile route: use head length as a temporary module, establish front height, trunk length, rear height, the enclosing rectangle, belly level, neck length, and head direction in that order. Use it when a side-view build is difficult to compare or the eye needs calibration. Then release the scaffold: estimate the same large relationships and return to exact measurement only when uncertainty remains. Drop the method when the view is strongly foreshortened or the module starts dictating the animal instead of measuring it.
 
 `VAR_bammes_establish_animal_proportion_with_broad_overlapping_shapes` adds a complementary fast route. Instead of measuring with a fine point, use the side of a broad medium to state the trunk as a large shape and swivel it into simple overlapping limb shapes. Use this when speed and whole-shape judgment matter more than exact modular calibration; abandon it when the flat pieces begin to substitute for the spatial or anatomical construction the task actually requires.
 
 `VAR_bammes_use_backline_profile_as_type_signature` adds a backline check: compare the highest point and the sequence of rises, falls, flats, and angle changes from withers through thoracolumbar transition and sacrum/croup before relying on coat or local identifiers. Use it as a type-calibration cue in a readable view, but let flexion, extension, sitting, jumping, or twisting override any memorized neutral profile.
 
-`VAR_bammes_use_thorax_section_and_front_rear_expansion_as_type_signature` adds a thorax-core check: compare width versus depth, shoulder-side compression versus posterior expansion, and major asymmetry or squareness as part of the type ensemble. Use it when a side silhouette is insufficient, but verify the actual animal instead of treating Bammes's comparative section diagrams as fixed species laws.
+`VAR_bammes_use_thorax_section_and_front_rear_expansion_as_type_signature` adds a thorax-core check: compare width versus depth, shoulder-side compression versus posterior expansion, and major asymmetry or squareness as part of the type ensemble. Use it when a side silhouette is insufficient, but verify the actual animal instead of treating comparative section diagrams as fixed species laws.

@@ -61,4 +61,4 @@ variants: []
 - Formal formations, when used, have a reason for tighter positional and timing control.
 
 ## Notes
-Webster reduces flocking to alignment, separation, and cohesion and notes that group turns can emerge from delayed local imitation rather than a leader commanding the entire flock. Formation flying is a more constrained case in which position and synchronized flap/glide timing can become part of the efficiency strategy.
+Reduce flocking to alignment, separation, and cohesion. Group turns can emerge from delayed local imitation rather than a leader commanding the entire flock. Formation flying is a more constrained case in which position and synchronized flap/glide timing can become part of the efficiency strategy.

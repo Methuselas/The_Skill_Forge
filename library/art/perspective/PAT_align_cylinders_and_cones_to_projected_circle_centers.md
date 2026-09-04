@@ -53,7 +53,7 @@ variants: []
 - The solid's direction agrees with the plane and vanishing field around it.
 
 ## Notes
-This card specializes D'Amelio's metrological circle construction for exact cylindrical and conical solids rather than replacing organic figure methods.
+This card specializes metrological circle construction for exact cylindrical and conical solids rather than replacing organic figure methods.
 
 **Boundaries**
 For loose figure construction, the existing foreshortened-cylinder Pattern remains the lighter diagnostic. Load this exact construction when round solids must sit precisely in a solved scene.

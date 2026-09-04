@@ -76,6 +76,6 @@ No special setup required.
 - Centering every torso/pelvis/head block on one vertical in profile regardless of the observed stance.
 
 ## Notes
-Bammes presents several media for the same perceptual problem—paper strips, flat brush, broad dry brush, and later line correction. The durable lesson is the work order: **large relational mass first, contour and specificity second**.
+Several media can isolate the same perceptual problem: paper strips, flat brush, broad dry brush, and later line correction. The durable lesson is the work order: **large relational mass first, contour and specificity second**.
 
 `VAR_mogilevtsev_audit_big_figure_silhouette_as_single_patch` adds a temporary diagnostic pass before reopening those internal masses: read the entire live figure as one filled outside patch, compare its overall height, width, lean, and placement, correct the earliest large mismatch, then restore internal negative spaces and construction. The patch audit is intentionally incomplete; it is a check on the whole envelope, not a replacement for mass construction.

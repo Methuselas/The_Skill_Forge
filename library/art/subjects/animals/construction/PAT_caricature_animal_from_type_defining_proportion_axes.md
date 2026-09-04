@@ -204,7 +204,7 @@ variants:
 
 ## Do
 - Start from the structural comparison, not from random feature enlargement: decide whether the intended character depends on stoutness, length, taper, compactness, leg-to-body ratio, head-to-body ratio, or another dominant relationship.
-- Push several related dimensions together so the caricature has one coherent idea; Hultgren makes his draft horse short and full, his thoroughbred slim and tapering, and his colt longer-legged and shorter-bodied.
+- Push several related dimensions together so the caricature has one coherent idea; a draft horse may become short and full, a thoroughbred slim and tapering, and a colt longer-legged and shorter-bodied.
 - Let secondary traits reinforce the same idea after the major proportions work, such as mane shape, tail flare, hoof fullness, ear size, or muzzle size.
 - Keep sockets, joints, and body masses connected through the exaggeration so the design still behaves like the animal it caricatures.
 - Test the exaggeration in silhouette and in a simple construction drawing before spending on coat or facial detail.
@@ -232,7 +232,7 @@ Hultgren's closing horse-and-zebra pages exaggerate different structural ensembl
 
 `VAR_hultgren_exaggerate_giraffe_character_with_height_angularity_and_neck_length` adds the giraffe transfer: make the joke read first from the long neck and high-shoulder/low-rear silhouette, sharpen the angular body rhythm, and use horn spread, lip shape, tail flare, or hoof length only as supporting accents. Hultgren's knock-kneed treatment is kept as caricature language rather than promoted into naturalistic anatomy.
 
-`VAR_hultgren_exaggerate_camel_character_with_compact_pelvis_long_lip_and_broad_hump` adds the camel transfer: compress the rear attachment, lengthen the lower lip, and make the hump broader toward the top so those three accents support one coordinated character statement. Hultgren presents these as caricature emphases, not fixed naturalistic measurements.
+`VAR_hultgren_exaggerate_camel_character_with_compact_pelvis_long_lip_and_broad_hump` adds the camel transfer: compress the rear attachment, lengthen the lower lip, and make the hump broader toward the top so those three accents support one coordinated character statement. Treat them as caricature emphases, not fixed naturalistic measurements.
 
 `VAR_hultgren_split_gorilla_caricature_between_comic_contrast_and_menace_mass` adds the gorilla transfer: choose whether the large structural contrast should read as comic or threatening, then coordinate chest/arm mass, leg reduction, mouth scale, crown size, and head embedding around that single character goal. The extreme relationships stay in caricature and are not promoted into naturalistic gorilla anatomy.
 
@@ -244,7 +244,7 @@ Hultgren's closing horse-and-zebra pages exaggerate different structural ensembl
 
 `VAR_hultgren_exaggerate_kangaroo_with_small_front_mass_and_oversized_hindquarters` adds the kangaroo transfer: oppose the small, angular front/head treatment against enlarged hindquarters, then use dark end accents only as a secondary graphic device. The proportions and markings remain caricature choices rather than naturalistic kangaroo measurements or coloration.
 
-`VAR_hultgren_keep_squirrel_caricature_round_and_full_for_cuteness` adds the squirrel transfer: for a cute caricature, keep the dominant shapes round and full rather than lengthening or sharpening them. Hultgren presents this as a caricature instruction for the squirrel; it does not become naturalistic squirrel anatomy or a universal cute-character formula.
+`VAR_hultgren_keep_squirrel_caricature_round_and_full_for_cuteness` adds the squirrel transfer: for a cute caricature, keep the dominant shapes round and full rather than lengthening or sharpening them. This is a caricature instruction for the squirrel, not naturalistic squirrel anatomy or a universal cute-character formula.
 
 `VAR_hultgren_switch_elephant_caricature_between_extreme_proportion_types` adds the elephant transfer: choose a dominant comic proportion route rather than maximizing every feature at once—long legs with oversized feet, a huge body with a long trunk, or a reduced body that lets ears or another anchor dominate. These are Hultgren's caricature contrasts, not naturalistic elephant measurements.
 

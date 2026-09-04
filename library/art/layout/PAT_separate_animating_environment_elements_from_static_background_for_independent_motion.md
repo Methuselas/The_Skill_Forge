@@ -61,4 +61,4 @@ variants: []
 - The layer split is sufficient without becoming needless production complexity.
 
 ## Notes
-Byrne demonstrates this with effects grids, disturbed reflections, and props that must later move. The historical cel and blue-pencil implementation is disposable; the durable rule is independent control for independently changing scene information.
+Effects grids, disturbed reflections, and props that must later move all require independent control from the static background. The historical cel and blue-pencil implementation is disposable; the durable rule is independent control for independently changing scene information.

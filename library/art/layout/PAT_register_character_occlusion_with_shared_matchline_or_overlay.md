@@ -59,4 +59,4 @@ variants: []
 - Hidden work is not developed beyond what production actually needs.
 
 ## Notes
-Byrne describes traditional match or registration lines marked on the layout and traced by downstream artists, with overlays as an alternative. The durable production principle is one shared occlusion boundary across separately produced layers.
+Traditional match or registration lines may be marked on the layout and traced by downstream artists, with overlays as an alternative. The durable production principle is one shared occlusion boundary across separately produced layers.

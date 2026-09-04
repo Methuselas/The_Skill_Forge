@@ -50,7 +50,7 @@ variants: []
 
 ## Don't
 - Keep the torso at one unchanged length and volume relationship while only the legs announce impact.
-- Make every part reverse at the same instant; the source's falling horse has contact, head motion, whole-body reversal, and roll occurring in sequence.
+- Make every part reverse at the same instant; in a falling horse, contact, head motion, whole-body reversal, and roll occur in sequence.
 - Give the rebound the same amplitude as the incoming fall when the action is visibly dissipating momentum.
 - Snap immediately back to the ordinary standing shape after the first shock; recovery can continue through later phases.
 
@@ -62,4 +62,4 @@ variants: []
 - The final recovery approaches the animal's ordinary construction without erasing the action that preceded it.
 
 ## Notes
-The impact page compares a falling rubber ball with a horse descending into a fall and roll. Hultgren describes the forelegs preparing for contact, the body elongating during descent, the legs taking the first shock, the head pulling down as the body reverses, and the form gradually returning toward normal as the roll slows. That sequence is retained as a staging model for animated weight and reaction; it is deliberately not promoted as precise veterinary biomechanics.
+Compare a falling rubber ball with a horse descending into a fall and roll. Prepare the forelegs for contact, elongate the body during descent, let the legs take the first shock, pull the head down as the body reverses, and return the form gradually toward normal as the roll slows. Use that sequence as a staging model for animated weight and reaction, not as precise veterinary biomechanics.

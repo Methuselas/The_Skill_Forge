@@ -61,4 +61,4 @@ Evaluate a completed or substantially complete animation against its intended jo
 - Revisions were replayed in context after correction.
 
 ## Notes
-Webster distinguishes animation testing during construction from reflective analysis after substantial work exists. The review should move from intent to whole-speed evidence, through bounded detailed diagnosis, and back into revision. Real-time playback remains the authority for whether a local correction actually improves the experienced motion.
+Distinguish animation testing during construction from reflective analysis after substantial work exists. Move from intent to whole-speed evidence, through bounded detailed diagnosis, and back into revision. Real-time playback remains the authority for whether a local correction actually improves the experienced motion.

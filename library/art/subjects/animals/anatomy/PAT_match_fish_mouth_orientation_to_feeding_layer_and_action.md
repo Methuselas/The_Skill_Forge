@@ -60,4 +60,4 @@ variants: []
 - The design allows exceptions rather than turning terminal, superior, and subterminal into absolute behavioral categories.
 
 ## Notes
-Webster distinguishes terminal, superior, and subterminal mouth configurations as useful clues to feeding strategy. He also cautions through his examples that morphology indicates a bias, not an exclusive behavioral rule. The useful Art decision is to let orientation suggest how the head meets food while keeping species evidence authoritative.
+Treat terminal, superior, and subterminal mouth configurations as useful clues to feeding strategy. Morphology indicates a bias, not an exclusive behavioral rule. Let orientation suggest how the head meets food while keeping species evidence authoritative.

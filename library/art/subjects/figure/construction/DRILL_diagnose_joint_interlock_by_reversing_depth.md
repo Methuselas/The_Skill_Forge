@@ -63,4 +63,4 @@ Make three pairs of simple two-cylinder bends: one leg, one arm, and one finger.
 - Assuming the same contour works when the advancing member reverses.
 
 ## Notes
-Hogarth demonstrates the rule by contrasting correct and deliberately incorrect knee interlocks, then carrying it into elbows and knuckles. The paired format makes the diagnostic difference visible and prevents the phrase "advancing member gets the joint" from becoming an unexamined slogan.
+Contrast correct and deliberately incorrect knee interlocks, then carry the same test into elbows and knuckles. The paired format makes the diagnostic difference visible and prevents “advancing member gets the joint” from becoming an unexamined slogan.

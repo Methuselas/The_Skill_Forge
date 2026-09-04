@@ -63,4 +63,4 @@ Use two short written briefs. Let each description include several visible cues 
 - Polishing the first interpretation instead of rebuilding when the large proportions do not match the brief.
 
 ## Notes
-Loomis presents this as an early invention exercise: after learning the ball, facial plane, spacing, and type variations, write the character first and make the construction answer the words. Having another person supply the second description tests whether the method transfers beyond the artist's habitual face.
+Use this as an early invention exercise: after learning the ball, facial plane, spacing, and type variations, write the character first and make the construction answer the words. Having another person supply the second description tests whether the method transfers beyond the artist's habitual face.

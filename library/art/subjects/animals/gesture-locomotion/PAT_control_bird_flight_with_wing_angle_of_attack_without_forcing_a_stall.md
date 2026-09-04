@@ -58,4 +58,4 @@ variants: []
 - Any deliberate stall has a clear behavioral purpose.
 
 ## Notes
-Webster uses angle of attack as the practical control linking wing orientation to lift, drag, climb, descent, and stall. The key animation distinction is that more angle is not always more lift: beyond a critical point the flow breaks down and the bird loses support.
+Use angle of attack as the practical control linking wing orientation to lift, drag, climb, descent, and stall. More angle is not always more lift: beyond a critical point the flow breaks down and the bird loses support.

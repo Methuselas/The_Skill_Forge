@@ -32,7 +32,7 @@ variants: []
 
 ## Do
 - Solve the plane's horizontal/base direction before solving its rise or fall.
-- Keep the ascending or descending vanishing point on the vanishing locus required by that plane's direction; for the hinge-like cases White demonstrates, this lies on the vertical vanishing line through the base horizontal vanishing point.
+- Keep the ascending or descending vanishing point on the vanishing locus required by that plane's direction; for hinge-like plane rotations, this lies on the vertical vanishing line through the base horizontal vanishing point.
 - Use the plane's horizontal trace/contact with the Picture Plane to establish a Picture Line when a true interval must be introduced.
 - Establish the auxiliary eye point used by the plane from the measuring point of the base direction; derive the ascending or descending measuring point from the inclined vanishing point and that auxiliary eye relationship.
 - Mark the real distance on the Picture Line, project it toward the appropriate measuring point, and intersect the line already traveling toward the inclined vanishing point.
@@ -52,7 +52,7 @@ variants: []
 - The result agrees with a plan/elevation check when one is available.
 
 ## Notes
-White's deeper contribution is not merely that sloping lines have different vanishing points; it is that **metric truth can be carried onto the slope** with derived measuring points. Keep the derivation internal unless the task actually requires exact construction.
+The deeper contribution is not merely that sloping lines have different vanishing points; it is that **metric truth can be carried onto the slope** with derived measuring points. Keep the derivation internal unless the task actually requires exact construction.
 
 **Boundaries**
 This is a precision specialization for planar oblique geometry. It does not replace the simpler inclined-plane Pattern for ordinary roofs, roads, or ramps, and it does not generalize to curved surfaces without an additional surface construction.

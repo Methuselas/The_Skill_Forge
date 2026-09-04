@@ -61,4 +61,4 @@ Use a pen or pencil on plain paper. Rotate the paper so the practiced straight s
 - Using line weight before the construction is solved.
 
 ## Notes
-Robertson treats this as craftsmanship that should become muscle memory so design can take more attention later. Use it as a short activation drill, not a permanent drawing ritual.
+Treat clean construction-line aim as craftsmanship that should become muscle memory so design can take more attention later. Use it as a short activation drill, not a permanent drawing ritual.

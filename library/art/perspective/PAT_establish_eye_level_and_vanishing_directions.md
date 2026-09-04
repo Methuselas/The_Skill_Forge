@@ -91,7 +91,7 @@ variants:
 - Looking up, down, or straight out produces the expected shift in the eye-level line.
 
 ## Notes
-D'Amelio treats vanishing points and eye level as practical aids derived from lines of sight, not as arbitrary drawing conventions.
+Vanishing points and eye level are practical aids derived from lines of sight, not arbitrary drawing conventions.
 
 **Boundaries**
 This Pattern establishes the principal perspective field. It does not by itself measure intervals, construct inclined planes, or solve cast shadows.

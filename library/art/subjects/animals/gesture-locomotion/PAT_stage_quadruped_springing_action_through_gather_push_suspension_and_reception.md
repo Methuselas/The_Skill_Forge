@@ -62,7 +62,7 @@ variants:
 - Treat the suspension phase as an intermediate whole-body configuration with its own limb organization, not as a frozen maximum-stretch icon.
 - Prepare the forequarter for the next receiving contact, then let the visible joint response agree with the animal and phase; Bammes's horse, dog, and cat examples receive load differently.
 - Bring the hindlimbs forward or fold them for recovery when the reference shows the next support being prepared.
-- Let vertebral and neck motion participate only to the degree supported by the species and reference; Bammes shows strong spinal flexion/extension in the dog and cat examples and a different organization in the horse jump.
+- Let vertebral and neck motion participate only to the degree supported by the species and reference; dogs and cats may show strong spinal flexion and extension, while a horse jump organizes the chain differently.
 
 ## Don't
 - Do not give horse, dog, and cat the same spinal flexibility, limb timing, or landing mechanics merely because all three leave the ground.

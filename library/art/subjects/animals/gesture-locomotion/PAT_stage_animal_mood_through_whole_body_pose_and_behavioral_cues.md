@@ -46,7 +46,7 @@ variants: []
 
 ## Don't
 - Do not make facial detail, fur marks, or eye treatment rescue a pose whose large body attitude is emotionally ambiguous.
-- Do not copy one species' signaling cues onto another as a universal rule; the source examples are staging observations, not a complete ethology.
+- Do not copy one species' signaling cues onto another as a universal rule; these are staging observations, not a complete ethology.
 - Do not stack every possible excitement, fear, fatigue, or relaxation cue into one pose. Select the few that agree with the intended state and the observed or designed animal.
 - Do not sacrifice support, joint logic, or plausible weight merely to exaggerate mood; expressive staging still has to belong to the body that is carrying it.
 - Do not polish a weak emotional read. Return to the rough pose while silhouette and staging can still be changed cheaply.
@@ -59,4 +59,4 @@ variants: []
 - At least one alternative rough pose was considered when the first staging did not communicate clearly.
 
 ## Notes
-Hultgren develops this lesson through contrasting examples rather than one formula: tense deer lower and lengthen into alert departure-readiness, a tired horse droops and redistributes weight, excited horses amplify tension through head/neck and mane treatment, cowering dogs compress downward while directing attention upward, and resting lions use relaxed posture and contact to create quietness. The transferable lesson is to stage mood through the whole animal first and use local behavioral cues as reinforcement. Exact claims about eye whites, ear position, tail position, or other signals remain bounded to the source examples and should be checked against the actual species and situation rather than promoted as universal animal-behavior doctrine.
+Use contrasting examples rather than one formula: tense deer lower and lengthen into alert departure-readiness, a tired horse droops and redistributes weight, excited horses amplify tension through head, neck, and mane treatment, cowering dogs compress downward while directing attention upward, and resting lions use relaxed posture and contact to create quietness. Stage mood through the whole animal first and use local behavioral cues as reinforcement. Exact claims about eye whites, ear position, tail position, or other signals remain bounded observations to check against the actual species and situation rather than universal animal-behavior doctrine.

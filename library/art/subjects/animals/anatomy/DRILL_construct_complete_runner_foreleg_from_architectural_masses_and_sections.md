@@ -86,6 +86,6 @@ Use a clear life, photographic, or anatomical reference in which the shoulder an
 - Copying the cow comparison as a universal ungulate recipe rather than as a species-specific modification.
 
 ## Notes
-Bammes treats the complete living runner-foreleg drawing as an intermediate learning stage that must rest on prior skeletal and muscle analysis. The "architectural" idea is visible when the surface is organized by shoulder geometry, section changes, projecting joints, and hard-soft mass transitions rather than by an outline-first copy.
+Treat the complete living runner-foreleg drawing as an intermediate learning stage that must rest on prior skeletal and muscle analysis. The “architectural” idea is visible when the surface is organized by shoulder geometry, section changes, projecting joints, and hard-soft mass transitions rather than by an outline-first copy.
 
 The operational checklist follows that structure: scapular-spine direction controls the shoulder triangle; the scapula narrows and projects toward the joint; the forearm is a laterally flattened cone; the carpus, metacarpus, tendons, first phalanx, hoof swelling, and elbow each demand distinct sectional or angular treatment. The drill therefore integrates the prior skeletal and musculature studies at Stage 2 instead of creating a second skeletal study.

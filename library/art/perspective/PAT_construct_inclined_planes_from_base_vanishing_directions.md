@@ -57,9 +57,9 @@ variants:
 - Objects placed on the slope can still inherit the scene's scale logic.
 
 ## Notes
-D'Amelio treats the horizontal vanishing line and inclined vanishing lines as members of the same general family: vanishing loci for parallel directions contained in parallel planes.
+Treat the horizontal vanishing line and inclined vanishing lines as members of the same general family: vanishing loci for parallel directions contained in parallel planes.
 
 **Boundaries**
-This Pattern handles straight inclined planes. Curved terrain and irregular surfaces require additional construction beyond this source's plane method.
+This Pattern handles straight inclined planes. Curved terrain and irregular surfaces require additional construction beyond the planar method defined here.
 
 Variants retained in this canonical object: `VAR_slope_auxiliary_false_eye_level`.

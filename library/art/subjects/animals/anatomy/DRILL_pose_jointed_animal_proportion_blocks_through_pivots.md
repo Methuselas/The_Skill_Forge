@@ -74,6 +74,6 @@ Choose one animal whose proportions and major joints are already understood from
 - Spending more time on color, ink texture, or print effects than on segment proportion and articulation.
 
 ## Notes
-Bammes proposes a small movable-block exercise to bridge proportion study into movement. Individual limb shapes overlap, holes are placed where the pivots occur, and a pin keeps the next piece aligned with the same joint while the pose changes. He presents the exercise as a way to reinforce proportion while introducing the first two-dimensional movements.
+A small movable-block exercise bridges proportion study into movement. Individual limb shapes overlap, holes are placed where the pivots occur, and a pin keeps each adjoining piece aligned with the same joint while the pose changes. The exercise reinforces proportion while introducing the first two-dimensional movements.
 
-The source also suggests printmaking variations—uneven inking, overprinting, blank areas, different colors, and heavier printing for the nearer legs. Those are optional presentation possibilities, not the core skill. The core is that a fixed proportional model can change pose by rotating around stable pivots, making any accidental change of segment length or joint identity easy to see.
+Optional presentation variations include uneven inking, overprinting, blank areas, different colors, and heavier printing for the nearer legs. Those are not the core skill. The core is that a fixed proportional model can change pose by rotating around stable pivots, making any accidental change of segment length or joint identity easy to see.

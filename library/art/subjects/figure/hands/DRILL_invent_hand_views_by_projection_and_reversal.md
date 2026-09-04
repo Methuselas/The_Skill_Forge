@@ -68,4 +68,4 @@ Choose one simple side or three-quarter hand whose palm, thumb, index side, litt
 - Refusing to redraw a successful palm or thumb when a stronger digit arrangement requires crossing through it.
 
 ## Notes
-Keep the exercise bounded to the source-derived decision and compare the result against observed structure rather than stylistic finish.
+Keep the exercise bounded to the structural decision being tested and compare the result against observed structure rather than stylistic finish.

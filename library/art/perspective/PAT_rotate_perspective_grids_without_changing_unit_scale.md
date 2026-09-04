@@ -53,4 +53,4 @@ variants: []
 - Objects built on different grids can stand together without unexplained scale drift.
 
 ## Notes
-The useful invariant is not “same screen-size square”; it is **same real square under a changed direction family**. Robertson's ellipse-overlay method gives a practical way to preserve that invariant without recomputing the entire camera mathematically.
+The useful invariant is not “same screen-size square”; it is **same real square under a changed direction family**. The ellipse-overlay method preserves that invariant without recomputing the entire camera mathematically.

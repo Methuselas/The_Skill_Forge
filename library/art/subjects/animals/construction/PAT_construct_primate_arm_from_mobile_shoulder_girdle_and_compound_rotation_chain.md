@@ -81,6 +81,6 @@ variants: []
 - The terminal form reads as a hand with independent thumb/finger organization, not as a paw block with human digits attached.
 
 ## Notes
-Bammes uses the ape to show that primate manual versatility is not produced by the hand alone. The useful drawing decision is to distribute mobility across the whole forelimb: a scapula-clavicle base, a multi-axis shoulder, a hinge-dominant elbow, paired radio-ulnar turning, a two-direction wrist, and an opposable hand. The hierarchy is made explicit by drawing a total arm turning axis beside the individual joint axes and by isolating the radius's turn at both radio-ulnar joints.
+Primate manual versatility is not produced by the hand alone. Distribute mobility across the whole forelimb: a scapula-clavicle base, a multi-axis shoulder, a hinge-dominant elbow, paired radio-ulnar turning, a two-direction wrist, and an opposable hand. Make the hierarchy explicit by drawing a total arm turning axis beside the individual joint axes and isolating the radius's turn at both radio-ulnar joints.
 
 This route is related to the existing human shoulder-girdle and thumb-opposition Patterns, but it is not a duplicate of either. Those owners explain local figure-drawing decisions; this card preserves Bammes's comparative-anatomy instruction that a primate arm should be constructed as one compound mobility system from girdle to hand. It is also related to the carnivore radius-ulna Pattern, while deliberately keeping the primate clavicle, wrist freedom, and hand endpoint distinct.

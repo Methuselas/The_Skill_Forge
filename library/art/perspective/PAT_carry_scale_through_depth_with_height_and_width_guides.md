@@ -60,7 +60,7 @@ variants:
 - A moved object can be checked against a known object without re-solving the whole scene.
 
 ## Notes
-This is the general scene-space counterpart to figure-derived calibration: D'Amelio supplies the independent eye-level and vanishing framework that the earlier Hogarth candidate explicitly left open.
+This is the general scene-space counterpart to figure-derived calibration: it supplies the independent eye-level and vanishing framework that figure-derived calibration leaves open.
 
 **Boundaries**
 This Pattern transfers scale on established planes. Use inclined-plane construction when the supporting plane changes slope.

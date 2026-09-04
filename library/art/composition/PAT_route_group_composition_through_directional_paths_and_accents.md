@@ -66,7 +66,7 @@ variants:
 - Use direction families selectively. A strong vertical can hold a grouping together, a diagonal can lead from a limb toward another head or body, curves can carry movement, repetition can bind separated parts, and opposition can keep repeated motion from becoming parallel and flat.
 - Redirect attention inside the group with a head turn or a secondary line of motion when one subject needs emphasis. Hultgren's deer grouping turns the mother's head toward the fawn while placing the fawn on another motion path.
 - Let the setting participate in the same design. Ground grooves, banks, hair, reins, or other visible marks can reinforce the dominant movement or deliberately oppose it to strengthen the read.
-- Reserve an accent for a useful interruption in the larger flow. Hultgren uses an isolated head or a small directional break to keep a long action path from becoming monotonous and to mark a focal stop.
+- Reserve an accent for a useful interruption in the larger flow. An isolated head or small directional break can keep a long action path from becoming monotonous and mark a focal stop.
 
 ## Don't
 - Give every animal a convincing individual gesture while leaving the group as a pile of unrelated poses.

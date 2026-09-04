@@ -72,6 +72,6 @@ variants:
 - Playback confirms the contact remains credible through the full shot.
 
 ## Notes
-Whitaker and Halas show that a character cycle, background translation, and camera move cannot be timed as unrelated screen-space motions when the feet are meant to remain planted. The durable operation is to preserve the world relationship and derive the relative image motion from it. Their peg-bar arithmetic is one historical implementation of that relationship, not the rule itself.
+A character cycle, background translation, and camera move cannot be timed as unrelated screen-space motions when the feet are meant to remain planted. Preserve the world relationship and derive the relative image motion from it. Peg-bar arithmetic is one historical implementation of that relationship, not the rule itself.
 
 `VAR_byrne_hold_subject_while_environment_moves_in_perspective` is a hand-drawn production implementation for short travel shots: keep the subject essentially in place while simple environmental elements move back toward the horizon in perspective. Use it only when the cheat remains clearer and cheaper than translating the subject through a larger world.

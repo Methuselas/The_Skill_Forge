@@ -425,7 +425,7 @@ variants:
 - Features agree with the head centerline and cross-contours rather than sitting as front-facing symbols on a turned mass.
 
 ## Notes
-Hogarth treats the head as two persistent volumes whose projected relationship changes with the observer. This prevents the common flat-symbol habit in which a jaw outline is pasted onto an unchanged circle regardless of angle.
+Treat the head as two persistent volumes whose projected relationship changes with the observer. This prevents the common flat-symbol habit in which a jaw outline is pasted onto an unchanged circle regardless of angle.
 
 `VAR_bridgman_block_head_inside_perspective_cage` retains **Block the Head Inside a Perspective Cage** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

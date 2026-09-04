@@ -59,4 +59,4 @@ variants: []
 - Reviewing the sequence as a whole exposes gaps or redundancies that isolated panels would hide.
 
 ## Notes
-Bluth's paper-board workflow uses fixed labels for sketch number, scene/sequence information, camera instructions, dialogue, and footage, but the portable lesson is not the physical template. Storyboards are collaborative sequence documents. Their notation has to preserve identity, order, and interpretable intent while the drawings are still being revised. The exact fields and interface can change with the production; consistent handoff logic should not.
+A paper-board workflow may use fixed labels for sketch number, scene or sequence information, camera instructions, dialogue, and footage, but the portable lesson is not the physical template. Storyboards are collaborative sequence documents. Their notation has to preserve identity, order, and interpretable intent while the drawings are still being revised. The exact fields and interface can change with the production; consistent handoff logic should not.
