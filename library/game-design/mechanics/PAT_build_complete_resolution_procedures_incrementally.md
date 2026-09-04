@@ -52,6 +52,9 @@ variants: []
 - Refactor the underlying procedure when repeated additions require precedence exceptions, adapters, or contradictory state assumptions.
 - When runtime stages repeatedly reconstruct the same stable property of an attack, item, actor, or effect, test whether that property should become explicit entity data consumed by the shared procedure instead; promote only properties that multiple real procedures repeatedly need.
 
+- Precompute invariant runtime work into the published procedure or data. If every execution adds the same constant, converts the same stable property, or repeats the same deterministic translation, shift that work into target values, tables, entity data, or another static representation unless doing it live creates a meaningful choice or visible information.
+- After the immediate result is known, trace what the procedure leaves behind. Treat timers, bleeding, stun, penalties, follow-up checks, healing records, or other persistent outputs as part of the complete procedure when they create future mandatory work.
+
 ## Don't
 - Design a large stack of interdependent mechanics and postpone integration testing until the entire subsystem is assembled.
 - Insert a mechanic before the values, state, or choices it needs have been established.
@@ -72,6 +75,9 @@ variants: []
 - Removing a retained stage demonstrably removes an intended decision, consequence, information channel, pacing effect, or genre function.
 - Repeated exceptions trigger a refactor decision rather than indefinite rule accretion.
 - A stable property that several procedures repeatedly derive has been considered for explicit, inspectable entity state, and descriptive facts that do not materially affect play have not been promoted into unnecessary statistics.
+
+- Universal deterministic arithmetic and translations have been checked for precomputation so users are not repeatedly performing work the design can do once.
+- The procedure map includes persistent state and later mandatory updates created by the result, not only the point where the initial roll or lookup ends.
 
 ## Notes
 A mechanic performs an operation; a resolution procedure composes mechanics into an executable action. Combat makes this distinction easy to see: an attack check, Dodge, damage roll, armor reduction, resistance test, and injury rule can each work independently while their ordering and interaction still fail as a whole. Build the minimum complete chain first — for example, attack -> hit or miss -> damage — then insert defense, resistance, armor, criticals, locations, or other mechanics only after the simpler procedure works. The same method applies to repair, crafting, training, spellcasting, hacking, social actions, travel, and other multi-step resolution. Procedure refactoring can also move stable repeated distinctions out of high-frequency runtime work and into the data model: if several actions continually rediscover the same penetration class, size category, or other durable property, record it once when doing so gives the common procedure a stable input. This is not a mandate to stat every descriptive fact; first-class state earns its cost when actual play repeatedly consumes it. Chapter 12 of *Designing TTRPGs For Dummies* supplies the combat-domain components and repeatedly encourages reuse rather than a rule for every conceivable attack; the incremental construction and integration method is practitioner synthesis from comparing those components across working RPG systems.

@@ -25,6 +25,8 @@ cross_links:
   target_object_id: DRILL_stress_test_mechanical_constraints_under_composition
 - rel: related_to
   target_object_id: PAT_account_for_the_intended_play_environment_before_freezing_the_design
+- rel: related_to
+  target_object_id: DRILL_profile_serial_resolution_latency
 reference:
   source_title: GURPS Basic Set, Fourth Edition
   author: Steve Jackson, David L. Pulver, and Sean M. Punch

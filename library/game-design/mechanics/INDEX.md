@@ -4,13 +4,20 @@
 
 ## Objects
 
+- [Audit Resource Detail by Decision Effect](DRILL_audit_resource_detail_by_decision_effect.md) - drill; 0 design. Tags: abstraction, decisions, playtesting, resources, simulation.
 - [Build Complete Resolution Procedures Incrementally](PAT_build_complete_resolution_procedures_incrementally.md) - pattern; 0 design. Tags: integration, mechanics, procedures, resolution.
 - [Choose a Randomizer by the Uncertainty Profile It Must Produce](PAT_choose_a_randomizer_by_the_uncertainty_profile_it_must_produce.md) - pattern; 0 design. Tags: mechanics, probability, randomizers, resolution.
+- [Compare State Detail to Resolution Cost](DRILL_compare_state_detail_to_resolution_cost.md) - drill; 0 design. Tags: HOPR, TBMD, resolution, simulation, state, testing.
+- [Compress Resource Contents Without Erasing Resource Constraints](PAT_compress_resource_contents_without_erasing_resource_constraints.md) - pattern; 0 design. Tags: abstraction, decisions, inventory, logistics, operator-cost, resource-management, scarcity.
 - [Decide Whether a Mechanic Acts on the Player or the Character](PAT_decide_whether_a_mechanic_acts_on_the_player_or_the_character.md) - pattern; 0 design. Tags: character-capability, embodiment, mechanics, player-facing.
 - [Invoke Resolution Only for Meaningful Uncertainty](PAT_invoke_resolution_only_for_meaningful_uncertainty.md) - pattern; 0 design. Tags: mechanics, pacing, resolution, uncertainty.
+- [Model Stress Through Adaptive Decision Throughput](PAT_model_stress_through_adaptive_decision_throughput.md) - pattern; 0 design. Tags: action-economy, agency, cognition, combat, psychology, stress.
+- [Preserve Decision-Relevant State While Compressing Resolution Procedure](PAT_preserve_decision_relevant_state_while_compressing_resolution_procedure.md) - pattern; 0 design. Tags: abstraction, consequences, operator-cost, resolution, simulation, state.
 - [Profile a Randomizer Before Committing to It](DRILL_profile_a_randomizer_before_committing_to_it.md) - drill; 0 design. Tags: mechanics, probability, randomizers, testing.
+- [Profile Serial Resolution Latency](DRILL_profile_serial_resolution_latency.md) - drill; 0 design. Tags: complexity, pacing, playtesting, throughput.
 - [Reuse Core Resolution Grammar Before Adding New Mechanics](PAT_reuse_core_resolution_grammar_before_adding_new_mechanics.md) - pattern; 0 design. Tags: architecture, mechanics, refactoring, resolution.
 - [Stress-Test Concurrent Rule Activation](DRILL_stress_test_concurrent_rule_activation.md) - drill; 0 design. Tags: complexity, mechanics, playtesting, state.
 - [Stress-Test Mechanical Constraints Under Composition](DRILL_stress_test_mechanical_constraints_under_composition.md) - drill; 0 design. Tags: constraints, exploits, mechanics, playtesting.
 - [Stress-Test the Core Resolution Grammar](DRILL_stress_test_the_core_resolution_grammar.md) - drill; 0 design. Tags: mechanics, playtesting, refactoring, resolution.
+- [Use Maintenance to Trade Present Effort for Future Reliability](PAT_use_maintenance_to_trade_present_effort_for_future_reliability.md) - pattern; 0 design. Tags: downtime, equipment, maintenance, reliability, resources, risk.
 - [Use Time to Structure Opportunity](PAT_use_time_to_structure_opportunity.md) - pattern; 0 design. Tags: action-economy, mechanics, pacing, time.

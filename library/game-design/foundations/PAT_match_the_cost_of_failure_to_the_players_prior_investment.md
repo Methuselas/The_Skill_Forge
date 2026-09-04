@@ -50,6 +50,10 @@ variants: []
 - When large losses are part of the intended experience, provide enough warning, agency, narrative weight, or recovery structure to justify them.
 - Define encounter defeat consequences deliberately instead of treating death or adventure termination as the automatic meaning of failure. Capture, retreat, separation, lost resources, injury, lost time, humiliation, changed relationships, or terminal failure may all be appropriate depending on the intended experience.
 
+- Compare consequence duration with campaign cadence. When realistic full recovery takes longer than the current adventure can pause, decide deliberately whether the character becomes functionally playable before full recovery, the campaign supplies downtime, the player receives an alternate participation path, or the long absence is itself intended play.
+- Distinguish fictional recovery from participation recovery. A wound, breakdown, curse, imprisonment, or other setback may remain present in the fiction after the player has regained enough agency to participate meaningfully.
+- Treat an ordinary stochastic result that can remove a heavily invested character from several expected sessions as a campaign-level consequence, even when the fictional injury or setback is realistic.
+
 ## Don't
 - Evaluate lethality or reset frequency without considering how long the player spent reaching the endangered state.
 - Assume two mechanically equal losses feel equal when one erases substantially more preparation or attachment.
@@ -57,6 +61,10 @@ variants: []
 - Assume every lost encounter should kill the characters or end the adventure when a lower-cost failure state better fits the current investment and the encounter's purpose.
 - Assume that increasing the fictional scale of a threat automatically increases its emotional force.
 - Threaten an NPC, community, location, or cause as if the players must care merely because the adventure labels it important.
+
+- Equate full fictional recovery time with total player inactivity without testing the campaign cadence that consequence assumes.
+- Call a long-duration setback proportional because its fictional timescale is realistic while ignoring how many expected sessions it removes from the player.
+- Use specialized healing, replacement characters, downtime, or other recovery infrastructure as an unspoken requirement for keeping the campaign playable.
 
 ## Checklist
 - The average time and effort required to replace the threatened asset are known or testable.
@@ -68,6 +76,9 @@ variants: []
 - Threat magnitude and accumulated player investment are evaluated separately.
 - The aftermath of a high-investment fictional loss makes the changed state perceptible.
 - Playtests watch for frustration caused by erased effort rather than only for numerical balance.
+
+- Long-duration consequences have been tested against the campaign's actual cadence, including how many sessions the affected player could lose before meaningful participation returns.
+- Full fictional recovery and functional participation recovery are explicitly the same only when that equivalence is intended and supported by the campaign structure.
 
 ## Notes
 The same failure mechanic can feel exciting or intolerable depending on what precedes it. Cheap, quickly generated assets can support high lethality, while a loss that erases hours of construction or attachment carries a much larger experiential cost. Failure design therefore depends on prior investment as well as consequence. A first-level character designed to be replaced in minutes can support a very different mortality loop from a highly customized character that takes an hour to rebuild, even if the fictional event is identical.

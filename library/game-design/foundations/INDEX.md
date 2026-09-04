@@ -6,6 +6,7 @@
 
 - [Account for the Intended Play Environment Before Freezing the Design](PAT_account_for_the_intended_play_environment_before_freezing_the_design.md) - pattern; 0 design. Tags: components, controls, environment, medium.
 - [Align Repeated and Rewarded Behavior with Intended Outcomes](PAT_align_repeated_and_rewarded_behavior_with_intended_outcomes.md) - pattern; 0 design. Tags: outcomes, player-behavior, practice, rewards.
+- [Allocate Simulation Detail by Expected Persistence](PAT_allocate_simulation_detail_by_expected_persistence.md) - pattern; 0 design. Tags: complexity, persistence, progressive-detail, representation, simulation.
 - [Choose a Game Foundation by the Experience It Must Support](PAT_choose_a_game_foundation_by_the_experience_it_must_support.md) - pattern; 0 design. Tags: adaptation, architecture, framework, novelty.
 - [Cover Required Production Functions with Explicit Ownership](PAT_cover_required_production_functions_with_explicit_ownership.md) - pattern; 0 design. Tags: collaboration, ownership, production, tools.
 - [Define Completion Against a Living Game Design Document](PAT_define_completion_against_a_living_game_design_document.md) - pattern; 0 design. Tags: completion, gdd, iteration, scope.
@@ -17,6 +18,8 @@
 - [Match Practiced Behavior to the Intended Outcome](PAT_match_practiced_behavior_to_the_intended_outcome.md) - pattern; 0 design. Tags: learning, outcomes, player-behavior, training.
 - [Match the Cost of Failure to the Player's Prior Investment](PAT_match_the_cost_of_failure_to_the_players_prior_investment.md) - pattern; 0 design. Tags: failure, investment, recovery, stakes.
 - [Reverse-Engineer a Game Through Play](DRILL_reverse_engineer_a_game_through_play.md) - drill; 0 design. Tags: analysis, mechanics, play, reverse-engineering.
+- [Run a Simulation Budget Audit](AP_run_a_simulation_budget_audit.md) - ap; 0 design. Tags: HOPR, TBMD, cadence, complexity, resources, simulation.
+- [Run an Edition Delta Audit](AP_run_an_edition_delta_audit.md) - ap; 0 design. Tags: behavior, comparison, complexity, editions, refactoring, regression.
 - [Run an Evidence-Driven Playtest Revision Cycle](AP_run_an_evidence_driven_playtest_revision_cycle.md) - ap; 0 design. Tags: evidence, feedback, playtesting, revision.
 - [Translate Genre into Play Requirements](PAT_translate_genre_into_play_requirements.md) - pattern; 0 design. Tags: coherence, expectations, experience, genre.
 - [Use the Defining Affordances of an Adopted Game System](PAT_use_the_defining_affordances_of_an_adopted_game_system.md) - pattern; 0 design. Tags: affordances, compatibility, systems, traditions.

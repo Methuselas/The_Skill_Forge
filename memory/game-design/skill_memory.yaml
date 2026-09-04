@@ -1,28 +1,37 @@
 memory_schema_version: 1
 skillset: game-design
-memory_version: 11
+memory_version: 12
 entries:
 - id: GAMEDESIGN_MEM_001
   scope_type: topic
   scope_id: mechanical_architecture
   type: successful_tendency
   evidence_class: stochastic_performance
-  observation: Across multiple system teardowns, designs that reused a small mechanical vocabulary across many situations
-    were easier to explain, compare, and extend than designs that required unrelated resolution families or conversion
-    rules between subsystems. In established systems, preserving a familiar high-frequency resolution grammar also
-    reduced migration and relearning cost. GURPS further showed that shared primitives can reduce fragmentation
-    while increasing interaction density when many conditional modules feed the same resources and derived values,
-    and that a later edition can substantially improve that architecture without materially repositioning the underlying
-    play experience.
+  observation: 'Across multiple system teardowns, designs that reused a small mechanical
+    vocabulary across many situations were easier to explain, compare, and extend
+    than designs that required unrelated resolution families or conversion rules between
+    subsystems. In established systems, preserving a familiar high-frequency resolution
+    grammar also reduced migration and relearning cost. GURPS further showed that
+    shared primitives can reduce fragmentation while increasing interaction density
+    when many conditional modules feed the same resources and derived values, and
+    that a later edition can substantially improve that architecture without materially
+    repositioning the underlying play experience. Rolemaster further showed that a
+    shared percentile randomizer can sit above several operational grammars: static
+    maneuvers, moving maneuvers, attacks, criticals, resistance, casting, and recovery
+    may share d100 while still requiring different interpretation procedures and table
+    paths.'
   confidence: repeated
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: Reusable primitives reduce interface cost between subsystems while still allowing local specialization.
-  boundary: Verified while analyzing Palladium Fantasy, Rifts Ultimate, Star Frontiers Alpha Dawn, FrontierSpace,
-    Zebulon’s Guide, a historical Star Frontiers redesign prototype, and GURPS Fourth Edition Basic Set; not yet
-    tested through original system construction from a blank foundation.
-  evidence_count: 6
+    hypothesis: Reusable primitives reduce interface cost between subsystems 
+      while still allowing local specialization.
+  boundary: Verified across Palladium Fantasy, Rifts, Star Frontiers, 
+    FrontierSpace, Zebulon’s Guide, a historical Star Frontiers redesign 
+    prototype, GURPS Fourth Edition Basic Set, and the Rolemaster SS-to-FRP 
+    comparison; not yet tested through original system construction from a blank
+    foundation.
+  evidence_count: 7
   evidence_events:
   - GAMEDESIGN_EV_0001
   - GAMEDESIGN_EV_0002
@@ -30,6 +39,7 @@ entries:
   - GAMEDESIGN_EV_0005
   - GAMEDESIGN_EV_0006
   - GAMEDESIGN_EV_0007
+  - GAMEDESIGN_EV_0009
   evidence_origin:
   - human_teaching
   - training_benchmark
@@ -38,7 +48,8 @@ entries:
   - PAT_reuse_core_resolution_grammar_before_adding_new_mechanics
   - DRILL_reverse_engineer_a_game_through_play
   interventions:
-  - training: Reverse-engineer contrasting rulesets by mapping resolution families and subsystem interfaces.
+  - training: Reverse-engineer contrasting rulesets by mapping resolution 
+      families and subsystem interfaces.
     isolation_result: improved
     retention_result: partial
     transfer_result: improved
@@ -55,31 +66,44 @@ entries:
   - concurrent modules
   - architectural improvement
   - experiential repositioning
+  - shared die different grammar
+  - table-driven resolution
   runtime_scope: generic
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
 - id: GAMEDESIGN_MEM_002
   scope_type: topic
   scope_id: complexity_value
   type: successful_tendency
   evidence_class: stochastic_performance
-  observation: 'Complexity was most defensible in the analyzed systems when an added rule created a meaningful decision,
-    useful consequence, or reusable capability. Placement and frequency materially changed that value: substantial
-    opt-in complexity attached to new capabilities could be welcomed, while smaller mandatory complexity inserted
-    into already-satisfactory high-frequency procedures was experienced as friction. GURPS added two further pressures:
-    several individually conditional rules can become expensive when they activate together, and coherent simulation
-    can still overtax humans when much of the work is arithmetic, lookup, dependency propagation, or state maintenance
-    rather than decision-making.'
+  observation: 'Complexity was most defensible in the analyzed systems when an added
+    rule created a meaningful decision, useful consequence, or reusable capability.
+    Placement and frequency materially changed that value: substantial opt-in complexity
+    attached to new capabilities could be welcomed, while smaller mandatory complexity
+    inserted into already-satisfactory high-frequency procedures was experienced as
+    friction. GURPS added two further pressures: several individually conditional
+    rules can become expensive when they activate together, and coherent simulation
+    can still overtax humans when much of the work is arithmetic, lookup, dependency
+    propagation, or state maintenance rather than decision-making. Rolemaster added
+    a table-level scaling pressure: individually defensible choices and lookups became
+    expensive when common-path procedures repeated serially across all actors, and
+    rich critical outcomes continued to impose future state-maintenance and recovery
+    work after the initial resolution ended. Twilight: 2000 added a further cadence
+    boundary: genre-common automatic fire can be too expensive even when labeled a
+    specialist mode, and one player decision can become a procedural hotspot when
+    work scales per projectile rather than per decision.'
   confidence: repeated
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: Asking what each layer of complexity buys in play is a productive diagnostic for healthy versus
-      unhealthy crunch.
-  boundary: Verified in comparative analysis of active defense, vehicle rules, FrontierSpace action economy, legacy
-    subsystem accretion, Zebulon’s resolution replacement versus additive equipment, historical Star Frontiers playtests,
-    and GURPS Fourth Edition combat, injury, hazards, skills, vehicles, magic, and psionics; not yet calibrated
-    against a new game designed from scratch.
-  evidence_count: 6
+    hypothesis: Asking what each layer of complexity buys in play is a 
+      productive diagnostic for healthy versus unhealthy crunch.
+  boundary: 'Verified in comparative analysis of active defense, vehicle rules, FrontierSpace
+    action economy, legacy subsystem accretion, Zebulon’s resolution replacement versus
+    additive equipment, historical Star Frontiers playtests, GURPS Fourth Edition,
+    and Rolemaster SS/FRP common-path combat, maneuvers, magic, injury, and advancement;
+    not yet calibrated against a new game designed from scratch; additionally verified
+    against Twilight: 2000 1E/Version 2.2 survival, combat, vehicle, and medical procedures.'
+  evidence_count: 8
   evidence_events:
   - GAMEDESIGN_EV_0001
   - GAMEDESIGN_EV_0002
@@ -87,6 +111,8 @@ entries:
   - GAMEDESIGN_EV_0005
   - GAMEDESIGN_EV_0006
   - GAMEDESIGN_EV_0007
+  - GAMEDESIGN_EV_0009
+  - GAMEDESIGN_EV_0011
   evidence_origin:
   - training_benchmark
   - user_feedback
@@ -94,7 +120,8 @@ entries:
   likely_owners:
   - PAT_evaluate_mechanics_by_the_decisions_and_agency_they_create
   interventions:
-  - training: For each analyzed rule, name the player decision or consequence purchased by its execution cost.
+  - training: For each analyzed rule, name the player decision or consequence 
+      purchased by its execution cost.
     isolation_result: improved
     retention_result: partial
     transfer_result: improved
@@ -110,24 +137,32 @@ entries:
   - concurrent activation
   - shared-state cascade
   - simulation burden
+  - serial friction
+  - state persistence cost
+  - table throughput
+  - projectile-count scaling
+  - genre-common specialist complexity
+  - purposeful friction
   runtime_scope: generic
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-03'
 - id: GAMEDESIGN_MEM_003
   scope_type: topic
   scope_id: construction_system_breadth
   type: known_boundary
   evidence_class: stochastic_performance
-  observation: A construction system can present many legal configuration choices while producing little meaningful
-    build differentiation when a small set of parent variables determines most downstream capabilities and optimal
+  observation: A construction system can present many legal configuration 
+    choices while producing little meaningful build differentiation when a small
+    set of parent variables determines most downstream capabilities and optimal 
     choices converge.
   confidence: provisional
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: Configuration count is a poor proxy for conceptual breadth; same-class role-divergence tests expose
-      false breadth more directly.
-  boundary: Verified in the Knight Hawks versus FrontierSpace starship-design comparison; needs testing on additional
-    construction-heavy games before broad promotion.
+    hypothesis: Configuration count is a poor proxy for conceptual breadth; 
+      same-class role-divergence tests expose false breadth more directly.
+  boundary: Verified in the Knight Hawks versus FrontierSpace starship-design 
+    comparison; needs testing on additional construction-heavy games before 
+    broad promotion.
   evidence_count: 1
   evidence_events:
   - GAMEDESIGN_EV_0004
@@ -138,8 +173,8 @@ entries:
   - future construction-system owner
   - DRILL_reverse_engineer_a_game_through_play
   interventions:
-  - drill: Build the same broad object class for three distinct intended roles and compare whether the resulting
-      play identities meaningfully diverge.
+  - drill: Build the same broad object class for three distinct intended roles 
+      and compare whether the resulting play identities meaningfully diverge.
     isolation_result: improved
     retention_result: untested
     transfer_result: untested
@@ -155,25 +190,33 @@ entries:
   scope_id: extension_and_refactoring
   type: successful_tendency
   evidence_class: stochastic_performance
-  observation: 'When a new requirement could be expressed through an existing mechanical vocabulary, extension stayed
-    more coherent; repeated need for adapters, bespoke resolution rules, or exception chains correlated with designs
-    that had grown beyond their original architecture. Comparative review also showed that replacing an established
-    answer to an already-solved question can create migration cost even when the replacement is mechanically sound,
-    while new mechanics are easier to justify when they answer genuinely new questions. GURPS edition evolution
-    further showed a productive refactoring cycle: genre or supplement mechanics can function as laboratories, prove
-    broadly reusable, become shared grammar, and then make older duplicate subsystems removable while preserving
-    their important fictional and experiential affordances.'
+  observation: 'When a new requirement could be expressed through an existing mechanical
+    vocabulary, extension stayed more coherent; repeated need for adapters, bespoke
+    resolution rules, or exception chains correlated with designs that had grown beyond
+    their original architecture. Comparative review also showed that replacing an
+    established answer to an already-solved question can create migration cost even
+    when the replacement is mechanically sound, while new mechanics are easier to
+    justify when they answer genuinely new questions. GURPS edition evolution further
+    showed a productive refactoring cycle: genre or supplement mechanics can function
+    as laboratories, prove broadly reusable, become shared grammar, and then make
+    older duplicate subsystems removable while preserving their important fictional
+    and experiential affordances. Rolemaster FRP supplied a second refactoring example:
+    it preserved the underlying combat identity while consolidating many specialized
+    attack and maneuver tables into shared family structures plus compact differentiating
+    data, reducing retrieval fragmentation without erasing the meaningful output differences.'
   confidence: repeated
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: Testing existing primitives before adding a new mechanic is a practical refactoring trigger rather
-      than a demand for one universal mechanic.
-  boundary: Verified while contrasting Rifts subsystem accretion, FrontierSpace skill and action-check reuse, Alpha
-    Dawn with Zebulon’s replacement resolution architecture, a historical Star Frontiers redesign prototype, GURPS
-    Fourth Edition power construction, and GURPS Third-to-Fourth Edition refactoring; not yet tested during live
+    hypothesis: Testing existing primitives before adding a new mechanic is a 
+      practical refactoring trigger rather than a demand for one universal 
+      mechanic.
+  boundary: Verified while contrasting Rifts subsystem accretion, FrontierSpace 
+    reuse, Alpha Dawn with Zebulon’s replacement architecture, a historical Star
+    Frontiers redesign prototype, GURPS Fourth Edition refactoring, and 
+    Rolemaster SS-to-FRP table consolidation; not yet tested during live 
     refactoring of a current original game.
-  evidence_count: 6
+  evidence_count: 7
   evidence_events:
   - GAMEDESIGN_EV_0002
   - GAMEDESIGN_EV_0003
@@ -181,6 +224,7 @@ entries:
   - GAMEDESIGN_EV_0006
   - GAMEDESIGN_EV_0007
   - GAMEDESIGN_EV_0008
+  - GAMEDESIGN_EV_0009
   evidence_origin:
   - training_benchmark
   - human_teaching
@@ -188,8 +232,9 @@ entries:
   likely_owners:
   - PAT_reuse_core_resolution_grammar_before_adding_new_mechanics
   interventions:
-  - training: Before accepting a new subsystem, attempt to express the requirement through current primitives and
-      document where that attempt fails.
+  - training: Before accepting a new subsystem, attempt to express the 
+      requirement through current primitives and document where that attempt 
+      fails.
     isolation_result: improved
     retention_result: partial
     transfer_result: improved
@@ -205,24 +250,30 @@ entries:
   - capability grammar
   - source modifier
   - genre supplement laboratory
+  - shared table plus parameters
+  - lookup consolidation
   runtime_scope: generic
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
 - id: GAMEDESIGN_MEM_005
   scope_type: topic
   scope_id: mixed_revision_isolation
   type: training_result
   evidence_class: stochastic_performance
-  observation: A bundled redesign was rejected in play while some components inside the same test package were explicitly
-    welcomed and retained as useful ideas. Package-level failure therefore did not establish that every bundled
+  observation: A bundled redesign was rejected in play while some components 
+    inside the same test package were explicitly welcomed and retained as useful
+    ideas. Package-level failure therefore did not establish that every bundled 
     change had failed.
   confidence: provisional
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: When several variables change at once, decomposing mixed feedback into retained, rejected, and unresolved
-      components preserves valid evidence that would be lost by treating the whole build as one result.
-  boundary: Observed in one retrospective Star Frontiers playtest case where a core-resolution redesign was rejected
-    after one session while expanded skills were liked and a separate detailed robot-construction subsystem was
+    hypothesis: When several variables change at once, decomposing mixed 
+      feedback into retained, rejected, and unresolved components preserves 
+      valid evidence that would be lost by treating the whole build as one 
+      result.
+  boundary: Observed in one retrospective Star Frontiers playtest case where a 
+    core-resolution redesign was rejected after one session while expanded 
+    skills were liked and a separate detailed robot-construction subsystem was 
     welcomed; needs transfer testing on additional bundled revisions.
   evidence_count: 1
   evidence_events:
@@ -235,8 +286,9 @@ entries:
   - AP_run_an_evidence_driven_playtest_revision_cycle
   - PAT_evaluate_mechanics_by_the_decisions_and_agency_they_create
   interventions:
-  - training: When a test build changes several variables, record which components testers reject, accept, or leave
-      unresolved before choosing what to revert or retain.
+  - training: When a test build changes several variables, record which 
+      components testers reject, accept, or leave unresolved before choosing 
+      what to revert or retain.
     isolation_result: improved
     retention_result: untested
     transfer_result: untested
@@ -253,21 +305,30 @@ entries:
   scope_id: onboarding_and_curation
   type: known_boundary
   evidence_class: stochastic_performance
-  observation: Large modular toolkits can remain intimidating to first-time facilitators even when most subsystems
-    are technically optional. The GURPS lineage showed that consolidation and indexing can make a mature edition
-    more useful to experienced users while simultaneously removing or weakening executable teaching support for
-    newcomers. Fourth Edition character templates demonstrate that curated starting structures can successfully
-    hide a large option space from novice players, whereas GM setup still depended heavily on prior knowledge of
-    the rules corpus. The final comparison therefore treats expert reference quality and first-campaign guidance
-    as different usability dimensions rather than expecting one to substitute for the other.
-  confidence: provisional
+  observation: 'Large modular toolkits can remain intimidating to first-time facilitators
+    even when most subsystems are technically optional. The GURPS lineage showed that
+    consolidation and indexing can make a mature edition more useful to experienced
+    users while simultaneously removing or weakening executable teaching support for
+    newcomers. Fourth Edition character templates demonstrate that curated starting
+    structures can successfully hide a large option space from novice players, whereas
+    GM setup still depended heavily on prior knowledge of the rules corpus. The final
+    comparison therefore treats expert reference quality and first-campaign guidance
+    as different usability dimensions rather than expecting one to substitute for
+    the other. Rolemaster independently corroborated the distinction: SS could be
+    organized for expert reference while still forcing novices to discover cross-book
+    dependency paths, whereas FRP materially improved onboarding and retrieval by
+    making the advertised core executable and consolidating frequently used tables
+    locally.'
+  confidence: repeated
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: Optionality reduces execution cost only after the user can identify dependencies, safe omissions,
-      and expansion triggers; a curated sufficient starting configuration lowers that curation burden.
-  boundary: Verified in the GURPS Fourth Edition core review and in the Third Edition Revised-to-Fourth Edition
-    evolution review; not yet tested against a newly authored edition transition.
+    hypothesis: Optionality reduces execution cost only after the user can 
+      identify dependencies, safe omissions, and expansion triggers; a curated 
+      sufficient starting configuration lowers that curation burden.
+  boundary: Verified in the GURPS Fourth Edition core and lineage reviews and 
+    independently in the Rolemaster SS-to-FRP edition transition; not yet tested
+    against a newly authored edition transition.
   evidence_origin:
   - training_benchmark
   - human_teaching
@@ -275,8 +336,9 @@ entries:
   likely_owners:
   - PAT_make_the_game_operable_without_hidden_designer_knowledge
   interventions:
-  - training: During novice handoff, require the facilitator to identify a sufficient first-campaign rule set and
-      the triggers for adding optional modules without surveying the entire corpus.
+  - training: During novice handoff, require the facilitator to identify a 
+      sufficient first-campaign rule set and the triggers for adding optional 
+      modules without surveying the entire corpus.
     isolation_result: improved
     retention_result: untested
     transfer_result: untested
@@ -296,29 +358,42 @@ entries:
   - progressive disclosure
   - veteran reference
   - novice facilitator
+  - core executability
+  - cross-book dependency
+  - novice retrieval
+  - human cache
   runtime_scope: generic
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   evidence_events:
   - GAMEDESIGN_EV_0007
   - GAMEDESIGN_EV_0008
-  evidence_count: 2
+  - GAMEDESIGN_EV_0009
+  evidence_count: 3
 - id: GAMEDESIGN_MEM_007
   scope_type: topic
   scope_id: operator_complexity_and_medium
   type: known_boundary
   evidence_class: stochastic_performance
-  observation: Detailed simulation that felt too burdensome for manual tabletop operation was judged attractive
-    in a computer implementation when software could perform dependency propagation, modifier stacking, timers,
-    and state maintenance while leaving tactical and character decisions visible. The value depended on preserving
-    inspectable causality rather than hiding why automated results changed.
-  confidence: provisional
+  observation: 'Detailed simulation that felt too burdensome for manual tabletop operation
+    was judged attractive in a computer implementation when software could perform
+    dependency propagation, modifier stacking, timers, and state maintenance while
+    leaving tactical and character decisions visible. The value depended on preserving
+    inspectable causality rather than hiding why automated results changed. Rolemaster
+    provided independent cross-system corroboration: detailed attack, injury, casting,
+    XP, and state procedures retained attractive fictional output while manual lookup,
+    arithmetic, branching, and maintenance dominated tabletop cost; transparent software
+    execution would preserve more of the output while removing human servicing work.'
+  confidence: repeated
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: Separating decision complexity from operator complexity helps determine which simulation detail
-      should be preserved, collapsed, or automated for a target medium.
-  boundary: Observed through GURPS Fourth Edition analysis and practitioner comparison between tabletop operation
-    and a hypothetical computer implementation; needs implementation or cross-medium testing.
+    hypothesis: Separating decision complexity from operator complexity helps 
+      determine which simulation detail should be preserved, collapsed, or 
+      automated for a target medium.
+  boundary: Observed independently through GURPS Fourth Edition and Rolemaster 
+    SS/FRP analysis plus practitioner comparison between tabletop operation and 
+    hypothetical software execution; still needs implementation or direct 
+    cross-medium testing.
   evidence_origin:
   - training_benchmark
   - human_teaching
@@ -327,8 +402,9 @@ entries:
   - PAT_account_for_the_intended_play_environment_before_freezing_the_design
   - PAT_evaluate_mechanics_by_the_decisions_and_agency_they_create
   interventions:
-  - training: For a state-heavy mechanic, compare manual and automated execution while holding player choices constant
-      and verify that the automated result remains explainable.
+  - training: For a state-heavy mechanic, compare manual and automated execution
+      while holding player choices constant and verify that the automated result
+      remains explainable.
     isolation_result: improved
     retention_result: untested
     transfer_result: untested
@@ -339,29 +415,37 @@ entries:
   - operator complexity
   - transparent automation
   - digital implementation
+  - HOPR
+  - TBMD
+  - operator servicing
   runtime_scope: generic
-  last_verified: '2026-09-01'
+  last_verified: '2026-09-02'
   evidence_events:
   - GAMEDESIGN_EV_0007
-  evidence_count: 1
+  - GAMEDESIGN_EV_0009
+  evidence_count: 2
 - id: GAMEDESIGN_MEM_008
   scope_type: topic
   scope_id: persistent_capability_dependencies
   type: known_boundary
   evidence_class: stochastic_performance
-  observation: Related-skill defaults supported useful runtime competence transfer, but persistent advancement became
-    difficult to maintain when purchased investment had to be reinterpreted against a changing default source. Edition
-    comparison showed this burden survived major Fourth Edition skill refactoring even while Techniques adopted
-    a cleaner one-way parent relationship, demonstrating that one retained legacy dependency can dominate usability
-    inside an otherwise improved subsystem.
+  observation: Related-skill defaults supported useful runtime competence 
+    transfer, but persistent advancement became difficult to maintain when 
+    purchased investment had to be reinterpreted against a changing default 
+    source. Edition comparison showed this burden survived major Fourth Edition 
+    skill refactoring even while Techniques adopted a cleaner one-way parent 
+    relationship, demonstrating that one retained legacy dependency can dominate
+    usability inside an otherwise improved subsystem.
   confidence: provisional
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: Persistent character state is easier to maintain when dependencies are local and explicit, while
-      temporary competence transfer remains a runtime rule instead of a mutable accounting baseline.
-  boundary: Verified in the GURPS Fourth Edition standalone skill review and Third-to-Fourth Edition skill comparison;
-    not yet tested in an original character system built around reversible defaults.
+    hypothesis: Persistent character state is easier to maintain when 
+      dependencies are local and explicit, while temporary competence transfer 
+      remains a runtime rule instead of a mutable accounting baseline.
+  boundary: Verified in the GURPS Fourth Edition standalone skill review and 
+    Third-to-Fourth Edition skill comparison; not yet tested in an original 
+    character system built around reversible defaults.
   evidence_origin:
   - training_benchmark
   - human_teaching
@@ -370,8 +454,9 @@ entries:
   - PAT_keep_persistent_capability_dependencies_local_and_explicit
   - PAT_derive_character_capabilities_from_expected_play
   interventions:
-  - training: Raise each parent value in a dependency-heavy character build, reverse which related capability is
-      strongest, and count every persistent entry that must be recomputed or audited.
+  - training: Raise each parent value in a dependency-heavy character build, 
+      reverse which related capability is strongest, and count every persistent 
+      entry that must be recomputed or audited.
     isolation_result: improved
     retention_result: untested
     transfer_result: untested
@@ -393,20 +478,25 @@ entries:
   scope_id: character_option_economics
   type: successful_tendency
   evidence_class: stochastic_performance
-  observation: GURPS edition evolution showed that character-option prices need to reflect actual mechanical leverage
-    and constraint rather than conceptual symmetry. Repricing DX, adding intermediate Talents, separating secondary
-    characteristics, and parameterizing disadvantage severity improved differentiation, while disadvantage refunds
-    still created pressure to consume the allowed negative budget. Fourth Edition also removed the older double-cost
-    surcharge for post-creation attribute improvement, showing that build-lifecycle pricing can create optimization
-    pressure when the same persistent capability has different prices solely because of purchase timing.
+  observation: GURPS edition evolution showed that character-option prices need 
+    to reflect actual mechanical leverage and constraint rather than conceptual 
+    symmetry. Repricing DX, adding intermediate Talents, separating secondary 
+    characteristics, and parameterizing disadvantage severity improved 
+    differentiation, while disadvantage refunds still created pressure to 
+    consume the allowed negative budget. Fourth Edition also removed the older 
+    double-cost surcharge for post-creation attribute improvement, showing that 
+    build-lifecycle pricing can create optimization pressure when the same 
+    persistent capability has different prices solely because of purchase 
+    timing.
   confidence: provisional
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: Auditing breadth, downstream effects, substitution economics, and actual loss of choice produces
-      more stable character pricing than equal-cost symmetry or label-based valuation.
-  boundary: Verified in GURPS Third-to-Fourth Edition character-economy comparison; not yet corroborated across
-    another point-buy RPG.
+    hypothesis: Auditing breadth, downstream effects, substitution economics, 
+      and actual loss of choice produces more stable character pricing than 
+      equal-cost symmetry or label-based valuation.
+  boundary: Verified in GURPS Third-to-Fourth Edition character-economy 
+    comparison; not yet corroborated across another point-buy RPG.
   evidence_count: 1
   evidence_events:
   - GAMEDESIGN_EV_0008
@@ -418,8 +508,8 @@ entries:
   - PAT_price_character_options_by_mechanical_leverage_and_constraint
   - PAT_derive_character_capabilities_from_expected_play
   interventions:
-  - training: Audit a character option by comparing its actual downstream leverage or constraint with legal substitutes
-      that cost the same currency.
+  - training: Audit a character option by comparing its actual downstream 
+      leverage or constraint with legal substitutes that cost the same currency.
     isolation_result: improved
     retention_result: untested
     transfer_result: untested
@@ -442,19 +532,23 @@ entries:
   scope_id: causal_advancement
   type: known_boundary
   evidence_class: stochastic_performance
-  observation: 'GURPS preserved a useful separation between mechanical advancement value and fictional change: social
-    traits, learned capabilities, and disadvantages often require an in-world cause or opportunity in addition to
-    points, while fiction can also grant or remove traits without conserving point total. The same causal model
-    can become administrative overhead if the facilitator must audit every hour, exposure, teacher, or action rather
-    than tracking only the evidence the campaign actually values.'
+  observation: 'GURPS preserved a useful separation between mechanical advancement
+    value and fictional change: social traits, learned capabilities, and disadvantages
+    often require an in-world cause or opportunity in addition to points, while fiction
+    can also grant or remove traits without conserving point total. The same causal
+    model can become administrative overhead if the facilitator must audit every hour,
+    exposure, teacher, or action rather than tracking only the evidence the campaign
+    actually values.'
   confidence: provisional
   status: active
   diagnosis:
     failure_layer: training
-    hypothesis: Separating advancement price, permission, and fictional cause preserves believable development without
-      forcing build currency to manufacture fiction or requiring exhaustive causal surveillance.
-  boundary: Verified in GURPS Third-to-Fourth Edition advancement comparison; not yet corroborated across another
-    advancement system with causal purchase restrictions.
+    hypothesis: Separating advancement price, permission, and fictional cause 
+      preserves believable development without forcing build currency to 
+      manufacture fiction or requiring exhaustive causal surveillance.
+  boundary: Verified in GURPS Third-to-Fourth Edition advancement comparison; 
+    not yet corroborated across another advancement system with causal purchase 
+    restrictions.
   evidence_count: 1
   evidence_events:
   - GAMEDESIGN_EV_0008
@@ -466,8 +560,9 @@ entries:
   - PAT_derive_character_capabilities_from_expected_play
   - PAT_price_character_options_by_mechanical_leverage_and_constraint
   interventions:
-  - training: For each advancement option, record its price, current permission gate, fictional cause, and the minimum
-      evidence needed to verify that cause without turning play history into an audit log.
+  - training: For each advancement option, record its price, current permission 
+      gate, fictional cause, and the minimum evidence needed to verify that 
+      cause without turning play history into an audit log.
     isolation_result: improved
     retention_result: untested
     transfer_result: untested
@@ -482,3 +577,199 @@ entries:
   - causal tracking
   runtime_scope: generic
   last_verified: '2026-09-01'
+- id: GAMEDESIGN_MEM_011
+  scope_type: topic
+  scope_id: serial_resolution_latency
+  type: known_boundary
+  evidence_class: stochastic_performance
+  observation: 'A Rolemaster case study exposed a table-level burden that single-action
+    analysis can miss: when each actor must serially perform several rolls, lookups,
+    branches, and state updates, individually tolerable resolutions can multiply into
+    long periods in which a player has no meaningful decision. Practitioner evidence
+    from one four-player-plus-GM session reported roughly ten minutes between an early
+    completed action and the next opportunity to act, which is useful evidence of
+    possible round latency but not a universal timing claim about the system. Twilight:
+    2000 Version 2.2 added a within-action variant: automatic-fire work can multiply
+    by burst or projectile count even when the player made only one attack decision,
+    so serial latency must also be checked inside one actor''s action.'
+  confidence: repeated
+  status: active
+  diagnosis:
+    failure_layer: training
+    hypothesis: Measuring Human Operations Per Resolution together with Time 
+      Between Meaningful Decisions across a complete representative round will 
+      expose serial throughput problems that isolated resolution tests miss.
+  boundary: 'Observed in the Rolemaster SS review using source-grounded procedure
+    tracing and one practitioner session report; needs timed transfer testing on additional
+    systems and groups; transfer evidence now also includes Twilight: 2000 Version
+    2.2 automatic fire.'
+  evidence_count: 2
+  evidence_events:
+  - GAMEDESIGN_EV_0009
+  - GAMEDESIGN_EV_0011
+  evidence_origin:
+  - training_benchmark
+  - human_teaching
+  - user_feedback
+  likely_owners:
+  - DRILL_profile_serial_resolution_latency
+  - PAT_evaluate_mechanics_by_the_decisions_and_agency_they_create
+  interventions:
+  - training: Time one complete multi-actor round, count human-facing operations
+      per resolution, and measure the anchor player’s interval between 
+      consequential decisions before and after one interface or procedure 
+      simplification.
+    isolation_result: improved
+    retention_result: untested
+    transfer_result: untested
+  retrieval_cues:
+  - round latency
+  - player downtime
+  - serial resolution
+  - HOPR
+  - TBMD
+  - table throughput
+  - actor count
+  - facilitator bottleneck
+  - within-action scaling
+  - per-projectile work
+  runtime_scope: generic
+  last_verified: '2026-09-03'
+- id: GAMEDESIGN_MEM_012
+  scope_type: topic
+  scope_id: consequence_duration_and_campaign_cadence
+  type: known_boundary
+  evidence_class: stochastic_performance
+  observation: Rolemaster injury and spell-failure review showed that a 
+    mechanically coherent consequence can become a participation problem when 
+    its fictional recovery duration exceeds the campaign’s active cadence. 
+    Severe wounds can remain meaningful and specific without requiring full 
+    anatomical recovery time to equal total player inactivity; the relevant 
+    design question is when meaningful participation returns and what campaign 
+    infrastructure makes that consequence playable.
+  confidence: provisional
+  status: active
+  diagnosis:
+    failure_layer: training
+    hypothesis: Separating full fictional recovery from functional participation
+      recovery allows serious long-term consequences to persist without 
+      accidentally removing a high-investment character from multiple expected 
+      sessions unless that absence is itself intended play.
+  boundary: Observed in Rolemaster SS/FRP injury, healing, and spell-failure 
+    procedures and corroborated by practitioner rejection of campaign-disrupting
+    recovery times; needs transfer testing in campaigns with deliberately 
+    different downtime cadences.
+  evidence_count: 1
+  evidence_events:
+  - GAMEDESIGN_EV_0009
+  evidence_origin:
+  - training_benchmark
+  - human_teaching
+  - user_feedback
+  likely_owners:
+  - PAT_match_the_cost_of_failure_to_the_players_prior_investment
+  - PAT_account_for_the_intended_play_environment_before_freezing_the_design
+  interventions:
+  - training: For each long-duration setback, compare full fictional recovery 
+      time with expected session cadence and record when the affected player 
+      regains meaningful agency, including any healing, downtime, replacement, 
+      or alternate participation assumptions.
+    isolation_result: improved
+    retention_result: untested
+    transfer_result: untested
+  retrieval_cues:
+  - long-term injury
+  - campaign cadence
+  - functional recovery
+  - player participation
+  - downtime
+  - healing infrastructure
+  - campaign-scale consequence
+  runtime_scope: generic
+  last_verified: '2026-09-02'
+- id: GAMEDESIGN_MEM_013
+  scope_type: topic
+  scope_id: state_granularity_vs_process_granularity
+  type: training_result
+  evidence_class: stochastic_performance
+  observation: 'Twilight: 2000 1E and Version 2.2 produced comparable decision-relevant
+    vehicle component states through very different procedures. 1E traced penetrating
+    energy through internal components, while Version 2.2 mapped penetration margin
+    into categorical minor/major component results. The later procedure retained differentiated
+    persistent state with substantially less causal-resolution work.'
+  confidence: provisional
+  status: active
+  diagnosis:
+    failure_layer: training
+    hypothesis: Separating output-state granularity from causal-procedure 
+      granularity helps preserve simulation consequences while reducing operator
+      burden.
+  boundary: 'Observed in the Twilight: 2000 1E to Version 2.2 vehicle-damage comparison;
+    needs transfer testing in unrelated state-heavy systems.'
+  evidence_count: 1
+  evidence_events:
+  - GAMEDESIGN_EV_0011
+  evidence_origin:
+  - book_close_training
+  - human_teaching
+  likely_owners:
+  - PAT_preserve_decision_relevant_state_while_compressing_resolution_procedure
+  - DRILL_compare_state_detail_to_resolution_cost
+  interventions:
+  - training: Hold final state distinctions constant while comparing a literal 
+      causal procedure with a categorical mapping.
+    isolation_result: improved
+    retention_result: untested
+    transfer_result: untested
+  retrieval_cues:
+  - state granularity
+  - process granularity
+  - vehicle damage
+  - categorical compression
+  - persistent consequence
+  runtime_scope: generic
+  last_verified: '2026-09-03'
+- id: GAMEDESIGN_MEM_014
+  scope_type: topic
+  scope_id: stress_decision_throughput
+  type: training_result
+  evidence_class: stochastic_performance
+  observation: 'Twilight: 2000 1E Coolness Under Fire demonstrated a stress model
+    that reduces adaptive decision throughput while allowing simple repetitive or
+    precommitted behavior to continue. The user preferred this behavioral model over
+    Version 2.2 Initiative/Panic, which was faster to operate but mainly modeled combat
+    tempo and acute shock.'
+  confidence: provisional
+  status: active
+  diagnosis:
+    failure_layer: training
+    hypothesis: Stress can preserve trained competence and player agency by 
+      limiting reassessment opportunities rather than applying only numeric 
+      performance penalties.
+  boundary: 'Observed in the Twilight: 2000 edition comparison; not yet transfer-tested
+    against other morale, panic, or cognitive-load systems.'
+  evidence_count: 1
+  evidence_events:
+  - GAMEDESIGN_EV_0011
+  evidence_origin:
+  - book_close_training
+  - human_teaching
+  - user_feedback
+  likely_owners:
+  - PAT_model_stress_through_adaptive_decision_throughput
+  interventions:
+  - training: Compare a continuous stress-through-decision mechanic with an 
+      acute-shock or flat-penalty alternative and record which player behaviors 
+      disappear.
+    isolation_result: improved
+    retention_result: untested
+    transfer_result: untested
+  retrieval_cues:
+  - combat stress
+  - decision throughput
+  - hesitation
+  - Coolness Under Fire
+  - acute panic
+  - player agency
+  runtime_scope: generic
+  last_verified: '2026-09-03'
