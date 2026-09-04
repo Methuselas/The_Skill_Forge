@@ -356,6 +356,50 @@ class ValidatorScopeTests(unittest.TestCase):
             self.assertIn("rule 26", result.stdout)
             self.assertIn("PAT_wrap_virtuals_with_nvi_idiom", result.stdout)
 
+    def test_validator_rejects_a_language_module_that_drops_core(self) -> None:
+        # A language package is a layer on its domain's agnostic foundation, and
+        # the requirement is one hand-written line per module. Dropped, the build
+        # still succeeds and ships a release whose cards assume a foundation that
+        # is not in the package.
+        with isolated_library() as tmp:
+            root = Path(tmp)
+            manifest = next(
+                path
+                for path in (root / "library").rglob("MODULE.yaml")
+                if "languages" in path.parent.relative_to(root / "library").parts[1:]
+            )
+            module = manifest.parent.relative_to(root / "library").as_posix()
+            core = f"{module.split('/')[0]}/core"
+            data = yaml.safe_load(manifest.read_text(encoding="utf-8"))
+            data["requires"] = [name for name in data.get("requires") or [] if name != core]
+            manifest.write_text(yaml.safe_dump(data, sort_keys=False), encoding="utf-8")
+            result = subprocess.run(
+                [sys.executable, str(root / "PASS/tools/validate.py"), "--library", str(root / "library")],
+                text=True, capture_output=True, cwd=root,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn(f"module {module}: a language module must require {core}", result.stdout)
+
+    def test_validator_rejects_a_requirement_that_names_no_module(self) -> None:
+        # A mistyped requirement resolves to nothing. Caught here it is a typo;
+        # caught at build time it is a ValueError out of the resolver.
+        with isolated_library() as tmp:
+            root = Path(tmp)
+            manifest = next((root / "library").rglob("MODULE.yaml"))
+            module = manifest.parent.relative_to(root / "library").as_posix()
+            data = yaml.safe_load(manifest.read_text(encoding="utf-8"))
+            data["requires"] = [*(data.get("requires") or []), "software-engineering/coer"]
+            manifest.write_text(yaml.safe_dump(data, sort_keys=False), encoding="utf-8")
+            result = subprocess.run(
+                [sys.executable, str(root / "PASS/tools/validate.py"), "--library", str(root / "library")],
+                text=True, capture_output=True, cwd=root,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn(
+                f"module {module}: requires a module that does not exist: software-engineering/coer",
+                result.stdout,
+            )
+
     def test_validator_takes_no_ledger_or_provenance_arguments(self) -> None:
         result = validate("--help")
         self.assertEqual(result.returncode, 0)

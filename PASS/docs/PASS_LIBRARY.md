@@ -48,6 +48,11 @@ requires:
   - software-engineering/core
 ```
 
+A module under `languages/` requires its domain's language-agnostic `core`, and
+`validate.py` enforces it. The requirement is one hand-written line; without the
+check, a module that omits it still builds, and ships a release whose cards assume
+a foundation the package does not contain.
+
 Module metadata is local. PASS does not require a global module registry.
 
 A folder and a module are not required to be the same granularity. If two navigation folders contain mutually dependent knowledge, they may live inside one larger source module rather than creating an artificial module cycle.

@@ -4,7 +4,8 @@
 This checks finished knowledge objects and nothing else. It does not look for a
 source document, a page, a reading receipt, or any record of the session that
 produced a card: a Pattern, Drill, or AP must be valid after the book it was
-learned from is gone. The only inputs are the library tree and the cards in it.
+learned from is gone. The only inputs are the library tree, the cards in it,
+and the `MODULE.yaml` manifests that say which package needs which.
 """
 
 from __future__ import annotations
@@ -31,6 +32,9 @@ AXIS_VALUES = {
     "tradition", "source", "method", "domain",
 }
 OBJECT_TYPES = {"pattern", "drill", "ap"}
+MODULE_MANIFEST = "MODULE.yaml"
+LANGUAGES_SEGMENT = "languages"
+CORE_MODULE = "core"
 CONFIDENCE_VALUES = {"low", "medium", "high"}
 REL_VALUES = {
     "foundation_of", "variant_of", "prerequisite_for", "supports", "related_to",
@@ -388,6 +392,73 @@ def records_in_package(records: list[ObjectRecord], package: str) -> list[Object
     return [record for record in records if package_of(record) == package]
 
 
+def module_requirements(library_root: Path) -> tuple[dict[str, list[str]], list[tuple[str, str]]]:
+    """Every module in the tree, mapped to the modules it declares it needs.
+
+    A module is named by where it sits: `build_release.py` owns the check that
+    the manifest agrees with its path, so reading the path here keeps a mistyped
+    `name:` from hiding the module from this check.
+    """
+    modules: dict[str, list[str]] = {}
+    problems: list[tuple[str, str]] = []
+    for path in sorted(library_root.rglob(MODULE_MANIFEST)):
+        name = path.parent.relative_to(library_root).as_posix()
+        try:
+            data = yaml.safe_load(path.read_text(encoding="utf-8"))
+        except (OSError, yaml.YAMLError) as exc:
+            modules[name] = []
+            problems.append((name, f"unreadable {MODULE_MANIFEST}: {exc}"))
+            continue
+        if not isinstance(data, dict):
+            modules[name] = []
+            problems.append((name, f"{MODULE_MANIFEST} must be a mapping"))
+            continue
+        requires = data.get("requires") or []
+        if not isinstance(requires, list) or not all(isinstance(item, str) for item in requires):
+            problems.append((name, "requires must be a list of module names"))
+            requires = []
+        modules[name] = requires
+    return modules, problems
+
+
+def transitive_requirements(name: str, modules: dict[str, list[str]]) -> set[str]:
+    """Everything `name` pulls in, directly or through another module."""
+    seen: set[str] = set()
+    pending = list(modules.get(name, []))
+    while pending:
+        current = pending.pop()
+        if current in seen:
+            continue
+        seen.add(current)
+        pending.extend(modules.get(current, []))
+    return seen
+
+
+def validate_modules(library_root: Path) -> list[tuple[str, str]]:
+    """Check the module graph a release resolves, before it is resolved.
+
+    A language module sits on top of its domain's language-agnostic foundation
+    and is never shipped without it. Nothing else enforces that: a language
+    module that omits the requirement still builds, and produces a release whose
+    cards read as if the foundation were present. The failure surfaces at the far
+    end, inside a package, where it is expensive to see.
+    """
+    modules, problems = module_requirements(library_root)
+    for name, requires in sorted(modules.items()):
+        for required in requires:
+            if required not in modules:
+                problems.append((name, f"requires a module that does not exist: {required}"))
+        parts = name.split("/")
+        if LANGUAGES_SEGMENT not in parts[1:]:
+            continue
+        core = f"{parts[0]}/{CORE_MODULE}"
+        if core not in modules:
+            continue
+        if core not in transitive_requirements(name, modules):
+            problems.append((name, f"a language module must require {core}"))
+    return sorted(set(problems))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--library", type=Path, default=default_library_root())
@@ -405,16 +476,24 @@ def main() -> int:
         print(f"FAIL: library root not found: {args.library.as_posix()}", file=sys.stderr)
         return 1
     records = validate_library(args.library)
+    module_problems = validate_modules(args.library)
     scope = ""
     if args.package:
         reported = records_in_package(records, args.package)
         if not reported:
             print(f"No objects found in package '{args.package}' under {args.library.as_posix()}.")
             return 1
+        module_problems = [
+            (name, problem) for name, problem in module_problems
+            if name.split("/")[0] == args.package
+        ]
         scope = f" in package '{args.package}'"
     else:
         reported = records
     errors = 0
+    for name, problem in module_problems:
+        print(f"module {name}: {problem}")
+        errors += 1
     for record in reported:
         for error in record.errors:
             print(f"{record.label}: {error}")
