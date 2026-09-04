@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: art
-memory_version: 12
+memory_version: 13
 entries:
 - id: ART_MEM_001
   scope_type: topic
@@ -363,4 +363,105 @@ entries:
   - screen location
   runtime_scope: Work full-production figure render
   last_verified: '2026-08-24'
-
+- id: ART_MEM_007
+  scope_type: topic
+  scope_id: multi_pass_construction_process_fidelity
+  type: known_boundary
+  evidence_class: stochastic_performance
+  observation: >
+    In one blind four-study tiger construction sheet, the final reduced-guide animal was
+    visually good and preserved the pose, foreshortening, and stripe wrap, but the first
+    study already contained developed contour and body volume instead of only the required
+    longitudinal route and sparse transverse axes. A strong-looking final image therefore
+    did not establish that the prescribed construction sequence had been executed.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      Native multi-panel image generation may collapse later construction information into
+      an early scaffold panel, especially when it can satisfy the overall visual concept by
+      showing a polished progression rather than obeying each pass's information ceiling.
+  boundary: >
+    Verified on one blind tiger execution of
+    DRILL_construct_foreshortened_animal_from_backline_cross_axes_and_core_masses.
+    Other animal-construction Drills and single-image construction tasks have not been tested
+    for the same early-pass collapse.
+  confidence: provisional
+  status: monitoring
+  evidence_count: 1
+  evidence_events:
+  - ART_EV_0020
+  evidence_origin:
+  - user_feedback
+  - runtime_self_audit
+  - training_benchmark
+  likely_owners:
+  - DRILL_construct_foreshortened_animal_from_backline_cross_axes_and_core_masses
+  - native multi-panel image generation
+  retrieval_cues:
+  - construction sequence
+  - first study
+  - skeleton
+  - scaffold
+  - backline
+  - cross axes
+  - animal construction
+  - tiger
+  - multi-pass
+  - information ceiling
+  runtime_scope: native image generation blind Drill execution
+  last_verified: '2026-09-04'
+- id: ART_MEM_008
+  scope_type: topic
+  scope_id: jump_pose_mechanics
+  type: known_boundary
+  evidence_class: stochastic_performance
+  observation: >
+    In one blind bouncing-ball-to-human transfer sheet, the ball mechanics were excellent:
+    its arcs, spacing, contacts, squash, stretch, and energy loss read correctly. The human
+    sequence below it did not convincingly read as jumping because the human poses
+    themselves did not embody credible preparation, launch, flight, contact, and recovery
+    mechanics. Placing generic articulated poses along an arc did not make them read as a
+    human jump. The hands were topologically acceptable at their small scale but only
+    adequate in visual quality.
+  diagnosis:
+    failure_layer: application
+    hypothesis: >
+      Correctly representing an abstract ballistic model does not guarantee that the figure
+      poses placed along it will show recognizable human jumping mechanics. The generator
+      may rely on the trajectory line and positional sequence while substituting generic
+      crouching, standing, reaching, or suspended poses for phase-specific whole-body action.
+      Passing hand topology also does not establish expressive or draftsmanship quality in
+      the hands.
+  boundary: >
+    Verified on one blind execution of
+    DRILL_calibrate_gravity_impact_and_deformation_with_bouncing_ball. The ball component
+    passed strongly; the negative evidence is specifically the human pose design and its local
+    finish, not the plotted trajectory or ball timing. Broader jump posing has not yet been
+    retested.
+  confidence: provisional
+  status: monitoring
+  evidence_count: 1
+  evidence_events:
+  - ART_EV_0021
+  evidence_origin:
+  - user_feedback
+  - runtime_self_audit
+  - training_benchmark
+  likely_owners:
+  - DRILL_calibrate_gravity_impact_and_deformation_with_bouncing_ball
+  - AP_construct_jump_from_compression_launch_flight_contact_and_recovery
+  retrieval_cues:
+  - jump
+  - jumping
+  - hop
+  - bouncing ball
+  - ballistics
+  - articulated transfer
+  - jump pose
+  - pose mechanics
+  - action readability
+  - timing sheet
+  - timesheet
+  - hands
+  runtime_scope: native image generation blind Drill execution
+  last_verified: '2026-09-04'

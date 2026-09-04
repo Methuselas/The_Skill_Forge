@@ -65,7 +65,7 @@ The classifications below are mutually exclusive. `REPAIR` takes precedence for 
 | APs | 58 | 0 | 8 | 50 |
 | Total | 552 | 384 | 9 | 159 |
 
-The ten executed Drills all passed as cards: eight attempts satisfied their checks and two unsuccessful attempts were correctly rejected by their checks. The latter result is evidence that the Success Checks discriminate, not evidence that the Drills are defective.
+The ten executed Drills all passed as cards: six attempts satisfied their checks and four unsuccessful attempts were rejected by their checks. Two attempt classifications were corrected after post-run teacher review: the tiger's attractive final did not excuse an invalid first construction study, and the excellent ball mechanics did not make human poses that failed to look like jumping pass. These results are evidence that the Drill contracts discriminate, not evidence that the Drills are defective.
 
 The exact deferred Drill set is all live Art Drills except the ten named under Visual Runs. The exact deferred AP set is all live Art APs except the eight repaired APs named below. The repaired APs are statically accepted after correction but remain eligible for later host execution like any orchestration claim.
 
@@ -150,6 +150,8 @@ The nine Pass 3 regression-target APs were rechecked. Their delegated Pattern na
 
 Native image generation was available. Ten domain-diverse attempts were frozen before their Success Checks were opened.
 
+Post-run teacher review corrected two initial attempt classifications by separating final-image appeal from process compliance and ball mechanics from articulated transfer.
+
 | Drill | Area | Attempt result | Card result |
 |---|---|---|---|
 | `DRILL_subdivide_a_plane_without_screen_space_guessing` | perspective / spatial construction | FAIL — depth spacing compressed, but the post-height guides remained horizontal instead of sharing a valid receding height construction | PASS — the check caught the exact construction failure |
@@ -157,10 +159,10 @@ Native image generation was available. Ten domain-diverse attempts were frozen b
 | `DRILL_capture_gesture_from_short_visual_memory` | figure / gesture | PASS — attitude, support, torso action, and named action corrections survived without anatomy/detail rescue | PASS |
 | `DRILL_construct_whole_figure_from_mass_relations_before_contour` | figure anatomy / support | PASS — the stocky body type, large mass relation, plumb/support, and reduced silhouette read before detailed contour | PASS |
 | `DRILL_invent_hand_views_by_projection_and_reversal` | hands | PASS — all four views preserved palm/wrist logic and ordinary human topology through transformed views | PASS |
-| `DRILL_construct_foreshortened_animal_from_backline_cross_axes_and_core_masses` | animal construction | PASS — one tiger pose retained its back route, tilted axes, attached masses, foreshortening, and stripe wrap through four representations | PASS |
+| `DRILL_construct_foreshortened_animal_from_backline_cross_axes_and_core_masses` | animal construction | FAIL — the later and final tiger studies were visually good, but the first study already contained developed contour and volume instead of only the required longitudinal route and sparse transverse axes | PASS — the first-study information ceiling makes the polished bypass rejectable |
 | `DRILL_compare_matched_forms_across_material_responses` | rendering / material | PASS — fixed rounded-cube geometry and lighting separated clay, ceramic, metal, glass, and skin by causal optical behavior | PASS |
 | `DRILL_match_target_color_by_hue_value_and_chroma_correction` | color | PASS — three candidate sequences named and reduced dominant hue/value/chroma errors, including a secondary chroma drift after value correction | PASS |
-| `DRILL_calibrate_gravity_impact_and_deformation_with_bouncing_ball` | animation timing / spacing | PASS — ballistic centers, fall/apex spacing, contact/squash order, directional stretch, energy loss, and articulated hop transfer were readable | PASS |
+| `DRILL_calibrate_gravity_impact_and_deformation_with_bouncing_ball` | animation timing / spacing | FAIL — the ball mechanics were excellent, but the human poses themselves did not look like a person jumping; placing generic poses along the arc did not supply credible preparation, launch, flight, contact, and recovery mechanics; the small hands were acceptable but not strong | PASS — the final Success Check explicitly requires the hop or jump to preserve the ball's physical logic |
 | `DRILL_test_animation_acting_as_pantomime_without_supporting_channels` | sequential acting / staging | FAIL — body-only acting read correctly, but the required restored-channel comparison was omitted; several small/closed hands were also indeterminate under local topology review | PASS — the check rejected an incomplete but attractive result |
 
 For the material comparison, the post-freeze nearest-neighbor record was: clay ↔ skin (matte granular body versus warm soft sheen), ceramic ↔ metal (broad glossy highlight versus sharp high-contrast environment reflection), glass ↔ ceramic (transmission/refraction and bright edge), and skin ↔ clay (subtle warm sheen and organic surface response). The small corrected skin repeat increased the separating sheen without changing the base form.
@@ -171,7 +173,7 @@ The dedicated hand sheet was inspected at original resolution. Views A, B, C, an
 
 The pantomime sheet was not accepted as a completed artifact. Open hands in the first raised pose, first reaching pose, rear spread pose, and second-sequence raised pose were plausible, but several chest, chin, hair, hip, and small reaching hands were closed, partially occluded, or too small to prove a unique four-finger-plus-thumb root map. Those indeterminate instances forbid a global hand-topology pass. The visible arm and leg chains retained ordinary human parent origins, endpoints, and plausible joint direction; the failure was hand evidence and the missing restored-channel test, not a limb-chain substitution.
 
-The articulated hop sheet used low-resolution animation poses where full digit topology was not represented. Across the visible poses, two arm chains and two leg chains remained attached to the expected shoulder and pelvic origins, ended in hand/foot types, and showed ordinary or extreme-but-plausible ranges; no endpoint exchange or reversed hinge was observed.
+The ball half of the timing sheet passed strongly: its ballistic arcs, spacing changes, contact-timed squash, path-aligned stretch, and energy loss were convincing. The human half did not pass because the poses themselves did not look like a person jumping. Although two arm chains and two leg chains remained attached to the expected origins and no endpoint exchange or reversed hinge was observed, the body shapes read as generic crouching, standing, reaching, or suspended figures arranged along a trajectory rather than credible preparation, launch, airborne organization, landing contact, and recovery. Connected limb topology and a correct arc did not substitute for pose mechanics or action readability. The small hands were topologically acceptable at the represented scale, but their draftsmanship and expressive specificity were only adequate.
 
 Generated attempts were preview-only acceptance evidence and were not copied into the repository or release inputs.
 
