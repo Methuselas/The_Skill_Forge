@@ -23,6 +23,8 @@ tags:
 cross_links:
 - rel: supports
   target_object_id: AP_develop_storyboard_sequence_in_progressive_directing_passes
+- rel: supports
+  target_object_id: PAT_stage_subtext_through_visible_behavior_without_forcing_it_into_dialogue
 - rel: related_to
   target_object_id: AP_review_completed_animation_from_intent_to_evidence_and_revision
 - rel: related_to

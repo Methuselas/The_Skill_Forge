@@ -21,6 +21,8 @@ tags:
 - subtext
 - physical_business
 cross_links:
+- rel: supports
+  target_object_id: PAT_make_dialogue_business_carry_character_and_conflict
 - rel: related_to
   target_object_id: PAT_stage_subtext_through_visible_behavior_without_forcing_it_into_dialogue
 - rel: related_to

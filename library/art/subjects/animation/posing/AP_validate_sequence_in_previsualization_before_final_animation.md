@@ -27,7 +27,7 @@ cross_links:
   target_object_id: PAT_choose_viewpoint_to_strengthen_story_effect
 - rel: supports
   target_object_id: PAT_motivate_camera_movement_from_story_action_or_information
-- rel: related_to
+- rel: supports
   target_object_id: PAT_handoff_focus_and_visual_weight_between_shots
 reference:
   source_title: The Animator's Survival Kit

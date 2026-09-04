@@ -24,22 +24,24 @@ cross_links:
   target_object_id: PAT_define_image_story_job_before_visualizing
 - rel: supports
   target_object_id: PAT_choose_viewpoint_to_strengthen_story_effect
+- rel: supports
+  target_object_id: PAT_build_action_board_suspense_through_rising_jeopardy_and_reversal
+- rel: supports
+  target_object_id: PAT_build_complex_storyboard_choreography_on_performed_action_foundation
+- rel: supports
+  target_object_id: PAT_earn_each_storyboard_panel_with_information_character_plot_or_tension
+- rel: supports
+  target_object_id: PAT_hook_storyboard_shots_through_continuing_action_and_camera_state
+- rel: supports
+  target_object_id: PAT_key_representative_storyboard_panels_for_lighting_focus_and_production_priority
+- rel: supports
+  target_object_id: PAT_use_small_color_keys_as_shared_final_look_targets
 - rel: related_to
   target_object_id: AP_validate_sequence_in_previsualization_before_final_animation
 - rel: related_to
   target_object_id: AP_stage_story_scene_from_big_idea_to_camera_rough
 - rel: related_to
   target_object_id: AP_review_and_revise_rough_storyboards_in_story_meeting
-- rel: related_to
-  target_object_id: PAT_build_action_board_suspense_through_rising_jeopardy_and_reversal
-- rel: related_to
-  target_object_id: PAT_hook_storyboard_shots_through_continuing_action_and_camera_state
-- rel: related_to
-  target_object_id: PAT_key_representative_storyboard_panels_for_lighting_focus_and_production_priority
-- rel: related_to
-  target_object_id: PAT_use_small_color_keys_as_shared_final_look_targets
-- rel: related_to
-  target_object_id: PAT_build_complex_storyboard_choreography_on_performed_action_foundation
 reference:
   source_title: The Art of Storyboard
   author: Don Bluth

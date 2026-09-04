@@ -84,7 +84,9 @@ variants: []
 # Develop a Scene Through Registered Successors
 
 ## Pattern Rule
-Develop every important object in an accepted scene from its exact ratified predecessor representation. Later visual operations add only currently authorized information to the same artifact instead of independently regenerating a similar scene from the original verbal brief.
+**IF** an accepted scene must develop through a later visual operation while preserving its approved decisions
+**THEN** develop every important object from its exact ratified predecessor representation, adding only currently authorized information to the same artifact instead of independently regenerating a similar scene from the original verbal brief.
+**ELSE** establish the current operation's root artifact before registering any successor.
 
 ## Do
 - Register the actual accepted predecessor before adding information. The verbal brief remains constraint/context; it is not a substitute visual source once an accepted artifact exists.

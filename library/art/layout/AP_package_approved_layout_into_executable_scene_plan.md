@@ -21,9 +21,9 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_treat_layout_as_annotated_working_drawing_for_downstream_departments
-- rel: related_to
+- rel: supports
   target_object_id: PAT_decompose_animation_scene_into_registered_level_stack_for_independent_control
-- rel: related_to
+- rel: supports
   target_object_id: PAT_reuse_approved_production_art_by_reference_while_preserving_current_scene_identity
 - rel: related_to
   target_object_id: AP_construct_a_shared_scene_perspective_field
