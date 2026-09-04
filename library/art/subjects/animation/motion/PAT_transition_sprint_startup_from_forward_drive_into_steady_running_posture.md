@@ -56,4 +56,4 @@ variants: []
 - The final repeating run feels like the result of the startup rather than an unrelated cycle.
 
 ## Notes
-Webster's sprint-start sequence is useful because it shows acceleration as a changing whole-body problem. The exact lean, stride count, and timing vary with athlete, style, and starting condition; preserve the transition principle rather than a fixed pose chart.
+Acceleration is a changing whole-body problem. The exact lean, stride count, and timing vary with athlete, style, and starting condition; preserve the transition principle rather than a fixed pose chart.

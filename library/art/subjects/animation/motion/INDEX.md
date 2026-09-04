@@ -5,6 +5,7 @@
 ## Objects
 
 - [Adapt Human Walking Mechanics to Surface Slope and Footwear Constraints](PAT_adapt_human_walking_mechanics_to_surface_slope_and_footwear_constraints.md) - pattern; 2 block. Tags: animation, balance, contact, footwear, locomotion, slope, terrain, walk.
+- [Allocate Pose-to-Pose and Straight-Ahead Control by Motion System](PAT_allocate_pose_to_pose_and_straight_ahead_control_by_motion_system.md) - pattern; 2 block. Tags: animation, motion_systems, pose_to_pose, straight_ahead, workflow.
 - [Anchor Stylized Motion In Observed Mass Mechanics](PAT_anchor_stylized_motion_in_observed_mass_mechanics.md) - pattern; 2 block. Tags: animation, believability, mass, stylization.
 - [Animate Fire And Smoke From Rising Flow Breakup And Dissipation](PAT_animate_fire_and_smoke_from_rising_flow_breakup_and_dissipation.md) - pattern; 2 block. Tags: animation, breakup, effects, fire, flow, smoke.
 - [Animate Liquid Splash From Mass To Sheets Droplets And Secondary Response](PAT_animate_liquid_splash_from_mass_to_sheets_droplets_and_secondary_response.md) - pattern; 2 block. Tags: animation, breakup, droplets, effects, splash, water.
@@ -38,6 +39,7 @@
   - Variants: `Hold the Subject While the Environment Moves in Perspective` (method_sequence).
 - [Propagate Wave Or Whip Action Through Articulated Chain](PAT_propagate_wave_or_whip_action_through_articulated_chain.md) - pattern; 2 block. Tags: animation, overlap, wave, whip.
   - Variants: `Fish Swimming Head-to-Tail Undulation` (context).
+- [Reanchor Straight-Ahead Animation With Registration Drawings](PAT_reanchor_straight_ahead_animation_with_registration_drawings.md) - pattern; 2 block. Tags: animation, construction, continuity, registration, scale, straight_ahead.
 - [Rebuild Walking Gait Around Changed Support and Limb Clearance Constraints](PAT_rebuild_walking_gait_around_changed_support_and_limb_clearance_constraints.md) - pattern; 2 block. Tags: animation, asymmetry, cane, crutch, limb_clearance, locomotion, support, walk, walker.
 - [Scale Whole Body Effort To Apparent Load](PAT_scale_whole_body_effort_to_apparent_load.md) - pattern; 2 block. Tags: acting, animation, effort, weight.
   - Variants: `Distinguish Carrying From Sustained Quadruped Haul` (context).

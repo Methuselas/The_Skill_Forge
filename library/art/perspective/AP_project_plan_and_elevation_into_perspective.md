@@ -16,7 +16,15 @@ tags:
 - plan
 - elevation
 - projection
-cross_links: []
+cross_links:
+- rel: supports
+  target_object_id: PAT_establish_eye_level_and_vanishing_directions
+- rel: supports
+  target_object_id: PAT_project_plan_points_through_station_point_to_picture_plane
+- rel: supports
+  target_object_id: PAT_transfer_elevation_heights_from_true_measure_line
+- rel: supports
+  target_object_id: PAT_carry_scale_through_depth_with_height_and_width_guides
 reference:
   source_title: Perspective Made Easy
   author: Ernest R. Norling
@@ -54,11 +62,11 @@ Construct an exact perspective view from orthographic plan and elevation informa
 - Height is transferred from a true-measure location before being carried through perspective.
 
 **Flow**
-1. **Establish the projection setup.** Place the object plan relative to the Picture Plane, choose the station point/eye, and establish the Horizon Line and Ground Line for the perspective view.
-2. **Project the plan.** Draw visual rays from the station point through the plan's controlling corners. Where they cross the Picture Plane establishes projected plan positions.
-3. **Derive the horizontal vanishing points.** From the station point, draw lines parallel to the plan's principal direction families; transfer their intersections with the Picture Plane into the Horizon Line of the perspective construction.
-4. **Transfer true heights.** Use the elevation to place real heights at a true-measure/ground-line location associated with the corresponding projected point.
-5. **Carry heights through the field.** Project those height marks toward the correct vanishing directions and intersect them with the verticals already fixed by the plan projection.
+1. **Establish the projection setup.** Apply the exact camera/viewfield variant of `PAT_establish_eye_level_and_vanishing_directions`: place the object plan relative to the Picture Plane, choose the station point/eye, and establish the Horizon Line and Ground Line for the perspective view.
+2. **Project the plan.** Apply `PAT_project_plan_points_through_station_point_to_picture_plane` to the plan's controlling corners. Keep every projected vertical registered to the visual ray and Picture Plane intersection that generated it.
+3. **Derive the horizontal vanishing points.** Under `PAT_establish_eye_level_and_vanishing_directions`, draw station-point lines parallel to the plan's principal direction families and transfer their Picture Plane intersections into the Horizon Line.
+4. **Transfer true heights.** Apply `PAT_transfer_elevation_heights_from_true_measure_line`: register a true-measure/ground-line location with the corresponding projected point, then place the elevation's real vertical intervals there.
+5. **Carry heights through the field.** Apply `PAT_carry_scale_through_depth_with_height_and_width_guides` to carry those true-height marks toward the correct vanishing directions and intersect them with the plan-fixed verticals.
 6. **Complete the form.** Join corresponding corners and add only details whose plan/elevation position can be supported by the same construction.
 7. **Validate.** Trace important projected corners back to both the plan ray and elevation height that generated them.
 

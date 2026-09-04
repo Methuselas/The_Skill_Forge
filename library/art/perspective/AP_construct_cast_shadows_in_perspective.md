@@ -16,7 +16,13 @@ tags:
 - shadow
 - light
 - projection
-cross_links: []
+cross_links:
+- rel: supports
+  target_object_id: PAT_project_cast_shadow_points_from_light_and_receiver_geometry
+- rel: supports
+  target_object_id: PAT_establish_eye_level_and_vanishing_directions
+- rel: supports
+  target_object_id: PAT_construct_inclined_planes_from_base_vanishing_directions
 reference:
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
@@ -62,12 +68,12 @@ Project cast shadows so the light direction, receiving plane, object position, a
 - Shadow construction must remain consistent with the receiving plane's perspective.
 
 **Flow**
-1. **Classify the light.** Use the parallel-sun branch or the local-point-source branch.
-2. **Find the shade boundary.** Identify the object's edge or line separating light-facing and turned-away surfaces.
-3. **Solve the receiving-plane direction.** Establish how shadow-bearing lines travel across that plane.
-4. **Parallel sunlight branch.** Keep the light rays parallel in space. When oblique to the picture plane, use the light-ray vanishing point and the shadow-direction vanishing point in their corresponding perspective relationship.
-5. **Local point-source branch.** Draw rays from the actual light source through the relevant shade-boundary points; use the source's projection onto the plane to establish the shadow direction for upright forms.
-6. **Intersect constructions.** The intersections locate exact cast-shadow points; connect them in the order supplied by the casting boundary.
+1. **Classify the projection branch.** Apply `PAT_project_cast_shadow_points_from_light_and_receiver_geometry`: use parallel rays for distant directional light and divergent rays for a nearby point source.
+2. **Find the shade boundary.** Under `PAT_project_cast_shadow_points_from_light_and_receiver_geometry`, identify the object's edge or line separating light-facing and turned-away surfaces; these are the casting points.
+3. **Solve the receiving geometry.** Apply `PAT_establish_eye_level_and_vanishing_directions` to the receiver's established direction families. When the receiver is an inclined plane, apply `PAT_construct_inclined_planes_from_base_vanishing_directions` before projecting onto it.
+4. **Parallel sunlight branch.** Continue applying `PAT_project_cast_shadow_points_from_light_and_receiver_geometry`: keep the light rays parallel in space and, when oblique to the picture plane, coordinate the light-ray and receiver-plane shadow-direction vanishing points.
+5. **Local point-source branch.** Continue applying `PAT_project_cast_shadow_points_from_light_and_receiver_geometry`: draw rays from the light through the relevant shade-boundary points and use the source's projection onto the receiver to establish the shadow direction for upright forms.
+6. **Intersect constructions.** Complete `PAT_project_cast_shadow_points_from_light_and_receiver_geometry` by locating every decisive ray/receiver intersection and connecting the results in casting-boundary order. Reconstruct the intersections whenever the receiver changes plane or curvature.
 7. **Validate.** Confirm that a lower sun gives longer projected shadows and a higher sun shorter ones under the same scene geometry, and that local-light shadows fan consistently from the source.
 
 **Failure / Rollback Rules**

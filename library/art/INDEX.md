@@ -84,8 +84,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - [Foundations](foundations/INDEX.md) - 54 object(s).
 - [Layout](layout/INDEX.md) - 12 object(s).
 - [Painting](painting/INDEX.md) - 6 object(s).
-- [Perspective](perspective/INDEX.md) - 28 object(s).
+- [Perspective](perspective/INDEX.md) - 31 object(s).
 - [Process](process/INDEX.md) - 17 object(s).
 - [Rendering](rendering/INDEX.md) - 41 object(s).
 - [Storyboarding](storyboarding/INDEX.md) - 13 object(s).
-- [Subjects](subjects/INDEX.md) - 261 object(s).
+- [Subjects](subjects/INDEX.md) - 263 object(s).

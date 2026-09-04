@@ -18,7 +18,23 @@ tags:
 - run
 - locomotion
 - flight
-cross_links: []
+cross_links:
+- rel: supports
+  target_object_id: PAT_separate_timing_from_spacing_when_designing_motion
+- rel: supports
+  target_object_id: PAT_track_weight_support_and_transfer_through_every_pose
+- rel: supports
+  target_object_id: PAT_stage_contact_before_deformation_to_strengthen_impact
+- rel: supports
+  target_object_id: PAT_encode_locomotion_weight_through_vertical_mass_shift_and_support
+- rel: supports
+  target_object_id: PAT_separate_ballistic_center_of_mass_path_from_body_rotation_and_deformation
+- rel: supports
+  target_object_id: PAT_articulate_foot_roll_to_control_stride_weight_and_character
+- rel: supports
+  target_object_id: PAT_transition_sprint_startup_from_forward_drive_into_steady_running_posture
+- rel: supports
+  target_object_id: PAT_preserve_support_logic_while_distorting_locomotion_design
 reference:
   source_title: The Animator's Survival Kit
   author: Richard Williams
@@ -33,15 +49,15 @@ variants: []
 Construct a run around support/contact, compression and push-off, a true airborne phase, recovery, and the next contact.
 
 ## Steps / Flow
-1. Establish successive contact positions early enough to define stride length, travel, and the intended speed class; treat stride length and stride frequency as separate speed controls rather than shortening the whole cycle indiscriminately.
-2. At a true run contact, confirm that the previous support has already released; if both feet remain grounded through the transition, the action is drifting toward a walk.
-3. Separate first contact from the following load-absorption phase: let the landing foot arrive, then let the support leg and body compress as impact is accepted.
-4. Let the support leg redirect the mass into push-off and extension.
-5. Create a flight phase with both feet off the ground; allow the body to reach a higher or more extended portion of its path during unsupported flight when that fits the run.
+1. Apply `PAT_separate_timing_from_spacing_when_designing_motion` while placing successive contacts: choose stride length, contact timing, travel, and speed class as distinct controls instead of shortening the whole cycle indiscriminately.
+2. Apply `PAT_track_weight_support_and_transfer_through_every_pose` at the run/walk gate. At a true run contact, the previous support has already released; if both feet remain grounded through the transition, return to the gait choice.
+3. Apply `PAT_stage_contact_before_deformation_to_strengthen_impact` and `PAT_encode_locomotion_weight_through_vertical_mass_shift_and_support`: let the landing foot arrive first, then let the support leg and body compress as impact is accepted.
+4. Continue `PAT_track_weight_support_and_transfer_through_every_pose`, using `PAT_articulate_foot_roll_to_control_stride_weight_and_character` where the foot's contact and release need explicit control, so the support redirects the mass into push-off and extension.
+5. Apply `PAT_separate_ballistic_center_of_mass_path_from_body_rotation_and_deformation` to the unsupported phase: keep both feet off the ground and organize pose change around a coherent center-of-mass arc.
 6. Use push -> suspension -> first contact -> squash -> passing -> extension as a diagnostic sequence when the cycle's mechanics are unclear, without treating those labels as a fixed timing formula.
-7. Coordinate body lean, reach of the incoming foot, and recovery of the trailing leg with speed rather than merely shortening the duration of a generic run.
-8. For faster runs and sprinting, increase whole-body drive and opposing arm action as needed; for sustained running or jogging, reduce stride, vertical excursion, limb lift, and arm amplitude when the observed gait supports it.
-9. For very young or uncertain runners, allow balance needs to override efficient adult coordination: shorter steps, very brief suspension, higher step frequency, and arms held outward may be more convincing than a clean adult sprint pattern.
+7. Coordinate body lean, reach of the incoming foot, and recovery of the trailing leg with speed. When a sprint begins from rest, apply `PAT_transition_sprint_startup_from_forward_drive_into_steady_running_posture` instead of copying the steady cycle into acceleration.
+8. For faster runs and sprinting, increase whole-body drive and opposing arm action as needed; for sustained running or jogging, reduce stride, vertical excursion, limb lift, and arm amplitude when the observed gait supports it. Apply `PAT_preserve_support_logic_while_distorting_locomotion_design` whenever stylization pushes the poses away from ordinary mechanics.
+9. For very young or uncertain runners, retain the support audit from `PAT_track_weight_support_and_transfer_through_every_pose`: shorter steps, very brief suspension, higher step frequency, and arms held outward may be more convincing when balance overrides efficient adult coordination.
 10. Recover the limbs for the next landing and repeat at the chosen cadence.
 
 **Completion check**
@@ -52,4 +68,4 @@ Construct a run around support/contact, compression and push-off, a true airborn
 - Landing contact and subsequent compression read as related but distinct events rather than one undifferentiated pose.
 
 ## Notes
-Blair's walk/run comparison is most useful as a structural check rather than a fixed pose recipe: a run is distinguished by true release into unsupported flight, and the contact relationship between landing foot, trailing leg, and advancing mass changes with speed. Webster's phase breakdown is likewise a diagnostic scaffold, not a universal frame chart. Character proportions, terrain, acceleration, age, balance demands, and style can change the exact geometry.
+Treat walk/run comparison as a structural check rather than a fixed pose recipe: a run is distinguished by true release into unsupported flight, and the contact relationship between landing foot, trailing leg, and advancing mass changes with speed. The named phase breakdown is likewise a diagnostic scaffold, not a universal frame chart. Character proportions, terrain, acceleration, age, balance demands, and style can change the exact geometry.

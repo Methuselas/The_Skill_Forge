@@ -122,6 +122,11 @@
     },
     {
       "incoming_relationships": 11,
+      "object_id": "PAT_design_animation_extreme_as_storytelling_pose",
+      "object_name": "Design Animation Extreme as Storytelling Pose"
+    },
+    {
+      "incoming_relationships": 11,
       "object_id": "AP_gate_staged_visual_work_by_approval",
       "object_name": "Gate Staged Visual Work by Approval"
     },
@@ -141,25 +146,20 @@
       "object_name": "Design the Pose Against Its Center of Gravity"
     },
     {
-      "incoming_relationships": 10,
-      "object_id": "PAT_develop_scene_through_registered_successors",
-      "object_name": "Develop a Scene Through Registered Successors"
-    },
-    {
-      "incoming_relationships": 10,
-      "object_id": "PAT_concentrate_contrast_and_accents_at_focal_area",
-      "object_name": "Concentrate Contrast and Accents at the Focal Area"
+      "incoming_relationships": 11,
+      "object_id": "PAT_track_animal_motion_through_moving_pivots_and_overlapping_arcs",
+      "object_name": "Track Animal Motion Through Moving Pivots and Overlapping Arcs"
     }
   ],
-  "objects": 547,
+  "objects": 552,
   "objects_by_type": {
     "ap": 58,
     "drill": 119,
-    "pattern": 370
+    "pattern": 375
   },
-  "records": 1082,
+  "records": 1087,
   "records_by_status": {
-    "NOT_TESTED": 1066,
+    "NOT_TESTED": 1071,
     "PASS_WITH_BOUNDARY_CONFIRMED": 16
   },
   "schema_version": 1,
