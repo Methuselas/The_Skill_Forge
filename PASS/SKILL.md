@@ -37,9 +37,16 @@ search or modify another. Cards may reference their own domain plus `metaskills`
 Treat AP authoring as **orchestration authoring**, not merely another extraction
 shape. A source may teach an AP directly, but a stable AP may also be synthesized
 from accepted Patterns when a recurring action needs dependable ordering, gates,
-recovery, and completion. See `docs/PASS_RUN.md` §2.7. During execution, productive
+recovery, and completion. See `docs/PASS_RUN.md` §2.8. During execution, productive
 actions resolve AP-first; Pattern-first assembly is the fallback when coverage is
 missing.
+
+Every run ends with a **third read**: the cards it just produced, read cold
+against the schema, before the delta is presented. See `docs/PASS_RUN.md` §2.6.
+The validator is the floor of that pass, not the pass — a Success Check nothing
+can fail, a graded artifact no instruction asks for, and a universal IF with a
+mechanism-specific THEN all pass `validate.py` and have each cost a lane-wide
+repair.
 
 After edits, run the validation and release-boundary checks under `tools/` before
 publishing a release:

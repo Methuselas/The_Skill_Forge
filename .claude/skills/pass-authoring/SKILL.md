@@ -34,6 +34,11 @@ Author in one domain per run. Duplicate-guard against that domain only. Cards ma
 reference their own domain plus `metaskills`; any other cross-package reference
 fails validation.
 
+A run has three reads, not two. The third is of the cards the run produced, read
+cold against the schema before the delta is presented (`PASS/docs/PASS_RUN.md`
+§2.6). `validate.py` is its floor, not its substance: the defects that have forced
+lane-wide repair sweeps all passed the validator on the day they were written.
+
 Do not make released skills depend on this repo, `.agents/`, or `.claude/`.
 Nothing may depend on `archive/`.
 

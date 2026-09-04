@@ -3,7 +3,7 @@
 Written 2026-08-23 from the software-engineering lane, after the `stage_binding`
 thesis. Self-contained: you should not need that conversation to act on this.
 
-The convention this asks you to apply now lives in `PASS/docs/PASS_RUN.md` §2.7
+The convention this asks you to apply now lives in `PASS/docs/PASS_RUN.md` §2.8
 ("The AP ownership edge"). It is shared across all three lanes. The work is not —
 `CLAUDE.md` rule 2 still holds, so Art is repaired in an Art run, by you.
 

@@ -25,7 +25,7 @@ It was never a content problem. All 22 APs already listed the right Patterns —
 
 75% is the highest of the three lanes, and every AP names its owners in prose.
 This lane is now the reference implementation of the convention in
-`PASS/docs/PASS_RUN.md` §2.7, ahead of both software-engineering (29%) and art.
+`PASS/docs/PASS_RUN.md` §2.8, ahead of both software-engineering (29%) and art.
 
 ## For comparison, at the same date
 
@@ -46,7 +46,7 @@ to fix.
 
 The 2026-08-23 record asserted that the unclaimed remainder was "local decisions
 plus any genuine AP coverage gap" without saying which was which. PASS_RUN.md
-§2.7 says recording that distinction is the point, so this pass made it. The lane
+§2.8 says recording that distinction is the point, so this pass made it. The lane
 had grown to 30 APs / 169 patterns / 83% claimed by then.
 
 ## Defects found and fixed

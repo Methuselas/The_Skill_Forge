@@ -245,7 +245,8 @@ no-extract: <front/back matter sections>
 ## 2. The run
 
 Two execution branches. The reading discipline (§2.1–§2.3) is identical in both;
-what differs is the scope each pass covers.
+what differs is the scope each pass covers. Two of the three reads are of the
+source; the third is of the cards.
 
 ```text
 UNIT INGESTION                      CURRICULUM AUDIT
@@ -263,13 +264,19 @@ second read of the unit             deep reread of those bounded
       extract                             extract
         ↓                                   ↓
  reconcile / disposition          reconcile against mature owners
-        ↓                                   ↓
-    close the unit                close the audited sections
+        └────────────────┬──────────────────┘
+                         ↓
+         third read — the cards the run produced
+                         ↓
+                close what the run opened
 ```
 
 Audit mode still requires understanding the whole source; the structural pass is
 a read, not a scan. It does not license extracting from a section that was never
 properly read.
+
+The branches differ in how the source is read. They do not differ in the check on
+what comes out: both end in the third read (§2.6).
 
 ### 2.1 First read — deep, and pre-extractive
 
@@ -440,7 +447,65 @@ just the card's own body.
 True supersession is rare — expect it a few times per curriculum, not per unit.
 Prefer refinement or variant whenever either honestly fits.
 
-### 2.6 Present the delta, then land it
+### 2.6 Third read — the cards, not the source
+
+The first two reads answer what the source teaches and where it belongs. Neither
+one reads the card. That gap is where every lane repair so far has come from: all
+71 software-engineering drills repaired against the Instructions contract, four
+Success Checks no attempt could fail, a core sweep for universal IFs with
+mechanism-specific THENs, four passes over art card contracts and ownership,
+Patterns in writing that their own APs were already performing. Those cards
+passed the validator on the day they were written. **The defects were invisible
+to the validator and plainly visible in the card.**
+
+The third read is one pass over what this run produced, read cold against the
+schema. It happens before the delta is presented, so what is presented is already
+conformant — the repair costs one pass now instead of a lane-wide sweep later.
+
+**Scope is the delta, not the library.** Every card the run created or changed: a
+refinement counts, a replacement's migrated links count, and so do the cards on
+the far end of them. Nothing else is reread.
+
+**Run the mechanical floor first.** `validate.py --package <domain>` settles keys,
+headings, enums, filenames, placeholders, source-dependent phrasing, and
+cross-package identifiers. Spending a read on those is waste. The validator is the
+floor, not the check.
+
+**Then read each card as the runtime will.** Close the source. Close the staged
+information. The author knows what the card means; the runtime has only what the
+card says, and a card that needs the run's context to parse has already failed
+rule 1 in a way its own author cannot see.
+
+Take each section against the contract `PASS_SCHEMA.md` sets for it. What that
+document states as a requirement, this pass asks as a question.
+
+#### The shapes that have cost a repair sweep
+
+| the shape | the question that finds it |
+|---|---|
+| a Success Check any completed attempt satisfies | which bullet does a lazy but complete attempt fail? |
+| the property under test recorded as a prediction | does the check require that it was run, produced, or applied — or only that it was expected? |
+| a graded artifact no step asks for | for each bullet, which step hands that artifact in? |
+| the artifact buried in a step about something else, or offered as optional where the check is mandatory | does it have a step of its own, and is it required? |
+| Instructions carrying the standard | does a step say which answer is right, rather than what to hand in? |
+| a universal IF with a mechanism-specific THEN | read the THEN as a practitioner whose toolkit lacks each named mechanism — is anything actionable left? |
+| chapter order wearing AP headings | entry state, ordered dependent decisions, advance gates, branch and recovery, completion check: which are actually present? |
+| an AP performing a decision no Pattern owns | for each decision the Steps make, name the owner. |
+| a card that only reads correctly with the source open | what does this sentence mean to someone who has never seen the book? |
+
+The list is what has bitten, not a closed set. A shape that recurs is a candidate
+for mechanization in `validate.py` — never for widening the schema, which is rule
+5, and never for a new convention, which is rule 11.
+
+**A card that cannot be made conformant is a disposition defect, not a wording
+defect.** If the section contracts can only be satisfied by changing what the card
+teaches, the candidate was misfiled at §2.4 — return there and reclassify it. Do
+not write around the contract.
+
+An empty third read is a real result and a cheap one. It records nothing: the
+output of this pass is the corrected delta, and there is no pass log.
+
+### 2.7 Present the delta, then land it
 
 Extraction and dispositions produce a **proposed delta**, not a mutation. Present
 it — new cards, refinements, variants with their foundations, replacements with
@@ -456,7 +521,7 @@ Then validate, verify references, regenerate indexes, and land the change.
 environment supports commits; where it does not, the accepted change set is
 atomic all the same. Git is not PASS architecture.
 
-### 2.7 AP synthesis is a separate authoring move
+### 2.8 AP synthesis is a separate authoring move
 
 Normal source extraction naturally produces many Patterns because sources often
 teach local decisions one at a time. **Do not wait for a single source to hand you
@@ -590,7 +655,7 @@ declining material from an agent that read badly — the counts are identical.
 
 At a meaningful closure boundary, also ask one AP question: **did the accepted
 knowledge materially improve a recurring complete action whose orchestration is
-missing or stale?** If no, close normally. If yes, run §2.7 as a separate approved
+missing or stale?** If no, close normally. If yes, run §2.8 as a separate approved
 AP synthesis move; do not force it into the last source unit.
 
 Discard the run state. The accepted cards are what remains.
@@ -673,7 +738,7 @@ interface       the instruction given to the execution system was ambiguous
 ```
 
 A **knowledge** gap can justify a Pattern or refinement. A reusable
-**orchestration** gap can justify a new AP or AP refinement under §2.7. A Drill is
+**orchestration** gap can justify a new AP or AP refinement under §2.8. A Drill is
 justified only when the missing thing is a general repeatable practice/evaluation
 route, not because one attempt went badly. Retrieval, application, continuity,
 reference, tool, and interface failures remain execution problems; do not bloat

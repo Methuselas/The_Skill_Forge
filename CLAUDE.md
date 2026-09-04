@@ -120,7 +120,7 @@ python PASS/tools/build_release.py build workspace/release-recipes/CPP_Developme
 | Question | File |
 |---|---|
 | Architecture contract, what must not grow back | `ARCHITECTURE.md` |
-| Preflight and the authoring loop — units, two reads, dispositions | `PASS/docs/PASS_RUN.md` |
+| Preflight and the authoring loop — units, three reads, dispositions | `PASS/docs/PASS_RUN.md` |
 | Card schema (closed contract) | `PASS/docs/PASS_SCHEMA.md` |
 | Skillset Memory contract | `PASS/docs/MEMORY_SCHEMA.md` |
 | Why PASS works this way | `PASS/docs/PASS_DOCTRINE.md` |
