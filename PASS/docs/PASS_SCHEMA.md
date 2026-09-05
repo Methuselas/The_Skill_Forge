@@ -104,7 +104,8 @@ references:
   the portable foundation has not been extracted yet. Genericization is deferred
   until the library holds a grounded related route to reconcile with it.
 - `cross_links[].rel` is one of `foundation_of`, `variant_of`, `prerequisite_for`,
-  `supports`, `related_to`, `teaches`, `skill_pair`.
+  `supports`, `related_to`, `teaches`. Each relation has a direction and a fixed
+  set of legal source and target types — see §1a.
 - Every `target_object_id` must resolve to an object in the library. Dangling
   links fail. `cross_links: []` is always valid.
 - **No unreplaced `<angle_bracket>` tokens anywhere.** `provisional` is never
@@ -120,6 +121,61 @@ references:
   topic directory. Its `<image>.meta.json` sidecar records the generator model,
   generation date, and a completed review record. `tools/verify_references.py`
   checks that the image exists and carries a passed review before release.
+
+---
+
+## 1a. The relation contract
+
+A relation is a **typed, directed assertion**. Naming it is not enough: each one
+states who is asserting what about whom, and only some source and target types
+can carry it.
+
+```text
+rel               direction and meaning                        legal source -> target
+----------------  -------------------------------------------  ----------------------
+supports          the source claims authority over the target:  ap -> pattern
+                  this protocol makes that decision, or         ap -> ap
+                  delegates that complete sub-action
+prerequisite_for  the source must be understood before the      any -> any
+                  target; reading order and release closure
+                  both follow this edge
+foundation_of     the source is the portable foundation the     pattern -> pattern
+                  target specializes
+variant_of        the source is an alternate method under the   pattern -> pattern
+                  target's decision
+teaches           the source gives practice in the target       drill -> pattern
+                                                                drill -> ap
+related_to        adjacency between siblings; widens what       any -> any
+                  retrieval reaches and asserts nothing about
+                  authority or order
+```
+
+**Direction is part of the relation.** A directed edge is written once, from the
+end that makes the claim. Writing it from both ends does not strengthen it; it
+creates a second write site that decays independently. `supports` in particular
+is never reciprocated — an owned Pattern does not point back at its owner.
+
+**Every directed relation needs a prose carrier.** `supports`, `prerequisite_for`,
+`foundation_of`, `variant_of`, and `teaches` all assert something a reader should
+be able to audit, so the asserting card says so in its own body — the rule
+`PASS_RUN.md` §2.8 states for `supports`, generalized. `related_to` is the one
+exception: it claims nothing, so it needs no sentence. An edge with no carrier is
+a claim only its author can check, and the author is the one person who cannot.
+
+**`related_to` is the residual, not the default.** Reach for it when the honest
+answer is that two cards are neighbours. Using it where a directed relation
+applies hides the claim; using a directed relation where only adjacency exists
+manufactures one.
+
+`skill_pair` was in the vocabulary and never used by any card in any package. A
+term nobody could apply because nobody had defined it is removed rather than
+retrofitted with a meaning.
+
+**This contract is stated here before it is enforced.** The library predates it
+and does not yet satisfy it: run `tools/validate.py --relations` for the current
+per-package worklist. Each domain reconciles its own edges in its own run
+(`CLAUDE.md` rule 2); the check joins the default validation once the count
+reaches zero.
 
 ---
 

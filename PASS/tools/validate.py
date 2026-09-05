@@ -38,8 +38,20 @@ CORE_MODULE = "core"
 CONFIDENCE_VALUES = {"low", "medium", "high"}
 REL_VALUES = {
     "foundation_of", "variant_of", "prerequisite_for", "supports", "related_to",
-    "teaches", "skill_pair",
+    "teaches",
 }
+# PASS_SCHEMA.md 1a. A relation is a typed, directed assertion: "any" means the
+# relation is legal between any two object types, not that its direction is free.
+RELATION_CONTRACT = {
+    "supports": {("ap", "pattern"), ("ap", "ap")},
+    "teaches": {("drill", "pattern"), ("drill", "ap")},
+    "foundation_of": {("pattern", "pattern")},
+    "variant_of": {("pattern", "pattern")},
+    "prerequisite_for": "any",
+    "related_to": "any",
+}
+# Directed relations are written once, from the end that makes the claim.
+DIRECTED_RELS = {"supports", "prerequisite_for", "foundation_of", "variant_of", "teaches"}
 COMMON_KEYS = {
     "object_id", "object_type", "name", "library_path", "stage_binding", "lane_fit",
     "foundation_role", "routing_class", "specialization_axis", "foundation_object_id",
@@ -367,6 +379,43 @@ def validate_cross_object(records: list[ObjectRecord]) -> None:
                     owner.errors.append(f"rule {rule_number}: shared {label} appears in more than {DUPLICATE_THRESHOLD} objects")
 
 
+def relation_problems(records: list[ObjectRecord]) -> list[tuple[str, str]]:
+    """Check every cross_link against the relation contract in PASS_SCHEMA.md 1a.
+
+    Reported separately from card validation because the library predates the
+    contract: each domain reconciles its own edges in its own run, and this check
+    joins the default validation once every package reports clean.
+    """
+    kind = {
+        str(record.data.get("object_id")): record.data.get("object_type")
+        for record in records if record.data.get("object_id")
+    }
+    edges = {
+        (str(record.data.get("object_id")), link.get("rel"), link.get("target_object_id"))
+        for record in records
+        for link in record.data.get("cross_links") or []
+        if isinstance(link, dict)
+    }
+    problems: list[tuple[str, str]] = []
+    for record in records:
+        source_id = str(record.data.get("object_id"))
+        source_type = record.data.get("object_type")
+        for link in record.data.get("cross_links") or []:
+            if not isinstance(link, dict):
+                continue
+            rel, target = link.get("rel"), link.get("target_object_id")
+            target_type = kind.get(str(target))
+            if target_type is None or rel not in RELATION_CONTRACT:
+                continue
+            legal = RELATION_CONTRACT[rel]
+            if legal != "any" and (source_type, target_type) not in legal:
+                allowed = ", ".join(f"{s} -> {t}" for s, t in sorted(legal))
+                problems.append((record.label, f"{source_type} --{rel}--> {target_type} is not a legal pairing ({allowed})"))
+            if rel in DIRECTED_RELS and (str(target), rel, source_id) in edges:
+                problems.append((record.label, f"{rel} to {target} is reciprocated; a directed relation is written once"))
+    return sorted(set(problems))
+
+
 def discover_objects(library_root: Path) -> list[Path]:
     return sorted(
         path for path in library_root.rglob("*.md")
@@ -471,11 +520,32 @@ def main() -> int:
             "checks resolve against every package; only the reported set narrows."
         ),
     )
+    parser.add_argument(
+        "--relations",
+        action="store_true",
+        help=(
+            "Report cross_link violations of the relation contract (PASS_SCHEMA.md 1a) "
+            "instead of validating cards. The library predates the contract; this is the "
+            "per-package worklist until every package reports clean."
+        ),
+    )
     args = parser.parse_args()
     if not args.library.is_dir():
         print(f"FAIL: library root not found: {args.library.as_posix()}", file=sys.stderr)
         return 1
     records = validate_library(args.library)
+    if args.relations:
+        problems = relation_problems(records)
+        if args.package:
+            problems = [(label, text) for label, text in problems if label.startswith(f"{args.package}/")]
+        counts: Counter[str] = Counter(label.split("/")[0] for label, _ in problems)
+        for label, text in problems:
+            print(f"{label}: {text}")
+        if problems:
+            print(f"FAIL: {len(problems)} relation contract violation(s): " + ", ".join(f"{pkg} {n}" for pkg, n in sorted(counts.items())))
+            return 1
+        print("PASS: every cross_link satisfies the relation contract")
+        return 0
     module_problems = validate_modules(args.library)
     scope = ""
     if args.package:

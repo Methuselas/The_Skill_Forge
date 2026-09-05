@@ -400,6 +400,36 @@ class ValidatorScopeTests(unittest.TestCase):
                 result.stdout,
             )
 
+    def test_relation_contract_rejects_an_illegal_pairing(self) -> None:
+        # PASS_SCHEMA.md 1a types every relation. Before it existed, `supports`
+        # ran in every direction between every pair of object types, which left
+        # an authority edge indistinguishable from an adjacency one.
+        with isolated_library() as tmp:
+            root = Path(tmp)
+            card = next((root / "library").rglob("PAT_*.md"))
+            _, front, rest = card.read_text(encoding="utf-8").split("---\n", 2)
+            data = yaml.safe_load(front)
+            drill = frontmatter(next((root / "library").rglob("DRILL_*.md")))["object_id"]
+            data["cross_links"] = [{"rel": "supports", "target_object_id": drill}]
+            card.write_text(
+                "---\n" + yaml.safe_dump(data, sort_keys=False) + "---\n" + rest,
+                encoding="utf-8",
+            )
+            result = subprocess.run(
+                [sys.executable, str(root / "PASS/tools/validate.py"),
+                 "--relations", "--library", str(root / "library")],
+                text=True, capture_output=True, cwd=root,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("pattern --supports--> drill is not a legal pairing", result.stdout)
+
+    def test_relation_contract_is_reported_separately_from_card_validation(self) -> None:
+        # The library predates the contract, so the check cannot gate the default
+        # run until every package has reconciled. Card validation must not see it.
+        result = validate()
+        self.assertEqual(result.returncode, 0, result.stdout)
+        self.assertNotIn("relation contract", result.stdout)
+
     def test_validator_takes_no_ledger_or_provenance_arguments(self) -> None:
         result = validate("--help")
         self.assertEqual(result.returncode, 0)
