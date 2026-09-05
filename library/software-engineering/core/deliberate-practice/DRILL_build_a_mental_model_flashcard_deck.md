@@ -21,9 +21,9 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: DRILL_practice_syntax_with_flashcards
-- rel: supports
+- rel: teaches
   target_object_id: AP_build_a_mental_model_of_unfamiliar_code
-- rel: supports
+- rel: teaches
   target_object_id: PAT_space_practice_across_widening_intervals
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'

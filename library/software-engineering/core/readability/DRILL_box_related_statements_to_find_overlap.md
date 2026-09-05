@@ -19,9 +19,9 @@ tags:
 - code_review
 - readability
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_minimize_variable_span_and_live_time
-- rel: supports
+- rel: teaches
   target_object_id: PAT_make_order_dependencies_visible
 - rel: related_to
   target_object_id: PAT_extract_a_routine_even_when_it_seems_too_small

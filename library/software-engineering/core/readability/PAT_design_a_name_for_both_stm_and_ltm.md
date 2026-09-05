@@ -22,8 +22,6 @@ cross_links:
   target_object_id: PAT_use_descriptive_names
 - rel: related_to
   target_object_id: PAT_read_code_as_semantic_chunks
-- rel: supports
-  target_object_id: AP_choose_a_name_with_feitelsons_three_steps
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

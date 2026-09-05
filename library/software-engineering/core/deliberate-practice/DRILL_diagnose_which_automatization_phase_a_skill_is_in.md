@@ -19,9 +19,9 @@ tags:
 - cognitive_load
 - self_assessment
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_match_practice_method_to_the_memory_type
-- rel: supports
+- rel: prerequisite_for
   target_object_id: DRILL_automatize_a_skill_by_writing_many_variants
 - rel: related_to
   target_object_id: PAT_diagnose_weak_recall_as_storage_or_retrieval

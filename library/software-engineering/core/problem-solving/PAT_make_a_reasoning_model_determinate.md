@@ -20,8 +20,6 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_choose_a_problem_representation_before_solving
-- rel: supports
-  target_object_id: AP_build_a_mental_model_of_unfamiliar_code
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

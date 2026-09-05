@@ -19,7 +19,7 @@ tags:
 - deliberate_practice
 - onboarding
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_diagnose_weak_recall_as_storage_or_retrieval
 - rel: related_to
   target_object_id: DRILL_practice_syntax_with_flashcards

@@ -19,9 +19,9 @@ tags:
 - repetition
 - spacing
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_match_practice_method_to_the_memory_type
-- rel: supports
+- rel: teaches
   target_object_id: PAT_space_practice_across_widening_intervals
 - rel: related_to
   target_object_id: DRILL_practice_syntax_with_flashcards

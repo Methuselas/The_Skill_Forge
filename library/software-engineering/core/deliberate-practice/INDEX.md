@@ -11,6 +11,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 - **Separate Storage Strength From Retrieval Strength** — read first
   - then: Attempt Recall Before Looking Syntax Up
   - then: Space Practice Across Widening Intervals
+- **Sort Your Programming Skills Into the Three Automatization Phases** — read first
+  - then: Automatize a Construct by Writing and Converting Many Variants
 
 ## Objects
 

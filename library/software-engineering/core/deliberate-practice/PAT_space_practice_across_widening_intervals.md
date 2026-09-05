@@ -20,8 +20,6 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_attempt_recall_before_looking_up
-- rel: teaches
-  target_object_id: DRILL_practice_syntax_with_flashcards
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

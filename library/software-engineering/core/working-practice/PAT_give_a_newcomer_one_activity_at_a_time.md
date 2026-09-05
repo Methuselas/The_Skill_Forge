@@ -22,8 +22,6 @@ cross_links:
   target_object_id: PAT_support_the_memory_system_the_activity_taxes
 - rel: related_to
   target_object_id: PAT_account_for_the_curse_of_expertise_when_onboarding
-- rel: supports
-  target_object_id: AP_prepare_an_onboarding_for_all_three_memory_systems
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

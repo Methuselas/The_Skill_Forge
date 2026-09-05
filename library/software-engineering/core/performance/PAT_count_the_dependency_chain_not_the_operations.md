@@ -25,7 +25,7 @@ cross_links:
   target_object_id: PAT_ask_whether_the_hot_code_can_run_less_often
 - rel: related_to
   target_object_id: PAT_keep_one_job_per_loop
-- rel: supports
+- rel: prerequisite_for
   target_object_id: PAT_trade_a_branch_for_unconditional_work
 reference:
   source_title: 'The Art of Writing Efficient Programs: An Advanced Programmer''s Guide to Efficient Hardware Utilization'

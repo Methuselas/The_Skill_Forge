@@ -12,6 +12,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Tune a Measured Bottleneck
 - **Confirm a Branch Is Mispredicted Before Optimizing It** — read first
   - then: Trade a Branch for Unconditional Work
+- **Count the Dependency Chain, Not the Operations** — read first
+  - then: Trade a Branch for Unconditional Work
 - **Establish That the Work Divides Before Dividing It** — read first
   - then: Derive the Parallelism From Work and Span
   - then: Find the Axis the Parallelism Lies Along

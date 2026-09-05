@@ -19,10 +19,12 @@ tags:
 - deliberate_practice
 - onboarding
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_set_up_for_transfer_when_learning_a_new_language
-- rel: supports
+- rel: teaches
   target_object_id: PAT_expect_negative_transfer_between_similar_languages
+- rel: teaches
+  target_object_id: PAT_use_a_misconception_checklist_when_learning_a_language
 - rel: related_to
   target_object_id: DRILL_elaborate_a_new_concept_against_known_ones
 reference:

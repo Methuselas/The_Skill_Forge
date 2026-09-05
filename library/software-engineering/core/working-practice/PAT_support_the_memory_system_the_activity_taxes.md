@@ -22,7 +22,7 @@ cross_links:
   target_object_id: PAT_externalize_intermediate_state_when_tracing
 - rel: related_to
   target_object_id: PAT_separate_intrinsic_from_extraneous_load
-- rel: supports
+- rel: prerequisite_for
   target_object_id: PAT_prepare_for_interruption_before_it_arrives
 - rel: related_to
   target_object_id: AP_prepare_an_onboarding_for_all_three_memory_systems

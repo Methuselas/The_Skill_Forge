@@ -20,8 +20,6 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: DRILL_practice_syntax_with_flashcards
-- rel: supports
-  target_object_id: DRILL_automatize_a_skill_by_writing_many_variants
 - rel: related_to
   target_object_id: PAT_study_worked_examples_rather_than_only_solving
 reference:

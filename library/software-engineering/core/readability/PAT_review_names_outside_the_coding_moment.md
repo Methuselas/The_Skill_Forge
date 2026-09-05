@@ -20,8 +20,6 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_separate_intrinsic_from_extraneous_load
-- rel: supports
-  target_object_id: DRILL_audit_identifier_names_in_a_code_review
 - rel: related_to
   target_object_id: PAT_use_descriptive_names
 reference:

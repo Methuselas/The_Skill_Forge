@@ -19,11 +19,11 @@ tags:
 - cognitive_load
 - review
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_evaluate_code_against_quality_goals
-- rel: supports
+- rel: teaches
   target_object_id: PAT_expect_a_design_maneuver_to_cost_another_dimension
-- rel: supports
+- rel: teaches
   target_object_id: PAT_optimize_a_codebase_for_its_likely_activities
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'

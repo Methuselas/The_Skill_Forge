@@ -19,9 +19,9 @@ tags:
 - retrieval_practice
 - deliberate_practice
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_attempt_recall_before_looking_up
-- rel: supports
+- rel: teaches
   target_object_id: PAT_space_practice_across_widening_intervals
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'

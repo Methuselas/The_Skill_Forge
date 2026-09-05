@@ -18,7 +18,7 @@ tags:
 - deliberate_practice
 - iconic_memory
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_read_code_as_semantic_chunks
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'

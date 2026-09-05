@@ -19,9 +19,9 @@ tags:
 - deliberate_practice
 - measurement
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_separate_intrinsic_from_extraneous_load
-- rel: supports
+- rel: teaches
   target_object_id: PAT_diagnose_a_code_smell_by_the_cognitive_process_it_breaks
 - rel: related_to
   target_object_id: PAT_diagnose_source_of_code_confusion

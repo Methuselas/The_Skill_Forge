@@ -19,9 +19,9 @@ tags:
 - readability
 - deliberate_practice
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_review_names_outside_the_coding_moment
-- rel: supports
+- rel: teaches
   target_object_id: PAT_design_a_name_for_both_stm_and_ltm
 - rel: related_to
   target_object_id: DRILL_rename_nondescriptive_code

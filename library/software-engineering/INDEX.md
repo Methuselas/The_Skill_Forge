@@ -73,6 +73,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Prefer Composition Over Class Inheritance
 - **Confirm a Branch Is Mispredicted Before Optimizing It** — read first
   - then: Trade a Branch for Unconditional Work
+- **Count the Dependency Chain, Not the Operations** — read first
+  - then: Trade a Branch for Unconditional Work
 - **Decompose a Problem Into Clean Layers of Abstraction** — read first
   - then: Don't Widen the Public API Just to Reuse or Test Internals
   - then: Expose a Clean API and Hide Implementation Details
@@ -210,6 +212,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Dispatch on Readiness or on Completion
 - **Merge Concurrent Operations Into One Before Applying Them** — read first
   - then: Cancel Complementary Operations Instead of Applying Them
+- **Name the Activity You Are In, Then Support the Memory It Taxes** — read first
+  - then: Externalize Enough State That an Interruption Cannot Cost You the Context
 - **Name the Binding Constraint Before Choosing a Remedy** — read first
   - then: Tune a Measured Bottleneck
 - **Name the Metric Before You Call It Fast** — read first
@@ -239,6 +243,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Space Practice Across Widening Intervals
 - **Size the Thread Count to the Hardware, Not to the Work** — read first
   - then: Let Idle Workers Take Work Rather Than Busy Ones Hand It Out
+- **Sort Your Programming Skills Into the Three Automatization Phases** — read first
+  - then: Automatize a Construct by Writing and Converting Many Variants
 - **Specify a Concurrent Object as a Sequential Object Plus a Correctness Condition** — read first
   - then: Ask Both What Must Never Happen and What Must Eventually Happen
   - then: Give Every Operation One Instant Where It Takes Effect

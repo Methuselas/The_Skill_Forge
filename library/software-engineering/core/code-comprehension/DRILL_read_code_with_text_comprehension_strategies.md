@@ -18,7 +18,7 @@ tags:
 - reading_strategies
 - onboarding
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_separate_text_knowledge_from_plan_knowledge
 - rel: related_to
   target_object_id: DRILL_annotate_a_dependency_graph_over_code

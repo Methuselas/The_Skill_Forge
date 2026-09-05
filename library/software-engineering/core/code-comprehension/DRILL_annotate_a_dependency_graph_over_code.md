@@ -18,7 +18,7 @@ tags:
 - code_comprehension
 - tracing
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_separate_intrinsic_from_extraneous_load
 - rel: related_to
   target_object_id: DRILL_trace_a_state_table_for_calculation_heavy_code

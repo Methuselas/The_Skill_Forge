@@ -22,8 +22,6 @@ cross_links:
   target_object_id: PAT_expect_negative_transfer_between_similar_languages
 - rel: related_to
   target_object_id: PAT_recognize_a_misconception_by_its_three_marks
-- rel: supports
-  target_object_id: DRILL_compare_a_new_language_against_a_known_one
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
   author: Felienne Hermans

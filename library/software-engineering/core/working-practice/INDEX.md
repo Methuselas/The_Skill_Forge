@@ -8,6 +8,8 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - **Assume It Is Not Easy, Because You Cannot Remember It Being Hard** — read first
   - then: Work Out Which Stage a Learner Is At Before Choosing How to Help
+- **Name the Activity You Are In, Then Support the Memory It Taxes** — read first
+  - then: Externalize Enough State That an Interruption Cannot Cost You the Context
 
 ## Objects
 

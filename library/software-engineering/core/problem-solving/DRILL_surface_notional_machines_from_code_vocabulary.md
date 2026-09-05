@@ -19,9 +19,9 @@ tags:
 - vocabulary
 - problem_solving
 cross_links:
-- rel: supports
+- rel: teaches
   target_object_id: PAT_reason_with_a_notional_machine_at_a_chosen_level
-- rel: supports
+- rel: teaches
   target_object_id: PAT_check_whether_a_second_model_composes_or_conflicts
 reference:
   source_title: 'The Programmer''s Brain: What Every Programmer Needs to Know About Cognition'
