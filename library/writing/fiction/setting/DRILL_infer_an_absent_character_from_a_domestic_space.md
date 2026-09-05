@@ -42,6 +42,7 @@ Invent one occupant with a public role, private pressure, and reason to be absen
 6. Choose the item with the strongest consequence and write a three-sentence story premise in which its ownership, meaning, or condition forces action.
 7. Name the observer, if the passage has one, and mark every inference produced by that observer's experience, prejudice, desire, or missing context rather than by the space alone.
 8. Reread the original description and retain only details that support the inferred person or the selected pressure.
+9. Give the description to a reader without your notes and ask who lives here. Compare what they infer against what you intended, and mark every detail that carried something you did not put there. A description you never test returns your own intention to you.
 
 ## Success Check
 - The passage stays within its limit and the occupant remains absent throughout.

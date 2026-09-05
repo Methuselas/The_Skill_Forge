@@ -38,7 +38,7 @@ Choose a comic couplet or short rhyming unit whose final match is predictable bu
 2. Mark where the rhyme becomes predictable and where syntax permits completion.
 3. Create versions that shorten the setup, delay the terminal word, and alter one stress before the payoff.
 4. Read every version without exaggerated acting and compare the interval between recognition and release.
-5. Keep the version whose rhythm makes prediction pleasurable without damaging clarity.
+5. Keep the version whose rhythm makes prediction pleasurable without damaging clarity. Where the kept version bought its timing with something else - a plainer word, a lost precision, a slower setup - state that trade, because a version described only by what it gained cannot be compared with the one you discarded.
 
 ## Success Check
 - Stress is marked from speech rather than spelling, with promoted and demoted syllables distinguished.

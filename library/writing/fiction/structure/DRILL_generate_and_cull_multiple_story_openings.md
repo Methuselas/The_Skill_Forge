@@ -49,6 +49,7 @@ Prepare three to five story kernels or fragments and enough uninterrupted time t
 5. Reread them in a different order and mark the first point at which each creates curiosity, orientation, and consequential movement.
 6. Choose the opening that reaches those effects with the least preamble, then continue that story rather than repairing every rejected sample.
 7. Retain any strong fragment from a rejected opening only if it belongs causally in the selected story.
+8. Record which discarded opening was the best written, and say what made it less alive than the one you kept. That pairing is the finding: polish and pressure come apart, and the opening that reads most finished is often the one with least to continue from.
 
 ## Success Check
 - Every opening is drafted in one sitting, with no previous attempt polished before the next begins.

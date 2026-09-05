@@ -48,7 +48,7 @@ Choose a bounded body of writing whose reuse is permitted in the exercise contex
 2. Sort the lines by image, tone, syntax, sound, subject, and possible points of contrast rather than by their original order.
 3. Choose a desired movement, such as surprise opening into clarity, humor darkening into recognition, or several voices converging on one question.
 4. Sequence quotations so each adjacency creates a new relation; remove lines that function only because they are famous or attractive in isolation.
-5. When the collage remains loose, impose a compatible stanza or repetition pattern and test whether that added pressure makes the yoking more strategic.
+5. When the collage remains loose, impose a compatible stanza or repetition pattern and test whether that added pressure makes the yoking more strategic. Write down which pattern you imposed and what it tightened, so the constraint stands as a decision rather than an unremarked habit.
 6. Read the complete poem aloud without supplying connective explanation. Reorder or cut until syntax, tone, and progression can carry the intended effect.
 7. Preserve the required attribution outside the poem and verify that the finished use fits the exercise, classroom, or venue expectations established in setup.
 

@@ -37,7 +37,7 @@ Choose a draft crowded with several times, places, speakers, relationships, imag
 3. Draft each member independently, repeating only elements whose altered return can carry recognition or development.
 4. Arrange one narrative version and one constellation version; write the transition or resonance created at every boundary.
 5. Remove each member in turn and note what disappears from the larger experience.
-6. Revise, merge, or cut any member whose job is duplicated, then compare the sequence with the original crowded draft.
+6. Revise, merge, or cut any member whose job is duplicated, then compare the sequence with the original crowded draft. State the movement the sequence achieves that the single compressed poem could not, since a split that cannot name its gain has only redistributed the same material.
 
 ## Success Check
 - Three to five focuses are identified, each able to sustain a poem without summarizing the whole subject.

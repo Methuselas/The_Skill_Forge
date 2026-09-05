@@ -41,6 +41,7 @@ Choose six to twelve complete poems with at least two recurring concerns and mea
 5. Identify the best transition and worst transition across all versions; explain what each pair causes the reader to carry forward.
 6. Select one order or build a hybrid using only effects observed in the comparison, then give every placement a brief relational reason.
 7. Remove one poem and repeat the closing read to determine whether the manuscript becomes tighter or loses a necessary pressure.
+8. State what the final poem is doing to end the manuscript, in a sentence naming the work it performs. A manuscript that merely stops and one that closes read alike from inside, and only this sentence separates them.
 
 ## Success Check
 - Membership is held constant across all three orders, so what is compared is arrangement.

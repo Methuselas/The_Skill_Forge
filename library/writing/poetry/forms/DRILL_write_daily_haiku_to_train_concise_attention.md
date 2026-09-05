@@ -49,7 +49,7 @@ Choose a repeatable span such as one week. Keep a quick capture method available
 3. Test a compact syllabic structure when it sharpens selection, but change or slightly reduce the count when an added word damages sound, sense, or immediacy.
 4. Remove explanation, generic emotion, decorative comparison, and any modifier the concrete relation already implies.
 5. Read the poem aloud once for sound and once for the pace of perception. Revise until the language can be spoken naturally without losing the image's openness.
-6. After several days, compare the complete set. Mark which poems depend on remembered ideas rather than present attention, which contain a genuine perceptual turn, and which words survived only to satisfy arithmetic.
+6. After several days, compare the complete set. Mark which poems depend on remembered ideas rather than present attention, which contain a genuine perceptual turn, and which words survived only to satisfy arithmetic. Name at least one day that failed as attention and leave it unreworked, since a set with no failures in it was selected rather than kept.
 7. Select one strong poem for further revision and write one observation target for the next cycle, such as movement, urban sound, seasonal change, or human gesture.
 
 ## Success Check

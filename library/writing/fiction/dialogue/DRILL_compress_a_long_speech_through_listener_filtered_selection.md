@@ -65,7 +65,7 @@ Choose a speech, account, explanation, briefing, interview answer, presentation,
 4. Draft a direct-only version of no more than 500 words. Give the speaker a social purpose and movement through claims, examples, turns, concessions, concealments, or decisions rather than one undifferentiated block.
 5. Draft a blended version of no more than 300 words. Use report to cross procedural or repetitive material, enter direct speech where exact language changes force, and leave quotation after its consequence registers.
 6. In every version, make the listener do at least two consequential things: question, interrupt, mishear, infer, resist, remember, observe, act, withdraw, or revise a decision. Remove reactions that merely announce an emotion while leaving reception unchanged.
-7. Compare the three versions for clarity, pace, voice, information retention, viewpoint character, and scene consequence. Do not favor the blend by default; select the form whose costs serve the larger story.
+7. Compare the three versions for clarity, pace, voice, information retention, viewpoint character, and scene consequence. Do not favor the blend by default; select the form whose costs serve the larger story, and record the effect that decided it. Keep the two you did not select rather than deleting them, since the reason only holds against something to compare it with.
 8. Restore only material whose absence creates a causal, emotional, or orientation gap. Confirm that no retained quotation exists merely to add color and no environmental detail or prop remains without changing delivery, interpretation, or action.
 
 ## Success Check

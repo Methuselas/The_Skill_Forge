@@ -35,7 +35,7 @@ Choose a free-verse draft of at least twelve lines whose rhythm has not been del
 
 ## Instructions
 1. Read the draft aloud twice and mark the main stresses, breath units, syntactic spans, approximate syllable density, and line lengths.
-2. Group lines with similar behavior and identify the strongest candidate norm, such as four major beats, one breath-length phrase, or a recurring short-long relation.
+2. Group lines with similar behavior and identify the strongest candidate norm, such as four major beats, one breath-length phrase, or a recurring short-long relation. Count how much of the draft already behaves that way: a candidate that would require most of the lines to be rewritten is evidence about the candidate rather than about the draft, and it is rejected here rather than pursued through the steps below.
 3. Mark expansions, contractions, and lines that do not belong to any group. State what each departure currently makes the reader feel or notice.
 4. Revise three weak lines toward the candidate norm without forcing a recurring foot or damaging their syntax.
 5. Revise one consequential line away from the norm so its extra duration, compression, or silence coincides with a turn in thought or feeling.

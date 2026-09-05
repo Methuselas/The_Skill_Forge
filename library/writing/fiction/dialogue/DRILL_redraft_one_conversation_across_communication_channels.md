@@ -52,7 +52,7 @@ Choose two characters with opposed or incompatible immediate wants. State the es
 2. Draft the face-to-face version. Let posture, distance, gaze, movement, objects, and shared surroundings matter only where the viewpoint character can observe them and they alter the exchange.
 3. Draft the audio-only version without compensating through explanatory dialogue. Use missing visual access, sound, silence, interruption, or concealed action to create one specific change in inference or conduct.
 4. Draft the third version according to its actual conditions. Make latency, persistence, partial visibility, editability, replay, mediation, or audience change what can be attempted and understood.
-5. Underline every moment that could occur only, or differently, because of its channel. Replace a merely decorative technology mention with a consequential constraint or remove it.
+5. Underline every moment that could occur only, or differently, because of its channel. Replace a merely decorative technology mention with a consequential constraint or remove it. Then name the near miss: the version among yours in which nothing changes except formatting and the names of devices. Revise it until the channel does work, or reject it and say what it was standing in for.
 6. Compare the three endings. Record how the same wants and facts produced different misunderstanding, concealment, revelation, timing, relationship, or available action.
 7. Select the version that best serves the larger story. Import no channel-specific beat from another version unless the selected channel can actually support it.
 

@@ -50,6 +50,8 @@ cross_links:
     target_object_id: writing_creative_nonfiction_drill_audit_diary_across_entry_revision_and_publication_layers
   - rel: related_to
     target_object_id: writing_creative_nonfiction_drill_build_attributed_documentary_montage_without_faking_voices
+  - rel: supports
+    target_object_id: writing_creative_nonfiction_derive_personal_essay_theme_from_recurring_life_evidence
 reference:
   source_title: "Creative Writing: A Workbook with Readings"
   author: Linda Anderson
