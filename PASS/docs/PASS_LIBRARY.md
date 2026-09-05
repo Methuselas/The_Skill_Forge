@@ -57,6 +57,36 @@ Module metadata is local. PASS does not require a global module registry.
 
 A folder and a module are not required to be the same granularity. If two navigation folders contain mutually dependent knowledge, they may live inside one larger source module rather than creating an artificial module cycle.
 
+## Object identifiers
+
+`object_id` is required to be stable and unique library-wide. The schema constrains
+nothing else about its shape, and the library currently contains **two complete
+identifier schemes**. Both are internally consistent; neither is a defect.
+
+```text
+type prefix            art, metaskills, software-engineering
+                       PAT_build_gesture_into_clear_masses
+                       DRILL_make_a_function_exception_safe
+                       AP_review_code_you_did_not_write
+
+domain prefix,         writing
+type infix             writing_fiction_drill_build_hidden_character_profile
+                       writing_ap_finalize_and_submit_resume
+                       writing_fiction_build_round_characters_from_contradiction_and_desire
+```
+
+Writing marks drills with `_drill_` and APs with `_ap_`, and leaves Patterns
+unmarked as the default: 89 of 89, 30 of 30, and 169 of 169 respectively.
+
+**Never infer an object's type from the shape of its id.** A tool that parses one
+scheme's prefix does not fail on the other — it silently matches nothing and
+reports an empty result, which reads as a clean lane rather than as a broken
+query. Resolve the id, or read the type from the filename.
+
+Filenames are the uniform signal. Rule 9 requires the `PAT_` / `DRILL_` / `AP_`
+prefix on every card in every package, so the path always says what an object is
+even where the id says it differently.
+
 ## Object prerequisites
 
 Hard prerequisites are independent of folder placement.
