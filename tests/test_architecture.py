@@ -421,7 +421,7 @@ class ValidatorScopeTests(unittest.TestCase):
                 text=True, capture_output=True, cwd=root,
             )
             self.assertNotEqual(result.returncode, 0)
-            self.assertIn("pattern --supports--> drill is not a legal pairing", result.stdout)
+            self.assertIn(f"pattern --supports--> drill {drill} is not a legal pairing", result.stdout)
 
     def test_relation_contract_is_reported_separately_from_card_validation(self) -> None:
         # The library predates the contract, so the check cannot gate the default

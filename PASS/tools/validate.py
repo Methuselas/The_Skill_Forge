@@ -410,7 +410,7 @@ def relation_problems(records: list[ObjectRecord]) -> list[tuple[str, str]]:
             legal = RELATION_CONTRACT[rel]
             if legal != "any" and (source_type, target_type) not in legal:
                 allowed = ", ".join(f"{s} -> {t}" for s, t in sorted(legal))
-                problems.append((record.label, f"{source_type} --{rel}--> {target_type} is not a legal pairing ({allowed})"))
+                problems.append((record.label, f"{source_type} --{rel}--> {target_type} {target} is not a legal pairing ({allowed})"))
             if rel in DIRECTED_RELS and (str(target), rel, source_id) in edges:
                 problems.append((record.label, f"{rel} to {target} is reciprocated; a directed relation is written once"))
     return sorted(set(problems))
