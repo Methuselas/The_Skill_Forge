@@ -34,7 +34,7 @@ variants: []
 
 ## Do
 - Begin with two trustworthy lines from each horizontal direction family; the method inherits their convergence, so these four establishing lines matter more than the later grid density.
-- Place a vertical where the two families can be compared clearly and build a rectangular transfer construction between the establishing lines.
+- Place a vertical where the two families can be compared clearly and build the rectangular transfer construction Robertson demonstrates between the establishing lines.
 - Use the constructed right-angle/rectangle relationship to create the auxiliary diagonal and intersection that stand in for the hidden vanishing destination.
 - Subdivide the central vertical evenly, then project corresponding subdivision points through the transfer points to generate additional receding guides.
 - Extend the resulting grid only as far as the drawing needs; add square units later with the normal square/ellipse or multiplication methods if true unit spacing is required.

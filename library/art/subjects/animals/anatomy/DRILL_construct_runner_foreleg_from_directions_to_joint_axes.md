@@ -81,6 +81,6 @@ Use a clear skeletal plate or museum reference with at least a profile or three-
 - Using horse-specific fusion or hoof construction as the template for a carnivore or primate comparison.
 
 ## Notes
-Use a **step-by-step working study** whose first phase establishes the directions and lengths of the limb sections; the next moves into a three-quarter front view with joint axes and constructional shapes; and a local elbow study clarifies the hinge-dominant runner anatomy. Assess lengths and directions, draw joint and three-dimensional axes, preserve mechanical feasibility, and remember that skeletal forms curve rather than behaving like rigid sticks.
+Bammes presents a **step-by-step working study** whose first phase establishes the directions and lengths of the limb sections; the next moves into a three-quarter front view with the joint axes and constructional shapes; and a local elbow study clarifies the hinge-dominant runner anatomy. The artist assesses lengths and directions, draws the joint and three-dimensional axes, preserves mechanical feasibility, and remembers that skeletal forms curve rather than behaving like rigid sticks.
 
 A flexed-state comparison supplies the transfer check: the mobile scapula can shift while the limb swings, and closed joints produce visibly different local forms. The exercise therefore stops before musculature, which owns the next layer.

@@ -25,8 +25,7 @@ reference:
 confidence: high
 references: []
 variants: []
-target_skill: Controlling acceleration, energy, deliberateness, and attitude through spacing distribution while endpoints,
-  path, action, and total duration remain invariant
+target_skill: Controlling acceleration, energy, deliberateness, and attitude through spacing distribution while endpoints, path, action, and total duration remain invariant
 ---
 
 # Hold Timing Constant And Compare Spacing Profiles

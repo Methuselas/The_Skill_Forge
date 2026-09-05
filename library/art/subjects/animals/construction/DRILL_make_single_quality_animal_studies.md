@@ -68,4 +68,4 @@ Choose six animal references or live subjects with visibly different qualities. 
 - Treating omission as carelessness rather than as a deliberate hierarchy of attention.
 
 ## Notes
-Use this as an observation discipline: look across animal forms, note what has the strongest effect on you, decide what kind of quality it is, and concentrate on that aspect alone. The failure to avoid is not lack of information but **too much equally weighted information**. The drill trains selection and hierarchy before finish.
+Bammes proposes this as an observation discipline: look across animal forms, note what has the strongest effect on you, decide what kind of quality it is, and concentrate on that aspect alone. The practice is valuable because the failure he warns against is not lack of information but **too much equally weighted information**. The drill therefore trains selection and hierarchy before finish.

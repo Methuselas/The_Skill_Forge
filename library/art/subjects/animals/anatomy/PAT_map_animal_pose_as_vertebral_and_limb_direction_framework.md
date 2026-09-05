@@ -92,7 +92,7 @@ variants:
 - Do not preserve one standing skeleton unchanged and merely bend its silhouette around a new pose.
 - Do not let volume or coat hide an uncertain joint direction; solve the framework before relying on the surface.
 - Do not treat every visible bend in contour as a skeletal pivot.
-- Do not copy a horse pivot map as a literal universal chart for every land mammal; use it only as a representative comparison.
+- Do not copy the horse pivot map as a literal universal chart for every land mammal; Bammes uses it as a representative comparison.
 
 ## Checklist
 - The vertebral direction can be read without the outer contour.
@@ -102,7 +102,7 @@ variants:
 - Species-specific proportion and joint placement can still override the representative model.
 
 ## Notes
-Treat structural design as a working model that should be understood before it is given graphic expression. Reduce the animal to the directions followed by the vertebral column and limbs, then adapt that framework across movement and pose changes. A representative horse study may mark the principal pivotal points of a land mammal, but it is not a universal template.
+Bammes treats structural design as a working model that should be understood before it is given graphic expression. He explicitly reduces the animal to the directions followed by the vertebral column and limbs, then adapts that framework for a cheetah in movement, a large cat upended, and sitting or stretching poses. A representative horse study marks the principal pivotal points of a land mammal.
 
 This Pattern is a Stage 1 specialization of the broader inside-out animal-anatomy foundation. It does not replace Hultgren's Stage 2 three-mass quadruped block; it supplies the directional skeletal map that can sit underneath such a block when pose mechanics need to be made explicit.
 

@@ -63,5 +63,5 @@ variants:
 - Removing the overlap would noticeably weaken the intended depth relationship.
 
 ## Notes
-Overlap is a general depth cue for figures, objects, and ordinary scenes. This genericizes the earlier figure-specific owner: the reusable decision is interposition itself, while the foreshortened-figure treatment remains a bounded variant.
+Dodson presents overlap as one of several general depth cues and demonstrates it with non-figure subjects as well as ordinary scenes. This genericizes the earlier Hogarth figure-specific owner: the reusable decision is interposition itself, while Hogarth's foreshortened-figure treatment remains a bounded variant.
 Variants retained in this canonical object: `VAR_hogarth_sequence_foreshortened_figure_with_partial_forms`.

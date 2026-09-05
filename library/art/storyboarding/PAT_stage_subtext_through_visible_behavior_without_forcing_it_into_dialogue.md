@@ -66,4 +66,4 @@ variants: []
 - Removing the subtext would measurably flatten the dramatic beat rather than simply make it less cryptic.
 
 ## Notes
-Look for what is happening beneath the literal lines. A character can struggle to volunteer before saying so, pressure another through waiting and silence, or reveal concerns through reaction rather than speech. The board has to stage meaning underneath the text without automatically converting that meaning into additional dialogue. This Pattern concerns visible dramatic inference, not plot concealment alone.
+Bluth's NIMH story-meeting sequence repeatedly looks for what is happening beneath the literal lines. Brisby struggles to volunteer before she says it; Nicodemus can pressure her through waiting and silence; Justin's reactions can carry concerns not fully verbalized. The board therefore has to stage meaning that exists underneath the text without automatically converting that meaning into additional dialogue. This Pattern concerns visible dramatic inference, not plot concealment alone.

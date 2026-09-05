@@ -97,7 +97,7 @@ Use clear skeletal references of a dog and a cat-family carnivore from at least 
 - Adding muscles or fur to disguise a rotation or proportion error that is still unresolved in the skeleton.
 
 ## Notes
-Treat the dog study as an ordered investigation rather than a finished plate copied whole: first relative lengths and directions in front view, then the basic skeletal study, then isolated paw and claw details, followed by three-quarter and internal views. That sequence makes view consistency part of the exercise instead of an optional redraw.
+Bammes presents the dog study as an ordered investigation rather than a finished plate copied whole: first the relative lengths and directions in front view, then the basic skeletal study, then isolated paw and claw details, followed by three-quarter and internal views. That sequence makes view consistency part of the exercise instead of an optional redraw.
 
 The lion study adds a different learning problem: emphasize three-dimensionality and condensed form while paying special attention to the lower-limb bones changing position. A marked pivotal axis and door-hinge sketch make that rotation inspectable, so this drill keeps both the comparative multi-view study and the explicit axis test rather than reducing the exercise to anatomy labeling.
 

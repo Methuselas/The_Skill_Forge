@@ -21,6 +21,8 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: AP_review_completed_animation_from_intent_to_evidence_and_revision
+- rel: supports
+  target_object_id: PAT_judge_animation_as_moving_performance_not_isolated_drawings
 reference:
   source_title: The Animator's Survival Kit
   author: Richard Williams
@@ -52,5 +54,5 @@ Validate motion repeatedly while it is cheap to change, moving from structural t
 ## Notes
 - Keep early animation rough while solving timing, spacing, path, performance, and continuity. Rough states are for discovering motion; cleanup is for preserving a motion solution that already works.
 - At sequence scale, test storyboards and animatics before detailed animation so editing, geography, duration, and staging problems are corrected at their cheapest representation.
-- Apply the same economy principle across media: rough line tests, key-pose timing holds, simplified CG blocks, and stop-motion rehearsals are all valid when they expose expensive mistakes before finish or irreversible capture.
-- For a layout-specific diagnostic, derive a simplified registered environment from the production layout, keep camera, perspective, and contacts authoritative, and reduce detail inside the character's movement corridor so rough animation can be judged against the real scene without being visually buried. When many otherwise valid drawings conflict with one layout, compare the cost and authority of both fixes before forcing the larger body of work to conform.
+- Webster extends the same economy principle across media: rough line tests, key-pose timing holds, simplified CG blocks, and stop-motion rehearsals are all valid when they expose expensive mistakes before finish or irreversible capture.
+- Byrne adds a layout-specific diagnostic mode: derive a simplified registered environment from the production layout, keep camera/perspective/contacts authoritative, and reduce detail inside the character's movement corridor so rough animation can be judged against the real scene without being visually buried. He also adds a useful repair-economy check: when many otherwise valid drawings conflict with one layout, compare the cost and authority of both fixes before forcing the larger body of work to conform.

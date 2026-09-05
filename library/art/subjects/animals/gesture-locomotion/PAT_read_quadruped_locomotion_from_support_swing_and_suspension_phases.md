@@ -72,7 +72,7 @@ variants: []
 - Exact gait timing is verified from appropriate reference rather than inferred from this representative horse sequence alone.
 
 ## Notes
-Reduce walking, trotting, and galloping to contact diagrams beneath each pose. Solid contacts, swinging feet, the standing surface, and the gravity-line relationship make phase logic readable before surface anatomy is considered. Diagnose locomotion from **support sequence plus swing/recovery and suspension**, not from memorized horse silhouettes or broad species formulas.
+Bammes reduces horse walking, trotting, and galloping to a contact diagram beneath each pose. Solid contacts, swinging feet, the standing surface, and the gravity-line relationship make the phase logic readable even before surface anatomy is considered. The transferable decision is to diagnose locomotion from **support sequence plus swing/recovery and suspension**, not to memorize Bammes's horse phase silhouettes or his broader species claims.
 
 This Pattern generalizes the support-role reading already present in Hultgren's horse-specific gait Pattern. The Hultgren object remains useful for horse study, but it now specializes this broader quadruped locomotion foundation.
 

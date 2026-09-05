@@ -58,7 +58,7 @@ variants: []
 - Start from the articulated limb and its current joint axes. The skeleton supplies the moving framework that gives every muscle group a meaningful route.
 - Trace a major group's line of pull across each joint it actually spans before assigning an action. Use the specific joint geometry rather than a memorized front/back slogan.
 - Keep multi-joint groups intact when they cross more than one axis. One continuous group can contribute different actions at different joints and should not be broken into unrelated local lumps.
-- Reduce named muscles into a few functional complexes first so the large rhythm and mass organization can be understood before anatomical inventory.
+- Reduce named muscles into a few functional complexes first. Bammes uses this simplification in both hindleg and runner-foreleg studies so the large rhythm and mass organization can be understood before anatomical inventory.
 - Convert the grouped functions into visible construction only after the axes are secure: decide where the limb gains depth, where masses overlap, and where tendon or skeleton becomes more dominant.
 - Recheck the arrangement against the animal being studied. Comparative anatomy changes proportions, attachments, muscle amount, and distal specialization even when the functional reading method remains useful.
 

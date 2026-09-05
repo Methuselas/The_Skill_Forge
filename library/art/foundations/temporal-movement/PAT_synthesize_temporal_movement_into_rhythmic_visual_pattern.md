@@ -60,4 +60,4 @@ variants:
 - Any apparent deformation remains compatible with the body's underlying attachments and mechanics.
 
 ## Notes
-Distinguish analytical snapshots of movement from the way a spectator remembers and links successive states. A static drawing has no literal time, so it must compress that temporal experience into a visual rhythm. `VAR_luard_allow_motion_conditioned_apparent_deformation` permits selective apparent elongation, merging, or suppression only when the movement itself supports that perceptual effect.
+Luard distinguishes analytical snapshots of movement from the way a spectator remembers and links successive states. A static drawing has no literal time, so it must compress that temporal experience into a visual rhythm. `VAR_luard_allow_motion_conditioned_apparent_deformation` permits selective apparent elongation, merging, or suppression only when the movement itself supports that perceptual effect.

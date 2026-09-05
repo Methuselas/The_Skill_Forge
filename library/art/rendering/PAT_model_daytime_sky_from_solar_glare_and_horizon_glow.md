@@ -7,9 +7,9 @@ library_path:
 - rendering
 stage_binding: 4 final
 lane_fit: both
-foundation_role: foundation
-routing_class: general
-specialization_axis: none
+foundation_role: specialization
+routing_class: specialized
+specialization_axis: domain
 foundation_object_id: none
 tags:
 - rendering
@@ -31,8 +31,7 @@ variants:
 - variant_id: VAR_gurney_build_sunset_from_low_sun_air_layers_cloud_height_and_earth_shadow
   variant_name: Build Sunset From Low Sun, Air Layers, Cloud Height, and Earth Shadow
   variant_basis: context
-  difference_from_foundation: 'Constructs sunset as a layered illumination problem: long-path warm solar light, cloud altitude,
-    solar direction, and the rising antisolar earth shadow replace a generic orange vertical gradient.'
+  difference_from_foundation: 'Constructs sunset as a layered illumination problem: long-path warm solar light, cloud altitude, solar direction, and the rising antisolar earth shadow replace a generic orange vertical gradient.'
   when_to_use: Use for sunrise/sunset scenes where the sky and cloud layers need believable directional color structure.
   when_not_to_use: Do not distribute equal orange across the whole sky or ignore cloud altitude and the antisolar side.
   absorbed_from_object_id: none

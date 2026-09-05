@@ -14,6 +14,7 @@
 - [Calibrate a Scene From One Figure](DRILL_calibrate_scene_from_one_figure.md) - drill; 0 design. Tags: environment, figure_drawing, perspective, scale.
 - [Carry Scale Through Depth With Height and Width Guides](PAT_carry_scale_through_depth_with_height_and_width_guides.md) - pattern; 2 block. Tags: height, perspective, scale, width.
   - Variants: `Scale Cropped Figures From Visible Corresponding Landmarks` (method_sequence).
+- [Choose Cast-Shadow Ray Model From Light Geometry](PAT_choose_cast_shadow_ray_model_from_light_geometry.md) - pattern; 3 rough. Tags: cast_shadow, light_geometry, perspective, projection.
 - [Choose Convergence From View and Object Orientation](PAT_choose_convergence_from_view_and_orientation.md) - pattern; 1 skeleton. Tags: convergence, one_point, perspective, two_point.
   - Variants: `Derive Coupled Vanishing Points With Visual Rays` (method_sequence); `Estimate Two-Point Convergence Without Drawn Vanishing Points` (method_sequence).
 - [Construct a Shared Scene Perspective Field](AP_construct_a_shared_scene_perspective_field.md) - ap; 0 design. Tags: construction, perspective, scene, workflow.
@@ -35,16 +36,14 @@
 - [Measure, Subdivide, and Repeat on Perspective Planes](PAT_measure_subdivide_and_repeat_on_perspective_planes.md) - pattern; 2 block. Tags: diagonal, grid, measurement, perspective.
   - Variants: `Derive an Arbitrary Measuring Point` (method_sequence); `Project Locomotion Contact Intervals Through Depth` (context).
 - [Place Freehand Ellipses on Minor Axes](DRILL_place_freehand_ellipses_on_minor_axes.md) - drill; 2 block. Tags: ellipse, line_control, perspective, warmup.
-- [Project Cast-Shadow Points From Light and Receiver Geometry](PAT_project_cast_shadow_points_from_light_and_receiver_geometry.md) - pattern; 4 final. Tags: cast_shadow, light_ray, perspective, projection, receiver.
+- [Project Cast-Shadow Points From Shade Boundary to Receiver](PAT_project_cast_shadow_points_from_shade_boundary_to_receiver.md) - pattern; 3 rough. Tags: cast_shadow, perspective, projection, receiving_plane, shade_boundary.
 - [Project Circles and Cylinders on Tilted Planes](DRILL_project_circles_and_cylinders_on_tilted_planes.md) - drill; 2 block. Tags: cylinder, drill, ellipse, perspective.
 - [Project Curves Onto Sectioned Surfaces](PAT_project_curves_onto_sectioned_surfaces.md) - pattern; 2 block. Tags: curve, perspective, projection, sections.
 - [Project Plan and Elevation Into Perspective](AP_project_plan_and_elevation_into_perspective.md) - ap; 2 block. Tags: elevation, perspective, plan, projection.
   - Variants: `Project a Small Interior, Then Enlarge Freehand` (method_sequence).
-- [Project Plan Points Through the Station Point to the Picture Plane](PAT_project_plan_points_through_station_point_to_picture_plane.md) - pattern; 2 block. Tags: perspective, picture_plane, plan, projection, station_point.
 - [Recover a Perspective View Field From an Existing Image](PAT_recover_view_field_from_existing_image.md) - pattern; 0 design. Tags: eye_level, perspective, reference_analysis, vanishing_point.
   - Variants: `Recover Exact Station Point and Viewing Distance` (method_sequence); `Capture Reference Against Measured Scene Geometry` (method_sequence).
 - [Rotate Boxes Across Eye Levels](DRILL_rotate_boxes_across_eye_levels.md) - drill; 2 block. Tags: box, drill, eye_level, perspective.
 - [Rotate Perspective Grids Without Changing Unit Scale](PAT_rotate_perspective_grids_without_changing_unit_scale.md) - pattern; 1 skeleton. Tags: grid, perspective, rotation, scale.
 - [Subdivide a Plane Without Screen-Space Guessing](DRILL_subdivide_a_plane_without_screen_space_guessing.md) - drill; 2 block. Tags: diagonal, drill, measurement, perspective.
-- [Transfer Elevation Heights From a True-Measure Line](PAT_transfer_elevation_heights_from_true_measure_line.md) - pattern; 2 block. Tags: elevation, height, perspective, projection, true_measure.
 - [Validate Three-Point Perspective From the Vanishing Triangle](PAT_validate_three_point_viewpoint_geometry.md) - pattern; 1 skeleton. Tags: orthocenter, perspective, three_point, vanishing_point.

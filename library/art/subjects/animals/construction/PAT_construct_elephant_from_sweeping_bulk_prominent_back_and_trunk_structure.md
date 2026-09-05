@@ -43,9 +43,9 @@ variants: []
 
 ## Do
 - Start with the largest rounded masses and the overall sweep of the body. Hultgren's construction sequence rounds in the main forms before adding the smaller forms and finish.
-- Keep a readable dorsal route across the top of the body. The vertebral column can be especially prominent on the back, so the upper contour should not dissolve into an unstructured dome.
+- Keep a readable dorsal route across the top of the body. Hultgren calls the vertebral column especially prominent on the back, so the upper contour should not dissolve into an unstructured dome.
 - Let the bulk contain angular structural changes, especially from the front and three-quarter view. The head, shoulder region, legs, and feet still need changes of plane and direction even when the silhouette is massive.
-- Attach the trunk from the constructed head and taper it through its length instead of drawing a uniform tube. On the underside, preserve the flatter, divided surface treatment before wrinkles and texture are elaborated.
+- Attach the trunk from the constructed head and taper it through its length instead of drawing a uniform tube. On the underside, preserve the flatter, divided surface treatment Hultgren calls out before wrinkles and texture are elaborated.
 - Use the skeleton as an explanation for visible depressions and attachments rather than copying bone shapes onto the skin. Hultgren specifically points back to the skeleton to explain the hollow cheek.
 - Add ears, tusks, skin folds, toes, and small contour breaks only after the main body, head, limb supports, and trunk already read.
 

@@ -63,4 +63,4 @@ No special setup required.
 - Treating the exercise as a rule that stable or symmetrical poses are always bad.
 
 ## Notes
-Use “about to…” as one corrective exercise, not the solution for every pose. Symmetry can legitimately communicate power, strength, immobility, or stasis.
+Hampton presents “about to…” as one corrective exercise, not the solution for every pose. Symmetry can legitimately communicate power, strength, immobility, or stasis.

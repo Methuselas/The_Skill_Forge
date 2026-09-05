@@ -64,7 +64,7 @@ variants:
 - The construction can support a cylinder or cone without shifting the circle afterward.
 
 ## Notes
-The important addition beyond the existing figure-cylinder card is that the visually centered ellipse is not always the correct metrological center of the original circle in perspective.
+The important D'Amelio delta beyond the existing figure-cylinder card is that the visually centered ellipse is not always the correct metrological center of the original circle in perspective.
 
 **Boundaries**
 This Pattern is about projected circles on planes. Organic cross-contours may use looser ellipse cues when exact circle-center construction is unnecessary.

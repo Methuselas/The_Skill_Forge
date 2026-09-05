@@ -58,4 +58,4 @@ variants: []
 - Material detail does not conceal unresolved stair geometry.
 
 ## Notes
-The durable operation is to solve the repeating step relationship once inside a trustworthy parent scaffold, then propagate it through the scene geometry. The same repeatable scaffold can govern straight or spiral stairs; the exact paper-and-ruler procedure is optional.
+The durable operation is to solve the repeating step relationship once inside a trustworthy parent scaffold, then propagate it through the scene geometry. Byrne demonstrates both straight and spiral stair constructions; the exact paper-and-ruler procedure is optional, while the repeatable scaffold is the transferable decision.

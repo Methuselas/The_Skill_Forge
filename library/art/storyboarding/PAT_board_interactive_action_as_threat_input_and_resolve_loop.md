@@ -61,7 +61,7 @@ variants:
 - Do not let decorative action hide the moment when input matters.
 - Do not introduce the next threat before the previous successful action has been visibly acknowledged.
 - Do not treat every playable beat as an isolated vignette with no continuity into the next state.
-- Do not infer a complete branching, failure-state, or game-design architecture when the available sequence only establishes a successful threat-and-resolve progression.
+- Do not infer a complete branching, failure-state, or game-design architecture when the source sequence only establishes a successful threat-and-resolve progression.
 - Do not canonize source-specific prompt flashes, input symbols, or fixed timing values as universal interactive-board rules.
 
 ## Checklist
@@ -72,6 +72,6 @@ variants:
 - Spectacle supports rather than obscures interactive readability.
 
 ## Notes
-Pair a threat with an input opportunity and a visible successful resolve before introducing the next threat. The durable storyboard mechanism is the state loop, not a production's particular sword flashes, directional indicators, or timing notation. For branching production states, every choice that changes what happens next must map to its resulting board state. Entertainment and gameplay are simultaneous visual concerns: the participant must be able to read the interactive problem while the sequence remains engaging as animated action.
+Bluth's *Dragon's Lair* boards repeatedly pair a threat with an input opportunity and a visible successful resolve before introducing the next threat. The durable storyboard mechanism is the state loop, not the production's particular sword flashes, directional indicators, or timing notation. Byrne's computer-game material extends the same owner from a single successful loop to branching production states: when a choice changes what happens next, each meaningful option must map to its resulting board state. The example also treats entertainment and gameplay as simultaneous visual concerns: the participant must be able to read the interactive problem while the sequence remains engaging as animated action.
 
 Retained bounded variant: `VAR_byrne_map_each_interactive_option_to_its_resulting_board_state`.

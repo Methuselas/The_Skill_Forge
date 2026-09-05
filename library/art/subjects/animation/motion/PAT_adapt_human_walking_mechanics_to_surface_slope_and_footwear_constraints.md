@@ -61,4 +61,4 @@ variants: []
 - Footwear restrictions are visible in the gait rather than only in the costume drawing.
 
 ## Notes
-Changing terrain changes the locomotion problem. Believable adaptation appears in contact geometry, clearance, stride, body pitch, and support strategy—not just in speed. Solve the new ground interaction first, then restore character and timing on top of that solution.
+Changing terrain changes the locomotion problem. Webster's examples show that believable adaptation appears in contact geometry, clearance, stride, body pitch, and support strategy—not just in speed. The animator should solve the new ground interaction first, then restore character and timing on top of that solution.

@@ -259,7 +259,7 @@ variants:
 ## Notes
 `VAR_loomis_freeze_changing_light_with_plane_value_key` adds Loomis's unstable-light field route: capture one chosen light state as a quick broad-plane L/H/S key, then develop against that fixed key instead of chasing later changes.
 
-Use the subject-general value organization: map large light/dark relationships first, then refine them. The original figure card remains a bounded variant for fusing overlap-separated body masses. The other named variants remain attached because they describe distinct rendering conditions rather than separate ownership.
+Dodson supplies the subject-general value organization: map large light/dark relationships first, then refine them. The original Hogarth figure card is retained as a bounded variant for fusing overlap-separated body masses. Earlier Gill, Hampton, Vilppu, and Loomis variants remain attached because they describe distinct rendering conditions rather than separate ownership.
 
 `VAR_dodson_map_light_and_shadow_before_modeling` retains **Map Light and Shadow Before Modeling** as a bounded alternative under the conditions recorded in the variant metadata.
 

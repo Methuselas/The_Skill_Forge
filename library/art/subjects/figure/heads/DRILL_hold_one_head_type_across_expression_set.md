@@ -73,6 +73,6 @@ Start from one head whose large cranial envelope, jaw, feature spacing, and view
 - Copying the first eye or mouth mechanically onto the opposite side in a turned head.
 
 ## Notes
-Treat expression study as practical mileage: learn the facial muscle actions, use the mirror, then develop one type and draw that same character in several expressions. The drill preserves that sequence while keeping prior head-construction work active underneath the expression study.
+Loomis presents expression study as practical mileage: learn the facial muscle actions, use the mirror, then develop one type and make several drawings of that same character in different expressions. The drill preserves that sequence while keeping the head-construction work from the preceding Loomis units active underneath the expression study.
 
 `VAR_dahlig_mask_half_face_to_audit_expression_unity` adds a simple diagnostic to the expression set: cover one half of the face at a time and check whether the visible half still contains expression-specific soft-tissue action instead of relying on one isolated feature.

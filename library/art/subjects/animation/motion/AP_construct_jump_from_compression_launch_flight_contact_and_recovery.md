@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_define_task_objective_before_judging_human_action_mechanics
 - rel: supports
   target_object_id: PAT_separate_ballistic_center_of_mass_path_from_body_rotation_and_deformation
+- rel: supports
+  target_object_id: PAT_stage_contact_before_deformation_to_strengthen_impact
 reference:
   source_title: The Animator's Survival Kit
   author: Richard Williams
@@ -42,7 +44,7 @@ Construct a jump whose goal and approach determine the preparation and launch, t
 3. Prepare the mass with a readable compression or anticipation appropriate to that launch.
 4. Commit the launch by establishing the center-of-mass route that the unsupported body will follow.
 5. During flight, use `PAT_separate_ballistic_center_of_mass_path_from_body_rotation_and_deformation`: let the body rotate, articulate, tuck, stretch, or otherwise change pose around the established ballistic path rather than letting internal motion rewrite it.
-6. Stage landing contact as the event that interrupts free flight and introduces a new external force; compress or redirect the mass according to the landing.
+6. Use `PAT_stage_contact_before_deformation_to_strengthen_impact` to separate first contact from the deformation that follows. Stage landing contact as the event that interrupts free flight and introduces a new external force; then compress or redirect the mass according to the landing.
 7. Recover into the next state rather than ending at impact.
 
 **Completion check**

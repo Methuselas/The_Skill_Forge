@@ -20,9 +20,7 @@ cross_links:
 - rel: supports
   target_object_id: PAT_establish_eye_level_and_vanishing_directions
 - rel: supports
-  target_object_id: PAT_project_plan_points_through_station_point_to_picture_plane
-- rel: supports
-  target_object_id: PAT_transfer_elevation_heights_from_true_measure_line
+  target_object_id: PAT_choose_convergence_from_view_and_orientation
 - rel: supports
   target_object_id: PAT_carry_scale_through_depth_with_height_and_width_guides
 reference:
@@ -34,14 +32,9 @@ variants:
 - variant_id: VAR_loomis_project_small_interior_then_enlarge_freehand
   variant_name: Project a Small Interior, Then Enlarge Freehand
   variant_basis: method_sequence
-  difference_from_foundation: 'Uses exact-enough plan projection as a compact planning scaffold rather than as the final drawing:
-    arrange the room and figures in plan, rotate or audition the ground plan to test what the chosen camera will reveal, project
-    the selected layout and key heights into a small perspective study, then enlarge that solved study and return to freehand
-    drawing for the finished illustration.'
-  when_to_use: Use when an interior or staged scene needs trustworthy spatial relationships but the final image should retain
-    natural drawing rather than read like mechanical drafting.
-  when_not_to_use: Do not enlarge a faulty miniature blindly; verify the small projection first, and retain full mechanical
-    construction when exact technical documentation is the actual goal.
+  difference_from_foundation: 'Uses exact-enough plan projection as a compact planning scaffold rather than as the final drawing: arrange the room and figures in plan, rotate or audition the ground plan to test what the chosen camera will reveal, project the selected layout and key heights into a small perspective study, then enlarge that solved study and return to freehand drawing for the finished illustration.'
+  when_to_use: Use when an interior or staged scene needs trustworthy spatial relationships but the final image should retain natural drawing rather than read like mechanical drafting.
+  when_not_to_use: Do not enlarge a faulty miniature blindly; verify the small projection first, and retain full mechanical construction when exact technical documentation is the actual goal.
   absorbed_from_object_id: none
 ---
 
@@ -62,11 +55,11 @@ Construct an exact perspective view from orthographic plan and elevation informa
 - Height is transferred from a true-measure location before being carried through perspective.
 
 **Flow**
-1. **Establish the projection setup.** Apply the exact camera/viewfield variant of `PAT_establish_eye_level_and_vanishing_directions`: place the object plan relative to the Picture Plane, choose the station point/eye, and establish the Horizon Line and Ground Line for the perspective view.
-2. **Project the plan.** Apply `PAT_project_plan_points_through_station_point_to_picture_plane` to the plan's controlling corners. Keep every projected vertical registered to the visual ray and Picture Plane intersection that generated it.
-3. **Derive the horizontal vanishing points.** Under `PAT_establish_eye_level_and_vanishing_directions`, draw station-point lines parallel to the plan's principal direction families and transfer their Picture Plane intersections into the Horizon Line.
-4. **Transfer true heights.** Apply `PAT_transfer_elevation_heights_from_true_measure_line`: register a true-measure/ground-line location with the corresponding projected point, then place the elevation's real vertical intervals there.
-5. **Carry heights through the field.** Apply `PAT_carry_scale_through_depth_with_height_and_width_guides` to carry those true-height marks toward the correct vanishing directions and intersect them with the plan-fixed verticals.
+1. **Establish the projection setup.** Use `PAT_establish_eye_level_and_vanishing_directions` to establish the Horizon Line/eye level and governing view directions. Place the object plan relative to the Picture Plane, choose the station point/eye, and establish the Ground Line for the perspective view.
+2. **Project the plan.** Draw visual rays from the station point through the plan's controlling corners. Where they cross the Picture Plane establishes projected plan positions.
+3. **Derive the horizontal vanishing points.** Use `PAT_choose_convergence_from_view_and_orientation` for the direction decision. From the station point, draw lines parallel to the plan's principal direction families; transfer their intersections with the Picture Plane into the Horizon Line of the perspective construction.
+4. **Transfer true heights.** Use the elevation to place real heights at a true-measure/ground-line location associated with the corresponding projected point.
+5. **Carry heights through the field.** Use `PAT_carry_scale_through_depth_with_height_and_width_guides` for the scale-transfer decision. Project those height marks toward the correct vanishing directions and intersect them with the verticals already fixed by the plan projection.
 6. **Complete the form.** Join corresponding corners and add only details whose plan/elevation position can be supported by the same construction.
 7. **Validate.** Trace important projected corners back to both the plan ray and elevation height that generated them.
 
@@ -83,4 +76,4 @@ Construct an exact perspective view from orthographic plan and elevation informa
 - The result reproduces the intended plan/elevation geometry from the chosen view without screen-space guessing.
 
 ## Notes
-This is the mechanical/architectural route: slower and more exact than freehand perspective, useful when a design must be projected faithfully from known orthographic information. `VAR_loomis_project_small_interior_then_enlarge_freehand` is the illustrator-oriented version: use the ground plan not only to place things accurately but also as a cheap camera-search device, rotating or auditioning the arrangement before projection; then solve the selected view small, verify it, enlarge, and return to freehand handling for the final image.
+Norling presents this as the mechanical/architect's route: slower and more exact than freehand perspective, useful when a design must be projected faithfully from known orthographic information. `VAR_loomis_project_small_interior_then_enlarge_freehand` retains Loomis's illustrator-oriented version: use the ground plan not only to place things accurately but also as a cheap camera-search device, rotating or auditioning the arrangement before projection; then solve the selected view small, verify it, enlarge, and return to freehand handling for the final image.

@@ -111,7 +111,7 @@ Study the relevant construction notes and examples first, then close all models,
 ## Notes
 Reference-free work is a Drill condition, not a universal production rule. The point is to test whether the studied construction has become usable internal vision. Production drawing may and should use subject and construction references when they improve accuracy. "Free and open" belongs to this action-invention exercise; restrained or compressed production poses remain valid when the context requires them.
 
-`VAR_bammes_rebuild_animal_action_from_simplified_forms_at_new_viewpoint` adapts the same reference-free test to animal construction. Begin from simplified linked forms, solve their spatial directions and movement, add anatomical differentiation, and redraw the same action from a changed three-quarter view. The useful test is not whether the remembered outline matches; it is whether the action and anatomy remain coherent after the camera changes.
+`VAR_bammes_rebuild_animal_action_from_simplified_forms_at_new_viewpoint` adapts the same reference-free test to animal construction. Bammes begins from simplified linked forms, solves their spatial directions and movement, then adds anatomical differentiation and redraws the same bucking action from a changed three-quarter view. The useful test is not whether the remembered outline matches; it is whether the action and anatomy remain coherent after the camera changes.
 
 `VAR_loomis_study_jointed_mannequin_then_invent_without_reference` turns the drill into a progression when immediate closed-book invention is premature: rebuild observed articulated poses without tracing, vary them, then remove the mannequin and test whether the construction has become internal vision.
 

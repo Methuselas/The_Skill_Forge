@@ -70,7 +70,7 @@ variants:
 **ELSE** use the forelimb specialization appropriate to the animal when the radius-ulna relationship or distal support is mechanically different.
 
 ## Do
-- Preserve the broad quadruped shoulder-girdle plan through the elbow before emphasizing the carnivore-specific divergence lower down. Keep the shoulder comparatively conservative and place the crucial change in the separately formed radius and ulna.
+- Preserve the broad quadruped shoulder-girdle plan through the elbow before emphasizing the carnivore-specific divergence lower down. Bammes treats the shoulder as comparatively conservative and places the crucial change in the separately formed radius and ulna.
 - Draw a longitudinal pivot through the forearm and make the radius visibly change position around the ulna as the paw turns. In the pronated support position, the rear surface of the paw faces forward because the turn has already happened through the forearm.
 - Keep the paw mechanically tied primarily to the radius. When the paw orientation changes, check that the radius, carpus, and metacarpal mass all agree with that new orientation.
 - Compare profile, front, back, and internal views rather than memorizing one silhouette. The crossing relationship can be visually quiet in one view and obvious in another.
@@ -81,7 +81,7 @@ variants:
 - Do not fuse the radius and ulna into an ungulate-style lower-leg post simply because the foreleg is bearing weight.
 - Do not rotate only the paw at the carpus while leaving the radius-ulna relationship unchanged; that produces a wrist swivel without a believable forearm mechanism.
 - Do not copy the cat's larger rotational freedom into every dog pose or breed.
-- Do not make the carnivore shoulder exotic merely to signal species difference; the stronger structural contrast appears below the elbow.
+- Do not make the carnivore shoulder exotic merely to signal species difference; the stronger structural contrast appears below the elbow in this unit.
 - Do not confuse screen-space crossing with two bones literally intersecting. The construction is a three-dimensional change of relation around a pivot axis.
 
 ## Checklist

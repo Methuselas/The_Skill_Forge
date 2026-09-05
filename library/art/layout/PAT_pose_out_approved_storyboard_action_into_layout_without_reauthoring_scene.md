@@ -61,4 +61,4 @@ variants: []
 - Material changes have been routed back for approval rather than hidden in the layout.
 
 ## Notes
-“Posing-out” develops the storyboard pose into a spatially executable production drawing without granting the layout artist final authorship over the scene. The portable boundary is storyboard intent first, layout integration second.
+Byrne calls this production step "posing-out" the character levels. The layout artist develops the storyboard pose into a spatially executable production drawing, but does not gain final authorship over the scene. The portable boundary is storyboard intent first, layout integration second.

@@ -65,7 +65,7 @@ variants:
 - Subtraction improves the drawing rather than merely hiding indecision.
 
 ## Notes
-The eraser and bare hand are drawing tools. Subtractive and manipulative actions can sculpt the same visual relationships normally built with additive marks.
+Dodson explicitly treats the eraser and bare hand as drawing tools. Subtractive and manipulative actions can sculpt the same visual relationships normally built with additive marks.
 
 `VAR_hammond_scratch_fine_lights_from_dense_colored_pencil_layer` adds a state-dependent colored-pencil route: subtraction works best after enough wax/pigment has accumulated for the operation to remove deposited material rather than cut the support. Keep the recovered mark narrow, shallow, and causally tied to a light, edge, or lettering need.
 

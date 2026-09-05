@@ -7,9 +7,9 @@ library_path:
 - rendering
 stage_binding: 4 final
 lane_fit: both
-foundation_role: foundation
-routing_class: general
-specialization_axis: none
+foundation_role: specialization
+routing_class: specialized
+specialization_axis: domain
 foundation_object_id: none
 tags:
 - rendering

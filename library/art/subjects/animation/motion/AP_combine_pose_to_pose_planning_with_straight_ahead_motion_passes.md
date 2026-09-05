@@ -20,19 +20,11 @@ tags:
 - workflow
 cross_links:
 - rel: supports
-  target_object_id: PAT_allocate_pose_to_pose_and_straight_ahead_control_by_motion_system
-- rel: supports
   target_object_id: PAT_separate_story_keys_from_motion_extremes
 - rel: supports
-  target_object_id: PAT_design_breakdowns_as_authored_motion_decisions
-- rel: supports
-  target_object_id: PAT_inbetween_motion_along_arcs_revealed_by_neighboring_frames
+  target_object_id: PAT_construct_difficult_inbetween_from_basic_shapes_before_details
 - rel: supports
   target_object_id: PAT_carry_secondary_parts_through_overlap_follow_through_and_drag
-- rel: supports
-  target_object_id: PAT_phase_offset_body_parts_to_break_mechanical_locomotion
-- rel: supports
-  target_object_id: PAT_reanchor_straight_ahead_animation_with_registration_drawings
 reference:
   source_title: The Animator's Survival Kit
   author: Richard Williams
@@ -47,11 +39,11 @@ variants: []
 Combine pose-to-pose control with straight-ahead vitality by planning the important structure first and then animating selected motion systems more freely between guides.
 
 ## Steps / Flow
-1. **Choose the control problem before choosing the method.** Apply `PAT_allocate_pose_to_pose_and_straight_ahead_control_by_motion_system` to assign pose-to-pose control where story poses, exact timing, coordinated staging, contact, or scale must stay locked and straight-ahead treatment where freer continuity or independent timing serves the motion.
-2. **Lock the primary anchors that truly need control.** Apply `PAT_separate_story_keys_from_motion_extremes` and `PAT_design_breakdowns_as_authored_motion_decisions` to establish keys, extremes, and crucial breakdowns for the main action without over-keying subordinate systems.
-3. **Animate the primary action between the anchors.** Preserve planned timing and construction while applying `PAT_inbetween_motion_along_arcs_revealed_by_neighboring_frames` wherever the surrounding action reveals a non-mechanical path.
-4. **Use straighter-ahead passes where vitality matters.** Continue the allocation established by `PAT_allocate_pose_to_pose_and_straight_ahead_control_by_motion_system`. Apply `PAT_carry_secondary_parts_through_overlap_follow_through_and_drag` to loose or inertial systems, and use `PAT_phase_offset_body_parts_to_break_mechanical_locomotion` when a locomotion system needs a causal phase offset.
-5. **Check cumulative structural drift.** Apply `PAT_reanchor_straight_ahead_animation_with_registration_drawings` periodically, especially at changes of direction, force, contact, or staging, so successive local errors do not accumulate into visible shrinkage, growth, or attachment drift.
+1. **Choose the control problem before choosing the method.** Favor pose-to-pose when crucial story poses, exact timing, coordinated staging, or scale consistency must stay locked. Favor straight-ahead treatment when the motion is fast, chaotic, or contains many independently timed elements that would become cumbersome or lifeless if every part were predetermined.
+2. **Lock the primary anchors that truly need control.** Use `PAT_separate_story_keys_from_motion_extremes` to distinguish story keys from motion extremes, and `PAT_construct_difficult_inbetween_from_basic_shapes_before_details` when an authored breakdown/inbetween must solve a difficult transition. Establish only the anchors the main action actually needs without over-keying subordinate motion.
+3. **Animate the primary action between the anchors.** Preserve the planned timing and construction while allowing enough path and spacing adjustment to avoid mechanical interpolation.
+4. **Use straighter-ahead passes where vitality matters.** Apply `PAT_carry_secondary_parts_through_overlap_follow_through_and_drag` when subordinate parts need connected overlap/follow-through. Add secondary, tertiary, loose, or complex motion progressively when those systems benefit from freer timing and overlap rather than rigid key-by-key matching.
+5. **Check cumulative structural drift.** In drawn straight-ahead work, compare periodically against established construction and scale so tiny successive errors do not accumulate into visible shrinkage or growth.
 6. **Test after each pass.** Repair pose-to-pose woodenness, straight-ahead structural drift, timing conflicts, or subordinate motion that redesigns the primary action before continuing.
 
 **Completion check**

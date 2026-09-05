@@ -19,17 +19,7 @@ tags:
 - keys
 - breakdowns
 - inbetweens
-cross_links:
-- rel: supports
-  target_object_id: PAT_separate_story_keys_from_motion_extremes
-- rel: supports
-  target_object_id: PAT_design_animation_extreme_as_storytelling_pose
-- rel: supports
-  target_object_id: PAT_design_breakdowns_as_authored_motion_decisions
-- rel: supports
-  target_object_id: PAT_inbetween_motion_along_arcs_revealed_by_neighboring_frames
-- rel: supports
-  target_object_id: PAT_construct_difficult_inbetween_from_basic_shapes_before_details
+cross_links: []
 reference:
   source_title: The Animator's Survival Kit
   author: Richard Williams
@@ -44,11 +34,11 @@ variants: []
 Build animation hierarchically so storytelling and motion decisions are solved before interpolation fills the remaining frames.
 
 ## Steps / Flow
-1. Apply `PAT_separate_story_keys_from_motion_extremes` to establish only the storytelling keys needed for the event to remain intelligible.
-2. Continue `PAT_separate_story_keys_from_motion_extremes`, then apply `PAT_design_animation_extreme_as_storytelling_pose` to add the motion extremes required by the physical and expressive transition without confusing their role with story keys.
-3. Apply `PAT_design_breakdowns_as_authored_motion_decisions` to place breakdowns or passing positions that choose the path, attitude, overlap, and spacing bias rather than defaulting to arithmetic midpoints.
+1. Establish the necessary storytelling keys.
+2. Add required motion extremes.
+3. Design breakdowns/passing positions that determine path and spacing.
 4. Test the structure in motion.
-5. Add only the remaining inbetweens after the action is already designed. Apply `PAT_inbetween_motion_along_arcs_revealed_by_neighboring_frames` where the wider sequence determines the path; when finished contours make an intermediate form ambiguous, apply `PAT_construct_difficult_inbetween_from_basic_shapes_before_details` before restoring detail.
+5. Add only the remaining inbetweens after the action is already designed.
 
 **Completion check**
 - Inbetweens finish an already understandable action rather than inventing it.

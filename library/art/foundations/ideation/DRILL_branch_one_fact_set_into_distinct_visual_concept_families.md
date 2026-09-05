@@ -65,4 +65,4 @@ Choose one product, story premise, subject, or brief and build a concise fact po
 - Abandoning the original evidence instead of discovering another relationship already inside it.
 
 ## Notes
-One questionnaire can yield substantially different idea families from the same subject. Stage 0 thumbnails search composition after a proposition exists; this drill deliberately branches the proposition itself before that commitment.
+Loomis demonstrates that one questionnaire can yield substantially different idea families from the same subject. Stage 0 thumbnails search composition after a proposition exists; this drill deliberately branches the proposition itself before that commitment.

@@ -63,6 +63,6 @@ variants:
 - The shoulder girdle visibly answers a major arm elevation instead of remaining mechanically fixed.
 
 ## Notes
-The deltoids are arm muscles that become part of the upper torso because they mediate attachment. This prevents the common mannequin error of bolting a limb cylinder to a fixed chest shell.
+The source treats the deltoids as arm muscles that become part of the upper torso because they mediate attachment. This prevents the common mannequin error of bolting a limb cylinder to a fixed chest shell.
 
 `VAR_hampton_block_shoulder_girdle_as_independent_perspective_bridge` retains **Block the Shoulder Girdle as an Independent Perspective Bridge** as a bounded alternative; use it only under the conditions recorded in the variant metadata.

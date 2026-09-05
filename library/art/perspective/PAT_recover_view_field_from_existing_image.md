@@ -69,7 +69,7 @@ variants:
 - The analysis remains useful even when the vanishing points lie far outside the crop.
 
 ## Notes
-Turn the usual construction problem around: instead of beginning with vanishing points and drawing the scene, extend the scene's own parallel-direction evidence backward to recover the view that produced it.
+Norling turns the usual construction problem around: instead of beginning with vanishing points and drawing the scene, extend the scene's own parallel-direction evidence backward to recover the view that produced it.
 
 **Boundaries**
 This Pattern reverse-engineers a perspective field from existing image evidence. It does not reconstruct missing geometry when the source has no trustworthy parallel cues, and it does not correct lens or panoramic distortion by itself.

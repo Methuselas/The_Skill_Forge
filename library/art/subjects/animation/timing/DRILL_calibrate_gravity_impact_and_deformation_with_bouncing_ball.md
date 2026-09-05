@@ -85,4 +85,4 @@ Use a plain ball or similarly simple elastic mass with no surface detail. Keep t
 - Making successive dissipating bounces identical.
 
 ## Notes
-Use the bouncing ball as a compact model for timing relationships that later reappear in hops, jumps, walks, runs, leaps, and skips. The drill isolates those relationships before the additional variables of articulated anatomy and character acting are introduced.
+Blair uses the bouncing ball as a compact model for timing relationships that later reappear in hops, jumps, walks, runs, leaps, and skips. The drill isolates those relationships before the additional variables of articulated anatomy and character acting are introduced.

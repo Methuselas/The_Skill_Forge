@@ -59,4 +59,4 @@ variants: []
 - Final art remains consistent with project style rather than looking like an unintegrated model render.
 
 ## Notes
-The layout/CG handoff can run in either direction: a 3D department may be required to match an approved layout, while Layout may use a computer model of a complex building to generate consistent views and draw the rest of the scene around them. The durable pattern is one approved spatial proxy serving continuity across viewpoints, not an era-specific print-and-paste method.
+Byrne describes both directions of the layout/CG handoff: a 3D department may be required to match an approved layout, while Layout may use a computer model of a complex building to generate consistent views and draw the rest of the scene around them. The durable pattern is one approved spatial proxy serving continuity across viewpoints, not the era-specific print-and-paste method.

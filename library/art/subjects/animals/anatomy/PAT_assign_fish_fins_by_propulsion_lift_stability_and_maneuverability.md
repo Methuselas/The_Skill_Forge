@@ -70,6 +70,6 @@ variants:
 - Any folded or deployed state has a mechanical reason.
 
 ## Notes
-Treat fins as a coordinated control system. Different fins contribute differently to propulsion, lift, stability, roll control, braking, and fine maneuvering, and some species alter or specialize those roles. Building the fins as working surfaces makes later swimming animation easier to reason about than attaching generic fin symbols to a fish-shaped body.
+Webster treats fins as a coordinated control system. Different fins contribute differently to propulsion, lift, stability, roll control, braking, and fine maneuvering, and some species alter or specialize those roles. Building the fins as working surfaces makes later swimming animation easier to reason about than attaching generic fin symbols to a fish-shaped body.
 
-The `flexible_paired_fin_fine_control` variant applies when the paired fins can articulate substantially. Such fins can work together to pivot around the body center, alter pitch with little translation, brake, and in some fish produce direct reverse travel. Rigid pectoral systems do not inherit that maneuvering vocabulary merely because they occupy the same anatomical position.
+The `flexible_paired_fin_fine_control` variant applies when the paired fins can articulate substantially. Webster shows that such fins can be used together to pivot around the body center, alter pitch with little translation, brake, and in some fish produce direct reverse travel. Rigid pectoral systems do not inherit that maneuvering vocabulary merely because they occupy the same anatomical position.

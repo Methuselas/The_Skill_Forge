@@ -61,4 +61,4 @@ variants: []
 - Species-specific detail is added only after the construction is secure.
 
 ## Notes
-Across a rotation of the same eye, keep the eyeball spherical, make the lids follow and overlap that sphere with their own mass, and continue the spherical volume into the surrounding area. Species-specific traits such as pupil shape and corner recession remain bounded observations rather than universal rules.
+Bammes's horse-eye sequence rotates the same eye through six views and states the durable construction directly: the eyeball is spherical, the lids follow and overlap that sphere, the lids themselves have mass, and the surrounding area is a plastic continuation of the eyeball. The source also lists species-specific traits such as pupil shape and corner recession; those remain bounded observations rather than universal rules.

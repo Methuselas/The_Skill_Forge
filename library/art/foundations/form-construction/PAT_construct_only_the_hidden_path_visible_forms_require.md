@@ -88,7 +88,7 @@ variants:
 - Removing the guide leaves a visible result that still implies the solid or connected form convincingly.
 
 ## Notes
-Practice transparent draw-through with cups, chairs, figures, and architecture, then progress toward “thinking through” once the solid can be held mentally. The earlier figure card is promoted into this subject-general foundation, with its minimum-sufficient hidden-limb rule retained as a figure-specific variant.
-`VAR_eissen_retain_selected_construction_guides_for_shape_communication` adds a communication exception to the usual cleanup endpoint: in an exploratory product sketch, selected transparent blocks, hidden sides, and construction guides may remain visible when they tell the reader where a part sits or how the shape was derived. The variant preserves that explanatory use while rejecting indiscriminate hidden-line clutter.
+Dodson demonstrates transparent draw-through with cups, chairs, figures, and architecture, then explicitly recommends progressing toward "thinking through" once the solid can be held mentally. The earlier Hogarth figure card is therefore promoted into this subject-general foundation, with its minimum-sufficient hidden-limb rule retained as a figure-specific variant.
+Eissen and Steur add a communication exception to the usual cleanup endpoint: in an exploratory product sketch, selected transparent blocks, hidden sides, and construction guides may remain visible when they tell the reader where a part sits or how the shape was derived. `VAR_eissen_retain_selected_construction_guides_for_shape_communication` preserves that explanatory use while rejecting indiscriminate hidden-line clutter.
 
 Variants retained in this canonical object: `VAR_hogarth_scale_hidden_figure_chain_to_visible_dependencies`, `VAR_dodson_think_through_after_transparent_construction_is_internalized`, `VAR_eissen_retain_selected_construction_guides_for_shape_communication`.

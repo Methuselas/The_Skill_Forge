@@ -57,4 +57,4 @@ variants: []
 - Fin placement and body shape read as one locomotor system.
 
 ## Notes
-Treat fish morphology as a range of functional solutions rather than one canonical fish shape. Deep-bodied, streamlined, eel-like, flattened, and other forms produce different swimming possibilities. Make the body plan answer the locomotor problem imposed by habitat and behavior.
+Webster presents fish morphology as a range of functional solutions rather than one canonical fish shape. Deep-bodied, streamlined, eel-like, flattened, and other forms produce different swimming possibilities. The transferable construction decision is to make the body plan answer the locomotor problem imposed by habitat and behavior.

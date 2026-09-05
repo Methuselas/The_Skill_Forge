@@ -35,7 +35,7 @@ variants: []
 ## Do
 - Design the source shape where it is easiest to control: a side plane, ground plane, front plane, or temporary construction plane.
 - Use the existing section network as the receiving coordinate system; add another section only where the curve needs another trustworthy point.
-- Project source points along one consistent construction direction for that view, then mark where each projection meets the target section/surface.
+- Project source points along the consistent construction direction Robertson uses for that view, then mark where each projection meets the target section/surface.
 - For a hole or cut, project both the opening and the affected section boundaries so the far/near edges agree with the volume.
 - If the target plane is severely foreshortened, extend the grid to a temporary plane that faces the viewer more clearly, draw the shape there, then project it back into the target.
 - Draw the final surface curve smoothly through the solved points rather than mechanically connecting them with corners.
@@ -43,7 +43,7 @@ variants: []
 ## Don't
 - Draw a graphic or cut directly on a highly foreshortened shell and then bend the surrounding volume to fit it.
 - Add dozens of sections before knowing where accuracy is actually needed.
-- Assume a straight projection produces an exact non-stretch material wrap around every curved surface; a label projected onto a cylinder this way is only an approximation.
+- Assume a straight projection produces an exact non-stretch material wrap around every curved surface; Robertson explicitly treats the label-on-cylinder example as an approximation.
 - Keep a temporary construction plane in the final drawing after it has served its transfer purpose.
 
 ## Checklist

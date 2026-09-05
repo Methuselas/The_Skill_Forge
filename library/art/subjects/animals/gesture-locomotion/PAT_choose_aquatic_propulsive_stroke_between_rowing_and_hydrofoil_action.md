@@ -62,4 +62,4 @@ variants: []
 - The chosen mechanism supports the intended balance of acceleration, efficiency, and maneuverability.
 
 ## Notes
-An aquatic appendage can produce useful motion through two broad routes. Rowing relies on a strong difference between a drag-producing power phase and a lower-drag recovery. Hydrofoil action treats the fin or limb more like a lifting surface whose changing orientation turns motion through the water into thrust. The same animal may favor different mixes of these mechanics at different speeds.
+Webster contrasts two ways an aquatic appendage can produce useful motion. Rowing relies on a strong difference between a drag-producing power phase and a lower-drag recovery. Hydrofoil action treats the fin or limb more like a lifting surface whose changing orientation can turn motion through the water into thrust. The same animal may favor different mixes of these mechanics at different speeds.

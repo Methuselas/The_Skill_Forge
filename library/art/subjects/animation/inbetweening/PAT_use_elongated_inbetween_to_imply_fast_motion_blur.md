@@ -52,6 +52,6 @@ variants:
 - The fast transition reads smoothly without losing identity.
 
 ## Notes
-An elongated inbetween is a fast-motion connector that belongs to the moving form itself. When the object has already outrun a readable intermediate, a residual drybrush or speed trail can instead follow the actual path, remain behind as the subject advances, and dissipate where it was created. The two methods solve the same perceptual gap in different ways; neither should become generic ornament.
+Williams uses the elongated inbetween as a fast-motion connector that belongs to the moving form itself. Whitaker and Halas provide a distinct alternative when the object has already outrun the readable intermediate: a residual drybrush or speed trail can be generated along the actual path, left behind as the subject advances, and dissipated where it was created. The two methods solve the same perceptual gap in different ways; neither should become generic ornament.
 
 `VAR_whitaker_leave_detached_speed_trail_to_bridge_wide_motion_gaps` keeps the endpoints as ordinary readable poses and lets the connector exist briefly in the vacated path. New trail material should originate from the current fast action while older material dies away; after an exit, the residual can remain for a few frames as evidence of the motion, but should decay rather than behaving like a separate moving ribbon.

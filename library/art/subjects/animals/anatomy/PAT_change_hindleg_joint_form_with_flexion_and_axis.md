@@ -56,7 +56,7 @@ variants: []
 ## Don't
 - Do not draw the femuro-tibial or tarsal region as the same capsule merely rotated between two bones.
 - Do not copy Bammes's horse joint silhouette literally onto another species; retain the axis-and-state method while checking the actual anatomy.
-- Do not treat every bend in the leg as an identical hinge. Use hinge-dominant cross-axes for the running forms that exhibit them, not as a universal joint model for every animal.
+- Do not treat every bend in the leg as an identical hinge. The source emphasizes hinge-dominant cross-axes in running forms, not a universal joint model for every animal.
 - Do not infer exact surface anatomy from the angle alone when muscle, tendon, species, or viewpoint materially changes what is visible.
 
 ## Checklist

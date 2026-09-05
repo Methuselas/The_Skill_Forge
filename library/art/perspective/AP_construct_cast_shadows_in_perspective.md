@@ -18,11 +18,9 @@ tags:
 - projection
 cross_links:
 - rel: supports
-  target_object_id: PAT_project_cast_shadow_points_from_light_and_receiver_geometry
+  target_object_id: PAT_choose_cast_shadow_ray_model_from_light_geometry
 - rel: supports
-  target_object_id: PAT_establish_eye_level_and_vanishing_directions
-- rel: supports
-  target_object_id: PAT_construct_inclined_planes_from_base_vanishing_directions
+  target_object_id: PAT_project_cast_shadow_points_from_shade_boundary_to_receiver
 reference:
   source_title: Perspective Drawing Handbook
   author: Joseph D'Amelio
@@ -32,22 +30,16 @@ variants:
 - variant_id: VAR_reconstruct_shadows_across_complex_receivers
   variant_name: Reconstruct Shadows Across Changing Receivers
   variant_basis: method_sequence
-  difference_from_foundation: 'Absorbs Norling''s receiver-turn checkpoint and extends it to inclined, multi-plane, and curved
-    receivers: keep the same light ray but reconstruct each intersection on the new receiving geometry.'
+  difference_from_foundation: 'Absorbs Norling''s receiver-turn checkpoint and extends it to inclined, multi-plane, and curved receivers: keep the same light ray but reconstruct each intersection on the new receiving geometry.'
   when_to_use: Use when a cast shadow crosses a wall, incline, curved form, or other receiver break.
   when_not_to_use: Do not continue a shadow as one flat screen-space contour across changing receiver geometry.
   absorbed_from_object_id: none
 - variant_id: VAR_eissen_estimate_cast_shadow_from_simplified_proxy_geometry
   variant_name: Estimate Cast Shadow From Simplified Proxy Geometry
   variant_basis: method_sequence
-  difference_from_foundation: 'Adds a fast product-sketch branch: reduce the caster to cheap proxy geometry, project only
-    the few boundaries or cross-sections needed to establish direction and footprint, and for thin elevated forms project
-    the top surface or cross-section as a pseudo-cast/drop shadow rather than reconstructing the whole contour. Offset the
-    footprint visibly when that explains elevation and light direction better than a centered halo.'
-  when_to_use: Use when an exploratory or explanatory sketch needs a believable cast shadow quickly and exact constructed
-    projection would cost more time than the drawing requires.
-  when_not_to_use: Do not use the estimate when technical accuracy, a difficult receiver, or close shadow-object alignment
-    must be proven constructively; return to the foundation projection method instead.
+  difference_from_foundation: 'Adds a fast product-sketch branch: reduce the caster to cheap proxy geometry, project only the few boundaries or cross-sections needed to establish direction and footprint, and for thin elevated forms project the top surface or cross-section as a pseudo-cast/drop shadow rather than reconstructing the whole contour. Offset the footprint visibly when that explains elevation and light direction better than a centered halo.'
+  when_to_use: Use when an exploratory or explanatory sketch needs a believable cast shadow quickly and exact constructed projection would cost more time than the drawing requires.
+  when_not_to_use: Do not use the estimate when technical accuracy, a difficult receiver, or close shadow-object alignment must be proven constructively; return to the foundation projection method instead.
   absorbed_from_object_id: none
 ---
 
@@ -68,13 +60,13 @@ Project cast shadows so the light direction, receiving plane, object position, a
 - Shadow construction must remain consistent with the receiving plane's perspective.
 
 **Flow**
-1. **Classify the projection branch.** Apply `PAT_project_cast_shadow_points_from_light_and_receiver_geometry`: use parallel rays for distant directional light and divergent rays for a nearby point source.
-2. **Find the shade boundary.** Under `PAT_project_cast_shadow_points_from_light_and_receiver_geometry`, identify the object's edge or line separating light-facing and turned-away surfaces; these are the casting points.
-3. **Solve the receiving geometry.** Apply `PAT_establish_eye_level_and_vanishing_directions` to the receiver's established direction families. When the receiver is an inclined plane, apply `PAT_construct_inclined_planes_from_base_vanishing_directions` before projecting onto it.
-4. **Parallel sunlight branch.** Continue applying `PAT_project_cast_shadow_points_from_light_and_receiver_geometry`: keep the light rays parallel in space and, when oblique to the picture plane, coordinate the light-ray and receiver-plane shadow-direction vanishing points.
-5. **Local point-source branch.** Continue applying `PAT_project_cast_shadow_points_from_light_and_receiver_geometry`: draw rays from the light through the relevant shade-boundary points and use the source's projection onto the receiver to establish the shadow direction for upright forms.
-6. **Intersect constructions.** Complete `PAT_project_cast_shadow_points_from_light_and_receiver_geometry` by locating every decisive ray/receiver intersection and connecting the results in casting-boundary order. Reconstruct the intersections whenever the receiver changes plane or curvature.
-7. **Validate.** Confirm that a lower sun gives longer projected shadows and a higher sun shorter ones under the same scene geometry, and that local-light shadows fan consistently from the source.
+1. **Classify the light.** Use `PAT_choose_cast_shadow_ray_model_from_light_geometry` to choose the parallel/directional or local-point-source ray model before projection.
+2. **Find the casting boundary.** Use `PAT_project_cast_shadow_points_from_shade_boundary_to_receiver` to identify valid shade-boundary casting points and project them to the receiver. Keep the following branch steps as sequence-level setup and validation for that projection.
+3. **Solve the receiving-plane direction.** Establish how shadow-bearing lines travel across that plane.
+4. **Parallel sunlight branch.** Keep the light rays parallel in space. When oblique to the picture plane, use the light-ray vanishing point and the shadow-direction vanishing point in their corresponding perspective relationship.
+5. **Local point-source branch.** Draw rays from the actual light source through the relevant shade-boundary points; use the source's projection onto the plane to establish the shadow direction for upright forms.
+6. **Intersect constructions.** The intersections locate exact cast-shadow points; connect them in the order supplied by the casting boundary.
+7. **Validate.** Confirm that lower directional light produces longer projected shadows and higher directional light shorter ones under the same scene geometry, and that local-light shadows fan consistently from the source.
 
 **Failure / Rollback Rules**
 - If the shadow direction contradicts the receiving plane, re-solve that plane before moving the shadow.

@@ -56,7 +56,7 @@ variants: []
 - Do not sacrifice species structure in the name of expression.
 - Do not assume detailed finish is more truthful than suggestive finish, or that loose finish excuses weak construction.
 - Do not copy the horse prism, carnivore ovoid, lioness pentagon, or any historical artist's mark language as a mandatory style.
-- Do not elevate one color or mood example into a general color doctrine; it supports only the larger structure-first, interpretation-later relationship.
+- Do not elevate Bammes's color/mood example into a general color doctrine; this source only supports the larger structure-first, interpretation-later relationship.
 
 ## Checklist
 - The finished head still preserves the same skull type and soft-form relationships as the construction underneath.

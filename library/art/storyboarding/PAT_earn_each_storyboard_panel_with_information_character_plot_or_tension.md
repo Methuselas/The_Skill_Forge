@@ -62,4 +62,4 @@ variants: []
 - The sequence was generated intuitively before this analytical filter was applied.
 
 ## Notes
-Use four explicit post-first-pass questions for storyboard editing: what new information is supplied, whether the sketch advances character personality, whether it advances plot, and what risk or tension the scene contains. Do not apply the questions so mechanically that they inhibit the initial creative pass. The durable operation is a second-pass panel-value test: generate first, then make each retained storyboard image justify its contribution to the sequence.
+Bluth gives four explicit post-first-pass questions for storyboard editing: what new information is supplied, whether the sketch advances character personality, whether it advances plot, and what risk or tension the scene contains. He warns against applying the questions so mechanically that they inhibit the initial creative pass. The durable operation is therefore a second-pass panel-value test: generate first, then make each retained storyboard image justify its contribution to the sequence.

@@ -61,4 +61,4 @@ variants: []
 - The decomposition is no more complex than production actually requires.
 
 ## Notes
-Background, underlay, animation or held levels, overlays, and effects may be named with traditional cel terminology. The modern invariant is an ordered registered scene stack whose parts can move, hold, occlude, repeat, or composite independently without losing one shared geometry.
+Byrne describes background, underlay, animation/held levels, overlays, and effects using traditional cel terminology. The modern invariant is an ordered registered scene stack whose parts can move, hold, occlude, repeat, or composite independently without losing one shared geometry.

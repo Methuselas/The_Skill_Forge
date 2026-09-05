@@ -71,7 +71,7 @@ variants:
 - Several objects with shared orientation look like they occupy the same world.
 
 ## Notes
-The cube is a useful prerequisite because it exposes the perspective relationship cleanly before complicated forms obscure it.
+D'Amelio makes the cube a prerequisite because it exposes the perspective relationship cleanly before complicated forms obscure it.
 
 
 **Hultgren animal-angle variant — `VAR_hultgren_loose_pose_box_for_animal_angle_shots`.** For difficult animal angle shots, a coarse box or cage can be used briefly as a perspective check around the pose. Use it to verify gross orientation and recession, then return to the animal's organic construction; it is a poor fit when the cage begins to stiffen the action or turns the body into a literal cuboid.

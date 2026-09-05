@@ -66,4 +66,4 @@ variants: []
 - The stroke path and timing fit the bird's flight mode and apparent scale.
 
 ## Notes
-Distinguish the effective downstroke from the recovery upstroke and move the body with the wing cycle rather than holding it fixed. Let primaries trail from the wrist and separate during the upstroke when the species supports it; hovering or landing also changes body attitude and the apparent wing path. Animate a wingbeat as an asymmetric force cycle whose shape, feather behavior, body response, and tempo change with flight condition, not as a mirrored hinge motion.
+Whitaker and Halas distinguish the effective downstroke from the recovery upstroke and show the body moving with the wing cycle rather than remaining fixed. Their pigeon examples also show the primaries trailing from the wrist and separating during the upstroke, while hovering or landing changes the bird's body attitude and the apparent path of the wings. The durable decision is to animate a wingbeat as an asymmetric force cycle whose shape, feather behavior, body response, and tempo change with flight condition, not as a mirrored hinge motion.

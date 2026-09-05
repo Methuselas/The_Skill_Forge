@@ -37,7 +37,7 @@ variants: []
 ## Do
 - Connect the three principal vanishing points and check that all three triangle angles are less than 90 degrees.
 - Find the viewing target by intersecting two altitudes of the vanishing-point triangle; that intersection is the orthocenter.
-- When exact distance matters, recover it from an altitude semicircle or the equivalent product relation described by the source.
+- When exact distance matters, recover it from an altitude semicircle or the equivalent product relation used by this construction.
 - Treat a triangle approaching a right angle as a warning that the implied station point is collapsing toward the picture plane and ordinary viewers will see severe apparent distortion from normal display distances.
 - For a practical invented field without a pre-existing camera, prefer a nearly equilateral vanishing triangle as a stable starting geometry, then place the actual subject near the viewing target.
 

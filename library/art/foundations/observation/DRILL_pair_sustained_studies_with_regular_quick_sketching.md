@@ -67,4 +67,4 @@ Choose a recurring subject class that can support both modes, such as heads, fig
 - Inventing fixed time quotas or ratios and mistaking the schedule for the training principle.
 
 ## Notes
-Time-consuming academic drawings should be accompanied by regular sketching. Sustained study develops knowledge and careful construction, while sketching trains the eye and the ability to grasp and express the whole rapidly. This Drill preserves that complementary training relationship without inventing fixed durations or quotas.
+Mogilevtsev closes the Figure section by arguing that time-consuming academic drawings should be accompanied by regular sketching. In his framing, sustained study develops knowledge and careful construction while sketching trains the eye and the ability to grasp and express the whole rapidly. This Drill preserves that complementary training relationship without inventing durations or quotas the source does not specify.

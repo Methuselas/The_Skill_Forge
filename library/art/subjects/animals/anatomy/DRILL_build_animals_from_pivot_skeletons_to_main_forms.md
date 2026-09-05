@@ -63,4 +63,4 @@ Choose side or three-quarter references in which the spine direction, forequarte
 - Treating an overlapped limb fragment as a detached shape instead of continuing its joint chain through the hidden region.
 
 ## Notes
-Move from simplified skeleton knowledge and pivot points into main-form sketching, and apply that sequence to several quadruped types. The Drill practices that transfer rather than memorizing a single animal skeleton. It deliberately avoids promoting broad species-stance examples into anatomical rules.
+The unit moves explicitly from simplified skeleton knowledge and pivot points into main-form sketching, and its image-led pages apply that sequence to several quadruped types. The Drill practices that transfer rather than memorizing a single animal skeleton. It deliberately avoids promoting the unit's broader species-stance claims as anatomical rules.

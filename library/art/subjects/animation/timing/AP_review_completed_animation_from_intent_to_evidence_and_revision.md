@@ -28,6 +28,10 @@ cross_links:
   target_object_id: PAT_use_frame_sequence_reference_to_study_fast_action
 - rel: related_to
   target_object_id: DRILL_analyze_performance_as_emotional_dynamic_across_sequence
+- rel: supports
+  target_object_id: PAT_judge_animation_as_moving_performance_not_isolated_drawings
+- rel: supports
+  target_object_id: PAT_diagnose_timing_at_pacing_phrasing_or_single_action_scale
 reference:
   source_title: Action Analysis for Animators
   author: Chris Webster
@@ -61,4 +65,4 @@ Evaluate a completed or substantially complete animation against its intended jo
 - Revisions were replayed in context after correction.
 
 ## Notes
-Distinguish animation testing during construction from reflective analysis after substantial work exists. Move from intent to whole-speed evidence, through bounded detailed diagnosis, and back into revision. Real-time playback remains the authority for whether a local correction actually improves the experienced motion.
+Webster distinguishes animation testing during construction from reflective analysis after substantial work exists. The review should move from intent to whole-speed evidence, through bounded detailed diagnosis, and back into revision. Real-time playback remains the authority for whether a local correction actually improves the experienced motion.

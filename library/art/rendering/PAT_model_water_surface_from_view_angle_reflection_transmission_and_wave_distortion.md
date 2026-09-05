@@ -7,9 +7,9 @@ library_path:
 - rendering
 stage_binding: 4 final
 lane_fit: both
-foundation_role: foundation
-routing_class: general
-specialization_axis: none
+foundation_role: specialization
+routing_class: specialized
+specialization_axis: domain
 foundation_object_id: none
 tags:
 - rendering
@@ -31,13 +31,9 @@ variants:
 - variant_id: VAR_martin_encode_water_state_with_black_white_wave_rhythm
   variant_name: Encode Water State With Black-White Wave Rhythm
   variant_basis: medium
-  difference_from_foundation: 'Adds a black-and-white line-art route: use alternating dark mass and retained light shapes
-    to make crest/trough structure legible, change the mark rhythm with surface state and flow, and compress articulation
-    with recession while keeping the larger wave/perspective geometry intact.'
-  when_to_use: Use when water must read clearly in stylized black-and-white ink without continuous tone or color, especially
-    when wave state and depth recession need to survive reproduction.
-  when_not_to_use: Do not use the graphic shorthand as a substitute for reflection, transmission, and optical-path reasoning
-    when physical water behavior is important.
+  difference_from_foundation: 'Adds a black-and-white line-art route: use alternating dark mass and retained light shapes to make crest/trough structure legible, change the mark rhythm with surface state and flow, and compress articulation with recession while keeping the larger wave/perspective geometry intact.'
+  when_to_use: Use when water must read clearly in stylized black-and-white ink without continuous tone or color, especially when wave state and depth recession need to survive reproduction.
+  when_not_to_use: Do not use the graphic shorthand as a substitute for reflection, transmission, and optical-path reasoning when physical water behavior is important.
   absorbed_from_object_id: none
 references: []
 ---

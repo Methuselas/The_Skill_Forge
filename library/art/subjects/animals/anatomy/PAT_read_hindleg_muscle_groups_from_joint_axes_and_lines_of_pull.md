@@ -49,10 +49,10 @@ variants: []
 **ELSE** keep the lighter skeletal construction when the major functional masses already agree with the pose and species.
 
 ## Do
-- Start from the articulated hindleg chain and its joint axes; the skeleton is the priority framework that gives muscle function and form a place to act.
-- Group muscles by what they do across a joint rather than by memorizing every named muscle. On the hindleg, distinguish hip-moving groups, knee extensors, tarsal and digital groups, and multi-joint rump or Achilles-related groups.
+- Start from the articulated hindleg chain and its joint axes; Bammes treats the skeleton as the priority framework that gives muscle function and form a place to act.
+- Group muscles by what they do across a joint rather than by memorizing every named muscle. On the hindleg, the source distinguishes hip-moving groups, knee extensors, tarsal and digital groups, and multi-joint rump or Achilles-related groups.
 - Follow the actual line of pull across the **specific joint** before assigning flexion or extension. A group can cross one axis or several, so its action cannot be inferred from one contour label alone.
-- Let the grouped flexor/extensor volumes help explain the leg's front-to-back depth; these masses tend to occupy the front and rear contours more strongly than the side-to-side width.
+- Let the grouped flexor/extensor volumes help explain the leg's front-to-back depth. Bammes notes that these masses tend to occupy the front and rear contours more strongly than the side-to-side width.
 - Recheck the arrangement against the animal being studied. Bammes explicitly warns that his functional diagrams are simplified and that comparable species may differ in which muscle groups are present or where they originate.
 
 ## Don't
@@ -70,6 +70,6 @@ variants: []
 - The drawing can still be simplified to functional masses without needing every muscle name.
 
 ## Notes
-Treat the living hindleg as a structural dialogue between hard skeletal forms and variable muscle forms. Reduce the musculature to functional complexes related to joint cross-axes and lines of pull. Keep such diagrams **general and simplified**; the actual arrangement differs between animal forms.
+Bammes frames the living hindleg as a structural dialogue between hard skeletal forms and variable muscle forms. He reduces the musculature to functional complexes and explains them by their relation to joint cross-axes and lines of pull. He then immediately qualifies the diagrams as **general and simplified**, noting that the actual arrangement differs between animal forms.
 
 This card now sits beneath `PAT_read_animal_limb_muscle_groups_from_joint_axes_and_lines_of_pull`, the broader owner earned when the runner-foreleg treatment independently repeats the same axis-and-line-of-pull logic. The hindleg specialization remains useful because it preserves Bammes's specific hip, knee, tarsal, rump, Achilles, and distal-foot examples while the general owner keeps the method portable across limbs.

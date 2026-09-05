@@ -62,4 +62,4 @@ variants: []
 - Removing surface wrinkles still leaves a convincing species-specific head volume.
 
 ## Notes
-Distinguish the head's masticatory muscles from most facial muscles by plastic consequence. The masseter and temporal muscles can materially round or facet the living head, especially in carnivores and anthropoid apes. Most facial muscles move skin around sensory openings and show themselves more through creases, aperture changes, and expressive tension than through large volume. This hierarchy prevents an anatomy study from becoming a map of equally raised muscle labels.
+Bammes distinguishes the head's masticatory muscles from most facial muscles by plastic consequence. The masseter and temporal muscles can materially round or facet the living head, especially in carnivores and anthropoid apes. Most facial muscles move skin around sensory openings and therefore show themselves more through creases, aperture changes, and expressive tension than through large volume. This hierarchy prevents an anatomy study from becoming a map of equally raised muscle labels.

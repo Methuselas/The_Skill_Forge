@@ -87,7 +87,7 @@ variants:
 - No fixed numeric COV rule is being mistaken for a theorem.
 
 ## Notes
-This Pattern supersedes the earlier VP-spacing-only card. Rectilinear perspective can remain geometrically exact at an extreme field, but only from its implied station point and support geometry. Convergence changes perceived product scale as well as shape, so a technically consistent view can still communicate the wrong size impression. Practical distortion control therefore depends on the intended viewer/display as well as the vanishing geometry. Spherical/curvilinear projection is a deliberate alternate model for compact extreme fields, not a local correction applied after the fact.
+This Pattern supersedes the earlier D'Amelio VP-spacing-only card. *Viewpoints* resolves the key ambiguity: rectilinear perspective can remain geometrically exact at an extreme field, but only from its implied station point and support geometry. Eissen and Steur add a useful design-sketch diagnostic: convergence changes perceived product scale as well as shape, so a technically consistent view can still communicate the wrong size impression. Practical distortion control therefore depends on the intended viewer/display as well as the vanishing geometry. Spherical/curvilinear projection is a deliberate alternate model for compact extreme fields, not a local correction applied after the fact.
 
 `VAR_rectilinear_viewpoint_match` remains a bounded variant under the conditions recorded in its variant metadata.
 

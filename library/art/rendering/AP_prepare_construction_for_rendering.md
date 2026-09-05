@@ -17,12 +17,14 @@ tags:
 - shade
 - shadow
 cross_links:
-- rel: supports
+- rel: related_to
   target_object_id: AP_construct_cast_shadows_in_perspective
 - rel: supports
   target_object_id: PAT_consolidate_resolved_form_with_tone
 - rel: supports
   target_object_id: PAT_characterize_light_source_by_relative_strength_apparent_size_and_spectrum
+- rel: supports
+  target_object_id: PAT_model_matte_form_from_primary_light_and_secondary_fill
 reference:
   source_title: 'Basic Rendering: Effective Drawing for Designers, Artists and Illustrators'
   author: Robert W. Gill
@@ -38,7 +40,7 @@ Convert a trustworthy construction into a clean downstream appearance base whose
 
 ## Steps / Flow
 1. **Pass the construction-entry and predecessor gate.** Enter only when perspective, major volumes, attachments/overlaps, support relationships, and important hidden continuations are trustworthy enough for downstream appearance work. If an approved Drawing predecessor exists, inherit its camera, crop, composition, pose, perspective, placement, major form/design, scene inventory, and important overlap/contact decisions as locked. If no approved Drawing predecessor exists, a legitimate root or alternate-entry workflow may still supply trustworthy construction without manufacturing Finished Pencils first. If downstream appearance work would have to choose unresolved structure, return to the construction owner instead of using tone as camouflage.
-2. **Establish the light model.** Use `PAT_characterize_light_source_by_relative_strength_apparent_size_and_spectrum` to define enough of the dominant source—direction, relative size/quality, spectral tendency where relevant, and important secondary/reflected influences—to predict the intended form/shadow behavior.
+2. **Apply `PAT_model_matte_form_from_primary_light_and_secondary_fill` when the primary task is clarifying matte light/shadow on the constructed form. Establish the light model.** Use `PAT_characterize_light_source_by_relative_strength_apparent_size_and_spectrum` to define enough of the dominant source—direction, relative size/quality, spectral tendency where relevant, and important secondary/reflected influences—to predict the intended form/shadow behavior.
 3. **Map the form-light separation.** Identify which surfaces face the source and where they turn out of direct light. On curved forms treat the terminator as a form-dependent transition rather than automatically converting it into a hard contour.
 4. **Delegate significant geometric cast shadows when needed.** When important opaque forms cast structurally meaningful shadows onto known receivers, invoke `AP_construct_cast_shadows_in_perspective`, then return with the solved shadow geometry. Under very diffuse light or when cast shadows are not structurally important, do not invoke the subordinate AP mechanically.
 5. **Keep causes distinct.** Name form shade, cast shadow, occlusion, and reflected-light effects according to what produces them. Reflected light may modify appearance later, but it does not change whether a region is form shade or cast shadow.

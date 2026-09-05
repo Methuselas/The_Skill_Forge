@@ -57,4 +57,4 @@ variants: []
 - Jet direction and body travel form a coherent action-reaction pair.
 
 ## Notes
-Jet propulsion is inherently pulsatile: the animal loads water, expels it to gain speed, then must refill before the next useful thrust. At low repetition this produces a clear accelerate-and-coast rhythm. As the pulses become rapid, the fluctuations can merge into a smoother overall travel speed.
+Webster describes jet propulsion as inherently pulsatile: the animal loads water, expels it to gain speed, then must refill before the next useful thrust. At low repetition this produces a clear accelerate-and-coast rhythm. As the pulses become rapid, the fluctuations can merge into a smoother overall travel speed.

@@ -72,7 +72,7 @@ variants:
 - If behavior or interaction is being caricatured, the pushed relationship still preserves the intended identity, action, and mechanics.
 
 ## Notes
-Intensifying means drawing what is seen “more so”: round forms rounder, bony angles bonier, and characteristic proportions more pronounced. This general foundation sits above subject-specific caricature methods for heads, animals, characters, creatures, and other designed forms.
+Dodson describes intensifying as drawing what is seen "more so": round forms rounder, bony angles bonier, and characteristic proportions more pronounced. This general foundation sits above subject-specific caricature methods for heads, animals, characters, creatures, and other designed forms.
 
 Marvel variant note: `VAR_marvel_exaggerate_role_defining_character_structure` applies the same foundation to superhero/comics role design while explicitly preserving exceptions to any single heroic proportion chart.
 

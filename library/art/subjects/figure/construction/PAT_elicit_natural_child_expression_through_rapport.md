@@ -53,4 +53,4 @@ variants: []
 - The captured reference supports the intended mood of the picture.
 
 ## Notes
-Treat this as a practical drawing-and-photography problem: adult authority changes the face being observed. The reusable lesson is not that every child portrait must be cheerful; it is that natural expression depends partly on the conditions under which the reference is obtained.
+Loomis frames this as a practical drawing-and-photography problem: adult authority changes the face being observed. The reusable lesson is not that every child portrait must be cheerful; it is that natural expression depends partly on the conditions under which the reference is obtained.

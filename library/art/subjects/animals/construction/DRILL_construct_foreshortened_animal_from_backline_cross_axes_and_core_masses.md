@@ -78,6 +78,6 @@ Choose one clear reference in which the trunk is not a simple profile and at lea
 - Forcing coat markings into perfect geometric rings rather than observing how the real markings vary as they wrap the body.
 
 ## Notes
-Begin with the center or back route and intersecting cross-axes, expand that system with simplified body masses, then let the guide recede while the animal becomes more organic. In the final stage, transverse markings such as a tiger's stripes can reinforce solidity by wrapping around the body like changing cross-sections. Absorb the construction into the finished drawing rather than leaving it visible as a formula.
+Bammes presents almost exactly this progression: begin with the center/back route and intersecting cross-axes, expand that system with simplified body masses, then let the guide recede while the animal becomes more organic. In the final stage, the tiger's stripes reinforce the solid impression because the transverse markings wrap around the body like changing cross-sections. A finished example shows the construction fully absorbed into the drawing rather than left visible as a formula.
 
 The stripe check is deliberately secondary here because the library already owns natural markings as surface-wrap evidence. The distinct practice target of this Drill is the sequence from longitudinal structure to cross-axes to masses and then to a guide-free foreshortened animal.

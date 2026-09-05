@@ -70,7 +70,7 @@ variants:
 - A mismatch between 2-D shape and 3-D construction is investigated rather than ignored.
 
 ## Notes
-Because a positive member and the space beside it share the same boundary, negative shapes provide an alternate description of the subject. The method is portable across figures, animals, objects, vehicles, architecture, and creatures.
+Because a positive member and the space beside it share the same boundary, Dodson uses negative shapes as an alternate description of the subject. The method is portable across figures, animals, objects, vehicles, architecture, and creatures.
 
 `VAR_schmid_reduce_observed_scene_to_flat_color_value_edge_shapes` broadens the flat-shape read to the whole visual field: temporarily suppress object names and compare adjoining shapes by placement, size, color/value, and edge before restoring structural interpretation where it helps.
 

@@ -59,4 +59,4 @@ variants: []
 - Similar-function comparisons have not been flattened into one universal solution.
 
 ## Notes
-Treat the beak as a working tool whose form reflects how a bird obtains food. Raptors tear, seed eaters crush, some fish hunters use spear-like bills, woodpeckers chisel, curlews probe, hummingbirds reach into flowers, and filter-feeding species arrive at visibly different solutions because they gather food in different ways. The transferable decision is functional rather than taxonomic: first identify the action, then construct the beak that can plausibly perform it.
+Webster treats the beak as a working tool whose form reflects how a bird obtains food. Raptors tear, seed eaters crush, some fish hunters use spear-like bills, woodpeckers chisel, curlews probe, hummingbirds reach into flowers, and filter-feeding species arrive at visibly different solutions because they gather food in different ways. The transferable decision is therefore functional rather than taxonomic: first identify the action, then construct the beak that can plausibly perform it.

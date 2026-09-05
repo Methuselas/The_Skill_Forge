@@ -85,7 +85,8 @@ No special setup required.
 - Treating memory error as failure instead of evidence for what was not actually observed.
 
 ## Notes
-This differs from reference-free invention practice. Use memory to train **seeing and analysis of observed action** when a model may not hold still. The production lesson is not to avoid reference; it is to make observation active enough that the action can survive after the subject moves.
+This differs from reference-free invention practice. Vilppu uses memory to train **seeing and analysis of observed action** in situations where a model may not hold still. The production lesson is not to avoid reference; it is to make observation active enough that the action can survive after the subject moves.
 `VAR_stanchfield_embody_pose_to_internalize_support_action_and_attitude` adds a kinesthetic diagnostic pass when sight alone leaves the pose unclear. Briefly assume or safely simulate the main support, lean, twist, reach, or compression; notice where weight settles, which side stretches or squashes, and what attitude the action produces; then return to the page and reconstruct the whole gesture from that felt model. It is an aid to understanding an observed action, not permission to substitute one's own anatomy for missing reference.
 
 `VAR_bammes_test_animal_motion_with_visual_memory_and_imagination` extends the same memory test to studied animal motion: after observing and understanding a movement process, remove direct support and reconstruct the action from visual memory or imagination. Use the uncertainty that appears as evidence for what has not yet been internalized; do not skip the observation/study phase that makes the reconstruction meaningful.
+

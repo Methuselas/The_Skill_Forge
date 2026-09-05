@@ -61,7 +61,7 @@ variants: []
 - Toe spread, claw form, and webbing match the bird's contact or propulsion job.
 - Leg length and placement support the intended environment and movement.
 - The foot specialization still connects correctly to the hidden-knee/visible-ankle bird-leg chain.
-- Any functional gain is accompanied by the visible tradeoff the body plan demands.
+- Any functional gain is accompanied by the visible tradeoff Webster describes when the body plan demands one.
 - Ground gait, body angle, and lateral sway agree with the bird's apparent size and leg placement.
 
 ## Notes

@@ -60,7 +60,7 @@ variants:
 - Carry one construction centerline from the cranial/base region through the nose to the muzzle so all three sections turn together.
 - Establish the muzzle as a volume with its own end plane rather than as a flat extension of the face.
 - Attach the ears to the rear head region with simple bases before refining their outer shapes.
-- Use eye, ear, and nostril alignment as a working comparative guide, then adjust it to the actual animal or reference instead of treating the broad guide as universal.
+- Use eye, ear, and nostril alignment as a working comparative guide, then adjust it to the actual animal or reference instead of treating the source's broad guide as universal.
 - Observe whether the eyes sit more laterally or more forward on the particular animal and let that placement follow the constructed head.
 
 ## Don't

@@ -328,7 +328,7 @@ variants:
 - Removing the mnemonic label does not destroy the spatial explanation.
 
 ## Notes
-Treat anatomy as a working process rather than a reference catalog. Use the recurring sequence shape/placement/gesture/perspective inside the larger progression gesture → shapes → landmarks/volume → anatomy → value.
+Hampton explicitly presents anatomy as a working process rather than a reference catalog. His recurring sequence is shape/placement/gesture/perspective, nested inside the larger progression of gesture → shapes → landmarks/volume → anatomy → value.
 
 `VAR_zarins_trace_surface_bulges_to_deeper_layers` retains **Trace Surface Bulges to Deeper Anatomical Layers** as a bounded alternative; use it only under the conditions recorded in the variant metadata.
 

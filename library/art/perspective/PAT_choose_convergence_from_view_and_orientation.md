@@ -70,7 +70,7 @@ variants:
 - Up/down views are not flattened by an automatic vertical-line rule.
 
 ## Notes
-A cube sequence is the practical carrier for this rule: named systems are consequences of view and orientation.
+D'Amelio's cube sequence is the practical carrier for this rule: named systems are consequences of view and orientation.
 
 **Boundaries**
 This Pattern selects convergence topology. It does not determine exact spacing or correct excessive distortion.

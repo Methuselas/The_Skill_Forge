@@ -20,8 +20,6 @@ tags:
 cross_links:
 - rel: teaches
   target_object_id: PAT_construct_circles_as_ellipses_on_perspective_planes
-- rel: supports
-  target_object_id: PAT_construct_circles_as_ellipses_on_perspective_planes
 reference:
   source_title: 'How to Draw: Drawing and Sketching Objects and Environments from Your Imagination'
   author: Scott Robertson with Thomas Bertling
@@ -63,4 +61,4 @@ Use a pencil or pen and enough paper to rotate the sheet freely. Draw lightly en
 - Treating this motor-control drill as a substitute for exact projected-circle construction on a difficult plane.
 
 ## Notes
-This is a freehand control exercise, not a universal proof about ellipse axes. Exact circle placement remains governed by the stricter perspective-plane construction when accuracy matters; the broader axis theorem stays outside this drill's claim.
+This drill extracts the freehand control exercise, not a universal proof about ellipse axes. Exact circle placement remains governed by the stricter perspective-plane construction when accuracy matters; the broader axis theorem stays queued for the later mathematical audit.

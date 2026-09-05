@@ -83,7 +83,7 @@ Use a reliable animal-anatomy cross-section that places the main trunk muscle gr
 - Drawing the spinal extensor and rectus abdominis as equal decorative stripes instead of dorsal and ventral antagonistic masses.
 - Calling every lateral abdominal sheet a torsion muscle without checking whether its route actually crosses the longitudinal axis diagonally.
 - Mixing shoulder-girdle or limb muscles into the pure-trunk exercise and obscuring the limited system being studied.
-- Exaggerating visible swelling in the four action thumbnails when the exercise establishes function, not a fixed surface-contraction diagram.
+- Exaggerating visible swelling in the four action thumbnails even though the source explains function, not a fixed surface-contraction diagram.
 
 ## Notes
 The cross-section is a teaching reduction: it places the important trunk groups around the spinal axes so their functions can be inferred. Comparative side views then restore enough species-specific anatomy to show how those broad groups occupy a dog and a horse. The exercise preserves that sequence—mechanical map first, comparative form second—rather than asking the learner to memorize a full labeled plate.

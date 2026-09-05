@@ -61,4 +61,4 @@ variants: []
 - Hovering remains spatially controlled without pretending the bird has no force requirement.
 
 ## Notes
-Powered flight, gliding, soaring, and hovering are distinct flight gaits whose visible differences follow from where lift and thrust come from. A hummingbird creates the needed airflow through rapid wing motion; a kestrel can hover into a wind and use external airflow instead.
+Webster describes powered flight, gliding, soaring, and hovering as distinct flight gaits. Their visible differences follow from where lift and thrust come from. A hummingbird creates the needed airflow through rapid wing motion; a kestrel can hover into a wind and use the external airflow instead.

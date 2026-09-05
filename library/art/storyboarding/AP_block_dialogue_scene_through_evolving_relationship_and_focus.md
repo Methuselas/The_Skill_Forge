@@ -22,17 +22,17 @@ tags:
 - physical_business
 cross_links:
 - rel: supports
-  target_object_id: PAT_make_dialogue_business_carry_character_and_conflict
-- rel: related_to
   target_object_id: PAT_stage_subtext_through_visible_behavior_without_forcing_it_into_dialogue
-- rel: related_to
-  target_object_id: PAT_stage_interacting_characters_as_one_action_reaction_system
-- rel: related_to
-  target_object_id: PAT_control_story_information_with_conceal_and_reveal
-- rel: related_to
-  target_object_id: PAT_choose_shot_scale_for_context_reaction_or_intimacy
 - rel: supports
+  target_object_id: PAT_stage_interacting_characters_as_one_action_reaction_system
+- rel: supports
+  target_object_id: PAT_control_story_information_with_conceal_and_reveal
+- rel: supports
+  target_object_id: PAT_choose_shot_scale_for_context_reaction_or_intimacy
+- rel: related_to
   target_object_id: AP_develop_storyboard_sequence_in_progressive_directing_passes
+- rel: supports
+  target_object_id: PAT_make_dialogue_business_carry_character_and_conflict
 reference:
   source_title: The Art of Storyboard
   author: Don Bluth
@@ -49,14 +49,14 @@ Turn a dialogue scene into an evolving visual relationship by coordinating block
 ## Steps / Flow
 1. **State the dramatic relationship before choosing coverage.** Identify the scene conflict, what each participant wants, the important text/subtext, and who appears to control the situation at the beginning.
 2. **Establish enough geography to make later changes meaningful.** Show the space, important props, entrances/exits, seating, barriers, and relative character positions clearly enough that subsequent movement can register as a change rather than random repositioning.
-3. **Block each beat from objective and relationship.** Decide where characters sit, stand, approach, withdraw, turn away, invade space, exchange or seize props, create barriers, or alter their physical arrangement because of what they are trying to accomplish.
+3. **Block each beat from objective and relationship.** Use `PAT_stage_interacting_characters_as_one_action_reaction_system` when the exchange must read as one connected action/reaction system. Decide where characters sit, stand, approach, withdraw, turn away, invade space, exchange or seize props, create barriers, or alter their physical arrangement because of what they are trying to accomplish.
 4. **Give dialogue story-bearing physical business.** Use `PAT_make_dialogue_business_carry_character_and_conflict` so actions performed during speech reveal character, objective, conflict, or relationship instead of becoming idle motion.
-5. **Move the focal emphasis when the dramatic focus changes.** Change framing, angle, or shot scale because a reaction, decision, reveal, or relationship shift needs stronger access—not automatically because the speaker changed.
-6. **Use offscreen action and withheld views deliberately.** Keep secondary action outside the frame when revealing it later strengthens the primary character's reaction, surprise, or the audience's discovery. An offscreen voice can interrupt or redirect a beat without requiring an immediate cut.
+5. **Move the focal emphasis when the dramatic focus changes.** Use `PAT_choose_shot_scale_for_context_reaction_or_intimacy` when shot scale is the active access decision. Change framing, angle, or shot scale because a reaction, decision, reveal, or relationship shift needs stronger access—not automatically because the speaker changed.
+6. **Use offscreen action and withheld views deliberately.** Use `PAT_control_story_information_with_conceal_and_reveal` when withholding or revealing information is the active story decision. Keep secondary action outside the frame when revealing it later strengthens the primary character's reaction, surprise, or the audience's discovery. An offscreen voice can interrupt or redirect a beat without requiring an immediate cut.
 7. **Let apparent resolutions breathe before reopening conflict when the character logic earns it.** A short calm or seeming victory can create a stronger next beat if another character's objective genuinely remains unresolved.
 8. **Track the physical relationship from start to finish.** Compare who controls the space, who accommodates whom, who gains comfort or access, who is displaced, and how props or barriers change. The final arrangement should reflect the dramatic progression when the scene is built around a relationship shift.
-9. **Run a dialogue-off visual test.** Ignore the words temporarily and read only the boards. The major relationship changes, conflict, and behavior should remain substantially understandable. If the sequence collapses into static figures waiting to speak, strengthen the blocking and business.
+9. **Run a dialogue-off visual test.** Use `PAT_stage_subtext_through_visible_behavior_without_forcing_it_into_dialogue` when the underlying dramatic current disappears without the spoken line. Ignore the words temporarily and read only the boards. The major relationship changes, conflict, and behavior should remain substantially understandable. If the sequence collapses into static figures waiting to speak, strengthen the blocking and business.
 10. **Replay the scene as continuous action.** Check that the individual shots still feel like one evolving interaction rather than disconnected illustrations of separate lines.
 
 ## Notes
-In an extended dialogue or comedy scene, physical arrangement can carry the relationship. One character may begin apparently in control, create distance or barriers, and try to conduct business, while successive interruptions and incursions progressively defeat that control. Let the blocking record the relationship reversal rather than merely decorate the dialogue.
+Bluth's *All Dogs Go to Heaven* blocking sequence demonstrates an extended dialogue/comedy scene in which physical arrangement carries the relationship. Charlie begins apparently in control, moves Anne Marie away, creates a barrier with the blanket, and tries to conduct business with Itchy. The blocking progressively defeats that control: Anne Marie interrupts from offscreen, keeps making demands, enters Charlie's space without his noticing, forces a seat exchange, and ends with the more comfortable sleeping arrangement while Charlie is increasingly displaced. The scene's blocking therefore records the relationship reversal rather than merely decorating the dialogue.

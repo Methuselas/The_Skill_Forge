@@ -7,9 +7,9 @@ library_path:
 - perspective
 stage_binding: 3 rough
 lane_fit: both
-foundation_role: specialization
-routing_class: specialized
-specialization_axis: method
+foundation_role: foundation
+routing_class: general
+specialization_axis: none
 foundation_object_id: none
 tags:
 - perspective
@@ -54,9 +54,9 @@ variants: []
 - The level-plane branch collapses cleanly to equal perpendicular distances across the reflecting plane.
 
 ## Notes
-This Pattern subsumes the earlier level-plane reflection owner. The simple level reflection remains a fast branch inside the general planar case.
+This candidate intentionally **subsumes** Norling's level-plane reflection Pattern if committed. The simple level reflection remains a fast branch; White earns the general planar case.
 
 **Boundaries**
-This Pattern covers flat mirrors and calm planar water. Curved mirrors, rippled water, refractive surfaces, and lens effects require different optics and are outside these planar constructions.
+This Pattern covers flat mirrors and calm planar water. Curved mirrors, rippled water, refractive surfaces, and lens effects require different optics and are not inferred from White's planar constructions.
 
 A reflection is not a screen-space copy of the visible silhouette. Curved forms make the error obvious: a mirrored circle may project as an ellipse with a different apparent openness because the reflected geometry occupies a different spatial position relative to the same camera. Contact points on the mirror plane remain useful anchors, but the reflected form must be reprojected.

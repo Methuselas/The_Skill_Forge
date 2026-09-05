@@ -60,4 +60,4 @@ variants: []
 - Wing area remains plausible relative to the bird's body and flight demands.
 
 ## Notes
-Treat wing design as natural engineering with no one-size-fits-all solution. Elliptical, high-speed, high-aspect-ratio, and soaring wings each sacrifice some capabilities to improve others. Make wing planform serve the bird's intended flight performance.
+Webster treats wing design as natural engineering with no one-size-fits-all solution. Elliptical, high-speed, high-aspect-ratio, and soaring wings each sacrifice some capabilities to improve others. The durable Art decision is to make wing planform serve the bird's intended flight performance.

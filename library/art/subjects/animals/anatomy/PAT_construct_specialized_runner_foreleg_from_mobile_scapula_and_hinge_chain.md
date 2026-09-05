@@ -53,18 +53,18 @@ variants: []
 **ELSE** use the more mobile carnivore or primate forelimb construction when the radius-ulna relationship, paw/hand function, or shoulder freedom requires it.
 
 ## Do
-- Establish the scapula first as part of the forequarter suspension system. In a specialized runner it slopes down and forward, can shift fore and aft over the thorax, and is therefore not a pelvis-like fixed plate.
+- Establish the scapula first as part of the forequarter suspension system. In Bammes's runner model it slopes down and forward, can shift fore and aft over the thorax, and is therefore not a pelvis-like fixed plate.
 - Judge the lengths and directions of the scapula, humerus, forearm, metacarpal region, and distal foot before developing their contours. Keep the shoulder and elbow pivots tied back into the frontal body mass.
 - Let the scapula-humerus relationship organize the large fore-aft swing. A modest scapular shift can materially change where the distal foot reaches, so do not freeze the shoulder blade while moving only the lower limb.
 - In the horse/ungulate runner model, treat the radius-ulna complex as comparatively restricted and the distal joints as strongly flexion-extension oriented; preserve that hinge-dominant logic without claiming that every mammal forearm is fused or mechanically identical.
 - Allow the distal support to become comparatively long and spare. The elongated metacarpal region and hard terminal digit/hoof belong to the runner specialization, while exact bone number and proportions remain species-specific.
 - After the chain is secure, use the large skeletal landmarks as checks on the living form: scapular spine and upper edge near the withers, point of shoulder, projecting ulna, carpal/pisiform region, and the sesamoid/fetlock swelling in the horse example.
-- Keep the bone sections spatial. Skeletal forms are not rigid ruler-straights; preserve observed taper, curvature, and three-dimensional axis even inside a simplified construction.
+- Keep the bone sections spatial. Bammes explicitly warns that skeletal forms are not rigid ruler-straights; preserve observed taper, curvature, and three-dimensional axis even inside a simplified construction.
 
 ## Don't
 - Do not bolt the scapula directly to the thorax as though the forequarter had a bony pelvic-style socket.
-- Do not apply fused radius-ulna, absent clavicle, single dominant metacarpal, or hoof construction to carnivores, primates, or other animals whose forelimbs are specialized differently.
-- Do not hard-code a two-thirds-front body-mass ratio as a universal balance rule.
+- Do not apply Bammes's fused radius-ulna, absent clavicle, single dominant metacarpal, or hoof construction to carnivores, primates, or other animals whose forelimbs are specialized differently.
+- Do not hard-code the source's stated two-thirds-front body-mass ratio as a universal balance rule.
 - Do not convert the whole foreleg into one straight post merely because the lower runner limb becomes columnar in support.
 - Do not treat every distal joint as an abstract identical hinge; use the actual carpal and digital construction and their flexed state to shape the local form.
 - Do not make the foreleg a reduced hindleg. The mobile scapular attachment and forequarter suspension are the defining structural difference.
@@ -78,8 +78,8 @@ variants: []
 - Segment lengths, joint directions, and three-dimensional axes agree with the observed animal and view.
 
 ## Notes
-Forelimb specializations differ substantially: climbing cats retain more forearm rotation, runners sacrifice that freedom for a more restricted support-and-swing apparatus, and primates develop a much wider range of shoulder, arm, and hand movement. Treat the ungulate runner as a specific construction problem rather than a generic mammalian foreleg.
+Bammes contrasts forelimb specializations: climbing cats retain more forearm rotation, runners sacrifice that freedom for a more restricted support-and-swing apparatus, and primates develop a much wider range of shoulder, arm, and hand movement. He then develops the ungulate runner as a specific construction problem rather than as a generic mammalian foreleg.
 
 His shoulder-to-foot study makes the chain explicit. The scapula is a mobile triangular plate suspended against the thorax; the humerus and forearm continue the pendulum; the carpal, metacarpal, and digital regions become increasingly spare and mechanically constrained. A flexed comparison then shows why the scapula cannot be treated as a fixed surface landmark: a small shift at the shoulder girdle prepares a much larger change in the position of the foot.
 
-Claims such as fused radius and ulna, energy-saving tendon/joint mechanisms, and exact load distribution remain bounded to the horse or ungulate being studied. The reusable skill is the **runner-specific architecture**: mobile scapular attachment, fore-aft swing, a comparatively constrained distal chain, and skeletal landmarks that explain the living form.
+The source contains several horse- and ungulate-specific anatomical claims, including fused radius and ulna, energy-saving tendon/joint mechanisms, and exact load-distribution language. Those remain bounded examples. The reusable skill is the **runner-specific architecture**: mobile scapular attachment, fore-aft swing, a comparatively constrained distal chain, and skeletal landmarks that explain the living form.

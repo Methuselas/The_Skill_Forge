@@ -51,10 +51,10 @@ variants: []
 
 ## Don't
 - Build a deer-like or dog-like trunk first and try to make it read as a kangaroo by adding long feet and a tail afterward.
-- Make the rib cage as large as the hindquarter mass; that erases the front-to-rear proportion contrast that identifies the animal.
+- Make the rib cage as large as the hindquarter mass; that erases the front-to-rear proportion contrast Hultgren uses to identify the animal.
 - Reduce the tail to a thin gesture line when its base and taper are large enough to affect the silhouette and mass balance.
 - Turn Hultgren's comparisons to deer or rodents into literal anatomical equivalences; use them only as source-specific visual shorthand and return to the actual animal for naturalistic structure.
-- Treat broad statements about the tail acting as a rudder or supporting weight as a universal biomechanical law across every gait or jump.
+- Treat the source's broad statements about the tail acting as a rudder or supporting weight as a universal biomechanical law across every gait or jump.
 
 ## Checklist
 - The hindquarters dominate the mass statement before fur, feet, or facial details are added.
