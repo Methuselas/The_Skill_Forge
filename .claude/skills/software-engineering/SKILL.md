@@ -21,6 +21,11 @@ Retrieve only the APs, Patterns, and Drills relevant to the current engineering
 decision. Inspect the existing code before changing it, make contracts and failure
 modes explicit, and run the repository's actual checks before claiming success.
 
+When a Drill is actually being taken rather than read, the rule for how is in
+`PASS/docs/PASS_CONSUMPTION.md`: an Instruction bullet that asks you to execute,
+observe, record, mark, or exercise something is answered with the machine's
+output, not with an account of it. Say that to the taker before they start.
+
 ## Skillset Memory
 
 `memory/software-engineering/` is the empirical record of what happened when this

@@ -2,7 +2,7 @@
 
 status: active
 owner: docs/domains/spec
-last_reviewed: 2026-08-18
+last_reviewed: 2026-09-05
 
 Everything else in PASS governs **extraction** — how a source becomes grounded
 skill objects. This governs **use**: how a focused domain skill draws on those
@@ -135,6 +135,58 @@ establishes the **necessary chain**; the relevant local Pattern enters when the
 flow reaches its decision moment. If an unordered bundle would work equally well,
 the AP is not adding orchestration value.
 
+## Taking a drill
+
+**Administer it blind.** A drill read whole scores recognition, and returns clean
+passes that mean nothing. Give the taker the card truncated at a chosen point,
+have the answer written to a file, and only then reveal the rest and score against
+it. Freeze the answer before anything further is opened — a hash of the file,
+recorded — so the score is against what was actually produced rather than against
+what got tidied once the key was visible. Keep the taker out of the library for
+the duration: the owning cards hold the answers, and a search for the drill's own
+name reaches them.
+
+Where the card is cut decides what is being measured:
+
+- **Before `## Instructions`** — the taker holds the Practice Task and Setup and
+  nothing else. This measures whether the capability produces the required moves
+  unprompted.
+- **Before `## Success Check`** — the taker works to the Instructions but never
+  sees the bullets that grade them. This measures execution against instruction,
+  and lets the Success Check grade as a check the taker could not have written
+  toward.
+
+Neither cut is the correct one; they answer different questions, and a sitting
+should say which it used. Have someone other than the taker score it where that is
+possible, and where it is not, record that the runner and the grader were the same
+reader — the result is still usable, but it is weaker evidence about the
+capability than it looks.
+
+**A described result is not a produced one.** A drill's Instructions ask the
+taker to execute, observe, record, mark, or exercise something, and those verbs
+are the drill. Where a bullet names one, produce what it names — compile it, run
+it, mark the code, attempt the construction that should be impossible — and keep
+the machine's own output as the answer. Prose asserting that the result would
+have held does not satisfy the bullet.
+
+State this to whoever takes the drill, in those words, before they start. It is
+the difference between a sitting that carries out the Instructions and one that
+narrates them, and the narrated sitting looks like a pass: it is fluent, it is
+usually correct about what *would* happen, and it fails exactly the bullets that
+asked for evidence. The Instructions already ask for the artifact; the reminder is
+what gets them followed.
+
+**Drills may be chained** — several taken at once against a single shared artifact
+that must satisfy all of their Instructions simultaneously. Chaining does not
+weaken the individual results, and the collisions are the point: two drills'
+decisions meeting in one artifact expose constraints neither drill states, and
+the second drill is what makes the first one's easy answer wrong. A drill about
+copying and a drill about caching, sharing one class, yield a rule about
+invalidating the cache on assignment that neither card contains. A drill taken
+alone has nothing to collide with, so it cannot reach that class of finding at
+all. Chain when the point is to find defects; take singly when the point is to
+score one capability.
+
 ## References and examples follow the medium
 
 Study the kind of precedent that actually helps the current craft:
@@ -196,6 +248,9 @@ governs extraction (`PASS_RUN.md` §2.1):
 - **Reference-aware loading.** Surface useful reviewed references when present;
   surface their absence for visual execution rather than pretending text alone is
   equivalent.
+- **Produced, not described.** An Instruction bullet that asks for execution,
+  observation, or a recorded rejection is answered with the machine's output, not
+  with an account of it.
 - **Avoidance check.** Before finalizing, verify that difficult required elements
   were not silently cropped, omitted, hidden, or simplified away.
 - **Diagnosis-led revision.** Preserve successful structure and revise the named
