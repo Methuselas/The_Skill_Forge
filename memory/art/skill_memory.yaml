@@ -1,6 +1,6 @@
 memory_schema_version: 1
 skillset: art
-memory_version: 13
+memory_version: 20
 entries:
 - id: ART_MEM_001
   scope_type: topic
@@ -17,8 +17,9 @@ entries:
     load. A later portable-Skill-only full-production support pose also preserved coherent
     hand topology and convincing body-support contact/load behavior even though that Skill
     release did not contain the Art Memory files, providing evidence that the canonical hand
-    intervention itself can transfer independently of Memory retrieval. Residual topology
-    misses remain possible, and one cold firearm render showed a separate function/contact/load
+    intervention itself can transfer independently of Memory retrieval. A later blind hand/foot
+    wedge study again omitted required topology in two views, confirming that residual missing-digit
+    failures remain possible, and one cold firearm render showed a separate function/contact/load
     failure despite broadly coherent hand topology.
 
     '
@@ -40,7 +41,8 @@ entries:
     extreme hand-plus-forearm foreshortening, fresh-chat retention, cold full-character production,
     and one portable-Skill-only full-production body-support case without Art Memory. The
     topology intervention has improved and retained across chats and package conditions, but
-    it is not deterministic. Nonweapon support/contact/load behavior now has one strong positive
+    it is not deterministic; a later blind construction sheet missed topology in a side hand
+    and an up-view hand. Nonweapon support/contact/load behavior now has one strong positive
     full-production example, while broader object-contact/function transfer remains partial
     because the earlier cold firearm-grip failure is still valid. Character-specific nonhuman
     topology and broader weapon/tool contact classes have not been retested to the same depth.
@@ -48,7 +50,7 @@ entries:
     '
   confidence: repeated
   status: monitoring
-  evidence_count: 11
+  evidence_count: 12
   evidence_events:
   - ART_EV_0001
   - ART_EV_0004
@@ -61,6 +63,7 @@ entries:
   - ART_EV_0011
   - ART_EV_0012
   - ART_EV_0017
+  - ART_EV_0027
   evidence_origin:
   - user_feedback
   - human_teaching
@@ -117,7 +120,7 @@ entries:
   - foreshortening
   - direct render
   runtime_scope: generic
-  last_verified: 2026-08-23
+  last_verified: 2026-09-04
 - id: ART_MEM_002
   scope_type: topic
   scope_id: action_pose_dynamism
@@ -318,29 +321,36 @@ entries:
   scope_id: limb_chain_mechanics
   type: known_boundary
   evidence_class: deterministic_contract
-  observation: >
-    A high-load acrobatic Work render preserved a visually connected left leg and a foot endpoint,
-    yet the knee/lower-leg relationship was reversed relative to ordinary human mechanics. The
-    artifact therefore demonstrated that attachment or endpoint continuity by itself does not
-    prove that a limb kept the correct anatomical chain identity or that its visible joints bend
-    legally.
+  observation: 'Multiple executions now show that a visually connected limb or terminal endpoint
+    does not prove a valid articulated chain. A high-load human render reversed a knee/lower-leg
+    relationship; a blind hidden-limb sheet allowed shoulder-origin chains to terminate as
+    feet; a change-direction pose turned one leg against the hips and torso beyond a believable
+    limited separation; and one quadruped construction omitted the bear''s femur.
+
+    '
   diagnosis:
     failure_layer: orchestration
-    hypothesis: >
-      The Art verification path checked limb continuity without requiring a typed root-to-endpoint
-      chain audit plus a separate view-independent joint-mechanics check, allowing a connected but
-      mechanically inverted limb to pass through a highly resolved render.
-  boundary: >
-    Verified on one extreme full-body human action render in Work. The canonical repair now adds
-    typed limb-chain identity, per-limb evidence, string equality for expected versus observed
-    origin/endpoint types, and human joint-mechanics auditing, but no post-repair retention or
-    transfer render has been completed yet. Nonhuman altered-joint architectures remain outside
-    this evidence claim.
-  confidence: provisional
+    hypothesis: 'Connectedness and silhouette plausibility can be accepted before parent origin,
+      ordered segment identity, endpoint type, and joint range are each checked. The failure
+      can therefore survive in both human and animal studies even when the overall pose or
+      skeleton looks good.
+
+      '
+  boundary: 'Verified across one extreme full-body human render and three blind Drill executions
+    covering human direction change, hidden human limbs, and ordinary quadruped construction.
+    The current audit contract correctly rejects these failures, but stochastic generation
+    still produces them. Nonhuman altered-joint architectures remain outside this evidence
+    claim.
+
+    '
+  confidence: repeated
   status: monitoring
-  evidence_count: 1
+  evidence_count: 4
   evidence_events:
   - ART_EV_0019
+  - ART_EV_0022
+  - ART_EV_0028
+  - ART_EV_0032
   evidence_origin:
   - user_feedback
   - human_teaching
@@ -362,40 +372,51 @@ entries:
   - full body
   - screen location
   runtime_scope: Work full-production figure render
-  last_verified: '2026-08-24'
+  last_verified: '2026-09-04'
 - id: ART_MEM_007
   scope_type: topic
   scope_id: multi_pass_construction_process_fidelity
   type: known_boundary
   evidence_class: stochastic_performance
-  observation: >
-    In one blind four-study tiger construction sheet, the final reduced-guide animal was
-    visually good and preserved the pose, foreshortening, and stripe wrap, but the first
-    study already contained developed contour and body volume instead of only the required
-    longitudinal route and sparse transverse axes. A strong-looking final image therefore
-    did not establish that the prescribed construction sequence had been executed.
+  observation: 'Native multi-panel generation repeatedly collapses later information into
+    earlier construction passes. A tiger''s first study already contained contour and volume;
+    a four-way foreshortened figure did not prove that each image was independently built
+    through the required sequence; and two later quadruped sheets placed mass and contour
+    into studies that were supposed to remain skeletal or stripped down. Attractive final
+    studies therefore do not establish process fidelity.
+
+    '
   diagnosis:
     failure_layer: application
-    hypothesis: >
-      Native multi-panel image generation may collapse later construction information into
-      an early scaffold panel, especially when it can satisfy the overall visual concept by
-      showing a polished progression rather than obeying each pass's information ceiling.
-  boundary: >
-    Verified on one blind tiger execution of
-    DRILL_construct_foreshortened_animal_from_backline_cross_axes_and_core_masses.
-    Other animal-construction Drills and single-image construction tasks have not been tested
-    for the same early-pass collapse.
-  confidence: provisional
+    hypothesis: 'Native multi-panel image generation tends to satisfy the overall concept
+      by repeating a coherent, attractive subject treatment across panels, even when each
+      panel has a different information ceiling. Later contour, mass, or tone can leak backward
+      into the scaffold or isolation pass.
+
+      '
+  boundary: 'Verified across four blind multi-panel executions: one tiger construction progression,
+    one foreshortened-figure treatment comparison, and two quadruped framework-to-mass studies.
+    This boundary concerns prescribed pass separation, not the visual quality of the final
+    subject.
+
+    '
+  confidence: repeated
   status: monitoring
-  evidence_count: 1
+  evidence_count: 4
   evidence_events:
   - ART_EV_0020
+  - ART_EV_0029
+  - ART_EV_0032
+  - ART_EV_0033
   evidence_origin:
   - user_feedback
   - runtime_self_audit
   - training_benchmark
   likely_owners:
   - DRILL_construct_foreshortened_animal_from_backline_cross_axes_and_core_masses
+  - DRILL_unify_one_foreshortened_figure_three_ways
+  - DRILL_build_animals_from_pivot_skeletons_to_main_forms
+  - DRILL_transform_animal_framework_across_pose_changes
   - native multi-panel image generation
   retrieval_cues:
   - construction sequence
@@ -406,8 +427,370 @@ entries:
   - cross axes
   - animal construction
   - tiger
+  - cougar
+  - quadruped
   - multi-pass
   - information ceiling
+  runtime_scope: native image generation blind Drill execution
+  last_verified: '2026-09-04'
+- id: ART_MEM_014
+  scope_type: topic
+  scope_id: thumbnail_camera_and_scale
+  type: training_result
+  evidence_class: stochastic_performance
+  observation: 'Fixed-scene camera thumbnails remain useful when the story design is locked and
+    each view changes the camera meaningfully across lateral side, height, distance, tilt, or
+    framing. Distinct views can tell different stories without redesigning the scene. Changing
+    medium or mark language from broad marker to graphite pencil can also change mood and
+    expression while preserving the same camera and design. A thumbnail is an essence capture,
+    not a final render; its composition, silhouette, value grouping, focal point, and story must
+    survive reduced-size viewing.'
+  diagnosis:
+    failure_layer: application
+    hypothesis: 'The runtime can overvalue enlarged surface finish and underweight the small-view
+      test. Treating thumbnail quality as dependent on a single roughness level can obscure that
+      camera search, continuity, mark language, and reduced-size readability are separate controls.'
+  boundary: 'Verified across fixed-scene marker and pencil camera sets reviewed by the teacher.
+    A 600x900 pixel target at 300 DPI is a useful practical 2x3 inch scale, but exact raster size
+    and the broader transfer to every thumbnail subject remain untested.'
+  confidence: repeated
+  status: monitoring
+  evidence_count: 5
+  evidence_events:
+  - ART_EV_0064
+  - ART_EV_0065
+  - ART_EV_0066
+  - ART_EV_0067
+  - ART_EV_0068
+  evidence_origin:
+  - user_feedback
+  - human_teaching
+  - runtime_self_audit
+  likely_owners:
+  - DRILL_thumbnail_same_scene_across_camera_angles
+  - AP_run_stage0_rough_composition_search
+  - PAT_choose_viewpoint_to_strengthen_story_effect
+  retrieval_cues:
+  - thumbnail
+  - camera
+  - viewpoint
+  - continuity
+  - composition
+  - silhouette
+  - reduced size
+  - small view
+  - pencil
+  - marker
+  - mark language
+  - expression
+  - story effect
+  runtime_scope: native image generation preview thumbnails
+  last_verified: '2026-09-05'
+- id: ART_MEM_012
+  scope_type: topic
+  scope_id: perspective_in_composition
+  type: known_boundary
+  evidence_class: deterministic_contract
+  observation: 'Teacher review and valid perspective-drill failures establish a hard runtime
+    boundary: when rendered art depends on spatial depth, scale, or viewpoint, unresolved
+    perspective can invalidate the entire composition even when the surface artifact looks
+    plausible or polished. Perspective also changes narrative and emotional force through
+    viewpoint, not only geometric realism.
+
+    '
+  diagnosis:
+    failure_layer: application
+    hypothesis: 'The runtime can produce plausible surface composition before solving a shared
+      eye-level, vanishing-point, and ground-plane field, allowing local forms and rendering
+      to mask perspective errors.
+
+      '
+  boundary: 'Verified by direct teacher instruction and three valid perspective observations:
+    incorrect eye-level/vanishing-point relationships in box studies, an unvalidated shared
+    perspective field in a scene, and a corrected perspective study that still requires explicit
+    field validation. Corrected perspective-first execution, retention, and transfer have
+    not yet been tested.
+
+    '
+  confidence: repeated
+  status: monitoring
+  evidence_count: 3
+  evidence_events:
+  - ART_EV_0042
+  - ART_EV_0053
+  - ART_EV_0055
+  evidence_origin:
+  - human_teaching
+  - user_feedback
+  - runtime_self_audit
+  likely_owners:
+  - perspective construction and vanishing-point control
+  - AP_construct_a_shared_scene_perspective_field
+  - PAT_establish_eye_level_and_vanishing_directions
+  - PAT_carry_scale_through_depth_with_height_and_width_guides
+  retrieval_cues:
+  - perspective
+  - composition
+  - rendered art
+  - depth
+  - scale
+  - viewpoint
+  - eye level
+  - horizon
+  - vanishing point
+  - ground plane
+  - linear perspective
+  - atmospheric perspective
+  - point perspective
+  - camera
+  runtime_scope: native image generation blind Drill execution
+  last_verified: '2026-09-04'
+- id: ART_MEM_013
+  scope_type: topic
+  scope_id: blind_drill_tranche_3
+  type: training_result
+  evidence_class: stochastic_performance
+  observation: 'Twenty valid one-shot Art Drill executions produced eight teacher passes and
+    twelve strict failures. Strong results appeared in joint-shape studies, fixed-frame composition
+    variation, story roughs, controlled hue/value/chroma comparison, same-subject tonal treatment,
+    edge hierarchy, and outline-free block rendering. Failures concentrated in duplicate or
+    overly similar compositions, missing staged-process evidence, horse practice, basic animal-form
+    construction, perspective validation, and one sequence whose process distinction was too
+    weak to separate adjacent stages. One color-only concept study was initially treated as
+    uncertain, then accepted by the teacher as a pass because the abstract color fields themselves
+    were excellent and carried the intended visual problem.
+
+    '
+  diagnosis:
+    failure_layer: application
+    hypothesis: 'Native one-shot generation can produce strong finished-looking studies and
+      controlled comparisons, but it remains vulnerable when success depends on visibly distinct
+      practice compositions, a prescribed construction sequence, explicit perspective validation,
+      or foundational animal-form rehearsal rather than surface plausibility.
+
+      '
+  boundary: 'Covers the preregistered twenty-Drill Art tranche using native one-shot image
+    generation and teacher review. It does not establish deterministic performance, long-term
+    retention, or transfer beyond the reviewed artifacts. Teacher review corrected the initial
+    self-grade of Drill 17 from uncertain/fail to PASS.
+
+    '
+  confidence: provisional
+  status: monitoring
+  evidence_count: 21
+  evidence_events:
+  - ART_EV_0043
+  - ART_EV_0044
+  - ART_EV_0045
+  - ART_EV_0046
+  - ART_EV_0047
+  - ART_EV_0048
+  - ART_EV_0049
+  - ART_EV_0050
+  - ART_EV_0051
+  - ART_EV_0052
+  - ART_EV_0053
+  - ART_EV_0054
+  - ART_EV_0055
+  - ART_EV_0056
+  - ART_EV_0057
+  - ART_EV_0058
+  - ART_EV_0059
+  - ART_EV_0060
+  - ART_EV_0061
+  - ART_EV_0062
+  - ART_EV_0063
+  evidence_origin:
+  - user_feedback
+  - human_teaching
+  - runtime_self_audit
+  - training_benchmark
+  likely_owners:
+  - native image generation blind Drill execution
+  - Art Drill contracts and hidden Success Checks
+  - AP_plan_and_build_work_from_thumbnail_to_final
+  retrieval_cues:
+  - blind drill
+  - tranche 3
+  - teacher review
+  - staged process
+  - composition variation
+  - perspective validation
+  - color comparison
+  - edge hierarchy
+  - block rendering
+  runtime_scope: native image generation blind Drill execution
+  last_verified: '2026-09-04'
+- id: ART_MEM_009
+  scope_type: topic
+  scope_id: locomotion_and_timing_sequence_fidelity
+  type: known_boundary
+  evidence_class: stochastic_performance
+  observation: 'Two blind motion studies produced readable individual poses but failed to
+    demonstrate the required temporal structure. One flexible-action sheet did not establish
+    successive joint and phase offsets; one walk-variant sheet produced walking poses rather
+    than pure closed cycles with stable contact, recoil, passing, high, and opposite-contact
+    relationships.
+
+    '
+  diagnosis:
+    failure_layer: application
+    hypothesis: 'A static multi-panel generator can satisfy the semantic idea of movement
+      by varying poses while omitting the stricter frame-to-frame invariants that make an
+      animation timeline or locomotion cycle mechanically testable.
+
+      '
+  boundary: 'Verified on one flexible-action offset Drill and one fixed-contact walk-cycle
+    Drill. Running, jumping, and other locomotion timelines remain scheduled for later teacher-guided
+    study, and static inspection alone may not expose every discontinuity.
+
+    '
+  confidence: repeated
+  status: monitoring
+  evidence_count: 2
+  evidence_events:
+  - ART_EV_0023
+  - ART_EV_0024
+  evidence_origin:
+  - user_feedback
+  - runtime_self_audit
+  - training_benchmark
+  likely_owners:
+  - DRILL_build_flexible_action_with_successive_joint_and_phase_offsets
+  - DRILL_generate_walk_variants_from_fixed_contact_positions
+  retrieval_cues:
+  - walk cycle
+  - run cycle
+  - locomotion
+  - animation timeline
+  - phase offset
+  - successive joint
+  - contact pose
+  - recoil
+  - passing pose
+  - high pose
+  runtime_scope: native image generation blind Drill execution
+  last_verified: '2026-09-04'
+- id: ART_MEM_010
+  scope_type: topic
+  scope_id: fixed_subject_comparison_control
+  type: training_result
+  evidence_class: stochastic_performance
+  observation: 'The blind tranche showed strong control when one subject or display field
+    had to remain fixed while a large variable changed: spacing profiles, perspective-field
+    correction, tonal key, light and atmosphere, palette ancestry, and competitive title hierarchy
+    all produced useful comparisons. The main exception was depth-cue isolation, where value,
+    color, and detail leaked into an overlap-and-scale pass and the detail-simplification
+    pass changed too little.
+
+    '
+  diagnosis:
+    failure_layer: application
+    hypothesis: 'Large, visually explicit comparison variables are preserved reliably when
+      the invariant scene is strongly specified. Subtle isolation instructions are more vulnerable
+      to cross-panel leakage than broad changes in key, weather, palette, crop, or typographic
+      hierarchy.
+
+      '
+  boundary: 'Verified across seven blind comparison Drills in one tranche. One timing comparison
+    retained residual uncertainty because the interface did not permit timeline scrubbing,
+    and the depth-cue result was only a half-pass.
+
+    '
+  confidence: repeated
+  status: monitoring
+  evidence_count: 7
+  evidence_events:
+  - ART_EV_0025
+  - ART_EV_0035
+  - ART_EV_0036
+  - ART_EV_0037
+  - ART_EV_0038
+  - ART_EV_0039
+  - ART_EV_0040
+  evidence_origin:
+  - user_feedback
+  - runtime_self_audit
+  - training_benchmark
+  retrieval_cues:
+  - fixed subject
+  - matched comparison
+  - stable camera
+  - tonal key
+  - changing light
+  - palette comparison
+  - competitive context
+  - depth cue isolation
+  - spacing profile
+  runtime_scope: native image generation blind Drill execution
+  last_verified: '2026-09-04'
+- id: ART_MEM_011
+  scope_type: topic
+  scope_id: blind_drill_tranche_2
+  type: training_result
+  evidence_class: stochastic_performance
+  observation: 'Twenty valid one-shot Art Drill executions produced ten strict passes and
+    ten strict failures after teacher review. Strongest areas were cranial rotation, perspective-field
+    correction, tonal planning, changing light and atmosphere, palette derivation, competitive
+    cover testing, and product-form ideation. Failures concentrated in temporal locomotion
+    structure, human and animal limb-chain integrity, prescribed multi-pass information ceilings,
+    exact cylinder construction, and isolated depth-cue separation. Partial results were kept
+    as failures when any required component failed.
+
+    '
+  diagnosis:
+    failure_layer: application
+    hypothesis: 'The library contracts generally discriminated successful artifacts from near
+      misses. Remaining failures were mostly execution and verification failures under one-shot
+      generation rather than missing card knowledge. One expression-set Drill exposed a separate
+      card-contract issue because its mirror-observation premise was not literally executable.
+
+      '
+  boundary: 'Covers one preregistered twenty-Drill blind tranche using native one-shot image
+    generation and teacher review. It does not establish deterministic performance, long-term
+    retention, or transfer to hand-drawn animation timelines. The expression-set card repair
+    remains unimplemented pending canon review.
+
+    '
+  confidence: repeated
+  status: monitoring
+  evidence_count: 20
+  evidence_events:
+  - ART_EV_0022
+  - ART_EV_0023
+  - ART_EV_0024
+  - ART_EV_0025
+  - ART_EV_0026
+  - ART_EV_0027
+  - ART_EV_0028
+  - ART_EV_0029
+  - ART_EV_0030
+  - ART_EV_0031
+  - ART_EV_0032
+  - ART_EV_0033
+  - ART_EV_0034
+  - ART_EV_0035
+  - ART_EV_0036
+  - ART_EV_0037
+  - ART_EV_0038
+  - ART_EV_0039
+  - ART_EV_0040
+  - ART_EV_0041
+  evidence_origin:
+  - user_feedback
+  - runtime_self_audit
+  - training_benchmark
+  likely_owners:
+  - native image generation blind Drill execution
+  - Art Drill contracts and hidden Success Checks
+  retrieval_cues:
+  - blind drill
+  - tranche 2
+  - one shot
+  - teacher review
+  - process validity
+  - strict pass
+  - strict fail
   runtime_scope: native image generation blind Drill execution
   last_verified: '2026-09-04'
 - id: ART_MEM_008
@@ -415,29 +798,31 @@ entries:
   scope_id: jump_pose_mechanics
   type: known_boundary
   evidence_class: stochastic_performance
-  observation: >
-    In one blind bouncing-ball-to-human transfer sheet, the ball mechanics were excellent:
-    its arcs, spacing, contacts, squash, stretch, and energy loss read correctly. The human
-    sequence below it did not convincingly read as jumping because the human poses
+  observation: 'In one blind bouncing-ball-to-human transfer sheet, the ball mechanics were
+    excellent: its arcs, spacing, contacts, squash, stretch, and energy loss read correctly.
+    The human sequence below it did not convincingly read as jumping because the human poses
     themselves did not embody credible preparation, launch, flight, contact, and recovery
     mechanics. Placing generic articulated poses along an arc did not make them read as a
-    human jump. The hands were topologically acceptable at their small scale but only
-    adequate in visual quality.
+    human jump. The hands were topologically acceptable at their small scale but only adequate
+    in visual quality.
+
+    '
   diagnosis:
     failure_layer: application
-    hypothesis: >
-      Correctly representing an abstract ballistic model does not guarantee that the figure
-      poses placed along it will show recognizable human jumping mechanics. The generator
-      may rely on the trajectory line and positional sequence while substituting generic
-      crouching, standing, reaching, or suspended poses for phase-specific whole-body action.
-      Passing hand topology also does not establish expressive or draftsmanship quality in
-      the hands.
-  boundary: >
-    Verified on one blind execution of
-    DRILL_calibrate_gravity_impact_and_deformation_with_bouncing_ball. The ball component
-    passed strongly; the negative evidence is specifically the human pose design and its local
-    finish, not the plotted trajectory or ball timing. Broader jump posing has not yet been
-    retested.
+    hypothesis: 'Correctly representing an abstract ballistic model does not guarantee that
+      the figure poses placed along it will show recognizable human jumping mechanics. The
+      generator may rely on the trajectory line and positional sequence while substituting
+      generic crouching, standing, reaching, or suspended poses for phase-specific whole-body
+      action. Passing hand topology also does not establish expressive or draftsmanship quality
+      in the hands.
+
+      '
+  boundary: 'Verified on one blind execution of DRILL_calibrate_gravity_impact_and_deformation_with_bouncing_ball.
+    The ball component passed strongly; the negative evidence is specifically the human pose
+    design and its local finish, not the plotted trajectory or ball timing. Broader jump posing
+    has not yet been retested.
+
+    '
   confidence: provisional
   status: monitoring
   evidence_count: 1
