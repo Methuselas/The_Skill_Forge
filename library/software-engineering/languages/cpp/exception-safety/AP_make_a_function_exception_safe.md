@@ -32,7 +32,7 @@ cross_links:
   target_object_id: PAT_manage_resources_with_raii_objects
 - rel: related_to
   target_object_id: AP_decide_how_to_signal_and_handle_an_error
-- rel: related_to
+- rel: supports
   target_object_id: PAT_support_nonthrowing_swap
 reference:
   source_title: PASS software-engineering canonical synthesis

@@ -42,7 +42,7 @@ cross_links:
   target_object_id: PAT_share_a_representation_until_a_write_forces_a_copy
 - rel: related_to
   target_object_id: AP_give_an_acquired_resource_an_owner
-- rel: related_to
+- rel: supports
   target_object_id: PAT_choose_raii_copying_behavior_deliberately
 reference:
   source_title: PASS software-engineering canonical synthesis

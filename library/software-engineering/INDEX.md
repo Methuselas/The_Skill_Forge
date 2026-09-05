@@ -14,9 +14,6 @@ _Read a foundation before the skills that build on it (`prerequisite_for`)._
   - then: Work Out How It Stops Before You Build How It Runs
 - **Ask Whether the Hot Code Can Run Less Often** — read first
   - then: Locate a Performance Bottleneck by Measurement
-- **Assess the Groundwork You Inherited Before Writing Code** — read first
-  - then: Refuse to Implement an Architecture You Cannot Follow
-  - then: Write Down the Problem in Terms That Name No Solution
 - **Assume It Is Not Easy, Because You Cannot Remember It Being Hard** — read first
   - then: Work Out Which Stage a Learner Is At Before Choosing How to Help
 - **Avoid Sharing Before You Reach for Protecting It** — read first

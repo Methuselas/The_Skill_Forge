@@ -31,7 +31,7 @@ cross_links:
   target_object_id: PAT_check_the_last_used_slot_before_searching
 - rel: related_to
   target_object_id: AP_tune_a_measured_bottleneck
-- rel: related_to
+- rel: supports
   target_object_id: PAT_reproduce_the_real_context_before_believing_a_microbenchmark
 reference:
   source_title: 'Modern C++ Design: Generic Programming and Design Patterns Applied'

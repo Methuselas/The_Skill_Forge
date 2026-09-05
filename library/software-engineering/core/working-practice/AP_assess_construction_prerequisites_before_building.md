@@ -21,9 +21,9 @@ tags:
 cross_links:
 - rel: related_to
   target_object_id: PAT_scope_construction_beyond_writing_the_code
-- rel: prerequisite_for
+- rel: supports
   target_object_id: PAT_judge_an_architecture_before_building_on_it
-- rel: prerequisite_for
+- rel: supports
   target_object_id: PAT_state_the_problem_before_the_solution
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
@@ -41,13 +41,13 @@ Find out, before committing code, whether the problem definition, requirements, 
 
 ## Steps / Flow
 
-1. **Read the problem definition and check it is a problem.** It should be a short statement, one or two pages, in the user's language, describing what is wrong without naming a solution. If it names a solution instead, you do not yet know what you are solving.
+1. **Read the problem definition and check it is a problem.** It should be a short statement, one or two pages, in the user's language, describing what is wrong without naming a solution. If it names a solution instead, you do not yet know what you are solving. `PAT_state_the_problem_before_the_solution` owns that test.
 
 2. **Run the requirements past the discriminating questions.** Not all of them, and formality scales with the project — but at construction time these are the ones that decide whether the ground holds: are the inputs specified with source, accuracy, range, and frequency; are the outputs specified with destination, accuracy, range, and format; is each requirement testable by an independent group; do the requirements avoid specifying the design; is each item traceable to its origin in the problem environment; and is the definition of success — and of failure — included.
 
 3. **Stop and back up if they do not hold.** If the requirements are not good enough, stop work and make them right before proceeding. This feels like falling behind. Driving from Chicago to Los Angeles, stopping to check the map when you start seeing signs for New York is not a waste of time.
 
-4. **Judge the architecture against what you will actually have to implement.** Look for the overview, the major building blocks with defined responsibilities and communication rules, coverage of every requirement by at least one block, and the rationale for the major decisions. One review of design practices found the design rationale is at least as important for maintenance as the design itself.
+4. **Judge the architecture against what you will actually have to implement.** Look for the overview, the major building blocks with defined responsibilities and communication rules, coverage of every requirement by at least one block, and the rationale for the major decisions. `PAT_judge_an_architecture_before_building_on_it` owns the judgement. One review of design practices found the design rationale is at least as important for maintenance as the design itself.
 
 5. **Estimate only after the ground is known.** If requirements are unstable, treat requirements work as its own project and estimate the rest afterwards. Nobody can reasonably expect a schedule for a thing whose shape is undecided; a contractor asked to bid before being told what to build goes home.
 

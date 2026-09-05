@@ -23,6 +23,10 @@ cross_links:
   target_object_id: AP_plan_and_build_work_from_thumbnail_to_final
 - rel: related_to
   target_object_id: PAT_scope_construction_beyond_writing_the_code
+- rel: supports
+  target_object_id: PAT_choose_the_integration_order_by_risk
+- rel: supports
+  target_object_id: PAT_keep_the_build_green_with_an_automated_smoke_test
 reference:
   source_title: 'Code Complete: A Practical Handbook of Software Construction, Second Edition'
   author: Steve McConnell
@@ -45,13 +49,13 @@ Get a system to a state where it runs end to end as early as possible, then repl
 
 3. **Call a dummy class for each basic function.** Each one stands where real behaviour will go and returns whatever keeps the run alive. The skeleton is now the grain of sand the rest accretes onto.
 
-4. **Replace one dummy with the real thing, choosing which one by risk.** Change a single dummy class to a real class and confirm the system still runs end to end. Where the program pretended to accept input, drop in code that accepts real input; where it pretended to produce output, drop in code that produces real output. Which dummy to take next is a decision rather than a queue — take the parts you expect to be hardest or most architecturally load-bearing first, since easy work that turns out hard is survivable and hard work discovered late is what forces redesign.
+4. **Replace one dummy with the real thing, choosing which one by risk.** Change a single dummy class to a real class and confirm the system still runs end to end. Where the program pretended to accept input, drop in code that accepts real input; where it pretended to produce output, drop in code that produces real output. Which dummy to take next is a decision rather than a queue — take the parts you expect to be hardest or most architecturally load-bearing first, since easy work that turns out hard is survivable and hard work discovered late is what forces redesign. `PAT_choose_the_integration_order_by_risk` owns that ordering.
 
 5. **Keep the dummies few and short-lived.** Every placeholder still standing is test code, and test code is more likely to contain defects than the production code around it. A defect in a dummy destroys the property this whole procedure is built on — that a broken run implicates the thing you just changed — so an approach that needs a large standing population of them is working against itself.
 
 6. **Repeat until nothing is pretending.** Add a little code at a time until you have a fully working system. Each replacement is small enough that when the run breaks, the cause is the thing you just changed.
 
-7. **Keep the end-to-end run green throughout.** The property that makes this cheap is that a working system exists at every step. If you find yourself with several dummies replaced but no successful run since two steps ago, stop and recover the run before continuing.
+7. **Keep the end-to-end run green throughout.** The property that makes this cheap is that a working system exists at every step. If you find yourself with several dummies replaced but no successful run since two steps ago, stop and recover the run before continuing. `PAT_keep_the_build_green_with_an_automated_smoke_test` owns making that signal automatic rather than remembered.
 
 ## Notes
 

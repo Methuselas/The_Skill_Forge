@@ -18,13 +18,13 @@ tags:
 - defects
 - judgment
 cross_links:
-- rel: supports
+- rel: related_to
   target_object_id: PAT_concentrate_effort_where_defects_concentrate
 - rel: supports
   target_object_id: PAT_judge_change_risk_by_what_it_can_break
-- rel: supports
+- rel: related_to
   target_object_id: PAT_combine_detection_techniques_rather_than_perfecting_one
-- rel: supports
+- rel: related_to
   target_object_id: PAT_look_for_the_evidence_outside_the_code
 - rel: related_to
   target_object_id: AP_build_a_mental_model_of_unfamiliar_code

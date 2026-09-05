@@ -27,7 +27,7 @@ cross_links:
   target_object_id: PAT_derive_the_parallelism_from_work_and_span
 - rel: supports
   target_object_id: PAT_let_idle_workers_take_work_rather_than_busy_ones_hand_it_out
-- rel: supports
+- rel: related_to
   target_object_id: PAT_avoid_sharing_before_you_reach_for_protecting_it
 - rel: supports
   target_object_id: PAT_locate_the_working_set_on_the_memory_hierarchy
@@ -58,7 +58,7 @@ Take a computation that currently runs as one sequential algorithm and produce a
 
 *Gate.* If the split produced roughly as many pieces as processors, go back. You have decided the mapping already and disguised it as a decomposition.
 
-**2. Draw what has to cross.** For every pair of pieces, determine what one needs from the other and how much of it. Pieces plus these dependencies are the task graph, and it — not the source — is what the rest of the process reads from.
+**2. Draw what has to cross.** For every pair of pieces, determine what one needs from the other and how much of it. `PAT_price_communication_by_transfer_count_and_volume_separately` owns pricing that: the number of transfers and the volume moved are separate costs, and a boundary can be cheap in one and ruinous in the other. Pieces plus these dependencies are the task graph, and it — not the source — is what the rest of the process reads from.
 
 Derive it from data dependencies rather than from the order the sequential code performs things. Sequential order includes every ordering the algorithm needs *and* every ordering one processor happened to impose, and only the first kind survives parallelization.
 

@@ -33,7 +33,7 @@ cross_links:
   target_object_id: PAT_write_boolean_expressions_to_be_read_not_decoded
 - rel: supports
   target_object_id: PAT_count_a_routines_decision_points
-- rel: related_to
+- rel: supports
   target_object_id: PAT_handle_enums_exhaustively
 - rel: related_to
   target_object_id: AP_build_a_routine_from_intent_level_pseudocode

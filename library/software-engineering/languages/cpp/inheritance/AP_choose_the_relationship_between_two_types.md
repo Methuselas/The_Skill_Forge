@@ -32,7 +32,7 @@ cross_links:
   target_object_id: PAT_make_non_leaf_classes_abstract
 - rel: supports
   target_object_id: PAT_unhide_inherited_names_with_using
-- rel: related_to
+- rel: supports
   target_object_id: PAT_design_a_class_as_type
 - rel: related_to
   target_object_id: AP_design_a_customization_point

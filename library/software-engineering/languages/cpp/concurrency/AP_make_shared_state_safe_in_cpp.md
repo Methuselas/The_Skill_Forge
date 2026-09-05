@@ -48,6 +48,16 @@ cross_links:
   target_object_id: PAT_wait_on_a_predicate_not_on_a_notification
 - rel: related_to
   target_object_id: AP_give_an_acquired_resource_an_owner
+- rel: supports
+  target_object_id: PAT_reach_for_a_fence_only_when_no_atomic_carries_the_order
+- rel: supports
+  target_object_id: PAT_prefer_a_task_to_a_thread_when_work_returns_something
+- rel: supports
+  target_object_id: PAT_specify_the_launch_policy_when_asynchrony_is_required
+- rel: supports
+  target_object_id: PAT_make_threads_unjoinable_on_every_path
+- rel: supports
+  target_object_id: PAT_stop_a_thread_by_asking_it_rather_than_killing_it
 reference:
   source_title: PASS software-engineering canonical synthesis
   author: Multiple accepted C++ sources
