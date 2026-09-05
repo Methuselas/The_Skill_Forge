@@ -45,11 +45,11 @@ Choose a completed short story or novel whose plot can be checked against the dr
 
 ## Instructions
 1. Open with the central character, situation, and governing problem; identify the setting where it materially shapes the action.
-2. List the major turns, including the final outcome, in their causal order. Beside each turn, write what choice, pressure, discovery, or consequence makes the next one happen.
+2. List the major turns, including the final outcome, in their causal order. Beside each turn, write what choice, pressure, discovery, or consequence makes the next one happen. Where a turn has no cause you can write, mark it as a gap in the story rather than bridging it with a phrase; the synopsis is where those become visible.
 3. Convert the list into continuous present-tense prose. Keep essential characters and remove scenes, subplots, descriptions, and backstory that do not alter the central causal line.
 4. State the decisive conflict, reveal every essential reversal, and disclose the climax, resolution, and ending without teaser language.
 5. Give the synopsis to a reader who has not read the story. Ask them to mark where they cannot tell who acts, why an event follows, what the central conflict is, or how the ending resolves it.
-6. Revise only from those marks, restoring missing causal links before adding color. Compare the result with the manuscript and the chosen length limit.
+6. Revise only from those marks, restoring missing causal links before adding color. Answer each collected question or record it as deliberately unanswered, so an unresolved mark is a decision rather than an oversight. Compare the result with the manuscript and the chosen length limit.
 
 ## Success Check
 - Every major turn appears in causal order with the choice, pressure, discovery, or consequence that produces the next one written beside it.

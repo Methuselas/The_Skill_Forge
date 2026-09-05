@@ -46,7 +46,7 @@ Choose one target role or role family. Prepare three headings for personal attri
 1. Under each heading, list three to five qualities that matter to the target role and that the candidate believes are currently supportable.
 2. Beside every quality, write one observed behavior, work result, qualification, or specific incident that could substantiate it.
 3. Give the same headings and target role to the observer without sharing the candidate's words. Ask for favorable qualities, less flattering patterns, and one example behind each important description.
-4. Compare the lists and mark agreement, wording differences that point to the same behavior, unsupported self-claims, outside strengths the candidate overlooked, and recurring gaps.
+4. Compare the lists and mark agreement, wording differences that point to the same behavior, unsupported self-claims, outside strengths the candidate overlooked, and recurring gaps. Where no self-claim turns out to be unsupported, examine why before accepting it: two lists that agree completely usually mean the observer inferred the headings rather than that the self-description was exact.
 5. Rewrite no more than five professional reputation statements using the strongest intersections of role relevance, evidence, and observation.
 6. Convert one important unsupported quality into a concrete development action instead of publishing it as a present strength.
 

@@ -47,7 +47,7 @@ Choose a fiction draft that uses one or two recurring locations. Prepare a blank
 2. Mark approximate distances and the ordinary time required to move between consequential points.
 3. Trace each scene's route in a different color or line style, noting where characters enter, stop, observe, and leave.
 4. Compare repeated uses of doors, windows, roads, rooms, terrain, and travel time; circle contradictions.
-5. Revise the map or the draft according to the version that better supports character and conflict.
+5. Revise the map or the draft according to the version that better supports character and conflict, and record which you changed for each contradiction. The pattern of those choices is what tells you whether the space or the story has been doing the deciding.
 6. Mark which few spatial facts readers require for orientation and leave the rest as private continuity knowledge.
 
 ## Success Check

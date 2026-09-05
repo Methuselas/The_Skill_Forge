@@ -36,8 +36,8 @@ Choose a comic couplet or short rhyming unit whose final match is predictable bu
 ## Instructions
 1. Read aloud twice and mark lexical stress, promoted emphasis, pauses, and the prevailing beat.
 2. Mark where the rhyme becomes predictable and where syntax permits completion.
-3. Create versions that shorten the setup, delay the terminal word, and alter one stress before the payoff.
-4. Read every version without exaggerated acting and compare the interval between recognition and release.
+3. Create versions that shorten the setup, delay the terminal word, and alter one stress before the payoff. Set aside any version that changes the joke itself rather than its timing: that is a different poem and cannot be compared on this axis.
+4. Read every version without exaggerated acting and compare the interval between recognition and release. Reject a version that only lands when performed, and say so, since delivery can rescue a rhythm that will not survive the page.
 5. Keep the version whose rhythm makes prediction pleasurable without damaging clarity. Where the kept version bought its timing with something else - a plainer word, a lost precision, a slower setup - state that trade, because a version described only by what it gained cannot be compared with the one you discarded.
 
 ## Success Check

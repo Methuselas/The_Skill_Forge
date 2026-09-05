@@ -45,7 +45,7 @@ Choose or prepare a passage of eight to twelve sentences with punctuation remove
 1. Mark every independent clause and identify subordinate clauses, parenthetical material, coordinated items, direct questions, quotations, and sentence fragments.
 2. State the relationship at each possible boundary: continuation, separation, amplification, list, interruption, contrast, or completion.
 3. Punctuate the passage without changing words. Do not join independent sentences with a comma alone.
-4. For three boundaries, write a second grammatically defensible version using a different mark or sentence division.
+4. For three boundaries, write a second grammatically defensible version using a different mark or sentence division. Make at least one of the three change what the sentence means rather than only how it moves, since a comparison confined to rhythm cannot show that the mark is carrying the relation.
 5. Compare the versions for meaning, emphasis, suspense, pace, and the strength of the relationship they imply.
 6. Where punctuation cannot remove ambiguity cleanly, rewrite the word order and explain why the revision is stronger.
 7. Reveal the comparison version or ask a careful reader to review the passage. Classify disagreements as errors, house-style choices, or valid alternatives.

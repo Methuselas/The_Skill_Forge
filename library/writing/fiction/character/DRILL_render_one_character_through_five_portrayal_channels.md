@@ -63,7 +63,7 @@ Choose a scene in which one character wants something, encounters resistance, an
 5. Use thought for private knowledge, contradiction, or misreading unavailable from the outside; keep it within the chosen viewpoint.
 6. Give speech a listener and a social purpose. Let wording reveal what the character seeks, performs, evades, or risks in that relation.
 7. Assemble a short scene using all five candidates once as a diagnostic constraint. Underline repeated information and explanations that arrive after evidence has made them inferable.
-8. Remove, compress, or relocate any channel that performs no unique job. For each channel you keep, write the one job it does that no other channel in the scene could have done. The final scene may use fewer than five when its effect is stronger without the quota, and a channel whose job you cannot write down is one of the ones to drop.
+8. Remove, compress, or relocate any channel that performs no unique job. For each channel you keep, write the one job it does that no other channel in the scene could have done. Cut at least one channel outright rather than only compressing it: a scene that arrives at all five still standing has not been tested, since the five were a diagnostic constraint and never a target. A channel whose job you cannot write down is the one to drop first.
 
 ## Success Check
 - All five channels deliver evidence the scene could credibly carry, drafted before any is cut.

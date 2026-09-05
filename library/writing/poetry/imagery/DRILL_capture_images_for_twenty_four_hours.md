@@ -36,7 +36,7 @@ Sustained readiness to notice and record precise image-making opportunities.
 Choose a capture method usable across ordinary settings. Set a clear start and finish time and arrange a brief review immediately afterward.
 
 ## Instructions
-1. Record objects, gestures, sounds, textures, smells, movements, and spontaneous likenesses without assigning them to projects.
+1. Record objects, gestures, sounds, textures, smells, movements, and spontaneous likenesses without assigning them to projects. Carry the notebook through several ordinary settings, including at least one you would never have chosen as material, since a day spent only where you expected images returns the images you expected.
 2. Preserve exact nouns and verbs while the impression is live; add the feature that prompted any comparison.
 3. At the end of the day, mark entries that are precise, surprising, emotionally charged, or expandable.
 4. Extend three marked entries for five minutes each and identify which develops a relation rather than only a striking sentence.

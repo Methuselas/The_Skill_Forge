@@ -35,7 +35,7 @@ Choose two journeys, memories, or events with a meaningful parallel. Draft each 
 1. Build close-rhyme fields for the first draft and wider slant fields for the second.
 2. Revise without requiring rhyme at line endings or using every candidate.
 3. Map where correspondences cluster, spread, approach, or recede.
-4. Read both aloud and mark closure, surprise, texture, filler, and distorted syntax.
+4. Read both aloud and mark closure, surprise, texture, filler, and distorted syntax. Document each rejected match beside the craft failure that rejected it, so the field records why a candidate lost rather than only that it did.
 5. Keep, loosen, redistribute, or remove sound according to the better fit for each incident.
 
 ## Success Check

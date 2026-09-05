@@ -50,7 +50,7 @@ Choose one consequential event that can be rendered responsibly in 150 to 300 wo
 1. State what the person inside the event knew, wanted, feared, and could perceive at that time. Separately state what the later narrator knows and why the event is being revisited.
 2. Draft the event in past tense. Permit hindsight only where the reflective narrator is audibly present, and mark every judgment unavailable to the earlier self.
 3. Draft the complete event in present tense. Restrict the experiencing voice to contemporaneous knowledge; do not let grammatical immediacy smuggle in later causes, outcomes, or polished interpretation.
-4. Draft a third version that deliberately coordinates both positions through framing, interruption, juxtaposition, or a clear temporal shift. Keep each voice's knowledge and diction distinguishable.
+4. Draft a third version that deliberately coordinates both positions through framing, interruption, juxtaposition, or a clear temporal shift. Keep each voice's knowledge and diction distinguishable, and name the job each shift performs. A shift that cannot be given a job is a change of tense rather than a change of access.
 5. Compare the versions for sensory proximity, reflective range, uncertainty, irony, pace, emotional distance, and the amount of temporal explanation required.
 6. Audit every concrete detail and quotation against the evidence key. Restore qualification wherever a more immediate version has made reconstruction sound remembered or verified.
 7. Choose the version whose temporal relation serves the inquiry, or combine them only where the shift changes access or interpretation rather than merely increasing excitement.

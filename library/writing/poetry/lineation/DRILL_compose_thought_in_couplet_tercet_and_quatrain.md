@@ -32,8 +32,8 @@ Matching two-, three-, and four-line containers to closure, turn, and developmen
 Choose one concrete image or incident that contains a relation, change, or consequence. Prepare three copies of the essential facts and one optional rhyme field.
 
 ## Instructions
-1. Write a couplet that makes the relation or consequence feel complete; test enjambment when two end-stopped lines halt the movement too sharply.
-2. Write a tercet in which the first two lines establish pressure and the third turns, clinches, or productively refuses completion.
+1. Write a couplet that makes the relation or consequence feel complete; test enjambment when two end-stopped lines halt the movement too sharply, and state which version you kept and what the choice bought.
+2. Write a tercet in which the first two lines establish pressure and the third turns, clinches, or productively refuses completion. Name which of the three it does, because the three are different closings and only one of them is happening.
 3. Write a quatrain that gives the material room to develop through sequence, contrast, balance, or a delayed fourth-line consequence.
 4. Test accentual or iambic rhythm and full, slant, or absent rhyme in each version, retaining sound only when it strengthens the unit's movement.
 5. Read the versions in a different order and name what the additional line permits at each expansion.

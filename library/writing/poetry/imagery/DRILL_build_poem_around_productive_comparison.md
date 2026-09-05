@@ -47,7 +47,7 @@ Choose a subject currently expressed in flat, abstract, or uninspiring language.
 
 ## Instructions
 1. Describe the subject literally in a few precise words so the exercise begins from what must be revealed rather than from a decorative image.
-2. Generate several possible comparison terms, rejecting the first stock likenesses that come automatically.
+2. Generate several possible comparison terms. Write the automatic stock likenesses down before rejecting them: a list that never records them cannot show they were considered and passed over rather than never reached.
 3. For each candidate, list the credible similarities and the productive differences between it and the subject.
 4. Select the connection that is both least predictable and most revealing; discard novelty that cannot remain fitting.
 5. Draft the poem around that relation, allowing different implications of the comparison to shape images, turns, and sequence.

@@ -65,7 +65,7 @@ Choose a repeatable span such as several sessions or one week. Prepare a differe
 
 ## Instructions
 1. Draft several complete short poems during the cycle without stopping to perfect each one.
-2. After a period of distance, sort every draft into three groups: discard, rework, or show.
+2. After a period of distance, sort every draft into three groups: discard, rework, or show. Expect at least one draft you liked at the time to land in discard, and check that it did: a sort confirming every first impression has measured nothing but your memory of writing them.
 3. Write one concrete reason for each placement, based on language, discovery, structure, or unrealized potential rather than effort spent.
 4. Revise the strongest rework candidates substantially; leave the discard group alone for this cycle.
 5. Compare the revised poems with the original set and record which qualities predicted worthwhile revision.

@@ -39,7 +39,7 @@ Place a safe ordinary object or substance within reach. Prepare separate spaces 
 1. Observe for fifteen minutes and record comparisons in every relevant category without arranging them.
 2. Mark the exact feature that licenses each comparison and discard candidates based only on familiar phrasing.
 3. Circle five to ten images with transformative potential, including one that changes scale or mode.
-4. Try two orders: one coherent progression and one containing a purposeful return or disruption.
+4. Try two orders: one coherent progression and one containing a purposeful return or disruption. Name one image whose force comes from where it sits rather than from what it is, and say what the position did for it.
 5. Draft from the stronger order, then remove isolated dazzlers and strengthen transitions through recurrence, syntax, or lineation.
 
 ## Success Check

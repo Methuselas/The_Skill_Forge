@@ -40,7 +40,7 @@ Choose two unrelated concrete subjects and one comparison previously made for ea
 2. Apply that vehicle to the second subject and search for the same properties.
 3. Reverse the transfer with the second subject's original vehicle.
 4. Write for ten minutes from each transfer, following consequences rather than repeating the likeness.
-5. Cut forced correspondences and develop the stronger chain.
+5. Record which direction transferred less well and what stopped it, then cut forced correspondences and develop the stronger chain. A direction dropped without that note leaves the exercise unable to say whether the vehicle or the subject was the limit.
 
 ## Success Check
 - The original bridge is named as a specific property — material, action, shape, scale, function, relation — concrete enough to test elsewhere.

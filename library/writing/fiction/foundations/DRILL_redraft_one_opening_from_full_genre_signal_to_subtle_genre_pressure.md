@@ -47,7 +47,7 @@ Choose a story situation and a genre whose central reader promise you can state.
 3. Mark each cue and name the expectation it creates. Cross out any cue that merely repeats a promise another cue already establishes.
 4. Redraft the same event at a similar length using only two genre cues. Transform at least one through the story's particular character, location, relation, or social context.
 5. Add one detail that belongs to the primary story but resists the genre's easiest stock direction.
-6. Compare both versions for clarity of promise, individuality, suspense, tonal control, and cliché. Keep the version or blend whose contract is legible without predetermining every turn.
+6. Compare both versions for clarity of promise, individuality, suspense, tonal control, and cliché. Keep the version or blend whose contract is legible without predetermining every turn, and state what a reader would still anticipate from the reduced signalling. A promise you cannot restate has probably gone out with the cues.
 7. Write the next three sentences and confirm that the selected signals create paths the story can actually continue.
 
 ## Success Check

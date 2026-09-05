@@ -37,7 +37,7 @@ Choose six to twelve complete poems with at least two recurring concerns and mea
 1. Record a compact profile for every poem: opening energy, ending pressure, subject, tone, scale, form, and any recurrence that may connect it to another.
 2. Build three complete orders while holding membership constant: one by thematic recurrence, one by narrative or temporal development, and one by contrast or constellation.
 3. Read every order continuously, marking entry clarity, adjacency effects, repetition fatigue, abrupt transitions, energy peaks, and the work performed by the ending.
-4. Move one strong poem away from an obvious peak position and test whether function matters more than isolated quality at that location.
+4. Move one strong poem away from an obvious peak position and test whether function matters more than isolated quality at that location. Record what the move produced, including the case where the poem was better where it started.
 5. Identify the best transition and worst transition across all versions; explain what each pair causes the reader to carry forward.
 6. Select one order or build a hybrid using only effects observed in the comparison, then give every placement a brief relational reason.
 7. Remove one poem and repeat the closing read to determine whether the manuscript becomes tighter or loses a necessary pressure.

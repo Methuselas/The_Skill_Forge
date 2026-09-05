@@ -48,7 +48,7 @@ Choose a bounded passage about a real person that you are entitled to portray. C
 ## Instructions
 1. State the passage's governing regard in one precise phrase, such as protective affection, unresolved grief, reluctant admiration, frightened anger, or earned condemnation.
 2. Circle generic declarations that repeat the regard without changing it. Keep one only when its placement or phrasing creates a necessary turn.
-3. Select three to five supportable particulars from different channels: action under pressure, characteristic speech, use of an object, bodily or domestic routine, effect on another person, or a contradiction that complicates the dominant feeling.
+3. Select three to five supportable particulars from different channels: action under pressure, characteristic speech, use of an object, bodily or domestic routine, or effect on another person. Make at least one of them complicate the dominant regard rather than confirm it, since a set of particulars that all point the same way is the declaration again in evidence form.
 4. Draft a version that lets those particulars carry most of the emotional weight. Place the strongest detail where it changes the reader's understanding rather than where it merely illustrates an announced verdict.
 5. Add one proportionate counter-detail when the original portrait idealizes or demonizes the person. Do not manufacture balance; use only evidence the essay can support.
 6. Audit every inferred motive. Replace unsupported explanation with conduct, attribution, qualification, or acknowledged uncertainty.

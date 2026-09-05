@@ -53,7 +53,7 @@ Choose one physical condition relevant to a fictional character, such as height,
 
 ## Instructions
 1. State the physical fact without personality labels, symbolic meaning, or presumed life outcome.
-2. List at least three material affordances or constraints involving environments, tools, clothing, movement, work, rest, care, or access.
+2. List at least three material affordances or constraints involving environments, tools, clothing, movement, work, rest, care, or access. Where the consequential experience is outside your own, research it rather than completing it by analogy: confidence about an unfamiliar body reliably produces the generic version of it.
 3. List at least three possible social responses, including contradictory responses from different people or institutions. Keep those interpretations separate from the physical fact, and mark any earlier response that plausibly shaped the character's expectations.
 4. List at least three possible ways the character might understand, present, ignore, enjoy, resist, accommodate, or revise a relationship to the body. Do not derive confidence, anger, eating, desirability, or coping from one past event without intervening evidence.
 5. Generate adaptations, skills, habits, and choices that could develop from repeated interaction among the body, environment, resources, and relationships.

@@ -38,7 +38,7 @@ Choose an invented, transformed, or personally known incident with an action and
 2. Underline facts required for physical and causal possibility; box details that reveal character, relation, setting, or consequence.
 3. Rewrite the incident as a poem focused on its most consequential interval. Remove explicit motive and explanatory transitions, but retain enough sequence for readers to orient themselves.
 4. Replace one explanation with an action, object, command, question, or sensory consequence that can carry implication.
-5. Test the compressed draft on three questions: What happened? What changed? What evidence supports a possible why?
+5. Test the compressed draft on three questions: What happened? What changed? What evidence supports a possible why? Put them to a reader who has not seen the full account and record which motive that reader infers, rather than assuming it is the one you removed.
 6. Restore any omitted fact whose absence makes the event impossible, misleading, or merely arbitrary.
 7. End on a consequence or image that gathers earlier pressure rather than introducing an unrelated shock.
 8. For nonfictional material, verify that the final truth contract distinguishes report, transformation, and speculation.

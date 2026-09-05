@@ -49,7 +49,7 @@ Prepare a short fiction premise or draft and a blank page separate from any syno
 1. Name the central character or relation without spending words on biography.
 2. State the consequential action, relation, situation, or recurrence currently governing the material.
 3. Include the trouble, obstacle, charged surprise, accumulating pressure, or consequential variation that makes the material into a story.
-4. Cut atmosphere, subplots, explanation, and outcome until the sentence is roughly twenty-five words.
+4. Cut atmosphere, subplots, explanation, and outcome until the sentence is roughly twenty-five words. Name what would not fit, and say for each whether its absence points to a missing structural core or only to a crowded draft. The omissions are the diagnosis; the sentence is only how you got there.
 5. Underline the governing verb and pressure. If direct causality is intentionally slight, also underline the relation, recurrence, or transition that makes development legible. If no carrier is specific, write three alternatives centered on different possible story cores.
 6. Compare the strongest sentence with the draft and mark scenes that neither advance nor complicate that core.
 7. If the sentence would fit several unrelated stories, record that as a result about the material rather than trying again for a tighter sentence. A logline that will not particularize is evidence that the governing pressure has not been chosen yet, and naming it that way sends you back to the draft instead of to the thesaurus.

@@ -39,7 +39,7 @@ Choose a bounded place, object, relation, or remembered situation with enough te
 1. Make a working specification for both architectures, separating fourteen-line structure, stanza movement, turn placement, meter, and rhyme so optional conventions do not masquerade as the whole form.
 2. For the octave-sestet version, let the opening eight lines establish and complicate one pressure; use the remaining six to answer, reverse, widen, or reframe it.
 3. For the quatrain-couplet version, give each four-line unit a distinct stage of development and make the final pair spend a prepared consequence rather than attach a surprise.
-4. Test a workable pentameter and rhyme scheme, but loosen a non-governing convention when it distorts syntax or consumes the attention needed for imagery and thought.
+4. Test a workable pentameter and rhyme scheme, but loosen a non-governing convention when it distorts syntax or consumes the attention needed for imagery and thought. Mark every line that exists only to complete a scheme, since the comparison will otherwise credit that line to the architecture.
 5. Mark the actual turn in each version by meaning, then check whether stanza and sound make it more legible.
 6. Compare what each architecture discovered, compressed, delayed, or forced. Select one, hybridize deliberately while naming the retained governing action, or reject both when the material requires another form.
 

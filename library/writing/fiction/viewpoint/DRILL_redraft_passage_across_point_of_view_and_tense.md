@@ -87,7 +87,7 @@ Choose a passage of 250 to 500 words containing an event, at least two character
 4. Make a third version using one conspicuous option: first-person plural, second person, omniscient, or future tense.
 5. Underline every fact, thought, or description that had to appear, disappear, or change when access moved.
 6. Annotate each version for reader distance, narrator authority, urgency, irony, addressee, available hindsight, revelation control, and the cost of maintaining the device.
-7. Choose the version whose gains serve the story's central pressure, then revise it for consistent knowledge, tense, and voice.
+7. Choose the version whose gains serve the story's central pressure, then revise it for consistent knowledge, tense, and voice. State what the chosen position cannot deliver, since every position closes something and the closure is easiest to forget once the choice feels settled.
 
 ## Success Check
 - The current position is fully marked — teller, participation, knowledge, timing, addressee, motive for telling now, and what readers cannot reach — before any redraft.

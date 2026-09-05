@@ -48,7 +48,7 @@ Choose one real or representative entry-level advertisement. Prepare three colum
 ## Instructions
 1. Extract four to six capabilities or work behaviors the employer actually requests; do not begin from a generic employability list.
 2. Inventory specific moments from coursework, presentations, group projects, sport, clubs, volunteering, fundraising, caregiving, neighborhood work, casual jobs, and self-directed ventures.
-3. Pair each requirement with one genuine moment, then record the action performed, the setting or responsibility involved, and an observable result, recognition, or sign of trust.
+3. Pair each requirement with one genuine moment, then record the action performed, the setting or responsibility involved, and an observable result, recognition, or sign of trust. Where a requirement has no moment behind it, record it as a gap rather than reaching for the nearest plausible-sounding claim: a gap you can name is answerable at interview, and a stretched pairing is not.
 4. Ask the observer for examples without showing the proposed skill labels. Compare the examples with the matrix and add only details the candidate can truthfully explain.
 5. Reject any pairing that depends on renaming participation as leadership, confidence with a tool as professional expertise, or a pleasant trait as job performance.
 6. Turn the strongest pairings into brief skill claims and assign each one a later proof location such as education, work history, achievements, training, or extracurricular activity.

@@ -50,7 +50,7 @@ Choose a subject simple enough that attachment to the first draft will not inhib
 2. Label the exact mechanism of each failure instead of stopping at the judgment that the poem is bad.
 3. Translate every label into an opposing instruction: abstraction becomes sensory evidence, cliché becomes precise phrasing, passivity becomes consequential action, and predictability becomes a discovery or turn.
 4. Put the first draft out of sight and write a new poem that follows the opposing instructions without preserving the original wording or sequence.
-5. Compare the poems only after the replacement is complete, checking whether each improvement changes the reader's experience rather than merely sounding more ornate.
+5. Compare the poems only after the replacement is complete, checking whether each improvement changes the reader's experience rather than merely sounding more ornate. Name any opposing instruction the new poem did not manage to follow, since the instruction set is what this exercise keeps and an unmet one is the part still to work on.
 
 ## Success Check
 - The bad draft fails by mechanism, exhibiting general emotion, received phrasing, slack verbs, predictable movement, and unnecessary explanation.

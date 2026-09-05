@@ -47,7 +47,7 @@ Prepare a book, dictionary, or other varied body of prose and a timer set for fi
 1. Reject abstractions during collection; favor specific things and clear actions that can enter a physical scene.
 2. Balance nouns with verbs, and avoid building the list mainly from adjectives and adverbs.
 3. Begin a short poem and use as many collected words as possible without deciding their relationships in advance.
-4. Keep the draft's stakes serious enough that incongruous words must create meaning rather than collapse into an automatic joke.
+4. Keep the draft's stakes serious enough that incongruous words must create meaning rather than collapse into an automatic joke. Where the draft resolves into a joke anyway, record that the easier route was taken rather than quietly revising the evidence away.
 5. Finish within the time limit, then mark the surprising connections that feel earned and the insertions that remain merely random.
 6. Remove or replace forced words while preserving any image, action, or turn the constraint made possible.
 

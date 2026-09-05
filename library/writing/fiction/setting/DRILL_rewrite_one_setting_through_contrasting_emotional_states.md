@@ -37,7 +37,7 @@ Choose a place with a recognizable atmosphere and list six fixed facts that must
 1. Write a passage of up to 250 words as the character enters under the first pressure.
 2. Rewrite the visit under the second pressure without changing the six fixed facts.
 3. Mark which details recur, which become newly visible, and which receive a different interpretation.
-4. Check the relation between the place's conventional atmosphere and the character's state. Allow support, resistance, guilt, relief, alienation, or another mixed response instead of forcing agreement.
+4. Check the relation between the place's conventional atmosphere and the character's state. Name which of these the relation is - support, resistance, guilt, relief, alienation, or another mixed response - instead of letting the place and the mood agree by default.
 5. Remove direct emotion labels and any altered fact used only to make the second version easier.
 6. Underline the three choices that most strongly changed the reader's experience, then state whether each worked through selection, language, sequence, or association.
 7. Draft a third paragraph that shifts from one pressure toward the other while the character remains in place.
