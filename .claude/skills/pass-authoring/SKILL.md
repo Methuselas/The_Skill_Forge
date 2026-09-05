@@ -11,14 +11,27 @@ description: >-
 Use the canonical portable PASS package in `PASS/`; this repo skill is only a
 discovery wrapper for agents working inside SkillForge.
 
-## Load order
+## References by phase
 
-1. `PASS/SKILL.md`
-2. `PASS/docs/PASS_DOCTRINE.md`
-3. `PASS/docs/PASS_RUN.md`
-4. `PASS/docs/PASS_SCHEMA.md`
-5. `PASS/docs/PASS_LIBRARY.md`
-6. `PASS/docs/MODULE_RELEASES.md` when packaging or changing dependencies
+Do not preload the complete PASS documentation set. Read `PASS/SKILL.md` when a
+PASS authoring or maintenance operation begins, then open only what the current
+phase needs:
+
+- purpose, admissibility, or extraction judgment: the relevant section of
+  `PASS/docs/PASS_DOCTRINE.md`;
+- preflight, source reading, reconciliation, third read, or closure: the relevant
+  section of `PASS/docs/PASS_RUN.md`;
+- card creation or review: frontmatter rules plus the applicable Pattern, Drill,
+  or AP section of `PASS/docs/PASS_SCHEMA.md`;
+- placement or module ownership: `PASS/docs/PASS_LIBRARY.md`;
+- packaging or dependency changes: `PASS/docs/MODULE_RELEASES.md`, adding
+  `PASS/docs/EXECUTION_CONTRACT.md` only for runtime routing or completion work;
+- drill administration or domain consumption: `PASS/docs/PASS_CONSUMPTION.md`;
+- memory work: `PASS/docs/MEMORY_SCHEMA.md`.
+
+Read a complete document only when the task genuinely spans its complete
+contract. A later phase may load another reference; future need is not a reason
+to load it now.
 
 ## Rules that decide most questions here
 

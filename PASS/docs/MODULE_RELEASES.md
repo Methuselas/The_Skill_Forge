@@ -16,9 +16,11 @@ those paths must continue to resolve after export without rewriting card content
 Missing assets fail the build and `check` command.
 
 Every release root is an Agent Skills-compatible directory. `SKILL.md` contains
-required YAML `name` and `description` metadata followed by the consumer
-instructions. The same release can be uploaded/installed where Agent Skills are
-supported or used directly as an archived/context package.
+required YAML `name` and `description` metadata followed by compact routing
+instructions. Profile-owned execution barriers live in the conditional
+`references/execution-barriers.md`; the complete declarative contract remains in
+`runtime/profile.yaml`. The same release can be uploaded/installed where Agent
+Skills are supported or used directly as an archived/context package.
 
 ## Skillset Memory in a release
 

@@ -10,16 +10,29 @@ description: >-
 
 Use SkillForge's universal engineering core plus the relevant language module.
 
-## Load order
+## Targeted retrieval
 
-1. `library/metaskills/INDEX.md`
-2. `library/software-engineering/core/INDEX.md`
-3. For C++, `library/software-engineering/languages/cpp/INDEX.md`
-4. Follow object prerequisites and cross-links before applying a dependent card.
+Do not preload the core or language master indexes. Restate the engineering
+decision, use `metaskills` as the default skill baseline, then retrieve a bounded
+set from both packages with a few cues from that decision. Load only the relevant
+metaskill cards. Prefer the closest applicable AP, load the
+local Patterns it activates, and follow `foundation_object_id`,
+`prerequisite_for`, and other relevant links. Load a language module only when
+that language is actually involved.
+
+```bash
+python PASS/tools/find_relevant.py --package metaskills --cues "<task cues>" --limit 5
+python PASS/tools/find_relevant.py --package software-engineering --cues "<task cues>" --limit 8
+```
 
 Retrieve only the APs, Patterns, and Drills relevant to the current engineering
 decision. Inspect the existing code before changing it, make contracts and failure
 modes explicit, and run the repository's actual checks before claiming success.
+
+When a Drill is actually being taken rather than read, the rule for how is in
+`PASS/docs/PASS_CONSUMPTION.md`: an Instruction bullet that asks you to execute,
+observe, record, mark, or exercise something is answered with the machine's
+output, not with an account of it. Say that to the taker before they start.
 
 ## Skillset Memory
 

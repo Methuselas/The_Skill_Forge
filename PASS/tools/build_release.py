@@ -217,7 +217,8 @@ def make_read_only(root: Path) -> list[str]:
         if not item.is_file():
             continue
         os.chmod(item, 0o444)
-        if os.access(item, os.W_OK):
+        mode = item.stat().st_mode
+        if mode & (stat.S_IWUSR | stat.S_IWGRP | stat.S_IWOTH):
             problems.append(f"memory file is still writable: {item.name}")
     return problems
 
@@ -329,11 +330,19 @@ def skill_metadata_problem(path: Path) -> list[str]:
             isinstance(item, str) and item.strip() for item in consumer_instructions
         ):
             problems.append("runtime/profile.yaml consumer_instructions are invalid")
-        else:
+        elif consumer_instructions:
             body = match.group("body")
+            reference_name = "references/execution-barriers.md"
+            reference_path = path / reference_name
+            if reference_name not in body:
+                problems.append("SKILL.md does not route to the execution barriers")
+            if not reference_path.is_file():
+                problems.append("missing execution-barriers reference")
+                return problems
+            reference = reference_path.read_text(encoding="utf-8")
             for item in consumer_instructions:
-                if item.strip() not in body:
-                    problems.append("SKILL.md omits a runtime consumer instruction")
+                if item.strip() not in reference:
+                    problems.append("execution-barriers reference omits a runtime consumer instruction")
                     break
     return problems
 
@@ -428,7 +437,6 @@ def write_skill(
     skill_name: str,
     display_name: str,
     description: str,
-    modules: list[str],
     runtime_profile: str,
     memory_domains: list[str] | None = None,
 ) -> None:
@@ -450,11 +458,11 @@ def write_skill(
         "This is a self-contained SkillForge release.\n\n"
         f"`runtime/profile.yaml` (profile `{runtime_profile}`) is this release's "
         "**execution contract**. It declares the execution modes, routing, risk checks, "
-        "and completion requirements this skill is expected to honor. Read it and honor "
-        "it: resolve the execution mode before productive work, apply the activated "
-        "metaskills, perform the risk checks the contract names for the request, and "
-        "satisfy the completion requirements before declaring a task complete. That "
-        "responsibility is yours — nothing in this package can check it for you.\n\n"
+        "and completion requirements this skill is expected to honor. Do not preload it "
+        "for discussion, critique, help, or another non-productive request. Before the "
+        "first productive action, resolve the execution mode, apply the activated "
+        "metaskills, perform the named risk checks, and satisfy the completion requirements. "
+        "That responsibility is yours — nothing in this package can check it for you.\n\n"
         "`scripts/skillforge_runtime.py` is an **optional deterministic helper** for "
         "hosts that can execute Python. It holds no state, runs only when invoked, and "
         "cannot observe or block anything you do:\n\n"
@@ -463,20 +471,35 @@ def write_skill(
         "so mode and check selection are deterministic instead of re-derived each time.\n"
         "- `verify` audits a completion record you write, and reports which required "
         "checks it does not contain.\n\n"
-        "Where Python is unavailable, apply the contract in `runtime/profile.yaml` "
-        "directly. The release is complete without it.\n\n"
+        "Prefer the resolver's bounded result to loading the complete profile. Where "
+        "Python is unavailable, read and apply `runtime/profile.yaml` directly. The "
+        "release is complete without Python.\n\n"
         "The semantic craft knowledge lives in `library/`. Python resolves and reports; "
         "it does not sequence stages, gate approvals, or enforce the contract. Hard "
         "prerequisites have already been materialized locally. Each card is "
         "self-contained: it needs no source document to execute.\n\n"
-        "## Bundled modules\n\n"
-        + "".join(f"- `library/{module}`\n" for module in modules)
+        "## Bundled knowledge\n\n"
+        "Load `library/metaskills/INDEX.md` as the default baseline, then retrieve only "
+        "the domain indexes and cards relevant to the current decision. "
+        "`RELEASE_MANIFEST.json` lists every bundled module; do not preload that list or "
+        "the complete library.\n"
     )
     if consumer_instructions:
+        barriers_path = path / "references" / "execution-barriers.md"
+        barriers_path.parent.mkdir(parents=True, exist_ok=True)
+        barriers_path.write_text(
+            "# Mandatory Execution Barriers\n\n"
+            "These profile-owned instructions are part of the portable execution "
+            "contract, not optional guidance. Read them before the first productive "
+            "action and retain them for the active task.\n\n"
+            + "".join(f"- {item.strip()}\n" for item in consumer_instructions),
+            encoding="utf-8",
+        )
         body += (
             "\n## Mandatory execution barriers\n\n"
-            "These profile-owned instructions are part of the portable execution contract, not optional guidance:\n\n"
-            + "".join(f"- {item.strip()}\n" for item in consumer_instructions)
+            "Before the first productive action, read and retain "
+            "`references/execution-barriers.md`. Do not load it for a non-productive "
+            "request.\n"
         )
     if memory_domains:
         body += (
@@ -536,7 +559,8 @@ def write_zip_from_tree(tree: Path, zip_path: Path, root_name: str) -> None:
             arcname = (Path(root_name) / item.relative_to(tree)).as_posix()
             info = zipfile.ZipInfo.from_file(item, arcname)
             info.compress_type = zipfile.ZIP_DEFLATED
-            if not os.access(item, os.W_OK):
+            mode = item.stat().st_mode
+            if not (mode & (stat.S_IWUSR | stat.S_IWGRP | stat.S_IWOTH)):
                 info.external_attr = (info.external_attr & ~(0o222 << 16)) | 0x01
             with item.open("rb") as source, archive.open(info, "w") as target:
                 shutil.copyfileobj(source, target)
@@ -715,8 +739,8 @@ def build(
             "quality_gates": quality,
         }
         write_skill(
-            staging, skill_name, display_name, description, manifest["modules"],
-            runtime_profile, memory_domains,
+            staging, skill_name, display_name, description, runtime_profile,
+            memory_domains,
         )
         # Freeze before hashing, so the manifest describes files in the state the
         # release actually ships them in.

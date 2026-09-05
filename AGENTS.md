@@ -4,8 +4,21 @@ SkillForge turns studied sources into self-contained PASS cards. `PASS/` is the
 portable authoring skill; `library/` is the universal library of finished cards;
 releases must be self-contained.
 
-Read `ARCHITECTURE.md` for the contract and `PASS/docs/PASS_RUN.md` for the
-authoring loop.
+## Route before reading
+
+Do not preload `ARCHITECTURE.md`, PASS documentation, master indexes, domain
+cards, or memory merely because the repository is open. First identify the
+operation, then use the matching skill description under `.agents/skills/`:
+
+- source study, card or module maintenance, validation, and release packaging
+  use the PASS-authoring skill and only the references for the active phase;
+- domain practice, evaluation, or production uses the matching domain skill,
+  the default `metaskills` baseline, and a bounded set of relevant domain cards;
+- repository code, tests, tooling, and architecture use the
+  software-engineering skill and targeted implementation files.
+
+Skill descriptions own discovery, so this file does not enumerate domains. Read
+`ARCHITECTURE.md` only for an architectural decision or conflict.
 
 ## Non-negotiable boundaries
 
@@ -15,10 +28,10 @@ The prose after each lead is this file's own.
 
 - **A card must be valid and executable after its source is gone.** No card
   carries a source id, locator, page number, hash, receipt, or attestation.
-- **Author in one domain per run.** `art`, `writing`, and `software-engineering`
-  are independent. Do not inspect, synchronize with, or modify another domain in
-  order to author yours. Duplicate-guard against your own domain only; card IDs
-  are unique library-wide.
+- **Author in one domain per run.** Every package under `library/` other than
+  `metaskills` is independent. Do not inspect, synchronize with, or modify
+  another domain in order to author yours. Duplicate-guard against your own
+  domain only; card IDs are unique library-wide.
 - **Cards may reference their own package plus `metaskills`.** Any other
   cross-package reference fails validation.
 - **Do not rebuild the retired authoring infrastructure.** Ledgers, source

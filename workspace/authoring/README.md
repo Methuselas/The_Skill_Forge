@@ -49,12 +49,10 @@ not retired, so they do not belong in `archive/`.
 They are practice history — the class of knowledge that sits between a finished
 card and a practitioner's own memory, described in `PASS/docs/PASS_RUN.md` §5.
 
-**This is a holding position, not a home.** They are tracked here only because
-the practice-memory layer does not exist yet, and untracked they would live on
-one machine and vanish with it. When that layer is designed, these move into it
-or are superseded by it, and this exception and the `.gitignore` line that
-carves it out both go away. Nothing should be built that depends on them
-staying.
+These notes predate Skillset Memory and remain historical teaching context, not
+new memory input. New empirical observations belong in `memory/art/` under
+`PASS/docs/MEMORY_SCHEMA.md`; nothing should be built that depends on these older
+notes staying.
 
 Do not promote their contents into cards wholesale. An observation from a
 teaching run is evidence, not a Pattern; the buffer rule in §5 applies.

@@ -253,8 +253,22 @@ class ReleaseIntegrityTests(unittest.TestCase):
                 result = run("build", recipe, out)
                 self.assertEqual(result.returncode, 0, result.stderr)
                 self.assertTrue((out / "library/metaskills/MODULE.yaml").is_file())
-                front = yaml.safe_load((out / "SKILL.md").read_text(encoding="utf-8").split("---\n", 2)[1])
+                skill_path = out / "SKILL.md"
+                skill_text = skill_path.read_text(encoding="utf-8")
+                front = yaml.safe_load(skill_text.split("---\n", 2)[1])
                 self.assertTrue(front.get("name") and front.get("description"))
+                self.assertLessEqual(skill_path.stat().st_size, 8 * 1024)
+                profile = yaml.safe_load(
+                    (out / "runtime/profile.yaml").read_text(encoding="utf-8")
+                )
+                consumer_instructions = profile.get("consumer_instructions") or []
+                if consumer_instructions:
+                    barriers = out / "references/execution-barriers.md"
+                    self.assertTrue(barriers.is_file())
+                    barrier_text = barriers.read_text(encoding="utf-8")
+                    self.assertIn("references/execution-barriers.md", skill_text)
+                    for instruction in consumer_instructions:
+                        self.assertIn(instruction.strip(), barrier_text)
                 self.assertEqual(run("check", out).returncode, 0)
 
     def test_release_check_detects_a_changed_card(self) -> None:
@@ -466,6 +480,50 @@ class RepositoryShapeTests(unittest.TestCase):
     def test_repo_agent_skill_discovery_folders_are_present(self) -> None:
         for folder in (".claude/skills", ".agents/skills"):
             self.assertTrue((ROOT / folder).is_dir(), folder)
+
+    def test_cold_start_instructions_are_bounded_and_route_before_loading(self) -> None:
+        budget = 8 * 1024
+        for filename in ("AGENTS.md", "CLAUDE.md"):
+            path = ROOT / filename
+            content = path.read_bytes()
+            text = content.decode("utf-8")
+            with self.subTest(file=filename):
+                self.assertLessEqual(
+                    len(content), budget,
+                    f"{filename} exceeds the {budget}-byte cold-start budget",
+                )
+                self.assertIn("## Route before reading", text)
+                self.assertIn("Do not preload", text)
+
+    def test_repo_skill_entrypoints_fit_the_context_budget(self) -> None:
+        budget = 8 * 1024
+        for path in sorted((ROOT / ".claude/skills").glob("*/SKILL.md")):
+            with self.subTest(skill=path.parent.name):
+                self.assertLessEqual(
+                    path.stat().st_size, budget,
+                    f"{path.relative_to(ROOT)} exceeds the {budget}-byte entrypoint budget; "
+                    "move conditional detail into a routed reference",
+                )
+
+    def test_repo_agent_skill_markdown_is_mirrored(self) -> None:
+        claude_root = ROOT / ".claude/skills"
+        agents_root = ROOT / ".agents/skills"
+        claude = {
+            path.relative_to(claude_root).as_posix(): path
+            for path in claude_root.rglob("*.md")
+        }
+        agents = {
+            path.relative_to(agents_root).as_posix(): path
+            for path in agents_root.rglob("*.md")
+        }
+
+        self.assertEqual(claude.keys(), agents.keys())
+        for relative_path in sorted(claude):
+            with self.subTest(skill_file=relative_path):
+                self.assertEqual(
+                    claude[relative_path].read_text(encoding="utf-8"),
+                    agents[relative_path].read_text(encoding="utf-8"),
+                )
 
     def test_pass_dependency_manifest_exists(self) -> None:
         self.assertTrue((ROOT / "PASS/requirements.txt").is_file())

@@ -49,6 +49,13 @@ record afterward. It does not run by itself, hold state, or gate anything — a
 host that never invokes it still has a complete, usable release. Honoring the
 contract is the consuming skill's responsibility. See `EXECUTION_CONTRACT.md`.
 
+The generated `SKILL.md` is a router, not a copy of the complete profile. Do not
+preload the profile or its generated `references/execution-barriers.md` for pure
+discussion, critique, help, or another non-productive request. Before productive
+work, load the barriers and prefer the resolver's bounded result; read the full
+profile directly when the resolver is unavailable or when inspecting the runtime
+contract itself.
+
 A release recipe may also name a target-specific `deployment_profile`. Package
 size is then measured at release build/check time against that profile. No recipe
 currently names one and `PASS/runtime/deployment_profiles/` does not yet exist;

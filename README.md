@@ -21,7 +21,7 @@ still builds, and still works.
 
 - `PASS/` — the portable authoring package: schema, docs, tools, runtime
 - `library/` — the universal library, one folder per skill domain
-  - `art/`, `writing/`, `software-engineering/` — independent domains
+  - `art/`, `game-design/`, `writing/`, `software-engineering/` — independent domains
   - `metaskills/` — craft-neutral process knowledge every release bundles
 - `workspace/release-recipes/` — named products
 - `archive/` — retired material, excluded from validation and builds
@@ -33,10 +33,64 @@ The release is the product. The repo is the factory.
 
 ## Domains are independent
 
-An Art agent never needs to inspect, synchronize with, or modify Writing or
-Software Engineering in order to author Art. The same holds for each domain. They
-share a **library**, not an authoring process. Cards may reference other cards in
-their own domain, plus `metaskills`; anything else fails validation.
+Every package below `library/` other than `metaskills` is an independent domain.
+An agent never needs to inspect, synchronize with, or modify another domain to
+author its own. Domains share a **library**, not an authoring process. Cards may
+reference other cards in their own domain, plus `metaskills`; anything else fails
+validation.
+
+## Context-efficient authoring
+
+Root instructions and repo skills route before loading: metaskills is the small
+default baseline, while PASS documents, cards, and memory are opened only for
+the current operation and phase. Retrieve a small ranked set from metaskills and
+the active domain instead of printing a whole index:
+
+```bash
+python PASS/tools/find_relevant.py --package metaskills --cues "<task cues>" --limit 5
+python PASS/tools/find_relevant.py --package writing --cues "<task cues>" --limit 8
+```
+
+Extract only the PDF pages needed for the current unit. The output is disposable
+workspace input; low-text pages are reported for visual inspection or OCR:
+
+```bash
+python workspace/tools/extract_pdf_text.py book.pdf workspace/authoring/book-unit.txt --pages 20-48
+```
+
+Build a pruned archive for one Project-chat domain. An extracted source can be
+placed at top-level `SOURCE_INPUT/` without copying it into the repository:
+
+```bash
+python workspace/tools/build_project_snapshot.py workspace/releases/writing-project.zip --domain writing --source-text workspace/authoring/book-unit.txt
+```
+
+The snapshot includes PASS, metaskills, the selected domain, its memory, and its
+matching agent skills. It excludes `.git`, retired material, source PDFs, nested
+ZIPs, unrelated domains, tests, and workspace scratch by default.
+
+### Choose the smallest working set
+
+- **Claude Code or Codex in the repository:** let `CLAUDE.md` or `AGENTS.md`
+  select the operation first. Load the matching repo skill, retrieve bounded
+  metaskills and domain cards, and open PASS documentation only for the active
+  authoring phase.
+- **GPT Project chat:** upload a domain-scoped snapshot rather than the complete
+  checkout. Attach extracted text through `--source-text`; do not include the
+  PDF archive, `.git`, or unrelated domains.
+- **Installed or shared skill:** build a named release. Its compact `SKILL.md`
+  routes into the bundled domain and the mandatory metaskills baseline. Runtime
+  profiles and execution barriers are deferred until productive work needs them.
+
+### Add another skill domain
+
+Create `library/<domain>/` and a matching discovery skill under both
+`.agents/skills/<domain>/` and `.claude/skills/<domain>/`. Keep those two skill
+wrappers identical. Optional empirical history belongs in `memory/<domain>/`.
+The root instructions do not enumerate domains, and the retrieval and snapshot
+tools discover library packages automatically, so adding a domain does not grow
+every agent's cold-start context. Every release continues to include
+`metaskills` automatically.
 
 ## Validate
 

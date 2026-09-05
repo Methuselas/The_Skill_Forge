@@ -16,14 +16,26 @@ A finished card is the durable artifact. It must be valid and executable after
 the source it was learned from is gone, so it carries no source id, locator,
 page, hash, or receipt.
 
-## Canonical load order
+## Canonical references by phase
 
-1. `docs/PASS_DOCTRINE.md`
-2. `docs/PASS_RUN.md`
-3. `docs/PASS_SCHEMA.md`
-4. `docs/PASS_LIBRARY.md`
-5. `docs/EXECUTION_CONTRACT.md` when changing profile routing, release vendoring,
-   or the declared execution/completion contract.
+Do not preload every PASS document. Open the reference that owns the current
+decision:
+
+- purpose, admissibility, and extraction judgment: the relevant section of
+  `docs/PASS_DOCTRINE.md`;
+- preflight, source reading, reconciliation, third read, and closure: the
+  relevant section of `docs/PASS_RUN.md`;
+- object creation or review: the frontmatter contract and applicable Pattern,
+  Drill, or AP section of `docs/PASS_SCHEMA.md`;
+- placement and module ownership: `docs/PASS_LIBRARY.md`;
+- packaging and dependencies: `docs/MODULE_RELEASES.md`;
+- runtime profile routing, vendoring, or completion contracts:
+  `docs/EXECUTION_CONTRACT.md`;
+- skill consumption or drill administration: `docs/PASS_CONSUMPTION.md`;
+- Skillset Memory: `docs/MEMORY_SCHEMA.md`.
+
+Read a complete document only when the task genuinely spans its complete
+contract. Load later-phase references when that phase begins, not in anticipation.
 
 ## Working rules
 

@@ -105,10 +105,10 @@ The metaskill is the universal process baseline. Domain modules extend it; they 
 
 ## Independent skill domains
 
-`art`, `writing`, and `software-engineering` are independent lanes. Each is
-authored, validated, and built without the others. A card may reference other
-cards in its own package, plus `metaskills`; any other cross-package reference is
-a domain coupling and fails validation.
+Every package under `library/` other than `metaskills` is an independent lane.
+Each is authored, validated, and built without the others. A card may reference
+other cards in its own package, plus `metaskills`; any other cross-package
+reference is a domain coupling and fails validation.
 
 Instructional knowledge stays in the domain it belongs to. `lane_fit: teach`
 marks a card as instructional within its own domain — it does not route the card

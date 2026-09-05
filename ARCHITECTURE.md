@@ -30,9 +30,9 @@ If no, the runtime does not depend on it.
 5. **A card is source-independent.** It carries no source id, locator, page,
    hash, receipt, or attestation, and it must execute after the work it was
    learned from is gone.
-6. **Skill domains are independent.** `art`, `writing`, and `software-engineering`
-   are authored, validated, and built without one another. They share a library,
-   not an authoring process.
+6. **Skill domains are independent.** Every package under `library/` other than
+   `metaskills` is authored, validated, and built without the others. Domains
+   share a library, not an authoring process.
 7. Cards may reference cards in their own domain, plus the shared `metaskills`
    package. Any other cross-package edge is a domain coupling and fails.
 8. Every SkillForge release includes `metaskills`.
