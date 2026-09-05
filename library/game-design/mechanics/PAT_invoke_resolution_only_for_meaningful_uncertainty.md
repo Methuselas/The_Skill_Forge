@@ -25,6 +25,8 @@ cross_links:
   target_object_id: PAT_build_complete_resolution_procedures_incrementally
 - rel: related_to
   target_object_id: PAT_layer_adventure_information_by_how_players_can_access_it
+- rel: related_to
+  target_object_id: PAT_expand_resolution_detail_only_after_consequential_state_change
 reference:
   source_title: Designing TTRPGs For Dummies
   author: Martin Buinicki
@@ -42,11 +44,12 @@ variants: []
 
 ## Do
 - Identify what failure will change before asking for a roll, draw, check, or other resolution procedure.
-- Let routine competent actions succeed when no pressure, hazard, opposition, scarcity, or meaningful consequence makes failure worth resolving.
+- Let routine competent actions succeed when no pressure, hazard, opposition, scarcity, or meaningful consequence makes failure worth resolving. This applies to routine operation and acquisition as well as obvious skill checks: ordinary driving, ordinary shopping, ordinary device discovery, and similar procedures should usually stay off until time, legality, opposition, scarcity, concealment, or failure matters.
 - Replace unlimited repeat-until-success checks with the eventual outcome or with a meaningful time or resource cost when that is the real question.
 - Invoke resolution when the same ordinary action becomes consequential because of traps, deadlines, noise, fragile contents, pursuit, limited tools, hostile opposition, or similar pressure.
 - Make the distinct outcomes matter enough that the resolution concentrates tension rather than distributing friction.
 - When players ask about an ordinary perceptible detail omitted from the initial description, provide it without a check if access is not meaningfully uncertain; use resolution only when noticing, uncovering, interpreting, or obtaining the information can genuinely fail in a consequential way.
+- Use a precision dial: begin with the coarse difficulty/state distinction and add causal modifiers or sub-resolution only when those causes expose choices players can change through tools, time, position, preparation, or approach.
 
 ## Don't
 - Require a check merely because a character sheet contains a relevant skill or because the rules are capable of producing a number.
@@ -62,6 +65,7 @@ variants: []
 - Routine professional competence is not repeatedly tested without stakes.
 - A check can be removed from at least one low-stakes case without changing meaningful play.
 - Plainly perceptible information is available through description or reasonable questions without unnecessary resolution; information checks remain attached to consequential uncertainty.
+- Detailed modifiers identify actionable causes rather than merely restating that the task is difficult.
 
 ## Notes
 A mechanic can be broadly available without being constantly invoked. The same action may deserve no check in a safe context and a consequential check under pressure. Resolution is most useful when it answers a question the table actually cares about; otherwise it consumes attention without creating play. Skipping inevitable outcomes preserves table rhythm and makes the checks that remain more dramatic. The same rule applies to information access: omission from read-aloud text does not itself create uncertainty. If the character would plainly perceive the detail once asked, provide it; resolve only when access is genuinely uncertain and the difference matters.

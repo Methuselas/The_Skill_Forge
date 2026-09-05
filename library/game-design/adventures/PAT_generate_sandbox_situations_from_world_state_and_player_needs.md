@@ -23,6 +23,10 @@ cross_links:
   target_object_id: PAT_structure_adventure_narratives_with_milestones_plot_beats_and_player_agency
 - rel: related_to
   target_object_id: PAT_layer_adventure_information_by_how_players_can_access_it
+- rel: related_to
+  target_object_id: PAT_turn_character_history_into_scenario_addressable_state
+- rel: related_to
+  target_object_id: PAT_use_in_world_information_as_a_scenario_interface
 reference:
   source_title: "Twilight: 2000 (1st Edition) and Twilight: 2000 Version 2.2"
   author: "Frank Chadwick; David Nilsen, Loren Wiseman, and Lester Smith"
@@ -44,6 +48,8 @@ variants: []
 - Let persistent shortages, injuries, damaged equipment, relationships, or goals make ordinary generated locations strategically important.
 - Reveal referee-facing world state through observable fictional consequences rather than simply naming the hidden category to players.
 - Reuse the same generated element differently when the party arrives with different needs.
+- Prefer causal pressure from already stored enemies, debts, injuries, obligations, reputation, public visibility, evidence trails, faction motives, damaged assets, compromised identities, owed favors, or resource needs over arbitrary danger added only to maintain tone.
+- Treat aftermath as future scenario material when one completed operation leaves unresolved economic, medical, social, legal, or logistical state that can activate later.
 
 ## Don't
 - Treat a random encounter table as a sandbox engine when its results have no durable relationship to party state.
@@ -57,6 +63,7 @@ variants: []
 - A stored world-state variable changes more than one later output or interpretation.
 - Players can infer changing conditions from fictional evidence.
 - The procedure produces usable pressure without requiring the referee to invent the entire situation from scratch.
+- The design distinguishes scenario ingredients from campaign automation: if the referee must choose which dormant hook or faction activates next, that synthesis workload is named rather than assumed away.
 
 ## Notes
-A sandbox can generate situations without generating stories. A repair yard means little to a well-supplied group and can become the most important location on the map after a vehicle loses a critical component. A field hospital, farm, roadblock, trader, or damaged settlement changes meaning according to the party's current injuries, shortages, relationships, and goals. The useful procedural loop is generated world state multiplied by persistent player need.
+A sandbox can generate situations without generating stories. A repair yard means little to a well-supplied group and can become the most important location on the map after a vehicle loses a critical component. A field hospital, fixer, buyer, trainer, checkpoint, or damaged safehouse changes meaning according to the party's current injuries, shortages, relationships, legal exposure, and goals. The useful procedural loop is generated world state multiplied by persistent player need; completed adventures can supply that state by leaving repair bills, wounds, favors, compromised identities, hunted loot, forensic traces, public attention, or other unresolved consequences behind.

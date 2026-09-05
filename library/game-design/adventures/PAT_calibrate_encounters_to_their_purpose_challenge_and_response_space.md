@@ -61,6 +61,7 @@ variants: []
 - Do not impose a quota for multiple solutions. A duel can require victory, a collapse can require escape, and a puzzle can require an answer when that narrow response space is the intended challenge.
 - Let character capabilities create leverage inside the encounter. Different roles can matter through information, positioning, social access, tools, defenses, movement, specialist knowledge, recovery, or other consequential contributions rather than only damage output.
 - Prefer stable, knowable challenge conditions over reactive cancellation. If magic works differently in a location, make that a consistent property the referee can apply; if players earn a powerful advantage through legal play, allow that advantage to change the difficulty unless another established rule or opponent behavior genuinely answers it.
+- Use party capability to select appropriate stakes without reflexively mirroring every opposing statistic to the strongest current character. Let advancement change the party's relative position against recurring or stable world tiers unless the fiction supplies a credible escalation in opposition capability.
 - In climactic encounters, raise pressure when that serves the encounter's purpose through established hazards, reinforcements, changing objectives, transformations, deadlines, or other escalating conditions. Let those changes arise from the situation, world, or coherent opposition capability rather than from a need to keep the PCs inside a predetermined difficulty band.
 - Use climax escalation to force consequential decisions and bring accumulated pressures together, not to erase preparation. If earlier play earned allies, disabled defenses, exposed a weakness, or otherwise changed the situation, let the climax inherit that state.
 - Decide what failure means before assuming defeat means death or adventure termination. Retreat, capture, lost time, expended resources, injury, separation, lost opportunity, changed relationships, or terminal failure can all be legitimate depending on the encounter and campaign.
@@ -73,6 +74,7 @@ variants: []
 - Add or remove opposition reactively merely to restore the difficulty the designer originally imagined after the players earn an advantage.
 - Treat a climactic second wave, reinforcement, transformation, environmental shift, or new objective as automatically good design merely because it increases pressure.
 - Protect a final encounter's intended difficulty from the consequences of successful prior preparation.
+- Raise recurring opposition in lockstep with character advancement merely to preserve the same numerical difficulty; this can turn progression into a treadmill where the world silently reads the character sheet.
 - Require combat when the encounter's fiction and objectives support other responses.
 - Add several nominal solutions solely to make an encounter appear open-ended when only one or two approaches are meaningful in play.
 - Give every mandatory puzzle an automatic bypass if terminal puzzle failure is a deliberate part of the intended challenge; instead decide explicitly whether failure should stop, redirect, or complicate play.
@@ -88,6 +90,7 @@ variants: []
 - Character roles or capabilities that should matter here have a consequential way to matter.
 - Failure consequences are explicit, including whether defeat is recoverable, redirecting, or terminal.
 - Stable constraints are distinguished from ad hoc challenge protection that merely cancels successful strategy.
+- Recurring opposition does not automatically scale with the party; any escalation that tracks character growth has an in-world cause or an explicit campaign-level purpose.
 - Clever legal preparation or system mastery is allowed to make the encounter easier when the players have genuinely earned that advantage.
 - If the encounter is climactic, any escalation is supported by established situation, coherent opposition capability, or previously legible risk rather than by reactive challenge protection.
 - Important preparation, alliances, discoveries, and losses from earlier play are reflected in the climax when they are relevant.

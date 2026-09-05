@@ -46,6 +46,7 @@ variants: []
 - At encounter scale, compare rewards for fighting, bypassing, negotiating, rescuing, discovering, mapping, surviving, completing objectives, or other supported approaches. Reward placement should both fit the fiction and reinforce the behaviors the game wants players to repeat.
 - When enjoyment and an external outcome both matter, evaluate them separately and check whether the reward loop reinforces rather than competes with the target behavior.
 - Distinguish the reward economy from the development economy: what earns growth and what that growth can buy are separate design decisions.
+- When several reward currencies buy different capability classes or convert at different efficiencies for different roles, test the **reward mix** as a balance variable. Equal nominal awards can produce unequal long-term growth when one role primarily converts money, another experience, another downtime, and another a mixed or gated combination.
 - Evaluate complete recovery and recharge loops rather than isolated healing values: include the resources spent, time required, interruption risk, treatment limits, location or expertise requirements, and the method by which healing resources are restored.
 - If a fight-rest-heal loop can be repeated cheaply and safely, treat repeated resting as the predictable incentive created by the rules rather than as a player-behavior anomaly.
 
@@ -55,6 +56,7 @@ variants: []
 - Assume a reward is behaviorally neutral merely because it is traditional for the genre.
 - Put the strongest repeatable rewards behind combat by default when the intended play also values avoidance, negotiation, exploration, rescue, investigation, or other approaches.
 - Balance a healing spell, medical skill, or recovery value in isolation while ignoring whether another mechanic can repeatedly reset its cost or availability.
+- Assume the same nominal reward package advances every archetype equally when currencies have different conversion routes, durability, loss exposure, or role-specific uses.
 
 ## Checklist
 - The intended behavior can be observed during play.
@@ -66,8 +68,9 @@ variants: []
 - When an external outcome exists, experiential success and instrumental success can be evaluated independently.
 - The expected recovery loop has been traced from injury through treatment, resource expenditure, elapsed time, interruption or exposure, and restored capability.
 - Resting or recharging at the most profitable frequency produces behavior the game actually intends to support.
+- At least two materially different roles have been projected through the expected reward mix when advancement currencies are asymmetric, and any divergence is intentional rather than an accidental campaign-economy bias.
 
 ## Notes
-Players learn a game's priorities from what they repeatedly do and what the system rewards. A reward structure can therefore reshape play even when the rulebook describes broader goals. Advancement currency also has two jobs that should not be conflated: the game decides how growth is earned, then separately decides how players may direct that growth. Recovery systems follow the same behavioral logic. Different games can legitimately use very different wound, healing, spell, medical, and rest procedures, but the combined loop still teaches players when recovery is worth pursuing. If resting safely restores the resources required to erase most attrition, frequent resting is an intended or unintended output of the system rather than evidence that players are using the rules incorrectly.
+Players learn a game's priorities from what they repeatedly do and what the system rewards. A reward structure can therefore reshape play even when the rulebook describes broader goals. Advancement currency also has two jobs that should not be conflated: the game decides how growth is earned, then separately decides how players may direct that growth. When a game awards several nonfungible currencies, their relative proportion becomes part of role balance because different characters may convert the same campaign outcome into durable capability at very different rates. Recovery systems follow the same behavioral logic. Different games can legitimately use very different wound, healing, spell, medical, and rest procedures, but the combined loop still teaches players when recovery is worth pursuing. If resting safely restores the resources required to erase most attrition, frequent resting is an intended or unintended output of the system rather than evidence that players are using the rules incorrectly.
 
 Chapter 17 reinforces the encounter-level form of this rule: treasure, information, advancement, useful items, relationships, and other rewards teach players which approaches are worth repeating. A game that says negotiation and exploration matter but pays reliably only for defeated enemies creates a different behavioral loop from the one its prose describes.

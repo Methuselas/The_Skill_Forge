@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_align_repeated_and_rewarded_behavior_with_intended_outcomes
 - rel: related_to
   target_object_id: PAT_integrate_genre_blends_instead_of_merely_stacking_them
+- rel: related_to
+  target_object_id: PAT_attach_persistent_costs_to_capability_gains
 reference:
   source_title: Designing TTRPGs For Dummies
   author: Martin Buinicki
@@ -47,6 +49,7 @@ variants: []
 - Choose rules density and procedural detail from the decisions, pacing, information, and audience the game requires rather than from a universal assumption that a particular genre must be crunchy or rules-light.
 - When describing the game externally, provide enough world or genre context to establish the player fantasy and enough actual-play information to show what players will repeatedly do.
 - State meaningful distinctions in terms of experience, structure, mechanics, setting interaction, or their combination rather than novelty for novelty's sake.
+- Allow genre specificity to live in roles, resources, persistent costs, relationships, institutions, and consequences around a generic resolver when those surrounding systems reliably produce the promised behavior.
 
 ## Don't
 - Treat genre as a cosmetic layer that can be added after the mechanical experience is already fixed.
@@ -66,6 +69,7 @@ variants: []
 - Playtesters receive an experience recognizably connected to the genre promise, even when conventions are intentionally subverted.
 - Mechanical terminology and rules density reinforce rather than replace the functional play requirements of the genre.
 - External descriptions truthfully connect the world, player fantasy, recurring play, and the game's meaningful distinction.
+- At least one genre promise is enforced by persistent state or recurring incentives rather than terminology alone.
 
 ## Notes
 Genre labels create expectations before players learn the rules. Those expectations concern more than scenery: they imply characteristic power relationships, threats, decisions, resources, pacing, and forms of agency. Conventions are implementations of those functions rather than sacred requirements. A design can break almost any convention if it understands what the convention was accomplishing and deliberately supplies another way to produce the intended experience. Genre-facing terminology can strengthen that communication layer, but renaming a resource or procedure does not create genre behavior by itself. Likewise, rules density is an implementation choice: no genre inherently requires one fixed degree of crunch unless the intended play requirements actually demand it.

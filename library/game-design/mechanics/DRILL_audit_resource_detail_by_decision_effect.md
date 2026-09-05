@@ -44,8 +44,8 @@ Choose a subsystem with at least three resource distinctions and a representativ
 
 ## Instructions
 1. List every resource field the table must track and the cadence at which it changes.
-2. For each field, name the decision it can change: route, timing, load, equipment, staffing, risk, social need, mission priority, or another concrete choice.
-3. Mark the shared bottlenecks that connect resources, such as time, labor, cargo, mobility, money, or future risk.
+2. For each field, name the decision it can change: route, timing, load, equipment, staffing, risk, social need, mission priority, or another concrete choice. For equipment, include world-facing fields such as availability, legality, concealability, traceability, maintenance, and resale/liquidity when they change behavior outside the moment of use. Treat acquisition difficulty, possession legality, and evidence/transaction trail as separate axes when each produces different choices.
+3. Mark the shared bottlenecks that connect resources, such as time, labor, cargo, mobility, money, access, exposure, or future risk.
 4. Execute the scenario once with the full resource model and record the decisions that actually occur.
 5. Select one distinction that produced bookkeeping but no observed decision, compress or remove it, and rerun the same scenario.
 6. Compare the two runs. Keep the compression only if the same meaningful constraints and tradeoffs remain legible.
@@ -64,4 +64,4 @@ Choose a subsystem with at least three resource distinctions and a representativ
 - Calling two resources interchangeable when their depletion changes different capabilities.
 
 ## Notes
-Resource detail earns its cost at the boundary where remaining supply changes planning. The audit therefore tests resources under pressure rather than judging their names or realism in isolation.
+Resource detail earns its cost at the boundary where remaining supply or ownership state changes planning. The audit therefore tests resources under pressure rather than judging their names or realism in isolation. Equipment fields can justify substantial detail when they alter acquisition, movement through the world, legal exposure, traceability, maintenance, or conversion back into spendable value—not only tactical performance.

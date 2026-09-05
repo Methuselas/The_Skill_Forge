@@ -25,6 +25,10 @@ cross_links:
   target_object_id: PAT_align_repeated_and_rewarded_behavior_with_intended_outcomes
 - rel: related_to
   target_object_id: PAT_calibrate_encounters_to_their_purpose_challenge_and_response_space
+- rel: related_to
+  target_object_id: PAT_define_roles_by_distinct_world_interfaces
+- rel: related_to
+  target_object_id: DRILL_audit_specialist_subsystem_participation
 reference:
   source_title: Designing TTRPGs For Dummies
   author: Martin Buinicki
@@ -46,6 +50,7 @@ variants: []
 - Allow adjacent overlap when it creates alternate routes: another role may solve part of the same problem at lower reliability, narrower scope, greater cost, or through a different method.
 - Test whether the adventures the game naturally produces contain credible situations in which each advertised role can materially redirect events.
 - Use constraints and distinct problem spaces to offset a role that dominates one kind of challenge rather than forcing every role toward identical output.
+- Audit each role by cadence, consequence, exclusivity, participation coverage, and operator cost; a rare large effect and a constant smaller effect are different balance problems.
 
 ## Don't
 - Declare two classes balanced merely because their bonuses, damage totals, or resource budgets are numerically similar.
@@ -59,6 +64,7 @@ variants: []
 - Across representative adventures, every viable role has recurring chances to change decisions, access, risks, or outcomes.
 - Advancement does not cause one role to erase another role's specialty without paying an intentional cost.
 - A role that dominates one problem space is offset by constraints or by other roles controlling different consequential problem spaces.
+- Role value has been tested in the campaign ecology that determines whether each privileged interface actually appears.
 
 ## Notes
 Character balance is about comparable opportunity for consequential contribution, not identical output or equal spotlight minutes. Different roles can achieve radically different effects and still be balanced when each has meaningful strengths, limitations, and situations where its investment matters. Niche protection can coexist with adjacent overlap; specialization is weakened only when alternatives become effectively equivalent rather than merely possible.

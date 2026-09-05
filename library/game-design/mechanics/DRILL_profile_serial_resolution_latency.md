@@ -25,6 +25,10 @@ cross_links:
   target_object_id: DRILL_stress_test_concurrent_rule_activation
 - rel: related_to
   target_object_id: DRILL_reverse_engineer_a_game_through_play
+- rel: related_to
+  target_object_id: DRILL_audit_specialist_subsystem_participation
+- rel: related_to
+  target_object_id: DRILL_audit_action_economy_multipliers
 reference:
   source_title: Rolemaster Standard Rules and Rolemaster Fantasy Role Playing Core Rules
   author: Coleman Charlton, John Curtis, Pete Fenlon, and Steve Marvin
@@ -55,6 +59,7 @@ Choose a subsystem in which several actors resolve in sequence. Use a representa
 7. Compare the two runs and decide whether the bottleneck is primarily decision density, procedure length, retrieval distance, state maintenance, actor count, facilitator concentration, or a combination. Record which play value would be lost by any proposed simplification.
 
 8. For any action that resolves several simulated units inside one declaration, such as bullets, missiles, targets, subcomponents, summons, or damage packets, record whether operator work grows per unit while player decision count remains mostly fixed. Treat this as a serial multiplier even when it occurs inside one actor's turn.
+- When a subsystem grants one participant several decision cycles while others wait, record participation coverage and separate fictional elapsed time from real attention time; accelerated fictional timing does not imply low TBMD.
 
 ## Success Check
 - A complete representative multi-actor round or cycle was actually executed and timed; timing one isolated action and multiplying by actor count does not pass.
@@ -66,6 +71,7 @@ Choose a subsystem in which several actors resolve in sequence. Use a representa
 - Any recommendation states both the measured throughput gain and the meaningful decision, consequence, simulation distinction, or genre effect that must remain intact.
 
 - At least one within-action scaling factor is checked when the system contains multi-unit resolution; a test that times one bullet or one component while the normal action can require many does not pass.
+- At least one prolonged specialist sequence is checked for whether non-specialists are acting on shared state or merely watching and advising.
 
 ## Common Failures
 - Measuring only the GM's total combat duration without locating where individual participants lose decision access.

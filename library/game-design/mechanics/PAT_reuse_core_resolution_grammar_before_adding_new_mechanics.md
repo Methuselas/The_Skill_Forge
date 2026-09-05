@@ -23,6 +23,8 @@ cross_links:
   target_object_id: PAT_use_the_defining_affordances_of_an_adopted_game_system
 - rel: related_to
   target_object_id: PAT_build_complete_resolution_procedures_incrementally
+- rel: related_to
+  target_object_id: PAT_expand_resolution_detail_only_after_consequential_state_change
 reference:
   source_title: Designing TTRPGs For Dummies
   author: Martin Buinicki
@@ -56,6 +58,8 @@ variants: []
 
 - When many tables or procedures repeat the same dimensions, factor the common matrix or sequence into a shared family procedure and represent genuine item-specific differences as compact data or parameters. Preserve the distinctions that change play without duplicating the whole resolution surface.
 - When consolidating a mature subsystem, compare representative outputs before and after the refactor so fewer tables or branches do not silently erase weapon, armor, spell, vehicle, or other differences that were doing useful work.
+- Permit a deep character or equipment vocabulary to feed one shallow resolver when the distinctions live in inputs, state, access, or consequences rather than requiring different resolution procedures.
+- When expertise is meant to be difficult, first test whether the difficulty belongs in acquisition, training, advancement, or prerequisites rather than in repeated procedure every time the expert acts.
 
 ## Don't
 - Add a dedicated mechanic merely because the fiction presents a situation the first draft did not name explicitly.
@@ -84,6 +88,7 @@ variants: []
 
 - Repeated lookup structures have been checked for a shared table or procedure plus compact differentiating data before separate near-duplicate tables are retained.
 - A consolidation test verifies that the refactored structure preserves the meaningful output differences that justified the original specialized cases.
+- A difficult specialty has been checked for whether progression cost can carry its rarity without making every runtime use more expensive.
 
 ## Notes
 Coherent mechanics achieve coverage through generalization: a small vocabulary can absorb many different fictional situations while preserving recognizable play. Consistency does not require one mechanic for literally everything. A tactical subsystem, vehicle procedure, magic system, or other specialized structure may earn its place when it creates meaningful decisions that a generic resolution cannot preserve economically. The important design move is to test the existing grammar first and treat repeated patches as a refactoring signal rather than normal growth. Mature systems may also discover better core grammar inside successful genre-specific extensions: once a local mechanic proves broadly reusable, generalize the concept, then re-audit the original subsystem to see whether shared grammar can replace duplicated machinery while preserving the experience that justified the subsystem in the first place. A new mechanic is easiest to justify when it answers a question the game could not previously express; replacing the established answer to an already-solved question carries a higher burden because it can impose migration cost without adding agency. This applies across time scales as well as fictional domains: combat, downtime, repairs, training, and other extended activities should reuse familiar resolution language when they ask the same underlying question. Semantic labels such as Trivial, Easy, Hard, Very Hard, or Impossible can provide an open-ended interface between fiction and rules; the referee may judge which label fits a situation, while the mechanic attached to that label remains stable. The label may translate into a modifier, target number, multiplier, dice-pool change, advantage state, or another method—the implementation is a design choice, not a universal prescription. This Pattern owns the choice to apply, extend, refactor, or replace the game’s mechanical grammar; **Build Complete Resolution Procedures Incrementally** owns how selected mechanics are dependency-ordered and integrated into an executable action.

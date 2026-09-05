@@ -45,8 +45,10 @@ Compare successive editions by the behavior, state, and operator work they prese
 6. Separate mechanical unification from die preference, presentation changes, or compatibility goals.
 7. Check whether simplification deleted behavior that had justified the old mechanic.
 8. Check whether complexity was actually removed or merely moved into another high-frequency procedure.
-9. Treat designer claims about speed, clarity, realism, or compatibility as hypotheses and test the actual procedures.
-10. End with explicit gains, regressions, tradeoffs, and unchanged architectural strengths rather than a single newer-is-better verdict.
+9. Distinguish **refactoring** from **counterstructure**. If the newer edition keeps the original pressure and adds ceilings, exceptions, exposure rules, facilitator procedures, or compensating subsystems around it, record that as regulation/mitigation rather than claiming the root problem was removed.
+10. When the same defect or multiplier reappears through several unrelated subsystems, classify it as an engine-level assumption and test that assumption directly instead of treating each occurrence as a local exception.
+11. Treat designer claims about speed, clarity, realism, or compatibility as hypotheses and test the actual procedures.
+12. End with explicit gains, regressions, tradeoffs, and unchanged architectural strengths rather than a single newer-is-better verdict.
 
 ## Notes
-Edition work is especially vulnerable to false simplification narratives. A redesign can improve reference locality or common grammar while losing a distinctive player behavior, and it can reduce cost in one procedure while creating a new hotspot elsewhere. The useful comparison preserves both sides of that ledger.
+Edition work is especially vulnerable to false simplification narratives. A redesign can improve reference locality or common grammar while losing a distinctive player behavior, and it can reduce cost in one procedure while creating a new hotspot elsewhere. It can also become more developed without becoming more refactored: a later edition may understand an inherited pressure clearly and surround it with better counterweights, exposure, ceilings, or GM guidance while leaving the underlying multiplier intact. The useful comparison preserves both sides of that ledger and separates removed causes from mitigated symptoms.

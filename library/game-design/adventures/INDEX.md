@@ -5,6 +5,9 @@
 ## Objects
 
 - [Calibrate Encounters to Their Purpose, Challenge, and Response Space](PAT_calibrate_encounters_to_their_purpose_challenge_and_response_space.md) - pattern; 0 design. Tags: adventures, challenge, difficulty, encounters, response-space.
+- [Design Shared Problems with Multiple Solution Interfaces](PAT_design_shared_problems_with_multiple_solution_interfaces.md) - pattern; 0 design. Tags: adventures, agency, participation, roles, solutions.
 - [Generate Sandbox Situations from World State and Player Needs](PAT_generate_sandbox_situations_from_world_state_and_player_needs.md) - pattern; 0 design. Tags: agency, encounters, resources, sandbox, situations, world-state.
 - [Layer Adventure Information by How Players Can Access It](PAT_layer_adventure_information_by_how_players_can_access_it.md) - pattern; 0 design. Tags: adventures, discovery, information, perception.
+- [Make Preparation Change Problem Topology](PAT_make_preparation_change_problem_topology.md) - pattern; 0 design. Tags: agency, infiltration, information, legwork, preparation.
 - [Structure Adventure Narratives with Milestones, Plot Beats, and Player Agency](PAT_structure_adventure_narratives_with_milestones_plot_beats_and_player_agency.md) - pattern; 0 design. Tags: adventures, agency, milestones, narrative.
+- [Use In-World Information as a Scenario Interface](PAT_use_in_world_information_as_a_scenario_interface.md) - pattern; 0 design. Tags: adventures, factions, hooks, information, uncertainty.
