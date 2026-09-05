@@ -55,8 +55,8 @@ variants: []
 - Is it within about four words?
 
 ## Notes
-Figure 8.1 traces the split: a name is processed by sensory memory, arrives at the STM where it is broken into chunks, and goes to working memory — while in parallel the LTM is searched for information related to those parts, and whatever is found is fed into working memory alongside. The two arrows into working memory are the two jobs this pattern asks you to check separately.
+The split runs: a name is processed by sensory memory, arrives at the STM where it is broken into chunks, and goes to working memory — while in parallel the LTM is searched for information related to those parts, and whatever is found is fed into working memory alongside. The two arrows into working memory are the two jobs this pattern asks you to check separately.
 
-Figure 8.2 supplies the three retrieval categories and the examples that make them concrete — `customer` and `shipment` for domain, `list`, `tree` and `hashmap` for programming concepts, and `i`, `j`, `n`, `m` for conventions.
+The three retrieval categories come with examples that make them concrete — `customer` and `shipment` for domain, `list`, `tree` and `hashmap` for programming concepts, and `i`, `j`, `n`, `m` for conventions.
 
-The chapter arrives here by reconciling two research positions that look opposed. Butler argues for syntactic rules and Allamanis for consistency across a codebase; Hermans's table 8.3 shows both are cognitively justified but for different reasons — consistency supports chunking, and syntactic similarity lowers the load of processing each name. Neither addresses word choice, which is where the LTM half of this pattern comes from.
+This reconciles two research positions that look opposed. Butler argues for syntactic rules and Allamanis for consistency across a codebase; both are cognitively justified but for different reasons — consistency supports chunking, and syntactic similarity lowers the load of processing each name. Neither addresses word choice, which is where the LTM half of this pattern comes from.

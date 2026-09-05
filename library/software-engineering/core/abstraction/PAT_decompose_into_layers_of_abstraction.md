@@ -65,4 +65,4 @@ variants: []
 - Have others' solved subproblems (libraries, platform) been treated as abstract layers rather than reimplemented?
 
 ## Notes
-This is the chapter's central idea and the mechanism behind four pillars at once: clean layers make code readable (few concepts per layer), modular (swap a layer without touching others — WiFi vs cellular module), reusable and generalizable (a TCP layer also serves WebSockets), and testable (each subproblem's soundness can be checked like a surveyor checking a house's foundations). The constructs that realize layers — functions, classes, interfaces — are the subjects of the more specific patterns from this chapter.
+This is the central idea behind four pillars at once: clean layers make code readable (few concepts per layer), modular (swap a layer without touching others — WiFi vs cellular module), reusable and generalizable (a TCP layer also serves WebSockets), and testable (each subproblem's soundness can be checked like a surveyor checking a house's foundations). The constructs that realize layers — functions, classes, interfaces — are the subjects of the more specific patterns beside this one.

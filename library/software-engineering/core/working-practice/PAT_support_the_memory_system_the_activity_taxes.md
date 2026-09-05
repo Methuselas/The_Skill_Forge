@@ -58,7 +58,7 @@ variants: []
 - If this is incrementation or exploration, have I split it into named subactivities?
 
 ## Notes
-The five activities come from the cognitive dimensions of notation framework of Green, Blackwell and Petre. Figure 11.1 lays them out as a grid of activity against task — executing, coding, testing, reading, refactoring — with a final column naming the memory system each activity is hard on.
+The five activities come from the cognitive dimensions of notation framework of Green, Blackwell and Petre. They lay out as a grid of activity against task — executing, coding, testing, reading, refactoring — with a final column naming the memory system each activity is hard on.
 
 The figure carries one distinction the prose never states. Its ticks come in two weights: solid for the tasks central to an activity and dashed for those that are optional. Testing and refactoring are dashed under comprehension, and refactoring is dashed under incrementation and exploration. So refactoring is available to comprehension as a tool rather than being part of it, which matches the surrounding argument that you may refactor code *in order to* understand it. Reading the grid as uniform ticks loses that.
 

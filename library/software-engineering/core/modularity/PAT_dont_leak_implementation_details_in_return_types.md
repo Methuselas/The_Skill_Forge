@@ -48,4 +48,4 @@ variants: []
 - Are you exposing the minimal set of concepts a caller actually needs?
 
 ## Notes
-Return types sit in the unmistakable part of the contract, so a leak here is both easy to spot and easy to avoid once noticed. Long's `ProfilePictureService` returning HTTP response types is the anchor: it burdens callers with HTTP status semantics and cements the HTTP implementation into every dependent, making a later transport change hugely expensive. Defining a purpose-built result type restores the clean layer of abstraction from chapter 2 — this is that leak rule applied specifically to what a function returns.
+Return types sit in the unmistakable part of the contract, so a leak here is both easy to spot and easy to avoid once noticed. Long's `ProfilePictureService` returning HTTP response types is the anchor: it burdens callers with HTTP status semantics and cements the HTTP implementation into every dependent, making a later transport change hugely expensive. Defining a purpose-built result type restores the clean layer of abstraction — this is that leak rule applied specifically to what a function returns.

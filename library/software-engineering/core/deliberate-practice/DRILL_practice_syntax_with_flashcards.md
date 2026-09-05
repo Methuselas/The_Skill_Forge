@@ -70,7 +70,7 @@ Paper cards, sticky notes, or a spaced-repetition app such as Anki, Quizlet, or 
 - Growing the set indefinitely because pruning feels like losing progress.
 
 ## Notes
-The reason this is tractable for programming and painful for natural language is size: even a large language like C++ has far fewer basic syntactic elements than French has words, so a genuinely useful set is small enough to finish. Hermans's figure 3.1 shows the physical form — prompt on the front, code on the back, tally marks in the corner of the back — and the tally is the part that makes pruning a measurement instead of a guess.
+The reason this is tractable for programming and painful for natural language is size: even a large language like C++ has far fewer basic syntactic elements than French has words, so a genuinely useful set is small enough to finish. The physical form matters — prompt on the front, code on the back, tally marks in the corner of the back — and the tally is the part that makes pruning a measurement instead of a guess.
 
 Apps do the thinning automatically by showing known cards less often, which is a convenience rather than a different method; the paper version and the app implement the same loop.
 

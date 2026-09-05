@@ -40,7 +40,7 @@ variants: []
 
 ## Do
 - Write the assumption as a test when it is expressible as one. If you are certain a value can never drop below zero, add the test that says so; it catches the case where you are wrong, and where you are right it records the fact for whoever reads the code next.
-- Treat the test as documentation with a second job. The chapter's argument for this is specifically about durability — misconceptions rarely go away and can resurface even after the correct model is learned, so a check that survives in the codebase outlasts your having understood it.
+- Treat the test as documentation with a second job. The argument for this is specifically about durability — misconceptions rarely go away and can resurface even after the correct model is learned, so a check that survives in the codebase outlasts your having understood it.
 - Program in a pair or a group when the assumptions are about intent rather than values. Exposing your assumptions to someone else's surfaces the conflict quickly, and the conflict is what reveals that one of you holds a misconception.
 - Add documentation at the place you were misled, once you have found a misconception, so the next person meets the correction where the trap is rather than in a changelog.
 
@@ -55,7 +55,7 @@ variants: []
 - If I turn out to be right, does anything in the codebase now record that?
 
 ## Notes
-This closes the chapter's arc from personal misconception to codebase practice. The three routes Hermans names — pairing, tests, documentation — are ordered by what they catch: pairing catches conflicting intent, tests catch false claims about behavior, documentation prevents recurrence at the site.
+This closes the arc from personal misconception to codebase practice. The three routes Hermans names — pairing, tests, documentation — are ordered by what they catch: pairing catches conflicting intent, tests catch false claims about behavior, documentation prevents recurrence at the site.
 
 The point that makes this worth a card rather than generic testing advice is the argument for *why* the test earns its place. It is not primarily about regression coverage; it is about a specific cognitive fact, that a corrected misconception remains retrievable and can return under load, so the assumption needs an external record that does not depend on your continuing to hold the right model.
 

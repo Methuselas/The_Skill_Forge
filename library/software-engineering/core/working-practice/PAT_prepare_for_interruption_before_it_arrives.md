@@ -59,7 +59,7 @@ variants: []
 - Have I recorded *why* I chose this direction, not just what I was doing?
 
 ## Notes
-Figure 11.2 gives the three techniques as three answers to "Can I ask you something?" — let me store my mental model, sure I have prospective memory support, sure I labelled my subgoals. That ordering is also a fallback ladder: the first buys the most and costs a moment you may not have, the third costs nothing at the time because it was done before you started.
+The three techniques are three answers to "Can I ask you something?" — let me store my mental model, sure I have prospective memory support, sure I labelled my subgoals. That ordering is also a fallback ladder: the first buys the most and costs a moment you may not have, the third costs nothing at the time because it was done before you started.
 
 Subgoal labelling is the one with uses beyond interruption. The labels survive as documentation, and they support delegation — a senior programmer can design the subgoals and others implement parts of the solution. It is presented here as an interruption technique but it is not only that.
 

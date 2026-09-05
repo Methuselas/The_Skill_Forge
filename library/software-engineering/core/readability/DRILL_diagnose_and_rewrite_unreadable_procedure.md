@@ -61,4 +61,4 @@ No special setup required.
 - Adding a title but leaving a critical precondition buried at the end where it is found too late.
 
 ## Notes
-The book runs this exact exercise on the reader: a chocolate-brownie recipe deliberately mangled into one dense block with "A/B/C" labels and a late preheat instruction, followed by the three comprehension questions. The drill turns that demonstration into repeatable practice; do it on real code by taking a dense function and applying the same four fixes.
+The original exercise is run on the reader: a chocolate-brownie recipe deliberately mangled into one dense block with "A/B/C" labels and a late preheat instruction, followed by the three comprehension questions. The drill turns that demonstration into repeatable practice; do it on real code by taking a dense function and applying the same four fixes.

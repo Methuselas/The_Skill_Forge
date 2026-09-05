@@ -53,4 +53,4 @@ variants: []
 - Are you adding a "visible for testing" exception rather than fixing the structure?
 
 ## Notes
-This sharpens the API-cleanliness rule at the exact moment engineers break it. Long shows both temptations from the `TextSummarizer` example — exposing `splitIntoParagraphs()` for reuse and exposing `calculateImportance()` for testing — and notes each pollutes the public API, couples outside code to internals, and raises cognitive load. The correct response is the class-splitting the chapter already argues for: give each subproblem its own layer, and reuse and testability follow from clean surfaces rather than leaks.
+This sharpens the API-cleanliness rule at the exact moment engineers break it. Long shows both temptations from the `TextSummarizer` example — exposing `splitIntoParagraphs()` for reuse and exposing `calculateImportance()` for testing — and notes each pollutes the public API, couples outside code to internals, and raises cognitive load. The correct response is the class-splitting argued for elsewhere: give each subproblem its own layer, and reuse and testability follow from clean surfaces rather than leaks.

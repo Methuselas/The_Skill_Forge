@@ -50,4 +50,4 @@ variants: []
 - Are you testing behaviors, or merely that each function is called once?
 
 ## Notes
-Long reframes coverage from functions to behaviors: a class with a single test on its entry function looks tested but leaves most of its behaviors unchecked. The debit-throws-on-negative example shows error handling is itself a behavior to lock in. This practice is the concrete driver behind the chapter-10 principles — once you test one behavior per case, descriptive naming and well-explained failures follow naturally.
+Long reframes coverage from functions to behaviors: a class with a single test on its entry function looks tested but leaves most of its behaviors unchecked. The debit-throws-on-negative example shows error handling is itself a behavior to lock in. This practice is the concrete driver behind the good-test principles — once you test one behavior per case, descriptive naming and well-explained failures follow naturally.

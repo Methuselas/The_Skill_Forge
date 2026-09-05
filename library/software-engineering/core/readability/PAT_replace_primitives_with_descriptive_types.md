@@ -50,4 +50,4 @@ variants: []
 - Is the call readable from the types alone, independent of named-argument support?
 
 ## Notes
-This is the stronger remedy when call-site fixes fall short: an `Int priority` and `Boolean allowRetry` say nothing, but a `MessagePriority` type and a `RetryPolicy` enum make every call self-describing regardless of language features. Beyond readability, naming the type narrows what can be passed, which is why it also serves the hard-to-misuse pillar; chapter 7 develops dedicated types further as a defense against misuse.
+This is the stronger remedy when call-site fixes fall short: an `Int priority` and `Boolean allowRetry` say nothing, but a `MessagePriority` type and a `RetryPolicy` enum make every call self-describing regardless of language features. Beyond readability, naming the type narrows what can be passed, which is why it also serves the hard-to-misuse pillar; dedicated types develop further as a defense against misuse.

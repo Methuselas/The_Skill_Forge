@@ -62,4 +62,4 @@ No special setup required.
 - Extracting a helper but giving it a vague name, so the composed sentence is still hard to follow.
 
 ## Notes
-This turns the chapter's function-as-sentence heuristic into repeatable practice, using the vehicle-letter example as the model case. Run it as a habit on your own first-cut code before code review: the moment a function resists being read as a clean sentence is the moment to break out helpers.
+This turns the function-as-sentence heuristic into repeatable practice, using the vehicle-letter example as the model case. Run it as a habit on your own first-cut code before code review: the moment a function resists being read as a clean sentence is the moment to break out helpers.

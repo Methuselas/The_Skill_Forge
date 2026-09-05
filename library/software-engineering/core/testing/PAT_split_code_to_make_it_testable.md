@@ -51,4 +51,4 @@ variants: []
 - After splitting, can each unit be tested through its own surface without exposing internals?
 
 ## Notes
-When testing through the public API genuinely feels infeasible, Long identifies the deeper cause: the class is doing too much, which is exactly when engineers resort to exposing privates. Extracting the complex subproblem — moving credit-rating logic into a `CreditRatingChecker` — gives it a public API that is straightforward to test and simplifies the original class. This is chapter 2's class-sizing and layering advice arriving through the door of testability.
+When testing through the public API genuinely feels infeasible, Long identifies the deeper cause: the class is doing too much, which is exactly when engineers resort to exposing privates. Extracting the complex subproblem — moving credit-rating logic into a `CreditRatingChecker` — gives it a public API that is straightforward to test and simplifies the original class. This is the class-sizing and layering advice arriving through the door of testability.

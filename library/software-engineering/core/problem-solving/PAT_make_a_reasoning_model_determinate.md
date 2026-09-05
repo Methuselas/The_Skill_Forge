@@ -55,6 +55,6 @@ variants: []
 ## Notes
 Johnson-Laird's table-setting experiment is the evidence, and its second half is the part that matters here. Participants heard descriptions of a place setting, did unrelated tasks, and then ranked four candidate descriptions. Some had received determinate descriptions matching exactly one arrangement; others received indeterminate ones matching several. The determinate group chose correctly 88% of the time against 58% for the indeterminate group — a gap large enough that Hermans draws the direct programming conclusion that "the more details a mental model has, the easier it is to reason about the system at hand and to answer questions about the system correctly."
 
-Figure 6.3 shows the two settings the descriptions had to distinguish, and it is worth looking at rather than reading about: the two arrangements differ only in where the plate sits relative to the fork and spoon, which is precisely the distinction an indeterminate description fails to carry.
+The two settings the descriptions had to distinguish are worth picturing: the two arrangements differ only in where the plate sits relative to the fork and spoon, which is precisely the distinction an indeterminate description fails to carry.
 
 The same experiment separately establishes that people build a model at all rather than storing sentences — participants ranked descriptions they had never heard, but which could be inferred from the layout, nearly as highly as the ones they had actually been given.

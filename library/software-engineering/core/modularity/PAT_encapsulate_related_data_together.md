@@ -41,7 +41,7 @@ variants: []
 
 ## Don't
 - Don't thread a cluster of related parameters through layer after layer; a `renderText` taking four separate styling arguments forces every intermediary to know and relay all four.
-- Don't over-group either — chapter 2 warned against bundling unrelated concepts — so encapsulate only data that is genuinely always used together.
+- Don't over-group either — bundling unrelated concepts is its own mistake — so encapsulate only data that is genuinely always used together.
 
 ## Checklist
 - Are these values always needed together, with no realistic case of wanting some without the rest?
@@ -49,4 +49,4 @@ variants: []
 - Would adding a related field force edits in code that only passes the data through?
 
 ## Notes
-Long's courier analogy captures it: a good courier delivers the parcel without knowing whether it holds truffles or pralines, but an unencapsulated `displayMessage` must know every styling field it relays. Grouping them into a `TextOptions` object lets intermediaries pass the whole and stay ignorant of the contents, so a new styling requirement changes only the settings and rendering classes. The balance against chapter 2's over-grouping caution is the test of inescapable relatedness — bundle data only when no caller would want part of it without the rest.
+Long's courier analogy captures it: a good courier delivers the parcel without knowing whether it holds truffles or pralines, but an unencapsulated `displayMessage` must know every styling field it relays. Grouping them into a `TextOptions` object lets intermediaries pass the whole and stay ignorant of the contents, so a new styling requirement changes only the settings and rendering classes. The balance against the over-grouping caution is the test of inescapable relatedness — bundle data only when no caller would want part of it without the rest.

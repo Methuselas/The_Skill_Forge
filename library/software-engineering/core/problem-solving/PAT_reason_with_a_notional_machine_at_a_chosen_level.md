@@ -37,7 +37,7 @@ variants: []
 **THEN** decide which level of abstraction the question actually needs, and state which details your model is hiding, so you can tell the difference between a detail safely ignored and a detail that is about to bite.
 
 ## Do
-- Place your working model on the level it serves: the programming language, the compiler or interpreter, the virtual machine and bytecode, or the operating system. Figure 6.4's examples map cleanly — calculation as substitution sits at the language level, mutually exclusive operations as train switches at the VM level, threads as human collaboration at the OS level.
+- Place your working model on the level it serves: the programming language, the compiler or interpreter, the virtual machine and bytecode, or the operating system. The standard examples map cleanly — calculation as substitution sits at the language level, mutually exclusive operations as train switches at the VM level, threads as human collaboration at the OS level.
 - Say explicitly what the model omits. "Variables as boxes" operates at the language and compiler/interpreter levels and abstracts away compiled code and the operating system entirely; knowing that is what tells you when to stop trusting it.
 - Accept a model that is wrong in the right places. Predicting `(9.0/5.0) * celsius + 32` by substituting `10` for `celsius` and adding brackets for precedence is not how the machine evaluates it — the machine most likely converts to reverse Polish notation and works a stack — but the substitution model answers the question you asked.
 - Move down a level when the question is about performance, memory, concurrency, or anything where the hidden mechanism is the subject.
@@ -56,5 +56,3 @@ variants: []
 A notional machine is an abstract representation of the computer used to reason about what it is doing — the term comes from Ben du Boulay, who coined it while working on Logo in the 1970s and defined it as the idealized model of the computer implied by a language's constructs. His own teaching version was a factory worker with ears for parameters, a mouth for output, and hands to carry out the code.
 
 The distinction Hermans draws between notional machines and mental models is the useful part: a notional machine is an explanation of how a computer works, and once you have internalized it and can use it with ease it becomes your mental model. That makes level selection a skill you can practise rather than a fact about your current understanding.
-
-Figure 6.4 has to be looked at rather than extracted — linearized text collapses the four stacked levels and their paired examples into an unreadable run of labels, and the pairing is the whole content of the figure.

@@ -60,4 +60,4 @@ variants: []
 - Could a surprising effect here manifest as a failure somewhere distant in the system?
 
 ## Notes
-The dialer analogy is the anchor: we trust a mental model that says "if a voice answers, we reached the number we dialed," and the app quietly breaks it. In code, the caller builds an equivalent model from names, types, and conventions; violating it lets the program limp on until weird behavior manifests far from its cause. This is the "avoid surprises" pillar's foundation — chapter 6's techniques (magic values, side effects, mutating inputs) are specializations of keeping behavior inside the caller's model.
+The dialer analogy is the anchor: we trust a mental model that says "if a voice answers, we reached the number we dialed," and the app quietly breaks it. In code, the caller builds an equivalent model from names, types, and conventions; violating it lets the program limp on until weird behavior manifests far from its cause. This is the "avoid surprises" pillar's foundation — the techniques beside it (magic values, side effects, mutating inputs) are specializations of keeping behavior inside the caller's model.

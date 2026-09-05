@@ -51,4 +51,4 @@ variants: []
 - Can an engineer read a case and know what it tests and how, well enough to use it as an instruction manual?
 
 ## Notes
-A test's audience is often an engineer who just broke code they have never seen, so a failure must explain itself. Long's paired failure messages show the gap — an unreadable object-identity dump versus a clear "order differs" report — and the fix is descriptive per-behavior naming plus one behavior per case. Understandable tests double as an instruction manual for the code; the chapter-11 practices of testing one behavior at a time and limiting shared setup are the concrete techniques that keep them so.
+A test's audience is often an engineer who just broke code they have never seen, so a failure must explain itself. Long's paired failure messages show the gap — an unreadable object-identity dump versus a clear "order differs" report — and the fix is descriptive per-behavior naming plus one behavior per case. Understandable tests double as an instruction manual for the code; the practices of testing one behavior at a time and limiting shared setup are the concrete techniques that keep them so.

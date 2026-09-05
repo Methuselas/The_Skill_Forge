@@ -60,4 +60,4 @@ variants: []
 - For each misuse you can imagine, is the worst case a clean failure or silent corruption?
 
 ## Notes
-The TV-socket analogy makes the principle physical: the manufacturer prevents a whole class of mistakes by making the wrong plug not fit. Long stresses that misused code need not crash to be a problem — it can quietly fail to perform the task it was called for. This is the "hard to misuse" pillar's foundation; chapter 7's techniques (immutability, dedicated types, single sources of truth) are specializations of making invalid use structurally impossible.
+The TV-socket analogy makes the principle physical: the manufacturer prevents a whole class of mistakes by making the wrong plug not fit. Long stresses that misused code need not crash to be a problem — it can quietly fail to perform the task it was called for. This is the "hard to misuse" pillar's foundation; immutability, dedicated types, and single sources of truth are specializations of making invalid use structurally impossible.

@@ -53,4 +53,4 @@ variants: []
 - Are shared constants (delimiters, radixes) defined once and reused?
 
 ## Notes
-Duplicated logic is a second source of truth that drifts. Long's `DataLogger`/`DataLoader` pair each independently know the serialized-integer format, so a format change in one without the other corrupts the round trip. Extracting an `IntListFormat` layer that both share makes the format a single subproblem solved once — the chapter-2 decomposition idea applied to correctness, almost entirely removing the risk of two pieces of code getting out of sync.
+Duplicated logic is a second source of truth that drifts. Long's `DataLogger`/`DataLoader` pair each independently know the serialized-integer format, so a format change in one without the other corrupts the round trip. Extracting an `IntListFormat` layer that both share makes the format a single subproblem solved once — the decomposition idea applied to correctness, almost entirely removing the risk of two pieces of code getting out of sync.

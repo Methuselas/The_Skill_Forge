@@ -61,4 +61,4 @@ No special setup required.
 - Splitting into layers so thin that the pieces only ever serve each other, trading one problem for another.
 
 ## Notes
-This drills the pillar-based class-sizing judgment on the book's `TextSummarizer` progression, from the monolith through one-class-per-concept with constructor injection. The point is not the specific example but the reflex: when a class feels big, enumerate its subproblems and test each against the four pillars before deciding how to split.
+This drills the pillar-based class-sizing judgment on the `TextSummarizer` progression, from the monolith through one-class-per-concept with constructor injection. The point is not the specific example but the reflex: when a class feels big, enumerate its subproblems and test each against the four pillars before deciding how to split.

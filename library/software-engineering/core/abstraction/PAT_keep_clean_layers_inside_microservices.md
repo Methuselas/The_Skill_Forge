@@ -49,4 +49,4 @@ variants: []
 - Are the service's internal layers as clean as you would demand of a library?
 
 ## Notes
-Long counters a common argument — that microservices make internal structure irrelevant because the service is the abstraction — by showing a stock-management service is still of a size and scope that hides multiple subproblems. The retailer example makes it concrete: analytics teams scanning the stock database directly still want to reuse the data-interpretation logic, which is only possible if that logic sits in a clean internal layer. The chapter's whole decomposition argument applies unchanged one level down.
+Long counters a common argument — that microservices make internal structure irrelevant because the service is the abstraction — by showing a stock-management service is still of a size and scope that hides multiple subproblems. The retailer example makes it concrete: analytics teams scanning the stock database directly still want to reuse the data-interpretation logic, which is only possible if that logic sits in a clean internal layer. The whole decomposition argument applies unchanged one level down.

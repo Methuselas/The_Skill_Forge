@@ -63,4 +63,4 @@ Choose about half a printed page of code in a familiar language. A paper copy or
 - Leaving the code visible while answering, which turns the drill into ordinary inspection.
 
 ## Notes
-The exercise follows the chapter's iconic-memory discussion: more of a visual scene is briefly available than short-term memory can process. The goal is not photographic recall. It is deliberate selection of structural information before detailed reading consumes attention.
+The exercise follows from iconic memory: more of a visual scene is briefly available than short-term memory can process. The goal is not photographic recall. It is deliberate selection of structural information before detailed reading consumes attention.

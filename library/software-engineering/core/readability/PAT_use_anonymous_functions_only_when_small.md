@@ -49,4 +49,4 @@ variants: []
 - Might this logic be reused, arguing for a named function even when it is small?
 
 ## Notes
-Long contrasts a fine anonymous function (an empty-comment filter) with poor ones (a parity check, and a giant nested list-builder), and the deciding factor is whether the nameless code is self-explanatory and small. His larger point is that engineers conflate functional programming with inline lambdas: the readability and reuse benefits of named functions from chapter 2 still apply, so once an anonymous function stops being trivial, name it.
+Long contrasts a fine anonymous function (an empty-comment filter) with poor ones (a parity check, and a giant nested list-builder), and the deciding factor is whether the nameless code is self-explanatory and small. His larger point is that engineers conflate functional programming with inline lambdas: the readability and reuse benefits of named functions still apply, so once an anonymous function stops being trivial, name it.

@@ -63,7 +63,7 @@ variants:
 - Would a similar value elsewhere in the codebase produce a name that looks like this one?
 
 ## Notes
-Name molds are Feitelson's term for the patterns in which elements of a name are typically combined. Table 8.4 lists fourteen molds his participants used for a single value, ordered most to least chosen, and normalised so that `max`/`maximum` and `benefit`/`benefits` count as the same element — which means the fourteen are genuine structural differences, not vocabulary differences.
+Name molds are Feitelson's term for the patterns in which elements of a name are typically combined. Fourteen molds were recorded among his participants for a single value, ordered most to least chosen, and normalised so that `max`/`maximum` and `benefit`/`benefits` count as the same element — which means the fourteen are genuine structural differences, not vocabulary differences.
 
 `VAR_take_the_molds_off_the_shelf` fills in the content this card deliberately leaves open. Hermans says agree on molds and does not say which; McConnell prescribes a set — qualifiers such as Total, Sum, Average, Max and Min at the end of the name rather than the front, `Count` and `Index` in place of the ambiguous `Num`, opposites drawn from a fixed list of common-language pairs, and boundary words given exact meanings. The two do not conflict so much as answer different questions, and the ordering between them is the useful part: where a codebase already has consistent molds, the foundation wins and you standardise on what is there, because consistency is the benefit and the particular choice mostly is not. Where there is nothing to standardise on, a prescribed set saves a negotiation with no local stakes.
 

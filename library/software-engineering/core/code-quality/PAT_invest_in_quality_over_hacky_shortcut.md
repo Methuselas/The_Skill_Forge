@@ -51,4 +51,4 @@ variants: []
 - Will this shortcut force later work to also be done the hacky way?
 
 ## Notes
-The shelf analogy carries the argument: gluing saves twenty minutes up front, then costs hours or days of replastering when it fails or must be moved, and it drags future redecorating into hackiness too. Long's summary — "less haste, more speed" — answers the chapter's closing question of whether quality slows us down: only in the very short term, and only for genuine throwaways. This is the mindset foundation under all the specific quality techniques the book teaches.
+The shelf analogy carries the argument: gluing saves twenty minutes up front, then costs hours or days of replastering when it fails or must be moved, and it drags future redecorating into hackiness too. Long's summary — "less haste, more speed" — answers the question of whether quality slows us down: only in the very short term, and only for genuine throwaways. This is the mindset foundation under all the specific quality techniques.

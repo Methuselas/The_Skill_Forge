@@ -65,6 +65,6 @@ No special setup required. A notebook or scratch file, used at the moment the co
 - Treating an unfamiliar concept as elaborable when it is not yet understood at all — elaboration connects knowledge, it does not supply it.
 
 ## Notes
-The mechanism is that memories are held in a network rather than a hierarchy, and retrieval strength is higher for items with more connections into that network. Hermans's figure 3.3 puts the two organizations side by side — a filesystem tree of `birds.txt` and `houses.txt` against a graph where Dove, Sparrow, Penguin, Eagle, House, Shed and Zoo all interconnect — and the point is that the right-hand structure is the one you are writing into.
+The mechanism is that memories are held in a network rather than a hierarchy, and retrieval strength is higher for items with more connections into that network. The two organizations are worth picturing side by side — a filesystem tree of `birds.txt` and `houses.txt` against a graph where Dove, Sparrow, Penguin, Eagle, House, Shed and Zoo all interconnect — and the point is that the right-hand structure is the one you are writing into.
 
 Bartlett's 1930s work is the warning attached to it: participants recalling a Native American folk tale weeks later had reshaped it to fit what they already believed, dropping details they judged irrelevant and substituting a gun for a bow. Material is altered on the way in to fit existing schemata, so deliberately choosing which existing knowledge it attaches to is a way to influence what survives the first save.

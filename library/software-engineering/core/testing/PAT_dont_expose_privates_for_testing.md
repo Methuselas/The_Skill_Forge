@@ -50,4 +50,4 @@ variants: []
 - Are you widening visibility with a comment that others will overlook?
 
 ## Notes
-Making a private function visible to tests fails on three counts Long spells out: it tests an intermediate detail rather than the real outcome, it couples tests to internals so a rename or move breaks them, and the "visible for testing" comment is unreliable small print that quietly expands the public API. This is the testing-specific case of chapter 2's rule against widening the API to reach internals, and it keeps tests agnostic to implementation details.
+Making a private function visible to tests fails on three counts Long spells out: it tests an intermediate detail rather than the real outcome, it couples tests to internals so a rename or move breaks them, and the "visible for testing" comment is unreliable small print that quietly expands the public API. This is the testing-specific case of the rule against widening the API to reach internals, and it keeps tests agnostic to implementation details.

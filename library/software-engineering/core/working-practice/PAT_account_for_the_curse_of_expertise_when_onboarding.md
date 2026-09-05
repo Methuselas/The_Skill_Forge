@@ -46,7 +46,7 @@ variants: []
 
 ## Don't
 - Don't read a newcomer's failure as evidence about their ability. The predictable outcome of the overload pattern is a lead who concludes the newcomer is not very bright and a newcomer who concludes the project is very hard, and neither conclusion is supported.
-- Don't assume the gap is speed. The tempting model is that novices reason as you do but slower or with a partial picture; the chapter's central claim is that they think and behave in genuinely different ways.
+- Don't assume the gap is speed. The tempting model is that novices reason as you do but slower or with a partial picture; the central claim is that they think and behave in genuinely different ways.
 - Don't expect chunking to be shared. An expert glances at code and sees "emptying a queue"; a beginner reads it line by line. "Array index out of bounds" is one concept to you and three separate elements to them, and that difference is load, not intelligence.
 
 ## Checklist
@@ -57,4 +57,4 @@ variants: []
 ## Notes
 The mechanism connects to germane load. A newcomer whose intrinsic and extraneous load already fill their capacity has none left for storing anything, so they can neither program effectively in the new codebase nor retain what they are being told. The session feels productive to the person talking and produces nothing durable for the person listening.
 
-This is the pattern the rest of the onboarding material rests on, which is why the chapter puts it first and states the remedy so plainly: the first thing you can do to make onboarding easier is to realise that it is probably not all that easy for the person learning. Everything else — staging the activities, supporting the three memory systems, pitching explanations along a semantic wave — is a way of acting on that realisation rather than merely holding it.
+This is the pattern the rest of the onboarding material rests on, which is why it comes first and states the remedy so plainly: the first thing you can do to make onboarding easier is to realise that it is probably not all that easy for the person learning. Everything else — staging the activities, supporting the three memory systems, pitching explanations along a semantic wave — is a way of acting on that realisation rather than merely holding it.

@@ -42,11 +42,11 @@ variants: []
 - Apply all three marks, not one. A belief that is merely wrong is an error; a belief that is wrong, applied the same way everywhere, and trusted enough to act on is a misconception, and the difference determines what fixing it costs.
 - Use the confidence itself as the diagnostic signal. When you were sure the code would work and it failed anyway, that combination is the symptom — as distinct from the case where you already suspected the line.
 - Separate the slip cases out first. Forgetting to close a file, a typo in a filename, selecting the wrong method, an off-by-one in a boundary calculation: these are sloppiness and need nothing more than the fix.
-- Look for the belief's origin once you have identified one, because that usually shows where else it is operating. The chapter traces "a variable holds only one value" to mathematics, where a variable genuinely does not change within a proof, and separately to filesystems, where a folder allows only one file of a given name.
+- Look for the belief's origin once you have identified one, because that usually shows where else it is operating. The belief "a variable holds only one value" traces to mathematics, where a variable genuinely does not change within a proof, and separately to filesystems, where a folder allows only one file of a given name.
 
 ## Don't
 - Don't treat every wrong assumption as a misconception. Most bugs are slips, and applying conceptual-change effort to a typo wastes it.
-- Don't dismiss a misconception as absurd because it is obviously wrong to you now. The book's examples are all *reasonable* — assuming a variable holds one value follows correctly from mathematics, and the reasonableness is why the belief survived.
+- Don't dismiss a misconception as absurd because it is obviously wrong to you now. These examples are all *reasonable* — assuming a variable holds one value follows correctly from mathematics, and the reasonableness is why the belief survived.
 - Don't stop at the instance. Consistency across situations is one of the three marks, so a misconception found in one place is by definition already at work elsewhere.
 
 ## Checklist

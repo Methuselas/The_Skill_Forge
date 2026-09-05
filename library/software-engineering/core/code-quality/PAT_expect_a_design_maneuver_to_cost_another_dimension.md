@@ -40,7 +40,7 @@ variants: []
 
 ## Do
 - State the maneuver as a trade rather than as an improvement. Adding types improves error proneness; renaming toward the domain improves closeness of mapping; each has a second effect you should be able to name.
-- Watch the three tensions the chapter identifies by name. **Error proneness against viscosity** — types let the compiler prevent mistakes, and they also mean casting to use a value the way you want, which is usually the real reason people resist type systems rather than dislike of safety.
+- Watch these three tensions by name. **Error proneness against viscosity** — types let the compiler prevent mistakes, and they also mean casting to use a value the way you want, which is usually the real reason people resist type systems rather than dislike of safety.
 - **Provisionality and progressive evaluation against error proneness** — a system that lets you sketch and run incomplete code helps thinking, and incomplete programs may never be deleted while imperfect ones may never be improved, leaving code that is hard to understand and therefore hard to debug.
 - **Role expressiveness against diffuseness** — named parameters and type annotations both make roles visible and both make the code longer.
 - Accept that how the dimensions interact depends heavily on the codebase. These three recur; they are not the complete set, and yours may have others.
@@ -56,6 +56,6 @@ variants: []
 - Is the dimension I am spending one that matters for how this codebase is actually used?
 
 ## Notes
-"Design maneuver" is the framework's term for a change made to a codebase to improve a dimension, and the reason it is worth a name is that it forces the question of side effects. The chapter's own exercise pairs each maneuver with two columns — impacts which dimensions positively, impacts which negatively — and the second column is the one that does the work.
+"Design maneuver" is the framework's term for a change made to a codebase to improve a dimension, and the reason it is worth a name is that it forces the question of side effects. The original exercise pairs each maneuver with two columns — impacts which dimensions positively, impacts which negatively — and the second column is the one that does the work.
 
 The consequences of leaving dimensions unmanaged are stated in terms of people rather than code, which is the point of the framework. High viscosity makes future developers reluctant to change the codebase, which produces complicated patches instead of structural fixes. A codebase requiring hard mental operations makes people less likely to become maintainers of it. Those are the failure modes this pattern exists to price.

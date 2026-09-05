@@ -60,7 +60,7 @@ variants:
 - Am I claiming the names caused a problem, or that they marked a place worth checking?
 
 ## Notes
-Confidence on this card is `medium` rather than `high`, which is deliberate. The correlation is real and statistically significant, but the chapter itself spends most of its space on why the causal reading is unavailable, and the pattern is only as strong as the weaker claim.
+Confidence on this card is `medium` rather than `high`, which is deliberate. The correlation is real and statistically significant, but most of the discussion is about why the causal reading is unavailable, and the pattern is only as strong as the weaker claim.
 
 `VAR_hermans_use_structural_smells_as_the_signal` retains **Use Structural Smells as the Signal Instead of Names** for the case where structure, not naming, is what you can measure. Khomh's study of successive Eclipse versions found God classes a significant contributor to error proneness in every version analysed and God methods in one, which is a stronger and more specific result than the naming correlation this foundation rests on. It also extends the payoff beyond defects: large class and long method significantly raised change proneness in more than 75% of releases, so the same signal predicts where future edits will concentrate. Reach for it when a smell detector is already running, or when allocating refactoring rather than review effort; skip it where structure is generated or already uniform, since the signal then carries no information about the authors.
 

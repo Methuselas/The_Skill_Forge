@@ -59,4 +59,4 @@ Conceptual change is the term for an existing conception being fundamentally cha
 
 The practical consequence for anyone moving between languages is that a significant share of the work is unlearning rather than learning, and that share is invisible on a syllabus. It is also why the pattern is lane-tagged for teaching: the same asymmetry governs onboarding someone onto a codebase whose conventions contradict their previous one.
 
-This pairs with the outdated-model pattern from chapter 6 rather than duplicating it. That one is about detecting an old model surfacing while you read; this one is about what it takes to change which model is there to surface.
+This pairs with the outdated-model pattern rather than duplicating it. That one is about detecting an old model surfacing while you read; this one is about what it takes to change which model is there to surface.

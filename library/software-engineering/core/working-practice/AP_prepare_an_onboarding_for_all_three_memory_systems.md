@@ -53,7 +53,7 @@ Do the preparation for a newcomer before they arrive, so that each of their thre
 7. **Monitor understanding continuously rather than at checkpoints.** Regularly ask for a quick recap of what was read, a definition of a domain concept, or recall of a programming concept used in the code. Guessing and conclusions that do not follow are the signal that load has been exceeded. `PAT_locate_a_learner_on_the_neo_piagetian_stages` owns what you are watching for.
 
 ## Notes
-The three-way split maps onto the three forms of confusion from chapter 1: lack of knowledge is a long-term memory problem, lack of information is a short-term memory problem, and lack of processing power is a working-memory problem. Preparing for each separately is what turns "be patient with newcomers" into a set of things you can actually do before they arrive.
+The three-way split maps onto the three forms of confusion: lack of knowledge is a long-term memory problem, lack of information is a short-term memory problem, and lack of processing power is a working-memory problem. Preparing for each separately is what turns "be patient with newcomers" into a set of things you can actually do before they arrive.
 
 Step 5 carries a real tension with step 4 and is deliberately conditional. Diagrams are the standard working-memory support and are counterproductive below the concrete operational stage — which means the same artefact helps or hurts depending on where the newcomer is, and the only way to know is to watch. That is why the step says monitor and abandon rather than provide.
 

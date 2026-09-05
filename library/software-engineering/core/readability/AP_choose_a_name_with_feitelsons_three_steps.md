@@ -54,7 +54,7 @@ Produce an identifier name by making three separable decisions in sequence rathe
 6. **Revisit the concepts if you started from the words.** The steps do not have to run in order, and Feitelson says so explicitly; you may think of words before concepts. What matters is that the concepts get considered at all, not that they get considered first.
 
 ## Notes
-This is the one naming procedure in the chapter with direct evidence that it works. After defining the model, Feitelson ran a second experiment with 100 new participants who were taught the model and then given the same naming tasks as his original subjects. Two external judges, blind to which name came from which study, compared pairs; names produced with the model were judged superior by a ratio of two to one.
+This is the one naming procedure with direct evidence that it works. After defining the model, Feitelson ran a second experiment with 100 new participants who were taught the model and then given the same naming tasks as his original subjects. Two external judges, blind to which name came from which study, compared pairs; names produced with the model were judged superior by a ratio of two to one.
 
 The reason the decomposition helps is that it makes disagreement locatable. Two developers who dislike each other's names are usually differing at exactly one of the three steps — which concepts to include, which word to use for a concept, or how to assemble them — and saying which step turns an aesthetic argument into a specific one.
 

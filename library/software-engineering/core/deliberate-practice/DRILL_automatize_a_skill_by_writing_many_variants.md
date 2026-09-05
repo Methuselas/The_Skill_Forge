@@ -68,6 +68,6 @@ One construct, chosen from whatever your phase diagnosis left in the cognitive o
 ## Notes
 Hermans is candid that this is not how programmers usually practise. Deliberately typing a hundred for-loops is not something commonly done in programming culture, and she says twice that the technique may feel weird — the analogy offered is weight lifting, where each repetition adds a little. The justification is not that the construct is hard but that every construct still costing attention is spending capacity the real problem needs.
 
-The adaptation variant is the more interesting half and applies to anything with two equivalent forms. Writing loops and converting them to comprehensions, then reverting, is doing for whole constructs what the two-sided flashcards from chapter 4 do for syntax pairs — the value is in the active comparison rather than in either form alone.
+The adaptation variant is the more interesting half and applies to anything with two equivalent forms. Writing loops and converting them to comprehensions, then reverting, is doing for whole constructs what two-sided flashcards do for syntax pairs — the value is in the active comparison rather than in either form alone.
 
 This drill is the natural follow-on from the phase diagnosis. That one produces the list; this one is how an item leaves it.

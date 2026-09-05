@@ -51,4 +51,4 @@ variants: []
 - Where cases differ only by input, are they a parameterized test with named sets?
 
 ## Notes
-Long contrasts one bloated `testGetValidCoupons_allBehaviors` with a focused case per behavior: the split versions are simpler to read and their names alone identify what failed. Parameterized tests reconcile "one behavior per case" with avoiding duplication — one function, many named input sets, each failure tagged with its set name. This operationalizes the chapter-10 principles of understandable test code and well-explained failures.
+Long contrasts one bloated `testGetValidCoupons_allBehaviors` with a focused case per behavior: the split versions are simpler to read and their names alone identify what failed. Parameterized tests reconcile "one behavior per case" with avoiding duplication — one function, many named input sets, each failure tagged with its set name. This operationalizes the principles of understandable test code and well-explained failures.

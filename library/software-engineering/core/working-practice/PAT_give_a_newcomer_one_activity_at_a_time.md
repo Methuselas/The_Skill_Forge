@@ -57,8 +57,8 @@ variants: []
 - Have I removed the searching, or only assumed the walkthrough removed it?
 
 ## Notes
-This applies chapter 11's five activities — searching, comprehension, transcription, incrementation, exploration — to the onboarding case, and the argument is the one that framework supplies: each activity places different demands on the programmer and the system, so switching between them is itself expensive. Asking a newcomer to switch between four while none is fluent is a load problem before it is a skill problem.
+This applies the five activities — searching, comprehension, transcription, incrementation, exploration — to the onboarding case, and the argument is the one that framework supplies: each activity places different demands on the programmer and the system, so switching between them is itself expensive. Asking a newcomer to switch between four while none is fluent is a load problem before it is a skill problem.
 
-Table 13.3 supplies one worked example per activity, which is what makes the pattern usable rather than merely correct — the hard part in practice is inventing a single-activity task, not agreeing that one would be better.
+One worked example per activity is what makes the pattern usable rather than merely correct — the hard part in practice is inventing a single-activity task, not agreeing that one would be better.
 
 The germane-load argument decides the priority between the two halves. A focused task leaves capacity for storing what was learned; a four-activity task consumes it all, so the newcomer completes the work and retains little of it. That is why "ask them to understand" beats "ask them to build" for a first task even when both are achievable.

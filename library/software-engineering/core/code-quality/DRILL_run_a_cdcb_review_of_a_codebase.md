@@ -84,4 +84,4 @@ The framework is the cognitive dimensions of notation of Green, Blackwell and Pe
 
 Two dimensions have supporting evidence worth knowing. Hanenberg's Java-versus-Groovy experiments found static type systems let programmers locate and fix errors faster, and that the advantage survived attempts to compensate on the dynamic side with better IDE support and documentation — so the error-proneness dimension is not merely intuition. And the domain-driven design movement, which asks that structure and identifiers match the business domain, is the industry's name for improving closeness of mapping.
 
-This drill combines exercises 12.3, 12.4 and 12.5. The book presents them as three tables; they are one review, because a dimension list without maneuvers produces no change and maneuvers without their trade-offs produce regressions.
+This drill combines three separate exercises into one review, because a dimension list without maneuvers produces no change and maneuvers without their trade-offs produce regressions.

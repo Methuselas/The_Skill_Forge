@@ -53,4 +53,4 @@ variants: []
 - Are functional changes and refactorings kept in separate commits?
 
 ## Notes
-Mature codebases refactor constantly — often more than they add new code — so the value of a test hangs on surviving a behavior-preserving refactoring. Long's approach A (tests locked to internals) versus approach B (tests locked to behaviors via the public API) makes the difference stark: only approach B gives a clean refactoring signal where green means safe and red means a real mistake. This applies chapter 2's public-API-versus-implementation-detail split to test design.
+Mature codebases refactor constantly — often more than they add new code — so the value of a test hangs on surviving a behavior-preserving refactoring. Long's approach A (tests locked to internals) versus approach B (tests locked to behaviors via the public API) makes the difference stark: only approach B gives a clean refactoring signal where green means safe and red means a real mistake. This applies the public-API-versus-implementation-detail split to test design.

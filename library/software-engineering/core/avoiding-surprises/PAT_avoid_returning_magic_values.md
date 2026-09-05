@@ -53,4 +53,4 @@ variants: []
 - Does an empty or edge-case input silently yield an in-band special value?
 
 ## Notes
-This is the avoid-surprises home for magic values that chapter 4 deferred here. The `getMeanAge` bug is the anchor: a `-1`-for-absent age documented only in small print produces a wrong statistic that unit tests miss, because the caller never knew to test the absent case. A nullable return forces the caller to confront absence at compile time, at the cost of a handled null — a trade the chapter argues is almost always worth it, escalating to an error type when the reason for absence matters.
+This is the avoid-surprises home for magic values, deferred here from the error-handling material. The `getMeanAge` bug is the anchor: a `-1`-for-absent age documented only in small print produces a wrong statistic that unit tests miss, because the caller never knew to test the absent case. A nullable return forces the caller to confront absence at compile time, at the cost of a handled null — a trade that is almost always worth it, escalating to an error type when the reason for absence matters.

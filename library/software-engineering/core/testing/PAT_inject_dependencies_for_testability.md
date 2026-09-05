@@ -51,4 +51,4 @@ variants: []
 - Is there still a factory so real callers construct it easily?
 
 ## Notes
-Testability is the fourth reason to use dependency injection, alongside the modularity motives of earlier chapters. Long's `InvoiceReminder` that calls a data store and instantiates a real email sender is effectively untestable — tests would touch real customer data and send real emails, and often lack database permissions. Injecting the address book and email sender lets tests supply fakes, which is why the chapter frames testability as tightly related to the modularity that dependency injection provides.
+Testability is the fourth reason to use dependency injection, alongside the modularity motives of earlier chapters. Long's `InvoiceReminder` that calls a data store and instantiates a real email sender is effectively untestable — tests would touch real customer data and send real emails, and often lack database permissions. Injecting the address book and email sender lets tests supply fakes, which is why testability is tightly related to the modularity that dependency injection provides.

@@ -57,8 +57,8 @@ variants: []
 - Is the dimension I am about to improve one that helps that activity, or one that helps a different one?
 
 ## Notes
-The five activities and the dimensions come from the same framework, which is why they compose: Blackwell, Petre and Green described the activities precisely because they interact with the dimensions. Table 12.1 is the mapping, and it is worth reading as a table rather than as prose, since several dimensions appear in both columns.
+The five activities and the dimensions come from the same framework, which is why they compose: Blackwell, Petre and Green described the activities precisely because they interact with the dimensions. The mapping is worth holding as a table rather than as prose, since several dimensions appear in both columns.
 
-**One caution about that table.** Its Diffuseness row places *Searching* in the **Helps** column, while the chapter's own prose on the preceding page says diffuseness "causes code to be longer, which also harms search simply because there is more code to search through." The table and the text contradict each other on this one row. The prose reading is the coherent one — more code to search through is more searching — and this card follows the prose. Every other row in the table agrees with the surrounding text.
+**One caution about that mapping.** Its Diffuseness row places *Searching* in the **Helps** column, while the surrounding prose says diffuseness "causes code to be longer, which also harms search simply because there is more code to search through." The table and the text contradict each other on this one row. The prose reading is the coherent one — more code to search through is more searching — and this card follows the prose. Every other row in the table agrees with the surrounding text.
 
 The framing that makes this actionable is that a codebase's dimensions are not a quality score but a fit question. There is no dimension profile that is right in general; there is only one that matches what people do here.

@@ -59,8 +59,8 @@ variants: []
 - Have I asked what this reminds them of?
 
 ## Notes
-The semantic wave is Karl Maton's, and figure 13.2 draws it as a curve descending from abstract into concrete and rising again, with the two transitions labelled unpacking and repacking.
+The semantic wave is Karl Maton's, and it draws as a curve descending from abstract into concrete and rising again, with the two transitions labelled unpacking and repacking.
 
-Figure 13.3 is worth looking at because it explains a name the prose leaves opaque. Each of the three antipatterns is drawn as a red overlay on the correct black wave: a flat red line along the top for high flatlining, a flat red line along the bottom for low flatlining, and — for the third — a series of red strokes each descending from abstract to concrete without returning. That is why it is "downward escalator**s**", plural: the failure is not one missed repacking but a rhythm of them, concept after concept dropped to the concrete and abandoned there. The plural is invisible in the text.
+One detail explains a name that is otherwise opaque. Each of the three antipatterns is drawn as a red overlay on the correct black wave: a flat red line along the top for high flatlining, a flat red line along the bottom for low flatlining, and — for the third — a series of red strokes each descending from abstract to concrete without returning. That is why it is "downward escalator**s**", plural: the failure is not one missed repacking but a rhythm of them, concept after concept dropped to the concrete and abandoned there. The plural is the part that goes missing when the name is read on its own.
 
 This pairs with the stage pattern rather than duplicating it. That one decides what kind of help a learner can use; this one shapes any individual explanation once you have decided to give one.

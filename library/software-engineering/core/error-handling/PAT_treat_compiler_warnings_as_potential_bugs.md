@@ -65,6 +65,6 @@ variants:
   and which of them is the weakest?
 
 ## Notes
-Long's `UserInfo` example shows a warning catching a real, privacy-violating bug that tests might have missed: an unused-field warning is the visible symptom of a getter returning the wrong field. The rule extends the chapter-3 idea of making breakage fail at compile time — warnings are the compiler's softer signal of suspicious code, and the disciplined end state is a clean build where every warning has been fixed or suppressed with a documented, valid reason.
+Long's `UserInfo` example shows a warning catching a real, privacy-violating bug that tests might have missed: an unused-field warning is the visible symptom of a getter returning the wrong field. The rule extends the idea of making breakage fail at compile time — warnings are the compiler's softer signal of suspicious code, and the disciplined end state is a clean build where every warning has been fixed or suppressed with a documented, valid reason.
 
 Variant `VAR_cpp_warnings_implementation_dependent` (Effective C++, Item 53) adds a C++-specific caveat: a compiler warning that "D::f() hides virtual B::f()" is really flagging a botched override (a const mismatch that hides rather than redefines the base function), so understand each warning before dismissing it — but because warnings are implementation-dependent, compile warning-free at the maximum level while never *depending* on a given warning to catch a mistake, since another compiler may accept the same code silently. Use this emphasis when writing portable C++ across compilers.

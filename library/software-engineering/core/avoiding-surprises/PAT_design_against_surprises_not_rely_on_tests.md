@@ -48,4 +48,4 @@ variants: []
 - Is the surprising behavior something tests are known to miss, like a concurrency effect?
 
 ## Notes
-Long closes the chapter by rebutting "just test it": testing is essential but does not substitute for unsurprising code, because avoiding surprises is about the correctness of the code other engineers build on yours. Three gaps make tests an unreliable backstop here — callers test less diligently, mocks bake in the caller's mistaken mental model, and some effects (concurrency) evade tests almost by nature. The same reasoning carries into making code hard to misuse in chapter 7.
+The rebuttal to "just test it" is this: testing is essential but does not substitute for unsurprising code, because avoiding surprises is about the correctness of the code other engineers build on yours. Three gaps make tests an unreliable backstop here — callers test less diligently, mocks bake in the caller's mistaken mental model, and some effects (concurrency) evade tests almost by nature. The same reasoning carries into making code hard to misuse.

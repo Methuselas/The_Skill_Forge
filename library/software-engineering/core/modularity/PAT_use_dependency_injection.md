@@ -51,4 +51,4 @@ variants: []
 - Is a default configuration still available through a factory so construction stays easy?
 
 ## Notes
-Dependency injection is the chapter's foundational modularity move and the mechanism chapter 2's refactoring AP previewed. The `RoutePlanner`/`RoadMap` example shows both the win (any region's map works) and the cost it manages (construction gets harder, softened by factory functions). The static-function trap is the subtle failure: writing the road map as static methods makes injection impossible even in hindsight, which is why designing for injectability — instantiable classes behind interfaces — matters before the need arises.
+Dependency injection is the foundational modularity move and the mechanism the refactoring AP previewed. The `RoutePlanner`/`RoadMap` example shows both the win (any region's map works) and the cost it manages (construction gets harder, softened by factory functions). The static-function trap is the subtle failure: writing the road map as static methods makes injection impossible even in hindsight, which is why designing for injectability — instantiable classes behind interfaces — matters before the need arises.

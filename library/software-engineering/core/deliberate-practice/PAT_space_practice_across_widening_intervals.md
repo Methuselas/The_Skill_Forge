@@ -54,6 +54,6 @@ variants: []
 - Are you adding study hours where you could instead widen intervals at the same cost?
 
 ## Notes
-Ebbinghaus spent about a decade and 1,000 hours memorizing nonsense syllables — deliberately meaningless so that existing associations could not help — and published the forgetting formula in 1885; Murre's 2015 replication found it largely correct. Figure 3.2 plots the consequence and shows the shape the numbers alone do not: a steep early drop that levels off around a quarter of the material rather than continuing toward zero.
+Ebbinghaus spent about a decade and 1,000 hours memorizing nonsense syllables — deliberately meaningless so that existing associations could not help — and published the forgetting formula in 1885; Murre's 2015 replication found it largely correct. The curve shows the shape the numbers alone do not: a steep early drop that levels off around a quarter of the material rather than continuing toward zero.
 
 The counterintuitive part is that spacing is cheaper, not more expensive. The instinct when something has to be learned by Friday is to mass the practice, and that instinct optimizes for Friday at the cost of everything after it.

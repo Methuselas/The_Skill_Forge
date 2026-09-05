@@ -51,4 +51,4 @@ variants: []
 - Are you deciding by cohesion and the pillars, not by a raw line count?
 
 ## Notes
-The `TextSummarizer` walkthrough is the anchor: two engineers can both agree "a class should do one thing" yet disagree on whether its subproblems are separate concerns, and the pillars break the tie objectively. Long emphasizes that the check applies both when writing a class and when modifying one that has bloated over time. The concrete remedy — one class per concept, wired via constructor injection — is developed in the paired refactoring AP and specialized further in chapter 8's dependency-injection material.
+The `TextSummarizer` walkthrough is the anchor: two engineers can both agree "a class should do one thing" yet disagree on whether its subproblems are separate concerns, and the pillars break the tie objectively. Long emphasizes that the check applies both when writing a class and when modifying one that has bloated over time. The concrete remedy — one class per concept, wired via constructor injection — is developed in the paired refactoring AP and specialized further in the dependency-injection material.

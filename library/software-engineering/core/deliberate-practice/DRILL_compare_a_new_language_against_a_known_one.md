@@ -49,7 +49,7 @@ The new language's documentation or a primer, and a language you genuinely know 
 2. For each row, write the similarities column first, then the differences column, filling both including the rows where you had to go and look something up. Naming the commonalities is what makes prior knowledge reachable, and it is the step people skip.
 3. Mark each entry as verified or assumed, so the two are distinguishable later.
 4. In the remarks column, mark each row as expected help or expected trap. A row where the two languages are *almost* the same is a trap row, not a help row.
-5. Classify anything you have already transferred, using the two axes from exercise 7.2: high-road versus low-road, and near versus far. Reusing an editor shortcut without thinking is low-road; assuming a variable must be declared because most languages require it is high-road. Say which quadrant holds the most entries and what that predicts about where your errors will come from.
+5. Classify anything you have already transferred, using the two transfer axes: high-road versus low-road, and near versus far. Reusing an editor shortcut without thinking is low-road; assuming a variable must be declared because most languages require it is high-road. Say which quadrant holds the most entries and what that predicts about where your errors will come from.
 6. Look for constructs that exist in both languages under the same name and behave differently. Name at least one and state the difference. Put those at the top of the trap list.
 7. Keep the table while you learn and correct it as you are proved wrong; the corrections are your personal misconception list for this language pair.
 
@@ -67,8 +67,8 @@ The new language's documentation or a primer, and a language you genuinely know 
 - Stopping at syntax. Runtime, tooling, and testing practice are where the expensive surprises live, which is why they are rows in their own right.
 
 ## Notes
-This combines Hermans's exercises 7.2 and 7.4 into one pass. Exercise 7.4 supplies the six-row comparison table and the instruction to fill it out to show "where you can expect transfer and where you will need to pay specific attention while learning"; exercise 7.2 supplies the high-road/low-road and near/far classification. Both are empty grids in the book, so the structure is the content — the rows and axes are what the exercise contributes, and the entries are yours.
+This combines two of Hermans's exercises into one pass. One exercise supplies the six-row comparison table and the instruction to fill it out to show "where you can expect transfer and where you will need to pay specific attention while learning"; another supplies the high-road/low-road and near/far classification. Both are empty grids, so the structure is the content — the rows and axes are what the exercise contributes, and the entries are yours.
 
 It is deliberately kept separate from the elaboration drill, which runs at the moment a single new concept is met and asks what it connects to. This one runs once, before the learning starts, over a whole language, and its output is a prediction about where transfer will fail. The elaboration drill builds retrievability; this one builds a trap map.
 
-The far-transfer caveat applies to the choice of comparison language. If the new language is genuinely distant — the chapter's example is SQL against JavaScript — expect most rows to come out as differences, and expect to need new strategies rather than only new syntax.
+The far-transfer caveat applies to the choice of comparison language. If the new language is genuinely distant — the standard example is SQL against JavaScript — expect most rows to come out as differences, and expect to need new strategies rather than only new syntax.

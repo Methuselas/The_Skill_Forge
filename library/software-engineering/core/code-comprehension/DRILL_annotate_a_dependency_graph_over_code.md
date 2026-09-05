@@ -75,7 +75,7 @@ The code printed on paper, or as a PDF on a tablet you can annotate. Three pen c
 - Reaching for it when the problem is arithmetic rather than structure — that is the state table's job.
 
 ## Notes
-Figures 4.5 and 4.6 show the same Python program at two stages: first every variable ringed in green, then the same page with lines arcing between occurrences of `digits`, `num`, `result`, `b`, `revb`, `trial`. The second image is visibly a graph laid over source text, and its usefulness is obvious in a way the instruction list alone does not convey.
+Two annotated views of the same Python program show the technique in stages: first every variable ringed in green, then the same page with lines arcing between occurrences of `digits`, `num`, `result`, `b`, `revb`, `trial`. The second image is visibly a graph laid over source text, and its usefulness is obvious in a way the instruction list alone does not convey.
 
 Two distinct overloads motivate this. You may not know which parts of the code you need to read, so you read too much; or the code is connected enough that you are parsing individual lines and working out where to go next at the same time. The annotation removes the second job. Hermans's diagnostic is having read the same code five times without progress — a sign you understood each line but never the shape.
 

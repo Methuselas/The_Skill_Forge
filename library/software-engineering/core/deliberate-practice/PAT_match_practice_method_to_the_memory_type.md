@@ -55,7 +55,7 @@ variants: []
 - Where the rule is known and the behaviour is wrong, am I still treating it as a knowledge problem?
 
 ## Notes
-Figure 10.2 lays out the taxonomy: memories divide into procedural (implicit) and declarative (explicit), and declarative divides again into episodic — things you experienced, like the three hours chasing a bug that turned out to be an error in a unit test — and semantic, meanings and facts, like a class in Java combining data and functionality. Figure 10.3 maps the same tree onto programming, with `ctrl-c`/`ctrl-v` under procedural and for-loop syntax under semantic.
+The taxonomy runs: memories divide into procedural (implicit) and declarative (explicit), and declarative divides again into episodic — things you experienced, like the three hours chasing a bug that turned out to be an error in a unit test — and semantic, meanings and facts, like a class in Java combining data and functionality. The same tree maps onto programming, with `ctrl-c`/`ctrl-v` under procedural and for-loop syntax under semantic.
 
 The payoff for practice is the reason the taxonomy is worth carrying: the three categories are *created* differently, so the method has to match. This is also the mechanism behind automatization. Once a skill reaches the autonomous phase it adds nothing to cognitive load, which is what frees capacity for larger problems — Hermans's image is unlocking a move in a game, where learning to double-jump opens parts of a level that were unreachable before.
 

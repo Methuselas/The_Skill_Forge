@@ -61,4 +61,4 @@ Select one method or function in an unfamiliar codebase written in a language yo
 - Adding explanatory clutter after the exercise when the existing signals were already sufficient.
 
 ## Notes
-Exercise 2.5 asks the reader to select unfamiliar code, notice each comprehension breakthrough, classify the knowledge it represents, and optionally contribute better signals. A knowledgeable peer is useful as a correctness check because a compelling beacon can still support the wrong explanation.
+The original exercise asks the reader to select unfamiliar code, notice each comprehension breakthrough, classify the knowledge it represents, and optionally contribute better signals. A knowledgeable peer is useful as a correctness check because a compelling beacon can still support the wrong explanation.

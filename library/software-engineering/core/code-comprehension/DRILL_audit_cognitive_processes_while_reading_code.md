@@ -62,4 +62,4 @@ Choose three short snippets in languages or notations with different familiarity
 - Calling every difficult expression a knowledge gap without checking whether all needed facts were already visible.
 
 ## Notes
-Exercise 1.1 uses APL, Java, and BASIC programs that perform different operations, then asks what the reader retrieved, stored, ignored, and processed. Varying both notation and operation prevents one solved example from carrying the rest of the exercise and makes the three forms of confusion easier to distinguish.
+The original exercise uses APL, Java, and BASIC programs that perform different operations, then asks what the reader retrieved, stored, ignored, and processed. Varying both notation and operation prevents one solved example from carrying the rest of the exercise and makes the three forms of confusion easier to distinguish.

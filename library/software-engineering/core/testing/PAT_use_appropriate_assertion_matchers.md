@@ -51,4 +51,4 @@ variants: []
 - Are you avoiding equality checks on results whose order or extra content is not guaranteed?
 
 ## Notes
-The assertion matcher decides both whether a test passes and how a failure reads. Long's class-names example runs the ladder: a full-equality assertion tests too much and breaks on an unguaranteed order, a bare boolean contains-check fixes that but fails opaquely, and a contains-at-least matcher tests just the behavior and names the missing entry on failure. Choosing the right matcher is how the chapter-10 principle of well-explained failures is realized in each assertion.
+The assertion matcher decides both whether a test passes and how a failure reads. Long's class-names example runs the ladder: a full-equality assertion tests too much and breaks on an unguaranteed order, a bare boolean contains-check fixes that but fails opaquely, and a contains-at-least matcher tests just the behavior and names the missing entry on failure. Choosing the right matcher is how the principle of well-explained failures is realized in each assertion.

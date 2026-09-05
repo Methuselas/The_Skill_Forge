@@ -48,4 +48,4 @@ variants: []
 - Does anything make a test needlessly slow that could be trimmed without losing coverage?
 
 ## Notes
-Speed is a first-class property of a good unit test because it shapes behavior: Long observes that slow, painful tests lead engineers to test less, so keeping them fast improves not just efficiency but coverage. Presubmit checks that run tests before every merge make suite speed a tax on the whole team's velocity. This property pairs with testability from chapter 1 — code designed to run in isolation is exactly the code whose tests stay fast.
+Speed is a first-class property of a good unit test because it shapes behavior: Long observes that slow, painful tests lead engineers to test less, so keeping them fast improves not just efficiency but coverage. Presubmit checks that run tests before every merge make suite speed a tax on the whole team's velocity. This property pairs with testability — code designed to run in isolation is exactly the code whose tests stay fast.

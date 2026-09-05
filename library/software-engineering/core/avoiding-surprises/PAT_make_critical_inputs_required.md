@@ -50,4 +50,4 @@ variants: []
 - Are callers forced to handle the missing-value case rather than being misled?
 
 ## Notes
-This is a misleading-function failure: the unmistakable contract (the name) says one thing while a nullable-and-no-op body does another. Long's legal-disclaimer example shows the stakes — a signup flow that "always" shows a disclaimer sometimes shows nothing, breaking the law, because a null translation makes the call a no-op. Making the critical input required moves the absent-value handling into the open at the call site, echoing chapter 5's point that a few extra caller lines are cheap against a surprising bug.
+This is a misleading-function failure: the unmistakable contract (the name) says one thing while a nullable-and-no-op body does another. Long's legal-disclaimer example shows the stakes — a signup flow that "always" shows a disclaimer sometimes shows nothing, breaking the law, because a null translation makes the call a no-op. Making the critical input required moves the absent-value handling into the open at the call site, echoing the point that a few extra caller lines are cheap against a surprising bug.
