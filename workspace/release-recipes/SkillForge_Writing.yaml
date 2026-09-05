@@ -1,0 +1,14 @@
+name: SkillForge Writing
+skill_name: skillforge-writing
+description: >-
+  Use for fiction, poetry, creative nonfiction, life writing, college admission
+  essays, and career documents — drafting, structure, viewpoint, voice, dialogue,
+  imagery, revision, feedback, and submission — using the SkillForge Writing
+  knowledge library.
+modules:
+  - writing/career-documents
+  - writing/college-admission-essays
+  - writing/creative-nonfiction
+  - writing/fiction
+  - writing/poetry
+runtime_profile: generic

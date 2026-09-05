@@ -20,8 +20,8 @@ tags:
   - transferable_skills
   - recruiter_reading
 cross_links:
-  - rel: supports
-    target_object_id: writing_target_application_materials_to_employer_criteria
+  - rel: prerequisite_for
+    target_object_id: writing_account_for_career_interruptions_without_distorting_dates
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"
   author: Amanda McCarthy and Kate Southam

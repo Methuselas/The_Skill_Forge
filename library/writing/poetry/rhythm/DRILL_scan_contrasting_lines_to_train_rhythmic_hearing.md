@@ -19,9 +19,9 @@ tags:
   - free_verse
   - deliberate_practice
 cross_links:
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_poetry_scan_and_vary_meter_deliberately
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_poetry_keep_free_verse_rhythmically_accountable
 reference:
   source_title: "Creative Writing: Four Genres in Brief"

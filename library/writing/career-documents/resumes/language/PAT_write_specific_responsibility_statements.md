@@ -18,9 +18,7 @@ tags:
   - responsibilities
   - action_verbs
   - specificity
-cross_links:
-  - rel: supports
-    target_object_id: writing_scale_work_history_detail_by_role_relevance
+cross_links: []
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"
   author: Amanda McCarthy and Kate Southam

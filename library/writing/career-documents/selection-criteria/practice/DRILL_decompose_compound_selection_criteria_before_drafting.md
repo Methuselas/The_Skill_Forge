@@ -20,9 +20,9 @@ tags:
   - requirements_analysis
   - practice
 cross_links:
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_decode_selection_criteria_into_evidence_obligations
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_answer_each_selection_criterion_as_a_standalone_evidence_case
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"

@@ -19,9 +19,9 @@ tags:
   - sensory_detail
   - deliberate_practice
 cross_links:
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_collect_fragments_before_demanding_complete_draft
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_replace_abstractions_with_specific_sensory_images
 reference:
   source_title: "Creative Writing: A Workbook with Readings"

@@ -19,7 +19,7 @@ tags:
   - professional_identity
   - job_applications
 cross_links:
-  - rel: supports
+  - rel: related_to
     target_object_id: writing_target_application_materials_to_employer_criteria
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"

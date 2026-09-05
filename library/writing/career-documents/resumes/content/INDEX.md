@@ -2,6 +2,16 @@
 
 # Writing / Career Documents / Resumes / Content
 
+## Reading order
+
+_Read a foundation before the skills that build on it (`prerequisite_for`)._
+
+- **Open a Resume with Employer-Relevant Evidence** — read first
+  - then: Show Current Readiness After an Extended Career Break
+- **Scale Work-History Detail by Role Relevance** — read first
+  - then: Preserve Employer Continuity Through Name Changes
+  - then: Write Specific Responsibility Statements
+
 ## Objects
 
 - [Account for Career Interruptions Without Distorting Dates](PAT_account_for_career_interruptions_without_distorting_dates.md) - pattern; 2 block. Tags: career_breaks, chronology, integrity, resume_writing, unpaid_experience.

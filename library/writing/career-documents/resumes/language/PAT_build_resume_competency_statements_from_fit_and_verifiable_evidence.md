@@ -20,8 +20,6 @@ tags:
   - graduates
   - evidence
 cross_links:
-  - rel: supports
-    target_object_id: writing_target_application_materials_to_employer_criteria
   - rel: related_to
     target_object_id: writing_open_resume_with_employer_relevant_evidence
 reference:

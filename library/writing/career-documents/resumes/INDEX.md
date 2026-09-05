@@ -2,6 +2,18 @@
 
 # Writing / Career Documents / Resumes
 
+## Reading order
+
+_Read a foundation before the skills that build on it (`prerequisite_for`)._
+
+- **Choose Resume Format by Evidence Visibility** — read first
+  - then: Account for Career Interruptions Without Distorting Dates
+- **Open a Resume with Employer-Relevant Evidence** — read first
+  - then: Show Current Readiness After an Extended Career Break
+- **Scale Work-History Detail by Role Relevance** — read first
+  - then: Preserve Employer Continuity Through Name Changes
+  - then: Write Specific Responsibility Statements
+
 ## Topics
 
 - [Content](content/INDEX.md) - 10 object(s).

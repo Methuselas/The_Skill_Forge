@@ -19,8 +19,10 @@ tags:
   - relevance
   - chronology
 cross_links:
-  - rel: supports
-    target_object_id: writing_target_application_materials_to_employer_criteria
+  - rel: prerequisite_for
+    target_object_id: writing_preserve_employer_continuity_through_name_changes
+  - rel: prerequisite_for
+    target_object_id: writing_write_specific_responsibility_statements
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"
   author: Amanda McCarthy and Kate Southam

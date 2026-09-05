@@ -18,9 +18,7 @@ tags:
   - referees
   - references
   - job_applications
-cross_links:
-  - rel: supports
-    target_object_id: writing_build_career_evidence_inventory_before_drafting
+cross_links: []
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"
   author: Amanda McCarthy and Kate Southam

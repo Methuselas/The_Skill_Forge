@@ -18,7 +18,21 @@ tags:
   - job_applications
   - audience
   - employer_criteria
-cross_links: []
+cross_links:
+  - rel: prerequisite_for
+    target_object_id: writing_include_optional_resume_sections_only_as_evidence
+  - rel: prerequisite_for
+    target_object_id: writing_open_resume_with_employer_relevant_evidence
+  - rel: prerequisite_for
+    target_object_id: writing_present_education_and_training_by_hiring_relevance
+  - rel: prerequisite_for
+    target_object_id: writing_scale_work_history_detail_by_role_relevance
+  - rel: prerequisite_for
+    target_object_id: writing_choose_resume_format_by_evidence_visibility
+  - rel: prerequisite_for
+    target_object_id: writing_build_resume_competency_statements_from_fit_and_verifiable_evidence
+  - rel: prerequisite_for
+    target_object_id: writing_use_recognizable_job_language_for_resume_discovery
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"
   author: Amanda McCarthy and Kate Southam

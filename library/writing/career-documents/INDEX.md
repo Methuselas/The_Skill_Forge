@@ -7,7 +7,23 @@
 _Read a foundation before the skills that build on it (`prerequisite_for`)._
 
 - **Build a Career-Evidence Inventory Before Drafting** — read first
+  - then: Prepare Referees Before Submission
   - then: Target Application Materials to Employer Criteria
+- **Choose Resume Format by Evidence Visibility** — read first
+  - then: Account for Career Interruptions Without Distorting Dates
+- **Open a Resume with Employer-Relevant Evidence** — read first
+  - then: Show Current Readiness After an Extended Career Break
+- **Scale Work-History Detail by Role Relevance** — read first
+  - then: Preserve Employer Continuity Through Name Changes
+  - then: Write Specific Responsibility Statements
+- **Target Application Materials to Employer Criteria** — read first
+  - then: Build Resume Competency Statements from Fit and Verifiable Evidence
+  - then: Choose Resume Format by Evidence Visibility
+  - then: Include Optional Resume Sections Only as Evidence
+  - then: Open a Resume with Employer-Relevant Evidence
+  - then: Present Education and Training by Hiring Relevance
+  - then: Scale Work-History Detail by Role Relevance
+  - then: Use Recognizable Job Language for Resume Discovery
 
 ## Topics
 

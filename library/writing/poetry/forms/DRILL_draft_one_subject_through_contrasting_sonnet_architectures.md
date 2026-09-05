@@ -11,7 +11,7 @@ specialization_axis: genre
 foundation_object_id: none
 tags: [poetry, sonnet, volta, structure, deliberate_practice]
 cross_links:
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_poetry_learn_form_before_varying_its_rules
   - rel: teaches
     target_object_id: writing_poetry_turn_sonnet_before_closure

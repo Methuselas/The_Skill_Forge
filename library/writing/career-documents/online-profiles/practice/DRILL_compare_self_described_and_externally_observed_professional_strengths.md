@@ -20,7 +20,7 @@ tags:
   - self_assessment
   - deliberate_practice
 cross_links:
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_ground_professional_reputation_in_role_relevant_evidence
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"

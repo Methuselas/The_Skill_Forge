@@ -21,9 +21,9 @@ tags:
   - employability
   - evidence_mapping
 cross_links:
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_target_application_materials_to_employer_criteria
-  - rel: supports
+  - rel: teaches
     target_object_id: writing_open_resume_with_employer_relevant_evidence
 reference:
   source_title: "Writing Resumes & Cover Letters For Dummies, 2nd Australian and New Zealand Edition"

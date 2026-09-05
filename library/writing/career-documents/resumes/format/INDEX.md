@@ -2,6 +2,13 @@
 
 # Writing / Career Documents / Resumes / Format
 
+## Reading order
+
+_Read a foundation before the skills that build on it (`prerequisite_for`)._
+
+- **Choose Resume Format by Evidence Visibility** — read first
+  - then: Account for Career Interruptions Without Distorting Dates
+
 ## Objects
 
 - [Choose Resume Format by Evidence Visibility](PAT_choose_resume_format_by_evidence_visibility.md) - pattern; 1 skeleton. Tags: chronology, recruiter_reading, resume_format, resume_writing, transferable_skills.
