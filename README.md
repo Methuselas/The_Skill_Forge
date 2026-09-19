@@ -25,3 +25,7 @@ skillset in context at once.
 
 Do not edit generated releases here. Change cards, recipes, or tooling in PASS,
 rebuild the release, run the release check, and replace the corresponding ZIP.
+
+## Model Tools
+
+- [Bionic Memory](releases/models/bionic/) — Persistent cross-session memory for AI agents. Local Markdown files, Python CLI, works with any Agent Skills–compatible host.
