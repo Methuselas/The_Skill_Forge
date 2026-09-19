@@ -7,14 +7,14 @@ Visual-art craft knowledge for drawing, painting, comics and illustration work: 
 | | |
 |---|---|
 | Skill name | `skillforge-art` |
-| Built from | PASS `1.0.0-beta.49` |
+| Built from | PASS `1.0.0-beta.60` |
 | Domain cards | 415 Patterns, 60 Action Protocols, 119 Drills |
 | Modules | `art/color`, `art/comics`, `art/comics/covers`, `art/comics/inking`, `art/comics/page-construction`, `art/composition`, `art/drawing/rendering`, `art/drawing/sketching`, `art/foundations/form-construction`, `art/foundations/gesture-force`, `art/foundations/ideation`, `art/foundations/mark-making`, `art/foundations/observation`, `art/foundations/temporal-movement`, `art/foundations/visual-centerline`, `art/layout`, `art/painting`, `art/perspective`, `art/process`, `art/process/staged-drawing`, `art/publication-design`, `art/rendering`, `art/storyboarding`, `art/subjects/animals`, `art/subjects/animals/gesture-locomotion`, `art/subjects/animation`, `art/subjects/figure`, `art/subjects/figure/anatomy`, `art/subjects/figure/construction`, `art/subjects/figure/gesture`, `art/subjects/figure/hands`, `art/subjects/figure/heads` |
 | Also bundled | the `metaskills` baseline every release carries |
 | Skillset Memory | `memory/art/` (read-only) |
 | Helpers | `scripts/skillforge_runtime.py`, `scripts/skillforge_drill.py` (blind Drills) |
-| ZIP | `SkillForge-Art.zip`, 9,310,904 bytes |
-| SHA-256 | `9a76ee788ae302be22f1e1d3d7d668100335fa1f3b8b455a810f43876824bb64` |
+| ZIP | `SkillForge-Art.zip`, 9,323,867 bytes |
+| SHA-256 | `6119d9bb94bae034eb7664b67e57b0dc90dd311f54bc8094e97cc938800ce017` |
 
 ## What it covers
 

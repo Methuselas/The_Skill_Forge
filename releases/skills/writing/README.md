@@ -7,14 +7,14 @@ Craft knowledge for fiction, poetry, creative nonfiction and life writing, colle
 | | |
 |---|---|
 | Skill name | `skillforge-writing` |
-| Built from | PASS `1.0.0-beta.49` |
+| Built from | PASS `1.0.0-beta.60` |
 | Domain cards | 195 Patterns, 31 Action Protocols, 92 Drills |
 | Modules | `writing/adventure-modules`, `writing/career-documents`, `writing/college-admission-essays`, `writing/creative-nonfiction`, `writing/fiction`, `writing/foundations`, `writing/poetry` |
 | Also bundled | the `metaskills` baseline every release carries |
 | Skillset Memory | `memory/writing/` (read-only) |
 | Helpers | `scripts/skillforge_runtime.py`, `scripts/skillforge_drill.py` (blind Drills) |
-| ZIP | `SkillForge-Writing.zip`, 985,506 bytes |
-| SHA-256 | `448ce4d7dccccea74422555dd9b9778e453fc89a8882483778f550cb1772941b` |
+| ZIP | `SkillForge-Writing.zip`, 993,642 bytes |
+| SHA-256 | `16c0bfeaedd8ee3729ae66bebd9c730a69784697d6bc84b55712e4444e5da248` |
 
 ## What it covers
 
