@@ -5,10 +5,10 @@ validated in [PASS](https://github.com/Methuselas/PASS).
 
 ## Releases
 
-- [SkillForge Art](releases/SkillForge-Art.zip)
-- [SkillForge Game Design](releases/SkillForge-Game-Design.zip)
-- [SkillForge Software Engineering](releases/SkillForge-Software-Engineering.zip)
-- [SkillForge Writing](releases/SkillForge-Writing.zip)
+- [SkillForge Art](releases/skills/SkillForge-Art.zip)
+- [SkillForge Game Design](releases/skills/SkillForge-Game-Design.zip)
+- [SkillForge Software Engineering](releases/skills/SkillForge-Software-Engineering.zip)
+- [SkillForge Writing](releases/skills/SkillForge-Writing.zip)
 
 Each ZIP is a self-contained Agent Skills-compatible release with a compact
 `SKILL.md`, its complete domain knowledge, the mandatory `metaskills` baseline,
