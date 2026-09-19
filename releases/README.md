@@ -1,19 +1,28 @@
 # SkillForge Releases
 
-Each release records the PASS factory version it was built from as
-`pass_version`; these skillsets do not yet carry independent product versions.
-Each release passed the PASS version-contract, schema, reference, asset,
-portability, memory, and release-integrity checks before its ZIP was written.
+Every release has its own folder with its ZIP and a README describing what it
+contains, how to install it, and how to verify it. The ZIPs are generated
+products: change them in [PASS](https://github.com/Methuselas/PASS), rebuild,
+verify, and replace the ZIP here rather than editing an extracted release.
 
-| Release | PASS build | Size | SHA-256 |
-|---|---|---:|---|
-| [SkillForge Art](SkillForge-Art.zip) | `1.0.0-beta.6`, [`60b60ae`](https://github.com/Methuselas/PASS/commit/60b60ae), 2026-09-11 | 25,072,603 bytes | `4481447147ec96ef0a81140bcdb5f7c927b34bb3103c8620cec0fc5ff93a7c32` |
-| [SkillForge Game Design](SkillForge-Game-Design.zip) | `1.0.0-beta.6`, [`60b60ae`](https://github.com/Methuselas/PASS/commit/60b60ae), 2026-09-11 | 570,040 bytes | `86524da0931e6ccdce1ded75cf68df448fab3618b1cadca37ff340bf1209876` |
-| [SkillForge Software Engineering](SkillForge-Software-Engineering.zip) | `1.0.0-beta.19`, [`6bee6b3`](https://github.com/Methuselas/PASS/commit/6bee6b3), 2026-09-13 | 1,965,536 bytes | `e29d6e53d8d1831aed0aca5ac87a29648d8a875959a73dcda95b22cc449046ed` |
-| [SkillForge Writing](SkillForge-Writing.zip) | `1.0.0-beta.6`, [`60b60ae`](https://github.com/Methuselas/PASS/commit/60b60ae), 2026-09-11 | 986,269 bytes | `4005eb0333c7d56bc0ec2e96406def3fe6337ca572712b57aba5107bf6b749d9` |
+## Skills
 
-Install or upload a ZIP as one skill. To inspect it manually, extract it and
-begin with the root `SKILL.md` inside the archive.
+Built and validated in PASS. Each one records the PASS version it was built from
+as `pass_version` and passed the version-contract, schema, reference, asset,
+portability, memory and release-integrity checks before its ZIP was written.
 
-These files are generated products. Make changes in PASS, rebuild, verify, and
-replace the corresponding ZIP rather than editing an extracted release here.
+| Skill | What it is for | PASS build | Size (bytes) | SHA-256 |
+|---|---|---|---:|---|
+| [Agent Kit](skills/agent-kit/) | Coordinating several AI agents in one project | `1.0.0-beta.59` | 79,983 | `c4c6729aee5848c59134fa28940d6115cc94bba43c8c71b03a3bf7cff31c74bd` |
+| [Art](skills/art/) | Drawing, painting, comics and illustration craft | `1.0.0-beta.49` | 9,310,904 | `9a76ee788ae302be22f1e1d3d7d668100335fa1f3b8b455a810f43876824bb64` |
+| [Game Design](skills/game-design/) | Mechanics, characters, adversaries, adventures, worlds | `1.0.0-beta.49` | 572,519 | `7001ca5646e6000def047a0f7e38e4b25be4105018fec998f91ed06ad1c99870` |
+| [Software Engineering](skills/software-engineering/) | Design, implementation, review, testing, C++ | `1.0.0-beta.49` | 2,092,842 | `868f713c90546d509d758df736687d288717d9ed638b2730d307ad1490589a03` |
+| [Writing](skills/writing/) | Fiction, poetry, nonfiction, essays, career documents | `1.0.0-beta.49` | 985,506 | `448ce4d7dccccea74422555dd9b9778e453fc89a8882483778f550cb1772941b` |
+
+## Model tools
+
+Not built by PASS; each carries its own version.
+
+| Tool | What it is for | Version | Size (bytes) | SHA-256 |
+|---|---|---|---:|---|
+| [Bionic Memory](models/bionic/) | Persistent cross-session memory for AI agents | v2 | 5,732 | `0c954bbfc27b53bdb9af1e7954b03152e30cd0529b3247cbc5ca4a1176d51519` |

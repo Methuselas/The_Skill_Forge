@@ -5,10 +5,20 @@ validated in [PASS](https://github.com/Methuselas/PASS).
 
 ## Releases
 
-- [SkillForge Art](releases/skills/SkillForge-Art.zip)
-- [SkillForge Game Design](releases/skills/SkillForge-Game-Design.zip)
-- [SkillForge Software Engineering](releases/skills/SkillForge-Software-Engineering.zip)
-- [SkillForge Writing](releases/skills/SkillForge-Writing.zip)
+Each release has its own folder with its ZIP and a README. Sizes, hashes and
+build versions are in [`releases/README.md`](releases/README.md).
+
+- [SkillForge Agent Kit](releases/skills/agent-kit/) — coordinates several AI
+  agents in one project: claims, file and resource scopes, reviews, evidence.
+  Ships a standard-library runtime; its state lives in the project.
+- [SkillForge Art](releases/skills/art/) — drawing, painting, comics and
+  illustration craft.
+- [SkillForge Game Design](releases/skills/game-design/) — mechanics, characters,
+  adversaries, adventures and playable worlds.
+- [SkillForge Software Engineering](releases/skills/software-engineering/) —
+  design, implementation, review, testing and C++.
+- [SkillForge Writing](releases/skills/writing/) — fiction, poetry, nonfiction,
+  admission essays and career documents.
 
 Each ZIP is a self-contained Agent Skills-compatible release with a compact
 `SKILL.md`, its complete domain knowledge, the mandatory `metaskills` baseline,
@@ -28,4 +38,6 @@ rebuild the release, run the release check, and replace the corresponding ZIP.
 
 ## Model Tools
 
-- [Bionic Memory](releases/models/bionic/) — Persistent cross-session memory for AI agents. Local Markdown files, Python CLI, works with any Agent Skills–compatible host.
+- [Bionic Memory](releases/models/bionic/) — persistent cross-session memory for
+  AI agents. Local Markdown files, Python CLI, works with any Agent Skills–compatible
+  host. Not built by PASS; it carries its own version.
