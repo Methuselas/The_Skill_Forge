@@ -16,7 +16,8 @@ build versions are in [`releases/README.md`](releases/README.md).
 - [SkillForge Game Design](releases/skills/game-design/) — mechanics, characters,
   adversaries, adventures and playable worlds.
 - [SkillForge Software Engineering](releases/skills/software-engineering/) —
-  design, implementation, review, testing, C++ and Unreal Engine editor tooling.
+  design, implementation, review, testing, C++, Unreal Engine editor tooling
+  and Blueprints visual scripting.
 - [SkillForge Writing](releases/skills/writing/) — fiction, poetry, nonfiction,
   admission essays and career documents.
 

@@ -7,20 +7,21 @@ Engineering judgment for design, implementation, review, refactoring and testing
 | | |
 |---|---|
 | Skill name | `skillforge-software-engineering` |
-| Built from | PASS `1.0.0-beta.60` |
-| Domain cards | 570 Patterns, 39 Action Protocols, 78 Drills |
+| Built from | PASS `1.0.0-beta.73` |
+| Domain cards | 706 Patterns, 40 Action Protocols, 78 Drills |
 | Modules | `software-engineering/core`, `software-engineering/languages/cpp`, `software-engineering/unreal-engine` |
 | Also bundled | the `metaskills` baseline every release carries |
 | Skillset Memory | `memory/software-engineering/` (read-only) |
 | Helpers | `scripts/skillforge_runtime.py`, `scripts/skillforge_drill.py` (blind Drills), `scripts/skillforge_code_study.py` (Code Apprenticeship) |
-| ZIP | `SkillForge-Software-Engineering.zip`, 2,156,551 bytes |
-| SHA-256 | `6e4bfb3ca1d2c450d7f2efed532e95e02884bd3998a062018e677214b01439c5` |
+| ZIP | `SkillForge-Software-Engineering.zip`, 2,367,141 bytes |
+| SHA-256 | `3855bc84e6dd7641dfcf0e5e2ea58ba2079e0160008dc40375472939babb545f` |
 
 ## What it covers
 
 - Contracts, error handling, readability, modularity, testing, concurrency and maintainability (core).
 - Modern C++ practice (languages/cpp).
 - Unreal Engine editor tooling: modules, modes, command routing, selections, transactions, menus and verified asset edits (unreal-engine).
+- Unreal Blueprints visual scripting: components, flow control, data structures, traces, animation state machines, behaviour-tree AI, UI, saving and packaging (unreal-engine/blueprints).
 - Blind Drill administration and Code Apprenticeship study of real code.
 
 ## Install

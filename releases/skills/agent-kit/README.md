@@ -7,13 +7,13 @@ Keeps several AI agents (Claude, Codex, local models, or several sessions of one
 | | |
 |---|---|
 | Skill name | `skillforge-agent-kit` |
-| Built from | PASS `1.0.0-beta.60` |
+| Built from | PASS `1.0.0-beta.73` |
 | Domain cards | 0 Patterns, 0 Action Protocols, 0 Drills |
 | Modules | `agent-kit/coordination` |
 | Also bundled | the `metaskills` baseline every release carries |
 | Helpers | `scripts/skillforge_runtime.py`, `library/agent-kit/coordination/runtime/agentkit.py` |
-| ZIP | `SkillForge-Agent-Kit.zip`, 80,615 bytes |
-| SHA-256 | `114f290318a75edfa512245672275dcc5541a696a1933bca8b5e7ffd3a14d0f0` |
+| ZIP | `SkillForge-Agent-Kit.zip`, 92,237 bytes |
+| SHA-256 | `db69ba7870666bcae49ef70cc25d84b331c4af1f01ca5bb6dc2ae5afa5ba71dc` |
 
 ## What it covers
 
