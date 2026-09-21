@@ -13,11 +13,11 @@ portability, memory and release-integrity checks before its ZIP was written.
 
 | Skill | What it is for | PASS build | Size (bytes) | SHA-256 |
 |---|---|---|---:|---|
-| [Agent Kit](skills/agent-kit/) | Coordinating several AI agents in one project | `1.0.0-beta.73` | 92,237 | `db69ba7870666bcae49ef70cc25d84b331c4af1f01ca5bb6dc2ae5afa5ba71dc` |
-| [Art](skills/art/) | Drawing, painting, comics and illustration craft | `1.0.0-beta.73` | 9,307,715 | `cc5fc74eb606aaffc41a43977196ab49bfe3e515b045ed1b3963bb39af4a821b` |
-| [Game Design](skills/game-design/) | Mechanics, characters, adversaries, adventures, worlds | `1.0.0-beta.73` | 579,949 | `dc8345563e051498ffcef15219f8339f16deb6d11cf905f4ea32cfc3e7753d62` |
-| [Software Engineering](skills/software-engineering/) | Design, implementation, review, testing, C++, Unreal | `1.0.0-beta.73` | 2,367,141 | `3855bc84e6dd7641dfcf0e5e2ea58ba2079e0160008dc40375472939babb545f` |
-| [Writing](skills/writing/) | Fiction, poetry, nonfiction, essays, career documents | `1.0.0-beta.73` | 989,221 | `131732df024abe36442aff80fce82d264d1962f62307c53f659dc6e2009c5d04` |
+| [Agent Kit](skills/agent-kit/) | Coordinating several AI agents in one project | `1.0.0-beta.75` | 92,235 | `ef217f474477fca494432d49e15c43079384457ef377c6d337098cfc7f155e6e` |
+| [Art](skills/art/) | Drawing, painting, comics and illustration craft | `1.0.0-beta.75` | 9,307,715 | `24a0aa0cd941dfff1af82262e46875cd5e1f69bfa312cd56a72690daa55fd1c1` |
+| [Game Design](skills/game-design/) | Mechanics, characters, adversaries, adventures, worlds | `1.0.0-beta.75` | 579,950 | `caeaafd3e3da92821e03a251cf8362f48f4c195e86e420d162267c578ee3b18e` |
+| [Software Engineering](skills/software-engineering/) | Design, implementation, review, testing, C++, Unreal | `1.0.0-beta.75` | 2,365,273 | `ce4265668f59a4ecf7e7759823484acb05464a759c2cb44f6312defe545c29e5` |
+| [Writing](skills/writing/) | Fiction, poetry, nonfiction, essays, career documents | `1.0.0-beta.75` | 989,222 | `f1f99d520dc0296bdac398fd8b151ee65ee8a94ce1eede4cf3c01e19e01a3198` |
 
 ## Model tools
 
