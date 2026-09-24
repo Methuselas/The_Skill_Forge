@@ -7,14 +7,14 @@ Craft knowledge for designing and revising games: mechanics, characters, adversa
 | | |
 |---|---|
 | Skill name | `skillforge-game-design` |
-| Built from | PASS `1.0.0-beta.75` |
+| Built from | PASS `1.0.0-beta.84` |
 | Domain cards | 158 Patterns, 9 Action Protocols, 14 Drills |
 | Modules | `game-design/adventures`, `game-design/adversaries`, `game-design/characters`, `game-design/foundations`, `game-design/mechanics`, `game-design/worldbuilding` |
 | Also bundled | the `metaskills` baseline every release carries |
 | Skillset Memory | `memory/game-design/` (read-only) |
 | Helpers | `scripts/skillforge_runtime.py`, `scripts/skillforge_drill.py` (blind Drills) |
-| ZIP | `SkillForge-Game-Design.zip`, 579,950 bytes |
-| SHA-256 | `caeaafd3e3da92821e03a251cf8362f48f4c195e86e420d162267c578ee3b18e` |
+| ZIP | `SkillForge-Game-Design.zip`, 584,945 bytes |
+| SHA-256 | `508cd83979cb39c487546733f7cdaf9345a6ba6d15745efc7c840ea8015fc1da` |
 
 ## What it covers
 
