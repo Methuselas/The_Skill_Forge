@@ -1,24 +1,25 @@
 # SkillForge Software Engineering
 
-Engineering judgment for design, implementation, review, refactoring and testing, written language-agnostically in `core` with C++ and Unreal Engine modules on top. Includes the Code Apprenticeship runner for studying real human-written code.
+Engineering judgment for design, implementation, review, refactoring and testing, written language-agnostically in `core` with AI and agent systems, C++, and Unreal Engine modules on top. Includes the Code Apprenticeship runner for studying real human-written code.
 
 [Download SkillForge-Software-Engineering.zip](SkillForge-Software-Engineering.zip)
 
 | | |
 |---|---|
 | Skill name | `skillforge-software-engineering` |
-| Built from | PASS `1.0.0-beta.84` |
-| Domain cards | 800 Patterns, 52 Action Protocols, 95 Drills |
-| Modules | `software-engineering/core`, `software-engineering/languages/cpp`, `software-engineering/unreal-engine` |
+| Built from | PASS `1.0.0-beta.101` |
+| Domain cards | 866 Patterns, 61 Action Protocols, 96 Drills |
+| Modules | `software-engineering/core`, `software-engineering/ai-systems`, `software-engineering/languages/cpp`, `software-engineering/unreal-engine` |
 | Also bundled | the `metaskills` baseline every release carries |
 | Skillset Memory | `memory/software-engineering/` (read-only) |
 | Helpers | `scripts/skillforge_runtime.py`, `scripts/skillforge_drill.py` (blind Drills), `scripts/skillforge_code_study.py` (Code Apprenticeship) |
-| ZIP | `SkillForge-Software-Engineering.zip`, 2,603,294 bytes |
-| SHA-256 | `5f50db4437aa05d633e84ba37f98dcb42a82d000e17a796e0b4e54b2ba5dda34` |
+| ZIP | `SkillForge-Software-Engineering.zip`, 2,753,070 bytes |
+| SHA-256 | `e484e75a8c6a11bf8944673e4d0a80d12923251fad28f1a4dd1d7fca95be4b7b` |
 
 ## What it covers
 
 - Contracts, error handling, readability, modularity, testing, concurrency and maintainability (core).
+- AI and agent systems: context engineering, orchestration, evaluation, inference operations, observability, security and tool use (ai-systems).
 - Modern C++ practice (languages/cpp).
 - Unreal Engine editor tooling: modules, modes, command routing, selections, transactions, menus and verified asset edits (unreal-engine).
 - Unreal Blueprints visual scripting: components, flow control, data structures, traces, animation state machines, behaviour-tree AI, UI, saving and packaging (unreal-engine/blueprints).
@@ -37,7 +38,7 @@ folder whole: its library, helpers and license files belong together.
 
 ## Use
 
-Ask for design, implementation, review, refactoring, testing, C++ or Unreal editor help; the skill routes to the few cards the task needs.
+Ask for design, implementation, review, refactoring, testing, AI and agent systems, C++ or Unreal editor help; the skill routes to the few cards the task needs.
 
 Nothing needs preloading: the skill starts from `SKILL.md` and retrieves only the
 cards a task needs. Python is optional except where a helper above is used.
