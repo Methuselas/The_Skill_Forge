@@ -1,20 +1,20 @@
 # SkillForge Software Engineering
 
-Engineering judgment for design, implementation, review, refactoring and testing, written language-agnostically in `core` with AI and agent systems, C++, Rust, and Unreal Engine modules on top. Includes the Code Apprenticeship runner for studying real human-written code.
+Engineering judgment for design, implementation, review, refactoring and testing, written language-agnostically in `core` with AI and agent systems, C++, Rust, Python, and Unreal Engine modules on top. Includes the Code Apprenticeship runner for studying real human-written code.
 
 [Download SkillForge-Software-Engineering.zip](SkillForge-Software-Engineering.zip)
 
 | | |
 |---|---|
 | Skill name | `skillforge-software-engineering` |
-| Built from | PASS `1.0.0-beta.102` |
-| Domain cards | 944 Patterns, 67 Action Protocols, 102 Drills |
-| Modules | `software-engineering/core`, `software-engineering/ai-systems`, `software-engineering/languages/cpp`, `software-engineering/languages/rust`, `software-engineering/unreal-engine` |
+| Built from | PASS `1.0.0-beta.104` |
+| Domain cards | 1075 Patterns, 72 Action Protocols, 102 Drills |
+| Modules | `software-engineering/core`, `software-engineering/ai-systems`, `software-engineering/languages/cpp`, `software-engineering/languages/rust`, `software-engineering/languages/python`, `software-engineering/unreal-engine` |
 | Also bundled | the `metaskills` baseline every release carries |
 | Skillset Memory | `memory/software-engineering/` (read-only) |
 | Helpers | `scripts/skillforge_runtime.py`, `scripts/skillforge_drill.py` (blind Drills), `scripts/skillforge_code_study.py` (Code Apprenticeship) |
-| ZIP | `SkillForge-Software-Engineering.zip`, 2,934,853 bytes |
-| SHA-256 | `f67bdcb3844db3587bba5fa54a7427144f3550f920c42df21fce5a40688d435d` |
+| ZIP | `SkillForge-Software-Engineering.zip`, 3,232,615 bytes |
+| SHA-256 | `5dc5a645b954a6b9e48300578efd4f8f710fe35e95aee278bf8f654ca490a1b3` |
 
 ## What it covers
 
@@ -22,6 +22,7 @@ Engineering judgment for design, implementation, review, refactoring and testing
 - AI and agent systems: context engineering, orchestration, evaluation, inference operations, observability, security and tool use (ai-systems).
 - Modern C++ practice (languages/cpp).
 - Modern Rust practice (languages/rust).
+- Modern Python practice: syntax, control flow, classes, collections, exceptions, decorators, files, imports, debugging and performance (languages/python).
 - Unreal Engine editor tooling: modules, modes, command routing, selections, transactions, menus and verified asset edits (unreal-engine).
 - Unreal Blueprints visual scripting: components, flow control, data structures, traces, animation state machines, behaviour-tree AI, UI, saving and packaging (unreal-engine/blueprints).
 - Blind Drill administration and Code Apprenticeship study of real code.
@@ -39,7 +40,7 @@ folder whole: its library, helpers and license files belong together.
 
 ## Use
 
-Ask for design, implementation, review, refactoring, testing, AI and agent systems, C++, Rust or Unreal editor help; the skill routes to the few cards the task needs.
+Ask for design, implementation, review, refactoring, testing, AI and agent systems, C++, Rust, Python or Unreal editor help; the skill routes to the few cards the task needs.
 
 Nothing needs preloading: the skill starts from `SKILL.md` and retrieves only the
 cards a task needs. Python is optional except where a helper above is used.
