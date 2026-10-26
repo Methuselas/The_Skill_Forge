@@ -16,7 +16,7 @@ portability, memory and release-integrity checks before its ZIP was written.
 | [Agent Kit](skills/agent-kit/) | Coordinating several AI agents in one project | `1.0.0-beta.101` | 92,102 | `0ed52ed7f217ec302d57eab8f82eb6d40d2896d0f66e658660d6bd44614faee8` |
 | [Art](skills/art/) | Drawing, painting, comics and illustration craft | `1.0.0-beta.101` | 9,317,295 | `523db9af42cd75d0ff8f1b4a45eb137794d96f6298e67cb62a61f1e97d445b86` |
 | [Game Design](skills/game-design/) | Mechanics, characters, adversaries, adventures, worlds | `1.0.0-beta.101` | 582,842 | `6e12432849626392983571efe43bb5349c881e42403c17bbd985c87e1a4a3c89` |
-| [Software Engineering](skills/software-engineering/) | Design, implementation, review, testing, AI systems, C++, Rust, Unreal | `1.0.0-beta.102` | 2,934,853 | `f67bdcb3844db3587bba5fa54a7427144f3550f920c42df21fce5a40688d435d` |
+| [Software Engineering](skills/software-engineering/) | Design, implementation, review, testing, AI systems, C++, Rust, Unreal | `1.0.0-beta.141` | 3,226,614 | `2548973d15ac5bfc807ae24f0fb3b3e26f5f7d81ce18469b91187bac238b838a` |
 | [Writing](skills/writing/) | Fiction, poetry, nonfiction, essays, career documents | `1.0.0-beta.101` | 995,586 | `dbd548477a784127312938e878b3adb05e2ce62531b4adca32a79375263cac19` |
 
 ## Model tools
