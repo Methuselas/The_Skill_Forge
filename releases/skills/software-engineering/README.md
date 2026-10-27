@@ -7,14 +7,14 @@ Engineering judgment for design, implementation, review, refactoring and testing
 | | |
 |---|---|
 | Skill name | `skillforge-software-engineering` |
-| Built from | PASS `1.0.0-beta.141` |
-| Domain cards | 1111 Patterns, 72 Action Protocols, 104 Drills |
+| Built from | PASS `1.0.0-beta.144` |
+| Domain cards | 1133 Patterns, 73 Action Protocols, 104 Drills |
 | Modules | `software-engineering/core`, `software-engineering/ai-systems`, `software-engineering/languages/cpp`, `software-engineering/languages/rust`, `software-engineering/languages/python`, `software-engineering/unreal-engine` |
 | Also bundled | the `metaskills` baseline every release carries |
 | Skillset Memory | `memory/software-engineering/` (read-only) |
 | Helpers | `scripts/skillforge_runtime.py`, `scripts/skillforge_drill.py` (blind Drills), `scripts/skillforge_code_study.py` (Code Apprenticeship) |
-| ZIP | `SkillForge-Software-Engineering.zip`, 3,226,614 bytes |
-| SHA-256 | `2548973d15ac5bfc807ae24f0fb3b3e26f5f7d81ce18469b91187bac238b838a` |
+| ZIP | `SkillForge-Software-Engineering.zip`, 3,303,499 bytes |
+| SHA-256 | `8fec0e8b0cb5154da3f0ddcfe478de8c0ff3c650f08fed8f68bd50b77c2b88a0` |
 
 ## What it covers
 

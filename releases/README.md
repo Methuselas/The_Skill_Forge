@@ -13,11 +13,11 @@ portability, memory and release-integrity checks before its ZIP was written.
 
 | Skill | What it is for | PASS build | Size (bytes) | SHA-256 |
 |---|---|---|---:|---|
-| [Agent Kit](skills/agent-kit/) | Coordinating several AI agents in one project | `1.0.0-beta.101` | 92,102 | `0ed52ed7f217ec302d57eab8f82eb6d40d2896d0f66e658660d6bd44614faee8` |
-| [Art](skills/art/) | Drawing, painting, comics and illustration craft | `1.0.0-beta.101` | 9,317,295 | `523db9af42cd75d0ff8f1b4a45eb137794d96f6298e67cb62a61f1e97d445b86` |
-| [Game Design](skills/game-design/) | Mechanics, characters, adversaries, adventures, worlds | `1.0.0-beta.101` | 582,842 | `6e12432849626392983571efe43bb5349c881e42403c17bbd985c87e1a4a3c89` |
-| [Software Engineering](skills/software-engineering/) | Design, implementation, review, testing, AI systems, C++, Rust, Unreal | `1.0.0-beta.141` | 3,226,614 | `2548973d15ac5bfc807ae24f0fb3b3e26f5f7d81ce18469b91187bac238b838a` |
-| [Writing](skills/writing/) | Fiction, poetry, nonfiction, essays, career documents | `1.0.0-beta.101` | 995,586 | `dbd548477a784127312938e878b3adb05e2ce62531b4adca32a79375263cac19` |
+| [Agent Kit](skills/agent-kit/) | Coordinating several AI agents in one project | `1.0.0-beta.144` | 92,966 | `cd6303bba5b0fc5e6eed41216e7f8fc228c4b69fc2f3f6abca85bb0118022c9f` |
+| [Art](skills/art/) | Drawing, painting, comics and illustration craft | `1.0.0-beta.144` | 9,304,235 | `a9f620da6f69c91af7df8c48015fe8a5b34acba08e66a1cba811146dae1e9b77` |
+| [Game Design](skills/game-design/) | Mechanics, characters, adversaries, adventures, worlds | `1.0.0-beta.144` | 556,892 | `08b555303c8e4aea93545232f36778d629b7765741fbe909f289798b0ee360c8` |
+| [Software Engineering](skills/software-engineering/) | Design, implementation, review, testing, AI systems, C++, Rust, Unreal | `1.0.0-beta.144` | 3,303,499 | `8fec0e8b0cb5154da3f0ddcfe478de8c0ff3c650f08fed8f68bd50b77c2b88a0` |
+| [Writing](skills/writing/) | Fiction, poetry, nonfiction, essays, career documents | `1.0.0-beta.144` | 960,891 | `22dd6aefd7254303ba0fb44b1d5ba0ead6b6b3001e8ae53fc8178e14e714c5d2` |
 
 ## Model tools
 
